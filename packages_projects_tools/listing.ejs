@@ -1,0 +1,81 @@
+```{=html}
+<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
+
+    <% for (const item of items) { %>
+      <div class="custom-grid-card border-2 rounded-3" <%= metadataAttrs(item) %>>
+            <div class="main-card-content">
+            <% if(item['image']) { %>
+            <a href="<%- item.path %>">
+              <img class="card-img" src="<%- item.image %>" alt="<%- item.title %>" class="card-img-top"/>
+            </a>
+            <% } %>
+
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title"><%= item['title'] %></h5>
+            </div>
+
+            <% if(item['status']) { %>
+            <div class="project-status-active">
+              <%- item['status'] %>
+            </div> <% } else { %>
+              <div class="project-status-complete">
+                Complete
+              </div>
+            <% } %>
+
+            <% if (item['pub-info'] && item['pub-info'].abstract) { %>
+              <p class="listing-abstract"><%= item['pub-info'].abstract %></p>
+                <% } else { %> <p class="listing-abstract"><%= item.description %></p>
+                <% } %>
+
+            <% if(item.areas) { %>
+              <div class="quarto-categories">
+                  <% for (const cat of item.areas) { %>
+                    <% if(cat) { %>
+                        <button class="area-button"><%= cat %></button>
+                      <% } %>
+                    <% } %>
+              </div>
+              <% } %>
+
+            <% if(item.techniques) { %>
+            <div class="quarto-categories">
+                <% for (const cat of item.techniques) { %>
+                  <% if(cat) { %>
+                      <button class="category-button"><%= cat %></button>
+                    <% } %>
+                  <% } %>
+            </div>
+            <% } %>
+
+            <% if(item.organisations) { %>
+              <div class="listing-organisations">
+                <% for (const org of item.organisations) { %>
+                • <%= org %></br>
+                <% } %>
+              </div>
+            <% } %>
+
+          </div>
+
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="<%- item.path %>"><i class="fa fa-info-circle"></i> Details </a></button>
+                    <% if (item['pub-info']) { %>
+                      <% if (item['pub-info'].links) { %>
+                          <% for (const link of item['pub-info'].links) { %>
+                            <% if (link.url) { %>
+                      <button class="project-link-listing-button"><a href="<%- link.url %>"><i class="<%- link.icon %>"></i> <%= link.name %> </a></button>
+                          <% } %>
+                        <% } %>
+                        <% } %>
+                    <% } %>
+            </div>
+          </div>
+
+
+
+        <% } %>
+</div>
+```

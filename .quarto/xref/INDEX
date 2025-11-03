@@ -1,0 +1,32 @@
+{
+  "packages_projects_tools/packages_projects_tools.qmd": {
+    "packages_projects_tools.html": "86e48f74"
+  },
+  "packages_projects_tools/bupaR/bupar.qmd": {
+    "bupar.html": "31b3a083"
+  },
+  "packages_projects_tools/fpt_tool/fpt_tool.qmd": {
+    "fpt_tool.html": "151d6ac6"
+  },
+  "packages_projects_tools/nhsrplotthedots/nhsrplotthedots.qmd": {
+    "nhsrplotthedots.html": "c4dc593d"
+  },
+  "packages_projects_tools/nowcasting/nowcasting.qmd": {
+    "nowcasting.html": "7826d6b6"
+  },
+  "packages_projects_tools/pm4py/pm4py.qmd": {
+    "pm4py.html": "7a53ed37"
+  },
+  "packages_projects_tools/vidigi/vidigi.qmd": {
+    "vidigi.html": "0a118415"
+  },
+  "solutions/monte_carlo/monte_carlo.qmd": {
+    "monte_carlo.html": "899e7f87"
+  },
+  "solutions/process_mining/process_mining.qmd": {
+    "process_mining.html": "db348e25"
+  },
+  "solutions/spc_charts/spc_charts.qmd": {
+    "spc_charts.html": "5ca3c4f8"
+  }
+}

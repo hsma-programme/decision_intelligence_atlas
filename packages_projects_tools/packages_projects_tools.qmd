@@ -1,0 +1,38 @@
+---
+title: "HSMA Projects by Cohort"
+toc-location: right
+title-block-banner: banner.png
+include-back-link: false
+grid:
+  sidebar-width: 0px
+  body-width: 1100px
+  margin-width: 300px
+  gutter-width: 1.5rem
+listing:
+    - id: packages_projects_tools
+      contents: "*/*.qmd"
+      sort: "title desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      template: listing.ejs
+      template-params:
+        ncols: 2
+      sort-ui: true
+      filter-ui: true
+---
+
+
+```{=html}
+    <style>
+    h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: left;
+}
+    </style>
+```
+
+:::{#packages_projects_tools}
+:::

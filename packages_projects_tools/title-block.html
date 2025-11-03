@@ -1,0 +1,69 @@
+<header id="title-block-header"
+    class="quarto-title-block projects default$if(quarto-template-params.banner-header-class)$ $quarto-template-params.banner-header-class$$endif$">
+    <div class="quarto-title-banner">
+
+        $if(pub-info.links)$
+        <div class="project-link-buttons">
+            <ul class="project-links">
+                $for(pub-info.links)$
+                $if(pub-info.links.url)$
+                <button class="custom-button"><a href="$pub-info.links.url$"><i class="$pub-info.links.icon$"></i> $pub-info.links.name$</a></button>
+                $endif$
+                $endfor$
+            </ul>
+        </div>
+        $endif$
+
+        $if(include-back-link)$
+        <div class="back-nav"><a href="javascript:history.back()">← Back to HSMA projects</a></div>
+        $endif$
+
+        <div class="quarto-title column-body">
+            <h1 class="title">$title$</h1>
+
+            $if(subtitle)$
+            <p class="subtitle lead">$subtitle$</p>
+            $endif$
+
+            $if(description)$
+            <div>
+                <div class="description">
+                    $description$
+                </div>
+            </div>
+            $endif$
+
+            $if(pub-info.abstract)$
+            <br/>
+            <div class="abstract">
+                <b>30 Second Summary</b>
+                $pub-info.abstract$
+            </div>
+            $endif$
+
+            $if(categories)$
+            $if(quarto-template-params.title-block-categories)$
+            <div class="quarto-categories">
+                $for(categories)$
+                <div class="quarto-category">$categories$</div>
+                $endfor$
+            </div>
+            $endif$
+            $endif$
+        </div>
+
+    </div>
+
+    $title-metadata.html()$
+
+    $if(pub-info.extra)$
+
+    <div class="quarto-title-meta-heading manual">Other details</div>
+    <div class="quarto-title-meta-contents">
+        <p class="publication-extra">
+            $pub-info.extra$
+        </p>
+    </div>
+    $endif$
+
+</header>

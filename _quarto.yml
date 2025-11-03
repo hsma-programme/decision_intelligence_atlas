@@ -1,0 +1,52 @@
+project:
+  type: website
+  output-dir: docs
+
+
+website:
+  title: The Healthcare Service Analytics & Decision Intelligence Atlas
+  draft-mode: unlinked
+  site-url: https://atlas.hsma.com
+  description: "A guide to modern healthcare analytics, modelling and data science"
+  favicon: resources/favicon.png
+  navbar:
+    logo: "/resources/Chalky HSMA-07-wide white logo.png"
+    title: false
+    collapse-below: "xl"
+    tools:
+      - icon: github
+        menu:
+          - text: View the code for this website
+            href:  https://github.com/bergam0t/decision_intelligence_atlas
+      - icon: linkedin
+        href: https://www.linkedin.com/samanthajaderosser/
+    right:
+      - href: index.qmd
+        text: Welcome
+
+      - href: packages_projects_tools/packages_projects_tools.qmd
+        text: Packages, Projects and Tools
+
+      - href: solutions/solutions.qmd
+        text: Solutions
+
+      - href: graph_catalogue/graph_catalogue.qmd
+        text: Graph Catalogue
+
+
+
+
+
+format:
+  html:
+    theme:
+      - darkly
+      - theme-dark.scss
+      - resources/fonts/css/lexend.css
+    css: styles.css
+    toc: true
+    title-block-banner: /resources/banner.png
+    mainfont: Lexend
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
