@@ -1,5 +1,5 @@
 ---
-title: "HSMA Projects by Cohort"
+title: "Packages, Projects and Tools"
 toc-location: right
 title-block-banner: banner.png
 include-back-link: false

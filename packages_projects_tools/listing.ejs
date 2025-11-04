@@ -16,12 +16,15 @@
             </div>
 
             <% if(item['status']) { %>
-            <div class="project-status-active">
-              <%- item['status'] %>
-            </div> <% } else { %>
-              <div class="project-status-complete">
-                Complete
-              </div>
+            <div class="project-status">
+              <%= item['status'] %>
+            </div>
+            <% } %>
+
+            <% if (item['pub-info'] && item['pub-info'].language) { %>
+            <div class="language">
+              <%= item['pub-info'].language %>
+            </div>
             <% } %>
 
             <% if (item['pub-info'] && item['pub-info'].abstract) { %>

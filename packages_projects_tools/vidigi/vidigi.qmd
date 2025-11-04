@@ -11,9 +11,10 @@ author:
     website: https://www.sammirosser.com
     orcid:
 title-block-banner: ../../banner.png
-status: Gold
+status: '<span style="color: #D18B12FF">Gold</span>'
 image: vidigi.png
 pub-info:
+  language: '<i class="fa-brands fa-python"></i>'
   abstract: |
     Vidigi is an animation library for showing patient flows and bottlenecks in simulations and for historical simulation logs.
   links:

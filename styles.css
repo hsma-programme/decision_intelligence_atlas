@@ -213,18 +213,15 @@ a {
   font-weight: 500;
 }
 
-.project-status-active {
+.project-status {
   font-size: .8em;
   text-transform: uppercase;
-  color: #558661;
   padding: 0.1rem 1rem;
   font-weight: 500;
 }
 
-.project-status-complete {
-  font-size: .8em;
-  text-transform: uppercase;
-  color: #5d635b;
+.language {
+  font-size: 2em;
   padding: 0.1rem 1rem;
   font-weight: 500;
 }
