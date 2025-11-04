@@ -28,5 +28,35 @@
   },
   "solutions/spc_charts/spc_charts.qmd": {
     "spc_charts.html": "5ca3c4f8"
+  },
+  "docs/packages_projects_tools/nhsrplotthedots/nhsrplotthedots.qmd": {
+    "nhsrplotthedots.html": "106b072d"
+  },
+  "docs/packages_projects_tools/nowcasting/nowcasting.qmd": {
+    "nowcasting.html": "10851e9f"
+  },
+  "graph_catalogue/graph_catalogue.qmd": {
+    "graph_catalogue.html": "a935344d"
+  },
+  "techniques/monte_carlo/monte_carlo.qmd": {
+    "monte_carlo.html": "562dc4da"
+  },
+  "techniques/process_mining/process_mining.qmd": {
+    "process_mining.html": "e666944d"
+  },
+  "techniques/spc_charts/spc_charts.qmd": {
+    "spc_charts.html": "42ad704d"
+  },
+  "techniques/techniques.qmd": {
+    "techniques.html": "cb78245d"
+  },
+  "techniques/causal_impact_analysis/causal_impact_analysis.qmd": {
+    "causal_impact_analysis.html": "f86be424"
+  },
+  "techniques/discrete_event_simulation/discrete_event_simulation.qmd": {
+    "discrete_event_simulation.html": "abf1d943"
+  },
+  "techniques/forecasting/forecasting.qmd": {
+    "forecasting.html": "53c5a3cc"
   }
 }

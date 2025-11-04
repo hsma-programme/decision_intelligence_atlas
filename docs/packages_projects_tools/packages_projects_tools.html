@@ -73,20 +73,76 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-packages_projects_tools .list');
+    const listingTargetEl = window.document.querySelector('#listing-kpi_reporting .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-draft-mode','listing-date-format','listing-title-block-banner','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-title','listing-categories','listing-status','listing-image','listing-pub-info','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-draft-mode','listing-date-format','listing-title-block-banner','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-title','listing-categories','listing-status','listing-image','listing-pub-info','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-draft-mode","listing-date-format","listing-title-block-banner","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-title","listing-categories","listing-status","listing-image","listing-pub-info","listing-reading-time","listing-word-count"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-draft-mode","listing-date-format","listing-title-block-banner","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-title","listing-categories","listing-status","listing-image","listing-pub-info","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-packages_projects_tools'] = new List('listing-packages_projects_tools', options);
+    window['quarto-listings']['listing-kpi_reporting'] = new List('listing-kpi_reporting', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-analysing_and_improving_pathway_performance .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-draft-mode','listing-date-format','listing-title-block-banner','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-title','listing-categories','listing-status','listing-image','listing-pub-info','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-draft-mode","listing-date-format","listing-title-block-banner","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-title","listing-categories","listing-status","listing-image","listing-pub-info","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-analysing_and_improving_pathway_performance'] = new List('listing-analysing_and_improving_pathway_performance', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-demand_forecasting .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-draft-mode','listing-date-format','listing-title-block-banner','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-title','listing-categories','listing-status','listing-image','listing-pub-info','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-draft-mode","listing-date-format","listing-title-block-banner","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-title","listing-categories","listing-status","listing-image","listing-pub-info","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-demand_forecasting'] = new List('listing-demand_forecasting', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -166,11 +222,11 @@ window.Quarto = {
 <span class="menu-text">Packages, Projects and Tools</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../solutions/solutions.qmd"> 
-<span class="menu-text">Solutions</span></a>
+    <a class="nav-link" href="../techniques/techniques.html"> 
+<span class="menu-text">Techniques</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../graph_catalogue/graph_catalogue.qmd"> 
+    <a class="nav-link" href="../graph_catalogue/graph_catalogue.html"> 
 <span class="menu-text">Graph Catalogue</span></a>
   </li>  
 </ul>
@@ -220,8 +276,16 @@ window.Quarto = {
 </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#demand-forecasting" id="toc-demand-forecasting" class="nav-link active" data-scroll-target="#demand-forecasting">Demand Forecasting</a></li>
+  <li><a href="#analysing-and-improving-pathway-performance" id="toc-analysing-and-improving-pathway-performance" class="nav-link" data-scroll-target="#analysing-and-improving-pathway-performance">Analysing and Improving Pathway Performance</a></li>
+  <li><a href="#kpi-reporting" id="toc-kpi-reporting" class="nav-link" data-scroll-target="#kpi-reporting">KPI Reporting</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -229,12 +293,20 @@ window.Quarto = {
 
 
 
-<p><code>{=html}Y     &lt;style&gt;     h2 {     text-transform: uppercase;     font-weight: 400;     text-align: left; }     &lt;/style&gt;</code></p>
-<div id="listing-packages_projects_tools" class="quarto-listing quarto-listing-container-custom">
+    <style>
+    h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: left;
+}
+    </style>
+<section id="demand-forecasting" class="level2">
+<h2 class="anchored" data-anchor-id="demand-forecasting">Demand Forecasting</h2>
+<div id="listing-demand_forecasting" class="quarto-listing quarto-listing-container-custom">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-packages_projects_tools-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-packages_projects_tools'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+    <select id="listing-demand_forecasting-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-demand_forecasting'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
       <option value="" disabled="" selected="" hidden="">Order By</option>
       <option value="index" data-direction="asc">Default</option>
       <option value="listing-project" data-direction="asc">
@@ -273,6 +345,20 @@ window.Quarto = {
       <option value="listing-include-back-link" data-direction="asc">
         include-back-link
       </option>
+      <option value="listing-title" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-categories" data-direction="asc">
+        Categories
+      </option>
+      <option value="listing-status" data-direction="asc">
+        status
+      </option>
+      <option value="listing-image" data-direction="asc">
+      </option>
+      <option value="listing-pub-info" data-direction="asc">
+        pub-info
+      </option>
       <option value="listing-path" data-direction="asc">
         path
       </option>
@@ -293,20 +379,6 @@ window.Quarto = {
       </option>
       <option value="listing-file-modified-sort" data-direction="desc">
         Modified - Newest
-      </option>
-      <option value="listing-title" data-direction="asc">
-        Title
-      </option>
-      <option value="listing-categories" data-direction="asc">
-        Categories
-      </option>
-      <option value="listing-status" data-direction="asc">
-        status
-      </option>
-      <option value="listing-image" data-direction="asc">
-      </option>
-      <option value="listing-pub-info" data-direction="asc">
-        pub-info
       </option>
       <option value="listing-reading-time-sort" data-direction="asc">
         Reading Time (Low to High)
@@ -330,109 +402,33 @@ window.Quarto = {
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-listing-file-modified-sort="1762113985532">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Rm9yZWNhc3RpbmclMkNEZW1hbmQlMjBQcmVkaWN0aW9u" data-listing-file-modified-sort="1762257779651" data-listing-reading-time-sort="2" data-listing-word-count-sort="270">
             <div class="main-card-content">
+            
+            <a href="../packages_projects_tools/nowcasting/nowcasting.html">
+              <img class="card-img" src="../packages_projects_tools/nowcasting/nowcasts.png" alt="nowcasts: a short-term operational forecasting script">
+            </a>
             
 
             <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title"></h5>
+                <h5 class="no-anchor card-title listing-title">nowcasts: a short-term operational forecasting script</h5>
             </div>
 
             
-
-            
-
-             <p class="listing-abstract"></p>
-                
-
-            
-
-            
-
-            
-
-          </div>
-
-            <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="../packages_projects_tools/bupaR/bupar.html"><i class="fa fa-info-circle"></i> Details </a></button>
-                    
+            <div class="project-status">
+              Status: <span style="color: #128BD1FF">Blue</span>
             </div>
-          </div>
-
-        
-      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-listing-file-modified-sort="1762113982131">
-            <div class="main-card-content">
             
 
-            <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title"></h5>
+            
+            <div class="language">
+              <i class="fa-brands fa-python"></i><i class="fa-solid fa-chart-simple"></i>
             </div>
-
             
 
             
-
-             <p class="listing-abstract"></p>
-                
-
-            
-
-            
-
-            
-
-          </div>
-
-            <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="../packages_projects_tools/fpt_tool/fpt_tool.html"><i class="fa fa-info-circle"></i> Details </a></button>
-                    
-            </div>
-          </div>
-
-        
-      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-listing-file-modified-sort="1762113975366">
-            <div class="main-card-content">
-            
-
-            <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title"></h5>
-            </div>
-
-            
-
-            
-
-             <p class="listing-abstract"></p>
-                
-
-            
-
-            
-
-            
-
-          </div>
-
-            <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="../packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html"><i class="fa fa-info-circle"></i> Details </a></button>
-                    
-            </div>
-          </div>
-
-        
-      <div class="custom-grid-card border-2 rounded-3" data-index="3" data-listing-file-modified-sort="1762113965567">
-            <div class="main-card-content">
-            
-
-            <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title"></h5>
-            </div>
-
-            
-
-            
-
-             <p class="listing-abstract"></p>
+              <p class="listing-abstract">Nowcasting uses real-time data and statistical modelling to estimate what is happening right now — before all information has fully arrived. In healthcare, it helps anticipate short-term trends such as hospital admissions or bed occupancy, enabling faster, data-informed operational decisions even when reporting delays or incomplete data make the current situation unclear.
+</p>
                 
 
             
@@ -446,45 +442,141 @@ window.Quarto = {
             <div class="project-details-listing">
               <button class="project-link-listing-button"><a href="../packages_projects_tools/nowcasting/nowcasting.html"><i class="fa fa-info-circle"></i> Details </a></button>
                     
-            </div>
-          </div>
-
-        
-      <div class="custom-grid-card border-2 rounded-3" data-index="4" data-listing-file-modified-sort="1762113970059">
-            <div class="main-card-content">
-            
-
-            <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title"></h5>
-            </div>
-
-            
-
-            
-
-             <p class="listing-abstract"></p>
-                
-
-            
-
-            
-
-            
-
-          </div>
-
-            <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="../packages_projects_tools/pm4py/pm4py.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/nhs-bnssg-analytics/nowcasts"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://doi.org/10.12968/bjhc.2020.0179"><i class="fa-solid fa-file-contract"></i> Paper </a></button>
+                          
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                        
                     
             </div>
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="5" data-categories="U2VydmljZSUyMFBsYW5uaW5nJTJDSWRlbnRpZnlpbmclMjBCb3R0bGVuZWNrcyUyQ0RhdGElMjBWaXN1YWxpc2F0aW9u" data-listing-file-modified-sort="1762250868177" data-listing-reading-time-sort="1" data-listing-word-count-sort="50">
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="analysing-and-improving-pathway-performance" class="level2">
+<h2 class="anchored" data-anchor-id="analysing-and-improving-pathway-performance">Analysing and Improving Pathway Performance</h2>
+<div id="listing-analysing_and_improving_pathway_performance" class="quarto-listing quarto-listing-container-custom">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-analysing_and_improving_pathway_performance-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-analysing_and_improving_pathway_performance'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-project" data-direction="asc">
+        project
+      </option>
+      <option value="listing-website" data-direction="asc">
+        website
+      </option>
+      <option value="listing-format" data-direction="asc">
+        format
+      </option>
+      <option value="listing-language" data-direction="asc">
+        language
+      </option>
+      <option value="listing-draft-mode" data-direction="asc">
+        draft-mode
+      </option>
+      <option value="listing-date-format" data-direction="asc">
+        date-format
+      </option>
+      <option value="listing-title-block-banner" data-direction="asc">
+        title-block-banner
+      </option>
+      <option value="listing-toc" data-direction="asc">
+        toc
+      </option>
+      <option value="listing-toc-title" data-direction="asc">
+        toc-title
+      </option>
+      <option value="listing-toc-location" data-direction="asc">
+        toc-location
+      </option>
+      <option value="listing-execute" data-direction="asc">
+        execute
+      </option>
+      <option value="listing-include-back-link" data-direction="asc">
+        include-back-link
+      </option>
+      <option value="listing-title" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-categories" data-direction="asc">
+        Categories
+      </option>
+      <option value="listing-status" data-direction="asc">
+        status
+      </option>
+      <option value="listing-image" data-direction="asc">
+      </option>
+      <option value="listing-pub-info" data-direction="asc">
+        pub-info
+      </option>
+      <option value="listing-path" data-direction="asc">
+        path
+      </option>
+      <option value="listing-outputHref" data-direction="asc">
+        outputHref
+      </option>
+      <option value="listing-author" data-direction="asc">
+        Author
+      </option>
+      <option value="listing-description" data-direction="asc">
+        Description
+      </option>
+      <option value="listing-filename" data-direction="asc">
+        File Name
+      </option>
+      <option value="listing-file-modified-sort" data-direction="asc">
+        Modified - Oldest
+      </option>
+      <option value="listing-file-modified-sort" data-direction="desc">
+        Modified - Newest
+      </option>
+      <option value="listing-reading-time-sort" data-direction="asc">
+        Reading Time (Low to High)
+      </option>
+      <option value="listing-reading-time-sort" data-direction="desc">
+        Reading Time (High to Low)
+      </option>
+      <option value="listing-word-count-sort" data-direction="asc">
+        Word Count (Low to High)
+      </option>
+      <option value="listing-word-count-sort" data-direction="desc">
+        Word Count (High to Low)
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
+
+    
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="U2VydmljZSUyMFBsYW5uaW5nJTJDSWRlbnRpZnlpbmclMjBCb3R0bGVuZWNrcyUyQ0RhdGElMjBWaXN1YWxpc2F0aW9u" data-listing-file-modified-sort="1762256138786" data-listing-reading-time-sort="1" data-listing-word-count-sort="50">
             <div class="main-card-content">
             
             <a href="../packages_projects_tools/vidigi/vidigi.html">
-              <img class="card-img" src="../packages_projects_tools/vidigi/vidigi.png" alt="Vidigi: animated queues for simulations and reality">
+              <img class="card-img" src="../packages_projects_tools/vidigi/vidigi.gif" alt="Vidigi: animated queues for simulations and reality">
             </a>
             
 
@@ -494,7 +586,7 @@ window.Quarto = {
 
             
             <div class="project-status">
-              <span style="color: #D18B12FF">Gold</span>
+              Status: <span style="color: #D18B12FF">Gold</span>
             </div>
             
 
@@ -527,13 +619,255 @@ window.Quarto = {
                           
                         
                             
-                      <button class="project-link-listing-button"><a href="https://hsma-tools.github.io/vidigi/vidigi_docs/"><i class="fa-solid fa-globe"></i> Documentation </a></button>
+                      <button class="project-link-listing-button"><a href="https://hsma-tools.github.io/vidigi/vidigi_docs/"><i class="fa-solid fa-book"></i> Documentation </a></button>
                           
                         
                             
                         
                             
                       <button class="project-link-listing-button"><a href="https://pypi.org/project/vidigi/"><i class="fa-solid fa-brands fa-python"></i> PyPi </a></button>
+                          
+                        
+                            
+                        
+                            
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="U2VydmljZSUyMFBsYW5uaW5nJTJDSWRlbnRpZnlpbmclMjBCb3R0bGVuZWNrcyUyQ0RhdGElMjBWaXN1YWxpc2F0aW9uJTJDUGF0aHdheSUyMEFuYWx5dGljcw==" data-listing-file-modified-sort="1762255894067" data-listing-reading-time-sort="2" data-listing-word-count-sort="251">
+            <div class="main-card-content">
+            
+            <a href="../packages_projects_tools/pm4py/pm4py.html">
+              <img class="card-img" src="../packages_projects_tools/pm4py/pm4py.png" alt="pm4py: process mining for understanding pathway problems">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">pm4py: process mining for understanding pathway problems</h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: <span style="color: #D18B12FF">Gold</span>
+            </div>
+            
+
+            
+            <div class="language">
+              <i class="fa-brands fa-python"></i>
+            </div>
+            
+
+            
+              <p class="listing-abstract">pm4py is a Python library for process mining that helps healthcare analysts explore how patient pathways, test result flows, and other clinical processes actually unfold. By turning event data into visual process maps, it highlights delays, rework, and variations that can guide service improvement.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../packages_projects_tools/pm4py/pm4py.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/process-intelligence-solutions/pm4py"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://processintelligence.solutions/pm4py/api?page=index.html"><i class="fa-solid fa-book"></i> Documentation </a></button>
+                          
+                        
+                            
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://pypi.org/project/pm4py/"><i class="fa-solid fa-brands fa-python"></i> PyPi </a></button>
+                          
+                        
+                            
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://processintelligence.solutions/pm4py"><i class="fa-solid fa-globe"></i> Website </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="kpi-reporting" class="level2">
+<h2 class="anchored" data-anchor-id="kpi-reporting">KPI Reporting</h2>
+<div id="listing-kpi_reporting" class="quarto-listing quarto-listing-container-custom">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-kpi_reporting-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-kpi_reporting'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-project" data-direction="asc">
+        project
+      </option>
+      <option value="listing-website" data-direction="asc">
+        website
+      </option>
+      <option value="listing-format" data-direction="asc">
+        format
+      </option>
+      <option value="listing-language" data-direction="asc">
+        language
+      </option>
+      <option value="listing-draft-mode" data-direction="asc">
+        draft-mode
+      </option>
+      <option value="listing-date-format" data-direction="asc">
+        date-format
+      </option>
+      <option value="listing-title-block-banner" data-direction="asc">
+        title-block-banner
+      </option>
+      <option value="listing-toc" data-direction="asc">
+        toc
+      </option>
+      <option value="listing-toc-title" data-direction="asc">
+        toc-title
+      </option>
+      <option value="listing-toc-location" data-direction="asc">
+        toc-location
+      </option>
+      <option value="listing-execute" data-direction="asc">
+        execute
+      </option>
+      <option value="listing-include-back-link" data-direction="asc">
+        include-back-link
+      </option>
+      <option value="listing-title" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-categories" data-direction="asc">
+        Categories
+      </option>
+      <option value="listing-status" data-direction="asc">
+        status
+      </option>
+      <option value="listing-image" data-direction="asc">
+      </option>
+      <option value="listing-pub-info" data-direction="asc">
+        pub-info
+      </option>
+      <option value="listing-path" data-direction="asc">
+        path
+      </option>
+      <option value="listing-outputHref" data-direction="asc">
+        outputHref
+      </option>
+      <option value="listing-author" data-direction="asc">
+        Author
+      </option>
+      <option value="listing-description" data-direction="asc">
+        Description
+      </option>
+      <option value="listing-filename" data-direction="asc">
+        File Name
+      </option>
+      <option value="listing-file-modified-sort" data-direction="asc">
+        Modified - Oldest
+      </option>
+      <option value="listing-file-modified-sort" data-direction="desc">
+        Modified - Newest
+      </option>
+      <option value="listing-reading-time-sort" data-direction="asc">
+        Reading Time (Low to High)
+      </option>
+      <option value="listing-reading-time-sort" data-direction="desc">
+        Reading Time (High to Low)
+      </option>
+      <option value="listing-word-count-sort" data-direction="asc">
+        Word Count (Low to High)
+      </option>
+      <option value="listing-word-count-sort" data-direction="desc">
+        Word Count (High to Low)
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
+
+    
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="S1BJJTIwUmVwb3J0aW5nJTJDU3RhdGlzdGljYWwlMjBQcm9jZXNzJTIwQ29udHJvbA==" data-listing-file-modified-sort="1762257731688" data-listing-reading-time-sort="1" data-listing-word-count-sort="172">
+            <div class="main-card-content">
+            
+            <a href="../packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html">
+              <img class="card-img" src="../packages_projects_tools/nhsrplotthedots/nhsrplotthedots.png" alt="NHSRPlotTheDots: statistical process control for better metric reporting">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">NHSRPlotTheDots: statistical process control for better metric reporting</h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: <span style="color: #D18B12FF">Gold</span>
+            </div>
+            
+
+            
+            <div class="language">
+              <i class="fa-brands fa-python"></i>
+            </div>
+            
+
+            
+              <p class="listing-abstract">NHSRplotthedots is an R package that simplifies the creation and automation of statistical process control (SPC) charts for KPIs. It helps analysts and teams move beyond static KPIs to understand true performance variation and identify opportunities for improvement.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/nhs-r-community/NHSRplotthedots"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://nhsrplotthedots.nhsrcommunity.com/"><i class="fa-solid fa-book"></i> Documentation </a></button>
+                          
+                        
+                            
+                        
+                            
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://cran.r-project.org/web/packages/NHSRplotthedots/index.html"><i class="fa-solid fa-brands fa-r-project"></i> CRAN </a></button>
                           
                         
                             
@@ -550,6 +884,7 @@ window.Quarto = {
 
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

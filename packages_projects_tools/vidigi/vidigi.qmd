@@ -12,7 +12,7 @@ author:
     orcid:
 title-block-banner: ../../banner.png
 status: '<span style="color: #D18B12FF">Gold</span>'
-image: vidigi.png
+image: vidigi.gif
 pub-info:
   language: '<i class="fa-brands fa-python"></i>'
   abstract: |
@@ -23,7 +23,7 @@ pub-info:
     icon: fa-brands fa-github
   - name: Documentation
     url: https://hsma-tools.github.io/vidigi/vidigi_docs/
-    icon: fa-solid fa-globe
+    icon: fa-solid fa-book
   - name: Paper
     url:
     icon: fa-solid fa-file-contract
@@ -32,7 +32,10 @@ pub-info:
     icon: fa-solid fa-brands fa-python
   - name: CRAN
     url:
-    icon: fa-solid fa-r
+    icon: fa-solid fa-brands fa-r-project
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
 ---
 
 Vidigi is an animation library designed to support the communication of discrete event simulation models through creating animated visualiasations of patient flows and bottlenecks.

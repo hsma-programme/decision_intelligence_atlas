@@ -42,10 +42,62 @@
   </url>
   <url>
     <loc>https://atlas.hsma.com/packages_projects_tools/packages_projects_tools.html</loc>
-    <lastmod>2025-11-04T10:10:02.049Z</lastmod>
+    <lastmod>2025-11-04T12:03:08.062Z</lastmod>
   </url>
   <url>
     <loc>https://atlas.hsma.com/packages_projects_tools/vidigi/vidigi.html</loc>
-    <lastmod>2025-11-04T10:07:48.177Z</lastmod>
+    <lastmod>2025-11-04T11:35:38.786Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.com/packages_projects_tools/pm4py/pm4py.html</loc>
+    <lastmod>2025-11-04T11:31:34.067Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.com/packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html</loc>
+    <lastmod>2025-11-04T12:02:11.688Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.com/docs/packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html</loc>
+    <lastmod>2025-11-04T10:35:39.977Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.com/docs/packages_projects_tools/nowcasting/nowcasting.html</loc>
+    <lastmod>2025-11-04T11:37:12.101Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.com/packages_projects_tools/nowcasting/nowcasting.html</loc>
+    <lastmod>2025-11-04T12:02:59.651Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.com/graph_catalogue/graph_catalogue.html</loc>
+    <lastmod>2025-11-04T11:32:04.213Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.com/techniques/spc_charts/spc_charts.html</loc>
+    <lastmod>2025-11-02T20:06:01.502Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.com/techniques/monte_carlo/monte_carlo.html</loc>
+    <lastmod>2025-11-02T20:05:39.984Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.com/techniques/process_mining/process_mining.html</loc>
+    <lastmod>2025-11-02T20:05:56.522Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.com/techniques/techniques.html</loc>
+    <lastmod>2025-11-04T11:35:29.971Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.com/techniques/forecasting/forecasting.html</loc>
+    <lastmod>2025-11-04T11:51:05.652Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.com/techniques/causal_impact_analysis/causal_impact_analysis.html</loc>
+    <lastmod>2025-11-04T11:50:53.191Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.com/techniques/discrete_event_simulation/discrete_event_simulation.html</loc>
+    <lastmod>2025-11-04T11:50:59.142Z</lastmod>
   </url>
 </urlset>

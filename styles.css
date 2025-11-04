@@ -233,6 +233,44 @@ a {
   box-sizing: border-box;
 }
 
+a {
+	color: rgb(255, 255, 255);
+	text-decoration: underline;
+	-webkit-text-decoration: underline;
+	-moz-text-decoration: underline;
+	-ms-text-decoration: underline;
+	-o-text-decoration: underline;
+  padding: 2px
+}
+
+.custom-button:hover a {
+  background-color: white;    /* White background on hover */
+  color: #3d3d3d;              /* Grey text on hover */
+  border-color: #3498db;      /* Blue border on hover */
+}
+
+@media only screen and (max-width: 600px) {
+
+.hsma-iframe {
+  height: 350px
+}
+}
+
+@media only screen and (max-width: 800px) {
+
+.hsma-iframe {
+  height: 450px
+}
+}
+
+@media only screen and (min-width: 800px) {
+
+.hsma-iframe {
+  height: 700px
+}
+
+}
+
 .project-link-listing-button {
   flex: 1 1 0;
   min-width: 90px;

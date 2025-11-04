@@ -27,8 +27,8 @@ website:
       - href: packages_projects_tools/packages_projects_tools.qmd
         text: Packages, Projects and Tools
 
-      - href: solutions/solutions.qmd
-        text: Solutions
+      - href: techniques/techniques.qmd
+        text: Techniques
 
       - href: graph_catalogue/graph_catalogue.qmd
         text: Graph Catalogue
