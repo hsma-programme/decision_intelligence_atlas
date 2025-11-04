@@ -1,1 +1,1 @@
-Sitemap: https://atlas.hsma.com/sitemap.xml
+Sitemap: https://atlas.hsma.co.uk/sitemap.xml

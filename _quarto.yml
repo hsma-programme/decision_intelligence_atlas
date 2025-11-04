@@ -6,7 +6,7 @@ project:
 website:
   title: The Healthcare Service Analytics & Decision Intelligence Atlas
   draft-mode: unlinked
-  site-url: https://atlas.hsma.com
+  site-url: https://atlas.hsma.co.uk
   description: "A guide to modern healthcare analytics, modelling and data science"
   favicon: resources/favicon.png
   navbar:
