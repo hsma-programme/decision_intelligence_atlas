@@ -53,7 +53,6 @@ listing:
       filter-ui: true
 ---
 
-
 ```{=html}
     <style>
     h2 {
@@ -64,23 +63,49 @@ listing:
     </style>
 ```
 
-:::{.callout-warning}
+::: callout-warning
 Please note that inclusion of a tool on this site does not imply that the HSMA team have reviewed these tools in detail. This is designed to act as a signpost to the work out there, and provide a high-level indication of the health of any given project, but you should always conduct your own reviews of the suitability of any of these tools and techniques for your own use case.
 :::
 
++--------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Status | Description                                                                                                                                                               |
++========+===========================================================================================================================================================================+
+| Bronze | A script, tool or package with limited documentation and/or that may need significant reworking to be reused.                                                             |
+|        |                                                                                                                                                                           |
+|        | This may also be used to denote a project at an earlier stage of development, or which may no longer be maintained/receiving updates.                                     |
++--------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Silver | Either                                                                                                                                                                    |
+|        |                                                                                                                                                                           |
+|        | -   a script that is not optimised for reusability, but is well-documented and has scope for adapting                                                                     |
+|        |                                                                                                                                                                           |
+|        | -   a web-based or other tool with adjustable parameters                                                                                                                  |
+|        |                                                                                                                                                                           |
+|        | -   a package                                                                                                                                                             |
+|        |                                                                                                                                                                           |
+|        | However, compared to a 'gold' ranked project, these projects may be more limited in terms of automated tests, documentation, or may have limited adoption or maintenance. |
++--------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Gold   | Either                                                                                                                                                                    |
+|        |                                                                                                                                                                           |
+|        | -   a well-parameterised script that is easily adapted for new use cases, with excellent documentation                                                                    |
+|        |                                                                                                                                                                           |
+|        | -   a web-based or other tool with adjustable parameters                                                                                                                  |
+|        |                                                                                                                                                                           |
+|        | -   a package                                                                                                                                                             |
+|        |                                                                                                                                                                           |
+|        | All would be expected to have extensive tests, clear documentation, and be well-established projects that are actively maintained.                                        |
++--------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ## Demand Forecasting
 
-:::{#demand_forecasting}
+::: {#demand_forecasting}
 :::
-
 
 ## Analysing and Improving Pathway Performance
 
-:::{#analysing_and_improving_pathway_performance}
+::: {#analysing_and_improving_pathway_performance}
 :::
 
 ## KPI Reporting
 
-:::{#kpi_reporting}
+::: {#kpi_reporting}
 :::

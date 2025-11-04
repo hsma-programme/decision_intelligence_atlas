@@ -11,7 +11,7 @@ author:
     website: https://www.sammirosser.com
     orcid:
 title-block-banner: ../../banner.png
-status: '<span style="color: #D18B12FF">Gold</span>'
+status: '<span style="color: #888888FF">Silver</span>'
 image: vidigi.gif
 pub-info:
   language: '<i class="fa-brands fa-python"></i>'

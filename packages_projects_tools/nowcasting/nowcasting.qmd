@@ -4,7 +4,7 @@ categories:
   - Forecasting
   - Demand Prediction
 title-block-banner: ../../banner.png
-status: '<span style="color: #128BD1FF">Blue</span>'
+status: '<span style="color: #893400FF">Bronze</span>'
 image: nowcasts.png
 pub-info:
   language: '<i class="fa-brands fa-python"></i> <i class="fa-solid fa-chart-simple"></i>'
