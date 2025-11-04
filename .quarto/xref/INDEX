@@ -58,5 +58,11 @@
   },
   "techniques/forecasting/forecasting.qmd": {
     "forecasting.html": "53c5a3cc"
+  },
+  "about_hsma.qmd": {
+    "about_hsma.html": "ffc40dc8"
+  },
+  "index.qmd": {
+    "index.html": "da938ccc"
   }
 }

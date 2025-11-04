@@ -1,0 +1,38 @@
+---
+title: "bupaR and the bupaverse: process mining for understanding pathway problems"
+categories:
+  - Service Planning
+  - Identifying Bottlenecks
+  - Data Visualisation
+  - Pathway Analytics
+title-block-banner: ../../banner.png
+status: '<span style="color: #D18B12FF">Gold</span>'
+image: pm4py.png
+pub-info:
+  language: '<i class="fa-brands fa-r-project"></i>'
+  abstract: |
+    bupaR (and associated packages across the bupaverse) are libraries for process mining that helps healthcare analysts explore how patient pathways, test result flows, and other clinical processes actually unfold. By turning event data into visual - even animated - process maps, it highlights delays, rework, and variations that can guide service improvement.
+  links:
+  - name: Code
+    url: https://github.com/bupaverse
+    icon: fa-brands fa-github
+  - name: Documentation
+    url: https://bupaverse.github.io/docs/
+    icon: fa-solid fa-book
+  - name: Paper
+    url: https://documentserver.uhasselt.be/bitstream/1942/27485/1/bupar_submission_osp_knowledge_based_systems_revised_2.pdf
+    icon: fa-solid fa-file-contract
+  - name: PyPi
+    url:
+    icon: fa-solid fa-brands fa-python
+  - name: CRAN
+    url: https://cran.r-project.org/web/packages/bupaverse/index.html
+    icon: fa-solid fa-brands fa-r-project
+  - name: Website
+    url: https://bupar.net/
+    icon: fa-solid fa-globe
+---
+
+## Related tools
+
+A detailed breakdown of the capabilities of bupaR and vidigi, and the areas of pathway animation in which they excel, can be found [in the vidigi documentation](https://hsma-tools.github.io/vidigi/vidigi_docs/vidigi_vs_bupar.html).

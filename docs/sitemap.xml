@@ -1,92 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.decisionintelligenceatlas.com/packages_projects_tools/packages_projects_tools.html</loc>
-    <lastmod>2025-11-02T23:59:11.918Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.decisionintelligenceatlas.com/solutions/process_mining/process_mining.html</loc>
-    <lastmod>2025-11-02T20:05:56.522Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.decisionintelligenceatlas.com/packages_projects_tools/vidigi/vidigi.html</loc>
-    <lastmod>2025-11-02T23:49:10.378Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.decisionintelligenceatlas.com/packages_projects_tools/nowcasting/nowcasting.html</loc>
-    <lastmod>2025-11-02T20:06:05.567Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.decisionintelligenceatlas.com/packages_projects_tools/fpt_tool/fpt_tool.html</loc>
-    <lastmod>2025-11-02T20:06:22.131Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.decisionintelligenceatlas.com/packages_projects_tools/bupaR/bupar.html</loc>
-    <lastmod>2025-11-02T20:06:25.532Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.decisionintelligenceatlas.com/packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html</loc>
-    <lastmod>2025-11-02T20:06:15.366Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.decisionintelligenceatlas.com/packages_projects_tools/pm4py/pm4py.html</loc>
-    <lastmod>2025-11-02T20:06:10.059Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.decisionintelligenceatlas.com/solutions/monte_carlo/monte_carlo.html</loc>
-    <lastmod>2025-11-02T20:05:39.984Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.decisionintelligenceatlas.com/solutions/spc_charts/spc_charts.html</loc>
-    <lastmod>2025-11-02T20:06:01.502Z</lastmod>
-  </url>
-  <url>
-    <loc>https://atlas.hsma.com/packages_projects_tools/packages_projects_tools.html</loc>
-    <lastmod>2025-11-04T12:03:08.062Z</lastmod>
-  </url>
-  <url>
-    <loc>https://atlas.hsma.com/packages_projects_tools/vidigi/vidigi.html</loc>
-    <lastmod>2025-11-04T11:35:38.786Z</lastmod>
-  </url>
-  <url>
-    <loc>https://atlas.hsma.com/packages_projects_tools/pm4py/pm4py.html</loc>
-    <lastmod>2025-11-04T11:31:34.067Z</lastmod>
-  </url>
-  <url>
-    <loc>https://atlas.hsma.com/packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html</loc>
-    <lastmod>2025-11-04T12:02:11.688Z</lastmod>
-  </url>
-  <url>
-    <loc>https://atlas.hsma.com/docs/packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html</loc>
-    <lastmod>2025-11-04T10:35:39.977Z</lastmod>
-  </url>
-  <url>
-    <loc>https://atlas.hsma.com/docs/packages_projects_tools/nowcasting/nowcasting.html</loc>
-    <lastmod>2025-11-04T11:37:12.101Z</lastmod>
-  </url>
-  <url>
-    <loc>https://atlas.hsma.com/packages_projects_tools/nowcasting/nowcasting.html</loc>
-    <lastmod>2025-11-04T12:02:59.651Z</lastmod>
-  </url>
-  <url>
-    <loc>https://atlas.hsma.com/graph_catalogue/graph_catalogue.html</loc>
-    <lastmod>2025-11-04T11:32:04.213Z</lastmod>
-  </url>
-  <url>
-    <loc>https://atlas.hsma.com/techniques/spc_charts/spc_charts.html</loc>
-    <lastmod>2025-11-02T20:06:01.502Z</lastmod>
-  </url>
-  <url>
-    <loc>https://atlas.hsma.com/techniques/monte_carlo/monte_carlo.html</loc>
-    <lastmod>2025-11-02T20:05:39.984Z</lastmod>
+    <loc>https://atlas.hsma.com/techniques/techniques.html</loc>
+    <lastmod>2025-11-04T11:35:29.971Z</lastmod>
   </url>
   <url>
     <loc>https://atlas.hsma.com/techniques/process_mining/process_mining.html</loc>
     <lastmod>2025-11-02T20:05:56.522Z</lastmod>
-  </url>
-  <url>
-    <loc>https://atlas.hsma.com/techniques/techniques.html</loc>
-    <lastmod>2025-11-04T11:35:29.971Z</lastmod>
   </url>
   <url>
     <loc>https://atlas.hsma.com/techniques/forecasting/forecasting.html</loc>
@@ -97,7 +17,55 @@
     <lastmod>2025-11-04T11:50:53.191Z</lastmod>
   </url>
   <url>
+    <loc>https://atlas.hsma.com/packages_projects_tools/pm4py/pm4py.html</loc>
+    <lastmod>2025-11-04T11:31:34.067Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.com/packages_projects_tools/nowcasting/nowcasting.html</loc>
+    <lastmod>2025-11-04T12:07:30.416Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.com/packages_projects_tools/fpt_tool/fpt_tool.html</loc>
+    <lastmod>2025-11-02T20:06:22.131Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.com/index.html</loc>
+    <lastmod>2025-11-04T12:23:10.806Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.com/about_hsma.html</loc>
+    <lastmod>2025-11-04T12:23:53.250Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.com/graph_catalogue/graph_catalogue.html</loc>
+    <lastmod>2025-11-04T12:04:45.835Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.com/packages_projects_tools/bupaR/bupar.html</loc>
+    <lastmod>2025-11-04T12:15:20.859Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.com/packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html</loc>
+    <lastmod>2025-11-04T12:02:11.688Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.com/packages_projects_tools/packages_projects_tools.html</loc>
+    <lastmod>2025-11-04T12:27:30.324Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.com/packages_projects_tools/vidigi/vidigi.html</loc>
+    <lastmod>2025-11-04T11:35:38.786Z</lastmod>
+  </url>
+  <url>
     <loc>https://atlas.hsma.com/techniques/discrete_event_simulation/discrete_event_simulation.html</loc>
     <lastmod>2025-11-04T11:50:59.142Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.com/techniques/monte_carlo/monte_carlo.html</loc>
+    <lastmod>2025-11-02T20:05:39.984Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.com/techniques/spc_charts/spc_charts.html</loc>
+    <lastmod>2025-11-02T20:06:01.502Z</lastmod>
   </url>
 </urlset>

@@ -64,6 +64,11 @@ listing:
     </style>
 ```
 
+:::{.callout-warning}
+Please note that inclusion of a tool on this site does not imply that the HSMA team have reviewed these tools in detail. This is designed to act as a signpost to the work out there, and provide a high-level indication of the health of any given project, but you should always conduct your own reviews of the suitability of any of these tools and techniques for your own use case.
+:::
+
+
 ## Demand Forecasting
 
 :::{#demand_forecasting}
