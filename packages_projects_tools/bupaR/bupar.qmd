@@ -7,7 +7,7 @@ categories:
   - Pathway Analytics
 title-block-banner: ../../banner.png
 status: '<span style="color: #D18B12FF">Gold</span>'
-image: pm4py.png
+image: bupar.gif
 pub-info:
   language: '<i class="fa-brands fa-r-project"></i>'
   abstract: |
