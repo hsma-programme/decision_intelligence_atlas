@@ -24,7 +24,27 @@ body:
     id: details
     attributes:
       label: Details
-      description: Describe what the tool, package or project does. Make sure to include details of the sort of outputs users might expect. Note that this section will be rendered within Quarto, so feel free to use all kinds of Quarto formatting. If you wish to include images, please add a placeholder within the file making it clear what image should be present there, and then upload these images to the github issue that will be created after you have submitted this. Alternatively, if the image is already hosted somewhere publicly accessible, you can include the URL of the image in this text box.
+      description: | 
+        Describe what the tool, package or project does. Make sure to include details of the sort of outputs users might expect. 
+        
+        Note that this section will be rendered within Quarto, so feel free to use all kinds of Quarto formatting. 
+        
+        If you wish to include images, please add a placeholder within the file making it clear what image should be present there, and then upload these images to the github issue that will be created after you have submitted this. 
+        Alternatively, if the image is already hosted somewhere publicly accessible, you can include the URL of the image in this text box.
+
+        Key shortcodes you may wish to use: 
+
+        ##### Videos 
+        
+        Add a video into the text by providing the youtube link in this way:
+        
+        {{< video https://youtu.be/ZrYtJqlwGcA?si=3d7cxQSBqBXkicqg >}}
+
+        ##### Images
+        
+        Link images - including both static images and animated gifs - like this:
+        
+        ![](https://my-website/image_name.png)    
       render: markdown
 
   - type: input
@@ -38,6 +58,7 @@ body:
     attributes:
       multiple: true
       label: Category
+      description: Select the categories that are relevant to this tool, project or package. You may select multiple options from this list. 
       options:
         - Service Planning
         - Identifying Bottlenecks
@@ -59,6 +80,33 @@ body:
     id: status
     attributes:
       label: Status
+      description: |
+        Rate the 
+        
+        ##### Bronze	
+        
+        A script, tool or package with limited documentation and/or that may need significant reworking to be reused.
+        
+        This may also be used to denote a project at an earlier stage of development, or which may no longer be maintained/receiving updates.
+
+        ##### Silver	
+        
+        Either
+        
+        - a script that is not optimised for reusability, but is well-documented and has scope for adapting
+        - a web-based or other tool with adjustable parameters
+        - a package
+        
+        However, compared to a ‘gold’ ranked project, these projects may be more limited in terms of automated tests, documentation, or may have limited adoption or maintenance.
+
+        ##### Gold	
+        
+        Either
+        - a well-parameterised script that is easily adapted for new use cases, with excellent documentation
+        - a web-based or other tool with adjustable parameters
+        - a package
+        
+        All would be expected to have extensive tests, clear documentation, and be well-established projects that are actively maintained. 
       options:
         - Bronze
         - Silver
@@ -73,7 +121,7 @@ body:
 
   - type: input
     id: code
-    attributes:
+    attributes: 
       label: Repository URL
       placeholder: e.g. https://nhsrplotthedots.nhsrcommunity.com/
 
@@ -81,30 +129,38 @@ body:
     id: documentation
     attributes:
       label: Documentation URL
-      placeholder: e.g. https://github.com/org/model-name
+      placeholder: e.g. https://nhsrplotthedots.nhsrcommunity.com/
 
   - type: input
     id: pypi
     attributes:
       label: PyPi URL
-      placeholder: e.g. https://github.com/org/model-name
+      placeholder: e.g. https://pypi.org/project/vidigi/
 
   - type: input
     id: cran
     attributes:
       label: CRAN URL
-      placeholder: https://cran.r-project.org/web/packages/NHSRplotthedots/index.html
+      placeholder: e.g https://cran.r-project.org/web/packages/NHSRplotthedots/index.html
 
   - type: input
     id: website
     attributes:
       label: Website URL
-      placeholder: https://cran.r-project.org/web/packages/NHSRplotthedots/index.html
+      placeholder: e.g. https://bupar.net/
+
+  - type: input
+    id: paper
+    attributes:
+      label: Paper URL
+      description: If a scientific paper has been published which relates to the tool, package or project, please provide a link, even if the paper is not open access. Links in the form of a doi (digital object identifier - a permanent link format) are preferred but not mandatory.
+      placeholder: e.g. https://doi.org/10.12968/bjhc.2020.0179
 
   - type: dropdown
     id: language
     attributes:
       label: Language or Tool 
+      description: Select the coding language or other tools that are relevant to this tool, project or package. You may select multiple options from this list. 
       multiple: true
       options:
         - Python
