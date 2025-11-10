@@ -35,14 +35,16 @@ jobs:
           language=$(echo "$JSON" | jq -r '.language[]' | sed 's/^/  - /')
           categories=$(echo "$JSON" | jq -r '.category[]' | sed 's/^/  - /')
 
-          # Map status → colored span using jq
+          # Map status → colored span, works for string or array
           status_span=$(echo "$JSON" | jq -r '
-            .status as $s |
-            if $s == "Bronze" then "<span style=\"color: #893400FF\">Bronze</span>" 
-            elif $s == "Silver" then "<span style=\"color: #888888FF\">Silver</span>" 
-            elif $s == "Gold" then "<span style=\"color: #D18B12FF\">Gold</span>"
-            else "<span>" + ($s // "Unknown") + "</span>"
-            end
+            def colorize($s):
+              if $s == "Bronze" then "<span style=\"color: #893400FF\">Bronze</span>"
+              elif $s == "Silver" then "<span style=\"color: #888888FF\">Silver</span>"
+              elif $s == "Gold" then "<span style=\"color: #D18B12FF\">Gold</span>"
+              else "<span>" + ($s // "Unknown") + "</span>"
+              end;
+      
+            .status | (if type=="array" then .[] else . end) | colorize(.)
           ')
           
           cat > packages_projects_tools/${{ fromJSON(steps.extract.outputs.json).model_name }}/${{ fromJSON(steps.extract.outputs.json).model_name }}.qmd <<EOF
