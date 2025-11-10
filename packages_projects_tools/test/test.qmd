@@ -1,0 +1,59 @@
+---
+title: "test"
+categories: 
+  - Data Visualisation
+  - Demand & Capacity Modelling
+author:
+  - name: "Sam"
+    affiliation: 
+    linkedin:
+    website: 
+    orcid:
+title-block-banner: ../../banner.png
+status: <span style="color: #D18B12FF">Gold</span>
+toc: true
+image: 
+pub-info:
+  language: '<i class="fa-brands fa-python"></i>'
+  abstract: |
+    "Some text"
+  links:
+  - name: Code
+    url: "https://github.com/issue-ops/parser"
+    icon: fa-brands fa-github
+  - name: Documentation
+    url: ""
+    icon: fa-solid fa-book
+  - name: Paper
+    url: ""
+    icon: fa-solid fa-file-contract
+  - name: PyPi
+    url: ""
+    icon: fa-solid fa-brands fa-python
+  - name: CRAN
+    url: ""
+    icon: fa-solid fa-brands fa-r-project
+  - name: Website
+    url: ""
+    icon: fa-solid fa-globe
+---
+
+## Language
+  - R
+
+
+
+## Additional Links
+
+
+## Additional Categories
+
+
+## Details
+
+
+:::{.callout-note}
+## Status Reason
+""
+:::
+
