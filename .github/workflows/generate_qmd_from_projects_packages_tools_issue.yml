@@ -27,7 +27,7 @@ jobs:
         uses: issue-ops/parser@v4.2.0
         with:
           body: ${{ github.event.issue.body }}
-          issue-form-template: .github/ISSUE_TEMPLATE/1-new_package_project_tool_submission.yml
+          issue-form-template: 1-new_package_project_tool_submission.yml
       - name: Create QMD file
         run: |
           mkdir -p submissions
