@@ -101,7 +101,7 @@ body:
       label: Website URL
       placeholder: https://cran.r-project.org/web/packages/NHSRplotthedots/index.html
 
-  - type: input
+  - type: dropdown
     id: language
     attributes:
       label: Language or Tool 
