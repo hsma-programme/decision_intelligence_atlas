@@ -5,14 +5,21 @@ on:
 
 jobs:
   generate:
-    if: |
-      contains(join(github.event.issue.labels.*.name, ','), 'project_package_tool_submission') ||
-      github.event.label.name == 'project_package_tool_submission'
     runs-on: ubuntu-latest
     permissions:
       contents: write
       issues: read
       pull-requests: write
+
+    if: |
+      (
+        github.event_name == 'opened' && 
+        contains(join(github.event.issue.labels.*.name, ','), 'project_package_tool_submission')
+      ) || 
+      (
+        github.event_name == 'labeled' &&
+        github.event.label.name == 'project_package_tool_submission'
+      )
 
     steps:
       - name: Checkout repository
@@ -20,7 +27,7 @@ jobs:
 
       - name: Extract issue data
         id: extract
-        uses: zentered/issue-forms-body-parser@v3
+        uses: issue-ops/parser@4.2.0
         with:
           issue-body: ${{ github.event.issue.body }}
 
@@ -29,45 +36,44 @@ jobs:
           mkdir -p submissions
           cat > submissions/${{ steps.extract.outputs.model_name }}.qmd <<EOF
           ---
-          title: "${{ steps.extract.outputs.model_name }}"
-          categories: ["${{ steps.extract.outputs.category }}"]
+          title: "${{ fromJSON(steps.parser.outputs.json).model_name }}"
+          categories: ["${{ fromJSON(steps.parser.outputs.json).category }}"]
           author:
-            - name: "${{ steps.extract.outputs.author }}"
+            - name: "${{ fromJSON(steps.parser.outputs.json).author }}"
               affiliation: HSMA
               linkedin:
               website: 
               orcid:
-          repo: "${{ steps.extract.outputs.repo }}"
           title-block-banner: ../../banner.png
           status: '<span style="color: #893400FF">Bronze</span>''<span style="color: #888888FF">Silver</span>''<span style="color: #D18B12FF">Gold</span>'
           image: 
           pub-info:
             language: '<i class="fa-brands fa-python"></i>'
             abstract: |
-              "${{ steps.extract.outputs.summary }}"
+              "${{ fromJSON(steps.parser.outputs.json).summary }}"
             links:
             - name: Code
-              url: "${{ steps.extract.outputs.code }}"
+              url: "${{ fromJSON(steps.parser.outputs.json).code }}"
               icon: fa-brands fa-github
             - name: Documentation
-              url: "${{ steps.extract.outputs.documentation }}"
+              url: "${{ fromJSON(steps.parser.outputs.json).documentation }}"
               icon: fa-solid fa-book
             - name: Paper
-              url: "${{ steps.extract.outputs.paper }}"
+              url: "${{ fromJSON(steps.parser.outputs.json).paper }}"
               icon: fa-solid fa-file-contract
             - name: PyPi
-              url: "${{ steps.extract.outputs.pypi }}"
+              url: "${{ fromJSON(steps.parser.outputs.json).pypi }}"
               icon: fa-solid fa-brands fa-python
             - name: CRAN
-              url: "${{ steps.extract.outputs.cran }}"
+              url: "${{ fromJSON(steps.parser.outputs.json).cran }}"
               icon: fa-solid fa-brands fa-r-project
             - name: Website
-              url: "${{ steps.extract.outputs.website }}"
+              url: "${{ fromJSON(steps.parser.outputs.json).website }}"
               icon: fa-solid fa-globe
           ---
 
           ## Status Reason
-          "${{ steps.extract.outputs.status_reason }}"
+          "${{ fromJSON(steps.parser.outputs.json).status_reason }}"
 
           ## Language
           ["${{ steps.extract.outputs.language }}"]
