@@ -85,8 +85,8 @@ jobs:
       - name: Commit and open PR
         uses: peter-evans/create-pull-request@v6
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "Add package, tool or project: ${{ fromJSON(steps.extract.outputs.json).model_name }}"
           branch: add-${{ fromJSON(steps.extract.outputs.json).model_name }}
           title: "Add package, tool or project: ${{ fromJSON(steps.extract.outputs.json).model_name }}"
           body: "Auto-generated from issue #${{ github.event.issue.number }}"
+          reviewers: Bergam0t
