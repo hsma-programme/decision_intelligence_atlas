@@ -5,7 +5,7 @@ on:
 
 jobs:
   generate:
-    if: contains(github.event.issue.labels.*.name, 'project_package_tool_submission')
+    if: contains(join(github.event.issue.labels.*.name, ','), 'project_package_tool_submission')
     runs-on: ubuntu-latest
     permissions:
       contents: write
