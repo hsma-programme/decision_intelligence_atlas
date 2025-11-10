@@ -109,7 +109,7 @@ body:
     id: code
     attributes: 
       label: Repository URL
-      placeholder: e.g. https://nhsrplotthedots.nhsrcommunity.com/
+      placeholder: https://github.com/nhs-bnssg-analytics/nowcasts
 
   - type: input
     id: documentation
