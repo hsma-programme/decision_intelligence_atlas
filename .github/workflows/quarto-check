@@ -1,0 +1,14 @@
+# .github/workflows/quarto-check.yml
+on:
+  pull_request:
+
+name: Quarto Check
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: quarto-dev/quarto-actions/setup@v2
+      - name: Render (test build)
+        run: quarto render
