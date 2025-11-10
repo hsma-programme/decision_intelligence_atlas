@@ -9,7 +9,7 @@ body:
     attributes:
       label: Package, project or tool name
       placeholder: e.g. vidigi, bupaR, SimPy  
-      description: Replace this with the name that should appear when visitors are scrolling through the packages, projects and tools page.
+      description: Replace this with the name that should appear when visitors are scrolling through the [packages, projects and tools page](https://atlas.hsma.co.uk/packages_projects_tools/packages_projects_tools.html).
     validations:
       required: true
 
@@ -17,7 +17,7 @@ body:
     id: summary
     attributes:
       label: Short summary
-      description: A short summary of what this package, project or tool does. This should be between 50 and 200 words. It will be displayed when visitors are scrolling through the packages, projects and tools page.
+      description: A short summary of what this package, project or tool does. This should be between 50 and 200 words. It will be displayed when visitors are scrolling through the [packages, projects and tools page](https://atlas.hsma.co.uk/packages_projects_tools/packages_projects_tools.html).
       placeholder: e.g. NHSRplotthedots is an R package that simplifies the creation and automation of statistical process control (SPC) charts for KPIs. It helps analysts and teams move beyond static KPIs to understand true performance variation and identify opportunities for improvement.
 
   - type: textarea
@@ -29,21 +29,15 @@ body:
         
         Note that this section will be rendered within Quarto, so feel free to use all kinds of Quarto formatting. 
         
-        If you wish to include images, please add a placeholder within the file making it clear what image should be present there, and then upload these images to the github issue that will be created after you have submitted this. 
+        If you wish to include images, please add a placeholder within the file making it clear what image should be present there, and then upload these images to the github issue that will be created after you have submitted this. You can do this by adding the image to a comment on the created issue.
         Alternatively, if the image is already hosted somewhere publicly accessible, you can include the URL of the image in this text box.
 
-        Key shortcodes you may wish to use: 
-
-        ##### Videos 
+        Key shortcodes you may wish to use in your description: 
         
-        Add a video into the text by providing the youtube link in this way:
-        
+        **Videos:** Embed a video in the description by providing the youtube link in this way:
         {{< video https://youtu.be/ZrYtJqlwGcA?si=3d7cxQSBqBXkicqg >}}
 
-        ##### Images
-        
-        Link images - including both static images and animated gifs - like this:
-        
+        **Images**: Link images - including both static images and animated gifs - like this:
         ![](https://my-website/image_name.png)    
       render: markdown
 
@@ -81,32 +75,24 @@ body:
     attributes:
       label: Status
       description: |
-        Rate the 
+        Rate the reusability of the package. This is not a strict process - please use the following guidance to guide your rating.
         
-        ##### Bronze	
-        
-        A script, tool or package with limited documentation and/or that may need significant reworking to be reused.
-        
+        **Bronze**: A script, tool or package with limited documentation and/or that may need significant reworking to be reused.  
         This may also be used to denote a project at an earlier stage of development, or which may no longer be maintained/receiving updates.
-
-        ##### Silver	
         
-        Either
-        
+        **Silver**: Either
         - a script that is not optimised for reusability, but is well-documented and has scope for adapting
         - a web-based or other tool with adjustable parameters
         - a package
         
         However, compared to a ‘gold’ ranked project, these projects may be more limited in terms of automated tests, documentation, or may have limited adoption or maintenance.
-
-        ##### Gold	
         
-        Either
+        **Gold**: Either
         - a well-parameterised script that is easily adapted for new use cases, with excellent documentation
         - a web-based or other tool with adjustable parameters
         - a package
         
-        All would be expected to have extensive tests, clear documentation, and be well-established projects that are actively maintained. 
+        To receive the gold ranking, any of the above would be expected to have extensive tests, clear documentation, and be well-established projects that are actively maintained. 
       options:
         - Bronze
         - Silver
@@ -134,12 +120,14 @@ body:
   - type: input
     id: pypi
     attributes:
+      description: If the tool is a Python project that is hosted on PyPi (the Python package index), please provide the PyPi link.
       label: PyPi URL
       placeholder: e.g. https://pypi.org/project/vidigi/
 
   - type: input
     id: cran
     attributes:
+      description: If the tool is an R project that is hosted on CRAN, please provide the CRAN link.
       label: CRAN URL
       placeholder: e.g https://cran.r-project.org/web/packages/NHSRplotthedots/index.html
 
@@ -155,6 +143,13 @@ body:
       label: Paper URL
       description: If a scientific paper has been published which relates to the tool, package or project, please provide a link, even if the paper is not open access. Links in the form of a doi (digital object identifier - a permanent link format) are preferred but not mandatory.
       placeholder: e.g. https://doi.org/10.12968/bjhc.2020.0179
+
+  - type: textarea
+    id: other_urls
+    attributes:
+      label: Other URLS
+      description: If there are any additional links you would like to provide, please provide them in the format Link Name: Link. Please place each link on a new line. 
+      placeholder: e.g. Conda Forge Link: https://anaconda.org/conda-forge/vidigi 
 
   - type: dropdown
     id: language
