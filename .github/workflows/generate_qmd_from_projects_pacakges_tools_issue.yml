@@ -2,7 +2,6 @@ name: Generate Quarto page from Issue Form
 on:
   issues:
     types: [opened, edited, labeled]
-
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -10,91 +9,81 @@ jobs:
       contents: write
       issues: read
       pull-requests: write
-
     if: |
       (
-        github.event_name == 'opened' && 
+        github.event.action == 'opened' && 
         contains(join(github.event.issue.labels.*.name, ','), 'project_package_tool_submission')
       ) || 
       (
-        github.event_name == 'labeled' &&
+        github.event.action == 'labeled' &&
         github.event.label.name == 'project_package_tool_submission'
       )
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
       - name: Extract issue data
         id: extract
         uses: issue-ops/parser@4.2.0
         with:
           issue-body: ${{ github.event.issue.body }}
-
       - name: Create QMD file
         run: |
           mkdir -p submissions
-          cat > submissions/${{ steps.extract.outputs.model_name }}.qmd <<EOF
+          cat > submissions/${{ fromJSON(steps.extract.outputs.json).model_name }}.qmd <<EOF
           ---
-          title: "${{ fromJSON(steps.parser.outputs.json).model_name }}"
-          categories: ["${{ fromJSON(steps.parser.outputs.json).category }}"]
+          title: "${{ fromJSON(steps.extract.outputs.json).model_name }}"
+          categories: ["${{ fromJSON(steps.extract.outputs.json).category }}"]
           author:
-            - name: "${{ fromJSON(steps.parser.outputs.json).author }}"
+            - name: "${{ fromJSON(steps.extract.outputs.json).author }}"
               affiliation: HSMA
               linkedin:
               website: 
               orcid:
           title-block-banner: ../../banner.png
-          status: '<span style="color: #893400FF">Bronze</span>''<span style="color: #888888FF">Silver</span>''<span style="color: #D18B12FF">Gold</span>'
+          status: '<span style="color: #893400FF">Bronze</span> <span style="color: #888888FF">Silver</span> <span style="color: #D18B12FF">Gold</span>'
           image: 
           pub-info:
             language: '<i class="fa-brands fa-python"></i>'
             abstract: |
-              "${{ fromJSON(steps.parser.outputs.json).summary }}"
+              "${{ fromJSON(steps.extract.outputs.json).summary }}"
             links:
             - name: Code
-              url: "${{ fromJSON(steps.parser.outputs.json).code }}"
+              url: "${{ fromJSON(steps.extract.outputs.json).code }}"
               icon: fa-brands fa-github
             - name: Documentation
-              url: "${{ fromJSON(steps.parser.outputs.json).documentation }}"
+              url: "${{ fromJSON(steps.extract.outputs.json).documentation }}"
               icon: fa-solid fa-book
             - name: Paper
-              url: "${{ fromJSON(steps.parser.outputs.json).paper }}"
+              url: "${{ fromJSON(steps.extract.outputs.json).paper }}"
               icon: fa-solid fa-file-contract
             - name: PyPi
-              url: "${{ fromJSON(steps.parser.outputs.json).pypi }}"
+              url: "${{ fromJSON(steps.extract.outputs.json).pypi }}"
               icon: fa-solid fa-brands fa-python
             - name: CRAN
-              url: "${{ fromJSON(steps.parser.outputs.json).cran }}"
+              url: "${{ fromJSON(steps.extract.outputs.json).cran }}"
               icon: fa-solid fa-brands fa-r-project
             - name: Website
-              url: "${{ fromJSON(steps.parser.outputs.json).website }}"
+              url: "${{ fromJSON(steps.extract.outputs.json).website }}"
               icon: fa-solid fa-globe
           ---
-
           ## Status Reason
-          "${{ fromJSON(steps.parser.outputs.json).status_reason }}"
-
+          "${{ fromJSON(steps.extract.outputs.json).status_reason }}"
           ## Language
-          ["${{ steps.extract.outputs.language }}"]
-
-          ${{ steps.extract.outputs.language_other }}
+          ["${{ fromJSON(steps.extract.outputs.json).language }}"]
+          ${{ fromJSON(steps.extract.outputs.json).language_other }}
           
           ## Methodology
-          ${{ steps.extract.outputs.methodology }}
-
+          ${{ fromJSON(steps.extract.outputs.json).methodology }}
           ## Additional Links
-          ["${{ steps.extract.outputs.other_urls }}"]
-
+          ["${{ fromJSON(steps.extract.outputs.json).other_urls }}"]
           ## Additional Categories
-          {{ steps.extract.outputs.methodology }}
+          ${{ fromJSON(steps.extract.outputs.json).methodology }}
           
           EOF
-
       - name: Commit and open PR
         uses: peter-evans/create-pull-request@v6
         with:
-          commit-message: "Add package, tool or project: ${{ steps.extract.outputs.model_name }}"
-          branch: add-${{ steps.extract.outputs.model_name }}
-          title: "Add package, tool or project: ${{ steps.extract.outputs.model_name }}"
+          commit-message: "Add package, tool or project: ${{ fromJSON(steps.extract.outputs.json).model_name }}"
+          branch: add-${{ fromJSON(steps.extract.outputs.json).model_name }}
+          title: "Add package, tool or project: ${{ fromJSON(steps.extract.outputs.json).model_name }}"
           body: "Auto-generated from issue #${{ github.event.issue.number }}"
