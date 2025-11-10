@@ -9,6 +9,7 @@ jobs:
       contents: write
       issues: read
       pull-requests: write
+      actions: write
     if: |
       (
         github.event.action == 'opened' && 
@@ -23,9 +24,9 @@ jobs:
         uses: actions/checkout@v4
       - name: Extract issue data
         id: extract
-        uses: issue-ops/parser@v4.2.0
+        uses: issue-ops/parser@v3
         with:
-          issue-body: ${{ github.event.issue.body }}
+          body: ${{ github.event.issue.body }}
       - name: Create QMD file
         run: |
           mkdir -p submissions
