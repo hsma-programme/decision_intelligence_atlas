@@ -148,8 +148,8 @@ body:
     id: other_urls
     attributes:
       label: Other URLS
-      description: If there are any additional links you would like to provide, please provide them in the format Link Name: Link. Please place each link on a new line. 
-      placeholder: e.g. Conda Forge Link: https://anaconda.org/conda-forge/vidigi 
+      description: "If there are any additional links you would like to provide, please provide them in the format Link Name: Link. Please place each link on a new line." 
+      placeholder: "e.g. Conda Forge Link: https://anaconda.org/conda-forge/vidigi" 
 
   - type: dropdown
     id: language
