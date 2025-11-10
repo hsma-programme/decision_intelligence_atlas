@@ -30,14 +30,16 @@ jobs:
           issue-form-template: 1-new_package_project_tool_submission.yml
       - name: Create QMD file
         run: |
-          mkdir -p submissions
-          cat > submissions/${{ fromJSON(steps.extract.outputs.json).model_name }}.qmd <<EOF
+          mkdir -p packages_projects_tools/${{ fromJSON(steps.extract.outputs.json).model_name }}
+          categories=$(echo '${{ steps.extract.outputs.json }}' | jq -r '.category[]' | sed 's/^/  - /')
+          cat > packages_projects_tools/${{ fromJSON(steps.extract.outputs.json).model_name }}/${{ fromJSON(steps.extract.outputs.json).model_name }}.qmd <<EOF
           ---
           title: "${{ fromJSON(steps.extract.outputs.json).model_name }}"
-          categories: ["${{ fromJSON(steps.extract.outputs.json).category }}"]
+          categories: 
+            ${categories}
           author:
             - name: "${{ fromJSON(steps.extract.outputs.json).author }}"
-              affiliation: HSMA
+              affiliation: 
               linkedin:
               website: 
               orcid:
@@ -70,14 +72,18 @@ jobs:
           ---
           ## Status Reason
           "${{ fromJSON(steps.extract.outputs.json).status_reason }}"
+          
           ## Language
-          ["${{ fromJSON(steps.extract.outputs.json).language }}"]
+          ${{ fromJSON(steps.extract.outputs.json).language }}
+          
           ${{ fromJSON(steps.extract.outputs.json).language_other }}
           
           ## Methodology
           ${{ fromJSON(steps.extract.outputs.json).methodology }}
+          
           ## Additional Links
-          ["${{ fromJSON(steps.extract.outputs.json).other_urls }}"]
+          ${{ fromJSON(steps.extract.outputs.json).other_urls }}
+          
           ## Additional Categories
           ${{ fromJSON(steps.extract.outputs.json).methodology }}
           
