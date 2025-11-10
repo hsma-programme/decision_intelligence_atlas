@@ -1,7 +1,7 @@
 name: "New Package, Project or Tool Submission"
 description: "Submit a new package, project or tool to the atlas"
 title: "Add new package, project or tool: [NAME]"
-labels: ["submission"]
+labels: ["project_package_tool_submission"]
 
 body:
   - type: input
