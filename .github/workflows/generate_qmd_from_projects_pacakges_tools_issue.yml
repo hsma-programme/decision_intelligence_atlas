@@ -27,6 +27,7 @@ jobs:
         uses: issue-ops/parser@v3
         with:
           body: ${{ github.event.issue.body }}
+          issue-form-template: .github/ISSUE_TEMPLATE/1-new_package_project_tool_submission.yml
       - name: Create QMD file
         run: |
           mkdir -p submissions
@@ -84,6 +85,7 @@ jobs:
       - name: Commit and open PR
         uses: peter-evans/create-pull-request@v6
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "Add package, tool or project: ${{ fromJSON(steps.extract.outputs.json).model_name }}"
           branch: add-${{ fromJSON(steps.extract.outputs.json).model_name }}
           title: "Add package, tool or project: ${{ fromJSON(steps.extract.outputs.json).model_name }}"
