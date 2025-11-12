@@ -12,9 +12,9 @@ jobs:
       actions: write
     if: |
       (
-        github.event.action == 'opened' && 
+        github.event.action == 'opened' &&
         contains(join(github.event.issue.labels.*.name, ','), 'project_package_tool_submission')
-      ) || 
+      ) ||
       (
         github.event.action == 'labeled' &&
         github.event.label.name == 'project_package_tool_submission'
@@ -43,25 +43,25 @@ jobs:
               elif $s == "Gold" then "<span style=\"color: #D18B12FF\">Gold</span>"
               else "<span>" + ($s // "Unknown") + "</span>"
               end;
-      
+
             .status | (if type=="array" then .[] else . end) | colorize(.)
           ')
-          
+
           cat > packages_projects_tools/${{ fromJSON(steps.extract.outputs.json).model_name }}/${{ fromJSON(steps.extract.outputs.json).model_name }}.qmd <<EOF
           ---
           title: "${{ fromJSON(steps.extract.outputs.json).model_name }}"
-          categories: 
+          categories:
           ${categories}
           author:
             - name: "${{ fromJSON(steps.extract.outputs.json).author }}"
-              affiliation: 
+              affiliation:
               linkedin:
-              website: 
+              website:
               orcid:
           title-block-banner: ../../banner.png
           status: ${status_span}
           toc: true
-          image: 
+          image:
           pub-info:
             language: '<i class="fa-brands fa-python"></i>'
             abstract: |
@@ -86,26 +86,26 @@ jobs:
               url: "${{ fromJSON(steps.extract.outputs.json).website }}"
               icon: fa-solid fa-globe
           ---
-          
+
           ## Language
           ${language}
-          
+
           ${{ fromJSON(steps.extract.outputs.json).language_other }}
 
           ## Additional Links
           ${{ fromJSON(steps.extract.outputs.json).other_urls }}
-          
+
           ## Additional Categories
           ${{ fromJSON(steps.extract.outputs.json).methodology }}
-          
+
           ## Details
           ${{ fromJSON(steps.extract.outputs.json).methodology }}
 
           :::{.callout-note}
-          ## Status Reason
+          ### Rationale for Rating
           "${{ fromJSON(steps.extract.outputs.json).status_reason }}"
           :::
-          
+
           EOF
       - name: Commit and open PR
         id: create_pr

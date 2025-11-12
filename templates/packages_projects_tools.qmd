@@ -41,5 +41,5 @@ Please place a description of the project here
 
 :::{.callout-info}
 ### Rationale for Rating
-Please place a short description of your
+Please place a short description of your reasoning for the rating you have applied
 :::
