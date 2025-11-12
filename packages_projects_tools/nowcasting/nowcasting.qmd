@@ -3,6 +3,8 @@ title: "nowcasts: a short-term operational forecasting script"
 categories:
   - Forecasting
   - Demand Prediction
+  - Microsoft Power BI
+  - R
 title-block-banner: ../../banner.png
 status: '<span style="color: #893400FF">Bronze</span>'
 image: nowcasts.png
