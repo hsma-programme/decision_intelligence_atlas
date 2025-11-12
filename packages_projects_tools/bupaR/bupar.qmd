@@ -5,6 +5,7 @@ categories:
   - Identifying Bottlenecks
   - Data Visualisation
   - Pathway Analytics
+  - R
 title-block-banner: ../../banner.png
 status: '<span style="color: #D18B12FF">Gold</span>'
 image: bupar.gif
