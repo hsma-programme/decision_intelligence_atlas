@@ -1,0 +1,79 @@
+---
+title: "patientflow: predicting short-term hospital bed demand using real-time data "
+categories:
+  - Demand Prediction
+  - Forecasting
+  - Beds
+  - Machine Learning
+  # Enter categories here, with each category on its own line with a - preceding it. Please also include the language as a category to aid with filtering.
+title-block-banner: ../../banner.png
+status: '<span style="color: #888888FF>Silver</span>' # Delete as appropriate
+image: 4b_Predict_emergency_demand_23_0.png # provide a relative filepath to an image that will appear in the listing page. If you don't have one, delete this line entirely and a placeholder image will be used.
+author:
+  - name: # Please include your name (so we can appropriately credit you for authoring this page)
+    affiliation: # Optionally (but preferred), please include your organisation
+    linkedin: # If you're happy to share your linkedin, please do
+    website: # If you have a personal website you'd like to share, please do
+    orcid: # If you have an ORCID (a unique researcher identifier) you'd like to share, please do
+    github: # If you have a github you'd be happy to share, please do
+pub-info:
+  language: '<i class="fa-brands fa-python"></i>' # Delete as appropriate
+  abstract: |
+    PatientFlow is a Python package for real-time short-term predictions of hospital bed demand. It uses snapshots of current in-hospital patients as well as expected future arrivals, converts patient-level predictions into aggregated group-level bed-count forecasts, and delivers actionable outputs for bed managers, such as a likely range of the number of beds needed in the next 8 hours for a given specialty. The package is designed for operational, short-term use as opposed to long-term strategic planning.
+  links:
+  - name: Code
+    url: https://github.com/UCL-CORU/patientflow
+    icon: fa-brands fa-github
+  - name: Documentation
+    url: https://ucl-coru.github.io/patientflow/
+    icon: fa-solid fa-book
+  - name: Paper
+    url: # Enter a URL here if relvant
+    icon: fa-solid fa-file-contract
+  - name: PyPi
+    url: # Enter a URL here if relvant
+    icon: fa-solid fa-brands fa-python
+  - name: CRAN
+    url: # Enter a URL here if relvant
+    icon: fa-solid fa-brands fa-r-project
+  - name: Website
+    url: # Enter a URL here if relvant
+    icon: fa-solid fa-globe
+---
+
+Originally developed for UCLH’s emergency admissions team, PatientFlow uses real-time or near real-time Electronic Health Record (EHR) data to convert individual-patient probabilities of admission, discharge or transfer into aggregated forecasts of bed occupancy or demand.
+
+By training a machine learning model (specifically, an XGBoost model) on snapshots of unfinished patient visits, using this data to predict whether patients will be admitted/discharged/transferred in that time period, this model can be used to make predictions on new data.
+
+![](assets/2025-11-13-22-08-00.png)
+
+Source: <https://www.youtube.com/watch?v=ha_zckz3_rU>
+
+![](assets/2025-11-13-22-08-53.png)
+
+Source: <https://www.youtube.com/watch?v=ha_zckz3_rU>
+
+![](assets/2025-11-13-22-09-20.png)
+
+Source: <https://www.youtube.com/watch?v=ha_zckz3_rU>
+
+![](assets/2025-11-13-22-10-25.png)
+
+Source: <https://www.youtube.com/watch?v=ha_zckz3_rU>
+
+## Talks
+
+This first of a series of two talks covers the theory of the work.
+
+{{< video https://www.youtube.com/watch?v=ha_zckz3_rU >}}
+
+
+This next talk dives more into the details of the package.
+
+{{< video https://www.youtube.com/watch?v=r8aQ3eIwy4c >}}
+
+
+:::{.callout-info}
+### Rationale for Rating
+13/11/2025 SR: This work currently describes itself as an alpha release. It has been used by UCLH and a hospital in Sweden, but it is not in widespread use beyond that, so may still require modification for your own use case.
+:::
