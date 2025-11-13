@@ -1,8 +1,9 @@
 project:
   type: website
   render:
+    - "**.qmd"
     - "!templates/*.qmd"
-
+  output-dir: docs
 
 website:
   title: The Healthcare Service Analytics & Decision Intelligence Atlas
