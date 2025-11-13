@@ -47,6 +47,7 @@ Templates for other kinds of content will follow in the future.
 When creating your own entry,
 
 - please create a folder in the **packages_projects_tools** folder with the name of the tool. Please ensure there are no spaces or special characters other than - or _ in the folder name.
+    - note that there are currently a lot of placeholders for various tools/packages/projects that @Bergam0t thinks should be added, which will just contain an empty file calld '.gitkeep' that's used to tell GitHub to make the folder. You are very welcome to submit an entry for one of these! In that case, you just won't need to create a new folder - use the one that's already thre.
 - please then copy the template into your folder and rename it with the same name as your folder, ensuring you don't accidentally remove the .qmd file extension.
 - you can then use this folder to store any additional resources such as images or gifs. Please use **relative** links - e.g. if you add an image called 'my_tool_example.png' to your folder 'my_tool', in your 'my_tool.qmd' file you would reference that as ![](my_tool_example.png), not ![](C:/my_username/decision_intelligence_atlas/packages_projects_tools/my_tool/my_tool_example.png) or !(my_tool/my_tool_example.png).
 - please fill in the yml header, using the comments provided to help guide you
