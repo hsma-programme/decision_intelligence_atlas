@@ -22,9 +22,15 @@ jobs:
         with:
           version: 1.7.33
 
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
