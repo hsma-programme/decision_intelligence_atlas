@@ -3,7 +3,7 @@ title: "Replace this with a short-ish title describing the tool, project or pack
 categories:
   - # Enter categories here, with each category on its own line with a - preceding it. Please also include the language as a category to aid with filtering.
 title-block-banner: ../../banner.png
-status: '<span style="color: #D18B12FF">Gold</span>''<span style="color: #888888FF>Silver</span>''<span style="color: #893400FF">Bronze</span>' # Delete as appropriate
+status: '<span style="color: #D18B12FF">Gold</span>''<span style="color: #888888FF">Silver</span>''<span style="color: #893400FF">Bronze</span>' # Delete as appropriate
 image: # provide a relative filepath to an image that will appear in the listing page. If you don't have one, delete this line entirely and a placeholder image will be used.
 author:
   - name: # Please include your name (so we can appropriately credit you for authoring this page)

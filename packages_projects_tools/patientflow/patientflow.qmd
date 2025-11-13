@@ -7,7 +7,7 @@ categories:
   - Machine Learning
   # Enter categories here, with each category on its own line with a - preceding it. Please also include the language as a category to aid with filtering.
 title-block-banner: ../../banner.png
-status: '<span style="color: #888888FF>Silver</span>' # Delete as appropriate
+status: '<span style="color: #888888FF">Silver</span>' # Delete as appropriate
 image: 4b_Predict_emergency_demand_23_0.png # provide a relative filepath to an image that will appear in the listing page. If you don't have one, delete this line entirely and a placeholder image will be used.
 author:
   - name: # Please include your name (so we can appropriately credit you for authoring this page)
