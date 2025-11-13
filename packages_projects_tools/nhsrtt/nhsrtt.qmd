@@ -4,7 +4,6 @@ categories:
   - # Enter categories here, with each category on its own line with a - preceding it. Please also include the language as a category to aid with filtering.
 title-block-banner: ../../banner.png
 status: '<span style="color: #888888FF>Silver</span>' # Delete as appropriate
-image: # provide a relative filepath to an image that will appear in the listing page. If you don't have one, delete this line entirely and a placeholder image will be used.
 author:
   - name: # Please include your name (so we can appropriately credit you for authoring this page)
     affiliation: # Optionally (but preferred), please include your organisation
@@ -15,7 +14,7 @@ author:
 pub-info:
   language: '<i class="fa-brands fa-r-project"></i>' # Delete as appropriate
   abstract: |
-    Write a short descrption that would appear on the listing page to help people decide whther they want more information.
+    NHSRtt is an R package, providing analysts with a simple stock-and-flow modelling framework for NHS referral-to-treatment (RTT) data. The tool supports scenario testing and planning for elective care pathways by translating patient flow data into projections of waiting list size and treatment demand.
   links:
   - name: Code - Model
     url: https://github.com/nhs-bnssg-analytics/NHSRtt
