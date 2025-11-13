@@ -5,6 +5,7 @@ on:
     paths:
       - '_quarto.yml'
       - '**/*.qmd'
+      - '.github/**/*.yml'
 
 name: Quarto Publish
 
