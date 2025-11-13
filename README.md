@@ -1,4 +1,4 @@
-[![All Contributors](https://img.shields.io/github/all-contributors/hsma-tools/decision_intelligence_atlas?color=ee8449&style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/github/all-contributors/hsma-programme/decision_intelligence_atlas?color=ee8449&style=flat-square)](#contributors)
 
 Welcome to the Healthcare Services Analytics & Decision Science Atlas.
 
