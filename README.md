@@ -1,9 +1,21 @@
+[![All Contributors](https://img.shields.io/github/all-contributors/hsma-programme/decision_intelligence_atlas?color=ee8449&style=flat-square)](#contributors)
+
 Welcome to the Healthcare Services Analytics & Decision Science Atlas.
 
 This site is in its very early stages - please check back as we continue to develop it.
 
 In time, we hope this can develop into a tool to help showcase the amazing work happening across the analyics and data science communities in healthcare, promoting reuse and collaborative work on the tools we all need.
 
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## Contributing
 
@@ -61,3 +73,11 @@ Alternatively, if you're up for the challenge of creating a template, please do 
 ### Making other suggestions
 
 If you have any other suggestions about the website layout, content, or anything else, please [raise an issue]() on the repository.
+
+### Getting recognition
+
+When your pull request is merged, you will be added to the contributors list by the pull request reviewer.
+
+Reviewers: see guidance on [allcontributors.org/docs/en/bot/usage](https://allcontributors.org/docs/en/bot/usage)
+
+You may also be added for other reasons, like providing valuable input via issues or discussions.
