@@ -64,7 +64,8 @@ To create your own entry:
     - If no suitable category exists, add a new one in the YAML header and mention it in your pull request. An admin will review it and decide whether to add it to the list of categories.
     * Additionally, if your entry does not fit under the existing headers on the [atlas.hsma.co.uk/packages_tools_projects](atlas.hsma.co.uk/packages_tools_projects) page, please let us know in your pull request and an admin can look at adding a new section to this page. Please let us know if you have a section heading in mind.
 
-The website is currently being compiled with Quarto version 1.7.33. You do **not** need to render the project yourself other than to preview your entry - all site rendering is handled by automated GitHub actions.
+To preview your entry locally, run `quarto render` to compile the website.  
+The project currently uses Quarto version 1.7.33. You do **not** need to render the site manually for updates - deployment is handled automatically by GitHub Actions.
 
 ##### Using GitHub Codespaces
 
