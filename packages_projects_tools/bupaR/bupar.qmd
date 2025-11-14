@@ -8,7 +8,7 @@ categories:
   - R
 title-block-banner: ../../banner.png
 status: '<span style="color: #D18B12FF">Gold</span>'
-image: bupar.gif
+image: bupaR.gif
 pub-info:
   language: '<i class="fa-brands fa-r-project"></i>'
   abstract: |
