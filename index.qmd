@@ -2,9 +2,9 @@ Welcome to the Healthcare Services Analytics & Decision Science Atlas. This is a
 
 This site is in its very early stages - please check back as we continue to develop it.
 
-In time, we hope this can develop into a tool to help showcase the amazing work happening across the analyics and data science communities in healthcare, promoting reuse and collaborative work on the tools we all need.
+In time, we hope this can develop into a tool to help showcase the amazing work happening across the analytics and data science communities in healthcare, promoting reuse and collaborative work on the tools we all need.
 
-Contributions are very welcome! This process will be streamlind in the future, but for now you can [take a fork of the repository](https://github.com/hsma/decision_intelligence_atlas) and then make a pull request with your proposed additions or changes.
+Contributions are very welcome! Please see the [repository README](https://github.com/hsma-programme/decision_intelligence_atlas) for instructions on how to contribute.
 
 :::{.callout-warning}
 Please note that inclusion of a tool on this site does not imply that the HSMA team have reviewed these tools in detail. This is designed to act as a signpost to the work out there, and provide a high-level indication of the health of any given project, but you should always conduct your own reviews of the suitability of any of these tools and techniques for your own use case.
