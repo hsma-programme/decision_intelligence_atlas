@@ -46,12 +46,13 @@ Pairing well with reporting tools like Quarto or rmarkdown, as well as dashboard
 Not come across SPC charts before? Read these guides from the NHS England Making Data Count team to understand how they can help make sense of whether variation in a metric is at a level of concern. By helping to cut through random noise and highlight true patterns of variation, we can move away from 'spuddling' - constant meddling that fails to produce real change - and make our reporting more impactful.
 
 ```{=html}
-<embed width="1000" height="800" src="../../resources/makingdatacount/making-data-count-getting-started-2019.pdf" title="Making Data Count - Getting Started">
+<embed width="100%" height="400" src="making-data-count-getting-started-2019.pdf" title="Making Data Count - Getting Started">
 ```
 
 ```{=html}
-<embed width="1000" height="800" src="../../resources/makingdatacount/making-data-count-strengthening-your-decisions.pdf" title="Making Data Count - Strengthening Your Decisions">
+<embed width="100%" height="400" src="making-data-count-strengthening-your-decisions.pdf" title="Making Data Count - Strengthening Your Decisions">
 ```
+
 ## Related Projects
 
 For Python, try [NHSPy-plotthedots](../nhspy-plotthedots/nhspy-plotthedots.qmd)
