@@ -10,9 +10,7 @@ website:
   draft-mode: unlinked
   site-url: https://atlas.hsma.co.uk
   description: "A guide to modern healthcare analytics, modelling and data science"
-  favicon: resources/favicon.png
   navbar:
-    logo: "/resources/Chalky HSMA-07-wide white logo.png"
     title: false
     collapse-below: "xl"
     tools:
