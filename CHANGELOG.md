@@ -33,6 +33,7 @@ This release adds some new tools, and makes changes to styling and site setup.
 * Banner PNG added and switched to being loaded globally via `_quarto.yml` (removed broken per-page banner references).
 * Switched rating callouts from `.callout-info` (not a real style) to `.callout-note` so callouts render properly.
 * Removed white hyperlinks from themes, so you are able to see location in table of contents.
+* Corrected category and add image for NHSRtt page.
 
 ### Removed
 
