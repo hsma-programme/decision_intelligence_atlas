@@ -5,6 +5,7 @@ categories:
   - R
   - Service Planning
   - Identifying Bottlenecks
+  - RAP
 status: # TODO
 image: homepage.png
 author:
