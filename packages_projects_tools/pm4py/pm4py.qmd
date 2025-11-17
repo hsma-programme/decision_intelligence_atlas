@@ -5,7 +5,6 @@ categories:
   - Identifying Bottlenecks
   - Data Visualisation
   - Pathway Analytics
-title-block-banner: ../../banner.png
 status: '<span style="color: #D18B12FF">Gold</span>'
 image: pm4py.png
 pub-info:

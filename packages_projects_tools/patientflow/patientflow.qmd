@@ -5,7 +5,6 @@ categories:
   - Forecasting
   - Beds
   - Machine Learning
-title-block-banner: ../../banner.png
 status: '<span style="color: #888888FF">Silver</span>'
 image: 4b_Predict_emergency_demand_23_0.png
 pub-info:

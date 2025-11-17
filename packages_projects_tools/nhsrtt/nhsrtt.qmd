@@ -3,7 +3,6 @@ title: "nhsrtt: a package for seeing how changes in future treatment capacity af
 categories:
   - Waiting Lists
   - Performance Forecasting
-title-block-banner: ../../banner.png
 status: '<span style="color: #888888FF>Silver</span>'
 pub-info:
   language: '<i class="fa-brands fa-r-project"></i>'

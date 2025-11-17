@@ -55,10 +55,7 @@ jobs:
           author:
             - name: "${{ fromJSON(steps.extract.outputs.json).author }}"
               affiliation:
-              linkedin:
-              website:
               orcid:
-          title-block-banner: ../../banner.png
           status: ${status_span}
           toc: true
           image:

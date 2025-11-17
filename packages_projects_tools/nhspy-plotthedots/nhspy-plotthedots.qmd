@@ -4,7 +4,6 @@ categories:
   - KPI Reporting
   - Statistical Process Control
   - Python
-title-block-banner: ../../banner.png
 status: '<span style="color: #893400FF">Bronze</span>'
 image: image.png
 pub-info:

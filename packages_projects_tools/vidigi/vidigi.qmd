@@ -8,7 +8,6 @@ author:
   - name: Sammi Rosser
     affiliation: HSMA
     orcid: 0000-0002-9552-8988
-title-block-banner: ../../banner.png
 status: '<span style="color: #888888FF">Silver</span>'
 image: vidigi.gif
 pub-info:

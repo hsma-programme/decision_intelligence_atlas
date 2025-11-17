@@ -4,7 +4,6 @@ categories:
   - KPI Reporting
   - Statistical Process Control
   - R
-title-block-banner: ../../banner.png
 status: '<span style="color: #D18B12FF">Gold</span>'
 image: nhsrplotthedots.png
 pub-info:
