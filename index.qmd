@@ -1,4 +1,8 @@
-Welcome to the Healthcare Services Analytics & Decision Science Atlas. This is a directory of open-source tools, packages, and projects for analytics and decision science in healthcare.
+---
+title: Healthcare Services Analytics & Decision Science Atlas
+---
+
+Welcome to the Healthcare Services Analytics & Decision Science Atlas. **This is a directory of open-source tools, packages, and projects for analytics and decision science in healthcare.**
 
 This site is in its very early stages - please check back as we continue to develop it.
 

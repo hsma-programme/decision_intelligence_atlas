@@ -36,10 +36,6 @@ website:
       - href: about_hsma.qmd
         text: About HSMA
 
-
-
-
-
 format:
   html:
     theme:
@@ -48,7 +44,7 @@ format:
       - resources/fonts/css/lexend.css
     css: styles.css
     toc: true
-    title-block-banner: /resources/banner.png
+    title-block-banner: resources/banner.png
     mainfont: Lexend
     include-in-header:
       - text: |
