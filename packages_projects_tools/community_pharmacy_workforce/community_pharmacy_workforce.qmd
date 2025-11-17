@@ -1,0 +1,37 @@
+---
+title: "Community pharmacy workforce projection model"
+categories:
+  - Forecasting
+status: '<span style="color: #893400FF">Bronze</span>'
+author:
+  - name: Chaeyoon Kim
+    affiliation: NHS England
+pub-info:
+  language: '<i class="fa-brands fa-python"></i>'
+  abstract: |
+    Workforce projection model to support NHS workforce planning for community pharmacy services, with a focus on pharmacists and pharmacy technicians.
+  links:
+  - name: Code
+    url: https://github.com/chaeyoonyunakim/community-pharmacy-workforce-with-open-data
+    icon: fa-brands fa-github
+---
+
+## Presentation
+
+Presentation from the [NHS RPySOC 2025 Conference](https://github.com/nhs-r-community/RPySOC2025_presentations):
+
+```{=html}
+<embed width="100%" height="400" src="2025-11-13_kim.pdf" title="Presentation from the NHS RPySOC 2025 Conference">
+```
+
+<!-- TODO:
+
+::: {.callout-note}
+
+## Rationale for Rating
+
+Please place a short description of your reasoning for the rating you have applied
+
+:::
+
+-->
