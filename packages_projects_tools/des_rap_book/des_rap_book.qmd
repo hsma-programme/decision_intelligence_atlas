@@ -1,0 +1,46 @@
+---
+title: "DES RAP Book: Reproducible Discrete-Event Simulation in Python and R"
+categories:
+  - Python
+  - R
+  - Service Planning
+  - Identifying Bottlenecks
+status: # TODO
+image: homepage.png
+author:
+  - name: # Author of the package, project or tool
+    affiliation: # Their organisation/institution
+    orcid: # Their ORCID
+pub-info:
+  language: '<i class="fa-brands fa-python"></i><i class="fa-brands fa-r-project"></i>'
+  abstract: |
+    DES RAP Book is an open resource and website for building discrete-event simulation (DES) models within a reproducible analytical pipeline (RAP), supporting the healthcare simulation community. The resource demonstrates practical, code-based workflows and tools to help researchers and practitioners develop, validate, and share DES models in Python (SimPy) and R (simmer), ensuring models are reproducible.
+  links:
+  - name: Code
+    url: https://github.com/pythonhealthdatascience/des_rap_book
+    icon: fa-brands fa-github
+  - name: Paper
+    url: # Enter a URL here if relevant
+    icon: fa-solid fa-file-contract
+  - name: Website
+    url: https://pythonhealthdatascience.github.io/des_rap_book/
+    icon: fa-solid fa-globe
+---
+
+This practical guide shows you how to build reproducible discrete-event simulation models (DES) that fit into a reproducible analytical pipeline (RAP), with tips that benefit all types of models and analysis.
+
+This resource is an output of STARS, a research project led by Associate Prof. Tom Monks ORCID. The book is written by Amy Heather ORCID and reviewed by Prof. Nav Mustafee ORCID, Dr. Alison Harper ORCID, and Associate Prof. Tom Monks ORCID. The STARS project is supported by the Medical Research Council [grant number MR/Z503915/1]. The listed researchers are associated with the University of Exeter Medical and Business Schools.
+
+To view the book, click on the image or go to <https://pythonhealthdatascience.github.io/des_rap_book/>:
+
+[![DES RAP Book](homepage.png)](https://pythonhealthdatascience.github.io/des_rap_book/)
+
+<!--TODO
+
+::: {.callout-note}
+
+## Rationale for Rating
+
+:::
+
+-->
