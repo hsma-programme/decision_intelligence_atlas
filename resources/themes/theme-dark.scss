@@ -1,8 +1,15 @@
 /*-- scss:defaults --*/
-//https://quarto.org/docs/output-formats/html-themes.html
-// Base document colors
+
+// Background colours
+$navbar-bg: #8B0000;
+$footer-bg: #8B0000;
+$card-bg: #2d2d2d;
 
 // Code blocks
 $code-block-bg-alpha: -.8;
-$navbar-bg: #8B0000;
-$footer-bg: #8B0000;
+
+/*-- scss:rules --*/
+
+.custom-grid-card {
+  --bs-card-bg: #{$card-bg};
+}
