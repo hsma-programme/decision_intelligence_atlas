@@ -54,12 +54,6 @@ p {
   font-weight: 200;
 }
 
-a {
-  color:  #5ae0f3;
-  padding: 0.1rem 0.1rem;
-  font-weight: 500;
-}
-
 .quarto-title .quarto-categories .quarto-category {
     font-size: .85em;
     font-weight: 600;
@@ -231,16 +225,6 @@ a {
   flex-wrap: wrap;
   margin: 0px;
   box-sizing: border-box;
-}
-
-a {
-	color: rgb(255, 255, 255);
-	text-decoration: underline;
-	-webkit-text-decoration: underline;
-	-moz-text-decoration: underline;
-	-ms-text-decoration: underline;
-	-o-text-decoration: underline;
-  padding: 2px
 }
 
 .custom-button:hover a {
