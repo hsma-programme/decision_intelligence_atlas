@@ -24,6 +24,7 @@ This release adds some new tools, and makes changes to styling and site setup.
 * Author YAML in tool pages now refers to the person or team who made the package/tool, not the Atlas page writer. This is because current set-up creates confusion, as implies the page writer is the package/tool author.
 * All CSS/SCSS styling files have moved to `resources/`.
 * Abstract titles and colors reworked for legibility - shorter title, no opacity and larger font size.
+* Moved code/documentation/website buttons to below abstract for better visibility (easy to not notice them when they are above the title).
 
 ### Fixed
 

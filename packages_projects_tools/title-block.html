@@ -2,18 +2,6 @@
     class="quarto-title-block projects default$if(quarto-template-params.banner-header-class)$ $quarto-template-params.banner-header-class$$endif$">
     <div class="quarto-title-banner">
 
-        $if(pub-info.links)$
-        <div class="project-link-buttons">
-            <ul class="project-links">
-                $for(pub-info.links)$
-                $if(pub-info.links.url)$
-                <button class="custom-button"><a href="$pub-info.links.url$"><i class="$pub-info.links.icon$"></i> $pub-info.links.name$</a></button>
-                $endif$
-                $endfor$
-            </ul>
-        </div>
-        $endif$
-
         $if(include-back-link)$
         <div class="back-nav"><a href="javascript:history.back()">← Back</a></div>
         $endif$
@@ -51,6 +39,19 @@
             $endif$
             $endif$
         </div>
+
+
+        $if(pub-info.links)$
+        <div class="project-link-buttons">
+            <ul class="project-links">
+                $for(pub-info.links)$
+                $if(pub-info.links.url)$
+                <button class="custom-button"><a href="$pub-info.links.url$"><i class="$pub-info.links.icon$"></i> $pub-info.links.name$</a></button>
+                $endif$
+                $endfor$
+            </ul>
+        </div>
+        $endif$
 
     </div>
 
