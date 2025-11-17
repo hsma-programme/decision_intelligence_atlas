@@ -2,8 +2,9 @@
 title: "nhsrtt: a package for seeing how changes in future treatment capacity affect the waiting list size and performance"
 categories:
   - Waiting Lists
-  - Performance Forecasting
+  - Forecasting
 status: '<span style="color: #888888FF>Silver</span>'
+image: docs_screenshot.png
 pub-info:
   language: '<i class="fa-brands fa-r-project"></i>'
   abstract: |
