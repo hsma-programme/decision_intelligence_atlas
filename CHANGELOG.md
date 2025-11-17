@@ -14,6 +14,7 @@ This release adds some new tools, and makes changes to styling and site setup.
 * New pages for DES RAP Book, NHS RAP Community of Practice and `opencodecounts`.
 * Light theme option now available, including a lighter version of the custom grid card.
 * Add `CITATION.cff` and `CHANGELOG.md`.
+* Add "Other" category to packages, projects and tools.
 
 ### Changed
 

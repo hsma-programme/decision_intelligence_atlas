@@ -2,6 +2,7 @@
 title: "opencodecounts"
 categories:
   - R
+  - Other
 status: # TODO
 image: app.jpg
 author:

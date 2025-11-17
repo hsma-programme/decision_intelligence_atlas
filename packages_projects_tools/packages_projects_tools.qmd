@@ -83,6 +83,21 @@ listing:
       sort-ui: true
       filter-ui: true
       image-placeholder: "../resources/placeholder.png"
+    - id: other
+      include:
+        categories: "{Other}"
+      contents: "*/*.qmd"
+      sort: "title asc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: true
+      template: listing.ejs
+      template-params:
+        ncols: 2
+      sort-ui: true
+      filter-ui: true
+      image-placeholder: "../resources/placeholder.png"
 ---
 
 ```{=html}
@@ -161,4 +176,9 @@ If you have any concerns, or would like any content to be removed, please contac
 ##  Web-based Tools and Interacive Interface Creation
 
 ::: {#web_interface_and_tool_creation}
+:::
+
+##  Other
+
+::: {#other}
 :::

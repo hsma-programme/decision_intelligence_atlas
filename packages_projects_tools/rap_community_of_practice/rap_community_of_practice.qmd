@@ -2,6 +2,7 @@
 title: "NHS RAP Community of Practice"
 categories:
   - RAP
+  - Other
 status: # TODO
 image: homepage.png
 author:
