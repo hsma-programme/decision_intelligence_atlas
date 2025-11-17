@@ -8,9 +8,18 @@ categories:
 status: # TODO
 image: homepage.png
 author:
-  - name: # Author of the package, project or tool
-    affiliation: # Their organisation/institution
-    orcid: # Their ORCID
+  - name: Amy Heather
+    affiliation: University of Exeter Medical School
+    orcid: 0000-0002-6596-3479
+  - name: Tom Monks
+    affiliation: University of Exeter Medical School
+    orcid: 0000-0003-2631-4481
+  - name: Nav Mustafee
+    affiliation: University of Exeter Business School
+    orcid: 0000-0002-2204-8924
+  - name: Alison Harper
+    affiliation: University of Exeter Business School
+    orcid: 0000-0001-5274-5037
 pub-info:
   language: '<i class="fa-brands fa-python"></i><i class="fa-brands fa-r-project"></i>'
   abstract: |
@@ -27,13 +36,42 @@ pub-info:
     icon: fa-solid fa-globe
 ---
 
-This practical guide shows you how to build reproducible discrete-event simulation models (DES) that fit into a reproducible analytical pipeline (RAP), with tips that benefit all types of models and analysis.
+This practical guide shows you how to build reproducible **discrete-event simulation models** (DES) that fit into a **reproducible analytical pipeline (RAP)**, with tips that benefit all types of models and analysis.
 
-This resource is an output of STARS, a research project led by Associate Prof. Tom Monks ORCID. The book is written by Amy Heather ORCID and reviewed by Prof. Nav Mustafee ORCID, Dr. Alison Harper ORCID, and Associate Prof. Tom Monks ORCID. The STARS project is supported by the Medical Research Council [grant number MR/Z503915/1]. The listed researchers are associated with the University of Exeter Medical and Business Schools.
+Key features include:
 
-To view the book, click on the image or go to <https://pythonhealthdatascience.github.io/des_rap_book/>:
+* **Dual Implementation:** Every concept is demonstrated with working code examples in both Python (SimPy) and R (simmer), allowing you to learn in your preferred language.
 
-[![DES RAP Book](homepage.png)](https://pythonhealthdatascience.github.io/des_rap_book/)
+* **Example repositories:** The book includes practical case studies like M/M/s queueing models and a stroke capacity planning model, implementing all the book recommendations and available as separate GitHub repositories.
+
+* **Built on Research:** Follows recommendations from peer-reviewed research on reproducibility in healthcare DES, and the NHS RAP Community of Practice Levels of RAP.
+
+* **Interactive Learning:** Structured as a Quarto website with searchable content, code examples you can copy, and clear explanations suitable for beginners through advanced users.
+
+<br>
+
+[![DES RAP Book homepage](homepage.png)](https://pythonhealthdatascience.github.io/des_rap_book/)
+
+<br>
+
+## Book contents
+
+| Section | Pages |
+| -- | --- |
+| Introduction | Discrete-event simulation (DES)<br>Reproducibility and RAPs<br>Guidelines<br>Open-source languages<br>Example conceptual models |
+| Setup | Version control<br>Environments<br>Structuring as a package<br>Code organisation |
+| Model inputs | Input modelling<br>Input data management<br>Parameters from script<br>Parameters from file<br>Parameter validation |
+| Model building | Randomness<br>Entity generation<br>Entity processing<br>Logging |
+| Output analysis | Initialisation bias<br>Performance measures<br>Replications<br>Length of warm-up<br>Number of replications<br>Parallel processing |
+| Experimentation | Scenario and sensitivity analysis<br>Tables and figures<br>Full run | Verification and validation | Verification and validation<br>Tests<br>Mathematical proof of correctness |
+| Style and documentation | Linting<br>Docstrings<br>GitHub actions<br>Documentation |
+| Collaboration & sharing | Code review<br>Licensing<br>Citation<br>Changelog<br>Sharing and archiving |
+
+<br>
+
+## View the book
+
+To view the book, click on the image below or go to <https://pythonhealthdatascience.github.io/des_rap_book/>.
 
 <!--TODO
 
