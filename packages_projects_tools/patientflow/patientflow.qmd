@@ -5,19 +5,11 @@ categories:
   - Forecasting
   - Beds
   - Machine Learning
-  # Enter categories here, with each category on its own line with a - preceding it. Please also include the language as a category to aid with filtering.
 title-block-banner: ../../banner.png
-status: '<span style="color: #888888FF">Silver</span>' # Delete as appropriate
-image: 4b_Predict_emergency_demand_23_0.png # provide a relative filepath to an image that will appear in the listing page. If you don't have one, delete this line entirely and a placeholder image will be used.
-author:
-  - name: # Please include your name (so we can appropriately credit you for authoring this page)
-    affiliation: # Optionally (but preferred), please include your organisation
-    linkedin: # If you're happy to share your linkedin, please do
-    website: # If you have a personal website you'd like to share, please do
-    orcid: # If you have an ORCID (a unique researcher identifier) you'd like to share, please do
-    github: # If you have a github you'd be happy to share, please do
+status: '<span style="color: #888888FF">Silver</span>'
+image: 4b_Predict_emergency_demand_23_0.png
 pub-info:
-  language: '<i class="fa-brands fa-python"></i>' # Delete as appropriate
+  language: '<i class="fa-brands fa-python"></i>'
   abstract: |
     PatientFlow is a Python package for real-time short-term predictions of hospital bed demand. It uses snapshots of current in-hospital patients as well as expected future arrivals, converts patient-level predictions into aggregated group-level bed-count forecasts, and delivers actionable outputs for bed managers, such as a likely range of the number of beds needed in the next 8 hours for a given specialty. The package is designed for operational, short-term use as opposed to long-term strategic planning.
   links:
@@ -28,16 +20,16 @@ pub-info:
     url: https://ucl-coru.github.io/patientflow/
     icon: fa-solid fa-book
   - name: Paper
-    url: # Enter a URL here if relvant
+    url: # Enter a URL here if relevant
     icon: fa-solid fa-file-contract
   - name: PyPi
-    url: # Enter a URL here if relvant
+    url: # Enter a URL here if relevant
     icon: fa-solid fa-brands fa-python
   - name: CRAN
-    url: # Enter a URL here if relvant
+    url: # Enter a URL here if relevant
     icon: fa-solid fa-brands fa-r-project
   - name: Website
-    url: # Enter a URL here if relvant
+    url: # Enter a URL here if relevant
     icon: fa-solid fa-globe
 ---
 
@@ -73,7 +65,10 @@ This next talk dives more into the details of the package.
 {{< video https://www.youtube.com/watch?v=r8aQ3eIwy4c >}}
 
 
-:::{.callout-info}
-### Rationale for Rating
+::: {.callout-note}
+
+## Rationale for Rating
+
 13/11/2025 SR: This work currently describes itself as an alpha release. It has been used by UCLH and a hospital in Sweden, but it is not in widespread use beyond that, so may still require modification for your own use case.
+
 :::

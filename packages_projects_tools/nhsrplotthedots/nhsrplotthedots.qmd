@@ -32,9 +32,12 @@ pub-info:
     icon: fa-solid fa-globe
 ---
 
-:::{.callout-info}
-### Rationale for Rating
+::: {.callout-note}
+
+## Rationale for Rating
+
 This package has a strong codebase with automated testing, ongoing maintenance and development, and strong documentation. It believe it has been used in a variety of organisations for reporting.
+
 :::
 
 NHSrplotthedots is an R package designed to make it easier to produce statistical process control (SPC) charts, which are a widely well-regarded way to report on KPIs in trusts and other organisations across the country.

@@ -102,8 +102,11 @@ jobs:
           ${{ fromJSON(steps.extract.outputs.json).methodology }}
 
           :::{.callout-note}
-          ### Rationale for Rating
+
+          ## Rationale for Rating
+
           "${{ fromJSON(steps.extract.outputs.json).status_reason }}"
+
           :::
 
           EOF
