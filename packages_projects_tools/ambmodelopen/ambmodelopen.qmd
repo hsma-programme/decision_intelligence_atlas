@@ -1,0 +1,38 @@
+---
+title: "AmbModelOpen: A discrete event simulation of ambulance resources"
+categories:
+  - Other
+  - R
+status: TBC
+image: plot_RU_instant_.png
+author:
+  - name: Martina Fons
+    affiliation: Digital Analytics and Research Team (DART)
+  - name: Jonny Pearson
+    affiliation: Digital Analytics and Research Team (DART)
+pub-info:
+  language: '<i class="fa-brands fa-r-project"></i>'
+  abstract: |
+    Discrete Event Simulation in RSimmer of Ambulance Job Cycle Times.
+  links:
+  - name: Code
+    url: https://github.com/nhsengland/AmbModelOpen
+    icon: fa-brands fa-github
+  - name: Documentation
+    url: https://nhsengland.github.io/AmbModelOpen/
+    icon: fa-solid fa-book
+---
+
+"A discrete event simulation focusing on simulating the ambulance job cycle time. The work has been made open to support:
+
+* Reuse of the code-base by an analyst with access to ambulance data. In this situation the code should be forked and adapted locally to ingest the trust specific data and trajectory. We have attempted to include enough information around the parameters and inputs used to allow this refactoring to new data.
+
+* An example of using the open R library RSimmer for a healthcare discrete event simulation. We have tried to include enough information around the approach and considerations to be useful for wider simulations." ([source](https://nhsengland.github.io/AmbModelOpen/))
+
+<br>
+
+## Project status
+
+**Status: {{< meta status >}}**
+
+**Rationale:** TBC.
