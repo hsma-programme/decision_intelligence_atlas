@@ -7,7 +7,23 @@ categories:
 status: '<span style="color: #D18B12FF">Gold</span>'
 image: functions.png
 author:
-  - name: NHS-R Community
+  - name: Neil Walton
+    affiliation: Durham University
+    orcid: 0000-0002-5241-9765
+  - name: Jacqueline Grout
+    affiliation: The Strategy Unit
+  - name: Zoë Turner
+    affiliation: Nottinghamshire Healthcare NHS Foundation Trust
+    orcid: 0000-0003-1033-9158
+  - name: Matt Dray
+  - name: Paul Fenton
+  - name: Peter Shakeshaft
+  - name: David Foord
+  - name: Tom Smith
+  - name: Chris Mainey
+    affiliation: Birmingham and Solihull ICB
+    orcid: 0000-0002-3018-6171
+  - name: Mohammed Mohammed
 pub-info:
   language: '<i class="fa-brands fa-r-project"></i>'
   abstract: |
