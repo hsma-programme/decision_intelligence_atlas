@@ -139,6 +139,11 @@ p {
   justify-content: center;
 }
 
+.project-link-buttons a {
+  --bs-link-color-rgb: 255,255,255;  /* White hyperlink */
+  text-decoration: none;             /* No underline */
+}
+
 .category-button {
   background-color: #202020;  /* Grey background */
   color: rgb(189, 189, 189);               /* Off-White text */
