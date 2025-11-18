@@ -18,8 +18,6 @@ website:
         menu:
           - text: View the code for this website
             href:  https://github.com/bergam0t/decision_intelligence_atlas
-      - icon: linkedin
-        href: https://www.linkedin.com/samanthajaderosser/
     right:
       - href: index.qmd
         text: Welcome
