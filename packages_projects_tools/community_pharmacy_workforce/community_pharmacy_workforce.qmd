@@ -3,6 +3,7 @@ title: "Community pharmacy workforce projection model"
 categories:
   - Forecasting
 status: '<span style="color: #888888FF">Silver</span>'
+image: workforce_projection.png
 author:
   - name: Chaeyoon Kim
     affiliation: NHS England
@@ -15,6 +16,10 @@ pub-info:
     url: https://github.com/chaeyoonyunakim/community-pharmacy-workforce-with-open-data
     icon: fa-brands fa-github
 ---
+
+![Example output from [Github](https://github.com/chaeyoonyunakim/community-pharmacy-workforce-with-open-data).](workforce_projection.png)
+
+<br>
 
 ## Presentation
 
