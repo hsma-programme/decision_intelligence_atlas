@@ -3,7 +3,6 @@
 // Background colours
 $navbar-bg: #8B0000;
 $footer-bg: #8B0000;
-$card-bg: #2d2d2d;
 
 // Code blocks
 $code-block-bg-alpha: -.8;
@@ -11,5 +10,9 @@ $code-block-bg-alpha: -.8;
 /*-- scss:rules --*/
 
 .custom-grid-card {
-  --bs-card-bg: #{$card-bg};
+  --bs-card-bg: #2d2d2d;
+}
+
+.custom-grid-card .title-link {
+  color: #ffffff
 }

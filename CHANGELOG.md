@@ -26,6 +26,7 @@ This release adds some new tools, and makes changes to styling and site setup.
 * Abstract titles and colors reworked for legibility - shorter title, no opacity and larger font size.
 * Moved code/documentation/website buttons to below abstract for better visibility (easy to not notice them when they are above the title).
 * Changed the format of "project status" section at end of each page to include status alongside rationale.
+* Make project title on grid cards a hyperlink.
 
 ### Fixed
 

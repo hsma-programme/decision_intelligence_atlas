@@ -277,6 +277,10 @@ p {
   box-sizing: border-box;
 }
 
+.custom-grid-card .title-link {
+  text-decoration: none;  /* No underline on hyperlink */
+}
+
 .custom-grid-card {
   flex: 1 1 auto;
   -webkit-flex: 1 1 auto;
