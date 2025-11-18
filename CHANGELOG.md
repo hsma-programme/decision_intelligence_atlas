@@ -11,7 +11,7 @@ This release adds some new tools, and makes changes to styling and site setup.
 
 ### Added
 
-* New pages for: DES RAP Book, NHS RAP Community of Practice, `opencodecounts`, a community pharmacy workforce model, the New Hospital Programme Demand Model, `NHSRwaitinglist`, the ICB Place Based Allocation Tool, `nhs_time_of_travel`,  `AmbModelOpen`, `sim-tools`.
+* New pages for: DES RAP Book, NHS RAP Community of Practice, `opencodecounts`, a community pharmacy workforce model, the New Hospital Programme Demand Model, `NHSRwaitinglist`, the ICB Place Based Allocation Tool, `nhs_time_of_travel`,  `AmbModelOpen`, `sim-tools`, `ciw`.
 * Light theme option now available, including a lighter version of the custom grid card.
 * Add `CITATION.cff` and `CHANGELOG.md`.
 * Add "Other" category to packages, projects and tools.
