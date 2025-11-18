@@ -25,6 +25,7 @@ This release adds some new tools, and makes changes to styling and site setup.
 * All CSS/SCSS styling files have moved to `resources/`.
 * Abstract titles and colors reworked for legibility - shorter title, no opacity and larger font size.
 * Moved code/documentation/website buttons to below abstract for better visibility (easy to not notice them when they are above the title).
+* Changed the format of "project status" section at end of each page to include status alongside rationale.
 
 ### Fixed
 
@@ -32,7 +33,6 @@ This release adds some new tools, and makes changes to styling and site setup.
 * Prevented the pm4py web app from overflowing off the right edge of the page.
 * Add `docs/` and `site_libs/` to `.gitignore`.
 * Banner PNG added and switched to being loaded globally via `_quarto.yml` (removed broken per-page banner references).
-* Switched rating callouts from `.callout-info` (not a real style) to `.callout-note` so callouts render properly.
 * Removed white hyperlinks from themes, so you are able to see location in table of contents.
 * Corrected category and add image for NHSRtt page.
 

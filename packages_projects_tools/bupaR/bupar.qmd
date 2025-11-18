@@ -33,6 +33,18 @@ pub-info:
     icon: fa-solid fa-globe
 ---
 
+![](bupaR.gif)
+
+<br>
+
 ## Related tools
 
 A detailed breakdown of the capabilities of bupaR and vidigi, and the areas of pathway animation in which they excel, can be found [in the vidigi documentation](https://hsma-tools.github.io/vidigi/vidigi_docs/vidigi_vs_bupar.html).
+
+<br>
+
+## Project status
+
+**Status: {{< meta status >}}**
+
+**Rationale:** Comprehensive documentation, active maintenance, modular package design, and wide adoption in process mining research and practice

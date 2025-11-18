@@ -98,11 +98,14 @@ jobs:
           ## Details
           ${{ fromJSON(steps.extract.outputs.json).methodology }}
 
-          :::{.callout-note}
+          
+          <br>
 
-          ## Rationale for Rating
+          ## Project status
 
-          "${{ fromJSON(steps.extract.outputs.json).status_reason }}"
+          **Status: {{< meta status >}}**
+
+          **Rationale:** "${{ fromJSON(steps.extract.outputs.json).status_reason }}"
 
           :::
 

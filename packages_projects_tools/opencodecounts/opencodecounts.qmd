@@ -3,7 +3,7 @@ title: "opencodecounts"
 categories:
   - R
   - Other
-status: # TODO
+status: '<span style="color: #D18B12FF">Gold</span>'
 image: app.jpg
 author:
   - name: Milan Wiedemann
@@ -57,14 +57,10 @@ Presentation from the [NHS RPySOC 2025 Conference](https://github.com/nhs-r-comm
 <embed width="100%" height="400" src="2025-11-13_wiedemann.pdf" title="opencodecounts: An R package and Shiny app exploring NHS clinical coding data">
 ```
 
-<!--
+<br>
 
-::: {.callout-note}
+## Project status
 
-## Rationale for Rating
+**Status: {{< meta status >}}**
 
-Please place a short description of your reasoning for the rating you have applied
-
-:::
-
--->
+**Rationale:** Well-structured R package and interactive tool with comprehensive documentation.

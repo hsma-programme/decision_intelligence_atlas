@@ -44,11 +44,11 @@ The core idea is to implement a stock-and-flow model of activity: patients flow 
 
 The second repository contains a packaged shiny app that calls on the main model, allowing users to experiment with different scenarios without having to change parameters in code.
 
-::: {.callout-note}
+<br>
 
-## Rationale for Rating
+## Project status
 
-13/11/2025 SR: This work has been undertaken by an experienced team of modellers. There is excellent documentation and good automated test coverage.
+**Status: {{< meta status >}}**
+
+**Rationale:** This work has been undertaken by an experienced team of modellers. There is excellent documentation and good automated test coverage.
 However, it is not yet available on CRAN, requiring the code to be installed from GitHub, so it has not undertaken the review process that packages on CRAN go through.
-
-:::

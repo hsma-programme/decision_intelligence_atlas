@@ -3,7 +3,7 @@ title: "NHS RAP Community of Practice"
 categories:
   - RAP
   - Other
-status: # TODO
+status: N/A
 image: homepage.png
 author:
   - name: RAP Community of Practice
@@ -34,14 +34,10 @@ Resources include the "Levels of RAP" framework, which is a set of actionable st
 
 [![Levels of RAP](levels_of_rap.png)](https://nhsdigital.github.io/rap-community-of-practice/introduction_to_RAP/levels_of_RAP/)
 
-<!-- TODO
+<br>
 
-::: {.callout-note}
+## Project status
 
-## Rationale for Rating
+**Status: {{< meta status >}}**
 
-Please place a short description of your reasoning for the rating you have applied
-
-:::
-
--->
+**Rationale:** Reference resource rather than code, so it is not ranked.

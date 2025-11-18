@@ -64,3 +64,11 @@ You can try the package out in the web app embedded below (it may take a moment 
 ```{=html}
 <iframe width="100%" height="400" src="https://simplemines.streamlit.app/" title="Simple Mines - Process Mining Demo App"></iframe>
 ```
+
+<br>
+
+## Project status
+
+**Status: {{< meta status >}}**
+
+**Rationale:** Actively maintained and widely used Python library with extensive features and user documentation.

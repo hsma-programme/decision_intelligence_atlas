@@ -31,14 +31,6 @@ pub-info:
     icon: fa-solid fa-globe
 ---
 
-::: {.callout-note}
-
-## Rationale for Rating
-
-This package has a strong codebase with automated testing, ongoing maintenance and development, and strong documentation. It believe it has been used in a variety of organisations for reporting.
-
-:::
-
 NHSrplotthedots is an R package designed to make it easier to produce statistical process control (SPC) charts, which are a widely well-regarded way to report on KPIs in trusts and other organisations across the country.
 
 Pairing well with reporting tools like Quarto or rmarkdown, as well as dashboarding tools like R Shiny, this battle-tested package used in trusts across the country can help to automate and improve reporting, using the same underlying methodology as the Excel tool originally provided by the
@@ -58,3 +50,12 @@ Not come across SPC charts before? Read these guides from the NHS England Making
 ## Related Projects
 
 For Python, try [NHSPy-plotthedots](../nhspy-plotthedots/nhspy-plotthedots.qmd)
+
+
+<br>
+
+## Project status
+
+**Status: {{< meta status >}}**
+
+**Rationale:** This package has a strong codebase with automated testing, ongoing maintenance and development, and strong documentation. It believe it has been used in a variety of organisations for reporting.

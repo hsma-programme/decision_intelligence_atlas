@@ -6,7 +6,7 @@ categories:
   - Service Planning
   - Identifying Bottlenecks
   - RAP
-status: # TODO
+status: '<span style="color: #D18B12FF">Gold</span>'
 image: homepage.png
 author:
   - name: Amy Heather
@@ -74,12 +74,10 @@ Key features include:
 
 To view the book, click on the image below or go to <https://pythonhealthdatascience.github.io/des_rap_book/>.
 
-<!--TODO
+<br>
 
-::: {.callout-note}
+## Project status
 
-## Rationale for Rating
+**Status: {{< meta status >}}**
 
-:::
-
--->
+**Rationale:** This resource guides users in building "Gold" standard models - well-documented, tested, and structured as packages - with four complete examples illustrating these best practices.

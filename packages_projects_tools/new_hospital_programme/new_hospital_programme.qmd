@@ -53,14 +53,10 @@ Quality assurance plan and log managed using GitHub Projects at <https://github.
 
 This is explained in their [presentation from the NHS RPySOC 2025 Conference](https://statsrhian.github.io/qa-in-github/).
 
-<!--TODO
+<br>
 
-::: {.callout-note}
+## Project status
 
-## Rationale for Rating
+**Status: {{< meta status >}}**
 
-Please place a short description of your reasoning for the rating you have applied
-
-:::
-
--->
+**Rationale:** Extensive documentation, robust quality assurance, modular design, and transparent, actively maintained processes.

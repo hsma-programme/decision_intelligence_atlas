@@ -31,16 +31,17 @@ pub-info:
     icon: fa-solid fa-globe
 ---
 
-::: {.callout-note}
-
-## Rationale for Rating
-
-This package has had solid initial development but is described as being in alpha and not ready for use in production. In addition, it has been archived; it is presumed the package is looking for new developers/maintainers.
-
-:::
-
-Please place a description of the project here
+![](image.png)
 
 ## Related Projects
 
 For R, try [nhsrplotthedots](../nhsrplotthedots/nhsrplotthedots.qmd)
+
+
+<br>
+
+## Project status
+
+**Status: {{< meta status >}}**
+
+**Rationale:** This package has had solid initial development but is described as being in alpha and not ready for use in production. In addition, it has been archived; it is presumed the package is looking for new developers/maintainers.

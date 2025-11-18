@@ -64,10 +64,10 @@ This next talk dives more into the details of the package.
 {{< video https://www.youtube.com/watch?v=r8aQ3eIwy4c >}}
 
 
-::: {.callout-note}
+<br>
 
-## Rationale for Rating
+## Project status
 
-13/11/2025 SR: This work currently describes itself as an alpha release. It has been used by UCLH and a hospital in Sweden, but it is not in widespread use beyond that, so may still require modification for your own use case.
+**Status: {{< meta status >}}**
 
-:::
+**Rationale:** This work currently describes itself as an alpha release. It has been used by UCLH and a hospital in Sweden, but it is not in widespread use beyond that, so may still require modification for your own use case.

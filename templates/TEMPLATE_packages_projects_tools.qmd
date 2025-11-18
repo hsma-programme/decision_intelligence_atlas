@@ -35,10 +35,10 @@ pub-info:
 
 Please place a description of the project here
 
-::: {.callout-note}
+<br>
 
-## Rationale for Rating
+## Project status
 
-Please place a short description of your reasoning for the rating you have applied
+**Status: {{< meta status >}}**
 
-:::
+**Rationale:** Please place a short description of your reasoning for the rating you have applied

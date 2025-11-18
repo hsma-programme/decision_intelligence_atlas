@@ -2,7 +2,7 @@
 title: "Community pharmacy workforce projection model"
 categories:
   - Forecasting
-status: '<span style="color: #893400FF">Bronze</span>'
+status: '<span style="color: #888888FF">Silver</span>'
 author:
   - name: Chaeyoon Kim
     affiliation: NHS England
@@ -24,14 +24,10 @@ Presentation from the [NHS RPySOC 2025 Conference](https://github.com/nhs-r-comm
 <embed width="100%" height="400" src="2025-11-13_kim.pdf" title="Presentation from the NHS RPySOC 2025 Conference">
 ```
 
-<!-- TODO:
+<br>
 
-::: {.callout-note}
+## Project status
 
-## Rationale for Rating
+**Status: {{< meta status >}}**
 
-Please place a short description of your reasoning for the rating you have applied
-
-:::
-
--->
+**Rationale:** Package structure and a clear README makes this project easy to use and understand. Rated silver as doesn't have tests or further documentation.

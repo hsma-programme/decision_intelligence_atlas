@@ -40,3 +40,11 @@ Vidigi is an animation library designed to support the communication of discrete
 However, it could in theory be used to generate animations from real-world data, providing impactful and intuitive visualisations of bottlenecks and flow within services.
 
 {{< video https://youtu.be/ZrYtJqlwGcA?si=3d7cxQSBqBXkicqg >}}
+
+<br>
+
+## Project status
+
+**Status: {{< meta status >}}**
+
+**Rationale:** Actively maintained package, ranked "Silver" as it is still under development.
