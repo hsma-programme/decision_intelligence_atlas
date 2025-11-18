@@ -72,6 +72,7 @@ p {
 
 #title-block-header .abstract {
   margin-block-start: 3rem;
+  margin-bottom: 2em;
 }
 
 .nav-footer {
@@ -193,6 +194,7 @@ p {
 
 .quarto-categories {
   padding: 0.5rem 0.5rem;
+  margin-bottom: 2rem;
 }
 
 
