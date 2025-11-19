@@ -45,6 +45,8 @@ You can find a template .qmd file for adding a package, project or tool in the `
 
 Templates for other kinds of content will follow in the future.
 
+##### Creating a new entry
+
 To create your own entry:
 
 1. Create a folder in `packages_projects_tools/` named after your tool. Use only letters, numbers, hyphens(`-`) or underscores (`_`); no spaces or other special characters.
@@ -65,8 +67,30 @@ To create your own entry:
     - If no suitable category exists, add a new one in the YAML header and mention it in your pull request. An admin will review it and decide whether to add it to the list of categories.
     * Additionally, if your entry does not fit under the existing headers on the [atlas.hsma.co.uk/packages_tools_projects](atlas.hsma.co.uk/packages_tools_projects) page, please let us know in your pull request and an admin can look at adding a new section to this page. Please let us know if you have a section heading in mind.
 
-To preview your entry locally, run `quarto render` to compile the website.  
-The project currently uses Quarto version 1.7.33. You do **not** need to render the site manually for updates - deployment is handled automatically by GitHub Actions.
+##### Editing an existing entry
+
+You are also welcome to suggest edits to an existing entry via a pull request. Please look in the folder `packages_projects_tools/` for a folder named after the tool you'd like to edit. This will then contain a `.qmd` file with the same name as the folder - this is where you can make edits to the tags and details.
+
+You can look at the URL to find out the filepath you need to look for. 
+
+e.g. The page for [Vidigi](https://atlas.hsma.co.uk/packages_projects_tools/vidigi/vidigi.html) has the URL `https://atlas.hsma.co.uk/packages_projects_tools/vidigi/vidigi.html`. 
+
+The file you need to edit is `packages_projects_tools/vidigi/vidigi.qmd`
+
+Additional images or other resources can be placed in the same folder and linked to.  Use **relative links** in your `.qmd` file - for example:
+    
+- Good: `![](my_tool_example.png)`
+- Bad: `![](C:/my_username/decision_intelligence_atlas/packages_projects_tools/my_tool/my_tool_example.png)`
+- Bad: `!(my_tool/my_tool_example.png)`
+
+##### Previewing your new or edited content
+
+To preview your entry locally, run `quarto preview` to compile and display website.  
+
+The project currently uses Quarto version 1.7.33. 
+
+> [!TIP]
+> You do **not** need to render the site manually other than for the purpose of checking your page renders as expected - rerendering and deployment is handled automatically by GitHub Actions when your pull request is accepted.
 
 ##### Using GitHub Codespaces
 
