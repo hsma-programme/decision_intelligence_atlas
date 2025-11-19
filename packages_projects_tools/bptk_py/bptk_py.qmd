@@ -6,7 +6,7 @@ author:
   - name: "transentis labs"
     affiliation:
     orcid:
-status: <span style="color: #D18B12FF">Gold</span>
+status: '<span style="color: #D18B12FF">Gold</span>'
 toc: true
 image:
 pub-info:
