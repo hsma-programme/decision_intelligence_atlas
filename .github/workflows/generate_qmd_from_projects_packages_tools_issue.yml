@@ -107,8 +107,6 @@ jobs:
 
           **Rationale:** "${{ fromJSON(steps.extract.outputs.json).status_reason }}"
 
-          :::
-
           EOF
       - name: Commit and open PR
         id: create_pr
