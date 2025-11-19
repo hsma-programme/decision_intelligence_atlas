@@ -84,8 +84,8 @@ listing:
       filter-ui: true
       image-placeholder: "../resources/placeholder.png"
     - id: other
-      include:
-        categories: "{Other}"
+      exclude:
+        categories: "{Report Automation,Web Interface Creation,Forecasting,Demand Prediction,Pathway Analytics,Identifying Bottlenecks,KPI Reporting}"
       contents: "*/*.qmd"
       sort: "title asc"
       type: grid
