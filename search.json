@@ -7,11 +7,39 @@
     "text": "Coming Soon!"
   },
   {
+    "objectID": "packages_projects_tools/sim_tools/sim_tools.html",
+    "href": "packages_projects_tools/sim_tools/sim_tools.html",
+    "title": "sim-tools",
+    "section": "",
+    "text": "Package to support discrete-event simulation (DES) and monte-carlo simulation education and applied simulation research. Features:"
+  },
+  {
+    "objectID": "packages_projects_tools/sim_tools/sim_tools.html#project-status",
+    "href": "packages_projects_tools/sim_tools/sim_tools.html#project-status",
+    "title": "sim-tools",
+    "section": "Project status",
+    "text": "Project status\nStatus: Gold\nRationale: Python package with documentation website and test suite."
+  },
+  {
     "objectID": "packages_projects_tools/pm4py/pm4py.html",
     "href": "packages_projects_tools/pm4py/pm4py.html",
     "title": "pm4py: process mining for understanding pathway problems",
     "section": "",
-    "text": "pm4py is a library for process mining in Python.\nProcess mining uses event logs - logs recorded during processes like moving through a healthcare pathway - to discover, monitor, and improve real-world processes. Event logs typically record “who did what, when,” allowing organizations to visualize workflows, identify bottlenecks, and verify whether operations follow intended procedures.\npm4py also supports conformance checking, comparing event logs to reference models to detect deviations, and performance analysis, revealing inefficiencies such as delays or rework loops.\n\n\n\n\n\n\nImportant\n\n\n\npm4py’s licencing terms are quite restrictive compared to some other packages. Note that you can only use this in closed-source projects if you pay for a licence. If the code using pm4py is released open source under the AGPL licence, no costs apply at the time of writing (November 2025). This information is available at processintelligence.solutions/pm4py#licensing.\n\n\n\n\n\n\n\n\nTip\n\n\n\nThe R equivalents of this package are bupaR (which has its own buparverse including the ability to animate process mining outputs), and the R package pm4py, which provides an interface to the predictive functionality of pm4py in the R world.\n\n\n\nYou can try the package out in this web app, though you should not upload any real data. A sample dataset is provided.\n\n\n    \n        Open the App in a new window\n        View the App Code"
+    "text": "pm4py is a library for process mining in Python.\nProcess mining uses event logs - logs recorded during processes like moving through a healthcare pathway - to discover, monitor, and improve real-world processes. Event logs typically record “who did what, when,” allowing organizations to visualize workflows, identify bottlenecks, and verify whether operations follow intended procedures.\npm4py also supports conformance checking, comparing event logs to reference models to detect deviations, and performance analysis, revealing inefficiencies such as delays or rework loops."
+  },
+  {
+    "objectID": "packages_projects_tools/pm4py/pm4py.html#demonstration",
+    "href": "packages_projects_tools/pm4py/pm4py.html#demonstration",
+    "title": "pm4py: process mining for understanding pathway problems",
+    "section": "Demonstration",
+    "text": "Demonstration\nYou can try the package out in the web app embedded below (it may take a moment to load). You should not upload any real data to the app - a sample dataset is provided.\n\n    \n        Open the App in a new window\n        View the App Code"
+  },
+  {
+    "objectID": "packages_projects_tools/pm4py/pm4py.html#project-status",
+    "href": "packages_projects_tools/pm4py/pm4py.html#project-status",
+    "title": "pm4py: process mining for understanding pathway problems",
+    "section": "Project status",
+    "text": "Project status\nStatus: Gold\nRationale: Actively maintained and widely used Python library with extensive features and user documentation."
   },
   {
     "objectID": "packages_projects_tools/packages_projects_tools.html",
@@ -25,7 +53,7 @@
     "href": "packages_projects_tools/packages_projects_tools.html#analysing-and-improving-pathway-performance",
     "title": "Packages, Projects and Tools",
     "section": "Analysing and Improving Pathway Performance",
-    "text": "Analysing and Improving Pathway Performance\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        project\n      \n      \n        website\n      \n      \n        format\n      \n      \n        language\n      \n      \n        draft-mode\n      \n      \n        date-format\n      \n      \n        title-block-banner\n      \n      \n        toc\n      \n      \n        toc-title\n      \n      \n        toc-location\n      \n      \n        execute\n      \n      \n        include-back-link\n      \n      \n        Title\n      \n      \n        Categories\n      \n      \n        status\n      \n      \n      \n      \n        pub-info\n      \n      \n        path\n      \n      \n        outputHref\n      \n      \n        Author\n      \n      \n        Description\n      \n      \n        File Name\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n      \n        Reading Time (Low to High)\n      \n      \n        Reading Time (High to Low)\n      \n      \n        Word Count (Low to High)\n      \n      \n        Word Count (High to Low)\n      \n    \n  \n    \n      \n      \n    \n\n\n\n    \n      \n            \n            \n            \n              \n            \n            \n\n            \n                Vidigi: animated queues for simulations and reality\n            \n\n            \n            \n              Status: Silver\n            \n            \n\n            \n            \n              \n            \n            \n\n            \n              Vidigi is an animation library for showing patient flows and bottlenecks in simulations and for historical simulation logs.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                            \n                        \n                            \n                       PyPi \n                          \n                        \n                            \n                        \n                            \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n            \n              \n            \n            \n\n            \n                bupaR and the bupaverse: process mining for understanding pathway problems\n            \n\n            \n            \n              Status: Gold\n            \n            \n\n            \n            \n              \n            \n            \n\n            \n              bupaR (and associated packages across the bupaverse) are libraries for process mining that helps healthcare analysts explore how patient pathways, test result flows, and other clinical processes actually unfold. By turning event data into visual - even animated - process maps, it highlights delays, rework, and variations that can guide service improvement.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                            \n                       Paper \n                          \n                        \n                            \n                        \n                            \n                       CRAN \n                          \n                        \n                            \n                       Website \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n            \n              \n            \n            \n\n            \n                pm4py: process mining for understanding pathway problems\n            \n\n            \n            \n              Status: Gold\n            \n            \n\n            \n            \n              \n            \n            \n\n            \n              pm4py is a Python library for process mining that helps healthcare analysts explore how patient pathways, test result flows, and other clinical processes actually unfold. By turning event data into visual process maps, it highlights delays, rework, and variations that can guide service improvement.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                            \n                        \n                            \n                       PyPi \n                          \n                        \n                            \n                        \n                            \n                       Website \n                          \n                        \n                        \n                    \n            \n          \n\n        \n\nNo matching items"
+    "text": "Analysing and Improving Pathway Performance\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        project\n      \n      \n        website\n      \n      \n        format\n      \n      \n        language\n      \n      \n        draft-mode\n      \n      \n        date-format\n      \n      \n        toc\n      \n      \n        toc-title\n      \n      \n        toc-location\n      \n      \n        execute\n      \n      \n        include-back-link\n      \n      \n        Title\n      \n      \n        Categories\n      \n      \n        status\n      \n      \n      \n      \n        pub-info\n      \n      \n        path\n      \n      \n        outputHref\n      \n      \n        Author\n      \n      \n        Description\n      \n      \n        File Name\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n      \n        Reading Time (Low to High)\n      \n      \n        Reading Time (High to Low)\n      \n      \n        Word Count (Low to High)\n      \n      \n        Word Count (High to Low)\n      \n    \n  \n    \n      \n      \n    \n\n\n\n    \n      \n            \n            \n            \n              \n            \n            \n\n            \n                \n                  DES RAP Book: Reproducible Discrete-Event Simulation in Python and R\n                \n            \n\n            \n            \n              Status: Gold\n            \n            \n\n            \n            \n              \n            \n            \n\n            \n              DES RAP Book is an open resource and website for building discrete-event simulation (DES) models within a reproducible analytical pipeline (RAP), supporting the healthcare simulation community. The resource demonstrates practical, code-based workflows and tools to help researchers and practitioners develop, validate, and share DES models in Python (SimPy) and R (simmer), ensuring models are reproducible.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                        \n                            \n                       Website \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n            \n              \n            \n            \n\n            \n                \n                  Vidigi: animated queues for simulations and reality\n                \n            \n\n            \n            \n              Status: Silver\n            \n            \n\n            \n            \n              \n            \n            \n\n            \n              Vidigi is an animation library for showing patient flows and bottlenecks in simulations and for historical simulation logs.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                            \n                        \n                            \n                       PyPi \n                          \n                        \n                            \n                        \n                            \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n            \n              \n            \n            \n\n            \n                \n                  bupaR and the bupaverse: process mining for understanding pathway problems\n                \n            \n\n            \n            \n              Status: Gold\n            \n            \n\n            \n            \n              \n            \n            \n\n            \n              bupaR (and associated packages across the bupaverse) are libraries for process mining that helps healthcare analysts explore how patient pathways, test result flows, and other clinical processes actually unfold. By turning event data into visual - even animated - process maps, it highlights delays, rework, and variations that can guide service improvement.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                            \n                       Paper \n                          \n                        \n                            \n                        \n                            \n                       CRAN \n                          \n                        \n                            \n                       Website \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n            \n              \n            \n            \n\n            \n                \n                  pm4py: process mining for understanding pathway problems\n                \n            \n\n            \n            \n              Status: Gold\n            \n            \n\n            \n            \n              \n            \n            \n\n            \n              pm4py is a Python library for process mining that helps healthcare analysts explore how patient pathways, test result flows, and other clinical processes actually unfold. By turning event data into visual process maps, it highlights delays, rework, and variations that can guide service improvement.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                            \n                        \n                            \n                       PyPi \n                          \n                        \n                            \n                        \n                            \n                       Website \n                          \n                        \n                        \n                    \n            \n          \n\n        \n\nNo matching items"
   },
   {
     "objectID": "packages_projects_tools/packages_projects_tools.html#automation-of-reporting",
@@ -39,14 +67,14 @@
     "href": "packages_projects_tools/packages_projects_tools.html#demand-forecasting",
     "title": "Packages, Projects and Tools",
     "section": "Demand Forecasting",
-    "text": "Demand Forecasting\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        project\n      \n      \n        website\n      \n      \n        format\n      \n      \n        language\n      \n      \n        draft-mode\n      \n      \n        date-format\n      \n      \n        title-block-banner\n      \n      \n        toc\n      \n      \n        toc-title\n      \n      \n        toc-location\n      \n      \n        execute\n      \n      \n        include-back-link\n      \n      \n        Title\n      \n      \n        Categories\n      \n      \n        status\n      \n      \n      \n      \n        pub-info\n      \n      \n        path\n      \n      \n        outputHref\n      \n      \n        Author\n      \n      \n        Description\n      \n      \n        File Name\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n      \n        Reading Time (Low to High)\n      \n      \n        Reading Time (High to Low)\n      \n      \n        Word Count (Low to High)\n      \n      \n        Word Count (High to Low)\n      \n    \n  \n    \n      \n      \n    \n\n\n\n    \n      \n            \n            \n            \n              \n            \n            \n\n            \n                nowcasts: a short-term operational forecasting script\n            \n\n            \n            \n              Status: Bronze\n            \n            \n\n            \n            \n               \n            \n            \n\n            \n              Nowcasting uses real-time data and statistical modelling to estimate what is happening right now — before all information has fully arrived. In healthcare, it helps anticipate short-term trends such as hospital admissions or bed occupancy, enabling faster, data-informed operational decisions even when reporting delays or incomplete data make the current situation unclear.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                        \n                            \n                       Paper \n                          \n                        \n                            \n                        \n                            \n                        \n                            \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n            \n              \n            \n            \n\n            \n                patientflow: predicting short-term hospital bed demand using real-time data\n            \n\n            \n            \n              Status: Silver\n            \n            \n\n            \n            \n              \n            \n            \n\n            \n              PatientFlow is a Python package for real-time short-term predictions of hospital bed demand. It uses snapshots of current in-hospital patients as well as expected future arrivals, converts patient-level predictions into aggregated group-level bed-count forecasts, and delivers actionable outputs for bed managers, such as a likely range of the number of beds needed in the next 8 hours for a given specialty. The package is designed for operational, short-term use as opposed to long-term strategic planning.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                            \n                        \n                            \n                        \n                            \n                        \n                            \n                        \n                        \n                    \n            \n          \n\n        \n\nNo matching items"
+    "text": "Demand Forecasting\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        project\n      \n      \n        website\n      \n      \n        format\n      \n      \n        language\n      \n      \n        draft-mode\n      \n      \n        date-format\n      \n      \n        toc\n      \n      \n        toc-title\n      \n      \n        toc-location\n      \n      \n        execute\n      \n      \n        include-back-link\n      \n      \n        Title\n      \n      \n        Categories\n      \n      \n        status\n      \n      \n      \n      \n        Author\n      \n      \n        pub-info\n      \n      \n        path\n      \n      \n        outputHref\n      \n      \n        Description\n      \n      \n        File Name\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n      \n        Reading Time (Low to High)\n      \n      \n        Reading Time (High to Low)\n      \n      \n        Word Count (Low to High)\n      \n      \n        Word Count (High to Low)\n      \n    \n  \n    \n      \n      \n    \n\n\n\n    \n      \n            \n            \n            \n              \n            \n            \n\n            \n                \n                  Community pharmacy workforce projection model\n                \n            \n\n            \n            \n              Status: Silver\n            \n            \n\n            \n            \n              \n            \n            \n\n            \n              Workforce projection model to support NHS workforce planning for community pharmacy services, with a focus on pharmacists and pharmacy technicians.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n            \n              \n            \n            \n\n            \n                \n                  New Hospital Programme Demand Model\n                \n            \n\n            \n            \n              Status: Gold\n            \n            \n\n            \n            \n              \n            \n            \n\n            \n              The Demand and Capacity Modelling Tool, developed by the Strategy Unit for DHSC and its partners, supports robust and transparent forecasting of future hospital activity to inform the design and scaling of over 40 new hospitals planned by 2030.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n            \n              \n            \n            \n\n            \n                \n                  nhsrtt: a package for seeing how changes in future treatment capacity affect the waiting list size and performance\n                \n            \n\n            \n            \n              Status: Silver\n            \n            \n\n            \n            \n              \n            \n            \n\n            \n              NHSRtt is an R package, providing analysts with a simple stock-and-flow modelling framework for NHS referral-to-treatment (RTT) data. The tool supports scenario testing and planning for elective care pathways by translating patient flow data into projections of waiting list size and treatment demand.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code - Model \n                          \n                        \n                            \n                       Code - Shiny App \n                          \n                        \n                            \n                       Documentation - Model \n                          \n                        \n                            \n                       Documentation - Shiny App \n                          \n                        \n                            \n                        \n                            \n                        \n                            \n                        \n                            \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n            \n              \n            \n            \n\n            \n                \n                  nowcasts: a short-term operational forecasting script\n                \n            \n\n            \n            \n              Status: Bronze\n            \n            \n\n            \n            \n               \n            \n            \n\n            \n              Nowcasting uses real-time data and statistical modelling to estimate what is happening right now — before all information has fully arrived. In healthcare, it helps anticipate short-term trends such as hospital admissions or bed occupancy, enabling faster, data-informed operational decisions even when reporting delays or incomplete data make the current situation unclear.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                        \n                            \n                       Paper \n                          \n                        \n                            \n                        \n                            \n                        \n                            \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n            \n              \n            \n            \n\n            \n                \n                  patientflow: predicting short-term hospital bed demand using real-time data\n                \n            \n\n            \n            \n              Status: Silver\n            \n            \n\n            \n            \n              \n            \n            \n\n            \n              PatientFlow is a Python package for real-time short-term predictions of hospital bed demand. It uses snapshots of current in-hospital patients as well as expected future arrivals, converts patient-level predictions into aggregated group-level bed-count forecasts, and delivers actionable outputs for bed managers, such as a likely range of the number of beds needed in the next 8 hours for a given specialty. The package is designed for operational, short-term use as opposed to long-term strategic planning.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                            \n                        \n                            \n                        \n                            \n                        \n                            \n                        \n                        \n                    \n            \n          \n\n        \n\nNo matching items"
   },
   {
     "objectID": "packages_projects_tools/packages_projects_tools.html#kpi-reporting",
     "href": "packages_projects_tools/packages_projects_tools.html#kpi-reporting",
     "title": "Packages, Projects and Tools",
     "section": "KPI Reporting",
-    "text": "KPI Reporting\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        project\n      \n      \n        website\n      \n      \n        format\n      \n      \n        language\n      \n      \n        draft-mode\n      \n      \n        date-format\n      \n      \n        title-block-banner\n      \n      \n        toc\n      \n      \n        toc-title\n      \n      \n        toc-location\n      \n      \n        execute\n      \n      \n        include-back-link\n      \n      \n        Title\n      \n      \n        Categories\n      \n      \n        status\n      \n      \n      \n      \n        Author\n      \n      \n        pub-info\n      \n      \n        path\n      \n      \n        outputHref\n      \n      \n        Description\n      \n      \n        File Name\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n      \n        Reading Time (Low to High)\n      \n      \n        Reading Time (High to Low)\n      \n      \n        Word Count (Low to High)\n      \n      \n        Word Count (High to Low)\n      \n    \n  \n    \n      \n      \n    \n\n\n\n    \n      \n            \n            \n            \n              \n            \n            \n\n            \n                NHSRPlotTheDots: statistical process control for better metric reporting\n            \n\n            \n            \n              Status: Gold\n            \n            \n\n            \n            \n              \n            \n            \n\n            \n              NHSRplotthedots is an R package that simplifies the creation and automation of statistical process control (SPC) charts for KPIs. It helps analysts and teams move beyond static KPIs to understand true performance variation and identify opportunities for improvement.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                            \n                        \n                            \n                        \n                            \n                       CRAN \n                          \n                        \n                            \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n            \n              \n            \n            \n\n            \n                nhspy-plotthedots\n            \n\n            \n            \n              Status: Bronze\n            \n            \n\n            \n            \n              \n            \n            \n\n            \n              NHSpy-plotthedots is a Python port of the NHSRplotthedots package that simplifies the creation and automation of statistical process control (SPC) charts for KPIs. It helps analysts and teams move beyond static KPIs to understand true performance variation and identify opportunities for improvement.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                            \n                        \n                            \n                        \n                            \n                        \n                            \n                        \n                        \n                    \n            \n          \n\n        \n\nNo matching items"
+    "text": "KPI Reporting\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        project\n      \n      \n        website\n      \n      \n        format\n      \n      \n        language\n      \n      \n        draft-mode\n      \n      \n        date-format\n      \n      \n        toc\n      \n      \n        toc-title\n      \n      \n        toc-location\n      \n      \n        execute\n      \n      \n        include-back-link\n      \n      \n        Title\n      \n      \n        Categories\n      \n      \n        status\n      \n      \n      \n      \n        pub-info\n      \n      \n        path\n      \n      \n        outputHref\n      \n      \n        Author\n      \n      \n        Description\n      \n      \n        File Name\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n      \n        Reading Time (Low to High)\n      \n      \n        Reading Time (High to Low)\n      \n      \n        Word Count (Low to High)\n      \n      \n        Word Count (High to Low)\n      \n    \n  \n    \n      \n      \n    \n\n\n\n    \n      \n            \n            \n            \n              \n            \n            \n\n            \n                \n                  NHSRPlotTheDots: statistical process control for better metric reporting\n                \n            \n\n            \n            \n              Status: Gold\n            \n            \n\n            \n            \n              \n            \n            \n\n            \n              NHSRplotthedots is an R package that simplifies the creation and automation of statistical process control (SPC) charts for KPIs. It helps analysts and teams move beyond static KPIs to understand true performance variation and identify opportunities for improvement.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                            \n                        \n                            \n                        \n                            \n                       CRAN \n                          \n                        \n                            \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n            \n              \n            \n            \n\n            \n                \n                  nhspy-plotthedots\n                \n            \n\n            \n            \n              Status: Bronze\n            \n            \n\n            \n            \n              \n            \n            \n\n            \n              NHSpy-plotthedots is a Python port of the NHSRplotthedots package that simplifies the creation and automation of statistical process control (SPC) charts for KPIs. It helps analysts and teams move beyond static KPIs to understand true performance variation and identify opportunities for improvement.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                            \n                        \n                            \n                        \n                            \n                        \n                            \n                        \n                        \n                    \n            \n          \n\n        \n\nNo matching items"
   },
   {
     "objectID": "packages_projects_tools/packages_projects_tools.html#web-based-tools-and-interacive-interface-creation",
@@ -56,74 +84,11 @@
     "text": "Web-based Tools and Interacive Interface Creation\n\n\n    \n      \n      \n    \n\n\n\n    \n\nNo matching items"
   },
   {
-    "objectID": "packages_projects_tools/nhsrtt/nhsrtt.html",
-    "href": "packages_projects_tools/nhsrtt/nhsrtt.html",
-    "title": "nhsrtt: a package for seeing how changes in future treatment capacity affect the waiting list size and performance",
-    "section": "",
-    "text": "The tool supports scenario testing and planning for elective care pathways by translating patient flow data into projections of waiting list size and treatment demand.\nThe tool uses entirely publically available data, and is currently updated with new data once a month.\nThe core idea is to implement a stock-and-flow model of activity: patients flow into the waiting-list (‘stock’), are treated or removed (‘outflow’), and the model tracks how these stocks evolve under different demand and capacity conditions.\nThe second repository contains a packaged shiny app that calls on the main model, allowing users to experiment with different scenarios without having to change parameters in code.\n\nRationale for Rating\n13/11/2025 SR: This work has been undertaken by an experienced team of modellers. There is excellent documentation and good automated test coverage. However, it is not yet available on CRAN, requiring the code to be installed from GitHub, so it has not undertaken the review process that packages on CRAN go through."
-  },
-  {
-    "objectID": "packages_projects_tools/nhspy-plotthedots/nhspy-plotthedots.html",
-    "href": "packages_projects_tools/nhspy-plotthedots/nhspy-plotthedots.html",
-    "title": "nhspy-plotthedots",
-    "section": "",
-    "text": "This package has had solid initial development but is described as being in alpha and not ready for use in production. In addition, it has been archived; it is presumed the package is looking for new developers/maintainers.\nPlease place a description of the project here"
-  },
-  {
-    "objectID": "packages_projects_tools/nhspy-plotthedots/nhspy-plotthedots.html#related-projects",
-    "href": "packages_projects_tools/nhspy-plotthedots/nhspy-plotthedots.html#related-projects",
-    "title": "nhspy-plotthedots",
-    "section": "Related Projects",
-    "text": "Related Projects\nFor R, try nhsrplotthedots"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "The Healthcare Service Analytics & Decision Intelligence Atlas",
-    "section": "",
-    "text": "Welcome to the Healthcare Services Analytics & Decision Science Atlas.\nThis site is in its very early stages - please check back as we continue to develop it.\nIn time, we hope this can develop into a tool to help showcase the amazing work happening across the analyics and data science communities in healthcare, promoting reuse and collaborative work on the tools we all need.\nContributions are very welcome! This process will be streamlind in the future, but for now you can take a fork of the repository and then make a pull request with your proposed additions or changes.\n\n\n\n\n\n\nWarning\n\n\n\nPlease note that inclusion of a tool on this site does not imply that the HSMA team have reviewed these tools in detail. This is designed to act as a signpost to the work out there, and provide a high-level indication of the health of any given project, but you should always conduct your own reviews of the suitability of any of these tools and techniques for your own use case.\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf you have any concerns, or would like any content to be removed, please contact Sammi Rosser."
-  },
-  {
-    "objectID": "graph_catalogue/graph_catalogue.html",
-    "href": "graph_catalogue/graph_catalogue.html",
-    "title": "The Healthcare Service Analytics & Decision Intelligence Atlas",
-    "section": "",
-    "text": "Coming Soon!"
-  },
-  {
-    "objectID": "packages_projects_tools/bupaR/bupar.html",
-    "href": "packages_projects_tools/bupaR/bupar.html",
-    "title": "bupaR and the bupaverse: process mining for understanding pathway problems",
-    "section": "",
-    "text": "A detailed breakdown of the capabilities of bupaR and vidigi, and the areas of pathway animation in which they excel, can be found in the vidigi documentation."
-  },
-  {
-    "objectID": "packages_projects_tools/bupaR/bupar.html#related-tools",
-    "href": "packages_projects_tools/bupaR/bupar.html#related-tools",
-    "title": "bupaR and the bupaverse: process mining for understanding pathway problems",
-    "section": "",
-    "text": "A detailed breakdown of the capabilities of bupaR and vidigi, and the areas of pathway animation in which they excel, can be found in the vidigi documentation."
-  },
-  {
-    "objectID": "packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html",
-    "href": "packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html",
-    "title": "NHSRPlotTheDots: statistical process control for better metric reporting",
-    "section": "",
-    "text": "This package has a strong codebase with automated testing, ongoing maintenance and development, and strong documentation. It believe it has been used in a variety of organisations for reporting.\nNHSrplotthedots is an R package designed to make it easier to produce statistical process control (SPC) charts, which are a widely well-regarded way to report on KPIs in trusts and other organisations across the country.\nPairing well with reporting tools like Quarto or rmarkdown, as well as dashboarding tools like R Shiny, this battle-tested package used in trusts across the country can help to automate and improve reporting, using the same underlying methodology as the Excel tool originally provided by the"
-  },
-  {
-    "objectID": "packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html#the-making-data-count-programme",
-    "href": "packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html#the-making-data-count-programme",
-    "title": "NHSRPlotTheDots: statistical process control for better metric reporting",
-    "section": "The Making Data Count Programme",
-    "text": "The Making Data Count Programme\nNot come across SPC charts before? Read these guides from the NHS England Making Data Count team to understand how they can help make sense of whether variation in a metric is at a level of concern. By helping to cut through random noise and highlight true patterns of variation, we can move away from ‘spuddling’ - constant meddling that fails to produce real change - and make our reporting more impactful."
-  },
-  {
-    "objectID": "packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html#related-projects",
-    "href": "packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html#related-projects",
-    "title": "NHSRPlotTheDots: statistical process control for better metric reporting",
-    "section": "Related Projects",
-    "text": "Related Projects\nFor Python, try NHSPy-plotthedots"
+    "objectID": "packages_projects_tools/packages_projects_tools.html#other",
+    "href": "packages_projects_tools/packages_projects_tools.html#other",
+    "title": "Packages, Projects and Tools",
+    "section": "Other",
+    "text": "Other\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        project\n      \n      \n        website\n      \n      \n        format\n      \n      \n        language\n      \n      \n        draft-mode\n      \n      \n        date-format\n      \n      \n        toc\n      \n      \n        toc-title\n      \n      \n        toc-location\n      \n      \n        execute\n      \n      \n        include-back-link\n      \n      \n        Title\n      \n      \n        Categories\n      \n      \n        status\n      \n      \n      \n      \n        Author\n      \n      \n        pub-info\n      \n      \n        path\n      \n      \n        outputHref\n      \n      \n        Description\n      \n      \n        File Name\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n      \n        Reading Time (Low to High)\n      \n      \n        Reading Time (High to Low)\n      \n      \n        Word Count (Low to High)\n      \n      \n        Word Count (High to Low)\n      \n    \n  \n    \n      \n      \n    \n\n\n\n    \n      \n            \n            \n            \n              \n            \n            \n\n            \n                \n                  AmbModelOpen: A discrete event simulation of ambulance resources\n                \n            \n\n            \n            \n              Status: TBC\n            \n            \n\n            \n            \n              \n            \n            \n\n            \n              Discrete Event Simulation in RSimmer of Ambulance Job Cycle Times.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n            \n              \n            \n            \n\n            \n                \n                  ICB Place Based Allocation Tool\n                \n            \n\n            \n            \n              Status: TBC\n            \n            \n\n            \n            \n              \n            \n            \n\n            \n              Python tool to assist Integrated Care Boards (ICBs) to perform need based allocation based on defined place. It uses the most recently produced GP Registered Practice Populations as well as the weighted populations calculated from the Allocation model for each of its components.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       App \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n            \n              \n            \n            \n\n            \n                \n                  NHS RAP Community of Practice\n                \n            \n\n            \n            \n              Status: N/A\n            \n            \n\n            \n\n            \n              The NHS RAP Community of Practice, maintained by NHS England, supports analysts and teams in adopting reproducible analytical pipeline (RAP) methods.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Website \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n            \n              \n            \n            \n\n            \n                \n                  NHSRwaitinglist\n                \n            \n\n            \n            \n              Status: Gold\n            \n            \n\n            \n            \n              \n            \n            \n\n            \n              NHSRwaitinglist is an R package implementing the waiting list management approach described in the paper Understanding Waiting Lists Pressures by Fong et al (2022).\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                            \n                       Paper \n                          \n                        \n                            \n                       CRAN \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n            \n              \n            \n            \n\n            \n                \n                  Travel time to NHS organisations\n                \n            \n\n            \n            \n              Status: TBC\n            \n            \n\n            \n            \n              \n            \n            \n\n            \n              Initial proof of concept and exploratory analysis for the design of a holistic and interactive mapping tool to support decision-making in health and social care.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Report \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n            \n              \n            \n            \n\n            \n                \n                  ciw\n                \n            \n\n            \n            \n              Status: Gold\n            \n            \n\n            \n            \n              \n            \n            \n\n            \n              A discrete event simulation library for queueing networks.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                            \n                       Paper \n                          \n                        \n                            \n                       PyPi \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n            \n              \n            \n            \n\n            \n                \n                  opencodecounts\n                \n            \n\n            \n            \n              Status: Gold\n            \n            \n\n            \n            \n              \n            \n            \n\n            \n              The opencodecounts R package provides easy access to yearly summaries of clinical code usage in England. The package makes NHS England's published datasets available in R and an interactive online tool, covering SNOMED CT codes in primary care and ICD-10/OPCS-4 codes in secondary care.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                            \n                       Paper \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n            \n              \n            \n            \n\n            \n                \n                  sim-tools\n                \n            \n\n            \n            \n              Status: Gold\n            \n            \n\n            \n            \n              \n            \n            \n\n            \n              Tools to support Discrete-Event Simulation (DES) and Monte-Carlo Simulation education and practice.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                            \n                       PyPi \n                          \n                        \n                            \n                       Conda \n                          \n                        \n                        \n                    \n            \n          \n\n        \n\nNo matching items"
   },
   {
     "objectID": "packages_projects_tools/nowcasting/nowcasting.html",
@@ -140,6 +105,286 @@
     "text": "Related projects\nA PowerBI custom visual, powered by a script based on the original nowcasting repository, is available here: github.com/Bergam0t/nowcasts-power-bi"
   },
   {
+    "objectID": "packages_projects_tools/nowcasting/nowcasting.html#project-status",
+    "href": "packages_projects_tools/nowcasting/nowcasting.html#project-status",
+    "title": "nowcasts: a short-term operational forecasting script",
+    "section": "Project status",
+    "text": "Project status\nStatus: Bronze\nRationale: Useful script for short-term operational forecasting. As it is a single script, and does not have documentation, tests or extra features, this has been rated as “Bronze”."
+  },
+  {
+    "objectID": "packages_projects_tools/nhsrtt/nhsrtt.html",
+    "href": "packages_projects_tools/nhsrtt/nhsrtt.html",
+    "title": "nhsrtt: a package for seeing how changes in future treatment capacity affect the waiting list size and performance",
+    "section": "",
+    "text": "The tool supports scenario testing and planning for elective care pathways by translating patient flow data into projections of waiting list size and treatment demand.\nThe tool uses entirely publically available data, and is currently updated with new data once a month.\nThe core idea is to implement a stock-and-flow model of activity: patients flow into the waiting-list (‘stock’), are treated or removed (‘outflow’), and the model tracks how these stocks evolve under different demand and capacity conditions.\nThe second repository contains a packaged shiny app that calls on the main model, allowing users to experiment with different scenarios without having to change parameters in code."
+  },
+  {
+    "objectID": "packages_projects_tools/nhsrtt/nhsrtt.html#project-status",
+    "href": "packages_projects_tools/nhsrtt/nhsrtt.html#project-status",
+    "title": "nhsrtt: a package for seeing how changes in future treatment capacity affect the waiting list size and performance",
+    "section": "Project status",
+    "text": "Project status\nStatus: Silver\nRationale: This work has been undertaken by an experienced team of modellers. There is excellent documentation and good automated test coverage. However, it is not yet available on CRAN, requiring the code to be installed from GitHub, so it has not undertaken the review process that packages on CRAN go through."
+  },
+  {
+    "objectID": "packages_projects_tools/nhspy-plotthedots/nhspy-plotthedots.html#related-projects",
+    "href": "packages_projects_tools/nhspy-plotthedots/nhspy-plotthedots.html#related-projects",
+    "title": "nhspy-plotthedots",
+    "section": "Related Projects",
+    "text": "Related Projects\nFor R, try nhsrplotthedots"
+  },
+  {
+    "objectID": "packages_projects_tools/nhspy-plotthedots/nhspy-plotthedots.html#project-status",
+    "href": "packages_projects_tools/nhspy-plotthedots/nhspy-plotthedots.html#project-status",
+    "title": "nhspy-plotthedots",
+    "section": "Project status",
+    "text": "Project status\nStatus: Bronze\nRationale: This package has had solid initial development but is described as being in alpha and not ready for use in production. In addition, it has been archived; it is presumed the package is looking for new developers/maintainers."
+  },
+  {
+    "objectID": "packages_projects_tools/new_hospital_programme/new_hospital_programme.html",
+    "href": "packages_projects_tools/new_hospital_programme/new_hospital_programme.html",
+    "title": "New Hospital Programme Demand Model",
+    "section": "",
+    "text": "“The government has committed to building more than 40 new hospitals by 2030. The New Hospital Programme (NHP), a partnership between DHSC and NHSE, aims to ensure that this new hospital infrastructure will meet the future needs of the population and that the required investment represents value for money.\nEstimating future activity levels represents a critical early step in the process of scaling and designing new hospital infrastructure. The Demand and Capacity Modelling Tool has been developed by the Strategy Unit to support DHSC and its stakeholders to make robust and auditable assessments of activity that hospitals may need to accommodate in future.” (source)"
+  },
+  {
+    "objectID": "packages_projects_tools/new_hospital_programme/new_hospital_programme.html#github-repositories",
+    "href": "packages_projects_tools/new_hospital_programme/new_hospital_programme.html#github-repositories",
+    "title": "New Hospital Programme Demand Model",
+    "section": "GitHub repositories",
+    "text": "GitHub repositories\n\nnhp_model\nnhp_outputs\nnhp_data\nnhp_project information"
+  },
+  {
+    "objectID": "packages_projects_tools/new_hospital_programme/new_hospital_programme.html#project-information-website",
+    "href": "packages_projects_tools/new_hospital_programme/new_hospital_programme.html#project-information-website",
+    "title": "New Hospital Programme Demand Model",
+    "section": "Project information website",
+    "text": "Project information website\nNHP model project information website: https://connect.strategyunitwm.nhs.uk/nhp/project_information/.\n\n\n\nImage from nhp_model repository."
+  },
+  {
+    "objectID": "packages_projects_tools/new_hospital_programme/new_hospital_programme.html#quality-assurance",
+    "href": "packages_projects_tools/new_hospital_programme/new_hospital_programme.html#quality-assurance",
+    "title": "New Hospital Programme Demand Model",
+    "section": "Quality assurance",
+    "text": "Quality assurance\nQuality assurance plan and log managed using GitHub Projects at https://github.com/orgs/The-Strategy-Unit/projects/6.\n\n\n\nUsing GitHub projects for quality assurance.\n\n\nThis is explained in their presentation from the NHS RPySOC 2025 Conference."
+  },
+  {
+    "objectID": "packages_projects_tools/new_hospital_programme/new_hospital_programme.html#project-status",
+    "href": "packages_projects_tools/new_hospital_programme/new_hospital_programme.html#project-status",
+    "title": "New Hospital Programme Demand Model",
+    "section": "Project status",
+    "text": "Project status\nStatus: Gold\nRationale: Extensive documentation, robust quality assurance, modular design, and transparent, actively maintained processes."
+  },
+  {
+    "objectID": "packages_projects_tools/community_pharmacy_workforce/community_pharmacy_workforce.html",
+    "href": "packages_projects_tools/community_pharmacy_workforce/community_pharmacy_workforce.html",
+    "title": "Community pharmacy workforce projection model",
+    "section": "",
+    "text": "Example output from Github."
+  },
+  {
+    "objectID": "packages_projects_tools/community_pharmacy_workforce/community_pharmacy_workforce.html#presentation",
+    "href": "packages_projects_tools/community_pharmacy_workforce/community_pharmacy_workforce.html#presentation",
+    "title": "Community pharmacy workforce projection model",
+    "section": "Presentation",
+    "text": "Presentation\nPresentation from the NHS RPySOC 2025 Conference:"
+  },
+  {
+    "objectID": "packages_projects_tools/community_pharmacy_workforce/community_pharmacy_workforce.html#project-status",
+    "href": "packages_projects_tools/community_pharmacy_workforce/community_pharmacy_workforce.html#project-status",
+    "title": "Community pharmacy workforce projection model",
+    "section": "Project status",
+    "text": "Project status\nStatus: Silver\nRationale: Package structure and a clear README makes this project easy to use and understand. Rated silver as doesn’t have tests or further documentation."
+  },
+  {
+    "objectID": "packages_projects_tools/bupaR/bupar.html#related-tools",
+    "href": "packages_projects_tools/bupaR/bupar.html#related-tools",
+    "title": "bupaR and the bupaverse: process mining for understanding pathway problems",
+    "section": "Related tools",
+    "text": "Related tools\nA detailed breakdown of the capabilities of bupaR and vidigi, and the areas of pathway animation in which they excel, can be found in the vidigi documentation."
+  },
+  {
+    "objectID": "packages_projects_tools/bupaR/bupar.html#project-status",
+    "href": "packages_projects_tools/bupaR/bupar.html#project-status",
+    "title": "bupaR and the bupaverse: process mining for understanding pathway problems",
+    "section": "Project status",
+    "text": "Project status\nStatus: Gold\nRationale: Comprehensive documentation, active maintenance, modular package design, and wide adoption in process mining research and practice"
+  },
+  {
+    "objectID": "packages_projects_tools/aif_allocation_tool/aif_allocation_tool.html",
+    "href": "packages_projects_tools/aif_allocation_tool/aif_allocation_tool.html",
+    "title": "ICB Place Based Allocation Tool",
+    "section": "",
+    "text": "“This project is a tool built in Python to assist Integrated Care Boards (ICBs) to perform need based allocation based on defined place. It uses the most recently produced GP Registered Practice Populations as well as the weighted populations calculated from the Allocation model for each of its components. More information on the Allocations process, as well as useful documentation can be found at https://www.england.nhs.uk/allocations/\nThe tool allows a new ‘place’ to be defined in an ICB as a cluster of GP practices. This allows place to be flexibly defined, whether that is as GP practices in the same Primary Care Network (PCN), Local Authority, or that feed into the same Secondary services for example. That is at the discretion of the ICB. Once GP practices have been allocated to a place, the relative need indices can be calculated and the output can be downloaded as a CSV.” (source)"
+  },
+  {
+    "objectID": "packages_projects_tools/aif_allocation_tool/aif_allocation_tool.html#deployed-app-for-202526",
+    "href": "packages_projects_tools/aif_allocation_tool/aif_allocation_tool.html#deployed-app-for-202526",
+    "title": "ICB Place Based Allocation Tool",
+    "section": "Deployed app for 2025/26",
+    "text": "Deployed app for 2025/26"
+  },
+  {
+    "objectID": "packages_projects_tools/aif_allocation_tool/aif_allocation_tool.html#project-status",
+    "href": "packages_projects_tools/aif_allocation_tool/aif_allocation_tool.html#project-status",
+    "title": "ICB Place Based Allocation Tool",
+    "section": "Project status",
+    "text": "Project status\nStatus: TBC\nRationale: TBC"
+  },
+  {
+    "objectID": "graph_catalogue/graph_catalogue.html",
+    "href": "graph_catalogue/graph_catalogue.html",
+    "title": "The Healthcare Service Analytics & Decision Intelligence Atlas",
+    "section": "",
+    "text": "Coming Soon!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Healthcare Services Analytics & Decision Science Atlas",
+    "section": "",
+    "text": "Welcome to the Healthcare Services Analytics & Decision Science Atlas. This is a directory of open-source tools, packages, and projects for analytics and decision science in healthcare.\nThis site is in its very early stages - please check back as we continue to develop it.\nIn time, we hope this can develop into a tool to help showcase the amazing work happening across the analytics and data science communities in healthcare, promoting reuse and collaborative work on the tools we all need.\nContributions are very welcome! Please see the repository README for instructions on how to contribute.\n\n\n\n\n\n\nWarning\n\n\n\nPlease note that inclusion of a tool on this site does not imply that the HSMA team have reviewed these tools in detail. This is designed to act as a signpost to the work out there, and provide a high-level indication of the health of any given project, but you should always conduct your own reviews of the suitability of any of these tools and techniques for your own use case.\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf you have any concerns, or would like any content to be removed, please contact Sammi Rosser."
+  },
+  {
+    "objectID": "packages_projects_tools/ambmodelopen/ambmodelopen.html",
+    "href": "packages_projects_tools/ambmodelopen/ambmodelopen.html",
+    "title": "AmbModelOpen: A discrete event simulation of ambulance resources",
+    "section": "",
+    "text": "“A discrete event simulation focusing on simulating the ambulance job cycle time. The work has been made open to support:"
+  },
+  {
+    "objectID": "packages_projects_tools/ambmodelopen/ambmodelopen.html#project-status",
+    "href": "packages_projects_tools/ambmodelopen/ambmodelopen.html#project-status",
+    "title": "AmbModelOpen: A discrete event simulation of ambulance resources",
+    "section": "Project status",
+    "text": "Project status\nStatus: TBC\nRationale: TBC."
+  },
+  {
+    "objectID": "packages_projects_tools/ciw/ciw.html",
+    "href": "packages_projects_tools/ciw/ciw.html",
+    "title": "ciw",
+    "section": "",
+    "text": "“Ciw is a discrete event simulation library for open queueing networks. It’s core features include the capability to simulate networks of queues, multiple customer classes, and implementation of Type I blocking for restricted networks.” (source)"
+  },
+  {
+    "objectID": "packages_projects_tools/ciw/ciw.html#project-status",
+    "href": "packages_projects_tools/ciw/ciw.html#project-status",
+    "title": "ciw",
+    "section": "Project status",
+    "text": "Project status\nStatus: Gold\nRationale: Maintained package with documentation and tests."
+  },
+  {
+    "objectID": "packages_projects_tools/des_rap_book/des_rap_book.html",
+    "href": "packages_projects_tools/des_rap_book/des_rap_book.html",
+    "title": "DES RAP Book: Reproducible Discrete-Event Simulation in Python and R",
+    "section": "",
+    "text": "This practical guide shows you how to build reproducible discrete-event simulation models (DES) that fit into a reproducible analytical pipeline (RAP), with tips that benefit all types of models and analysis.\nKey features include:"
+  },
+  {
+    "objectID": "packages_projects_tools/des_rap_book/des_rap_book.html#book-contents",
+    "href": "packages_projects_tools/des_rap_book/des_rap_book.html#book-contents",
+    "title": "DES RAP Book: Reproducible Discrete-Event Simulation in Python and R",
+    "section": "Book contents",
+    "text": "Book contents\n\n\n\n\n\n\n\nSection\nPages\n\n\n\n\nIntroduction\nDiscrete-event simulation (DES)Reproducibility and RAPsGuidelinesOpen-source languagesExample conceptual models\n\n\nSetup\nVersion controlEnvironmentsStructuring as a packageCode organisation\n\n\nModel inputs\nInput modellingInput data managementParameters from scriptParameters from fileParameter validation\n\n\nModel building\nRandomnessEntity generationEntity processingLogging\n\n\nOutput analysis\nInitialisation biasPerformance measuresReplicationsLength of warm-upNumber of replicationsParallel processing\n\n\nExperimentation\nScenario and sensitivity analysisTables and figuresFull run\n\n\nStyle and documentation\nLintingDocstringsGitHub actionsDocumentation\n\n\nCollaboration & sharing\nCode reviewLicensingCitationChangelogSharing and archiving"
+  },
+  {
+    "objectID": "packages_projects_tools/des_rap_book/des_rap_book.html#view-the-book",
+    "href": "packages_projects_tools/des_rap_book/des_rap_book.html#view-the-book",
+    "title": "DES RAP Book: Reproducible Discrete-Event Simulation in Python and R",
+    "section": "View the book",
+    "text": "View the book\nTo view the book, click on the image below or go to https://pythonhealthdatascience.github.io/des_rap_book/."
+  },
+  {
+    "objectID": "packages_projects_tools/des_rap_book/des_rap_book.html#project-status",
+    "href": "packages_projects_tools/des_rap_book/des_rap_book.html#project-status",
+    "title": "DES RAP Book: Reproducible Discrete-Event Simulation in Python and R",
+    "section": "Project status",
+    "text": "Project status\nStatus: Gold\nRationale: This resource guides users in building “Gold” standard models - well-documented, tested, and structured as packages - with four complete examples illustrating these best practices."
+  },
+  {
+    "objectID": "packages_projects_tools/nhs_time_of_travel/nhs_time_of_travel.html",
+    "href": "packages_projects_tools/nhs_time_of_travel/nhs_time_of_travel.html",
+    "title": "Travel time to NHS organisations",
+    "section": "",
+    "text": "“A mapping tool could support national and regional commissioning strategies by facilitating the placement of new services and the reconfiguration of existing ones. It could also contribute to the NHS agenda for tackling health inequalities by enabling evidence-based decision-making by providing insight on how the availability of health and social care services is influenced by sociodemographic factors.\nUsing open-source software and publicly accessible datasets we calculate the travel time, with different modes of transport, to varying NHS healthcare services in London, Lincolnshire, and Cambridge. We highlight the challenges of estimating accurate travel times and possible approaches to overcome these.” (source)"
+  },
+  {
+    "objectID": "packages_projects_tools/nhs_time_of_travel/nhs_time_of_travel.html#project-status",
+    "href": "packages_projects_tools/nhs_time_of_travel/nhs_time_of_travel.html#project-status",
+    "title": "Travel time to NHS organisations",
+    "section": "Project status",
+    "text": "Project status\nStatus: TBC\nRationale: TBC"
+  },
+  {
+    "objectID": "packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html",
+    "href": "packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html",
+    "title": "NHSRPlotTheDots: statistical process control for better metric reporting",
+    "section": "",
+    "text": "NHSrplotthedots is an R package designed to make it easier to produce statistical process control (SPC) charts, which are a widely well-regarded way to report on KPIs in trusts and other organisations across the country.\nPairing well with reporting tools like Quarto or rmarkdown, as well as dashboarding tools like R Shiny, this battle-tested package used in trusts across the country can help to automate and improve reporting, using the same underlying methodology as the Excel tool originally provided by the"
+  },
+  {
+    "objectID": "packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html#the-making-data-count-programme",
+    "href": "packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html#the-making-data-count-programme",
+    "title": "NHSRPlotTheDots: statistical process control for better metric reporting",
+    "section": "The Making Data Count Programme",
+    "text": "The Making Data Count Programme\nNot come across SPC charts before? Read these guides from the NHS England Making Data Count team to understand how they can help make sense of whether variation in a metric is at a level of concern. By helping to cut through random noise and highlight true patterns of variation, we can move away from ‘spuddling’ - constant meddling that fails to produce real change - and make our reporting more impactful."
+  },
+  {
+    "objectID": "packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html#related-projects",
+    "href": "packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html#related-projects",
+    "title": "NHSRPlotTheDots: statistical process control for better metric reporting",
+    "section": "Related Projects",
+    "text": "Related Projects\nFor Python, try NHSPy-plotthedots"
+  },
+  {
+    "objectID": "packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html#project-status",
+    "href": "packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html#project-status",
+    "title": "NHSRPlotTheDots: statistical process control for better metric reporting",
+    "section": "Project status",
+    "text": "Project status\nStatus: Gold\nRationale: This package has a strong codebase with automated testing, ongoing maintenance and development, and strong documentation. It believe it has been used in a variety of organisations for reporting."
+  },
+  {
+    "objectID": "packages_projects_tools/nhsrwaitinglist/nhsrwaitinglist.html",
+    "href": "packages_projects_tools/nhsrwaitinglist/nhsrwaitinglist.html",
+    "title": "NHSRwaitinglist",
+    "section": "",
+    "text": "“{NHSRwaitinglist} is an R package implementing the waiting list management approach described in the paper Understanding Waiting Lists Pressures by Fong et al (2022). The methodology is presented by Neil Walton, Professor in Operations Management at Durham University Business School. The package is being contributed to by members of the NHS-R Community, with the aim of making it simpler for NHS analysts to adopt these methods for the analysis of their own waiting lists.”\n“At its most basic, the package can be used to simulate a waiting list (a dataframe of waiting list addition dates and removal dates), and then compute some important statistics. Of course, if you already have waiting list data ready to analyse, you can skip the simulation step in the code below.” (source)"
+  },
+  {
+    "objectID": "packages_projects_tools/nhsrwaitinglist/nhsrwaitinglist.html#videos",
+    "href": "packages_projects_tools/nhsrwaitinglist/nhsrwaitinglist.html#videos",
+    "title": "NHSRwaitinglist",
+    "section": "Videos",
+    "text": "Videos\nThese videos (as linked from the NHSRwaitinglist GitHub) explain more about the package methods."
+  },
+  {
+    "objectID": "packages_projects_tools/nhsrwaitinglist/nhsrwaitinglist.html#project-status",
+    "href": "packages_projects_tools/nhsrwaitinglist/nhsrwaitinglist.html#project-status",
+    "title": "NHSRwaitinglist",
+    "section": "Project status",
+    "text": "Project status\nStatus: Gold\nRationale: Package actively maintained by the NHS-R Community, published on CRAN, with documentation and tests."
+  },
+  {
+    "objectID": "packages_projects_tools/opencodecounts/opencodecounts.html",
+    "href": "packages_projects_tools/opencodecounts/opencodecounts.html",
+    "title": "opencodecounts",
+    "section": "",
+    "text": "“OpenCodeCounts is an open-access, online interactive tool and an accompanying R package. It allows users to explore the English national clinical coding data captured in NHS-funded GP practices and admissions to acute hospitals. It visualises and analyses how frequently chosen clinical codes have been recorded each year since 2012. Users can search for individually entered codes or groups of codes, or any codelist you have created or found on OpenCodelists.” (source)."
+  },
+  {
+    "objectID": "packages_projects_tools/opencodecounts/opencodecounts.html#presentation",
+    "href": "packages_projects_tools/opencodecounts/opencodecounts.html#presentation",
+    "title": "opencodecounts",
+    "section": "Presentation",
+    "text": "Presentation\nPresentation from the NHS RPySOC 2025 Conference:"
+  },
+  {
+    "objectID": "packages_projects_tools/opencodecounts/opencodecounts.html#project-status",
+    "href": "packages_projects_tools/opencodecounts/opencodecounts.html#project-status",
+    "title": "opencodecounts",
+    "section": "Project status",
+    "text": "Project status\nStatus: Gold\nRationale: Well-structured R package and interactive tool with comprehensive documentation."
+  },
+  {
     "objectID": "packages_projects_tools/patientflow/patientflow.html",
     "href": "packages_projects_tools/patientflow/patientflow.html",
     "title": "patientflow: predicting short-term hospital bed demand using real-time data",
@@ -151,7 +396,28 @@
     "href": "packages_projects_tools/patientflow/patientflow.html#talks",
     "title": "patientflow: predicting short-term hospital bed demand using real-time data",
     "section": "Talks",
-    "text": "Talks\nThis first of a series of two talks covers the theory of the work.\n\nThis next talk dives more into the details of the package.\n\n\nRationale for Rating\n13/11/2025 SR: This work currently describes itself as an alpha release. It has been used by UCLH and a hospital in Sweden, but it is not in widespread use beyond that, so may still require modification for your own use case."
+    "text": "Talks\nThis first of a series of two talks covers the theory of the work.\n\nThis next talk dives more into the details of the package."
+  },
+  {
+    "objectID": "packages_projects_tools/patientflow/patientflow.html#project-status",
+    "href": "packages_projects_tools/patientflow/patientflow.html#project-status",
+    "title": "patientflow: predicting short-term hospital bed demand using real-time data",
+    "section": "Project status",
+    "text": "Project status\nStatus: Silver\nRationale: This work currently describes itself as an alpha release. It has been used by UCLH and a hospital in Sweden, but it is not in widespread use beyond that, so may still require modification for your own use case."
+  },
+  {
+    "objectID": "packages_projects_tools/rap_community_of_practice/rap_community_of_practice.html",
+    "href": "packages_projects_tools/rap_community_of_practice/rap_community_of_practice.html",
+    "title": "NHS RAP Community of Practice",
+    "section": "",
+    "text": "The NHS RAP Community of Practice is a website maintained by NHS England. It is intended for those interested in adopting reproducible analytical pipelines (RAP). The community of practice aims to support teams in adopting RAP practices through:\nYou can visit their website https://nhsdigital.github.io/rap-community-of-practice/.\nResources include the “Levels of RAP” framework, which is a set of actionable steps you can follow to make your work into a RAP."
+  },
+  {
+    "objectID": "packages_projects_tools/rap_community_of_practice/rap_community_of_practice.html#project-status",
+    "href": "packages_projects_tools/rap_community_of_practice/rap_community_of_practice.html#project-status",
+    "title": "NHS RAP Community of Practice",
+    "section": "Project status",
+    "text": "Project status\nStatus: N/A\nRationale: Reference resource rather than code, so it is not ranked."
   },
   {
     "objectID": "packages_projects_tools/vidigi/vidigi.html",
@@ -159,5 +425,12 @@
     "title": "Vidigi: animated queues for simulations and reality",
     "section": "",
     "text": "Vidigi is an animation library designed to support the communication of discrete event simulation models through creating animated visualiasations of patient flows and bottlenecks.\nHowever, it could in theory be used to generate animations from real-world data, providing impactful and intuitive visualisations of bottlenecks and flow within services."
+  },
+  {
+    "objectID": "packages_projects_tools/vidigi/vidigi.html#project-status",
+    "href": "packages_projects_tools/vidigi/vidigi.html#project-status",
+    "title": "Vidigi: animated queues for simulations and reality",
+    "section": "Project status",
+    "text": "Project status\nStatus: Silver\nRationale: Actively maintained package, ranked “Silver” as it is still under development."
   }
 ]

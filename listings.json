@@ -4,11 +4,23 @@
     "items": [
       "/packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html",
       "/packages_projects_tools/nhspy-plotthedots/nhspy-plotthedots.html",
+      "/packages_projects_tools/des_rap_book/des_rap_book.html",
       "/packages_projects_tools/vidigi/vidigi.html",
       "/packages_projects_tools/bupaR/bupar.html",
       "/packages_projects_tools/pm4py/pm4py.html",
+      "/packages_projects_tools/community_pharmacy_workforce/community_pharmacy_workforce.html",
+      "/packages_projects_tools/new_hospital_programme/new_hospital_programme.html",
+      "/packages_projects_tools/nhsrtt/nhsrtt.html",
       "/packages_projects_tools/nowcasting/nowcasting.html",
-      "/packages_projects_tools/patientflow/patientflow.html"
+      "/packages_projects_tools/patientflow/patientflow.html",
+      "/packages_projects_tools/ambmodelopen/ambmodelopen.html",
+      "/packages_projects_tools/aif_allocation_tool/aif_allocation_tool.html",
+      "/packages_projects_tools/rap_community_of_practice/rap_community_of_practice.html",
+      "/packages_projects_tools/nhsrwaitinglist/nhsrwaitinglist.html",
+      "/packages_projects_tools/nhs_time_of_travel/nhs_time_of_travel.html",
+      "/packages_projects_tools/ciw/ciw.html",
+      "/packages_projects_tools/opencodecounts/opencodecounts.html",
+      "/packages_projects_tools/sim_tools/sim_tools.html"
     ]
   }
 ]

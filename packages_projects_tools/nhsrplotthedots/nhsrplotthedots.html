@@ -30,17 +30,18 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../resources/favicon.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-59b36c90667c04ed0e153381d92a9409.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-a00301415581ffe55e28593e254dd724.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-72a3597a80a47a1ad633da5fad5afc05.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,26 +72,182 @@ ul.task-list li input[type="checkbox"] {
 <style>
 
       .quarto-title-block .quarto-title-banner {
-        background: ../../banner.png;
+        background-image: url(../../resources/banner.png);
+background-size: cover;
       }
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../resources/themes/styles.css">
 </head>
 
-<body class="floating nav-fixed quarto-light">
+<body class="floating nav-fixed quarto-dark"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = true;
+    const darkModeDefault = authorPrefersDark;
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-xl " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../resources/Chalky HSMA-07-wide white logo.png" alt="" class="navbar-logo">
-    </a>
-  </div>
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
@@ -130,7 +287,7 @@ ul.task-list li input[type="checkbox"] {
           </li>
       </ul>
     </div>
-    <a href="https://www.linkedin.com/samanthajaderosser/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -138,6 +295,26 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block projects default toc-left page-columns page-full">
     <div class="quarto-title-banner page-columns page-full">
+
+                <div class="back-nav"><a href="javascript:history.back()">← Back</a></div>
+        
+        <div class="quarto-title column-body">
+                                    <div class="quarto-categories">
+                                <div class="quarto-category">KPI Reporting</div>
+                                <div class="quarto-category">Statistical Process Control</div>
+                                <div class="quarto-category">R</div>
+                            </div>
+                        
+            <h1 class="title">NHSRPlotTheDots: statistical process control for better metric reporting</h1>
+
+            
+            
+                        <br>
+            <div class="abstract">
+                <b>Summary</b>
+                <p>NHSRplotthedots is an R package that simplifies the creation and automation of statistical process control (SPC) charts for KPIs. It helps analysts and teams move beyond static KPIs to understand true performance variation and identify opportunities for improvement.</p>
+            </div>
+                    </div>
 
                 <div class="project-link-buttons">
             <ul class="project-links">
@@ -147,26 +324,6 @@ ul.task-list li input[type="checkbox"] {
                                                                             </ul>
         </div>
         
-                <div class="back-nav"><a href="javascript:history.back()">← Back</a></div>
-        
-        <div class="quarto-title column-body">
-            <h1 class="title">NHSRPlotTheDots: statistical process control for better metric reporting</h1>
-
-            
-            
-                        <br>
-            <div class="abstract">
-                <b>30 Second Summary</b>
-                <p>NHSRplotthedots is an R package that simplifies the creation and automation of statistical process control (SPC) charts for KPIs. It helps analysts and teams move beyond static KPIs to understand true performance variation and identify opportunities for improvement.</p>
-            </div>
-            
-                                    <div class="quarto-categories">
-                                <div class="quarto-category">KPI Reporting</div>
-                                <div class="quarto-category">Statistical Process Control</div>
-                                <div class="quarto-category">R</div>
-                            </div>
-                                </div>
-
     </div>
 
     
@@ -186,9 +343,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#rationale-for-rating" id="toc-rationale-for-rating" class="nav-link active" data-scroll-target="#rationale-for-rating">Rationale for Rating</a></li>
-  <li><a href="#the-making-data-count-programme" id="toc-the-making-data-count-programme" class="nav-link" data-scroll-target="#the-making-data-count-programme">The Making Data Count Programme</a></li>
+  <li><a href="#the-making-data-count-programme" id="toc-the-making-data-count-programme" class="nav-link active" data-scroll-target="#the-making-data-count-programme">The Making Data Count Programme</a></li>
   <li><a href="#related-projects" id="toc-related-projects" class="nav-link" data-scroll-target="#related-projects">Related Projects</a></li>
+  <li><a href="#project-status" id="toc-project-status" class="nav-link" data-scroll-target="#project-status">Project status</a></li>
   </ul>
 </nav>
 </nav>
@@ -202,21 +359,24 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="rationale-for-rating" class="level3 callout-info">
-<h3 class="anchored" data-anchor-id="rationale-for-rating">Rationale for Rating</h3>
-<p>This package has a strong codebase with automated testing, ongoing maintenance and development, and strong documentation. It believe it has been used in a variety of organisations for reporting.</p>
-</section>
+
 <p>NHSrplotthedots is an R package designed to make it easier to produce statistical process control (SPC) charts, which are a widely well-regarded way to report on KPIs in trusts and other organisations across the country.</p>
 <p>Pairing well with reporting tools like Quarto or rmarkdown, as well as dashboarding tools like R Shiny, this battle-tested package used in trusts across the country can help to automate and improve reporting, using the same underlying methodology as the Excel tool originally provided by the</p>
 <section id="the-making-data-count-programme" class="level2">
 <h2 class="anchored" data-anchor-id="the-making-data-count-programme">The Making Data Count Programme</h2>
 <p>Not come across SPC charts before? Read these guides from the NHS England Making Data Count team to understand how they can help make sense of whether variation in a metric is at a level of concern. By helping to cut through random noise and highlight true patterns of variation, we can move away from ‘spuddling’ - constant meddling that fails to produce real change - and make our reporting more impactful.</p>
-<embed width="1000" height="800" src="../../resources/makingdatacount/making-data-count-getting-started-2019.pdf" title="Making Data Count - Getting Started">
-<embed width="1000" height="800" src="../../resources/makingdatacount/making-data-count-strengthening-your-decisions.pdf" title="Making Data Count - Strengthening Your Decisions">
+<embed width="100%" height="400" src="making-data-count-getting-started-2019.pdf" title="Making Data Count - Getting Started">
+<embed width="100%" height="400" src="making-data-count-strengthening-your-decisions.pdf" title="Making Data Count - Strengthening Your Decisions">
 </section>
 <section id="related-projects" class="level2">
 <h2 class="anchored" data-anchor-id="related-projects">Related Projects</h2>
 <p>For Python, try <a href="../../packages_projects_tools/nhspy-plotthedots/nhspy-plotthedots.html">NHSPy-plotthedots</a></p>
+<p><br></p>
+</section>
+<section id="project-status" class="level2">
+<h2 class="anchored" data-anchor-id="project-status">Project status</h2>
+<p><strong>Status: <span style="color: #D18B12FF">Gold</span></strong></p>
+<p><strong>Rationale:</strong> This package has a strong codebase with automated testing, ongoing maintenance and development, and strong documentation. It believe it has been used in a variety of organisations for reporting.</p>
 
 
 </section>
@@ -224,6 +384,19 @@ ul.task-list li input[type="checkbox"] {
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
