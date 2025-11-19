@@ -1,0 +1,59 @@
+---
+title: "sim-tools"
+categories:
+  - Other
+  - Python
+status: '<span style="color: #D18B12FF">Gold</span>'
+image: simtools_logo_purple.png
+author:
+  - name: Tom Monks
+    affiliation: University of Exeter
+    orcid: 0000-0003-2631-4481
+  - name: Amy Heather
+    affiliation: University of Exeter
+    orcid: 0000-0002-6596-3479
+  - name: Alison Harper
+    affiliation: University of Exeter
+    orcid: 0000-0001-5274-5037
+pub-info:
+  language: '<i class="fa-brands fa-python"></i>'
+  abstract: |
+    Tools to support Discrete-Event Simulation (DES) and Monte-Carlo Simulation education and practice.
+  links:
+  - name: Code
+    url: https://github.com/TomMonks/sim-tools
+    icon: fa-brands fa-github
+  - name: Documentation
+    url: https://tommonks.github.io/sim-tools/
+    icon: fa-solid fa-book
+  - name: PyPi
+    url: https://pypi.org/project/sim-tools/
+    icon: fa-solid fa-brands fa-python
+  - name: Conda
+    url: https://anaconda.org/conda-forge/sim-tools
+    icon: fa-solid fa-brands fa-python
+---
+
+Package to support discrete-event simulation (DES) and monte-carlo simulation education and applied simulation research. Features:
+
+1. Implementation of classic Optimisation via Simulation procedures such as KN, KN++, OBCA and OBCA-m
+
+2. Theoretical and empirical distributions module that includes classes that encapsulate a random number stream, seed, and distribution parameters.
+
+3. An extendable Distribution registry that provides a quick reproduible way to parameterise simulation models.
+
+4. Implementation of Thinning to sample from Non-stationary Poisson Processes (time-dependent) in a DES.
+
+5. Automatic selection of the number of replications to run via the Replications Algorithm.
+
+6. EXPERIMENTAL: model trace functionality to support debugging of simulation models.
+
+![sim-tools logo](simtools_logo_purple.png){width=50%}
+
+<br>
+
+## Project status
+
+**Status: {{< meta status >}}**
+
+**Rationale:** Python package with documentation website and test suite.

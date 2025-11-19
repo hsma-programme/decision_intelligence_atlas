@@ -10,9 +10,7 @@ website:
   draft-mode: unlinked
   site-url: https://atlas.hsma.co.uk
   description: "A guide to modern healthcare analytics, modelling and data science"
-  favicon: resources/favicon.png
   navbar:
-    logo: "/resources/Chalky HSMA-07-wide white logo.png"
     title: false
     collapse-below: "xl"
     tools:
@@ -20,8 +18,6 @@ website:
         menu:
           - text: View the code for this website
             href:  https://github.com/bergam0t/decision_intelligence_atlas
-      - icon: linkedin
-        href: https://www.linkedin.com/samanthajaderosser/
     right:
       - href: index.qmd
         text: Welcome
@@ -38,19 +34,20 @@ website:
       - href: about_hsma.qmd
         text: About HSMA
 
-
-
-
-
 format:
   html:
     theme:
+      dark:
       - darkly
-      - theme-dark.scss
+      - resources/themes/theme-dark.scss
       - resources/fonts/css/lexend.css
-    css: styles.css
+      light:
+      - flatly
+      - resources/themes/theme-light.scss
+      - resources/fonts/css/lexend.css
+    css: resources/themes/styles.css
     toc: true
-    title-block-banner: /resources/banner.png
+    title-block-banner: resources/banner.png
     mainfont: Lexend
     include-in-header:
       - text: |

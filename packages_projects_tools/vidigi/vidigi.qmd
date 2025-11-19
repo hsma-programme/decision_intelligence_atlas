@@ -7,10 +7,7 @@ categories:
 author:
   - name: Sammi Rosser
     affiliation: HSMA
-    linkedin:
-    website: https://www.sammirosser.com
-    orcid:
-title-block-banner: ../../banner.png
+    orcid: 0000-0002-9552-8988
 status: '<span style="color: #888888FF">Silver</span>'
 image: vidigi.gif
 pub-info:
@@ -43,3 +40,11 @@ Vidigi is an animation library designed to support the communication of discrete
 However, it could in theory be used to generate animations from real-world data, providing impactful and intuitive visualisations of bottlenecks and flow within services.
 
 {{< video https://youtu.be/ZrYtJqlwGcA?si=3d7cxQSBqBXkicqg >}}
+
+<br>
+
+## Project status
+
+**Status: {{< meta status >}}**
+
+**Rationale:** Actively maintained package, ranked "Silver" as it is still under development.

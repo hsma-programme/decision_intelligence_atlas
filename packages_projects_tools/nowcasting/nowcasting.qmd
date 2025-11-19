@@ -5,7 +5,6 @@ categories:
   - Demand Prediction
   - Microsoft Power BI
   - R
-title-block-banner: ../../banner.png
 status: '<span style="color: #893400FF">Bronze</span>'
 image: nowcasts.png
 pub-info:
@@ -45,3 +44,11 @@ While it is a comparatively simple approach with its limitations, it does have i
 ## Related projects
 
 A PowerBI custom visual, powered by a script based on the original nowcasting repository, is available here: [github.com/Bergam0t/nowcasts-power-bi](https://github.com/Bergam0t/nowcasts-power-bi)
+
+<br>
+
+## Project status
+
+**Status: {{< meta status >}}**
+
+**Rationale:** Useful script for short-term operational forecasting. As it is a single script, and does not have documentation, tests or extra features, this has been rated as "Bronze".

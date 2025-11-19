@@ -55,10 +55,7 @@ jobs:
           author:
             - name: "${{ fromJSON(steps.extract.outputs.json).author }}"
               affiliation:
-              linkedin:
-              website:
               orcid:
-          title-block-banner: ../../banner.png
           status: ${status_span}
           toc: true
           image:
@@ -101,9 +98,15 @@ jobs:
           ## Details
           ${{ fromJSON(steps.extract.outputs.json).methodology }}
 
-          :::{.callout-note}
-          ### Rationale for Rating
-          "${{ fromJSON(steps.extract.outputs.json).status_reason }}"
+          
+          <br>
+
+          ## Project status
+
+          **Status: {{< meta status >}}**
+
+          **Rationale:** "${{ fromJSON(steps.extract.outputs.json).status_reason }}"
+
           :::
 
           EOF

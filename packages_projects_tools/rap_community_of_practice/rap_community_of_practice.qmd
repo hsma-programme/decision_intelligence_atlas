@@ -1,0 +1,43 @@
+---
+title: "NHS RAP Community of Practice"
+categories:
+  - RAP
+  - Other
+status: N/A
+image: homepage.png
+author:
+  - name: RAP Community of Practice
+    affiliation: NHS Digital
+pub-info:
+  language: # Not applicable
+  abstract: |
+    The NHS RAP Community of Practice, maintained by NHS England, supports analysts and teams in adopting reproducible analytical pipeline (RAP) methods.
+  links:
+  - name: Code
+    url: https://github.com/NHSDigital/rap-community-of-practice
+    icon: fa-brands fa-github
+  - name: Website
+    url: https://nhsdigital.github.io/rap-community-of-practice/
+    icon: fa-solid fa-globe
+---
+
+The NHS RAP Community of Practice is a website maintained by NHS England. It is intended for those interested in adopting reproducible analytical pipelines (RAP). The community of practice aims to support teams in adopting RAP practices through:
+
+* Developing learning materials including reusable templates.
+* Offering support as teams establish new working practices.
+
+You can visit their website <https://nhsdigital.github.io/rap-community-of-practice/>.
+
+[![RAP Community of Practice](homepage.png)](https://nhsdigital.github.io/rap-community-of-practice/)
+
+Resources include the "Levels of RAP" framework, which is a set of actionable steps you can follow to make your work into a RAP.
+
+[![Levels of RAP](levels_of_rap.png)](https://nhsdigital.github.io/rap-community-of-practice/introduction_to_RAP/levels_of_RAP/)
+
+<br>
+
+## Project status
+
+**Status: {{< meta status >}}**
+
+**Rationale:** Reference resource rather than code, so it is not ranked.

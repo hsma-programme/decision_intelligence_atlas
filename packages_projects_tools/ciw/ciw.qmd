@@ -1,0 +1,53 @@
+---
+title: "ciw"
+categories:
+  - Other
+  - Python
+status: '<span style="color: #D18B12FF">Gold</span>'
+image: logo_small.png
+author:
+  - name: Geraint Palmer
+  - name: Vincent Knight
+  - name: Paul Harper
+  - name: Lieke Hölscher
+  - name: Sam Luen-English
+  - name: Alex Carney
+  - name: Adam Johnson
+  - name: Nikoleta Glynatsi
+  - name: caipirginka
+  - name: Emma Aspland
+  - name: Henry Wilde
+  - name: timlathy
+  - name: Michalis Panayides
+  - name: Jorge Martín Pérez
+  - name: KernelA
+  - name: Matthew Howells
+  - name: Galen Seilis
+pub-info:
+  language: '<i class="fa-brands fa-python"></i>'
+  abstract: |
+    A discrete event simulation library for queueing networks.
+  links:
+  - name: Code
+    url: https://github.com/CiwPython/Ciw
+    icon: fa-brands fa-github
+  - name: Documentation
+    url: http://ciw.readthedocs.io/
+    icon: fa-solid fa-book
+  - name: Paper
+    url: https://doi.org/10.1080/17477778.2018.1473909
+    icon: fa-solid fa-file-contract
+  - name: PyPi
+    url: https://pypi.org/project/Ciw/
+    icon: fa-solid fa-brands fa-python
+---
+
+"Ciw is a discrete event simulation library for open queueing networks. It’s core features include the capability to simulate networks of queues, multiple customer classes, and implementation of Type I blocking for restricted networks." ([source](https://github.com/CiwPython/Ciw))
+
+<br>
+
+## Project status
+
+**Status: {{< meta status >}}**
+
+**Rationale:** Maintained package with documentation and tests.

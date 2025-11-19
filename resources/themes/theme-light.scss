@@ -1,0 +1,18 @@
+/*-- scss:defaults --*/
+
+// Background colours
+$navbar-bg: #8B0000;
+$footer-bg: #8B0000;
+
+// Code blocks
+$code-block-bg-alpha: -.8;
+
+/*-- scss:rules --*/
+
+.custom-grid-card {
+  --bs-card-bg: #f8f9fa;
+}
+
+.custom-grid-card .title-link {
+  color: #000000
+}

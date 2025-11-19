@@ -5,7 +5,6 @@ categories:
   - Identifying Bottlenecks
   - Data Visualisation
   - Pathway Analytics
-title-block-banner: ../../banner.png
 status: '<span style="color: #D18B12FF">Gold</span>'
 image: pm4py.png
 pub-info:
@@ -47,13 +46,11 @@ pm4py's licencing terms are quite restrictive compared to some other packages. N
 The R equivalents of this package are bupaR (which has its own buparverse including the ability to animate process mining outputs), and [the R package pm4py](https://bupaverse.github.io/pm4py/index.html), which provides an interface to the predictive functionality of pm4py in the R world.
 :::
 
----
+<br>
 
-You can try the package out in this web app, though you should not upload any real data. A sample dataset is provided.
+## Demonstration
 
-```{=html}
-<iframe width="1000" height="800" src="https://simplemines.streamlit.app/" title="Simple Mines - Process Mining Demo App"></iframe>
-```
+You can try the package out in the web app embedded below (it may take a moment to load). You should not upload any real data to the app - a sample dataset is provided.
 
 ```{=html}
 <div class="project-link-buttons">
@@ -63,3 +60,15 @@ You can try the package out in this web app, though you should not upload any re
     </ul>
 </div>
 ```
+
+```{=html}
+<iframe width="100%" height="400" src="https://simplemines.streamlit.app/" title="Simple Mines - Process Mining Demo App"></iframe>
+```
+
+<br>
+
+## Project status
+
+**Status: {{< meta status >}}**
+
+**Rationale:** Actively maintained and widely used Python library with extensive features and user documentation.

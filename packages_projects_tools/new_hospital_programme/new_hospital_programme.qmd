@@ -1,0 +1,62 @@
+---
+title: "New Hospital Programme Demand Model"
+categories:
+  - Python
+  - Demand Prediction
+  - Forecasting
+  - Service Planning
+status: '<span style="color: #D18B12FF">Gold</span>'
+image: nationally_consistent_approach.png
+author:
+  - name: The Strategy Unit
+pub-info:
+  language: '<i class="fa-brands fa-python"></i>'
+  abstract: |
+    The Demand and Capacity Modelling Tool, developed by the Strategy Unit for DHSC and its partners, supports robust and transparent forecasting of future hospital activity to inform the design and scaling of over 40 new hospitals planned by 2030.
+  links:
+  - name: Code
+    url: https://github.com/The-Strategy-Unit/nhp_model
+    icon: fa-brands fa-github
+  - name: Documentation
+    url: https://connect.strategyunitwm.nhs.uk/nhp/project_information/
+    icon: fa-solid fa-book
+---
+
+"The government has committed to building more than 40 new hospitals by 2030. The New Hospital Programme (NHP), a partnership between DHSC and NHSE, aims to ensure that this new hospital infrastructure will meet the future needs of the population and that the required investment represents value for money.
+
+Estimating future activity levels represents a critical early step in the process of scaling and designing new hospital infrastructure. The Demand and Capacity Modelling Tool has been developed by the Strategy Unit to support DHSC and its stakeholders to make robust and auditable assessments of activity that hospitals may need to accommodate in future." ([source](https://connect.strategyunitwm.nhs.uk/nhp/project_information/project_plan_and_summary/plan_and_summary.html))
+
+<br>
+
+## GitHub repositories
+
+* [nhp_model](https://github.com/The-Strategy-Unit/nhp_model)
+* [nhp_outputs](https://github.com/The-Strategy-Unit/nhp_outputs)
+* [nhp_data](https://github.com/The-Strategy-Unit/nhp_data)
+* [nhp_project information](https://github.com/The-Strategy-Unit/nhp_project_information)
+
+<br>
+
+## Project information website
+
+NHP model project information website: <https://connect.strategyunitwm.nhs.uk/nhp/project_information/>.
+
+![Image from <a href="https://github.com/The-Strategy-Unit/nhp_model">nhp_model</a> repository.](nationally_consistent_approach.png)
+
+<br>
+
+## Quality assurance
+
+Quality assurance plan and log managed using GitHub Projects at <https://github.com/orgs/The-Strategy-Unit/projects/6>.
+
+[![Using GitHub projects for quality assurance.](quality_assurance.png)](https://github.com/orgs/The-Strategy-Unit/projects/6)
+
+This is explained in their [presentation from the NHS RPySOC 2025 Conference](https://statsrhian.github.io/qa-in-github/).
+
+<br>
+
+## Project status
+
+**Status: {{< meta status >}}**
+
+**Rationale:** Extensive documentation, robust quality assurance, modular design, and transparent, actively maintained processes.

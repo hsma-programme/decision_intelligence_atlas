@@ -1,0 +1,66 @@
+---
+title: "opencodecounts"
+categories:
+  - R
+  - Other
+status: '<span style="color: #D18B12FF">Gold</span>'
+image: app.jpg
+author:
+  - name: Milan Wiedemann
+    affiliation: University of Oxford
+    orcid: 0000-0003-1991-282X
+  - name: Arina A. Tamborska
+    affiliation: University of Oxford
+    orcid: 0000-0003-4661-8407
+  - name: Rose Higgins
+    affiliation: University of Oxford
+    orcid: 0000-0002-5295-4370
+  - name: Viveck Kingsley
+    affiliation: University of Oxford
+    orcid: 0009-0003-0864-7132
+  - name: Louis Fisher
+    affiliation: University of Oxford
+    orcid: 0000-0002-0295-3812
+  - name: Lola Ojedele
+    affiliation: University College London
+    orcid: 0009-0008-4895-6913
+  - name: Kunle Oreagba
+    affiliation: University of Bristol
+    orcid: 0009-0004-5079-1362
+pub-info:
+  language: '<i class="fa-brands fa-r-project"></i>'
+  abstract: |
+    The opencodecounts R package provides easy access to yearly summaries of clinical code usage in England. The package makes NHS England's published datasets available in R and an interactive online tool, covering SNOMED CT codes in primary care and ICD-10/OPCS-4 codes in secondary care.
+  links:
+  - name: Code
+    url: https://github.com/bennettoxford/opencodecounts
+    icon: fa-brands fa-github
+  - name: Documentation
+    url: https://bennettoxford.github.io/opencodecounts/
+    icon: fa-solid fa-book
+  - name: Paper
+    url: https://doi.org/10.1101/2025.10.14.25338005
+    icon: fa-solid fa-file-contract
+---
+
+"OpenCodeCounts is an open-access, online interactive tool and an accompanying R package. It allows users to explore the English national clinical coding data captured in NHS-funded GP practices and admissions to acute hospitals. It visualises and analyses how frequently chosen clinical codes have been recorded each year since 2012. Users can search for individually entered codes or groups of codes, or any codelist you have created or found on OpenCodelists." ([source](https://www.bennett.ox.ac.uk/blog/2025/10/introducing-opencodecounts/)).
+
+[![OpenCodeCounts Shiny App, image from <a href="https://www.bennett.ox.ac.uk/blog/2025/10/introducing-opencodecounts/">Bennett Institute for Applied Data Science</a>.](app.jpg)](https://bennettoxford.github.io/opencodecounts/articles/app.html)
+
+<br>
+
+## Presentation
+
+Presentation from the [NHS RPySOC 2025 Conference](https://github.com/nhs-r-community/RPySOC2025_presentations):
+
+```{=html}
+<embed width="100%" height="400" src="2025-11-13_wiedemann.pdf" title="opencodecounts: An R package and Shiny app exploring NHS clinical coding data">
+```
+
+<br>
+
+## Project status
+
+**Status: {{< meta status >}}**
+
+**Rationale:** Well-structured R package and interactive tool with comprehensive documentation.

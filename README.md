@@ -1,10 +1,10 @@
 [![All Contributors](https://img.shields.io/github/all-contributors/hsma-programme/decision_intelligence_atlas?color=ee8449&style=flat-square)](#contributors)
 
-Welcome to the Healthcare Services Analytics & Decision Science Atlas.
+**Welcome to the Healthcare Services Analytics & Decision Science Atlas. This is a directory of open-source tools, packages, and projects for analytics and decision science in healthcare.**
 
 This site is in its very early stages - please check back as we continue to develop it.
 
-In time, we hope this can develop into a tool to help showcase the amazing work happening across the analyics and data science communities in healthcare, promoting reuse and collaborative work on the tools we all need.
+In time, we hope this can develop into a tool to help showcase the amazing work happening across the analytics and data science communities in healthcare, promoting reuse and collaborative work on the tools we all need.
 
 ## Contributors
 
@@ -40,23 +40,32 @@ This will collect all the required information and use it to automatically gener
 
 If you wish to have more control over your submission and are comfortable using Quarto, you may wish to **take a fork of the repository**, make your changes, and then submit a pull request. Your request will be reviewed and merged, with additions or tweaks possible.
 
-You can find a template .qmd file for adding a package, project or tool in the **templates** folder.
+You can find a template .qmd file for adding a package, project or tool in the `templates/` folder.
 
 Templates for other kinds of content will follow in the future.
 
-When creating your own entry,
+To create your own entry:
 
-- please create a folder in the **packages_projects_tools** folder with the name of the tool. Please ensure there are no spaces or special characters other than - or _ in the folder name.
-    - note that there are currently a lot of placeholders for various tools/packages/projects that @Bergam0t thinks should be added, which will just contain an empty file calld '.gitkeep' that's used to tell GitHub to make the folder. You are very welcome to submit an entry for one of these! In that case, you just won't need to create a new folder - use the one that's already thre.
-- please then copy the template into your folder and rename it with the same name as your folder, ensuring you don't accidentally remove the .qmd file extension.
-- you can then use this folder to store any additional resources such as images or gifs. Please use **relative** links - e.g. if you add an image called 'my_tool_example.png' to your folder 'my_tool', in your 'my_tool.qmd' file you would reference that as ![](my_tool_example.png), not ![](C:/my_username/decision_intelligence_atlas/packages_projects_tools/my_tool/my_tool_example.png) or !(my_tool/my_tool_example.png).
-- please fill in the yml header, using the comments provided to help guide you
-- please provide a description of the project outside of the yml header.
-- categories that are currently in use can be found in templates/packages_projects_tools_permitted_categories.csv
-- if you feel that an appropriate category doesn't currently exist for your addition, please add it in to the categories section of the yml header and mention it in your pull request. An administrator will then decide whether the new category will be added to the list of categories.
-    - in addition, if you feel that it doesn't fit under any of the headers on the [atlas.hsma.co.uk/packages_tools_projects](atlas.hsma.co.uk/packages_tools_projects) page, please let us know in your pull request and an admin can look at adding a new section to this page. Please let us know if you have a section heading in mind.
+1. Create a folder in `packages_projects_tools/` named after your tool. Use only letters, numbers, hyphens(`-`) or underscores (`_`); no spaces or other special characters.
+    - Note that there are currently a lot of placeholders for various tools/packages/projects that @Bergam0t thinks should be added, which will just contain an empty file called `.gitkeep` that's used to tell GitHub to make the folder. You are very welcome to submit an entry for one of these! In that case, you just won't need to create a new folder - use the one that's already there.
 
-The website is currently being compiled with Quarto version 1.7.33. You do not need to render the project yourself other than to preview your entry - all site rendering is handled by automated GitHub actions.
+2. Copy the template `.qmd` file from the `templates/` folder into your tool folder. Rename it to match the folder name, keeping the `.qmd` extension.
+
+3. Add any additional resources (e.g., images, figs) to your folder. Use **relative links** in your `.qmd` file - for example:
+    - Good: `![](my_tool_example.png)`
+    - Bad: `![](C:/my_username/decision_intelligence_atlas/packages_projects_tools/my_tool/my_tool_example.png)`
+    - Bad: `!(my_tool/my_tool_example.png)`
+
+4. Complete the YAML header, using the provided comments for guidance.
+
+5. Write a description of the project outside the YAML header in the `.qmd` file.
+
+6. Choose categories from `templates/packages_projects_tools_permitted_categories.csv`.
+    - If no suitable category exists, add a new one in the YAML header and mention it in your pull request. An admin will review it and decide whether to add it to the list of categories.
+    * Additionally, if your entry does not fit under the existing headers on the [atlas.hsma.co.uk/packages_tools_projects](atlas.hsma.co.uk/packages_tools_projects) page, please let us know in your pull request and an admin can look at adding a new section to this page. Please let us know if you have a section heading in mind.
+
+To preview your entry locally, run `quarto render` to compile the website.  
+The project currently uses Quarto version 1.7.33. You do **not** need to render the site manually for updates - deployment is handled automatically by GitHub Actions.
 
 ##### Using GitHub Codespaces
 
@@ -66,11 +75,11 @@ Take a fork as normal using the fork button on the repository.
 
 ![](assets/2025-11-12-13-49-31.png)
 
-Then click on 'code' --> 'open in codespaces'.
+Click on `<> Code`, then go to the `Codespaces` tab and select `Create codespace on main`.
 
 ![](assets/2025-11-12-13-48-34.png)
 
-It will take a few minutes, but you should then be presented with a web-based version of VSCode with the repository cloned and the appropriat version of Quarto pre-installed. You can then use the built-in GitHub features of the web-based VSCode to commit your changes to your fork and make a pull request when you are ready.
+It will take a few minutes, but you should then be presented with a web-based version of VSCode with the repository cloned and the appropriate version of Quarto pre-installed. You can then use the built-in GitHub features of the web-based VSCode to commit your changes to your fork and make a pull request when you are ready.
 
 ### Contributing a technique or graph example
 

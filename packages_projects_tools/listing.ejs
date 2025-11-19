@@ -12,7 +12,9 @@
 
 
             <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title"><%= item['title'] %></h5>
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="<%- item.path %>" class="title-link"><%= item['title'] %></a>
+                </h5>
             </div>
 
             <% if(item['status']) { %>
