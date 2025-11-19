@@ -30,6 +30,16 @@ In time, we hope this can develop into a tool to help showcase the amazing work 
 
 Contributions are very welcome!
 
+### Getting involved in discussions 
+
+Interested in discussing some aspect of the Atlas? Got an opinion on how it should be structured, the sort of thing it should showcase, how it's laid out, or the branding? For these higher-level discussions, head over to the [discussions](https://github.com/hsma-programme/decision_intelligence_atlas/discussions) tab of our GitHub.
+
+### Raising Issues
+
+Spotted a bug? Got an idea for a potential improvement? 
+
+Please head over to our [issues](https://github.com/hsma-programme/decision_intelligence_atlas/issues) page and open a new issue - or see if you can contribute to any of the ones already open.
+
 ### Contributing a tool, package or project
 
 #### via GitHub Issues (code-free approach!)
