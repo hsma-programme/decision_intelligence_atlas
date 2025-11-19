@@ -1,7 +1,7 @@
 name: Quarto Check for Tools, Packages and Techniques Submission from Form
 on:
   workflow_run:
-    workflows: [" Generate Quarto page from Issue Form"]  # name of your PR-creating workflow
+    workflows: ["Generate Quarto page from Issue Form"]  # name of your PR-creating workflow
     types:
       - completed
 jobs:
