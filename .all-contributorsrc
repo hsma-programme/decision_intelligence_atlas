@@ -22,6 +22,19 @@
         "maintenance",
         "review"
       ]
+    },
+    {
+      "login": "amyheather",
+      "name": "Amy Heather",
+      "avatar_url": "https://avatars.githubusercontent.com/u/92166537?v=4",
+      "profile": "https://www.linkedin.com/in/amyheather",
+      "contributions": [
+        "code",
+        "content",
+        "doc",
+        "design",
+        "maintenance"
+      ]
     }
   ]
 }
