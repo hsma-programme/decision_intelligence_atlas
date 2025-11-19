@@ -29,17 +29,16 @@ body:
         
         Note that this section will be rendered within Quarto, so feel free to use all kinds of Quarto formatting. 
         
-        If you wish to include images, please add a placeholder within the file making it clear what image should be present there, and then upload these images to the github issue that will be created after you have submitted this. You can do this by adding the image to a comment on the created issue.
+        If you wish to include images, please add a placeholder within the file making it clear what image should be present there, and then upload these images by dragging and dropping them onto this text box.
         Alternatively, if the image is already hosted somewhere publicly accessible, you can include the URL of the image in this text box.
 
         Key shortcodes you may wish to use in your description: 
         
         **Videos:** Embed a video in the description by providing the youtube link in this way:
-        {{< video https://youtu.be/ZrYtJqlwGcA?si=3d7cxQSBqBXkicqg >}}
+        ```{{< video https://youtu.be/ZrYtJqlwGcA?si=3d7cxQSBqBXkicqg >}}```
 
         **Images**: Link images - including both static images and animated gifs - like this:
-        ![](https://my-website/image_name.png)    
-      render: markdown
+        ```![](https://my-website/image_name.png)```    
 
   - type: input
     id: author
@@ -103,7 +102,6 @@ body:
     attributes:
       label: Status Reason
       description: Describe why you have given this project, tool or package this ranking. If you have ranked it Bronze or Silver, explain what is preventing you from ranking it more highly. Give a brief justification of why you feel this ranking is appropriate.
-      render: markdown
 
   - type: input
     id: code
