@@ -1,0 +1,50 @@
+---
+title: "bptk_py"
+categories:
+  - Other
+author:
+  - name: "transentis labs"
+    affiliation:
+    orcid:
+status: '<span style="color: #D18B12FF">Gold</span>'
+toc: true
+pub-info:
+  language: '<i class="fa-brands fa-python"></i>'
+  abstract: |
+    "BPTK-Py is a Python package for building simulation models using System Dynamics and agent-based modeling."
+  links:
+  - name: Code
+    url: "https://github.com/transentis/bptk_py"
+    icon: fa-brands fa-github
+  - name: Documentation
+    url: "https://bptk.transentis.com/"
+    icon: fa-solid fa-book
+  - name: Paper
+    url: ""
+    icon: fa-solid fa-file-contract
+  - name: PyPi
+    url: "https://pypi.org/project/bptk-py/"
+    icon: fa-solid fa-brands fa-python
+  - name: CRAN
+    url: ""
+    icon: fa-solid fa-brands fa-r-project
+  - name: Website
+    url: ""
+    icon: fa-solid fa-globe
+---
+
+## Details
+"The Business Prototyping Toolkit for Python (BPTK-Py) is a computational modeling framework that enables you to build simulation models using System Dynamics (SD) and/or agent-based modeling (ABM) natively in Python and manage simulation scenarios with ease.
+
+Next to providing the necessary SD and ABM language constructs to build models directly in Python, the framework also includes a compiler for transpiling System Dynamics models conforming to the XMILE standard into Python code.
+
+This means you can build models in a XMILE-compatible visual modeling environment (such as iseesystems Stella) and then use them independently in Python." ([source](https://bptk.transentis.com/))
+
+<br>
+
+## Project status
+
+**Status: {{< meta status >}}**
+
+**Rationale:** "Package with active and ongoing maintenance, test suite, and documentation."
+
