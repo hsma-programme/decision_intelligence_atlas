@@ -8,7 +8,6 @@ author:
     orcid:
 status: '<span style="color: #D18B12FF">Gold</span>'
 toc: true
-image:
 pub-info:
   language: '<i class="fa-brands fa-python"></i>'
   abstract: |
