@@ -93,10 +93,10 @@ jobs:
           ${{ fromJSON(steps.extract.outputs.json).other_urls }}
 
           ## Additional Categories
-          ${{ fromJSON(steps.extract.outputs.json).methodology }}
+          ${{ fromJSON(steps.extract.outputs.json).category_other }}
 
           ## Details
-          ${{ fromJSON(steps.extract.outputs.json).methodology }}
+          ${{ fromJSON(steps.extract.outputs.json).details }}
 
           
           <br>
