@@ -34,24 +34,12 @@ pub-info:
     icon: fa-solid fa-globe
 ---
 
-## Language
-  - Python
-
-
-
-## Additional Links
-
-
-## Additional Categories
-
-
 ## Details
 "The Business Prototyping Toolkit for Python (BPTK-Py) is a computational modeling framework that enables you to build simulation models using System Dynamics (SD) and/or agent-based modeling (ABM) natively in Python and manage simulation scenarios with ease.
 
 Next to providing the necessary SD and ABM language constructs to build models directly in Python, the framework also includes a compiler for transpiling System Dynamics models conforming to the XMILE standard into Python code.
 
 This means you can build models in a XMILE-compatible visual modeling environment (such as iseesystems Stella) and then use them independently in Python." ([source](https://bptk.transentis.com/))
-
 
 <br>
 
