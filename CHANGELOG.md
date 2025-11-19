@@ -11,7 +11,7 @@ This release adds some new tools, and makes changes to styling and site setup.
 
 ### Added
 
-* New pages for: DES RAP Book, NHS RAP Community of Practice, `opencodecounts`, a community pharmacy workforce model, the New Hospital Programme Demand Model, `NHSRwaitinglist`, the ICB Place Based Allocation Tool, `nhs_time_of_travel`,  `AmbModelOpen`, `sim-tools`, `ciw`.
+* New pages for: DES RAP Book, NHS RAP Community of Practice, `opencodecounts`, a community pharmacy workforce model, the New Hospital Programme Demand Model, `NHSRwaitinglist`, the ICB Place Based Allocation Tool, `nhs_time_of_travel`,  `AmbModelOpen`, `sim-tools`, `ciw`, `BPTK`.
 * Light theme option now available, including a lighter version of the custom grid card.
 * Add `CITATION.cff` and `CHANGELOG.md`.
 * Add "Other" category to packages, projects and tools.
@@ -19,6 +19,7 @@ This release adds some new tools, and makes changes to styling and site setup.
 ### Changed
 
 * README contribution instructions now clearer and more practical, and mentions `quarto render` command.
+* README contribution instructions now also includes separate section for editing existing entries
 * Add title and summary to `index.qmd` and updated contributions paragraph to point to README.
 * NHS-R PlotTheDots PDFs no longer stored in `resources/`; now live alongside the relevant tool's `.qmd` - since they're only used on that page, it makes sense to store them there (just like images).
 * Author YAML in tool pages now refers to the person or team who made the package/tool, not the Atlas page writer. This is because current set-up creates confusion, as implies the page writer is the package/tool author.
@@ -36,6 +37,8 @@ This release adds some new tools, and makes changes to styling and site setup.
 * Banner PNG added and switched to being loaded globally via `_quarto.yml` (removed broken per-page banner references).
 * Removed white hyperlinks from themes, so you are able to see location in table of contents.
 * Corrected category and add image for NHSRtt page.
+* Fixed description and rating rationale not appearing in generated .qmd if generated from issue template
+* Fixed broken fork link from homepage and replaced with link to general contribution instructions
 
 ### Removed
 
