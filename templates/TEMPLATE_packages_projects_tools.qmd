@@ -9,7 +9,7 @@ author:
     affiliation: # Their organisation/institution
     orcid: # Their ORCID
 pub-info:
-  language: '<i class="fa-brands fa-r-project"></i>''<i class="fa-brands fa-python"></i>''<i class="fa-solid fa-chart-simple">''<i class="fa-solid fa-globe">' # Delete as appropriate
+  language: '<i class="fa-brands fa-r-project"></i>''<i class="fa-brands fa-python"></i>''<i class="fa-solid fa-chart-simple">''<i class="fa-solid fa-globe">''<i class="fa-solid fa-j"></i>' # Delete as appropriate
   abstract: |
     Write a short description that would appear on the listing page to help people decide whether they want more information.
   links:
