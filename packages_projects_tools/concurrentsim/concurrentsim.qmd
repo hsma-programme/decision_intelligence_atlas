@@ -1,0 +1,33 @@
+---
+title: "ConcurrentSim"
+categories:
+  - Julia
+  - Pathway Analytics
+status: '<span style="color: #D18B12FF">Gold</span>'
+author:
+  - name: Ben Lauwens
+    affiliation: Royal Military Academy, Brussels, Belgium
+  - name: Maintainer volunteers
+    affiliation:  JuliaDynamics and QuantumSavory organisations
+pub-info:
+  language: '<i class="fa-solid fa-j"></i>'
+  abstract: |
+    A discrete event process oriented simulation framework (formerly SimJulia) written in Julia inspired by the Python library SimPy.
+  links:
+  - name: Code
+    url: https://github.com/JuliaDynamics/ConcurrentSim.jl
+    icon: fa-brands fa-github
+  - name: Documentation
+    url: https://juliadynamics.github.io/ConcurrentSim.jl/stable/
+    icon: fa-solid fa-book
+---
+
+"ConcurrentSim is a discrete-event process-oriented simulation framework written in Julia inspired by the Python library SimPy. Its process dispatcher is based on semi-coroutines scheduling as implemented in ResumableFunctions or ResumableFunctions. A `Process` in ConcurrentSim is defined by a `@resumable function` yielding `Events`. ConcurrentSim provides three types of shared resources to model limited capacity congestion points: `Resources`, `Containers` and `Stores`. The API is modeled after the SimPy API but some specific Julia semantics are used." ([source](https://juliadynamics.github.io/ConcurrentSim.jl/stable/))
+
+<br>
+
+## Project status
+
+**Status: {{< meta status >}}**
+
+**Rationale:** One of the longest-lived Julia packages, actively maintained, with documentation and testing.
