@@ -1,0 +1,41 @@
+---
+title: "Julia for healthcare modelling and data science"
+categories:
+  - Julia
+status: '<span style="color: #893400FF">Bronze</span>'
+image: screenshot.png
+author:
+  - name: Tom Monks
+    affiliation: University of Exeter Medical School
+    orcid: 0000-0003-2631-4481
+  - name: Mike Allen
+    affiliation: University of Exeter Medical School
+    orcid: 0000-0002-8746-9957
+pub-info:
+  language: '<i class="fa-solid fa-j"></i>'
+  abstract: |
+    Website with snippets of Julia code helpful for modelling health care systems.
+  links:
+  - name: Code
+    url: https://github.com/julia-healthcare/
+    icon: fa-brands fa-github
+  - name: Website
+    url: https://www.juliahealthcare.org/
+    icon: fa-solid fa-globe
+---
+
+The website covers some examples of Julia programming for healthcare optimisation and simulation. This includes:
+
+* Healthcare routing and scheduling problems.
+* Multi-objective optimisation.
+* Local search metaheuristics.
+* Parallel computing capabilities.
+* Discrete-event simulation using SimJulia.
+
+<br>
+
+## Project status
+
+**Status: {{< meta status >}}**
+
+**Rationale:** Some code examples provided within a website, but doesn't meet "Silver" or "Gold" criteria.
