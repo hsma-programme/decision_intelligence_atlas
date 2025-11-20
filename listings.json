@@ -4,6 +4,7 @@
     "items": [
       "/packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html",
       "/packages_projects_tools/nhspy-plotthedots/nhspy-plotthedots.html",
+      "/packages_projects_tools/concurrentsim/concurrentsim.html",
       "/packages_projects_tools/des_rap_book/des_rap_book.html",
       "/packages_projects_tools/vidigi/vidigi.html",
       "/packages_projects_tools/bupaR/bupar.html",
@@ -15,6 +16,7 @@
       "/packages_projects_tools/patientflow/patientflow.html",
       "/packages_projects_tools/ambmodelopen/ambmodelopen.html",
       "/packages_projects_tools/aif_allocation_tool/aif_allocation_tool.html",
+      "/packages_projects_tools/julia_healthcare/julia_heathcare.html",
       "/packages_projects_tools/rap_community_of_practice/rap_community_of_practice.html",
       "/packages_projects_tools/nhsrwaitinglist/nhsrwaitinglist.html",
       "/packages_projects_tools/nhs_time_of_travel/nhs_time_of_travel.html",
