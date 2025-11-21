@@ -322,6 +322,8 @@ p {
 
 .card-img {
   max-width: min(99%, 100vw - 10px);
+  max-height: 180px;
+  object-fit: cover;
 }
 
 .main-card-content {
