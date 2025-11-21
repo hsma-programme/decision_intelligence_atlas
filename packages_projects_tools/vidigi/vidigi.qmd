@@ -4,6 +4,7 @@ categories:
   - Service Planning
   - Identifying Bottlenecks
   - Data Visualisation
+tool-language: Python
 author:
   - name: Sammi Rosser
     affiliation: HSMA
@@ -11,7 +12,6 @@ author:
 status: '<span style="color: #888888FF">Silver</span>'
 image: vidigi.gif
 pub-info:
-  language: '<i class="fa-brands fa-python"></i>'
   abstract: |
     Vidigi is an animation library for showing patient flows and bottlenecks in simulations and for historical simulation logs.
   links:

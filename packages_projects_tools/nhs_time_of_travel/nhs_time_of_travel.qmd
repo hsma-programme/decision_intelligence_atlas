@@ -1,15 +1,13 @@
 ---
 title: "Travel time to NHS organisations"
 categories:
-  - Python
-  - Other
+tool-language: Python
 status: TBC
 image: final_map.png
 author:
   - name: Mattia Ficarelli
   - name: Paul Carroll
 pub-info:
-  language: '<i class="fa-brands fa-python"></i>'
   abstract: |
     Initial proof of concept and exploratory analysis for the design of a holistic and interactive mapping tool to support decision-making in health and social care.
   links:

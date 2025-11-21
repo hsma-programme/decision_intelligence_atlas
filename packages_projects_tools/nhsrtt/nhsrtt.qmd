@@ -3,10 +3,10 @@ title: "nhsrtt: a package for seeing how changes in future treatment capacity af
 categories:
   - Waiting Lists
   - Forecasting
+tool-language: R
 status: '<span style="color: #888888FF">Silver</span>'
 image: docs_screenshot.png
 pub-info:
-  language: '<i class="fa-brands fa-r-project"></i>'
   abstract: |
     NHSRtt is an R package, providing analysts with a simple stock-and-flow modelling framework for NHS referral-to-treatment (RTT) data. The tool supports scenario testing and planning for elective care pathways by translating patient flow data into projections of waiting list size and treatment demand.
   links:

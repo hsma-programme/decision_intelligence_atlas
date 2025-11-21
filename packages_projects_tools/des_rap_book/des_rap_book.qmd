@@ -1,11 +1,12 @@
 ---
 title: "DES RAP Book: Reproducible Discrete-Event Simulation in Python and R"
 categories:
-  - Python
-  - R
   - Service Planning
   - Identifying Bottlenecks
   - RAP
+tool-language:
+  - Python
+  - R
 status: '<span style="color: #D18B12FF">Gold</span>'
 image: homepage.png
 author:
@@ -22,7 +23,6 @@ author:
     affiliation: University of Exeter Business School
     orcid: 0000-0001-5274-5037
 pub-info:
-  language: '<i class="fa-brands fa-python"></i><i class="fa-brands fa-r-project"></i>'
   abstract: |
     DES RAP Book is an open resource and website for building discrete-event simulation (DES) models within a reproducible analytical pipeline (RAP), supporting the healthcare simulation community. The resource demonstrates practical, code-based workflows and tools to help researchers and practitioners develop, validate, and share DES models in Python (SimPy) and R (simmer), ensuring models are reproducible.
   links:

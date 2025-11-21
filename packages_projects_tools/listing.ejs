@@ -5,11 +5,11 @@
       <div class="custom-grid-card border-2 rounded-3" <%= metadataAttrs(item) %>>
             <div class="main-card-content">
             <% if(item['image']) { %>
-            <a href="<%- item.path %>">
+                  <a href="<%- item.path %>">
               <img class="card-img" src="<%- item.image %>" alt="<%- item.title %>" class="card-img-top"/>
-            </a>
-            <% } %>
-
+                  </a>
+                <% } %>
+              
 
             <div class="project-content listing-title">
                 <h5 class="no-anchor card-title listing-title">
@@ -20,12 +20,6 @@
             <% if(item['status']) { %>
             <div class="project-status">
               Status: <%= item['status'] %>
-            </div>
-            <% } %>
-
-            <% if (item['pub-info'] && item['pub-info'].language) { %>
-            <div class="language">
-              <%= item['pub-info'].language %>
             </div>
             <% } %>
 

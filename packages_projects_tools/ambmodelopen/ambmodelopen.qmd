@@ -1,8 +1,7 @@
 ---
 title: "AmbModelOpen: A discrete event simulation of ambulance resources"
 categories:
-  - Other
-  - R
+tool-language: R
 status: TBC
 image: plot_RU_instant_.png
 author:
@@ -11,7 +10,6 @@ author:
   - name: Jonny Pearson
     affiliation: Digital Analytics and Research Team (DART)
 pub-info:
-  language: '<i class="fa-brands fa-r-project"></i>'
   abstract: |
     Discrete Event Simulation in RSimmer of Ambulance Job Cycle Times.
   links:

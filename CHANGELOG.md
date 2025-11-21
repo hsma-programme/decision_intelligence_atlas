@@ -5,13 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html). Dates formatted as YYYY-MM-DD as per [ISO standard](https://www.iso.org/iso-8601-date-and-time-format.html).
 
-## v0.2.0
+## Unreleased
+
+### Added
+
+* New pages for: `ConcurrentSim`, Julia for Healthcare.
+
+### Changed
+
+* Projects now grouped by language rather than analysis type.
+
+## v0.2.0 (2025-11-19)
 
 This release adds some new tools, and makes changes to styling and site setup.
 
 ### Added
 
-* New pages for: DES RAP Book, NHS RAP Community of Practice, `opencodecounts`, a community pharmacy workforce model, the New Hospital Programme Demand Model, `NHSRwaitinglist`, the ICB Place Based Allocation Tool, `nhs_time_of_travel`,  `AmbModelOpen`, `sim-tools`, `ciw`, `BPTK`, `ConcurrentSim` and Julia for Healthcare.
+* New pages for: DES RAP Book, NHS RAP Community of Practice, `opencodecounts`, a community pharmacy workforce model, the New Hospital Programme Demand Model, `NHSRwaitinglist`, the ICB Place Based Allocation Tool, `nhs_time_of_travel`,  `AmbModelOpen`, `sim-tools`, `ciw`, `BPTK`.
 * Light theme option now available, including a lighter version of the custom grid card.
 * Add `CITATION.cff` and `CHANGELOG.md`.
 * Add "Other" category to packages, projects and tools.
@@ -46,7 +56,7 @@ This release adds some new tools, and makes changes to styling and site setup.
 * Removed favicon and logo from `_quarto.yml` as files are not present.
 * Dropped `linkedin` and `website` from author YAML - these fields aren’t supported in the current page layouts and would require custom HTML.
 
-## v0.1.0 - 2025-11-13
+## v0.1.0 (2025-11-13)
 
 Initial release of the website (work in progress).
 

@@ -8,107 +8,46 @@ grid:
   margin-width: 300px
   gutter-width: 1.5rem
 listing:
-    - id: kpi_reporting
-      contents: "*/*.qmd"
-      sort: "title asc"
-      type: grid
-      include:
-        categories: "{KPI Reporting}"
-      grid-columns: 2
-      page-size: 1000
-      categories: true
-      template: listing.ejs
-      template-params:
-        ncols: 2
-      sort-ui: true
-      filter-ui: true
-      image-placeholder: "../resources/placeholder.png"
-    - id: analysing_and_improving_pathway_performance
-      include:
-        categories: "{Pathway Analytics,Identifying Bottlenecks}"
-      contents: "*/*.qmd"
-      sort: "title asc"
-      type: grid
-      grid-columns: 2
-      page-size: 1000
-      categories: true
-      template: listing.ejs
-      template-params:
-        ncols: 2
-      sort-ui: true
-      filter-ui: true
-      image-placeholder: "../resources/placeholder.png"
-    - id: demand_forecasting
-      contents: "*/*.qmd"
-      sort: "title asc"
-      type: grid
-      include:
-        categories: "{Forecasting,Demand Prediction}"
-      grid-columns: 2
-      page-size: 1000
-      categories: true
-      template: listing.ejs
-      template-params:
-        ncols: 2
-      sort-ui: true
-      filter-ui: true
-      image-placeholder: "../resources/placeholder.png"
-    - id: web_interface_and_tool_creation
-      contents: "*/*.qmd"
-      sort: "title asc"
-      type: grid
-      include:
-        categories: "{Web Interface Creation}"
-      grid-columns: 2
-      page-size: 1000
-      categories: true
-      template: listing.ejs
-      template-params:
-        ncols: 2
-      sort-ui: true
-      filter-ui: true
-      image-placeholder: "../resources/placeholder.png"
-    - id: report_automation
-      contents: "*/*.qmd"
-      sort: "title asc"
-      type: grid
-      include:
-        categories: "{Report Automation}"
-      grid-columns: 2
-      page-size: 1000
-      categories: true
-      template: listing.ejs
-      template-params:
-        ncols: 2
-      sort-ui: true
-      filter-ui: true
-      image-placeholder: "../resources/placeholder.png"
-    - id: other
-      exclude:
-        categories: "{Report Automation,Web Interface Creation,Forecasting,Demand Prediction,Pathway Analytics,Identifying Bottlenecks,KPI Reporting}"
-      contents: "*/*.qmd"
-      sort: "title asc"
-      type: grid
-      grid-columns: 2
-      page-size: 1000
-      categories: true
-      template: listing.ejs
-      template-params:
-        ncols: 2
-      sort-ui: true
-      filter-ui: true
-      image-placeholder: "../resources/placeholder.png"
----
+  - id: python
+    include:
+      tool-language: "Python"
+    type: grid
+    grid-columns: 2
+    categories: true
+    template: listing.ejs
 
-```{=html}
-    <style>
-    h2 {
-    text-transform: uppercase;
-    font-weight: 400;
-    text-align: left;
-}
-    </style>
-```
+  - id: r
+    include:
+      tool-language: "R"
+    type: grid
+    grid-columns: 2
+    categories: true
+    template: listing.ejs
+
+  - id: julia
+    include:
+      tool-language: "Julia"
+    type: grid
+    grid-columns: 2
+    categories: true
+    template: listing.ejs
+
+  - id: powerbi
+    include:
+      tool-language: "PowerBI"
+    type: grid
+    grid-columns: 2
+    categories: true
+    template: listing.ejs
+
+  - id: other
+    exclude:
+      tool-language: "{Python,R,Julia,PowerBI}"
+    type: grid
+    grid-columns: 2
+    categories: true
+    template: listing.ejs
+---
 
 ::: callout-warning
 Please note that inclusion of a tool on this site does not imply that the HSMA team have reviewed these tools in detail. This is designed to act as a signpost to the work out there, and provide a high-level indication of the health of any given project, but you should always conduct your own reviews of the suitability of any of these tools and techniques for your own use case.
@@ -152,33 +91,29 @@ If you have any concerns, or would like any content to be removed, please contac
 
 :::
 
-## Analysing and Improving Pathway Performance
+<br>
 
-::: {#analysing_and_improving_pathway_performance}
+## <i class="fa-brands fa-python"></i> Python
+
+::: {#python}
 :::
 
-## Automation of Reporting
+## <i class="fa-brands fa-r-project"></i> R
 
-::: {#report_automation}
-
+::: {#r}
 :::
 
-## Demand Forecasting
+## <i class="fa-solid fa-j"></i> Julia
 
-::: {#demand_forecasting}
+::: {#julia}
 :::
 
-## KPI Reporting
+## <i class="fa-solid fa-chart-simple"></i> PowerBI
 
-::: {#kpi_reporting}
+::: {#powerbi}
 :::
 
-##  Web-based Tools and Interacive Interface Creation
-
-::: {#web_interface_and_tool_creation}
-:::
-
-##  Other
+## Other
 
 ::: {#other}
 :::

@@ -1,14 +1,12 @@
 ---
 title: "ICB Place Based Allocation Tool"
 categories:
-  - Python
-  - Other
+tool-language: Python
 status: TBC
 image: tool.png
 author:
   - name: NHS
 pub-info:
-  language: '<i class="fa-brands fa-python"></i>'
   abstract: |
     Python tool to assist Integrated Care Boards (ICBs) to perform need based allocation based on defined place. It uses the most recently produced GP Registered Practice Populations as well as the weighted populations calculated from the Allocation model for each of its components.
   links:

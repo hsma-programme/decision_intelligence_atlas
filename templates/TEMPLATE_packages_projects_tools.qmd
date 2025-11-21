@@ -1,7 +1,13 @@
 ---
 title: "Replace this with a short-ish title describing the tool, project or package."
 categories:
-  - # Enter categories here, with each category on its own line with a - preceding it. Please also include the language as a category to aid with filtering.
+  - # Enter categories here, with each category on its own line with a - preceding it.
+tool-language:
+  - Python
+  - R
+  - PowerBI
+  - Julia
+  - N/A # Delete as appropriate
 status: '<span style="color: #D18B12FF">Gold</span>''<span style="color: #888888FF">Silver</span>''<span style="color: #893400FF">Bronze</span>' # Delete as appropriate
 image: # Provide a relative filepath to an image that will appear in the listing page. If you don't have one, delete this line entirely and a placeholder image will be used.
 author:
@@ -9,7 +15,6 @@ author:
     affiliation: # Their organisation/institution
     orcid: # Their ORCID
 pub-info:
-  language: '<i class="fa-brands fa-r-project"></i>''<i class="fa-brands fa-python"></i>''<i class="fa-solid fa-chart-simple">''<i class="fa-solid fa-globe">''<i class="fa-solid fa-j"></i>' # Delete as appropriate
   abstract: |
     Write a short description that would appear on the listing page to help people decide whether they want more information.
   links:

@@ -3,11 +3,10 @@ title: "nhspy-plotthedots"
 categories:
   - KPI Reporting
   - Statistical Process Control
-  - Python
+tool-language: Python
 status: '<span style="color: #893400FF">Bronze</span>'
 image: image.png
 pub-info:
-  language: '<i class="fa-brands fa-python"></i>'
   abstract: |
     NHSpy-plotthedots is a Python port of the NHSRplotthedots package that simplifies the creation and automation of statistical process control (SPC) charts for KPIs. It helps analysts and teams move beyond static KPIs to understand true performance variation and identify opportunities for improvement.
   links:

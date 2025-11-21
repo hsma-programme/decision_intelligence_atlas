@@ -3,11 +3,10 @@ title: "NHSRPlotTheDots: statistical process control for better metric reporting
 categories:
   - KPI Reporting
   - Statistical Process Control
-  - R
+tool-language: R
 status: '<span style="color: #D18B12FF">Gold</span>'
 image: nhsrplotthedots.png
 pub-info:
-  language: '<i class="fa-brands fa-r-project"></i>'
   abstract: |
     NHSRplotthedots is an R package that simplifies the creation and automation of statistical process control (SPC) charts for KPIs. It helps analysts and teams move beyond static KPIs to understand true performance variation and identify opportunities for improvement.
   links:

@@ -1,7 +1,7 @@
 ---
 title: "Julia for healthcare modelling and data science"
 categories:
-  - Julia
+tool-language: Julia
 status: '<span style="color: #893400FF">Bronze</span>'
 image: screenshot.png
 author:
@@ -12,7 +12,6 @@ author:
     affiliation: University of Exeter Medical School
     orcid: 0000-0002-8746-9957
 pub-info:
-  language: '<i class="fa-solid fa-j"></i>'
   abstract: |
     Website with snippets of Julia code helpful for modelling health care systems.
   links:

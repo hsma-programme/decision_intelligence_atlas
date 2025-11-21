@@ -1,8 +1,8 @@
 ---
 title: "ConcurrentSim"
 categories:
-  - Julia
   - Pathway Analytics
+tool-language: Julia
 status: '<span style="color: #D18B12FF">Gold</span>'
 author:
   - name: Ben Lauwens
@@ -10,7 +10,6 @@ author:
   - name: Maintainer volunteers
     affiliation:  JuliaDynamics and QuantumSavory organisations
 pub-info:
-  language: '<i class="fa-solid fa-j"></i>'
   abstract: |
     A discrete event process oriented simulation framework (formerly SimJulia) written in Julia inspired by the Python library SimPy.
   links:
