@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * New pages for: `ConcurrentSim`, Julia for Healthcare.
 
+### Changed
+
+* Projects now grouped by language rather than analysis type.
+
 ## v0.2.0 (2025-11-19)
 
 This release adds some new tools, and makes changes to styling and site setup.
