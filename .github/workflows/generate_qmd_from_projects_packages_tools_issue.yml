@@ -24,11 +24,15 @@ jobs:
         with:
           body: ${{ github.event.issue.body }}
           issue-form-template: 1-new_package_project_tool_submission.yml
-      - name: Create QMD file
+      - name: Set sanitized model name
+        id: modelname
         run: |
           RAW_MODEL_NAME="${{ fromJSON(steps.extract.outputs.json).model_name }}"
-          SAFE_MODEL_NAME=$(echo "$RAW_MODEL_NAME" | tr '[:upper:]' '[:lower:]' | sed 's/[ \t\-]\+/_/g' | tr -cd 'a-z0-9_')
-          mkdir -p "packages_projects_tools/$SAFE_MODEL_NAME"
+          SAFE_MODEL_NAME=$(echo "$RAW_MODEL_NAME" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/_/g; s/__*/_/g; s/^_*//; s/_*$//')
+          echo "safe_model_name=$SAFE_MODEL_NAME" >> $GITHUB_OUTPUT
+      - name: Create QMD file
+        run: |
+          mkdir -p "packages_projects_tools/${{ steps.modelname.outputs.safe_model_name }}"
           JSON='${{ steps.extract.outputs.json }}'
           language=$(echo "$JSON" | jq -r '.language[]' | sed 's/^/  - /')
           categories=$(echo "$JSON" | jq -r '.category[]' | sed 's/^/  - /')
@@ -65,7 +69,7 @@ jobs:
             done <<< "$language_other"
           fi
 
-          cat > "packages_projects_tools/$SAFE_MODEL_NAME/${SAFE_MODEL_NAME}.qmd" <<EOF
+          cat > "packages_projects_tools/${{ steps.modelname.outputs.safe_model_name }}/${{ steps.modelname.outputs.safe_model_name }}.qmd" <<EOF
           ---
           title: "${{ fromJSON(steps.extract.outputs.json).model_name }}"
           categories:
@@ -127,7 +131,7 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           commit-message: "Add package, tool or project: ${{ fromJSON(steps.extract.outputs.json).model_name }}"
-          branch: add-${{ fromJSON(steps.extract.outputs.json).model_name }}
+          branch: add-${{ steps.modelname.outputs.safe_model_name }}
           title: "Add package, tool or project: ${{ fromJSON(steps.extract.outputs.json).model_name }}"
           body: "Auto-generated from issue #${{ github.event.issue.number }}"
           reviewers: Bergam0t
