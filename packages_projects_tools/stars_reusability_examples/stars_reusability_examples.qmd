@@ -1,0 +1,58 @@
+---
+title: "STARS Reusability Examples"
+categories:
+  - Pathway Analytics
+tool-language:
+  - Python
+author:
+  - name: "Tom Monks, Alison Harper, Amy Heather"
+    affiliation:
+    orcid:
+status: <span style="color: #888888FF">Silver</span>
+toc: true
+image:
+pub-info:
+  abstract: |
+    "Three examples of discrete-event simulation models implementing the STARS Reusability Framework. This includes simulation models (SimPy, ciw), web apps (streamlit, shiny) and documentation."
+  links:
+  - name: Code
+    url: ""
+    icon: fa-brands fa-github
+  - name: Documentation
+    url: ""
+    icon: fa-solid fa-book
+  - name: Paper
+    url: "https://doi.org/10.1080/17477778.2024.2347882"
+    icon: fa-solid fa-file-contract
+  - name: PyPi
+    url: ""
+    icon: fa-solid fa-brands fa-python
+  - name: CRAN
+    url: ""
+    icon: fa-solid fa-brands fa-r-project
+  - name: Website
+    url: ""
+    icon: fa-solid fa-globe
+---
+
+## Additional Links
+https://github.com/pythonhealthdatascience/stars-treat-sim
+https://github.com/pythonhealthdatascience/stars-streamlit-example
+https://github.com/pythonhealthdatascience/stars-simpy-example-docs
+https://github.com/pythonhealthdatascience/stars-ciw-example
+
+## Additional Categories
+
+
+## Details
+![Image](https://github.com/user-attachments/assets/a5a2d007-a5f9-4ff9-93f8-471831796fdf)
+
+
+<br>
+
+## Project status
+
+**Status: {{< meta status >}}**
+
+**Rationale:** ""
+
