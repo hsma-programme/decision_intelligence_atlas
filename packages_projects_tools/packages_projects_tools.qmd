@@ -8,6 +8,7 @@ grid:
   margin-width: 300px
   gutter-width: 1.5rem
 listing:
+
   - id: python
     include:
       tool-language: "Python"
@@ -15,6 +16,7 @@ listing:
     grid-columns: 2
     categories: true
     template: listing.ejs
+    sort: Title
 
   - id: r
     include:
@@ -23,6 +25,7 @@ listing:
     grid-columns: 2
     categories: true
     template: listing.ejs
+    sort: Title
 
   - id: julia
     include:
@@ -31,6 +34,7 @@ listing:
     grid-columns: 2
     categories: true
     template: listing.ejs
+    sort: Title
 
   - id: powerbi
     include:
@@ -39,6 +43,7 @@ listing:
     grid-columns: 2
     categories: true
     template: listing.ejs
+    sort: Title
 
   - id: other
     exclude:
@@ -47,6 +52,7 @@ listing:
     grid-columns: 2
     categories: true
     template: listing.ejs
+    sort: Title
 ---
 
 ::: callout-warning
