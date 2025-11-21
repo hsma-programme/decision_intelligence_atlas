@@ -47,11 +47,33 @@ jobs:
             .status | (if type=="array" then .[] else . end) | colorize(.)
           ')
 
+          # Extract language array
+          language=$(echo "$JSON" | jq -r '.language[]' | sed 's/^/  - /')
+
+          # Extract and process language_other
+          language_other=$(echo "$JSON" | jq -r '.language_other // ""')
+
+          # Add language_other items if present
+          if [ -n "$language_other" ]; then
+            # Split on semicolons and add each as a list item
+            while IFS=';' read -ra LANGS; do
+              for lang in "${LANGS[@]}"; do
+                # Trim whitespace
+                lang=$(echo "$lang" | xargs)
+                if [ -n "$lang" ]; then
+                  language=$(printf "%s\n  - %s" "$language" "$lang")
+                fi
+              done
+            done <<< "$language_other"
+          fi
+
           cat > packages_projects_tools/${{ fromJSON(steps.extract.outputs.json).model_name }}/${{ fromJSON(steps.extract.outputs.json).model_name }}.qmd <<EOF
           ---
           title: "${{ fromJSON(steps.extract.outputs.json).model_name }}"
           categories:
           ${categories}
+          tool-language:
+          ${language}
           author:
             - name: "${{ fromJSON(steps.extract.outputs.json).author }}"
               affiliation:
@@ -60,7 +82,6 @@ jobs:
           toc: true
           image:
           pub-info:
-            language: '<i class="fa-brands fa-python"></i>'
             abstract: |
               "${{ fromJSON(steps.extract.outputs.json).summary }}"
             links:
@@ -83,11 +104,6 @@ jobs:
               url: "${{ fromJSON(steps.extract.outputs.json).website }}"
               icon: fa-solid fa-globe
           ---
-
-          ## Language
-          ${language}
-
-          ${{ fromJSON(steps.extract.outputs.json).language_other }}
 
           ## Additional Links
           ${{ fromJSON(steps.extract.outputs.json).other_urls }}

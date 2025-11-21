@@ -13,6 +13,28 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language or Tool 
+      description: Select the coding language or other tools that are relevant to this tool, project or package. You may select multiple options from this list. 
+      multiple: true
+      options:
+        - Python
+        - R
+        - Julia
+        - PowerBI
+        - Tableau
+        - PowerApps
+        - SQL
+        - Other
+
+  - type: input
+    id: language_other
+    attributes:
+      label: If you ticked “Other” in the language input, please specify, separating multiple entries with semicolons (;)
+      placeholder: e.g., Databricks
+
   - type: textarea
     id: summary
     attributes:
@@ -148,24 +170,3 @@ body:
       label: Other URLS
       description: "If there are any additional links you would like to provide, please provide them in the format Link Name: Link. Please place each link on a new line." 
       placeholder: "e.g. Conda Forge Link: https://anaconda.org/conda-forge/vidigi" 
-
-  - type: dropdown
-    id: language
-    attributes:
-      label: Language or Tool 
-      description: Select the coding language or other tools that are relevant to this tool, project or package. You may select multiple options from this list. 
-      multiple: true
-      options:
-        - Python
-        - R
-        - Julia
-        - PowerBI
-        - Tableau
-        - PowerApps
-        - SQL
-
-  - type: input
-    id: language_other
-    attributes:
-      label: If you ticked “Other” in the language or tool input, please specify, separating multiple entries with semicolons (;)
-      placeholder: e.g. Databricks
