@@ -1,7 +1,7 @@
 name: Generate Quarto page from Issue Form
 on:
   issues:
-    types: [opened, edited, labeled]
+    types: [edited, labeled]
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -11,14 +11,10 @@ jobs:
       pull-requests: write
       actions: write
     if: |
-      (
-        github.event.action == 'opened' &&
-        contains(join(github.event.issue.labels.*.name, ','), 'project_package_tool_submission')
-      ) ||
-      (
-        github.event.action == 'labeled' &&
-        github.event.label.name == 'project_package_tool_submission'
-      )
+      (github.event.action == 'labeled' &&
+       github.event.label.name == 'project_package_tool_submission') ||
+      (github.event.action == 'edited' &&
+       contains(join(github.event.issue.labels.*.name, ','), 'project_package_tool_submission'))
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
