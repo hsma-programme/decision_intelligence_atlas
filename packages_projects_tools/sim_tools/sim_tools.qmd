@@ -1,8 +1,7 @@
 ---
 title: "sim-tools"
 categories:
-  - Other
-  - Python
+tool-language: Python
 status: '<span style="color: #D18B12FF">Gold</span>'
 image: simtools_logo_purple.png
 author:
@@ -16,7 +15,6 @@ author:
     affiliation: University of Exeter
     orcid: 0000-0001-5274-5037
 pub-info:
-  language: '<i class="fa-brands fa-python"></i>'
   abstract: |
     Tools to support Discrete-Event Simulation (DES) and Monte-Carlo Simulation education and practice.
   links:

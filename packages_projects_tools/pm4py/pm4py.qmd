@@ -5,10 +5,10 @@ categories:
   - Identifying Bottlenecks
   - Data Visualisation
   - Pathway Analytics
+tool-language: Python
 status: '<span style="color: #D18B12FF">Gold</span>'
 image: pm4py.png
 pub-info:
-  language: '<i class="fa-brands fa-python"></i>'
   abstract: |
     pm4py is a Python library for process mining that helps healthcare analysts explore how patient pathways, test result flows, and other clinical processes actually unfold. By turning event data into visual process maps, it highlights delays, rework, and variations that can guide service improvement.
   links:

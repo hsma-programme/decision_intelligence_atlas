@@ -2,8 +2,7 @@
 title: "NHSRwaitinglist"
 categories:
   - Waiting Lists
-  - R
-  - Other
+tool-language: R
 status: '<span style="color: #D18B12FF">Gold</span>'
 image: functions.png
 author:
@@ -25,7 +24,6 @@ author:
     orcid: 0000-0002-3018-6171
   - name: Mohammed Mohammed
 pub-info:
-  language: '<i class="fa-brands fa-r-project"></i>'
   abstract: |
     NHSRwaitinglist is an R package implementing the waiting list management approach described in the paper Understanding Waiting Lists Pressures by Fong et al (2022).
   links:

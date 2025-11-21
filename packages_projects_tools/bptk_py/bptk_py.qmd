@@ -1,7 +1,7 @@
 ---
 title: "bptk_py"
 categories:
-  - Other
+tool-language: Python
 author:
   - name: "transentis labs"
     affiliation:
@@ -9,7 +9,6 @@ author:
 status: '<span style="color: #D18B12FF">Gold</span>'
 toc: true
 pub-info:
-  language: '<i class="fa-brands fa-python"></i>'
   abstract: |
     "BPTK-Py is a Python package for building simulation models using System Dynamics and agent-based modeling."
   links:

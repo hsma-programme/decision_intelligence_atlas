@@ -1,8 +1,7 @@
 ---
 title: "ciw"
 categories:
-  - Other
-  - Python
+tool-language: Python
 status: '<span style="color: #D18B12FF">Gold</span>'
 image: logo_small.png
 author:
@@ -24,7 +23,6 @@ author:
   - name: Matthew Howells
   - name: Galen Seilis
 pub-info:
-  language: '<i class="fa-brands fa-python"></i>'
   abstract: |
     A discrete event simulation library for queueing networks.
   links:

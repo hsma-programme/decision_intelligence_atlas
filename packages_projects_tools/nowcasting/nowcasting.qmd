@@ -3,12 +3,12 @@ title: "nowcasts: a short-term operational forecasting script"
 categories:
   - Forecasting
   - Demand Prediction
-  - Microsoft Power BI
+tool-language:
   - R
+  - PowerBI
 status: '<span style="color: #893400FF">Bronze</span>'
 image: nowcasts.png
 pub-info:
-  language: '<i class="fa-brands fa-r-project"></i> <i class="fa-solid fa-chart-simple"></i>'
   abstract: |
     Nowcasting uses real-time data and statistical modelling to estimate what is happening right now — before all information has fully arrived. In healthcare, it helps anticipate short-term trends such as hospital admissions or bed occupancy, enabling faster, data-informed operational decisions even when reporting delays or incomplete data make the current situation unclear.
   links:

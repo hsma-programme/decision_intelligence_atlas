@@ -1,16 +1,15 @@
 ---
 title: "New Hospital Programme Demand Model"
 categories:
-  - Python
   - Demand Prediction
   - Forecasting
   - Service Planning
+tool-language: Python
 status: '<span style="color: #D18B12FF">Gold</span>'
 image: nationally_consistent_approach.png
 author:
   - name: The Strategy Unit
 pub-info:
-  language: '<i class="fa-brands fa-python"></i>'
   abstract: |
     The Demand and Capacity Modelling Tool, developed by the Strategy Unit for DHSC and its partners, supports robust and transparent forecasting of future hospital activity to inform the design and scaling of over 40 new hospitals planned by 2030.
   links:

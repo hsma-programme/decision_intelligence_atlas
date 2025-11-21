@@ -2,14 +2,13 @@
 title: "NHS RAP Community of Practice"
 categories:
   - RAP
-  - Other
+tool-language: N/A
 status: N/A
 image: homepage.png
 author:
   - name: RAP Community of Practice
     affiliation: NHS Digital
 pub-info:
-  language: # Not applicable
   abstract: |
     The NHS RAP Community of Practice, maintained by NHS England, supports analysts and teams in adopting reproducible analytical pipeline (RAP) methods.
   links:
