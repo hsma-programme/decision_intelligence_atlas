@@ -1,0 +1,28 @@
+---
+title: "Somerset Foundation Trust wait list simulation"
+categories:
+  - Waiting Lists
+tool-language:
+  - Python
+status: '<span style="color: #893400FF">Bronze</span>'
+author:
+  - name: Chris Sampson
+    affiliation: Somerset NHS Foundation Trust
+  - name: Ben Holdsworth
+    affiliation: Somerset NHS Foundation Trust
+  - name: Sam Vautier
+    affiliation: Somerset NHS Foundation Trust
+pub-info:
+  abstract: |
+    Wait list simulation framework in development by the Somerset NHS FT DS & Improvement team.
+  links:
+  - name: Code
+    url: https://github.com/Somerset-NHS-FT-DS-Improvement/wait_list_simulation
+    icon: fa-brands fa-github
+---
+
+## Project status
+
+**Status: {{< meta status >}}**
+
+**Rationale:** Package with some tests, though no documentation.
