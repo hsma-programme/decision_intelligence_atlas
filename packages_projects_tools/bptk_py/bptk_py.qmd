@@ -8,6 +8,7 @@ author:
     orcid:
 status: '<span style="color: #D18B12FF">Gold</span>'
 toc: true
+image: bptk_logo.png
 pub-info:
   abstract: |
     "BPTK-Py is a Python package for building simulation models using System Dynamics and agent-based modeling."
