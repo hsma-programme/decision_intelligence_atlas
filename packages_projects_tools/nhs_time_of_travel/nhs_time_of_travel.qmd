@@ -1,5 +1,5 @@
 ---
-title: "Travel time to NHS organisations"
+title: "`nhs_time_of_travel`: Travel time to NHS organisations"
 categories:
 tool-language: Python
 status: TBC
