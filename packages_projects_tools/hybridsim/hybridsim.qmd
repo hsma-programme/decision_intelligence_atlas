@@ -1,0 +1,48 @@
+---
+title: "Hybrid Simulation Modelling for Orthopaedics"
+categories:
+  - Pathway Analytics
+tool-language:
+  - Python
+status: '<span style="color: #888888FF">Silver</span>'
+image: "poster_screenshot.png"
+author:
+  - name: Matthew Howells
+    affiliation: Cardiff University
+    orcid: 0000-0002-3931-7027
+  - name: Paul Harper
+    affiliation: Cardiff University
+    orcid: 0000-0001-7894-4907
+  - name: Daniel Gartner
+    affiliation: Cardiff University
+    orcid: 0000-0003-4361-8559
+  - name: Geraint Palmer
+    affiliation: Cardiff University
+    orcid: 0000-0001-7865-6964
+pub-info:
+  abstract: |
+    Hybrid simulation model for a trauma and orthopaedics department, combining system dynamics and discrete-event simulation.
+  links:
+  - name: Code
+    url: https://github.com/MHowells/HybridSimModel
+    icon: fa-brands fa-github
+  - name: Poster
+    url: https://github.com/MHowells/SW25_poster
+    icon: fa-solid fa-file-image
+---
+
+This is a "hybrid simulation model that combines a System Dynamics (SD) model with a Discrete Event Simulation (DES) model. The SD model is used to model patient deterioration while waiting for a General Practitioner (GP) referral in Primary Care, and the DES model is used to model the patient journey through an Orthopaedic department." ([source](https://github.com/MHowells/HybridSimModel))
+
+This work was presented at The OR Society's 12th Simulation Workshop (SW25) conference. Poster embedded below is from [github.com/MHowells/SW25_poster](https://github.com/MHowells/SW25_poster).
+
+```{=html}
+<embed width="100%" height="800" src="SW25_poster.pdf" title="Clinical Pathway Modelling of a Trauma and Orthopaedics Department">
+```
+
+<br>
+
+## Project status
+
+**Status: {{< meta status >}}**
+
+**Rationale:** The code is well organised and thoughtfully designed with reuse in mind, but there remains room for improvement, such as testing and more comprehensive documentation.
