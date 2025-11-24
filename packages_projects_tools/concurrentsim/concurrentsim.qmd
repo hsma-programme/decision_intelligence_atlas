@@ -4,6 +4,7 @@ categories:
   - Pathway Analytics
 tool-language: Julia
 status: '<span style="color: #D18B12FF">Gold</span>'
+image: example_code.png
 author:
   - name: Ben Lauwens
     affiliation: Royal Military Academy, Brussels, Belgium
