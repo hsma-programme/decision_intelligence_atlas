@@ -5,48 +5,108 @@ categories:
 tool-language:
   - Python
 author:
-  - name: "Tom Monks, Alison Harper, Amy Heather"
-    affiliation:
-    orcid:
-status: <span style="color: #888888FF">Silver</span>
+  - name: Tom Monks
+    affiliation: University of Exeter Medical School
+    orcid: 0000-0003-2631-4481
+  - name: Alison Harper
+    affiliation: University of Exeter Business School
+    orcid: 0000-0001-5274-5037
+  - name: Nav Mustafee
+    affiliation: University of Exeter Business School
+    orcid: 0000-0002-2204-8924
+  - name: Amy Heather
+    affiliation: University of Exeter Medical School
+    orcid: 0000-0002-6596-3479
+status: '<span style="color: #888888FF">Silver</span>'
 toc: true
-image:
+image: stars.jpg
 pub-info:
   abstract: |
-    "Three examples of discrete-event simulation models implementing the STARS Reusability Framework. This includes simulation models (SimPy, ciw), web apps (streamlit, shiny) and documentation."
+    Three examples of discrete-event simulation models implementing the STARS Reusability Framework. This includes simulation models (SimPy, ciw), web apps (streamlit, shiny) and documentation.
   links:
-  - name: Code
-    url: ""
+  - name: Code (1)
+    url: "https://github.com/pythonhealthdatascience/stars-treat-sim"
     icon: fa-brands fa-github
-  - name: Documentation
-    url: ""
-    icon: fa-solid fa-book
+  - name: Code (2)
+    url: "https://github.com/pythonhealthdatascience/stars-streamlit-example"
+    icon: fa-brands fa-github
+  - name: Code (3)
+    url: "https://github.com/pythonhealthdatascience/stars-simpy-example-docs"
+    icon: fa-brands fa-github
+  - name: Code (4)
+    url: "https://github.com/pythonhealthdatascience/stars-ciw-example"
+    icon: fa-brands fa-github
   - name: Paper
     url: "https://doi.org/10.1080/17477778.2024.2347882"
     icon: fa-solid fa-file-contract
-  - name: PyPi
-    url: ""
-    icon: fa-solid fa-brands fa-python
-  - name: CRAN
-    url: ""
-    icon: fa-solid fa-brands fa-r-project
-  - name: Website
-    url: ""
-    icon: fa-solid fa-globe
 ---
 
-## Additional Links
-https://github.com/pythonhealthdatascience/stars-treat-sim
-https://github.com/pythonhealthdatascience/stars-streamlit-example
-https://github.com/pythonhealthdatascience/stars-simpy-example-docs
-https://github.com/pythonhealthdatascience/stars-ciw-example
+## STARS Reusability Framework
 
-## Additional Categories
+The STARS framework is described in:
 
+> Monks, T., Harper, A., & Mustafee, N. (2024). Towards sharing tools and artefacts for reusable simulations in healthcare. Journal of Simulation, 1–20. <https://doi.org/10.1080/17477778.2024.2347882>
 
-## Details
-![Image](https://github.com/user-attachments/assets/a5a2d007-a5f9-4ff9-93f8-471831796fdf)
+It contains recommendations on how to make shared healthcare DES models for reusable - i.e., code/model can be adapted and used in next contexts.
 
+![STARS Reusability Framework](stars.jpg)
+
+Within the paper describing this framework, **three example models** are provided demonstrating compliance to the STARS recommendations.
+
+<br>
+
+## Implementation of the framework across the three examples
+
+Table from [Monks et al. 2024](https://doi.org/10.1080/17477778.2024.2347882):
+
+| STARS Components | Item | Applied example 1 | Applied example 2 | Applied example 3 |
+| :-- | :-- | :-- | :-- | :-- |
+| Essential | Open Licence | MIT | MIT | GNU Public Licence 3 |
+| Essential | Dependency mgt | conda | conda | conda |
+| Essential | DES software | simpy | simpy | ciw |
+| Essential | Code repository | GitHub | GitHub | GitHub |
+| Essential | Meta-data | citation.cff + ORCID | citation.cff + ORCID | citation.cff + ORCID |
+| Essential | Minimum documentation | README.md | README.md | README.md |
+| Essential | Open science repository | Zenodo | Zenodo | Zenodo |
+| Optional | Online coding environment | Binder | Binder | Binder |
+| Optional | Enhanced documentation | Electronic Notebook | Jupyter Book + STRESS | Quarto + STRESS |
+| Optional | Documentation hosting |  | GitHub pages | GitHub pages |
+| Optional | Model interface |  | streamlit | Shiny for python |
+| Optional | Web app hosting |  | streamlit community cloud | shinyapps.io |
+
+<br>
+
+## Example 1
+
+**Code repository:** <https://github.com/pythonhealthdatascience/stars-treat-sim>
+
+**DOI:** <https://doi.org/10.5281/zenodo.10026327>
+
+<br>
+
+## Example 2
+
+**Code repository (app):** <https://github.com/pythonhealthdatascience/stars-streamlit-example>
+
+**Code repository (documentation):** <https://github.com/pythonhealthdatascience/stars-simpy-example-docs>
+
+**Web app:** <https://stars-simpy-example.streamlit.app/>
+
+**Documentation:** <https://pythonhealthdatascience.github.io/stars-simpy-example-docs>
+
+**DOIs:** <https://doi.org/10.5281/zenodo.10055169> and <https://doi.org/10.5281/zenodo.10054063>
+
+<br>
+
+## Example 3
+
+**Code repository:** <https://github.com/pythonhealthdatascience/stars-ciw-example>
+
+**Web app:** <https://pythonhealthdatascience.shinyapps.io/stars-ciw-examplar>
+
+**Documentation:** <https://pythonhealthdatascience.github.io/stars-ciw-example>
+
+**DOI:** <https://doi.org/10.5281/zenodo.10051495>
 
 <br>
 
@@ -54,5 +114,5 @@ https://github.com/pythonhealthdatascience/stars-ciw-example
 
 **Status: {{< meta status >}}**
 
-**Rationale:** ""
+**Rationale:** Scripts and packages with limited documentation, tests and maintenance.
 
