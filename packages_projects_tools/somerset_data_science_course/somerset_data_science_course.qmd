@@ -1,0 +1,32 @@
+---
+title: "Somerset Introduction to Data Science Course"
+categories:
+tool-language:
+  - Python
+status: TBC
+author:
+  - name: Andy Mayne
+    affiliation: Somerset NHS Foundation Trust
+  - name: Chris Sampson
+    affiliation: Somerset NHS Foundation Trust
+  - name: Ben Holdsworth
+    affiliation: Somerset NHS Foundation Trust
+  - name: Sam Vautier
+    affiliation: Somerset NHS Foundation Trust
+pub-info:
+  abstract: |
+    Data science course aimed at experienced Health and Social Care Data Professionals.
+  links:
+  - name: Code
+    url: https://github.com/SomersetNHSFoundationTrust/DataScienceCourse
+    icon: fa-brands fa-github
+  - name: Website
+    url: https://somersetnhsfoundationtrust.github.io/DataScienceCourse/
+    icon: fa-solid fa-globe
+---
+
+## Project status
+
+**Status: {{< meta status >}}**
+
+**Rationale:** TBC.
