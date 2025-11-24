@@ -56,6 +56,20 @@
     "text": "Project status\nStatus: Silver\nRationale: Scripts and packages with limited documentation, tests and maintenance."
   },
   {
+    "objectID": "packages_projects_tools/somerset_data_science_course/somerset_data_science_course.html",
+    "href": "packages_projects_tools/somerset_data_science_course/somerset_data_science_course.html",
+    "title": "Somerset Introduction to Data Science Course",
+    "section": "",
+    "text": "Status: TBC\nRationale: TBC."
+  },
+  {
+    "objectID": "packages_projects_tools/somerset_data_science_course/somerset_data_science_course.html#project-status",
+    "href": "packages_projects_tools/somerset_data_science_course/somerset_data_science_course.html#project-status",
+    "title": "Somerset Introduction to Data Science Course",
+    "section": "",
+    "text": "Status: TBC\nRationale: TBC."
+  },
+  {
     "objectID": "packages_projects_tools/rap_community_of_practice/rap_community_of_practice.html",
     "href": "packages_projects_tools/rap_community_of_practice/rap_community_of_practice.html",
     "title": "NHS RAP Community of Practice",
@@ -163,14 +177,14 @@
   {
     "objectID": "packages_projects_tools/nhs_time_of_travel/nhs_time_of_travel.html",
     "href": "packages_projects_tools/nhs_time_of_travel/nhs_time_of_travel.html",
-    "title": "Travel time to NHS organisations",
+    "title": "nhs_time_of_travel: Travel time to NHS organisations",
     "section": "",
     "text": "“A mapping tool could support national and regional commissioning strategies by facilitating the placement of new services and the reconfiguration of existing ones. It could also contribute to the NHS agenda for tackling health inequalities by enabling evidence-based decision-making by providing insight on how the availability of health and social care services is influenced by sociodemographic factors.\nUsing open-source software and publicly accessible datasets we calculate the travel time, with different modes of transport, to varying NHS healthcare services in London, Lincolnshire, and Cambridge. We highlight the challenges of estimating accurate travel times and possible approaches to overcome these.” (source)"
   },
   {
     "objectID": "packages_projects_tools/nhs_time_of_travel/nhs_time_of_travel.html#project-status",
     "href": "packages_projects_tools/nhs_time_of_travel/nhs_time_of_travel.html#project-status",
-    "title": "Travel time to NHS organisations",
+    "title": "nhs_time_of_travel: Travel time to NHS organisations",
     "section": "Project status",
     "text": "Project status\nStatus: TBC\nRationale: TBC"
   },
@@ -187,139 +201,6 @@
     "title": "Julia for healthcare modelling and data science",
     "section": "Project status",
     "text": "Project status\nStatus: Bronze\nRationale: Some code examples provided within a website, but doesn’t meet “Silver” or “Gold” criteria."
-  },
-  {
-    "objectID": "packages_projects_tools/concurrentsim/concurrentsim.html",
-    "href": "packages_projects_tools/concurrentsim/concurrentsim.html",
-    "title": "ConcurrentSim",
-    "section": "",
-    "text": "“ConcurrentSim is a discrete-event process-oriented simulation framework written in Julia inspired by the Python library SimPy. Its process dispatcher is based on semi-coroutines scheduling as implemented in ResumableFunctions or ResumableFunctions. A Process in ConcurrentSim is defined by a @resumable function yielding Events. ConcurrentSim provides three types of shared resources to model limited capacity congestion points: Resources, Containers and Stores. The API is modeled after the SimPy API but some specific Julia semantics are used.” (source)"
-  },
-  {
-    "objectID": "packages_projects_tools/concurrentsim/concurrentsim.html#project-status",
-    "href": "packages_projects_tools/concurrentsim/concurrentsim.html#project-status",
-    "title": "ConcurrentSim",
-    "section": "Project status",
-    "text": "Project status\nStatus: Gold\nRationale: One of the longest-lived Julia packages, actively maintained, with documentation and testing."
-  },
-  {
-    "objectID": "packages_projects_tools/ciw/ciw.html",
-    "href": "packages_projects_tools/ciw/ciw.html",
-    "title": "ciw",
-    "section": "",
-    "text": "“Ciw is a discrete event simulation library for open queueing networks. It’s core features include the capability to simulate networks of queues, multiple customer classes, and implementation of Type I blocking for restricted networks.” (source)"
-  },
-  {
-    "objectID": "packages_projects_tools/ciw/ciw.html#project-status",
-    "href": "packages_projects_tools/ciw/ciw.html#project-status",
-    "title": "ciw",
-    "section": "Project status",
-    "text": "Project status\nStatus: Gold\nRationale: Maintained package with documentation and tests."
-  },
-  {
-    "objectID": "packages_projects_tools/bptk_py/bptk_py.html",
-    "href": "packages_projects_tools/bptk_py/bptk_py.html",
-    "title": "bptk_py",
-    "section": "",
-    "text": "“The Business Prototyping Toolkit for Python (BPTK-Py) is a computational modeling framework that enables you to build simulation models using System Dynamics (SD) and/or agent-based modeling (ABM) natively in Python and manage simulation scenarios with ease.\nNext to providing the necessary SD and ABM language constructs to build models directly in Python, the framework also includes a compiler for transpiling System Dynamics models conforming to the XMILE standard into Python code.\nThis means you can build models in a XMILE-compatible visual modeling environment (such as iseesystems Stella) and then use them independently in Python.” (source)"
-  },
-  {
-    "objectID": "packages_projects_tools/bptk_py/bptk_py.html#details",
-    "href": "packages_projects_tools/bptk_py/bptk_py.html#details",
-    "title": "bptk_py",
-    "section": "",
-    "text": "“The Business Prototyping Toolkit for Python (BPTK-Py) is a computational modeling framework that enables you to build simulation models using System Dynamics (SD) and/or agent-based modeling (ABM) natively in Python and manage simulation scenarios with ease.\nNext to providing the necessary SD and ABM language constructs to build models directly in Python, the framework also includes a compiler for transpiling System Dynamics models conforming to the XMILE standard into Python code.\nThis means you can build models in a XMILE-compatible visual modeling environment (such as iseesystems Stella) and then use them independently in Python.” (source)"
-  },
-  {
-    "objectID": "packages_projects_tools/bptk_py/bptk_py.html#project-status",
-    "href": "packages_projects_tools/bptk_py/bptk_py.html#project-status",
-    "title": "bptk_py",
-    "section": "Project status",
-    "text": "Project status\nStatus: Gold\nRationale: “Package with active and ongoing maintenance, test suite, and documentation.”"
-  },
-  {
-    "objectID": "packages_projects_tools/aif_allocation_tool/aif_allocation_tool.html",
-    "href": "packages_projects_tools/aif_allocation_tool/aif_allocation_tool.html",
-    "title": "AIF ICB Place Based Allocation Tool",
-    "section": "",
-    "text": "“This project is a tool built in Python to assist Integrated Care Boards (ICBs) to perform need based allocation based on defined place. It uses the most recently produced GP Registered Practice Populations as well as the weighted populations calculated from the Allocation model for each of its components. More information on the Allocations process, as well as useful documentation can be found at https://www.england.nhs.uk/allocations/\nThe tool allows a new ‘place’ to be defined in an ICB as a cluster of GP practices. This allows place to be flexibly defined, whether that is as GP practices in the same Primary Care Network (PCN), Local Authority, or that feed into the same Secondary services for example. That is at the discretion of the ICB. Once GP practices have been allocated to a place, the relative need indices can be calculated and the output can be downloaded as a CSV.” (source)"
-  },
-  {
-    "objectID": "packages_projects_tools/aif_allocation_tool/aif_allocation_tool.html#deployed-app-for-202526",
-    "href": "packages_projects_tools/aif_allocation_tool/aif_allocation_tool.html#deployed-app-for-202526",
-    "title": "AIF ICB Place Based Allocation Tool",
-    "section": "Deployed app for 2025/26",
-    "text": "Deployed app for 2025/26"
-  },
-  {
-    "objectID": "packages_projects_tools/aif_allocation_tool/aif_allocation_tool.html#project-status",
-    "href": "packages_projects_tools/aif_allocation_tool/aif_allocation_tool.html#project-status",
-    "title": "AIF ICB Place Based Allocation Tool",
-    "section": "Project status",
-    "text": "Project status\nStatus: TBC\nRationale: TBC"
-  },
-  {
-    "objectID": "graph_catalogue/graph_catalogue.html",
-    "href": "graph_catalogue/graph_catalogue.html",
-    "title": "The Healthcare Service Analytics & Decision Intelligence Atlas",
-    "section": "",
-    "text": "Coming Soon!"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Healthcare Services Analytics & Decision Science Atlas",
-    "section": "",
-    "text": "Welcome to the Healthcare Services Analytics & Decision Science Atlas. This is a directory of open-source tools, packages, and projects for analytics and decision science in healthcare.\nThis site is in its very early stages - please check back as we continue to develop it.\nIn time, we hope this can develop into a tool to help showcase the amazing work happening across the analytics and data science communities in healthcare, promoting reuse and collaborative work on the tools we all need.\nContributions are very welcome! Please see the repository README for instructions on how to contribute.\n\n\n\n\n\n\nWarning\n\n\n\nPlease note that inclusion of a tool on this site does not imply that the HSMA team have reviewed these tools in detail. This is designed to act as a signpost to the work out there, and provide a high-level indication of the health of any given project, but you should always conduct your own reviews of the suitability of any of these tools and techniques for your own use case.\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf you have any concerns, or would like any content to be removed, please contact Sammi Rosser."
-  },
-  {
-    "objectID": "packages_projects_tools/ambmodelopen/ambmodelopen.html",
-    "href": "packages_projects_tools/ambmodelopen/ambmodelopen.html",
-    "title": "AmbModelOpen: A discrete event simulation of ambulance resources",
-    "section": "",
-    "text": "“A discrete event simulation focusing on simulating the ambulance job cycle time. The work has been made open to support:"
-  },
-  {
-    "objectID": "packages_projects_tools/ambmodelopen/ambmodelopen.html#project-status",
-    "href": "packages_projects_tools/ambmodelopen/ambmodelopen.html#project-status",
-    "title": "AmbModelOpen: A discrete event simulation of ambulance resources",
-    "section": "Project status",
-    "text": "Project status\nStatus: TBC\nRationale: TBC."
-  },
-  {
-    "objectID": "packages_projects_tools/bupaR/bupar.html#related-tools",
-    "href": "packages_projects_tools/bupaR/bupar.html#related-tools",
-    "title": "bupaR and the bupaverse: process mining for understanding pathway problems",
-    "section": "Related tools",
-    "text": "Related tools\nA detailed breakdown of the capabilities of bupaR and vidigi, and the areas of pathway animation in which they excel, can be found in the vidigi documentation."
-  },
-  {
-    "objectID": "packages_projects_tools/bupaR/bupar.html#project-status",
-    "href": "packages_projects_tools/bupaR/bupar.html#project-status",
-    "title": "bupaR and the bupaverse: process mining for understanding pathway problems",
-    "section": "Project status",
-    "text": "Project status\nStatus: Gold\nRationale: Comprehensive documentation, active maintenance, modular package design, and wide adoption in process mining research and practice"
-  },
-  {
-    "objectID": "packages_projects_tools/community_pharmacy_workforce/community_pharmacy_workforce.html",
-    "href": "packages_projects_tools/community_pharmacy_workforce/community_pharmacy_workforce.html",
-    "title": "Community pharmacy workforce projection model",
-    "section": "",
-    "text": "Example output from Github."
-  },
-  {
-    "objectID": "packages_projects_tools/community_pharmacy_workforce/community_pharmacy_workforce.html#presentation",
-    "href": "packages_projects_tools/community_pharmacy_workforce/community_pharmacy_workforce.html#presentation",
-    "title": "Community pharmacy workforce projection model",
-    "section": "Presentation",
-    "text": "Presentation\nPresentation from the NHS RPySOC 2025 Conference:"
-  },
-  {
-    "objectID": "packages_projects_tools/community_pharmacy_workforce/community_pharmacy_workforce.html#project-status",
-    "href": "packages_projects_tools/community_pharmacy_workforce/community_pharmacy_workforce.html#project-status",
-    "title": "Community pharmacy workforce projection model",
-    "section": "Project status",
-    "text": "Project status\nStatus: Silver\nRationale: Package structure and a clear README makes this project easy to use and understand. Rated silver as doesn’t have tests or further documentation."
   },
   {
     "objectID": "packages_projects_tools/des_rap_book/des_rap_book.html",
@@ -348,6 +229,153 @@
     "title": "DES RAP Book: Reproducible Discrete-Event Simulation in Python and R",
     "section": "Project status",
     "text": "Project status\nStatus: Gold\nRationale: This resource guides users in building “Gold” standard models - well-documented, tested, and structured as packages - with four complete examples illustrating these best practices."
+  },
+  {
+    "objectID": "packages_projects_tools/community_pharmacy_workforce/community_pharmacy_workforce.html",
+    "href": "packages_projects_tools/community_pharmacy_workforce/community_pharmacy_workforce.html",
+    "title": "Community pharmacy workforce projection model",
+    "section": "",
+    "text": "Example output from Github."
+  },
+  {
+    "objectID": "packages_projects_tools/community_pharmacy_workforce/community_pharmacy_workforce.html#presentation",
+    "href": "packages_projects_tools/community_pharmacy_workforce/community_pharmacy_workforce.html#presentation",
+    "title": "Community pharmacy workforce projection model",
+    "section": "Presentation",
+    "text": "Presentation\nPresentation from the NHS RPySOC 2025 Conference:"
+  },
+  {
+    "objectID": "packages_projects_tools/community_pharmacy_workforce/community_pharmacy_workforce.html#project-status",
+    "href": "packages_projects_tools/community_pharmacy_workforce/community_pharmacy_workforce.html#project-status",
+    "title": "Community pharmacy workforce projection model",
+    "section": "Project status",
+    "text": "Project status\nStatus: Silver\nRationale: Package structure and a clear README makes this project easy to use and understand. Rated silver as doesn’t have tests or further documentation."
+  },
+  {
+    "objectID": "packages_projects_tools/bupaR/bupar.html#related-tools",
+    "href": "packages_projects_tools/bupaR/bupar.html#related-tools",
+    "title": "bupaR and the bupaverse: process mining for understanding pathway problems",
+    "section": "Related tools",
+    "text": "Related tools\nA detailed breakdown of the capabilities of bupaR and vidigi, and the areas of pathway animation in which they excel, can be found in the vidigi documentation."
+  },
+  {
+    "objectID": "packages_projects_tools/bupaR/bupar.html#project-status",
+    "href": "packages_projects_tools/bupaR/bupar.html#project-status",
+    "title": "bupaR and the bupaverse: process mining for understanding pathway problems",
+    "section": "Project status",
+    "text": "Project status\nStatus: Gold\nRationale: Comprehensive documentation, active maintenance, modular package design, and wide adoption in process mining research and practice"
+  },
+  {
+    "objectID": "packages_projects_tools/ambmodelopen/ambmodelopen.html",
+    "href": "packages_projects_tools/ambmodelopen/ambmodelopen.html",
+    "title": "AmbModelOpen: A discrete event simulation of ambulance resources",
+    "section": "",
+    "text": "“A discrete event simulation focusing on simulating the ambulance job cycle time. The work has been made open to support:"
+  },
+  {
+    "objectID": "packages_projects_tools/ambmodelopen/ambmodelopen.html#project-status",
+    "href": "packages_projects_tools/ambmodelopen/ambmodelopen.html#project-status",
+    "title": "AmbModelOpen: A discrete event simulation of ambulance resources",
+    "section": "Project status",
+    "text": "Project status\nStatus: TBC\nRationale: TBC."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Healthcare Services Analytics & Decision Science Atlas",
+    "section": "",
+    "text": "Welcome to the Healthcare Services Analytics & Decision Science Atlas. This is a directory of open-source tools, packages, and projects for analytics and decision science in healthcare.\nThis site is in its very early stages - please check back as we continue to develop it.\nIn time, we hope this can develop into a tool to help showcase the amazing work happening across the analytics and data science communities in healthcare, promoting reuse and collaborative work on the tools we all need.\nContributions are very welcome! Please see the repository README for instructions on how to contribute.\n\n\n\n\n\n\nWarning\n\n\n\nPlease note that inclusion of a tool on this site does not imply that the HSMA team have reviewed these tools in detail. This is designed to act as a signpost to the work out there, and provide a high-level indication of the health of any given project, but you should always conduct your own reviews of the suitability of any of these tools and techniques for your own use case.\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf you have any concerns, or would like any content to be removed, please contact Sammi Rosser."
+  },
+  {
+    "objectID": "graph_catalogue/graph_catalogue.html",
+    "href": "graph_catalogue/graph_catalogue.html",
+    "title": "The Healthcare Service Analytics & Decision Intelligence Atlas",
+    "section": "",
+    "text": "Coming Soon!"
+  },
+  {
+    "objectID": "packages_projects_tools/aif_allocation_tool/aif_allocation_tool.html",
+    "href": "packages_projects_tools/aif_allocation_tool/aif_allocation_tool.html",
+    "title": "AIF ICB Place Based Allocation Tool",
+    "section": "",
+    "text": "“This project is a tool built in Python to assist Integrated Care Boards (ICBs) to perform need based allocation based on defined place. It uses the most recently produced GP Registered Practice Populations as well as the weighted populations calculated from the Allocation model for each of its components. More information on the Allocations process, as well as useful documentation can be found at https://www.england.nhs.uk/allocations/\nThe tool allows a new ‘place’ to be defined in an ICB as a cluster of GP practices. This allows place to be flexibly defined, whether that is as GP practices in the same Primary Care Network (PCN), Local Authority, or that feed into the same Secondary services for example. That is at the discretion of the ICB. Once GP practices have been allocated to a place, the relative need indices can be calculated and the output can be downloaded as a CSV.” (source)"
+  },
+  {
+    "objectID": "packages_projects_tools/aif_allocation_tool/aif_allocation_tool.html#deployed-app-for-202526",
+    "href": "packages_projects_tools/aif_allocation_tool/aif_allocation_tool.html#deployed-app-for-202526",
+    "title": "AIF ICB Place Based Allocation Tool",
+    "section": "Deployed app for 2025/26",
+    "text": "Deployed app for 2025/26"
+  },
+  {
+    "objectID": "packages_projects_tools/aif_allocation_tool/aif_allocation_tool.html#project-status",
+    "href": "packages_projects_tools/aif_allocation_tool/aif_allocation_tool.html#project-status",
+    "title": "AIF ICB Place Based Allocation Tool",
+    "section": "Project status",
+    "text": "Project status\nStatus: TBC\nRationale: TBC"
+  },
+  {
+    "objectID": "packages_projects_tools/bptk_py/bptk_py.html",
+    "href": "packages_projects_tools/bptk_py/bptk_py.html",
+    "title": "bptk_py",
+    "section": "",
+    "text": "“The Business Prototyping Toolkit for Python (BPTK-Py) is a computational modeling framework that enables you to build simulation models using System Dynamics (SD) and/or agent-based modeling (ABM) natively in Python and manage simulation scenarios with ease.\nNext to providing the necessary SD and ABM language constructs to build models directly in Python, the framework also includes a compiler for transpiling System Dynamics models conforming to the XMILE standard into Python code.\nThis means you can build models in a XMILE-compatible visual modeling environment (such as iseesystems Stella) and then use them independently in Python.” (source)"
+  },
+  {
+    "objectID": "packages_projects_tools/bptk_py/bptk_py.html#details",
+    "href": "packages_projects_tools/bptk_py/bptk_py.html#details",
+    "title": "bptk_py",
+    "section": "",
+    "text": "“The Business Prototyping Toolkit for Python (BPTK-Py) is a computational modeling framework that enables you to build simulation models using System Dynamics (SD) and/or agent-based modeling (ABM) natively in Python and manage simulation scenarios with ease.\nNext to providing the necessary SD and ABM language constructs to build models directly in Python, the framework also includes a compiler for transpiling System Dynamics models conforming to the XMILE standard into Python code.\nThis means you can build models in a XMILE-compatible visual modeling environment (such as iseesystems Stella) and then use them independently in Python.” (source)"
+  },
+  {
+    "objectID": "packages_projects_tools/bptk_py/bptk_py.html#project-status",
+    "href": "packages_projects_tools/bptk_py/bptk_py.html#project-status",
+    "title": "bptk_py",
+    "section": "Project status",
+    "text": "Project status\nStatus: Gold\nRationale: “Package with active and ongoing maintenance, test suite, and documentation.”"
+  },
+  {
+    "objectID": "packages_projects_tools/ciw/ciw.html",
+    "href": "packages_projects_tools/ciw/ciw.html",
+    "title": "ciw",
+    "section": "",
+    "text": "“Ciw is a discrete event simulation library for open queueing networks. It’s core features include the capability to simulate networks of queues, multiple customer classes, and implementation of Type I blocking for restricted networks.” (source)"
+  },
+  {
+    "objectID": "packages_projects_tools/ciw/ciw.html#project-status",
+    "href": "packages_projects_tools/ciw/ciw.html#project-status",
+    "title": "ciw",
+    "section": "Project status",
+    "text": "Project status\nStatus: Gold\nRationale: Maintained package with documentation and tests."
+  },
+  {
+    "objectID": "packages_projects_tools/concurrentsim/concurrentsim.html",
+    "href": "packages_projects_tools/concurrentsim/concurrentsim.html",
+    "title": "ConcurrentSim",
+    "section": "",
+    "text": "“ConcurrentSim is a discrete-event process-oriented simulation framework written in Julia inspired by the Python library SimPy. Its process dispatcher is based on semi-coroutines scheduling as implemented in ResumableFunctions or ResumableFunctions. A Process in ConcurrentSim is defined by a @resumable function yielding Events. ConcurrentSim provides three types of shared resources to model limited capacity congestion points: Resources, Containers and Stores. The API is modeled after the SimPy API but some specific Julia semantics are used.” (source)"
+  },
+  {
+    "objectID": "packages_projects_tools/concurrentsim/concurrentsim.html#project-status",
+    "href": "packages_projects_tools/concurrentsim/concurrentsim.html#project-status",
+    "title": "ConcurrentSim",
+    "section": "Project status",
+    "text": "Project status\nStatus: Gold\nRationale: One of the longest-lived Julia packages, actively maintained, with documentation and testing."
+  },
+  {
+    "objectID": "packages_projects_tools/hybridsim/hybridsim.html",
+    "href": "packages_projects_tools/hybridsim/hybridsim.html",
+    "title": "Hybrid Simulation Modelling for Orthopaedics",
+    "section": "",
+    "text": "This is a “hybrid simulation model that combines a System Dynamics (SD) model with a Discrete Event Simulation (DES) model. The SD model is used to model patient deterioration while waiting for a General Practitioner (GP) referral in Primary Care, and the DES model is used to model the patient journey through an Orthopaedic department.” (source)\nThis work was presented at The OR Society’s 12th Simulation Workshop (SW25) conference. Poster embedded below is from github.com/MHowells/SW25_poster."
+  },
+  {
+    "objectID": "packages_projects_tools/hybridsim/hybridsim.html#project-status",
+    "href": "packages_projects_tools/hybridsim/hybridsim.html#project-status",
+    "title": "Hybrid Simulation Modelling for Orthopaedics",
+    "section": "Project status",
+    "text": "Project status\nStatus: Silver\nRationale: The code is well organised and thoughtfully designed with reuse in mind, but there remains room for improvement, such as testing and more comprehensive documentation."
   },
   {
     "objectID": "packages_projects_tools/new_hospital_programme/new_hospital_programme.html",
@@ -445,7 +473,7 @@
     "href": "packages_projects_tools/packages_projects_tools.html#python",
     "title": "Packages, Projects and Tools",
     "section": " Python",
-    "text": "Python\n\n\n\n    \n      \n            \n            \n                  \n              \n                  \n                \n              \n\n            \n                \n                  AIF ICB Place Based Allocation Tool\n                \n            \n\n            \n            \n              Status: TBC\n            \n            \n\n            \n              Python tool to assist Integrated Care Boards (ICBs) to perform need based allocation based on defined place. It uses the most recently produced GP Registered Practice Populations as well as the weighted populations calculated from the Allocation model for each of its components.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       App \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n              \n\n            \n                \n                  bptk_py\n                \n            \n\n            \n            \n              Status: Gold\n            \n            \n\n            \n              \"BPTK-Py is a Python package for building simulation models using System Dynamics and agent-based modeling.\"\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                            \n                        \n                            \n                       PyPi \n                          \n                        \n                            \n                        \n                            \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n                  \n              \n                  \n                \n              \n\n            \n                \n                  ciw\n                \n            \n\n            \n            \n              Status: Gold\n            \n            \n\n            \n              A discrete event simulation library for queueing networks.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                            \n                       Paper \n                          \n                        \n                            \n                       PyPi \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n                  \n              \n                  \n                \n              \n\n            \n                \n                  Community pharmacy workforce projection model\n                \n            \n\n            \n            \n              Status: Silver\n            \n            \n\n            \n              Workforce projection model to support NHS workforce planning for community pharmacy services, with a focus on pharmacists and pharmacy technicians.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n                  \n              \n                  \n                \n              \n\n            \n                \n                  DES RAP Book: Reproducible Discrete-Event Simulation in Python and R\n                \n            \n\n            \n            \n              Status: Gold\n            \n            \n\n            \n              DES RAP Book is an open resource and website for building discrete-event simulation (DES) models within a reproducible analytical pipeline (RAP), supporting the healthcare simulation community. The resource demonstrates practical, code-based workflows and tools to help researchers and practitioners develop, validate, and share DES models in Python (SimPy) and R (simmer), ensuring models are reproducible.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                        \n                            \n                       Website \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n                  \n              \n                  \n                \n              \n\n            \n                \n                  New Hospital Programme Demand Model\n                \n            \n\n            \n            \n              Status: Gold\n            \n            \n\n            \n              The Demand and Capacity Modelling Tool, developed by the Strategy Unit for DHSC and its partners, supports robust and transparent forecasting of future hospital activity to inform the design and scaling of over 40 new hospitals planned by 2030.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n                  \n              \n                  \n                \n              \n\n            \n                \n                  Travel time to NHS organisations\n                \n            \n\n            \n            \n              Status: TBC\n            \n            \n\n            \n              Initial proof of concept and exploratory analysis for the design of a holistic and interactive mapping tool to support decision-making in health and social care.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Report \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n                  \n              \n                  \n                \n              \n\n            \n                \n                  nhspy-plotthedots\n                \n            \n\n            \n            \n              Status: Bronze\n            \n            \n\n            \n              NHSpy-plotthedots is a Python port of the NHSRplotthedots package that simplifies the creation and automation of statistical process control (SPC) charts for KPIs. It helps analysts and teams move beyond static KPIs to understand true performance variation and identify opportunities for improvement.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                            \n                        \n                            \n                        \n                            \n                        \n                            \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n                  \n              \n                  \n                \n              \n\n            \n                \n                  patientflow: predicting short-term hospital bed demand using real-time data\n                \n            \n\n            \n            \n              Status: Silver\n            \n            \n\n            \n              PatientFlow is a Python package for real-time short-term predictions of hospital bed demand. It uses snapshots of current in-hospital patients as well as expected future arrivals, converts patient-level predictions into aggregated group-level bed-count forecasts, and delivers actionable outputs for bed managers, such as a likely range of the number of beds needed in the next 8 hours for a given specialty. The package is designed for operational, short-term use as opposed to long-term strategic planning.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                            \n                        \n                            \n                        \n                            \n                        \n                            \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n                  \n              \n                  \n                \n              \n\n            \n                \n                  pm4py: process mining for understanding pathway problems\n                \n            \n\n            \n            \n              Status: Gold\n            \n            \n\n            \n              pm4py is a Python library for process mining that helps healthcare analysts explore how patient pathways, test result flows, and other clinical processes actually unfold. By turning event data into visual process maps, it highlights delays, rework, and variations that can guide service improvement.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                            \n                        \n                            \n                       PyPi \n                          \n                        \n                            \n                        \n                            \n                       Website \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n                  \n              \n                  \n                \n              \n\n            \n                \n                  sim-tools\n                \n            \n\n            \n            \n              Status: Gold\n            \n            \n\n            \n              Tools to support Discrete-Event Simulation (DES) and Monte-Carlo Simulation education and practice.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                            \n                       PyPi \n                          \n                        \n                            \n                       Conda \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n                  \n              \n                  \n                \n              \n\n            \n                \n                  STARS Reusability Examples\n                \n            \n\n            \n            \n              Status: Silver\n            \n            \n\n            \n              Three examples of discrete-event simulation models implementing the STARS Reusability Framework. This includes simulation models (SimPy, ciw), web apps (streamlit, shiny) and documentation.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code (1) \n                          \n                        \n                            \n                       Code (2) \n                          \n                        \n                            \n                       Code (3) \n                          \n                        \n                            \n                       Code (4) \n                          \n                        \n                            \n                       Paper \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n                  \n              \n                  \n                \n              \n\n            \n                \n                  Vidigi: animated queues for simulations and reality\n                \n            \n\n            \n            \n              Status: Silver\n            \n            \n\n            \n              Vidigi is an animation library for showing patient flows and bottlenecks in simulations and for historical simulation logs.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                            \n                        \n                            \n                       PyPi \n                          \n                        \n                            \n                        \n                            \n                        \n                        \n                    \n            \n          \n\n        \n\nNo matching items"
+    "text": "Python\n\n\n\n    \n      \n            \n            \n                  \n              \n                  \n                \n              \n\n            \n                \n                  AIF ICB Place Based Allocation Tool\n                \n            \n\n            \n            \n              Status: TBC\n            \n            \n\n            \n              Python tool to assist Integrated Care Boards (ICBs) to perform need based allocation based on defined place. It uses the most recently produced GP Registered Practice Populations as well as the weighted populations calculated from the Allocation model for each of its components.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       App \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n                  \n              \n                  \n                \n              \n\n            \n                \n                  bptk_py\n                \n            \n\n            \n            \n              Status: Gold\n            \n            \n\n            \n              \"BPTK-Py is a Python package for building simulation models using System Dynamics and agent-based modeling.\"\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                            \n                        \n                            \n                       PyPi \n                          \n                        \n                            \n                        \n                            \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n                  \n              \n                  \n                \n              \n\n            \n                \n                  ciw\n                \n            \n\n            \n            \n              Status: Gold\n            \n            \n\n            \n              A discrete event simulation library for queueing networks.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                            \n                       Paper \n                          \n                        \n                            \n                       PyPi \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n                  \n              \n                  \n                \n              \n\n            \n                \n                  Community pharmacy workforce projection model\n                \n            \n\n            \n            \n              Status: Silver\n            \n            \n\n            \n              Workforce projection model to support NHS workforce planning for community pharmacy services, with a focus on pharmacists and pharmacy technicians.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n                  \n              \n                  \n                \n              \n\n            \n                \n                  DES RAP Book: Reproducible Discrete-Event Simulation in Python and R\n                \n            \n\n            \n            \n              Status: Gold\n            \n            \n\n            \n              DES RAP Book is an open resource and website for building discrete-event simulation (DES) models within a reproducible analytical pipeline (RAP), supporting the healthcare simulation community. The resource demonstrates practical, code-based workflows and tools to help researchers and practitioners develop, validate, and share DES models in Python (SimPy) and R (simmer), ensuring models are reproducible.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                        \n                            \n                       Website \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n                  \n              \n                  \n                \n              \n\n            \n                \n                  Hybrid Simulation Modelling for Orthopaedics\n                \n            \n\n            \n            \n              Status: Silver\n            \n            \n\n            \n              Hybrid simulation model for a trauma and orthopaedics department, combining system dynamics and discrete-event simulation.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Poster \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n                  \n              \n                  \n                \n              \n\n            \n                \n                  New Hospital Programme Demand Model\n                \n            \n\n            \n            \n              Status: Gold\n            \n            \n\n            \n              The Demand and Capacity Modelling Tool, developed by the Strategy Unit for DHSC and its partners, supports robust and transparent forecasting of future hospital activity to inform the design and scaling of over 40 new hospitals planned by 2030.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n                  \n              \n                  \n                \n              \n\n            \n                \n                  `nhs_time_of_travel`: Travel time to NHS organisations\n                \n            \n\n            \n            \n              Status: TBC\n            \n            \n\n            \n              Initial proof of concept and exploratory analysis for the design of a holistic and interactive mapping tool to support decision-making in health and social care.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Report \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n                  \n              \n                  \n                \n              \n\n            \n                \n                  nhspy-plotthedots\n                \n            \n\n            \n            \n              Status: Bronze\n            \n            \n\n            \n              NHSpy-plotthedots is a Python port of the NHSRplotthedots package that simplifies the creation and automation of statistical process control (SPC) charts for KPIs. It helps analysts and teams move beyond static KPIs to understand true performance variation and identify opportunities for improvement.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                            \n                        \n                            \n                        \n                            \n                        \n                            \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n                  \n              \n                  \n                \n              \n\n            \n                \n                  patientflow: predicting short-term hospital bed demand using real-time data\n                \n            \n\n            \n            \n              Status: Silver\n            \n            \n\n            \n              PatientFlow is a Python package for real-time short-term predictions of hospital bed demand. It uses snapshots of current in-hospital patients as well as expected future arrivals, converts patient-level predictions into aggregated group-level bed-count forecasts, and delivers actionable outputs for bed managers, such as a likely range of the number of beds needed in the next 8 hours for a given specialty. The package is designed for operational, short-term use as opposed to long-term strategic planning.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                            \n                        \n                            \n                        \n                            \n                        \n                            \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n                  \n              \n                  \n                \n              \n\n            \n                \n                  pm4py: process mining for understanding pathway problems\n                \n            \n\n            \n            \n              Status: Gold\n            \n            \n\n            \n              pm4py is a Python library for process mining that helps healthcare analysts explore how patient pathways, test result flows, and other clinical processes actually unfold. By turning event data into visual process maps, it highlights delays, rework, and variations that can guide service improvement.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                            \n                        \n                            \n                       PyPi \n                          \n                        \n                            \n                        \n                            \n                       Website \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n                  \n              \n                  \n                \n              \n\n            \n                \n                  sim-tools\n                \n            \n\n            \n            \n              Status: Gold\n            \n            \n\n            \n              Tools to support Discrete-Event Simulation (DES) and Monte-Carlo Simulation education and practice.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                            \n                       PyPi \n                          \n                        \n                            \n                       Conda \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n              \n\n            \n                \n                  Somerset Introduction to Data Science Course\n                \n            \n\n            \n            \n              Status: TBC\n            \n            \n\n            \n              Data science course aimed at experienced Health and Social Care Data Professionals.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Website \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n              \n\n            \n                \n                  Somerset wait list simulation\n                \n            \n\n            \n            \n              Status: Bronze\n            \n            \n\n            \n              Wait list simulation framework in development by the Somerset NHS FT DS & Improvement team.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n                  \n              \n                  \n                \n              \n\n            \n                \n                  STARS Reusability Examples\n                \n            \n\n            \n            \n              Status: Silver\n            \n            \n\n            \n              Three examples of discrete-event simulation models implementing the STARS Reusability Framework. This includes simulation models (SimPy, ciw), web apps (streamlit, shiny) and documentation.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code (1) \n                          \n                        \n                            \n                       Code (2) \n                          \n                        \n                            \n                       Code (3) \n                          \n                        \n                            \n                       Code (4) \n                          \n                        \n                            \n                       Paper \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n                  \n              \n                  \n                \n              \n\n            \n                \n                  Vidigi: animated queues for simulations and reality\n                \n            \n\n            \n            \n              Status: Silver\n            \n            \n\n            \n              Vidigi is an animation library for showing patient flows and bottlenecks in simulations and for historical simulation logs.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                            \n                        \n                            \n                       PyPi \n                          \n                        \n                            \n                        \n                            \n                        \n                        \n                    \n            \n          \n\n        \n\nNo matching items"
   },
   {
     "objectID": "packages_projects_tools/packages_projects_tools.html#r",
@@ -459,7 +487,7 @@
     "href": "packages_projects_tools/packages_projects_tools.html#julia",
     "title": "Packages, Projects and Tools",
     "section": " Julia",
-    "text": "Julia\n\n\n\n    \n      \n            \n            \n              \n\n            \n                \n                  ConcurrentSim\n                \n            \n\n            \n            \n              Status: Gold\n            \n            \n\n            \n              A discrete event process oriented simulation framework (formerly SimJulia) written in Julia inspired by the Python library SimPy.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n                  \n              \n                  \n                \n              \n\n            \n                \n                  Julia for healthcare modelling and data science\n                \n            \n\n            \n            \n              Status: Bronze\n            \n            \n\n            \n              Website with snippets of Julia code helpful for modelling health care systems.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Website \n                          \n                        \n                        \n                    \n            \n          \n\n        \n\nNo matching items"
+    "text": "Julia\n\n\n\n    \n      \n            \n            \n                  \n              \n                  \n                \n              \n\n            \n                \n                  ConcurrentSim\n                \n            \n\n            \n            \n              Status: Gold\n            \n            \n\n            \n              A discrete event process oriented simulation framework (formerly SimJulia) written in Julia inspired by the Python library SimPy.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Documentation \n                          \n                        \n                        \n                    \n            \n          \n\n        \n      \n            \n            \n                  \n              \n                  \n                \n              \n\n            \n                \n                  Julia for healthcare modelling and data science\n                \n            \n\n            \n            \n              Status: Bronze\n            \n            \n\n            \n              Website with snippets of Julia code helpful for modelling health care systems.\n\n                \n\n            \n\n            \n\n            \n\n          \n\n            \n               Details \n                    \n                      \n                          \n                            \n                       Code \n                          \n                        \n                            \n                       Website \n                          \n                        \n                        \n                    \n            \n          \n\n        \n\nNo matching items"
   },
   {
     "objectID": "packages_projects_tools/packages_projects_tools.html#powerbi",
@@ -509,6 +537,20 @@
     "title": "sim-tools",
     "section": "Project status",
     "text": "Project status\nStatus: Gold\nRationale: Python package with documentation website and test suite."
+  },
+  {
+    "objectID": "packages_projects_tools/somerset_wait_list_simulation/somerset_wait_list_simulation.html",
+    "href": "packages_projects_tools/somerset_wait_list_simulation/somerset_wait_list_simulation.html",
+    "title": "Somerset wait list simulation",
+    "section": "",
+    "text": "Status: Bronze\nRationale: Package with some tests, though no documentation."
+  },
+  {
+    "objectID": "packages_projects_tools/somerset_wait_list_simulation/somerset_wait_list_simulation.html#project-status",
+    "href": "packages_projects_tools/somerset_wait_list_simulation/somerset_wait_list_simulation.html#project-status",
+    "title": "Somerset wait list simulation",
+    "section": "",
+    "text": "Status: Bronze\nRationale: Package with some tests, though no documentation."
   },
   {
     "objectID": "packages_projects_tools/vidigi/vidigi.html",
