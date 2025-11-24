@@ -1,5 +1,5 @@
 ---
-title: "Somerset Foundation Trust wait list simulation"
+title: "Somerset wait list simulation"
 categories:
   - Waiting Lists
 tool-language:
