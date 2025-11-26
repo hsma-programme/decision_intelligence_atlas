@@ -27,7 +27,8 @@
       "/packages_projects_tools/opencodecounts/opencodecounts.html",
       "/packages_projects_tools/concurrentsim/concurrentsim.html",
       "/packages_projects_tools/julia_healthcare/julia_heathcare.html",
-      "/packages_projects_tools/rap_community_of_practice/rap_community_of_practice.html"
+      "/packages_projects_tools/rap_community_of_practice/rap_community_of_practice.html",
+      "/packages_projects_tools/streamlit/streamlit.html"
     ]
   }
 ]
