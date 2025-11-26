@@ -25,6 +25,9 @@ jobs:
         with:
           version: 1.7.33
 
+      - name: Update YAML date with last commit
+        run: bash ./resources/update-quarto-date.sh
+
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
