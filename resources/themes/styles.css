@@ -396,3 +396,31 @@ p {
   min-width: 150px;
   text-align: center;
 }
+
+/* The overall title block is the positioning context */
+#title-block-header {
+  position: relative;
+  overflow: hidden;        /* crop any excess from the animation */
+}
+
+/* Full-bleed animated background */
+#title-block-header .finisher-header {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);  /* center under the header */
+  width: 100vw;                 /* span entire viewport */
+  height: 100%;                 /* match header height */
+  z-index: 0;
+}
+
+/* Put your existing title banner *above* the animation */
+#title-block-header .quarto-title-banner {
+  position: relative;
+  z-index: 1;
+  background: transparent;   /* so you can actually see the animation */
+}
+
+.quarto-title-block .quarto-title-banner {
+  background-color: transparent;
+}
