@@ -160,7 +160,7 @@ p {
 
 
 .area-button {
-  background-color: #410f0f;  /* Dark Red background */
+  background-color:rgb(0, 95, 89);  /* Dark Red background */
   color: rgb(189, 189, 189);               /* Off-White text */
   border: 2px solid rgb(138, 138, 138);    /* Off-White border */
   padding: 5px 5px;         /* Padding for better clickability */
@@ -174,7 +174,7 @@ p {
 }
 
 .project-link-listing-button {
-  background-color: #8a0000;  /* Grey background */
+  background-color: #009c92;  /* Grey background */
   color: rgb(218, 218, 218);               /* Off-White text */
   border: 2px solid rgb(218, 218, 218);    /* Off-White border */
   padding: 5px 5px;         /* Padding for better clickability */
@@ -234,7 +234,7 @@ p {
 .custom-button:hover a {
   background-color: white;    /* White background on hover */
   color: #3d3d3d;              /* Grey text on hover */
-  border-color: #3498db;      /* Blue border on hover */
+  border-color:rgb(0, 80, 74);      /* Blue border on hover */
 }
 
 @media only screen and (max-width: 600px) {
@@ -369,7 +369,7 @@ p {
 }
 
 .session-link-listing-button {
-  background-color: #8a0000;  /* Grey background */
+  background-color: #009c92;  /* Grey background */
   color: rgb(218, 218, 218);               /* Off-White text */
   border: 2px solid rgb(218, 218, 218);    /* Off-White border */
   padding: 5px 5px;         /* Padding for better clickability */
