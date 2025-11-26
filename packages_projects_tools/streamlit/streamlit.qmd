@@ -100,15 +100,19 @@ All free deployment options will involve processing of uploaded or linked data o
 It is crucial that you do not upload, or encourage users to upload, real individual-level data or otherwise sensitive data.
 :::
 
-[Streamlit Community Cloud]: 
+[Streamlit Community Cloud](https://streamlit.io/cloud): This free option allows for apps to be hosted, though they will go to sleep after a relatively short timeout of 12 hours. Users will be presented with a screen which will allow them to 'wake the app up', which may take a few minutes. There are limits on the memory allocated to your app, which 
 
-[Posit Connect Cloud]: 
+[Posit Connect Cloud](https://connect.posit.cloud/): This alternative, run by Posit (who are behind RStudio and other tools), has a free tier that allows you to publish Streamlit apps (among other things). 
+
+There are also various enterprise-level versions of cloud deployment which *may* be secure options for more sensitive data (if your organisation is willing to fund this). 
+
+For example, Posit Connect Cloud offers various enterprise-grade tiers. Other options include [snowflake](https://www.snowflake.com/en/), which is the company that owns Streamlit, and [plotly dash enterprise](https://plotly.com/dash/). The author of this entry believes all three options have been used by NHS trusts or related bodies for app deployment and/or report automation, though is unable to confirm this. 
 
 #### Serverless (stlite) apps
 
 Serverless apps, such as those created with stlite/stlitepack, still require a server to host the static page. Various free hosting options exist for this.
 
-[GitHub Pages](https://pages.github.com/)
+[GitHub Pages](https://pages.github.com/): this free option is closely integrated with GitHub. 
 
 An example repository that does thi, along with using a custom URL, can be found at <https://github.com/hsma-programme/Teaching_DES_Concepts_Streamlit>. 
 
@@ -122,7 +126,6 @@ An example repository that does thi, along with using a custom URL, can be found
 A key exception to this is the [stlite-quarto extension](https://github.com/whitphx/quarto-stlite) - allowing embedding of interactive apps directly within quarto without external hosting - [which will process the code externally](https://github.com/whitphx/quarto-stlite/issues/3).
 
 :::
-
 
 ### Local
 
@@ -146,6 +149,8 @@ You may also need to consider authentication or access restriction - if differen
 
 If you are simply able to restrict access to the app to certain user groups, your IT department may be able to help with this from a server perspective through the use of Active Directory or something similar. 
 
+Your IT department may also prefer to consider - if budget is available - a solution such as [posit connect](https://posit.co/products/enterprise/connect/), which can make deployment and maintenance of Streamlit and other apps or APIs a more streamlined experience for analysts and data scientists.
+
 :::{.callout-tip}
 
 We are keen to hear of success stories within the NHS of people who have successfully obtained a server, virtual machine or similar to deploy apps on within an organisation. Please get in touch via the issues page or submit a pull request with additional information in this section!
@@ -160,6 +165,6 @@ The free eBook [devops for data science](https://do4ds.com/) may help you speak 
 
 
 :::{.callout-info}
-### Rationale for Rating
+## Rationale for Rating
 Streamlit is a well-established package with years of development and a substantial team behind it.
 :::
