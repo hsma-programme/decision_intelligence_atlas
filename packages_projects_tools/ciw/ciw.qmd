@@ -39,8 +39,6 @@ pub-info:
     url: https://pypi.org/project/Ciw/
     icon: fa-solid fa-brands fa-python
 date: "2025-11-21T10:36:10+00:00"
-language:
-  title-block-published: "Page last modified"
 ---
 
 "Ciw is a discrete event simulation library for open queueing networks. It’s core features include the capability to simulate networks of queues, multiple customer classes, and implementation of Type I blocking for restricted networks." ([source](https://github.com/CiwPython/Ciw))

@@ -54,8 +54,6 @@ listing:
     template: listing.ejs
     sort: Title
 date: "2025-11-21T11:17:57+00:00"
-language:
-  title-block-published: "Page last modified"
 ---
 
 ::: callout-warning

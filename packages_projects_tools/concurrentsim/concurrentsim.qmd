@@ -21,8 +21,6 @@ pub-info:
     url: https://juliadynamics.github.io/ConcurrentSim.jl/stable/
     icon: fa-solid fa-book
 date: "2025-11-24T14:34:55+00:00"
-language:
-  title-block-published: "Page last modified"
 ---
 
 "ConcurrentSim is a discrete-event process-oriented simulation framework written in Julia inspired by the Python library SimPy. Its process dispatcher is based on semi-coroutines scheduling as implemented in ResumableFunctions or ResumableFunctions. A `Process` in ConcurrentSim is defined by a `@resumable function` yielding `Events`. ConcurrentSim provides three types of shared resources to model limited capacity congestion points: `Resources`, `Containers` and `Stores`. The API is modeled after the SimPy API but some specific Julia semantics are used." ([source](https://juliadynamics.github.io/ConcurrentSim.jl/stable/))

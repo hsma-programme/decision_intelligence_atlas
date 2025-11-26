@@ -24,8 +24,6 @@ pub-info:
     url: https://somersetnhsfoundationtrust.github.io/DataScienceCourse/
     icon: fa-solid fa-globe
 date: "2025-11-24T15:14:32+00:00"
-language:
-  title-block-published: "Page last modified"
 ---
 
 ## Project status

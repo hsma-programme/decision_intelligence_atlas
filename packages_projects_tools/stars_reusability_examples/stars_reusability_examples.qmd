@@ -40,8 +40,6 @@ pub-info:
     url: "https://doi.org/10.1080/17477778.2024.2347882"
     icon: fa-solid fa-file-contract
 date: "2025-11-24T14:26:32+00:00"
-language:
-  title-block-published: "Page last modified"
 ---
 
 ## STARS Reusability Framework

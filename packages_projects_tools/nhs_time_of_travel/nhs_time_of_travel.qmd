@@ -18,8 +18,6 @@ pub-info:
     url: https://nhsx.github.io/nhs_time_of_travel/
     icon: fa-solid fa-file-contract
 date: "2025-11-24T15:16:24+00:00"
-language:
-  title-block-published: "Page last modified"
 ---
 
 "A mapping tool could support national and regional commissioning strategies by facilitating the placement of new services and the reconfiguration of existing ones. It could also contribute to the NHS agenda for tackling health inequalities by enabling evidence-based decision-making by providing insight on how the availability of health and social care services is influenced by sociodemographic factors.

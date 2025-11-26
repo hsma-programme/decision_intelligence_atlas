@@ -34,8 +34,6 @@ pub-info:
     url:
     icon: fa-solid fa-globe
 date: "2025-11-21T10:36:10+00:00"
-language:
-  title-block-published: "Page last modified"
 ---
 
 Vidigi is an animation library designed to support the communication of discrete event simulation models through creating animated visualiasations of patient flows and bottlenecks.

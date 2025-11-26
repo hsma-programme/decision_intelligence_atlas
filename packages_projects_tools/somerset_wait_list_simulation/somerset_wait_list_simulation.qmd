@@ -20,8 +20,6 @@ pub-info:
     url: https://github.com/Somerset-NHS-FT-DS-Improvement/wait_list_simulation
     icon: fa-brands fa-github
 date: "2025-11-24T15:14:40+00:00"
-language:
-  title-block-published: "Page last modified"
 ---
 
 ## Project status

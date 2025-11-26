@@ -1,8 +1,7 @@
 ---
 title: Healthcare Services Analytics & Decision Science Atlas
 date: "2025-11-19T15:37:41+00:00"
-language:
-  title-block-published: "Page last modified"
+
 ---
 
 Welcome to the Healthcare Services Analytics & Decision Science Atlas. **This is a directory of open-source tools, packages, and projects for analytics and decision science in healthcare.**

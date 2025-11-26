@@ -31,8 +31,6 @@ pub-info:
     url: # Enter a URL here if relevant
     icon: fa-solid fa-globe
 date: "2025-11-21T10:36:10+00:00"
-language:
-  title-block-published: "Page last modified"
 ---
 
 Originally developed for UCLH’s emergency admissions team, PatientFlow uses real-time or near real-time Electronic Health Record (EHR) data to convert individual-patient probabilities of admission, discharge or transfer into aggregated forecasts of bed occupancy or demand.

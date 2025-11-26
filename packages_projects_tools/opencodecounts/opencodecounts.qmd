@@ -40,8 +40,6 @@ pub-info:
     url: https://doi.org/10.1101/2025.10.14.25338005
     icon: fa-solid fa-file-contract
 date: "2025-11-21T10:36:10+00:00"
-language:
-  title-block-published: "Page last modified"
 ---
 
 "OpenCodeCounts is an open-access, online interactive tool and an accompanying R package. It allows users to explore the English national clinical coding data captured in NHS-funded GP practices and admissions to acute hospitals. It visualises and analyses how frequently chosen clinical codes have been recorded each year since 2012. Users can search for individually entered codes or groups of codes, or any codelist you have created or found on OpenCodelists." ([source](https://www.bennett.ox.ac.uk/blog/2025/10/introducing-opencodecounts/)).
