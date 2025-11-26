@@ -10,6 +10,13 @@ website:
   draft-mode: unlinked
   site-url: https://atlas.hsma.co.uk
   description: "A guide to modern healthcare analytics, modelling and data science"
+  google-analytics:
+    tracking-id: "G-41QML5TFEF"
+    anonymize-ip: true
+  cookie-consent:
+    type: express
+    style: simple
+    palette: dark
   navbar:
     title: false
     collapse-below: "xl"
@@ -50,5 +57,4 @@ format:
     title-block-banner: resources/banner.png
     mainfont: Lexend
     include-in-header:
-      - text: |
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+      file: resources/header.html
