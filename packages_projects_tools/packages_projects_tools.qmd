@@ -2,11 +2,18 @@
 title: "Packages, Projects and Tools"
 toc-location: right
 include-back-link: false
+title-block-banner: true
 grid:
   sidebar-width: 0px
   body-width: 1100px
   margin-width: 300px
   gutter-width: 1.5rem
+
+format:
+  html:
+    template-partials:
+      - /resources/title-block-small.html
+
 listing:
 
   - id: python
@@ -56,11 +63,11 @@ listing:
 ---
 
 ::: callout-warning
-Please note that inclusion of a tool on this site does not imply that the HSMA team have reviewed these tools in detail. This is designed to act as a signpost to the work out there, and provide a high-level indication of the health of any given project, but you should always conduct your own reviews of the suitability of any of these tools and techniques for your own use case.
+Please note that inclusion of a tool on this site does not imply that the HSMA team, or any other Atlas contributors, have reviewed these tools in detail. This resource is designed to act as a signpost to the work that is out there, and provide a high-level indication of the health of any given project, but **you should always conduct your own reviews of the suitability of any of these tools and techniques for your own use case.**
 
-Inclusion of a tool on this page also does not indicate endorsement of the tool author of the HSMA programme or the description written of the tool.
+Inclusion of a tool on this page also does not indicate endorsement of the tool author of the HSMA programme, the Atlas, or the description written of the tool.
 
-If you have any concerns, or would like any content to be removed, please contact [Sammi Rosser](mailto:hi@sammirosser.com) or [raise an issue on the repository]().
+If you have any concerns, or would like any content to be removed, please [raise an issue on the repository](https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose).
 :::
 
 :::{.callout-note appearance="simple" collapse="true"}
