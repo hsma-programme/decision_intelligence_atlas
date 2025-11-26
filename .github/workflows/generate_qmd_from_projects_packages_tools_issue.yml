@@ -105,6 +105,8 @@ jobs:
             - name: Website
               url: "${{ fromJSON(steps.extract.outputs.json).website }}"
               icon: fa-solid fa-globe
+          language:
+            title-block-published: "Page last modified"
           ---
 
           ## Additional Links
