@@ -28,6 +28,9 @@ pub-info:
   - name: Website
     url:
     icon: fa-solid fa-globe
+date: "2025-11-21T10:36:10+00:00"
+language:
+  title-block-published: "Page last modified"
 ---
 
 NHSrplotthedots is an R package designed to make it easier to produce statistical process control (SPC) charts, which are a widely well-regarded way to report on KPIs in trusts and other organisations across the country.

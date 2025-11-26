@@ -30,6 +30,9 @@ pub-info:
   - name: Website
     url:
     icon: fa-solid fa-globe
+date: "2025-11-21T10:36:10+00:00"
+language:
+  title-block-published: "Page last modified"
 ---
 
 Nowcasting combines statistical modelling with real-time data to estimate current levels of activity when complete information is not yet available. Originally used in fields like economics and epidemiology, it also has potential application in healthcare operations.

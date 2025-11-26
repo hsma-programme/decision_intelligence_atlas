@@ -30,6 +30,9 @@ pub-info:
   - name: Website
     url: https://bupar.net/
     icon: fa-solid fa-globe
+date: "2025-11-21T10:36:10+00:00"
+language:
+  title-block-published: "Page last modified"
 ---
 
 ![](bupaR.gif)

@@ -35,6 +35,9 @@ pub-info:
   - name: Website
     url: https://pythonhealthdatascience.github.io/des_rap_book/
     icon: fa-solid fa-globe
+date: "2025-11-21T10:36:10+00:00"
+language:
+  title-block-published: "Page last modified"
 ---
 
 This practical guide shows you how to build reproducible **discrete-event simulation models** (DES) that fit into a **reproducible analytical pipeline (RAP)**, with tips that benefit all types of models and analysis.

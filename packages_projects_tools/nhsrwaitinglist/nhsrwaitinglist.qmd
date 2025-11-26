@@ -39,6 +39,9 @@ pub-info:
   - name: CRAN
     url: https://cran.r-project.org/web/packages/NHSRwaitinglist/index.html
     icon: fa-solid fa-brands fa-r-project
+date: "2025-11-21T10:36:10+00:00"
+language:
+  title-block-published: "Page last modified"
 ---
 
 "{NHSRwaitinglist} is an R package implementing the waiting list management approach described in the paper Understanding Waiting Lists Pressures by Fong et al (2022). The methodology is presented by Neil Walton, Professor in Operations Management at Durham University Business School. The package is being contributed to by members of the NHS-R Community, with the aim of making it simpler for NHS analysts to adopt these methods for the analysis of their own waiting lists."

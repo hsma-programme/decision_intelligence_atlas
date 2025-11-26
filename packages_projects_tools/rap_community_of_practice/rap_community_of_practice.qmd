@@ -18,6 +18,9 @@ pub-info:
   - name: Website
     url: https://nhsdigital.github.io/rap-community-of-practice/
     icon: fa-solid fa-globe
+date: "2025-11-21T10:36:10+00:00"
+language:
+  title-block-published: "Page last modified"
 ---
 
 The NHS RAP Community of Practice is a website maintained by NHS England. It is intended for those interested in adopting reproducible analytical pipelines (RAP). The community of practice aims to support teams in adopting RAP practices through:

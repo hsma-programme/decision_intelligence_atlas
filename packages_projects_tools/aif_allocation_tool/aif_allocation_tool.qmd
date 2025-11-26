@@ -16,6 +16,9 @@ pub-info:
   - name: App
     url: https://icbplacebasedallocationtool-202526.streamlit.app/
     icon: fa-solid fa-globe
+date: "2025-11-21T11:17:57+00:00"
+language:
+  title-block-published: "Page last modified"
 ---
 
 "This project is a tool built in Python to assist Integrated Care Boards (ICBs) to perform need based allocation based on defined place. It uses the most recently produced GP Registered Practice Populations as well as the weighted populations calculated from the Allocation model for each of its components. More information on the Allocations process, as well as useful documentation can be found at https://www.england.nhs.uk/allocations/

@@ -30,6 +30,9 @@ pub-info:
   - name: Conda
     url: https://anaconda.org/conda-forge/sim-tools
     icon: fa-solid fa-brands fa-python
+date: "2025-11-21T10:36:10+00:00"
+language:
+  title-block-published: "Page last modified"
 ---
 
 Package to support discrete-event simulation (DES) and monte-carlo simulation education and applied simulation research. Features:

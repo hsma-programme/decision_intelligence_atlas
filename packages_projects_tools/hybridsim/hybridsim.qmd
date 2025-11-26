@@ -29,6 +29,9 @@ pub-info:
   - name: Poster
     url: https://github.com/MHowells/SW25_poster
     icon: fa-solid fa-file-image
+date: "2025-11-24T14:56:20+00:00"
+language:
+  title-block-published: "Page last modified"
 ---
 
 This is a "hybrid simulation model that combines a System Dynamics (SD) model with a Discrete Event Simulation (DES) model. The SD model is used to model patient deterioration while waiting for a General Practitioner (GP) referral in Primary Care, and the DES model is used to model the patient journey through an Orthopaedic department." ([source](https://github.com/MHowells/HybridSimModel))
