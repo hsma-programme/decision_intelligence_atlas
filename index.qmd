@@ -4,47 +4,131 @@ title-block-banner: true
 title: Healthcare Services<br/>Analytics & Decision Science<br/>Atlas
 format:
   html:
+    page-layout: full
     template-partials:
       - resources/title-block.html
 ---
+
+<!-- Card code from GuillaumeChretienCerema  https://github.com/quarto-dev/quarto-cli/issues/8475 -->
 
 <style>
 h1 {
       text-transform: uppercase;  /* make all letters uppercase */
       font-size: 4rem;
     }
+
+.value-grid {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); */
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.value-box-simple {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5rem;
+  border-radius: 10px;
+  color: white;
+  min-height: 180px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease;
+  text-decoration: none;   /* remove underline on the whole card */
+}
+
+.value-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5rem;
+  border-radius: 10px;
+  color: white;
+  min-height: 180px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease;
+  text-decoration: none;   /* remove underline on the whole card */
+}
+
+.value-box:hover {
+  transform: translateY(-4px);
+}
+
+.value-box .icon {
+  font-size: 4.5rem;   /* 👈 taille agrandie */
+  line-height: 1;
+  margin-bottom: 0.6rem;
+}
+
+.value-box .title {
+  font-weight: 600;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.value-box .value {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin: 0.2rem 0;
+}
+
+.value-box .details {
+  font-size: 0.9rem;
+  opacity: 0.9;
+  line-height: 1.3;
+}
+
+.bg-green { background-color: #009c92; }
+
+.bg-amber { background-color:rgb(211, 123, 0) ; }
+
 </style>
 
-Welcome to the Healthcare Services Analytics & Decision Science Atlas. **This is a directory of open-source tools, packages, and projects for analytics and decision science in healthcare.**
+Welcome to the Healthcare Services Analytics & Decision Science Atlas. 
+
+**This is a directory of open-source tools, packages, and projects for analytics and decision science in healthcare.**
 
 This site is in its very early stages - please check back as we continue to develop it.
 
 In time, we hope this can develop into a tool to help showcase the amazing work happening across the analytics and data science communities in healthcare, promoting reuse and collaborative work on the tools we all need.
 
-:::: {.columns}
+Click on the links below, or use the menu bar to navigate.
 
-::: {.column}
+```{=html}
+<div class="value-grid">
+  <a href="https://atlas.hsma.com/packages_projects_tools/packages_projects_tools" class="value-box bg-green">
+    <div class="icon"><i class="bi bi-tools"></i></div>
+    <div class="value">Packages, Projects<br/>and Tools</div>
+    <div class="details">A showcase of projects, code packages, scripts and other resources that may be of use</div>
+  </a>
+  <a href="https://atlas.hsma.com/atlas/atlas" class="value-box bg-green">
+    <div class="icon"><i class="bi bi-lightbulb"></i></div>
+    <div class="value">Techniques</div>
+    <div class="details">An overview of advanced analytics, operational research and data science techniques and their possible applications</div>
+  </a>
+  <a href="https://atlas.hsma.com/graph_catalogue/graph_catalogue" class="value-box bg-green">
+    <div class="icon"><i class="bi bi-file-earmark-bar-graph"></i></div>
+    <div class="value">Graph Gallery</div>
+    <div class="details">A showcase of graph types of use in healthcare contexts</div>
+  </a>
+</div>
+```
 
-
-
-:::
-
-::: {.column}
-:::
-
-::: {.column}
-:::
-
-::::
+<br/>
 
 ## Contributions
 
 Contributions are very welcome! Please see the [repository README](https://github.com/hsma-programme/decision_intelligence_atlas?tab=readme-ov-file#contributing) for instructions on how to contribute.
 
-::: callout-warning
+::: {.value-box-simple .bg-amber}
+
 Please note that inclusion of a tool on this site does not imply that the HSMA team, or any other Atlas contributors, have reviewed these tools in detail. This resource is designed to act as a signpost to the work that is out there, and provide a high-level indication of the health of any given project, but **you should always conduct your own reviews of the suitability of any of these tools and techniques for your own use case.**
 
 Inclusion of a tool on this page also does not indicate endorsement of the tool author of the HSMA programme, the Atlas, or the description written of the tool.
 
 If you have any concerns, or would like any content to be removed, please [raise an issue on the repository](https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose).
+
 :::
+
+
