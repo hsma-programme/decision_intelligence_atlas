@@ -24,6 +24,13 @@ h1 {
   }
 }
 
+@media (max-width: 800px) {
+  h1 {
+    text-transform: uppercase;  /* make all letters uppercase */
+    font-size: 3rem;
+  }
+}
+
 .value-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -32,7 +39,7 @@ h1 {
 }
 
 /* Collapse to a single column on small screens */
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .value-grid {
     grid-template-columns: 1fr;
   }
