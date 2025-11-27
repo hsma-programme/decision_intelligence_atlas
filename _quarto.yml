@@ -39,7 +39,7 @@ website:
         text: Graph Catalogue
 
       - href: about_hsma.qmd
-        text: About HSMA
+        text: About
 
 format:
   html:
