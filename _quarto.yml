@@ -41,6 +41,9 @@ website:
       - href: about_hsma.qmd
         text: About
 
+language:
+  title-block-published: "Page last modified"
+
 format:
   html:
     theme:

@@ -19,6 +19,7 @@ pub-info:
   - name: Documentation
     url: https://nhsengland.github.io/AmbModelOpen/
     icon: fa-solid fa-book
+date: "2025-11-21T10:36:10+00:00"
 ---
 
 "A discrete event simulation focusing on simulating the ambulance job cycle time. The work has been made open to support:

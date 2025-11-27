@@ -21,6 +21,7 @@ pub-info:
   - name: Website
     url: https://www.juliahealthcare.org/
     icon: fa-solid fa-globe
+date: "2025-11-21T10:36:10+00:00"
 ---
 
 The website covers some examples of Julia programming for healthcare optimisation and simulation. This includes:

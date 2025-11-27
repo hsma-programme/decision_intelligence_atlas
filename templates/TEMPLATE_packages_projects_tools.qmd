@@ -36,6 +36,7 @@ pub-info:
   - name: Website
     url: # Enter a URL here if relevant
     icon: fa-solid fa-globe
+date: "2025-11-21T10:45:06+00:00"
 ---
 
 Please place a description of the project here

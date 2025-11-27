@@ -1,5 +1,5 @@
 # Date format
-date-format: "MMMM YYYY"
+date-format: "DD MMMM YYYY"
 
 # Default for table of contents
 toc: true
