@@ -39,7 +39,7 @@ website:
         text: Graph Catalogue
 
       - href: about_hsma.qmd
-        text: About HSMA
+        text: About
 
 language:
   title-block-published: "Page last modified"
@@ -47,13 +47,13 @@ language:
 format:
   html:
     theme:
-      dark:
-      - darkly
-      - resources/themes/theme-dark.scss
-      - resources/fonts/css/lexend.css
       light:
       - flatly
       - resources/themes/theme-light.scss
+      - resources/fonts/css/lexend.css
+      dark:
+      - darkly
+      - resources/themes/theme-dark.scss
       - resources/fonts/css/lexend.css
     css: resources/themes/styles.css
     toc: true
@@ -61,3 +61,5 @@ format:
     mainfont: Lexend
     include-in-header:
       file: resources/header.html
+    include-before-body: 
+      file: resources/post-header.html
