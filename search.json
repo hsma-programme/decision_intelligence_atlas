@@ -95,7 +95,7 @@
     "href": "packages_projects_tools/packages_projects_tools.html",
     "title": "Packages, Projects and Tools",
     "section": "",
-    "text": "Warning\n\n\n\nPlease note that inclusion of a tool on this site does not imply that the HSMA team have reviewed these tools in detail. This is designed to act as a signpost to the work out there, and provide a high-level indication of the health of any given project, but you should always conduct your own reviews of the suitability of any of these tools and techniques for your own use case.\nInclusion of a tool on this page also does not indicate endorsement of the tool author of the HSMA programme or the description written of the tool.\nIf you have any concerns, or would like any content to be removed, please contact Sammi Rosser or raise an issue on the repository."
+    "text": "Warning\n\n\n\nPlease note that inclusion of a tool on this site does not imply that the HSMA team, or any other Atlas contributors, have reviewed these tools in detail. This resource is designed to act as a signpost to the work that is out there, and provide a high-level indication of the health of any given project, but you should always conduct your own reviews of the suitability of any of these tools and techniques for your own use case.\nInclusion of a tool on this page also does not indicate endorsement of the tool author of the HSMA programme, the Atlas, or the description written of the tool.\nIf you have any concerns, or would like any content to be removed, please raise an issue on the repository."
   },
   {
     "objectID": "packages_projects_tools/packages_projects_tools.html#python",
@@ -310,9 +310,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Healthcare Services Analytics & Decision Science Atlas",
+    "title": "Healthcare ServicesAnalytics & Decision ScienceAtlas",
     "section": "",
-    "text": "Welcome to the Healthcare Services Analytics & Decision Science Atlas. This is a directory of open-source tools, packages, and projects for analytics and decision science in healthcare.\nThis site is in its very early stages - please check back as we continue to develop it.\nIn time, we hope this can develop into a tool to help showcase the amazing work happening across the analytics and data science communities in healthcare, promoting reuse and collaborative work on the tools we all need.\nContributions are very welcome! Please see the repository README for instructions on how to contribute.\n\n\n\n\n\n\nWarning\n\n\n\nPlease note that inclusion of a tool on this site does not imply that the HSMA team have reviewed these tools in detail. This is designed to act as a signpost to the work out there, and provide a high-level indication of the health of any given project, but you should always conduct your own reviews of the suitability of any of these tools and techniques for your own use case.\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf you have any concerns, or would like any content to be removed, please contact Sammi Rosser."
+    "text": "Welcome to the Healthcare Services Analytics & Decision Science Atlas.\nThis is a directory of open-source tools, packages, and projects for analytics and decision science in healthcare.\nThis site is in its very early stages - please check back as we continue to develop it.\nIn time, we hope this can develop into a tool to help showcase the amazing work happening across the analytics and data science communities in healthcare, promoting reuse and collaborative work on the tools we all need.\nClick on the links below, or use the menu bar to navigate."
+  },
+  {
+    "objectID": "index.html#contributions",
+    "href": "index.html#contributions",
+    "title": "Healthcare ServicesAnalytics & Decision ScienceAtlas",
+    "section": "Contributions",
+    "text": "Contributions\nContributions are very welcome! Please see the repository README for instructions on how to contribute.\n\nPlease note that inclusion of a tool on this site does not imply that the HSMA team, or any other Atlas contributors, have reviewed these tools in detail. This resource is designed to act as a signpost to the work that is out there, and provide a high-level indication of the health of any given project, but you should always conduct your own reviews of the suitability of any of these tools and techniques for your own use case.\nInclusion of a tool on this page also does not indicate endorsement of the tool author of the HSMA programme, the Atlas, or the description written of the tool.\nIf you have any concerns, or would like any content to be removed, please raise an issue on the repository."
   },
   {
     "objectID": "packages_projects_tools/ambmodelopen/ambmodelopen.html",
