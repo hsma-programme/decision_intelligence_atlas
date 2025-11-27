@@ -17,12 +17,25 @@ h1 {
       font-size: 4rem;
     }
 
+@media (max-width: 600px) {
+  h1 {
+    text-transform: uppercase;  /* make all letters uppercase */
+    font-size: 2rem;
+  }
+}
+
 .value-grid {
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); */
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
   margin-top: 1rem;
+}
+
+/* Collapse to a single column on small screens */
+@media (max-width: 600px) {
+  .value-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .value-box-simple {
