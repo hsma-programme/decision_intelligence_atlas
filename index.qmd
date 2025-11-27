@@ -97,17 +97,17 @@ Click on the links below, or use the menu bar to navigate.
 
 ```{=html}
 <div class="value-grid">
-  <a href="https://atlas.hsma.com/packages_projects_tools/packages_projects_tools" class="value-box bg-green">
+  <a href="https://atlas.hsma.co.uk/packages_projects_tools/packages_projects_tools.html" class="value-box bg-green">
     <div class="icon"><i class="bi bi-tools"></i></div>
     <div class="value">Packages, Projects<br/>and Tools</div>
     <div class="details">A showcase of projects, code packages, scripts and other resources that may be of use</div>
   </a>
-  <a href="https://atlas.hsma.com/atlas/atlas" class="value-box bg-green">
+  <a href="https://atlas.hsma.co.uk/techniques/techniques.html" class="value-box bg-green">
     <div class="icon"><i class="bi bi-lightbulb"></i></div>
     <div class="value">Techniques</div>
     <div class="details">An overview of advanced analytics, operational research and data science techniques and their possible applications</div>
   </a>
-  <a href="https://atlas.hsma.com/graph_catalogue/graph_catalogue" class="value-box bg-green">
+  <a href="https://atlas.hsma.co.uk/graph_catalogue/graph_catalogue.html" class="value-box bg-green">
     <div class="icon"><i class="bi bi-file-earmark-bar-graph"></i></div>
     <div class="value">Graph Gallery</div>
     <div class="details">A showcase of graph types of use in healthcare contexts</div>
