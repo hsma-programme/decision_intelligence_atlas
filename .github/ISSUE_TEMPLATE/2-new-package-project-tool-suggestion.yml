@@ -1,0 +1,22 @@
+name: "Suggestion: New Package, Project or Tool Entry"
+description: "Submit a suggestion for a new package, project or tool you think should be added to the atlas (without writing the full entry)"
+title: "Package/Project/Tool Suggestion: [NAME]"
+labels: ["SUGGESTION: new project package or tool"]
+
+body:
+  - type: input
+    id: link
+    validations:
+      required: true
+    attributes: 
+      label: Link
+      description: | 
+        Please add a link to the website or repository of the package, project or tool. This is to ensure we're looking at the right thing - you don't need to submit every relevant link, though you can submit extra links in the description box below if you need to. 
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Optional - Details
+      description: | 
+        Optionally, you can give a very brief description of what this tool is to help motivate someone to look at adding this to the Atlas!
+
