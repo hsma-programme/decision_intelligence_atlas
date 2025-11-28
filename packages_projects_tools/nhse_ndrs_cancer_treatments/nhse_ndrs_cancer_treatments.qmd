@@ -8,48 +8,27 @@ author:
   - name: "Pathways and Datasets Team from the National Disease Registration Service"
     affiliation:
     orcid:
-status: 
+status: '<span style="color: #888888FF">Silver</span>'
 toc: true
-image:
+image: "app_screenshot.png"
 pub-info:
   abstract: |
     "Shiny app showing the percentage of tumours receiving radiotherapy, Systemic Anti-Cancer Therapy (SACT) and/or a surgical tumour resection as part of the primary course of treatment following diagnosis."
   links:
-  - name: Code
-    url: ""
+  - name: Code (data)
+    url: "https://github.com/NHSE-NDRS/Cancer-Treatments"
     icon: fa-brands fa-github
-  - name: Documentation
-    url: ""
-    icon: fa-solid fa-book
-  - name: Paper
-    url: ""
-    icon: fa-solid fa-file-contract
-  - name: PyPi
-    url: ""
-    icon: fa-solid fa-brands fa-python
-  - name: CRAN
-    url: ""
-    icon: fa-solid fa-brands fa-r-project
-  - name: Website
-    url: ""
+  - name: Code (app)
+    url: "https://github.com/NHSE-NDRS/shiny-app-cancer-treatments"
+    icon: fa-brands fa-github
+  - name: App
+    url: https://nhsd-ndrs.shinyapps.io/cancer_treatments/
     icon: fa-solid fa-globe
 ---
 
-## Additional Links
-
-
-## Additional Categories
-
-
-## Details
-Code for data processing: https://github.com/NHSE-NDRS/Cancer-Treatments
-
-Code for shiny app: https://github.com/NHSE-NDRS/shiny-app-cancer-treatments
-
-Link to shiny app: https://nhsd-ndrs.shinyapps.io/cancer_treatments/
-
 "This work aims to provide information on the percentage of tumours receiving radiotherapy, Systemic Anti-Cancer Therapy (SACT) and/or a surgical tumour resection as part of the primary course of treatment following diagnosis. These statistics on cancer treatments aim to support the understanding of how patients are treated for their cancer diagnosis and how this varies between cancer types. This understanding is vital to assess variation and make improvements to treatment pathways. This publication is an Official Statistic." ([source](https://nhsd-ndrs.shinyapps.io/cancer_treatments/))
 
+![Screenshot from the app](app_screenshot.png)
 
 <br>
 
@@ -57,5 +36,4 @@ Link to shiny app: https://nhsd-ndrs.shinyapps.io/cancer_treatments/
 
 **Status: {{< meta status >}}**
 
-**Rationale:** ""
-
+**Rationale:** Well-documented with web app, though no tests/packaging/etc.
