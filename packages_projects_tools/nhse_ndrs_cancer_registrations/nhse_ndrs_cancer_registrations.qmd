@@ -1,0 +1,63 @@
+---
+title: "NHSE-NDRS Cancer Registrations"
+categories:
+  - KPI Reporting
+tool-language:
+  - R
+author:
+  - name: ""
+    affiliation:
+    orcid:
+status: <span style="color: #893400FF">Bronze</span>
+toc: true
+image:
+pub-info:
+  abstract: |
+    "RAP code used for the Cancer Registration Statistics for England in 2020."
+  links:
+  - name: Code
+    url: "https://github.com/NHSE-NDRS/Cancer-Registrations"
+    icon: fa-brands fa-github
+  - name: Documentation
+    url: ""
+    icon: fa-solid fa-book
+  - name: Paper
+    url: "https://digital.nhs.uk/data-and-information/publications/statistical/cancer-registration-statistics/england-2020"
+    icon: fa-solid fa-file-contract
+  - name: PyPi
+    url: ""
+    icon: fa-solid fa-brands fa-python
+  - name: CRAN
+    url: ""
+    icon: fa-solid fa-brands fa-r-project
+  - name: Website
+    url: ""
+    icon: fa-solid fa-globe
+---
+
+## Additional Links
+
+
+## Additional Categories
+RAP
+
+## Details
+RAP code for [cancer registration statistics](https://digital.nhs.uk/data-and-information/publications/statistical/cancer-registration-statistics/england-2020), which reports newly diagnosed cancers and cancer deaths registered in England during 2020.
+
+It has three sections: incidence, mortality and population data.
+
+"The population data code extracts the populations covering the period 1995 to 2020; it is split into two sets of code because of the different locations for populations data between 1995 to 2000 and 2001 to 2020. These population data are used by the code in the incidence and mortality sections to estimate rates.
+
+The incidence and mortality code extracts and formats the data before producing the estimates presented in the publication. Both incidence and mortality use the same rate functions which have been placed into both sections for ease of reference.
+
+The incidence section extraction covers the period 1995 to 2020 so requires two sets code so each period (1995 to 2000 and 2001 to 2020) can be merged with the relevant formatted population extracts. The code for 2001 to 2020 includes the sections that estimates incidence by stage at diagnosis and by deprivation quintile. There are analysis files to produce a report on the data quality used in the incidence estimates and to estimate the stage completeness." ([source](https://github.com/NHSE-NDRS/Cancer-Registrations))
+
+
+<br>
+
+## Project status
+
+**Status: {{< meta status >}}**
+
+**Rationale:** "Limited documentation and parameterisation, no tests, so would require reworking for reuse and adaptation."
+
