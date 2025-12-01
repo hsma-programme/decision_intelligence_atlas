@@ -2,130 +2,134 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://atlas.hsma.co.uk/techniques/techniques.html</loc>
-    <lastmod>2025-12-01T11:52:22.568Z</lastmod>
+    <lastmod>2025-12-01T12:15:02.571Z</lastmod>
   </url>
   <url>
     <loc>https://atlas.hsma.co.uk/packages_projects_tools/streamlit/streamlit.html</loc>
-    <lastmod>2025-12-01T11:52:36.228Z</lastmod>
+    <lastmod>2025-12-01T12:15:10.626Z</lastmod>
   </url>
   <url>
     <loc>https://atlas.hsma.co.uk/packages_projects_tools/somerset_wait_list_simulation/somerset_wait_list_simulation.html</loc>
-    <lastmod>2025-12-01T11:52:36.216Z</lastmod>
+    <lastmod>2025-12-01T12:15:10.614Z</lastmod>
   </url>
   <url>
     <loc>https://atlas.hsma.co.uk/packages_projects_tools/sim_tools/sim_tools.html</loc>
-    <lastmod>2025-12-01T11:52:36.203Z</lastmod>
+    <lastmod>2025-12-01T12:15:10.601Z</lastmod>
   </url>
   <url>
     <loc>https://atlas.hsma.co.uk/packages_projects_tools/pm4py/pm4py.html</loc>
-    <lastmod>2025-12-01T11:52:36.191Z</lastmod>
+    <lastmod>2025-12-01T12:15:10.589Z</lastmod>
   </url>
   <url>
     <loc>https://atlas.hsma.co.uk/packages_projects_tools/packages_projects_tools.html</loc>
-    <lastmod>2025-12-01T11:52:22.520Z</lastmod>
+    <lastmod>2025-12-01T12:15:02.520Z</lastmod>
   </url>
   <url>
     <loc>https://atlas.hsma.co.uk/packages_projects_tools/nowcasting/nowcasting.html</loc>
-    <lastmod>2025-12-01T11:52:36.172Z</lastmod>
+    <lastmod>2025-12-01T12:15:10.570Z</lastmod>
   </url>
   <url>
     <loc>https://atlas.hsma.co.uk/packages_projects_tools/nhsrtt/nhsrtt.html</loc>
-    <lastmod>2025-12-01T11:52:36.159Z</lastmod>
+    <lastmod>2025-12-01T12:15:10.558Z</lastmod>
   </url>
   <url>
     <loc>https://atlas.hsma.co.uk/packages_projects_tools/nhspy-plotthedots/nhspy-plotthedots.html</loc>
-    <lastmod>2025-12-01T11:52:36.147Z</lastmod>
-  </url>
-  <url>
-    <loc>https://atlas.hsma.co.uk/packages_projects_tools/new_hospital_programme/new_hospital_programme.html</loc>
-    <lastmod>2025-12-01T11:52:36.134Z</lastmod>
-  </url>
-  <url>
-    <loc>https://atlas.hsma.co.uk/packages_projects_tools/hybridsim/hybridsim.html</loc>
-    <lastmod>2025-12-01T11:52:36.121Z</lastmod>
-  </url>
-  <url>
-    <loc>https://atlas.hsma.co.uk/packages_projects_tools/concurrentsim/concurrentsim.html</loc>
-    <lastmod>2025-12-01T11:52:36.109Z</lastmod>
-  </url>
-  <url>
-    <loc>https://atlas.hsma.co.uk/packages_projects_tools/ciw/ciw.html</loc>
-    <lastmod>2025-12-01T11:52:36.097Z</lastmod>
-  </url>
-  <url>
-    <loc>https://atlas.hsma.co.uk/packages_projects_tools/bptk_py/bptk_py.html</loc>
-    <lastmod>2025-12-01T11:52:36.084Z</lastmod>
-  </url>
-  <url>
-    <loc>https://atlas.hsma.co.uk/packages_projects_tools/aif_allocation_tool/aif_allocation_tool.html</loc>
-    <lastmod>2025-12-01T11:52:36.072Z</lastmod>
-  </url>
-  <url>
-    <loc>https://atlas.hsma.co.uk/graph_catalogue/graph_catalogue.html</loc>
-    <lastmod>2025-12-01T11:52:22.435Z</lastmod>
-  </url>
-  <url>
-    <loc>https://atlas.hsma.co.uk/about_hsma.html</loc>
-    <lastmod>2025-12-01T11:52:22.434Z</lastmod>
-  </url>
-  <url>
-    <loc>https://atlas.hsma.co.uk/index.html</loc>
-    <lastmod>2025-12-01T11:52:22.435Z</lastmod>
-  </url>
-  <url>
-    <loc>https://atlas.hsma.co.uk/packages_projects_tools/ambmodelopen/ambmodelopen.html</loc>
-    <lastmod>2025-12-01T11:52:36.078Z</lastmod>
-  </url>
-  <url>
-    <loc>https://atlas.hsma.co.uk/packages_projects_tools/bupaR/bupar.html</loc>
-    <lastmod>2025-12-01T11:52:36.091Z</lastmod>
-  </url>
-  <url>
-    <loc>https://atlas.hsma.co.uk/packages_projects_tools/community_pharmacy_workforce/community_pharmacy_workforce.html</loc>
-    <lastmod>2025-12-01T11:52:36.103Z</lastmod>
-  </url>
-  <url>
-    <loc>https://atlas.hsma.co.uk/packages_projects_tools/des_rap_book/des_rap_book.html</loc>
-    <lastmod>2025-12-01T11:52:36.115Z</lastmod>
-  </url>
-  <url>
-    <loc>https://atlas.hsma.co.uk/packages_projects_tools/julia_healthcare/julia_heathcare.html</loc>
-    <lastmod>2025-12-01T11:52:36.128Z</lastmod>
+    <lastmod>2025-12-01T12:15:10.545Z</lastmod>
   </url>
   <url>
     <loc>https://atlas.hsma.co.uk/packages_projects_tools/nhs_time_of_travel/nhs_time_of_travel.html</loc>
-    <lastmod>2025-12-01T11:52:36.141Z</lastmod>
+    <lastmod>2025-12-01T12:15:10.533Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.co.uk/packages_projects_tools/julia_healthcare/julia_heathcare.html</loc>
+    <lastmod>2025-12-01T12:15:10.520Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.co.uk/packages_projects_tools/des_rap_book/des_rap_book.html</loc>
+    <lastmod>2025-12-01T12:15:10.507Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.co.uk/packages_projects_tools/community_pharmacy_workforce/community_pharmacy_workforce.html</loc>
+    <lastmod>2025-12-01T12:15:10.494Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.co.uk/packages_projects_tools/bupaR/bupar.html</loc>
+    <lastmod>2025-12-01T12:15:10.482Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.co.uk/packages_projects_tools/ambmodelopen/ambmodelopen.html</loc>
+    <lastmod>2025-12-01T12:15:10.470Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.co.uk/index.html</loc>
+    <lastmod>2025-12-01T12:15:02.430Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.co.uk/about_hsma.html</loc>
+    <lastmod>2025-12-01T12:15:02.429Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.co.uk/graph_catalogue/graph_catalogue.html</loc>
+    <lastmod>2025-12-01T12:15:02.430Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.co.uk/packages_projects_tools/aif_allocation_tool/aif_allocation_tool.html</loc>
+    <lastmod>2025-12-01T12:15:10.463Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.co.uk/packages_projects_tools/bptk_py/bptk_py.html</loc>
+    <lastmod>2025-12-01T12:15:10.476Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.co.uk/packages_projects_tools/ciw/ciw.html</loc>
+    <lastmod>2025-12-01T12:15:10.488Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.co.uk/packages_projects_tools/concurrentsim/concurrentsim.html</loc>
+    <lastmod>2025-12-01T12:15:10.501Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.co.uk/packages_projects_tools/hybridsim/hybridsim.html</loc>
+    <lastmod>2025-12-01T12:15:10.514Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.co.uk/packages_projects_tools/new_hospital_programme/new_hospital_programme.html</loc>
+    <lastmod>2025-12-01T12:15:10.526Z</lastmod>
+  </url>
+  <url>
+    <loc>https://atlas.hsma.co.uk/packages_projects_tools/nhse_ndrs_cancer_registrations/nhse_ndrs_cancer_registrations.html</loc>
+    <lastmod>2025-12-01T12:15:10.539Z</lastmod>
   </url>
   <url>
     <loc>https://atlas.hsma.co.uk/packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html</loc>
-    <lastmod>2025-12-01T11:52:36.153Z</lastmod>
+    <lastmod>2025-12-01T12:15:10.551Z</lastmod>
   </url>
   <url>
     <loc>https://atlas.hsma.co.uk/packages_projects_tools/nhsrwaitinglist/nhsrwaitinglist.html</loc>
-    <lastmod>2025-12-01T11:52:36.166Z</lastmod>
+    <lastmod>2025-12-01T12:15:10.564Z</lastmod>
   </url>
   <url>
     <loc>https://atlas.hsma.co.uk/packages_projects_tools/opencodecounts/opencodecounts.html</loc>
-    <lastmod>2025-12-01T11:52:36.178Z</lastmod>
+    <lastmod>2025-12-01T12:15:10.576Z</lastmod>
   </url>
   <url>
     <loc>https://atlas.hsma.co.uk/packages_projects_tools/patientflow/patientflow.html</loc>
-    <lastmod>2025-12-01T11:52:36.184Z</lastmod>
+    <lastmod>2025-12-01T12:15:10.582Z</lastmod>
   </url>
   <url>
     <loc>https://atlas.hsma.co.uk/packages_projects_tools/rap_community_of_practice/rap_community_of_practice.html</loc>
-    <lastmod>2025-12-01T11:52:36.197Z</lastmod>
+    <lastmod>2025-12-01T12:15:10.595Z</lastmod>
   </url>
   <url>
     <loc>https://atlas.hsma.co.uk/packages_projects_tools/somerset_data_science_course/somerset_data_science_course.html</loc>
-    <lastmod>2025-12-01T11:52:36.209Z</lastmod>
+    <lastmod>2025-12-01T12:15:10.607Z</lastmod>
   </url>
   <url>
     <loc>https://atlas.hsma.co.uk/packages_projects_tools/stars_reusability_examples/stars_reusability_examples.html</loc>
-    <lastmod>2025-12-01T11:52:36.222Z</lastmod>
+    <lastmod>2025-12-01T12:15:10.620Z</lastmod>
   </url>
   <url>
     <loc>https://atlas.hsma.co.uk/packages_projects_tools/vidigi/vidigi.html</loc>
-    <lastmod>2025-12-01T11:52:36.234Z</lastmod>
+    <lastmod>2025-12-01T12:15:10.633Z</lastmod>
   </url>
 </urlset>
