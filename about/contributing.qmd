@@ -1,0 +1,70 @@
+---
+title: Contributing to the Atlas
+title-block-banner: true
+format:
+  html:
+    template-partials:
+      - /resources/partials/small/title-block.html
+---
+
+There are lots of ways to contribute to the Atlas - and many don't involve code or a lot of your time!
+
+We want - and need - this to be a project written for the community, by the community. So please don't be afraid to get stuck in - we're a friendly bunch and want to make the contribution process as easy as possible.
+
+## Submit an idea for an entry
+
+Heard of a project, package or tool you think the Atlas should showcase?
+
+Think there's a graph type you think should be shared with the community? Even better, do you have a reproducible code snippet to make that graph?
+
+Or what about an advanced analysis, data science or operational research technique you think we should include?
+
+You don't have to write the full thing - just [submit an issue](https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose) on the Atlas's GitHub repository.
+
+![](assets/2025-12-01-18-02-15.png)
+
+Don't worry about accidentally submitting a duplicate - we'd rather hear about something ten times than not at all! But if you'd like to take a look, you can see all of the currently proposed entries in our GitHub project.
+
+[Click here to open the list of proposed Atlas entries in a new tab](https://github.com/orgs/hsma-programme/projects/2/views/7).
+
+## Write an entry
+
+### Without code
+
+Want to write some entries for us, but not confident working with GitHub and Quarto (the framework we build the site with)? No problem! We have a totally code free route to writing Atlas entries.
+
+Follow [this link](https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose) to submit an issue on the Atlas's GitHub repository.
+
+Choose 'New Package, Project or Tool Submission'
+
+![](assets/2025-12-01-18-04-23.png)
+
+You'll then be provided with a form to gather the information we need to create a new Atlas entry - no code required.
+
+![](assets/2025-12-01-18-05-56.png)
+
+With a bit of GitHub actions wizardry, your form will be translated into the format the website need. A member of the Atlas team will then review this file and make any necessary tweaks before incorporating it into the site.
+
+:::{.callout-note}
+At the moment, it's only possible to contribute a package, project or tool in this way.
+
+We may add the option to contribute techniques or graph catalogue entries in this way in the future - check back or let us know if this is something you'd be interested in.
+:::
+
+### With code
+
+Like working with Quarto, or want to give it a try?
+
+Head over to the [instructions in our GitHub readme](https://github.com/hsma-programme/decision_intelligence_atlas?tab=readme-ov-file#advanced-option-contributing-a-qmd-file) for details of how you can contribute to the Atlas via making a pull request on GitHub.
+
+## Contributor Code of Conduct
+
+We want the Atlas to be a friendly and welcoming project for all people, regardless of your background or level of coding expertise.
+
+Please take a look at our code of conduct below:
+
+:::{.callout-tip appearance="simple"}
+
+{{< include ../CODE_OF_CONDUCT.md >}}
+
+:::
