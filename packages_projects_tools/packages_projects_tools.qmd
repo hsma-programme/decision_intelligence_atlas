@@ -11,7 +11,7 @@ grid:
 format:
   html:
     template-partials:
-      - /resources/title-block-small.html
+      - /resources/partials/small/title-block.html
 
 listing:
 
