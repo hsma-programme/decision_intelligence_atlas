@@ -1,0 +1,39 @@
+---
+title: "NHSE-NDRS Cancer Treatments"
+categories:
+  - KPI Reporting
+tool-language:
+  - R
+author:
+  - name: "Pathways and Datasets Team from the National Disease Registration Service"
+    affiliation:
+    orcid:
+status: '<span style="color: #888888FF">Silver</span>'
+toc: true
+image: "app_screenshot.png"
+pub-info:
+  abstract: |
+    "Shiny app showing the percentage of tumours receiving radiotherapy, Systemic Anti-Cancer Therapy (SACT) and/or a surgical tumour resection as part of the primary course of treatment following diagnosis."
+  links:
+  - name: Code (data)
+    url: "https://github.com/NHSE-NDRS/Cancer-Treatments"
+    icon: fa-brands fa-github
+  - name: Code (app)
+    url: "https://github.com/NHSE-NDRS/shiny-app-cancer-treatments"
+    icon: fa-brands fa-github
+  - name: App
+    url: https://nhsd-ndrs.shinyapps.io/cancer_treatments/
+    icon: fa-solid fa-globe
+---
+
+"This work aims to provide information on the percentage of tumours receiving radiotherapy, Systemic Anti-Cancer Therapy (SACT) and/or a surgical tumour resection as part of the primary course of treatment following diagnosis. These statistics on cancer treatments aim to support the understanding of how patients are treated for their cancer diagnosis and how this varies between cancer types. This understanding is vital to assess variation and make improvements to treatment pathways. This publication is an Official Statistic." ([source](https://nhsd-ndrs.shinyapps.io/cancer_treatments/))
+
+![Screenshot from the app](app_screenshot.png)
+
+<br>
+
+## Project status
+
+**Status: {{< meta status >}}**
+
+**Rationale:** Well-documented with web app, though no tests/packaging/etc.
