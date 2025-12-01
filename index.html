@@ -6,7 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-11-27">
 
 <title>Healthcare Services Analytics &amp; Decision Science Atlas – The Healthcare Service Analytics &amp; Decision Intelligence Atlas</title>
 <style>
@@ -340,7 +339,6 @@ cookieconsent.run({
 
         <h1 class="title">Healthcare Services<br>Analytics &amp; Decision Science<br>Atlas</h1>
                 
-                <p class="date">November 27, 2025</p>
                     
 </div>
 </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
@@ -401,12 +399,32 @@ h1 {
       font-size: 4rem;
     }
 
+@media (max-width: 600px) {
+  h1 {
+    text-transform: uppercase;  /* make all letters uppercase */
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  h1 {
+    text-transform: uppercase;  /* make all letters uppercase */
+    font-size: 3rem;
+  }
+}
+
 .value-grid {
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); */
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
   margin-top: 1rem;
+}
+
+/* Collapse to a single column on small screens */
+@media (max-width: 900px) {
+  .value-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .value-box-simple {
@@ -467,6 +485,34 @@ h1 {
 
 .bg-amber { background-color:rgb(211, 123, 0) ; }
 
+/* Full-bleed animated background */
+#title-block-header .finisher-header {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    /* center under the header */
+    width: 100vw;
+    /* span entire viewport */
+    height: 100%;
+    /* match header height */
+    z-index: 0;
+}
+
+/* Put your existing title banner *above* the animation */
+#title-block-header .quarto-title-banner {
+    position: relative;
+    z-index: 1;
+    /* background: transparent;   so you can actually see the animation */
+}
+
+/* The overall title block is the positioning context */
+#title-block-header {
+    position: relative;
+    overflow: hidden;
+    /* crop any excess from the animation */
+}
+
 </style>
 <p>Welcome to the Healthcare Services Analytics &amp; Decision Science Atlas.</p>
 <p><strong>This is a directory of open-source tools, packages, and projects for analytics and decision science in healthcare.</strong></p>
@@ -474,17 +520,17 @@ h1 {
 <p>In time, we hope this can develop into a tool to help showcase the amazing work happening across the analytics and data science communities in healthcare, promoting reuse and collaborative work on the tools we all need.</p>
 <p>Click on the links below, or use the menu bar to navigate.</p>
 <div class="value-grid">
-  <a href="https://atlas.hsma.com/packages_projects_tools/packages_projects_tools" class="value-box bg-green">
+  <a href="https://atlas.hsma.co.uk/packages_projects_tools/packages_projects_tools.html" class="value-box bg-green">
     <div class="icon"><i class="bi bi-tools"></i></div>
     <div class="value">Packages, Projects<br>and Tools</div>
     <div class="details">A showcase of projects, code packages, scripts and other resources that may be of use</div>
   </a>
-  <a href="https://atlas.hsma.com/atlas/atlas" class="value-box bg-green">
+  <a href="https://atlas.hsma.co.uk/techniques/techniques.html" class="value-box bg-green">
     <div class="icon"><i class="bi bi-lightbulb"></i></div>
     <div class="value">Techniques</div>
     <div class="details">An overview of advanced analytics, operational research and data science techniques and their possible applications</div>
   </a>
-  <a href="https://atlas.hsma.com/graph_catalogue/graph_catalogue" class="value-box bg-green">
+  <a href="https://atlas.hsma.co.uk/graph_catalogue/graph_catalogue.html" class="value-box bg-green">
     <div class="icon"><i class="bi bi-file-earmark-bar-graph"></i></div>
     <div class="value">Graph Gallery</div>
     <div class="details">A showcase of graph types of use in healthcare contexts</div>

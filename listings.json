@@ -17,6 +17,7 @@
       "/packages_projects_tools/somerset_data_science_course/somerset_data_science_course.html",
       "/packages_projects_tools/somerset_wait_list_simulation/somerset_wait_list_simulation.html",
       "/packages_projects_tools/stars_reusability_examples/stars_reusability_examples.html",
+      "/packages_projects_tools/streamlit/streamlit.html",
       "/packages_projects_tools/vidigi/vidigi.html",
       "/packages_projects_tools/ambmodelopen/ambmodelopen.html",
       "/packages_projects_tools/bupaR/bupar.html",
@@ -27,8 +28,7 @@
       "/packages_projects_tools/opencodecounts/opencodecounts.html",
       "/packages_projects_tools/concurrentsim/concurrentsim.html",
       "/packages_projects_tools/julia_healthcare/julia_heathcare.html",
-      "/packages_projects_tools/rap_community_of_practice/rap_community_of_practice.html",
-      "/packages_projects_tools/streamlit/streamlit.html"
+      "/packages_projects_tools/rap_community_of_practice/rap_community_of_practice.html"
     ]
   }
 ]
