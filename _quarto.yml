@@ -17,6 +17,14 @@ website:
     type: express
     style: simple
     palette: dark
+  page-footer:
+    center: |
+      [![](/resources/hsma_logo.png){width=150px}](https://www.hsma.co.uk/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      [![](/resources/nihr_logo.png){width=250px}](https://arc-swp.nihr.ac.uk/)<br/><br/>
+      *This report is independent research supported by the National Institute for Health and Care Research Applied Research Collaboration South West Peninsula.<br/>
+      The views expressed in this publication are those of the author(s) and not necessarily those of the National Institute for Health and Care Research
+      or the Department of Health and Social Care.*
+      <br/><br/>
   navbar:
     title: false
     collapse-below: "xl"
