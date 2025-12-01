@@ -1,7 +1,10 @@
 #!/bin/bash
 set -e
 
-for f in $(git ls-files './*.qmd'); do
+for f in $(git ls-files \
+  'packages_projects_tools/**/*.qmd' \
+  'techniques/**/*.qmd' \
+  'graph_catalogue/**/*.qmd'); do
   # Get the last commit date for the file from main branch
   date=$(git log -1 --format="%ad" --date=iso-strict origin/main -- "$f")
   [ -z "$date" ] && date=$(git log -1 --format="%ad" --date=iso-strict -- "$f")

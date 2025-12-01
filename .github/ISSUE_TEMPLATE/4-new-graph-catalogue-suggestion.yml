@@ -1,0 +1,15 @@
+name: "Suggestion: New Graph Catalogue Entry"
+description: "Submit a suggestion for a graph type or example you think should be added to the atlas (without writing the full entry)"
+title: "Graph Catalogue Suggestion: [NAME]"
+labels: ["SUGGESTION: new graph catalogue entry"]
+
+body:
+  - type: textarea
+    id: details
+    validations:
+      required: true
+    attributes:
+      label: Optional - Details
+      description: | 
+        Optionally, you can give a very brief description of what this tool is to help motivate someone to look at adding this to the Atlas!
+

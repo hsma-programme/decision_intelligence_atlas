@@ -2,8 +2,8 @@
 title: "Streamlit: a beginner-friendly framework for building web apps"
 categories:
   - Web Interface Creation
-title-block-banner: ../../banner.png
 status: '<span style="color: #D18B12FF">Gold</span>'
+tool-language: Python
 toc: true
 image: streamlit.gif
 author:
@@ -14,7 +14,6 @@ author:
     orcid: # If you have an ORCID (a unique researcher identifier) you'd like to share, please do
     github: # If you have a github you'd be happy to share, please do
 pub-info:
-  language: '<i class="fa-brands fa-python"></i>'
   abstract: |
     Streamlit is a beginner-friendly framework for creating interactive web applications in Python. It is suitable for both dashboard-style interactive tools, as well as interactive graphical interfaces to tools that can be a great way for non-coders to interact with models. With simple sequntial execution and a low barrier to entry, writing your first Streamlit app takes minutes.
   links:

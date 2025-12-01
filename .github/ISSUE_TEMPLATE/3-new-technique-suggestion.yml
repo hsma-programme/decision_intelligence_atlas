@@ -1,0 +1,15 @@
+name: "Suggestion: New Technique Entry"
+description: "Submit a suggestion for a new technique you think should be added to the atlas (without writing the full entry)"
+title: "Technique Suggestion: [NAME]"
+labels: ["SUGGESTION: new technique"]
+
+body:
+  - type: textarea
+    id: details
+    validations:
+      required: true
+    attributes:
+      label: Details
+      description: | 
+        Please give a brief description of what this technique is to help motivate someone to look at adding this to the Atlas!
+
