@@ -38,7 +38,7 @@ website:
       - href: graph_catalogue/graph_catalogue.qmd
         text: Graph Catalogue
 
-      - href: about_hsma.qmd
+      - href: about.qmd
         text: About
 
 language:
