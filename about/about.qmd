@@ -1,0 +1,79 @@
+---
+title: About the Atlas
+title-block-banner: true
+toc: false
+format:
+  html:
+    template-partials:
+      - /resources/partials/small/title-block.html
+---
+
+```{=html}
+<style>
+table {
+  border: 2px solid #313F37FF;   /* Outline around the entire table */
+  border-collapse: collapse; /* Makes borders look clean */
+}
+
+table td, table th {
+  border: 1px solid #555;   /* Inner cell borders */
+  padding: 8px;
+}
+
+</style>
+```
+
+## Behind the Atlas
+
+:::: {.columns}
+
+::: {.column width='70%'}
+
+The Atlas was started by [Sammi Rosser](https://www.sammirosser.com), an ex NHS data scientist, who is now a trainer on the [Health Service Modelling Associates (HSMA)](www.hsma.co.uk) programme, teaching analysts, managers and clinicians how to program and use advanced techniques to improve health services. Finding it challenging to keep up with the endless number of webinars, newsletters, conferences and more necessary to keep abreast of projects and techniques of interest, she started the Atlas to provide the resource she wished she'd had from day 1 in her NHS data career.
+
+:::
+
+::: {.column width='30%'}
+
+![](../resources/sammi-profile.jpg)
+
+:::
+
+::::
+
+:::: {.columns}
+
+::: {.column width='30%'}
+
+![](../resources/hsma_logo_transparent_background_large.png)
+
+:::
+
+::: {.column width='70%'}
+
+The HSMA programme teaches programming in Python, data science and operational research techniques to analysts, data scientists, clinicians and more! The programme provides training on a lot of the advanced techniques mentioned in the Atlas, as well as how to write code so you can confidently use the great Python packages that the Atlas compiles.
+
+While the full programme, which also includes live access to the sessions and project mentoring support, is only available to those working in public health and social care organisations, all previous [session recordings, slides, example code](https://hsma.co.uk/hsma_content/modules/modules.html) and [eBooks](https://hsma.co.uk/hsma_content/books/books.html) are available on the [HSMA website](https://hsma.co.uk/).
+
+:::
+
+::::
+
+
+Huge thanks also go to [Amy Heather](https://github.com/amyheather), who has contributed her time and expertise to the Atlas. You can find Amy's excellent work as part of the [STARS - Sharing Tools and Artefacts for Reusable Simulations in Healthcare](https://github.com/pythonhealthdatascience) programme.
+
+We're immensely grateful to everyone who contributes to this community Atlas - you can see our full list of contributors below or [in our GitHub readme](https://github.com/hsma-programme/decision_intelligence_atlas?tab=readme-ov-file#contributors):
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://sammirosser.com"><img src="https://avatars.githubusercontent.com/u/29951987?v=4?s=100" width="100px;" alt="Sammi Rosser"/><br /><sub><b>Sammi Rosser</b></sub></a><br /><a href="#code-Bergam0t" title="Code">💻</a> <a href="#content-Bergam0t" title="Content">🖋</a> <a href="#design-Bergam0t" title="Design">🎨</a> <a href="#ideas-Bergam0t" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-Bergam0t" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-Bergam0t" title="Maintenance">🚧</a> <a href="#review-Bergam0t" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/amyheather"><img src="https://avatars.githubusercontent.com/u/92166537?v=4?s=100" width="100px;" alt="Amy Heather"/><br /><sub><b>Amy Heather</b></sub></a><br /><a href="#code-amyheather" title="Code">💻</a> <a href="#content-amyheather" title="Content">🖋</a> <a href="#doc-amyheather" title="Documentation">📖</a> <a href="#design-amyheather" title="Design">🎨</a> <a href="#maintenance-amyheather" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://www.personalboardroom.com"><img src="https://avatars.githubusercontent.com/u/9799569?v=4?s=100" width="100px;" alt="Zella King"/><br /><sub><b>Zella King</b></sub></a><br /><a href="#bug-zmek" title="Bug reports">🐛</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<br/><br/>
+
+We want the Atlas to be something made by the community, for the community, so [click here to find out more about how you can get involved!](contributing.qmd)

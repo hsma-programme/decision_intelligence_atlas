@@ -166,7 +166,11 @@ Click on the links below, or use the menu bar to navigate.
 
 ## Contributions
 
-Contributions are very welcome! Please see the [repository README](https://github.com/hsma-programme/decision_intelligence_atlas?tab=readme-ov-file#contributing) for instructions on how to contribute.
+Contributions are very welcome!
+
+You don't need to be able to write code, use Quarto or use GitHub to add to the Atlas - there are lots of ways to submit content.
+
+Please see our [contributors page](about/contributing.qmd) for instructions on how to get involved.
 
 ::: {.value-box-simple .bg-amber}
 

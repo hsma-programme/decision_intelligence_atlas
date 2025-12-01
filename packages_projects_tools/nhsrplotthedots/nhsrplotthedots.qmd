@@ -35,22 +35,15 @@ NHSrplotthedots is an R package designed to make it easier to produce statistica
 
 Pairing well with reporting tools like Quarto or rmarkdown, as well as dashboarding tools like R Shiny, this battle-tested package used in trusts across the country can help to automate and improve reporting, using the same underlying methodology as the Excel tool originally provided by the
 
-## The Making Data Count Programme
+## More about SPC charts
 
-Not come across SPC charts before? Read these guides from the NHS England Making Data Count team to understand how they can help make sense of whether variation in a metric is at a level of concern. By helping to cut through random noise and highlight true patterns of variation, we can move away from 'spuddling' - constant meddling that fails to produce real change - and make our reporting more impactful.
+Take a look at our [technique page](../../techniques/spc/spc.qmd) for more information about the theory behind SPC charts.
 
-```{=html}
-<embed width="100%" height="400" src="making-data-count-getting-started-2019.pdf" title="Making Data Count - Getting Started">
-```
-
-```{=html}
-<embed width="100%" height="400" src="making-data-count-strengthening-your-decisions.pdf" title="Making Data Count - Strengthening Your Decisions">
-```
+Looking for some code snippets? Head to our [graph page](../../graph_catalogue/spc/spc.qmd).
 
 ## Related Projects
 
 For Python, try [NHSPy-plotthedots](../nhspy-plotthedots/nhspy-plotthedots.qmd)
-
 
 <br>
 

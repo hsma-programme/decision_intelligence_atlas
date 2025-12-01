@@ -1,0 +1,26 @@
+/* Source: https://github.com/pythonhealthdatascience/des_rap_book/blob/main/styles/language-selector.css */
+/* Heather, A., Monks, T., Mustafee, N., & Harper, A. (2025). DES RAP Book: Reproducible Discrete-Event Simulation in Python and R (Version 0.3.0) [Computer software]. https://github.com/pythonhealthdatascience/des_rap_book */
+
+.language-selector {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 25px;
+}
+
+.language-button {
+  padding: 8px 16px;
+  margin-right: 8px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.language-button:hover {
+  background-color: #e0e0e0;
+}
+
+.language-button.active {
+  background-color: #2596be;
+  color: white;
+}

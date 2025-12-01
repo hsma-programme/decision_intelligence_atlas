@@ -1,1 +1,34 @@
-Coming Soon!
+---
+title: "Techniques"
+toc: false
+include-back-link: false
+grid:
+  sidebar-width: 0px
+  body-width: 1100px
+  margin-width: 300px
+  gutter-width: 1.5rem
+
+format:
+  html:
+    template-partials:
+      - /resources/partials/small/title-block.html
+
+listing:
+
+  - id: all
+    type: grid
+    grid-columns: 2
+    categories: true
+    template: listing.ejs
+    sort: Title
+    contents: "*/*.qmd"
+---
+
+This page contains a showcase of graph types of use in healthcare contexts, including code snippets so you can recreate them yourself.
+
+**Want to suggest an addition to this page? Head to our [contributor guide](../about/contributing.qmd) to find out more - coding entirely optional.**
+
+<br>
+
+::: {#all}
+:::
