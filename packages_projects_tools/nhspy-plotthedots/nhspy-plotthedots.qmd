@@ -31,12 +31,20 @@ pub-info:
 date: "2025-11-21T10:36:10+00:00"
 ---
 
+NHSpy-plotthedots is a Python package designed to make it easier to produce statistical process control (SPC) charts, which are a widely well-regarded way to report on KPIs in trusts and other organisations across the country.
+
 ![](image.png)
+
+## More about SPC charts
+
+Take a look at our [technique page](../../techniques/spc/spc.qmd) for more information about the theory behind SPC charts.
+
+Looking for some code snippets? Head to our [graph page](../../graph_catalogue/spc/spc.qmd).
+
 
 ## Related Projects
 
 For R, try [nhsrplotthedots](../nhsrplotthedots/nhsrplotthedots.qmd)
-
 
 <br>
 

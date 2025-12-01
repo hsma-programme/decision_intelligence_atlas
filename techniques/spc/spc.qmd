@@ -25,3 +25,9 @@ Not come across SPC charts before? Read these guides from the NHS England Making
 ```{=html}
 <embed width="100%" height="400" src="../../techniques/spc/making-data-count-strengthening-your-decisions.pdf" title="Making Data Count - Strengthening Your Decisions">
 ```
+
+## Relevant Packages, Projects and Tools
+
+For R, try [nhsrplotthedots](../../packages_projects_tools/nhsrplotthedots/nhsrplotthedots.qmd)
+
+For Python, try [NHSPy-plotthedots](../../packages_projects_tools/nhspy-plotthedots/nhspy-plotthedots.qmd)
