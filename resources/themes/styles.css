@@ -1,57 +1,59 @@
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-  .navbar-logo {
-    max-height: 30px;
-  }
+    .navbar-logo {
+        max-height: 30px;
+    }
 
-  .columns {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    gap: 10px;
-  }
+    .columns {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 10px;
+    }
 
-  .column {
-    flex: 0 1;
-    min-width: 300px;
-    margin: 10px;
-    max-width: 100%;
+    .column {
+        flex: 0 1;
+        min-width: 300px;
+        margin: 10px;
+        max-width: 100%;
 
-  }
+    }
 
 
- }
+}
 
 
 
 /* Other devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
-  .navbar-logo {
-    max-height: 50px;
-  }
+    .navbar-logo {
+        max-height: 50px;
+    }
 
 }
 
 .navbar-nav.navbar-nav-scroll {
-  --bs-scroll-height: 100vh;
+    --bs-scroll-height: 100vh;
 }
 
-.quarto-title-banner h1, .quarto-title-banner .h1, .quarto-title-banner h2, .quarto-title-banner .h2 {
+.quarto-title-banner h1,
+.quarto-title-banner .h1,
+.quarto-title-banner h2,
+.quarto-title-banner .h2 {
     color: #fff;
     text-shadow: -1px 1px 1px rgb(41, 33, 33);
-  }
+}
 
 .quarto-title-banner {
     color: #fff;
 }
 
 p {
-  font-weight: 200;
+    font-weight: 200;
 }
 
 .quarto-title .quarto-categories .quarto-category {
@@ -60,367 +62,444 @@ p {
     opacity: 1;
     color: #fff;
     background-color: rgb(56, 59, 59);
-  }
+}
 
 .abstract {
-  color: rgb(56, 59, 59);
-  background-color:rgb(187, 255, 250);
-  border: solid 1px;
-  padding: .25em .75em;
-  border-radius: .25rem;
+    color: rgb(56, 59, 59);
+    background-color: rgb(187, 255, 250);
+    border: solid 1px;
+    padding: .25em .75em;
+    border-radius: .25rem;
 }
 
 #title-block-header .abstract {
-  margin-block-start: 3rem;
-  margin-bottom: 2em;
+    margin-block-start: 3rem;
+    margin-bottom: 2em;
 }
 
 .nav-footer {
-  max-width: 100%;
-  display: flex;
-  flex-wrap: nowrap;
-  font-size: 0.75rem;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 0.75rem;
 }
 
 .nav-footer-left {
-  flex: 0 0 1%;
+    flex: 0 0 1%;
 }
 
 .nav-footer-center {
-  flex: 0 0 98%;
-  text-align: center;
-  padding: 1rem 0rem;
+    flex: 0 0 98%;
+    text-align: center;
+    padding: 1rem 0rem;
 
 }
 
 .nav-footer-right {
-  flex: 0 0 1%;
+    flex: 0 0 1%;
 }
 
 .navbar .dropdown-menu {
     left: auto !important;
     right: 0 !important;
-  }
+}
 
 .navbar .dropdown-menu-end {
     right: auto !important;
     left: 0 !important;
-  }
+}
 
 
 .custom-button {
-  background-color: #3498db;  /* Blue background */
-  color: white;               /* White text */
-  border: 2px solid white;    /* White border */
-  padding: 10px 20px;         /* Padding for better clickability */
-  font-size: 16px;            /* Font size */
-  font-weight: bold;          /* Bold text */
-  text-align: center;         /* Center the text */
-  text-decoration: none;      /* Remove underline from text */
-  cursor: pointer;            /* Hand cursor on hover */
-  border-radius: 5px;         /* Rounded corners */
-  transition: all 0.3s ease;  /* Smooth transition for hover effects */
+    background-color: #3498db;
+    /* Blue background */
+    color: white;
+    /* White text */
+    border: 2px solid white;
+    /* White border */
+    padding: 10px 20px;
+    /* Padding for better clickability */
+    font-size: 16px;
+    /* Font size */
+    font-weight: bold;
+    /* Bold text */
+    text-align: center;
+    /* Center the text */
+    text-decoration: none;
+    /* Remove underline from text */
+    cursor: pointer;
+    /* Hand cursor on hover */
+    border-radius: 5px;
+    /* Rounded corners */
+    transition: all 0.3s ease;
+    /* Smooth transition for hover effects */
 }
 
 /* Hover effect */
 .custom-button:hover {
-  background-color: white;    /* White background on hover */
-  color: #3d3d3d;              /* Grey text on hover */
-  border-color: #3498db;      /* Blue border on hover */
+    background-color: white;
+    /* White background on hover */
+    color: #3d3d3d;
+    /* Grey text on hover */
+    border-color: #3498db;
+    /* Blue border on hover */
 }
 
 /* Active state (when button is pressed) */
 .custom-button:active {
-  transform: scale(0.98);     /* Slightly reduce size when clicked */
+    transform: scale(0.98);
+    /* Slightly reduce size when clicked */
 }
 
 .project-link-buttons {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .project-link-buttons a {
-  --bs-link-color-rgb: 255,255,255;  /* White hyperlink */
-  text-decoration: none;             /* No underline */
+    --bs-link-color-rgb: 255, 255, 255;
+    /* White hyperlink */
+    text-decoration: none;
+    /* No underline */
 }
 
 .category-button {
-  background-color: #202020;  /* Grey background */
-  color: rgb(189, 189, 189);               /* Off-White text */
-  border: 2px solid rgb(138, 138, 138);    /* Off-White border */
-  padding: 5px 5px;         /* Padding for better clickability */
-  margin: 2px 0px;
-  font-size: 11px;            /* Font size */
-  font-weight: bold;          /* Bold text */
-  text-align: center;         /* Center the text */
-  text-decoration: none;      /* Remove underline from text */
-  cursor: none;               /* Normal cursor on hover */
-  border-radius: 5px;         /* Rounded corners */
+    background-color: #202020;
+    /* Grey background */
+    color: rgb(189, 189, 189);
+    /* Off-White text */
+    border: 2px solid rgb(138, 138, 138);
+    /* Off-White border */
+    padding: 5px 5px;
+    /* Padding for better clickability */
+    margin: 2px 0px;
+    font-size: 11px;
+    /* Font size */
+    font-weight: bold;
+    /* Bold text */
+    text-align: center;
+    /* Center the text */
+    text-decoration: none;
+    /* Remove underline from text */
+    cursor: none;
+    /* Normal cursor on hover */
+    border-radius: 5px;
+    /* Rounded corners */
 }
 
 
 .area-button {
-  background-color:rgb(0, 95, 89);  /* Dark Red background */
-  color: rgb(189, 189, 189);               /* Off-White text */
-  border: 2px solid rgb(138, 138, 138);    /* Off-White border */
-  padding: 5px 5px;         /* Padding for better clickability */
-  margin: 2px 0px;
-  font-size: 11px;            /* Font size */
-  font-weight: bold;          /* Bold text */
-  text-align: center;         /* Center the text */
-  text-decoration: none;      /* Remove underline from text */
-  cursor: none;               /* Normal cursor on hover */
-  border-radius: 5px;         /* Rounded corners */
+    background-color: rgb(0, 95, 89);
+    /* Dark Red background */
+    color: rgb(189, 189, 189);
+    /* Off-White text */
+    border: 2px solid rgb(138, 138, 138);
+    /* Off-White border */
+    padding: 5px 5px;
+    /* Padding for better clickability */
+    margin: 2px 0px;
+    font-size: 11px;
+    /* Font size */
+    font-weight: bold;
+    /* Bold text */
+    text-align: center;
+    /* Center the text */
+    text-decoration: none;
+    /* Remove underline from text */
+    cursor: none;
+    /* Normal cursor on hover */
+    border-radius: 5px;
+    /* Rounded corners */
 }
 
 .project-link-listing-button {
-  background-color: #009c92;  /* Grey background */
-  color: rgb(218, 218, 218);               /* Off-White text */
-  border: 2px solid rgb(218, 218, 218);    /* Off-White border */
-  padding: 5px 5px;         /* Padding for better clickability */
-  margin: 2px 0px;
-  font-size: 11px;            /* Font size */
-  font-weight: bold;          /* Bold text */
-  text-align: center;         /* Center the text */
-  text-decoration: none;      /* Remove underline from text */
-  cursor: none;               /* Normal cursor on hover */
+    background-color: #009c92;
+    /* Grey background */
+    color: rgb(218, 218, 218);
+    /* Off-White text */
+    border: 2px solid rgb(218, 218, 218);
+    /* Off-White border */
+    padding: 5px 5px;
+    /* Padding for better clickability */
+    margin: 2px 0px;
+    font-size: 11px;
+    /* Font size */
+    font-weight: bold;
+    /* Bold text */
+    text-align: center;
+    /* Center the text */
+    text-decoration: none;
+    /* Remove underline from text */
+    cursor: none;
+    /* Normal cursor on hover */
 }
 
 .listing-abstract {
-  font-size: .85em;
-  font-weight: 200;
-  padding: 1rem 1rem;
+    font-size: .85em;
+    font-weight: 200;
+    padding: 1rem 1rem;
 }
 
 .listing-title {
-  padding: 0.5rem 0.5rem;
-  text-transform: capitalize;
+    padding: 0.5rem 0.5rem;
+    text-transform: capitalize;
 }
 
 .quarto-categories {
-  padding: 0.5rem 0.5rem;
-  margin-bottom: 2rem;
+    padding: 0.5rem 0.5rem;
+    margin-bottom: 2rem;
 }
 
 
 .listing-organisations {
-  font-size: .8em;
-  text-transform: uppercase;
-  color: #6c757d;
-  padding: 0.5rem 0.5rem;
-  font-weight: 500;
+    font-size: .8em;
+    text-transform: uppercase;
+    color: #6c757d;
+    padding: 0.5rem 0.5rem;
+    font-weight: 500;
 }
 
 .project-status {
-  font-size: .8em;
-  text-transform: uppercase;
-  padding: 0.1rem 1rem;
-  font-weight: 500;
+    font-size: .8em;
+    text-transform: uppercase;
+    padding: 0.1rem 1rem;
+    font-weight: 500;
 }
 
 .language {
-  font-size: 2em;
-  padding: 0.1rem 1rem;
-  font-weight: 500;
+    font-size: 2em;
+    padding: 0.1rem 1rem;
+    font-weight: 500;
 }
 
 .project-details-listing {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0px;
-  box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
 .custom-button:hover a {
-  background-color: white;    /* White background on hover */
-  color: #3d3d3d;              /* Grey text on hover */
-  border-color:rgb(0, 80, 74);      /* Blue border on hover */
+    background-color: white;
+    /* White background on hover */
+    color: #3d3d3d;
+    /* Grey text on hover */
+    border-color: rgb(0, 80, 74);
+    /* Blue border on hover */
 }
 
 @media only screen and (max-width: 600px) {
 
-.hsma-iframe {
-  height: 350px
-}
+    .hsma-iframe {
+        height: 350px
+    }
 }
 
 @media only screen and (max-width: 800px) {
 
-.hsma-iframe {
-  height: 450px
-}
+    .hsma-iframe {
+        height: 450px
+    }
 }
 
 @media only screen and (min-width: 800px) {
 
-.hsma-iframe {
-  height: 700px
-}
+    .hsma-iframe {
+        height: 700px
+    }
 
 }
 
 .project-link-listing-button {
-  flex: 1 1 0;
-  min-width: 90px;
-  text-align: center;
-  max-width: 100vw;
-  box-sizing: border-box;
+    flex: 1 1 0;
+    min-width: 90px;
+    text-align: center;
+    max-width: 100vw;
+    box-sizing: border-box;
 }
+
 .project-link-listing-button a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  padding: 8px 8px;
-  margin: 0px 0px;
-  text-decoration: none;
-  color: inherit;
-  box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 8px 8px;
+    margin: 0px 0px;
+    text-decoration: none;
+    color: inherit;
+    box-sizing: border-box;
 }
 
 .custom-grid-card .title-link {
-  text-decoration: none;  /* No underline on hyperlink */
+    text-decoration: none;
+    /* No underline on hyperlink */
 }
 
 .custom-grid-card {
-  flex: 1 1 auto;
-  -webkit-flex: 1 1 auto;
-  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
-  color: var(--bs-card-color);
-  /* max-height: 100% !important; */
-  --bs-card-title-spacer-y: 0.5rem;
-  --bs-card-title-color: ;
-  --bs-card-subtitle-color: ;
-  --bs-card-border-width: 1px;
-  --bs-card-border-color: rgba(0, 0, 0, 0.175);
-  --bs-card-border-radius: 0.25rem;
-  --bs-card-box-shadow: ;
-  --bs-card-inner-border-radius: calc(0.25rem - 1px);
-  --bs-card-cap-padding-y: 0.5rem;
-  --bs-card-cap-padding-x: 1rem;
-  --bs-card-cap-bg: rgba(52, 58, 64, 0.25);
-  --bs-card-cap-color: ;
-  --bs-card-height: ;
-  --bs-card-color: ;
-  --bs-card-img-overlay-padding: 1rem;
-  --bs-card-group-margin: 0.75rem;
-  position: relative;
-  display: flex;
-  display: -webkit-flex;
-  flex-direction: column;
-  -webkit-flex-direction: column;
-  min-width: 0;
-  height: var(--bs-card-height);
-  color: var(--bs-body-color);
-  word-wrap: break-word;
-  background-color: var(--bs-card-bg);
-  background-clip: border-box;
-  box-sizing: border-box;
-  border: var(--bs-card-border-width) solid var(--bs-card-border-color);
-  border-radius: var(--bs-card-border-radius);
-  max-width: min(99%, 100vw - 10px);
+    flex: 1 1 auto;
+    -webkit-flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+    /* max-height: 100% !important; */
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-title-color: ;
+    --bs-card-subtitle-color: ;
+    --bs-card-border-width: 1px;
+    --bs-card-border-color: rgba(0, 0, 0, 0.175);
+    --bs-card-border-radius: 0.25rem;
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(0.25rem - 1px);
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(52, 58, 64, 0.25);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    color: var(--bs-body-color);
+    word-wrap: break-word;
+    background-color: var(--bs-card-bg);
+    background-clip: border-box;
+    box-sizing: border-box;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
+    max-width: min(99%, 100vw - 10px);
 }
 
 .card-img {
-  max-width: min(99%, 100vw - 10px);
-  max-height: 180px;
-  object-fit: cover;
+    max-width: min(99%, 100vw - 10px);
+    max-height: 180px;
+    object-fit: cover;
 }
 
 .main-card-content {
-  flex: 1;
-  max-width: min(99%, 100vw - 10px);
-  box-sizing: border-box;
+    flex: 1;
+    max-width: min(99%, 100vw - 10px);
+    box-sizing: border-box;
 }
 
 .session-content.session-listing-title {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0.25rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.25rem 1rem;
 }
 
 .session-content.session-listing-title h5.session-listing-title {
-  margin: 0;
-  display: inline-block;
+    margin: 0;
+    display: inline-block;
 }
 
 .session-content.session-listing-title .session-duration-button {
-  display: inline-block;
-  margin-left: 10px; /* Adds some space between the title and the button */
-  background-color: #202020;  /* Grey background */
-  color: rgb(189, 189, 189);               /* Off-White text */
-  border: 2px solid rgb(138, 138, 138);    /* Off-White border */
-  padding: 5px 5px;         /* Padding for better clickability */
-  margin: 2px 0px;
-  font-size: 11px;            /* Font size */
-  font-weight: bold;          /* Bold text */
-  text-align: center;         /* Center the text */
-  text-decoration: none;      /* Remove underline from text */
-  cursor: none;               /* Normal cursor on hover */
-  border-radius: 5px;         /* Rounded corners */
+    display: inline-block;
+    margin-left: 10px;
+    /* Adds some space between the title and the button */
+    background-color: #202020;
+    /* Grey background */
+    color: rgb(189, 189, 189);
+    /* Off-White text */
+    border: 2px solid rgb(138, 138, 138);
+    /* Off-White border */
+    padding: 5px 5px;
+    /* Padding for better clickability */
+    margin: 2px 0px;
+    font-size: 11px;
+    /* Font size */
+    font-weight: bold;
+    /* Bold text */
+    text-align: center;
+    /* Center the text */
+    text-decoration: none;
+    /* Remove underline from text */
+    cursor: none;
+    /* Normal cursor on hover */
+    border-radius: 5px;
+    /* Rounded corners */
 }
 
 .listing-session-lead {
-  font-size: .8em;
-  text-transform: uppercase;
-  color: #6c757d;
-  padding: 0.5rem 1rem;
-  font-weight: 500;
+    font-size: .8em;
+    text-transform: uppercase;
+    color: #6c757d;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
 }
 
 .session-link-listing-button {
-  background-color: #009c92;  /* Grey background */
-  color: rgb(218, 218, 218);               /* Off-White text */
-  border: 2px solid rgb(218, 218, 218);    /* Off-White border */
-  padding: 5px 5px;         /* Padding for better clickability */
-  margin: 2px 0px;
-  font-size: 11px;            /* Font size */
-  font-weight: bold;          /* Bold text */
-  text-align: center;         /* Center the text */
-  text-decoration: none;      /* Remove underline from text */
-  cursor: none;               /* Normal cursor on hover */
+    background-color: #009c92;
+    /* Grey background */
+    color: rgb(218, 218, 218);
+    /* Off-White text */
+    border: 2px solid rgb(218, 218, 218);
+    /* Off-White border */
+    padding: 5px 5px;
+    /* Padding for better clickability */
+    margin: 2px 0px;
+    font-size: 11px;
+    /* Font size */
+    font-weight: bold;
+    /* Bold text */
+    text-align: center;
+    /* Center the text */
+    text-decoration: none;
+    /* Remove underline from text */
+    cursor: none;
+    /* Normal cursor on hover */
 }
 
 .session-link-listing-button a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  padding: 8px 8px;
-  margin: 0px 0px;
-  text-decoration: none;
-  color: inherit;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 8px 8px;
+    margin: 0px 0px;
+    text-decoration: none;
+    color: inherit;
 }
 
 .session-link-listing-button {
-  flex: 1 1 0;
-  min-width: 150px;
-  text-align: center;
+    flex: 1 1 0;
+    min-width: 150px;
+    text-align: center;
 }
 
 /* The overall title block is the positioning context */
 #title-block-header {
-  position: relative;
-  overflow: hidden;        /* crop any excess from the animation */
+    position: relative;
+    overflow: hidden;
+    /* crop any excess from the animation */
 }
 
 /* Full-bleed animated background */
 #title-block-header .finisher-header {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);  /* center under the header */
-  width: 100vw;                 /* span entire viewport */
-  height: 100%;                 /* match header height */
-  z-index: 0;
+    position: relative;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    /* center under the header */
+    width: 100vw;
+    /* span entire viewport */
+    min-height: 60vh;
+    height: 100%;
+    /* match header height */
+    z-index: 0;
 }
 
 /* Put your existing title banner *above* the animation */
 #title-block-header .quarto-title-banner {
-  position: relative;
-  z-index: 1;
-  background: transparent;   /* so you can actually see the animation */
+    position: relative;
+    z-index: 1;
+    /* background: transparent;   so you can actually see the animation */
 }
 
 .quarto-title-block .quarto-title-banner {
-  background-color: transparent;
+    background-color: transparent;
 }

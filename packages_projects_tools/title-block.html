@@ -1,66 +1,134 @@
-<header id="title-block-header" 
-    class="quarto-title-block projects default$if(quarto-template-params.banner-header-class)$ $quarto-template-params.banner-header-class$$endif$">
-    
-    <div class="finisher-header default$if(quarto-template-params.banner-header-class)$ $quarto-template-params.banner-header-class$$endif$" style="height: 75%;"></div>
-    
-    <div class="quarto-title-banner" style="width: 100%;">
+<!-- <style>
+    .banner-wrapper {
+        position: relative;
+        overflow: hidden;
 
-        $if(include-back-link)$
-        <div class="back-nav"><a href="javascript:history.back()">← Back</a></div>
-        $endif$
+    }
 
-        <div class="quarto-title column-body">
-            $if(categories)$
-            $if(quarto-template-params.title-block-categories)$
-            <div class="quarto-categories">
-                $for(categories)$
-                <div class="quarto-category">$categories$</div>
-                $endfor$
-            </div>
-            $endif$
-            $endif$
+    #title-block-header {
+        margin-top: -30px;
+        margin-left: 50px;
+        width: 120vw;
+    }
 
-            <h1 class="title">$title$</h1>
+    /* Full-width background layer - only for the banner section */
+    .finisher-header-background {
+        position: absolute;
+        top: 0;
+        left: calc(-1 * ((100vw - 100%) / 2));
+        /* Pull left by half the difference between viewport and container */
+        width: 120vw;
+        height: 100%;
+        z-index: 0;
+        pointer-events: none;
+        overflow: visible;
+    }
 
-            $if(subtitle)$
-            <p class="subtitle lead">$subtitle$</p>
-            $endif$
+    .finisher-header {
+        width: 100%;
+        height: 100%;
+        max-height: 100%;
+        /* Constrain to parent */
+        overflow: visible;
+        /* Prevent canvas from expanding beyond */
+    }
 
-            $if(description)$
-            <div>
-                <div class="description">
-                    $description$
-                </div>
-            </div>
-            $endif$
+    .finisher-header canvas {
+        width: 100% !important;
+        height: 100% !important;
+        max-height: 100%;
+        display: block;
+    }
+</style> -->
 
-            $if(pub-info.abstract)$
-            <br/>
-            <div class="abstract">
-                <b>Summary</b>
-                $pub-info.abstract$
-            </div>
-            $endif$
-        </div>
 
-        $if(pub-info.links)$
-        <div class="project-link-buttons">
-            <ul class="project-links">
-                $for(pub-info.links)$
-                $if(pub-info.links.url)$
-                <button class="custom-button"><a href="$pub-info.links.url$"><i class="$pub-info.links.icon$"></i> $pub-info.links.name$</a></button>
-                $endif$
-                $endfor$
-            </ul>
-        </div>
-        $endif$
+<style>
+    /* Put your existing title banner *above* the animation */
+    #title-block-header .quarto-title-banner {
+        position: relative;
+        z-index: 1;
+        /* background: transparent;   so you can actually see the animation */
+    }
 
+    .quarto-title-block .quarto-title-banner {
+        background-color: #006962;
+    }
+
+    #title-block-header > div.banner-wrapper.page-columns.page-full {
+        margin-top: -25px
+    }
+
+    .project-link-buttons {
+        justify-content: left;
+        margin-left: -35px;
+    }
+
+</style>
+
+<header id="title-block-header" class="quarto-title-block projects default$if(quarto-template-params.banner-header-class)$ $quarto-template-params.banner-header-class$$endif$">
+    $if(include-back-link)$
+    <div class="back-nav" style="color:white">
+        <a href="javascript:history.back()" style="color:white">← Back</a>
     </div>
+    $endif$
+
+    <!-- Wrapper with relative positioning for this section only -->
+    <div class="banner-wrapper" style="position: relative;">
+        <!-- Full-width background container -->
+        <!-- <div class="finisher-header-background">
+            <div class="finisher-header default$if(quarto-template-params.banner-header-class)$ $quarto-template-params.banner-header-class$$endif$"></div>
+        </div> -->
+
+        <!-- Content layer -->
+        <!-- <div class="quarto-title-banner" style="position: relative; z-index: 1; width: 100%; margin-left: auto; margin-right: auto; text-align: center;"> -->
+        <div class="quarto-title-banner">
+            <div class="quarto-title column-body">
+                $if(categories)$
+                $if(quarto-template-params.title-block-categories)$
+                <div class="quarto-categories">
+                    $for(categories)$
+                    <div class="quarto-category">$categories$</div>
+                    $endfor$
+                </div>
+                $endif$
+                $endif$
+                <h1 class="title">$title$</h1>
+                $if(subtitle)$
+                <p class="subtitle lead">$subtitle$</p>
+                $endif$
+                $if(description)$
+                <div>
+                    <div class="description">
+                        $description$
+                    </div>
+                </div>
+                $endif$
+                $if(pub-info.abstract)$
+                <br />
+                <div class="abstract">
+                    <b>Summary</b>
+                    $pub-info.abstract$
+                </div>
+                $endif$
+
+                $if(pub-info.links)$
+                <div class="project-link-buttons">
+                    <ul class="project-links">
+                        $for(pub-info.links)$
+                        $if(pub-info.links.url)$
+                        <button class="custom-button"><a href="$pub-info.links.url$"><i class="$pub-info.links.icon$"></i> $pub-info.links.name$</a></button>
+                        $endif$
+                        $endfor$
+                    </ul>
+                </div>
+                $endif$
+            </div>
+
+        </div>
+    <!-- </div> -->
 
     $title-metadata.html()$
-
     $if(pub-info.extra)$
-
     <div class="quarto-title-meta-heading manual">Other details</div>
     <div class="quarto-title-meta-contents">
         <p class="publication-extra">
@@ -68,5 +136,4 @@
         </p>
     </div>
     $endif$
-
 </header>

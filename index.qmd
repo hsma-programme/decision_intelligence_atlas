@@ -102,9 +102,37 @@ h1 {
 
 .bg-amber { background-color:rgb(211, 123, 0) ; }
 
+/* Full-bleed animated background */
+#title-block-header .finisher-header {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    /* center under the header */
+    width: 100vw;
+    /* span entire viewport */
+    height: 100%;
+    /* match header height */
+    z-index: 0;
+}
+
+/* Put your existing title banner *above* the animation */
+#title-block-header .quarto-title-banner {
+    position: relative;
+    z-index: 1;
+    /* background: transparent;   so you can actually see the animation */
+}
+
+/* The overall title block is the positioning context */
+#title-block-header {
+    position: relative;
+    overflow: hidden;
+    /* crop any excess from the animation */
+}
+
 </style>
 
-Welcome to the Healthcare Services Analytics & Decision Science Atlas. 
+Welcome to the Healthcare Services Analytics & Decision Science Atlas.
 
 **This is a directory of open-source tools, packages, and projects for analytics and decision science in healthcare.**
 
@@ -149,5 +177,3 @@ Inclusion of a tool on this page also does not indicate endorsement of the tool 
 If you have any concerns, or would like any content to be removed, please [raise an issue on the repository](https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose).
 
 :::
-
-
