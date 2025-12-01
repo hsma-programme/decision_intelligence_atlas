@@ -36,7 +36,7 @@ website:
       <br/><br/>
   navbar:
     title: false
-    collapse-below: "xl"
+    collapse-below: "lg"
     tools:
       - icon: github
         menu:
@@ -77,6 +77,6 @@ format:
     mainfont: Lexend
     include-in-header:
       file: resources/header.html
-    include-before-body: 
+    include-before-body:
       file: resources/post-header.html
     title-block-banner: true
