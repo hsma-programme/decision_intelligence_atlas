@@ -24,6 +24,11 @@ listing:
     contents: "*/*.qmd"
 ---
 
+This page contains an overview of advanced analytics, operational research and data science techniques and their possible applications.
+
+**Want to suggest an addition to this page? Head to our [contributor guide](../about/contributing.qmd) to find out more - coding entirely optional.**
+
+
 <br>
 
 ::: {#all}
