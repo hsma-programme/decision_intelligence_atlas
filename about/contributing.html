@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Techniques – The Healthcare Service Analytics &amp; Decision Intelligence Atlas</title>
+<title>Contributing to the Atlas – The Healthcare Service Analytics &amp; Decision Intelligence Atlas</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
@@ -45,9 +43,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-a1cf1f68fc4fa93ac6edac6fd49853af.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-51c6d56dbc4c95356428b44793715fea.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-a1cf1f68fc4fa93ac6edac6fd49853af.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-e080e20e9a0d3afbd073796b7ca7ba0f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-682392f2929c9d739e4f85c255041ec7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-e080e20e9a0d3afbd073796b7ca7ba0f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,35 +73,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-all .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-project','listing-webr','listing-filters','listing-website','listing-language','listing-format','listing-draft-mode','listing-date-format','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-title','listing-image','listing-author','listing-pub-info','listing-date','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
-      
-      searchColumns: ["listing-project","listing-webr","listing-filters","listing-website","listing-language","listing-format","listing-draft-mode","listing-date-format","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-title","listing-image","listing-author","listing-pub-info","listing-date","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-all'] = new List('listing-all', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-41QML5TFEF"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -138,38 +107,8 @@ cookieconsent.run({
   });
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../resources/themes/styles.css">
-<link rel="stylesheet" href="../resources/themes/language-selector.css">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -355,7 +294,7 @@ window.Quarto = {
 <span class="menu-text">Packages, Projects and Tools</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../techniques/techniques.html" aria-current="page"> 
+    <a class="nav-link" href="../techniques/techniques.html"> 
 <span class="menu-text">Techniques</span></a>
   </li>  
   <li class="nav-item">
@@ -367,7 +306,7 @@ window.Quarto = {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about/contributing.html"> 
+    <a class="nav-link active" href="../about/contributing.html" aria-current="page"> 
 <span class="menu-text">Contribute</span></a>
   </li>  
 </ul>
@@ -395,25 +334,32 @@ window.Quarto = {
 
         <div class="quarto-title-banner" style="width: 100%;display: flex;justify-content: center;align-items: center;flex-direction: column;text-transform: uppercase;text-align: center;min-height: 200px;z-index: 1;">
 
-            <h1 class="title">Techniques</h1>
+            <h1 class="title">Contributing to the Atlas</h1>
                         
                                 </div>
 
     </div>
-</header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+</header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#submit-an-idea-for-an-entry" id="toc-submit-an-idea-for-an-entry" class="nav-link active" data-scroll-target="#submit-an-idea-for-an-entry">Submit an idea for an entry</a></li>
+  <li><a href="#write-an-entry" id="toc-write-an-entry" class="nav-link" data-scroll-target="#write-an-entry">Write an entry</a>
+  <ul class="collapse">
+  <li><a href="#without-code" id="toc-without-code" class="nav-link" data-scroll-target="#without-code">Without code</a></li>
+  <li><a href="#with-code" id="toc-with-code" class="nav-link" data-scroll-target="#with-code">With code</a></li>
+  </ul></li>
+  <li><a href="#contributor-code-of-conduct" id="toc-contributor-code-of-conduct" class="nav-link" data-scroll-target="#contributor-code-of-conduct">Contributor Code of Conduct</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
-<div class="language-selector">
-    Choose your language:&nbsp;&nbsp;
-    <button class="language-button" onclick="setLanguage('python')">Python</button>
-    <button class="language-button" onclick="setLanguage('r')">R</button>
-</div>
-<br>
 <script src="../resources/finisher-header.es5.min.js" type="text/javascript"></script>
 <script type="text/javascript">
 new FinisherHeader({
@@ -458,89 +404,123 @@ new FinisherHeader({
 
 
 
-<p>This page contains a showcase of graph types of use in healthcare contexts, including code snippets so you can recreate them yourself.</p>
-<p><strong>Want to suggest an addition to this page? Head to our <a href="../about/contributing.html">contributor guide</a> to find out more - coding entirely optional.</strong></p>
-<p><br></p>
-<div id="listing-all" class="quarto-listing quarto-listing-container-custom">
-<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
-
-    
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-listing-date-sort="1764615065000" data-listing-file-modified-sort="1764615091172" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="169">
-            <div class="main-card-content">
-            
-                  <a href="../techniques/spc/spc.html">
-              <img class="card-img" src="../techniques/spc/nhsrplotthedots.png" alt="Statistical Process Control (SPC)">
-                  </a>
-                
-
-            <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">
-                  <a href="../techniques/spc/spc.html" class="title-link">Statistical Process Control (SPC)</a>
-                </h5>
-            </div>
-
-            
-
-            
-              <p class="listing-abstract">SPC charts are a useful tool for monitoring and reporting, allowing KPIs to be looked at over time and in the context of expected variation, moving away from some of the pitfalls of traditional RAG reporting and providing insights into trends and, if there is a target, whether it is likely to be reliably met.
-</p>
-                
-
-            
-
-            
-
-            
-
-          </div>
-
-            <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="../techniques/spc/spc.html"><i class="fa fa-info-circle"></i> Details </a></button>
-                    
-                      
-                    
-            </div>
-          </div>
-
-        
+<p>There are lots of ways to contribute to the Atlas - and many don’t involve code or a lot of your time!</p>
+<p>We want - and need - this to be a project written for the community, by the community. So please don’t be afraid to get stuck in - we’re a friendly bunch and want to make the contribution process as easy as possible.</p>
+<section id="submit-an-idea-for-an-entry" class="level2">
+<h2 class="anchored" data-anchor-id="submit-an-idea-for-an-entry">Submit an idea for an entry</h2>
+<p>Heard of a project, package or tool you think the Atlas should showcase?</p>
+<p>Think there’s a graph type you think should be shared with the community? Even better, do you have a reproducible code snippet to make that graph?</p>
+<p>Or what about an advanced analysis, data science or operational research technique you think we should include?</p>
+<p>You don’t have to write the full thing - just <a href="https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose">submit an issue</a> on the Atlas’s GitHub repository.</p>
+<p><img src="assets/2025-12-01-18-02-15.png" class="img-fluid"></p>
+<p>Don’t worry about accidentally submitting a duplicate - we’d rather hear about something ten times than not at all! But if you’d like to take a look, you can see all of the currently proposed entries in our GitHub project.</p>
+<p><a href="https://github.com/orgs/hsma-programme/projects/2/views/7">Click here to open the list of proposed Atlas entries in a new tab</a>.</p>
+</section>
+<section id="write-an-entry" class="level2">
+<h2 class="anchored" data-anchor-id="write-an-entry">Write an entry</h2>
+<section id="without-code" class="level3">
+<h3 class="anchored" data-anchor-id="without-code">Without code</h3>
+<p>Want to write some entries for us, but not confident working with GitHub and Quarto (the framework we build the site with)? No problem! We have a totally code free route to writing Atlas entries.</p>
+<p>Follow <a href="https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose">this link</a> to submit an issue on the Atlas’s GitHub repository.</p>
+<p>Choose ‘New Package, Project or Tool Submission’</p>
+<p><img src="assets/2025-12-01-18-04-23.png" class="img-fluid"></p>
+<p>You’ll then be provided with a form to gather the information we need to create a new Atlas entry - no code required.</p>
+<p><img src="assets/2025-12-01-18-05-56.png" class="img-fluid"></p>
+<p>With a bit of GitHub actions wizardry, your form will be translated into the format the website need. A member of the Atlas team will then review this file and make any necessary tweaks before incorporating it into the site.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<div class="listing-no-matching d-none">No matching items</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>At the moment, it’s only possible to contribute a package, project or tool in this way.</p>
+<p>We may add the option to contribute techniques or graph catalogue entries in this way in the future - check back or let us know if this is something you’d be interested in.</p>
+</div>
+</div>
+</section>
+<section id="with-code" class="level3">
+<h3 class="anchored" data-anchor-id="with-code">With code</h3>
+<p>Like working with Quarto, or want to give it a try?</p>
+<p>Head over to the <a href="https://github.com/hsma-programme/decision_intelligence_atlas?tab=readme-ov-file#advanced-option-contributing-a-qmd-file">instructions in our GitHub readme</a> for details of how you can contribute to the Atlas via making a pull request on GitHub.</p>
+</section>
+</section>
+<section id="contributor-code-of-conduct" class="level2">
+<h2 class="anchored" data-anchor-id="contributor-code-of-conduct">Contributor Code of Conduct</h2>
+<p>We want the Atlas to be a friendly and welcoming project for all people, regardless of your background or level of coding expertise.</p>
+<p>Please take a look at our code of conduct below:</p>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Code of Conduct
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<section id="our-pledge" class="level2">
+<h2 class="anchored" data-anchor-id="our-pledge">Our Pledge</h2>
+<p>We are committed to creating a welcoming and inclusive environment for everyone who participates in this project. We pledge to make participation in our community a harassment-free experience for all, regardless of:</p>
+<ul>
+<li>Age</li>
+<li>Body size</li>
+<li>Disability</li>
+<li>Ethnicity</li>
+<li>Gender identity and expression</li>
+<li>Level of experience</li>
+<li>Nationality</li>
+<li>Personal appearance</li>
+<li>Race</li>
+<li>Religion</li>
+<li>Sexual identity and orientation</li>
+</ul>
+</section>
+<section id="our-standards" class="level2">
+<h2 class="anchored" data-anchor-id="our-standards">Our Standards</h2>
+<p>Examples of behavior that contributes to a positive environment include:</p>
+<ul>
+<li>Being respectful and considerate in all interactions</li>
+<li>Offering constructive feedback</li>
+<li>Using inclusive language</li>
+<li>Focusing on what is best for the community</li>
+<li>Showing empathy toward other contributors</li>
+</ul>
+<p>Examples of unacceptable behavior include:</p>
+<ul>
+<li>Harassment or discrimination of any kind</li>
+<li>Personal attacks, trolling, or insulting comments</li>
+<li>Public or private harassment</li>
+<li>Publishing others’ private information without consent</li>
+<li>Any conduct which could reasonably be considered inappropriate in a professional setting</li>
+</ul>
+</section>
+<section id="our-responsibilities" class="level2">
+<h2 class="anchored" data-anchor-id="our-responsibilities">Our Responsibilities</h2>
+<p>Project maintainers are responsible for clarifying standards of acceptable behavior and are expected to take appropriate action in response to any unacceptable behavior. They have the right and responsibility to remove, edit, or reject contributions that do not align with this Code of Conduct.</p>
+</section>
+<section id="scope" class="level2">
+<h2 class="anchored" data-anchor-id="scope">Scope</h2>
+<p>This Code of Conduct applies both within project spaces (e.g., GitHub issues, pull requests, discussions) and in public spaces when someone is representing the project or its community.</p>
+</section>
+<section id="enforcement" class="level2">
+<h2 class="anchored" data-anchor-id="enforcement">Enforcement</h2>
+<p>Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the maintainers via GitHub Issues or by direct contact. All complaints will be reviewed and investigated promptly and fairly.</p>
+</section>
+<section id="attribution" class="level2">
+<h2 class="anchored" data-anchor-id="attribution">Attribution</h2>
+<p>This Code of Conduct is adapted from the <a href="https://www.contributor-covenant.org/">Contributor Covenant</a>, version 2.1.</p>
+</section>
+</div>
 </div>
 
 
-
+</section>
 
 </main> <!-- /main -->
-<script>
-
-function setLanguage(lang) {
-  // Store the selected language in localStorage
-  localStorage.setItem('preferredLanguage', lang);
-
-  // Update button active state
-  document.querySelectorAll('.language-button').forEach(btn => {
-      btn.classList.remove('active');
-      if (btn.textContent.toLowerCase() === lang || (lang === 'both' && btn.textContent.toLowerCase() === 'both')) {
-          btn.classList.add('active');
-      }
-  });
-  // Show/hide the appropriate content
-  if (lang === 'python') {
-      document.querySelectorAll('.python-content').forEach(el => el.style.display = 'block');
-      document.querySelectorAll('.r-content').forEach(el => el.style.display = 'none');
-  } else if (lang === 'r') {
-      document.querySelectorAll('.python-content').forEach(el => el.style.display = 'none');
-      document.querySelectorAll('.r-content').forEach(el => el.style.display = 'block');
-  }
-}
-
-// On page load, set the language based on localStorage or default to Python
-document.addEventListener('DOMContentLoaded', function() {
-  const lang = localStorage.getItem('preferredLanguage') || 'python';
-  setLanguage(lang);
-});
-
-</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

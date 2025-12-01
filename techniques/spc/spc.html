@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Sammi Rosser">
+<meta name="dcterms.date" content="2025-12-01">
 
-<title>about_hsma – The Healthcare Service Analytics &amp; Decision Intelligence Atlas</title>
+<title>Statistical Process Control (SPC) – The Healthcare Service Analytics &amp; Decision Intelligence Atlas</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,29 +25,29 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e080e20e9a0d3afbd073796b7ca7ba0f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-682392f2929c9d739e4f85c255041ec7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-e080e20e9a0d3afbd073796b7ca7ba0f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-a1cf1f68fc4fa93ac6edac6fd49853af.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-51c6d56dbc4c95356428b44793715fea.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-a1cf1f68fc4fa93ac6edac6fd49853af.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -108,7 +110,8 @@ cookieconsent.run({
 </script>
 
 
-<link rel="stylesheet" href="resources/themes/styles.css">
+<link rel="stylesheet" href="../../resources/themes/styles.css">
+<link rel="stylesheet" href="../../resources/themes/language-selector.css">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -277,7 +280,7 @@ cookieconsent.run({
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
-    <nav class="navbar navbar-expand-xl " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -286,24 +289,28 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Welcome</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./packages_projects_tools/packages_projects_tools.html"> 
+    <a class="nav-link" href="../../packages_projects_tools/packages_projects_tools.html"> 
 <span class="menu-text">Packages, Projects and Tools</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./techniques/techniques.html"> 
+    <a class="nav-link" href="../../techniques/techniques.html"> 
 <span class="menu-text">Techniques</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./graph_catalogue/graph_catalogue.html"> 
+    <a class="nav-link" href="../../graph_catalogue/graph_catalogue.html"> 
 <span class="menu-text">Graph Catalogue</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about_hsma.html" aria-current="page"> 
+    <a class="nav-link" href="../../about/about.html"> 
 <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about/contributing.html"> 
+<span class="menu-text">Contribute</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -324,16 +331,84 @@ cookieconsent.run({
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block"></header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block projects default page-columns page-full">
+        <div class="back-nav" style="color:white">
+        <a href="javascript:history.back()" style="color:white">← Back</a>
+    </div>
+    
+    <!-- Wrapper with relative positioning for this section only -->
+    <div class="banner-wrapper page-columns page-full" style="position: relative;">
+        <!-- Full-width background container -->
+        <!-- <div class="finisher-header-background">
+            <div class="finisher-header default"></div>
+        </div> -->
+
+        <!-- Content layer -->
+        <!-- <div class="quarto-title-banner" style="position: relative; z-index: 1; width: 100%; margin-left: auto; margin-right: auto; text-align: center;"> -->
+        <div class="quarto-title-banner page-columns page-full">
+            <div class="quarto-title column-page-left">
+                                <h1 class="title">Statistical Process Control (SPC)</h1>
+                                                                <br>
+                <div class="abstract">
+                    <b>Summary</b>
+                    <p>SPC charts are a useful tool for monitoring and reporting, allowing KPIs to be looked at over time and in the context of expected variation, moving away from some of the pitfalls of traditional RAG reporting and providing insights into trends and, if there is a target, whether it is likely to be reliably met.</p>
+                </div>
+                
+                            </div>
+
+        </div>
+    <!-- </div> -->
+
+    <div class="quarto-title-meta-author column-page-left">
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-heading">Affiliation</div>
+      
+        <div class="quarto-title-meta-contents">
+        <p class="author">Sammi Rosser </p>
+      </div>
+      <div class="quarto-title-meta-contents">
+            <p class="affiliation">
+                Health Service Modelling Associates (HSMA), NIHR PenARC
+              </p>
+          </div>
+      </div>
+
+    <div class="quarto-title-meta column-page-left">
+
+          
+        <div>
+        <div class="quarto-title-meta-heading">Page last modified</div>
+        <div class="quarto-title-meta-contents">
+          <p class="date">01 December 2025</p>
+        </div>
+      </div>
+      
+        
+      </div>
+      
+    </div></header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#the-making-data-count-programme" id="toc-the-making-data-count-programme" class="nav-link active" data-scroll-target="#the-making-data-count-programme">The Making Data Count Programme</a></li>
+  <li><a href="#relevant-packages-projects-and-tools" id="toc-relevant-packages-projects-and-tools" class="nav-link" data-scroll-target="#relevant-packages-projects-and-tools">Relevant Packages, Projects and Tools</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
-<script src="./resources/finisher-header.es5.min.js" type="text/javascript"></script>
+<div class="language-selector">
+    Choose your language:&nbsp;&nbsp;
+    <button class="language-button" onclick="setLanguage('python')">Python</button>
+    <button class="language-button" onclick="setLanguage('r')">R</button>
+</div>
+<br>
+<script src="../../resources/finisher-header.es5.min.js" type="text/javascript"></script>
 <script type="text/javascript">
 new FinisherHeader({
   "count": 10,
@@ -374,13 +449,123 @@ new FinisherHeader({
 });
 </script>
 
+<!-- <style>
+    .banner-wrapper {
+        position: relative;
+        overflow: hidden;
+
+    }
+
+    #title-block-header {
+        margin-top: -30px;
+        margin-left: 50px;
+        width: 120vw;
+    }
+
+    /* Full-width background layer - only for the banner section */
+    .finisher-header-background {
+        position: absolute;
+        top: 0;
+        left: calc(-1 * ((100vw - 100%) / 2));
+        /* Pull left by half the difference between viewport and container */
+        width: 120vw;
+        height: 100%;
+        z-index: 0;
+        pointer-events: none;
+        overflow: visible;
+    }
+
+    .finisher-header {
+        width: 100%;
+        height: 100%;
+        max-height: 100%;
+        /* Constrain to parent */
+        overflow: visible;
+        /* Prevent canvas from expanding beyond */
+    }
+
+    .finisher-header canvas {
+        width: 100% !important;
+        height: 100% !important;
+        max-height: 100%;
+        display: block;
+    }
+</style> -->
+
+
+<style>
+    /* Put your existing title banner *above* the animation */
+    #title-block-header .quarto-title-banner {
+        position: relative;
+        z-index: 1;
+        /* background: transparent;   so you can actually see the animation */
+    }
+
+    .quarto-title-block .quarto-title-banner {
+        background-color: #006962;
+    }
+
+    #title-block-header > div.banner-wrapper.page-columns.page-full {
+        margin-top: -25px
+    }
+
+    .project-link-buttons {
+        justify-content: left;
+        margin-left: -35px;
+    }
+
+</style>
 
 
 
 
+<p>Statistical process control (SPC) charts, which are a widely well-regarded way to report on KPIs in trusts and other organisations across the country.</p>
+<p>Pairing well with reporting tools like Quarto or rmarkdown, as well as dashboarding tools like R Shiny, this battle-tested package used in trusts across the country can help to automate and improve reporting, using the same underlying methodology as the Excel tool originally provided by the</p>
+<section id="the-making-data-count-programme" class="level2">
+<h2 class="anchored" data-anchor-id="the-making-data-count-programme">The Making Data Count Programme</h2>
+<p>Not come across SPC charts before? Read these guides from the NHS England Making Data Count team to understand how they can help make sense of whether variation in a metric is at a level of concern. By helping to cut through random noise and highlight true patterns of variation, we can move away from ‘spuddling’ - constant meddling that fails to produce real change - and make our reporting more impactful.</p>
+<embed width="100%" height="400" src="../../techniques/spc/making-data-count-getting-started-2019.pdf" title="Making Data Count - Getting Started">
+<embed width="100%" height="400" src="../../techniques/spc/making-data-count-strengthening-your-decisions.pdf" title="Making Data Count - Strengthening Your Decisions">
+</section>
+<section id="relevant-packages-projects-and-tools" class="level2">
+<h2 class="anchored" data-anchor-id="relevant-packages-projects-and-tools">Relevant Packages, Projects and Tools</h2>
+<p>For R, try <a href="../../packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html">nhsrplotthedots</a></p>
+<p>For Python, try <a href="../../packages_projects_tools/nhspy-plotthedots/nhspy-plotthedots.html">NHSPy-plotthedots</a></p>
 
+
+</section>
 
 </main> <!-- /main -->
+<script>
+
+function setLanguage(lang) {
+  // Store the selected language in localStorage
+  localStorage.setItem('preferredLanguage', lang);
+
+  // Update button active state
+  document.querySelectorAll('.language-button').forEach(btn => {
+      btn.classList.remove('active');
+      if (btn.textContent.toLowerCase() === lang || (lang === 'both' && btn.textContent.toLowerCase() === 'both')) {
+          btn.classList.add('active');
+      }
+  });
+  // Show/hide the appropriate content
+  if (lang === 'python') {
+      document.querySelectorAll('.python-content').forEach(el => el.style.display = 'block');
+      document.querySelectorAll('.r-content').forEach(el => el.style.display = 'none');
+  } else if (lang === 'r') {
+      document.querySelectorAll('.python-content').forEach(el => el.style.display = 'none');
+      document.querySelectorAll('.r-content').forEach(el => el.style.display = 'block');
+  }
+}
+
+// On page load, set the language based on localStorage or default to Python
+document.addEventListener('DOMContentLoaded', function() {
+  const lang = localStorage.getItem('preferredLanguage') || 'python';
+  setLanguage(lang);
+});
+
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -800,7 +985,7 @@ new FinisherHeader({
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-
+<p><a href="https://www.hsma.co.uk/"><img src="../../resources/hsma_logo.png" class="img-fluid" width="150"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://arc-swp.nihr.ac.uk/"><img src="../../resources/nihr_logo.png" class="img-fluid" width="250"></a><br><br> <em>This report is independent research supported by the National Institute for Health and Care Research Applied Research Collaboration South West Peninsula.<br> The views expressed in this publication are those of the author(s) and not necessarily those of the National Institute for Health and Care Research or the Department of Health and Social Care.</em> <br><br></p>
 <div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;

@@ -1,5 +1,17 @@
 [
   {
+    "listing": "/techniques/techniques.html",
+    "items": [
+      "/techniques/spc/spc.html"
+    ]
+  },
+  {
+    "listing": "/graph_catalogue/graph_catalogue.html",
+    "items": [
+      "/graph_catalogue/spc/spc.html"
+    ]
+  },
+  {
     "listing": "/packages_projects_tools/packages_projects_tools.html",
     "items": [
       "/packages_projects_tools/aif_allocation_tool/aif_allocation_tool.html",
