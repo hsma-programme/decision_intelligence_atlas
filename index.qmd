@@ -1,6 +1,5 @@
 ---
 toc: false
-title-block-banner: true
 title: Healthcare Services<br/>Analytics & Decision Science<br/>Atlas
 format:
   html:

@@ -2,7 +2,6 @@
 title: "Packages, Projects and Tools"
 toc-location: right
 include-back-link: false
-title-block-banner: true
 grid:
   sidebar-width: 0px
   body-width: 1100px
