@@ -1,6 +1,8 @@
 ---
 title: "ciw"
 categories:
+  - Pathway Analytics
+  - Service Planning 
 tool-language: Python
 status: '<span style="color: #D18B12FF">Gold</span>'
 image: logo_small.png

@@ -1,6 +1,8 @@
 ---
 title: "AIF ICB Place Based Allocation Tool"
 categories:
+  - Health Inequalities
+  - Service Planning
 tool-language: Python
 status: TBC
 image: tool.png

@@ -1,6 +1,8 @@
 ---
 title: "bptk_py"
 categories:
+  - Pathway Analytics
+  - Service Planning
 tool-language: Python
 author:
   - name: "transentis labs"

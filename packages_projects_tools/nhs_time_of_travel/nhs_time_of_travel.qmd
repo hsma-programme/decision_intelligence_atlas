@@ -1,6 +1,8 @@
 ---
 title: "`nhs_time_of_travel`: Travel time to NHS organisations"
 categories:
+  - Service Planning
+  - Travel Times
 tool-language: Python
 status: TBC
 image: final_map.png
