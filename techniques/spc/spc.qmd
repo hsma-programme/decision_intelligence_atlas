@@ -8,26 +8,114 @@ pub-info:
   abstract: |
     SPC charts are a useful tool for monitoring and reporting, allowing KPIs to be looked at over time and in the context of expected variation, moving away from some of the pitfalls of traditional RAG reporting and providing insights into trends and, if there is a target, whether it is likely to be reliably met.
 date: "2025-12-01T15:25:10+00:00"
+listing:
+  - id: spc
+    type: grid
+    grid-columns: 2
+    categories: false
+    template: "../../packages_projects_tools/listing.ejs"
+    sort: Title
+    include:
+      categories: "Statistical Process Control"
+    contents: "../../packages_projects_tools/*/*.qmd"
 ---
 
-Statistical process control (SPC) charts, which are a widely well-regarded way to report on KPIs in trusts and other organisations across the country.
+Statistical process control (SPC) charts are a widely well-regarded way to report on KPIs in trusts and other organisations across the country.
 
-Pairing well with reporting tools like Quarto or rmarkdown, as well as dashboarding tools like R Shiny, this battle-tested package used in trusts across the country can help to automate and improve reporting, using the same underlying methodology as the Excel tool originally provided by the
+SPC charts can help make sense of whether variation in a metric is at a level of concern. By helping to cut through random noise and highlight true patterns of variation, we can move away from 'spuddling' - constant meddling that fails to produce real change - and make our reporting more impactful.
+
+SPC charts calculate and display several key pieces of information
+
+![](assets/2025-12-03-18-41-18.png)
+
+- **Mean**: the average of all the points (from summing all values and dividing by the number of points)
+- **Upper Control Limit**: This is the mean + 3 sigma
+- **Lower Control Limit**: This is the mean - 3 sigma
+
+:::{.callout-tip appearance="minimal"}
+
+"Standard deviation measures the average distance from each and every data point to the mean. The chronological
+order in which you plot the data is irrelevant. You could reorder the data and the calculation would stay the
+same. This means special cause variation can be missed.
+
+Sigma considers the average change from one point to the next in chronological order. Think about why the
+chronological order of data is key to understanding trends and significance."
+
+- Making Data Count: Strengthening Your Decisions
+:::
+
+They use these limits to distinguish between two kinds of variation
+
+-   **common cause**: normal, natural, random variation in a process
+-   **special cause**: unexpected, out-of-the-norm shifts or patterns that are a signal something has changed
+
+Categories of special cause variation are as follows:
+
+- A single point falls outside the control limits (either upper or lower)
+- A number of consecutive points all fall above or below the mean line
+  - this often defaults to 6 points, but it may be adjusted
+- Six consecutive points are either all increasing or all decreasing
+- Two out of three points fall close to the process limit (within the outer third)
+
+A target line can optionally be included.
+
+- If the target line does not fall within the control limits, this suggests that the system will either reliably meet the target, or not
+- If the target line falls within the control limits, this suggests that the target will not reliably be met, as it is expected that the natural variation seen will lead to the values varying around the line
+
+![Credit: Making Data Count Team](assets/2025-12-03-18-47-46.png)
 
 ## The Making Data Count Programme
 
-Not come across SPC charts before? Read these guides from the NHS England Making Data Count team to understand how they can help make sense of whether variation in a metric is at a level of concern. By helping to cut through random noise and highlight true patterns of variation, we can move away from 'spuddling' - constant meddling that fails to produce real change - and make our reporting more impactful.
+This programme ran workshops explaining the principles of Making Data Count and supported trusts with moving to SPC charts instead of RAG reports, and provide lots of training materials.
+
+One of the most recognisable parts of the programme are the icons, which have been adopted by lots of users of SPC within healthcare.
+
+![Credit: Making Data Count Team](assets/2025-12-03-18-05-53.png)
+
+These icons - which will be automatically applied when data meets particular criteria if you are using an NHS-aligned tool to make your SPC charts - can help to quickly pick out areas of concern.
+
+An SPC summary report to replace a RAG rated might look like this. The use of the icons helps to draw attention to the metrics of most concern, and helping to steer people away from worrying unnecessarily about tiny shifts in the 'wrong' direction that are meaningless when you step back and look at the data in this way.
+
+![Credit: Making Data Count Team](assets/2025-12-03-17-59-33.png)
+
+Not come across SPC charts before? Read these guides from the NHS England Making Data Count team.
+
+### Getting Started
+
+<embed width="100%" height="700" src="making-data-count-getting-started-2019.pdf" title="Making Data Count - Getting Started">
+
+<br/>
+
+### Strengthening Your Decisions
+
+<embed width="100%" height="700" src="making-data-count-strengthening-your-decisions.pdf" title="Making Data Count - Strengthening Your Decisions">
+
+## Types of SPC charts
+
+There are actually a wide range of specialised SPC charts for different types of data.
+
+The making data count programme uses only XmR (Individuals & Moving Range) charts regardless of data type, and many NHS-focussed tools and packages therefore only provide the facility to make this type of chart. The MDC programme makes the case that XmR handles almost all types of routine NHS data, and it's not necessary to overcomplicate the choice of chart.
+
+Some packages - particularly more general purpose SPC charting packages - provide the facility to make these other kinds of charts.
+
+*Some* other types are as follows:
+
+| Type | Purpose | Why might you use it? |
+|------------------------|------------------------|------------------------|
+| p-chart | Monitoring Proportions | Greater sensitivity to changes than an XmR chart |
+| u-chart | For event rates |  |
+| c-chart | For counts |  |
+| g-chart/t-chart | Rare Events |  |
+
+## Other Resources
+
+The book 'Mastering Statistical Process Control Charts' in healthcare is under development and can help you to extend your knowledge of SPC charts.
 
 ```{=html}
-<embed width="100%" height="400" src="../../techniques/spc/making-data-count-getting-started-2019.pdf" title="Making Data Count - Getting Started">
-```
-
-```{=html}
-<embed width="100%" height="400" src="../../techniques/spc/making-data-count-strengthening-your-decisions.pdf" title="Making Data Count - Strengthening Your Decisions">
+<iframe width='780' height='500' src='https://anhoej.github.io/spc4hc/' title='SPC for Healthcare'></iframe>
 ```
 
 ## Relevant Packages, Projects and Tools
 
-For R, try [nhsrplotthedots](../../packages_projects_tools/nhsrplotthedots/nhsrplotthedots.qmd)
-
-For Python, try [NHSPy-plotthedots](../../packages_projects_tools/nhspy-plotthedots/nhspy-plotthedots.qmd)
+::: {#spc}
+:::
