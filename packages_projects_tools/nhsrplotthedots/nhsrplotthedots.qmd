@@ -29,6 +29,16 @@ pub-info:
     url:
     icon: fa-solid fa-globe
 date: "2025-11-21T10:36:10+00:00"
+listing:
+  - id: spc
+    type: grid
+    grid-columns: 2
+    categories: true
+    template: "../listing.ejs"
+    sort: Title
+    include:
+      categories: "Statistical Process Control"
+    contents: "../*/*.qmd"
 ---
 
 NHSrplotthedots is an R package designed to make it easier to produce statistical process control (SPC) charts, which are a widely well-regarded way to report on KPIs in trusts and other organisations across the country.
@@ -41,10 +51,6 @@ Take a look at our [technique page](../../techniques/spc/spc.qmd) for more infor
 
 Looking for some code snippets? Head to our [graph page](../../graph_catalogue/spc/spc.qmd).
 
-## Related Projects
-
-For Python, try [NHSPy-plotthedots](../nhspy-plotthedots/nhspy-plotthedots.qmd)
-
 <br>
 
 ## Project status
@@ -52,3 +58,9 @@ For Python, try [NHSPy-plotthedots](../nhspy-plotthedots/nhspy-plotthedots.qmd)
 **Status: {{< meta status >}}**
 
 **Rationale:** This package has a strong codebase with automated testing, ongoing maintenance and development, and strong documentation. It believe it has been used in a variety of organisations for reporting.
+
+
+## Related Projects
+
+:::{#spc}
+:::
