@@ -7,6 +7,12 @@ tool-language:
   - R
   - PowerBI
   - Julia
+  - Tableau
+  - Excel
+  - PowerApps
+  - SQL
+  - Desktop or Web End‑user Application
+  - Other
   - N/A # Delete as appropriate
 status: '<span style="color: #D18B12FF">Gold</span>''<span style="color: #888888FF">Silver</span>''<span style="color: #893400FF">Bronze</span>' # Delete as appropriate
 image: # Provide a relative filepath to an image that will appear in the listing page. If you don't have one, delete this line entirely and a placeholder image will be used.
