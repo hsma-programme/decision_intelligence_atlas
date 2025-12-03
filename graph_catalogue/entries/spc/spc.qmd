@@ -126,3 +126,23 @@ You may wish to consider reviving a project such as [nhspy-plotthedots](../../pa
 :::
 
 :::
+
+
+
+::: {.excel-content}
+
+### The Making Data Count Excel Templates
+
+You can find out more about the Excel tool in the Atlas entry [here](../../packages_projects_tools/mdc_spc_excel_chart_tool/mdc_spc_excel_chart_tool.qmd)
+
+:::
+
+
+
+::: {.powerbi-content}
+
+### An R-Powered PowerBI Custom Visual
+
+You can find out more about the custom visual in the Atlas entry [here](../../packages_projects_tools/nhs_ptd_power_bi/nhs_ptd_power_bi.qmd)
+
+:::

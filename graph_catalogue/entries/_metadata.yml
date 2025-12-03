@@ -17,7 +17,7 @@ include-back-link: true
 format:
   html:
     template-partials:
-      - title-block.html
+      - ../title-block.html
     page-layout: full
     grid:
       sidebar-width: 0px
@@ -25,8 +25,8 @@ format:
       margin-width: 300px
       gutter-width: 1.5rem
     include-before-body:
-      - ../resources/scripts/language_selector.html
+      - ../../resources/scripts/language_selector.html
     include-after-body:
-      - ../resources/scripts/language-selector.js
+      - ../../resources/scripts/language-selector.js
     css:
-      - ../resources/themes/language-selector.css
+      - ../../resources/themes/language-selector.css
