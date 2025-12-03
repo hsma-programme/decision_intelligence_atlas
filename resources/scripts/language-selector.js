@@ -1,30 +1,35 @@
 <script>
-
 function setLanguage(lang) {
-  // Store the selected language in localStorage
-  localStorage.setItem('preferredLanguage', lang);
+    localStorage.setItem('preferredLanguage', lang);
 
-  // Update button active state
-  document.querySelectorAll('.language-button').forEach(btn => {
-      btn.classList.remove('active');
-      if (btn.textContent.toLowerCase() === lang || (lang === 'both' && btn.textContent.toLowerCase() === 'both')) {
-          btn.classList.add('active');
-      }
-  });
-  // Show/hide the appropriate content
-  if (lang === 'python') {
-      document.querySelectorAll('.python-content').forEach(el => el.style.display = 'block');
-      document.querySelectorAll('.r-content').forEach(el => el.style.display = 'none');
-  } else if (lang === 'r') {
-      document.querySelectorAll('.python-content').forEach(el => el.style.display = 'none');
-      document.querySelectorAll('.r-content').forEach(el => el.style.display = 'block');
-  }
+    // Update button states
+    document.querySelectorAll('.language-button').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.lang === lang);
+    });
+
+    // Show/hide the appropriate content
+    document.querySelectorAll('[class$="-content"]').forEach(el => el.style.display = 'none');
+    document.querySelectorAll('.' + lang + '-content').forEach(el => el.style.display = 'block');
 }
 
-// On page load, set the language based on localStorage or default to Python
-document.addEventListener('DOMContentLoaded', function() {
-  const lang = localStorage.getItem('preferredLanguage') || 'python';
-  setLanguage(lang);
-});
+// Disable any buttons that have no corresponding content
+function disableMissingButtons() {
+    document.querySelectorAll('.language-button').forEach(btn => {
+        const lang = btn.dataset.lang;
+        const exists = document.querySelector('.' + lang + '-content');
+        btn.disabled = !exists;
 
+        // Only attach click listener if button is not disabled
+        if (!btn.disabled) {
+            btn.addEventListener('click', () => setLanguage(lang));
+        }
+    });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    disableMissingButtons();
+
+    const defaultLang = localStorage.getItem('preferredLanguage') || 'python';
+    setLanguage(defaultLang);
+});
 </script>

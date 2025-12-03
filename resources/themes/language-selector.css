@@ -24,3 +24,8 @@
   background-color: #2596be;
   color: white;
 }
+
+.language-button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
