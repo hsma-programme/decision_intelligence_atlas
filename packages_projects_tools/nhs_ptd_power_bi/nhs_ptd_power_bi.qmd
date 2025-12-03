@@ -1,0 +1,108 @@
+---
+title: "NHSRplotthedots - a PowerBI Custom Visual Implementation"
+categories:
+  - Statistical Process Control
+tool-language:
+  - PowerBI
+status: '<span style="color: #893400FF">Bronze</span>'
+image: filter.png
+author:
+  - name: Sammi Rosser
+    affiliation: Health Service Modelling Associates (HSMA), NIHR PenARC
+    orcid: # Their ORCID
+pub-info:
+  abstract: |
+    This custom PowerBI visual (based on NHSRplotthedots) simplifies the creation and automation of statistical process control (SPC) charts for KPIs. It helps analysts and teams move beyond static KPIs to understand true performance variation and identify opportunities for improvement, producing R-backed visuals within the setting of PowerBI and integrating with PowerBIs data model and filters.
+  links:
+  - name: Code
+    url: https://github.com/Bergam0t/nhs_ptd_power_bi
+    icon: fa-brands fa-github
+  - name: Download Custom Visual
+    url: https://github.com/Bergam0t/nhs_ptd_power_bi/releases
+    icon: fa-solid fa-download
+  - name: Documentation
+    url: https://github.com/Bergam0t/nhs_ptd_power_bi?tab=readme-ov-file#readme
+    icon: fa-solid fa-book
+  - name: Paper
+    url: # Enter a URL here if relevant
+    icon: fa-solid fa-file-contract
+  - name: PyPi
+    url: # Enter a URL here if relevant
+    icon: fa-solid fa-brands fa-python
+  - name: CRAN
+    url: # Enter a URL here if relevant
+    icon: fa-solid fa-brands fa-r-project
+  - name: Website
+    url: # Enter a URL here if relevant
+    icon: fa-solid fa-globe
+date: "2025-11-21T10:45:06+00:00"
+listing:
+  - id: spc
+    type: grid
+    grid-columns: 2
+    categories: true
+    template: "../listing.ejs"
+    sort: Title
+    include:
+      categories: "Statistical Process Control"
+    contents: "../*/*.qmd"
+---
+
+This visual, like the R package it is based on, supports the NHSE/I programme ‘Making Data Count’, and allows users to draw XmR charts, use change points, and apply rules with summary indicators for when rules are breached.
+
+As it is a standalone custom PowerBI visual, rather than an R script, you get an interactive graph that users can hover over to obtain more information about individual points.
+
+The relevant variables from datasets can be dragged in to the PowerBI interface.
+
+![](input.png)
+
+It is then possible to set things like a plot title and axis settings via the interface.
+
+![](settings.png)
+
+There are a range of different options for displaying the SPC chart.
+
+## Single Plot
+
+![](filter.png)
+
+## Faceted Plot
+
+This is particularly useful if you are filtering and different groups may have a different number of KPIs to plot
+
+![](faceted_graph.png)
+
+## Cards
+
+In place of a metric card that only gives a current value, these cards provide the variation icon, the target icon (if relevant), and a sparkline. Users can then choose a title and subtitle for the card.
+
+![](cards.png)
+
+## Summary Tables and Matrices
+
+For a high level overview of multiple metrics, you can use one of the summary table or matrix layouts.
+
+![](summary_table_1.png)
+
+![](summary_table_2.png)
+
+![](matrix.png)
+
+<br>
+
+## More about SPC charts
+
+Take a look at our [technique page](../../techniques/spc/spc.qmd) for more information about the theory behind SPC charts.
+
+Looking for some code snippets? Head to our [graph page](../../graph_catalogue/spc/spc.qmd).
+
+## Project status
+
+**Status: {{< meta status >}}**
+
+**Rationale:** This project benefits from being built on top of the NHS-R plot the dots package, which is tested and extensively documented. However, documentation for getting started with the power BI visual is lacking some key steps, and it has not received a significant update in some time, lagging behind the latest R package release.
+
+## Related Projects
+
+:::{#spc}
+:::

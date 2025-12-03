@@ -1,0 +1,85 @@
+---
+title: "Making Data Count: the SPC multiple chart tool"
+categories:
+  - Statistical Process Control
+tool-language:
+  - Excel
+status: '<span style="color: #893400FF">Bronze</span>' # Delete as appropriate
+image: spc_excel.png
+author:
+  - name: # Author of the package, project or tool
+    affiliation: # Their organisation/institution
+    orcid: # Their ORCID
+pub-info:
+  abstract: |
+    These Excel templates support the creation of statistical process control charts.
+  links:
+  - name: Code
+    url: # Enter a URL here if relevant
+    icon: fa-brands fa-github
+  - name: Documentation
+    url: # Enter a URL here if relevant
+    icon: fa-solid fa-book
+  - name: Paper
+    url: # Enter a URL here if relevant
+    icon: fa-solid fa-file-contract
+  - name: PyPi
+    url: # Enter a URL here if relevant
+    icon: fa-solid fa-brands fa-python
+  - name: CRAN
+    url: # Enter a URL here if relevant
+    icon: fa-solid fa-brands fa-r-project
+  - name: Website - Single Chart
+    url: https://www.england.nhs.uk/statistical-process-control-tool/
+    icon: fa-solid fa-globe
+  - name: Download - Single Chart
+    url: https://www.england.nhs.uk/wp-content/uploads/2020/08/Statistical-process-control-tool.xlsm
+    icon: fa-solid fa-download
+  - name: Website - Multiple Chart
+    url: https://www.england.nhs.uk/statistical-process-control-multiple-chart-tool/
+    icon: fa-solid fa-globe
+  - name: Download - Multiple Chart
+    url: https://www.england.nhs.uk/wp-content/uploads/2020/09/statistical-process-control--multiple-chart-tool.xlsm
+    icon: fa-solid fa-download
+date: "2025-11-21T10:45:06+00:00"
+listing:
+  - id: spc
+    type: grid
+    grid-columns: 2
+    categories: true
+    template: "../listing.ejs"
+    sort: Title
+    include:
+      categories: "Statistical Process Control"
+    contents: "../*/*.qmd"
+---
+
+These Excel templates, created as part of the 'Making Data Count' programme, allow you to create statistical process control charts without the use of any code. Values can be entered into the templates, and there are various parameters that can be tweaked.
+
+![](spc_excel.png)
+
+There are separate templates for creating a single SPC chart at a time or creating up to 25 SPC charts at a time.
+
+<br>
+
+This video covers the use of the single plot tool.
+
+{{< video https://www.youtube.com/watch?v=sWndrZ68Xww >}}
+
+## More about SPC charts
+
+Take a look at our [technique page](../../techniques/spc/spc.qmd) for more information about the theory behind SPC charts.
+
+Looking for some code snippets? Head to our [graph page](../../graph_catalogue/spc/spc.qmd).
+
+## Project status
+
+**Status: {{< meta status >}}**
+
+**Rationale:** Please place a short description of your reasoning for the rating you have applied
+
+
+## Related Projects
+
+:::{#spc}
+:::

@@ -51,9 +51,36 @@ listing:
     template: listing.ejs
     sort: Title
 
+  - id: excel
+    include:
+      tool-language: "Excel"
+    type: grid
+    grid-columns: 2
+    categories: true
+    template: listing.ejs
+    sort: Title
+
+  - id: tableau
+    include:
+      tool-language: "Tableau"
+    type: grid
+    grid-columns: 2
+    categories: true
+    template: listing.ejs
+    sort: Title
+
+  - id: apps
+    include:
+      tool-language: "Desktop or Web End‑user Application"
+    type: grid
+    grid-columns: 2
+    categories: true
+    template: listing.ejs
+    sort: Title
+
   - id: other
     exclude:
-      tool-language: "{Python,R,Julia,PowerBI}"
+      tool-language: "{Python,R,Julia,PowerBI,Excel,Tableau}"
     type: grid
     grid-columns: 2
     categories: true
@@ -127,6 +154,25 @@ If you have any concerns, or would like any content to be removed, please [raise
 ## <i class="fa-solid fa-chart-simple"></i> PowerBI
 
 ::: {#powerbi}
+:::
+
+## <i class="fa-solid fa-file-excel"></i> Excel
+
+::: {#excel}
+:::
+
+## <i class="fa-solid fa-gauge-simple-high"></i> Tableau
+
+::: {#tableau}
+:::
+
+## <i class="fa-solid fa-display"></i> Desktop / Web end‑user applications
+
+These are tools that are primarily used via a graphical interface or web browser, so people can work with them directly without needing to edit or run code.
+
+In this atlas, anything you would normally treat as "code you work on" (e.g., R Shiny apps distributed with their source code) should be listed under their underlying language (e.g. R).
+
+::: {#apps}
 :::
 
 ## Other

@@ -1,6 +1,8 @@
 ---
 title: "AmbModelOpen: A discrete event simulation of ambulance resources"
 categories:
+  - Ambulances
+  - Urgent and Emergency Care
 tool-language: R
 status: TBC
 image: plot_RU_instant_.png
