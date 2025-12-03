@@ -6,9 +6,41 @@
     ]
   },
   {
+    "listing": "/packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html",
+    "items": [
+      "/packages_projects_tools/mdc_spc_excel_chart_tool/mdc_spc_excel_chart_tool.html",
+      "/packages_projects_tools/nhs_ptd_power_bi/nhs_ptd_power_bi.html",
+      "/packages_projects_tools/nhspy-plotthedots/nhspy-plotthedots.html"
+    ]
+  },
+  {
     "listing": "/graph_catalogue/graph_catalogue.html",
     "items": [
-      "/graph_catalogue/spc/spc.html"
+      "/graph_catalogue/entries/spc/spc.html"
+    ]
+  },
+  {
+    "listing": "/packages_projects_tools/mdc_spc_excel_chart_tool/mdc_spc_excel_chart_tool.html",
+    "items": [
+      "/packages_projects_tools/nhs_ptd_power_bi/nhs_ptd_power_bi.html",
+      "/packages_projects_tools/nhspy-plotthedots/nhspy-plotthedots.html",
+      "/packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html"
+    ]
+  },
+  {
+    "listing": "/packages_projects_tools/nhs_ptd_power_bi/nhs_ptd_power_bi.html",
+    "items": [
+      "/packages_projects_tools/mdc_spc_excel_chart_tool/mdc_spc_excel_chart_tool.html",
+      "/packages_projects_tools/nhspy-plotthedots/nhspy-plotthedots.html",
+      "/packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html"
+    ]
+  },
+  {
+    "listing": "/packages_projects_tools/nhspy-plotthedots/nhspy-plotthedots.html",
+    "items": [
+      "/packages_projects_tools/mdc_spc_excel_chart_tool/mdc_spc_excel_chart_tool.html",
+      "/packages_projects_tools/nhs_ptd_power_bi/nhs_ptd_power_bi.html",
+      "/packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html"
     ]
   },
   {
@@ -42,7 +74,18 @@
       "/packages_projects_tools/opencodecounts/opencodecounts.html",
       "/packages_projects_tools/concurrentsim/concurrentsim.html",
       "/packages_projects_tools/julia_healthcare/julia_heathcare.html",
+      "/packages_projects_tools/nhs_ptd_power_bi/nhs_ptd_power_bi.html",
+      "/packages_projects_tools/mdc_spc_excel_chart_tool/mdc_spc_excel_chart_tool.html",
       "/packages_projects_tools/rap_community_of_practice/rap_community_of_practice.html"
+    ]
+  },
+  {
+    "listing": "/techniques/spc/spc.html",
+    "items": [
+      "/packages_projects_tools/mdc_spc_excel_chart_tool/mdc_spc_excel_chart_tool.html",
+      "/packages_projects_tools/nhs_ptd_power_bi/nhs_ptd_power_bi.html",
+      "/packages_projects_tools/nhspy-plotthedots/nhspy-plotthedots.html",
+      "/packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html"
     ]
   }
 ]

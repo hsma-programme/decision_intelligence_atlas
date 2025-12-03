@@ -169,7 +169,6 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="../resources/themes/styles.css">
-<link rel="stylesheet" href="../resources/themes/language-selector.css">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -400,20 +399,14 @@ window.Quarto = {
                                 </div>
 
     </div>
-</header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+</header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
-<div class="language-selector">
-    Choose your language:&nbsp;&nbsp;
-    <button class="language-button" onclick="setLanguage('python')">Python</button>
-    <button class="language-button" onclick="setLanguage('r')">R</button>
-</div>
-<br>
 <script src="../resources/finisher-header.es5.min.js" type="text/javascript"></script>
 <script type="text/javascript">
 new FinisherHeader({
@@ -465,17 +458,17 @@ new FinisherHeader({
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-listing-date-sort="1764615065000" data-listing-file-modified-sort="1764615345122" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="330">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-listing-date-sort="1764788397000" data-listing-file-modified-sort="1764788419335" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="369">
             <div class="main-card-content">
             
-                  <a href="../graph_catalogue/spc/spc.html">
-              <img class="card-img" src="../graph_catalogue/spc/nhsrplotthedots.png" alt="Statistical Process Control (SPC)">
+                  <a href="../graph_catalogue/entries/spc/spc.html">
+              <img class="card-img" src="../graph_catalogue/entries/spc/nhsrplotthedots.png" alt="Statistical Process Control (SPC)">
                   </a>
                 
 
             <div class="project-content listing-title">
                 <h5 class="no-anchor card-title listing-title">
-                  <a href="../graph_catalogue/spc/spc.html" class="title-link">Statistical Process Control (SPC)</a>
+                  <a href="../graph_catalogue/entries/spc/spc.html" class="title-link">Statistical Process Control (SPC)</a>
                 </h5>
             </div>
 
@@ -495,7 +488,7 @@ new FinisherHeader({
           </div>
 
             <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="../graph_catalogue/spc/spc.html"><i class="fa fa-info-circle"></i> Details </a></button>
+              <button class="project-link-listing-button"><a href="../graph_catalogue/entries/spc/spc.html"><i class="fa fa-info-circle"></i> Details </a></button>
                     
                       
                     
@@ -511,36 +504,6 @@ new FinisherHeader({
 
 
 </main> <!-- /main -->
-<script>
-
-function setLanguage(lang) {
-  // Store the selected language in localStorage
-  localStorage.setItem('preferredLanguage', lang);
-
-  // Update button active state
-  document.querySelectorAll('.language-button').forEach(btn => {
-      btn.classList.remove('active');
-      if (btn.textContent.toLowerCase() === lang || (lang === 'both' && btn.textContent.toLowerCase() === 'both')) {
-          btn.classList.add('active');
-      }
-  });
-  // Show/hide the appropriate content
-  if (lang === 'python') {
-      document.querySelectorAll('.python-content').forEach(el => el.style.display = 'block');
-      document.querySelectorAll('.r-content').forEach(el => el.style.display = 'none');
-  } else if (lang === 'r') {
-      document.querySelectorAll('.python-content').forEach(el => el.style.display = 'none');
-      document.querySelectorAll('.r-content').forEach(el => el.style.display = 'block');
-  }
-}
-
-// On page load, set the language based on localStorage or default to Python
-document.addEventListener('DOMContentLoaded', function() {
-  const lang = localStorage.getItem('preferredLanguage') || 'python';
-  setLanguage(lang);
-});
-
-</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
