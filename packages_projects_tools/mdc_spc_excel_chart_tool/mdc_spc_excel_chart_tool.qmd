@@ -62,12 +62,15 @@ There are separate templates for creating a single SPC chart at a time or creati
 
 <br>
 
+This video covers the use of the single plot tool.
+
+{{< video https://www.youtube.com/watch?v=sWndrZ68Xww >}}
+
 ## More about SPC charts
 
 Take a look at our [technique page](../../techniques/spc/spc.qmd) for more information about the theory behind SPC charts.
 
 Looking for some code snippets? Head to our [graph page](../../graph_catalogue/spc/spc.qmd).
-
 
 ## Project status
 
