@@ -4,6 +4,7 @@ categories:
   - Service Planning
   - Identifying Bottlenecks
   - RAP
+  - Courses and Training or Reference Materials
 tool-language:
   - Python
   - R

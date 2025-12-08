@@ -1,6 +1,7 @@
 ---
 title: "Somerset Introduction to Data Science Course"
 categories:
+  - Courses and Training or Reference Materials
 tool-language:
   - Python
 status: TBC

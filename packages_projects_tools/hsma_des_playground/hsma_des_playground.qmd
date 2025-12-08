@@ -1,0 +1,68 @@
+---
+title: "HSMA: The Discrete Event Simulation (DES) Playground"
+categories:
+  - Service Planning
+  - Identifying Bottlenecks
+  - Courses and Training or Reference Materials
+tool-language:
+  - Python
+  - Desktop or Web End‑user Application
+status: '<span style="color: #D18B12FF">Gold</span>'
+image: desplayground.png
+author:
+    - name: Sammi Rosser
+      affiliation: Health Service Modelling Associates Programme (HSMA), NIHR PenArc, University of Exeter
+      url: https://github.com/Bergam0t
+pub-info:
+  entry-author:
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
+  abstract: |
+    The Discrete Event Simulation (DES) playground is an interactive web application designed to teach the fundamental concepts of DES to absolute beginners. Used to support a range of training sessions, it can also be used as a standalone tool to introduce yourself to why DES is useful, building up from a very simple to a more complex model and allowing you to explore the impact of changing a range of parameters.
+  links:
+  - name: Code
+    url: https://github.com/hsma-programme/Teaching_DES_Concepts_Streamlit
+    icon: fa-brands fa-github
+  - name: Paper
+    url: # Enter a URL here if relevant
+    icon: fa-solid fa-file-contract
+  - name: Web App
+    url: https://playground.hsma.co.uk/
+    icon: fa-solid fa-globe
+date: "2025-11-21T10:36:10+00:00"
+---
+
+
+The Health Service Modelling Associates (HSMA) programme provides a Discrete Event Simulation playground, introducing some of the key concepts of DES.
+
+Beginning with exploring how we can realistically simulate variable arrivals...
+
+![](assets/2025-12-08-17-24-38.png)
+
+It allows you to then explore the impact of changing parameters...
+
+![](assets/2025-12-08-17-25-14.png)
+
+Providing you with a range of interactive outputs to explore.
+
+![](assets/2025-12-08-17-26-26.png)
+
+![](assets/2025-12-08-17-28-49.png)
+
+It then walks you through adding additional complexity to the model, talking through resources, multi-step pathways and optional steps.
+
+![](desplayground.png)
+
+It also provides a visual, intuitive demonstration of DES with the vidigi package.
+
+![](assets/2025-12-08-17-29-28.png)
+
+You can try it out below, or click [here](https://playground.hsma.co.uk) to open the playground in a new window.
+
+```{=html}
+<iframe width='1000' height='700' src='https://playground.hsma.co.uk' title='HSMA DES Playground'></iframe>
+```
+
+:::{.callout-tip}
+Has this piqued your curiousity? Head over to the [Atlas entry on DES](../../techniques/des/des.qmd) to find out more, including a range of training materials and health service models.
+:::

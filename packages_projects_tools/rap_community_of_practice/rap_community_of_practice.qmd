@@ -2,6 +2,7 @@
 title: "NHS RAP Community of Practice"
 categories:
   - RAP
+  - Courses and Training or Reference Materials
 tool-language: N/A
 status: N/A
 image: homepage.png

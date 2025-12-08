@@ -2,6 +2,7 @@
 title: "Julia for healthcare modelling and data science"
 categories:
   - Service Planning
+  - Courses and Training or Reference Materials
 tool-language: Julia
 status: '<span style="color: #893400FF">Bronze</span>'
 image: screenshot.png
