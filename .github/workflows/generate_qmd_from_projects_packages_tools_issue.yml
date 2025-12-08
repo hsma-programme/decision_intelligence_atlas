@@ -84,6 +84,9 @@ jobs:
           toc: true
           image:
           pub-info:
+            entry-author:
+              - name: "${{ fromJSON(steps.extract.outputs.json).entry_author }}"
+                url: "${{ fromJSON(steps.extract.outputs.json).entry_author_url }}"
             abstract: |
               "${{ fromJSON(steps.extract.outputs.json).summary }}"
             links:
@@ -116,7 +119,7 @@ jobs:
           ## Details
           ${{ fromJSON(steps.extract.outputs.json).details }}
 
-          
+
           <br>
 
           ## Project status

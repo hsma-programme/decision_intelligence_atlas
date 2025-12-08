@@ -68,6 +68,25 @@ body:
     attributes:
       label: Author of the package, project or tool
       placeholder: e.g. Alan Lyst
+      description: |
+        If more than one author, enter them as a comma separated list.
+
+        Unsure what to put here? Take a look at the repository and see if they provide an AUTHORS or CITATION file.
+        You can also look at the list of 'contributors' on GitHub.
+
+        If still unsure, or the list is very long, consider something like 'X project team' or leave this blank.
+
+  - type: input
+    id: entry_author
+    attributes:
+      label: (Optional) Your Name
+      description: We'd love for you to get some recognition for the work you've done in populating this entry! If you are happy to be named on your Atlas entry, pop your name in here.
+
+  - type: input
+    id: entry_author_url
+    attributes:
+      label: (Optional) Your URL
+      description: If you'd like to provide a link where people can find you (e.g. your GitHub profile), please enter it here.
 
   - type: dropdown
     id: category
