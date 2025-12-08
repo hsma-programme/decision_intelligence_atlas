@@ -7,6 +7,9 @@ tool-language: R
 status: '<span style="color: #D18B12FF">Gold</span>'
 image: nhsrplotthedots.png
 pub-info:
+  entry-author:
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
   abstract: |
     NHSRplotthedots is an R package that simplifies the creation and automation of statistical process control (SPC) charts for KPIs. It helps analysts and teams move beyond static KPIs to understand true performance variation and identify opportunities for improvement.
   links:
