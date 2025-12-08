@@ -111,7 +111,7 @@ jobs:
           fi
 
           # Replace all placeholders
-          python3 - <<'PY'
+          python3 - <<'PY' "$FILE" "$DATA"
           import json, sys
           from pathlib import Path
 
@@ -133,7 +133,6 @@ jobs:
               file_path.write_text(text, encoding="utf-8")
               print(f"Updated {file_path}")
           PY
-          "$FILE" "$DATA"
 
       - name: Update YAML date with last commit
         run: bash ./resources/update-quarto-date.sh
