@@ -253,6 +253,8 @@ Please see our [contributors page](about/contributing.qmd) for instructions on h
 </div>
 ```
 
+<br/>
+
 Interested to see what things we propose should be added to the Atlas?
 
 Click on the cards in the right hand column above to see the full list of proposed entries for each type of content.

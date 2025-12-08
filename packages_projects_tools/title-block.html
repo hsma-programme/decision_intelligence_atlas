@@ -122,6 +122,18 @@
                     </ul>
                 </div>
                 $endif$
+
+                $if(pub-info.entry-author)$
+                <p><b>Atlas Entry authored by:</b>
+                $for(pub-info.entry-author)$
+                |&nbsp;$pub-info.entry-author.name$
+                $if(pub-info.entry-author.url)$
+                (<a href=$pub-info.entry-author.url$>Link</a>)
+                $endif$
+                &nbsp;|&nbsp;
+                $endfor$
+                </p>
+                $endif$
             </div>
 
         </div>

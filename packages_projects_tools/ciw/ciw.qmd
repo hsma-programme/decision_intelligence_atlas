@@ -2,7 +2,7 @@
 title: "ciw"
 categories:
   - Pathway Analytics
-  - Service Planning 
+  - Service Planning
 tool-language: Python
 status: '<span style="color: #D18B12FF">Gold</span>'
 image: logo_small.png
@@ -25,6 +25,9 @@ author:
   - name: Matthew Howells
   - name: Galen Seilis
 pub-info:
+  entry-author:
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
   abstract: |
     A discrete event simulation library for queueing networks.
   links:

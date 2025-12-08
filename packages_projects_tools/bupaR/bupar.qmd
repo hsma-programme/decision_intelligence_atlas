@@ -9,6 +9,9 @@ tool-language: R
 status: '<span style="color: #D18B12FF">Gold</span>'
 image: bupaR.gif
 pub-info:
+  entry-author:
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
   abstract: |
     bupaR (and associated packages across the bupaverse) are libraries for process mining that helps healthcare analysts explore how patient pathways, test result flows, and other clinical processes actually unfold. By turning event data into visual - even animated - process maps, it highlights delays, rework, and variations that can guide service improvement.
   links:

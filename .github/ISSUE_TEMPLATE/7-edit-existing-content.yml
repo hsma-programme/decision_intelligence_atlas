@@ -1,0 +1,40 @@
+name: "Suggest Edits or Additions to Existing Atlas Entries"
+description: "Submit a suggestion for changes or additions to an existing Atlas entry"
+title: "Content Edit or Addition Suggestion"
+labels: ["Content Edit Suggestion"]
+
+body:
+  - type: input
+    id: entry
+    validations:
+      required: true
+    attributes:
+      label: Entry
+      description: |
+        Please give the title of the entry or page you are proposing edits to
+  - type: dropdown
+    id: contenttype
+    validations:
+      required: true
+    attributes:
+      label: Content Type
+      description: |
+        Please select the area where the content appears
+      options:
+        - Project, Package or Tool
+        - Graph Example
+        - Technique
+        - Homepage
+        - Other
+  - type: textarea
+    id: details
+    validations:
+      required: true
+    attributes:
+      label: Details
+      description: |
+        Please detail your suggested edits, making it clear where they need to be placed within the body of the text.
+
+        You may attach images by dragging them onto this box. If you do this, please clearly detail
+        where you think this image should be added, and please be particularly clear if you upload multiple
+        images as filenames may not be preserved and it may not be clear to the Atlas curators what needs to go where.

@@ -5,6 +5,9 @@ author:
   - name: Sammi Rosser
     affiliation: Health Service Modelling Associates (HSMA), NIHR PenARC
 pub-info:
+  entry-author:
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
   abstract: |
     SPC charts are a useful tool for monitoring and reporting, allowing KPIs to be looked at over time and in the context of expected variation, moving away from some of the pitfalls of traditional RAG reporting and providing insights into trends and, if there is a target, whether it is likely to be reliably met.
 date: "2025-12-01T15:25:10+00:00"

@@ -11,6 +11,9 @@ author:
     affiliation: # Their organisation/institution
     orcid: # Their ORCID
 pub-info:
+  entry-author:
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
   abstract: |
     These Excel templates support the creation of statistical process control charts.
   links:
