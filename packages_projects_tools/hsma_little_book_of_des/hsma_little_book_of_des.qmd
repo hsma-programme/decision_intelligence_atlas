@@ -1,0 +1,65 @@
+---
+title: "HSMA: Little Book of Discrete Event Simulation (DES)"
+categories:
+  - Service Planning
+  - Identifying Bottlenecks
+  - Courses and Training or Reference Materials
+tool-language:
+  - Python
+status: '<span style="color: #D18B12FF">Gold</span>'
+image: lbod.png
+author:
+    - name: Sammi Rosser
+      affiliation: Health Service Modelling Associates Programme (HSMA), NIHR PenArc, University of Exeter
+      url: https://github.com/Bergam0t
+    - name: Dr Daniel Chalk
+      affiliation: Health Service Modelling Associates Programme (HSMA), NIHR PenArc, University of Exeter
+      url: https://experts.exeter.ac.uk/19916-daniel-chalk/about
+pub-info:
+  entry-author:
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
+  abstract: |
+    The Little Book of Discrete Event Simulation (DES) is a free eBook written to accompany the DES module of the Health Service Modelling Associates (HSMA) programme. The book takes you from being a complete beginner in DES through to creating complex models with a web interface. This Python resource primarily focusses on the SimPy package, also touching on Streamlit and various supporting packages.
+  links:
+  - name: Code
+    url: https://github.com/hsma-programme/hsma6_des_book
+    icon: fa-brands fa-github
+  - name: Paper
+    url: # Enter a URL here if relevant
+    icon: fa-solid fa-file-contract
+  - name: eBook
+    url: https://des.hsma.co.uk/intro_to_des_concepts.html
+    icon: fa-solid fa-book
+date: "2025-11-21T10:36:10+00:00"
+---
+
+[![Little Book of DES Homepage](lbod.png)](https://des.hsma.co.uk)
+
+The Little Book of DES is a free eBook written to accompany the Discrete Event Simulation (DES) module of the [Health Service Modelling Associates (HSMA) programme](https://hsma.co.uk).
+
+The book takes you from being a complete beginner in discrete event simulation through to creating complex models with a web interface, all using free packages in Python.
+
+Primarily focussing on the SimPy package, the book begins with the concepts underpinning DES before moving on to advanced topics including:
+
+- model testing
+- ensuring reproducibility
+- variable arrival rates
+- parameterising your model from real-world data
+- working with multiple patient/entity types
+
+and much more!
+
+## View the book
+
+To view the book, click on the image above or go to <https://des.hsma.co.uk>.
+
+<br>
+
+:::{.callout-tip}
+
+Brand new to Python? Consider starting with the HSMA book of Python first:
+
+<https://python.hsma.co.uk>
+
+:::

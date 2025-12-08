@@ -1,0 +1,68 @@
+---
+title: "HSMA: Discrete Event Simulation Module"
+categories:
+  - Service Planning
+  - Identifying Bottlenecks
+  - Courses and Training or Reference Materials
+tool-language:
+  - Python
+status: '<span style="color: #D18B12FF">Gold</span>'
+image: hsma_des_module.png
+author:
+    - name: Sammi Rosser
+      affiliation: Health Service Modelling Associates Programme (HSMA), NIHR PenArc, University of Exeter
+      url: https://github.com/Bergam0t
+    - name: Dr Daniel Chalk
+      affiliation: Health Service Modelling Associates Programme (HSMA), NIHR PenArc, University of Exeter
+      url: https://experts.exeter.ac.uk/19916-daniel-chalk/about
+pub-info:
+  entry-author:
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
+  abstract: |
+    This is a collection of slides, session recordings, code examples, exercises, exercise solutions and solution videos from the discrete event simulation module of the Health Service Modelling Associates Programme, covering 9 hours of content. It teaches discrete event simulation with the Python SimPy package, assuming no prior knowledge of the package or DES concepts.
+  links:
+  - name: Module
+    url: https://hsma.co.uk/hsma_content/modules/current_module_details/2_des.html
+    icon: fa-solid fa-book
+date: "2025-11-21T10:36:10+00:00"
+---
+
+[![HSMA DES Module Page](hsma_des_module.png)](https://hsma.co.uk/hsma_content/modules/current_module_details/2_des.html)
+
+This module serves as an introduction to modelling pathway problems with discrete event simulation (DES). It was delivered to the sixth cohort of the [Health Service Modelling Associates (HSMA) programme](https://hsma.co.uk), a training course aimed at analysts, clinicians, managers and other people working in the NHS and related healthcare organisations.
+
+It covers
+
+- What DES is and where it may be useful
+- The key terminology associated with DES (e.g. resources, entities, sinks)
+- How to simplify a real-world pathway modelling problem into a conceptual model
+- Python generator functions
+- The features of the SimPy package
+- How to write simple simulations in Python with SimPy
+- How to deal with multi-step pathways
+- How to deal with branching pathways
+- How to build in more complex features to your pathway models, including
+    - warm-up periods,
+    - priority-based queuing,
+    - resource unavailability,
+    - Lognormal distributions,
+    - reneging, balking, and jockeying
+
+All slides, session recordings, code examples, exercises, exercise solutions and solution videos are available to access on the module page, covering 9 hours of content.
+
+While it is intended to be run on your local machine using the supplied environment, it is possible to complete all exercises online using the 'Open in GitHub Codespaces' links.
+
+## View the module
+
+To view the module, click on the image above or go to <https://hsma.co.uk/hsma_content/modules/current_module_details/2_des.html>.
+
+<br>
+
+:::{.callout-tip}
+
+Brand new to Python? Consider starting with the HSMA book of Python first:
+
+<https://python.hsma.co.uk>
+
+:::
