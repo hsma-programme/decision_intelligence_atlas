@@ -17,7 +17,10 @@ body:
     id: language
     attributes:
       label: Language or Tool
-      description: Select the coding language or other tools that are relevant to this tool, project or package. You may select multiple options from this list.
+      description: |
+        Select the coding language or other tools that are relevant to this tool, project or package. You may select multiple options from this list.
+
+        'Meta' refers to tools that help you do data science and analytics better - things like GitHub or idea like Agile Software Development.
       multiple: true
       options:
         - Python
@@ -28,7 +31,9 @@ body:
         - PowerApps
         - SQL
         - Desktop or Web End‑user Application
+        - Meta
         - Other
+        - N/A
 
   - type: input
     id: language_other

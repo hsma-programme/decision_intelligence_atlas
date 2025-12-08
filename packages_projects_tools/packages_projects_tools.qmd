@@ -78,9 +78,18 @@ listing:
     template: listing.ejs
     sort: Title
 
+  - id: meta
+    include:
+      tool-language: "Meta"
+    type: grid
+    grid-columns: 2
+    categories: true
+    template: listing.ejs
+    sort: Title
+
   - id: other
     exclude:
-      tool-language: "{Python,R,Julia,PowerBI,Excel,Tableau}"
+      tool-language: "{Python,R,Julia,PowerBI,Excel,Tableau,N/A}"
     type: grid
     grid-columns: 2
     categories: true
@@ -174,6 +183,12 @@ In this atlas, anything you would normally treat as "code you work on" (e.g., R 
 
 ::: {#apps}
 :::
+
+## <i class="fa-solid fa-gauge-simple-high"></i> 'Meta' Tools - Things to Help You Do Analytics Better
+
+::: {#meta}
+:::
+
 
 ## Other
 
