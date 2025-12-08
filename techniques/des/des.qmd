@@ -1,0 +1,92 @@
+---
+title: "Discrete Event Simulation"
+image: nhsrplotthedots.png
+author:
+  - name: Sammi Rosser
+    affiliation: Health Service Modelling Associates (HSMA), NIHR PenARC
+pub-info:
+  entry-author:
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
+  abstract: |
+    Discrete Event Simulation (DES) is a computer simulation technique, primarily used for tackling queueing problems. Healthcare systems are full of queues - both obvious ones, like in emergency departments, and more 'invisible' ones, like waiting lists for community services. DES provides a way of testing changes to demand, pathway configuration and resourcing in a safe sandbox, allowing policymakers to explore the impact of proposed changes. Using controlled randomness, DES tests whether systems will cope on good days and bad ones, making it a powerful technique for pathway improvement.
+date: "2025-12-01T15:25:10+00:00"
+listing:
+  - id: des_projects
+    type: grid
+    grid-columns: 2
+    categories: false
+    template: "../../packages_projects_tools/listing.ejs"
+    sort: Title
+    include:
+      title: "*{Discrete Event Simulation,DES,discrete event simulation}*"
+    exclude:
+      title: "*{Ciw,Vidigi,SimPy,RSimmer,ConcurrentSim}*"
+      categories: Courses and Training or Reference Materials
+    contents: "../../packages_projects_tools/*/*.qmd"
+  - id: des_packages
+    type: grid
+    grid-columns: 2
+    categories: false
+    template: "../../packages_projects_tools/listing.ejs"
+    sort: Title
+    include:
+      title: "{Ciw,Vidigi,SimPy,RSimmer,ConcurrentSim,JaamSim,Salabim}*"
+    contents: "../../packages_projects_tools/*/*.qmd"
+  - id: des_training
+    type: grid
+    grid-columns: 2
+    categories: false
+    template: "../../packages_projects_tools/listing.ejs"
+    sort: Title
+    include:
+      title: "*{DES,Discrete Event Simulation,discrete event simulation}*"
+      categories: "{Courses and Training or Reference Materials}"
+    contents: "../../packages_projects_tools/*/*.qmd"
+---
+
+Discrete Event Simulation - DES - is a powerful technique for tackling bottlenecks and performance issues in systems with queues. By building simplified models of real-world pathways - incorporating realistic variability and resource constraints - it becomes possible to ask what-if questions of your system in a safe environment.
+
+Being able to explore a pathway in this way can help with
+
+- identifying and resolving bottlenecks
+- answering questions about the number of resources - such as nurses, rooms, scanners - required at different parts of the pathway to meet demand or tackle an existing backlog within a certain timeframe
+- exploring the impact of changes to demand - will your system cope as demand increases or the profile of demand changes?
+- optimizing existing resources to find the best possible perfomance without increasing the level of resource available
+- understanding how delays in one part of the pathway can impact other parts
+- exploring the impact of rota changes or shift pattern alterations
+- stress-testing a system to explore how it will cope with a bad day, week, month or year as well as a good one
+- providing data-driven support to business cases for investment
+- exploring and quantifying the potential return on investment (ROI) for additional equipment or resources
+
+# Software
+
+Discrete Event Simulation has historically been tackled with proprietary/paid software soluations. While powerful, there can be limitations to the ability to share models between different organisations if they have invested in a different software on the market, among other reasons.
+
+However, a range of Free and Open Source (FOSS) alternatives exist in Python, R and Julia, allowing simulations to be written in code. Code allows for extreme flexibility in the writing of your models, and also ensures that
+
+Some non-code based free options also exist.
+
+::: {#des_packages}
+:::
+
+:::{.tip-warning}
+
+While it is technically possible to create a discrete event simulation in Excel, it is strongly recommended to not go down this path due to serious limitations with this approach.
+
+:::
+
+
+
+# Training
+
+::: {#des_training}
+:::
+
+
+# DES projects
+
+Below are some projects making use of DES from across the health service.
+
+::: {#des_projects}
+:::
