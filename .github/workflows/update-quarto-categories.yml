@@ -1,0 +1,47 @@
+name: Update Quarto categories from CSV
+
+on:
+  push:
+    paths:
+      - 'templates/packages_projects_tools_permitted_categories.csv'
+  workflow_dispatch: {} # manual trigger
+
+jobs:
+  update-categories:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install ruamel.yaml
+          pip install pandas
+
+      - name: Run update script
+        env:
+          CSV_PATH: templates/packages_projects_tools_permitted_categories.csv
+          TEMPLATE_PATH: .github/ISSUE_TEMPLATE/1-new_package_project_tool_submission.yml
+        run: |
+          python .github/scripts/update_quarto_categories.py
+
+      - name: Commit & push changes (if any)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet; then
+            git add -A
+            git commit -m "chore(submission_template): sync Quarto template categories from CSV"
+            git push
+          else
+            echo "No changes to commit."
+          fi

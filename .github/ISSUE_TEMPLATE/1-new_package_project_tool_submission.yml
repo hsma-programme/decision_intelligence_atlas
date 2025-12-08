@@ -76,15 +76,26 @@ body:
       label: Category
       description: Select the categories that are relevant to this tool, project or package. You may select multiple options from this list.
       options:
-        - Service Planning
-        - Identifying Bottlenecks
+        - Ambulances
+        - Beds
         - Data Visualisation
-        - Pathway Analytics
-        - Statistical Process Control
-        - KPI Reporting
+        - Demand Prediction
         - Forecasting
-        - Demand & Capacity Modelling
-        - Other
+        - Health Inequalities
+        - Identifying Bottlenecks
+        - KPI Reporting
+        - Machine Learning
+        - Mental Health
+        - Pathway Analytics
+        - Pharmacy
+        - RAP
+        - Service Planning
+        - Statistical Process Control
+        - Travel Times
+        - Urgent and Emergency Care
+        - Waiting Lists
+        - Web Interface Creation
+        - Workforce
 
   - type: input
     id: category_other
