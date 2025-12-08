@@ -39,6 +39,7 @@ website:
   navbar:
     title: false
     collapse-below: "lg"
+    logo: "resources/atlas_logo_outline_transparent_white.png"
     tools:
       - icon: github
         menu:

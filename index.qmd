@@ -173,6 +173,10 @@ h1 {
 
 </style>
 
+:::: {.columns}
+
+::: {.column width='60%'}
+
 Welcome to the Healthcare Services Analytics & Decision Science Atlas.
 
 **This is a directory of open-source tools, packages, and projects for analytics and decision science in healthcare.**
@@ -182,6 +186,18 @@ This site is in its very early stages - please check back as we continue to deve
 In time, we hope this can develop into a tool to help showcase the amazing work happening across the analytics and data science communities in healthcare, promoting reuse and collaborative work on the tools we all need.
 
 Click on the links below, or use the menu bar to navigate.
+
+:::
+
+::: {.column width='40%'}
+
+![](resources/atlas_logo_transparent.png)
+
+:::
+
+::::
+
+<br/>
 
 ```{=html}
 <div class="value-grid">
