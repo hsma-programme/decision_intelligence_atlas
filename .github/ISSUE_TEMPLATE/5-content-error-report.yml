@@ -1,0 +1,14 @@
+name: "Report an error in the Atlas content"
+description: "Submit a report relating to a typographical or factual error in the Atlas"
+title: "Error report"
+labels: ["Content Error"]
+
+body:
+  - type: textarea
+    id: details
+    validations:
+      required: true
+    attributes:
+      label: Details
+      description: |
+        Please give a brief description of the error and, if possible, your proposed fix!

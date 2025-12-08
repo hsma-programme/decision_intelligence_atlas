@@ -1,0 +1,14 @@
+name: "Request content removal"
+description: "Submit a report requesting removal of some Atlas content"
+title: "Content Removal Request"
+labels: ["Content Removal Request"]
+
+body:
+  - type: textarea
+    id: details
+    validations:
+      required: true
+    attributes:
+      label: Details
+      description: |
+        Please explain what content you would like to request the removal of and why.
