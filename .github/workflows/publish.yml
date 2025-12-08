@@ -43,9 +43,9 @@ jobs:
           # Define your three label/placeholder pairs
           # Format: "LABEL|PLACEHOLDER"
           declare -a CONFIGS=(
-            "SUGGESTION: new project package or tool|{{PROPOSED_PPT_ENTRY_COUNT}}"
-            "SUGGESTION: new technique|{{PROPOSED_TECHNIQUE_ENTRY_COUNT}}"
-            "SUGGESTION: new graph catalogue entry|{{PROPOSED_GRAPH_GALLERY_ENTRY_COUNT}}"
+            "SUGGESTION: new project package or tool|PROPOSED_PPT_ENTRY_COUNT"
+            "SUGGESTION: new technique|PROPOSED_TECHNIQUE_ENTRY_COUNT"
+            "SUGGESTION: new graph catalogue entry|PROPOSED_GRAPH_GALLERY_ENTRY_COUNT"
           )
 
           OWNER_REPO="${{ github.repository }}"
