@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Sammi Rosser">
 <meta name="dcterms.date" content="2025-12-08">
 
-<title>Making Data Count: the SPC multiple chart tool – The Healthcare Service Analytics &amp; Decision Intelligence Atlas</title>
+<title>Discrete Event Simulation – The Healthcare Service Analytics &amp; Decision Intelligence Atlas</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -79,20 +80,76 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-spc .list');
+    const listingTargetEl = window.document.querySelector('#listing-des_projects .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-project','listing-webr','listing-filters','listing-website','listing-language','listing-format','listing-draft-mode','listing-date-format','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-title','listing-categories','listing-tool-language','listing-status','listing-image','listing-author','listing-pub-info','listing-date','listing-listing','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-project','listing-webr','listing-filters','listing-website','listing-language','listing-format','listing-draft-mode','listing-date-format','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-title','listing-categories','listing-tool-language','listing-status','listing-image','listing-author','listing-pub-info','listing-date','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-webr","listing-filters","listing-website","listing-language","listing-format","listing-draft-mode","listing-date-format","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-title","listing-categories","listing-tool-language","listing-status","listing-image","listing-author","listing-pub-info","listing-date","listing-listing","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      searchColumns: ["listing-project","listing-webr","listing-filters","listing-website","listing-language","listing-format","listing-draft-mode","listing-date-format","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-title","listing-categories","listing-tool-language","listing-status","listing-image","listing-author","listing-pub-info","listing-date","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-spc'] = new List('listing-spc', options);
+    window['quarto-listings']['listing-des_projects'] = new List('listing-des_projects', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-des_packages .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-webr','listing-filters','listing-website','listing-language','listing-format','listing-draft-mode','listing-date-format','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-title','listing-categories','listing-tool-language','listing-status','listing-image','listing-author','listing-pub-info','listing-date','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-webr","listing-filters","listing-website","listing-language","listing-format","listing-draft-mode","listing-date-format","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-title","listing-categories","listing-tool-language","listing-status","listing-image","listing-author","listing-pub-info","listing-date","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-des_packages'] = new List('listing-des_packages', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-des_training .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-webr','listing-filters','listing-website','listing-language','listing-format','listing-draft-mode','listing-date-format','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-title','listing-categories','listing-tool-language','listing-status','listing-image','listing-author','listing-pub-info','listing-date','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-webr","listing-filters","listing-website","listing-language","listing-format","listing-draft-mode","listing-date-format","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-title","listing-categories","listing-tool-language","listing-status","listing-image","listing-author","listing-pub-info","listing-date","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-des_training'] = new List('listing-des_training', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -405,39 +462,42 @@ window.Quarto = {
         <!-- <div class="quarto-title-banner" style="position: relative; z-index: 1; width: 100%; margin-left: auto; margin-right: auto; text-align: center;"> -->
         <div class="quarto-title-banner page-columns page-full">
             <div class="quarto-title column-page-left">
-                                                <div class="quarto-categories">
-                                        <div class="quarto-category">Statistical Process Control</div>
-                                    </div>
-                                                <h1 class="title">Making Data Count: the SPC multiple chart tool</h1>
+                                <h1 class="title">Discrete Event Simulation</h1>
                                                                 <br>
                 <div class="abstract">
                     <b>Summary</b>
-                    <p>These Excel templates support the creation of statistical process control charts.</p>
+                    <p>Discrete Event Simulation (DES) is a computer simulation technique, primarily used for tackling queueing problems. Healthcare systems are full of queues - both obvious ones, like in emergency departments, and more ‘invisible’ ones, like waiting lists for community services. DES provides a way of testing changes to demand, pathway configuration and resourcing in a safe sandbox, allowing policymakers to explore the impact of proposed changes. Using controlled randomness, DES tests whether systems will cope on good days and bad ones, making it a powerful technique for pathway improvement.</p>
                 </div>
                 
-                                <div class="project-link-buttons">
-                    <ul class="project-links">
-                                                                                                                                                                                                                                                                                                                        <button class="custom-button"><a href="https://www.england.nhs.uk/statistical-process-control-tool/"><i class="fa-solid fa-globe"></i> Website - Single Chart</a></button>
-                                                                                                <button class="custom-button"><a href="https://www.england.nhs.uk/wp-content/uploads/2020/08/Statistical-process-control-tool.xlsm"><i class="fa-solid fa-download"></i> Download - Single Chart</a></button>
-                                                                                                <button class="custom-button"><a href="https://www.england.nhs.uk/statistical-process-control-multiple-chart-tool/"><i class="fa-solid fa-globe"></i> Website - Multiple Chart</a></button>
-                                                                                                <button class="custom-button"><a href="https://www.england.nhs.uk/wp-content/uploads/2020/09/statistical-process-control–multiple-chart-tool.xlsm"><i class="fa-solid fa-download"></i> Download - Multiple Chart</a></button>
-                                                                    </ul>
-                </div>
                 
                                 <p><b>Atlas Entry authored by:</b>
                                 |&nbsp;Sammi Rosser
                                 (<a href="https://github.com/Bergam0t">Link</a>)
                                 &nbsp;|&nbsp;
                                 </p>
-                            </div>
+                
+            </div>
 
         </div>
     <!-- </div> -->
 
-    
+    <div class="quarto-title-meta-author column-page-left">
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-heading">Affiliation</div>
+      
+        <div class="quarto-title-meta-contents">
+        <p class="author">Sammi Rosser </p>
+      </div>
+      <div class="quarto-title-meta-contents">
+            <p class="affiliation">
+                Health Service Modelling Associates (HSMA), NIHR PenARC
+              </p>
+          </div>
+      </div>
+
     <div class="quarto-title-meta column-page-left">
 
-        
+          
         <div>
         <div class="quarto-title-meta-heading">Page last modified</div>
         <div class="quarto-title-meta-contents">
@@ -456,12 +516,12 @@ window.Quarto = {
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#more-about-spc-charts" id="toc-more-about-spc-charts" class="nav-link active" data-scroll-target="#more-about-spc-charts">More about SPC charts</a></li>
-  <li><a href="#project-status" id="toc-project-status" class="nav-link" data-scroll-target="#project-status">Project status</a></li>
-  <li><a href="#related-projects" id="toc-related-projects" class="nav-link" data-scroll-target="#related-projects">Related Projects</a></li>
+  <li><a href="#software" id="toc-software" class="nav-link active" data-scroll-target="#software">Software</a></li>
+  <li><a href="#training" id="toc-training" class="nav-link" data-scroll-target="#training">Training</a></li>
+  <li><a href="#des-projects" id="toc-des-projects" class="nav-link" data-scroll-target="#des-projects">DES projects</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="S1BJJTIwUmVwb3J0aW5n">KPI Reporting <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U3RhdGlzdGljYWwlMjBQcm9jZXNzJTIwQ29udHJvbA==">Statistical Process Control <span class="quarto-category-count">(3)</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -576,166 +636,40 @@ new FinisherHeader({
 
 
 
-<p>These Excel templates, created as part of the ‘Making Data Count’ programme, allow you to create statistical process control charts without the use of any code. Values can be entered into the templates, and there are various parameters that can be tweaked.</p>
-<p><img src="spc_excel.png" class="img-fluid"></p>
-<p>There are separate templates for creating a single SPC chart at a time or creating up to 25 SPC charts at a time.</p>
-<p><br></p>
-<p>This video covers the use of the single plot tool.</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/sWndrZ68Xww" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<section id="more-about-spc-charts" class="level2">
-<h2 class="anchored" data-anchor-id="more-about-spc-charts">More about SPC charts</h2>
-<p>Take a look at our <a href="../../techniques/spc/spc.html">technique page</a> for more information about the theory behind SPC charts.</p>
-<p>Looking for some code snippets? Head to our <a href="../../graph_catalogue/spc/spc.qmd">graph page</a>.</p>
-</section>
-<section id="project-status" class="level2">
-<h2 class="anchored" data-anchor-id="project-status">Project status</h2>
-<p><strong>Status: <span style="color: #893400FF">Bronze</span></strong></p>
-<p><strong>Rationale:</strong> Please place a short description of your reasoning for the rating you have applied</p>
-</section>
-<section id="related-projects" class="level2">
-<h2 class="anchored" data-anchor-id="related-projects">Related Projects</h2>
-<div id="listing-spc" class="quarto-listing quarto-listing-container-custom">
+<p>Discrete Event Simulation - DES - is a powerful technique for tackling bottlenecks and performance issues in systems with queues. By building simplified models of real-world pathways - incorporating realistic variability and resource constraints - it becomes possible to ask what-if questions of your system in a safe environment.</p>
+<p>Being able to explore a pathway in this way can help with</p>
+<ul>
+<li>identifying and resolving bottlenecks</li>
+<li>answering questions about the number of resources - such as nurses, rooms, scanners - required at different parts of the pathway to meet demand or tackle an existing backlog within a certain timeframe</li>
+<li>exploring the impact of changes to demand - will your system cope as demand increases or the profile of demand changes?</li>
+<li>optimizing existing resources to find the best possible perfomance without increasing the level of resource available</li>
+<li>understanding how delays in one part of the pathway can impact other parts</li>
+<li>exploring the impact of rota changes or shift pattern alterations</li>
+<li>stress-testing a system to explore how it will cope with a bad day, week, month or year as well as a good one</li>
+<li>providing data-driven support to business cases for investment</li>
+<li>exploring and quantifying the potential return on investment (ROI) for additional equipment or resources</li>
+</ul>
+<section id="software" class="level1">
+<h1>Software</h1>
+<p>Discrete Event Simulation has historically been tackled with proprietary/paid software soluations. While powerful, there can be limitations to the ability to share models between different organisations if they have invested in a different software on the market, among other reasons.</p>
+<p>However, a range of Free and Open Source (FOSS) alternatives exist in Python, R and Julia, allowing simulations to be written in code. Code allows for extreme flexibility in the writing of your models, and also ensures that</p>
+<p>Some non-code based free options also exist.</p>
+<div id="listing-des_packages" class="quarto-listing quarto-listing-container-custom">
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="U3RhdGlzdGljYWwlMjBQcm9jZXNzJTIwQ29udHJvbA==" data-listing-date-sort="1765216429000" data-listing-file-modified-sort="1765216484062" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="276">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="UGF0aHdheSUyMEFuYWx5dGljcw==" data-listing-date-sort="1765216429000" data-listing-file-modified-sort="1765216484006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="91">
             <div class="main-card-content">
             
-                  <a href="../../packages_projects_tools/nhs_ptd_power_bi/nhs_ptd_power_bi.html">
-              <img class="card-img" src="../../packages_projects_tools/nhs_ptd_power_bi/filter.png" alt="NHSRplotthedots - a PowerBI Custom Visual Implementation">
+                  <a href="../../packages_projects_tools/concurrentsim/concurrentsim.html">
+              <img class="card-img" src="../../packages_projects_tools/concurrentsim/example_code.png" alt="ConcurrentSim">
                   </a>
                 
               
 
             <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">
-                  <a href="../../packages_projects_tools/nhs_ptd_power_bi/nhs_ptd_power_bi.html" class="title-link">NHSRplotthedots - a PowerBI Custom Visual Implementation</a>
-                </h5>
-            </div>
-
-            
-            <div class="project-status">
-              Status: <span style="color: #893400FF">Bronze</span>
-            </div>
-            
-
-            
-              <p class="listing-abstract">This custom PowerBI visual (based on NHSRplotthedots) simplifies the creation and automation of statistical process control (SPC) charts for KPIs. It helps analysts and teams move beyond static KPIs to understand true performance variation and identify opportunities for improvement, producing R-backed visuals within the setting of PowerBI and integrating with PowerBIs data model and filters.
-</p>
-                
-
-            
-
-            
-
-            
-
-          </div>
-
-            <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="../../packages_projects_tools/nhs_ptd_power_bi/nhs_ptd_power_bi.html"><i class="fa fa-info-circle"></i> Details </a></button>
-                    
-                      
-                          
-                            
-                      <button class="project-link-listing-button"><a href="https://github.com/Bergam0t/nhs_ptd_power_bi"><i class="fa-brands fa-github"></i> Code </a></button>
-                          
-                        
-                            
-                      <button class="project-link-listing-button"><a href="https://github.com/Bergam0t/nhs_ptd_power_bi/releases"><i class="fa-solid fa-download"></i> Download Custom Visual </a></button>
-                          
-                        
-                            
-                      <button class="project-link-listing-button"><a href="https://github.com/Bergam0t/nhs_ptd_power_bi?tab=readme-ov-file#readme"><i class="fa-solid fa-book"></i> Documentation </a></button>
-                          
-                        
-                            
-                        
-                            
-                        
-                            
-                        
-                            
-                        
-                        
-                    
-            </div>
-          </div>
-
-        
-      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="S1BJJTIwUmVwb3J0aW5nJTJDU3RhdGlzdGljYWwlMjBQcm9jZXNzJTIwQ29udHJvbA==" data-listing-date-sort="1765216429000" data-listing-file-modified-sort="1765216484088" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="104">
-            <div class="main-card-content">
-            
-                  <a href="../../packages_projects_tools/nhspy-plotthedots/nhspy-plotthedots.html">
-              <img class="card-img" src="../../packages_projects_tools/nhspy-plotthedots/image.png" alt="nhspy-plotthedots">
-                  </a>
-                
-              
-
-            <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">
-                  <a href="../../packages_projects_tools/nhspy-plotthedots/nhspy-plotthedots.html" class="title-link">nhspy-plotthedots</a>
-                </h5>
-            </div>
-
-            
-            <div class="project-status">
-              Status: <span style="color: #893400FF">Bronze</span>
-            </div>
-            
-
-            
-              <p class="listing-abstract">NHSpy-plotthedots is a Python port of the NHSRplotthedots package that simplifies the creation and automation of statistical process control (SPC) charts for KPIs. It helps analysts and teams move beyond static KPIs to understand true performance variation and identify opportunities for improvement.
-</p>
-                
-
-            
-
-            
-
-            
-
-          </div>
-
-            <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="../../packages_projects_tools/nhspy-plotthedots/nhspy-plotthedots.html"><i class="fa fa-info-circle"></i> Details </a></button>
-                    
-                      
-                          
-                            
-                      <button class="project-link-listing-button"><a href="https://github.com/nhs-pycom/nhspy-plotthedots"><i class="fa-brands fa-github"></i> Code </a></button>
-                          
-                        
-                            
-                      <button class="project-link-listing-button"><a href="https://nhs-pycom.github.io/nhspy-plotthedots/"><i class="fa-solid fa-book"></i> Documentation </a></button>
-                          
-                        
-                            
-                        
-                            
-                        
-                            
-                        
-                            
-                        
-                        
-                    
-            </div>
-          </div>
-
-        
-      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="S1BJJTIwUmVwb3J0aW5nJTJDU3RhdGlzdGljYWwlMjBQcm9jZXNzJTIwQ29udHJvbA==" data-listing-date-sort="1765216429000" data-listing-file-modified-sort="1765216484094" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="141">
-            <div class="main-card-content">
-            
-                  <a href="../../packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html">
-              <img class="card-img" src="../../packages_projects_tools/nhsrplotthedots/nhsrplotthedots.png" alt="NHSRPlotTheDots: statistical process control for better metric reporting">
-                  </a>
-                
-              
-
-            <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">
-                  <a href="../../packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html" class="title-link">NHSRPlotTheDots: statistical process control for better metric reporting</a>
+                <h5 class="no-anchor card-title listing-title" data-anchor-id="software">
+                  <a href="../../packages_projects_tools/concurrentsim/concurrentsim.html" class="title-link">ConcurrentSim</a>
                 </h5>
             </div>
 
@@ -746,7 +680,7 @@ new FinisherHeader({
             
 
             
-              <p class="listing-abstract">NHSRplotthedots is an R package that simplifies the creation and automation of statistical process control (SPC) charts for KPIs. It helps analysts and teams move beyond static KPIs to understand true performance variation and identify opportunities for improvement.
+              <p class="listing-abstract">A discrete event process oriented simulation framework (formerly SimJulia) written in Julia inspired by the Python library SimPy.
 </p>
                 
 
@@ -759,27 +693,436 @@ new FinisherHeader({
           </div>
 
             <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="../../packages_projects_tools/nhsrplotthedots/nhsrplotthedots.html"><i class="fa fa-info-circle"></i> Details </a></button>
+              <button class="project-link-listing-button"><a href="../../packages_projects_tools/concurrentsim/concurrentsim.html"><i class="fa fa-info-circle"></i> Details </a></button>
                     
                       
                           
                             
-                      <button class="project-link-listing-button"><a href="https://github.com/nhs-r-community/NHSRplotthedots"><i class="fa-brands fa-github"></i> Code </a></button>
+                      <button class="project-link-listing-button"><a href="https://github.com/JuliaDynamics/ConcurrentSim.jl"><i class="fa-brands fa-github"></i> Code </a></button>
                           
                         
                             
-                      <button class="project-link-listing-button"><a href="https://nhsrplotthedots.nhsrcommunity.com/"><i class="fa-solid fa-book"></i> Documentation </a></button>
+                      <button class="project-link-listing-button"><a href="https://juliadynamics.github.io/ConcurrentSim.jl/stable/"><i class="fa-solid fa-book"></i> Documentation </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="U2VydmljZSUyMFBsYW5uaW5nJTJDSWRlbnRpZnlpbmclMjBCb3R0bGVuZWNrcyUyQ0RhdGElMjBWaXN1YWxpc2F0aW9u" data-listing-date-sort="1765216429000" data-listing-file-modified-sort="1765216484180" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="65">
+            <div class="main-card-content">
+            
+                  <a href="../../packages_projects_tools/vidigi/vidigi.html">
+              <img class="card-img" src="../../packages_projects_tools/vidigi/vidigi.gif" alt="Vidigi: animated queues for simulations and reality">
+                  </a>
+                
+              
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../../packages_projects_tools/vidigi/vidigi.html" class="title-link">Vidigi: animated queues for simulations and reality</a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: <span style="color: #888888FF">Silver</span>
+            </div>
+            
+
+            
+              <p class="listing-abstract">Vidigi is an animation library for showing patient flows and bottlenecks in simulations and for historical simulation logs.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../../packages_projects_tools/vidigi/vidigi.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/hsma-tools/vidigi"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://hsma-tools.github.io/vidigi/vidigi_docs/"><i class="fa-solid fa-book"></i> Documentation </a></button>
+                          
+                        
+                            
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://pypi.org/project/vidigi/"><i class="fa-solid fa-brands fa-python"></i> PyPi </a></button>
                           
                         
                             
                         
                             
                         
+                        
+                    
+            </div>
+          </div>
+
+        
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="tip-warning">
+<p>While it is technically possible to create a discrete event simulation in Excel, it is strongly recommended to not go down this path due to serious limitations with this approach.</p>
+</div>
+</section>
+<section id="training" class="level1">
+<h1>Training</h1>
+<div id="listing-des_training" class="quarto-listing quarto-listing-container-custom">
+<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
+
+    
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="U2VydmljZSUyMFBsYW5uaW5nJTJDSWRlbnRpZnlpbmclMjBCb3R0bGVuZWNrcyUyQ1JBUCUyQ0NvdXJzZXMlMjBhbmQlMjBUcmFpbmluZyUyMG9yJTIwUmVmZXJlbmNlJTIwTWF0ZXJpYWxz" data-listing-date-sort="1765216429000" data-listing-file-modified-sort="1765216484012" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="280">
+            <div class="main-card-content">
+            
+                  <a href="../../packages_projects_tools/des_rap_book/des_rap_book.html">
+              <img class="card-img" src="../../packages_projects_tools/des_rap_book/homepage.png" alt="DES RAP Book: Reproducible Discrete-Event Simulation in Python and R">
+                  </a>
+                
+              
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title" data-anchor-id="training">
+                  <a href="../../packages_projects_tools/des_rap_book/des_rap_book.html" class="title-link">DES RAP Book: Reproducible Discrete-Event Simulation in Python and R</a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: <span style="color: #D18B12FF">Gold</span>
+            </div>
+            
+
+            
+              <p class="listing-abstract">DES RAP Book is an open resource and website for building discrete-event simulation (DES) models within a reproducible analytical pipeline (RAP), supporting the healthcare simulation community. The resource demonstrates practical, code-based workflows and tools to help researchers and practitioners develop, validate, and share DES models in Python (SimPy) and R (simmer), ensuring models are reproducible.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../../packages_projects_tools/des_rap_book/des_rap_book.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
                             
-                      <button class="project-link-listing-button"><a href="https://cran.r-project.org/web/packages/NHSRplotthedots/index.html"><i class="fa-solid fa-brands fa-r-project"></i> CRAN </a></button>
+                      <button class="project-link-listing-button"><a href="https://github.com/pythonhealthdatascience/des_rap_book"><i class="fa-brands fa-github"></i> Code </a></button>
                           
                         
                             
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://pythonhealthdatascience.github.io/des_rap_book/"><i class="fa-solid fa-globe"></i> Website </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="U2VydmljZSUyMFBsYW5uaW5nJTJDSWRlbnRpZnlpbmclMjBCb3R0bGVuZWNrcyUyQ0NvdXJzZXMlMjBhbmQlMjBUcmFpbmluZyUyMG9yJTIwUmVmZXJlbmNlJTIwTWF0ZXJpYWxz" data-listing-date-sort="1765216429000" data-listing-file-modified-sort="1765216484018" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="235">
+            <div class="main-card-content">
+            
+                  <a href="../../packages_projects_tools/hsma_des_module/hsma_des_module.html">
+              <img class="card-img" src="../../packages_projects_tools/hsma_des_module/hsma_des_module.png" alt="HSMA: Discrete Event Simulation Module">
+                  </a>
+                
+              
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../../packages_projects_tools/hsma_des_module/hsma_des_module.html" class="title-link">HSMA: Discrete Event Simulation Module</a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: <span style="color: #D18B12FF">Gold</span>
+            </div>
+            
+
+            
+              <p class="listing-abstract">This is a collection of slides, session recordings, code examples, exercises, exercise solutions and solution videos from the discrete event simulation module of the Health Service Modelling Associates Programme, covering 9 hours of content. It teaches discrete event simulation with the Python SimPy package, assuming no prior knowledge of the package or DES concepts.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../../packages_projects_tools/hsma_des_module/hsma_des_module.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://hsma.co.uk/hsma_content/modules/current_module_details/2_des.html"><i class="fa-solid fa-book"></i> Module </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="U2VydmljZSUyMFBsYW5uaW5nJTJDSWRlbnRpZnlpbmclMjBCb3R0bGVuZWNrcyUyQ0NvdXJzZXMlMjBhbmQlMjBUcmFpbmluZyUyMG9yJTIwUmVmZXJlbmNlJTIwTWF0ZXJpYWxz" data-listing-date-sort="1765216429000" data-listing-file-modified-sort="1765216484024" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="127">
+            <div class="main-card-content">
+            
+                  <a href="../../packages_projects_tools/hsma_des_playground/hsma_des_playground.html">
+              <img class="card-img" src="../../packages_projects_tools/hsma_des_playground/desplayground.png" alt="HSMA: The Discrete Event Simulation (DES) Playground">
+                  </a>
+                
+              
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../../packages_projects_tools/hsma_des_playground/hsma_des_playground.html" class="title-link">HSMA: The Discrete Event Simulation (DES) Playground</a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: <span style="color: #D18B12FF">Gold</span>
+            </div>
+            
+
+            
+              <p class="listing-abstract">The Discrete Event Simulation (DES) playground is an interactive web application designed to teach the fundamental concepts of DES to absolute beginners. Used to support a range of training sessions, it can also be used as a standalone tool to introduce yourself to why DES is useful, building up from a very simple to a more complex model and allowing you to explore the impact of changing a range of parameters.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../../packages_projects_tools/hsma_des_playground/hsma_des_playground.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/hsma-programme/Teaching_DES_Concepts_Streamlit"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://playground.hsma.co.uk/"><i class="fa-solid fa-globe"></i> Web App </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="3" data-categories="U2VydmljZSUyMFBsYW5uaW5nJTJDSWRlbnRpZnlpbmclMjBCb3R0bGVuZWNrcyUyQ0NvdXJzZXMlMjBhbmQlMjBUcmFpbmluZyUyMG9yJTIwUmVmZXJlbmNlJTIwTWF0ZXJpYWxz" data-listing-date-sort="1765216429000" data-listing-file-modified-sort="1765216484031" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="121">
+            <div class="main-card-content">
+            
+                  <a href="../../packages_projects_tools/hsma_little_book_of_des/hsma_little_book_of_des.html">
+              <img class="card-img" src="../../packages_projects_tools/hsma_little_book_of_des/lbod.png" alt="HSMA: Little Book of Discrete Event Simulation (DES)">
+                  </a>
+                
+              
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../../packages_projects_tools/hsma_little_book_of_des/hsma_little_book_of_des.html" class="title-link">HSMA: Little Book of Discrete Event Simulation (DES)</a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: <span style="color: #D18B12FF">Gold</span>
+            </div>
+            
+
+            
+              <p class="listing-abstract">The Little Book of Discrete Event Simulation (DES) is a free eBook written to accompany the DES module of the Health Service Modelling Associates (HSMA) programme. The book takes you from being a complete beginner in DES through to creating complex models with a web interface. This Python resource primarily focusses on the SimPy package, also touching on Streamlit and various supporting packages.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../../packages_projects_tools/hsma_little_book_of_des/hsma_little_book_of_des.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/hsma-programme/hsma6_des_book"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://des.hsma.co.uk/intro_to_des_concepts.html"><i class="fa-solid fa-book"></i> eBook </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="des-projects" class="level1">
+<h1>DES projects</h1>
+<p>Below are some projects making use of DES from across the health service.</p>
+<div id="listing-des_projects" class="quarto-listing quarto-listing-container-custom">
+<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
+
+    
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="QW1idWxhbmNlcyUyQ1VyZ2VudCUyMGFuZCUyMEVtZXJnZW5jeSUyMENhcmU=" data-listing-date-sort="1765216429000" data-listing-file-modified-sort="1765216483974" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="110">
+            <div class="main-card-content">
+            
+                  <a href="../../packages_projects_tools/ambmodelopen/ambmodelopen.html">
+              <img class="card-img" src="../../packages_projects_tools/ambmodelopen/plot_RU_instant_.png" alt="AmbModelOpen: A discrete event simulation of ambulance resources">
+                  </a>
+                
+              
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title" data-anchor-id="des-projects">
+                  <a href="../../packages_projects_tools/ambmodelopen/ambmodelopen.html" class="title-link">AmbModelOpen: A discrete event simulation of ambulance resources</a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: TBC
+            </div>
+            
+
+            
+              <p class="listing-abstract">Discrete Event Simulation in RSimmer of Ambulance Job Cycle Times.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../../packages_projects_tools/ambmodelopen/ambmodelopen.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/nhsengland/AmbModelOpen"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://nhsengland.github.io/AmbModelOpen/"><i class="fa-solid fa-book"></i> Documentation </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="UGF0aHdheSUyMEFuYWx5dGljcw==" data-listing-date-sort="1765216429000" data-listing-file-modified-sort="1765216484166" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="314">
+            <div class="main-card-content">
+            
+                  <a href="../../packages_projects_tools/stars_reusability_examples/stars_reusability_examples.html">
+              <img class="card-img" src="../../packages_projects_tools/stars_reusability_examples/stars.jpg" alt="Sharing Tools and Artefacts for Reusable Simulation (STARS) Discrete Event Simulation Reusability Examples">
+                  </a>
+                
+              
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../../packages_projects_tools/stars_reusability_examples/stars_reusability_examples.html" class="title-link">Sharing Tools and Artefacts for Reusable Simulation (STARS) Discrete Event Simulation Reusability Examples</a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: <span style="color: #888888FF">Silver</span>
+            </div>
+            
+
+            
+              <p class="listing-abstract">Three examples of discrete-event simulation models implementing the STARS Reusability Framework. This includes simulation models (SimPy, ciw), web apps (streamlit, shiny) and documentation.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../../packages_projects_tools/stars_reusability_examples/stars_reusability_examples.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/pythonhealthdatascience/stars-treat-sim"><i class="fa-brands fa-github"></i> Code (1) </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/pythonhealthdatascience/stars-streamlit-example"><i class="fa-brands fa-github"></i> Code (2) </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/pythonhealthdatascience/stars-simpy-example-docs"><i class="fa-brands fa-github"></i> Code (3) </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/pythonhealthdatascience/stars-ciw-example"><i class="fa-brands fa-github"></i> Code (4) </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://doi.org/10.1080/17477778.2024.2347882"><i class="fa-solid fa-file-contract"></i> Paper </a></button>
+                          
                         
                         
                     
