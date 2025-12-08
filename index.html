@@ -431,6 +431,22 @@ h1 {
   }
 }
 
+
+.value-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* Collapse to a single column on small screens */
+@media (max-width: 600px) {
+  .value-grid-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+
 .value-box-simple {
   display: flex;
   flex-direction: column;
@@ -486,6 +502,8 @@ h1 {
 }
 
 .bg-green { background-color: #009c92; }
+
+.bg-dark-teal { background-color: #00505AFF; }
 
 .bg-amber { background-color:rgb(211, 123, 0) ; }
 
@@ -546,9 +564,41 @@ h1 {
 <p>Contributions are very welcome!</p>
 <p>You don’t need to be able to write code, use Quarto or use GitHub to add to the Atlas - there are lots of ways to submit content.</p>
 <p>Please see our <a href="./about/contributing.html">contributors page</a> for instructions on how to get involved.</p>
+<div class="value-grid-2">
+  <a href="https://atlas.hsma.co.uk/packages_projects_tools/packages_projects_tools.html" class="value-box bg-green">
+    <div class="icon" style="font-size: 2rem;"><i class="bi bi-tools"></i>&nbsp;31</div>
+    <div class="details">Packages, Projects and Tools Documented</div>
+  </a>
+    <a href="https://atlas.hsma.co.uk/packages_projects_tools/packages_projects_tools.html" class="value-box bg-dark-teal">
+    <div class="icon" style="font-size: 2rem;"><i class="bi bi-pencil"></i>&nbsp;PROPOSED_PPT_ENTRY_COUNT</div>
+    <div class="details">Package, Project and Tool Entries to be Written</div>
+  </a>
+</div>
+<div class="value-grid-2">
+    <a href="https://atlas.hsma.co.uk/techniques/techniques.html" class="value-box bg-green">
+    <div class="icon" style="font-size: 2rem;"><i class="bi bi-lightbulb"></i>&nbsp;1</div>
+    <div class="details">Technique Described</div>
+  </a>
+    <a href="https://atlas.hsma.co.uk/packages_projects_tools/packages_projects_tools.html" class="value-box bg-dark-teal">
+    <div class="icon" style="font-size: 2rem;"><i class="bi bi-pencil"></i>&nbsp;PROPOSED_TECHNIQUE_ENTRY_COUNT</div>
+    <div class="details">Technique Entries to be Written</div>
+  </a>
+</div>
+<div class="value-grid-2">
+  <a href="https://atlas.hsma.co.uk/graph_catalogue/graph_catalogue.html" class="value-box bg-green">
+    <div class="icon" style="font-size: 2rem;"><i class="bi bi-file-earmark-bar-graph"></i>&nbsp;1</div>
+    <div class="details">Graph Examples</div>
+  </a>
+    <a href="https://atlas.hsma.co.uk/packages_projects_tools/packages_projects_tools.html" class="value-box bg-dark-teal">
+    <div class="icon" style="font-size: 2rem;"><i class="bi bi-pencil"></i>&nbsp;PROPOSED_GRAPH_GALLERY_ENTRY_COUNT</div>
+    <div class="details">Graph Examples to be Written</div>
+  </a>
+
+</div>
+<p><br></p>
 <div class="value-box-simple bg-amber">
-<p>Please note that inclusion of a tool on this site does not imply that the HSMA team, or any other Atlas contributors, have reviewed these tools in detail. This resource is designed to act as a signpost to the work that is out there, and provide a high-level indication of the health of any given project, but <strong>you should always conduct your own reviews of the suitability of any of these tools and techniques for your own use case.</strong></p>
-<p>Inclusion of a tool on this page also does not indicate endorsement of the tool author of the HSMA programme, the Atlas, or the description written of the tool.</p>
+<p>Please note that inclusion of a tool on this site does not imply that the HSMA team, NIHR, or any other Atlas contributors, have reviewed these tools in detail. This resource is designed to act as a signpost to the work that is out there, and provide a high-level indication of the health of any given project, but <strong>you should always conduct your own reviews of the suitability of any of these tools and techniques for your own use case.</strong></p>
+<p>Inclusion of a tool on this page also does not indicate endorsement of the tool author of the HSMA programme, NIHR, the Atlas, or the description written of the tool.</p>
 <p>If you have any concerns, or would like any content to be removed, please <a href="https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose">raise an issue on the repository</a>.</p>
 </div>
 
