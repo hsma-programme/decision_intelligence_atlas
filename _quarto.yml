@@ -4,6 +4,8 @@ project:
     - "**.qmd"
     - "!templates/*.qmd"
   output-dir: docs
+  pre-render:
+    - python resources/scripts/get_counts.py PPT_ENTRY_COUNT=packages_projects_tools GRAPH_GALLERY_ENTRY_COUNT=graph_catalogue TECHNIQUE_ENTRY_COUNT=techniques --out-file resources/generated_counts.yml
 
 # Set default options for every bookpage that may or may not include webR.
 webr:

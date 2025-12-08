@@ -11,14 +11,120 @@ name: Quarto Publish
 
 jobs:
   build-deploy:
+    env:
+      # fallback defaults; they can be overridden by workflow_dispatch inputs
+      QMD_FILE: 'index.qmd'
     runs-on: ubuntu-latest
     permissions:
       contents: write
       actions: write
       id-token: write
+      issues: read
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+
+
+      - name: Determine issue counts
+        id: get_counts
+        run: |
+          # Define your three label/placeholder pairs
+          # Format: "LABEL|PLACEHOLDER"
+          declare -a CONFIGS=(
+            "SUGGESTION: new project package or tool|{{PROPOSED_PPT_ENTRY_COUNT}}"
+            "SUGGESTION: new technique|{{PROPOSED_TECHNIQUE_ENTRY_COUNT}}"
+            "SUGGESTION: new graph catalogue entry|{{PROPOSED_GRAPH_GALLERY_ENTRY_COUNT}}"
+          )
+
+          OWNER_REPO="${{ github.repository }}"
+
+          # Use a temporary file to store results as JSON
+          TEMP_FILE=$(mktemp)
+          echo "[]" > "$TEMP_FILE"
+
+          for CONFIG in "${CONFIGS[@]}"; do
+            IFS='|' read -r LABEL PLACEHOLDER <<< "$CONFIG"
+
+            echo "Fetching count for label: $LABEL"
+
+            # Build search query
+            QUERY="repo:${OWNER_REPO} label:\"${LABEL}\" type:issue state:open"
+
+            # Call GitHub Search API
+            RESPONSE=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+              -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/search/issues?q=$(python3 - <<PY
+              import urllib.parse, sys
+              print(urllib.parse.quote(sys.argv[1]))
+              PY
+              "$QUERY"
+              )")
+
+                    # Extract count and append to JSON file
+                    python3 - <<'PY'
+              import sys, json
+              from pathlib import Path
+
+              response = json.loads(sys.argv[1])
+              count = response.get("total_count", 0)
+              label = sys.argv[2]
+              placeholder = sys.argv[3]
+              temp_file = sys.argv[4]
+
+              # Read existing data
+              data = json.loads(Path(temp_file).read_text())
+              # Append new entry
+              data.append({"label": label, "placeholder": placeholder, "count": count})
+              # Write back
+              Path(temp_file).write_text(json.dumps(data))
+
+              print(f"Found {count} issues with label '{label}'")
+              PY
+              "$RESPONSE" "$LABEL" "$PLACEHOLDER" "$TEMP_FILE"
+                  done
+
+          # Export JSON to GITHUB_OUTPUT
+          DATA=$(cat "$TEMP_FILE")
+          echo "data<<EOF" >> $GITHUB_OUTPUT
+          echo "$DATA" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+          rm "$TEMP_FILE"
+
+      - name: Replace placeholders in QMD
+        run: |
+          FILE="${{ env.QMD_FILE }}"
+          DATA='${{ steps.get_counts.outputs.data }}'
+
+          if [ ! -f "$FILE" ]; then
+            echo "ERROR: file $FILE not found"
+            exit 1
+          fi
+
+          # Replace all placeholders
+          python3 - <<'PY'
+          import json, sys
+          from pathlib import Path
+
+          file_path = Path(sys.argv[1])
+          data = json.loads(sys.argv[2])
+
+          text = file_path.read_text(encoding="utf-8")
+          original_text = text
+
+          for item in data:
+              placeholder = item["placeholder"]
+              count = item["count"]
+              text = text.replace(placeholder, str(count))
+              print(f"Replaced {placeholder} with {count}")
+
+          if text == original_text:
+              print("Warning: no placeholders found; file unchanged.")
+          else:
+              file_path.write_text(text, encoding="utf-8")
+              print(f"Updated {file_path}")
+          PY
+          "$FILE" "$DATA"
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
