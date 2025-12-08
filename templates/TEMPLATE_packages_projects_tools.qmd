@@ -1,7 +1,7 @@
 ---
 title: "Replace this with a short-ish title describing the tool, project or package."
 categories:
-  - # Enter categories here, with each category on its own line with a - preceding it.
+  - # Enter categories here, with each category on its own line with a - preceding it. Refer to templates/packages_projects_tools_permitted_categories.csv
 tool-language:
   - Python
   - R
@@ -21,6 +21,9 @@ author:
     affiliation: # Their organisation/institution
     orcid: # Their ORCID
 pub-info:
+  entry-author:
+    - name: # Optional: add your name if you'd like to be recognised as the author of this entry
+      url: # Optional: if you'd like to link your GitHub profile, personal website, ORCID or other link, add it here and it will appear as a link next to your name on the entry
   abstract: |
     Write a short description that would appear on the listing page to help people decide whether they want more information.
   links:
