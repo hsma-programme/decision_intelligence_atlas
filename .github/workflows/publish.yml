@@ -24,13 +24,18 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.7.33
+
       - name: Install Python and Dependencies
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.12'
           cache: 'pip'
-      - run: pip install jupyter
-      - run: pip install -r requirements.txt
+      - run: pip3 install jupyter
+      - run: pip3 install -r requirements.txt
 
       - name: Determine issue counts
         id: get_counts
@@ -132,11 +137,6 @@ jobs:
               print(f"Updated {file_path}")
           PY
           "$FILE" "$DATA"
-
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
-        with:
-          version: 1.7.33
 
       - name: Update YAML date with last commit
         run: bash ./resources/update-quarto-date.sh
