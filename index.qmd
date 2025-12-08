@@ -8,6 +8,29 @@ format:
       - resources/title-block.html
 ---
 
+```{python}
+#| echo: false
+# read generated data (Quarto runs from project root during render)
+import yaml, json, pathlib
+p = pathlib.Path("resources/generated_counts.yml")
+data = {}
+if p.exists():
+    if p.suffix == ".json":
+        data = json.loads(p.read_text(encoding="utf-8"))
+        # print(data)
+    else:
+        try:
+            data = yaml.safe_load(p.read_text(encoding="utf-8"))
+            # print(data)
+        except Exception:
+            data = {}
+def get_counts(entry_key):
+  try:
+    return data.get(entry_key, 0)
+  except:
+    return 0
+```
+
 <!-- Card code from GuillaumeChretienCerema  https://github.com/quarto-dev/quarto-cli/issues/8475 -->
 
 <style>
@@ -43,6 +66,22 @@ h1 {
     grid-template-columns: 1fr;
   }
 }
+
+
+.value-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* Collapse to a single column on small screens */
+@media (max-width: 600px) {
+  .value-grid-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
 
 .value-box-simple {
   display: flex;
@@ -99,6 +138,8 @@ h1 {
 }
 
 .bg-green { background-color: #009c92; }
+
+.bg-dark-teal { background-color: #00505AFF; }
 
 .bg-amber { background-color:rgb(211, 123, 0) ; }
 
@@ -172,11 +213,53 @@ You don't need to be able to write code, use Quarto or use GitHub to add to the 
 
 Please see our [contributors page](about/contributing.qmd) for instructions on how to get involved.
 
+```{=html}
+<div class="value-grid-2">
+  <a href="https://atlas.hsma.co.uk/packages_projects_tools/packages_projects_tools.html" class="value-box bg-green">
+    <div class="icon" style="font-size: 2rem;"><i class="bi bi-tools"></i>&nbsp;`{python} get_counts("PPT_ENTRY_COUNT")`</div>
+    <div class="details">Packages, Projects and Tools Documented</div>
+  </a>
+    <a href="https://atlas.hsma.co.uk/packages_projects_tools/packages_projects_tools.html" class="value-box bg-dark-teal">
+    <div class="icon" style="font-size: 2rem;"><i class="bi bi-pencil"></i>&nbsp;PROPOSED_PPT_ENTRY_COUNT</div>
+    <div class="details">Package, Project and Tool Entries to be Written</div>
+  </a>
+</div>
+```
+
+```{=html}
+<div class="value-grid-2">
+    <a href="https://atlas.hsma.co.uk/techniques/techniques.html" class="value-box bg-green">
+    <div class="icon" style="font-size: 2rem;"><i class="bi bi-lightbulb"></i>&nbsp;`{python} get_counts("TECHNIQUE_ENTRY_COUNT")`</div>
+    <div class="details">Technique Described</div>
+  </a>
+    <a href="https://atlas.hsma.co.uk/packages_projects_tools/packages_projects_tools.html" class="value-box bg-dark-teal">
+    <div class="icon" style="font-size: 2rem;"><i class="bi bi-pencil"></i>&nbsp;PROPOSED_TECHNIQUE_ENTRY_COUNT</div>
+    <div class="details">Technique Entries to be Written</div>
+  </a>
+</div>
+```
+
+```{=html}
+<div class="value-grid-2">
+  <a href="https://atlas.hsma.co.uk/graph_catalogue/graph_catalogue.html" class="value-box bg-green">
+    <div class="icon" style="font-size: 2rem;"><i class="bi bi-file-earmark-bar-graph"></i>&nbsp;`{python} get_counts("GRAPH_GALLERY_ENTRY_COUNT")`</div>
+    <div class="details">Graph Examples</div>
+  </a>
+    <a href="https://atlas.hsma.co.uk/packages_projects_tools/packages_projects_tools.html" class="value-box bg-dark-teal">
+    <div class="icon" style="font-size: 2rem;"><i class="bi bi-pencil"></i>&nbsp;PROPOSED_GRAPH_GALLERY_ENTRY_COUNT</div>
+    <div class="details">Graph Examples to be Written</div>
+  </a>
+
+</div>
+```
+
+<br/>
+
 ::: {.value-box-simple .bg-amber}
 
-Please note that inclusion of a tool on this site does not imply that the HSMA team, or any other Atlas contributors, have reviewed these tools in detail. This resource is designed to act as a signpost to the work that is out there, and provide a high-level indication of the health of any given project, but **you should always conduct your own reviews of the suitability of any of these tools and techniques for your own use case.**
+Please note that inclusion of a tool on this site does not imply that the HSMA team, NIHR, or any other Atlas contributors, have reviewed these tools in detail. This resource is designed to act as a signpost to the work that is out there, and provide a high-level indication of the health of any given project, but **you should always conduct your own reviews of the suitability of any of these tools and techniques for your own use case.**
 
-Inclusion of a tool on this page also does not indicate endorsement of the tool author of the HSMA programme, the Atlas, or the description written of the tool.
+Inclusion of a tool on this page also does not indicate endorsement of the tool author of the HSMA programme, NIHR, the Atlas, or the description written of the tool.
 
 If you have any concerns, or would like any content to be removed, please [raise an issue on the repository](https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose).
 
