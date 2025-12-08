@@ -209,7 +209,7 @@ Click on the links below, or use the menu bar to navigate.
 
 Contributions are very welcome!
 
-You don't need to be able to write code, use Quarto or use GitHub to add to the Atlas - there are lots of ways to submit content.
+You don't need to be able to write code or use Quarto to add to the Atlas - there are lots of ways to submit content.
 
 Please see our [contributors page](about/contributing.qmd) for instructions on how to get involved.
 
@@ -219,7 +219,7 @@ Please see our [contributors page](about/contributing.qmd) for instructions on h
     <div class="icon" style="font-size: 2rem;"><i class="bi bi-tools"></i>&nbsp;`{python} get_counts("PPT_ENTRY_COUNT")`</div>
     <div class="details">Packages, Projects and Tools Documented</div>
   </a>
-    <a href="https://atlas.hsma.co.uk/packages_projects_tools/packages_projects_tools.html" class="value-box bg-dark-teal">
+    <a href="https://github.com/orgs/hsma-programme/projects/2/views/8" class="value-box bg-dark-teal">
     <div class="icon" style="font-size: 2rem;"><i class="bi bi-pencil"></i>&nbsp;PROPOSED_PPT_ENTRY_COUNT</div>
     <div class="details">Package, Project and Tool Entries to be Written</div>
   </a>
@@ -232,7 +232,7 @@ Please see our [contributors page](about/contributing.qmd) for instructions on h
     <div class="icon" style="font-size: 2rem;"><i class="bi bi-lightbulb"></i>&nbsp;`{python} get_counts("TECHNIQUE_ENTRY_COUNT")`</div>
     <div class="details">Technique Described</div>
   </a>
-    <a href="https://atlas.hsma.co.uk/packages_projects_tools/packages_projects_tools.html" class="value-box bg-dark-teal">
+    <a href="https://github.com/orgs/hsma-programme/projects/2/views/10" class="value-box bg-dark-teal">
     <div class="icon" style="font-size: 2rem;"><i class="bi bi-pencil"></i>&nbsp;PROPOSED_TECHNIQUE_ENTRY_COUNT</div>
     <div class="details">Technique Entries to be Written</div>
   </a>
@@ -245,13 +245,17 @@ Please see our [contributors page](about/contributing.qmd) for instructions on h
     <div class="icon" style="font-size: 2rem;"><i class="bi bi-file-earmark-bar-graph"></i>&nbsp;`{python} get_counts("GRAPH_GALLERY_ENTRY_COUNT")`</div>
     <div class="details">Graph Examples</div>
   </a>
-    <a href="https://atlas.hsma.co.uk/packages_projects_tools/packages_projects_tools.html" class="value-box bg-dark-teal">
+    <a href="https://github.com/orgs/hsma-programme/projects/2/views/9" class="value-box bg-dark-teal">
     <div class="icon" style="font-size: 2rem;"><i class="bi bi-pencil"></i>&nbsp;PROPOSED_GRAPH_GALLERY_ENTRY_COUNT</div>
     <div class="details">Graph Examples to be Written</div>
   </a>
 
 </div>
 ```
+
+Interested to see what things we propose should be added to the Atlas?
+
+Click on the cards in the right hand column above to see the full list of proposed entries for each type of content.
 
 <br/>
 
