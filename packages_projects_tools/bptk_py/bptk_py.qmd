@@ -12,6 +12,8 @@ status: '<span style="color: #D18B12FF">Gold</span>'
 toc: true
 image: bptk_logo.png
 pub-info:
+  rationale-for-status: |
+    Package with active and ongoing maintenance, test suite, and documentation.
   abstract: |
     "BPTK-Py is a Python package for building simulation models using System Dynamics and agent-based modeling."
   links:
@@ -44,10 +46,3 @@ Next to providing the necessary SD and ABM language constructs to build models d
 This means you can build models in a XMILE-compatible visual modeling environment (such as iseesystems Stella) and then use them independently in Python." ([source](https://bptk.transentis.com/))
 
 <br>
-
-## Project status
-
-**Status: {{< meta status >}}**
-
-**Rationale:** "Package with active and ongoing maintenance, test suite, and documentation."
-

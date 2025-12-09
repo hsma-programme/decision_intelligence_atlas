@@ -27,6 +27,8 @@ author:
     affiliation: University of Bristol
     orcid: 0009-0004-5079-1362
 pub-info:
+  rationale-for-status: |
+    Well-structured R package and interactive tool with comprehensive documentation.
   abstract: |
     The opencodecounts R package provides easy access to yearly summaries of clinical code usage in England. The package makes NHS England's published datasets available in R and an interactive online tool, covering SNOMED CT codes in primary care and ICD-10/OPCS-4 codes in secondary care.
   links:
@@ -57,9 +59,3 @@ Presentation from the [NHS RPySOC 2025 Conference](https://github.com/nhs-r-comm
 ```
 
 <br>
-
-## Project status
-
-**Status: {{< meta status >}}**
-
-**Rationale:** Well-structured R package and interactive tool with comprehensive documentation.

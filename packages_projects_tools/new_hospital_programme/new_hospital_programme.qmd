@@ -10,6 +10,8 @@ image: nationally_consistent_approach.png
 author:
   - name: The Strategy Unit
 pub-info:
+  rationale-for-status: |
+    Extensive documentation, robust quality assurance, modular design, and transparent, actively maintained processes.
   abstract: |
     The Demand and Capacity Modelling Tool, developed by the Strategy Unit for DHSC and its partners, supports robust and transparent forecasting of future hospital activity to inform the design and scaling of over 40 new hospitals planned by 2030.
   links:
@@ -54,9 +56,3 @@ Quality assurance plan and log managed using GitHub Projects at <https://github.
 This is explained in their [presentation from the NHS RPySOC 2025 Conference](https://statsrhian.github.io/qa-in-github/).
 
 <br>
-
-## Project status
-
-**Status: {{< meta status >}}**
-
-**Rationale:** Extensive documentation, robust quality assurance, modular design, and transparent, actively maintained processes.

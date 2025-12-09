@@ -9,6 +9,8 @@ tool-language: Python
 status: '<span style="color: #888888FF">Silver</span>'
 image: 4b_Predict_emergency_demand_23_0.png
 pub-info:
+  rationale-for-status: |
+    This work currently describes itself as an alpha release. It has been used by UCLH and a hospital in Sweden, but it is not in widespread use beyond that, so may still require modification for your own use case.
   entry-author:
     - name: Sammi Rosser
       url: https://github.com/Bergam0t
@@ -69,9 +71,3 @@ This next talk dives more into the details of the package.
 
 
 <br>
-
-## Project status
-
-**Status: {{< meta status >}}**
-
-**Rationale:** This work currently describes itself as an alpha release. It has been used by UCLH and a hospital in Sweden, but it is not in widespread use beyond that, so may still require modification for your own use case.

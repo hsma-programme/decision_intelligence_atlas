@@ -10,6 +10,8 @@ author:
   - name: Mattia Ficarelli
   - name: Paul Carroll
 pub-info:
+  rationale-for-status: |
+    TBC
   abstract: |
     Initial proof of concept and exploratory analysis for the design of a holistic and interactive mapping tool to support decision-making in health and social care.
   links:
@@ -29,9 +31,3 @@ Using open-source software and publicly accessible datasets we calculate the tra
 ![Example map from the <a href="https://nhsx.github.io/nhs_time_of_travel/">interactive project report</a>.](final_map.png)
 
 <br>
-
-## Project status
-
-**Status: {{< meta status >}}**
-
-**Rationale:** TBC

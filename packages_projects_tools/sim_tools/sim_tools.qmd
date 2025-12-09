@@ -15,6 +15,8 @@ author:
     affiliation: University of Exeter
     orcid: 0000-0001-5274-5037
 pub-info:
+  rationale-for-status: |
+    Python package with documentation website and test suite.
   abstract: |
     Tools to support Discrete-Event Simulation (DES) and Monte-Carlo Simulation education and practice.
   links:
@@ -50,9 +52,3 @@ Package to support discrete-event simulation (DES) and monte-carlo simulation ed
 ![sim-tools logo](simtools_logo_purple.png){width=50%}
 
 <br>
-
-## Project status
-
-**Status: {{< meta status >}}**
-
-**Rationale:** Python package with documentation website and test suite.

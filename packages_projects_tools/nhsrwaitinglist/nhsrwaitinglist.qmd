@@ -24,6 +24,8 @@ author:
     orcid: 0000-0002-3018-6171
   - name: Mohammed Mohammed
 pub-info:
+  rationale-for-status: |
+    Package actively maintained by the NHS-R Community, published on CRAN, with documentation and tests.
   abstract: |
     NHSRwaitinglist is an R package implementing the waiting list management approach described in the paper Understanding Waiting Lists Pressures by Fong et al (2022).
   links:
@@ -57,9 +59,3 @@ These videos (as linked from the [NHSRwaitinglist GitHub](https://github.com/chr
 {{< video https://www.youtube.com/watch?v=3peqTEl_ZAQ >}}
 
 <br>
-
-## Project status
-
-**Status: {{< meta status >}}**
-
-**Rationale:** Package actively maintained by the NHS-R Community, published on CRAN, with documentation and tests.

@@ -12,6 +12,8 @@ status: '<span style="color: #888888FF">Silver</span>'
 toc: true
 image: "app_screenshot.png"
 pub-info:
+  rationale-for-status: |
+    Well-documented with web app, though no tests/packaging/etc.
   abstract: |
     "Shiny app showing the percentage of tumours receiving radiotherapy, Systemic Anti-Cancer Therapy (SACT) and/or a surgical tumour resection as part of the primary course of treatment following diagnosis."
   links:
@@ -31,9 +33,3 @@ pub-info:
 ![Screenshot from the app](app_screenshot.png)
 
 <br>
-
-## Project status
-
-**Status: {{< meta status >}}**
-
-**Rationale:** Well-documented with web app, though no tests/packaging/etc.

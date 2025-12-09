@@ -11,6 +11,8 @@ author:
     affiliation: Health Service Modelling Associates (HSMA), NIHR PenARC
     orcid: # Their ORCID
 pub-info:
+  rationale-for-status: |
+    This project benefits from being built on top of the NHS-R plot the dots package, which is tested and extensively documented. However, documentation for getting started with the power BI visual is lacking some key steps, and it has not received a significant update in some time, lagging behind the latest R package release.
   entry-author:
     - name: Sammi Rosser
       url: https://github.com/Bergam0t
@@ -98,12 +100,6 @@ For a high level overview of multiple metrics, you can use one of the summary ta
 Take a look at our [technique page](../../techniques/spc/spc.qmd) for more information about the theory behind SPC charts.
 
 Looking for some code snippets? Head to our [graph page](../../graph_catalogue/spc/spc.qmd).
-
-## Project status
-
-**Status: {{< meta status >}}**
-
-**Rationale:** This project benefits from being built on top of the NHS-R plot the dots package, which is tested and extensively documented. However, documentation for getting started with the power BI visual is lacking some key steps, and it has not received a significant update in some time, lagging behind the latest R package release.
 
 ## Related Projects
 

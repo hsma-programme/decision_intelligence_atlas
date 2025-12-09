@@ -14,6 +14,8 @@ author:
     orcid: # If you have an ORCID (a unique researcher identifier) you'd like to share, please do
     github: # If you have a github you'd be happy to share, please do
 pub-info:
+  rationale-for-status: |
+    Streamlit is a well-established package with years of development and a substantial team behind it.
   entry-author:
     - name: Sammi Rosser
       url: https://github.com/Bergam0t
@@ -164,10 +166,4 @@ We are keen to hear of success stories within the NHS of people who have success
 
 The free eBook [devops for data science](https://do4ds.com/) may help you speak the language of your IT team.
 
-:::
-
-
-:::{.callout-info}
-## Rationale for Rating
-Streamlit is a well-established package with years of development and a substantial team behind it.
 :::

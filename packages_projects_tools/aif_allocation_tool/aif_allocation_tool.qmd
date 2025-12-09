@@ -11,6 +11,8 @@ author:
 pub-info:
   abstract: |
     Python tool to assist Integrated Care Boards (ICBs) to perform need based allocation based on defined place. It uses the most recently produced GP Registered Practice Populations as well as the weighted populations calculated from the Allocation model for each of its components.
+  rationale-for-status: |
+    TBC
   links:
   - name: Code
     url: https://github.com/nhsx/AIF_Allocation_Tool
@@ -36,9 +38,3 @@ The tool allows a new 'place' to be defined in an ICB as a cluster of GP practic
 ```
 
 <br>
-
-## Project status
-
-**Status: {{< meta status >}}**
-
-**Rationale:** TBC

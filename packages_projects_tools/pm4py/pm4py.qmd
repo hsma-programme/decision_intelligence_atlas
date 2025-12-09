@@ -9,6 +9,8 @@ tool-language: Python
 status: '<span style="color: #D18B12FF">Gold</span>'
 image: pm4py.png
 pub-info:
+  rationale-for-status: |
+    Actively maintained and widely used Python library with extensive features and user documentation.
   entry-author:
     - name: Sammi Rosser
       url: https://github.com/Bergam0t
@@ -70,9 +72,3 @@ You can try the package out in the web app embedded below (it may take a moment 
 ```
 
 <br>
-
-## Project status
-
-**Status: {{< meta status >}}**
-
-**Rationale:** Actively maintained and widely used Python library with extensive features and user documentation.

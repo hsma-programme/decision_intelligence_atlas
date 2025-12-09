@@ -16,6 +16,8 @@ author:
       affiliation: Health Service Modelling Associates Programme (HSMA), NIHR PenArc, University of Exeter
       url: https://experts.exeter.ac.uk/19916-daniel-chalk/about
 pub-info:
+  rationale-for-status: |
+    Module written by an experienced team of academics with over a decade in the operational research and data science space, with input from an ex-NHS data scientist.
   entry-author:
     - name: Sammi Rosser
       url: https://github.com/Bergam0t
