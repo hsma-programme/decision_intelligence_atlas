@@ -89,7 +89,7 @@ listing:
 
   - id: other
     exclude:
-      tool-language: "{Python,R,Julia,PowerBI,Excel,Tableau,Meta}"
+      tool-language: "{Python,R,Julia,PowerBI,Excel,Tableau,Meta,Desktop or Web End‑user Application}"
     type: grid
     grid-columns: 2
     categories: true
