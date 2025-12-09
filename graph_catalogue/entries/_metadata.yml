@@ -2,9 +2,7 @@
 date-format: "DD MMMM YYYY"
 
 # Default for table of contents
-toc: true
-toc-title: Contents
-toc-location: right
+toc: false
 
 # Default knitr options
 execute:

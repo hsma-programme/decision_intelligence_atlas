@@ -1,5 +1,5 @@
 ---
-title: "Making Data Count: the SPC multiple chart tool"
+title: "Making Data Count: the SPC single and multiple chart tool"
 categories:
   - Statistical Process Control
 tool-language:
@@ -11,11 +11,14 @@ author:
     affiliation: # Their organisation/institution
     orcid: # Their ORCID
 pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i>
+  rationale-for-status : |
+    While these templates have been used extensively, they are inherently limited in terms of their transparency, testability and robustness due to being written in Excel.
   entry-author:
     - name: Sammi Rosser
       url: https://github.com/Bergam0t
   abstract: |
-    These Excel templates support the creation of statistical process control charts.
+    These Excel templates support the creation of statistical process control charts adhering to the making data count rules and style.
   links:
   - name: Code
     url: # Enter a URL here if relevant
@@ -74,13 +77,6 @@ This video covers the use of the single plot tool.
 Take a look at our [technique page](../../techniques/spc/spc.qmd) for more information about the theory behind SPC charts.
 
 Looking for some code snippets? Head to our [graph page](../../graph_catalogue/spc/spc.qmd).
-
-## Project status
-
-**Status: {{< meta status >}}**
-
-**Rationale:** Please place a short description of your reasoning for the rating you have applied
-
 
 ## Related Projects
 

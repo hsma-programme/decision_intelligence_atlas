@@ -84,6 +84,8 @@ jobs:
           toc: true
           image:
           pub-info:
+            rationale-for-status: |
+              "${{ fromJSON(steps.extract.outputs.json).status_reason }}"
             entry-author:
               - name: "${{ fromJSON(steps.extract.outputs.json).entry_author }}"
                 url: "${{ fromJSON(steps.extract.outputs.json).entry_author_url }}"

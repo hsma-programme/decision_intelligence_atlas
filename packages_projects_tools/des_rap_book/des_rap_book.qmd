@@ -24,6 +24,9 @@ author:
     affiliation: University of Exeter Business School
     orcid: 0000-0001-5274-5037
 pub-info:
+  project-type: <i class="fa-solid fa-user-graduate"></i>
+  rationale-for-status: |
+    This resource guides users in building "Gold" standard models - well-documented, tested, and structured as packages - with four complete examples illustrating these best practices.
   abstract: |
     DES RAP Book is an open resource and website for building discrete-event simulation (DES) models within a reproducible analytical pipeline (RAP), supporting the healthcare simulation community. The resource demonstrates practical, code-based workflows and tools to help researchers and practitioners develop, validate, and share DES models in Python (SimPy) and R (simmer), ensuring models are reproducible.
   links:
@@ -77,9 +80,3 @@ Key features include:
 To view the book, click on the image below or go to <https://pythonhealthdatascience.github.io/des_rap_book/>.
 
 <br>
-
-## Project status
-
-**Status: {{< meta status >}}**
-
-**Rationale:** This resource guides users in building "Gold" standard models - well-documented, tested, and structured as packages - with four complete examples illustrating these best practices.

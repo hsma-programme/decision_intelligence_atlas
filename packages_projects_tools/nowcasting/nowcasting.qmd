@@ -8,15 +8,28 @@ tool-language:
   - PowerBI
 status: '<span style="color: #893400FF">Bronze</span>'
 image: nowcasts.png
+author:
+  - name: Richard Wood (R implementation)
+    affiliation: Bristol, North Somerset and South Gloucestershire ICB
+    orcid: 0000-0002-3476-395X
+  - name: Sammi Rosser (PowerBI implementation)
+    affiliation: Health Service Modelling Associates Programme (HSMA), NIHR PenArc, University of Exeter (Devon Partnership Trust at time of work)
+    url: https://github.com/Bergam0t
 pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i> <i class="fa-solid fa-user-graduate"></i>
+  rationale-for-status: |
+    Useful script for short-term operational forecasting. As it is a single script, and does not have documentation, tests or extra features, this has been rated as "Bronze".
   entry-author:
     - name: Sammi Rosser
       url: https://github.com/Bergam0t
   abstract: |
     Nowcasting uses real-time data and statistical modelling to estimate what is happening right now — before all information has fully arrived. In healthcare, it helps anticipate short-term trends such as hospital admissions or bed occupancy, enabling faster, data-informed operational decisions even when reporting delays or incomplete data make the current situation unclear.
   links:
-  - name: Code
+  - name: Code - R
     url: https://github.com/nhs-bnssg-analytics/nowcasts
+    icon: fa-brands fa-github
+  - name: Code - PowerBI Visual
+    url: https://github.com/Bergam0t/nowcasts-power-bi
     icon: fa-brands fa-github
   - name: Documentation
     url:
@@ -50,9 +63,3 @@ While it is a comparatively simple approach with its limitations, it does have i
 A PowerBI custom visual, powered by a script based on the original nowcasting repository, is available here: [github.com/Bergam0t/nowcasts-power-bi](https://github.com/Bergam0t/nowcasts-power-bi)
 
 <br>
-
-## Project status
-
-**Status: {{< meta status >}}**
-
-**Rationale:** Useful script for short-term operational forecasting. As it is a single script, and does not have documentation, tests or extra features, this has been rated as "Bronze".

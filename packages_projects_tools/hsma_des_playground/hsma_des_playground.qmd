@@ -14,6 +14,9 @@ author:
       affiliation: Health Service Modelling Associates Programme (HSMA), NIHR PenArc, University of Exeter
       url: https://github.com/Bergam0t
 pub-info:
+  project-type: <i class="fa-solid fa-user-graduate"></i>
+  rationale-for-status: |
+    App that has been tested in practice with reasonably large groups and shown itself to be stable. The underlying model is based on code written by an academic with extensive experience in simulation, and is itself based on a published example system.
   entry-author:
     - name: Sammi Rosser
       url: https://github.com/Bergam0t

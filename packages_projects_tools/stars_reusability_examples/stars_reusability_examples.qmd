@@ -21,6 +21,9 @@ status: '<span style="color: #888888FF">Silver</span>'
 toc: true
 image: stars.jpg
 pub-info:
+  project-type: <i class="fa-solid fa-user-graduate"></i>
+  rationale-for-status: |
+    Scripts and packages with limited documentation, tests and maintenance.
   abstract: |
     Three examples of discrete-event simulation models implementing the STARS Reusability Framework. This includes simulation models (SimPy, ciw), web apps (streamlit, shiny) and documentation.
   links:
@@ -110,9 +113,3 @@ Table from [Monks et al. 2024](https://doi.org/10.1080/17477778.2024.2347882):
 **DOI:** <https://doi.org/10.5281/zenodo.10051495>
 
 <br>
-
-## Project status
-
-**Status: {{< meta status >}}**
-
-**Rationale:** Scripts and packages with limited documentation, tests and maintenance.

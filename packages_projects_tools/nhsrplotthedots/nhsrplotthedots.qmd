@@ -7,6 +7,9 @@ tool-language: R
 status: '<span style="color: #D18B12FF">Gold</span>'
 image: nhsrplotthedots.png
 pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i>
+  rationale-for-status: |
+    This package has a strong codebase with automated testing, ongoing maintenance and development, and strong documentation. It believe it has been used in a variety of organisations for reporting.
   entry-author:
     - name: Sammi Rosser
       url: https://github.com/Bergam0t
@@ -56,11 +59,6 @@ Looking for some code snippets? Head to our [graph page](../../graph_catalogue/s
 
 <br>
 
-## Project status
-
-**Status: {{< meta status >}}**
-
-**Rationale:** This package has a strong codebase with automated testing, ongoing maintenance and development, and strong documentation. It believe it has been used in a variety of organisations for reporting.
 
 
 ## Related Projects

@@ -13,6 +13,9 @@ author:
   - name: Sam Vautier
     affiliation: Somerset NHS Foundation Trust
 pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i>
+  rationale-for-status: |
+     Package with some tests, though no documentation.
   abstract: |
     Wait list simulation framework in development by the Somerset NHS FT DS & Improvement team.
   links:
@@ -21,9 +24,3 @@ pub-info:
     icon: fa-brands fa-github
 date: "2025-11-24T15:14:40+00:00"
 ---
-
-## Project status
-
-**Status: {{< meta status >}}**
-
-**Rationale:** Package with some tests, though no documentation.

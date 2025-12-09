@@ -25,6 +25,8 @@ author:
   - name: Matthew Howells
   - name: Galen Seilis
 pub-info:
+  rationale-for-status: |
+    Maintained package written by a team of academics, with documentation and tests.
   entry-author:
     - name: Sammi Rosser
       url: https://github.com/Bergam0t
@@ -49,9 +51,3 @@ date: "2025-11-21T10:36:10+00:00"
 "Ciw is a discrete event simulation library for open queueing networks. It’s core features include the capability to simulate networks of queues, multiple customer classes, and implementation of Type I blocking for restricted networks." ([source](https://github.com/CiwPython/Ciw))
 
 <br>
-
-## Project status
-
-**Status: {{< meta status >}}**
-
-**Rationale:** Maintained package with documentation and tests.

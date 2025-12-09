@@ -11,6 +11,8 @@ author:
   - name: Maintainer volunteers
     affiliation:  JuliaDynamics and QuantumSavory organisations
 pub-info:
+  rationale-for-status: |
+    One of the longest-lived Julia packages, actively maintained, with documentation and testing.
   abstract: |
     A discrete event process oriented simulation framework (formerly SimJulia) written in Julia inspired by the Python library SimPy.
   links:
@@ -26,9 +28,3 @@ date: "2025-11-24T14:34:55+00:00"
 "ConcurrentSim is a discrete-event process-oriented simulation framework written in Julia inspired by the Python library SimPy. Its process dispatcher is based on semi-coroutines scheduling as implemented in ResumableFunctions or ResumableFunctions. A `Process` in ConcurrentSim is defined by a `@resumable function` yielding `Events`. ConcurrentSim provides three types of shared resources to model limited capacity congestion points: `Resources`, `Containers` and `Stores`. The API is modeled after the SimPy API but some specific Julia semantics are used." ([source](https://juliadynamics.github.io/ConcurrentSim.jl/stable/))
 
 <br>
-
-## Project status
-
-**Status: {{< meta status >}}**
-
-**Rationale:** One of the longest-lived Julia packages, actively maintained, with documentation and testing.

@@ -12,6 +12,9 @@ author:
   - name: Jonny Pearson
     affiliation: Digital Analytics and Research Team (DART)
 pub-info:
+  project-type: <i class="fa-solid fa-user-graduate"></i>
+  rationale-for-status: |
+    TBC
   abstract: |
     Discrete Event Simulation in RSimmer of Ambulance Job Cycle Times.
   links:
@@ -31,9 +34,3 @@ date: "2025-11-21T10:36:10+00:00"
 * An example of using the open R library RSimmer for a healthcare discrete event simulation. We have tried to include enough information around the approach and considerations to be useful for wider simulations." ([source](https://nhsengland.github.io/AmbModelOpen/))
 
 <br>
-
-## Project status
-
-**Status: {{< meta status >}}**
-
-**Rationale:** TBC.

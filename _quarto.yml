@@ -39,11 +39,16 @@ website:
   navbar:
     title: false
     collapse-below: "lg"
+    logo: "resources/atlas_logo_outline_transparent_white.png"
     tools:
       - icon: github
         menu:
-          - text: View the code for this website
-            href:  https://github.com/bergam0t/decision_intelligence_atlas
+          - text: Submit an Atlas entry or a bug report
+            href: https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose
+          - text: View the code for the Atlas
+            href: https://github.com/hsma-programme/decision_intelligence_atlas
+          - text: View planned Atlas entries
+            href: https://github.com/orgs/hsma-programme/projects/2/views/7
     right:
       - href: index.qmd
         text: Welcome

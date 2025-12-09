@@ -11,6 +11,9 @@ status: '<span style="color: #893400FF">Bronze</span>'
 toc: true
 image: "report_header.png"
 pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i>
+  rationale-for-status: |
+    Limited documentation and parameterisation, no tests, so would require reworking for reuse and adaptation.
   abstract: |
     RAP code used for the Cancer Registration Statistics for England in 2020.
   links:
@@ -33,9 +36,3 @@ The incidence and mortality code extracts and formats the data before producing 
 The incidence section extraction covers the period 1995 to 2020 so requires two sets code so each period (1995 to 2000 and 2001 to 2020) can be merged with the relevant formatted population extracts. The code for 2001 to 2020 includes the sections that estimates incidence by stage at diagnosis and by deprivation quintile. There are analysis files to produce a report on the data quality used in the incidence estimates and to estimate the stage completeness." ([source](https://github.com/NHSE-NDRS/Cancer-Registrations))
 
 <br>
-
-## Project status
-
-**Status: {{< meta status >}}**
-
-**Rationale:** Limited documentation and parameterisation, no tests, so would require reworking for reuse and adaptation.
