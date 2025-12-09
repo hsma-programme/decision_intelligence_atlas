@@ -15,6 +15,7 @@ author:
   - name: Sam Vautier
     affiliation: Somerset NHS Foundation Trust
 pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i>
   rationale-for-status: |
     TBC
   abstract: |

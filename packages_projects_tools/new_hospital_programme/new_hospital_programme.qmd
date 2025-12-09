@@ -10,6 +10,7 @@ image: nationally_consistent_approach.png
 author:
   - name: The Strategy Unit
 pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i>
   rationale-for-status: |
     Extensive documentation, robust quality assurance, modular design, and transparent, actively maintained processes.
   abstract: |

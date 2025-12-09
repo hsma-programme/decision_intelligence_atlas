@@ -7,6 +7,7 @@ tool-language: Python
 status: '<span style="color: #893400FF">Bronze</span>'
 image: image.png
 pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i>
   rationale-for-status: |
     This package has had solid initial development but is described as being in alpha and not ready for use in production. In addition, it has been archived; it is presumed the package is looking for new developers/maintainers.
   entry-author:

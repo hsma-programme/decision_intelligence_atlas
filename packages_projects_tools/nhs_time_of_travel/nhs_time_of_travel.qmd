@@ -10,6 +10,7 @@ author:
   - name: Mattia Ficarelli
   - name: Paul Carroll
 pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i>
   rationale-for-status: |
     TBC
   abstract: |

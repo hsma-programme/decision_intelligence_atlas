@@ -11,6 +11,7 @@ status: '<span style="color: #893400FF">Bronze</span>'
 toc: true
 image: "report_header.png"
 pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i>
   rationale-for-status: |
     Limited documentation and parameterisation, no tests, so would require reworking for reuse and adaptation.
   abstract: |

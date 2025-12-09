@@ -6,7 +6,21 @@ categories:
 tool-language: R
 status: '<span style="color: #888888FF">Silver</span>'
 image: docs_screenshot.png
+author:
+  - name: Sebastian Fox
+    affiliation: Bristol, North Somerset and South Gloucestershire ICB (SW Decision Support Network); Public Health England
+    orcid: 0000-0002-2832-773X
+  - name: Richard Wood
+    affiliation: Bristol, North Somerset and South Gloucestershire ICB
+    orcid: 0000-0002-3476-395X
+  - name: Richard Blackwell
+    affiliation: Health Innovation South West
+  - name: Simon Wellesley-Miller
+    affiliation: NHS England (South West Region)
+  - name: Neil Walton
+    affiliation: Durham University Business School
 pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i> <i class="fa-solid fa-user-graduate"></i>
   rationale-for-status: |
     This work has been undertaken by an experienced team of modellers. There is excellent documentation and good automated test coverage.
     However, it is not yet available on CRAN, requiring the code to be installed from GitHub, so it has not undertaken the review process that packages on CRAN go through.

@@ -9,11 +9,13 @@
               <img class="card-img" src="<%- item.image %>" alt="<%- item.title %>" class="card-img-top"/>
                   </a>
                 <% } %>
-              
+
 
             <div class="project-content listing-title">
                 <h5 class="no-anchor card-title listing-title">
-                  <a href="<%- item.path %>" class="title-link"><%= item['title'] %></a>
+                  <a href="<%- item.path %>" class="title-link"><%= item['title'] %>
+                    <% if(item['pub-info']['project-type']) { %><%= item['pub-info']['project-type'] %><% } %>
+                  </a>
                 </h5>
             </div>
 

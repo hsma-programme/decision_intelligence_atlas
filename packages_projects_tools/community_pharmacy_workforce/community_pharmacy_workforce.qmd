@@ -11,6 +11,7 @@ author:
   - name: Chaeyoon Kim
     affiliation: NHS England
 pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i>
   rationale-for-status: |
     Package structure and a clear README makes this project easy to use and understand. Rated silver as doesn't have tests or further documentation.
   abstract: |

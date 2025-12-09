@@ -12,6 +12,7 @@ author:
 status: '<span style="color: #888888FF">Silver</span>'
 image: vidigi.gif
 pub-info:
+  project-type: <i class="fa-solid fa-user-graduate"></i>
   rationale-for-status: |
     Actively maintained package, ranked "Silver" as it is still under development and the test coverage needs expanding.
   entry-author:

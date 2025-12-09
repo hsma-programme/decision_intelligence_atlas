@@ -21,6 +21,7 @@ author:
     affiliation: Cardiff University
     orcid: 0000-0001-7865-6964
 pub-info:
+  project-type: <i class="fa-solid fa-user-graduate"></i>
   rationale-for-status: |
     The code is well organised and thoughtfully designed with reuse in mind, but there remains room for improvement, such as testing and more comprehensive documentation.
   abstract: |

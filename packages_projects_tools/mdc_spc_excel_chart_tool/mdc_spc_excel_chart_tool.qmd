@@ -11,6 +11,7 @@ author:
     affiliation: # Their organisation/institution
     orcid: # Their ORCID
 pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i>
   rationale-for-status : |
     While these templates have been used extensively, they are inherently limited in terms of their transparency, testability and robustness due to being written in Excel.
   entry-author:

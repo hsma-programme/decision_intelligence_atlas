@@ -8,9 +8,10 @@ status: '<span style="color: #893400FF">Bronze</span>'
 image: filter.png
 author:
   - name: Sammi Rosser
-    affiliation: Health Service Modelling Associates (HSMA), NIHR PenARC
+    affiliation: Health Service Modelling Associates (HSMA), NIHR PenARC (Devon Partnership Trust at time of project)
     orcid: # Their ORCID
 pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i> <i class="fa-solid fa-user-graduate"></i>
   rationale-for-status: |
     This project benefits from being built on top of the NHS-R plot the dots package, which is tested and extensively documented. However, documentation for getting started with the power BI visual is lacking some key steps, and it has not received a significant update in some time, lagging behind the latest R package release.
   entry-author:

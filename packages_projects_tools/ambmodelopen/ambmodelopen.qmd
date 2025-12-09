@@ -12,6 +12,7 @@ author:
   - name: Jonny Pearson
     affiliation: Digital Analytics and Research Team (DART)
 pub-info:
+  project-type: <i class="fa-solid fa-user-graduate"></i>
   rationale-for-status: |
     TBC
   abstract: |

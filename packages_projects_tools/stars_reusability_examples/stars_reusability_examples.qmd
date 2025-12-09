@@ -21,6 +21,7 @@ status: '<span style="color: #888888FF">Silver</span>'
 toc: true
 image: stars.jpg
 pub-info:
+  project-type: <i class="fa-solid fa-user-graduate"></i>
   rationale-for-status: |
     Scripts and packages with limited documentation, tests and maintenance.
   abstract: |

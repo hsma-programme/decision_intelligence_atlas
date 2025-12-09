@@ -97,21 +97,50 @@ listing:
     sort: Title
 ---
 
+
+<style>
+.value-box-simple {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5rem;
+  border-radius: 10px;
+  color: white;
+  min-height: 180px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease;
+  text-decoration: none;   /* remove underline on the whole card */
+}
+
+.bg-amber { background-color:rgb(211, 123, 0) ; }
+
+</style>
+
 This page contains showcase of projects, code packages, scripts and other resources that may be of use to people working in healthcare or related services.
 
 **Want to suggest an addition to this page? Head to our [contributor guide](../about/contributing.qmd) to find out more - coding entirely optional.**
 
-::: callout-warning
-Please note that inclusion of a tool on this site does not imply that the HSMA team, or any other Atlas contributors, have reviewed these tools in detail. This resource is designed to act as a signpost to the work that is out there, and provide a high-level indication of the health of any given project, but **you should always conduct your own reviews of the suitability of any of these tools and techniques for your own use case.**
+::: {.value-box-simple .bg-amber}
 
-Inclusion of a tool on this page also does not indicate endorsement of the tool author of the HSMA programme, the Atlas, or the description written of the tool.
+Please note that inclusion of a tool on this site does not imply that the HSMA team, NIHR, or any other Atlas contributors, have reviewed these tools in detail. This resource is designed to act as a signpost to the work that is out there, and provide a high-level indication of the health of any given project, but **you should always conduct your own reviews of the suitability of any of these tools and techniques for your own use case.**
+
+Inclusion of a tool on this page also does not indicate endorsement of the tool author of the HSMA programme, NIHR, the Atlas, or the description written of the tool.
 
 If you have any concerns, or would like any content to be removed, please [raise an issue on the repository](https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose).
+
 :::
+
+<br/>
+
+<i class="fa-solid fa-hospital"></i> indicates a project, package or tool has been written by a team in the NHS, public health England, or a similar organisation
+
+<i class="fa-solid fa-user-graduate"></i> indicates a project, package or tool has been written by academics, though often they will be working in partnership with NHS organisations in some manner
+
+Entries without an icon are general-purpose tools used more widely for analytics or data science.
 
 :::{.callout-note appearance="simple" collapse="true"}
 
-### Click here to view what the project statuses mean
+### Click here to view what the project statuses (bronze, silver, gold) mean
 
 +--------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Status | Description                                                                                                                                                               |

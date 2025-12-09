@@ -22,6 +22,7 @@ author:
     affiliation: # Their organisation/institution
     orcid: # Their ORCID
 pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i> <i class="fa-solid fa-user-graduate"></i> # Delete as appropriate depending on whether the tool is an NHS project or an academia-supported project. If it is neither (i.e. it's a general purpose tool), remove both, as well as this comment, and leave this blank.
   rationale-for-status: | # Replace the 'TBC' below with the reasoning for why you think this deserves the given status/ranking
     TBC
   entry-author:

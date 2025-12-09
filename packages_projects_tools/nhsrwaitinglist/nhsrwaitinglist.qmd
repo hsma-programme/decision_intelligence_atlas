@@ -24,6 +24,7 @@ author:
     orcid: 0000-0002-3018-6171
   - name: Mohammed Mohammed
 pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i> <i class="fa-solid fa-user-graduate"></i>
   rationale-for-status: |
     Package actively maintained by the NHS-R Community, published on CRAN, with documentation and tests.
   abstract: |

@@ -24,6 +24,7 @@ author:
     affiliation: University of Exeter Business School
     orcid: 0000-0001-5274-5037
 pub-info:
+  project-type: <i class="fa-solid fa-user-graduate"></i>
   rationale-for-status: |
     This resource guides users in building "Gold" standard models - well-documented, tested, and structured as packages - with four complete examples illustrating these best practices.
   abstract: |

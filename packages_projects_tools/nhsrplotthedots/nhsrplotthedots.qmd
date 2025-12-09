@@ -7,6 +7,7 @@ tool-language: R
 status: '<span style="color: #D18B12FF">Gold</span>'
 image: nhsrplotthedots.png
 pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i>
   rationale-for-status: |
     This package has a strong codebase with automated testing, ongoing maintenance and development, and strong documentation. It believe it has been used in a variety of organisations for reporting.
   entry-author:
