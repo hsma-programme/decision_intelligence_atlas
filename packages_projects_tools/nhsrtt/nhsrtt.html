@@ -6,7 +6,12 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-12-08">
+<meta name="author" content="Sebastian Fox">
+<meta name="author" content="Richard Wood">
+<meta name="author" content="Richard Blackwell">
+<meta name="author" content="Simon Wellesley-Miller">
+<meta name="author" content="Neil Walton">
+<meta name="dcterms.date" content="2025-12-09">
 
 <title>nhsrtt: a package for seeing how changes in future treatment capacity affect the waiting list size and performance – The Healthcare Service Analytics &amp; Decision Intelligence Atlas</title>
 <style>
@@ -280,6 +285,11 @@ cookieconsent.run({
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../resources/atlas_logo_outline_transparent_white.png" alt="" class="navbar-logo">
+    </a>
+  </div>
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
@@ -317,8 +327,18 @@ cookieconsent.run({
       <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-github"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
           <li>
-            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/bergam0t/decision_intelligence_atlas">
-            View the code for this website
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose">
+            Submit an Atlas entry or a bug report
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/hsma-programme/decision_intelligence_atlas">
+            View the code for the Atlas
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/orgs/hsma-programme/projects/2/views/7">
+            View planned Atlas entries
             </a>
           </li>
       </ul>
@@ -344,17 +364,19 @@ cookieconsent.run({
         <!-- Content layer -->
         <!-- <div class="quarto-title-banner" style="position: relative; z-index: 1; width: 100%; margin-left: auto; margin-right: auto; text-align: center;"> -->
         <div class="quarto-title-banner page-columns page-full">
-            <div class="quarto-title column-page-left">
+            <div class="quarto-title column-page">
                                                 <div class="quarto-categories">
                                         <div class="quarto-category">Waiting Lists</div>
                                         <div class="quarto-category">Forecasting</div>
                                     </div>
-                                                <h1 class="title">nhsrtt: a package for seeing how changes in future treatment capacity affect the waiting list size and performance</h1>
+                                                <h1 class="title">nhsrtt: a package for seeing how changes in future treatment capacity affect the waiting list size and performance <i class="fa-solid fa-hospital"></i> <i class="fa-solid fa-user-graduate"></i></h1>
                                                                 <br>
                 <div class="abstract">
                     <b>Summary</b>
                     <p>NHSRtt is an R package, providing analysts with a simple stock-and-flow modelling framework for NHS referral-to-treatment (RTT) data. The tool supports scenario testing and planning for elective care pathways by translating patient flow data into projections of waiting list size and treatment demand.</p>
-                </div>
+                                        Rating: <span style="color: #888888FF">Silver</span>
+                                        <p>This work has been undertaken by an experienced team of modellers. There is excellent documentation and good automated test coverage. However, it is not yet available on CRAN, requiring the code to be installed from GitHub, so it has not undertaken the review process that packages on CRAN go through.</p>
+                                                        </div>
                 
                                 <div class="project-link-buttons">
                     <ul class="project-links">
@@ -370,14 +392,59 @@ cookieconsent.run({
         </div>
     <!-- </div> -->
 
-    
-    <div class="quarto-title-meta column-page-left">
+    <div class="quarto-title-meta-author column-page">
+      <div class="quarto-title-meta-heading">Authors</div>
+      <div class="quarto-title-meta-heading">Affiliations</div>
+      
+        <div class="quarto-title-meta-contents">
+        <p class="author">Sebastian Fox <a href="https://orcid.org/0000-0002-2832-773X" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+      </div>
+      <div class="quarto-title-meta-contents">
+            <p class="affiliation">
+                Bristol, North Somerset and South Gloucestershire ICB (SW Decision Support Network); Public Health England
+              </p>
+          </div>
+        <div class="quarto-title-meta-contents">
+        <p class="author">Richard Wood <a href="https://orcid.org/0000-0002-3476-395X" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+      </div>
+      <div class="quarto-title-meta-contents">
+            <p class="affiliation">
+                Bristol, North Somerset and South Gloucestershire ICB
+              </p>
+          </div>
+        <div class="quarto-title-meta-contents">
+        <p class="author">Richard Blackwell </p>
+      </div>
+      <div class="quarto-title-meta-contents">
+            <p class="affiliation">
+                Health Innovation South West
+              </p>
+          </div>
+        <div class="quarto-title-meta-contents">
+        <p class="author">Simon Wellesley-Miller </p>
+      </div>
+      <div class="quarto-title-meta-contents">
+            <p class="affiliation">
+                NHS England (South West Region)
+              </p>
+          </div>
+        <div class="quarto-title-meta-contents">
+        <p class="author">Neil Walton </p>
+      </div>
+      <div class="quarto-title-meta-contents">
+            <p class="affiliation">
+                Durham University Business School
+              </p>
+          </div>
+      </div>
 
-        
+    <div class="quarto-title-meta column-page">
+
+          
         <div>
         <div class="quarto-title-meta-heading">Page last modified</div>
         <div class="quarto-title-meta-contents">
-          <p class="date">08 December 2025</p>
+          <p class="date">09 December 2025</p>
         </div>
       </div>
       
@@ -387,17 +454,11 @@ cookieconsent.run({
     </div></header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Contents</h2>
-   
-  <ul>
-  <li><a href="#project-status" id="toc-project-status" class="nav-link active" data-scroll-target="#project-status">Project status</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 <script src="../../resources/finisher-header.es5.min.js" type="text/javascript"></script>
 <script type="text/javascript">
@@ -515,13 +576,8 @@ new FinisherHeader({
 <p>The core idea is to implement a stock-and-flow model of activity: patients flow into the waiting-list (‘stock’), are treated or removed (‘outflow’), and the model tracks how these stocks evolve under different demand and capacity conditions.</p>
 <p>The second repository contains a packaged shiny app that calls on the main model, allowing users to experiment with different scenarios without having to change parameters in code.</p>
 <p><br></p>
-<section id="project-status" class="level2">
-<h2 class="anchored" data-anchor-id="project-status">Project status</h2>
-<p><strong>Status: <span style="color: #888888FF">Silver</span></strong></p>
-<p><strong>Rationale:</strong> This work has been undertaken by an experienced team of modellers. There is excellent documentation and good automated test coverage. However, it is not yet available on CRAN, requiring the code to be installed from GitHub, so it has not undertaken the review process that packages on CRAN go through.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
