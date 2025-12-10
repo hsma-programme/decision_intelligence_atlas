@@ -25,7 +25,7 @@ pub-info:
   rationale-for-status: |
     The code is well organised and thoughtfully designed with reuse in mind, but there remains room for improvement, such as testing and more comprehensive documentation.
   abstract: |
-    Hybrid simulation model for a trauma and orthopaedics department, combining system dynamics and discrete-event simulation.
+    This is a hybrid simulation model for a trauma and orthopaedics department. This combines system dynamics to model patient deterioration while waiting for a General Practitioner (GP) referral in Primary Care, and a discrete event simulation (DES)  to model the patient journey through an Orthopaedic department.
   links:
   - name: Code
     url: https://github.com/MHowells/HybridSimModel

@@ -31,7 +31,7 @@ pub-info:
     - name: Sammi Rosser
       url: https://github.com/Bergam0t
   abstract: |
-    A discrete event simulation library for queueing networks.
+    Ciw is a discrete event simulation (DES) library. It is helpful for building simulations of pathways and services, allowing 'what-if' questions to be tested. Rather than being a general-purpose DES framework like SimPy, Ciw involves defining key elements of your queuing network, and can be a quicker approach for more straightforward models as you don't have to write so much of the logic from scratch.
   links:
   - name: Code
     url: https://github.com/CiwPython/Ciw

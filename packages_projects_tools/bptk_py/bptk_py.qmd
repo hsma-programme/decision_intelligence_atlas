@@ -15,7 +15,7 @@ pub-info:
   rationale-for-status: |
     Package with active and ongoing maintenance, test suite, and documentation.
   abstract: |
-    "BPTK-Py is a Python package for building simulation models using System Dynamics and agent-based modeling."
+    BPTK-Py is used for the creation of System Dynamics and agent-based simulation models, providing a code-based way of structuring, experimenting with and reproducing these models. These kinds of models are helpful for understanding how complex healthcare systems may react to changes, with system dynamics excelling at 'big picture' modelling of groups and their flows through systems, and agent-based simulation excelling at looking at the overall outcomes arising from the behaviour of individuals.
   links:
   - name: Code
     url: "https://github.com/transentis/bptk_py"

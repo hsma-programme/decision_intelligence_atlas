@@ -26,7 +26,7 @@ pub-info:
     - name: Sammi Rosser
       url: https://github.com/Bergam0t
   abstract: |
-    The Little Book of Discrete Event Simulation (DES) is a free eBook written to accompany the DES module of the Health Service Modelling Associates (HSMA) programme. The book takes you from being a complete beginner in DES through to creating complex models with a web interface. This Python resource primarily focusses on the SimPy package, also touching on Streamlit and various supporting packages.
+    The Little Book of Discrete Event Simulation (DES) is a free eBook written to accompany the DES module of the Health Service Modelling Associates (HSMA) programme. DES is a technique used for building simulations of pathways and services, allowing 'what-if' questions to be tested. The book takes you from being a complete beginner in DES through to creating complex models with a web interface. This Python resource primarily focusses on the SimPy package, also touching on Streamlit and various supporting packages.
   links:
   - name: Code
     url: https://github.com/hsma-programme/hsma6_des_book

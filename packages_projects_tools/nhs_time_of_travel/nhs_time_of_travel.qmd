@@ -14,7 +14,7 @@ pub-info:
   rationale-for-status: |
     TBC
   abstract: |
-    Initial proof of concept and exploratory analysis for the design of a holistic and interactive mapping tool to support decision-making in health and social care.
+    Initial proof of concept and exploratory analysis for the design of a holistic and interactive mapping tool to support decision-making in health and social care. It provides code that could be adapted for walking time to GP practices in a city, driving time between GP practices and hospitals in busy cities in the absence of traffic-aware routing data, and isochrone (maps showing the areas reachable from a point within a specified time) generation.
   links:
   - name: Code
     url: https://github.com/nhsx/nhs_time_of_travel
