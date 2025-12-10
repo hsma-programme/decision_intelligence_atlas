@@ -44,14 +44,16 @@ body:
   - type: checkboxes
     id: project_type_nhs
     attributes:
+      label: Tick this box if the project had significant contributions from people working in the NHS, public health or other healthcare or government organisation
       options:
-        label: Tick this box if the project had significant contributions from people working in the NHS, public health or other healthcare or government organisation
+        label: Yes
 
   - type: checkboxes
     id: project_type_academia
     attributes:
+      label: Tick this box if the project had significant contributions from people working in academia.
       options:
-        label: Tick this box if the project had significant contributions from people working in academia.
+        label: Yes
 
   - type: textarea
     id: summary
