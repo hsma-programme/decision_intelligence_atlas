@@ -41,18 +41,12 @@ body:
       placeholder: e.g., Databricks
 
   - type: checkboxes
-    id: project_type_nhs
+    id: project_type
     attributes:
-      label: Tick this box if the project had significant contributions from people working in the NHS, public health or other healthcare or government organisation
+      label: Please tick the relevant box if the project had significant contributions from either or both of the following
       options:
-        - label: Yes
-
-  - type: checkboxes
-    id: project_type_academia
-    attributes:
-      label: Tick this box if the project had significant contributions from people working in academia (universities)
-      options:
-        - label: Yes
+        - label: people working in the NHS, public health or other healthcare or government organisation
+        - label: people working in academia (universities)
 
   - type: textarea
     id: summary
@@ -138,7 +132,7 @@ body:
   - type: input
     id: category_other
     attributes:
-      label: If you ticked “Other” in the category, please specify, separating multiple categories with semicolons (;)
+      label: If there are other categories you feel need to be added, please specify, separating multiple categories with semicolons (;)
       placeholder: e.g. Workforce Modelling; Mental Health
 
   - type: dropdown
