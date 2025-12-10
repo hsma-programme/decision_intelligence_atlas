@@ -30,6 +30,26 @@ jobs:
           RAW_MODEL_NAME="${{ fromJSON(steps.extract.outputs.json).model_name }}"
           SAFE_MODEL_NAME=$(echo "$RAW_MODEL_NAME" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/_/g; s/__*/_/g; s/^_*//; s/_*$//')
           echo "safe_model_name=$SAFE_MODEL_NAME" >> $GITHUB_OUTPUT
+      - name: Determine project type icons
+        id: project_type
+        run: |
+          JSON='${{ steps.extract.outputs.json }}'
+
+          # Extract project_type array and check what's selected
+          nhs_checked=$(echo "$JSON" | jq -r '.project_type[]?' | grep -i "people working in the NHS" || echo "")
+          academia_checked=$(echo "$JSON" | jq -r '.project_type[]?' | grep -i "people working in academia" || echo "")
+
+          PROJECT_TYPE_LINE=""
+
+          if [ -n "$nhs_checked" ] && [ -n "$academia_checked" ]; then
+            PROJECT_TYPE_LINE='project-type: <i class="fa-solid fa-hospital"></i><i class="fa-solid fa-user-graduate"></i>'
+          elif [ -n "$nhs_checked" ]; then
+            PROJECT_TYPE_LINE='project-type: <i class="fa-solid fa-hospital"></i>'
+          elif [ -n "$academia_checked" ]; then
+            PROJECT_TYPE_LINE='project-type: <i class="fa-solid fa-user-graduate"></i>'
+          fi
+
+          echo "project_type_line=$PROJECT_TYPE_LINE" >> $GITHUB_OUTPUT
       - name: Create QMD file
         run: |
           mkdir -p "packages_projects_tools/${{ steps.modelname.outputs.safe_model_name }}"
@@ -69,6 +89,14 @@ jobs:
             done <<< "$language_other"
           fi
 
+          # Build project-type line if present
+          PROJECT_TYPE_LINE="${{ steps.project_type.outputs.project_type_line }}"
+          if [ -n "$PROJECT_TYPE_LINE" ]; then
+            PROJECT_TYPE_YAML="  $PROJECT_TYPE_LINE"
+          else
+            PROJECT_TYPE_YAML=""
+          fi
+
           cat > "packages_projects_tools/${{ steps.modelname.outputs.safe_model_name }}/${{ steps.modelname.outputs.safe_model_name }}.qmd" <<EOF
           ---
           title: "${{ fromJSON(steps.extract.outputs.json).model_name }}"
@@ -84,6 +112,7 @@ jobs:
           toc: true
           image:
           pub-info:
+            ${PROJECT_TYPE_YAML}
             rationale-for-status: |
               "${{ fromJSON(steps.extract.outputs.json).status_reason }}"
             entry-author:
