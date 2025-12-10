@@ -25,6 +25,7 @@ author:
   - name: Matthew Howells
   - name: Galen Seilis
 pub-info:
+  project-type: <i class="fa-solid fa-user-graduate"></i>
   rationale-for-status: |
     Maintained package written by a team of academics, with documentation and tests.
   entry-author:
