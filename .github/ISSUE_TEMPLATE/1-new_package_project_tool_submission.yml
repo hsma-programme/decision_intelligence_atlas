@@ -19,7 +19,6 @@ body:
       label: Language or Tool
       description: |
         Select the coding language or other tools that are relevant to this tool, project or package. You may select multiple options from this list.
-
         'Meta' refers to tools that help you do data science and analytics better - things like GitHub or idea like Agile Software Development.
       multiple: true
       options:
@@ -46,14 +45,14 @@ body:
     attributes:
       label: Tick this box if the project had significant contributions from people working in the NHS, public health or other healthcare or government organisation
       options:
-        label: Yes
+        - label: Yes
 
   - type: checkboxes
     id: project_type_academia
     attributes:
-      label: Tick this box if the project had significant contributions from people working in academia.
+      label: Tick this box if the project had significant contributions from people working in academia (universities)
       options:
-        label: Yes
+        - label: Yes
 
   - type: textarea
     id: summary
