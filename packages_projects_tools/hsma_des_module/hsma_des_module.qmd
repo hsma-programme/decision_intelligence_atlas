@@ -23,7 +23,7 @@ pub-info:
     - name: Sammi Rosser
       url: https://github.com/Bergam0t
   abstract: |
-    This is a collection of slides, session recordings, code examples, exercises, exercise solutions and solution videos from the discrete event simulation module of the Health Service Modelling Associates Programme, covering 9 hours of content. It teaches discrete event simulation with the Python SimPy package, assuming no prior knowledge of the package or DES concepts.
+    This is a collection of slides, session recordings, code examples, exercises, exercise solutions and solution videos from the discrete event simulation (DES) module of the Health Service Modelling Associates Programme, covering 9 hours of content. It teaches discrete event simulation with the Python SimPy package, assuming no prior knowledge of the package or DES concepts. DES is helpful for building simulations of pathways and services, allowing 'what-if' questions to be tested.
   links:
   - name: Module
     url: https://hsma.co.uk/hsma_content/modules/current_module_details/2_des.html

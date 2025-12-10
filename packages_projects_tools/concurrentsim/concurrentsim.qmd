@@ -14,7 +14,7 @@ pub-info:
   rationale-for-status: |
     One of the longest-lived Julia packages, actively maintained, with documentation and testing.
   abstract: |
-    A discrete event process oriented simulation framework (formerly SimJulia) written in Julia inspired by the Python library SimPy.
+    A discrete event process oriented simulation framework (formerly SimJulia) written in Julia inspired by the Python library SimPy. It is helpful for building simulations of pathways and services, allowing 'what-if' questions to be tested.
   links:
   - name: Code
     url: https://github.com/JuliaDynamics/ConcurrentSim.jl
