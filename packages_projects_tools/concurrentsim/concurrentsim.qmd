@@ -13,6 +13,11 @@ author:
 pub-info:
   rationale-for-status: |
     One of the longest-lived Julia packages, actively maintained, with documentation and testing.
+  entry-author:
+    - name: Amy Heather
+      url: https://github.com/amyheather
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
   abstract: |
     A discrete event process oriented simulation framework (formerly SimJulia) written in Julia inspired by the Python library SimPy. It is helpful for building simulations of pathways and services, allowing 'what-if' questions to be tested.
   links:

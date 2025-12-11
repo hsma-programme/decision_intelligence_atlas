@@ -27,6 +27,9 @@ pub-info:
   project-type: <i class="fa-solid fa-user-graduate"></i>
   rationale-for-status: |
     This resource guides users in building "Gold" standard models - well-documented, tested, and structured as packages - with four complete examples illustrating these best practices.
+  entry-author:
+    - name: Amy Heather
+      url: https://github.com/amyheather
   abstract: |
     DES RAP Book is an open resource and website for building discrete-event simulation (DES) models within a reproducible analytical pipeline (RAP), supporting the healthcare simulation community. DES models are often used for building simulations of pathways and services, allowing 'what-if' questions to be tested. The resource demonstrates practical, code-based workflows and tools to help researchers and practitioners develop, validate, and share DES models in Python (SimPy) and R (simmer), ensuring models are reproducible.
   links:
@@ -40,6 +43,11 @@ pub-info:
     url: https://pythonhealthdatascience.github.io/des_rap_book/
     icon: fa-solid fa-globe
 date: "2025-11-21T10:36:10+00:00"
+listing:
+  - id: examples
+    contents:
+      - "../des_rap_mms/des_rap_mms.qmd"
+      - "../des_rap_stroke/des_rap_stroke.qmd"
 ---
 
 This practical guide shows you how to build reproducible **discrete-event simulation models** (DES) that fit into a **reproducible analytical pipeline (RAP)**, with tips that benefit all types of models and analysis.
@@ -78,5 +86,10 @@ Key features include:
 ## View the book
 
 To view the book, click on the image below or go to <https://pythonhealthdatascience.github.io/des_rap_book/>.
+
+## Example models
+
+::: {#examples}
+:::
 
 <br>

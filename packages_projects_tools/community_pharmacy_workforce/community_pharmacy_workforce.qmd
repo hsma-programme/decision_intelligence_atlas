@@ -14,6 +14,11 @@ pub-info:
   project-type: <i class="fa-solid fa-hospital"></i>
   rationale-for-status: |
     Package structure and a clear README makes this project easy to use and understand. Rated silver as doesn't have tests or further documentation.
+  entry-author:
+    - name: Amy Heather
+      url: https://github.com/amyheather
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
   abstract: |
     Workforce projection model to support NHS workforce planning for community pharmacy services, with a focus on pharmacists and pharmacy technicians. Using entirely open data (Community Pharmacy Workforce Survey, GPhC registers data and NHSBA Consolidated Pharmaceutical List), it generates workforce projects and gap analysis visualisations for different scenarios.
   links:

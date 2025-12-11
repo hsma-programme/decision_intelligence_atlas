@@ -18,6 +18,9 @@ pub-info:
   project-type: <i class="fa-solid fa-user-graduate"></i>
   rationale-for-status: |
     Python package with documentation website and test suite.
+  entry-author:
+    - name: Amy Heather
+      url: https://github.com/amyheather
   abstract: |
     Tools to support Discrete-Event Simulation (DES) and Monte-Carlo Simulation education and practice.
   links:

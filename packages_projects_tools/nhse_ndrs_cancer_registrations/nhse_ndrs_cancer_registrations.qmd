@@ -14,6 +14,9 @@ pub-info:
   project-type: <i class="fa-solid fa-hospital"></i>
   rationale-for-status: |
     Limited documentation and parameterisation, no tests, so would require reworking for reuse and adaptation.
+  entry-author:
+    - name: Amy Heather
+      url: https://github.com/amyheather
   abstract: |
     RAP code used for the Cancer Registration Statistics for England in 2020.
   links:

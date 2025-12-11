@@ -14,6 +14,11 @@ image: bptk_logo.png
 pub-info:
   rationale-for-status: |
     Package with active and ongoing maintenance, test suite, and documentation.
+  entry-author:
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
+    - name: Amy Heather
+      url: https://github.com/amyheather
   abstract: |
     BPTK-Py is used for the creation of System Dynamics and agent-based simulation models, providing a code-based way of structuring, experimenting with and reproducing these models. These kinds of models are helpful for understanding how complex healthcare systems may react to changes, with system dynamics excelling at 'big picture' modelling of groups and their flows through systems, and agent-based simulation excelling at looking at the overall outcomes arising from the behaviour of individuals.
   links:
