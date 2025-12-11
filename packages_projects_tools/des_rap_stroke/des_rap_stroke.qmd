@@ -1,0 +1,46 @@
+---
+title: "DES RAP: Stroke capacity planning model"
+categories:
+  - Service Planning
+  - Identifying Bottlenecks
+  - RAP
+tool-language:
+  - Python
+  - R
+status: '<span style="color: #D18B12FF">Gold</span>'
+image: stroke_rehab_design.png
+author:
+  - name: Amy Heather
+    affiliation: University of Exeter Medical School
+    orcid: 0000-0002-6596-3479
+  - name: Tom Monks
+    affiliation: University of Exeter Medical School
+    orcid: 0000-0003-2631-4481
+pub-info:
+  project-type: <i class="fa-solid fa-user-graduate"></i>
+  rationale-for-status: |
+    Structured as package, lots of tests, designed to meet all criteria in NHS Levels of RAP.
+  entry-author:
+    - name: Amy Heather
+      url: https://github.com/amyheather
+  abstract: |
+    Two equivalent repositories implementing a stroke capacity planning model - one using Python (SimPy) and one using R (simmer).
+  links:
+  - name: Code (Python)
+    url: https://github.com/pythonhealthdatascience/pydesrap_stroke
+    icon: fa-brands fa-github
+  - name: Code (R)
+    url: https://github.com/pythonhealthdatascience/rdesrap_stroke
+    icon: fa-brands fa-github
+date: "2025-12-11T10:45:06+00:00"
+---
+
+The repositories accompany the [DES RAP Book](/packages_projects_tools/des_rap_book/des_rap_book.qmd) - an open educational resource on reproducible discrete-event simulation (DES) in Python and R. The book demonstrates best practices for building, validating, and sharing DES models within a reproducible analytical pipeline (RAP).
+
+The `pydesrap_stroke` and `rdesrap_stroke` repositories implement and replicate a stroke service capacity planning model (originally developed in Simul8) from:
+
+> Monks T, Worthington D, Allen M, Pitt M, Stein K, James MA. A modelling tool for capacity planning in acute and community stroke services. BMC Health Serv Res. 2016 Sep 29;16(1):530. doi: [10.1186/s12913-016-1789-4](https://doi.org/10.1186/s12913-016-1789-4). PMID: 27688152; PMCID: PMC5043535.
+
+Model diagram:
+
+![](stroke_rehab_design.png)
