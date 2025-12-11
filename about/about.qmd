@@ -27,9 +27,13 @@ table td, table th {
 
 :::: {.columns}
 
-::: {.column width='70%'}
+::: {.column width='65%'}
 
 The Atlas was started by [Sammi Rosser](https://www.sammirosser.com), an ex NHS data scientist, who is now a trainer on the [Health Service Modelling Associates (HSMA)](www.hsma.co.uk) programme, teaching analysts, managers and clinicians how to program and use advanced techniques to improve health services. Finding it challenging to keep up with the endless number of webinars, newsletters, conferences and more necessary to keep abreast of projects and techniques of interest, she started the Atlas to provide the resource she wished she'd had from day 1 in her NHS data career.
+
+:::
+
+::: {.column width='5%'}
 
 :::
 
@@ -49,7 +53,11 @@ The Atlas was started by [Sammi Rosser](https://www.sammirosser.com), an ex NHS 
 
 :::
 
-::: {.column width='70%'}
+::: {.column width='5%'}
+
+:::
+
+::: {.column width='65%'}
 
 The HSMA programme teaches programming in Python, data science and operational research techniques to analysts, data scientists, clinicians and more! The programme provides training on a lot of the advanced techniques mentioned in the Atlas, as well as how to write code so you can confidently use the great Python packages that the Atlas compiles.
 
@@ -64,15 +72,16 @@ Huge thanks also go to [Amy Heather](https://github.com/amyheather), who has con
 
 We're immensely grateful to everyone who contributes to this community Atlas - you can see our full list of contributors below or [in our GitHub readme](https://github.com/hsma-programme/decision_intelligence_atlas?tab=readme-ov-file#contributors):
 
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://sammirosser.com"><img src="https://avatars.githubusercontent.com/u/29951987?v=4?s=100" width="100px;" alt="Sammi Rosser"/><br /><sub><b>Sammi Rosser</b></sub></a><br /><a href="#code-Bergam0t" title="Code">💻</a> <a href="#content-Bergam0t" title="Content">🖋</a> <a href="#design-Bergam0t" title="Design">🎨</a> <a href="#ideas-Bergam0t" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-Bergam0t" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-Bergam0t" title="Maintenance">🚧</a> <a href="#review-Bergam0t" title="Reviewed Pull Requests">👀</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/amyheather"><img src="https://avatars.githubusercontent.com/u/92166537?v=4?s=100" width="100px;" alt="Amy Heather"/><br /><sub><b>Amy Heather</b></sub></a><br /><a href="#code-amyheather" title="Code">💻</a> <a href="#content-amyheather" title="Content">🖋</a> <a href="#doc-amyheather" title="Documentation">📖</a> <a href="#design-amyheather" title="Design">🎨</a> <a href="#maintenance-amyheather" title="Maintenance">🚧</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="http://www.personalboardroom.com"><img src="https://avatars.githubusercontent.com/u/9799569?v=4?s=100" width="100px;" alt="Zella King"/><br /><sub><b>Zella King</b></sub></a><br /><a href="#bug-zmek" title="Bug reports">🐛</a></td>
-    </tr>
-  </tbody>
-</table>
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 <br/><br/>
 
