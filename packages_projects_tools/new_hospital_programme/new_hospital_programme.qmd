@@ -13,6 +13,9 @@ pub-info:
   project-type: <i class="fa-solid fa-hospital"></i>
   rationale-for-status: |
     Extensive documentation, robust quality assurance, modular design, and transparent, actively maintained processes.
+  entry-author:
+    - name: Amy Heather
+      url: https://github.com/amyheather
   abstract: |
     The Demand and Capacity Modelling Tool, developed by the Strategy Unit for DHSC and its partners, supports robust and transparent forecasting of future hospital activity to inform the design and scaling of over 40 new hospitals planned by 2030.
   links:

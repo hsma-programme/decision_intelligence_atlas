@@ -15,6 +15,9 @@ pub-info:
   project-type: <i class="fa-solid fa-hospital"></i>
   rationale-for-status: |
     Well-documented with web app, though no tests/packaging/etc.
+  entry-author:
+    - name: Amy Heather
+      url: https://github.com/amyheather
   abstract: |
     "Shiny app showing the percentage of tumours receiving radiotherapy, Systemic Anti-Cancer Therapy (SACT) and/or a surgical tumour resection as part of the primary course of treatment following diagnosis."
   links:

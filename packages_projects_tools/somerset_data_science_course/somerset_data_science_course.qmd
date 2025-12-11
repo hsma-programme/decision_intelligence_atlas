@@ -4,7 +4,8 @@ categories:
   - Courses and Training or Reference Materials
 tool-language:
   - Python
-status: TBC
+status: '<span style="color: #888888FF">Silver</span>'
+image: course_website.png
 author:
   - name: Andy Mayne
     affiliation: Somerset NHS Foundation Trust
@@ -17,7 +18,10 @@ author:
 pub-info:
   project-type: <i class="fa-solid fa-hospital"></i>
   rationale-for-status: |
-    TBC
+    Clear organised codebase which generates a training website. Status categories less relevant (e.g., often hard-coded, but that makes sense as it is training materials!).
+  entry-author:
+    - name: Amy Heather
+      url: https://github.com/amyheather
   abstract: |
     Data science course aimed at experienced Health and Social Care Data Professionals.
   links:
@@ -29,3 +33,16 @@ pub-info:
     icon: fa-solid fa-globe
 date: "2025-11-24T15:14:32+00:00"
 ---
+
+Python course developed by team at Somerset NHS Foundation Trust. It covers:
+
+* Introduction to Notebooks
+* Introduction to Python
+* Introduction to NumPy
+* Mathematics for Data Science
+* Introduction to Pandas
+* Data Preprocessing
+* Classification and Regression
+* Introduction to Time Series
+
+[![Screenshot from the course website](course_website.png)](https://somersetnhsfoundationtrust.github.io/DataScienceCourse/)

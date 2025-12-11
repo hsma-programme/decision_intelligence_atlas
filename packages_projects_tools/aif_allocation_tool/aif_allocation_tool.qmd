@@ -4,7 +4,7 @@ categories:
   - Health Inequalities
   - Service Planning
 tool-language: Python
-status: TBC
+status: '<span style="color: #D18B12FF">Gold</span>'
 image: tool.png
 author:
   - name: NHS
@@ -13,7 +13,12 @@ pub-info:
   abstract: |
     Python tool to assist Integrated Care Boards (ICBs) to perform need based allocation based on defined place. A 'place' is defined within an ICB as a cluster of GP practices. Relative need indices are then calculated and output as a csv.
   rationale-for-status: |
-    TBC
+    Well-organised repository, app deployed on streamlit community cloud, has documentation (README, docs/, and within app).
+  entry-author:
+    - name: Amy Heather
+      url: https://github.com/amyheather
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
   links:
   - name: Code
     url: https://github.com/nhsx/AIF_Allocation_Tool

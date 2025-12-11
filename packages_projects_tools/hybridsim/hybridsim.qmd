@@ -24,6 +24,11 @@ pub-info:
   project-type: <i class="fa-solid fa-user-graduate"></i>
   rationale-for-status: |
     The code is well organised and thoughtfully designed with reuse in mind, but there remains room for improvement, such as testing and more comprehensive documentation.
+  entry-author:
+    - name: Amy Heather
+      url: https://github.com/amyheather
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
   abstract: |
     This is a hybrid simulation model for a trauma and orthopaedics department. This combines system dynamics to model patient deterioration while waiting for a General Practitioner (GP) referral in Primary Care, and a discrete event simulation (DES)  to model the patient journey through an Orthopaedic department.
   links:

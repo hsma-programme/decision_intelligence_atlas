@@ -24,6 +24,9 @@ pub-info:
   project-type: <i class="fa-solid fa-user-graduate"></i>
   rationale-for-status: |
     Scripts and packages with limited documentation, tests and maintenance.
+  entry-author:
+    - name: Amy Heather
+      url: https://github.com/amyheather
   abstract: |
     Three examples of discrete-event simulation models implementing the STARS Reusability Framework. This includes simulation models (SimPy, ciw), web apps (streamlit, shiny) and documentation.
   links:

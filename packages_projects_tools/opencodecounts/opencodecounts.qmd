@@ -30,6 +30,9 @@ pub-info:
   project-type: <i class="fa-solid fa-user-graduate"></i>
   rationale-for-status: |
     Well-structured R package and interactive tool with comprehensive documentation.
+  entry-author:
+    - name: Amy Heather
+      url: https://github.com/amyheather
   abstract: |
     The opencodecounts R package provides easy access to yearly summaries of clinical code usage in England. The package makes NHS England's published datasets available in R and an interactive online tool, covering SNOMED CT codes in primary care and ICD-10/OPCS-4 codes in secondary care.
   links:

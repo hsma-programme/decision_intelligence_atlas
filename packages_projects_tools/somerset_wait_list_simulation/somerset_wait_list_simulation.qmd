@@ -16,6 +16,9 @@ pub-info:
   project-type: <i class="fa-solid fa-hospital"></i>
   rationale-for-status: |
      Package with some tests, though no documentation.
+  entry-author:
+    - name: Amy Heather
+      url: https://github.com/amyheather
   abstract: |
     Wait list simulation framework in development by the Somerset NHS FT DS & Improvement team.
   links:
