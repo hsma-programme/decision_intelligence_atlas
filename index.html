@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
@@ -73,6 +75,36 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-newest .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-webr','listing-filters','listing-website','listing-language','listing-format','listing-draft-mode','listing-date-format','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-title','listing-categories','listing-tool-language','listing-status','listing-image','listing-author','listing-pub-info','listing-date','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-listing',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      page: 25,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-project","listing-webr","listing-filters","listing-website","listing-language","listing-format","listing-draft-mode","listing-date-format","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-title","listing-categories","listing-tool-language","listing-status","listing-image","listing-author","listing-pub-info","listing-date","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-listing"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-newest'] = new List('listing-newest', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-41QML5TFEF"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -107,6 +139,35 @@ cookieconsent.run({
   });
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="resources/themes/styles.css">
 </head>
@@ -363,9 +424,10 @@ cookieconsent.run({
 </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(39)</span></div><div class="category" data-category="QW1idWxhbmNlcw==">Ambulances <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QmVkcw==">Beds <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Q291cnNlcyUyMGFuZCUyMFRyYWluaW5nJTIwb3IlMjBSZWZlcmVuY2UlMjBNYXRlcmlhbHM=">Courses and Training or Reference Materials <span class="quarto-category-count">(7)</span></div><div class="category" data-category="RGF0YSUyMFZpc3VhbGlzYXRpb24=">Data Visualisation <span class="quarto-category-count">(3)</span></div><div class="category" data-category="RGVtYW5kJTIwUHJlZGljdGlvbg==">Demand Prediction <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Rm9yZWNhc3Rpbmc=">Forecasting <span class="quarto-category-count">(5)</span></div><div class="category" data-category="SGVhbHRoJTIwSW5lcXVhbGl0aWVz">Health Inequalities <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SWRlbnRpZnlpbmclMjBCb3R0bGVuZWNrcw==">Identifying Bottlenecks <span class="quarto-category-count">(12)</span></div><div class="category" data-category="S1BJJTIwUmVwb3J0aW5n">KPI Reporting <span class="quarto-category-count">(4)</span></div><div class="category" data-category="TWFjaGluZSUyMExlYXJuaW5n">Machine Learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGF0aHdheSUyMEFuYWx5dGljcw==">Pathway Analytics <span class="quarto-category-count">(7)</span></div><div class="category" data-category="UGhhcm1hY3k=">Pharmacy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UkFQ">RAP <span class="quarto-category-count">(5)</span></div><div class="category" data-category="U2VydmljZSUyMFBsYW5uaW5n">Service Planning <span class="quarto-category-count">(19)</span></div><div class="category" data-category="U3RhdGlzdGljYWwlMjBQcm9jZXNzJTIwQ29udHJvbA==">Statistical Process Control <span class="quarto-category-count">(4)</span></div><div class="category" data-category="VHJhdmVsJTIwVGltZXM=">Travel Times <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VXJnZW50JTIwYW5kJTIwRW1lcmdlbmN5JTIwQ2FyZQ==">Urgent and Emergency Care <span class="quarto-category-count">(3)</span></div><div class="category" data-category="V2FpdGluZyUyMExpc3Rz">Waiting Lists <span class="quarto-category-count">(3)</span></div><div class="category" data-category="V2ViJTIwSW50ZXJmYWNlJTIwQ3JlYXRpb24=">Web Interface Creation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V29ya2ZvcmNl">Workforce <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 <script src="./resources/finisher-header.es5.min.js" type="text/javascript"></script>
 <script type="text/javascript">
@@ -628,6 +690,258 @@ h1 {
 <p>Inclusion of a tool on this page also does not indicate endorsement of the tool author of the HSMA programme, NIHR, the Atlas, or the description written of the tool.</p>
 <p>If you have any concerns, or would like any content to be removed, please <a href="https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose">raise an issue on the repository</a>.</p>
 </div>
+</section>
+<section id="most-recently-added-projects-packages-and-tools" class="level1">
+<h1>Most Recently Added Projects, Packages and Tools</h1>
+<div id="listing-newest" class="quarto-listing quarto-listing-container-custom">
+<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
+
+    
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="SGVhbHRoJTIwSW5lcXVhbGl0aWVzJTJDU2VydmljZSUyMFBsYW5uaW5n" data-listing-date-sort="1772722359000" data-listing-file-modified-sort="1772722402259" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="164">
+            <div class="main-card-content">
+            
+                  <a href="./packages_projects_tools/aif_allocation_tool/aif_allocation_tool.html">
+              <img class="card-img" src="./packages_projects_tools/aif_allocation_tool/tool.png" alt="AIF ICB Place Based Allocation Tool">
+                  </a>
+                
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title" data-anchor-id="most-recently-added-projects-packages-and-tools">
+                  <a href="./packages_projects_tools/aif_allocation_tool/aif_allocation_tool.html" class="title-link">AIF ICB Place Based Allocation Tool
+                    <i class="fa-solid fa-hospital"></i>
+                  </a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: <span style="color: #D18B12FF">Gold</span>
+            </div>
+            
+
+            
+              <p class="listing-abstract">Python tool to assist Integrated Care Boards (ICBs) to perform need based allocation based on defined place. A 'place' is defined within an ICB as a cluster of GP practices. Relative need indices are then calculated and output as a csv.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="./packages_projects_tools/aif_allocation_tool/aif_allocation_tool.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/nhsx/AIF_Allocation_Tool"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://icbplacebasedallocationtool-202526.streamlit.app/"><i class="fa-solid fa-globe"></i> App </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="QW1idWxhbmNlcyUyQ1VyZ2VudCUyMGFuZCUyMEVtZXJnZW5jeSUyMENhcmU=" data-listing-date-sort="1772722359000" data-listing-file-modified-sort="1772722402266" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="118">
+            <div class="main-card-content">
+            
+                  <a href="./packages_projects_tools/ambmodelopen/ambmodelopen.html">
+              <img class="card-img" src="./packages_projects_tools/ambmodelopen/plot_RU_instant_.png" alt="AmbModelOpen: A discrete event simulation of ambulance resources">
+                  </a>
+                
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="./packages_projects_tools/ambmodelopen/ambmodelopen.html" class="title-link">AmbModelOpen: A discrete event simulation of ambulance resources
+                    <i class="fa-solid fa-user-graduate"></i>
+                  </a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: <span style="color: #D18B12FF">Gold</span>
+            </div>
+            
+
+            
+              <p class="listing-abstract">Discrete Event Simulation in RSimmer of Ambulance Job Cycle Times.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="./packages_projects_tools/ambmodelopen/ambmodelopen.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/nhsengland/AmbModelOpen"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://nhsengland.github.io/AmbModelOpen/"><i class="fa-solid fa-book"></i> Documentation </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="UGF0aHdheSUyMEFuYWx5dGljcyUyQ1NlcnZpY2UlMjBQbGFubmluZw==" data-listing-date-sort="1772722359000" data-listing-file-modified-sort="1772722402273" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="93">
+            <div class="main-card-content">
+            
+                  <a href="./packages_projects_tools/bptk_py/bptk_py.html">
+              <img class="card-img" src="./packages_projects_tools/bptk_py/bptk_logo.png" alt="bptk_py">
+                  </a>
+                
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="./packages_projects_tools/bptk_py/bptk_py.html" class="title-link">bptk_py
+                    
+                  </a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: <span style="color: #D18B12FF">Gold</span>
+            </div>
+            
+
+            
+              <p class="listing-abstract">BPTK-Py is used for the creation of System Dynamics and agent-based simulation models, providing a code-based way of structuring, experimenting with and reproducing these models. These kinds of models are helpful for understanding how complex healthcare systems may react to changes, with system dynamics excelling at 'big picture' modelling of groups and their flows through systems, and agent-based simulation excelling at looking at the overall outcomes arising from the behaviour of individuals.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="./packages_projects_tools/bptk_py/bptk_py.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/transentis/bptk_py"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://bptk.transentis.com/"><i class="fa-solid fa-book"></i> Documentation </a></button>
+                          
+                        
+                            
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://pypi.org/project/bptk-py/"><i class="fa-solid fa-brands fa-python"></i> PyPi </a></button>
+                          
+                        
+                            
+                        
+                            
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="3" data-categories="U2VydmljZSUyMFBsYW5uaW5nJTJDSWRlbnRpZnlpbmclMjBCb3R0bGVuZWNrcyUyQ0RhdGElMjBWaXN1YWxpc2F0aW9uJTJDUGF0aHdheSUyMEFuYWx5dGljcw==" data-listing-date-sort="1772722359000" data-listing-file-modified-sort="1772722402280" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="27">
+            <div class="main-card-content">
+            
+                  <a href="./packages_projects_tools/bupaR/bupar.html">
+              <img class="card-img" src="./packages_projects_tools/bupaR/bupaR.gif" alt="bupaR and the bupaverse: process mining for understanding pathway problems">
+                  </a>
+                
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="./packages_projects_tools/bupaR/bupar.html" class="title-link">bupaR and the bupaverse: process mining for understanding pathway problems
+                    
+                  </a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: <span style="color: #D18B12FF">Gold</span>
+            </div>
+            
+
+            
+              <p class="listing-abstract">bupaR (and associated packages across the bupaverse) are libraries for process mining that helps healthcare analysts explore how patient pathways, test result flows, and other clinical processes actually unfold. By turning event data into visual - even animated - process maps and other compelling visuals, it highlights delays, rework, and variations that can guide service improvement.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="./packages_projects_tools/bupaR/bupar.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/bupaverse"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://bupaverse.github.io/docs/"><i class="fa-solid fa-book"></i> Documentation </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://documentserver.uhasselt.be/bitstream/1942/27485/1/bupar_submission_osp_knowledge_based_systems_revised_2.pdf"><i class="fa-solid fa-file-contract"></i> Paper </a></button>
+                          
+                        
+                            
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://cran.r-project.org/web/packages/bupaverse/index.html"><i class="fa-solid fa-brands fa-r-project"></i> CRAN </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://bupar.net/"><i class="fa-solid fa-globe"></i> Website </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<p>Click <a href="https://atlas.hsma.co.uk/packages_projects_tools/packages_projects_tools.html">here</a> to view all projects, packages and tools.</p>
+
 
 
 </section>
