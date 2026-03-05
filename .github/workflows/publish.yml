@@ -61,11 +61,11 @@ jobs:
 
             # Build search query
             ENCODED_QUERY=$(LABEL="$LABEL" OWNER_REPO="$OWNER_REPO" python3 -c "
-            import urllib.parse, os
-            label = os.environ['LABEL']
-            repo = os.environ['OWNER_REPO']
-            query = 'repo:' + repo + ' label:\"' + label + '\" type:issue state:open'
-            print(urllib.parse.quote(query))
+          import urllib.parse, os
+          label = os.environ['LABEL']
+          repo = os.environ['OWNER_REPO']
+          query = 'repo:' + repo + ' label:\"' + label + '\" type:issue state:open'
+          print(urllib.parse.quote(query))
             ")
 
             # Call GitHub Search API
