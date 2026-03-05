@@ -72,17 +72,18 @@ jobs:
             ENCODED_QUERY=$(python3 "$ENCODE_SCRIPT" "$LABEL" "$OWNER_REPO")
             rm "$ENCODE_SCRIPT"
           
-            # Call GitHub Search API
-            RESPONSE=$(curl -s -H "Authorization: ***" \
-              -H "Accept: application/vnd.github+json" \
-              "https://api.github.com/search/issues?q=${ENCODED_QUERY}")
-
-            # Extract count and append to JSON file
-            python3 - <<'PY' "$RESPONSE" "$LABEL" "$PLACEHOLDER" "$TEMP_FILE"
+          # Write response to a temp file instead of passing as argument
+          RESPONSE_FILE=$(mktemp)
+          curl -s -H "Authorization: ***" \
+            -H "Accept: application/vnd.github+json" \
+            -G "https://api.github.com/search/issues" \
+            --data-urlencode "q=repo:${OWNER_REPO} label:\"${LABEL}\" type:issue state:open" > "$RESPONSE_FILE"
+          
+          # Now pass the filepath instead of the content
+          python3 - <<'PY' "$RESPONSE_FILE" "$LABEL" "$PLACEHOLDER" "$TEMP_FILE"
           import sys, json
           from pathlib import Path
-          
-          response = json.loads(sys.argv[1])
+          response = json.loads(Path(sys.argv[1]).read_text())  # read file instead
           count = response.get("total_count", 0)
           label = sys.argv[2]
           placeholder = sys.argv[3]
@@ -97,6 +98,7 @@ jobs:
           
           print(f"Found {count} issues with label '{label}'")
           PY
+          rm "$RESPONSE_FILE"
           done
 
           # Export JSON to GITHUB_OUTPUT
