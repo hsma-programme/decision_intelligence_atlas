@@ -9,12 +9,13 @@ format:
 
 listing:
   - id: newest
+    contents: packages_projects_tools/*/*.qmd
     type: grid
     grid-columns: 2
     categories: true
     template: packages_projects_tools/listing.ejs
     sort: date desc
-    max-items: 6
+    max-items: 4
 ---
 
 ```{python}
@@ -300,7 +301,7 @@ If you have any concerns, or would like any content to be removed, please [raise
 
 :::
 
-# Newest Projects, Packages and Tools Added
+# Most Recently Added Projects, Packages and Tools
 
 ::: {#newest}
 :::
