@@ -1,5 +1,5 @@
 ---
-title: "Economics and Strategic Analysis Team (ESA) Emergency Department (ED) Crowing Model"
+title: "Economics and Strategic Analysis Team (ESA) Emergency Department (ED) Crowding Model"
 categories:
   - Urgent and Emergency Care
   - Beds
