@@ -26,6 +26,7 @@ pub-info:
   - name: Report
     url: "https://digital.nhs.uk/data-and-information/publications/statistical/cancer-registration-statistics/england-2020"
     icon: fa-solid fa-file-contract
+date: "2025-11-28T15:16:24+00:00"
 ---
 
 RAP code for [cancer registration statistics](https://digital.nhs.uk/data-and-information/publications/statistical/cancer-registration-statistics/england-2020), which reports newly diagnosed cancers and cancer deaths registered in England during 2020.

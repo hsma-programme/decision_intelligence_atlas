@@ -30,6 +30,7 @@ pub-info:
   - name: App
     url: https://nhsd-ndrs.shinyapps.io/cancer_treatments/
     icon: fa-solid fa-globe
+date: "2025-11-28T15:16:24+00:00"
 ---
 
 "This work aims to provide information on the percentage of tumours receiving radiotherapy, Systemic Anti-Cancer Therapy (SACT) and/or a surgical tumour resection as part of the primary course of treatment following diagnosis. These statistics on cancer treatments aim to support the understanding of how patients are treated for their cancer diagnosis and how this varies between cancer types. This understanding is vital to assess variation and make improvements to treatment pathways. This publication is an Official Statistic." ([source](https://nhsd-ndrs.shinyapps.io/cancer_treatments/))
