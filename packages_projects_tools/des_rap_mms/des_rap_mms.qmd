@@ -1,0 +1,50 @@
+---
+title: "DES RAP: M/M/s queueing model"
+categories:
+  - Service Planning
+  - Identifying Bottlenecks
+  - RAP
+tool-language:
+  - Python
+  - R
+status: '<span style="color: #D18B12FF">Gold</span>'
+image: repositories.png
+author:
+  - name: Amy Heather
+    affiliation: University of Exeter Medical School
+    orcid: 0000-0002-6596-3479
+  - name: Tom Monks
+    affiliation: University of Exeter Medical School
+    orcid: 0000-0003-2631-4481
+pub-info:
+  project-type: <i class="fa-solid fa-user-graduate"></i>
+  rationale-for-status: |
+    Structured as package, lots of tests, designed to meet all criteria in NHS Levels of RAP.
+  entry-author:
+    - name: Amy Heather
+      url: https://github.com/amyheather
+  abstract: |
+    Two equivalent repositories implementing a simple M/M/s queueing model - one using Python (SimPy) and one using R (simmer).
+  links:
+  - name: Code (Python)
+    url: https://github.com/pythonhealthdatascience/pydesrap_mms
+    icon: fa-brands fa-github
+  - name: Code (R)
+    url: https://github.com/pythonhealthdatascience/rdesrap_mms
+    icon: fa-brands fa-github
+date: "2025-12-11T10:45:06+00:00"
+---
+
+The repositories accompany the [DES RAP Book](/packages_projects_tools/des_rap_book/des_rap_book.qmd) - an open educational resource on reproducible discrete-event simulation (DES) in Python and R. The book demonstrates best practices for building, validating, and sharing DES models within a reproducible analytical pipeline (RAP).
+
+The `pydesrap_mms` and `rdesrap_mms` models illustrate how these principles can be applied to a simple M/M/s queueing model. The implement it in Python (using SimPy) and R (using simmer). The model simulates patients arriving, waiting to see a nurse, being served, and leaving. All code is structured as a local Python package.
+
+![](nurse_des.drawio.png)
+
+An M/M/s queueing model is a classic mathematical model for systems where:
+
+* Arrivals happen at random, following a Poisson process - and the time between arrivals follows an exponential distribution (the first "M", which stands for "Markovian" as it is memoryless - arrivals are independent).
+* Service times are exponential (second "M").
+* There are s parallel servers (e.g. nurses) sharing a single queue.
+
+This type of model is widely used for studying waiting lines in healthcare, call centers, and other service systems. It helps answer questions like: How long will people wait? How many servers are needed to keep waits short? The only required inputs are the average arrival rate, average service time, and the number of servers.

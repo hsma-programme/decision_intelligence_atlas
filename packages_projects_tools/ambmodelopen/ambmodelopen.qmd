@@ -4,7 +4,7 @@ categories:
   - Ambulances
   - Urgent and Emergency Care
 tool-language: R
-status: TBC
+status: '<span style="color: #D18B12FF">Gold</span>'
 image: plot_RU_instant_.png
 author:
   - name: Martina Fons
@@ -14,7 +14,10 @@ author:
 pub-info:
   project-type: <i class="fa-solid fa-user-graduate"></i>
   rationale-for-status: |
-    TBC
+    Model in organised repository with comprehensive documentation (although doesn't have tests).
+  entry-author:
+    - name: Amy Heather
+      url: https://github.com/amyheather
   abstract: |
     Discrete Event Simulation in RSimmer of Ambulance Job Cycle Times.
   links:
@@ -33,4 +36,6 @@ date: "2025-11-21T10:36:10+00:00"
 
 * An example of using the open R library RSimmer for a healthcare discrete event simulation. We have tried to include enough information around the approach and considerations to be useful for wider simulations." ([source](https://nhsengland.github.io/AmbModelOpen/))
 
-<br>
+The model is accompanied by a [website](https://nhsengland.github.io/AmbModelOpen/) providing comprehensive documentation.
+
+[![Screenshot from the documentation website](documentation.png)](https://nhsengland.github.io/AmbModelOpen/)

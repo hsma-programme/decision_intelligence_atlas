@@ -17,6 +17,9 @@ pub-info:
   project-type: <i class="fa-solid fa-user-graduate"></i>
   rationale-for-status: |
     Some code examples provided within a website, but doesn't meet "Silver" or "Gold" criteria.
+  entry-author:
+    - name: Amy Heather
+      url: https://github.com/amyheather
   abstract: |
     Website with snippets of Julia code helpful for modelling health care systems.
   links:

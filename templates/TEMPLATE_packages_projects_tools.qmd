@@ -53,11 +53,3 @@ date: "2025-11-21T10:45:06+00:00"
 ---
 
 Please place a description of the project here
-
-<br>
-
-## Project status
-
-**Status: {{< meta status >}}**
-
-**Rationale:** Please place a short description of your reasoning for the rating you have applied
