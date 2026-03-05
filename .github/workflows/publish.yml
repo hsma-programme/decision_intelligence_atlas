@@ -60,11 +60,13 @@ jobs:
             echo "Fetching count for label: $LABEL"
 
             # Build search query
-            QUERY="repo:${OWNER_REPO} label:\"${LABEL}\" type:issue state:open"
-
-            # URL encode the query
-            export QUERY
-            ENCODED_QUERY=$(python3 -c "import urllib.parse, os; print(urllib.parse.quote(os.environ['QUERY']))")
+            ENCODED_QUERY=$(LABEL="$LABEL" OWNER_REPO="$OWNER_REPO" python3 -c "
+            import urllib.parse, os
+            label = os.environ['LABEL']
+            repo = os.environ['OWNER_REPO']
+            query = 'repo:' + repo + ' label:\"' + label + '\" type:issue state:open'
+            print(urllib.parse.quote(query))
+            ")
 
             # Call GitHub Search API
             RESPONSE=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
