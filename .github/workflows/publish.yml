@@ -77,20 +77,20 @@ jobs:
             python3 - <<'PY' "$RESPONSE" "$LABEL" "$PLACEHOLDER" "$TEMP_FILE"
           import sys, json
           from pathlib import Path
-
+          
           response = json.loads(sys.argv[1])
           count = response.get("total_count", 0)
           label = sys.argv[2]
           placeholder = sys.argv[3]
           temp_file = sys.argv[4]
-
+          
           # Read existing data
           data = json.loads(Path(temp_file).read_text())
           # Append new entry
           data.append({"label": label, "placeholder": placeholder, "count": count})
           # Write back
           Path(temp_file).write_text(json.dumps(data))
-
+          
           print(f"Found {count} issues with label '{label}'")
           PY
           done
