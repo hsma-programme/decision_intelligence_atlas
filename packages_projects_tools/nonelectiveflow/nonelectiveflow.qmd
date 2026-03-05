@@ -13,7 +13,7 @@ author:
   - name: Helena Robinson
     affiliation: Countess of Chester Hospital NHS FT
 pub-info:
-  project-type: <i class="fa-solid fa-hospital">
+  project-type: <i class="fa-solid fa-hospital"></i>
   rationale-for-status: | 
     Clear use case, interactive tool and documentation, though no testing.
   entry-author:
