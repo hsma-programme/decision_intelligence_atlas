@@ -31,7 +31,7 @@ listing:
     template: "../../packages_projects_tools/listing.ejs"
     sort: Title
     include:
-      title: "{Ciw,Vidigi,SimPy,RSimmer,ConcurrentSim,JaamSim,Salabim}*"
+      title: "*{Ciw,ciw,Vidigi,SimPy,RSimmer,ConcurrentSim,JaamSim,Salabim,SimmeR,simmerR,SimmeR}*"
     contents: "../../packages_projects_tools/*/*.qmd"
   - id: des_training
     type: grid
