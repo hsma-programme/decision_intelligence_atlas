@@ -1,0 +1,46 @@
+---
+title: "Economics and Strategic Analysis Team (ESA) Emergency Department (ED) Crowing Model"
+categories:
+  - Urgent and Emergency Care
+  - Beds
+  - Identifying Bottlenecks
+  - Service Planning
+tool-language:
+  - R
+status: '<span style="color: #888888FF">Silver</span>'
+image: factors.png
+author:
+  - name: Edmund Haacke
+    affiliation: NHS England
+  - name: Economics and Strategic Analysis Team
+pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i>
+  rationale-for-status: |
+    Structured as a package, comprehensive README, but marked as silver as no testing.
+  entry-author:
+    - name: Amy Heather
+      url: https://github.com/amyheather
+  abstract: |
+    An R Package that uses routinely collected data to explore factors impacting emergency department crowding.
+  links:
+  - name: Code
+    url: https://github.com/nhsengland/ESA_ED_Crowding
+    icon: fa-brands fa-github
+date: "2026-03-05T10:29:06+00:00"
+---
+
+`ESA_ED_Crowding` is an **R package** developed by NHS England's Economics and Strategic Analysis (ESA) Team to explore Emergency Department (ED) crowding.
+
+Crowding is measured in terms of:
+
+* Number of patients staying at ED.
+* Number of patients staying longer than 6 hours at ED.
+* Number of majors and resus patients staying in the ED per cubicle.
+
+The analysis isolates the impact of different factors on crowding including:
+
+![Table of factors, screenshot from ESA_ED_Crowding README.](factors.png)
+
+Data sources used include:
+
+![Diagram of data sources, screenshot from ESA_ED_Crowding README.](data_sources.png)

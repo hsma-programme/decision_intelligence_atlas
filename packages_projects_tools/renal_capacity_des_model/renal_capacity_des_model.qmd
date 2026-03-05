@@ -1,0 +1,55 @@
+---
+title: "Renal Capacity DES Model"
+categories:
+  - Service Planning
+  - Identifying Bottlenecks
+tool-language:
+  - Python
+status: '<span style="color: #D18B12FF">Gold</span>'
+image: scenario.png
+author:
+  - name: YiWen Hon
+    affiliation: The Strategy Unit
+  - name: Lucy Morgan
+    affiliation: The Strategy Unit
+pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i> <i class="fa-solid fa-user-graduate"></i>
+  rationale-for-status: |
+    Modular package structure, well-documented and with a suite of tests.
+  entry-author:
+    - name: Amy Heather
+      url: https://github.com/amyheather
+  abstract: |
+    A SimPy discrete event simulation model, used as part of a hybrid modelling approach for investigating interventions in renal care.
+  links:
+  - name: Code
+    url: https://github.com/The-Strategy-Unit/renal-capacity-model
+    icon: fa-brands fa-github
+  - name: Article
+    url: https://www.strategyunitwm.nhs.uk/news/planning-rising-renal-demand-simulating-capacity-across-care-system
+    icon: fa-solid fa-globe
+date: "2025-03-05T11:57:06+00:00"
+---
+
+This model was developed by the Strategy Unit in collaboration with the Midlands Renal Operational Delivery Network (MRODN).
+
+It is an open-source sequential SD-DES hybrid model of renal care with two components:
+
+* A [system dynamics (SD) model](https://github.com/hsma-programme/decision_intelligence_atlas/issues/182) of CKD progression.
+* A discrete-event simulation (DES) model of Kidney Replacement Therapy (KRT) patient pathways for capacity planning.
+
+Hybrid model:
+
+![Summary of model pathways (SD and DES), from Midlands Analyst Network Huddle talk on the model.](model_summary.png)
+
+Modelling objectives:
+
+1. How might demand change over time?
+2. What does that mean for capacity for renal services?
+3. Use scenarios to model the ability to mitigate future demand
+
+DES is used to model the KRT pathway and is created using Python (SimPy).
+
+Example of scenarios explored:
+
+![Example of scenarios explored, from Midlands Analyst Network Huddle talk on the model.](scenario.png)
