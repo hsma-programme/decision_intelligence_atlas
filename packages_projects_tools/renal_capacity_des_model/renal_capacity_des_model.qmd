@@ -28,7 +28,7 @@ pub-info:
   - name: Article
     url: https://www.strategyunitwm.nhs.uk/news/planning-rising-renal-demand-simulating-capacity-across-care-system
     icon: fa-solid fa-globe
-date: "2025-03-05T11:57:06+00:00"
+date: "2026-03-05T11:57:06+00:00"
 ---
 
 This model was developed by the Strategy Unit in collaboration with the Midlands Renal Operational Delivery Network (MRODN).
