@@ -63,7 +63,8 @@ jobs:
             QUERY="repo:${OWNER_REPO} label:\"${LABEL}\" type:issue state:open"
 
             # URL encode the query
-            ENCODED_QUERY=$(python3 -c "import urllib.parse; print(urllib.parse.quote('$QUERY'))")
+            export QUERY
+            ENCODED_QUERY=$(python3 -c "import urllib.parse, os; print(urllib.parse.quote(os.environ['QUERY']))")
 
             # Call GitHub Search API
             RESPONSE=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
