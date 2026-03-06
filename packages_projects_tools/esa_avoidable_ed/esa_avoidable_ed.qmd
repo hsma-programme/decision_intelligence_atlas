@@ -26,9 +26,11 @@ pub-info:
 date: "2026-03-06T10:45:06+00:00"
 ---
 
-`ESA_Avoidable_ED_Attendances` is an R package developed by NHS England’s Economics and Strategic Analysis Team. It implements the definition of "avoidable" Emergency Department (ED) attendances from the University of Sheffield School of Health and Related Research's (ScHARR). This means it classifies ED datasets and returns a logical flag for each attendance indicating whether it meets the avoidable criteria.
+`ESA_Avoidable_ED_Attendances` is an R package developed by NHS England’s Economics and Strategic Analysis Team. It implements the definition of "avoidable" Emergency Department (ED) attendances from the University of Sheffield School of Health and Related Research's (ScHARR).
 
-It uses NHS Digital (2020) SNOMED and HES codes. **Note:** Whilst ECDS superseeds HES, functionality for HES codes is provided for completeness.
+This means it classifies ED datasets and returns a logical flag for each attendance indicating whether it meets the avoidable criteria.
+
+Avoidable (non-urgent) ED attendances here are defined as ED attendances for care that could have been reasonably provided elsewhere. HES/SNOMED codes listed in repo to provide definition of avoidable attendances.
 
 This is an R package that uses some extra code written in C++ to run faster. You install and use this like any other R package but:
 
