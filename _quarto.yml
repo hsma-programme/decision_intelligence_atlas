@@ -43,8 +43,6 @@ website:
     tools:
       - icon: github
         menu:
-          - text: GitHub
-            href: https://github.com/hsma-programme/decision_intelligence_atlas
           - text: Submit an Atlas entry or a bug report
             href: https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose
           - text: View the code for the Atlas
