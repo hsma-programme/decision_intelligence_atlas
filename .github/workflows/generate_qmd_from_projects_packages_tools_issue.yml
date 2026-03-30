@@ -69,7 +69,7 @@ jobs:
             done <<< "$language_other"
           fi
 
-          cat > "packages_projects_tools/${{ steps.modelname.outputs.safe_model_name }}/${{ steps.modelname.outputs.safe_model_name }}.qmd" <<EOF
+          cat > "packages_projects_tools/${{ steps.modelname.outputs.safe_model_name }}/index.qmd" <<EOF
           ---
           title: "${{ fromJSON(steps.extract.outputs.json).model_name }}"
           categories:

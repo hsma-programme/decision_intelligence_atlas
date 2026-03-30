@@ -26,7 +26,7 @@ listing:
 
 This page contains a showcase of graph types of use in healthcare contexts, including code snippets so you can recreate them yourself.
 
-**Want to suggest an addition to this page? Head to our [contributor guide](../about/contributing.qmd) to find out more - coding entirely optional.**
+**Want to suggest an addition to this page? Head to our [contributor guide](/about/contributing.qmd) to find out more - coding entirely optional.**
 
 <br>
 

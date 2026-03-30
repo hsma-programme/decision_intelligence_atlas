@@ -35,7 +35,7 @@ pub-info:
 date: "2025-12-11T10:45:06+00:00"
 ---
 
-The repositories accompany the [DES RAP Book](/packages_projects_tools/des_rap_book/des_rap_book.qmd) - an open educational resource on reproducible discrete-event simulation (DES) in Python and R. The book demonstrates best practices for building, validating, and sharing DES models within a reproducible analytical pipeline (RAP).
+The repositories accompany the [DES RAP Book](/packages_projects_tools/des_rap_book/index.qmd) - an open educational resource on reproducible discrete-event simulation (DES) in Python and R. The book demonstrates best practices for building, validating, and sharing DES models within a reproducible analytical pipeline (RAP).
 
 The `pydesrap_mms` and `rdesrap_mms` models illustrate how these principles can be applied to a simple M/M/s queueing model. The implement it in Python (using SimPy) and R (using simmer). The model simulates patients arriving, waiting to see a nurse, being served, and leaving. All code is structured as a local Python package.
 

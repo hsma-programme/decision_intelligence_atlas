@@ -14,14 +14,14 @@ date: "2025-12-01T15:25:10+00:00"
 ---
 
 :::{.callout-tip}
-Find out more about the technique in the Atlas entry [here](/techniques/spc/spc.qmd).
+Find out more about the technique in the Atlas entry [here](/techniques/spc/index.qmd).
 :::
 
 ::: {.r-content}
 
 The most popular solution for SPC charts in R is the NHSRplotthedots package.
 
-You can find out more about the package in the Atlas entry [here](/packages_projects_tools/nhsrplotthedots/nhsrplotthedots.qmd)
+You can find out more about the package in the Atlas entry [here](/packages_projects_tools/nhsrplotthedots/index.qmd)
 
 Below is a sample code snippet that makes an SPC chart for a time series.
 
@@ -124,7 +124,7 @@ There is not currently an actively maintained, production-ready equivalent to th
 
 One of the major benefits of the NHS-aligned packages are that they use the recognised , as well as 'making data count' defaults for values such as the number of points that are considered a run.
 
-You may wish to consider reviving a project such as [nhspy-plotthedots](/packages_projects_tools/nhspy-plotthedots/nhspy-plotthedots.qmd).
+You may wish to consider reviving a project such as [nhspy-plotthedots](/packages_projects_tools/nhspy-plotthedots/index.qmd).
 
 :::
 
@@ -136,7 +136,7 @@ You may wish to consider reviving a project such as [nhspy-plotthedots](/package
 
 ### The Making Data Count Excel Templates
 
-You can find out more about the Excel tool in the Atlas entry [here](/packages_projects_tools/mdc_spc_excel_chart_tool/mdc_spc_excel_chart_tool.qmd)
+You can find out more about the Excel tool in the Atlas entry [here](/packages_projects_tools/mdc_spc_excel_chart_tool/index.qmd)
 
 :::
 
@@ -146,6 +146,6 @@ You can find out more about the Excel tool in the Atlas entry [here](/packages_p
 
 ### An R-Powered PowerBI Custom Visual
 
-You can find out more about the custom visual in the Atlas entry [here](/packages_projects_tools/nhs_ptd_power_bi/nhs_ptd_power_bi.qmd)
+You can find out more about the custom visual in the Atlas entry [here](/packages_projects_tools/nhs_ptd_power_bi/index.qmd)
 
 :::

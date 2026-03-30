@@ -67,5 +67,5 @@ You can try it out below, or click [here](https://playground.hsma.co.uk) to open
 ```
 
 :::{.callout-tip}
-Has this piqued your curiousity? Head over to the [Atlas entry on DES](../../techniques/des/des.qmd) to find out more, including a range of training materials and health service models.
+Has this piqued your curiousity? Head over to the [Atlas entry on DES](/techniques/des/index.qmd) to find out more, including a range of training materials and health service models.
 :::

@@ -98,9 +98,9 @@ For a high level overview of multiple metrics, you can use one of the summary ta
 
 ## More about SPC charts
 
-Take a look at our [technique page](/techniques/spc/spc.qmd) for more information about the theory behind SPC charts.
+Take a look at our [technique page](/techniques/spc/index.qmd) for more information about the theory behind SPC charts.
 
-Looking for some code snippets? Head to our [graph page](/graph_catalogue/entries/spc/spc.qmd).
+Looking for some code snippets? Head to our [graph page](/graph_catalogue/spc/index.qmd).
 
 ## Related Projects
 
