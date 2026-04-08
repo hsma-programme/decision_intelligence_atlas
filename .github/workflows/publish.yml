@@ -35,6 +35,7 @@ jobs:
         with:
           activate-environment: atlas
           environment-file: environment.yaml
+          miniforge-version: latest
           python-version: 3.12
           auto-activate-base: false
 
