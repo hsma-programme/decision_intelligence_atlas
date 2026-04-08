@@ -1,0 +1,7 @@
+name: atlas
+channels:
+  - conda-forge
+dependencies:
+  - jupyter
+  - nbformat
+  - python=3.12

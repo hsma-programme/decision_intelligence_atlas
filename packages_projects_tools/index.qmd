@@ -118,7 +118,7 @@ listing:
 
 This page contains showcase of projects, code packages, scripts and other resources that may be of use to people working in healthcare or related services.
 
-**Want to suggest an addition to this page? Head to our [contributor guide](../about/contributing.qmd) to find out more - coding entirely optional.**
+**Want to suggest an addition to this page? Head to our [contributor guide](/about/contributing.qmd) to find out more - coding entirely optional.**
 
 ::: {.value-box-simple .bg-amber}
 

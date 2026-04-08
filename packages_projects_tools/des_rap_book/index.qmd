@@ -46,8 +46,8 @@ date: "2025-11-21T10:36:10+00:00"
 listing:
   - id: examples
     contents:
-      - "../des_rap_mms/des_rap_mms.qmd"
-      - "../des_rap_stroke/des_rap_stroke.qmd"
+      - "../des_rap_mms/index.qmd"
+      - "../des_rap_stroke/index.qmd"
 ---
 
 This practical guide shows you how to build reproducible **discrete-event simulation models** (DES) that fit into a **reproducible analytical pipeline (RAP)**, with tips that benefit all types of models and analysis.

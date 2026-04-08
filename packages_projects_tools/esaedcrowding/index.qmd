@@ -11,8 +11,7 @@ status: '<span style="color: #888888FF">Silver</span>'
 image: factors.png
 author:
   - name: Edmund Haacke
-    affiliation: NHS England
-  - name: Economics and Strategic Analysis Team
+    affiliation: Economics and Strategic Analysis Team, NHS England
 pub-info:
   project-type: <i class="fa-solid fa-hospital"></i>
   rationale-for-status: |

@@ -1,0 +1,38 @@
+---
+title: "Economics and Strategic Analysis Team (ESA) 'Avoidable' ED Attendances"
+categories:
+  - Urgent and Emergency Care
+  - KPI Reporting
+tool-language:
+  - R
+  - C++
+status: '<span style="color: #888888FF">Silver</span>'
+author:
+  - name: Edmund Haacke
+    affiliation: Economics and Strategic Analysis Team, NHS England
+pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i>
+  rationale-for-status: |
+    It is a packaged and documented R tool, but could be strengthed further by adding automated testing.
+  entry-author:
+    - name: Amy Heather
+      url: https://github.com/amyheather
+  abstract: |
+    R package (built using C++ and Rcpp) implementing the definition of 'avoidable' emergency department attendances, as per the School of Health and Related Research at the University of Sheffield's definition, with reference to NHS Digital's SNOMED/HES coding.
+  links:
+  - name: Code
+    url: https://github.com/nhsengland/ESA_Avoidable_ED_Attendances
+    icon: fa-brands fa-github
+date: "2026-03-06T10:45:06+00:00"
+---
+
+`ESA_Avoidable_ED_Attendances` is an R package developed by NHS England’s Economics and Strategic Analysis Team. It implements the definition of "avoidable" Emergency Department (ED) attendances from the University of Sheffield School of Health and Related Research's (ScHARR).
+
+This means it classifies ED datasets and returns a logical flag for each attendance indicating whether it meets the avoidable criteria.
+
+Avoidable (non-urgent) ED attendances here are defined as ED attendances for care that could have been reasonably provided elsewhere. HES/SNOMED codes listed in repo to provide definition of avoidable attendances.
+
+This is an R package that uses some extra code written in C++ to run faster. You install and use this like any other R package but:
+
+* You will need the Rcpp package installed, as this helps R talk to C++ and call that fast code for you.
+* You will need a C++ compiler on your machine (e.g. Rtools on Windows, Xcode command line tools on Mac, or build tools on Linux) so the C++ parts can be compiled the first time.

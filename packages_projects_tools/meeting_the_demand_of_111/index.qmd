@@ -1,0 +1,63 @@
+---
+title: "Meeting the demand of 111 for primary care services"
+categories:
+  - Urgent and Emergency Care
+  - Demand Prediction
+  - Service Planning
+  - Identifying Bottlenecks
+tool-language:
+  - Python
+status: '<span style="color: #888888FF">Silver</span>'
+image: app.png
+author:
+  - name: Richard Pilbery
+    affiliation: Research and Development, Yorkshire Ambulance Service NHS Trust, Wakefield, UK
+    orcid: 0000-0002-5797-9788
+  - name: Madeleine Smith
+    affiliation: Business Intelligence, NHS Devon, Exeter, UK
+  - name: Jonathan Green
+    affiliation: Faculty of Health, University of Plymouth, Plymouth, UK
+pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i><i class="fa-solid fa-user-graduate"></i>
+  rationale-for-status: |
+    Provides a defined environment, API documentation site and a local Plotly Dash dashboard (including Docker support). It could be strengthened further by expanding automated testing, adding more comprehensive documentation, and making the dashboard available as a fully deployed, widely accessible service.
+  entry-author:
+    - name: Amy Heather
+      url: https://github.com/amyheather
+  abstract: |
+    SimPy discrete-event simulation that models how ensuring timely primary care contact for patients triaged by NHS 111 could change subsequent use of 999, Emergency Departments, and inpatient services.
+  links:
+  - name: Code
+    url: https://github.com/RichardPilbery/MOOOD-study
+    icon: fa-brands fa-github
+  - name: Documentation
+    url: https://richardpilbery.github.io/MOOOD-study/
+    icon: fa-solid fa-book
+  - name: Paper
+    url: https://bmjopen.bmj.com/content/13/9/e076203
+    icon: fa-solid fa-file-contract
+  - name: Article
+    url: https://arc-swp.nihr.ac.uk/publications/modelling-nhs-111-demand-for-primary-care-services-a-discrete-event-simulation/
+    icon: fa-solid fa-globe
+date: "2026-03-06T09:30:06+00:00"
+---
+
+This study uses discrete event simulation to model the healthcare journeys of patients triaged to primary care following an NHS 111 call, estimating how timely primary care contact would affect subsequent 999 calls, Emergency Department attendances, and inpatient admissions.
+
+The work showed that timely primary care contact could reduce 999 calls and ED attendances but would require nearly doubling primary care services.
+
+The simulation is created using SimPy, and there is a Plotly Dash dashboard for running the simulation (with Docker environment for running it provided).
+
+## Model structure
+
+![Model structure, Figure 1 from <http://doi.org/10.1136/bmjopen-2023-076203>](model_structure.jpg)
+
+## Presentation
+
+This project was developed as part of the Health Services Modelling Associate (HSMA) programme round 4. This is presentation from showcase:
+
+{{< video https://youtu.be/cg5Bp3O02io >}}
+
+## Screenshot from the web app
+
+![Screenshot from the web app](app.png)

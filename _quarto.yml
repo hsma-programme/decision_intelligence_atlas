@@ -53,13 +53,13 @@ website:
       - href: index.qmd
         text: Welcome
 
-      - href: packages_projects_tools/packages_projects_tools.qmd
+      - href: packages_projects_tools/index.qmd
         text: Packages, Projects and Tools
 
-      - href: techniques/techniques.qmd
+      - href: techniques/index.qmd
         text: Techniques
 
-      - href: graph_catalogue/graph_catalogue.qmd
+      - href: graph_catalogue/index.qmd
         text: Graph Catalogue
 
       - href: about/about.qmd

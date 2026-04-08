@@ -1,0 +1,32 @@
+---
+title: "Ten Similar CCGs"
+categories:
+  - TODO
+tool-language:
+  - R
+status: '<span style="color: #888888FF">Silver</span>'
+author:
+  - name: Sadia Javed
+    affiliation: Analyst (RightCare & Population Health)
+  - name: Rob Shaw
+    affiliation: Head of Forecasting (Data and Analytics)
+pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i>
+  rationale-for-status: |
+    Script with clear and detailed comments, an example dataset, open licence, and detailed README. 
+  entry-author:
+    - name: Amy Heather
+      url: https://github.com/amyheather
+  abstract: |
+    An NHS England R script that uses characteristics like size, demographics, deprivation, and ethnicity to calculate lists of ten statistically similar CCGs.
+  links:
+  - name: Code
+    url: https://github.com/nhsengland/NHSE-Methods-10-Similar-CCGs
+date: "2026-03-30T10:45:06+00:00"
+---
+
+This NHS England repository provides R code which can be used to identify 10 CCGs similar to a given CGG based on characteristics like size, demographics, deprivation, and ethnicity.
+
+This is used in RightCare data products, the Model Health System and Viewpoint (including the PCN Dashboard).
+
+More details on this method (including how it is being used, when, and by who) are provided on their [FutureNHS workspace](https://future.nhs.uk/DataMeth/grouphome) (only accessible to NHS health and social care employees).

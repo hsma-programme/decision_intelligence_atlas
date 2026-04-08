@@ -14,8 +14,6 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-          cache: 'pip'
       - run: pip3 install jupyter
-      - run: pip3 install -r requirements.txt
       - name: Render (test build)
         run: quarto render
