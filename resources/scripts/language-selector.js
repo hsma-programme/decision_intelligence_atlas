@@ -8,8 +8,10 @@ function setLanguage(lang) {
     });
 
     // Show/hide the appropriate content
-    document.querySelectorAll('[class$="-content"]').forEach(el => el.style.display = 'none');
-    document.querySelectorAll('.' + lang + '-content').forEach(el => el.style.display = 'block');
+    const container = document.querySelector('.language-switcher');
+
+    container.querySelectorAll('[class$="-content"]').forEach(el => el.style.display = 'none');
+    container.querySelectorAll('.' + lang + '-content').forEach(el => el.style.display = 'block');
 }
 
 // Disable any buttons that have no corresponding content

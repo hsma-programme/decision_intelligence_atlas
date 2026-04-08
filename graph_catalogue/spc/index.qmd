@@ -13,6 +13,8 @@ pub-info:
 date: "2025-12-01T15:25:10+00:00"
 ---
 
+<div class="language-switcher">
+
 :::{.callout-tip}
 Find out more about the technique in the Atlas entry [here](/techniques/spc/index.qmd).
 :::
@@ -149,3 +151,5 @@ You can find out more about the Excel tool in the Atlas entry [here](/packages_p
 You can find out more about the custom visual in the Atlas entry [here](/packages_projects_tools/nhs_ptd_power_bi/index.qmd)
 
 :::
+
+</div>
