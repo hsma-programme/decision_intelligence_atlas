@@ -215,17 +215,17 @@ Click on the links below, or use the menu bar to navigate.
 
 ```{=html}
 <div class="value-grid">
-  <a href="https://atlas.hsma.co.uk/packages_projects_tools/packages_projects_tools.html" class="value-box bg-green">
+  <a href="https://atlas.hsma.co.uk/packages_projects_tools/" class="value-box bg-green">
     <div class="icon"><i class="bi bi-tools"></i></div>
     <div class="value">Packages, Projects<br/>and Tools</div>
     <div class="details">A showcase of projects, code packages, scripts and other resources that may be of use</div>
   </a>
-  <a href="https://atlas.hsma.co.uk/techniques/techniques.html" class="value-box bg-green">
+  <a href="https://atlas.hsma.co.uk/techniques/" class="value-box bg-green">
     <div class="icon"><i class="bi bi-lightbulb"></i></div>
     <div class="value">Techniques</div>
     <div class="details">An overview of advanced analytics, operational research and data science techniques and their possible applications</div>
   </a>
-  <a href="https://atlas.hsma.co.uk/graph_catalogue/graph_catalogue.html" class="value-box bg-green">
+  <a href="https://atlas.hsma.co.uk/graph_catalogue/" class="value-box bg-green">
     <div class="icon"><i class="bi bi-file-earmark-bar-graph"></i></div>
     <div class="value">Graph Gallery</div>
     <div class="details">A showcase of graph types of use in healthcare contexts</div>
@@ -245,7 +245,7 @@ Please see our [contributors page](about/contributing.qmd) for instructions on h
 
 ```{=html}
 <div class="value-grid-2" style="justify-content:center; text-align:center;">
-  <a href="https://atlas.hsma.co.uk/packages_projects_tools/packages_projects_tools.html" class="value-box bg-green">
+  <a href="https://atlas.hsma.co.uk/packages_projects_tools/" class="value-box bg-green">
     <div class="icon" style="font-size: 2rem;"><i class="bi bi-tools"></i>&nbsp;`{python} get_counts("PPT_ENTRY_COUNT")`</div>
     <div class="details">Packages, Projects and Tools Documented</div>
   </a>
@@ -258,7 +258,7 @@ Please see our [contributors page](about/contributing.qmd) for instructions on h
 
 ```{=html}
 <div class="value-grid-2" style="justify-content:center; text-align:center;">
-    <a href="https://atlas.hsma.co.uk/techniques/techniques.html" class="value-box bg-green">
+    <a href="https://atlas.hsma.co.uk/techniques/" class="value-box bg-green">
     <div class="icon" style="font-size: 2rem;"><i class="bi bi-lightbulb"></i>&nbsp;`{python} get_counts("TECHNIQUE_ENTRY_COUNT")`</div>
     <div class="details">Techniques Described</div>
   </a>
@@ -271,7 +271,7 @@ Please see our [contributors page](about/contributing.qmd) for instructions on h
 
 ```{=html}
 <div class="value-grid-2" style="justify-content:center; text-align:center;">
-  <a href="https://atlas.hsma.co.uk/graph_catalogue/graph_catalogue.html" class="value-box bg-green">
+  <a href="https://atlas.hsma.co.uk/graph_catalogue/" class="value-box bg-green">
     <div class="icon" style="font-size: 2rem;"><i class="bi bi-file-earmark-bar-graph"></i>&nbsp;`{python} get_counts("GRAPH_GALLERY_ENTRY_COUNT")`</div>
     <div class="details">Graph Examples</div>
   </a>
