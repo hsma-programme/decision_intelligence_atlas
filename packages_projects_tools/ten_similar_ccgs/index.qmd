@@ -1,7 +1,7 @@
 ---
 title: "Ten Similar CCGs"
 categories:
-  - TODO
+  - Benchmarking
 tool-language:
   - R
 status: '<span style="color: #888888FF">Silver</span>'
@@ -13,7 +13,7 @@ author:
 pub-info:
   project-type: <i class="fa-solid fa-hospital"></i>
   rationale-for-status: |
-    Script with clear and detailed comments, an example dataset, open licence, and detailed README. 
+    Script with clear and detailed comments, an example dataset, open licence, and detailed README.
   entry-author:
     - name: Amy Heather
       url: https://github.com/amyheather
@@ -23,6 +23,7 @@ pub-info:
   - name: Code
     url: https://github.com/nhsengland/NHSE-Methods-10-Similar-CCGs
 date: "2026-03-30T10:45:06+00:00"
+image: image.png
 ---
 
 This NHS England repository provides R code which can be used to identify 10 CCGs similar to a given CGG based on characteristics like size, demographics, deprivation, and ethnicity.
