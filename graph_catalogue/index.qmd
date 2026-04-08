@@ -24,12 +24,12 @@ listing:
 ---
 
 <style>
-body.listing .language-selector {
+.language-selector {
   display: none;
 }
 </style>
 
-This page contains an overview of advanced analytics, operational research and data science techniques and their possible applications.
+This page contains an overview of graph types that may be useful in a healthcare services context.
 
 **Want to suggest an addition to this page? Head to our [contributor guide](/about/contributing.qmd) to find out more - coding entirely optional.**
 
