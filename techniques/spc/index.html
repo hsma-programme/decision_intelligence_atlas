@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Sammi Rosser">
+<meta name="dcterms.date" content="2026-03-30">
 
-<title>Healthcare Services Analytics &amp; Decision Science Atlas – The Healthcare Service Analytics &amp; Decision Intelligence Atlas</title>
+<title>Statistical Process Control (SPC) – The Healthcare Service Analytics &amp; Decision Intelligence Atlas</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,31 +25,31 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-732421c787b78ce6079ca3682d782aac.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-098346eca3ca8309b4356d24a50e831b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-732421c787b78ce6079ca3682d782aac.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-2128e0a4f09427d0a34e5cd9e181012d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-4a351cb8aee797d66ddffa0fa1c5dab9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-2128e0a4f09427d0a34e5cd9e181012d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,21 +80,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-newest .list');
+    const listingTargetEl = window.document.querySelector('#listing-spc .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-project','listing-webr','listing-filters','listing-website','listing-language','listing-format','listing-draft-mode','listing-date-format','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-title','listing-categories','listing-tool-language','listing-status','listing-image','listing-author','listing-pub-info','listing-date','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-listing',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
-      page: 25,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-project","listing-webr","listing-filters","listing-website","listing-language","listing-format","listing-draft-mode","listing-date-format","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-title","listing-categories","listing-tool-language","listing-status","listing-image","listing-author","listing-pub-info","listing-date","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-listing"],
+      valueNames: ['listing-project','listing-webr','listing-filters','listing-website','listing-language','listing-format','listing-draft-mode','listing-date-format','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-title','listing-categories','listing-tool-language','listing-status','listing-image','listing-author','listing-pub-info','listing-date','listing-listing','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-webr","listing-filters","listing-website","listing-language","listing-format","listing-draft-mode","listing-date-format","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-title","listing-categories","listing-tool-language","listing-status","listing-image","listing-author","listing-pub-info","listing-date","listing-listing","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-newest'] = new List('listing-newest', options);
+    window['quarto-listings']['listing-spc'] = new List('listing-spc', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -169,7 +170,7 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="resources/themes/styles.css">
+<link rel="stylesheet" href="../../resources/themes/styles.css">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -341,8 +342,8 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./resources/atlas_logo_outline_transparent_white.png" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../resources/atlas_logo_outline_transparent_white.png" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -352,27 +353,27 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Welcome</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./packages_projects_tools/index.html"> 
+    <a class="nav-link" href="../../packages_projects_tools/index.html"> 
 <span class="menu-text">Packages, Projects and Tools</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./techniques/index.html"> 
+    <a class="nav-link" href="../../techniques/index.html"> 
 <span class="menu-text">Techniques</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./graph_catalogue/index.html"> 
+    <a class="nav-link" href="../../graph_catalogue/index.html"> 
 <span class="menu-text">Graph Catalogue</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about/about.html"> 
+    <a class="nav-link" href="../../about/about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about/contributing.html"> 
+    <a class="nav-link" href="../../about/contributing.html"> 
 <span class="menu-text">Contribute</span></a>
   </li>  
 </ul>
@@ -404,31 +405,91 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block projects default" style="height: 600px;">
+<header id="title-block-header" class="quarto-title-block projects default page-columns page-full">
+        <div class="back-nav" style="color:white">
+        <a href="javascript:history.back()" style="color:white">← Back</a>
+    </div>
     
-    <div class="finisher-header default"></div>
-    
-    <div class="quarto-title-banner" style="width: 100%;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       flex-direction: column;
-       text-transform: uppercase;
-       text-align: center;
-       min-height: 600px;  /* tweak this number as you like */">
+    <!-- Wrapper with relative positioning for this section only -->
+    <div class="banner-wrapper page-columns page-full" style="position: relative;">
+        <!-- Full-width background container -->
+        <!-- <div class="finisher-header-background">
+            <div class="finisher-header default"></div>
+        </div> -->
 
-        <h1 class="title">Healthcare Services<br>Analytics &amp; Decision Science<br>Atlas</h1>
+        <!-- Content layer -->
+        <!-- <div class="quarto-title-banner" style="position: relative; z-index: 1; width: 100%; margin-left: auto; margin-right: auto; text-align: center;"> -->
+        <div class="quarto-title-banner page-columns page-full">
+            <div class="quarto-title column-page-left">
+                                <h1 class="title">Statistical Process Control (SPC)</h1>
+                                                                <br>
+                <div class="abstract">
+                    <b>Summary</b>
+                    <p>SPC charts are a useful tool for monitoring and reporting, allowing KPIs to be looked at over time and in the context of expected variation, moving away from some of the pitfalls of traditional RAG reporting and providing insights into trends and, if there is a target, whether it is likely to be reliably met.</p>
+                </div>
                 
-                    
-</div>
-</header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+                
+                                <p><b>Atlas Entry authored by:</b>
+                                |&nbsp;Sammi Rosser
+                                (<a href="https://github.com/Bergam0t">Link</a>)
+                                &nbsp;|&nbsp;
+                                </p>
+                
+            </div>
+
+        </div>
+    <!-- </div> -->
+
+    <div class="quarto-title-meta-author column-page-left">
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-heading">Affiliation</div>
+      
+        <div class="quarto-title-meta-contents">
+        <p class="author">Sammi Rosser </p>
+      </div>
+      <div class="quarto-title-meta-contents">
+            <p class="affiliation">
+                Health Service Modelling Associates (HSMA), NIHR PenARC
+              </p>
+          </div>
+      </div>
+
+    <div class="quarto-title-meta column-page-left">
+
+          
+        <div>
+        <div class="quarto-title-meta-heading">Page last modified</div>
+        <div class="quarto-title-meta-contents">
+          <p class="date">30 March 2026</p>
+        </div>
+      </div>
+      
+        
+      </div>
+      
+    </div></header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#the-making-data-count-programme" id="toc-the-making-data-count-programme" class="nav-link active" data-scroll-target="#the-making-data-count-programme">The Making Data Count Programme</a>
+  <ul class="collapse">
+  <li><a href="#getting-started" id="toc-getting-started" class="nav-link" data-scroll-target="#getting-started">Getting Started</a></li>
+  <li><a href="#strengthening-your-decisions" id="toc-strengthening-your-decisions" class="nav-link" data-scroll-target="#strengthening-your-decisions">Strengthening Your Decisions</a></li>
+  </ul></li>
+  <li><a href="#types-of-spc-charts" id="toc-types-of-spc-charts" class="nav-link" data-scroll-target="#types-of-spc-charts">Types of SPC charts</a></li>
+  <li><a href="#other-resources" id="toc-other-resources" class="nav-link" data-scroll-target="#other-resources">Other Resources</a></li>
+  <li><a href="#relevant-packages-projects-and-tools" id="toc-relevant-packages-projects-and-tools" class="nav-link" data-scroll-target="#relevant-packages-projects-and-tools">Relevant Packages, Projects and Tools</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
-<script src="./resources/finisher-header.es5.min.js" type="text/javascript"></script>
+<script src="../../resources/finisher-header.es5.min.js" type="text/javascript"></script>
 <script type="text/javascript">
 new FinisherHeader({
   "count": 10,
@@ -469,294 +530,219 @@ new FinisherHeader({
 });
 </script>
 
+<!-- <style>
+    .banner-wrapper {
+        position: relative;
+        overflow: hidden;
 
-
-
-<!-- Card code from GuillaumeChretienCerema  https://github.com/quarto-dev/quarto-cli/issues/8475 -->
-<style>
-h1 {
-      text-transform: uppercase;  /* make all letters uppercase */
-      font-size: 4rem;
     }
 
-@media (max-width: 600px) {
-  h1 {
-    text-transform: uppercase;  /* make all letters uppercase */
-    font-size: 2rem;
-  }
-}
+    #title-block-header {
+        margin-top: -30px;
+        margin-left: 50px;
+        width: 120vw;
+    }
 
-@media (max-width: 800px) {
-  h1 {
-    text-transform: uppercase;  /* make all letters uppercase */
-    font-size: 3rem;
-  }
-}
+    /* Full-width background layer - only for the banner section */
+    .finisher-header-background {
+        position: absolute;
+        top: 0;
+        left: calc(-1 * ((100vw - 100%) / 2));
+        /* Pull left by half the difference between viewport and container */
+        width: 120vw;
+        height: 100%;
+        z-index: 0;
+        pointer-events: none;
+        overflow: visible;
+    }
 
-.value-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
-  margin-top: 1rem;
-}
+    .finisher-header {
+        width: 100%;
+        height: 100%;
+        max-height: 100%;
+        /* Constrain to parent */
+        overflow: visible;
+        /* Prevent canvas from expanding beyond */
+    }
 
-/* Collapse to a single column on small screens */
-@media (max-width: 900px) {
-  .value-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-
-.value-grid-2 {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
-/* Collapse to a single column on small screens */
-@media (max-width: 600px) {
-  .value-grid-2 {
-    grid-template-columns: 1fr;
-  }
-}
+    .finisher-header canvas {
+        width: 100% !important;
+        height: 100% !important;
+        max-height: 100%;
+        display: block;
+    }
+</style> -->
 
 
-.value-box-simple {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 1.5rem;
-  border-radius: 10px;
-  color: white;
-  min-height: 180px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-  transition: transform 0.2s ease;
-  text-decoration: none;   /* remove underline on the whole card */
-}
+<style>
+    /* Put your existing title banner *above* the animation */
+    #title-block-header .quarto-title-banner {
+        position: relative;
+        z-index: 1;
+        /* background: transparent;   so you can actually see the animation */
+    }
 
-.value-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 1.5rem;
-  border-radius: 10px;
-  color: white;
-  min-height: 180px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-  transition: transform 0.2s ease;
-  text-decoration: none;   /* remove underline on the whole card */
-}
+    .quarto-title-block .quarto-title-banner {
+        background-color: #006962;
+    }
 
-.value-box:hover {
-  transform: translateY(-4px);
-}
+    #title-block-header > div.banner-wrapper.page-columns.page-full {
+        margin-top: -25px
+    }
 
-.value-box .icon {
-  font-size: 4.5rem;   /* 👈 taille agrandie */
-  line-height: 1;
-  margin-bottom: 0.6rem;
-}
-
-.value-box .title {
-  font-weight: 600;
-  font-size: 0.9rem;
-  opacity: 0.9;
-}
-
-.value-box .value {
-  font-size: 2.2rem;
-  font-weight: bold;
-  margin: 0.2rem 0;
-}
-
-.value-box .details {
-  font-size: 0.9rem;
-  opacity: 0.9;
-  line-height: 1.3;
-}
-
-.bg-green { background-color: #009c92; }
-
-.bg-dark-teal { background-color: #00505AFF; }
-
-.bg-amber { background-color:rgb(211, 123, 0) ; }
-
-/* Full-bleed animated background */
-#title-block-header .finisher-header {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    /* center under the header */
-    width: 100vw;
-    /* span entire viewport */
-    height: 100%;
-    /* match header height */
-    z-index: 0;
-}
-
-/* Put your existing title banner *above* the animation */
-#title-block-header .quarto-title-banner {
-    position: relative;
-    z-index: 1;
-    /* background: transparent;   so you can actually see the animation */
-}
-
-/* The overall title block is the positioning context */
-#title-block-header {
-    position: relative;
-    overflow: hidden;
-    /* crop any excess from the animation */
-}
+    .project-link-buttons {
+        justify-content: left;
+        margin-left: -35px;
+    }
 
 </style>
-<div class="columns">
-<div class="column" style="width:65%;">
-<p>Welcome to the Healthcare Services Analytics &amp; Decision Science Atlas.</p>
-<p><strong>This is a directory of open-source tools, packages, and projects for analytics and decision science in healthcare.</strong></p>
-<p>This site is in its very early stages - please check back as we continue to develop it.</p>
-<p>In time, we hope this can develop into a tool to help showcase the amazing work happening across the analytics and data science communities in healthcare, promoting reuse and collaborative work on the tools we all need.</p>
-<p>Click on the links below, or use the menu bar to navigate.</p>
-</div><div class="column" style="width:10%;">
 
-</div><div class="column" style="width:25%;">
-<p><img src="resources/atlas_logo_transparent.png" class="img-fluid"></p>
-</div>
-</div>
-<p><br></p>
-<div class="value-grid">
-  <a href="https://atlas.hsma.co.uk/packages_projects_tools/packages_projects_tools.html" class="value-box bg-green">
-    <div class="icon"><i class="bi bi-tools"></i></div>
-    <div class="value">Packages, Projects<br>and Tools</div>
-    <div class="details">A showcase of projects, code packages, scripts and other resources that may be of use</div>
-  </a>
-  <a href="https://atlas.hsma.co.uk/techniques/techniques.html" class="value-box bg-green">
-    <div class="icon"><i class="bi bi-lightbulb"></i></div>
-    <div class="value">Techniques</div>
-    <div class="details">An overview of advanced analytics, operational research and data science techniques and their possible applications</div>
-  </a>
-  <a href="https://atlas.hsma.co.uk/graph_catalogue/graph_catalogue.html" class="value-box bg-green">
-    <div class="icon"><i class="bi bi-file-earmark-bar-graph"></i></div>
-    <div class="value">Graph Gallery</div>
-    <div class="details">A showcase of graph types of use in healthcare contexts</div>
-  </a>
-</div>
-<p><br></p>
-<section id="contributions" class="level2">
-<h2 class="anchored" data-anchor-id="contributions">Contributions</h2>
-<p>Contributions are very welcome!</p>
-<p>You don’t need to be able to write code or use Quarto to add to the Atlas - there are lots of ways to submit content.</p>
-<p>Please see our <a href="./about/contributing.html">contributors page</a> for instructions on how to get involved.</p>
-<div class="value-grid-2" style="justify-content:center; text-align:center;">
-  <a href="https://atlas.hsma.co.uk/packages_projects_tools/packages_projects_tools.html" class="value-box bg-green">
-    <div class="icon" style="font-size: 2rem;"><i class="bi bi-tools"></i>&nbsp;44</div>
-    <div class="details">Packages, Projects and Tools Documented</div>
-  </a>
-    <a href="https://github.com/orgs/hsma-programme/projects/2/views/8" class="value-box bg-dark-teal">
-    <div class="icon" style="font-size: 2rem;"><i class="bi bi-pencil"></i>&nbsp;130</div>
-    <div class="details">Package, Project and Tool Entries to be Written</div>
-  </a>
-</div>
-<div class="value-grid-2" style="justify-content:center; text-align:center;">
-    <a href="https://atlas.hsma.co.uk/techniques/techniques.html" class="value-box bg-green">
-    <div class="icon" style="font-size: 2rem;"><i class="bi bi-lightbulb"></i>&nbsp;2</div>
-    <div class="details">Techniques Described</div>
-  </a>
-    <a href="https://github.com/orgs/hsma-programme/projects/2/views/10" class="value-box bg-dark-teal">
-    <div class="icon" style="font-size: 2rem;"><i class="bi bi-pencil"></i>&nbsp;11</div>
-    <div class="details">Technique Entries to be Written</div>
-  </a>
-</div>
-<div class="value-grid-2" style="justify-content:center; text-align:center;">
-  <a href="https://atlas.hsma.co.uk/graph_catalogue/graph_catalogue.html" class="value-box bg-green">
-    <div class="icon" style="font-size: 2rem;"><i class="bi bi-file-earmark-bar-graph"></i>&nbsp;1</div>
-    <div class="details">Graph Examples</div>
-  </a>
-    <a href="https://github.com/orgs/hsma-programme/projects/2/views/9" class="value-box bg-dark-teal">
-    <div class="icon" style="font-size: 2rem;"><i class="bi bi-pencil"></i>&nbsp;9</div>
-    <div class="details">Graph Examples to be Written</div>
-  </a>
 
+
+
+<p>Statistical process control (SPC) charts are a widely well-regarded way to report on KPIs in trusts and other organisations across the country.</p>
+<p>SPC charts can help make sense of whether variation in a metric is at a level of concern. By helping to cut through random noise and highlight true patterns of variation, we can move away from ‘spuddling’ - constant meddling that fails to produce real change - and make our reporting more impactful.</p>
+<p>SPC charts calculate and display several key pieces of information</p>
+<p><img src="assets/2025-12-03-18-41-18.png" class="img-fluid"></p>
+<ul>
+<li><strong>Mean</strong>: the average of all the points (from summing all values and dividing by the number of points)</li>
+<li><strong>Upper Control Limit</strong>: This is the mean + 3 sigma</li>
+<li><strong>Lower Control Limit</strong>: This is the mean - 3 sigma</li>
+</ul>
+<div class="callout callout-style-simple callout-tip no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
 </div>
-<p><br></p>
-<p>Interested to see what things we propose should be added to the Atlas?</p>
-<p>Click on the cards in the right hand column above to see the full list of proposed entries for each type of content.</p>
-<p><br></p>
-<div class="value-box-simple bg-amber">
-<p>Please note that inclusion of a tool on this site does not imply that the HSMA team, NIHR, or any other Atlas contributors, have reviewed these tools in detail. This resource is designed to act as a signpost to the work that is out there, and provide a high-level indication of the health of any given project, but <strong>you should always conduct your own reviews of the suitability of any of these tools and techniques for your own use case.</strong></p>
-<p>Inclusion of a tool on this page also does not indicate endorsement of the tool author of the HSMA programme, NIHR, the Atlas, or the description written of the tool.</p>
-<p>If you have any concerns, or would like any content to be removed, please <a href="https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose">raise an issue on the repository</a>.</p>
+<div class="callout-body-container">
+<p>“Standard deviation measures the average distance from each and every data point to the mean. The chronological order in which you plot the data is irrelevant. You could reorder the data and the calculation would stay the same. This means special cause variation can be missed.</p>
+<p>Sigma considers the average change from one point to the next in chronological order. Think about why the chronological order of data is key to understanding trends and significance.”</p>
+<ul>
+<li>Making Data Count: Strengthening Your Decisions</li>
+</ul>
 </div>
+</div>
+</div>
+<p>They use these limits to distinguish between two kinds of variation</p>
+<ul>
+<li><strong>common cause</strong>: normal, natural, random variation in a process</li>
+<li><strong>special cause</strong>: unexpected, out-of-the-norm shifts or patterns that are a signal something has changed</li>
+</ul>
+<p>Categories of special cause variation are as follows:</p>
+<ul>
+<li>A single point falls outside the control limits (either upper or lower)</li>
+<li>A number of consecutive points all fall above or below the mean line
+<ul>
+<li>this often defaults to 6 points, but it may be adjusted</li>
+</ul></li>
+<li>Six consecutive points are either all increasing or all decreasing</li>
+<li>Two out of three points fall close to the process limit (within the outer third)</li>
+</ul>
+<p>A target line can optionally be included.</p>
+<ul>
+<li>If the target line does not fall within the control limits, this suggests that the system will either reliably meet the target, or not</li>
+<li>If the target line falls within the control limits, this suggests that the target will not reliably be met, as it is expected that the natural variation seen will lead to the values varying around the line</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/2025-12-03-18-47-46.png" class="img-fluid figure-img"></p>
+<figcaption>Credit: Making Data Count Team</figcaption>
+</figure>
+</div>
+<section id="the-making-data-count-programme" class="level2">
+<h2 class="anchored" data-anchor-id="the-making-data-count-programme">The Making Data Count Programme</h2>
+<p>This programme ran workshops explaining the principles of Making Data Count and supported trusts with moving to SPC charts instead of RAG reports, and provide lots of training materials.</p>
+<p>One of the most recognisable parts of the programme are the icons, which have been adopted by lots of users of SPC within healthcare.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/2025-12-03-18-05-53.png" class="img-fluid figure-img"></p>
+<figcaption>Credit: Making Data Count Team</figcaption>
+</figure>
+</div>
+<p>These icons - which will be automatically applied when data meets particular criteria if you are using an NHS-aligned tool to make your SPC charts - can help to quickly pick out areas of concern.</p>
+<p>An SPC summary report to replace a RAG rated might look like this. The use of the icons helps to draw attention to the metrics of most concern, and helping to steer people away from worrying unnecessarily about tiny shifts in the ‘wrong’ direction that are meaningless when you step back and look at the data in this way.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/2025-12-03-17-59-33.png" class="img-fluid figure-img"></p>
+<figcaption>Credit: Making Data Count Team</figcaption>
+</figure>
+</div>
+<p>Not come across SPC charts before? Read these guides from the NHS England Making Data Count team.</p>
+<section id="getting-started" class="level3">
+<h3 class="anchored" data-anchor-id="getting-started">Getting Started</h3>
+<embed width="100%" height="700" src="making-data-count-getting-started-2019.pdf" title="Making Data Count - Getting Started">
+<p><br></p>
 </section>
-<section id="most-recently-added-or-updated-projects-packages-and-tools" class="level2">
-<h2 class="anchored" data-anchor-id="most-recently-added-or-updated-projects-packages-and-tools">Most Recently Added or Updated Projects, Packages and Tools</h2>
-<div id="listing-newest" class="quarto-listing quarto-listing-container-custom">
+<section id="strengthening-your-decisions" class="level3">
+<h3 class="anchored" data-anchor-id="strengthening-your-decisions">Strengthening Your Decisions</h3>
+<embed width="100%" height="700" src="making-data-count-strengthening-your-decisions.pdf" title="Making Data Count - Strengthening Your Decisions">
+</section>
+</section>
+<section id="types-of-spc-charts" class="level2">
+<h2 class="anchored" data-anchor-id="types-of-spc-charts">Types of SPC charts</h2>
+<p>There are actually a wide range of specialised SPC charts for different types of data.</p>
+<p>The making data count programme uses only XmR (Individuals &amp; Moving Range) charts regardless of data type, and many NHS-focussed tools and packages therefore only provide the facility to make this type of chart. The MDC programme makes the case that XmR handles almost all types of routine NHS data, and it’s not necessary to overcomplicate the choice of chart.</p>
+<p>Some packages - particularly more general purpose SPC charting packages - provide the facility to make these other kinds of charts.</p>
+<p><em>Some</em> other types are as follows:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Type</th>
+<th>Purpose</th>
+<th>Why might you use it?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>p-chart</td>
+<td>Monitoring Proportions</td>
+<td>Greater sensitivity to changes than an XmR chart</td>
+</tr>
+<tr class="even">
+<td>u-chart</td>
+<td>For event rates</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>c-chart</td>
+<td>For counts</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>g-chart/t-chart</td>
+<td>Rare Events</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="other-resources" class="level2">
+<h2 class="anchored" data-anchor-id="other-resources">Other Resources</h2>
+<p>The book ‘Mastering Statistical Process Control Charts’ in healthcare is under development and can help you to extend your knowledge of SPC charts.</p>
+<iframe width="780" height="500" src="https://anhoej.github.io/spc4hc/" title="SPC for Healthcare"></iframe>
+</section>
+<section id="relevant-packages-projects-and-tools" class="level2">
+<h2 class="anchored" data-anchor-id="relevant-packages-projects-and-tools">Relevant Packages, Projects and Tools</h2>
+<div id="listing-spc" class="quarto-listing quarto-listing-container-custom">
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="QmVuY2htYXJraW5n" data-listing-date-sort="1775639612000" data-listing-file-modified-sort="1775640350882" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="U3RhdGlzdGljYWwlMjBQcm9jZXNzJTIwQ29udHJvbA==" data-listing-date-sort="1774882098000" data-listing-file-modified-sort="1775640350734" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="102">
             <div class="main-card-content">
             
-                  <a href="./packages_projects_tools/ten_similar_ccgs/index.html">
-              <img class="card-img" src="./packages_projects_tools/ten_similar_ccgs/image.png" alt="Ten Similar CCGs">
+                  <a href="../../packages_projects_tools/mdc_spc_excel_chart_tool/index.html">
+              <img class="card-img" src="../../packages_projects_tools/mdc_spc_excel_chart_tool/spc_excel.png" alt="Making Data Count: the SPC single and multiple chart tool">
                   </a>
                 
 
             <div class="project-content listing-title">
                 <h5 class="no-anchor card-title listing-title">
-                  <a href="./packages_projects_tools/ten_similar_ccgs/index.html" class="title-link">Ten Similar CCGs
-                    <i class="fa-solid fa-hospital"></i>
-                  </a>
-                </h5>
-            </div>
-
-            
-            <div class="project-status">
-              Status: <span style="color: #888888FF">Silver</span>
-            </div>
-            
-
-            
-              <p class="listing-abstract">An NHS England R script that uses characteristics like size, demographics, deprivation, and ethnicity to calculate lists of ten statistically similar CCGs.
-</p>
-                
-
-            
-
-            
-
-            
-
-          </div>
-
-            <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="./packages_projects_tools/ten_similar_ccgs/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
-                    
-                      
-                          
-                            
-                      <button class="project-link-listing-button"><a href="https://github.com/nhsengland/NHSE-Methods-10-Similar-CCGs"><i class=""></i> Code </a></button>
-                          
-                        
-                        
-                    
-            </div>
-          </div>
-
-        
-      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="UGF0aHdheSUyMEFuYWx5dGljcw==" data-listing-date-sort="1774886130000" data-listing-file-modified-sort="1775640350633" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="168">
-            <div class="main-card-content">
-            
-                  <a href="./packages_projects_tools/ape/index.html">
-              <img class="card-img" src="./packages_projects_tools/ape/app.png" alt="APE (AMD Protocol Explorer)">
-                  </a>
-                
-
-            <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">
-                  <a href="./packages_projects_tools/ape/index.html" class="title-link">APE (AMD Protocol Explorer)
+                  <a href="../../packages_projects_tools/mdc_spc_excel_chart_tool/index.html" class="title-link">Making Data Count: the SPC single and multiple chart tool
                     <i class="fa-solid fa-hospital"></i>
                   </a>
                 </h5>
@@ -769,7 +755,7 @@ h1 {
             
 
             
-              <p class="listing-abstract">DES of opthalmology pathways, allowing the exploration of the impact of different anti-VEGF treatment strategies on patients and costs.
+              <p class="listing-abstract">These Excel templates support the creation of statistical process control (SPC) charts adhering to the making data count rules and style. SPC charts are a good alternative to red-amber-green (RAG) rated reporting of metrics, helping to build a more informed picture of a metric's performance over time and spot signals of improvement or deterioration.
 </p>
                 
 
@@ -782,16 +768,34 @@ h1 {
           </div>
 
             <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="./packages_projects_tools/ape/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+              <button class="project-link-listing-button"><a href="../../packages_projects_tools/mdc_spc_excel_chart_tool/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
                     
                       
                           
                             
-                      <button class="project-link-listing-button"><a href="https://github.com/lh/vegf-1"><i class="fa-brands fa-github"></i> Code </a></button>
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://www.england.nhs.uk/statistical-process-control-tool/"><i class="fa-solid fa-globe"></i> Website - Single Chart </a></button>
                           
                         
                             
-                      <button class="project-link-listing-button"><a href="http://vegf-1.streamlit.app/"><i class="fa-solid fa-globe"></i> Web app </a></button>
+                      <button class="project-link-listing-button"><a href="https://www.england.nhs.uk/wp-content/uploads/2020/08/Statistical-process-control-tool.xlsm"><i class="fa-solid fa-download"></i> Download - Single Chart </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://www.england.nhs.uk/statistical-process-control-multiple-chart-tool/"><i class="fa-solid fa-globe"></i> Website - Multiple Chart </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://www.england.nhs.uk/wp-content/uploads/2020/09/statistical-process-control--multiple-chart-tool.xlsm"><i class="fa-solid fa-download"></i> Download - Multiple Chart </a></button>
                           
                         
                         
@@ -800,17 +804,83 @@ h1 {
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="UGF0aHdheSUyMEFuYWx5dGljcw==" data-listing-date-sort="1774885274000" data-listing-file-modified-sort="1775640350614" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="104">
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="U3RhdGlzdGljYWwlMjBQcm9jZXNzJTIwQ29udHJvbA==" data-listing-date-sort="1774882098000" data-listing-file-modified-sort="1775640350753" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="216">
             <div class="main-card-content">
             
-                  <a href="./packages_projects_tools/adhd_cyp_des/index.html">
-              <img class="card-img" src="./packages_projects_tools/adhd_cyp_des/app.png" alt="ADHD CYP Pathway DES">
+                  <a href="../../packages_projects_tools/nhs_ptd_power_bi/index.html">
+              <img class="card-img" src="../../packages_projects_tools/nhs_ptd_power_bi/filter.png" alt="NHSRplotthedots - a PowerBI Custom Visual Implementation">
                   </a>
                 
 
             <div class="project-content listing-title">
                 <h5 class="no-anchor card-title listing-title">
-                  <a href="./packages_projects_tools/adhd_cyp_des/index.html" class="title-link">ADHD CYP Pathway DES
+                  <a href="../../packages_projects_tools/nhs_ptd_power_bi/index.html" class="title-link">NHSRplotthedots - a PowerBI Custom Visual Implementation
+                    <i class="fa-solid fa-hospital"></i> <i class="fa-solid fa-user-graduate"></i>
+                  </a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: <span style="color: #893400FF">Bronze</span>
+            </div>
+            
+
+            
+              <p class="listing-abstract">This custom PowerBI visual (based on NHSRplotthedots) simplifies the creation and automation of statistical process control (SPC) charts for KPIs. It helps analysts and teams move beyond static KPIs to understand true performance variation and identify opportunities for improvement, producing R-backed visuals within the setting of PowerBI and integrating with PowerBIs data model and filters.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../../packages_projects_tools/nhs_ptd_power_bi/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/Bergam0t/nhs_ptd_power_bi"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/Bergam0t/nhs_ptd_power_bi/releases"><i class="fa-solid fa-download"></i> Download Custom Visual </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/Bergam0t/nhs_ptd_power_bi?tab=readme-ov-file#readme"><i class="fa-solid fa-book"></i> Documentation </a></button>
+                          
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="S1BJJTIwUmVwb3J0aW5nJTJDU3RhdGlzdGljYWwlMjBQcm9jZXNzJTIwQ29udHJvbA==" data-listing-date-sort="1774882098000" data-listing-file-modified-sort="1775640350778" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="61">
+            <div class="main-card-content">
+            
+                  <a href="../../packages_projects_tools/nhspy-plotthedots/index.html">
+              <img class="card-img" src="../../packages_projects_tools/nhspy-plotthedots/image.png" alt="nhspy-plotthedots">
+                  </a>
+                
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../../packages_projects_tools/nhspy-plotthedots/index.html" class="title-link">nhspy-plotthedots
                     <i class="fa-solid fa-hospital"></i>
                   </a>
                 </h5>
@@ -823,7 +893,7 @@ h1 {
             
 
             
-              <p class="listing-abstract">DES modelling flow of children and young people through an ADHD diagnostic pathway, with streamlit web app.
+              <p class="listing-abstract">NHSpy-plotthedots is a Python port of the NHSRplotthedots package that simplifies the creation and automation of statistical process control (SPC) charts for KPIs. It helps analysts and teams move beyond static KPIs to understand true performance variation and identify opportunities for improvement.
 </p>
                 
 
@@ -836,17 +906,25 @@ h1 {
           </div>
 
             <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="./packages_projects_tools/adhd_cyp_des/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+              <button class="project-link-listing-button"><a href="../../packages_projects_tools/nhspy-plotthedots/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
                     
                       
                           
                             
-                      <button class="project-link-listing-button"><a href="https://github.com/MightyAtom220474/ADHD-Pathway-DES"><i class="fa-brands fa-github"></i> Code </a></button>
+                      <button class="project-link-listing-button"><a href="https://github.com/nhs-pycom/nhspy-plotthedots"><i class="fa-brands fa-github"></i> Code </a></button>
                           
                         
                             
-                      <button class="project-link-listing-button"><a href="https://talkingtherapies-pathway-des.streamlit.app/"><i class="fa-solid fa-globe"></i> Web app </a></button>
+                      <button class="project-link-listing-button"><a href="https://nhs-pycom.github.io/nhspy-plotthedots/"><i class="fa-solid fa-book"></i> Documentation </a></button>
                           
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
                         
                         
                     
@@ -854,17 +932,17 @@ h1 {
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="3" data-categories="SGVhbHRoJTIwSW5lcXVhbGl0aWVzJTJDU2VydmljZSUyMFBsYW5uaW5n" data-listing-date-sort="1774882098000" data-listing-file-modified-sort="1775640350620" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="164">
+      <div class="custom-grid-card border-2 rounded-3" data-index="3" data-categories="S1BJJTIwUmVwb3J0aW5nJTJDU3RhdGlzdGljYWwlMjBQcm9jZXNzJTIwQ29udHJvbA==" data-listing-date-sort="1774882098000" data-listing-file-modified-sort="1775640350784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="106">
             <div class="main-card-content">
             
-                  <a href="./packages_projects_tools/aif_allocation_tool/index.html">
-              <img class="card-img" src="./packages_projects_tools/aif_allocation_tool/tool.png" alt="AIF ICB Place Based Allocation Tool">
+                  <a href="../../packages_projects_tools/nhsrplotthedots/index.html">
+              <img class="card-img" src="../../packages_projects_tools/nhsrplotthedots/nhsrplotthedots.png" alt="NHSRPlotTheDots: statistical process control for better metric reporting">
                   </a>
                 
 
             <div class="project-content listing-title">
                 <h5 class="no-anchor card-title listing-title">
-                  <a href="./packages_projects_tools/aif_allocation_tool/index.html" class="title-link">AIF ICB Place Based Allocation Tool
+                  <a href="../../packages_projects_tools/nhsrplotthedots/index.html" class="title-link">NHSRPlotTheDots: statistical process control for better metric reporting
                     <i class="fa-solid fa-hospital"></i>
                   </a>
                 </h5>
@@ -877,7 +955,7 @@ h1 {
             
 
             
-              <p class="listing-abstract">Python tool to assist Integrated Care Boards (ICBs) to perform need based allocation based on defined place. A 'place' is defined within an ICB as a cluster of GP practices. Relative need indices are then calculated and output as a csv.
+              <p class="listing-abstract">NHSRplotthedots is an R package that simplifies the creation and automation of statistical process control (SPC) charts for KPIs. It helps analysts and teams move beyond static KPIs to understand true performance variation and identify opportunities for improvement.
 </p>
                 
 
@@ -890,133 +968,25 @@ h1 {
           </div>
 
             <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="./packages_projects_tools/aif_allocation_tool/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+              <button class="project-link-listing-button"><a href="../../packages_projects_tools/nhsrplotthedots/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
                     
                       
                           
                             
-                      <button class="project-link-listing-button"><a href="https://github.com/nhsx/AIF_Allocation_Tool"><i class="fa-brands fa-github"></i> Code </a></button>
+                      <button class="project-link-listing-button"><a href="https://github.com/nhs-r-community/NHSRplotthedots"><i class="fa-brands fa-github"></i> Code </a></button>
                           
                         
                             
-                      <button class="project-link-listing-button"><a href="https://icbplacebasedallocationtool-202526.streamlit.app/"><i class="fa-solid fa-globe"></i> App </a></button>
-                          
-                        
-                        
-                    
-            </div>
-          </div>
-
-        
-      <div class="custom-grid-card border-2 rounded-3" data-index="4" data-categories="QW1idWxhbmNlcyUyQ1VyZ2VudCUyMGFuZCUyMEVtZXJnZW5jeSUyMENhcmU=" data-listing-date-sort="1774882098000" data-listing-file-modified-sort="1775640350626" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="118">
-            <div class="main-card-content">
-            
-                  <a href="./packages_projects_tools/ambmodelopen/index.html">
-              <img class="card-img" src="./packages_projects_tools/ambmodelopen/plot_RU_instant_.png" alt="AmbModelOpen: A discrete event simulation of ambulance resources">
-                  </a>
-                
-
-            <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">
-                  <a href="./packages_projects_tools/ambmodelopen/index.html" class="title-link">AmbModelOpen: A discrete event simulation of ambulance resources
-                    <i class="fa-solid fa-user-graduate"></i>
-                  </a>
-                </h5>
-            </div>
-
-            
-            <div class="project-status">
-              Status: <span style="color: #D18B12FF">Gold</span>
-            </div>
-            
-
-            
-              <p class="listing-abstract">Discrete Event Simulation in RSimmer of Ambulance Job Cycle Times.
-</p>
-                
-
-            
-
-            
-
-            
-
-          </div>
-
-            <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="./packages_projects_tools/ambmodelopen/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
-                    
-                      
-                          
-                            
-                      <button class="project-link-listing-button"><a href="https://github.com/nhsengland/AmbModelOpen"><i class="fa-brands fa-github"></i> Code </a></button>
-                          
-                        
-                            
-                      <button class="project-link-listing-button"><a href="https://nhsengland.github.io/AmbModelOpen/"><i class="fa-solid fa-book"></i> Documentation </a></button>
-                          
-                        
-                        
-                    
-            </div>
-          </div>
-
-        
-      <div class="custom-grid-card border-2 rounded-3" data-index="5" data-categories="UGF0aHdheSUyMEFuYWx5dGljcyUyQ1NlcnZpY2UlMjBQbGFubmluZw==" data-listing-date-sort="1774882098000" data-listing-file-modified-sort="1775640350639" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="93">
-            <div class="main-card-content">
-            
-                  <a href="./packages_projects_tools/bptk_py/index.html">
-              <img class="card-img" src="./packages_projects_tools/bptk_py/bptk_logo.png" alt="bptk_py">
-                  </a>
-                
-
-            <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">
-                  <a href="./packages_projects_tools/bptk_py/index.html" class="title-link">bptk_py
-                    
-                  </a>
-                </h5>
-            </div>
-
-            
-            <div class="project-status">
-              Status: <span style="color: #D18B12FF">Gold</span>
-            </div>
-            
-
-            
-              <p class="listing-abstract">BPTK-Py is used for the creation of System Dynamics and agent-based simulation models, providing a code-based way of structuring, experimenting with and reproducing these models. These kinds of models are helpful for understanding how complex healthcare systems may react to changes, with system dynamics excelling at 'big picture' modelling of groups and their flows through systems, and agent-based simulation excelling at looking at the overall outcomes arising from the behaviour of individuals.
-</p>
-                
-
-            
-
-            
-
-            
-
-          </div>
-
-            <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="./packages_projects_tools/bptk_py/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
-                    
-                      
-                          
-                            
-                      <button class="project-link-listing-button"><a href="https://github.com/transentis/bptk_py"><i class="fa-brands fa-github"></i> Code </a></button>
-                          
-                        
-                            
-                      <button class="project-link-listing-button"><a href="https://bptk.transentis.com/"><i class="fa-solid fa-book"></i> Documentation </a></button>
+                      <button class="project-link-listing-button"><a href="https://nhsrplotthedots.nhsrcommunity.com/"><i class="fa-solid fa-book"></i> Documentation </a></button>
                           
                         
                             
                         
                             
-                      <button class="project-link-listing-button"><a href="https://pypi.org/project/bptk-py/"><i class="fa-solid fa-brands fa-python"></i> PyPi </a></button>
-                          
                         
                             
+                      <button class="project-link-listing-button"><a href="https://cran.r-project.org/web/packages/NHSRplotthedots/index.html"><i class="fa-solid fa-brands fa-r-project"></i> CRAN </a></button>
+                          
                         
                             
                         
@@ -1029,7 +999,6 @@ h1 {
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
-<p>Click <a href="https://atlas.hsma.co.uk/packages_projects_tools/packages_projects_tools.html">here</a> to view all projects, packages and tools.</p>
 
 
 
@@ -1455,7 +1424,7 @@ h1 {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p><a href="https://www.hsma.co.uk/"><img src="./resources/hsma_logo.png" class="img-fluid" width="150"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://arc-swp.nihr.ac.uk/"><img src="./resources/nihr_logo.png" class="img-fluid" width="250"></a><br><br> <em>This report is independent research supported by the National Institute for Health and Care Research Applied Research Collaboration South West Peninsula.<br> The views expressed in this publication are those of the author(s) and not necessarily those of the National Institute for Health and Care Research or the Department of Health and Social Care.</em> <br><br></p>
+<p><a href="https://www.hsma.co.uk/"><img src="../../resources/hsma_logo.png" class="img-fluid" width="150"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://arc-swp.nihr.ac.uk/"><img src="../../resources/nihr_logo.png" class="img-fluid" width="250"></a><br><br> <em>This report is independent research supported by the National Institute for Health and Care Research Applied Research Collaboration South West Peninsula.<br> The views expressed in this publication are those of the author(s) and not necessarily those of the National Institute for Health and Care Research or the Department of Health and Social Care.</em> <br><br></p>
 <div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;

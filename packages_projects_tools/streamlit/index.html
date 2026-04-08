@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-03-30">
 
-<title>About the Atlas – The Healthcare Service Analytics &amp; Decision Intelligence Atlas</title>
+<title>Streamlit: a beginner-friendly framework for building web apps – The Healthcare Service Analytics &amp; Decision Intelligence Atlas</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,29 +24,29 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-732421c787b78ce6079ca3682d782aac.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-098346eca3ca8309b4356d24a50e831b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-732421c787b78ce6079ca3682d782aac.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-2128e0a4f09427d0a34e5cd9e181012d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-4a351cb8aee797d66ddffa0fa1c5dab9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-2128e0a4f09427d0a34e5cd9e181012d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -108,10 +109,10 @@ cookieconsent.run({
 </script>
 
 
-<link rel="stylesheet" href="../resources/themes/styles.css">
+<link rel="stylesheet" href="../../resources/themes/styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -280,8 +281,8 @@ cookieconsent.run({
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../resources/atlas_logo_outline_transparent_white.png" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../resources/atlas_logo_outline_transparent_white.png" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -291,27 +292,27 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Welcome</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../packages_projects_tools/index.html"> 
+    <a class="nav-link" href="../../packages_projects_tools/index.html"> 
 <span class="menu-text">Packages, Projects and Tools</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../techniques/index.html"> 
+    <a class="nav-link" href="../../techniques/index.html"> 
 <span class="menu-text">Techniques</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../graph_catalogue/index.html"> 
+    <a class="nav-link" href="../../graph_catalogue/index.html"> 
 <span class="menu-text">Graph Catalogue</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../about/about.html" aria-current="page"> 
+    <a class="nav-link" href="../../about/about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about/contributing.html"> 
+    <a class="nav-link" href="../../about/contributing.html"> 
 <span class="menu-text">Contribute</span></a>
   </li>  
 </ul>
@@ -343,25 +344,89 @@ cookieconsent.run({
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block projects default" style="height: 200px;position: relative;overflow: hidden;">
-
-    <div class="finisher-header default" style="position: relative;top: 0; left: 50%;transform: translateX(-50%);width: 100%;min-height: 200px;z-index: 0;">
-
-        <div class="quarto-title-banner" style="width: 100%;display: flex;justify-content: center;align-items: center;flex-direction: column;text-transform: uppercase;text-align: center;min-height: 200px;z-index: 1;">
-
-            <h1 class="title">About the Atlas</h1>
-                        
-                                </div>
-
+<header id="title-block-header" class="quarto-title-block projects default page-columns page-full">
+        <div class="back-nav" style="color:white">
+        <a href="javascript:history.back()" style="color:white">← Back</a>
     </div>
-</header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+    
+    <!-- Wrapper with relative positioning for this section only -->
+    <div class="banner-wrapper page-columns page-full" style="position: relative;">
+        <!-- Full-width background container -->
+        <!-- <div class="finisher-header-background">
+            <div class="finisher-header default"></div>
+        </div> -->
+
+        <!-- Content layer -->
+        <!-- <div class="quarto-title-banner" style="position: relative; z-index: 1; width: 100%; margin-left: auto; margin-right: auto; text-align: center;"> -->
+        <div class="quarto-title-banner page-columns page-full">
+            <div class="quarto-title column-page-left">
+                                                <div class="quarto-categories">
+                                        <div class="quarto-category">Web Interface Creation</div>
+                                    </div>
+                                                <h1 class="title">Streamlit: a beginner-friendly framework for building web apps </h1>
+                                                                <br>
+                <div class="abstract">
+                    <b>Summary</b>
+                    <p>Streamlit is a beginner-friendly framework for creating interactive web applications in Python. It is suitable for both dashboard-style interactive tools, as well as interactive graphical interfaces to tools that can be a great way for non-coders to interact with models. With simple sequntial execution and a low barrier to entry, writing your first Streamlit app takes minutes.</p>
+                                        Rating: <span style="color: #D18B12FF">Gold</span>
+                                        <p>Streamlit is a well-established package with years of development and a substantial team behind it.</p>
+                                                        </div>
+                
+                                <div class="project-link-buttons">
+                    <ul class="project-links">
+                                                                        <button class="custom-button"><a href="https://github.com/streamlit/streamlit"><i class="fa-brands fa-github"></i> Code</a></button>
+                                                                                                <button class="custom-button"><a href="https://docs.streamlit.io/"><i class="fa-solid fa-book"></i> Documentation</a></button>
+                                                                                                                                                <button class="custom-button"><a href="https://pypi.org/project/streamlit/"><i class="fa-solid fa-brands fa-python"></i> PyPi</a></button>
+                                                                                                                                                <button class="custom-button"><a href="https://streamlit.io/"><i class="fa-solid fa-globe"></i> Website</a></button>
+                                                                    </ul>
+                </div>
+                
+                                <p><b>Atlas Entry authored by:</b>
+                                |&nbsp;Sammi Rosser
+                                (<a href="https://github.com/Bergam0t">Link</a>)
+                                &nbsp;|&nbsp;
+                                </p>
+                            </div>
+
+        </div>
+    <!-- </div> -->
+
+    
+    <div class="quarto-title-meta column-page-left">
+
+        
+        <div>
+        <div class="quarto-title-meta-heading">Page last modified</div>
+        <div class="quarto-title-meta-contents">
+          <p class="date">30 March 2026</p>
+        </div>
+      </div>
+      
+        
+      </div>
+      
+    </div></header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#resources-for-learning" id="toc-resources-for-learning" class="nav-link active" data-scroll-target="#resources-for-learning">Resources for Learning</a></li>
+  <li><a href="#related-projects" id="toc-related-projects" class="nav-link" data-scroll-target="#related-projects">Related projects</a></li>
+  <li><a href="#deployment" id="toc-deployment" class="nav-link" data-scroll-target="#deployment">Deployment</a>
+  <ul class="collapse">
+  <li><a href="#cloud" id="toc-cloud" class="nav-link" data-scroll-target="#cloud">Cloud</a></li>
+  <li><a href="#local" id="toc-local" class="nav-link" data-scroll-target="#local">Local</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
-<script src="../resources/finisher-header.es5.min.js" type="text/javascript"></script>
+<script src="../../resources/finisher-header.es5.min.js" type="text/javascript"></script>
 <script type="text/javascript">
 new FinisherHeader({
   "count": 10,
@@ -402,59 +467,213 @@ new FinisherHeader({
 });
 </script>
 
+<!-- <style>
+    .banner-wrapper {
+        position: relative;
+        overflow: hidden;
 
+    }
+
+    #title-block-header {
+        margin-top: -30px;
+        margin-left: 50px;
+        width: 120vw;
+    }
+
+    /* Full-width background layer - only for the banner section */
+    .finisher-header-background {
+        position: absolute;
+        top: 0;
+        left: calc(-1 * ((100vw - 100%) / 2));
+        /* Pull left by half the difference between viewport and container */
+        width: 120vw;
+        height: 100%;
+        z-index: 0;
+        pointer-events: none;
+        overflow: visible;
+    }
+
+    .finisher-header {
+        width: 100%;
+        height: 100%;
+        max-height: 100%;
+        /* Constrain to parent */
+        overflow: visible;
+        /* Prevent canvas from expanding beyond */
+    }
+
+    .finisher-header canvas {
+        width: 100% !important;
+        height: 100% !important;
+        max-height: 100%;
+        display: block;
+    }
+</style> -->
 
 
 <style>
-table {
-  border: 2px solid #313F37FF;   /* Outline around the entire table */
-  border-collapse: collapse; /* Makes borders look clean */
-}
+    /* Put your existing title banner *above* the animation */
+    #title-block-header .quarto-title-banner {
+        position: relative;
+        z-index: 1;
+        /* background: transparent;   so you can actually see the animation */
+    }
 
-table td, table th {
-  border: 1px solid #555;   /* Inner cell borders */
-  padding: 8px;
-}
+    .quarto-title-block .quarto-title-banner {
+        background-color: #006962;
+    }
+
+    #title-block-header > div.banner-wrapper.page-columns.page-full {
+        margin-top: -25px
+    }
+
+    .project-link-buttons {
+        justify-content: left;
+        margin-left: -35px;
+    }
 
 </style>
-<section id="behind-the-atlas" class="level2">
-<h2 class="anchored" data-anchor-id="behind-the-atlas">Behind the Atlas</h2>
-<div class="columns">
-<div class="column" style="width:70%;">
-<p>The Atlas was started by <a href="https://www.sammirosser.com">Sammi Rosser</a>, an ex NHS data scientist, who is now a trainer on the <a href="www.hsma.co.uk">Health Service Modelling Associates (HSMA)</a> programme, teaching analysts, managers and clinicians how to program and use advanced techniques to improve health services. Finding it challenging to keep up with the endless number of webinars, newsletters, conferences and more necessary to keep abreast of projects and techniques of interest, she started the Atlas to provide the resource she wished she’d had from day 1 in her NHS data career.</p>
-</div><div class="column" style="width:30%;">
-<p><img src="../resources/sammi-profile.jpg" class="img-fluid"></p>
-</div>
-</div>
-<div class="columns">
-<div class="column" style="width:30%;">
-<p><img src="../resources/hsma_logo_transparent_background_large.png" class="img-fluid"></p>
-</div><div class="column" style="width:70%;">
-<p>The HSMA programme teaches programming in Python, data science and operational research techniques to analysts, data scientists, clinicians and more! The programme provides training on a lot of the advanced techniques mentioned in the Atlas, as well as how to write code so you can confidently use the great Python packages that the Atlas compiles.</p>
-<p>While the full programme, which also includes live access to the sessions and project mentoring support, is only available to those working in public health and social care organisations, all previous <a href="https://hsma.co.uk/hsma_content/modules/modules.html">session recordings, slides, example code</a> and <a href="https://hsma.co.uk/hsma_content/books/books.html">eBooks</a> are available on the <a href="https://hsma.co.uk/">HSMA website</a>.</p>
-</div>
-</div>
-<p>Huge thanks also go to <a href="https://github.com/amyheather">Amy Heather</a>, who has contributed her time and expertise to the Atlas. You can find Amy’s excellent work as part of the <a href="https://github.com/pythonhealthdatascience">STARS - Sharing Tools and Artefacts for Reusable Simulations in Healthcare</a> programme.</p>
-<p>We’re immensely grateful to everyone who contributes to this community Atlas - you can see our full list of contributors below or <a href="https://github.com/hsma-programme/decision_intelligence_atlas?tab=readme-ov-file#contributors">in our GitHub readme</a>:</p>
-<table>
-<tbody>
-<tr>
-<td align="center" valign="top" width="14.28%">
-<a href="https://sammirosser.com"><img src="https://avatars.githubusercontent.com/u/29951987?v=4?s=100" width="100px;" alt="Sammi Rosser"><br><sub><b>Sammi Rosser</b></sub></a><br><a href="#code-Bergam0t" title="Code">💻</a> <a href="#content-Bergam0t" title="Content">🖋</a> <a href="#design-Bergam0t" title="Design">🎨</a> <a href="#ideas-Bergam0t" title="Ideas, Planning, &amp; Feedback">🤔</a> <a href="#infra-Bergam0t" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-Bergam0t" title="Maintenance">🚧</a> <a href="#review-Bergam0t" title="Reviewed Pull Requests">👀</a>
-</td>
-<td align="center" valign="top" width="14.28%">
-<a href="https://www.linkedin.com/in/amyheather"><img src="https://avatars.githubusercontent.com/u/92166537?v=4?s=100" width="100px;" alt="Amy Heather"><br><sub><b>Amy Heather</b></sub></a><br><a href="#code-amyheather" title="Code">💻</a> <a href="#content-amyheather" title="Content">🖋</a> <a href="#doc-amyheather" title="Documentation">📖</a> <a href="#design-amyheather" title="Design">🎨</a> <a href="#maintenance-amyheather" title="Maintenance">🚧</a>
-</td>
-<td align="center" valign="top" width="14.28%">
-<a href="http://www.personalboardroom.com"><img src="https://avatars.githubusercontent.com/u/9799569?v=4?s=100" width="100px;" alt="Zella King"><br><sub><b>Zella King</b></sub></a><br><a href="#bug-zmek" title="Bug reports">🐛</a>
-</td>
-</tr>
-</tbody>
-</table>
-<p><br><br></p>
-<p>We want the Atlas to be something made by the community, for the community, so <a href="../about/contributing.html">click here to find out more about how you can get involved!</a></p>
 
 
+
+
+<p>Streamlit allows users to create interactive Python-based web apps, making it easier for non-technical users to interact with insights generated by Python code without having to interact with code files or - depending on how the app is eventually deployed - without having Python installed on their machine.</p>
+<p>Below is an example of a Streamlit interface created to allow users to run a discrete event simulation model, where they can change parameters and rerun the simulation without ever changing the parameter in a script.</p>
+<p><img src="streamlit.gif" class="img-fluid"></p>
+<p>With even relatively complex apps achievable with only Python code, simple top-to-bottom execution of code by default, and inbuilt support for common data analysis outputs like interactive dataframes, static and interactive plots, and maps, it’s a powerful but beginner friendly tool that also can be used for complex apps with its advanced state management and rerun control features.</p>
+<section id="resources-for-learning" class="level2">
+<h2 class="anchored" data-anchor-id="resources-for-learning">Resources for Learning</h2>
+<p>The HSMA programme devotes two sessions to teaching how to use Streamlit, building up from the absolute basics to more complex multipage apps and an example front end for a discrete event simulation app.</p>
+<p>Session recordings can be found on the HSMA modules page: <a href="https://www.hsma.co.uk/modules" class="uri">https://www.hsma.co.uk/modules</a></p>
+<p>The interactive teach yourself eBook from the HSMA programme can be found at <a href="https://webapps.hsma.co.uk" class="uri">https://webapps.hsma.co.uk</a></p>
+</section>
+<section id="related-projects" class="level2">
+<h2 class="anchored" data-anchor-id="related-projects">Related projects</h2>
+<p>The <a href="https://github.com/whitphx/stlite">stlite</a> project makes it possible to convert existing Streamlit apps into pyodide-based web apps. Using modern web-assembly technology, this executes the Python code in the user’s browser, removing the need for a traditional server to run your web app. This can be particularly helpful if you expect to have large numbers of people accessing a site simultaneously.</p>
+<p>The <a href="https://github.com/hsma-tools/stlitepack">stlitepack</a> package complments this, removing the manual effort involved with converting Streamlit apps to stlite apps.</p>
+<p>If you are looking to make web apps in R, you will find the <a href="https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/">R Shiny</a> project to be up your street.</p>
+<p>If you are familiar with Shiny but are now looking to write web apps in Python, you may prefer <a href="https://shiny.posit.co/py/">Shiny for Python</a>.</p>
+<p>Other Python-based web app technologies aimed at analysts and data scientists, such as <a href="https://dash.plotly.com/">Plotly Dash</a>, are available.</p>
+<p>For more complex websites, you may need to consider advanced Python web frameworks such as <a href="https://flask.palletsprojects.com/en/stable/">Flask</a> <a href="https://www.djangoproject.com/">Django</a>, though these require significant additional work and skills in frontend development - exhaust the options above before settling on this!</p>
+<p>If you don’t want a front end, but just need a way to access the results of calculations based on an input (such as getting predictions from a trained machine learning model using an input)</p>
+</section>
+<section id="deployment" class="level2">
+<h2 class="anchored" data-anchor-id="deployment">Deployment</h2>
+<p>Streamlit apps can be run locally on the machine of a user with Python installed, allowing for the creation of an easier-to-use interface for certain tasks. This is usually achieved by downloading/cloning the GitHub repository where the app is stored, installing the relevant environment, and running the app with a command like <code>streamlit run app.py</code>, which should be detailed in the repository readme.</p>
+<p>In these cases, all processing will happen on the machine of the user running the app.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>It’s important to consider the security of any Streamlit app you download from GitHub - or any script in general!</p>
+<p>While it’s not practical or necessary to review every line of code you ever use - for example, you woudn’t be expected to check every line in a pandas or matplotlib function before running it - you should consider whether undertaking some review of code is sensible. A large library that’s been thoroughly reviewed by the wider open source community? Risks are very low. But while it’s very rare, it is <em>possible</em> for a malicious actor to write commands into the code that would send data from the memory of an app - such as uploaded data or database credentials - to an external location. For smaller apps, scripts or libraries, you should consider some review of the code for any obvious potentially unsafe code.</p>
+<p>In particular, keep an eye out for the use of libraries like <code>requests</code>, <code>urllib</code>, <code>smtp</code>, <code>sqlite</code>, <code>socket</code>, <code>subprocess</code> or <code>shutil</code>. While these may be used entirely legitimately - e.g.&nbsp;to request publicly held data from a website or an API, or to undertake necessary filesystem operations for accessing and saving data locally - you should review any use of these libraries and make sure you understand what they are doing.</p>
+</div>
+</div>
+<section id="cloud" class="level3">
+<h3 class="anchored" data-anchor-id="cloud">Cloud</h3>
+<p>Various free options for cloud-based deployment of Streamlit apps exist. This can be a strong option for apps using publicly accessible data, sufficiently aggregated data, and other data that has been deemed to be not sensitive.</p>
+<section id="traditional-streamlit-apps" class="level4">
+<h4 class="anchored" data-anchor-id="traditional-streamlit-apps">Traditional Streamlit Apps</h4>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>All free deployment options will involve processing of uploaded or linked data on third party servers, which may not be located in the UK and will not have been audited/approved by your organisation for processing of data.</p>
+<p>It is crucial that you do not upload, or encourage users to upload, real individual-level data or otherwise sensitive data.</p>
+</div>
+</div>
+<p><a href="https://streamlit.io/cloud">Streamlit Community Cloud</a>: This free option allows for apps to be hosted, though they will go to sleep after a relatively short timeout of 12 hours. Users will be presented with a screen which will allow them to ‘wake the app up’, which may take a few minutes. There are limits on the memory allocated to your app, which</p>
+<p><a href="https://connect.posit.cloud/">Posit Connect Cloud</a>: This alternative, run by Posit (who are behind RStudio and other tools), has a free tier that allows you to publish Streamlit apps (among other things).</p>
+<p>There are also various enterprise-level versions of cloud deployment which <em>may</em> be secure options for more sensitive data (if your organisation is willing to fund this).</p>
+<p>For example, Posit Connect Cloud offers various enterprise-grade tiers. Other options include <a href="https://www.snowflake.com/en/">snowflake</a>, which is the company that owns Streamlit, and <a href="https://plotly.com/dash/">plotly dash enterprise</a>. The author of this entry believes all three options have been used by NHS trusts or related bodies for app deployment and/or report automation, though is unable to confirm this.</p>
+</section>
+<section id="serverless-stlite-apps" class="level4">
+<h4 class="anchored" data-anchor-id="serverless-stlite-apps">Serverless (stlite) apps</h4>
+<p>Serverless apps, such as those created with stlite/stlitepack, still require a server to host the static page. Various free hosting options exist for this.</p>
+<p><a href="https://pages.github.com/">GitHub Pages</a>: this free option is closely integrated with GitHub.</p>
+<p>An example repository that does thi, along with using a custom URL, can be found at <a href="https://github.com/hsma-programme/Teaching_DES_Concepts_Streamlit" class="uri">https://github.com/hsma-programme/Teaching_DES_Concepts_Streamlit</a>.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><em>In theory</em>, <a href="https://pyodide.com/what-is-pyodide/">data uploaded to a pyodide-based web app does not leave the user’s PC</a>, and all processing is handled locally (i.e.&nbsp;on their machine).</p>
+<p><em>In practice</em>, we do not have a robust policy or evidence to support whether the processing of sensitive data on pyodide/web-based apps is fully safe, so it should not be considered an appropriate solution at this time.</p>
+<p>A key exception to this is the <a href="https://github.com/whitphx/quarto-stlite">stlite-quarto extension</a> - allowing embedding of interactive apps directly within quarto without external hosting - <a href="https://github.com/whitphx/quarto-stlite/issues/3">which will process the code externally</a>.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="local" class="level3">
+<h3 class="anchored" data-anchor-id="local">Local</h3>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Please always speak to your IT, data engineering or internal app/software department before doing any of the below.</p>
+</div>
+</div>
+<p>Local deployment is possible as well on a server owned by your organisation, allowing the app to be run safely and securely in a manner that’s only accessible to users within your organisation, and in a way that means all data processing happens on internally-owned and managed compute resource.</p>
+<p>You may find Streamlit’s guidance on <a href="https://docs.streamlit.io/deploy/tutorials/docker">deployment</a> to be of use; they strongly recommend the use of Docker if going down the local deployment route. This can be combined with <a href="https://docs.streamlit.io/deploy/tutorials/kubernetes">Kubernetes</a> to manage auto-scaling of the number of running containers to manage changes in the number of people accessing the app simultaneously, so your users won’t experience issues with accessing the app or their requests running in a timely manner.</p>
+<p>Strictly speaking you <em>could</em> avoid Docker and just run it in the normal way (<code>streamlit run myapp.py</code>) and users on your local area network access it via the relevant port that is shown in the terminal - see e.g.&nbsp;<a href="https://discuss.streamlit.io/t/deploying-streamlit-app-in-internal-network-using-network-url/41004/2" class="uri">https://discuss.streamlit.io/t/deploying-streamlit-app-in-internal-network-using-network-url/41004/2</a>. This isn’t intuitive, robust, or safe enough though!</p>
+<p>Regardless, you should set up a reverse proxy with a technology like <a href="https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/">nginx</a> to allow users to access it via a more intuitive URL - so instead of entering something like <code>http://192.168.1.5:8501</code>, they can type <code>http://data-science-app.com</code>. Crucially, the reverse proxy is a key part of configuring transport layer security (TLS/SSL), ensuring that all content is served over a secure connection that cannot be intercepted and decoded. Seen a little padlock icon next to a URL (which will also start with <code>https</code> instead of <code>http</code>) in your browser on sites where you enter your payment details? That’s SSL. This is often a mandatory part of setting up even internal apps.</p>
+<p>Streamlit’s guidance FAQs include key details about <a href="https://docs.streamlit.io/knowledge-base/deploy/deploy-streamlit-domain-port-80">getting your app to appear when a particular web address is entered</a> and <a href="https://docs.streamlit.io/knowledge-base/deploy/deploy-multiple-streamlit-apps-different-subdomains">hosting multiple apps on a single server</a>.</p>
+<p>You may also need to consider authentication or access restriction - if different user groups need access to different levels of data, this is something you will have to manage within Streamlit using its inbuilt authorization methods and features such as session state.</p>
+<p>If you are simply able to restrict access to the app to certain user groups, your IT department may be able to help with this from a server perspective through the use of Active Directory or something similar.</p>
+<p>Your IT department may also prefer to consider - if budget is available - a solution such as <a href="https://posit.co/products/enterprise/connect/">posit connect</a>, which can make deployment and maintenance of Streamlit and other apps or APIs a more streamlined experience for analysts and data scientists.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We are keen to hear of success stories within the NHS of people who have successfully obtained a server, virtual machine or similar to deploy apps on within an organisation. Please get in touch via the issues page or submit a pull request with additional information in this section!</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The free eBook <a href="https://do4ds.com/">devops for data science</a> may help you speak the language of your IT team.</p>
+</div>
+</div>
+
+
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -877,7 +1096,7 @@ table td, table th {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p><a href="https://www.hsma.co.uk/"><img src="../resources/hsma_logo.png" class="img-fluid" width="150"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://arc-swp.nihr.ac.uk/"><img src="../resources/nihr_logo.png" class="img-fluid" width="250"></a><br><br> <em>This report is independent research supported by the National Institute for Health and Care Research Applied Research Collaboration South West Peninsula.<br> The views expressed in this publication are those of the author(s) and not necessarily those of the National Institute for Health and Care Research or the Department of Health and Social Care.</em> <br><br></p>
+<p><a href="https://www.hsma.co.uk/"><img src="../../resources/hsma_logo.png" class="img-fluid" width="150"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://arc-swp.nihr.ac.uk/"><img src="../../resources/nihr_logo.png" class="img-fluid" width="250"></a><br><br> <em>This report is independent research supported by the National Institute for Health and Care Research Applied Research Collaboration South West Peninsula.<br> The views expressed in this publication are those of the author(s) and not necessarily those of the National Institute for Health and Care Research or the Department of Health and Social Care.</em> <br><br></p>
 <div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
