@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Sammi Rosser">
-<meta name="dcterms.date" content="2026-03-30">
+<meta name="dcterms.date" content="2026-04-08">
 
 <title>Statistical Process Control (SPC) – The Healthcare Service Analytics &amp; Decision Intelligence Atlas</title>
 <style>
@@ -1988,7 +1988,7 @@ globalThis.qwebrExecuteCode = async function (
         <div>
         <div class="quarto-title-meta-heading">Page last modified</div>
         <div class="quarto-title-meta-contents">
-          <p class="date">30 March 2026</p>
+          <p class="date">08 April 2026</p>
         </div>
       </div>
       
@@ -2407,6 +2407,7 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 
 
 
+<div class="language-switcher">
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -2512,6 +2513,7 @@ Warning
 <h3 class="anchored" data-anchor-id="an-r-powered-powerbi-custom-visual">An R-Powered PowerBI Custom Visual</h3>
 <p>You can find out more about the custom visual in the Atlas entry <a href="../../packages_projects_tools/nhs_ptd_power_bi/index.html">here</a></p>
 </section>
+</div>
 
 
 
@@ -2526,8 +2528,10 @@ function setLanguage(lang) {
     });
 
     // Show/hide the appropriate content
-    document.querySelectorAll('[class$="-content"]').forEach(el => el.style.display = 'none');
-    document.querySelectorAll('.' + lang + '-content').forEach(el => el.style.display = 'block');
+    const container = document.querySelector('.language-switcher');
+
+    container.querySelectorAll('[class$="-content"]').forEach(el => el.style.display = 'none');
+    container.querySelectorAll('.' + lang + '-content').forEach(el => el.style.display = 'block');
 }
 
 // Disable any buttons that have no corresponding content
