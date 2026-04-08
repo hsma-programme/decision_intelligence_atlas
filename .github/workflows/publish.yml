@@ -33,7 +33,7 @@ jobs:
 
       - uses: conda-incubator/setup-miniconda@v3
         with:
-          activate-environment: my-env
+          activate-environment: atlas
           environment-file: environment.yaml
           python-version: 3.12
           auto-activate-base: false
