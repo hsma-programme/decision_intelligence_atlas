@@ -23,6 +23,7 @@ listing:
     categories: true
     template: listing.ejs
     sort: Title
+    page-size: 1000
 
   - id: r
     include:
@@ -32,6 +33,7 @@ listing:
     categories: true
     template: listing.ejs
     sort: Title
+    page-size: 1000
 
   - id: julia
     include:
@@ -41,6 +43,7 @@ listing:
     categories: true
     template: listing.ejs
     sort: Title
+    page-size: 1000
 
   - id: powerbi
     include:
@@ -50,6 +53,7 @@ listing:
     categories: true
     template: listing.ejs
     sort: Title
+    page-size: 1000
 
   - id: excel
     include:
@@ -59,6 +63,7 @@ listing:
     categories: true
     template: listing.ejs
     sort: Title
+    page-size: 1000
 
   - id: tableau
     include:
@@ -68,6 +73,7 @@ listing:
     categories: true
     template: listing.ejs
     sort: Title
+    page-size: 1000
 
   - id: cplus
     include:
@@ -86,6 +92,7 @@ listing:
     categories: true
     template: listing.ejs
     sort: Title
+    page-size: 1000
 
   - id: meta
     include:
@@ -95,6 +102,7 @@ listing:
     categories: true
     template: listing.ejs
     sort: Title
+    page-size: 1000
 
   - id: other
     exclude:
@@ -104,6 +112,7 @@ listing:
     categories: true
     template: listing.ejs
     sort: Title
+    page-size: 1000
 ---
 
 
