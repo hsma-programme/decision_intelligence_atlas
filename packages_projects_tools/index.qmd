@@ -83,6 +83,7 @@ listing:
     categories: true
     template: listing.ejs
     sort: Title
+    page-size: 1000
 
   - id: apps
     include:
