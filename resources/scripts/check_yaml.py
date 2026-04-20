@@ -89,8 +89,12 @@ def check_entries(field_name, allowed_path):
         entries = meta.get(field_name, [])
         if entries is None:
             entries = []
-        if not isinstance(entries, list):
-            problems.append(f"{path}: {field_name} must be a list")
+        elif isinstance(entries, str):
+            entries = [entries]
+        elif not isinstance(entries, list):
+            problems.append(
+                f"{path}: {field_name} must be a string or a list"
+            )
             continue
 
         bad = [entry for entry in entries if entry not in allowed_values]
