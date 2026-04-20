@@ -1,4 +1,4 @@
-"""Validate QMD category metadata against the permitted category list."""
+"""Validate QMD metadata against the permitted lists."""
 
 from pathlib import Path
 import sys
@@ -8,23 +8,25 @@ import yaml
 CATEGORIES_CSV = Path(
     "templates/packages_projects_tools_permitted_categories.csv"
 )
+LANGUAGES_CSV = Path(
+    "templates/packages_projects_tools_permitted_languages.csv"
+)
 QMD_ROOT = Path("packages_projects_tools")
 
 
-def load_categories(path):
+def load_list(path):
     """
-    Return the set of allowed categories.
+    Return the list of allowed options.
 
     Parameters
     ----------
     path : pathlib.Path
-        Path to the text file containing one category per line.
+        Path to the CSV file containing one option per line.
 
     Returns
     -------
     set of str
-        Set of category names after stripping whitespace and skipping
-        empty lines.
+        Set of options after stripping whitespace and empty lines.
     """
     return {
         line.strip()
@@ -58,23 +60,21 @@ def extract_front_matter(text):
     return parts[1]
 
 
-def main():
+def check_entries(field_name, allowed_path):
     """
-    Validate category metadata in QMD files against the allowed list.
+    Validate a list-valued metadata field in QMD files.
 
-    Scans QMD files under `QMD_ROOT`, parses YAML front matter, and
-    checks that each value in the `categories` field appears in
-    `CATEGORIES_CSV`. Prints any validation problems and exits with a
-    non-zero status if invalid YAML or disallowed categories are found.
+    Parameters
+    ----------
+    field_name : str
+        Name of the YAML field to validate.
+    allowed_path : pathlib.Path
+        Path to the file containing one allowed value per line.
     """
-    allowed_categories = load_categories(CATEGORIES_CSV)
+    allowed_values = load_list(allowed_path)
     problems = []
 
     for path in Path(QMD_ROOT).rglob("*.qmd"):
-        # skip generated/output dirs if needed
-        if any(part in {"_site", ".quarto", ".git"} for part in path.parts):
-            continue
-
         text = path.read_text(encoding="utf-8")
         front_matter = extract_front_matter(text)
         if not front_matter:
@@ -86,26 +86,31 @@ def main():
             problems.append(f"{path}: invalid YAML front matter ({e})")
             continue
 
-        categories = meta.get("categories", [])
-        if categories is None:
-            categories = []
-        if not isinstance(categories, list):
-            problems.append(f"{path}: categories must be a list")
+        entries = meta.get(field_name, [])
+        if entries is None:
+            entries = []
+        if not isinstance(entries, list):
+            problems.append(f"{path}: {field_name} must be a list")
             continue
 
-        bad = [c for c in categories if c not in allowed_categories]
+        bad = [entry for entry in entries if entry not in allowed_values]
         if bad:
-            problems.append(f"{path}: invalid categories {bad} ")
+            problems.append(f"{path}: invalid {field_name} {bad}")
 
     if problems:
-        print("Category validation failed:\n")
-        for p in problems:
-            print(f"- {p}")
+        print(f"{field_name} validation failed:\n")
+        for problem in problems:
+            print(f"- {problem}")
         print("")
-        print(f"Allowed: {sorted(allowed_categories)})")
+        print(f"Allowed {field_name}: {sorted(allowed_values)}")
         sys.exit(1)
 
-    print("All categories are valid.")
+    print(f"All {field_name} entries are valid.")
+
+
+def main():
+    check_entries("categories", CATEGORIES_CSV)
+    check_entries("tool-language", LANGUAGES_CSV)
 
 
 if __name__ == "__main__":
