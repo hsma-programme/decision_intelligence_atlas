@@ -6,7 +6,7 @@ categories:
   - Courses and Training or Reference Materials
 tool-language:
   - Python
-  - Desktop or Web End‑user Application
+  - Desktop or Web End-user Application
 status: '<span style="color: #D18B12FF">Gold</span>'
 image: desplayground.png
 author:
