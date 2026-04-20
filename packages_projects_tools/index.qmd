@@ -69,6 +69,15 @@ listing:
     template: listing.ejs
     sort: Title
 
+  - id: cplus
+    include:
+      tool-language: "C++"
+    type: grid
+    grid-columns: 2
+    categories: true
+    template: listing.ejs
+    sort: Title
+
   - id: apps
     include:
       tool-language: "Desktop or Web End‑user Application"

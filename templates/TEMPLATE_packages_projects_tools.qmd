@@ -11,6 +11,7 @@ tool-language:
   - Excel
   - PowerApps
   - SQL
+  - C++
   - Desktop or Web End‑user Application
   - Meta # These are tools that help you to do data science/operational research/analytics better - e.g. GitHub, Agile Software Methodology
   - Other
