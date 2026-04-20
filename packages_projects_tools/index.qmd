@@ -75,6 +75,16 @@ listing:
     sort: Title
     page-size: 1000
 
+  - id: cplus
+    include:
+      tool-language: "C++"
+    type: grid
+    grid-columns: 2
+    categories: true
+    template: listing.ejs
+    sort: Title
+    page-size: 1000
+
   - id: apps
     include:
       tool-language: "Desktop or Web End‑user Application"
