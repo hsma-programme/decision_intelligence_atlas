@@ -34,73 +34,11 @@
     ]
   },
   {
-    "listing": "/packages_projects_tools/nhs_ptd_power_bi/index.html",
+    "listing": "/packages_projects_tools/mdc_spc_excel_chart_tool/index.html",
     "items": [
-      "/packages_projects_tools/mdc_spc_excel_chart_tool/index.html",
+      "/packages_projects_tools/nhs_ptd_power_bi/index.html",
       "/packages_projects_tools/nhspy-plotthedots/index.html",
       "/packages_projects_tools/nhsrplotthedots/index.html"
-    ]
-  },
-  {
-    "listing": "/packages_projects_tools/des_rap_book/index.html",
-    "items": [
-      "/packages_projects_tools/des_rap_mms/index.html",
-      "/packages_projects_tools/des_rap_stroke/index.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/packages_projects_tools/hsma_des_playground/index.html",
-      "/packages_projects_tools/ten_similar_ccgs/index.html",
-      "/packages_projects_tools/ape/index.html",
-      "/packages_projects_tools/adhd_cyp_des/index.html",
-      "/packages_projects_tools/aif_allocation_tool/index.html",
-      "/packages_projects_tools/ambmodelopen/index.html",
-      "/packages_projects_tools/bptk_py/index.html",
-      "/packages_projects_tools/bupaR/index.html",
-      "/packages_projects_tools/ciw/index.html",
-      "/packages_projects_tools/community_pharmacy_workforce/index.html",
-      "/packages_projects_tools/concurrentsim/index.html",
-      "/packages_projects_tools/des_rap_book/index.html",
-      "/packages_projects_tools/des_rap_mms/index.html",
-      "/packages_projects_tools/des_rap_stroke/index.html",
-      "/packages_projects_tools/esa_avoidable_ed/index.html",
-      "/packages_projects_tools/esaedcrowding/index.html",
-      "/packages_projects_tools/hsma_des_module/index.html",
-      "/packages_projects_tools/hsma_little_book_of_des/index.html",
-      "/packages_projects_tools/hybridsim/index.html",
-      "/packages_projects_tools/julia_healthcare/index.html",
-      "/packages_projects_tools/mdc_spc_excel_chart_tool/index.html",
-      "/packages_projects_tools/meeting_the_demand_of_111/index.html",
-      "/packages_projects_tools/new_hospital_programme/index.html",
-      "/packages_projects_tools/nhs_ptd_power_bi/index.html",
-      "/packages_projects_tools/nhs_time_of_travel/index.html",
-      "/packages_projects_tools/nhse_ndrs_cancer_registrations/index.html",
-      "/packages_projects_tools/nhse_ndrs_cancer_treatments/index.html",
-      "/packages_projects_tools/nhspy-plotthedots/index.html",
-      "/packages_projects_tools/nhsrplotthedots/index.html",
-      "/packages_projects_tools/nhsrtt/index.html",
-      "/packages_projects_tools/nhsrwaitinglist/index.html",
-      "/packages_projects_tools/nonelectiveflow/index.html",
-      "/packages_projects_tools/nowcasting/index.html",
-      "/packages_projects_tools/opencodecounts/index.html",
-      "/packages_projects_tools/patientflow/index.html",
-      "/packages_projects_tools/pm4py/index.html",
-      "/packages_projects_tools/rap_community_of_practice/index.html",
-      "/packages_projects_tools/renal_capacity_des_model/index.html",
-      "/packages_projects_tools/sim_tools/index.html",
-      "/packages_projects_tools/somerset_data_science_course/index.html",
-      "/packages_projects_tools/somerset_wait_list_simulation/index.html",
-      "/packages_projects_tools/stars_reusability_examples/index.html",
-      "/packages_projects_tools/streamlit/index.html",
-      "/packages_projects_tools/vidigi/index.html"
-    ]
-  },
-  {
-    "listing": "/graph_catalogue/index.html",
-    "items": [
-      "/graph_catalogue/spc/index.html"
     ]
   },
   {
@@ -148,14 +86,78 @@
       "/packages_projects_tools/concurrentsim/index.html",
       "/packages_projects_tools/julia_healthcare/index.html",
       "/packages_projects_tools/nhs_ptd_power_bi/index.html",
+      "/packages_projects_tools/nhs_vega_library/index.html",
       "/packages_projects_tools/mdc_spc_excel_chart_tool/index.html",
       "/packages_projects_tools/rap_community_of_practice/index.html"
     ]
   },
   {
-    "listing": "/packages_projects_tools/mdc_spc_excel_chart_tool/index.html",
+    "listing": "/graph_catalogue/index.html",
     "items": [
+      "/graph_catalogue/spc/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/packages_projects_tools/nhs_vega_library/index.html",
+      "/packages_projects_tools/hsma_des_playground/index.html",
+      "/packages_projects_tools/ten_similar_ccgs/index.html",
+      "/packages_projects_tools/ape/index.html",
+      "/packages_projects_tools/adhd_cyp_des/index.html",
+      "/packages_projects_tools/aif_allocation_tool/index.html",
+      "/packages_projects_tools/ambmodelopen/index.html",
+      "/packages_projects_tools/bptk_py/index.html",
+      "/packages_projects_tools/bupaR/index.html",
+      "/packages_projects_tools/ciw/index.html",
+      "/packages_projects_tools/community_pharmacy_workforce/index.html",
+      "/packages_projects_tools/concurrentsim/index.html",
+      "/packages_projects_tools/des_rap_book/index.html",
+      "/packages_projects_tools/des_rap_mms/index.html",
+      "/packages_projects_tools/des_rap_stroke/index.html",
+      "/packages_projects_tools/esa_avoidable_ed/index.html",
+      "/packages_projects_tools/esaedcrowding/index.html",
+      "/packages_projects_tools/hsma_des_module/index.html",
+      "/packages_projects_tools/hsma_little_book_of_des/index.html",
+      "/packages_projects_tools/hybridsim/index.html",
+      "/packages_projects_tools/julia_healthcare/index.html",
+      "/packages_projects_tools/mdc_spc_excel_chart_tool/index.html",
+      "/packages_projects_tools/meeting_the_demand_of_111/index.html",
+      "/packages_projects_tools/new_hospital_programme/index.html",
       "/packages_projects_tools/nhs_ptd_power_bi/index.html",
+      "/packages_projects_tools/nhs_time_of_travel/index.html",
+      "/packages_projects_tools/nhse_ndrs_cancer_registrations/index.html",
+      "/packages_projects_tools/nhse_ndrs_cancer_treatments/index.html",
+      "/packages_projects_tools/nhspy-plotthedots/index.html",
+      "/packages_projects_tools/nhsrplotthedots/index.html",
+      "/packages_projects_tools/nhsrtt/index.html",
+      "/packages_projects_tools/nhsrwaitinglist/index.html",
+      "/packages_projects_tools/nonelectiveflow/index.html",
+      "/packages_projects_tools/nowcasting/index.html",
+      "/packages_projects_tools/opencodecounts/index.html",
+      "/packages_projects_tools/patientflow/index.html",
+      "/packages_projects_tools/pm4py/index.html",
+      "/packages_projects_tools/rap_community_of_practice/index.html",
+      "/packages_projects_tools/renal_capacity_des_model/index.html",
+      "/packages_projects_tools/sim_tools/index.html",
+      "/packages_projects_tools/somerset_data_science_course/index.html",
+      "/packages_projects_tools/somerset_wait_list_simulation/index.html",
+      "/packages_projects_tools/stars_reusability_examples/index.html",
+      "/packages_projects_tools/streamlit/index.html",
+      "/packages_projects_tools/vidigi/index.html"
+    ]
+  },
+  {
+    "listing": "/packages_projects_tools/des_rap_book/index.html",
+    "items": [
+      "/packages_projects_tools/des_rap_mms/index.html",
+      "/packages_projects_tools/des_rap_stroke/index.html"
+    ]
+  },
+  {
+    "listing": "/packages_projects_tools/nhs_ptd_power_bi/index.html",
+    "items": [
+      "/packages_projects_tools/mdc_spc_excel_chart_tool/index.html",
       "/packages_projects_tools/nhspy-plotthedots/index.html",
       "/packages_projects_tools/nhsrplotthedots/index.html"
     ]

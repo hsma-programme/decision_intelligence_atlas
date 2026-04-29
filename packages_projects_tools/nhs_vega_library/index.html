@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Sammi Rosser">
-<meta name="dcterms.date" content="2026-03-30">
+<meta name="author" content="Patrick Devaney">
+<meta name="dcterms.date" content="2026-04-29">
 
-<title>NHSRplotthedots - a PowerBI Custom Visual Implementation – The Healthcare Service Analytics &amp; Decision Intelligence Atlas</title>
+<title>NHS Vega Library – The Healthcare Service Analytics &amp; Decision Intelligence Atlas</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,8 +32,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
@@ -77,35 +75,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-spc .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-project','listing-webr','listing-filters','listing-website','listing-language','listing-format','listing-draft-mode','listing-date-format','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-title','listing-categories','listing-tool-language','listing-status','listing-image','listing-author','listing-pub-info','listing-date','listing-listing','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
-      
-      searchColumns: ["listing-project","listing-webr","listing-filters","listing-website","listing-language","listing-format","listing-draft-mode","listing-date-format","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-title","listing-categories","listing-tool-language","listing-status","listing-image","listing-author","listing-pub-info","listing-date","listing-listing","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-spc'] = new List('listing-spc', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-41QML5TFEF"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -140,35 +109,6 @@ cookieconsent.run({
   });
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../../resources/themes/styles.css">
 </head>
@@ -422,28 +362,28 @@ window.Quarto = {
         <div class="quarto-title-banner page-columns page-full">
             <div class="quarto-title column-page-left">
                                                 <div class="quarto-categories">
-                                        <div class="quarto-category">Statistical Process Control</div>
+                                        <div class="quarto-category">Data Visualisation</div>
+                                        <div class="quarto-category">KPI Reporting</div>
                                     </div>
-                                                <h1 class="title">NHSRplotthedots - a PowerBI Custom Visual Implementation <i class="fa-solid fa-hospital"></i> <i class="fa-solid fa-user-graduate"></i></h1>
+                                                <h1 class="title">NHS Vega Library <i class="fa-solid fa-hospital"></i></h1>
                                                                 <br>
                 <div class="abstract">
                     <b>Summary</b>
-                    <p>This custom PowerBI visual (based on NHSRplotthedots) simplifies the creation and automation of statistical process control (SPC) charts for KPIs. It helps analysts and teams move beyond static KPIs to understand true performance variation and identify opportunities for improvement, producing R-backed visuals within the setting of PowerBI and integrating with PowerBIs data model and filters.</p>
-                                        Rating: <span style="color: #893400FF">Bronze</span>
-                                        <p>This project benefits from being built on top of the NHS-R plot the dots package, which is tested and extensively documented. However, documentation for getting started with the power BI visual is lacking some key steps, and it has not received a significant update in some time, lagging behind the latest R package release.</p>
+                    <p>“A library of healthcare-specific data visualisations, developed in Vega. Hyper customisable interactive charts and widgets that you own, which can be implemented in Power BI using Deneb, or Python using Altair.”</p>
+                                        Rating: <span style="color:#888888FF">Silver</span>
+                                        <p>“Project under active development and in a fully useable state, however there are more features to be added before it is v1.0 ready.”</p>
                                                         </div>
                 
                                 <div class="project-link-buttons">
                     <ul class="project-links">
-                                                                        <button class="custom-button"><a href="https://github.com/Bergam0t/nhs_ptd_power_bi"><i class="fa-brands fa-github"></i> Code</a></button>
-                                                                                                <button class="custom-button"><a href="https://github.com/Bergam0t/nhs_ptd_power_bi/releases"><i class="fa-solid fa-download"></i> Download Custom Visual</a></button>
-                                                                                                <button class="custom-button"><a href="https://github.com/Bergam0t/nhs_ptd_power_bi?tab=readme-ov-file#readme"><i class="fa-solid fa-book"></i> Documentation</a></button>
-                                                                                                                                                                                                                                                                    </ul>
+                                                                        <button class="custom-button"><a href="https://github.com/paddy-devan/nhs-vega-library"><i class="fa-brands fa-github"></i> Code</a></button>
+                                                                                                                                                                                                                                                                                                <button class="custom-button"><a href="https://paddy-devan.github.io/nhs-vega-library/"><i class="fa-solid fa-globe"></i> Website</a></button>
+                                                                    </ul>
                 </div>
                 
                                 <p><b>Atlas Entry authored by:</b>
-                                |&nbsp;Sammi Rosser
-                                (<a href="https://github.com/Bergam0t">Link</a>)
+                                |&nbsp;
+                                (<a href="github.com/paddy-devan">Link</a>)
                                 &nbsp;|&nbsp;
                                 </p>
                             </div>
@@ -451,27 +391,20 @@ window.Quarto = {
         </div>
     <!-- </div> -->
 
-    <div class="quarto-title-meta-author column-page-left">
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-heading">Affiliation</div>
-      
-        <div class="quarto-title-meta-contents">
-        <p class="author">Sammi Rosser </p>
-      </div>
-      <div class="quarto-title-meta-contents">
-            <p class="affiliation">
-                Health Service Modelling Associates (HSMA), NIHR PenARC (Devon Partnership Trust at time of project)
-              </p>
-          </div>
-      </div>
-
+    
     <div class="quarto-title-meta column-page-left">
 
-          
+        <div>
+        <div class="quarto-title-meta-heading">Author</div>
+        <div class="quarto-title-meta-contents">
+                 <p>Patrick Devaney </p>
+              </div>
+      </div>
+        
         <div>
         <div class="quarto-title-meta-heading">Page last modified</div>
         <div class="quarto-title-meta-contents">
-          <p class="date">30 March 2026</p>
+          <p class="date">29 April 2026</p>
         </div>
       </div>
       
@@ -486,15 +419,13 @@ window.Quarto = {
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#single-plot" id="toc-single-plot" class="nav-link active" data-scroll-target="#single-plot">Single Plot</a></li>
-  <li><a href="#faceted-plot" id="toc-faceted-plot" class="nav-link" data-scroll-target="#faceted-plot">Faceted Plot</a></li>
-  <li><a href="#cards" id="toc-cards" class="nav-link" data-scroll-target="#cards">Cards</a></li>
-  <li><a href="#summary-tables-and-matrices" id="toc-summary-tables-and-matrices" class="nav-link" data-scroll-target="#summary-tables-and-matrices">Summary Tables and Matrices</a></li>
-  <li><a href="#more-about-spc-charts" id="toc-more-about-spc-charts" class="nav-link" data-scroll-target="#more-about-spc-charts">More about SPC charts</a></li>
-  <li><a href="#related-projects" id="toc-related-projects" class="nav-link" data-scroll-target="#related-projects">Related Projects</a></li>
+  <li><a href="#additional-links" id="toc-additional-links" class="nav-link active" data-scroll-target="#additional-links">Additional Links</a></li>
+  <li><a href="#additional-categories" id="toc-additional-categories" class="nav-link" data-scroll-target="#additional-categories">Additional Categories</a></li>
+  <li><a href="#details" id="toc-details" class="nav-link" data-scroll-target="#details">Details</a></li>
+  <li><a href="#project-status" id="toc-project-status" class="nav-link" data-scroll-target="#project-status">Project status</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="S1BJJTIwUmVwb3J0aW5n">KPI Reporting <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U3RhdGlzdGljYWwlMjBQcm9jZXNzJTIwQ29udHJvbA==">Statistical Process Control <span class="quarto-category-count">(3)</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -609,248 +540,23 @@ new FinisherHeader({
 
 
 
-<p>This visual, like the R package it is based on, supports the NHSE/I programme ‘Making Data Count’, and allows users to draw XmR charts, use change points, and apply rules with summary indicators for when rules are breached.</p>
-<p>As it is a standalone custom PowerBI visual, rather than an R script, you get an interactive graph that users can hover over to obtain more information about individual points.</p>
-<p>The relevant variables from datasets can be dragged in to the PowerBI interface.</p>
-<p><img src="input.png" class="img-fluid"></p>
-<p>It is then possible to set things like a plot title and axis settings via the interface.</p>
-<p><img src="settings.png" class="img-fluid"></p>
-<p>There are a range of different options for displaying the SPC chart.</p>
-<section id="single-plot" class="level2">
-<h2 class="anchored" data-anchor-id="single-plot">Single Plot</h2>
-<p><img src="filter.png" class="img-fluid"></p>
+<section id="additional-links" class="level2">
+<h2 class="anchored" data-anchor-id="additional-links">Additional Links</h2>
 </section>
-<section id="faceted-plot" class="level2">
-<h2 class="anchored" data-anchor-id="faceted-plot">Faceted Plot</h2>
-<p>This is particularly useful if you are filtering and different groups may have a different number of KPIs to plot</p>
-<p><img src="faceted_graph.png" class="img-fluid"></p>
+<section id="additional-categories" class="level2">
+<h2 class="anchored" data-anchor-id="additional-categories">Additional Categories</h2>
 </section>
-<section id="cards" class="level2">
-<h2 class="anchored" data-anchor-id="cards">Cards</h2>
-<p>In place of a metric card that only gives a current value, these cards provide the variation icon, the target icon (if relevant), and a sparkline. Users can then choose a title and subtitle for the card.</p>
-<p><img src="cards.png" class="img-fluid"></p>
-</section>
-<section id="summary-tables-and-matrices" class="level2">
-<h2 class="anchored" data-anchor-id="summary-tables-and-matrices">Summary Tables and Matrices</h2>
-<p>For a high level overview of multiple metrics, you can use one of the summary table or matrix layouts.</p>
-<p><img src="summary_table_1.png" class="img-fluid"></p>
-<p><img src="summary_table_2.png" class="img-fluid"></p>
-<p><img src="matrix.png" class="img-fluid"></p>
+<section id="details" class="level2">
+<h2 class="anchored" data-anchor-id="details">Details</h2>
+<p>Vega is a data visualisation language based on the ‘grammar of graphics’, which is also used by popular packages such as R’s ggplot. Using Vega, you can create extremely customised data driven charts and interactive widgets, which can be placed in Power BI dashboards using the Deneb custom visual, or in Python notebooks using the Altair package.</p>
+<p>This project aims to provide a central library of healthcare-focussed Vega specifications, that can be used by analytics teams to extend the capabilities of their Power BI dashboards without paying for normal custom visuals, or data scientists wanting to share best practice in presenting model results.</p>
+<p>Contributions can be made by cloning the repo locally, creating a folder for the new viz populated with the spec, metadata and sample data, and then opening a Pull Request on GitHub. Alternatively for the less Git-savvy, you can create an issue on the repo, with a folder attached containing your specification, sample data and metadata. The format for these can be copied from one of the existing specs in the repo.</p>
 <p><br></p>
 </section>
-<section id="more-about-spc-charts" class="level2">
-<h2 class="anchored" data-anchor-id="more-about-spc-charts">More about SPC charts</h2>
-<p>Take a look at our <a href="../../techniques/spc/index.html">technique page</a> for more information about the theory behind SPC charts.</p>
-<p>Looking for some code snippets? Head to our <a href="../../graph_catalogue/spc/index.html">graph page</a>.</p>
-</section>
-<section id="related-projects" class="level2">
-<h2 class="anchored" data-anchor-id="related-projects">Related Projects</h2>
-<div id="listing-spc" class="quarto-listing quarto-listing-container-custom">
-<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
-
-    
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="U3RhdGlzdGljYWwlMjBQcm9jZXNzJTIwQ29udHJvbA==" data-listing-date-sort="1774882098000" data-listing-file-modified-sort="1777467069545" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="102">
-            <div class="main-card-content">
-            
-                  <a href="../../packages_projects_tools/mdc_spc_excel_chart_tool/index.html">
-              <img class="card-img" src="../../packages_projects_tools/mdc_spc_excel_chart_tool/spc_excel.png" alt="Making Data Count: the SPC single and multiple chart tool">
-                  </a>
-                
-
-            <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">
-                  <a href="../../packages_projects_tools/mdc_spc_excel_chart_tool/index.html" class="title-link">Making Data Count: the SPC single and multiple chart tool
-                    <i class="fa-solid fa-hospital"></i>
-                  </a>
-                </h5>
-            </div>
-
-            
-            <div class="project-status">
-              Status: <span style="color: #893400FF">Bronze</span>
-            </div>
-            
-
-            
-              <p class="listing-abstract">These Excel templates support the creation of statistical process control (SPC) charts adhering to the making data count rules and style. SPC charts are a good alternative to red-amber-green (RAG) rated reporting of metrics, helping to build a more informed picture of a metric's performance over time and spot signals of improvement or deterioration.
-</p>
-                
-
-            
-
-            
-
-            
-
-          </div>
-
-            <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="../../packages_projects_tools/mdc_spc_excel_chart_tool/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
-                    
-                      
-                          
-                            
-                        
-                            
-                        
-                            
-                        
-                            
-                        
-                            
-                        
-                            
-                      <button class="project-link-listing-button"><a href="https://www.england.nhs.uk/statistical-process-control-tool/"><i class="fa-solid fa-globe"></i> Website - Single Chart </a></button>
-                          
-                        
-                            
-                      <button class="project-link-listing-button"><a href="https://www.england.nhs.uk/wp-content/uploads/2020/08/Statistical-process-control-tool.xlsm"><i class="fa-solid fa-download"></i> Download - Single Chart </a></button>
-                          
-                        
-                            
-                      <button class="project-link-listing-button"><a href="https://www.england.nhs.uk/statistical-process-control-multiple-chart-tool/"><i class="fa-solid fa-globe"></i> Website - Multiple Chart </a></button>
-                          
-                        
-                            
-                      <button class="project-link-listing-button"><a href="https://www.england.nhs.uk/wp-content/uploads/2020/09/statistical-process-control--multiple-chart-tool.xlsm"><i class="fa-solid fa-download"></i> Download - Multiple Chart </a></button>
-                          
-                        
-                        
-                    
-            </div>
-          </div>
-
-        
-      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="S1BJJTIwUmVwb3J0aW5nJTJDU3RhdGlzdGljYWwlMjBQcm9jZXNzJTIwQ29udHJvbA==" data-listing-date-sort="1774882098000" data-listing-file-modified-sort="1777467069604" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="61">
-            <div class="main-card-content">
-            
-                  <a href="../../packages_projects_tools/nhspy-plotthedots/index.html">
-              <img class="card-img" src="../../packages_projects_tools/nhspy-plotthedots/image.png" alt="nhspy-plotthedots">
-                  </a>
-                
-
-            <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">
-                  <a href="../../packages_projects_tools/nhspy-plotthedots/index.html" class="title-link">nhspy-plotthedots
-                    <i class="fa-solid fa-hospital"></i>
-                  </a>
-                </h5>
-            </div>
-
-            
-            <div class="project-status">
-              Status: <span style="color: #893400FF">Bronze</span>
-            </div>
-            
-
-            
-              <p class="listing-abstract">NHSpy-plotthedots is a Python port of the NHSRplotthedots package that simplifies the creation and automation of statistical process control (SPC) charts for KPIs. It helps analysts and teams move beyond static KPIs to understand true performance variation and identify opportunities for improvement.
-</p>
-                
-
-            
-
-            
-
-            
-
-          </div>
-
-            <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="../../packages_projects_tools/nhspy-plotthedots/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
-                    
-                      
-                          
-                            
-                      <button class="project-link-listing-button"><a href="https://github.com/nhs-pycom/nhspy-plotthedots"><i class="fa-brands fa-github"></i> Code </a></button>
-                          
-                        
-                            
-                      <button class="project-link-listing-button"><a href="https://nhs-pycom.github.io/nhspy-plotthedots/"><i class="fa-solid fa-book"></i> Documentation </a></button>
-                          
-                        
-                            
-                        
-                            
-                        
-                            
-                        
-                            
-                        
-                        
-                    
-            </div>
-          </div>
-
-        
-      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="S1BJJTIwUmVwb3J0aW5nJTJDU3RhdGlzdGljYWwlMjBQcm9jZXNzJTIwQ29udHJvbA==" data-listing-date-sort="1774882098000" data-listing-file-modified-sort="1777467069612" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="106">
-            <div class="main-card-content">
-            
-                  <a href="../../packages_projects_tools/nhsrplotthedots/index.html">
-              <img class="card-img" src="../../packages_projects_tools/nhsrplotthedots/nhsrplotthedots.png" alt="NHSRPlotTheDots: statistical process control for better metric reporting">
-                  </a>
-                
-
-            <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">
-                  <a href="../../packages_projects_tools/nhsrplotthedots/index.html" class="title-link">NHSRPlotTheDots: statistical process control for better metric reporting
-                    <i class="fa-solid fa-hospital"></i>
-                  </a>
-                </h5>
-            </div>
-
-            
-            <div class="project-status">
-              Status: <span style="color: #D18B12FF">Gold</span>
-            </div>
-            
-
-            
-              <p class="listing-abstract">NHSRplotthedots is an R package that simplifies the creation and automation of statistical process control (SPC) charts for KPIs. It helps analysts and teams move beyond static KPIs to understand true performance variation and identify opportunities for improvement.
-</p>
-                
-
-            
-
-            
-
-            
-
-          </div>
-
-            <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="../../packages_projects_tools/nhsrplotthedots/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
-                    
-                      
-                          
-                            
-                      <button class="project-link-listing-button"><a href="https://github.com/nhs-r-community/NHSRplotthedots"><i class="fa-brands fa-github"></i> Code </a></button>
-                          
-                        
-                            
-                      <button class="project-link-listing-button"><a href="https://nhsrplotthedots.nhsrcommunity.com/"><i class="fa-solid fa-book"></i> Documentation </a></button>
-                          
-                        
-                            
-                        
-                            
-                        
-                            
-                      <button class="project-link-listing-button"><a href="https://cran.r-project.org/web/packages/NHSRplotthedots/index.html"><i class="fa-solid fa-brands fa-r-project"></i> CRAN </a></button>
-                          
-                        
-                            
-                        
-                        
-                    
-            </div>
-          </div>
-
-        
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-
+<section id="project-status" class="level2">
+<h2 class="anchored" data-anchor-id="project-status">Project status</h2>
+<p><strong>Status: <span style="color:#888888FF">Silver</span></strong></p>
+<p><strong>Rationale:</strong> Project under active development and in a fully useable state, however there are more features to be added before it is v1.0 ready.</p>
 
 
 </section>
