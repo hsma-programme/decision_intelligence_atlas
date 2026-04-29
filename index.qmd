@@ -289,9 +289,6 @@ Interested to see what things we propose should be added to the Atlas?
 
 Click on the cards in the right hand column above to see the full list of proposed entries for each type of content.
 
-<br/>
-
-
 We're very grateful to all of our contributors so far!
 
 
@@ -304,7 +301,7 @@ We're very grateful to all of our contributors so far!
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-<br>
+<br/>
 
 [*Emoji key*](https://allcontributors.org/docs/en/emoji-key)
 
