@@ -304,6 +304,11 @@ We're very grateful to all of our contributors so far!
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
+<br>
+
+[*Emoji key*](https://allcontributors.org/docs/en/emoji-key)
+
+<br>
 
 ::: {.value-box-simple .bg-amber}
 
