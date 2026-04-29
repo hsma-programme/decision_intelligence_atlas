@@ -1,42 +1,45 @@
 ---
-title: \"NHS Vega Library\"
+title: "NHS Vega Library"
 categories:
-
+    - Data Visualisation
+    - KPI Reporting
 tool-language:
-
+    - PowerBI
+    - Vega
 author:
-  - name: \"Patrick Devaney\"
+  - name: "Patrick Devaney"
     affiliation:
     orcid:
-status: <span style="color: #888888FF">Silver</span>
+status: <span style="color:#888888FF">Silver</span>
 toc: true
-image:
+image: nhs_vega_library.png
 pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i>
   rationale-for-status: |
-    \"Project under active development and in a fully useable state, however there are more features to be added before it is v1.0 ready.\"
+    "Project under active development and in a fully useable state, however there are more features to be added before it is v1.0 ready."
   entry-author:
-    - name: \"\"
-      url: \"github.com/paddy-devan\"
+    - name: ""
+      url: "github.com/paddy-devan"
   abstract: |
-    \"A library of healthcare-specific data visualisations, developed in Vega. Hyper customisable interactive charts and widgets that you own, which can be implemented in Power BI using Deneb, or Python using Altair.\"
+    "A library of healthcare-specific data visualisations, developed in Vega. Hyper customisable interactive charts and widgets that you own, which can be implemented in Power BI using Deneb, or Python using Altair."
   links:
   - name: Code
-    url: \"https://github.com/paddy-devan/nhs-vega-library\"
+    url: "https://github.com/paddy-devan/nhs-vega-library"
     icon: fa-brands fa-github
   - name: Documentation
-    url: \"\"
+    url: ""
     icon: fa-solid fa-book
   - name: Paper
-    url: \"\"
+    url: ""
     icon: fa-solid fa-file-contract
   - name: PyPi
-    url: \"\"
+    url: ""
     icon: fa-solid fa-brands fa-python
   - name: CRAN
-    url: \"\"
+    url: ""
     icon: fa-solid fa-brands fa-r-project
   - name: Website
-    url: \"https://paddy-devan.github.io/nhs-vega-library/\"
+    url: "https://paddy-devan.github.io/nhs-vega-library/"
     icon: fa-solid fa-globe
 ---
 
@@ -60,5 +63,4 @@ Contributions can be made by cloning the repo locally, creating a folder for the
 
 **Status: {{< meta status >}}**
 
-**Rationale:** \"Project under active development and in a fully useable state, however there are more features to be added before it is v1.0 ready.\"
-
+**Rationale:** Project under active development and in a fully useable state, however there are more features to be added before it is v1.0 ready.
