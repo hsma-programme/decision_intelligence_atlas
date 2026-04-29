@@ -18,12 +18,14 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
       - name: Extract issue data
         id: extract
         uses: issue-ops/parser@v4.2.0
         with:
           body: ${{ github.event.issue.body }}
           issue-form-template: 1-new_package_project_tool_submission.yml
+
       - name: Set sanitized model name
         id: modelname
         run: |
@@ -31,103 +33,121 @@ jobs:
           SAFE_MODEL_NAME=$(echo "$RAW_MODEL_NAME" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/_/g; s/__*/_/g; s/^_*//; s/_*$//')
           echo "safe_model_name=$SAFE_MODEL_NAME" >> $GITHUB_OUTPUT
 
-      - name: Process Issue Data
+      - name: Process Categories
+        id: categories
         env:
-          # Pass the payload safely as an environment variable
-          JSON_PAYLOAD: ${{ github.event.issue.body }}
+          JSON_PAYLOAD: ${{ steps.extract.outputs.json }}
         run: |
-          # Call the environment variable directly.
-          # Use double quotes around the variable to preserve newlines/spaces.
-          language=$(echo "$JSON_PAYLOAD" | jq -r '.language[]' | sed 's/^/  - /')
-          categories=$(echo "$JSON_PAYLOAD" | jq -r '.category[]' | sed 's/^/  - /')
+          {
+            echo "list<<EOF"
+            echo "$JSON_PAYLOAD" | jq -r '.category[]?' | sed 's/^/  - /'
+            echo "EOF"
+          } >> $GITHUB_OUTPUT
 
-      - name: Create QMD file
+      - name: Process Languages
+        id: languages
+        env:
+          JSON_PAYLOAD: ${{ steps.extract.outputs.json }}
         run: |
-          mkdir -p "packages_projects_tools/${{ steps.modelname.outputs.safe_model_name }}"
+          # Get base languages
+          LANG_LIST=$(echo "$JSON_PAYLOAD" | jq -r '.language[]?' | sed 's/^/  - /')
 
-          # Map status → colored span, works for string or array
-          status_span=$(echo "$JSON" | jq -r '
+          # Handle language_other if it exists
+          LANG_OTHER=$(echo "$JSON_PAYLOAD" | jq -r '.language_other // ""')
+          if [ -n "$LANG_OTHER" ]; then
+            IFS=';' read -ra ADDS <<< "$LANG_OTHER"
+            for i in "${ADDS[@]}"; do
+              CLEAN_I=$(echo "$i" | xargs)
+              if [ -n "$CLEAN_I" ]; then
+                # Append to the list with correct indentation
+                LANG_LIST=$(printf "%s\n  - %s" "$LANG_LIST" "$CLEAN_I")
+              fi
+            done
+          fi
+
+          {
+            echo "list<<EOF"
+            echo "$LANG_LIST"
+            echo "EOF"
+          } >> $GITHUB_OUTPUT
+
+      - name: Get Status Span
+        id: status
+        env:
+          JSON_PAYLOAD: ${{ steps.extract.outputs.json }}
+        run: |
+          SPAN=$(echo "$JSON_PAYLOAD" | jq -r '
             def colorize($s):
               if $s == "Bronze" then "<span style=\"color: #893400FF\">Bronze</span>"
               elif $s == "Silver" then "<span style=\"color: #888888FF\">Silver</span>"
               elif $s == "Gold" then "<span style=\"color: #D18B12FF\">Gold</span>"
               else "<span>" + ($s // "Unknown") + "</span>"
               end;
-
             .status | (if type=="array" then .[] else . end) | colorize(.)
           ')
+          echo "status_span=$SPAN" >> $GITHUB_OUTPUT
 
-          # Extract language array
-          language=$(echo "$JSON_PAYLOAD" | jq -r '.language[]' | sed 's/^/  - /')
-
-          # Extract and process language_other
-          language_other=$(echo "$JSON_PAYLOAD" | jq -r '.language_other // ""')
-
-          # Add language_other items if present
-          if [ -n "$language_other" ]; then
-            # Split on semicolons and add each as a list item
-            while IFS=';' read -ra LANGS; do
-              for lang in "${LANGS[@]}"; do
-                # Trim whitespace
-                lang=$(echo "$lang" | xargs)
-                if [ -n "$lang" ]; then
-                  language=$(printf "%s\n  - %s" "$language" "$lang")
-                fi
-              done
-            done <<< "$language_other"
-          fi
-
+      - name: Create QMD file
+        env:
+            # Pulling in all the work from previous steps
+            CATS: ${{ steps.categories.outputs.categories }}
+            LANGS: ${{ steps.languages.outputs.language }}
+            STATUS: ${{ steps.status.outputs.status_span }}
+            # Raw data for the blocks
+            JSON_DATA: ${{ steps.extract.outputs.json }}
+        run: |
+          mkdir -p "packages_projects_tools/${{ steps.modelname.outputs.safe_model_name }}"
           cat > "packages_projects_tools/${{ steps.modelname.outputs.safe_model_name }}/index.qmd" <<EOF
           ---
-          title: \"${{ fromJSON(steps.extract.outputs.json).model_name }}\"
+          title: \"${{ fromJSON(env.JSON_DATA).model_name }}\"
           categories:
-          ${categories}
+          ${{ env.CATS }}
           tool-language:
-          ${language}
+          ${{ env.LANGS }}
           author:
-            - name: \"${{ fromJSON(steps.extract.outputs.json).author }}\"
+            - name: \"${{ fromJSON(env.JSON_DATA).author }}\"
               affiliation:
               orcid:
-          status: ${status_span}
+          status: ${{ env.STATUS }}
           toc: true
           image:
           pub-info:
             rationale-for-status: |
-              \"${{ fromJSON(steps.extract.outputs.json).status_reason }}\"
+              \"${{ fromJSON(env.JSON_DATA).status_reason }}\"
             entry-author:
-              - name: \"${{ fromJSON(steps.extract.outputs.json).entry_author }}\"
-                url: \"${{ fromJSON(steps.extract.outputs.json).entry_author_url }}\"
+              - name: \"${{ fromJSON(env.JSON_DATA).entry_author }}\"
+                url: \"${{ fromJSON(env.JSON_DATA).entry_author_url }}\"
             abstract: |
-              \"${{ fromJSON(steps.extract.outputs.json).summary }}\"
+              \"${{ fromJSON(env.JSON_DATA).summary }}\"
             links:
             - name: Code
-              url: \"${{ fromJSON(steps.extract.outputs.json).code }}\"
+              url: \"${{ fromJSON(env.JSON_DATA).code }}\"
               icon: fa-brands fa-github
             - name: Documentation
-              url: \"${{ fromJSON(steps.extract.outputs.json).documentation }}\"
+              url: \"${{ fromJSON(env.JSON_DATA).documentation }}\"
               icon: fa-solid fa-book
             - name: Paper
-              url: \"${{ fromJSON(steps.extract.outputs.json).paper }}\"
+              url: \"${{ fromJSON(env.JSON_DATA).paper }}\"
               icon: fa-solid fa-file-contract
             - name: PyPi
-              url: \"${{ fromJSON(steps.extract.outputs.json).pypi }}\"
+              url: \"${{ fromJSON(env.JSON_DATA).pypi }}\"
               icon: fa-solid fa-brands fa-python
             - name: CRAN
-              url: \"${{ fromJSON(steps.extract.outputs.json).cran }}\"
+              url: \"${{ fromJSON(env.JSON_DATA).cran }}\"
               icon: fa-solid fa-brands fa-r-project
             - name: Website
-              url: \"${{ fromJSON(steps.extract.outputs.json).website }}\"
+              url: \"${{ fromJSON(env.JSON_DATA).website }}\"
               icon: fa-solid fa-globe
           ---
 
           ## Additional Links
-          ${{ fromJSON(steps.extract.outputs.json).other_urls }}
+          ${{ fromJSON(env.JSON_DATA).other_urls }}
 
           ## Additional Categories
-          ${{ fromJSON(steps.extract.outputs.json).category_other }}
+          ${{ fromJSON(env.JSON_DATA).category_other }}
 
           ## Details
-          ${{ fromJSON(steps.extract.outputs.json).details }}
+          ${{ fromJSON(env.JSON_DATA).details }}
 
 
           <br>
@@ -136,7 +156,7 @@ jobs:
 
           **Status: {{< meta status >}}**
 
-          **Rationale:** \"${{ fromJSON(steps.extract.outputs.json).status_reason }}\"
+          **Rationale:** \"${{ fromJSON(env.JSON_DATA).status_reason }}\"
 
           EOF
       - name: Commit and open PR
