@@ -71,13 +71,13 @@ jobs:
 
           cat > "packages_projects_tools/${{ steps.modelname.outputs.safe_model_name }}/index.qmd" <<EOF
           ---
-          title: "${{ fromJSON(steps.extract.outputs.json).model_name }}"
+          title: \"${{ fromJSON(steps.extract.outputs.json).model_name }}\"
           categories:
           ${categories}
           tool-language:
           ${language}
           author:
-            - name: "${{ fromJSON(steps.extract.outputs.json).author }}"
+            - name: \"${{ fromJSON(steps.extract.outputs.json).author }}\"
               affiliation:
               orcid:
           status: ${status_span}
@@ -85,30 +85,30 @@ jobs:
           image:
           pub-info:
             rationale-for-status: |
-              "${{ fromJSON(steps.extract.outputs.json).status_reason }}"
+              \"${{ fromJSON(steps.extract.outputs.json).status_reason }}\"
             entry-author:
-              - name: "${{ fromJSON(steps.extract.outputs.json).entry_author }}"
-                url: "${{ fromJSON(steps.extract.outputs.json).entry_author_url }}"
+              - name: \"${{ fromJSON(steps.extract.outputs.json).entry_author }}\"
+                url: \"${{ fromJSON(steps.extract.outputs.json).entry_author_url }}\"
             abstract: |
-              "${{ fromJSON(steps.extract.outputs.json).summary }}"
+              \"${{ fromJSON(steps.extract.outputs.json).summary }}\"
             links:
             - name: Code
-              url: "${{ fromJSON(steps.extract.outputs.json).code }}"
+              url: \"${{ fromJSON(steps.extract.outputs.json).code }}\"
               icon: fa-brands fa-github
             - name: Documentation
-              url: "${{ fromJSON(steps.extract.outputs.json).documentation }}"
+              url: \"${{ fromJSON(steps.extract.outputs.json).documentation }}\"
               icon: fa-solid fa-book
             - name: Paper
-              url: "${{ fromJSON(steps.extract.outputs.json).paper }}"
+              url: \"${{ fromJSON(steps.extract.outputs.json).paper }}\"
               icon: fa-solid fa-file-contract
             - name: PyPi
-              url: "${{ fromJSON(steps.extract.outputs.json).pypi }}"
+              url: \"${{ fromJSON(steps.extract.outputs.json).pypi }}\"
               icon: fa-solid fa-brands fa-python
             - name: CRAN
-              url: "${{ fromJSON(steps.extract.outputs.json).cran }}"
+              url: \"${{ fromJSON(steps.extract.outputs.json).cran }}\"
               icon: fa-solid fa-brands fa-r-project
             - name: Website
-              url: "${{ fromJSON(steps.extract.outputs.json).website }}"
+              url: \"${{ fromJSON(steps.extract.outputs.json).website }}\"
               icon: fa-solid fa-globe
           ---
 
@@ -128,7 +128,7 @@ jobs:
 
           **Status: {{< meta status >}}**
 
-          **Rationale:** "${{ fromJSON(steps.extract.outputs.json).status_reason }}"
+          **Rationale:** \"${{ fromJSON(steps.extract.outputs.json).status_reason }}\"
 
           EOF
       - name: Commit and open PR
