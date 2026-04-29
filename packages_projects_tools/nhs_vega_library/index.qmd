@@ -1,0 +1,64 @@
+---
+title: \"NHS Vega Library\"
+categories:
+
+tool-language:
+
+author:
+  - name: \"Patrick Devaney\"
+    affiliation:
+    orcid:
+status: <span style="color: #888888FF">Silver</span>
+toc: true
+image:
+pub-info:
+  rationale-for-status: |
+    \"Project under active development and in a fully useable state, however there are more features to be added before it is v1.0 ready.\"
+  entry-author:
+    - name: \"\"
+      url: \"github.com/paddy-devan\"
+  abstract: |
+    \"A library of healthcare-specific data visualisations, developed in Vega. Hyper customisable interactive charts and widgets that you own, which can be implemented in Power BI using Deneb, or Python using Altair.\"
+  links:
+  - name: Code
+    url: \"https://github.com/paddy-devan/nhs-vega-library\"
+    icon: fa-brands fa-github
+  - name: Documentation
+    url: \"\"
+    icon: fa-solid fa-book
+  - name: Paper
+    url: \"\"
+    icon: fa-solid fa-file-contract
+  - name: PyPi
+    url: \"\"
+    icon: fa-solid fa-brands fa-python
+  - name: CRAN
+    url: \"\"
+    icon: fa-solid fa-brands fa-r-project
+  - name: Website
+    url: \"https://paddy-devan.github.io/nhs-vega-library/\"
+    icon: fa-solid fa-globe
+---
+
+## Additional Links
+
+
+## Additional Categories
+
+
+## Details
+Vega is a data visualisation language based on the 'grammar of graphics', which is also used by popular packages such as R's ggplot. Using Vega, you can create extremely customised data driven charts and interactive widgets, which can be placed in Power BI dashboards using the Deneb custom visual, or in Python notebooks using the Altair package.
+
+This project aims to provide a central library of healthcare-focussed Vega specifications, that can be used by analytics teams to extend the capabilities of their Power BI dashboards without paying for normal custom visuals, or data scientists wanting to share best practice in presenting model results.
+
+Contributions can be made by cloning the repo locally, creating a folder for the new viz populated with the spec, metadata and sample data, and then opening a Pull Request on GitHub. Alternatively for the less Git-savvy, you can create an issue on the repo, with a folder attached containing your specification, sample data and metadata. The format for these can be copied from one of the existing specs in the repo.
+
+
+<br>
+
+## Project status
+
+**Status: {{< meta status >}}**
+
+**Rationale:** \"Project under active development and in a fully useable state, however there are more features to be added before it is v1.0 ready.\"
+
