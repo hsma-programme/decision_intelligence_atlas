@@ -33,7 +33,12 @@ jobs:
       - name: Create QMD file
         run: |
           mkdir -p "packages_projects_tools/${{ steps.modelname.outputs.safe_model_name }}"
-          JSON='${{ steps.extract.outputs.json }}'
+
+          # Use a heredoc to safely capture the JSON
+          read -r -d '' JSON <<'JSONEOF' || true
+          ${{ steps.extract.outputs.json }}
+          JSONEOF
+
           language=$(echo "$JSON" | jq -r '.language[]' | sed 's/^/  - /')
           categories=$(echo "$JSON" | jq -r '.category[]' | sed 's/^/  - /')
 
