@@ -406,88 +406,102 @@
     "text": "Choose your language:  \n    Python\n    R\n    Julia\n    PowerBI\n    Tableau\n    Excel\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFind out more about the technique in the Atlas entry here.\n\n\n\nThe most popular solution for SPC charts in R is the NHSRplotthedots package.\nYou can find out more about the package in the Atlas entry here\nBelow is a sample code snippet that makes an SPC chart for a time series.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nFirst, we import our NHS R plot the dots package.\nIn this case, rather than using real data, we’ll be using a sample dataset of ED attendances provided by the NHSRdatasets library package.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nNow we’ll filter our dataset down to just one organisation, type 1 attendances only, and a shorter period of time.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nWe can take this subset of data and use the NHSRplotthedots library.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\n\nNote\n\n\n\nCode Source: NHSR Plot the Dots Documentation @ https://nhsrplotthedots.nhsrcommunity.com/\n\n\n\n\n\n\n\n\nClick here to view and copy the whole example\n\n\n\n\n\ninstall.packages(\"NHSRplotthedots\")\ninstall.packages(\"NHSRdatasets\")\n\nlibrary(NHSRdatasets)\n\nlibrary(NHSRplotthedots)\nlibrary(dplyr)\n\nsub_set &lt;- ae_attendances |&gt;\n  filter(org_code == \"RQM\", type == 1, period &lt; as.Date(\"2018-04-01\"))\n\nsub_set |&gt;\n  NHSRplotthedots::ptd_spc(\n    value_field = breaches,\n    date_field = period,\n    improvement_direction = \"decrease\"\n  ) |&gt;\n  NHSRplotthedots::ptd_create_ggplot(\n    y_axis_label = \"4-hour wait breaches\",\n    main_title = \"SPC of A&E waiting time breaches for RQM\"\n)\n\n\n\n\n\n\n\n\n\n\n\nWarning\n\n\n\nThere is not currently an actively maintained, production-ready equivalent to the NHS R plot the dots programme.\nOne of the major benefits of the NHS-aligned packages are that they use the recognised , as well as ‘making data count’ defaults for values such as the number of points that are considered a run.\nYou may wish to consider reviving a project such as nhspy-plotthedots.\n\n\n\n\nThe Making Data Count Excel Templates\nYou can find out more about the Excel tool in the Atlas entry here\n\n\nAn R-Powered PowerBI Custom Visual\nYou can find out more about the custom visual in the Atlas entry here"
   },
   {
-    "objectID": "about/contributing.html",
-    "href": "about/contributing.html",
+    "objectID": "contributing/index.html",
+    "href": "contributing/index.html",
     "title": "Contributing to the Atlas",
     "section": "",
     "text": "There are lots of ways to contribute to the Atlas - and many don’t involve code or a lot of your time!\nWe want - and need - this to be a project written for the community, by the community. So please don’t be afraid to get stuck in - we’re a friendly bunch and want to make the contribution process as easy as possible."
   },
   {
-    "objectID": "about/contributing.html#submit-an-idea-for-an-entry",
-    "href": "about/contributing.html#submit-an-idea-for-an-entry",
+    "objectID": "contributing/index.html#submit-an-idea-for-an-entry",
+    "href": "contributing/index.html#submit-an-idea-for-an-entry",
     "title": "Contributing to the Atlas",
     "section": "Submit an idea for an entry",
     "text": "Submit an idea for an entry\nHeard of a project, package or tool you think the Atlas should showcase?\nThink there’s a graph type you think should be shared with the community? Even better, do you have a reproducible code snippet to make that graph?\nOr what about an advanced analysis, data science or operational research technique you think we should include?\nYou don’t have to write the full thing - just submit an issue on the Atlas’s GitHub repository.\n\nDon’t worry about accidentally submitting a duplicate - we’d rather hear about something ten times than not at all! But if you’d like to take a look, you can see all of the currently proposed entries in our GitHub project.\nClick here to open the list of proposed Atlas entries in a new tab."
   },
   {
-    "objectID": "about/contributing.html#write-an-entry",
-    "href": "about/contributing.html#write-an-entry",
+    "objectID": "contributing/index.html#write-an-entry",
+    "href": "contributing/index.html#write-an-entry",
     "title": "Contributing to the Atlas",
     "section": "Write an entry",
     "text": "Write an entry\n\nWithout code\nWant to write some entries for us, but not confident working with GitHub and Quarto (the framework we build the site with)? No problem! We have a totally code free route to writing Atlas entries.\nFollow this link to submit an issue on the Atlas’s GitHub repository.\nChoose ‘New Package, Project or Tool Submission’\n\nYou’ll then be provided with a form to gather the information we need to create a new Atlas entry - no code required.\n\nWith a bit of GitHub actions wizardry, your form will be translated into the format the website need. A member of the Atlas team will then review this file and make any necessary tweaks before incorporating it into the site.\n\n\n\n\n\n\nNote\n\n\n\nAt the moment, it’s only possible to contribute a package, project or tool in this way.\nWe may add the option to contribute techniques or graph catalogue entries in this way in the future - check back or let us know if this is something you’d be interested in.\n\n\n\n\nWith code\nLike working with Quarto, or want to give it a try?\nHead over to the instructions in our GitHub readme for details of how you can contribute to the Atlas via making a pull request on GitHub."
   },
   {
-    "objectID": "about/contributing.html#contributor-code-of-conduct",
-    "href": "about/contributing.html#contributor-code-of-conduct",
+    "objectID": "contributing/index.html#contributor-code-of-conduct",
+    "href": "contributing/index.html#contributor-code-of-conduct",
     "title": "Contributing to the Atlas",
     "section": "Contributor Code of Conduct",
     "text": "Contributor Code of Conduct\nWe want the Atlas to be a friendly and welcoming project for all people, regardless of your background or level of coding expertise.\nPlease take a look at our code of conduct below:\n\n\n\n\n\n\nCode of Conduct\n\n\n\n\nOur Pledge\nWe are committed to creating a welcoming and inclusive environment for everyone who participates in this project. We pledge to make participation in our community a harassment-free experience for all, regardless of:\n\nAge\nBody size\nDisability\nEthnicity\nGender identity and expression\nLevel of experience\nNationality\nPersonal appearance\nRace\nReligion\nSexual identity and orientation\n\n\n\nOur Standards\nExamples of behavior that contributes to a positive environment include:\n\nBeing respectful and considerate in all interactions\nOffering constructive feedback\nUsing inclusive language\nFocusing on what is best for the community\nShowing empathy toward other contributors\n\nExamples of unacceptable behavior include:\n\nHarassment or discrimination of any kind\nPersonal attacks, trolling, or insulting comments\nPublic or private harassment\nPublishing others’ private information without consent\nAny conduct which could reasonably be considered inappropriate in a professional setting\n\n\n\nOur Responsibilities\nProject maintainers are responsible for clarifying standards of acceptable behavior and are expected to take appropriate action in response to any unacceptable behavior. They have the right and responsibility to remove, edit, or reject contributions that do not align with this Code of Conduct.\n\n\nScope\nThis Code of Conduct applies both within project spaces (e.g., GitHub issues, pull requests, discussions) and in public spaces when someone is representing the project or its community.\n\n\nEnforcement\nInstances of abusive, harassing, or otherwise unacceptable behavior may be reported to the maintainers via GitHub Issues or by direct contact. All complaints will be reviewed and investigated promptly and fairly.\n\n\nAttribution\nThis Code of Conduct is adapted from the Contributor Covenant, version 2.1."
   },
   {
-    "objectID": "about/contributing.html#our-pledge",
-    "href": "about/contributing.html#our-pledge",
+    "objectID": "contributing/index.html#our-pledge",
+    "href": "contributing/index.html#our-pledge",
     "title": "Contributing to the Atlas",
     "section": "Our Pledge",
     "text": "Our Pledge\nWe are committed to creating a welcoming and inclusive environment for everyone who participates in this project. We pledge to make participation in our community a harassment-free experience for all, regardless of:\n\nAge\nBody size\nDisability\nEthnicity\nGender identity and expression\nLevel of experience\nNationality\nPersonal appearance\nRace\nReligion\nSexual identity and orientation"
   },
   {
-    "objectID": "about/contributing.html#our-standards",
-    "href": "about/contributing.html#our-standards",
+    "objectID": "contributing/index.html#our-standards",
+    "href": "contributing/index.html#our-standards",
     "title": "Contributing to the Atlas",
     "section": "Our Standards",
     "text": "Our Standards\nExamples of behavior that contributes to a positive environment include:\n\nBeing respectful and considerate in all interactions\nOffering constructive feedback\nUsing inclusive language\nFocusing on what is best for the community\nShowing empathy toward other contributors\n\nExamples of unacceptable behavior include:\n\nHarassment or discrimination of any kind\nPersonal attacks, trolling, or insulting comments\nPublic or private harassment\nPublishing others’ private information without consent\nAny conduct which could reasonably be considered inappropriate in a professional setting"
   },
   {
-    "objectID": "about/contributing.html#our-responsibilities",
-    "href": "about/contributing.html#our-responsibilities",
+    "objectID": "contributing/index.html#our-responsibilities",
+    "href": "contributing/index.html#our-responsibilities",
     "title": "Contributing to the Atlas",
     "section": "Our Responsibilities",
     "text": "Our Responsibilities\nProject maintainers are responsible for clarifying standards of acceptable behavior and are expected to take appropriate action in response to any unacceptable behavior. They have the right and responsibility to remove, edit, or reject contributions that do not align with this Code of Conduct."
   },
   {
-    "objectID": "about/contributing.html#scope",
-    "href": "about/contributing.html#scope",
+    "objectID": "contributing/index.html#scope",
+    "href": "contributing/index.html#scope",
     "title": "Contributing to the Atlas",
     "section": "Scope",
     "text": "Scope\nThis Code of Conduct applies both within project spaces (e.g., GitHub issues, pull requests, discussions) and in public spaces when someone is representing the project or its community."
   },
   {
-    "objectID": "about/contributing.html#enforcement",
-    "href": "about/contributing.html#enforcement",
+    "objectID": "contributing/index.html#enforcement",
+    "href": "contributing/index.html#enforcement",
     "title": "Contributing to the Atlas",
     "section": "Enforcement",
     "text": "Enforcement\nInstances of abusive, harassing, or otherwise unacceptable behavior may be reported to the maintainers via GitHub Issues or by direct contact. All complaints will be reviewed and investigated promptly and fairly."
   },
   {
-    "objectID": "about/contributing.html#attribution",
-    "href": "about/contributing.html#attribution",
+    "objectID": "contributing/index.html#attribution",
+    "href": "contributing/index.html#attribution",
     "title": "Contributing to the Atlas",
     "section": "Attribution",
     "text": "Attribution\nThis Code of Conduct is adapted from the Contributor Covenant, version 2.1."
   },
   {
-    "objectID": "about/about.html",
-    "href": "about/about.html",
+    "objectID": "about/index.html",
+    "href": "about/index.html",
     "title": "About the Atlas",
     "section": "",
-    "text": "The Atlas was started by Sammi Rosser, an ex NHS data scientist, who is now a trainer on the Health Service Modelling Associates (HSMA) programme, teaching analysts, managers and clinicians how to program and use advanced techniques to improve health services. Finding it challenging to keep up with the endless number of webinars, newsletters, conferences and more necessary to keep abreast of projects and techniques of interest, she started the Atlas to provide the resource she wished she’d had from day 1 in her NHS data career.\n\n\n\n\n\n\n\n\nThe HSMA programme teaches programming in Python, data science and operational research techniques to analysts, data scientists, clinicians and more! The programme provides training on a lot of the advanced techniques mentioned in the Atlas, as well as how to write code so you can confidently use the great Python packages that the Atlas compiles.\nWhile the full programme, which also includes live access to the sessions and project mentoring support, is only available to those working in public health and social care organisations, all previous session recordings, slides, example code and eBooks are available on the HSMA website.\n\n\nHuge thanks also go to Amy Heather, who has contributed her time and expertise to the Atlas. You can find Amy’s excellent work as part of the STARS - Sharing Tools and Artefacts for Reusable Simulations in Healthcare programme.\nWe’re immensely grateful to everyone who contributes to this community Atlas - you can see our full list of contributors below or in our GitHub readme:\n\n\n\n\nSammi Rosser💻 🖋 🎨 🤔 🚇 🚧 👀\n\n\nAmy Heather💻 🖋 📖 🎨 🚧\n\n\nZella King🐛\n\n\n\n\n\nWe want the Atlas to be something made by the community, for the community, so click here to find out more about how you can get involved!"
+    "text": "The Atlas was started by Sammi Rosser, an ex NHS data scientist, who is now a trainer on the Health Service Modelling Associates (HSMA) programme, teaching analysts, managers and clinicians how to program and use advanced techniques to improve health services.\nFinding it challenging to keep up with the endless number of webinars, newsletters, conferences and more necessary to keep abreast of projects and techniques of interest, she started the Atlas to provide the resource she wished she’d had from day 1 in her NHS data career."
   },
   {
-    "objectID": "about/about.html#behind-the-atlas",
-    "href": "about/about.html#behind-the-atlas",
+    "objectID": "about/index.html#behind-the-atlas",
+    "href": "about/index.html#behind-the-atlas",
     "title": "About the Atlas",
     "section": "",
-    "text": "The Atlas was started by Sammi Rosser, an ex NHS data scientist, who is now a trainer on the Health Service Modelling Associates (HSMA) programme, teaching analysts, managers and clinicians how to program and use advanced techniques to improve health services. Finding it challenging to keep up with the endless number of webinars, newsletters, conferences and more necessary to keep abreast of projects and techniques of interest, she started the Atlas to provide the resource she wished she’d had from day 1 in her NHS data career.\n\n\n\n\n\n\n\n\nThe HSMA programme teaches programming in Python, data science and operational research techniques to analysts, data scientists, clinicians and more! The programme provides training on a lot of the advanced techniques mentioned in the Atlas, as well as how to write code so you can confidently use the great Python packages that the Atlas compiles.\nWhile the full programme, which also includes live access to the sessions and project mentoring support, is only available to those working in public health and social care organisations, all previous session recordings, slides, example code and eBooks are available on the HSMA website.\n\n\nHuge thanks also go to Amy Heather, who has contributed her time and expertise to the Atlas. You can find Amy’s excellent work as part of the STARS - Sharing Tools and Artefacts for Reusable Simulations in Healthcare programme.\nWe’re immensely grateful to everyone who contributes to this community Atlas - you can see our full list of contributors below or in our GitHub readme:\n\n\n\n\nSammi Rosser💻 🖋 🎨 🤔 🚇 🚧 👀\n\n\nAmy Heather💻 🖋 📖 🎨 🚧\n\n\nZella King🐛\n\n\n\n\n\nWe want the Atlas to be something made by the community, for the community, so click here to find out more about how you can get involved!"
+    "text": "The Atlas was started by Sammi Rosser, an ex NHS data scientist, who is now a trainer on the Health Service Modelling Associates (HSMA) programme, teaching analysts, managers and clinicians how to program and use advanced techniques to improve health services.\nFinding it challenging to keep up with the endless number of webinars, newsletters, conferences and more necessary to keep abreast of projects and techniques of interest, she started the Atlas to provide the resource she wished she’d had from day 1 in her NHS data career."
+  },
+  {
+    "objectID": "about/index.html#thanks",
+    "href": "about/index.html#thanks",
+    "title": "About the Atlas",
+    "section": "Thanks",
+    "text": "Thanks\nHuge thanks go to Amy Heather, who has contributed her time and expertise to the Atlas. You can find Amy’s excellent work as part of the STARS - Sharing Tools and Artefacts for Reusable Simulations in Healthcare programme.\nWe’re immensely grateful to everyone who contributes to this community Atlas - you can see our full list of contributors below or in our GitHub readme:\n\n\n\n\n\n\n\nSammi Rosser💻 🖋 🎨 🤔 🚇 🚧 👀\n\n\nAmy Heather💻 🖋 📖 🎨 🚧\n\n\nZella King🐛\n\n\npadawan🖋\n\n\n\n\n\n\n\n\nWe want the Atlas to be something made by the community, for the community, so click here to find out more about how you can get involved!"
+  },
+  {
+    "objectID": "about/index.html#find-out-more",
+    "href": "about/index.html#find-out-more",
+    "title": "About the Atlas",
+    "section": "Find Out More",
+    "text": "Find Out More\n\n\n\n\nThe HSMA programme teaches programming in Python, data science and operational research techniques to analysts, data scientists, clinicians and more! The programme provides training on a lot of the advanced techniques mentioned in the Atlas, as well as how to write code so you can confidently use the great Python packages that the Atlas compiles.\nWhile the full programme, which also includes live access to the sessions and project mentoring support, is only available to those working in public health and social care organisations, all previous session recordings, slides, example code and eBooks are available on the HSMA website."
   },
   {
     "objectID": "graph_catalogue/index.html",
@@ -508,7 +522,7 @@
     "href": "index.html#contributions",
     "title": "Healthcare ServicesAnalytics & Decision ScienceAtlas",
     "section": "Contributions",
-    "text": "Contributions\nContributions are very welcome!\nYou don’t need to be able to write code or use Quarto to add to the Atlas - there are lots of ways to submit content.\nPlease see our contributors page for instructions on how to get involved.\n\n  \n     45\n    Packages, Projects and Tools Documented\n  \n    \n     144\n    Package, Project and Tool Entries to be Written\n  \n\n\n    \n     2\n    Techniques Described\n  \n    \n     11\n    Technique Entries to be Written\n  \n\n\n  \n     1\n    Graph Examples\n  \n    \n     9\n    Graph Examples to be Written\n  \n\n\n\nInterested to see what things we propose should be added to the Atlas?\nClick on the cards in the right hand column above to see the full list of proposed entries for each type of content.\nWe’re very grateful to all of our contributors so far!\n\n\n\n\n\n\n\nSammi Rosser💻 🖋 🎨 🤔 🚇 🚧 👀\n\n\nAmy Heather💻 🖋 📖 🎨 🚧\n\n\nZella King🐛\n\n\npadawan🖋\n\n\n\n\n\n\n\n\nEmoji key\n\n\nPlease note that inclusion of a tool on this site does not imply that the HSMA team, NIHR, or any other Atlas contributors, have reviewed these tools in detail. This resource is designed to act as a signpost to the work that is out there, and provide a high-level indication of the health of any given project, but you should always conduct your own reviews of the suitability of any of these tools and techniques for your own use case.\nInclusion of a tool on this page also does not indicate endorsement of the tool author of the HSMA programme, NIHR, the Atlas, or the description written of the tool.\nIf you have any concerns, or would like any content to be removed, please raise an issue on the repository."
+    "text": "Contributions\nContributions are very welcome!\nYou don’t need to be able to write code or use Quarto to add to the Atlas - there are lots of ways to submit content.\nPlease see our contributors page for instructions on how to get involved.\n\n  \n     45\n    Packages, Projects and Tools Documented\n  \n    \n     147\n    Package, Project and Tool Entries to be Written\n  \n\n\n    \n     2\n    Techniques Described\n  \n    \n     11\n    Technique Entries to be Written\n  \n\n\n  \n     1\n    Graph Examples\n  \n    \n     9\n    Graph Examples to be Written\n  \n\n\n\nInterested to see what things we propose should be added to the Atlas?\nClick on the cards in the right hand column above to see the full list of proposed entries for each type of content.\nWe’re very grateful to all of our contributors so far!\n\n\n\n\n\n\n\nSammi Rosser💻 🖋 🎨 🤔 🚇 🚧 👀\n\n\nAmy Heather💻 🖋 📖 🎨 🚧\n\n\nZella King🐛\n\n\npadawan🖋\n\n\n\n\n\n\n\n\nEmoji key\n\n\nPlease note that inclusion of a tool on this site does not imply that the HSMA team, NIHR, or any other Atlas contributors, have reviewed these tools in detail. This resource is designed to act as a signpost to the work that is out there, and provide a high-level indication of the health of any given project, but you should always conduct your own reviews of the suitability of any of these tools and techniques for your own use case.\nInclusion of a tool on this page also does not indicate endorsement of the tool author of the HSMA programme, NIHR, the Atlas, or the description written of the tool.\nIf you have any concerns, or would like any content to be removed, please raise an issue on the repository."
   },
   {
     "objectID": "index.html#most-recently-added-or-updated-projects-packages-and-tools",
