@@ -1,54 +1,48 @@
 ---
-title: \"Demand Forecasting Tool for Capacity Planning\"
+title: "Demand Forecasting Tool for Capacity Planning"
 categories:
-
-tool-language:
-
+  - Service Planning
+  - Demand Prediction
+  - Forecasting
+tool-language: Python
 author:
-  - name: \"Rey Tan\"
+  - name: "Rey Tan"
     affiliation:
     orcid:
-status: <span style="color: #888888FF">Silver</span>
+status: '<span style="color: #888888FF">Silver</span>'
 toc: true
 image:
 pub-info:
   rationale-for-status: |
     \"This is a web-based tool which can be used by practically anyone who can upload a spreadsheet with monthly activity data. I haven't given it a gold, because it has not been through extensive tests and is not yet well-established.\"
   entry-author:
-    - name: \"Rey Tan\"
-      url: \"\"
+    - name: "Rey Tan"
+      url: ""
   abstract: |
-    \"This tool provides a simple and practical way to turn historical activity data into actionable insights for planning and decision‑making. Using the Facebook Prophet time series forecasting model, it generates forward projections of demand and presents them alongside intuitive visualisations that highlight trends, seasonal patterns, and uncertainty.
+    "This tool provides a simple and practical way to turn historical activity data into actionable insights for planning and decision‑making. Using the Facebook Prophet time series forecasting model, it generates forward projections of demand and presents them alongside intuitive visualisations that highlight trends, seasonal patterns, and uncertainty.
 
 In addition to forecasting future activity, the tool supports capacity-aware analysis by comparing projected demand against service limits. Users can quickly identify potential pressure points, quantify gaps between demand and capacity, and explore how changes in assumptions may affect outcomes. Outputs are presented through clear charts and narrative summaries, with the option to export results into a shareable report.\"
   links:
   - name: Code
-    url: \"https://github.com/ReyTan8/demand-forecast-tool\"
+    url: "https://github.com/ReyTan8/demand-forecast-tool"
     icon: fa-brands fa-github
   - name: Documentation
-    url: \"\"
+    url: ""
     icon: fa-solid fa-book
   - name: Paper
-    url: \"\"
+    url: ""
     icon: fa-solid fa-file-contract
   - name: PyPi
-    url: \"\"
+    url: ""
     icon: fa-solid fa-brands fa-python
   - name: CRAN
-    url: \"\"
+    url: ""
     icon: fa-solid fa-brands fa-r-project
   - name: Website
-    url: \"https://demand-forecast-tool.streamlit.app/\"
+    url: "https://demand-forecast-tool.streamlit.app/"
     icon: fa-solid fa-globe
 ---
 
-## Additional Links
-
-
-## Additional Categories
-
-
-## Details
 This tool is a Streamlit-based application designed to support demand forecasting and capacity planning using the Facebook Prophet time series model. It enables users to upload structured activity data (typically monthly referrals or service volumes) and generate forward projections with minimal setup, making it suitable for operational and planning contexts.
 
 Once data is uploaded, the tool fits a time series model and produces a range of outputs that help users understand both future demand and its implications. Core outputs include:
@@ -59,16 +53,12 @@ Once data is uploaded, the tool fits a time series model and produces a range of
 - **Capacity analysis:** Overlay of user-defined capacity thresholds to identify when demand may exceed available capacity
 - **Risk metrics:** Quantification of periods above capacity, estimated unmet demand, and required capacity to avoid breaches
 
-The tool also supports scenario testing, allowing users to explore how changes such as altered referral patterns or conversion rates could impact future demand. Outputs can be exported as a standalone HTML report with embedded interactive charts and narrative summaries, enabling easy sharing of insights.
+![](image_1.png)
+![](image_2.png)
+![](image_3.png)
+
+The tool also supports scenario testing, allowing users to explore how changes such as altered referral patterns or conversion rates could impact future demand. 
+
+Outputs can be exported as a standalone HTML report with embedded interactive charts and narrative summaries, enabling easy sharing of insights.
 
 Overall, the tool bridges the gap between raw data and operational planning, enabling users to move beyond static spreadsheets toward more dynamic, evidence-based forecasting.
-
-
-<br>
-
-## Project status
-
-**Status: {{< meta status >}}**
-
-**Rationale:** \"This is a web-based tool which can be used by practically anyone who can upload a spreadsheet with monthly activity data. I haven't given it a gold, because it has not been through extensive tests and is not yet well-established.\"
-
