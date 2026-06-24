@@ -62,10 +62,10 @@ website:
       - href: graph_catalogue/index.qmd
         text: Graph Catalogue
 
-      - href: about/about.qmd
+      - href: about/index.qmd
         text: About
 
-      - href: about/contributing.qmd
+      - href: contributing/index.qmd
         text: Contribute
 
 language:

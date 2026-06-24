@@ -241,7 +241,7 @@ Contributions are very welcome!
 
 You don't need to be able to write code or use Quarto to add to the Atlas - there are lots of ways to submit content.
 
-Please see our [contributors page](about/contributing.qmd) for instructions on how to get involved.
+Please see our [contributors page](contributing/index.qmd) for instructions on how to get involved.
 
 ```{=html}
 <div class="value-grid-2" style="justify-content:center; text-align:center;">

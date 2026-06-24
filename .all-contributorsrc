@@ -1,7 +1,7 @@
 {
   "projectName": "decision_intelligence_atlas",
   "projectOwner": "hsma-programme",
-  "files": ["README.md","index.qmd"],
+  "files": ["README.md","index.qmd", "about/index.qmd"],
   "commitType": "docs",
   "commitConvention": "angular",
   "contributorsPerLine": 7,
