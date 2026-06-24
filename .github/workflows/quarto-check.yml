@@ -8,12 +8,23 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: quarto-dev/quarto-actions/setup@v2
-      - name: Install Python and Dependencies
-        uses: actions/setup-python@v5
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
         with:
-          python-version: '3.12'
-      - run: pip3 install jupyter
+          version: 1.7.33
+
+      - uses: conda-incubator/setup-miniconda@v3
+        with:
+          activate-environment: atlas
+          environment-file: environment.yaml
+          miniforge-version: latest
+          python-version: 3.12
+          auto-activate-base: false
+
+      - run: python -m pip install jupyter
+
       - name: Render (test build)
         run: quarto render
