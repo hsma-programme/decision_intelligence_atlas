@@ -11,7 +11,7 @@ author:
     orcid:
 status: '<span style="color: #888888FF">Silver</span>'
 toc: true
-image:
+image: image_3.png
 pub-info:
   rationale-for-status: |
     \"This is a web-based tool which can be used by practically anyone who can upload a spreadsheet with monthly activity data. I haven't given it a gold, because it has not been through extensive tests and is not yet well-established.\"
@@ -56,9 +56,15 @@ Once data is uploaded, the tool fits a time series model and produces a range of
 ![](image_1.png)
 ![](image_2.png)
 ![](image_3.png)
+![](image_4.png)
+![](image_5.png)
 
-The tool also supports scenario testing, allowing users to explore how changes such as altered referral patterns or conversion rates could impact future demand. 
+
+
+The tool also supports scenario testing, allowing users to explore how changes such as altered referral patterns or conversion rates could impact future demand.
 
 Outputs can be exported as a standalone HTML report with embedded interactive charts and narrative summaries, enabling easy sharing of insights.
+
+![](image_6.png)
 
 Overall, the tool bridges the gap between raw data and operational planning, enabling users to move beyond static spreadsheets toward more dynamic, evidence-based forecasting.
