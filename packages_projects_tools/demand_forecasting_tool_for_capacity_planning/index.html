@@ -48,6 +48,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/bootstrap/bootstrap-196033bbe24036fa7ca41e3e36c12f71.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/bootstrap/bootstrap-dark-05bbae15dcc840c67d6c224730db79d7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="../../site_libs/bootstrap/bootstrap-196033bbe24036fa7ca41e3e36c12f71.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/splide-carousel-styles-1.0.0/splide-carousel.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -108,6 +109,10 @@ cookieconsent.run({
     document.getElementById("cc-nb-text").innerHTML = "We use cookies and other tracking technologies to analyze our website traffic and to understand where our visitors are coming from.";
   });
 </script>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/js/glightbox.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/css/glightbox.css">
 
 
 <link rel="stylesheet" href="../../resources/themes/styles.css">
@@ -545,7 +550,67 @@ new FinisherHeader({
 <li><strong>Capacity analysis:</strong> Overlay of user-defined capacity thresholds to identify when demand may exceed available capacity</li>
 <li><strong>Risk metrics:</strong> Quantification of periods above capacity, estimated unmet demand, and required capacity to avoid breaches</li>
 </ul>
-<p><img src="image_1.png" class="img-fluid"> <img src="image_2.png" class="img-fluid"> <img src="image_3.png" class="img-fluid"> <img src="image_4.png" class="img-fluid"> <img src="image_5.png" class="img-fluid"></p>
+<section id="splide-carousel-1" class="splide splide-carousel" aria-label="Beautiful Images">
+  <div class="splide__optional-button-container">
+    <button class="splide__toggle" type="button">
+      <a class="splide__toggle__play"><i class="fa-solid fa-play"></i><span style="padding-left: 10px;">Resume Slideshow</span></a>
+      <a class="splide__toggle__pause"><i class="fa-solid fa-pause"></i><span style="padding-left: 10px;">Pause Slideshow</span></a>
+    </button>
+  </div>
+  <div class="splide__track">
+    <ul class="splide__list">
+      <li class="splide__slide" style="width: 250px">
+        <img src="image_1.png" alt="Upload your own data" class="glightbox">
+        <div class="splide_caption">Upload your own data</div>
+      </li>
+      <li class="splide__slide" style="width: 250px">
+        <img src="image_2.png" alt="Work flexibly with data from different sources, handling variations in column names and date format" class="glightbox">
+        <div class="splide_caption">Work flexibly with data from different sources, handling variations in column names and date format</div>
+      </li>
+      <li class="splide__slide" style="width: 250px">
+        <img src="image_3.png" alt="View forecasts in interactve plots" class="glightbox">
+        <div class="splide_caption">View forecasts in interactve plots</div>
+      </li>
+      <li class="splide__slide" style="width: 250px">
+        <img src="image_4.png" alt="View narrative explanations of the forecasts" class="glightbox">
+        <div class="splide_caption">View narrative explanations of the forecasts</div>
+      </li>
+      <li class="splide__slide" style="width: 250px">
+        <img src="image_5.png" alt="Explore details like overarching trends…" class="glightbox">
+        <div class="splide_caption">Explore details like overarching trends…</div>
+      </li>
+      <li class="splide__slide" style="width: 250px">
+        <img src="image_6.png" alt="… and seasonality, and download the results as a shareable report" class="glightbox">
+        <div class="splide_caption">… and seasonality, and download the results as a shareable report</div>
+      </li>
+    </ul>
+  </div>
+</section>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var splideInstance = new Splide('#splide-carousel-1', {
+    type: 'loop',
+    padding: '5rem',
+    autoplay: 'play',
+    interval: 9000,
+    focus: 'center',
+    pauseOnHover: true,
+    pauseOnFocus: false,
+    resetProgress: false
+  }).mount();
+
+  var lightboxInstance = GLightbox({
+    selector: '#splide-carousel-1 .glightbox',
+    touchNavigation: true,
+    loop: true
+  });
+
+  splideInstance.on('moved', function () {
+    lightboxInstance.reload();
+  });
+});
+</script>
+
 <p>The tool also supports scenario testing, allowing users to explore how changes such as altered referral patterns or conversion rates could impact future demand.</p>
 <p>Outputs can be exported as a standalone HTML report with embedded interactive charts and narrative summaries, enabling easy sharing of insights.</p>
 <p><img src="image_6.png" class="img-fluid"></p>
