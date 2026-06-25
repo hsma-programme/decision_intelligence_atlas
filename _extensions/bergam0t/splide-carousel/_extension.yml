@@ -1,0 +1,6 @@
+title: Splide Carousel
+author: Sammi Rosser
+version: 1.0.0
+contributes:
+  filters:
+    - splide-carousel.lua

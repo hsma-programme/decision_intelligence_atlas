@@ -44,6 +44,8 @@ pub-info:
   - name: Website
     url: "https://demand-forecast-tool.streamlit.app/"
     icon: fa-solid fa-globe
+filters:
+  - splide-carousel
 ---
 
 This tool is a Streamlit-based application designed to support demand forecasting and capacity planning using the Facebook Prophet time series model. It enables users to upload structured activity data (typically monthly referrals or service volumes) and generate forward projections with minimal setup, making it suitable for operational and planning contexts.
@@ -56,11 +58,14 @@ Once data is uploaded, the tool fits a time series model and produces a range of
 - **Capacity analysis:** Overlay of user-defined capacity thresholds to identify when demand may exceed available capacity
 - **Risk metrics:** Quantification of periods above capacity, estimated unmet demand, and required capacity to avoid breaches
 
-![](image_1.png)
-![](image_2.png)
-![](image_3.png)
-![](image_4.png)
-![](image_5.png)
+:::{.splide-carousel}
+![Upload your own data](image_1.png)
+![Work flexibly with data from different sources, handling variations in column names and date format](image_2.png)
+![View forecasts in interactve plots](image_3.png)
+![View narrative explanations of the forecasts](image_4.png)
+![Explore details like overarching trends...](image_5.png)
+![... and seasonality, and download the results as a shareable report](image_6.png)
+:::
 
 The tool also supports scenario testing, allowing users to explore how changes such as altered referral patterns or conversion rates could impact future demand.
 

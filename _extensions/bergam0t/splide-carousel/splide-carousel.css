@@ -1,0 +1,34 @@
+.splide_caption {
+  text-align: center;
+}
+
+.splide__slide img {
+  width: 100%;
+  max-height: auto;
+  padding: 20px;
+}
+
+.splide__optional-button-container {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-align: right;
+  font-size: 1rem;
+}
+
+/* Defaults for the play/pause toggle button live here. Per-carousel
+   toggle-bg-color / toggle-text-color div attributes (in the .qmd) override
+   these via the --splide-toggle-bg / --splide-toggle-color custom properties;
+   when neither attribute is set, no inline style is emitted and these
+   defaults apply as-is. */
+.splide__toggle {
+  background-color: var(--splide-toggle-bg, transparent);
+  border: none;
+  cursor: pointer;
+}
+
+.splide__toggle a {
+    color: var(--splide-toggle-color, #000);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 200;
+}
