@@ -18,6 +18,9 @@ pub-info:
   entry-author:
     - name: Rey Tan
       url: "https://github.com/ReyTan8"
+    - name: Sammi Rosser
+      affiliation: Health Service Modelling Associates Programme (HSMA), NIHR PenArc, University of Exeter
+      url: https://github.com/Bergam0t
   abstract: |
     This flexible tool uses the Facebook Prophet time series forecasting model to generate forward projections of demand, providing a simple way to turn historical activity data into actionable insights for planning. Intuitive visualisations and narrative summaries highlight trends, seasonal patterns, and uncertainty.
 
