@@ -1,7 +1,11 @@
 {
   "projectName": "decision_intelligence_atlas",
   "projectOwner": "hsma-programme",
-  "files": ["README.md","index.qmd", "about/index.qmd"],
+  "files": [
+    "README.md",
+    "index.qmd",
+    "about/index.qmd"
+  ],
   "commitType": "docs",
   "commitConvention": "angular",
   "contributorsPerLine": 7,
@@ -48,6 +52,15 @@
       "name": "padawan",
       "avatar_url": "https://avatars.githubusercontent.com/u/109914304?v=4",
       "profile": "https://github.com/paddy-devan",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "Rey",
+      "name": "Rey Dhuny",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37158?v=4",
+      "profile": "https://dhuny.com",
       "contributions": [
         "content"
       ]

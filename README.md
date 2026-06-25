@@ -18,6 +18,7 @@ In time, we hope this can develop into a tool to help showcase the amazing work 
       <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/amyheather"><img src="https://avatars.githubusercontent.com/u/92166537?v=4?s=100" width="100px;" alt="Amy Heather"/><br /><sub><b>Amy Heather</b></sub></a><br /><a href="#code-amyheather" title="Code">💻</a> <a href="#content-amyheather" title="Content">🖋</a> <a href="#doc-amyheather" title="Documentation">📖</a> <a href="#design-amyheather" title="Design">🎨</a> <a href="#maintenance-amyheather" title="Maintenance">🚧</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://www.personalboardroom.com"><img src="https://avatars.githubusercontent.com/u/9799569?v=4?s=100" width="100px;" alt="Zella King"/><br /><sub><b>Zella King</b></sub></a><br /><a href="#bug-zmek" title="Bug reports">🐛</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/paddy-devan"><img src="https://avatars.githubusercontent.com/u/109914304?v=4?s=100" width="100px;" alt="padawan"/><br /><sub><b>padawan</b></sub></a><br /><a href="#content-paddy-devan" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://dhuny.com"><img src="https://avatars.githubusercontent.com/u/37158?v=4?s=100" width="100px;" alt="Rey Dhuny"/><br /><sub><b>Rey Dhuny</b></sub></a><br /><a href="#content-Rey" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
