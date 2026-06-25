@@ -71,6 +71,4 @@ The tool also supports scenario testing, allowing users to explore how changes s
 
 Outputs can be exported as a standalone HTML report with embedded interactive charts and narrative summaries, enabling easy sharing of insights.
 
-![](image_6.png)
-
 Overall, the tool bridges the gap between raw data and operational planning, enabling users to move beyond static spreadsheets toward more dynamic, evidence-based forecasting.
