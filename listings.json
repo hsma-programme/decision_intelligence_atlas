@@ -50,6 +50,7 @@
       "/packages_projects_tools/bptk_py/index.html",
       "/packages_projects_tools/ciw/index.html",
       "/packages_projects_tools/community_pharmacy_workforce/index.html",
+      "/packages_projects_tools/demand_forecasting_tool_for_capacity_planning/index.html",
       "/packages_projects_tools/des_rap_book/index.html",
       "/packages_projects_tools/des_rap_mms/index.html",
       "/packages_projects_tools/des_rap_stroke/index.html",
@@ -92,14 +93,9 @@
     ]
   },
   {
-    "listing": "/graph_catalogue/index.html",
-    "items": [
-      "/graph_catalogue/spc/index.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
+      "/packages_projects_tools/demand_forecasting_tool_for_capacity_planning/index.html",
       "/packages_projects_tools/nhs_vega_library/index.html",
       "/packages_projects_tools/hsma_des_playground/index.html",
       "/packages_projects_tools/ten_similar_ccgs/index.html",
@@ -145,6 +141,12 @@
       "/packages_projects_tools/stars_reusability_examples/index.html",
       "/packages_projects_tools/streamlit/index.html",
       "/packages_projects_tools/vidigi/index.html"
+    ]
+  },
+  {
+    "listing": "/graph_catalogue/index.html",
+    "items": [
+      "/graph_catalogue/spc/index.html"
     ]
   },
   {
