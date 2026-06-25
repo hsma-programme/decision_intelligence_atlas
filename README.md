@@ -18,7 +18,6 @@ In time, we hope this can develop into a tool to help showcase the amazing work 
       <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/amyheather"><img src="https://avatars.githubusercontent.com/u/92166537?v=4?s=100" width="100px;" alt="Amy Heather"/><br /><sub><b>Amy Heather</b></sub></a><br /><a href="#code-amyheather" title="Code">💻</a> <a href="#content-amyheather" title="Content">🖋</a> <a href="#doc-amyheather" title="Documentation">📖</a> <a href="#design-amyheather" title="Design">🎨</a> <a href="#maintenance-amyheather" title="Maintenance">🚧</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://www.personalboardroom.com"><img src="https://avatars.githubusercontent.com/u/9799569?v=4?s=100" width="100px;" alt="Zella King"/><br /><sub><b>Zella King</b></sub></a><br /><a href="#bug-zmek" title="Bug reports">🐛</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/paddy-devan"><img src="https://avatars.githubusercontent.com/u/109914304?v=4?s=100" width="100px;" alt="padawan"/><br /><sub><b>padawan</b></sub></a><br /><a href="#content-paddy-devan" title="Content">🖋</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://dhuny.com"><img src="https://avatars.githubusercontent.com/u/37158?v=4?s=100" width="100px;" alt="Rey Dhuny"/><br /><sub><b>Rey Dhuny</b></sub></a><br /><a href="#content-Rey" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ReyTan8"><img src="https://avatars.githubusercontent.com/u/167853430?v=4?s=100" width="100px;" alt="ReyTan8"/><br /><sub><b>ReyTan8</b></sub></a><br /><a href="#content-ReyTan8" title="Content">🖋</a></td>
     </tr>
   </tbody>
@@ -33,13 +32,13 @@ In time, we hope this can develop into a tool to help showcase the amazing work 
 
 Contributions are very welcome!
 
-### Getting involved in discussions 
+### Getting involved in discussions
 
 Interested in discussing some aspect of the Atlas? Got an opinion on how it should be structured, the sort of thing it should showcase, how it's laid out, or the branding? For these higher-level discussions, head over to the [discussions](https://github.com/hsma-programme/decision_intelligence_atlas/discussions) tab of our GitHub.
 
 ### Raising Issues
 
-Spotted a bug? Got an idea for a potential improvement? 
+Spotted a bug? Got an idea for a potential improvement?
 
 Please head over to our [issues](https://github.com/hsma-programme/decision_intelligence_atlas/issues) page and open a new issue - or see if you can contribute to any of the ones already open.
 
@@ -85,23 +84,23 @@ To create your own entry:
 
 You are also welcome to suggest edits to an existing entry via a pull request. Please look in the folder `packages_projects_tools/` for a folder named after the tool you'd like to edit. Inside the folder, you'll find an `index.qmd` file - this is where you can make edits to the tags and details.
 
-You can look at the URL to find out the filepath you need to look for. 
+You can look at the URL to find out the filepath you need to look for.
 
-e.g. The page for [Vidigi](https://atlas.hsma.co.uk/packages_projects_tools/vidigi.html) has the URL `https://atlas.hsma.co.uk/packages_projects_tools/vidigi.html`. 
+e.g. The page for [Vidigi](https://atlas.hsma.co.uk/packages_projects_tools/vidigi.html) has the URL `https://atlas.hsma.co.uk/packages_projects_tools/vidigi.html`.
 
 The file you need to edit is `packages_projects_tools/vidigi/index.qmd`
 
 Additional images or other resources can be placed in the same folder and linked to.  Use **relative links** in your `.qmd` file - for example:
-    
+
 - Good: `![](my_tool_example.png)`
 - Bad: `![](C:/my_username/decision_intelligence_atlas/packages_projects_tools/my_tool/my_tool_example.png)`
 - Bad: `!(my_tool/my_tool_example.png)`
 
 ##### Previewing your new or edited content
 
-To preview your entry locally, run `quarto preview` to compile and display website.  
+To preview your entry locally, run `quarto preview` to compile and display website.
 
-The project currently uses Quarto version 1.7.33. 
+The project currently uses Quarto version 1.7.33.
 
 > [!TIP]
 > You do **not** need to render the site manually other than for the purpose of checking your page renders as expected - rerendering and deployment is handled automatically by GitHub Actions when your pull request is accepted.
