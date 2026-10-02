@@ -110,6 +110,8 @@ body:
       options:
         - Ambulances
         - Beds
+        - Benchmarking
+        - Books
         - Courses and Training or Reference Materials
         - Data Visualisation
         - Demand Prediction
