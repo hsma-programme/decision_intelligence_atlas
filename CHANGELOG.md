@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 * Projects now grouped by language rather than analysis type.
+* "Books and Training" page renamed to "Books, Training and Communities" and split into Books (healthcare-specific / general open analytics), Training (courses / interactive tools / reference sites) and Communities sections, using new `Communities`, `Courses`, `Interactive Learning Tools`, `Reference Sites` and `General Open Analytics` categories. `check_yaml.py` now checks each entry appears in exactly one section.
 
 ## v0.2.0 (2025-11-19)
 

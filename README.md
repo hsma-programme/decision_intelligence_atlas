@@ -63,7 +63,10 @@ Templates for other kinds of content will follow in the future.
 To create your own entry:
 
 1. Create a folder in `packages_projects_tools/` named after your tool. Use only letters, numbers, hyphens(`-`) or underscores (`_`); no spaces or other special characters.
-    - If your entry is a book, course, tutorial or other training resource (category `Courses and Training or Reference Materials`), create the folder in `books_training/` instead. It uses the same template and conventions.
+    - If your entry is a book, course, tutorial, other training resource or community, create the folder in `books_training/` instead. It uses the same template and conventions. Tag it with `Courses and Training or Reference Materials`, plus **exactly one** of the following to choose where it appears on the [Books, Training and Communities](https://atlas.hsma.co.uk/books_training/) page:
+        - `Books` - Books section. Books are listed as healthcare-specific by default; also add `General Open Analytics` if the book isn't specific to healthcare.
+        - `Courses`, `Interactive Learning Tools` or `Reference Sites` - the matching subsection of the Training section.
+        - `Communities` - Communities section.
     - Note that there are currently a lot of placeholders for various tools/packages/projects that @Bergam0t thinks should be added, which will just contain an empty file called `.gitkeep` that's used to tell GitHub to make the folder. You are very welcome to submit an entry for one of these! In that case, you just won't need to create a new folder - use the one that's already there.
 
 2. Copy the template `.qmd` file from the `templates/` folder into your tool folder. Rename it to `index.qmd`.
@@ -83,7 +86,7 @@ To create your own entry:
 
 ##### Editing an existing entry
 
-You are also welcome to suggest edits to an existing entry via a pull request. Please look in the folder `packages_projects_tools/` (or `books_training/` for books, courses and training resources) for a folder named after the tool you'd like to edit. Inside the folder, you'll find an `index.qmd` file - this is where you can make edits to the tags and details.
+You are also welcome to suggest edits to an existing entry via a pull request. Please look in the folder `packages_projects_tools/` (or `books_training/` for books, courses, training resources and communities) for a folder named after the tool you'd like to edit. Inside the folder, you'll find an `index.qmd` file - this is where you can make edits to the tags and details.
 
 You can look at the URL to find out the filepath you need to look for.
 

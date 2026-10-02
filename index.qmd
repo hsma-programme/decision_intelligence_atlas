@@ -129,7 +129,7 @@ Click on the links below, or use the menu bar to navigate.
 A showcase of projects, code packages, scripts and other resources that may be of use
 ::::
 
-:::: {.value-box icon="bi-book" href="https://atlas.hsma.co.uk/books_training/" value="Books and<br/>Training"}
+:::: {.value-box icon="bi-book" href="https://atlas.hsma.co.uk/books_training/" value="Books, Training<br/>and Communities"}
 Books, courses, tutorials and communities to help you build your skills
 ::::
 
@@ -168,11 +168,11 @@ Package, Project and Tool Entries to be Written
 ::::: {.value-box-row columns="2" width="100%" align="center" value-font-size="2rem" font-size="0.9rem"}
 
 :::: {.value-box href="https://atlas.hsma.co.uk/books_training/" color="#009c92" value="<i class='bi bi-book'></i>&nbsp;`{python} get_counts('BOOKS_TRAINING_ENTRY_COUNT')`"}
-Books and Training Resources Documented
+Books, Training and Community Resources Documented
 ::::
 
 :::: {.value-box href="https://github.com/orgs/hsma-programme/projects/2/views/16" color="#00505A" value="<i class='bi bi-pencil'></i>&nbsp;PROPOSED_BOOKS_TRAINING_ENTRY_COUNT"}
-Book and Training Entries to be Written
+Book, Training and Community Entries to be Written
 ::::
 
 :::::

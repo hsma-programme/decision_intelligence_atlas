@@ -58,7 +58,7 @@ website:
         text: Packages, Projects and Tools
 
       - href: books_training/index.qmd
-        text: Books & Training
+        text: Books, Training & Communities
 
       - href: techniques/index.qmd
         text: Techniques

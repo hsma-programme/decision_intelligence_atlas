@@ -6,6 +6,7 @@ categories:
   - Service Planning
   - Identifying Bottlenecks
   - Courses and Training or Reference Materials
+  - Courses
 tool-language:
   - Python
 status: '<span style="color: #D18B12FF">Gold</span>'

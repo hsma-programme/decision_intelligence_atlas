@@ -1,5 +1,5 @@
 ---
-title: "Books and Training"
+title: "Books, Training and Communities"
 toc: false
 include-back-link: false
 grid:
@@ -15,7 +15,7 @@ format:
 
 listing:
 
-  - id: all
+  - id: books-healthcare
     type: grid
     grid-columns: 2
     categories: true
@@ -23,6 +23,73 @@ listing:
     sort: Title
     contents: "*/*.qmd"
     page-size: 1000
+    include:
+      categories: Books
+    exclude:
+      categories:
+        - General Open Analytics
+
+  - id: books-general
+    type: grid
+    grid-columns: 2
+    template: ../packages_projects_tools/listing.ejs
+    sort: Title
+    contents: "*/*.qmd"
+    page-size: 1000
+    include:
+      categories: General Open Analytics
+
+  - id: training-courses
+    type: grid
+    grid-columns: 2
+    template: ../packages_projects_tools/listing.ejs
+    sort: Title
+    contents: "*/*.qmd"
+    page-size: 1000
+    include:
+      categories: Courses
+    exclude:
+      categories:
+        - Books
+        - Communities
+
+  - id: training-interactive
+    type: grid
+    grid-columns: 2
+    template: ../packages_projects_tools/listing.ejs
+    sort: Title
+    contents: "*/*.qmd"
+    page-size: 1000
+    include:
+      categories: Interactive Learning Tools
+    exclude:
+      categories:
+        - Books
+        - Communities
+
+  - id: training-reference
+    type: grid
+    grid-columns: 2
+    template: ../packages_projects_tools/listing.ejs
+    sort: Title
+    contents: "*/*.qmd"
+    page-size: 1000
+    include:
+      categories: Reference Sites
+    exclude:
+      categories:
+        - Books
+        - Communities
+
+  - id: communities
+    type: grid
+    grid-columns: 2
+    template: ../packages_projects_tools/listing.ejs
+    sort: Title
+    contents: "*/*.qmd"
+    page-size: 1000
+    include:
+      categories: Communities
 ---
 
 This page contains books, courses, tutorials, interactive learning tools and communities of practice that may be of use to people wanting to build their skills in healthcare analytics, modelling and data science.
@@ -43,5 +110,50 @@ If you have any concerns, or would like any content to be removed, please [raise
 
 <br>
 
-::: {#all}
+## Books
+
+Free books and eBooks covering analytics, modelling and data science techniques.
+
+### Healthcare-specific
+
+Books written for, or built around examples from, health and care settings.
+
+::: {#books-healthcare}
+:::
+
+### General open analytics
+
+Open books on analytics, modelling and data science that are not specific to healthcare, but are useful for healthcare analysts.
+
+::: {#books-general}
+:::
+
+## Training
+
+### Courses
+
+Structured courses and modules, often including recorded sessions, slides and exercises.
+
+::: {#training-courses}
+:::
+
+### Interactive tools
+
+Interactive apps and tools to help you explore and learn concepts hands-on.
+
+::: {#training-interactive}
+:::
+
+### Reference sites
+
+Websites with code snippets, guides and reference material to dip into as needed.
+
+::: {#training-reference}
+:::
+
+## Communities
+
+Professional networks and communities of practice where healthcare analysts can connect, share their work and learn from each other.
+
+::: {#communities}
 :::

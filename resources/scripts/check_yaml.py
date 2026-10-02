@@ -13,6 +13,15 @@ LANGUAGES_CSV = Path(
 )
 QMD_ROOTS = [Path("packages_projects_tools"), Path("books_training")]
 
+# Categories that place a books_training entry in a section of
+# books_training/index.qmd. Keep in sync with that page's listings.
+BOOKS_TRAINING_SECTIONS = {"Books", "Communities"}
+TRAINING_SUBSECTIONS = {
+    "Courses",
+    "Interactive Learning Tools",
+    "Reference Sites",
+}
+
 
 def load_list(path):
     """
@@ -114,9 +123,53 @@ def check_entries(field_name, allowed_path):
     print(f"All {field_name} entries are valid.")
 
 
+def check_books_training_sections():
+    """
+    Check each books_training entry appears in exactly one section.
+
+    An entry must be tagged with exactly one of `Books`, `Communities` or a
+    training subsection (`Courses`, `Interactive Learning Tools`,
+    `Reference Sites`). Otherwise it would be missing from, or duplicated
+    on, the Books, Training and Communities page.
+    """
+    problems = []
+
+    for path in Path("books_training").glob("*/index.qmd"):
+        text = path.read_text(encoding="utf-8")
+        front_matter = extract_front_matter(text)
+        if not front_matter:
+            continue
+
+        meta = yaml.safe_load(front_matter) or {}
+        categories = meta.get("categories") or []
+        if isinstance(categories, str):
+            categories = [categories]
+
+        tags = set(categories) & (BOOKS_TRAINING_SECTIONS | TRAINING_SUBSECTIONS)
+        if len(tags) != 1:
+            problems.append(
+                f"{path}: must have exactly one of "
+                f"{sorted(BOOKS_TRAINING_SECTIONS | TRAINING_SUBSECTIONS)} "
+                f"in categories (found {sorted(tags)})"
+            )
+        if "General Open Analytics" in categories and "Books" not in categories:
+            problems.append(
+                f"{path}: 'General Open Analytics' can only be used with 'Books'"
+            )
+
+    if problems:
+        print("books_training section validation failed:\n")
+        for problem in problems:
+            print(f"- {problem}")
+        sys.exit(1)
+
+    print("All books_training entries are in exactly one section.")
+
+
 def main():
     check_entries("categories", CATEGORIES_CSV)
     check_entries("tool-language", LANGUAGES_CSV)
+    check_books_training_sections()
 
 
 if __name__ == "__main__":
