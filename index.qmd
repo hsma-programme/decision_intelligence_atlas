@@ -171,6 +171,10 @@ Package, Project and Tool Entries to be Written
 Books and Training Resources Documented
 ::::
 
+:::: {.value-box href="https://github.com/orgs/hsma-programme/projects/2/views/16" color="#00505A" value="<i class='bi bi-pencil'></i>&nbsp;PROPOSED_BOOKS_TRAINING_ENTRY_COUNT"}
+Book and Training Entries to be Written
+::::
+
 :::::
 
 ::::: {.value-box-row columns="2" width="100%" align="center" value-font-size="2rem" font-size="0.9rem"}

@@ -1,0 +1,21 @@
+name: "Suggestion: New Book or Training Resource Entry"
+description: "Submit a suggestion for a new book, course, tutorial or community you think should be added to the atlas (without writing the full entry)"
+title: "Book/Training Suggestion: [NAME]"
+labels: ["SUGGESTION: new book or training"]
+
+body:
+  - type: input
+    id: link
+    validations:
+      required: true
+    attributes:
+      label: Link
+      description: |
+        Please add a link to the book, course, tutorial or community. This is to ensure we're looking at the right thing - you don't need to submit every relevant link, though you can submit extra links in the description box below if you need to.
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Optional - Details
+      description: |
+        Optionally, you can give a very brief description of what this resource is to help motivate someone to look at adding this to the Atlas!
