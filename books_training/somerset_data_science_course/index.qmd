@@ -1,5 +1,7 @@
 ---
 title: "Somerset Introduction to Data Science Course"
+aliases:
+  - /packages_projects_tools/somerset_data_science_course/index.html
 categories:
   - Courses and Training or Reference Materials
 tool-language:

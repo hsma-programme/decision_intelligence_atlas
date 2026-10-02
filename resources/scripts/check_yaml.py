@@ -11,7 +11,7 @@ CATEGORIES_CSV = Path(
 LANGUAGES_CSV = Path(
     "templates/packages_projects_tools_permitted_languages.csv"
 )
-QMD_ROOT = Path("packages_projects_tools")
+QMD_ROOTS = [Path("packages_projects_tools"), Path("books_training")]
 
 
 def load_list(path):
@@ -74,7 +74,9 @@ def check_entries(field_name, allowed_path):
     allowed_values = load_list(allowed_path)
     problems = []
 
-    for path in Path(QMD_ROOT).rglob("*.qmd"):
+    paths = [path for root in QMD_ROOTS for path in root.rglob("*.qmd")]
+
+    for path in paths:
         text = path.read_text(encoding="utf-8")
         front_matter = extract_front_matter(text)
         if not front_matter:

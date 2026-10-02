@@ -1,5 +1,7 @@
 ---
 title: "Julia for healthcare modelling and data science"
+aliases:
+  - /packages_projects_tools/julia_healthcare/index.html
 categories:
   - Service Planning
   - Courses and Training or Reference Materials

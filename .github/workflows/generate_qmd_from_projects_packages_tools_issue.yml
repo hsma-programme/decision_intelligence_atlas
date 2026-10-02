@@ -96,8 +96,13 @@ jobs:
             # Raw data for the blocks
             JSON_DATA: ${{ steps.extract.outputs.json }}
         run: |
-          mkdir -p "packages_projects_tools/${{ steps.modelname.outputs.safe_model_name }}"
-          cat > "packages_projects_tools/${{ steps.modelname.outputs.safe_model_name }}/index.qmd" <<EOF
+          # Books, courses and training resources live in their own section
+          TARGET_DIR="packages_projects_tools"
+          if echo "$JSON_DATA" | jq -e '.category[]? | select(. == "Courses and Training or Reference Materials")' > /dev/null; then
+            TARGET_DIR="books_training"
+          fi
+          mkdir -p "$TARGET_DIR/${{ steps.modelname.outputs.safe_model_name }}"
+          cat > "$TARGET_DIR/${{ steps.modelname.outputs.safe_model_name }}/index.qmd" <<EOF
           ---
           title: \"${{ fromJSON(env.JSON_DATA).model_name }}\"
           categories:

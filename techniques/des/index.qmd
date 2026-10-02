@@ -22,7 +22,6 @@ listing:
       title: "*{Discrete Event Simulation,DES,discrete event simulation}*"
     exclude:
       title: "*{Ciw,Vidigi,SimPy,RSimmer,ConcurrentSim}*"
-      categories: Courses and Training or Reference Materials
     contents: "../../packages_projects_tools/*/*.qmd"
   - id: des_packages
     type: grid
@@ -41,8 +40,7 @@ listing:
     sort: Title
     include:
       title: "*{DES,Discrete Event Simulation,discrete event simulation}*"
-      categories: "{Courses and Training or Reference Materials}"
-    contents: "../../packages_projects_tools/*/*.qmd"
+    contents: "../../books_training/*/*.qmd"
 ---
 
 Discrete Event Simulation - DES - is a powerful technique for tackling bottlenecks and performance issues in systems with queues. By building simplified models of real-world pathways - incorporating realistic variability and resource constraints - it becomes possible to ask what-if questions of your system in a safe environment.

@@ -1,5 +1,7 @@
 ---
 title: "HSMA: Little Book of Discrete Event Simulation (DES)"
+aliases:
+  - /packages_projects_tools/hsma_little_book_of_des/index.html
 categories:
   - Service Planning
   - Identifying Bottlenecks

@@ -1,5 +1,7 @@
 ---
 title: "NHS RAP Community of Practice"
+aliases:
+  - /packages_projects_tools/rap_community_of_practice/index.html
 categories:
   - RAP
   - Courses and Training or Reference Materials

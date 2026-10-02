@@ -9,7 +9,9 @@ format:
 
 listing:
   - id: newest
-    contents: packages_projects_tools/*/*.qmd
+    contents:
+      - packages_projects_tools/*/*.qmd
+      - books_training/*/*.qmd
     type: grid
     grid-columns: 3
     categories: false
@@ -65,13 +67,20 @@ h1 {
 
 .value-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1rem;
   margin-top: 1rem;
 }
 
+/* Two columns on medium screens */
+@media (max-width: 1200px) {
+  .value-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 /* Collapse to a single column on small screens */
-@media (max-width: 900px) {
+@media (max-width: 600px) {
   .value-grid {
     grid-template-columns: 1fr;
   }
@@ -220,6 +229,11 @@ Click on the links below, or use the menu bar to navigate.
     <div class="value">Packages, Projects<br/>and Tools</div>
     <div class="details">A showcase of projects, code packages, scripts and other resources that may be of use</div>
   </a>
+  <a href="https://atlas.hsma.co.uk/books_training/" class="value-box bg-green">
+    <div class="icon"><i class="bi bi-book"></i></div>
+    <div class="value">Books and<br/>Training</div>
+    <div class="details">Books, courses, tutorials and communities to help you build your skills</div>
+  </a>
   <a href="https://atlas.hsma.co.uk/techniques/" class="value-box bg-green">
     <div class="icon"><i class="bi bi-lightbulb"></i></div>
     <div class="value">Techniques</div>
@@ -252,6 +266,15 @@ Please see our [contributors page](contributing/index.qmd) for instructions on h
     <a href="https://github.com/orgs/hsma-programme/projects/2/views/8" class="value-box bg-dark-teal">
     <div class="icon" style="font-size: 2rem;"><i class="bi bi-pencil"></i>&nbsp;PROPOSED_PPT_ENTRY_COUNT</div>
     <div class="details">Package, Project and Tool Entries to be Written</div>
+  </a>
+</div>
+```
+
+```{=html}
+<div class="value-grid-2" style="justify-content:center; text-align:center;">
+  <a href="https://atlas.hsma.co.uk/books_training/" class="value-box bg-green">
+    <div class="icon" style="font-size: 2rem;"><i class="bi bi-book"></i>&nbsp;`{python} get_counts("BOOKS_TRAINING_ENTRY_COUNT")`</div>
+    <div class="details">Books and Training Resources Documented</div>
   </a>
 </div>
 ```
