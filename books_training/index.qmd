@@ -25,32 +25,13 @@ listing:
     page-size: 1000
 ---
 
-
-<style>
-.value-box-simple {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 1.5rem;
-  border-radius: 10px;
-  color: white;
-  min-height: 180px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-  transition: transform 0.2s ease;
-  text-decoration: none;   /* remove underline on the whole card */
-}
-
-.bg-amber { background-color:rgb(211, 123, 0) ; }
-
-</style>
-
 This page contains books, courses, tutorials, interactive learning tools and communities of practice that may be of use to people wanting to build their skills in healthcare analytics, modelling and data science.
 
 Looking for code packages, projects or tools? Head to the [Packages, Projects and Tools](/packages_projects_tools/index.qmd) page.
 
 **Want to suggest an addition to this page? Head to our [contributor guide](/contributing/index.qmd) to find out more - coding entirely optional.**
 
-::: {.value-box-simple .bg-amber}
+::: {.value-box color="rgb(211, 123, 0)" width="100%" min-height="180px" font-size="1rem"}
 
 Please note that inclusion of a resource on this site does not imply that the HSMA team, NIHR, or any other Atlas contributors, have reviewed these resources in detail. This resource is designed to act as a signpost to the work that is out there, but **you should always conduct your own reviews of the suitability of any of these resources for your own use case.**
 

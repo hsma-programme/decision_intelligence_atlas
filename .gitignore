@@ -2,3 +2,4 @@
 docs/
 **/*.quarto_ipynb
 site_libs/
+/.luarc.json
