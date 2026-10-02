@@ -53,10 +53,11 @@ jobs:
       - name: Determine issue counts
         id: get_counts
         run: |
-          # Define your three label/placeholder pairs
+          # Define your label/placeholder pairs
           # Format: "LABEL|PLACEHOLDER"
           declare -a CONFIGS=(
             "SUGGESTION: new project package or tool|PROPOSED_PPT_ENTRY_COUNT"
+            "SUGGESTION: new book or training|PROPOSED_BOOKS_TRAINING_ENTRY_COUNT"
             "SUGGESTION: new technique|PROPOSED_TECHNIQUE_ENTRY_COUNT"
             "SUGGESTION: new graph catalogue entry|PROPOSED_GRAPH_GALLERY_ENTRY_COUNT"
           )

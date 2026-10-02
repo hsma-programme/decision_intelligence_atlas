@@ -43,8 +43,6 @@ def get_counts(entry_key):
     return 0
 ```
 
-<!-- Card code from GuillaumeChretienCerema  https://github.com/quarto-dev/quarto-cli/issues/8475 -->
-
 <style>
 h1 {
       text-transform: uppercase;  /* make all letters uppercase */
@@ -64,103 +62,6 @@ h1 {
     font-size: 3rem;
   }
 }
-
-.value-grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
-/* Two columns on medium screens */
-@media (max-width: 1200px) {
-  .value-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-/* Collapse to a single column on small screens */
-@media (max-width: 600px) {
-  .value-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-
-.value-grid-2 {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
-/* Collapse to a single column on small screens */
-@media (max-width: 600px) {
-  .value-grid-2 {
-    grid-template-columns: 1fr;
-  }
-}
-
-
-.value-box-simple {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 1.5rem;
-  border-radius: 10px;
-  color: white;
-  min-height: 180px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-  transition: transform 0.2s ease;
-  text-decoration: none;   /* remove underline on the whole card */
-}
-
-.value-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 1.5rem;
-  border-radius: 10px;
-  color: white;
-  min-height: 180px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-  transition: transform 0.2s ease;
-  text-decoration: none;   /* remove underline on the whole card */
-}
-
-.value-box:hover {
-  transform: translateY(-4px);
-}
-
-.value-box .icon {
-  font-size: 4.5rem;   /* 👈 taille agrandie */
-  line-height: 1;
-  margin-bottom: 0.6rem;
-}
-
-.value-box .title {
-  font-weight: 600;
-  font-size: 0.9rem;
-  opacity: 0.9;
-}
-
-.value-box .value {
-  font-size: 2.2rem;
-  font-weight: bold;
-  margin: 0.2rem 0;
-}
-
-.value-box .details {
-  font-size: 0.9rem;
-  opacity: 0.9;
-  line-height: 1.3;
-}
-
-.bg-green { background-color: #009c92; }
-
-.bg-dark-teal { background-color: #00505AFF; }
-
-.bg-amber { background-color:rgb(211, 123, 0) ; }
 
 /* Full-bleed animated background */
 #title-block-header .finisher-header {
@@ -222,30 +123,25 @@ Click on the links below, or use the menu bar to navigate.
 
 <br/>
 
-```{=html}
-<div class="value-grid">
-  <a href="https://atlas.hsma.co.uk/packages_projects_tools/" class="value-box bg-green">
-    <div class="icon"><i class="bi bi-tools"></i></div>
-    <div class="value">Packages, Projects<br/>and Tools</div>
-    <div class="details">A showcase of projects, code packages, scripts and other resources that may be of use</div>
-  </a>
-  <a href="https://atlas.hsma.co.uk/books_training/" class="value-box bg-green">
-    <div class="icon"><i class="bi bi-book"></i></div>
-    <div class="value">Books and<br/>Training</div>
-    <div class="details">Books, courses, tutorials and communities to help you build your skills</div>
-  </a>
-  <a href="https://atlas.hsma.co.uk/techniques/" class="value-box bg-green">
-    <div class="icon"><i class="bi bi-lightbulb"></i></div>
-    <div class="value">Techniques</div>
-    <div class="details">An overview of advanced analytics, operational research and data science techniques and their possible applications</div>
-  </a>
-  <a href="https://atlas.hsma.co.uk/graph_catalogue/" class="value-box bg-green">
-    <div class="icon"><i class="bi bi-file-earmark-bar-graph"></i></div>
-    <div class="value">Graph Gallery</div>
-    <div class="details">A showcase of graph types of use in healthcare contexts</div>
-  </a>
-</div>
-```
+::::: {.value-box-row columns="4" width="100%" align="center" min-height="180px" icon-size="4.5rem" font-size="0.9rem" color="#009c92"}
+
+:::: {.value-box icon="bi-tools" href="https://atlas.hsma.co.uk/packages_projects_tools/" value="Packages, Projects<br/>and Tools"}
+A showcase of projects, code packages, scripts and other resources that may be of use
+::::
+
+:::: {.value-box icon="bi-book" href="https://atlas.hsma.co.uk/books_training/" value="Books and<br/>Training"}
+Books, courses, tutorials and communities to help you build your skills
+::::
+
+:::: {.value-box icon="bi-lightbulb" href="https://atlas.hsma.co.uk/techniques/" value="Techniques"}
+An overview of advanced analytics, operational research and data science techniques and their possible applications
+::::
+
+:::: {.value-box icon="bi-file-earmark-bar-graph" href="https://atlas.hsma.co.uk/graph_catalogue/" value="Graph Gallery"}
+A showcase of graph types of use in healthcare contexts
+::::
+
+:::::
 
 <br/>
 
@@ -257,54 +153,53 @@ You don't need to be able to write code or use Quarto to add to the Atlas - ther
 
 Please see our [contributors page](contributing/index.qmd) for instructions on how to get involved.
 
-```{=html}
-<div class="value-grid-2" style="justify-content:center; text-align:center;">
-  <a href="https://atlas.hsma.co.uk/packages_projects_tools/" class="value-box bg-green">
-    <div class="icon" style="font-size: 2rem;"><i class="bi bi-tools"></i>&nbsp;`{python} get_counts("PPT_ENTRY_COUNT")`</div>
-    <div class="details">Packages, Projects and Tools Documented</div>
-  </a>
-    <a href="https://github.com/orgs/hsma-programme/projects/2/views/8" class="value-box bg-dark-teal">
-    <div class="icon" style="font-size: 2rem;"><i class="bi bi-pencil"></i>&nbsp;PROPOSED_PPT_ENTRY_COUNT</div>
-    <div class="details">Package, Project and Tool Entries to be Written</div>
-  </a>
-</div>
-```
+::::: {.value-box-row columns="2" width="100%" align="center" value-font-size="2rem" font-size="0.9rem"}
 
-```{=html}
-<div class="value-grid-2" style="justify-content:center; text-align:center;">
-  <a href="https://atlas.hsma.co.uk/books_training/" class="value-box bg-green">
-    <div class="icon" style="font-size: 2rem;"><i class="bi bi-book"></i>&nbsp;`{python} get_counts("BOOKS_TRAINING_ENTRY_COUNT")`</div>
-    <div class="details">Books and Training Resources Documented</div>
-  </a>
-</div>
-```
+:::: {.value-box href="https://atlas.hsma.co.uk/packages_projects_tools/" color="#009c92" value="<i class='bi bi-tools'></i>&nbsp;`{python} get_counts('PPT_ENTRY_COUNT')`"}
+Packages, Projects and Tools Documented
+::::
 
-```{=html}
-<div class="value-grid-2" style="justify-content:center; text-align:center;">
-    <a href="https://atlas.hsma.co.uk/techniques/" class="value-box bg-green">
-    <div class="icon" style="font-size: 2rem;"><i class="bi bi-lightbulb"></i>&nbsp;`{python} get_counts("TECHNIQUE_ENTRY_COUNT")`</div>
-    <div class="details">Techniques Described</div>
-  </a>
-    <a href="https://github.com/orgs/hsma-programme/projects/2/views/10" class="value-box bg-dark-teal">
-    <div class="icon" style="font-size: 2rem;"><i class="bi bi-pencil"></i>&nbsp;PROPOSED_TECHNIQUE_ENTRY_COUNT</div>
-    <div class="details">Technique Entries to be Written</div>
-  </a>
-</div>
-```
+:::: {.value-box href="https://github.com/orgs/hsma-programme/projects/2/views/8" color="#00505A" value="<i class='bi bi-pencil'></i>&nbsp;PROPOSED_PPT_ENTRY_COUNT"}
+Package, Project and Tool Entries to be Written
+::::
 
-```{=html}
-<div class="value-grid-2" style="justify-content:center; text-align:center;">
-  <a href="https://atlas.hsma.co.uk/graph_catalogue/" class="value-box bg-green">
-    <div class="icon" style="font-size: 2rem;"><i class="bi bi-file-earmark-bar-graph"></i>&nbsp;`{python} get_counts("GRAPH_GALLERY_ENTRY_COUNT")`</div>
-    <div class="details">Graph Examples</div>
-  </a>
-    <a href="https://github.com/orgs/hsma-programme/projects/2/views/9" class="value-box bg-dark-teal">
-    <div class="icon" style="font-size: 2rem;"><i class="bi bi-pencil"></i>&nbsp;PROPOSED_GRAPH_GALLERY_ENTRY_COUNT</div>
-    <div class="details">Graph Examples to be Written</div>
-  </a>
+:::::
 
-</div>
-```
+::::: {.value-box-row columns="2" width="100%" align="center" value-font-size="2rem" font-size="0.9rem"}
+
+:::: {.value-box href="https://atlas.hsma.co.uk/books_training/" color="#009c92" value="<i class='bi bi-book'></i>&nbsp;`{python} get_counts('BOOKS_TRAINING_ENTRY_COUNT')`"}
+Books and Training Resources Documented
+::::
+
+:::: {.value-box href="https://github.com/orgs/hsma-programme/projects/2/views/16" color="#00505A" value="<i class='bi bi-pencil'></i>&nbsp;PROPOSED_BOOKS_TRAINING_ENTRY_COUNT"}
+Book and Training Entries to be Written
+::::
+
+:::::
+
+::::: {.value-box-row columns="2" width="100%" align="center" value-font-size="2rem" font-size="0.9rem"}
+
+:::: {.value-box href="https://atlas.hsma.co.uk/techniques/" color="#009c92" value="<i class='bi bi-lightbulb'></i>&nbsp;`{python} get_counts('TECHNIQUE_ENTRY_COUNT')`"}
+Techniques Described
+::::
+
+:::: {.value-box href="https://github.com/orgs/hsma-programme/projects/2/views/10" color="#00505A" value="<i class='bi bi-pencil'></i>&nbsp;PROPOSED_TECHNIQUE_ENTRY_COUNT"}
+Technique Entries to be Written
+::::
+
+:::::
+
+::::: {.value-box-row columns="2" width="100%" align="center" value-font-size="2rem" font-size="0.9rem"}
+
+:::: {.value-box href="https://atlas.hsma.co.uk/graph_catalogue/" color="#009c92" value="<i class='bi bi-file-earmark-bar-graph'></i>&nbsp;`{python} get_counts('GRAPH_GALLERY_ENTRY_COUNT')`"}
+Graph Examples
+::::
+
+:::: {.value-box href="https://github.com/orgs/hsma-programme/projects/2/views/9" color="#00505A" value="<i class='bi bi-pencil'></i>&nbsp;PROPOSED_GRAPH_GALLERY_ENTRY_COUNT"}
+Graph Examples to be Written
+::::
+
+:::::
 
 <br/>
 
@@ -341,7 +236,7 @@ We're very grateful to all of our contributors so far!
 
 <br>
 
-::: {.value-box-simple .bg-amber}
+::: {.value-box color="rgb(211, 123, 0)" width="100%" min-height="180px" font-size="1rem"}
 
 Please note that inclusion of a tool on this site does not imply that the HSMA team, NIHR, or any other Atlas contributors, have reviewed these tools in detail. This resource is designed to act as a signpost to the work that is out there, and provide a high-level indication of the health of any given project, but **you should always conduct your own reviews of the suitability of any of these tools and techniques for your own use case.**
 

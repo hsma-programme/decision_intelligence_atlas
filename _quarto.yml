@@ -15,6 +15,7 @@ webr:
 # Attach webR extension for the project
 filters:
   - webr
+  - value-box
 
 website:
   title: The Healthcare Service Analytics & Decision Intelligence Atlas
