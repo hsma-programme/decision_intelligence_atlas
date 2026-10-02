@@ -1,0 +1,57 @@
+---
+title: "Healthcare Decision Intelligence eBook"
+categories:
+  - Courses and Training or Reference Materials
+  - Books
+tool-language:
+  - Python
+status: '<span style="color: #D18B12FF">Gold</span>'
+image: healthcare_decision_intelligence.jpg
+author:
+    - name: Chandan Kaur
+      url: https://github.com/ckaur5689
+pub-info:
+  project-type: <i class="fa-solid fa-user-graduate"></i>
+  rationale-for-status: |
+    This is an extensive book written by the head of insight for an ICB, drawing on the author's 20+ years of experience and their knowledge in both the healthcare space and computer science, statistics, and machine learning.
+  entry-author:
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
+  abstract: |
+    The Little Book of Discrete Event Simulation (DES) is a free eBook written to accompany the DES module of the Health Service Modelling Associates (HSMA) programme. DES is a technique used for building simulations of pathways and services, allowing 'what-if' questions to be tested. The book takes you from being a complete beginner in DES through to creating complex models with a web interface. This Python resource primarily focusses on the SimPy package, also touching on Streamlit and various supporting packages.
+  links:
+  - name: Code
+    url: # none
+    icon: fa-brands fa-github
+  - name: Paper
+    url: # Enter a URL here if relevant
+    icon: fa-solid fa-file-contract
+  - name: eBook
+    url: https://ckaur5689.github.io/DecisionIntelligence/
+    icon: fa-solid fa-book
+  - name: eBook Companion
+    url: https://decisionintelligence-healthcare.streamlit.app
+    icon: fa-solid fa-globe
+---
+
+This ebook covers 15 modules (at the time of writing) on how to make better decisions with data.
+
+> The series is designed to support:
+>
+> - analysts
+> - operational leaders
+> - clinicians
+> - managers
+> - decision-makers
+>
+> in developing a stronger understanding of:
+>
+> - healthcare metrics
+> - variation
+> - benchmarking
+> - inequalities
+> - operational performance
+> - population health
+> - analytical fairness and interpretation"
+
+The ebook is accompanied by a [companion app](https://ckaur5689.github.io/DecisionIntelligence/) to support readers in finding the most relevant content for their particular question or area of interest.
