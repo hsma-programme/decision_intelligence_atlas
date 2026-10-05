@@ -1,0 +1,242 @@
+{
+  "playlists": [
+    {
+      "label": "MDSN Training",
+      "id": "PLFEXOtXX7YkkHfQ8OdHu2eefgoree3TCX",
+      "videos": [
+        {
+          "id": "s1ey4XZjyq4",
+          "title": "MDSN Training: Time-series forecasting and decision-making  - Session 3 (22/06/22)",
+          "description": "",
+          "published": "2022-06-23T09:41:28Z",
+          "duration": "PT4H45M42S",
+          "thumbnail": "https://i.ytimg.com/vi/s1ey4XZjyq4/mqdefault.jpg"
+        },
+        {
+          "id": "2fYHlmWt3GY",
+          "title": "MDSN Training: Time-series forecasting and decision-making  - Session 1 (08/06/22)",
+          "description": "",
+          "published": "2022-06-23T10:38:17Z",
+          "duration": "PT3H31M3S",
+          "thumbnail": "https://i.ytimg.com/vi/2fYHlmWt3GY/mqdefault.jpg"
+        },
+        {
+          "id": "AaKdX-M4My4",
+          "title": "MDSN Training: Time-series forecasting and decision-making  - Session 2 (15/06/22)",
+          "description": "",
+          "published": "2022-07-21T12:25:29Z",
+          "duration": "PT4H53M51S",
+          "thumbnail": "https://i.ytimg.com/vi/AaKdX-M4My4/mqdefault.jpg"
+        },
+        {
+          "id": "WrjWRHsx5So",
+          "title": "MDSN Training: Time-series forecasting and decision-making  - Session 1, 22/07/22",
+          "description": "",
+          "published": "2022-07-22T17:45:16Z",
+          "duration": "PT4H48M33S",
+          "thumbnail": "https://i.ytimg.com/vi/WrjWRHsx5So/mqdefault.jpg"
+        },
+        {
+          "id": "7ejp0GrBSVw",
+          "title": "MDSN: Time-series Forecasting - July 2022, Session 2",
+          "description": "",
+          "published": "2022-07-29T17:58:18Z",
+          "duration": "PT4H49M41S",
+          "thumbnail": "https://i.ytimg.com/vi/7ejp0GrBSVw/mqdefault.jpg"
+        },
+        {
+          "id": "VnVceFSvEdE",
+          "title": "Time series Forecasting - Session 3  -26/08/22",
+          "description": "",
+          "published": "2022-08-26T20:52:26Z",
+          "duration": "PT4H44M29S",
+          "thumbnail": "https://i.ytimg.com/vi/VnVceFSvEdE/mqdefault.jpg"
+        },
+        {
+          "id": "xiYQXJCSGX8",
+          "title": "PHM 1 - MDSN Training : Introduction to PHM",
+          "description": "Topics covered\n\nWhat do we mean by PHM?\nWhy is PHM important?\nHow is it different?\nWhat is the PHM cycle?\nWhat are the key methods and tools used in PHM\n\nLed by: Andi Orlowski, David Sgobati and Sophie Hodges, the Health Economics Unit",
+          "published": "2022-09-07T13:21:04Z",
+          "duration": "PT1H43M20S",
+          "thumbnail": "https://i.ytimg.com/vi/xiYQXJCSGX8/mqdefault.jpg"
+        },
+        {
+          "id": "sJAnng3zJaA",
+          "title": "PHM 3 - MDSN Training :  Introduction to R for PHM",
+          "description": "Agenda\n\nHow can we write and run R code?\nWhat basic functions are most useful?\nWhich data structures and tools are more likely to be relevant to population health management?\n\nLed by:\nDavid Sgobati, Joe Lillington and Santosh Kumar, Health Economics Unit",
+          "published": "2022-09-20T16:10:15Z",
+          "duration": "PT1H58M30S",
+          "thumbnail": "https://i.ytimg.com/vi/sJAnng3zJaA/mqdefault.jpg"
+        },
+        {
+          "id": "JvZthFJ_f-8",
+          "title": "PHM 4 - MDSN Training: Introduction to Statistics for PHM - 27/09/22",
+          "description": "PHM 4 - MDSN Training: Introduction to Statistics for PHM - 27/09/22\n\nAgenda\n\nWhat statistical metrics can we use?  \nWhat is statistical testing and how can it be implemented in R?  \nHow can statistics be useful in population health modelling?  \n\nLed by:   David Sgorbati, Santosh Kumar and Joe Lillington, The Health Economics Unit",
+          "published": "2022-09-28T08:31:51Z",
+          "duration": "PT1H56M30S",
+          "thumbnail": "https://i.ytimg.com/vi/JvZthFJ_f-8/mqdefault.jpg"
+        },
+        {
+          "id": "W3cwRYW2v-k",
+          "title": "PHM - 5: Understanding population segmentation for your local population 04/10/22",
+          "description": "Population Health Management: \nUnderstanding Population Segmentation for Your Local Population PHM-5\n\n4th October 2022\n\nAgenda:\nWhat is population segmentation?\nWhy segment? \nMethods of segmentation \nHow are these techniques used in practice? \nGroup segmentation exercise and discussion\n\nLed by:   Andi Orlowski, David Sgorbati and Sophie Hodges a, The Health Economics Unit",
+          "published": "2022-10-04T16:26:38Z",
+          "duration": "PT1H54M5S",
+          "thumbnail": "https://i.ytimg.com/vi/W3cwRYW2v-k/mqdefault.jpg"
+        },
+        {
+          "id": "RZMGIa4d5p8",
+          "title": "MDSN: Theory of Constraints for Patient Flow (part 1) Introduction - 11/10/22",
+          "description": "Led by Alex Knight\nIntroduction to the course. Please see Part 2 for the full recording.",
+          "published": "2022-10-11T15:58:13Z",
+          "duration": "PT9M57S",
+          "thumbnail": "https://i.ytimg.com/vi/RZMGIa4d5p8/mqdefault.jpg"
+        },
+        {
+          "id": "e3JPr0EjXx0",
+          "title": "MDSN Training: Theory of Constraints for Patient Flow (part 2) - 11/10/22",
+          "description": "Led by Alex Knight",
+          "published": "2022-10-11T17:53:36Z",
+          "duration": "PT6H5M44S",
+          "thumbnail": "https://i.ytimg.com/vi/e3JPr0EjXx0/mqdefault.jpg"
+        },
+        {
+          "id": "tGmWwdtHVso",
+          "title": "PHM - 6   Doing population segmentation for your local population 12/10/22",
+          "description": "Population Health Management: \nDoing population segmentation for your local population PHM - 6\n\n12th October 2022\n\nAgenda:\nWhat is segmentation? \nWhat are three standard techniques for segmentation? \nHow are these techniques different in nature? \n\nLed by:  Andi Orlowski, Joe Lillington, Sophie Hodges and Santosh Kumar, The Health Economics Unit",
+          "published": "2022-10-12T13:44:58Z",
+          "duration": "PT1H58M28S",
+          "thumbnail": "https://i.ytimg.com/vi/tGmWwdtHVso/mqdefault.jpg"
+        },
+        {
+          "id": "v84Y3eCMExI",
+          "title": "PHM 7: Understanding risk prediction and stratification for your local population, 18/10/22",
+          "description": "Population Health Management: \nUnderstanding risk prediction and stratification for your local population PHM-7\n\n18th October 2022\n\nAgenda\n\nWhat is risk stratification? \nWhy is it useful?  \nWhat is the difference between segmentation and risk stratification?  \nMethods of risk stratification \nHow are these techniques used in practice? \nGroup exercise and discussion \n\nLed by: Andi Orlowski, David Sgobati and Sophie Hodges, #Healththe  Economics Unit",
+          "published": "2022-10-18T16:27:03Z",
+          "duration": "PT1H56M25S",
+          "thumbnail": "https://i.ytimg.com/vi/v84Y3eCMExI/mqdefault.jpg"
+        },
+        {
+          "id": "WJQKFphMbsc",
+          "title": "MDSN Training: Introduction to RMArkdown - Part 2 (19/10/22)",
+          "description": "Day 2 of the MDSN Training: ntroduction to RMArkdown\nWednesday 19th October 2022\nWith Zoë Turner",
+          "published": "2022-10-19T15:33:08Z",
+          "duration": "PT2H33M4S",
+          "thumbnail": "https://i.ytimg.com/vi/WJQKFphMbsc/mqdefault.jpg"
+        },
+        {
+          "id": "0s_L2q2fSPE",
+          "title": "MDSN Training: Introduction to RMarkdown - Part 1 (18/10/22)",
+          "description": "Introduction to RMarkdown - Day 1\nTuesday 18th October 2022\n\nWith Zoë Turner",
+          "published": "2022-10-19T20:04:29Z",
+          "duration": "PT2H38M25S",
+          "thumbnail": "https://i.ytimg.com/vi/0s_L2q2fSPE/mqdefault.jpg"
+        },
+        {
+          "id": "EUSV4kPLlAg",
+          "title": "HE-1:Health Economics Foundations, 25/10/22",
+          "description": "Economics and Evaluation:\nHealth Economics Foundations (HE 1)\n\n25th October 2022\n\nAgenda \nRationale: why health economics?  \nHealth budgets versus spending  \nCost and benefit types \nPerspective: which costs and benefits are relevant? \nIntroduction to types of health economic studies \n\nLed by: Anna Buylova, The Health Economics Unit",
+          "published": "2022-10-26T19:23:20Z",
+          "duration": "PT2H3M7S",
+          "thumbnail": "https://i.ytimg.com/vi/EUSV4kPLlAg/mqdefault.jpg"
+        },
+        {
+          "id": "ohgIqedIaSQ",
+          "title": "PHM 8: Doing Risk Prediction and Stratification for Your Local Population, 26/10/22",
+          "description": "Population Health Management: \nDoing Risk Prediction and Stratification for Your Local Population PHM-8\n\n26th October 2022\n\nAgenda\nHow do you formulate a risk prediction/stratification modelling problem?  \nHow is the modelling typically implemented and validated? \nWhat are good practices in the modelling? \n\nLed by: David Sgobati, Joe Lillington and Santosh Kumar, The Health Economics Unit",
+          "published": "2022-10-26T20:11:43Z",
+          "duration": "PT2H8M46S",
+          "thumbnail": "https://i.ytimg.com/vi/ohgIqedIaSQ/mqdefault.jpg"
+        },
+        {
+          "id": "lZIGern8bLM",
+          "title": "PHM - 9: Understanding Impactibility for your local population  (Part 1) - 01/11/22",
+          "description": "Population Health Management: \nUnderstanding Impactibility for Your Local Population PHM-9\n\n1st November 2022\n\nAgenda\n\nWhat is impactibility? \nHow impactibility is used to predict those who will be most responsive to care \nOverview of impactibility models \nHow are these techniques used in practice? \nPotential pitfalls – avoiding exacerbating inequalities \nGroup exercise and discussion \n\nLed by Andi Orlowski, David Sgobati and Sophie Hodges, The Health Economics Unit",
+          "published": "2022-11-03T18:24:02Z",
+          "duration": "PT1H46M24S",
+          "thumbnail": "https://i.ytimg.com/vi/lZIGern8bLM/mqdefault.jpg"
+        },
+        {
+          "id": "cYo1xn6Jwzg",
+          "title": "PHM - 9: Understanding Impactibility for your local population  (Part 2) - 01/11/22",
+          "description": "Population Health Management: \nUnderstanding Impactibility for Your Local Population PHM-9\n\n1st November 2022\n\nAgenda\n\nWhat is impactibility? \nHow impactibility is used to predict those who will be most responsive to care \nOverview of impactibility models \nHow are these techniques used in practice? \nPotential pitfalls – avoiding exacerbating inequalities \nGroup exercise and discussion \n\nLed by Andi Orlowski, David Sgobati and Sophie Hodges, The Health Economics Unit",
+          "published": "2022-11-03T18:45:02Z",
+          "duration": "PT10M2S",
+          "thumbnail": "https://i.ytimg.com/vi/cYo1xn6Jwzg/mqdefault.jpg"
+        },
+        {
+          "id": "-F20qYOxVdM",
+          "title": "HE - 2 : Evaluating Service Change and Transformation Programmes - 03/11/22",
+          "description": "Economics and Evaluation: \nEconomic Evaluations of Service Change and Transformation Programmes HE-2\n\n3rd November 2022\n\nAgenda \n\nA framework for carrying out economic evaluations \n- Identifying purpose of evaluation and setting clear objectives \n- Understanding how the service or change achieves expected outcomes \n- Measuring outcomes and understanding evidence \n- Techniques and methods for identifying causality  \n\nChallenges and limitations of carrying out economic evaluations \n- Limitations of applying methods in economic evaluation to service change and transformation programmes \n\nWrap-up \n- Discussion \n- Conclusions \n\nLed by Lisa Cummins, The Health Economics Unit",
+          "published": "2022-11-03T18:49:41Z",
+          "duration": "PT1H56M46S",
+          "thumbnail": "https://i.ytimg.com/vi/-F20qYOxVdM/mqdefault.jpg"
+        },
+        {
+          "id": "uxwVLrRupd4",
+          "title": "Leadership Development for Analysts LINE MANAGER session 021122",
+          "description": "",
+          "published": "2022-11-08T10:39:17Z",
+          "duration": "PT43M59S",
+          "thumbnail": "https://i.ytimg.com/vi/uxwVLrRupd4/mqdefault.jpg"
+        },
+        {
+          "id": "ph42OpmRBbE",
+          "title": "PHM - 10:  Doing causal inference for impactibility assessments for your local population (08/11/22)",
+          "description": "Population Health Management: \nDoing Causal Inference for Impactibility Assessments for Your Local Population PHM-10\n\n8th November 2022\n\nAgenda\nWhy do we need causal inference? \nWhat can causal inference tell us? \nWhat is the difference between association, correlation and causation? \nWhich techniques allow us to estimate causation? \n\nLed by  David Sgobati, Joe Lillington and Santosh Kumar., The Health Economics Unit",
+          "published": "2022-11-08T19:50:31Z",
+          "duration": "PT1H49M39S",
+          "thumbnail": "https://i.ytimg.com/vi/ph42OpmRBbE/mqdefault.jpg"
+        },
+        {
+          "id": "eJQV7HiGxNw",
+          "title": "HE - 3: Critical Appraisal of Published Economic Evaluations - 10/11/22",
+          "description": "Economics and Evaluation: \nCritical Appraisal of Published Economic Evaluations HE-3\n\n10th November 2022\n\nAgenda \nCritically appraising data \n- Rationale: does the data fit the objective of the study? \n- Different types of data \n- Study targets (e.g. patient/proxy, stakeholder/expert) \n- Quantitative versus qualitative data \n- Cohort studies versus case studies \n- Time dimension: prospective, retrospective and cross-sectional \n- Sources of bias \n- Missing data \n- Normalisation and consolidation \n- Data reporting \n\nMain features of studies\n- Costing methods studies \n- Health state preference valuation studies \n- Integrating economic analysis with clinical trials  \n- Study requirements and perspectives of decision-makers \n- Inferences that can be made based on results \n- HTA and NICE programmes \n\nCritical appraisal of studies \n- General considerations \n- Systematic literature reviews \n- Meta-analysis \n- Practical application: appraising a concrete example of an article \n- Transposing to the local context \n\nWrap-up \n- Discussion \n- Conclusions \n\nLed by Anna Buylova, The Health Economics Unit",
+          "published": "2022-11-10T14:51:53Z",
+          "duration": "PT1H49M12S",
+          "thumbnail": "https://i.ytimg.com/vi/eJQV7HiGxNw/mqdefault.jpg"
+        },
+        {
+          "id": "m8ILml5WcVI",
+          "title": "PHM  - 11: Closing the PHM cycle  - An introduction to Evaluation (15/11/22)",
+          "description": "Population Health Management: \nClosing the PHM cycle  - An introduction to Evaluation PHM-11\n\n15th November 2022\n\nTopics Covered\n• Learning Health Systems – an introduction to evaluating PHM interventions and learning from them",
+          "published": "2022-11-15T16:55:11Z",
+          "duration": "PT1H54M28S",
+          "thumbnail": "https://i.ytimg.com/vi/m8ILml5WcVI/mqdefault.jpg"
+        },
+        {
+          "id": "IPR7laBSDuM",
+          "title": "HE - 4:  Decision Modelling for Health Economic Evaluation - 17/11/22",
+          "description": "Economics and Evaluation: \nDecision Modelling for Health Economic Evaluation HE-4\n\n17th November 2022\n\nAgenda\n- Understand what a model is and rationale for using models in economic evaluations \n- Interpret and appraise a Markov model for economic evaluation \n\nLed by Anna Buylova, The Health Economics Unit",
+          "published": "2022-11-18T12:00:48Z",
+          "duration": "PT1H59M19S",
+          "thumbnail": "https://i.ytimg.com/vi/IPR7laBSDuM/mqdefault.jpg"
+        },
+        {
+          "id": "6W2hz-KcyQo",
+          "title": "HE-5: Understanding Equity in Healthcare - 24/11/22",
+          "description": "Economics and Evaluation: \nUnderstanding Equity in Healthcare HE-5\n\n24th November 2022\n\nIn this virtual session Lisa Cummins, lead health economist at the Health Economics Unit, will lead attendees through a two-hour interactive session. \n\nAgenda \nInteraction between need, demand, supply and access to health care \n- Introduction to a conceptual framework of need, demand, supply and access \n- Interrelationships and trade-offs between need, demand, supply and access \n\nInequity and inequalities in health \n- Understanding the difference between health inequity and health inequalities \n- Measuring health inequalities \n\nWrap-up \n- Discussion \n- Conclusions",
+          "published": "2022-11-25T15:53:44Z",
+          "duration": "PT1H59M51S",
+          "thumbnail": "https://i.ytimg.com/vi/6W2hz-KcyQo/mqdefault.jpg"
+        },
+        {
+          "id": "qLh7wY7nd8Q",
+          "title": "MDSN Training: Machine Learning (1/5) - 12/12/22",
+          "description": "Session 1: Introduction to Machine Learning",
+          "published": "2022-12-15T09:27:10Z",
+          "duration": "PT4H12M49S",
+          "thumbnail": "https://i.ytimg.com/vi/qLh7wY7nd8Q/mqdefault.jpg"
+        },
+        {
+          "id": "BrszqwpG2i0",
+          "title": "MDSN Training: Machine Learning - Session 2/5 (09/01/23)",
+          "description": "Session 2: Data Preparation and Feature Engineering",
+          "published": "2023-01-09T19:05:01Z",
+          "duration": "PT4H30M42S",
+          "thumbnail": "https://i.ytimg.com/vi/BrszqwpG2i0/mqdefault.jpg"
+        }
+      ]
+    }
+  ]
+}

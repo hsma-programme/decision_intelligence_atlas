@@ -1,0 +1,71 @@
+---
+title: "Midlands Decision Support Network: Training Recordings"
+categories:
+  - Courses and Training or Reference Materials
+  - Courses
+  - Asynchronous
+tool-language:
+  - R
+status: N/A
+image: mdsn_training.jpg
+author:
+  - name: The Strategy Unit
+pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i>
+  rationale-for-status: |
+    Collection of recordings from many different trainers, so it is not ranked as a whole.
+  entry-author:
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
+  abstract: |
+    Recordings of training courses for health and care analysts run by the Midlands Decision Support Network (MDSN) in 2022 and 2023, hosted by the Strategy Unit. The multi-session courses cover population health management, health economics and evaluation, time-series forecasting, machine learning, the theory of constraints for patient flow and R Markdown, with each session recorded in full.
+  links:
+  - name: YouTube
+    url: https://www.youtube.com/playlist?list=PLFEXOtXX7YkkHfQ8OdHu2eefgoree3TCX
+    icon: fa-brands fa-youtube
+  - name: Website
+    url: https://www.strategyunitwm.nhs.uk/midlands-decision-support-network
+    icon: fa-solid fa-globe
+date: "2026-10-05T00:00:00+01:00"
+listing:
+  - id: mdsn-training
+    contents: talks.yml
+    type: table
+    fields: [title, event, year, description]
+    field-display-names:
+      title: "Session"
+      event: "Course"
+      year: "Year"
+      description: "Details"
+    sort: [event, date]
+    filter-ui: [title, event, year, description]
+    sort-ui: [title, event, year]
+    page-size: 25
+---
+
+[![MDSN machine learning training session](mdsn_training.jpg)](https://www.youtube.com/playlist?list=PLFEXOtXX7YkkHfQ8OdHu2eefgoree3TCX)
+
+The Midlands Decision Support Network (MDSN) brings together the Decision Support Units of integrated care systems across the Midlands, to help them make high-quality strategic decisions. It is hosted by [the Strategy Unit](https://www.strategyunitwm.nhs.uk/), which also runs the network's [Analyst Network Huddles](/books_training/analyst_network_huddles/index.qmd) and a training and development programme for analysts and leaders.
+
+In 2022 and 2023, recordings of many of the network's training courses were published on YouTube. Each course was taught live over several sessions, often two to five hours long, and the recordings can be followed at your own pace. The courses include:
+
+* **Population health management** - a series covering an introduction to population health management (PHM), R and statistics for PHM, population segmentation, risk prediction and stratification, impactibility and causal inference, and evaluation
+* **Health economics and evaluation** - led by the Health Economics Unit, covering the foundations of health economics, evaluating service change, critical appraisal of economic evaluations, decision modelling and equity in healthcare
+* **Time-series forecasting and decision-making** - a three-session course, recorded twice
+* **Machine learning** - the first two sessions of a five-session course, covering an introduction to machine learning and data preparation and feature engineering
+* **Theory of constraints for patient flow** - a one-day course led by Alex Knight
+* **Introduction to R Markdown** - a two-part course
+* **Leadership development for analysts** - a session for the line managers of analysts on the leadership course
+
+Some series are incomplete - for example, the second population health management session and the last three machine learning sessions aren't in the playlist.
+
+## Search the sessions
+
+Search for a session by title, course, year or topic. Sessions are grouped by course.
+
+::: {#mdsn-training}
+:::
+
+You can also browse the full [MDSN Training playlist on YouTube](https://www.youtube.com/playlist?list=PLFEXOtXX7YkkHfQ8OdHu2eefgoree3TCX).
+
+To search these recordings alongside talks, webinars and workshops from other communities, use the [Recordings Finder](/recordings/index.qmd).

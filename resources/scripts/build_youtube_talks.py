@@ -220,6 +220,34 @@ def video_type(video, config):
     return config["type"]
 
 
+def video_event(video, config, event):
+    """
+    Return the event of a video, from its title or its playlist's label.
+
+    Parameters
+    ----------
+    video : dict
+        Video metadata from `fetch_youtube_playlists.py`.
+    config : dict
+        The video's playlist settings from the config file. Its optional
+        `events_by_title` lists patterns and events, e.g. a pattern of
+        "^PHM" with an event of "Population health management", for
+        playlists covering several courses or series. The first pattern
+        found in the title gives the event.
+    event : str
+        The event from the playlist's label, used if no pattern matches.
+
+    Returns
+    -------
+    str
+        The video's event.
+    """
+    for rule in config.get("events_by_title", []):
+        if re.search(rule["pattern"], video["title"], re.IGNORECASE):
+            return rule["event"]
+    return event
+
+
 def title_from_description(video):
     """
     Use the first line of a video's description as its title.
@@ -281,7 +309,7 @@ def build_talks(playlists, playlist_config):
                     None if config.get("no_year")
                     else int(label_year.group(0) if label_year else video["published"][:4])
                 ),
-                "event": event,
+                "event": video_event(video, config, event),
                 "type": video_type(video, config),
                 "image": video["thumbnail"],
                 "date": video["published"][:10],
@@ -374,6 +402,8 @@ def main():
         print(f"{name}: wrote {len(items)} talks to {out_file}")
 
         collection_title = entry_title(folder)
+        # Events only add information if there's more than one in the collection
+        show_event = len({item["event"] for item in items}) > 1
         for item in items:
             recordings.append({
                 "title": item["title"],
@@ -381,7 +411,7 @@ def main():
                 "date": item["date"],
                 "type": item["type"],
                 "source": collection["source"],
-                "event": item["event"] if len(collection["playlists"]) > 1 else "",
+                "event": item["event"] if show_event else "",
                 "details": item["description"],
                 "url": item["path"],
                 "collection": collection_title,

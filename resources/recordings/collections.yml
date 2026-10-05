@@ -26,6 +26,9 @@
 #       types_by_title - optional; list of `pattern` (a regular expression) and `type`,
 #                        giving the type of videos whose titles match the pattern,
 #                        for playlists mixing different kinds of recording
+#       events_by_title - optional; list of `pattern` (a regular expression) and
+#                        `event`, giving the event of videos whose titles match the
+#                        pattern, e.g. to group a playlist of training sessions by course
 #       title_from_description - optional; true to use the first line of each
 #                        video's description as its title, for playlists whose video
 #                        titles are cluttered or cut short
@@ -102,6 +105,31 @@ analyst_network_huddles:
       type: Huddle
   # Untitled meeting recording
   exclude_videos: [LF_EgYTgeLY]
+
+mdsn_training:
+  folder: books_training/mdsn_training
+  source: Midlands Decision Support Network
+  playlists:
+    - label: MDSN Training
+      id: PLFEXOtXX7YkkHfQ8OdHu2eefgoree3TCX
+      type: Training course
+      events_by_title:
+        - pattern: forecasting
+          event: Time-series forecasting
+        - pattern: "^PHM"
+          event: Population health management
+        - pattern: "^HE ?-"
+          event: Health economics and evaluation
+        - pattern: theory of constraints
+          event: Theory of constraints for patient flow
+        - pattern: rmarkdown
+          event: Introduction to R Markdown
+        - pattern: machine learning
+          event: Machine learning
+        - pattern: leadership
+          event: Leadership development for analysts
+  # Short promotional videos
+  exclude_videos: [ynRex9Tzagw, N46C1eJZVWk]
 
 hsma_project_showcases:
   folder: books_training/hsma_project_showcases
