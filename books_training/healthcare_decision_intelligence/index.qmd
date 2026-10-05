@@ -18,7 +18,7 @@ pub-info:
     - name: Sammi Rosser
       url: https://github.com/Bergam0t
   abstract: |
-    The Little Book of Discrete Event Simulation (DES) is a free eBook written to accompany the DES module of the Health Service Modelling Associates (HSMA) programme. DES is a technique used for building simulations of pathways and services, allowing 'what-if' questions to be tested. The book takes you from being a complete beginner in DES through to creating complex models with a web interface. This Python resource primarily focusses on the SimPy package, also touching on Streamlit and various supporting packages.
+    Healthcare Decision Intelligence is a free eBook series helping analysts, clinicians, managers and decision-makers to interpret, question and use healthcare data responsibly. Grounded in realistic NHS scenarios, its modules cover topics such as rates, variation, fair comparison, reading dashboards, evaluation, uncertainty, demand and capacity, data quality, health economics and population health management, each with questions decision-makers should ask. It is accompanied by an interactive companion app that recommends what to read next.
   links:
   - name: Code
     url: # none
@@ -34,7 +34,7 @@ pub-info:
     icon: fa-solid fa-globe
 ---
 
-This ebook covers 15 modules (at the time of writing) on how to make better decisions with data.
+This ebook covers 21 modules (at the time of writing, with one marked as coming soon) on how to make better decisions with data.
 
 > The series is designed to support:
 >
@@ -54,4 +54,4 @@ This ebook covers 15 modules (at the time of writing) on how to make better deci
 > - population health
 > - analytical fairness and interpretation"
 
-The ebook is accompanied by a [companion app](https://ckaur5689.github.io/DecisionIntelligence/) to support readers in finding the most relevant content for their particular question or area of interest.
+The ebook is accompanied by a [companion app](https://decisionintelligence-healthcare.streamlit.app) to support readers in finding the most relevant content for their particular question or area of interest.
