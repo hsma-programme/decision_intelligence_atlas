@@ -235,6 +235,8 @@ Each playlist has:
 | `no_year` | No | Set to `true` to leave the year blank, e.g. where videos were uploaded long after the event. |
 | `talk_list` | No | Set to `true` if session recordings list their talks one per line without timestamps (see below). |
 | `events_by_title` | No | For playlists covering several courses or series: a list of `pattern` (a regular expression) and `event`. Videos whose titles match a pattern get that event (e.g. the course name) instead of one taken from the label, shown in the Event column. |
+| `remove_from_title` | No | A regular expression removed from each video's title, e.g. `'^INSIGHT 2020:\s*'` to remove a prefix repeated in every title. Use single quotes in the YAML for patterns containing backslashes. |
+| `remove_from_description` | No | A list of regular expressions. Paragraphs of each video's description that match any of them are removed, e.g. an introduction to the event series repeated in every description. |
 | `title_from_description` | No | Set to `true` to use the first line of each video's description as its title, for playlists whose video titles are cluttered or cut short (e.g. `HACA2025 - Day 1 - Main Stage`) but whose descriptions start with the talk title. |
 
 #### How recordings are split into talks

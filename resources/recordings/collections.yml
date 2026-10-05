@@ -29,6 +29,12 @@
 #       events_by_title - optional; list of `pattern` (a regular expression) and
 #                        `event`, giving the event of videos whose titles match the
 #                        pattern, e.g. to group a playlist of training sessions by course
+#       remove_from_title - optional; a regular expression removed from each video's
+#                        title, e.g. a prefix repeated in every title
+#       remove_from_description - optional; list of regular expressions; paragraphs of
+#                        each video's description matching any of them are removed,
+#                        e.g. an introduction to the event series repeated in every
+#                        description
 #       title_from_description - optional; true to use the first line of each
 #                        video's description as its title, for playlists whose video
 #                        titles are cluttered or cut short
@@ -140,6 +146,28 @@ mdsn_training:
           event: Leadership development for analysts
   # Short promotional videos
   exclude_videos: [ynRex9Tzagw, N46C1eJZVWk]
+
+insight_festival:
+  folder: books_training/insight_festival
+  source: Midlands Decision Support Network
+  playlists:
+    - label: Insight 2021
+      id: PLFEXOtXX7YkmJhpetyT5AIGyLWXsOlXyR
+      type: Webinar
+      remove_from_title: "^Insight 2021, [^,]+, "
+    - label: Insight 2020
+      id: PLFEXOtXX7YkkFkTe1fRum-cyWPWCf-YKO
+      type: Webinar
+      remove_from_title: '^INSIGHT 2020:\s*'
+      remove_from_description:
+        - '^(The |About )?Insight 2020( Festival)?:?\s*$'
+        - "6-week Festival of over 30 virtual events"
+        - "^Insight 2020 featured a mixture"
+        - "like any more information about the Festival"
+        - '^(www\.\S+\s*)+$'
+  # Short congratulations video, and a second upload of a training session listed
+  # with the MDSN training recordings
+  exclude_videos: [O-6ya7uY3zA, daF4tVK8ED8]
 
 hsma_project_showcases:
   folder: books_training/hsma_project_showcases

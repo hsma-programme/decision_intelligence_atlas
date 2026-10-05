@@ -278,6 +278,40 @@ def title_from_description(video):
     }
 
 
+def remove_boilerplate(video, config):
+    """
+    Remove text repeated in every video's title or description.
+
+    Parameters
+    ----------
+    video : dict
+        Video metadata from `fetch_youtube_playlists.py`.
+    config : dict
+        The video's playlist settings from the config file. Its optional
+        `remove_from_title` is a regular expression removed from the title,
+        e.g. "^INSIGHT 2020: ". Its optional `remove_from_description` lists
+        regular expressions; paragraphs of the description matching any of
+        them are removed, e.g. an introduction to the event series.
+
+    Returns
+    -------
+    dict
+        The video metadata, with the matching text removed.
+    """
+    title = video["title"]
+    if config.get("remove_from_title"):
+        title = re.sub(config["remove_from_title"], "", title, flags=re.IGNORECASE).strip()
+
+    paragraphs = re.split(r"\n\s*\n", video["description"])
+    patterns = config.get("remove_from_description", [])
+    description = "\n\n".join(
+        paragraph
+        for paragraph in paragraphs
+        if not any(re.search(pattern, paragraph, re.IGNORECASE) for pattern in patterns)
+    )
+    return {**video, "title": title, "description": description}
+
+
 def build_talks(playlists, playlist_config):
     """
     Build one listing item per talk from fetched playlist metadata.
@@ -316,6 +350,7 @@ def build_talks(playlists, playlist_config):
             }
             if config.get("title_from_description"):
                 video = title_from_description(video)
+            video = remove_boilerplate(video, config)
             talks = split_talks(video, config.get("talk_list", False))
             if not talks:
                 items.append({
