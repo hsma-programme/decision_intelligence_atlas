@@ -1,5 +1,22 @@
 /*-- scss:defaults --*/
 
+// Greys with a slight teal tint, to sit alongside the teal header.
+// Darkly builds its cards, dropdowns, inputs and tables from these.
+$gray-900: #121a19;
+$gray-800: #1b2725;
+$gray-700: #2c3d3b;
+$gray-600: #6f8582;
+$gray-500: #9db2af;
+
+$body-bg: #121a19;
+$body-color: #dde7e5;
+
+// Teal accents instead of Darkly's blue primary and green links.
+// The primary is a shade darker than the navbar so white text on it stays readable.
+$primary: #00857c;
+$link-color: #4fd1c5;
+$link-hover-color: #8ae6dd;
+
 // Background colours
 $navbar-bg:#009c92;
 $footer-bg: #009c92 ;
@@ -9,10 +26,65 @@ $code-block-bg-alpha: -.8;
 
 /*-- scss:rules --*/
 
-.custom-grid-card {
-  --bs-card-bg:rgb(0, 49, 46);
+// styles.css loads after this file, so these overrides use body.quarto-dark
+// to win on specificity.
+
+body.quarto-dark .custom-grid-card {
+  --bs-card-bg: #1b2725;
+  --bs-card-border-color: #2c3d3b;
 }
 
 .custom-grid-card .title-link {
   color: #ffffff
+}
+
+body.quarto-dark .abstract {
+  color: #dde7e5;
+  background-color: #10302d;
+  border-color: #009c92;
+}
+
+body.quarto-dark .listing-organisations,
+body.quarto-dark .listing-session-lead {
+  color: #9db2af;
+}
+
+body.quarto-dark .category-button,
+body.quarto-dark .session-content.session-listing-title .session-duration-button {
+  background-color: #1b2725;
+  border-color: #2c3d3b;
+}
+
+// Recordings Finder
+body.quarto-dark .recordings-table form {
+  border-color: #2c3d3b;
+}
+
+body.quarto-dark .recordings-table form::-webkit-scrollbar-track {
+  background: #1b2725;
+}
+
+body.quarto-dark .recordings-table form::-webkit-scrollbar-thumb {
+  border-color: #1b2725;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body.quarto-dark .recordings-table form {
+    scrollbar-color: #009c92 #1b2725;
+  }
+}
+
+body.quarto-dark .recordings-range-slider::before {
+  background: linear-gradient(to right,
+    #2c3d3b var(--from, 0%), #009c92 var(--from, 0%),
+    #009c92 var(--to, 100%), #2c3d3b var(--to, 100%));
+}
+
+// Kept as separate rules: a browser drops a whole rule if it doesn't know one of its selectors
+body.quarto-dark .recordings-range-slider input[type="range"]::-webkit-slider-thumb {
+  border-color: #121a19;
+}
+
+body.quarto-dark .recordings-range-slider input[type="range"]::-moz-range-thumb {
+  border-color: #121a19;
 }
