@@ -1,6 +1,6 @@
 ---
 title: "Books, Training and Communities"
-toc: false
+toc: true
 include-back-link: false
 grid:
   sidebar-width: 0px
