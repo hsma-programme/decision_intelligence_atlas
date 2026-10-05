@@ -469,6 +469,20 @@
           "thumbnail": "https://i.ytimg.com/vi/Vj2a-Q_RwKo/mqdefault.jpg"
         }
       ]
+    },
+    {
+      "label": "HSMA 3 (final presentation event)",
+      "id": null,
+      "videos": [
+        {
+          "id": "GJpzNGCbWSc",
+          "title": "HSMA 3 Final Presentation Event (29th September 2021)",
+          "description": "Our HSMAs from the third round of the programme present their work and the impact the programme has had for their organisations.",
+          "published": "2021-10-14T11:34:21Z",
+          "duration": "PT2H15M40S",
+          "thumbnail": "https://i.ytimg.com/vi/GJpzNGCbWSc/mqdefault.jpg"
+        }
+      ]
     }
   ]
 }

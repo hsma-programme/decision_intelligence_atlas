@@ -1,3 +1,19 @@
+- title: PART 2 Introduction to Discrete Event Simulation and SimPy - a Standalone Workshop (vidigi)
+  description: Part 2 of our two-part workshop. Discrete Event Simulation (DES) is a simulation modelling technique that allows us to tackle queuing problems in health and social care. These might include identifying delays in patient pathways and testing out the impact of reconfiguring processes and resources to…
+  path: https://www.youtube.com/watch?v=twN-B6LW1tU
+  year: 2026
+  event: Standalone workshops
+  type: Workshop
+  image: https://i.ytimg.com/vi/twN-B6LW1tU/mqdefault.jpg
+  date: '2026-10-01'
+- title: PART 1 Introduction to Discrete Event Simulation and SimPy - a Standalone Workshop
+  description: This is Part 1 of a two-part workshop. Discrete Event Simulation (DES) is a simulation modelling technique that allows us to tackle queuing problems in health and social care. These might include identifying delays in patient pathways and testing out the impact of reconfiguring processes and…
+  path: https://www.youtube.com/watch?v=vUtObBS0XVk
+  year: 2026
+  event: Standalone workshops
+  type: Workshop
+  image: https://i.ytimg.com/vi/vUtObBS0XVk/mqdefault.jpg
+  date: '2026-10-01'
 - title: '(HSMA 6 Day 1) 1A : Welcome to HSMA'
   description: 'The induction session for our new HSMA cohort in April 2024. GitHub Repo for this session :'
   path: https://www.youtube.com/watch?v=gIUzgz7CeMw
@@ -1326,6 +1342,566 @@
   type: Lecture
   image: https://i.ytimg.com/vi/e4Z7-8guaSE/mqdefault.jpg
   date: '2022-05-04'
+- title: 'Session 1 Lecture 1 : An Introduction to OR and Data Science'
+  description: ''
+  path: https://www.youtube.com/watch?v=sq44Ucqq78w
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/sq44Ucqq78w/mqdefault.jpg
+  date: '2020-10-01'
+- title: 'Session 1 Lecture 2 : Distributions, Validation and Verification and Data Science'
+  description: ''
+  path: https://www.youtube.com/watch?v=ayMfMnuS6V8
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/ayMfMnuS6V8/mqdefault.jpg
+  date: '2020-10-01'
+- title: 'Session 2 Lecture 1 : Principles of Variables, Conditional Logic and Loops'
+  description: ''
+  path: https://www.youtube.com/watch?v=nXmdMhF1Q9Q
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/nXmdMhF1Q9Q/mqdefault.jpg
+  date: '2020-10-01'
+- title: 'Session 2 Lecture 2 : Principles of Functions and Object Oriented Programming'
+  description: ''
+  path: https://www.youtube.com/watch?v=DJKm3R8nkUY
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/DJKm3R8nkUY/mqdefault.jpg
+  date: '2020-10-01'
+- title: 'Session 3A Lecture 1 : Hello World!'
+  description: ''
+  path: https://www.youtube.com/watch?v=w-i2kXi2olo
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/w-i2kXi2olo/mqdefault.jpg
+  date: '2020-10-06'
+- title: 'Session 3A Lecture 2 : Operators and Conditional Logic'
+  description: ''
+  path: https://www.youtube.com/watch?v=_r3P0T1MwqA
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/_r3P0T1MwqA/mqdefault.jpg
+  date: '2020-10-06'
+- title: 'Session 3A Lecture 3 : For and While Loops'
+  description: ''
+  path: https://www.youtube.com/watch?v=pFayCxrXA7U
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/pFayCxrXA7U/mqdefault.jpg
+  date: '2020-10-06'
+- title: 'Session 3A Lecture 4 : Lists and Dictionaries'
+  description: ''
+  path: https://www.youtube.com/watch?v=4_7s-lZUa-s
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/4_7s-lZUa-s/mqdefault.jpg
+  date: '2020-10-06'
+- title: 'Session 3A Lecture 5 : Libraries and Imports'
+  description: ''
+  path: https://www.youtube.com/watch?v=J1eyJd95CQI
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/J1eyJd95CQI/mqdefault.jpg
+  date: '2020-10-06'
+- title: 'Session 3C Lecture 1 : Object Oriented Programming in Python'
+  description: ''
+  path: https://www.youtube.com/watch?v=1Qj7c6qWVWs
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/1Qj7c6qWVWs/mqdefault.jpg
+  date: '2020-10-20'
+- title: 'Session 3C Lecture 3 : Debugging'
+  description: ''
+  path: https://www.youtube.com/watch?v=e0gouYntSp0
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/e0gouYntSp0/mqdefault.jpg
+  date: '2020-10-20'
+- title: 'Session 3C Lecture 2 : Inheritance and Plotting using MatPlotLib'
+  description: ''
+  path: https://www.youtube.com/watch?v=NG3FJl5b1SI
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/NG3FJl5b1SI/mqdefault.jpg
+  date: '2020-10-20'
+- title: 'Session 3B Lecture 1 : Functions and Exception Handling'
+  description: ''
+  path: https://www.youtube.com/watch?v=n471TyuGytc
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/n471TyuGytc/mqdefault.jpg
+  date: '2020-10-13'
+- title: 'Session 3B Lecture 2 : File Reading and Writing'
+  description: ''
+  path: https://www.youtube.com/watch?v=3R9KTI4dbVE
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/3R9KTI4dbVE/mqdefault.jpg
+  date: '2020-10-13'
+- title: 'Session 3B Lecture 3 : NumPy'
+  description: ''
+  path: https://www.youtube.com/watch?v=vImhbxEcjs8
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/vImhbxEcjs8/mqdefault.jpg
+  date: '2020-10-13'
+- title: 'Session 3B Lecture 4 : Pandas'
+  description: ''
+  path: https://www.youtube.com/watch?v=dgGkRiZNFYk
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/dgGkRiZNFYk/mqdefault.jpg
+  date: '2020-10-13'
+- title: 'Session 5A Lecture 1 : An Introduction to Discrete Event Simulation'
+  description: ''
+  path: https://www.youtube.com/watch?v=3yQVpIcs0zg
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/3yQVpIcs0zg/mqdefault.jpg
+  date: '2020-10-27'
+- title: 'Session 5A Lecture 2 : Python Generator Functions and a Glimpse at SimPy'
+  description: ''
+  path: https://www.youtube.com/watch?v=d_c8d8j-asA
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/d_c8d8j-asA/mqdefault.jpg
+  date: '2020-10-27'
+- title: 'Session 6A Lecture 1: Introdution to QGIS and basemaps'
+  description: ''
+  path: https://www.youtube.com/watch?v=8eM59sl0VHs
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/8eM59sl0VHs/mqdefault.jpg
+  date: '2020-10-28'
+- title: 'Session 6A Lecture 2: Projections and single symbol symbology'
+  description: ''
+  path: https://www.youtube.com/watch?v=RZJRAn5JNPU
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/RZJRAn5JNPU/mqdefault.jpg
+  date: '2020-10-28'
+- title: 'Session 6A Lecture 3: Point data and categorized symbology'
+  description: ''
+  path: https://www.youtube.com/watch?v=HGZV3Ciobak
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/HGZV3Ciobak/mqdefault.jpg
+  date: '2020-10-28'
+- title: 'Session 6A Lecture 4: Shapefiles and graduated symbology'
+  description: ''
+  path: https://www.youtube.com/watch?v=_PW8oma82mM
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/_PW8oma82mM/mqdefault.jpg
+  date: '2020-10-28'
+- title: 'Session 6A Lecture 5: Print layout'
+  description: ''
+  path: https://www.youtube.com/watch?v=h3BQdhwkumg
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/h3BQdhwkumg/mqdefault.jpg
+  date: '2020-10-28'
+- title: 'Session 6B : An introduction to GeoPandas'
+  description: 'GitHub (with link to running on BinderHub) This video takes you through the ''geopandas_1_blank.ipynb'' notebook Timings: 00''00 Introduction, installing locally, and running on BinderHub 13''15 Loading shape file into GeoPandas DataFrame. Showing simple map 26''45 Loading county data, and pointing to…'
+  path: https://www.youtube.com/watch?v=QEZFnERpZxY
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/QEZFnERpZxY/mqdefault.jpg
+  date: '2020-10-31'
+- title: 'Session 7A Lecture 1 : Qualitative System Dynamics'
+  description: ''
+  path: https://www.youtube.com/watch?v=8mRnOuGcBLY
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/8mRnOuGcBLY/mqdefault.jpg
+  date: '2020-11-03'
+- title: 'Session 7A Lecture 2 : Quantitative System Dynamics and InsightMaker'
+  description: ''
+  path: https://www.youtube.com/watch?v=akorSpBGeFg
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/akorSpBGeFg/mqdefault.jpg
+  date: '2020-11-03'
+- title: Session 8A Introduction to Network Analysis
+  description: This video introduces the idea of network analysis for health service research. We look at the data transformation process from raw data to producing a basic network visualisation of that data using python and the NetworkX package. The GitHub repository with the session materials can be found at
+  path: https://www.youtube.com/watch?v=M-lJoeCAkb4
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/M-lJoeCAkb4/mqdefault.jpg
+  date: '2020-11-10'
+- title: 'Session 9A Lecture : Agent Based Simulation using MESA'
+  description: ''
+  path: https://www.youtube.com/watch?v=VeQkhfDYyMc
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/VeQkhfDYyMc/mqdefault.jpg
+  date: '2020-11-10'
+- title: 'Session 10 Lecture: Machine Learning Classification'
+  description: A lesson on using logistic regression for classification. Follow either of the two links to get to the code repository. Folly the GitHub link to be able to run the notebookd on the cloud on BinderHub or Google Colab (Colab is recommended but requires a Google account). Main starting web page:…
+  path: https://www.youtube.com/watch?v=zJ0jvkJU_KU
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/zJ0jvkJU_KU/mqdefault.jpg
+  date: '2020-11-17'
+- title: Installing and running the Titanic environment on Windows
+  description: 'This video installs and runs the Titanic environment from here:'
+  path: https://www.youtube.com/watch?v=LOrsK9mHeaE
+  year: 2020
+  event: HSMA 3
+  type: Tutorial
+  image: https://i.ytimg.com/vi/LOrsK9mHeaE/mqdefault.jpg
+  date: '2020-11-24'
+- title: 'Session 11A : Introduction to Natural Language Processing'
+  description: ''
+  path: https://www.youtube.com/watch?v=n9rXLOtNXQk
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/n9rXLOtNXQk/mqdefault.jpg
+  date: '2020-11-25'
+- title: 'Session 7B Lecture 1 : Expanding the Chicken and Egg Model using InsightMaker'
+  description: ''
+  path: https://www.youtube.com/watch?v=9pjzroktT0o
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/9pjzroktT0o/mqdefault.jpg
+  date: '2020-11-26'
+- title: 'Session 7B Lecture 2 : Additional InsightMaker features, and critically appraising models'
+  description: ''
+  path: https://www.youtube.com/watch?v=jjUMaQbPIMM
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/jjUMaQbPIMM/mqdefault.jpg
+  date: '2020-11-26'
+- title: An introduction to neural nets using TensorFlow, Keras, and the Titanic Survival data
+  description: 'Launch colab notebook HSMA_neural_nets.ipynb from here (this is shown early on in the video): 01''22 What is a GPU? 04''46 Running the Titanic Notebook, and using Colab 10''04 Neurons/perceptrons - the building blocks of neural networks 16''06 From neurons to neural nets 25''30 Measuring network error…'
+  path: https://www.youtube.com/watch?v=IAzuLSa-sb0
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/IAzuLSa-sb0/mqdefault.jpg
+  date: '2020-11-27'
+- title: 'Session 4a: Introduction to R (using RStudio)'
+  description: 'This video is an introduction to R based on the materials found on The video covers the following topics: - An introduction to R and RStudio - Setting your working directory - Installing packages - Some R language conventions - Sequence generation and replication - Variable types and conversion -…'
+  path: https://www.youtube.com/watch?v=_XUC8QbDIlY
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/_XUC8QbDIlY/mqdefault.jpg
+  date: '2020-11-30'
+- title: HSMA Deep Learning Tutorial. Introducing Deep Q Networks with CartPole and a hospital simulation
+  description: 'GitHub repo for code for this example: Code for more AI agents controlling staffed beds: Paper: Introductory videos on machine learning classification: Logistic regression: Neural nets: Video contents: 00''00 Intro 02''29 Key elements of Deep Reinforcement Learning 19''19 What is Q? A worked example…'
+  path: https://www.youtube.com/watch?v=A9CFqcyI4v8
+  year: 2020
+  event: HSMA 3
+  type: Tutorial
+  image: https://i.ytimg.com/vi/A9CFqcyI4v8/mqdefault.jpg
+  date: '2020-11-30'
+- title: 'Session 5B : Building a Discrete Event Simulation model using SimPy'
+  description: ''
+  path: https://www.youtube.com/watch?v=jXDjrWKcu6w
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/jXDjrWKcu6w/mqdefault.jpg
+  date: '2020-12-01'
+- title: 'Session 8B: Advanced network analysis 1 - Graph metrics'
+  description: In this video I discuss the applied basics of graph theory and its relevance for monitoring healthcare operations. I then go on to discuss a variety of useful graph metrics, how they can be used for network based operational modelling and their implementation in Python using NetworkX. The materials…
+  path: https://www.youtube.com/watch?v=V4tDkdofgbw
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/V4tDkdofgbw/mqdefault.jpg
+  date: '2020-12-03'
+- title: 'Session 5C : Object Oriented SimPy'
+  description: ''
+  path: https://www.youtube.com/watch?v=QV-pJnKrGuc
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/QV-pJnKrGuc/mqdefault.jpg
+  date: '2020-12-08'
+- title: 'Session 4B Advanced R: ggplot2, fitdistrplus, shiny'
+  description: This session is about plotting using ggplot2, distribution fitting with fitdistrplus (and actuar) and creating web apps with shiny. All of the materials for the session including all of the code, slide deck and notes are available on GitHub
+  path: https://www.youtube.com/watch?v=5klSpGC2puU
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/5klSpGC2puU/mqdefault.jpg
+  date: '2020-12-10'
+- title: 'Session 9B : Adding Vaccination to our Disease Model and using BatchRunner'
+  description: ''
+  path: https://www.youtube.com/watch?v=yFb4Y41SeDE
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/yFb4Y41SeDE/mqdefault.jpg
+  date: '2020-12-15'
+- title: 'Session 11B : Named Entity Recognition using SpaCy'
+  description: ''
+  path: https://www.youtube.com/watch?v=5CDj-JfpL5s
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/5CDj-JfpL5s/mqdefault.jpg
+  date: '2020-12-15'
+- title: Session 8C Advanced Network Analysis 2 - Graph Visualisation
+  description: This video follows on from sessions 8A and 8B. In this session we explore the visualisation of network graph data using NetworkX and Holoviews in Python. We build from simple plots in NetworkX to interactive plots in Holoviews then combining analyses in NetworkX and using them as plot attributes in…
+  path: https://www.youtube.com/watch?v=rfKCgsKg9_w
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/rfKCgsKg9_w/mqdefault.jpg
+  date: '2020-12-16'
+- title: 'Session 11C : Sentiment Analysis'
+  description: ''
+  path: https://www.youtube.com/watch?v=1_b7hEHbaaA
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/1_b7hEHbaaA/mqdefault.jpg
+  date: '2020-12-17'
+- title: 'Bonus Tutorial : Sensitivity Analysis'
+  description: Bonus Tutorial to watch after completion of Session 1 of the HSMA Programme (Intrdouction to Operational Research and Data Science)
+  path: https://www.youtube.com/watch?v=bn0WVcfbOqI
+  year: 2020
+  event: HSMA 3
+  type: Tutorial
+  image: https://i.ytimg.com/vi/bn0WVcfbOqI/mqdefault.jpg
+  date: '2020-07-21'
+- title: 'Python Healthcare: Anaconda and Jupyter Notebooks'
+  description: 'Installing the Anaconda Python Data Science environment, and taking a quick look at Jupyter Lab and Jupyter Notebook. 2''20 Installing Anaconda 3''30 Anaconda Navigator 6''00 Anaconda Prompt/Command Line 7''20 Jupyter Lab + Jupyter Notebooks Much more material at: pythonhealthcare.org'
+  path: https://www.youtube.com/watch?v=Om2DPFLMIBw
+  year: 2020
+  event: HSMA 3
+  type: Tutorial
+  image: https://i.ytimg.com/vi/Om2DPFLMIBw/mqdefault.jpg
+  date: '2020-07-22'
+- title: Introduction to using Spyder for Python Data Science
+  description: 'A very brief ''get started'' video on Spyder, showing : 1) the interactive python console 2) writing and running a python file 3) debugging 4) Exploring data using the variable explorer 5) Showing plots Much more material at: pythonhealthcare.org'
+  path: https://www.youtube.com/watch?v=-70Ib8x0d44
+  year: 2020
+  event: HSMA 3
+  type: Tutorial
+  image: https://i.ytimg.com/vi/-70Ib8x0d44/mqdefault.jpg
+  date: '2020-07-22'
+- title: Introduction to Anaconda environments
+  description: 'An introduction to Anaconda environments, installing packages from conda, conda-forge and pypi (pip), and saving/loading environments. Create empty environment (called temp_env here): conda create -n temp_env Create environment with given Python version (just use python alone for latest available…'
+  path: https://www.youtube.com/watch?v=L1pc0rCEO8s
+  year: 2020
+  event: HSMA 3
+  type: Tutorial
+  image: https://i.ytimg.com/vi/L1pc0rCEO8s/mqdefault.jpg
+  date: '2020-09-09'
+- title: 'BONUS TUTORIAL : Word Clouds'
+  description: In this video, I show you how you can easily create word clouds from your own text files using Python.
+  path: https://www.youtube.com/watch?v=AH-pc7RbxvA
+  year: 2020
+  event: HSMA 3
+  type: Tutorial
+  image: https://i.ytimg.com/vi/AH-pc7RbxvA/mqdefault.jpg
+  date: '2020-11-12'
+- title: Face Detection with a Multi-Task Cascaded Convolutional Neural Network (MT-CNN)
+  description: 'This lesson uses mtcnn to: * Detect faces in a photo * Output a list of dictionary of location of faces and features of faces * Draw boxes around faces in the photo, and highlights face features * Extract faces and save as individual files GitHub repo for lesson: Requirements: matplotlib (conda or…'
+  path: https://www.youtube.com/watch?v=fUQ1HNCrS7U
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/fUQ1HNCrS7U/mqdefault.jpg
+  date: '2020-12-02'
+- title: 'Paper: using Deep Reinforcement Learning agents to solve the Ambulance Location Problem'
+  description: 'Paper: GitHub: Developing an OpenAI Gym-compatible framework and simulation environment for testing Deep Reinforcement Learning agents solving the Ambulance Location Problem. The simulation environment, using SimPy and OpenAI gym, provides an environment where: * Incidents occurs in areas within a…'
+  path: https://www.youtube.com/watch?v=UYJtOLYcOU8
+  year: 2021
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/UYJtOLYcOU8/mqdefault.jpg
+  date: '2021-01-13'
+- title: Introduction to using Feedforward Neural Networks for Forecasting
+  description: 'HSMA 2020: Introduction to Forecasting using Neural Networks.'
+  path: https://www.youtube.com/watch?v=SyHVMAjL-I0
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/SyHVMAjL-I0/mqdefault.jpg
+  date: '2020-12-13'
+- title: Auto-regressive Forecasting using OLS
+  description: 'HSMA 2020: Before exploring forecasting with feedforward neural networks we will look at standard OLS as it has similar data requirements and prediction mechanics.'
+  path: https://www.youtube.com/watch?v=ftYxpwQGUz0
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/ftYxpwQGUz0/mqdefault.jpg
+  date: '2020-12-13'
+- title: Introduction to forecasting using Feedforward Neural Networks using Keras and TF.
+  description: 'HSMA 2020: Our final code along video is an introduction and overview of using standard feedforward neural networks for forecasting. We will use Keras and TF and test the Iterative, Direct and Vector approaches to forecasting. This is the tip of the iceberg RE neural network forecasting, but should…'
+  path: https://www.youtube.com/watch?v=OV39MtxOlFk
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/OV39MtxOlFk/mqdefault.jpg
+  date: '2020-12-13'
+- title: HSMA 2020 Introduction to FBProphet
+  description: ''
+  path: https://www.youtube.com/watch?v=tV2_iLr7lsc
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/tV2_iLr7lsc/mqdefault.jpg
+  date: '2020-12-01'
+- title: Pre-processing time series data for use with FBProphet
+  description: Some preliminary advice on pre-processing data steps for your time series data before using Prophet.
+  path: https://www.youtube.com/watch?v=DXG9aIECtp4
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/DXG9aIECtp4/mqdefault.jpg
+  date: '2020-12-01'
+- title: Simple Forecasting using FBProphet
+  description: HSMA 2020 introduction to FBProphet in Python
+  path: https://www.youtube.com/watch?v=dOvkPcuq9Fo
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/dOvkPcuq9Fo/mqdefault.jpg
+  date: '2020-12-01'
+- title: Adding holidays into FBProphet forecasts
+  description: HSMA 2020 Simple Forecasting course
+  path: https://www.youtube.com/watch?v=GNW9_5i5fYQ
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/GNW9_5i5fYQ/mqdefault.jpg
+  date: '2020-12-01'
+- title: Setup for HSMA Introduction to Forecasting
+  description: '**Please watch this video and do you setup in advance of the class** Setup for HSMA Introduction to Forecasting.'
+  path: https://www.youtube.com/watch?v=VWjoqQcC7BM
+  year: 2020
+  event: HSMA 3
+  type: Tutorial
+  image: https://i.ytimg.com/vi/VWjoqQcC7BM/mqdefault.jpg
+  date: '2020-10-30'
+- title: 'HSMA Forecasting: Introductory Lecture (part 1/4)'
+  description: HSMA introduction to forecasting lecture 1 (part 1/4)
+  path: https://www.youtube.com/watch?v=modVHPgdSWY
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/modVHPgdSWY/mqdefault.jpg
+  date: '2020-10-30'
+- title: 'HSMA Forecasting: Introductory Lecture (part 2/4)'
+  description: HSMA Introduction to forecasting Lecture 1 (part 2/4)
+  path: https://www.youtube.com/watch?v=zYVvx1W_8NI
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/zYVvx1W_8NI/mqdefault.jpg
+  date: '2020-10-30'
+- title: 'HSMA Forecasting: Introductory Lecture (part 3/4)'
+  description: HSMA introduction to forecasting lecture 1 (part 3/4)
+  path: https://www.youtube.com/watch?v=2fuZwjuJlOI
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/2fuZwjuJlOI/mqdefault.jpg
+  date: '2020-10-30'
+- title: 'HSMA Forecasting: Introductory Lecture (part 4/4)'
+  description: Part 4/4 of the HSMA introduction to forecasting
+  path: https://www.youtube.com/watch?v=54w9oiXefGs
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/54w9oiXefGs/mqdefault.jpg
+  date: '2020-10-30'
+- title: 'HSMA Forecasting Code Along 1: Loading time series into Pandas'
+  description: 'HSMA Forecasting Code Along 1: Loading time series into Pandas'
+  path: https://www.youtube.com/watch?v=9RXU0RJd64Q
+  year: 2020
+  event: HSMA 3
+  type: Tutorial
+  image: https://i.ytimg.com/vi/9RXU0RJd64Q/mqdefault.jpg
+  date: '2020-10-30'
+- title: 'HSMA Forecasting Code Along 2: Exploring Time Series'
+  description: 'HSMA Forecasting Code Along 2: Exploring Time Series'
+  path: https://www.youtube.com/watch?v=7EpUpzMH5po
+  year: 2020
+  event: HSMA 3
+  type: Tutorial
+  image: https://i.ytimg.com/vi/7EpUpzMH5po/mqdefault.jpg
+  date: '2020-10-30'
+- title: 'HSMA Forecasting Code Along 3: Using Naive methods as benchmark forecasts'
+  description: 'HSMA Forecasting Code Along 3: Using Naive methods as benchmark forecasts'
+  path: https://www.youtube.com/watch?v=n4_roSjNcqU
+  year: 2020
+  event: HSMA 3
+  type: Tutorial
+  image: https://i.ytimg.com/vi/n4_roSjNcqU/mqdefault.jpg
+  date: '2020-10-30'
+- title: Programming on the web - using Google Colab
+  description: An alternative to using your own machine
+  path: https://www.youtube.com/watch?v=-XsUK5fpqOw
+  year: 2020
+  event: HSMA 3
+  type: Tutorial
+  image: https://i.ytimg.com/vi/-XsUK5fpqOw/mqdefault.jpg
+  date: '2020-10-02'
+- title: The Learning Hospital (Combining Deep Reinforcement Learning with Hospital Simulation)
+  description: 'For more see: Paper: Allen M, Monks T. (2020) Integrating Deep Reinforcement Learning Networks with Health System Simulations. arXiv:200807434 [cs] Published Online First: 21 July 2020.'
+  path: https://www.youtube.com/watch?v=Rm1bPdBGs00
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/Rm1bPdBGs00/mqdefault.jpg
+  date: '2020-10-22'
+- title: Synthetic patient-level data. First trials.
+  description: 'Producing synthetic patient-level data with: SMOTE (Synthetic Minority Over-Sampling Technique) GAN (Generative Adversarial Network) VAE (Variational AutoEncoder) GitHub: Paper: Michael Allen, Andrew Salmon (2020) medRxiv 2020.10.09.20210138; doi:'
+  path: https://www.youtube.com/watch?v=8ogfGIenEsU
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/8ogfGIenEsU/mqdefault.jpg
+  date: '2020-10-29'
+- title: This Patient Does Not Exist
+  description: Let's replace real patients with synthetic patients.
+  path: https://www.youtube.com/watch?v=tz8PqqYJr7g
+  year: 2020
+  event: HSMA 3
+  type: Lecture
+  image: https://i.ytimg.com/vi/tz8PqqYJr7g/mqdefault.jpg
+  date: '2020-10-29'
 - title: 'HSMA Masterclass : Explainable AI using SHAP'
   description: In our first ever Masterclass session, we talk about the importance of explainable AI, and introduce students to the use of SHAP (SHapley Additive exPlanations) to try to unpick how machine learning models are arriving at their predictions. This can help us better understand more about the…
   path: https://www.youtube.com/watch?v=RBIU6hUXjJM

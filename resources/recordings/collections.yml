@@ -230,11 +230,19 @@ hsma_project_showcases:
       id: PLgHO2TgIJXdnAWY7tGGPQLWYAjn0tgG_A
       type: Project showcase
       no_year: true
+    # Recording of the whole event, part of the HSMA 3 lecture archive
+    - label: HSMA 3 (final presentation event)
+      videos: [GJpzNGCbWSc]
+      type: Project showcase
+      no_year: true
 
 hsma_lectures:
   folder: books_training/hsma_lecture_recordings
   source: HSMA
   playlists:
+    - label: Standalone workshops
+      id: PLYdeZL7U9wI0
+      type: Workshop
     - label: HSMA 6
       id: PLgHO2TgIJXdl0MvUdqxfQ1UgF9VdLGH1l
       type: Lecture
@@ -257,6 +265,18 @@ hsma_lectures:
       types_by_title:
         - pattern: tutorial|code along|setup|setting up|running the
           type: Tutorial
+    - label: HSMA 3
+      id: PLgHO2TgIJXdnoYRsxukJET7FwoOO4Qqag
+      type: Lecture
+      types_by_title:
+        - pattern: tutorial|code along|setup|installing|anaconda|spyder|colab
+          type: Tutorial
+      # Admin videos for HSMA 3 participants, and the final presentation event
+      # (listed with the project showcases)
+      exclude_by_title:
+        - peer support
+        - project pitch
+        - final presentation event
     - label: Masterclasses
       id: PLgHO2TgIJXdmYZrsHHUqi08dWZ0OkSVrC
       type: Masterclass

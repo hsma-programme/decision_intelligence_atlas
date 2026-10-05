@@ -1,6 +1,28 @@
 {
   "playlists": [
     {
+      "label": "Standalone workshops",
+      "id": "PLYdeZL7U9wI0",
+      "videos": [
+        {
+          "id": "twN-B6LW1tU",
+          "title": "PART 2 Introduction to Discrete Event Simulation and SimPy - a Standalone Workshop (vidigi)",
+          "description": "Part 2 of our two-part workshop.\n\nDiscrete Event Simulation (DES) is a simulation modelling technique that allows us to tackle queuing problems in health and social care. These might include identifying delays in patient pathways and testing out the impact of reconfiguring processes and resources to try to reduce these delays. DES projects in the HSMA Programme have led to significant impact nationally, including the construction of an £11.8 million new mental health ward in Devon to allow patients in crisis to be seen closer to home (https://hsma.co.uk/impact_posters/Out%20of%20Area%20Reduction%20in%20Mental%20Health.png), transformative improvements to urgent care delivery in London (https://hsma.co.uk/impact_posters/UTC%20Flow.png) and potential £1 million+ annual savings and improved patient outcomes for stroke patients in Kent (https://hsma.co.uk/impact_posters/Using%20Simulation%20to%20Improve%20Stroke%20Care%20and%20Reduce%20Costs.png).\n\nIn this special standalone workshop - developed for the NHS-OA community - participants will learn:\n- The principles of Discrete Event Simulation and the kinds of problems this modelling approach can be used to tackle\n- The importance of variability and stochasticity in simulation modelling\n- How to design reproducible stochastic models\n- How these models can be built in Python using the SimPy package, including how to use Python Generator Functions and how to structure code using Object Oriented Programming\n- How animated visualisations can be added to SimPy models using the vidigi package.\n\nWhilst participants should have some prior coding experience, this does not need to be in Python. We will assume no prior Python experience in this workshop. Instead, participants will be introduced to the components of a SimPy model and shown the code that write these elements in Python. Participants will also have a chance to adapt the code to write their own SimPy models. In addition, no local software installation of Python is required - instead, we will use Google CoLab as a way of writing and running code, which requires only a free Google account.\n\nThe accompanying content for the workshop can be found here : https://hsma.co.uk/hsma_content/nhs_oa_workshop_des.html",
+          "published": "2026-10-01T18:01:25Z",
+          "duration": "PT51M47S",
+          "thumbnail": "https://i.ytimg.com/vi/twN-B6LW1tU/mqdefault.jpg"
+        },
+        {
+          "id": "vUtObBS0XVk",
+          "title": "PART 1 Introduction to Discrete Event Simulation and SimPy - a Standalone Workshop",
+          "description": "This is Part 1 of a two-part workshop.\n\nDiscrete Event Simulation (DES) is a simulation modelling technique that allows us to tackle queuing problems in health and social care. These might include identifying delays in patient pathways and testing out the impact of reconfiguring processes and resources to try to reduce these delays. DES projects in the HSMA Programme have led to significant impact nationally, including the construction of an £11.8 million new mental health ward in Devon to allow patients in crisis to be seen closer to home (https://hsma.co.uk/impact_posters/Out%20of%20Area%20Reduction%20in%20Mental%20Health.png), transformative improvements to urgent care delivery in London (https://hsma.co.uk/impact_posters/UTC%20Flow.png) and potential £1 million+ annual savings and improved patient outcomes for stroke patients in Kent (https://hsma.co.uk/impact_posters/Using%20Simulation%20to%20Improve%20Stroke%20Care%20and%20Reduce%20Costs.png).\n\nIn this special standalone workshop - developed for the NHS-OA community - participants will learn:\n- The principles of Discrete Event Simulation and the kinds of problems this modelling approach can be used to tackle\n- The importance of variability and stochasticity in simulation modelling\n- How to design reproducible stochastic models\n- How these models can be built in Python using the SimPy package, including how to use Python Generator Functions and how to structure code using Object Oriented Programming\n- How animated visualisations can be added to SimPy models using the vidigi package.\n\nWhilst participants should have some prior coding experience, this does not need to be in Python. We will assume no prior Python experience in this workshop. Instead, participants will be introduced to the components of a SimPy model and shown the code that write these elements in Python. Participants will also have a chance to adapt the code to write their own SimPy models. In addition, no local software installation of Python is required - instead, we will use Google CoLab as a way of writing and running code, which requires only a free Google account.\n\nThe accompanying content for the workshop can be found here : https://hsma.co.uk/hsma_content/nhs_oa_workshop_des.html",
+          "published": "2026-10-01T18:00:29Z",
+          "duration": "PT2H30M25S",
+          "thumbnail": "https://i.ytimg.com/vi/vUtObBS0XVk/mqdefault.jpg"
+        }
+      ]
+    },
+    {
       "label": "HSMA 6",
       "id": "PLgHO2TgIJXdl0MvUdqxfQ1UgF9VdLGH1l",
       "videos": [
@@ -823,6 +845,604 @@
           "published": "2022-05-04T15:13:32Z",
           "duration": "PT1H15M33S",
           "thumbnail": "https://i.ytimg.com/vi/e4Z7-8guaSE/mqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "label": "HSMA 3",
+      "id": "PLgHO2TgIJXdnoYRsxukJET7FwoOO4Qqag",
+      "videos": [
+        {
+          "id": "sq44Ucqq78w",
+          "title": "Session 1 Lecture 1 : An Introduction to OR and Data Science",
+          "description": "",
+          "published": "2020-10-01T16:27:30Z",
+          "duration": "PT59M58S",
+          "thumbnail": "https://i.ytimg.com/vi/sq44Ucqq78w/mqdefault.jpg"
+        },
+        {
+          "id": "ayMfMnuS6V8",
+          "title": "Session 1 Lecture 2 : Distributions, Validation and Verification and Data Science",
+          "description": "",
+          "published": "2020-10-01T16:08:35Z",
+          "duration": "PT45M17S",
+          "thumbnail": "https://i.ytimg.com/vi/ayMfMnuS6V8/mqdefault.jpg"
+        },
+        {
+          "id": "nXmdMhF1Q9Q",
+          "title": "Session 2 Lecture 1 : Principles of Variables, Conditional Logic and Loops",
+          "description": "",
+          "published": "2020-10-01T16:06:27Z",
+          "duration": "PT24M59S",
+          "thumbnail": "https://i.ytimg.com/vi/nXmdMhF1Q9Q/mqdefault.jpg"
+        },
+        {
+          "id": "DJKm3R8nkUY",
+          "title": "Session 2 Lecture 2 : Principles of Functions and Object Oriented Programming",
+          "description": "",
+          "published": "2020-10-01T16:07:13Z",
+          "duration": "PT20M40S",
+          "thumbnail": "https://i.ytimg.com/vi/DJKm3R8nkUY/mqdefault.jpg"
+        },
+        {
+          "id": "w-i2kXi2olo",
+          "title": "Session 3A Lecture 1 : Hello World!",
+          "description": "",
+          "published": "2020-10-06T16:02:16Z",
+          "duration": "PT35M55S",
+          "thumbnail": "https://i.ytimg.com/vi/w-i2kXi2olo/mqdefault.jpg"
+        },
+        {
+          "id": "_r3P0T1MwqA",
+          "title": "Session 3A Lecture 2 : Operators and Conditional Logic",
+          "description": "",
+          "published": "2020-10-06T16:00:31Z",
+          "duration": "PT20M36S",
+          "thumbnail": "https://i.ytimg.com/vi/_r3P0T1MwqA/mqdefault.jpg"
+        },
+        {
+          "id": "pFayCxrXA7U",
+          "title": "Session 3A Lecture 3 : For and While Loops",
+          "description": "",
+          "published": "2020-10-06T16:02:18Z",
+          "duration": "PT25M25S",
+          "thumbnail": "https://i.ytimg.com/vi/pFayCxrXA7U/mqdefault.jpg"
+        },
+        {
+          "id": "4_7s-lZUa-s",
+          "title": "Session 3A Lecture 4 : Lists and Dictionaries",
+          "description": "",
+          "published": "2020-10-06T16:03:44Z",
+          "duration": "PT29M30S",
+          "thumbnail": "https://i.ytimg.com/vi/4_7s-lZUa-s/mqdefault.jpg"
+        },
+        {
+          "id": "J1eyJd95CQI",
+          "title": "Session 3A Lecture 5 : Libraries and Imports",
+          "description": "",
+          "published": "2020-10-06T16:04:03Z",
+          "duration": "PT22M27S",
+          "thumbnail": "https://i.ytimg.com/vi/J1eyJd95CQI/mqdefault.jpg"
+        },
+        {
+          "id": "1Qj7c6qWVWs",
+          "title": "Session 3C Lecture 1 : Object Oriented Programming in Python",
+          "description": "",
+          "published": "2020-10-20T15:53:31Z",
+          "duration": "PT39M19S",
+          "thumbnail": "https://i.ytimg.com/vi/1Qj7c6qWVWs/mqdefault.jpg"
+        },
+        {
+          "id": "e0gouYntSp0",
+          "title": "Session 3C Lecture 3 : Debugging",
+          "description": "",
+          "published": "2020-10-20T15:54:44Z",
+          "duration": "PT20M42S",
+          "thumbnail": "https://i.ytimg.com/vi/e0gouYntSp0/mqdefault.jpg"
+        },
+        {
+          "id": "NG3FJl5b1SI",
+          "title": "Session 3C Lecture 2 : Inheritance and Plotting using MatPlotLib",
+          "description": "",
+          "published": "2020-10-20T16:02:26Z",
+          "duration": "PT47M46S",
+          "thumbnail": "https://i.ytimg.com/vi/NG3FJl5b1SI/mqdefault.jpg"
+        },
+        {
+          "id": "n471TyuGytc",
+          "title": "Session 3B Lecture 1 : Functions and Exception Handling",
+          "description": "",
+          "published": "2020-10-13T15:48:22Z",
+          "duration": "PT19M48S",
+          "thumbnail": "https://i.ytimg.com/vi/n471TyuGytc/mqdefault.jpg"
+        },
+        {
+          "id": "3R9KTI4dbVE",
+          "title": "Session 3B Lecture 2 : File Reading and Writing",
+          "description": "",
+          "published": "2020-10-13T15:50:31Z",
+          "duration": "PT25M54S",
+          "thumbnail": "https://i.ytimg.com/vi/3R9KTI4dbVE/mqdefault.jpg"
+        },
+        {
+          "id": "vImhbxEcjs8",
+          "title": "Session 3B Lecture 3 : NumPy",
+          "description": "",
+          "published": "2020-10-13T15:54:26Z",
+          "duration": "PT42M55S",
+          "thumbnail": "https://i.ytimg.com/vi/vImhbxEcjs8/mqdefault.jpg"
+        },
+        {
+          "id": "dgGkRiZNFYk",
+          "title": "Session 3B Lecture 4 : Pandas",
+          "description": "",
+          "published": "2020-10-13T15:51:12Z",
+          "duration": "PT18M32S",
+          "thumbnail": "https://i.ytimg.com/vi/dgGkRiZNFYk/mqdefault.jpg"
+        },
+        {
+          "id": "3yQVpIcs0zg",
+          "title": "Session 5A Lecture 1 : An Introduction to Discrete Event Simulation",
+          "description": "",
+          "published": "2020-10-27T17:05:42Z",
+          "duration": "PT1H15M27S",
+          "thumbnail": "https://i.ytimg.com/vi/3yQVpIcs0zg/mqdefault.jpg"
+        },
+        {
+          "id": "d_c8d8j-asA",
+          "title": "Session 5A Lecture 2 : Python Generator Functions and a Glimpse at SimPy",
+          "description": "",
+          "published": "2020-10-27T17:10:16Z",
+          "duration": "PT36M18S",
+          "thumbnail": "https://i.ytimg.com/vi/d_c8d8j-asA/mqdefault.jpg"
+        },
+        {
+          "id": "8eM59sl0VHs",
+          "title": "Session 6A Lecture 1: Introdution to QGIS and basemaps",
+          "description": "",
+          "published": "2020-10-28T14:16:37Z",
+          "duration": "PT31M6S",
+          "thumbnail": "https://i.ytimg.com/vi/8eM59sl0VHs/mqdefault.jpg"
+        },
+        {
+          "id": "RZJRAn5JNPU",
+          "title": "Session 6A Lecture 2: Projections and single symbol symbology",
+          "description": "",
+          "published": "2020-10-28T14:42:37Z",
+          "duration": "PT16M48S",
+          "thumbnail": "https://i.ytimg.com/vi/RZJRAn5JNPU/mqdefault.jpg"
+        },
+        {
+          "id": "HGZV3Ciobak",
+          "title": "Session 6A Lecture 3: Point data and categorized symbology",
+          "description": "",
+          "published": "2020-10-28T14:45:10Z",
+          "duration": "PT10M34S",
+          "thumbnail": "https://i.ytimg.com/vi/HGZV3Ciobak/mqdefault.jpg"
+        },
+        {
+          "id": "_PW8oma82mM",
+          "title": "Session 6A Lecture 4: Shapefiles and graduated symbology",
+          "description": "",
+          "published": "2020-10-28T14:43:03Z",
+          "duration": "PT22M24S",
+          "thumbnail": "https://i.ytimg.com/vi/_PW8oma82mM/mqdefault.jpg"
+        },
+        {
+          "id": "h3BQdhwkumg",
+          "title": "Session 6A Lecture 5: Print layout",
+          "description": "",
+          "published": "2020-10-28T14:44:43Z",
+          "duration": "PT4M29S",
+          "thumbnail": "https://i.ytimg.com/vi/h3BQdhwkumg/mqdefault.jpg"
+        },
+        {
+          "id": "QEZFnERpZxY",
+          "title": "Session 6B : An introduction to GeoPandas",
+          "description": "GitHub (with link to running on BinderHub)\nhttps://github.com/MichaelAllen1966/2010_geopandas\n\nThis video takes you through the 'geopandas_1_blank.ipynb' notebook\n\nTimings:\n00'00 Introduction, installing locally, and running on BinderHub\n13'15 Loading shape file into GeoPandas DataFrame. Showing simple map\n26'45 Loading county data, and pointing to Scratica video on lambda functions: https://youtu.be/25ovCm9jKfA\n32:35 Selecting counties of interest with map and lambda. Dissolving shapes into a single shape.\n49'05 Getting LSOAs in our defined geometry\n56'15 Loading point data and converting between Lat/Long and BNG Eastings/Northings\n1'07'45 Mapping areas and points and adding a basemap\n1'31'32 Optional: Add two maps (one of train lines)\n\nAlso see: https://geopandas.org/",
+          "published": "2020-10-31T08:02:31Z",
+          "duration": "PT1H36M59S",
+          "thumbnail": "https://i.ytimg.com/vi/QEZFnERpZxY/mqdefault.jpg"
+        },
+        {
+          "id": "8mRnOuGcBLY",
+          "title": "Session 7A Lecture 1 : Qualitative System Dynamics",
+          "description": "",
+          "published": "2020-11-03T15:24:43Z",
+          "duration": "PT20M46S",
+          "thumbnail": "https://i.ytimg.com/vi/8mRnOuGcBLY/mqdefault.jpg"
+        },
+        {
+          "id": "akorSpBGeFg",
+          "title": "Session 7A Lecture 2 : Quantitative System Dynamics and InsightMaker",
+          "description": "",
+          "published": "2020-11-03T15:30:40Z",
+          "duration": "PT59M18S",
+          "thumbnail": "https://i.ytimg.com/vi/akorSpBGeFg/mqdefault.jpg"
+        },
+        {
+          "id": "M-lJoeCAkb4",
+          "title": "Session 8A Introduction to Network Analysis",
+          "description": "This video introduces the idea of network analysis for health service research. We look at the data transformation process from raw data to producing a basic network visualisation of that data using python and the NetworkX package. The GitHub repository with the session materials can be found at https://github.com/hsma-master/hsma/tree/master/8A_Introduction_to_Network_Analysis",
+          "published": "2020-11-10T14:43:10Z",
+          "duration": "PT1H44M13S",
+          "thumbnail": "https://i.ytimg.com/vi/M-lJoeCAkb4/mqdefault.jpg"
+        },
+        {
+          "id": "VeQkhfDYyMc",
+          "title": "Session 9A Lecture : Agent Based Simulation using MESA",
+          "description": "",
+          "published": "2020-11-10T17:19:23Z",
+          "duration": "PT2H8M43S",
+          "thumbnail": "https://i.ytimg.com/vi/VeQkhfDYyMc/mqdefault.jpg"
+        },
+        {
+          "id": "zJ0jvkJU_KU",
+          "title": "Session 10 Lecture: Machine Learning Classification",
+          "description": "A lesson on using logistic regression for classification.\n\nFollow either of the two links to get to the code repository. Folly the GitHub link to be able to run the notebookd on the cloud on BinderHub or Google Colab (Colab is recommended but requires a Google account).\n\nMain starting web page: https://pythonhealthcare.org/titanic-survival/\n\nDirect to GitHub: https://github.com/MichaelAllen1966/2004_titanic\n\n\nVideo Contents:\n\n0'05: Setting up a local environment or using a cloud environment for this lesson\n\n17'09 What is Machine Learning? The three types of Machine Learning.\n\n31'32 Classification in machine learning\n\n35'43 Linear and logistic regression\n\n43'06 Feature scaling\n\n1'02'19 Logistic regression model for the Titanic\n\n1'51'08 Getting feature weights (coefficients)\n\n2'04'38 Getting probabilities out of model\n\n2'13'49 Do one yourself\n\n2'20'09 Introducing Kaggle\n\n\nKey workflow described:\n1. Load data & take quick look\n2. Split into X (features) and y (label)\n3. Split into training and test data sets\n4. Scale (standardise/normalise) data\n5. Fit model\n6. Test accuracy\n7. Get model weights/coefficients\n8. Get probability outputs\n\n\nResources:\n\nHands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow by Aurelien Geron\n\nhttps://www.amazon.co.uk/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646/\n\nAlphaGo the Movie: How Google built AI to win at Go\nhttps://youtu.be/WXuK6gekU1Y",
+          "published": "2020-11-17T16:38:35Z",
+          "duration": "PT2H25M28S",
+          "thumbnail": "https://i.ytimg.com/vi/zJ0jvkJU_KU/mqdefault.jpg"
+        },
+        {
+          "id": "LOrsK9mHeaE",
+          "title": "Installing and running the Titanic environment on Windows",
+          "description": "This video installs and runs the Titanic environment from here: \nhttps://github.com/MichaelAllen1966/2004_titanic",
+          "published": "2020-11-24T12:13:14Z",
+          "duration": "PT15M16S",
+          "thumbnail": "https://i.ytimg.com/vi/LOrsK9mHeaE/mqdefault.jpg"
+        },
+        {
+          "id": "n9rXLOtNXQk",
+          "title": "Session 11A : Introduction to Natural Language Processing",
+          "description": "",
+          "published": "2020-11-25T09:56:47Z",
+          "duration": "PT1H38M53S",
+          "thumbnail": "https://i.ytimg.com/vi/n9rXLOtNXQk/mqdefault.jpg"
+        },
+        {
+          "id": "9pjzroktT0o",
+          "title": "Session 7B Lecture 1 : Expanding the Chicken and Egg Model using InsightMaker",
+          "description": "",
+          "published": "2020-11-26T17:04:12Z",
+          "duration": "PT33M57S",
+          "thumbnail": "https://i.ytimg.com/vi/9pjzroktT0o/mqdefault.jpg"
+        },
+        {
+          "id": "jjUMaQbPIMM",
+          "title": "Session 7B Lecture 2 : Additional InsightMaker features, and critically appraising models",
+          "description": "",
+          "published": "2020-11-26T17:06:55Z",
+          "duration": "PT52M12S",
+          "thumbnail": "https://i.ytimg.com/vi/jjUMaQbPIMM/mqdefault.jpg"
+        },
+        {
+          "id": "IAzuLSa-sb0",
+          "title": "An introduction to neural nets using TensorFlow, Keras, and the Titanic Survival data",
+          "description": "Launch colab notebook HSMA_neural_nets.ipynb from here (this is shown early on in the video):\n\nhttps://github.com/MichaelAllen1966/2004_titanic\n\n01'22 What is a GPU?\n04'46 Running the Titanic Notebook, and using Colab\n10'04 Neurons/perceptrons - the building blocks of neural networks\n16'06 From neurons to neural nets\n25'30 Measuring network error (loss)\n28'10 Backpropagation and Optimizers\n33'13 Practicalities of fitting networks\n36'11 Neural network architectures\n44'50 Fitting a neural net to Titanic survival data\n1'13'08 Avoiding over-fitting in neural nets\n1'30'13 Saving and loading models\n\nFor more on machine learning classification using Titanic survival data as an example see:\n\nhttps://pythonhealthcare.org/titanic-survival/",
+          "published": "2020-11-27T16:14:21Z",
+          "duration": "PT1H33M21S",
+          "thumbnail": "https://i.ytimg.com/vi/IAzuLSa-sb0/mqdefault.jpg"
+        },
+        {
+          "id": "_XUC8QbDIlY",
+          "title": "Session 4a: Introduction to R (using RStudio)",
+          "description": "This video is an introduction to R based on the materials found on https://rforhealthcare.org/ \nThe video covers the following topics:\n- An introduction to R and RStudio\n- Setting your working directory\n- Installing packages\n- Some R language conventions\n- Sequence generation and replication\n- Variable types and conversion\n- Data structures and conversion\n- Vector arithmatic\n- Identifying unique values\n- Array sizes\n- String concatenation and splitting\n- Conditional logic and functions\n- Reading from and writing to files\n- Subscripting and subsetting\n- Merging and appending data\n- Sorting data\n- Date and time data handling\n- Tablulation\n- Loops (if and while)\n- User defined functions",
+          "published": "2020-11-30T11:45:08Z",
+          "duration": "PT3H35M33S",
+          "thumbnail": "https://i.ytimg.com/vi/_XUC8QbDIlY/mqdefault.jpg"
+        },
+        {
+          "id": "A9CFqcyI4v8",
+          "title": "HSMA Deep Learning Tutorial. Introducing Deep Q Networks with CartPole and a hospital simulation",
+          "description": "GitHub repo for code for this example: https://github.com/MichaelAllen1966/2011_hsma_dqn\n\nCode for more AI agents controlling staffed beds: https://github.com/MichaelAllen1966/learninghospital\n\nPaper: https://arxiv.org/abs/2008.07434\n\nIntroductory videos on machine learning classification:\nLogistic regression: https://youtu.be/zJ0jvkJU_KU\nNeural nets: https://youtu.be/IAzuLSa-sb0\n\nVideo contents:\n00'00 Intro\n02'29 Key elements of Deep Reinforcement Learning\n19'19 What is Q? A worked example\n41'10 How does a network learn Q?\n53'26 Deep Q Networks (DQN) and Double Deep Q Networks (DDQN)\n1'10'23 Setting up the enviornment\n1'17'27 An introduction to CartPole\n1'25'54 DDQN for CartPole\n2'15'12 DDQN for a hospital bed staffing sim\n2'29 THE END!\n\nFurther developments on DQNs and hospital simulation:\nhttps://github.com/MichaelAllen1966/learninghospital",
+          "published": "2020-11-30T16:58:28Z",
+          "duration": "PT2H29M6S",
+          "thumbnail": "https://i.ytimg.com/vi/A9CFqcyI4v8/mqdefault.jpg"
+        },
+        {
+          "id": "jXDjrWKcu6w",
+          "title": "Session 5B : Building a Discrete Event Simulation model using SimPy",
+          "description": "",
+          "published": "2020-12-01T17:55:23Z",
+          "duration": "PT1H48M4S",
+          "thumbnail": "https://i.ytimg.com/vi/jXDjrWKcu6w/mqdefault.jpg"
+        },
+        {
+          "id": "V4tDkdofgbw",
+          "title": "Session 8B: Advanced network analysis 1 - Graph metrics",
+          "description": "In this video I discuss the applied basics of graph theory and its relevance for monitoring healthcare operations. I then go on to discuss a variety of useful graph metrics, how they can be used for network based operational modelling and their implementation in Python using NetworkX.\nThe materials for this session including the slide deck, exercise and data are all available at https://github.com/hsma-master/hsma/tree/master/8B_Advanced_Network_Analysis_Part_1\nThe data for the exercise comes credit of: Prof Andrew Beveridge - https://networkofthrones.wordpress.com/\nThis is a great website with explanations of network analysis, graph theory and network data for all of the GoT books and TV series. Check it out!",
+          "published": "2020-12-03T13:58:32Z",
+          "duration": "PT1H36M57S",
+          "thumbnail": "https://i.ytimg.com/vi/V4tDkdofgbw/mqdefault.jpg"
+        },
+        {
+          "id": "QV-pJnKrGuc",
+          "title": "Session 5C : Object Oriented SimPy",
+          "description": "",
+          "published": "2020-12-08T16:42:37Z",
+          "duration": "PT1H30M54S",
+          "thumbnail": "https://i.ytimg.com/vi/QV-pJnKrGuc/mqdefault.jpg"
+        },
+        {
+          "id": "5klSpGC2puU",
+          "title": "Session 4B Advanced R: ggplot2, fitdistrplus, shiny",
+          "description": "This session is about plotting using ggplot2, distribution fitting with fitdistrplus (and actuar) and creating web apps with shiny. All of the materials for the session including all of the code, slide deck and notes are available on GitHub https://github.com/hsma-master/hsma/tree/master/4B_Advanced_R",
+          "published": "2020-12-10T19:46:58Z",
+          "duration": "PT3H28M46S",
+          "thumbnail": "https://i.ytimg.com/vi/5klSpGC2puU/mqdefault.jpg"
+        },
+        {
+          "id": "yFb4Y41SeDE",
+          "title": "Session 9B : Adding Vaccination to our Disease Model and using BatchRunner",
+          "description": "",
+          "published": "2020-12-15T17:00:54Z",
+          "duration": "PT1H22M1S",
+          "thumbnail": "https://i.ytimg.com/vi/yFb4Y41SeDE/mqdefault.jpg"
+        },
+        {
+          "id": "5CDj-JfpL5s",
+          "title": "Session 11B : Named Entity Recognition using SpaCy",
+          "description": "",
+          "published": "2020-12-15T17:02:25Z",
+          "duration": "PT1H51M51S",
+          "thumbnail": "https://i.ytimg.com/vi/5CDj-JfpL5s/mqdefault.jpg"
+        },
+        {
+          "id": "rfKCgsKg9_w",
+          "title": "Session 8C Advanced Network Analysis 2 - Graph Visualisation",
+          "description": "This video follows on from sessions 8A and 8B. In this session we explore the visualisation of network graph data using NetworkX and Holoviews in Python. We build from simple plots in NetworkX to interactive plots in Holoviews then combining analyses in NetworkX and using them as plot attributes in Holoviews. We also look at open source software Gephi (https://gephi.org/). All of the materials for this session can be found on GitHub https://github.com/hsma-master/hsma/tree/master/8C_Advanced_Network_Analysis_Part_2",
+          "published": "2020-12-16T13:38:20Z",
+          "duration": "PT1H56M54S",
+          "thumbnail": "https://i.ytimg.com/vi/rfKCgsKg9_w/mqdefault.jpg"
+        },
+        {
+          "id": "1_b7hEHbaaA",
+          "title": "Session 11C : Sentiment Analysis",
+          "description": "",
+          "published": "2020-12-17T15:25:25Z",
+          "duration": "PT2H14M7S",
+          "thumbnail": "https://i.ytimg.com/vi/1_b7hEHbaaA/mqdefault.jpg"
+        },
+        {
+          "id": "bn0WVcfbOqI",
+          "title": "Bonus Tutorial : Sensitivity Analysis",
+          "description": "Bonus Tutorial to watch after completion of Session 1 of the HSMA Programme (Intrdouction to Operational Research and Data Science)",
+          "published": "2020-07-21T14:36:05Z",
+          "duration": "PT11M44S",
+          "thumbnail": "https://i.ytimg.com/vi/bn0WVcfbOqI/mqdefault.jpg"
+        },
+        {
+          "id": "Om2DPFLMIBw",
+          "title": "Python Healthcare: Anaconda and Jupyter Notebooks",
+          "description": "Installing the Anaconda Python Data Science environment, and taking a quick look at Jupyter Lab and Jupyter Notebook.\n\n 2'20 Installing Anaconda\n 3'30 Anaconda Navigator\n 6'00 Anaconda Prompt/Command Line\n 7'20 Jupyter Lab + Jupyter Notebooks\n\nMuch more material at: pythonhealthcare.org",
+          "published": "2020-07-22T12:41:29Z",
+          "duration": "PT21M46S",
+          "thumbnail": "https://i.ytimg.com/vi/Om2DPFLMIBw/mqdefault.jpg"
+        },
+        {
+          "id": "-70Ib8x0d44",
+          "title": "Introduction to using Spyder for Python Data Science",
+          "description": "A very brief 'get started' video on Spyder, showing :\n\n1) the interactive python console\n2) writing and running a python file\n3) debugging\n4) Exploring data using the variable explorer\n5) Showing plots\n\nMuch more material at: pythonhealthcare.org",
+          "published": "2020-07-22T16:28:04Z",
+          "duration": "PT19M36S",
+          "thumbnail": "https://i.ytimg.com/vi/-70Ib8x0d44/mqdefault.jpg"
+        },
+        {
+          "id": "L1pc0rCEO8s",
+          "title": "Introduction to Anaconda environments",
+          "description": "An introduction to Anaconda environments, installing packages from conda, conda-forge and pypi (pip), and saving/loading environments.\n\nCreate empty environment (called temp_env here):\nconda create -n temp_env\n\nCreate environment with given Python version (just use python alone for latest available version):\nconda create -n temp_env python=3.7\n\nActivate environment (before launching Spyder or Jupyter-Lab):\nconda activate temp_env\n\nDeactivate environment:\nconda deactivate\n\nList packages in environment\nconda list\n\nList environments:\nconda env list\n\nAfter activation environment install packages with conda, e.g.\nconda install jupyterlab spyder numpy pandas matplotlib scikit-learn\n\nOr install from Conda Forge:\nconda install -c conda-forge geoplot\n\nOr install from PyPi:\npip install forecast-tools\n\nRemove environment (deactivate first):\nconda env remove -n temp_env\n\nExport environment to yml file (activate first). This exports all packages with version numbers (use actual greater sign, rather than [greater than]  for export - YouTube description won't allow me to use it!):\nconda env export [greater than] environment.yml\n\nSet up environment from yml file:\nconda env create -f environment.yml\n\nAn example simple yml file (we can put version numbers on some or all packages if we like with =, or with == for pip packages, but without version numbers Anaconda will work out best versions to use, though this may take some time):\n\nname: scipy_env\nchannels:\n  - defaults\n  - conda-forge\ndependencies:\n  - jupyterlab\n  - matplotlib\n  - numpy\n  - pip\n  - pandas\n  - scikit-learn\n  - scipy\n  - spyder\n  - pip:\n    - simpy",
+          "published": "2020-09-09T08:18:05Z",
+          "duration": "PT32M40S",
+          "thumbnail": "https://i.ytimg.com/vi/L1pc0rCEO8s/mqdefault.jpg"
+        },
+        {
+          "id": "AH-pc7RbxvA",
+          "title": "BONUS TUTORIAL : Word Clouds",
+          "description": "In this video, I show you how you can easily create word clouds from your own text files using Python.",
+          "published": "2020-11-12T15:57:37Z",
+          "duration": "PT23M48S",
+          "thumbnail": "https://i.ytimg.com/vi/AH-pc7RbxvA/mqdefault.jpg"
+        },
+        {
+          "id": "fUQ1HNCrS7U",
+          "title": "Face Detection with a Multi-Task Cascaded Convolutional Neural Network (MT-CNN)",
+          "description": "This lesson uses mtcnn to:\n\n* Detect faces in a photo\n* Output a list of dictionary of location of faces and features of faces\n* Draw boxes around faces in the photo, and highlights face features\n* Extract faces and save as individual files \n\nGitHub repo for lesson:\n\nhttps://github.com/MichaelAllen1966/2012_face_detection_mtcnn\n\nRequirements:\n\nmatplotlib (conda or pip install)\nmtncc (pip install)\ntensorflow (conda or pip install)",
+          "published": "2020-12-02T11:05:06Z",
+          "duration": "PT16M29S",
+          "thumbnail": "https://i.ytimg.com/vi/fUQ1HNCrS7U/mqdefault.jpg"
+        },
+        {
+          "id": "UYJtOLYcOU8",
+          "title": "Paper: using Deep Reinforcement Learning agents to solve the Ambulance Location Problem",
+          "description": "Paper: https://arxiv.org/abs/2101.04434\nGitHub: https://github.com/MichaelAllen1966/qambo\n\nDeveloping an OpenAI Gym-compatible framework and simulation environment for testing Deep Reinforcement Learning agents solving the Ambulance Location Problem. \n\nThe simulation environment, using SimPy and OpenAI gym, provides an environment where:\n\n* Incidents occurs in areas within a world with fixed dimensions. The geographic pattern of incidents may change throughout the day.\n\n* When an incident occurs, ambulances are dispatched from fixed dispatch points; the closest free ambulance is used.\n\n* The ambulance collects a patient and conveys them to the closest hospital.\n\n* The ambulance is then allocated, by an agent, to any dispatch point. The ambulance travels to that dispatch point where it becomes available to respond to incidents (the ambulance may also be allocated while travelling to a dispatch point, depending on simulation environment settings).\n\n* The job of the agent is to allocate ambulances to dispatch points in order to minimise the time from incident to arrival of ambulance at the scene of the incident.\n\nThe paper (with code repository) implements a range of Deep Q Network architectures to solve this problem.\n\nLong tutorial (with code) on Q learning applied to controlling the number of staffed beds in a simple hospital simulation:\n\nThe learning hospital - a basic Deep RL system.\nYouTube description linkls to code and paper.\n\nhttps://youtu.be/A9CFqcyI4v8",
+          "published": "2021-01-13T08:25:03Z",
+          "duration": "PT9M7S",
+          "thumbnail": "https://i.ytimg.com/vi/UYJtOLYcOU8/mqdefault.jpg"
+        },
+        {
+          "id": "SyHVMAjL-I0",
+          "title": "Introduction to using Feedforward Neural Networks for Forecasting",
+          "description": "HSMA 2020: Introduction to Forecasting using Neural Networks.",
+          "published": "2020-12-13T16:21:38Z",
+          "duration": "PT10M20S",
+          "thumbnail": "https://i.ytimg.com/vi/SyHVMAjL-I0/mqdefault.jpg"
+        },
+        {
+          "id": "ftYxpwQGUz0",
+          "title": "Auto-regressive Forecasting using OLS",
+          "description": "HSMA 2020: Before exploring forecasting with feedforward neural networks we will look at standard OLS as it has similar data requirements and prediction mechanics.",
+          "published": "2020-12-13T16:49:04Z",
+          "duration": "PT34M8S",
+          "thumbnail": "https://i.ytimg.com/vi/ftYxpwQGUz0/mqdefault.jpg"
+        },
+        {
+          "id": "OV39MtxOlFk",
+          "title": "Introduction to forecasting using Feedforward Neural Networks using Keras and TF.",
+          "description": "HSMA 2020:  Our final code along video is an introduction and overview of using standard feedforward neural networks for forecasting.  We will use Keras and TF and test the Iterative, Direct and Vector approaches to forecasting.\n\n\nThis is the tip of the iceberg RE neural network forecasting, but should give you a good flavour.  \n\n\nHope you have enjoyed the forecasting section of the course.",
+          "published": "2020-12-13T18:06:25Z",
+          "duration": "PT36M50S",
+          "thumbnail": "https://i.ytimg.com/vi/OV39MtxOlFk/mqdefault.jpg"
+        },
+        {
+          "id": "tV2_iLr7lsc",
+          "title": "HSMA 2020 Introduction to FBProphet",
+          "description": "",
+          "published": "2020-12-01T19:37:08Z",
+          "duration": "PT22M22S",
+          "thumbnail": "https://i.ytimg.com/vi/tV2_iLr7lsc/mqdefault.jpg"
+        },
+        {
+          "id": "DXG9aIECtp4",
+          "title": "Pre-processing time series data for use with FBProphet",
+          "description": "Some preliminary advice on pre-processing data steps for your time series data before using Prophet.",
+          "published": "2020-12-01T19:20:05Z",
+          "duration": "PT14M30S",
+          "thumbnail": "https://i.ytimg.com/vi/DXG9aIECtp4/mqdefault.jpg"
+        },
+        {
+          "id": "dOvkPcuq9Fo",
+          "title": "Simple Forecasting using FBProphet",
+          "description": "HSMA 2020 introduction to FBProphet in Python",
+          "published": "2020-12-01T19:26:26Z",
+          "duration": "PT18M48S",
+          "thumbnail": "https://i.ytimg.com/vi/dOvkPcuq9Fo/mqdefault.jpg"
+        },
+        {
+          "id": "GNW9_5i5fYQ",
+          "title": "Adding holidays into FBProphet forecasts",
+          "description": "HSMA 2020 Simple Forecasting course",
+          "published": "2020-12-01T19:35:05Z",
+          "duration": "PT12M15S",
+          "thumbnail": "https://i.ytimg.com/vi/GNW9_5i5fYQ/mqdefault.jpg"
+        },
+        {
+          "id": "VWjoqQcC7BM",
+          "title": "Setup for HSMA Introduction to Forecasting",
+          "description": "**Please watch this video and do you setup in advance of the class**\n\nSetup for HSMA Introduction to Forecasting.",
+          "published": "2020-10-30T15:54:37Z",
+          "duration": "PT14M10S",
+          "thumbnail": "https://i.ytimg.com/vi/VWjoqQcC7BM/mqdefault.jpg"
+        },
+        {
+          "id": "modVHPgdSWY",
+          "title": "HSMA Forecasting: Introductory Lecture (part 1/4)",
+          "description": "HSMA introduction to forecasting lecture 1 (part 1/4)",
+          "published": "2020-10-30T16:14:38Z",
+          "duration": "PT12M55S",
+          "thumbnail": "https://i.ytimg.com/vi/modVHPgdSWY/mqdefault.jpg"
+        },
+        {
+          "id": "zYVvx1W_8NI",
+          "title": "HSMA Forecasting: Introductory Lecture (part 2/4)",
+          "description": "HSMA Introduction to forecasting Lecture 1 (part 2/4)",
+          "published": "2020-10-30T16:00:53Z",
+          "duration": "PT5M1S",
+          "thumbnail": "https://i.ytimg.com/vi/zYVvx1W_8NI/mqdefault.jpg"
+        },
+        {
+          "id": "2fuZwjuJlOI",
+          "title": "HSMA Forecasting: Introductory Lecture (part 3/4)",
+          "description": "HSMA introduction to forecasting lecture 1 (part 3/4)",
+          "published": "2020-10-30T16:13:44Z",
+          "duration": "PT6M39S",
+          "thumbnail": "https://i.ytimg.com/vi/2fuZwjuJlOI/mqdefault.jpg"
+        },
+        {
+          "id": "54w9oiXefGs",
+          "title": "HSMA Forecasting: Introductory Lecture (part 4/4)",
+          "description": "Part 4/4 of the HSMA introduction to forecasting",
+          "published": "2020-10-30T16:08:01Z",
+          "duration": "PT13M21S",
+          "thumbnail": "https://i.ytimg.com/vi/54w9oiXefGs/mqdefault.jpg"
+        },
+        {
+          "id": "9RXU0RJd64Q",
+          "title": "HSMA Forecasting Code Along 1: Loading time series into Pandas",
+          "description": "HSMA Forecasting Code Along 1: Loading time series into Pandas",
+          "published": "2020-10-30T16:15:00Z",
+          "duration": "PT7M25S",
+          "thumbnail": "https://i.ytimg.com/vi/9RXU0RJd64Q/mqdefault.jpg"
+        },
+        {
+          "id": "7EpUpzMH5po",
+          "title": "HSMA Forecasting Code Along 2: Exploring Time Series",
+          "description": "HSMA Forecasting Code Along 2: Exploring Time Series",
+          "published": "2020-10-30T16:51:42Z",
+          "duration": "PT24M21S",
+          "thumbnail": "https://i.ytimg.com/vi/7EpUpzMH5po/mqdefault.jpg"
+        },
+        {
+          "id": "n4_roSjNcqU",
+          "title": "HSMA Forecasting Code Along 3: Using Naive methods as benchmark forecasts",
+          "description": "HSMA Forecasting Code Along 3: Using Naive methods as benchmark forecasts",
+          "published": "2020-10-30T16:19:52Z",
+          "duration": "PT17M25S",
+          "thumbnail": "https://i.ytimg.com/vi/n4_roSjNcqU/mqdefault.jpg"
+        },
+        {
+          "id": "gClUMKVC8bQ",
+          "title": "Introduction to Peer Support Groups (PSG)",
+          "description": "A brief introduction to how associates will access support in the HSMA Programme.",
+          "published": "2020-09-16T15:30:02Z",
+          "duration": "PT9M45S",
+          "thumbnail": "https://i.ytimg.com/vi/gClUMKVC8bQ/mqdefault.jpg"
+        },
+        {
+          "id": "-XsUK5fpqOw",
+          "title": "Programming on the web - using Google Colab",
+          "description": "An alternative to using your own machine",
+          "published": "2020-10-02T06:23:20Z",
+          "duration": "PT6M56S",
+          "thumbnail": "https://i.ytimg.com/vi/-XsUK5fpqOw/mqdefault.jpg"
+        },
+        {
+          "id": "Rm1bPdBGs00",
+          "title": "The Learning Hospital (Combining Deep Reinforcement Learning with Hospital Simulation)",
+          "description": "For more see:\n\nhttps://pythonhealthcare.org/the-learning-hospital/\n\nPaper:\n\nAllen M, Monks T. (2020) Integrating Deep Reinforcement Learning Networks with Health System Simulations. arXiv:200807434 [cs] Published Online First: 21 July 2020.\n\nhttp://arxiv.org/abs/2008.07434",
+          "published": "2020-10-22T11:27:51Z",
+          "duration": "PT6M15S",
+          "thumbnail": "https://i.ytimg.com/vi/Rm1bPdBGs00/mqdefault.jpg"
+        },
+        {
+          "id": "8ogfGIenEsU",
+          "title": "Synthetic patient-level data. First trials.",
+          "description": "Producing synthetic patient-level data with:\nSMOTE (Synthetic Minority Over-Sampling Technique)\nGAN (Generative Adversarial Network)\nVAE (Variational AutoEncoder)\n\nGitHub:\nhttps://github.com/MichaelAllen1966/synthetic_data_pilot/releases/tag/1.0.0\n\nPaper:\nMichael Allen, Andrew Salmon (2020) medRxiv 2020.10.09.20210138; doi: https://doi.org/10.1101/2020.10.09.20210138",
+          "published": "2020-10-29T07:20:32Z",
+          "duration": "PT1H16M51S",
+          "thumbnail": "https://i.ytimg.com/vi/8ogfGIenEsU/mqdefault.jpg"
+        },
+        {
+          "id": "GkflDBayaD0",
+          "title": "Example HSMA Project Pitch - SimPy Example",
+          "description": "",
+          "published": "2020-10-29T15:48:50Z",
+          "duration": "PT2M7S",
+          "thumbnail": "https://i.ytimg.com/vi/GkflDBayaD0/mqdefault.jpg"
+        },
+        {
+          "id": "V3y9egAqx_w",
+          "title": "Example HSMA Project Pitch - Natural Language Processing Example",
+          "description": "",
+          "published": "2020-10-29T15:49:28Z",
+          "duration": "PT2M17S",
+          "thumbnail": "https://i.ytimg.com/vi/V3y9egAqx_w/mqdefault.jpg"
+        },
+        {
+          "id": "tz8PqqYJr7g",
+          "title": "This Patient Does Not Exist",
+          "description": "Let's replace real patients with synthetic patients.",
+          "published": "2020-10-29T17:33:31Z",
+          "duration": "PT2M27S",
+          "thumbnail": "https://i.ytimg.com/vi/tz8PqqYJr7g/mqdefault.jpg"
+        },
+        {
+          "id": "GJpzNGCbWSc",
+          "title": "HSMA 3 Final Presentation Event (29th September 2021)",
+          "description": "Our HSMAs from the third round of the programme present their work and the impact the programme has had for their organisations.",
+          "published": "2021-10-14T11:34:21Z",
+          "duration": "PT2H15M40S",
+          "thumbnail": "https://i.ytimg.com/vi/GJpzNGCbWSc/mqdefault.jpg"
         }
       ]
     },

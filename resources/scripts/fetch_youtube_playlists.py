@@ -171,6 +171,7 @@ def main():
             for video_id in get_playlist_video_ids(playlist_id, key)
         }
         playlists = []
+        seen = set()  # each video is only listed once per collection
         for playlist in collection["playlists"]:
             # `id` may be a list, combining several playlists under one label
             playlist_ids = playlist.get("id") or []
@@ -184,8 +185,9 @@ def main():
             video_ids = [
                 video_id
                 for video_id in dict.fromkeys(video_ids)
-                if video_id not in excluded
+                if video_id not in excluded and video_id not in seen
             ]
+            seen.update(video_ids)
             videos = get_video_details(video_ids, key)
             playlists.append({"label": playlist["label"], "id": playlist.get("id"), "videos": videos})
             print(f"{name}: {playlist['label']}: {len(videos)} of {len(video_ids)} videos")
