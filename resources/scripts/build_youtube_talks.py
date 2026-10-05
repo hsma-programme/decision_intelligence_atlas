@@ -117,7 +117,7 @@ def is_programme_time(times):
     return bool(re.fullmatch(r"(0[7-9]|1[0-2]):\d{2}", times[0]))
 
 
-def clean_description(description):
+def clean_description(description, max_length=MAX_DESCRIPTION_LENGTH):
     """
     Shorten a description for display, removing URLs and extra whitespace.
 
@@ -125,6 +125,8 @@ def clean_description(description):
     ----------
     description : str
         Full video description.
+    max_length : int or None
+        Maximum length, or None to keep the whole description.
 
     Returns
     -------
@@ -133,8 +135,8 @@ def clean_description(description):
     """
     text = re.sub(r"https?://\S+", "", description)
     text = re.sub(r"\s+", " ", text).strip()
-    if len(text) > MAX_DESCRIPTION_LENGTH:
-        text = text[:MAX_DESCRIPTION_LENGTH].rsplit(" ", 1)[0] + "…"
+    if max_length and len(text) > max_length:
+        text = text[:max_length].rsplit(" ", 1)[0] + "…"
     return text
 
 
@@ -329,7 +331,9 @@ def build_talks(playlists, playlist_config):
         Listing items with title, year, event, type, description, path,
         image and date. The year is taken from the playlist label if it
         contains one (e.g. "RPySOC 2025"), otherwise from the video's publish
-        date, and the event is the playlist label without the year.
+        date, and the event is the playlist label without the year. Items
+        whose description was shortened also have a full_description, for the
+        Recordings Finder.
     """
     items = []
     for playlist in playlists:
@@ -358,12 +362,16 @@ def build_talks(playlists, playlist_config):
             video = remove_boilerplate(video, config)
             talks = split_talks(video, config.get("talk_list", False))
             if not talks:
-                items.append({
+                item = {
                     "title": video["title"],
                     "description": clean_description(video["description"]),
                     "path": url,
                     **shared,
-                })
+                }
+                full_description = clean_description(video["description"], max_length=None)
+                if full_description != item["description"]:
+                    item["full_description"] = full_description
+                items.append(item)
                 continue
             for title, start in talks:
                 items.append({
@@ -435,9 +443,15 @@ def main():
             print(f"{name}: no {videos_file} - run fetch_youtube_playlists.py to fetch its videos")
             items = []
 
+        # The entry's table shows the shortened descriptions; full ones are
+        # only used by the Recordings Finder, which can expand them
         out_file = folder / "talks.yml"
+        listing_items = [
+            {key: value for key, value in item.items() if key != "full_description"}
+            for item in items
+        ]
         out_file.write_text(
-            yaml.safe_dump(items, allow_unicode=True, sort_keys=False, width=1000),
+            yaml.safe_dump(listing_items, allow_unicode=True, sort_keys=False, width=1000),
             encoding="utf-8",
         )
         print(f"{name}: wrote {len(items)} talks to {out_file}")
@@ -459,7 +473,7 @@ def main():
                 "type": item["type"],
                 "source": collection["source"],
                 "event": item["event"] if show_event else "",
-                "details": item["description"],
+                "details": item.get("full_description", item["description"]),
                 "url": item["path"],
                 "collection": collection_title,
                 "collection_url": f"/{folder.as_posix()}/index.html",
