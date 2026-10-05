@@ -31,15 +31,16 @@ listing:
   - id: mdsn-training
     contents: talks.yml
     type: table
-    fields: [title, event, year, description]
+    fields: [title, event, year, duration, description]
     field-display-names:
       title: "Session"
       event: "Course"
       year: "Year"
       description: "Details"
+      duration: "Duration"
     sort: [event, date]
     filter-ui: [title, event, year, description]
-    sort-ui: [title, event, year]
+    sort-ui: [title, event, year, duration]
     page-size: 25
 ---
 

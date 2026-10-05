@@ -36,15 +36,16 @@ listing:
   - id: webinar-recordings
     contents: talks.yml
     type: table
-    fields: [title, year, event, description]
+    fields: [title, year, event, duration, description]
     field-display-names:
       title: "Webinar"
       year: "Year"
       event: "Series"
       description: "Details"
+      duration: "Duration"
     sort: "date desc"
     filter-ui: [title, year, event, description]
-    sort-ui: [title, year, event]
+    sort-ui: [title, year, event, duration]
     page-size: 25
 ---
 

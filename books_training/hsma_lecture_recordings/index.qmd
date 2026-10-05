@@ -31,15 +31,16 @@ listing:
   - id: lecture-recordings
     contents: talks.yml
     type: table
-    fields: [title, event, type, description]
+    fields: [title, event, type, duration, description]
     field-display-names:
       title: "Session"
       event: "Round"
       type: "Type"
       description: "Details"
+      duration: "Duration"
     sort: false
     filter-ui: [title, event, type, description]
-    sort-ui: [title, event, type]
+    sort-ui: [title, event, type, duration]
     page-size: 25
 ---
 

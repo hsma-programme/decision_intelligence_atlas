@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Added a 'Recorded webinars and conference talks' subsection to the Training section, using a new `Recorded Talks` category.
 * Recording entries now include searchable tables of their talks, built from YouTube playlists using `fetch_youtube_playlists.py` and `build_youtube_talks.py`, and configured in `resources/recordings/collections.yml`.
 * New Recordings Finder page, bringing together recordings from all of these collections in one table with search and multi-select filters, linked from the homepage.
+* Recording tables now show each talk's duration, and the Recordings Finder has a duration slider in 5-minute steps.
 * The Recordings Finder shows recordings from before the NHS-R and NHS.pycom communities merged to form NHS-OA under their original communities, using new `earlier_source` and per-playlist `source` options.
 
 ## v0.2.0 (2025-11-19)

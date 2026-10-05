@@ -6,6 +6,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/0Fq3ATwcouo/mqdefault.jpg
   date: '2025-07-22'
+  duration: 00:47:10
 - title: Simulation Modelling for Tackling Backlogs in Children's Neurodiversity and NHS Talking Therapies
   description: In this video, Heath McDonald (Senior Business Intelligence Developer, Lancashire & South Cumbria NHS Foundation Trust) talks us through his HSMA projects on using simulation modelling to tackle backlogs in children's neurodiversity assessment and NHS Talking Therapies. This talk was part of the…
   path: https://www.youtube.com/watch?v=EmfpThPdXKo
@@ -14,6 +15,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/EmfpThPdXKo/mqdefault.jpg
   date: '2025-07-22'
+  duration: 00:22:11
 - title: Simulation Modelling of Non-Elective Flow
   description: 'In this talk, we hear from Helena Robinson (Senior Analyst/Data Scientist, Countess of Chester NHS Foundation Trust) about her HSMA project on using discrete event simulation to model non-elective flow. Code: Tool: Project Page: HSMA Website: #nhs #datascience #operationalresearch'
   path: https://www.youtube.com/watch?v=0DUx5hhxjoA
@@ -22,6 +24,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/0DUx5hhxjoA/mqdefault.jpg
   date: '2025-07-22'
+  duration: 00:09:56
 - title: Predicting Surgical Times from Patient Note Data
   description: In this talk, we hear from Dr Jake Wilson (Urology Specialist Registrar, Great Western Hospitals NHS Foundation Trust) about his project on predicting the operation times for robotic assisted laparoscopy (RALP) in prostate cancer from patient notes, using natural language processing (NLP) and…
   path: https://www.youtube.com/watch?v=ZLfEgmVCYJM
@@ -30,6 +33,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/ZLfEgmVCYJM/mqdefault.jpg
   date: '2025-07-22'
+  duration: 00:09:47
 - title: Forecasting blood donation session capacity - Sam Plimmer, NHS Blood and Transplant
   description: From the recording 'HSMA 6 Lightning Talks Session 1 - Blood Donation Capacity, GP Phone Calls, HRG Coding and More!', starting at 0:30.
   path: https://www.youtube.com/watch?v=zeYG0EJ83bA&t=30s
@@ -38,6 +42,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/zeYG0EJ83bA/mqdefault.jpg
   date: '2025-07-22'
+  duration: 00:03:56
 - title: Modelling GP phone calls - Sarah Blincko, NHS England
   description: From the recording 'HSMA 6 Lightning Talks Session 1 - Blood Donation Capacity, GP Phone Calls, HRG Coding and More!', starting at 4:26.
   path: https://www.youtube.com/watch?v=zeYG0EJ83bA&t=266s
@@ -46,6 +51,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/zeYG0EJ83bA/mqdefault.jpg
   date: '2025-07-22'
+  duration: 00:03:27
 - title: Using classification modelling techniques to investigate changes in HRG coding over time - Chris Todd & Beth Evans, NHS England
   description: From the recording 'HSMA 6 Lightning Talks Session 1 - Blood Donation Capacity, GP Phone Calls, HRG Coding and More!', starting at 7:53.
   path: https://www.youtube.com/watch?v=zeYG0EJ83bA&t=473s
@@ -54,6 +60,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/zeYG0EJ83bA/mqdefault.jpg
   date: '2025-07-22'
+  duration: 00:04:14
 - title: Predicting gestational diabetes using Machine Learning, assessing travel times to maternity units and simulating inpatient flow - Rochelle Francis-Reid, Epsom and St Helier University Hospitals NHS Trust
   description: From the recording 'HSMA 6 Lightning Talks Session 1 - Blood Donation Capacity, GP Phone Calls, HRG Coding and More!', starting at 12:07.
   path: https://www.youtube.com/watch?v=zeYG0EJ83bA&t=727s
@@ -62,6 +69,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/zeYG0EJ83bA/mqdefault.jpg
   date: '2025-07-22'
+  duration: 00:04:06
 - title: Optimising Same Day Emergency Care (SDEC) Resourcing with Simulation Modelling
   description: In this talk, we hear from Dr Hannah Thould (Chief Registratr, University Hospitals Bristol and Weston NHS Foundation Trust) about her project on optimising resourcing for same day emergency care using discrete event simulation (DES). Hannah also reflects on her experience of the HSMA programme as…
   path: https://www.youtube.com/watch?v=Yck3vOioRdQ
@@ -70,6 +78,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/Yck3vOioRdQ/mqdefault.jpg
   date: '2025-07-22'
+  duration: 00:11:02
 - title: Using Geographic Modelling to Redraw North West Ambulance Dispatch Boundaries
   description: In this talk, we hear from Dorota Scott, Dr Kristian Boote and Charlotte Anderson (North West Ambulance Service NHS Foundation Trust) about their project on redrawing the dispatch boundaries of the ambulance in their services using geographic modelling, including the use of Voronoi tessellations.…
   path: https://www.youtube.com/watch?v=BONCgiiFfHc
@@ -78,6 +87,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/BONCgiiFfHc/mqdefault.jpg
   date: '2025-07-22'
+  duration: 00:12:07
 - title: Modelling Eye Injection Pathways with the AMD Protocol Explorer (APE)
   description: 'In this talk, we hear from Dr Luke Herbert (Consultant Opthalmic Surgeon, Surrey & Sussex Healthcare Foundation Trust) about his project on simulating opthalmology pathways, allowing the exploration of the impact of different anti-VEGF treatment strategies on patients and costs. Project Page: HSMA…'
   path: https://www.youtube.com/watch?v=0OKev_kbQEc
@@ -86,6 +96,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/0OKev_kbQEc/mqdefault.jpg
   date: '2025-07-22'
+  duration: 00:12:57
 - title: Using Natural Language Processing to Improve Ambulance Care Quality Indicator (ACQI) Data
   description: In this talk, we hear from James Wise and Phil King (South Central Ambulance Service NHS Foundation Trust) about their project on using natural language processing to improve ambulance care quality indicator (ACQI) data. By processing the data that is currently held in free text fields, they are…
   path: https://www.youtube.com/watch?v=zKZv3zWcXzc
@@ -94,6 +105,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/zKZv3zWcXzc/mqdefault.jpg
   date: '2025-07-22'
+  duration: 00:16:14
 - title: Modelling the Benefit of Making Every Contact Count (MECC) Training using Agent Based Simulation
   description: 'In this talk, we hear from Dom Rowney, Sam Vautier and Dr Luke Herbert about their project on using agent-based simulation to model behavioural dynamics and explore the potential impact of MECC training. Project Page: HSMA site: #nhs #datascience #operationalresearch'
   path: https://www.youtube.com/watch?v=U6-_3q_CZtA
@@ -102,6 +114,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/U6-_3q_CZtA/mqdefault.jpg
   date: '2025-07-22'
+  duration: 00:15:28
 - title: Forecasting A&E Attendance to Inform Staff Planning
   description: In this talk, we hear from Yu Qiao (Clinical Data Scientist, Liverpool University Hospitals NHS Foundation Trust) about his project on forecasting future A&E attendances 6 weeks in advance, accounting for seasonal patterns and allowing better management of the staffing level to ensure the predicted…
   path: https://www.youtube.com/watch?v=uywbayhnass
@@ -110,6 +123,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/uywbayhnass/mqdefault.jpg
   date: '2025-07-22'
+  duration: 00:11:26
 - title: Modelling Hyperacute/Acute Stroke Pathways - Reducing Costs & Improving Patient Care
   description: In this talk, we hear from John Williams (Clinical Data Scientist, Maidstone and Tunbridge Wells NHS Trust) about his project on using discrete event simulation to explore the impact of changes to operating hours of the same-day emergency care (SDEC) stroke pathway and the CT perfusion scanner in…
   path: https://www.youtube.com/watch?v=ThltRNDt9k8
@@ -118,6 +132,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/ThltRNDt9k8/mqdefault.jpg
   date: '2025-07-22'
+  duration: 00:23:32
 - title: Acute Ward Bed Occupancy Simulation - Rey Tan, Royal United Hospitals Bath NHS Foundation Trust
   description: From the recording 'HSMA 6 Lightning Talks Session 2 - Bed Occupancy, Complex Patient pathways, Segmentation and More!', starting at 0:40.
   path: https://www.youtube.com/watch?v=SH4geMXr8a8&t=40s
@@ -126,6 +141,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/SH4geMXr8a8/mqdefault.jpg
   date: '2025-07-22'
+  duration: 00:04:51
 - title: Identifying potential concurrent treatment areas and services that would better support patients with multiple, complex referral to treatment (RTT) pathways - Amaia Imaz Blanco, Sean Aller, NHS England Data Science & Applied AI Team
   description: From the recording 'HSMA 6 Lightning Talks Session 2 - Bed Occupancy, Complex Patient pathways, Segmentation and More!', starting at 5:31.
   path: https://www.youtube.com/watch?v=SH4geMXr8a8&t=331s
@@ -134,6 +150,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/SH4geMXr8a8/mqdefault.jpg
   date: '2025-07-22'
+  duration: 00:04:14
 - title: Segmenting Dorset's Population for Better Health Planning - Rhianna Everett, Dorset Intelligence & Insight Service; James Roberts, Dorset Council
   description: From the recording 'HSMA 6 Lightning Talks Session 2 - Bed Occupancy, Complex Patient pathways, Segmentation and More!', starting at 9:45.
   path: https://www.youtube.com/watch?v=SH4geMXr8a8&t=585s
@@ -142,6 +159,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/SH4geMXr8a8/mqdefault.jpg
   date: '2025-07-22'
+  duration: 00:04:00
 - title: Understanding the Drivers of Length of Stay (LoS) - Jake Kealey, North Central London ICB
   description: From the recording 'HSMA 6 Lightning Talks Session 2 - Bed Occupancy, Complex Patient pathways, Segmentation and More!', starting at 13:45.
   path: https://www.youtube.com/watch?v=SH4geMXr8a8&t=825s
@@ -150,6 +168,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/SH4geMXr8a8/mqdefault.jpg
   date: '2025-07-22'
+  duration: 00:03:26
 - title: Creating a Simulation Model of a Mental Health Hub
   description: In this talk, we hear from Nathan Hack and Dr Helen Wharam (Hampshire and Isle of Wight Healthcare NHS Foundation Trust) about their project on building a simulation model of a mental health hub in Portsmouth to help with right-sizing the service as routes into the service are expanded. Project…
   path: https://www.youtube.com/watch?v=GlEoH8B3CHE
@@ -158,6 +177,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/GlEoH8B3CHE/mqdefault.jpg
   date: '2025-07-22'
+  duration: 00:11:00
 - title: Proactive Patient Attendance Prediction
   description: 'In this talk, we hear from Peter Andrews (Information Business Partner, Barts Health NHS Trust) about his project on using machine learning to forecast non-attendance and help reduce the number of unattended appointments, potentially improving patient experience and saving money. Project Page: HSMA…'
   path: https://www.youtube.com/watch?v=WNtIIWA_IYg
@@ -166,6 +186,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/WNtIIWA_IYg/mqdefault.jpg
   date: '2025-07-22'
+  duration: 00:11:27
 - title: Developing a Primary Care Load Management Tool
   description: In this talk, we hear from Dr Chris Lewis (General Practitioner, The Park Medical Practice) about his project on using modelling and data science techniques to better monitor and plan for the staffing of a GP surgery, helping patients to have their phone calls answered in a timely manner while…
   path: https://www.youtube.com/watch?v=AUNmuPFnq4c
@@ -174,6 +195,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/AUNmuPFnq4c/mqdefault.jpg
   date: '2025-07-22'
+  duration: 00:11:58
 - title: An Alumnus Story - The e-Fit tool for allocating additional GP funding equitably
   description: 'In this talk, HSMA 5 Alumnus Peter Saiu talks us through his user-friendly, web-based tool for allocating additional GP funding equitably, helping to save commissioners time and reduce health inequalities. Tool: Project Page: Code: HSMA site: #nhs #datascience #operationalresearch'
   path: https://www.youtube.com/watch?v=YbmiEilW9I8
@@ -182,6 +204,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/YbmiEilW9I8/mqdefault.jpg
   date: '2025-07-22'
+  duration: 00:12:50
 - title: 'Project 5016: Developing a tool to assess inequalities and demographic coverage of service locations'
   description: 'Project 5016 : “Developing a tool to assess inequalities and demographic coverage of service locations” Alex Owens, Arden GEM CSU'
   path: https://www.youtube.com/watch?v=7a1bx1NfyBA
@@ -190,6 +213,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/7a1bx1NfyBA/mqdefault.jpg
   date: '2023-12-19'
+  duration: 00:12:20
 - title: 'Project 5014: Investigating factors impacting NHS workforce retention'
   description: 'Project 5014 : “Investigating factors impacting NHS workforce retention using public data” Marie Rogers, NHS England and Richard Pilbery, Yorkshire Ambulance Service'
   path: https://www.youtube.com/watch?v=yYnkdsM5HHo
@@ -198,6 +222,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/yYnkdsM5HHo/mqdefault.jpg
   date: '2023-12-19'
+  duration: 00:10:39
 - title: 'Project 5006: Using Machine Learning to estimate inequities in access to hospital procedures'
   description: 'Project 5006 : “Using Machine Learning to estimate inequities in access to hospital procedures” Benjamin Mouncer, Norfolk County Council'
   path: https://www.youtube.com/watch?v=NXGYKKPntO8
@@ -206,6 +231,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/NXGYKKPntO8/mqdefault.jpg
   date: '2023-12-19'
+  duration: 00:07:26
 - title: 'Project 5003: Using DES to model the bottlenecks in the AMU pathway'
   description: 'Project 5003 : “Using Discrete Event Simulation to model the bottlenecks in the Acute Medical Unit pathway in two Devon hospitals” Becky Crofts and Kayleigh Haydock, Royal Devon University Healthcare'
   path: https://www.youtube.com/watch?v=_3j0xC_yCKQ
@@ -214,6 +240,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/_3j0xC_yCKQ/mqdefault.jpg
   date: '2023-12-19'
+  duration: 00:12:01
 - title: 'Project 5002: Using NLP to detect drug related content within free text'
   description: 'Project 5002 : “Using Natural Language Processing to detect drug related content within free text"'
   path: https://www.youtube.com/watch?v=7j8_DlMoaSc
@@ -222,6 +249,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/7j8_DlMoaSc/mqdefault.jpg
   date: '2023-12-19'
+  duration: 00:09:55
 - title: 'Project 5012: Conversion and expansion of a tool to forecast elective demand'
   description: 'Project 5012 : “Conversion and expansion of a tool to forecast elective demand” Jane Kirkpatrick, Evelyn Koon and Mathew Ojo, NHS England; Lyndsey Allen and Luke Asante, NECS Consultancy'
   path: https://www.youtube.com/watch?v=Obzos_OfyEw
@@ -230,6 +258,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/Obzos_OfyEw/mqdefault.jpg
   date: '2023-12-19'
+  duration: 00:10:14
 - title: 'Project 5005: Development of an open source tool to model waiting lists for elective surgery'
   description: 'Project 5005 : “Development of an open source tool to model waiting lists for elective surgery” Dominic Allen, Leeds Teaching Hospitals Trust'
   path: https://www.youtube.com/watch?v=prKoVH2DeyU
@@ -238,6 +267,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/prKoVH2DeyU/mqdefault.jpg
   date: '2023-12-19'
+  duration: 00:07:11
 - title: 'Project 5008: Modelling the location of neonatal critical care units in North West England'
   description: 'Project 5008 : “Modelling the location of neonatal critical care units in North West England” Duncan Galletly, North West Neonatal Operational Delivery Network'
   path: https://www.youtube.com/watch?v=Fsn_PTGCERI
@@ -246,6 +276,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/Fsn_PTGCERI/mqdefault.jpg
   date: '2023-12-19'
+  duration: 00:11:55
 - title: 'Project 5004: Modelling the effect of complex discharge delays on acute performance'
   description: 'Project 5004 : “Modelling the effect of complex discharge delays on acute performance” Hannah Perkins, University Hospitals Plymouth'
   path: https://www.youtube.com/watch?v=nrUkRha_5F0
@@ -254,6 +285,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/nrUkRha_5F0/mqdefault.jpg
   date: '2023-12-19'
+  duration: 00:11:14
 - title: 'Project 5010: Creating a tool to automatically generate health equity audits for CDC'
   description: 'Project 5010 : “Creating a tool to automatically generate health equity audits for Community Diagnostic Centres” Sarah Houston, UCL Partners and Deborah Newton, Reading Borough Council'
   path: https://www.youtube.com/watch?v=tavZS5MmwOA
@@ -262,6 +294,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/tavZS5MmwOA/mqdefault.jpg
   date: '2023-12-19'
+  duration: 00:10:39
 - title: 'Project 5013: Forecasting excess mortality in Dorset'
   description: 'Project 5013 : “Forecasting excess mortality in Dorset” Ellie Jeram, Lee Robertson and Wilson Otitonaiye, Public Health Dorset'
   path: https://www.youtube.com/watch?v=e4wYE9tphVk
@@ -270,6 +303,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/e4wYE9tphVk/mqdefault.jpg
   date: '2023-12-19'
+  duration: 00:10:21
 - title: 'Project 5015: A Discrete Event Simulation Model to reduce Rheumatology Waiting Times in Dorset'
   description: 'Project 5015 : “A Discrete Event Simulation Model to reduce Rheumatology Waiting Times in Dorset” Abby Dewhurst, NHS Dorset and Claire Davies, BCP Council'
   path: https://www.youtube.com/watch?v=P6nQle5tgBM
@@ -278,6 +312,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/P6nQle5tgBM/mqdefault.jpg
   date: '2023-12-19'
+  duration: 00:08:52
 - title: 'An Alumnus Story : Life Beyond HSMA'
   description: '“An Alumnus Story : Life Beyond HSMA” Matt Eves, Derbyshire Community Health Services In this talk, Matt Eves (HSMA alumnus) will talk about the work he has undertaken since being part of the HSMA programme in 2022, including work to develop automated tools with web application interfaces that…'
   path: https://www.youtube.com/watch?v=pss1Hb0e2z4
@@ -286,6 +321,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/pss1Hb0e2z4/mqdefault.jpg
   date: '2023-12-19'
+  duration: 00:15:07
 - title: 'Showcase 1 : Modelling "stuff" and "staff" in end of of life care during the COVID-19 pandemic'
   description: The first in our series of project showcases, in which we showcase some current and previous work of the PenCHORD research team (that run the HSMA Programme) to serve as inspiration for potential HSMA projects. In this showcase, Dr Daniel Chalk talks about his 2020 work modelling the resourcing…
   path: https://www.youtube.com/watch?v=g4T6yGUciV4
@@ -294,6 +330,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/g4T6yGUciV4/mqdefault.jpg
   date: '2022-10-20'
+  duration: 00:33:29
 - title: 'Showcase 2 : A Simulation Modelling Toolkit for Organising Dialysis Services During a Pandemic'
   description: The second in our series of project showcases, in which we showcase some current and previous work of the PenCHORD research team (that run the HSMA Programme) to serve as inspiration for potential HSMA projects. In this showcase, Prof Tom Monks talks about his 2020 work modelling the safe…
   path: https://www.youtube.com/watch?v=HYoientT00o
@@ -302,6 +339,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/HYoientT00o/mqdefault.jpg
   date: '2022-11-30'
+  duration: 00:30:01
 - title: 'Showcase 3 : Factors influencing Clinically Ready to Proceed Times within an ED Setting'
   description: The third in our series of project showcases, in which we showcase some current and previous work of the PenCHORD research team (that run the HSMA Programme) to serve as inspiration for potential HSMA projects. In this showcase, Elliott talks about his 2022 work using Machine Learning methods to…
   path: https://www.youtube.com/watch?v=eqCWC1k2Pg8
@@ -310,6 +348,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/eqCWC1k2Pg8/mqdefault.jpg
   date: '2022-12-15'
+  duration: 00:34:05
 - title: 'Showcase 4 : Using Discrete Event Simulation to identify the delays in a bladder cancer pathway'
   description: The fourth in our series of project showcases, in which we showcase some current and previous work of the PenCHORD research team (that run the HSMA Programme) to serve as inspiration for potential HSMA projects. In this showcase, Dan talks about his 2016 work using Discrete Event Simulation to…
   path: https://www.youtube.com/watch?v=PHqjC9WCqnM
@@ -318,6 +357,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/PHqjC9WCqnM/mqdefault.jpg
   date: '2023-01-26'
+  duration: 00:36:42
 - title: 'Showcase 5 : Geographic modelling and optimisation of locations of emergency stroke units'
   description: The fifth in our series of project showcases, in which we showcase some current and previous work of the PenCHORD research team (that run the HSMA Programme) to serve as inspiration for potential HSMA projects. In this showcase, Mike talks about work looking at using genetic algorithms to try to…
   path: https://www.youtube.com/watch?v=JRS43-LuwkE
@@ -326,6 +366,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/JRS43-LuwkE/mqdefault.jpg
   date: '2023-01-26'
+  duration: 00:31:06
 - title: Meeting the demand of 111 for primary care services
   description: Meeting the demand of 111 for primary care services - Richard Pilbery, Maddie Smith, Jon Green
   path: https://www.youtube.com/watch?v=cg5Bp3O02io
@@ -334,6 +375,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/cg5Bp3O02io/mqdefault.jpg
   date: '2024-02-12'
+  duration: 00:12:09
 - title: Use Of Discrete Event Simulation (DES) to reduce delays in Cancer Diagnosis & Treatment
   description: Use Of Discrete Event Simulation (DES) to reduce delays in Cancer Diagnosis & Treatment - Angel Masih, James Page, Mahya Kaveh
   path: https://www.youtube.com/watch?v=Wmpu4fpu0J4
@@ -342,6 +384,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/Wmpu4fpu0J4/mqdefault.jpg
   date: '2024-02-12'
+  duration: 00:12:11
 - title: South East Regional Covid 19 Vaccination Demand & Capacity Modelling
   description: South East Regional Covid 19 Vaccination Demand & Capacity Modelling - Charlene Black, Adonis Sithole, Edward Chick, Mayoor Dhokia
   path: https://www.youtube.com/watch?v=_AWTVeNqOwM
@@ -350,6 +393,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/_AWTVeNqOwM/mqdefault.jpg
   date: '2024-02-12'
+  duration: 00:10:18
 - title: Discrete Event Simulation of Cognitive Behavioural Therapy Pathway in an IAPT Service
   description: Discrete Event Simulation of Cognitive Behavioural Therapy Pathway in an IAPT Service - Katie Brown, Hannah Carroll, Andrew Poole, Matthew Chapman
   path: https://www.youtube.com/watch?v=KPmxGzSuN0s
@@ -358,6 +402,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/KPmxGzSuN0s/mqdefault.jpg
   date: '2024-02-12'
+  duration: 00:49:37
 - title: Effect of Booked Appointments on Waiting Times at Urgent Treatment Centres
   description: Effect of Booked Appointments on Waiting Times at Urgent Treatment Centres - Alice Waterhouse
   path: https://www.youtube.com/watch?v=W1cK5vVukXc
@@ -366,6 +411,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/W1cK5vVukXc/mqdefault.jpg
   date: '2024-02-12'
+  duration: 00:09:23
 - title: Reducing Travel Times to Treatment for Cardiac Patients in the South East of England
   description: Reducing Travel Times to Treatment for Cardiac Patients in the South East of England - Glenn Ubly, Atonia Drummond, Janine James, Victor Yu
   path: https://www.youtube.com/watch?v=28yXjieiMEM
@@ -374,6 +420,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/28yXjieiMEM/mqdefault.jpg
   date: '2024-02-12'
+  duration: 00:11:07
 - title: Forecasting Demand and Length of Stay in the Emergency Department
   description: Forecasting Demand and Length of Stay in the Emergency Department - Lisa Sabir
   path: https://www.youtube.com/watch?v=a7MtCSbTg0I
@@ -382,6 +429,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/a7MtCSbTg0I/mqdefault.jpg
   date: '2024-02-12'
+  duration: 00:10:14
 - title: Developing a Service Planning Decision Support Tool to Tackle Inequalities & Minimise Carbon Output
   description: Developing a Service Planning Decision Support Tool to Tackle Inequalities and Minimise Carbon Output - Matt Eves, Anya Gopfert, Sally Brown
   path: https://www.youtube.com/watch?v=zYWte2obxDs
@@ -390,6 +438,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/zYWte2obxDs/mqdefault.jpg
   date: '2024-02-12'
+  duration: 00:09:50
 - title: Using DES to Improve Flow through an Acute Medicine Assessment Pathway
   description: Using DES to Improve Flow through an Acute Medicine Assessment Pathway - Helen Young, Thomas Knight
   path: https://www.youtube.com/watch?v=TDTyBcVZDUU
@@ -398,6 +447,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/TDTyBcVZDUU/mqdefault.jpg
   date: '2024-02-12'
+  duration: 00:08:27
 - title: Spatial Modelling of Violent Crime to Support Strategic Analysis
   description: Spatial Modelling of Violent Crime to Support Strategic Analysis
   path: https://www.youtube.com/watch?v=K0g2Iaw3blY
@@ -406,6 +456,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/K0g2Iaw3blY/mqdefault.jpg
   date: '2024-02-12'
+  duration: 00:09:11
 - title: Discrete Event Simulation to Improve Flow and Performance in the Urgent Treatment Centre
   description: Discrete Event Simulation to Improve Flow and Performance in the Urgent Treatment Centre - Shilpa Patel
   path: https://www.youtube.com/watch?v=3JO8_70hHdA
@@ -414,6 +465,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/3JO8_70hHdA/mqdefault.jpg
   date: '2024-02-12'
+  duration: 00:08:42
 - title: The role of PIFU and ‘Digital Outpatients’ in Supporting the Elective Recovery
   description: The role of Patient Initiated Follow-up (PIFU) and ‘Digital Outpatients’ in Supporting the Elective Recovery - Martina Fonseca, Xiaochen Ge
   path: https://www.youtube.com/watch?v=TO5sKaW6BGk
@@ -422,6 +474,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/TO5sKaW6BGk/mqdefault.jpg
   date: '2024-02-12'
+  duration: 00:11:07
 - title: Use of DES to tackle long waits & growing backlog for children needing neuro development assessment
   description: Use of discrete event simulation to tackle long waits and a growing backlog for children requiring neuro development assessment (Autism and ADHD) - Irma Tanovic
   path: https://www.youtube.com/watch?v=IuD0tmKtjV4
@@ -430,6 +483,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/IuD0tmKtjV4/mqdefault.jpg
   date: '2024-02-12'
+  duration: 00:18:00
 - title: Using machine learning to predict hospital admissions & Length of Stay for respiratory conditions
   description: Using machine learning to predict hospital admissions & Length of Stay for respiratory conditions - Andy McCann
   path: https://www.youtube.com/watch?v=-0AGbib9Ig0
@@ -438,6 +492,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/-0AGbib9Ig0/mqdefault.jpg
   date: '2024-02-12'
+  duration: 00:11:17
 - title: Simulation modelling to test proposed models of pediatric critical care in South West England
   description: Simulation modelling to test proposed models of pediatric critical care in South West England - Adam Scull
   path: https://www.youtube.com/watch?v=eOqujR64JkQ
@@ -446,6 +501,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/eOqujR64JkQ/mqdefault.jpg
   date: '2024-02-12'
+  duration: 00:13:42
 - title: Exploring the use of Machine Learning and NLP to predict admissions based on GP notes
   description: Exploring the use of Machine Learning and Natural Language Processing to teach a machine to predict whether a patient is likely to be imminently admitted to hospital based on GP data and clues in GP notes - Adam Kwiatkowski, Mona Nasser, Imca Hensels-Pelling
   path: https://www.youtube.com/watch?v=xlHuSYo4XAg
@@ -454,6 +510,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/xlHuSYo4XAg/mqdefault.jpg
   date: '2024-02-12'
+  duration: 00:12:35
 - title: Developing a generic vaccination service model for the COVID-19 pandemic and beyond
   description: Developing a generic vaccination service model for the COVID-19 pandemic and beyond - Adam Kwiatkowski
   path: https://www.youtube.com/watch?v=Ve5LuePWrQ4
@@ -462,6 +519,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/Ve5LuePWrQ4/mqdefault.jpg
   date: '2024-02-12'
+  duration: 00:20:27
 - title: Modelling strategies to reduce the elective backlog in hip surgery
   description: Modelling strategies to reduce the elective backlog in hip surgery - Claire Rudler, Matt Smith, Imca Hensels-Pelling, Zoe Ficken
   path: https://www.youtube.com/watch?v=VLituG9Sbc0
@@ -470,6 +528,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/VLituG9Sbc0/mqdefault.jpg
   date: '2024-02-12'
+  duration: 00:11:23
 - title: Generating a richer understanding of relationships in crime data to safeguard individuals & families
   description: Generating a richer understanding of relationships in crime data in order to identify opportunities to safeguard individuals and families
   path: https://www.youtube.com/watch?v=oSPxFaeDa5Q
@@ -478,6 +537,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/oSPxFaeDa5Q/mqdefault.jpg
   date: '2024-02-12'
+  duration: 00:10:56
 - title: An AI tool to determine the sentiment of tweets to police forces across the UK
   description: What are they saying about us? An AI tool to determine the sentiment of tweets to police forces across the country, and what people are talking about
   path: https://www.youtube.com/watch?v=Vj2a-Q_RwKo
@@ -486,6 +546,7 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/Vj2a-Q_RwKo/mqdefault.jpg
   date: '2024-02-12'
+  duration: 00:14:51
 - title: HSMA 3 Final Presentation Event (29th September 2021)
   description: Our HSMAs from the third round of the programme present their work and the impact the programme has had for their organisations.
   path: https://www.youtube.com/watch?v=GJpzNGCbWSc
@@ -494,3 +555,4 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/GJpzNGCbWSc/mqdefault.jpg
   date: '2021-10-14'
+  duration: 02:15:40

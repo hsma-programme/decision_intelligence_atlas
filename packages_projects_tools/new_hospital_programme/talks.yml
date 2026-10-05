@@ -6,6 +6,7 @@
   type: Training course
   image: https://i.ytimg.com/vi/RsP_B0tAvyM/mqdefault.jpg
   date: '2026-04-28'
+  duration: 00:30:55
 - title: NHP D&C Modelling and Validation
   description: Training Session for All Schemes 17th April 2026
   path: https://www.youtube.com/watch?v=JG6eIjQdRGY
@@ -14,6 +15,7 @@
   type: Training course
   image: https://i.ytimg.com/vi/JG6eIjQdRGY/mqdefault.jpg
   date: '2026-04-22'
+  duration: 01:30:02
 - title: NHP D&C Modelling - Validation
   description: Training Session for All Schemes 7th January 2026
   path: https://www.youtube.com/watch?v=jdbZm4KeWYc
@@ -22,6 +24,7 @@
   type: Training course
   image: https://i.ytimg.com/vi/jdbZm4KeWYc/mqdefault.jpg
   date: '2026-01-13'
+  duration: 01:45:57
 - title: Introduction
   description: From the recording 'Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy', starting at 0:00.
   path: https://www.youtube.com/watch?v=egUhA9OtXyg&t=0s
@@ -30,6 +33,7 @@
   type: Training course
   image: https://i.ytimg.com/vi/egUhA9OtXyg/mqdefault.jpg
   date: '2025-06-16'
+  duration: 00:00:39
 - title: Background and understanding potentially mitigable activity
   description: From the recording 'Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy', starting at 0:39.
   path: https://www.youtube.com/watch?v=egUhA9OtXyg&t=39s
@@ -38,6 +42,7 @@
   type: Training course
   image: https://i.ytimg.com/vi/egUhA9OtXyg/mqdefault.jpg
   date: '2025-06-16'
+  duration: 00:05:27
 - title: Typical assumptions for the extent of mitigation
   description: From the recording 'Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy', starting at 6:06.
   path: https://www.youtube.com/watch?v=egUhA9OtXyg&t=366s
@@ -46,6 +51,7 @@
   type: Training course
   image: https://i.ytimg.com/vi/egUhA9OtXyg/mqdefault.jpg
   date: '2025-06-16'
+  duration: 00:04:01
 - title: Future opportunities
   description: From the recording 'Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy', starting at 10:07.
   path: https://www.youtube.com/watch?v=egUhA9OtXyg&t=607s
@@ -54,6 +60,7 @@
   type: Training course
   image: https://i.ytimg.com/vi/egUhA9OtXyg/mqdefault.jpg
   date: '2025-06-16'
+  duration: 00:05:12
 - title: 'User guide: understanding the report layout'
   description: From the recording 'Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy', starting at 15:19.
   path: https://www.youtube.com/watch?v=egUhA9OtXyg&t=919s
@@ -62,6 +69,7 @@
   type: Training course
   image: https://i.ytimg.com/vi/egUhA9OtXyg/mqdefault.jpg
   date: '2025-06-16'
+  duration: 00:02:47
 - title: Characterising the mitigator cohorts
   description: From the recording 'Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy', starting at 18:06.
   path: https://www.youtube.com/watch?v=egUhA9OtXyg&t=1086s
@@ -70,6 +78,7 @@
   type: Training course
   image: https://i.ytimg.com/vi/egUhA9OtXyg/mqdefault.jpg
   date: '2025-06-16'
+  duration: 00:01:19
 - title: Understanding overlap between mitigator cohorts
   description: From the recording 'Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy', starting at 19:25.
   path: https://www.youtube.com/watch?v=egUhA9OtXyg&t=1165s
@@ -78,6 +87,7 @@
   type: Training course
   image: https://i.ytimg.com/vi/egUhA9OtXyg/mqdefault.jpg
   date: '2025-06-16'
+  duration: 00:01:20
 - title: Making comparisons between ICBs
   description: From the recording 'Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy', starting at 20:45.
   path: https://www.youtube.com/watch?v=egUhA9OtXyg&t=1245s
@@ -86,6 +96,7 @@
   type: Training course
   image: https://i.ytimg.com/vi/egUhA9OtXyg/mqdefault.jpg
   date: '2025-06-16'
+  duration: 00:01:39
 - title: National and sub-national trends in mitigable activity
   description: From the recording 'Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy', starting at 22:24.
   path: https://www.youtube.com/watch?v=egUhA9OtXyg&t=1344s
@@ -94,6 +105,7 @@
   type: Training course
   image: https://i.ytimg.com/vi/egUhA9OtXyg/mqdefault.jpg
   date: '2025-06-16'
+  duration: 00:02:58
 - title: Potential limitations/pitfalls
   description: From the recording 'Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy', starting at 25:22.
   path: https://www.youtube.com/watch?v=egUhA9OtXyg&t=1522s
@@ -102,6 +114,7 @@
   type: Training course
   image: https://i.ytimg.com/vi/egUhA9OtXyg/mqdefault.jpg
   date: '2025-06-16'
+  duration: 00:03:51
 - title: NHP Demand and Capacity (D&C) Model
   description: A Technical Deep Dive for Data Scientists 13th May 2025
   path: https://www.youtube.com/watch?v=dXjNG2EbsfI
@@ -110,6 +123,7 @@
   type: Training course
   image: https://i.ytimg.com/vi/dXjNG2EbsfI/mqdefault.jpg
   date: '2025-05-14'
+  duration: 01:29:42
 - title: 'Advanced training for analysts and strategic planners #2'
   description: Demand and Capacity Modelling 29th April 2025
   path: https://www.youtube.com/watch?v=g2iATe63WpQ
@@ -118,6 +132,7 @@
   type: Training course
   image: https://i.ytimg.com/vi/g2iATe63WpQ/mqdefault.jpg
   date: '2025-05-02'
+  duration: 02:34:44
 - title: Advanced Training for Analysts and Strategic Partners
   description: Demand and Capacity Modlelling - 8th April 2025
   path: https://www.youtube.com/watch?v=F--GMyRYYmg
@@ -126,6 +141,7 @@
   type: Training course
   image: https://i.ytimg.com/vi/F--GMyRYYmg/mqdefault.jpg
   date: '2025-04-11'
+  duration: 02:07:18
 - title: The New Hospitals Programme Demand and Capacity Model - Introductory Session for CSU Staff
   description: ''
   path: https://www.youtube.com/watch?v=fjr2v9iwCjA
@@ -134,6 +150,7 @@
   type: Training course
   image: https://i.ytimg.com/vi/fjr2v9iwCjA/mqdefault.jpg
   date: '2025-03-28'
+  duration: 01:00:39
 - title: 'The New Hospital Programme: Demand and Capacity Model 24/25'
   description: Technical Leads Meeting 3rd December 2024
   path: https://www.youtube.com/watch?v=ztLyhnAmvsM
@@ -142,6 +159,7 @@
   type: Training course
   image: https://i.ytimg.com/vi/ztLyhnAmvsM/mqdefault.jpg
   date: '2024-12-04'
+  duration: 00:46:30
 - title: 'The New Hospital Programme: Demand and Capacity Modelling 24/25'
   description: Technical Leads Meeting 14th November 2024
   path: https://www.youtube.com/watch?v=xUGaqWQsD-I
@@ -150,6 +168,7 @@
   type: Training course
   image: https://i.ytimg.com/vi/xUGaqWQsD-I/mqdefault.jpg
   date: '2024-11-15'
+  duration: 00:56:51
 - title: 'The New Hospital Programme: Demand and Capacity Modelling 24/25'
   description: Technical Leads Meeting 29th October 2024
   path: https://www.youtube.com/watch?v=1qAqYRorxcc
@@ -158,6 +177,7 @@
   type: Training course
   image: https://i.ytimg.com/vi/1qAqYRorxcc/mqdefault.jpg
   date: '2024-10-30'
+  duration: 00:19:39
 - title: 'The New Hospital Programme: Demand and Capacity Modelling 24/25'
   description: Technical Leads Meeting 8th October 2024
   path: https://www.youtube.com/watch?v=mG8ZAnS2IxU
@@ -166,6 +186,7 @@
   type: Training course
   image: https://i.ytimg.com/vi/mG8ZAnS2IxU/mqdefault.jpg
   date: '2024-10-11'
+  duration: 00:15:27
 - title: 'The New Hospital Programme: Demand and Capacity Modelling 24/25'
   description: Technical Leads Meeting 17th September 2024
   path: https://www.youtube.com/watch?v=o8XFXTKMhLI
@@ -174,6 +195,7 @@
   type: Training course
   image: https://i.ytimg.com/vi/o8XFXTKMhLI/mqdefault.jpg
   date: '2024-09-17'
+  duration: 00:54:11
 - title: 'The New Hospital Programme: Demand and Capacity Model 24/25'
   description: Technical Leads Meeting 19th July 2024
   path: https://www.youtube.com/watch?v=oEvLbcAfipk
@@ -182,6 +204,7 @@
   type: Training course
   image: https://i.ytimg.com/vi/oEvLbcAfipk/mqdefault.jpg
   date: '2024-07-26'
+  duration: 00:50:05
 - title: 'The New Hospital Programme: Demand and Capacity Model 24/25'
   description: Training Session 4th July 2024
   path: https://www.youtube.com/watch?v=czwNQqAXjWc
@@ -190,6 +213,7 @@
   type: Training course
   image: https://i.ytimg.com/vi/czwNQqAXjWc/mqdefault.jpg
   date: '2024-07-05'
+  duration: 01:43:22
 - title: 'The New Hospital Programme: Demand and Capacity Modelling'
   description: Technical Leads Meeting 24th June 2024
   path: https://www.youtube.com/watch?v=Oc74J-z_C_w
@@ -198,6 +222,7 @@
   type: Training course
   image: https://i.ytimg.com/vi/Oc74J-z_C_w/mqdefault.jpg
   date: '2024-06-26'
+  duration: 00:40:30
 - title: 'The New Hospital Programme: Demand and Capacity Model 24/25'
   description: Interpreting Outputs - Questions & Answers Session 19th June 2024
   path: https://www.youtube.com/watch?v=zgbfie46xL0
@@ -206,6 +231,7 @@
   type: Training course
   image: https://i.ytimg.com/vi/zgbfie46xL0/mqdefault.jpg
   date: '2024-06-20'
+  duration: 00:31:44
 - title: 'The New Hospital Programme: New Models of Care Evidence Map'
   description: An Introduction 17th June 2024
   path: https://www.youtube.com/watch?v=qNZhDeboLwg
@@ -214,3 +240,4 @@
   type: Training course
   image: https://i.ytimg.com/vi/qNZhDeboLwg/mqdefault.jpg
   date: '2024-06-17'
+  duration: 00:13:21

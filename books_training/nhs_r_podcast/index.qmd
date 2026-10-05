@@ -33,13 +33,14 @@ listing:
   - id: podcast-episodes
     contents: talks.yml
     type: table
-    fields: [title, description]
+    fields: [title, duration, description]
     field-display-names:
       title: "Episode"
       description: "Details"
+      duration: "Duration"
     sort: "date"
     filter-ui: [title, description]
-    sort-ui: [title]
+    sort-ui: [title, duration]
     page-size: 25
 ---
 

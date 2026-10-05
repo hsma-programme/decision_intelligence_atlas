@@ -23,6 +23,8 @@ Where a long recording covers several talks and its YouTube description gives th
 
 Dates are when each recording was published on YouTube. This is usually within a few weeks of the event, but some older recordings were uploaded later - the Atlas entry for each collection gives more details.
 
+Durations are the length of each video, or for a talk within a longer recording, the time until the next timestamp in its description. A few talks are listed without timestamps, so their length isn't known - these are only shown when the duration slider covers its full range.
+
 ```{ojs}
 // Newest first, keeping talks from the same recording in their original order
 recordings = (await FileAttachment("recordings.json").json())
@@ -35,10 +37,17 @@ function monthLabel(month) {
   return new Date(year, m - 1, 1).toLocaleString("en-GB", {month: "short", year: "numeric"});
 }
 
-// A slider with two handles, for choosing a range of months.
-// Its value is [first month, last month], e.g. ["2024-01", "2026-10"].
-function monthRangeSlider(months, {label}) {
-  const max = months.length - 1;
+// "95" minutes -> "1 hr 35 min"
+function minutesLabel(minutes) {
+  const hours = Math.floor(minutes / 60);
+  const mins = minutes % 60;
+  return hours ? `${hours} hr${mins ? ` ${mins} min` : ""}` : `${mins} min`;
+}
+
+// A slider with two handles, for choosing a range from a list of values.
+// Its value is [first value, last value], e.g. ["2024-01", "2026-10"].
+function rangeSlider(values, {label, format}) {
+  const max = values.length - 1;
   const from = html`<input type="range" min="0" max="${max}" step="1" value="0" aria-label="${label} from">`;
   const to = html`<input type="range" min="0" max="${max}" step="1" value="${max}" aria-label="${label} to">`;
   const output = html`<span class="recordings-range-output"></span>`;
@@ -50,14 +59,14 @@ function monthRangeSlider(months, {label}) {
       if (event?.target === from) from.value = to.value;
       else to.value = from.value;
     }
-    output.textContent = `${monthLabel(months[from.value])} – ${monthLabel(months[to.value])}`;
+    output.textContent = `${format(values[from.value])} – ${format(values[to.value])}`;
     // Highlight the track between the handles
     slider.style.setProperty("--from", `${100 * from.value / max}%`);
     slider.style.setProperty("--to", `${100 * to.value / max}%`);
   };
   from.addEventListener("input", update);
   to.addEventListener("input", update);
-  Object.defineProperty(form, "value", {get: () => [months[from.value], months[to.value]]});
+  Object.defineProperty(form, "value", {get: () => [values[from.value], values[to.value]]});
   update();
   return form;
 }
@@ -70,6 +79,12 @@ allMonths = {
     months.push(date.toISOString().slice(0, 7));
   }
   return months;
+}
+
+// Every 5 minutes from 0 to the longest recording
+allDurations = {
+  const longest = Math.ceil(d3.max(recordings, d => d.seconds) / 300) * 5;
+  return d3.range(0, longest + 5, 5);
 }
 
 entryLinks = new Map(recordings.map(d => [d.collection, d.collection_url]))
@@ -155,7 +170,11 @@ viewof events = multiselect(options(recordings.map(d => d.event).filter(d => d))
 ```
 
 ```{ojs}
-viewof published = monthRangeSlider(allMonths, {label: "Published"})
+viewof published = rangeSlider(allMonths, {label: "Published", format: monthLabel})
+```
+
+```{ojs}
+viewof duration = rangeSlider(allDurations, {label: "Duration", format: minutesLabel})
 ```
 
 :::
@@ -175,7 +194,11 @@ filtered = query.filter(d =>
   (sources.length === 0 || sources.includes(d.source)) &&
   (types.length === 0 || types.includes(d.type)) &&
   (events.length === 0 || events.includes(d.event)) &&
-  d.month >= published[0] && d.month <= published[1]
+  d.month >= published[0] && d.month <= published[1] &&
+  // Recordings of unknown length are only shown when no duration range is set
+  (d.seconds === null
+    ? duration[0] === allDurations[0] && duration[1] === allDurations.at(-1)
+    : d.seconds >= duration[0] * 60 && d.seconds <= duration[1] * 60)
 )
 
 md`Showing **${filtered.length}** of ${recordings.length} recordings${filtered.length > 6 ? " - scroll within the table to see them all" : ""}.`
@@ -183,10 +206,11 @@ md`Showing **${filtered.length}** of ${recordings.length} recordings${filtered.l
 
 ```{ojs}
 html`<div class="recordings-table">${Inputs.table(filtered, {
-  columns: ["title", "url", "date", "type", "event", "source", "details", "collection"],
+  columns: ["title", "url", "date", "duration", "type", "event", "source", "details", "collection"],
   header: {
     title: "Title",
     date: "Published",
+    duration: "Duration",
     type: "Type",
     event: "Event",
     source: "Source",
@@ -196,11 +220,12 @@ html`<div class="recordings-table">${Inputs.table(filtered, {
   },
   format: {
     date: d => monthLabel(d.slice(0, 7)),
+    duration: d => d ?? "",
     details: d => expandable(d),
     url: d => html`<a href="${d}" target="_blank" rel="noopener">Watch <i class="bi bi-box-arrow-up-right"></i></a>`,
     collection: d => html`<a href="${entryLinks.get(d)}" title="${d}">Atlas entry</a>`
   },
-  width: {title: 360, date: 100, type: 110, event: 110, source: 130, details: 400, url: 80, collection: 100},
+  width: {title: 330, date: 105, duration: 100, type: 110, event: 100, source: 120, details: 370, url: 80, collection: 100},
   layout: "fixed",
   rows: 25,
   height: 750,

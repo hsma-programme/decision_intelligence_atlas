@@ -471,6 +471,11 @@ p {
     vertical-align: top;
 }
 
+/* Keep column headers such as "Published" on one line */
+.recordings-table table th {
+    overflow-wrap: normal;
+}
+
 .recordings-see-more {
     padding: 0;
     border: none;

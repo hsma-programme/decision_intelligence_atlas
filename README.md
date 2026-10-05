@@ -178,14 +178,15 @@ Then [fetch and build the recordings](#fetching-and-building-the-recordings), an
       - id: talk-recordings
         contents: talks.yml
         type: table
-        fields: [title, year, description]
+        fields: [title, year, duration, description]
         field-display-names:
           title: "Talk"
           year: "Year"
+          duration: "Duration"
           description: "Details"
         sort: "date desc"
         filter-ui: [title, year, description]
-        sort-ui: [title, year]
+        sort-ui: [title, year, duration]
         page-size: 25
     ```
 
@@ -302,6 +303,10 @@ Most recordings are published within a few weeks of the event, so the two usuall
 * **Events late in the year whose recordings were published early the following year.** For example, RPySOC 2025 talks show 2025 on their entry, but January 2026 in the Recordings Finder.
 
 If a collection's dates could mislead, say so on its entry, e.g. "These recordings were uploaded in 2022, after HSMA 4 ran".
+
+#### Durations
+
+Each talk's duration (HH:MM:SS) comes from YouTube's length for the video. For talks split out of a longer recording by timestamps, it's the time from the talk's timestamp to the next one (including breaks) or to the end of the video, so the last talk in a recording may include closing remarks. Talks listed by programme times or with `talk_list: true` have no timestamps, so their duration is left blank, and the Recordings Finder only shows them when its duration slider covers its full range.
 
 #### Duplicates
 

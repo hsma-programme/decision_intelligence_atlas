@@ -30,14 +30,15 @@ listing:
   - id: nhp-training
     contents: talks.yml
     type: table
-    fields: [title, year, description]
+    fields: [title, year, duration, description]
     field-display-names:
       title: "Session"
       year: "Year"
       description: "Details"
+      duration: "Duration"
     sort: "date desc"
     filter-ui: [title, year, description]
-    sort-ui: [title, year]
+    sort-ui: [title, year, duration]
     page-size: 10
 ---
 
