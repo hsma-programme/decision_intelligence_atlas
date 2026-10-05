@@ -243,12 +243,12 @@ Each playlist has the following options. Most are only needed to tidy up playlis
 
 | Option | Required? | Description |
 |---|---|---|
-| `label` | Yes | The playlist's name, shown in the Event column when a collection has more than one event. Must be unique within the collection. If it contains a year (e.g. `RPySOC 2025`), that year is used for all of its videos; otherwise each video's upload date is used. |
+| `label` | Yes | The playlist's name, shown in the Event column when a collection has more than one event. Must be unique within the collection. If it contains a year (e.g. `RPySOC 2025`), that year is used for all of its videos on the collection's entry; otherwise each video's upload date is used. See [Years and dates](#years-and-dates). |
 | `event` | No | The event shown for the playlist's videos, in place of one taken from the label, e.g. so that extra videos added with `videos` are shown as part of the same series. |
 | `events_by_title` | No | For playlists covering several courses or series: a list of `pattern` (a regular expression) and `event`. Videos whose titles match a pattern get that event (e.g. the course name) instead of one taken from the label, shown in the Event column. |
 | `type` | Yes | The kind of recording (e.g. `Conference talk`, `Webinar`, `Workshop`, `Lecture`), shown in the Recordings Finder's Type column and filter. Reuse an existing type where one fits. |
 | `types_by_title` | No | For playlists mixing different kinds of recording: a list of `pattern` (a regular expression) and `type`. Videos whose titles match a pattern get that type instead. |
-| `no_year` | No | Set to `true` to leave the year blank, e.g. where videos were uploaded long after the event. |
+| `no_year` | No | Set to `true` to leave the year blank on the collection's entry, e.g. where videos were uploaded long after the event. This doesn't affect the Recordings Finder, which always shows the YouTube publish date - see [Years and dates](#years-and-dates). |
 
 **Tidying titles and descriptions**
 
@@ -286,6 +286,20 @@ Some recordings cover a whole session or day with several talks. Where a recordi
 * **Plain lists of talks**, one per line with no times, are split into rows for playlists with `talk_list: true`, linking to the start of the recording.
 
 Recordings that don't list their talks are kept as one row. If a recording isn't split as you'd expect, check its description on YouTube - the best fix is usually to add timestamps to the description there, which also gives viewers chapters to jump between.
+
+#### Years and dates
+
+The collection entries and the Recordings Finder date recordings differently:
+
+* **Collection entries show a year.** It comes from the playlist's `label` if it contains one (e.g. `RPySOC 2025`), or otherwise from the year each video was uploaded. It's left blank for playlists with `no_year: true`.
+* **The Recordings Finder shows the date each recording was published on YouTube**, and its slider filters on that date. This is the only date available for every recording, so `label` years and `no_year` don't affect it.
+
+Most recordings are published within a few weeks of the event, so the two usually agree, but watch out for:
+
+* **Recordings uploaded long after the event**, which show their upload date in the Recordings Finder, even if their year is blank on their entry. For example, HSMA project showcases from earlier rounds show the date they were uploaded, in 2023-2025.
+* **Events late in the year whose recordings were published early the following year.** For example, RPySOC 2025 talks show 2025 on their entry, but January 2026 in the Recordings Finder.
+
+If a collection's dates could mislead, say so on its entry, e.g. "These recordings were uploaded in 2022, after HSMA 4 ran".
 
 #### Duplicates
 
