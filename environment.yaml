@@ -5,3 +5,4 @@ dependencies:
   - jupyter
   - nbformat
   - python=3.12
+  - pyyaml

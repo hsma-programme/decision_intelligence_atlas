@@ -59,6 +59,20 @@ Like working with Quarto, or want to give it a try?
 
 Head over to the [instructions in our GitHub readme](https://github.com/hsma-programme/decision_intelligence_atlas?tab=readme-ov-file#advanced-option-contributing-a-qmd-file) for details of how you can contribute to the Atlas via making a pull request on GitHub.
 
+## Add a collection of recordings
+
+The Atlas lists recordings of conference talks, webinars, workshops and lectures from across the health and care analytics community. Each collection has its own entry in the 'Recorded webinars and conference talks' section of the [Books, Training and Communities](/books_training/index.qmd) page, and they are all brought together in the searchable [Recordings Finder](/recordings/index.qmd).
+
+The recordings are pulled automatically from YouTube playlists, and refreshed every month, so once a playlist has been added, new videos in it will appear in the Atlas without anyone having to update it.
+
+### Without code
+
+Know of a YouTube playlist or channel with recordings that would be useful to people working in healthcare analytics? [Submit an issue](https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose) on the Atlas's GitHub repository with a link to it, and a sentence or two about who publishes the recordings and what they cover. We'll take it from there.
+
+### With code
+
+Adding a playlist to an existing collection, or a new collection of recordings, only takes a few lines in a configuration file. See the [instructions for adding YouTube recordings in our GitHub readme](https://github.com/hsma-programme/decision_intelligence_atlas?tab=readme-ov-file#adding-youtube-recordings) for details - you don't need a YouTube API key to contribute.
+
 ## Contributor Code of Conduct
 
 We want the Atlas to be a friendly and welcoming project for all people, regardless of your background or level of coding expertise.

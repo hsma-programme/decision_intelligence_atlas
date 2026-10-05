@@ -130,29 +130,140 @@ Templates for these types of contributions have not yet been set up - please che
 
 Alternatively, if you're up for the challenge of creating a template, please do feel free to raise an issue to discuss or create a pull request with your proposal.
 
-### Adding or updating YouTube recordings
+### Adding YouTube recordings
 
-The searchable tables of recordings on some Books, Training and Communities entries, and the [Recordings Finder](https://atlas.hsma.co.uk/recordings/), are built from YouTube playlists listed in `resources/recordings/collections.yml`.
+The Atlas lists recordings of conference talks, webinars, workshops and lectures from several YouTube playlists. Each set of recordings has its own Atlas entry with a searchable table of talks (for example, [NHS-OA Community: Conference Recordings](https://atlas.hsma.co.uk/books_training/nhs_oa_conference_recordings/)), and all of them are combined in the [Recordings Finder](https://atlas.hsma.co.uk/recordings/).
 
-To add a playlist, add it to an existing collection in that file, or add a new collection pointing to the folder of its Atlas entry (see the comments at the top of the file). Then:
+Don't want to touch the code? [Raise an issue](https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose) with a link to the playlist or channel, and we'll add it for you.
 
-1. Fetch the playlists' video details with the YouTube Data API. This needs an API key, set as the `YOUTUBE_API_KEY` environment variable or in a `.env` file in the project root (which is ignored by git):
+#### How it fits together
+
+* `resources/recordings/collections.yml` lists every **collection** of recordings. Each collection belongs to one Atlas entry, and lists the YouTube playlists (or individual videos) it contains.
+* `resources/scripts/fetch_youtube_playlists.py` uses the YouTube Data API to fetch the title, description, date and thumbnail of every video, writing them to a `videos.json` file in each collection's entry folder.
+* `resources/scripts/build_youtube_talks.py` turns each `videos.json` into a `talks.yml` file, with one row per talk, which is shown as a searchable table on the entry. It also writes `recordings/recordings.json`, which the Recordings Finder reads.
+* The **Update YouTube recordings** GitHub Action runs both scripts for every collection on the 1st of each month, commits any changes and republishes the site. It can also be run by hand from the repository's Actions tab, e.g. straight after a conference.
+
+#### Adding a playlist to an existing collection
+
+For example, to add next year's conference recordings, add the playlist to the collection's `playlists` in `resources/recordings/collections.yml`:
+
+```yaml
+nhs_oa_conferences:
+  folder: books_training/nhs_oa_conference_recordings
+  source: NHS-OA Community
+  playlists:
+    - label: RPySOC 2026
+      id: PLxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+      type: Conference talk
+    # ...existing playlists
+```
+
+The playlist ID is the part of the playlist's URL after `list=`. Playlists are listed on the entry and in the Recordings Finder in the order they appear in the file, so put the newest first.
+
+Then [fetch and build the recordings](#fetching-and-building-the-recordings), and preview the entry and the Recordings Finder.
+
+#### Adding a new collection
+
+1. **Create the Atlas entry.** Create a folder in `books_training/` and an `index.qmd` file, following the [instructions for creating a new entry](#creating-a-new-entry). Tag it with `Courses and Training or Reference Materials` and `Recorded Talks`, so it appears in the 'Recorded webinars and conference talks' section of the Books, Training and Communities page. Add a listing to its YAML header to show the table of talks:
+
+    ```yaml
+    listing:
+      - id: talk-recordings
+        contents: talks.yml
+        type: table
+        fields: [title, year, description]
+        field-display-names:
+          title: "Talk"
+          year: "Year"
+          description: "Details"
+        sort: "date desc"
+        filter-ui: [title, year, description]
+        sort-ui: [title, year]
+        page-size: 25
+    ```
+
+    and show it in the body of the entry:
+
+    ```
+    ## Search the talks
+
+    ::: {#talk-recordings}
+    :::
+    ```
+
+    If the collection has more than one playlist, you can add `event` to `fields` to show each playlist's label (e.g. the conference or round), and use `sort: false` to keep the order from `collections.yml`. See the existing recording entries, such as `books_training/nhs_oa_conference_recordings/index.qmd`, for examples.
+
+2. **Add the collection** to `resources/recordings/collections.yml`:
+
+    ```yaml
+    my_new_collection:
+      folder: books_training/my_new_collection
+      source: Name of the community or organisation
+      playlists:
+        - label: Webinars
+          id: PLxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          type: Webinar
+    ```
+
+3. **Add the entry to the Sources list** at the bottom of `recordings/index.qmd`.
+
+4. **[Fetch and build the recordings](#fetching-and-building-the-recordings)**, then preview the new entry and the Recordings Finder.
+
+If you don't have a YouTube API key, you can skip fetching: the build script will create an empty table for the new collection, and its videos will be fetched by the GitHub Action, or by a maintainer, once your pull request is merged.
+
+#### Collection options
+
+Each collection in `collections.yml` has:
+
+| Option | Required? | Description |
+|---|---|---|
+| `folder` | Yes | The folder of the collection's Atlas entry. |
+| `source` | Yes | Who published the recordings, shown in the Recordings Finder's Source column and filter. Collections from the same community should use the same source. |
+| `playlists` | Yes | The playlists in the collection (see below). |
+| `exclude_playlists` | No | Leave out any videos that are also in these playlists, e.g. to avoid listing the same talk in two collections. |
+| `exclude_videos` | No | Leave out these videos, e.g. promotional videos or untitled recordings. |
+
+Each playlist has:
+
+| Option | Required? | Description |
+|---|---|---|
+| `label` | Yes | The playlist's name, shown in the Event column when a collection has more than one playlist. Must be unique within the collection. If it contains a year (e.g. `RPySOC 2025`), that year is used for all of its videos; otherwise each video's upload date is used. |
+| `id` | Yes, unless using `videos` | The YouTube playlist ID. To include all of a channel's uploads, use its uploads playlist ID: its channel ID with `UC` at the start replaced by `UU`. |
+| `videos` | No | A list of video IDs to include in place of a playlist, e.g. to pick a few videos out of a larger playlist. |
+| `type` | Yes | The kind of recording (e.g. `Conference talk`, `Webinar`, `Workshop`, `Lecture`), shown in the Recordings Finder's Type column and filter. Reuse an existing type where one fits. |
+| `types_by_title` | No | For playlists mixing different kinds of recording: a list of `pattern` (a regular expression) and `type`. Videos whose titles match a pattern get that type instead. |
+| `no_year` | No | Set to `true` to leave the year blank, e.g. where videos were uploaded long after the event. |
+| `talk_list` | No | Set to `true` if session recordings list their talks one per line without timestamps (see below). |
+
+#### How recordings are split into talks
+
+Some recordings cover a whole session or day with several talks. Where a recording's description lists the talks, `build_youtube_talks.py` splits it into one row per talk:
+
+* **Timestamps**, such as `34:23 Speaker - Talk title`, `1:02:03 Talk title` or `1. (0:30) Talk title`, become separate rows whose links start the video at that talk.
+* **Programme times**, such as `09:30 Speaker - Talk title`, are times of day rather than positions in the video, so their rows link to the start of the recording.
+* **Plain lists of talks**, one per line with no times, are split into rows for playlists with `talk_list: true`, linking to the start of the recording.
+
+Recordings that don't list their talks are kept as one row. If a recording isn't split as you'd expect, check its description on YouTube - the best fix is usually to add timestamps to the description there, which also gives viewers chapters to jump between.
+
+#### Fetching and building the recordings
+
+1. **Fetch** the video details with the YouTube Data API:
 
     ```
     python resources/scripts/fetch_youtube_playlists.py [collection ...]
     ```
 
-    This writes a `videos.json` file to each collection's folder. Leave out the collection names to fetch all of them.
+    Give the names of the collections to fetch (e.g. `nhs_oa_conferences`), or leave them out to fetch all of them. This needs a YouTube Data API key, set as the `YOUTUBE_API_KEY` environment variable or in a `.env` file in the project root (`YOUTUBE_API_KEY=your-key-here`), which is ignored by git. To get a free key, create a project in the [Google Cloud Console](https://console.cloud.google.com/), enable the YouTube Data API v3, and create an API key under 'Credentials', restricting it to the YouTube Data API v3 only. Fetching every collection uses well under 1% of the free daily quota.
 
-2. Build the tables of talks. This doesn't need an API key:
+2. **Build** the tables of talks. This doesn't need an API key:
 
     ```
     python resources/scripts/build_youtube_talks.py
     ```
 
-    This writes a `talks.yml` file to each collection's folder, used as the contents of a listing on its entry, and `recordings/recordings.json` for the Recordings Finder. Long recordings are split into one row per talk where their descriptions list the talks.
+Both scripts need the `pyyaml` package, which is included in the project's `environment.yaml`. Commit the updated `videos.json` and `talks.yml` files, and `recordings/recordings.json`, along with your other changes.
 
-The **Update YouTube recordings** GitHub Action runs both steps for all collections on the 1st of each month, commits any changes and republishes the site. It uses the `YOUTUBE_API_KEY` repository secret, and can also be run by hand from the repository's Actions tab, e.g. straight after a conference.
+For the GitHub Action, the API key is stored as the `YOUTUBE_API_KEY` repository secret (Settings > Secrets and variables > Actions).
 
 ### Making other suggestions
 

@@ -323,9 +323,16 @@ def main():
     recordings = []
     for name, collection in config.items():
         folder = Path(collection["folder"])
-        playlists = json.loads((folder / "videos.json").read_text(encoding="utf-8"))["playlists"]
-        playlist_config = {playlist["label"]: playlist for playlist in collection["playlists"]}
-        items = build_talks(playlists, playlist_config)
+        videos_file = folder / "videos.json"
+        if videos_file.exists():
+            playlists = json.loads(videos_file.read_text(encoding="utf-8"))["playlists"]
+            playlist_config = {playlist["label"]: playlist for playlist in collection["playlists"]}
+            items = build_talks(playlists, playlist_config)
+        else:
+            # Not fetched yet, e.g. a new collection added without an API key.
+            # Write an empty table so its entry still renders.
+            print(f"{name}: no {videos_file} - run fetch_youtube_playlists.py to fetch its videos")
+            items = []
 
         out_file = folder / "talks.yml"
         out_file.write_text(
