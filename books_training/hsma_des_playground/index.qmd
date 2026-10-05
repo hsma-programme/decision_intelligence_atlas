@@ -6,6 +6,7 @@ categories:
   - Service Planning
   - Identifying Bottlenecks
   - Courses and Training or Reference Materials
+  - Interactive Learning Tools
 tool-language:
   - Python
   - Desktop or Web End-user Application

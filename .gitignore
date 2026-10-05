@@ -3,3 +3,7 @@ docs/
 **/*.quarto_ipynb
 site_libs/
 /.luarc.json
+.env
+*.env
+**.env
+__pycache__/

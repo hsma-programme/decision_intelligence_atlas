@@ -63,7 +63,11 @@ Templates for other kinds of content will follow in the future.
 To create your own entry:
 
 1. Create a folder in `packages_projects_tools/` named after your tool. Use only letters, numbers, hyphens(`-`) or underscores (`_`); no spaces or other special characters.
-    - If your entry is a book, course, tutorial or other training resource (category `Courses and Training or Reference Materials`), create the folder in `books_training/` instead. It uses the same template and conventions.
+    - If your entry is a book, course, tutorial, other training resource or community, create the folder in `books_training/` instead. It uses the same template and conventions. Tag it with `Courses and Training or Reference Materials`, plus **exactly one** of the following to choose where it appears on the [Books, Training and Communities](https://atlas.hsma.co.uk/books_training/) page:
+        - `Books` - Books section. Books are listed as healthcare-specific by default; also add `General Open Analytics` if the book isn't specific to healthcare.
+        - `Courses`, `Interactive Learning Tools`, `Reference Sites` or `Recorded Talks` (recorded webinars and conference talks) - the matching subsection of the Training section. `Courses` entries must also be tagged `Synchronous` (taught live at set times), `Asynchronous` (self-paced materials) or both, which shows as a tag on the course's card.
+        - `Communities` - Communities section.
+    - If a book has to be bought or needs a paid subscription to read, also tag it with `Paid Resources` so it appears in the 'Paid books' subsection, and add `<i class="fa-solid fa-sterling-sign" title="Paid resource"></i>` to its `project-type`.
     - Note that there are currently a lot of placeholders for various tools/packages/projects that @Bergam0t thinks should be added, which will just contain an empty file called `.gitkeep` that's used to tell GitHub to make the folder. You are very welcome to submit an entry for one of these! In that case, you just won't need to create a new folder - use the one that's already there.
 
 2. Copy the template `.qmd` file from the `templates/` folder into your tool folder. Rename it to `index.qmd`.
@@ -83,7 +87,7 @@ To create your own entry:
 
 ##### Editing an existing entry
 
-You are also welcome to suggest edits to an existing entry via a pull request. Please look in the folder `packages_projects_tools/` (or `books_training/` for books, courses and training resources) for a folder named after the tool you'd like to edit. Inside the folder, you'll find an `index.qmd` file - this is where you can make edits to the tags and details.
+You are also welcome to suggest edits to an existing entry via a pull request. Please look in the folder `packages_projects_tools/` (or `books_training/` for books, courses, training resources and communities) for a folder named after the tool you'd like to edit. Inside the folder, you'll find an `index.qmd` file - this is where you can make edits to the tags and details.
 
 You can look at the URL to find out the filepath you need to look for.
 
@@ -125,6 +129,30 @@ It will take a few minutes, but you should then be presented with a web-based ve
 Templates for these types of contributions have not yet been set up - please check back soon!
 
 Alternatively, if you're up for the challenge of creating a template, please do feel free to raise an issue to discuss or create a pull request with your proposal.
+
+### Adding or updating YouTube recordings
+
+The searchable tables of recordings on some Books, Training and Communities entries, and the [Recordings Finder](https://atlas.hsma.co.uk/recordings/), are built from YouTube playlists listed in `resources/recordings/collections.yml`.
+
+To add a playlist, add it to an existing collection in that file, or add a new collection pointing to the folder of its Atlas entry (see the comments at the top of the file). Then:
+
+1. Fetch the playlists' video details with the YouTube Data API. This needs an API key, set as the `YOUTUBE_API_KEY` environment variable or in a `.env` file in the project root (which is ignored by git):
+
+    ```
+    python resources/scripts/fetch_youtube_playlists.py [collection ...]
+    ```
+
+    This writes a `videos.json` file to each collection's folder. Leave out the collection names to fetch all of them.
+
+2. Build the tables of talks. This doesn't need an API key:
+
+    ```
+    python resources/scripts/build_youtube_talks.py
+    ```
+
+    This writes a `talks.yml` file to each collection's folder, used as the contents of a listing on its entry, and `recordings/recordings.json` for the Recordings Finder. Long recordings are split into one row per talk where their descriptions list the talks.
+
+The **Update YouTube recordings** GitHub Action runs both steps for all collections on the 1st of each month, commits any changes and republishes the site. It uses the `YOUTUBE_API_KEY` repository secret, and can also be run by hand from the repository's Actions tab, e.g. straight after a conference.
 
 ### Making other suggestions
 

@@ -4,6 +4,8 @@ aliases:
   - /packages_projects_tools/somerset_data_science_course/index.html
 categories:
   - Courses and Training or Reference Materials
+  - Courses
+  - Asynchronous
 tool-language:
   - Python
 status: '<span style="color: #888888FF">Silver</span>'
@@ -20,7 +22,7 @@ author:
 pub-info:
   project-type: <i class="fa-solid fa-hospital"></i>
   rationale-for-status: |
-    Clear organised codebase which generates a training website. Status categories less relevant (e.g., often hard-coded, but that makes sense as it is training materials!).
+    Excellent course with clear progression written by an experienced team in the NHS. However, as it is more designed to accompany in-person delivery, it may be more difficult to get started with if you have zero prior experience.
   entry-author:
     - name: Amy Heather
       url: https://github.com/amyheather

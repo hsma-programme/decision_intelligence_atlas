@@ -1,0 +1,56 @@
+---
+title: "HSMA: Programming in Python"
+categories:
+  - Courses and Training or Reference Materials
+  - Books
+  - General Open Analytics
+tool-language:
+  - Python
+status: '<span style="color: #D18B12FF">Gold</span>'
+image: hsma_python_book.png
+author:
+    - name: Dr Daniel Chalk
+      affiliation: Health Service Modelling Associates Programme (HSMA), NIHR PenArc, University of Exeter
+      url: https://experts.exeter.ac.uk/19916-daniel-chalk/about
+    - name: Sammi Rosser
+      affiliation: Health Service Modelling Associates Programme (HSMA), NIHR PenArc, University of Exeter
+      url: https://github.com/Bergam0t
+pub-info:
+  project-type: <i class="fa-solid fa-user-graduate"></i>
+  rationale-for-status: |
+    Content is based on a module written by an experienced team of academics with over a decade in the operational research and data science space, adapted into book form by an ex-NHS data scientist.
+  entry-author:
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
+  abstract: |
+    HSMA: Programming in Python is a free eBook that teaches Python from scratch, written to accompany the introductory module of the Health Service Modelling Associates (HSMA) programme. It covers data types, lists, dictionaries, loops, conditional logic, functions, packages, error handling and object oriented programming, plus an introduction to numpy, pandas and creating graphs.
+  links:
+  - name: Code
+    url: https://github.com/hsma-programme/hsma6_intro_to_python_book
+    icon: fa-brands fa-github
+  - name: eBook
+    url: https://python.hsma.co.uk
+    icon: fa-solid fa-book
+date: "2026-10-05T00:00:00+01:00"
+---
+
+[![HSMA Programming in Python Homepage](hsma_python_book.png)](https://python.hsma.co.uk)
+
+HSMA: Programming in Python is a free eBook written to accompany the [introductory module](/books_training/hsma_intro_programming_module/index.qmd) of the [Health Service Modelling Associates (HSMA) programme](/books_training/hsma_programme/index.qmd). It adapts Dr Daniel Chalk's HSMA lectures into book form.
+
+The book is aimed at absolute beginners, including people who are brand new to programming in general. It takes you from "hello world" through to:
+
+- data types, lists and dictionaries
+- loops and conditional logic
+- using and writing functions
+- importing packages
+- handling errors
+- object oriented programming
+
+It also includes a brief look at handling data with the numpy and pandas packages, and a quick introduction to creating static and interactive graphs.
+
+The book is an important starting point before moving on to the other HSMA books, such as the [Little Book of Discrete Event Simulation](/books_training/hsma_little_book_of_des/index.qmd).
+
+## View the book
+
+To view the book, click on the image above or go to <https://python.hsma.co.uk>.

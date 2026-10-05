@@ -9,11 +9,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-* New pages for: `ConcurrentSim`, Julia for Healthcare.
+* New pages for: `ConcurrentSim`, Julia for Healthcare, Visualizing Health and Healthcare Data (the first paid book), NHS-OA webinars, workshops and conference recordings, NHS.pycom talk recordings, National Analyst Network Huddle recordings, HSMA project showcase recordings.
 
 ### Changed
 
 * Projects now grouped by language rather than analysis type.
+* "Books and Training" page renamed to "Books, Training and Communities" and split into Books (healthcare-specific / general open analytics), Training (courses / interactive tools / reference sites) and Communities sections, using new `Communities`, `Courses`, `Interactive Learning Tools`, `Reference Sites` and `General Open Analytics` categories. `check_yaml.py` now checks each entry appears in exactly one section.
+* Added a 'Paid books' subsection to the Books, Training and Communities page, using a new `Paid Resources` category and a <i class="fa-solid fa-sterling-sign"></i> icon in `project-type`, plus an icon key on that page. `check_yaml.py` checks `Paid Resources` is only used with `Books` and that the icon is present.
+* Added `Synchronous` and `Asynchronous` categories for courses, shown as tags on listing cards. `check_yaml.py` checks every `Courses` entry has at least one, and that they are only used with `Courses`.
+* Added a 'Recorded webinars and conference talks' subsection to the Training section, using a new `Recorded Talks` category.
+* Recording entries now include searchable tables of their talks, built from YouTube playlists using `fetch_youtube_playlists.py` and `build_youtube_talks.py`, and configured in `resources/recordings/collections.yml`.
+* New Recordings Finder page, bringing together recordings from all of these collections in one table with search and filters, linked from the homepage.
 
 ## v0.2.0 (2025-11-19)
 

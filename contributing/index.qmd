@@ -41,14 +41,14 @@ Choose 'New Package, Project or Tool Submission'
 
 You'll then be provided with a form to gather the information we need to create a new Atlas entry - no code required.
 
-This form is also the route for submitting books, courses and other training resources - just choose the 'Courses and Training or Reference Materials' category, and your entry will be added to the [Books and Training](/books_training/index.qmd) page.
+This form is also the route for submitting books, courses, other training resources and communities - just choose the 'Courses and Training or Reference Materials' category, plus one of 'Books', 'Courses', 'Interactive Learning Tools', 'Reference Sites', 'Recorded Talks' or 'Communities' (and 'General Open Analytics' for books that aren't specific to healthcare, or 'Paid Resources' for books that aren't free to read, and 'Synchronous' and/or 'Asynchronous' for courses that are taught live or are self-paced), and your entry will be added to the [Books, Training and Communities](/books_training/index.qmd) page.
 
 ![](assets/2025-12-01-18-05-56.png)
 
 With a bit of GitHub actions wizardry, your form will be translated into the format the website need. A member of the Atlas team will then review this file and make any necessary tweaks before incorporating it into the site.
 
 :::{.callout-note}
-At the moment, it's only possible to contribute a package, project, tool or training resource in this way.
+At the moment, it's only possible to contribute a package, project, tool, book, training resource or community in this way.
 
 We may add the option to contribute techniques or graph catalogue entries in this way in the future - check back or let us know if this is something you'd be interested in.
 :::

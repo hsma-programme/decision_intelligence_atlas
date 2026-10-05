@@ -1,0 +1,1354 @@
+{
+  "playlists": [
+    {
+      "label": "RPySOC 2025",
+      "id": "PLXCrMzQaI6c0kEKt4lN0659WQj_-SNUr_",
+      "videos": [
+        {
+          "id": "PKMWHemidIw",
+          "title": "RPySOC 2025: Welcome Speech",
+          "description": "Talk: Welcome speech and community merger announcement\n\nSpeaker: Dr Claire Welsh",
+          "published": "2026-02-04T10:58:48Z",
+          "duration": "PT13M51S",
+          "thumbnail": "https://i.ytimg.com/vi/PKMWHemidIw/mqdefault.jpg"
+        },
+        {
+          "id": "Njm87gLaK9Q",
+          "title": "Total Eclipse of the Excel Chart",
+          "description": "Talk: Total Eclipse of the Excel Chart - A reflection on 12 years of teaching modelling and data science in the NHS\n\nSpeaker: Dr Dan Chalk",
+          "published": "2026-02-04T10:51:33Z",
+          "duration": "PT35M2S",
+          "thumbnail": "https://i.ytimg.com/vi/Njm87gLaK9Q/mqdefault.jpg"
+        },
+        {
+          "id": "glJ9rBBrP7o",
+          "title": "Beautifully reproducible dataviz: lessons learnt from building data-to-viz pipelines",
+          "description": "Talk: Beautifully reproducible dataviz: lessons learnt from building data-to-viz pipelines\n\nSpeaker: Cara Thompson",
+          "published": "2026-02-04T10:51:36Z",
+          "duration": "PT26M26S",
+          "thumbnail": "https://i.ytimg.com/vi/glJ9rBBrP7o/mqdefault.jpg"
+        },
+        {
+          "id": "bXg37CCbDtU",
+          "title": "Using open data and open source code to create an open elective waiting lists modelling tool",
+          "description": "Talk: Using open data and open source code to create an open elective waiting lists modelling tool (RTT Planner)\n\nSpeaker: Sebastian Fox",
+          "published": "2026-02-04T10:51:40Z",
+          "duration": "PT18M15S",
+          "thumbnail": "https://i.ytimg.com/vi/bXg37CCbDtU/mqdefault.jpg"
+        },
+        {
+          "id": "e_TCVkOXjYI",
+          "title": "opencodecounts: An R package and Shiny app exploring NHS clinical coding data",
+          "description": "Talk: opencodecounts: An R package and Shiny app exploring NHS clinical coding data\n\nSpeaker: Milan Wiedemann",
+          "published": "2026-02-04T10:51:46Z",
+          "duration": "PT11M29S",
+          "thumbnail": "https://i.ytimg.com/vi/e_TCVkOXjYI/mqdefault.jpg"
+        },
+        {
+          "id": "OOeJsnYEVhQ",
+          "title": "DES-igning Better Flow: Modelling Non-Elective Admissions",
+          "description": "Talk: DES-igning Better Flow: Modelling Non-Elective Admissions\n\nSpeaker: Helena Robinson",
+          "published": "2026-02-04T10:51:51Z",
+          "duration": "PT10M41S",
+          "thumbnail": "https://i.ytimg.com/vi/OOeJsnYEVhQ/mqdefault.jpg"
+        },
+        {
+          "id": "pOrBY_9aJp8",
+          "title": "Mapping Accessibility: Using R5py and GTFS Data to Optimise Women’s Health Hub Locations in Sussex",
+          "description": "Talk: Mapping Accessibility: Using R5py and GTFS Data to Optimise Women’s Health Hub Locations in the Sussex\n\nSpeaker: Karrie LIU",
+          "published": "2026-02-04T10:51:54Z",
+          "duration": "PT9M",
+          "thumbnail": "https://i.ytimg.com/vi/pOrBY_9aJp8/mqdefault.jpg"
+        },
+        {
+          "id": "1xL9z7jNwgk",
+          "title": "3 years on NHS-RPy Unconference: open, self-organising exchange of ideas",
+          "description": "Talk: 3 years on NHS-RPy Unconference: open, self-organising exchange of ideas\n\nSpeakers: Dr Pawel Orzechowski and Dr Brittany Blankinship",
+          "published": "2026-02-04T10:52:00Z",
+          "duration": "PT10M19S",
+          "thumbnail": "https://i.ytimg.com/vi/1xL9z7jNwgk/mqdefault.jpg"
+        },
+        {
+          "id": "drewjDzz3LA",
+          "title": "Design a model for Community pharmacy workforce with open source data",
+          "description": "Talk: Design a model for Community pharmacy workforce with open source data\n\nSpeaker: Chaeyoon Kim",
+          "published": "2026-02-04T10:52:03Z",
+          "duration": "PT11M43S",
+          "thumbnail": "https://i.ytimg.com/vi/drewjDzz3LA/mqdefault.jpg"
+        },
+        {
+          "id": "42b6om-Avfw",
+          "title": "Word is better than Quarto?",
+          "description": "Talk: Word is better than Quarto? \n\nSpeaker: Jacqueline Grout",
+          "published": "2026-02-04T10:52:07Z",
+          "duration": "PT22M5S",
+          "thumbnail": "https://i.ytimg.com/vi/42b6om-Avfw/mqdefault.jpg"
+        },
+        {
+          "id": "9d0cZ1Z_giI",
+          "title": "Deploying Python in production: containers, kubernetes and embracing yaml",
+          "description": "Talk: Deploying Python in production: containers, kubernetes and embracing yaml\n\nSpeaker: Amadeus Stevenson",
+          "published": "2026-02-04T10:52:11Z",
+          "duration": "PT20M47S",
+          "thumbnail": "https://i.ytimg.com/vi/9d0cZ1Z_giI/mqdefault.jpg"
+        },
+        {
+          "id": "kkJ45N_HvBE",
+          "title": "Modelling Community waiting lists with NHS-R waiting list library",
+          "description": "Talk: Modelling Community waiting lists with NHS-R waiting list library\n\nSpeaker: Simon Wellesley-Miller",
+          "published": "2026-02-04T10:52:14Z",
+          "duration": "PT10M41S",
+          "thumbnail": "https://i.ytimg.com/vi/kkJ45N_HvBE/mqdefault.jpg"
+        },
+        {
+          "id": "lodB2zdmRaQ",
+          "title": "Using APIs in R to obtain Health indicators for interactive visualizations",
+          "description": "Talk: Using APIs in R to obtain Health indicators for interactive visualizations\n\nSpeaker: Pablo Leon-Rodenas",
+          "published": "2026-02-04T10:52:17Z",
+          "duration": "PT8M4S",
+          "thumbnail": "https://i.ytimg.com/vi/lodB2zdmRaQ/mqdefault.jpg"
+        },
+        {
+          "id": "tH057N-iiTo",
+          "title": "The story of patientflow: from hospital prototype to Python package",
+          "description": "Talk: The story of patientflow: from hospital prototype to Python package\n\nSpeaker: Dr Zella King",
+          "published": "2026-02-04T10:52:20Z",
+          "duration": "PT17M57S",
+          "thumbnail": "https://i.ytimg.com/vi/tH057N-iiTo/mqdefault.jpg"
+        },
+        {
+          "id": "DHWcD2NS-ro",
+          "title": "Going for Gold: Adopting RAP-by-default to Create Analysts from Nowhere",
+          "description": "Talk: Going for Gold: Adopting RAP-by-default to Create Analysts from Nowhere\n\nSpeaker: Joseph Wilson",
+          "published": "2026-02-04T10:52:25Z",
+          "duration": "PT20M57S",
+          "thumbnail": "https://i.ytimg.com/vi/DHWcD2NS-ro/mqdefault.jpg"
+        },
+        {
+          "id": "x7H5qiQMpRs",
+          "title": "Zhuzhing custom error messages with {cli}",
+          "description": "Talk: Zhuzhing custom error messages with {cli}\n\nSpeaker: Fran Barton",
+          "published": "2026-02-04T10:52:28Z",
+          "duration": "PT8M1S",
+          "thumbnail": "https://i.ytimg.com/vi/x7H5qiQMpRs/mqdefault.jpg"
+        },
+        {
+          "id": "qDBYP3pzz4U",
+          "title": "Shattered pottery and cancer data: using R to rejoin the pieces",
+          "description": "Talk: Shattered pottery and cancer data: using R to rejoin the pieces\n\nSpeaker: Joe Shaw",
+          "published": "2026-02-04T10:52:31Z",
+          "duration": "PT7M41S",
+          "thumbnail": "https://i.ytimg.com/vi/qDBYP3pzz4U/mqdefault.jpg"
+        },
+        {
+          "id": "JU0DG0hB1bQ",
+          "title": "Reusable by Default: Reflections on Building Sustainable Open Tools and Knowledge for Healthcare",
+          "description": "Talk: Reusable by Default: Reflections on Building Sustainable Open Tools and Knowledge for Healthcare\n\nSpeaker: Sammi Rosser",
+          "published": "2026-02-04T10:52:36Z",
+          "duration": "PT30M32S",
+          "thumbnail": "https://i.ytimg.com/vi/JU0DG0hB1bQ/mqdefault.jpg"
+        },
+        {
+          "id": "fwZX0mC7rLo",
+          "title": "A Short Story of a Short Course - Natural Language Processing in R for Health and Social Care",
+          "description": "Talk: A Short Story of a Short Course - Natural Language Processing in R for Health and Social Care\n\nSpeaker: Dr Pawel Orzechowski and Dr Brittany Blankinship",
+          "published": "2026-02-04T10:52:39Z",
+          "duration": "PT9M5S",
+          "thumbnail": "https://i.ytimg.com/vi/fwZX0mC7rLo/mqdefault.jpg"
+        },
+        {
+          "id": "ipriM7ETfZc",
+          "title": "Practical Testing for Reproducible Analytical Pipelines",
+          "description": "Talk: Practical Testing for Reproducible Analytical Pipelines\n\nSpeaker: Thomas Jemmett",
+          "published": "2026-02-04T10:52:43Z",
+          "duration": "PT21M33S",
+          "thumbnail": "https://i.ytimg.com/vi/ipriM7ETfZc/mqdefault.jpg"
+        },
+        {
+          "id": "frqLr5nM9ZY",
+          "title": "Building QA into everyday workflows with GitHub",
+          "description": "Talk: Building QA into everyday workflows with GitHub\n\nSpeaker: Rhian Davies",
+          "published": "2026-02-04T10:52:48Z",
+          "duration": "PT9M21S",
+          "thumbnail": "https://i.ytimg.com/vi/frqLr5nM9ZY/mqdefault.jpg"
+        },
+        {
+          "id": "UenglxXd2us",
+          "title": "How we delivered the OpenSAFELY platform to analyse the whole population’s GP records",
+          "description": "Talk: How we delivered the OpenSAFELY platform to analyse the whole population’s GP records securely, transparently, with open code\n\nSpeaker: Professor Ben Goldacre",
+          "published": "2026-02-04T10:52:52Z",
+          "duration": "PT31M51S",
+          "thumbnail": "https://i.ytimg.com/vi/UenglxXd2us/mqdefault.jpg"
+        },
+        {
+          "id": "a5C47SJWHUU",
+          "title": "Patient-Level Analytics That Work",
+          "description": "Talk: Patient-Level Analytics That Work: Using R to Achieve Rapid, Sustained MRSA Screening Compliance Improvements\n\nSpeaker: Daniel Weiand",
+          "published": "2026-02-04T10:53:00Z",
+          "duration": "PT16M26S",
+          "thumbnail": "https://i.ytimg.com/vi/a5C47SJWHUU/mqdefault.jpg"
+        },
+        {
+          "id": "N0KZbtC_Vqg",
+          "title": "Using simulation to evaluate a service",
+          "description": "Talk: Using simulation to evaluate a service: what to do when you've got no data, no clear questions, and no clue if it's working\n\nSpeaker: Chris Mainey",
+          "published": "2026-02-04T10:53:02Z",
+          "duration": "PT18M31S",
+          "thumbnail": "https://i.ytimg.com/vi/N0KZbtC_Vqg/mqdefault.jpg"
+        },
+        {
+          "id": "nAeqfg0ISSw",
+          "title": "Making national cancer audit reporting Shiny: a journey from Excel to web-based apps using R and RAP",
+          "description": "Talk: Making national cancer audit reporting Shiny: a journey from Excel to web-based apps using R and Reproducible Analytical Pipelines\n\nSpeaker: Ella Barber",
+          "published": "2026-02-04T10:53:05Z",
+          "duration": "PT13M33S",
+          "thumbnail": "https://i.ytimg.com/vi/nAeqfg0ISSw/mqdefault.jpg"
+        },
+        {
+          "id": "Jsna0bgPHNc",
+          "title": "Better together: lessons from RAP drop-ins",
+          "description": "Talk: Better together: lessons from RAP drop-ins\n\nSpeaker: YiWen Hon",
+          "published": "2026-02-04T10:53:09Z",
+          "duration": "PT8M48S",
+          "thumbnail": "https://i.ytimg.com/vi/Jsna0bgPHNc/mqdefault.jpg"
+        },
+        {
+          "id": "tWcLIMTQb8A",
+          "title": "Predicting Outpatient Non-Attendance",
+          "description": "Talk: Predicting Outpatient Non-Attendance\n\nSpeaker: Peter Andrews",
+          "published": "2026-02-04T10:53:12Z",
+          "duration": "PT8M59S",
+          "thumbnail": "https://i.ytimg.com/vi/tWcLIMTQb8A/mqdefault.jpg"
+        },
+        {
+          "id": "d97_XRoYFUU",
+          "title": "Introduction to Causal Inference for R and Python users",
+          "description": "Talk: Introduction to Causal Inference for R and Python users\n\nSpeaker: Nathan Thomas",
+          "published": "2026-02-04T10:53:16Z",
+          "duration": "PT15M39S",
+          "thumbnail": "https://i.ytimg.com/vi/d97_XRoYFUU/mqdefault.jpg"
+        },
+        {
+          "id": "N7glrf9mLkk",
+          "title": "Publishing reproducible websites using R Quarto: Camden's JSNA Hub",
+          "description": "Talk: Publishing reproducible websites using R Quarto: Camden's JSNA Hub\n\nSpeaker: Annie Yu",
+          "published": "2026-02-04T10:53:24Z",
+          "duration": "PT9M33S",
+          "thumbnail": "https://i.ytimg.com/vi/N7glrf9mLkk/mqdefault.jpg"
+        },
+        {
+          "id": "8b0zgCahr5k",
+          "title": "What Patients Ask: Harnessing Free-Text Data for Patient-Centred Care",
+          "description": "Talk: What Patients Ask: Harnessing Free-Text Data for Patient-Centred Care\n\nSpeaker: Mimi Reyburn",
+          "published": "2026-02-04T10:53:28Z",
+          "duration": "PT10M17S",
+          "thumbnail": "https://i.ytimg.com/vi/8b0zgCahr5k/mqdefault.jpg"
+        },
+        {
+          "id": "v5OaYnKPZaQ",
+          "title": "RPySOC 2025: Closing Speech",
+          "description": "Talk: Closing speech\n\nSpeaker: Dr Claire Welsh",
+          "published": "2026-02-04T10:58:53Z",
+          "duration": "PT6M47S",
+          "thumbnail": "https://i.ytimg.com/vi/v5OaYnKPZaQ/mqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "label": "RPySOC 2024",
+      "id": "PLXCrMzQaI6c2vQUabRSOg9_FCxp6x6cVg",
+      "videos": [
+        {
+          "id": "SD_GZ1URYzI",
+          "title": "RPYSOC 24 - 22 Nov - Day two afternoon 1",
+          "description": "Presenting fingertips in data in a more friendly format: Rachel Brown\nA method to apply temporal graph analysis on electronic patient record data to explore healthcare professional patient interaction intensity: John Booth\nDeploying a Shiny app with Docker in a Raspberry Pi: Pablo León Ródenas\nEstimating flexible hazard rates for C diff recurrence from electronic health records using the SplinHazard Regression package and other methods in R: Elisabeth Dietz\nAssessment of patient feedback using Natural Language Processing (NLP) and textual data analysis in R: Ana Singh",
+          "published": "2024-12-10T14:36:47Z",
+          "duration": "PT1H24M55S",
+          "thumbnail": "https://i.ytimg.com/vi/SD_GZ1URYzI/mqdefault.jpg"
+        },
+        {
+          "id": "TdfkSNIIGps",
+          "title": "RPYSOC 24 - 22 Nov - Day two morning 2",
+          "description": "New genetic tests for cancer – why R is a clinical scientist's best friend: Joe Shaw\nBeyond automation: a shiny app to maximise analytical impact in routine reporting: Laura Birks\nSharpening my Python skills through self-development of web scraping bank complaints data: Kenneth Quan\nGitHub as a team sport: Matt Dray",
+          "published": "2024-12-10T14:35:14Z",
+          "duration": "PT1H2M56S",
+          "thumbnail": "https://i.ytimg.com/vi/TdfkSNIIGps/mqdefault.jpg"
+        },
+        {
+          "id": "JfKWT7YbW0k",
+          "title": "RPYSOC 24 - 21 Nov - Day one - afternoon 1",
+          "description": "What insights did Glasgow Scottish Ambulance Service (SAS) gain from combining multiple data sources about all chest pain patients from 2023? We'll present about the process and findings of a 1-year long MSc dissertation project: Katalin Koszegi\nPredictive Modelling for health and social care capacity planning using open data: Sebastian Fox\nTo explain or predict:  how different modelling objectives change how you use the same tools: Chris Mainey\nUsing openxlsx2 to Automate Excel Publications: Ruth Keane",
+          "published": "2024-12-10T14:33:25Z",
+          "duration": "PT1H9M47S",
+          "thumbnail": "https://i.ytimg.com/vi/JfKWT7YbW0k/mqdefault.jpg"
+        },
+        {
+          "id": "z_RkSDTJhj4",
+          "title": "RPYSOC 24 - 22 Nov - Day two afternoon 2",
+          "description": "Forged in the fire: agile project management lessons from the frontline: Chris Beeley\nCommunity Talk: The Turing Way: Sophia Batchelor\nCommunity Talk -NHS.Pycom: Alex Cheung\nClosing talk NHS-R Community: Zoë Turner",
+          "published": "2024-12-09T11:07:24Z",
+          "duration": "PT1H5M37S",
+          "thumbnail": "https://i.ytimg.com/vi/z_RkSDTJhj4/mqdefault.jpg"
+        },
+        {
+          "id": "s21lNo3pZVQ",
+          "title": "RPYSOC 24 - 22 Nov - Day two - morning 1",
+          "description": "The Reusability Crisis in Healthcare Analytics: Rhian Davies\nShift staffing via task load prediction: Marcos Fabietti\nUnleashing the power of pathway simulation: Sammi Rosser",
+          "published": "2024-12-09T10:47:29Z",
+          "duration": "PT1H15S",
+          "thumbnail": "https://i.ytimg.com/vi/s21lNo3pZVQ/mqdefault.jpg"
+        },
+        {
+          "id": "KgLsjY7xgAQ",
+          "title": "RPYSOC 24 - 21 Nov - Day one afternoon 2",
+          "description": "What I learnt about (programming) languages by building bilingual websites: Rosemary Walmsley\nLeveraging R to implement novel theoretical development in online ‘digital twin’ simulation modelling: Richard Wood\nShould I use your package: Colin Gillespie\nCracking open the TiN:  how we build a one-stop statistics website using R, GitHub and BigQuery: Mohan Dell",
+          "published": "2024-12-09T10:40:35Z",
+          "duration": "PT1H10M7S",
+          "thumbnail": "https://i.ytimg.com/vi/KgLsjY7xgAQ/mqdefault.jpg"
+        },
+        {
+          "id": "5R7lx4FW7Z0",
+          "title": "RPYSOC 24 - 21 Nov - Day one - morning 2",
+          "description": "Reimagining NHS dashboards:  an open-source approach with plotly-dash: Jennifer Struthers\nUsing Machine Learning and secondary care activity data to identify risk of cancer earlier: Scarlett Kynoch\nThe patient does not exist – generating synthetic patient data with Wasserstein GAN: Simon Newey\nStreamlining machine learning development at the NHS via open-source tools: Elias Altrabsheh and James Sibbit\nCommunity Talk: rainbowR: Ella Kaye",
+          "published": "2024-12-09T10:29:14Z",
+          "duration": "PT1H23M51S",
+          "thumbnail": "https://i.ytimg.com/vi/5R7lx4FW7Z0/mqdefault.jpg"
+        },
+        {
+          "id": "_ZqlPsDUdSY",
+          "title": "RPYSOC 2024 - 21 Nov - DAY one - morning 1",
+          "description": "RAPping my head against a databricks wall: Louise Schreuders\nReducing Mental Health Inequalities Among The BAME Residents of Herefordshire And Worcestershire Communities: Oluwatimilehin Olabamiyo\nSimplifying development of AI applications integrated in EHRs with HealthChain: Jennifer Jiang-Kells\nBeyond the dashboard: R for value added insights: Nicola Farthing",
+          "published": "2024-12-09T10:24:53Z",
+          "duration": "PT1H23M33S",
+          "thumbnail": "https://i.ytimg.com/vi/_ZqlPsDUdSY/mqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "label": "NHS-R/NHS.pycom Conference 2023: talks",
+      "id": "PLXCrMzQaI6c2RjLQvFWpW_1QA68qylKb9",
+      "videos": [
+        {
+          "id": "3uSbLT7ISPc",
+          "title": "NHS-R/NHS.pycom Conference: Online Conference Talks [Wednesday 11th October 2023]",
+          "description": "We are very excited to share this recording of the NHS-R/NHS.pycom online conference talks from Wednesday 11th October 2023.\n\nhttps://nhsrcommunity.com/events/nhs-r-nhs-pycom-online-conference-talks-2023-ticket-for-virtual-attendance-on-wednesday-11th-october-2023/\n\n Zoë Turner Welcome Speech Welcome!\n2:04 Bruno Rodrigues Keynote Talk Doing Data Science that Stands the Test of Time with Reproducible Analytical Pipelines\n34:23 Sammi Rosser Plenary Talk Extending PowerBI’s Visualisation Capabilities – R and Plotly to the rescue!\n58:11 Cara Thompson Plenary Talk “So much more than pretty graphs” – The value of creating and implementing a dataviz design system in R\n1:23:13 Lori Edwards Suarez Plenary Talk Using Data to Address Barriers in Perinatal Mental Health Care\n1:45:16 Oluwasegun Apejoye Lightning Talk Building an open-source Patient Experience Data Categorisation Dashboard\n2:00:00 Peter Andrews Lightning Talk No More Copy and Paste! – Exec reporting from R\n2:14:37 Lysandros Sofocleous Lightning Talk Automating reporting pack generation using RStudio on Databricks: Visualisation of dental data activity across NHS practices and national benchmarks\n2:25:57 Fran Barton Plenary Talk How we built DataHoover (a reporting toolkit that _doesn’t_ suck)\n2:44:57 Zoë Turner Thank You and Short Closing Speech",
+          "published": "2023-11-13T09:27:59Z",
+          "duration": "PT2H47M17S",
+          "thumbnail": "https://i.ytimg.com/vi/3uSbLT7ISPc/mqdefault.jpg"
+        },
+        {
+          "id": "laKYVuElROs",
+          "title": "NHS-R/NHS.pycom Conference: Online Conference Talks [Tuesday 10th October 2023]",
+          "description": "We are very excited to share this recording of the NHS-R/NHS.pycom online conference talks from Tuesday 10th October 2023.\n\nhttps://nhsrcommunity.com/events/nhs-r-nhs-pycom-online-conference-talks-2023-ticket-for-virtual-attendance-on-tuesday-10th-october-2023/",
+          "published": "2023-11-13T09:27:55Z",
+          "duration": "PT2H59M9S",
+          "thumbnail": "https://i.ytimg.com/vi/laKYVuElROs/mqdefault.jpg"
+        },
+        {
+          "id": "X-fyKq1GXQI",
+          "title": "NHS-R/NHS.pycom Conference: Online Conference Talks [Monday 09th October 2023]",
+          "description": "We are very excited to share this recording of the NHS-R/NHS.pycom online conference talks from Monday 09th October 2023.\n\nhttps://nhsrcommunity.com/events/nhs-r-nhs-pycom-online-conference-talks-2023-ticket-for-virtual-attendance-on-monday-09th-october-2023/",
+          "published": "2023-11-13T09:27:51Z",
+          "duration": "PT2H54M12S",
+          "thumbnail": "https://i.ytimg.com/vi/X-fyKq1GXQI/mqdefault.jpg"
+        },
+        {
+          "id": "8jcPwD8x8WE",
+          "title": "NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Tuesday 17th October 2023]",
+          "description": "We are very excited to share this recording of the NHS-R/NHS.pycom in-person and virtual conference talks from Tuesday 17th October 2023.\n\nhttps://nhsrcommunity.com/events/nhs-r-community-conference-2023-ticket-for-in-person-attendance-on-tuesday-17th-october-2023/\n\n2:07 Brian Tarran, Forging community links: NHS-R, the Royal Statistical Society and Real World Data Science\n30:47 Zoe Hancox Using Hypergraphs to model multimorbidity\n42:53 Nick Howlett, Near real-time prediction of hospital performance metrics using scalable random forest algorithm\n53:45 Jane Kirkpatrick and Michael Spence, Forecasting emergency department admissions for operational decision support in the NHS \n1:04:41 Daniel Weiland, Predicting Antimicrobial Resistance Rates using R and Sharing the Results in the form of Parameterised Reports produced using Quarto\n1:26:00 Ferran Espuny-Pujol, Survival hazard estimation using B-splines: R package development and learning sharing\n1:36:47 Robin Lovelace, Data Science for Active Travel Planning: streets, schemes and networks\n2:08:10 Martina Fonseca, Portable and interactive geographic mappings with Leaflet – supporting rapid stakeholder requests\n2:13:32 Paul Carroll, Process Mining to Generate Healthcare Pathways\n2:29:11 Chris Mainey, Building NHS Data Science Teams\n2:49:36 Helen Young, Discrete Event Simulation as a right-sizing tool for daycase unit design\n2:57:44 Andy Poole, Urgent Care Transformation – How to develop and evaluate what if scenario’s collaboratively and openly\n3:16:41 Tom Jemmett, Conference check-in app (or, on why you should ignore your boss, play about, and have fun)\n3:32:04 Pawel Orzechowski, Unconferencing \n3:34:09 Pawel Orzechowski and Brittany Blankinship, Teaching Programming to Non-programmers\n3:50:21 Chris Beeley\n4:05:27 Steve Piper, Using R to automate the generation of performance matrixes from Fingertips \n4:16:26 Richard Wilson, Generating outcome framework slide packs for ICS\n4:27:16 YiWen Hon, Pxtextmining: Open coding, open working in qualitative patient feedback analysis\n4:36:27 Nicola Farthing, R dashboard design for a varied customer base\n4:46:26 Jacqueline Grout, Getting started with collaboration on GitHub: Crunching webinar attendance data with R and Shiny\n4:58:03 Ozayr Mohammed, Evidence Mapping in Shiny\n5:05:46 Neil Bray, Strategies to reduce cognitive load when coding\n5:15:51 Humaira Hussein, Comparative efficacy of type 2 diabetes treatments in randomised controlled trials using network meta-analysis methods\n5:26:49 Chris Beeley, Thank You and Short Closing Speech \n\nNot recorded: Toni Stansfield UKHSA, Linking hospitalisation and climate data to explore the health impacts of heat waves",
+          "published": "2023-11-20T16:40:18Z",
+          "duration": "PT5H27M10S",
+          "thumbnail": "https://i.ytimg.com/vi/8jcPwD8x8WE/mqdefault.jpg"
+        },
+        {
+          "id": "q-JZxrDC0ck",
+          "title": "NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Wednesday 18th October 2023]",
+          "description": "We are very excited to share this recording of the NHS-R/NHS.pycom in-person and virtual conference talks from Wednesday 18th October 2023.\n\nhttps://nhsrcommunity.com/events/nhs-r-community-conference-2023-ticket-for-in-person-attendance-on-wednesday-18th-october-2023/\n\nChris Beeley, Welcome Speech  \n3:28 Marcos Fabietti, NHSRplotthedots Plotly Update\n8:35 Alberto Liuzzo Scorpo (giving talk), Keiko Toma, Sam Akinloye, Laura Birks and Allison Jordan, Upskilling 80% of an NHSE performance analysis team in R and sharing reproducible code on Github\n19:12 Simon Wellesley-Miller and Alex Porter, Challenges, lessons, failures and fun from setting the NHS England R-Revolution\n30:25 Will Manners, Developing Inequalities Reporting in R\n42:43 David Jephson and Marika, Reflections on developing a dashboard website in gov.uk style using Quarto\n59:46 Parisa Gregg, Reproducible workflows in Python\n1:24:06 Chris Roebuck, RAP\n1:53:17 Claire Welsh, Talk Using a RAP approach to uplift existing processes within the National Disease Registration Service\n2:05:56 Joseph Wilson, Releasing the Potential of the RAP Community of Practice with GitHub Actions\n2:23:50 Dr. Charlie Pinder, QA of analytical projects in the health sector\n2:23:36 Mary Amanuel and Dan Schofield, update on NHS.pycom Large Language Models (LLMs) Hackathon\n2:41:12 Katie Thornton, Developing a reproducible, regular report exploring delayed discharges in Mental Health\n2:54:36 Chaeyoon Kim, Enhancing Analytics: Move from Excel to Python\n3:09:03 Amadeus Stevenson, How I learned to stop worrying and embrace pip, conda, virtualenv, venv and Visual Studio Code (How to install Python)\n3:28:04 Dr. Bahman Rostami-Tabar, Probabilistic Forecast Reconciliation For Health Services\n3:48:10 Roberto Villegas-Diaz, You love purrr, but have you tried speeding up things furrr-ther?\n3:58:31 Matt Dray, Base slaps!\n4:07:12 Sam Hollings, Flow Charts: an easy trick to better, more easily understood code and data pipelines\n5:17:41 Iain Dillingham, Less neat, less tidy, and more unpredictable: Improving your code with property-based tests\n4:27:41 Ross Kennedy, Splink: Data Linkage at Scale\n4:47:48 Chris Beeley, Thank You and Closing Speech",
+          "published": "2023-11-27T11:29:40Z",
+          "duration": "PT5H28S",
+          "thumbnail": "https://i.ytimg.com/vi/q-JZxrDC0ck/mqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "label": "NHS-R/NHS.pycom Conference 2023: workshops",
+      "id": "PLXCrMzQaI6c3vXRIOmgv8Qk9wYSoXatdt",
+      "videos": [
+        {
+          "id": "yuX0V3fE9rI",
+          "title": "NHS-R/NHS.pycom Conference Workshop 2023: Level Up Your Plots!",
+          "description": "Level up your plots: Using colour, annotations, text hierarchy and other tricks to make your data story stand out with Cara Thompson\nWednesday 04th October 2023\n\nWorkshop Content:\nYou are encouraged to bring a ggplot of your own making to the workshop – we will code our way towards a better version of it together. Copy the code from the Quarto slides and reuse at will!\n\nHere’s a list of the packages I’ll be using:\nAvailable on CRAN:\n- Tidyverse\n- Palmerpenguins\n- Systemfonts\n- monochromeR\n- ggtext\n- geomtextpath.\n\nAvailable from GitHub:\n- colorblindr\n- See instructions at: github.com/clauswilke/colorblindr\n\nAnd here’s what we’ll cover:\n- Picking intuitive colours to make our graphs more memorable\n- Making our colour choices (and text) as accessible as we can\n- With a review of the latest Nightingale In Print Accessibility guidelines\n- Optimising text hierarchy in our plots, and packing our work up as a reusable ggplot theme\n- Reducing unnecessary eye movement and cognitive load by being careful about what text we include/exclude, and where we put it\n- Adding in-plot annotations to highlight important patterns.\n\nBy the end of the session, you’ll have…\n- A solid set of colours that you’ve tested against accessibility criteria\n- A reusable ggplot theme with optimised text hierarchy\n- A decluttered plot that makes the most of the visual space available\n- Additional tips and tricks for adding in-plot annotations\n- A set of resources you can return to when working on new graphs!",
+          "published": "2023-11-07T09:20:21Z",
+          "duration": "PT2H51M44S",
+          "thumbnail": "https://i.ytimg.com/vi/yuX0V3fE9rI/mqdefault.jpg"
+        },
+        {
+          "id": "_D4llf41KC8",
+          "title": "NHS-R/NHS.pycom Conference Workshop 2023: Create your own API with Python and FastAPI",
+          "description": "Create your own API with Python and FastAPI with YiWen Hon\nMonday 02nd October 2023\n\nWorkshop Content:\nThe objective of this workshop is to introduce Python users to the FastAPI package and show them how to build their own API, using free and open source tools. APIs are a great way of making machine learning models more accessible to a wider audience, reducing the technical barrier to entry.\n\nWe will begin with an overview of what APIs are and how they can be interrogated, and a revision of basic concepts such as the JSON data format, and how it is comprised of the lists and dict types. We will practice using the requests library to query a simple API endpoint. We will then move on to using FastAPI to build a very basic endpoint, using the Uvicorn package to test if it works on the local machine. After that, we will build a more complex API endpoint that accepts parameters, again testing if it works on the local machine. Depending on the progress of participants, we can also touch on more complex concepts such as validating parameters, POST requests, and documentation. The workshop will finish with suggestions for how the API can be made publicly available, with an overview of some hosting solutions, and common considerations such as authentication and security.\n\nBy the end of the workshop, participants should be able to:\n- Query APIs using the Python requests library\n- Create a basic RESTful API using FastAPI\n- Test their API locally using Uvicorn.",
+          "published": "2023-11-07T09:19:30Z",
+          "duration": "PT2H7M53S",
+          "thumbnail": "https://i.ytimg.com/vi/_D4llf41KC8/mqdefault.jpg"
+        },
+        {
+          "id": "D4ckP2mZDa4",
+          "title": "NHS-R/NHS.pycom Conference Workshop 2023: Modelling non-linear data with Generalized Additive Models",
+          "description": "Modelling non-linear data with Generalized Additive Models (GAMs), using the mgcv package with Chris Mainey\nFriday 13th October 2023\n\nWorkshop Content:\nThis workshop is a follow-on from my talk at last year’s NHS-R conference on modelling ‘wiggly’ data using Generalized Additive Models. Regression models are a great approach for modelling relationships, but they make certain assumptions about linear relationships that don’t always hold true in real-world datasets.\n\nThe workshop is aimed at people who have some experience of regression modelling and want to take it further, learning a more advanced and flexible class of modelling that also applies to non-linear data.\n\nThis workshop will introduce the class of models (explaining a GAM as a GLM with smooth functions of predictors). We will then walk through a simple healthcare based example of a GAM. We will discuss how to interpret the GAM, assess whether the fit is good, and look at ways to visualise the smooth functions. We will then take a detour through what the smoothers actually do, using piece-wise cubic splines, as our example.\n\nWe will finish the workshop with a more complicated example, asking attendees to fit the model, examine the smoothers and answer a couple of questions about them.\n\nPlease be advised that this course is an advanced regression modelling course, and it is essential that attendees have some experience of fitting regression models in R to understand the application of GAMs.\n\nhttps://github.com/chrismainey/GAMworkshop\nSlides https://chrismainey.github.io/GAMworkshop/GAMworkshop.html#1",
+          "published": "2023-11-07T09:20:03Z",
+          "duration": "PT2H1M10S",
+          "thumbnail": "https://i.ytimg.com/vi/D4ckP2mZDa4/mqdefault.jpg"
+        },
+        {
+          "id": "wOk7wDsHD8o",
+          "title": "NHS-R/NHS.pycom Conference Workshop 2023: Introduction to Version Control (Git/GitHub)",
+          "description": "Introduction to Version Control (Git/GitHub) with Joseph Wilson and Helen Richardson\nThursday 12th October 2023\n\nGitHub repository: https://github.com/nhs-r-community/git_training\n\nWorkshop Content:\nBuilding upon the success of the 2022 Introduction to Version Control (Git/GitHub) workshop, this day-long course returns to equip participants with essential skills in version control using Git and GitHub. This workshop emphasizes a more agnostic approach, accommodating both R and Python users, with the course curriculum focusing on interacting with Git through the command line. However, some supplementary materials and support will be available for those interacting with Git through RStudio and VSCode.\n\nKey topics covered in this workshop include:\n- Git Basics: Participants will grasp the fundamental concepts of repositories, branches (alternate versions of the repository), and the process of accessing/cloning repositories. They will gain practice in creating branches, making changes, and pushing changes to GitHub.\n\n- Git Collaboration: Collaboration is crucial in version control, and participants will learn how to submit Pull Requests (PRs), assign reviewers, and explore PR options, ensuring efficient and seamless collaboration among team members. In addition, participants will be shown how to resolve conflicting changes together.\n\n- Extra: Creating a Repository on GitHub: Attendees will also gain practical insights into creating repositories directly on GitHub, enabling them to establish a strong foundation for their version control projects.\n\nThe primary learning objectives of this workshop are for participants to learn all the basics to start utilizing version control in their projects. Participants will be able to complete practical exercises to practice merging changes from branches together and managing cases when conflicting changes arise.",
+          "published": "2023-11-07T09:20:09Z",
+          "duration": "PT5H17M17S",
+          "thumbnail": "https://i.ytimg.com/vi/wOk7wDsHD8o/mqdefault.jpg"
+        },
+        {
+          "id": "LZdbCOOdsPE",
+          "title": "NHS-R/NHS.pycom Conference Workshop 2023: Data Visualisation with Seaborn",
+          "description": "Data Visualisation with Seaborn with Parisa Gregg\nThursday 05th October 2023\n\nWorkshop Content:\nOver the last few decades, a plethora of Python packages have been developed to tackle a range of data visualisation problems. This tutorial will provide a hands-on introduction to Seaborn, a fantastic open-source plotting library that builds on the Matplotlib package. Seaborn allows complex data visualisations to be created simply and easily, whilst also improving on the default look and feel of Matplotlib figures.\n\nThis hands-on workshop will cover:\n- Seaborn’s statistical functions (kernel density estimation, regression models, etc)\n- creating multi-plot grids with Seaborn\n- customisation of Seaborn figures with Matplotlib.\n\nBy the end, you will be able to:\n- use a range of techniques for communicating your data insights\n- leverage the best aspects of Seaborn and Matplotlib to create beautiful graphics with concise code.\n\nNo previous experience in Seaborn is necessary for this tutorial. However, basic familiarity with Pandas DataFrames and plotting with Matplotlib would be useful. This workshop will be run using an online environment with all the dependencies and libraries pre-installed.",
+          "published": "2023-11-07T09:20:14Z",
+          "duration": "PT2H57M26S",
+          "thumbnail": "https://i.ytimg.com/vi/LZdbCOOdsPE/mqdefault.jpg"
+        },
+        {
+          "id": "ZJN2KQ1K38Y",
+          "title": "NHS-R/NHS.pycom Conference Workshop 2023: Introduction to R and R Studio (Part 2)",
+          "description": "Introduction to R and R Studio (Part 2) with Zoë Turner\nTuesday 03rd October 2023\n\nWorkshop Content:\nThis is a great opportunity for anyone who is interested in data analysis using Excel, SQL, Access or uses statistical programmes like SPSS to get started with R and R Studio. \n\nAfter this course, you will:\n- See examples of R in producing healthcare related visualisations and use publicly available healthcare data to answer questions.\n- Recognise and understand key terms often used by users of R.\n- Interact with R using the RStudio environment.\n- Learn how to set up some of the accessibility features of RStudio.\n- Take charge of their workflow using RStudio projects.\n- Import data into R using csv files (other data sources will be discussed).\n- Carry out data manipulation using simple steps to solve complex problems.\n- Join multiple tables together.\n- Produce and save plots using ggplot2.\n- Learn how to find more information on functions within R packages.\n- Open an RMarkdown template and learn how to get started in producing an integrated text and code report. \n- Take away ideas for continuing learning after the course.\n\nPre-requisites: No prior knowledge of R is required; however, it is assumed that you will have a moderate level of computer literacy. For example, you will be able to navigate to drives and files and be confident in searching for solutions to technical problems on the internet. You will work with, or have an interest in, data.",
+          "published": "2023-11-07T09:20:29Z",
+          "duration": "PT2H54M5S",
+          "thumbnail": "https://i.ytimg.com/vi/ZJN2KQ1K38Y/mqdefault.jpg"
+        },
+        {
+          "id": "M7GyRQw2y9M",
+          "title": "NHS-R/NHS.pycom Conference Workshop 2023: Introduction to R and R Studio (Part 1)",
+          "description": "Introduction to R and R Studio (Part 1) with Zoë Turner\nMonday 02nd October 2023\n\nWorkshop Content:\nThis is a great opportunity for anyone who is interested in data analysis using Excel, SQL, Access or uses statistical programmes like SPSS to get started with R and R Studio. \n\nAfter this course, you will:\n- See examples of R in producing healthcare related visualisations and use publicly available healthcare data to answer questions.\n- Recognise and understand key terms often used by users of R.\n- Interact with R using the RStudio environment.\n- Learn how to set up some of the accessibility features of RStudio.\n- Take charge of their workflow using RStudio projects.\n- Import data into R using csv files (other data sources will be discussed).\n- Carry out data manipulation using simple steps to solve complex problems.\n- Join multiple tables together.\n- Produce and save plots using ggplot2.\n- Learn how to find more information on functions within R packages.\n- Open an RMarkdown template and learn how to get started in producing an integrated text and code report. \n- Take away ideas for continuing learning after the course.\n\nPre-requisites: No prior knowledge of R is required; however, it is assumed that you will have a moderate level of computer literacy. For example, you will be able to navigate to drives and files and be confident in searching for solutions to technical problems on the internet. You will work with, or have an interest in, data.",
+          "published": "2023-11-07T09:20:33Z",
+          "duration": "PT2H32M57S",
+          "thumbnail": "https://i.ytimg.com/vi/M7GyRQw2y9M/mqdefault.jpg"
+        },
+        {
+          "id": "65iZGCcUVfU",
+          "title": "NHS-R/NHS.pycom Conference Workshop 2023: Intermediate R follow on from \"Intro to R and RStudio\"",
+          "description": "Intermediate R – follow on from ‘Introduction to R and R Studio’ with Simon Wellesley-Miller\nFriday 06th October 2023\n\nWorkshop Content:\nIn this workshop we will be looking at applying some of the knowledge learned in the ‘Introduction to R and R Studio’ workshop and applying the methods learned to practical questions.\n\nKey topics:\n- Further uses of dplyr with conditional statements\n- Use of group_by and mutate to create sub totals and percentages across groups\n- Date manipulation\n- Use of stringr to clean up messy strings\n- Practice with charting in GGplot and simple conversion to Plotly\n- How to create pretty tables.\n\nEdited with Clipchamp",
+          "published": "2023-11-08T08:55:14Z",
+          "duration": "PT6H20M36S",
+          "thumbnail": "https://i.ytimg.com/vi/65iZGCcUVfU/mqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "label": "NHS-R Community Conference 2022",
+      "id": "PLXCrMzQaI6c3kFGGOuR432J8tUJq_VhWp",
+      "videos": [
+        {
+          "id": "CEh-jeQdOqA",
+          "title": "NHS-R Conference Workshop: Building a TidyModels model from scratch – 01/11/22",
+          "description": "Led by Gary Hutson, Head of Machine Learning, Crisp\n1st November 2022\n\nHere we will learn how to build a TidyModels classification model from scratch\nhttps://github.com/StatsGary/NHS_R_Comm_Build_TM_from_scratch.\n\nRPubs document: http://rpubs.com/StatsGary/tidmodels_and_vetiver_from_scratch.\n\nAbout the course:\nThe art and science of building a machine model from scratch and then pushing this into production as a consumable endpoint with Plumber R package.\n\nThis will start with creating a model, improving a model with various ML techniques, followed by evaluating and assessing the model.\n\nOnce the model has been created I will talk about pushing the model into production and creating an API.",
+          "published": "2022-11-01T14:08:08Z",
+          "duration": "PT1H59M15S",
+          "thumbnail": "https://i.ytimg.com/vi/CEh-jeQdOqA/mqdefault.jpg"
+        },
+        {
+          "id": "4aE0a_JnERU",
+          "title": "NHS-R Conference Webinar: Shiny and Advanced Shiny – 1/11/22",
+          "description": "Intro to Shiny and Advanced Shiny\nTuesday 1st November, 12.00 – 2.00 pm\nLed by Ryan Johnson, Customer Success Manager, RSTUDIO\n\nAbout the course:\nIntro to Shiny: We’ll go over the basic structure of a Shiny app and how they work. This is a great session for those new to Shiny.\n\nAdvanced Shiny: Also called “Shiny Tips and Tricks“. We’ll go over various open-source tools and packages that can improve the appearance, performance, and development of Shiny apps.",
+          "published": "2022-11-01T15:31:57Z",
+          "duration": "PT1H46M19S",
+          "thumbnail": "https://i.ytimg.com/vi/4aE0a_JnERU/mqdefault.jpg"
+        },
+        {
+          "id": "VzVwdWn11s8",
+          "title": "NHS-R Webinar: Introduction to business case analytics using Decision Analysis in R – 01/11/22",
+          "description": "NHS-R Conference Webinar: \nIntroduction to business case analytics using Decision Analysis in R\nTuesday 1st November 2022\nLed by: Rob Brown, Cybersecurity Risk Management Leader\n\nAbout the webinar:\nHow decision analysis leads data analysis, what considerations need to be in place to do that.\n\nWith some basic code that the attendees can use for their own study.",
+          "published": "2022-11-02T09:53:05Z",
+          "duration": "PT1H24M34S",
+          "thumbnail": "https://i.ytimg.com/vi/VzVwdWn11s8/mqdefault.jpg"
+        },
+        {
+          "id": "dS91HzZLD_c",
+          "title": "NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22",
+          "description": "Introduction to R and R Studio (Part 1)\nWednesday 2nd November 2022\nLed by Zoë Turner, Data Scientist, Nottinghamshire Healthcare NHS Foundation Trust\n\nLearn about how to import data, wrangle data and produce and export graphs.\n\n00:00 - Introduction and Prework\n55:23 - Using Projects\n01:08 - Importing Data\n01:18 - Introduction to {ggplot2}\n02:22 - What does this function do?\n\nPart 2 https://youtu.be/1tjQkxYfSGk\n\nPre-requisites: \nNo prior knowledge of R is required; however, it is assumed that you will have a moderate level of computer literacy. For example, you will be able to navigate to drives and files and be confident in searching for solutions to technical problems on the internet. You will work with, or have an interest in, data.\n\nAbout the course: \nThis is a great opportunity for anyone who is interested in data analysis using Excel, SQL, Access or uses statistical programmes like SPSS to get started with R and R Studio.  After these two half days, you will:\n\n- See examples of R in producing healthcare related visualisations and use publicly available healthcare data to answer questions.\n- Recognise and understand key terms often used by users of R.\n- Interact with R using the RStudio environment.\n- Learn how to set up some of the accessibility features of RStudio.\n- Take charge of their workflow using RStudio projects.\n- Import data into R using csv files (other data sources will be discussed).\n- Carry out data manipulation using simple steps to solve complex problems.\n- Join multiple tables together.\n- Produce and save plots using ggplot2.\n- Learn how to find more information on functions within R packages.\n- Open an RMarkdown template and learn how to get started in producing an integrated text and code report. Take away ideas for continuing learning after the course",
+          "published": "2022-11-03T14:25:07Z",
+          "duration": "PT2H40M21S",
+          "thumbnail": "https://i.ytimg.com/vi/dS91HzZLD_c/mqdefault.jpg"
+        },
+        {
+          "id": "LK_vxLS9BNg",
+          "title": "NHS-R Workshop: Building Websites in R with Distill - 02/11/22",
+          "description": "Building Websites in R with Distill\nWednesday 2nd November 2022, \nLed by Jennifer Sloane, PhD Student, UNSW\n\nDo you want to learn how to build your own website in R?\n\nAbout the course:\n\nIn this interactive workshop, we will build a website from scratch in R using the Distill package.\n\nWhether you want to design a personal website or you want to set up your very own blog or perhaps you’ve just always wanted to learn how to build a website, this workshop is perfect for you.\n\nBy the end of the workshop, you will not only have a fully functioning and live website, but you will also have the knowledge and tools to continue designing and developing your website on your own!",
+          "published": "2022-11-03T13:13:51Z",
+          "duration": "PT1H58M54S",
+          "thumbnail": "https://i.ytimg.com/vi/LK_vxLS9BNg/mqdefault.jpg"
+        },
+        {
+          "id": "1tjQkxYfSGk",
+          "title": "NHS-R Workshop: Intro to R and RStudio (Part 2) - 03/11/22",
+          "description": "Introduction to R and R Studio (Part 2)\nThursday 3rd November 2022\nLed by Zoë Turner, Data Scientist, Nottinghamshire Healthcare NHS Foundation Trust\n\nLearn about how to import data, wrangle data and produce and export graphs.\n\n00:00 Data wrangling with dplyr\n1:45:18 Relational Data (joins)\n2:10:21 RMarkdown \n2:40:00 Ongoing Learning\n\nPart 1 https://www.youtube.com/watch?v=dS91HzZLD_c\n\nPre-requisites: \nNo prior knowledge of R is required; however, it is assumed that you will have a moderate level of computer literacy. For example, you will be able to navigate to drives and files and be confident in searching for solutions to technical problems on the internet. You will work with, or have an interest in, data.\n\nAbout the course: \nThis is a great opportunity for anyone who is interested in data analysis using Excel, SQL, Access or uses statistical programmes like SPSS to get started with R and R Studio.  After these two half days, you will:\n\n- See examples of R in producing healthcare related visualisations and use publicly available healthcare data to answer questions.\n- Recognise and understand key terms often used by users of R.\n- Interact with R using the RStudio environment.\n- Learn how to set up some of the accessibility features of RStudio.\n- Take charge of their workflow using RStudio projects.\n- Import data into R using csv files (other data sources will be discussed).\n- Carry out data manipulation using simple steps to solve complex problems.\n- Join multiple tables together.\n- Produce and save plots using ggplot2.\n- Learn how to find more information on functions within R packages.\n- Open an RMarkdown template and learn how to get started in producing an integrated text and code report. Take away ideas for continuing learning after the course",
+          "published": "2022-11-03T14:57:25Z",
+          "duration": "PT2H52M42S",
+          "thumbnail": "https://i.ytimg.com/vi/1tjQkxYfSGk/mqdefault.jpg"
+        },
+        {
+          "id": "fmelRhf14PE",
+          "title": "NHS-R Conference Workshop: Introduction to Interactive plotting with R – 03/11/22",
+          "description": "Introduction to Interactive plotting with R\nThursday 3rd November 2022,\nLed by Annie Yu, Epidemiological Programmer, Hertfordshire County Council\n\nPre-requisites: Some introductory experience with R\n\nAbout the course:\nThe workshop will cover creating interactive graphs using plotly and echarts4r packages as well as the motivations behind using interactive graphs in reports and apps.\n\nIt will go through the basic syntax of each package and how to create basic bar, scatter, and line graphs while customising the hover labels, legends, and themes.\n\nI will go through additional functionalities of each package, such as adding buttons, additional layers, and grouping/linkage between graphs.\n\nThe session will have some basic exercises with optional additional challenges to create complex plots and render it using Rmarkdown.",
+          "published": "2022-11-08T16:55:37Z",
+          "duration": "PT2H27M41S",
+          "thumbnail": "https://i.ytimg.com/vi/fmelRhf14PE/mqdefault.jpg"
+        },
+        {
+          "id": "Zt_SMnNPLX0",
+          "title": "NHS-R Workshop: Level up your plots! - 04/11/22",
+          "description": "Level up your plots: tips and tricks for creating compelling data visualisations in R\nFriday 4th November 202\nLed by Cara Thompson, Freelance Data Consultant - Building Stories with Data\n\nPre-requisites: \nIt would be helpful for participants to have a basic grasp of:\n- creating a plot with ggplot2\n- data wrangling within the tidyverse\n\nAbout the course:\n“Ooh, nice ggplot!” is never the reaction we’re after when we’ve spent time putting together a plot in R.\n\nInstead, we want the plot to help readers engage well with the key patterns in the data.\n\nThis workshop will give delegates a tour of the ways we can use ggplot to create compelling publication-ready data visualisations.\n\nWe will code our way from a basic plot to a plot which presents a clear story in an aesthetically pleasing way, and delegates will be encouraged to apply the tips and tricks we explore together to their own plots.\n\nDuring the workshop, we will cover:\n- a quick overview of foundational ggplot concepts\n- design principles we can apply to our datavisualisations\n- how to choose and apply a bespoke colour scheme, both to the text and to the data in the plot\n- how to change the fonts and colours of text\n- how to create polished annotations to support the main story of the plot\n-how to export high quality plots for publication\n- sources of dataviz inspiration for future projects\nThese tips will be applicable to a wide range of plot types, to maximise relevance to delegates working with different types of data. They will be encouraged to ask questions and apply these tips to their own plots during the workshop, with the aim of equipping them with the design and coding know-how to create compelling datavisualisations with their own data.\n\nLearning objectives\nBy the end of the workshop, delegates will be able to:\n- describe basic design principles that they can apply to datavisualisations\n- describe the basic components of a ggplot plot\n- apply a colour scheme they crafted themselves to their own plots\n- write code which modifies the different default ggplot elements\n- work with fonts, colours and alignments to make the text of their plot an integral part of the visualisation\n- export publication-ready plots",
+          "published": "2022-11-08T09:24:06Z",
+          "duration": "PT2H1M45S",
+          "thumbnail": "https://i.ytimg.com/vi/Zt_SMnNPLX0/mqdefault.jpg"
+        },
+        {
+          "id": "vO_Wn2tgIck",
+          "title": "NHS-R Webinar: Tips and tricks learnt from building production {shiny} apps  - 07/11/22",
+          "description": "Tips and tricks learnt from building production {shiny} apps \nMonday 7th November\nDelivered by Colin Fay, Data Scientist & R Hacker at ThinkR\n\nAbout the webinar: \n\nThe road to a production-ready software is always a bumpy road. Whatever you do, you can always expect the unexpected.  \n\nBut the good news is that at the end of the day, many of the issues faced along the road from project init to deployment can be avoided, provided you follow a set of good practices. In this talk, \n\nColin will cover some of the tips and tricks he has learnt from years of building {shiny} applications for production, and some of the patterns he now follows that helps him manage a {shiny} application project from start to finish.",
+          "published": "2022-11-08T15:36:01Z",
+          "duration": "PT57M29S",
+          "thumbnail": "https://i.ytimg.com/vi/vO_Wn2tgIck/mqdefault.jpg"
+        },
+        {
+          "id": "Rv3JJAqbrFY",
+          "title": "NHS-R Online Speaker Conference 2022 -  Day 1: 8th November",
+          "description": "Day 1\nNHS-R Online Speaker Conference 2022\nTuesday 8th November 2022\n\n0:00 - Mohammed Mohammed - Welcome and Introduction\n2:00 - Dev Sanghera - PPTautomation\n16:40 - Ina Kostakis - Abdominal emergencies: surgery vs. no surgery\n34:38 - Joseph Lillington - Demand and capacity modelling for the population experiencing gambling harm\n48:11 - Karina-Doris Vihta / Nujcharee Haswell -  Iterative sequential regression for real time surveillance of infectious diseases\n1:06:30 - Mark McPherson - Leaflet in R: Creating dynamic, interactive maps\n1:26:51 - Muhammad Faisal -  Development and validation of clinical prediction models using R\n1:46:23 - Zoë Turner - Creating packages the NHS-R Community way\n1:57:02 - Ben Kimpton -  SPC for mental health\nClose",
+          "published": "2022-11-08T18:10:45Z",
+          "duration": "PT2H13M37S",
+          "thumbnail": "https://i.ytimg.com/vi/Rv3JJAqbrFY/mqdefault.jpg"
+        },
+        {
+          "id": "fWYehE5U6Vs",
+          "title": "NHS-R Online Speaker Conference 2022 -  Day 2: 9th November",
+          "description": "Day 2\nNHS-R Online Speaker Conference 2022\nWednesday  9th November 2022 \n\n00:00 -  Mohammed Mohammed - Welcome and Introduction\n02:35 Benjamin Bainham - Novice’s Journey in creating a Bilingual RShiny Tool\n15:08 Iñaki Ucar - simmer: Discrete-Event Simulation for R\n35:10 Sam Hollings - Rolling out RAP across an analytical function\n47:41 Tom Smith - SPCreporter - Bulk-processing SPC charts in the NHSEI \"Making Data Count\" style\n1:07:34 Rory Quinn - Using R for Content Analysis of Medical Practitioner Notes\n1:24:38 Jessica Pang - Adapting a dashboard to work with an uploaded file in RShiny\n1:38:16 Jessica Pang - Adapting R code from GitHub to work with my data\n1:50:29 Shannon Pileggi - Introducing gtreg: an R package to produce regulatory tables for clinical research\n2:08:22 Jennifer Sloane - Teaching R to Beginners\nClose",
+          "published": "2022-11-09T17:35:52Z",
+          "duration": "PT2H26M2S",
+          "thumbnail": "https://i.ytimg.com/vi/fWYehE5U6Vs/mqdefault.jpg"
+        },
+        {
+          "id": "GWeZt1to1Po",
+          "title": "NHS-R Online Speaker Conference 2022 -  Day 3: 10th November",
+          "description": "Day 3\nNHS-R Online Speaker Conference 2022\nThursday 10th November 2022 \n\n0:00 - Zoë Turner Welcome and Introductions\n01:20 - Chris Waller Create A Map RShiny App\n16:20 - Jeremy Selva Viewing Multiple Inteactive Plots Using plotly and trelliscopejs\n29:56 - Kieran Dale Optimising Patient Flows in ED\n44:44 - Ffion Thomas and Danielle Hearn - Combining R-shiny and R-markdown to create a user-centred interactive web application\n1:02:35 - Alex Reid and Robert John Mitchell - Using RShiny for Statistical Disclosure Control data and other applications\n1:18:07 - William Bryant - Adopting Reproducible Analytical Pipelines in a specialist paediatric NHS Trust\n1:34:40 - Oscar Baruffa - Generate documentation from spreadsheets (and databases) programmatically\n1:49:35 - Edwin Thoen - padr: convenience functions to transform datetime date ready for analyses",
+          "published": "2022-11-10T17:22:52Z",
+          "duration": "PT2H7M44S",
+          "thumbnail": "https://i.ytimg.com/vi/GWeZt1to1Po/mqdefault.jpg"
+        },
+        {
+          "id": "evzo-F2Yp5g",
+          "title": "NHS-R Workshop: Debugging in R - 11/11/22",
+          "description": "Debugging in R\nFriday 11th November 2022\nLed by Shannon Pileggi, Data Scientist, The Prostate Cancer Clinical Trials Consortium\n\nPre-requisites: Knowledge of how to write a function in R.\n\nAbout the course:\nLearning objectives:\n\nReview code troubleshooting tips.\nDiscuss debugging functions (traceback(), browser(), debug(), trace(), and recover()) and the additional benefits of employing some of these strategies within RStudio.\nDistinguish between strategies for debugging your own code versus someone else’s code",
+          "published": "2022-11-13T09:55:49Z",
+          "duration": "PT2H49M37S",
+          "thumbnail": "https://i.ytimg.com/vi/evzo-F2Yp5g/mqdefault.jpg"
+        },
+        {
+          "id": "RfiuBGD5IeU",
+          "title": "NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham",
+          "description": "NHS-R Conference 2022 - Day 1 (16th November 2022)\nEdgbaston Statdium, Birmingham\n\n0:00 Mohammed Mohammed - Welcome\n15:25 Charles Tallack - Building Analytical Capability\n25:28 Peter Spilsbury - The Strategy Unit and NHS-R\n41:45 Jessica Morley - Better, broader, Safer: Using Health Data for Research and Analysis\n1:04:37 Heather Turner - Good Coding Practices for Data Analysts\n1:21:42 Iain Dillingham - Code Reuse in a Trusted Research Environment: Reusable Actions in OpenSAFELY\n1:35:57 Jonny Pearson - Sharing code in the open\n1:59:35 Steven Wyatt - Activity and capacity modelling for the New Hospital Programme\n2:14:06 Dr Richard Wood - Simple and Scalable modelling of elective waiting lists using R\n2:25:52 Christopher Reading-Skilton - Pythia – RTT Acute Trust Waiting List Modelling using Simmer\n2:43:09 Zehra Önen-Dumlu - A simulation tool for determining intermediate care capacity requirements along the complex discharge pathway\n2:56:39 Simon Wellesley-Miller - Identifying waiting list health inequalities and predicting emergency admissions\n3:12:35 Edmund Haacke - Investigation the drivers of ED crowding, and identifying ’avoidable’ ED attendances\n3:25:50 Robin Marlow - Automating Emergency Department Clinical Governance using R\n3:38:54 Chris Beeley - Shiny Endominer\n3:55:41 Calum Polwart - Analysis of Systemic Anti-cancer Treatment Data using R\n4:08:55 Vivek Verma - Application of R and real-world data to customise cancer therapy\n4:22:22 Jason Pott - Automating observational trial data abstraction in the Emergency Department – work SmaRter not harder\n4:38:09 Richard Wilson - Reproducible Report Production using R markdown: an example using SHMI\n4:55:07 Victor Yu - A Local Analysis of the NCMP in Hertfordshire\n5:05:06 Anne Alarilla - Using R to explore the ambulance crisis\n5:12:44 Paul Carroll - Structured Topic Modelling in R\n5:21:03 Martina Fonseca - Use of Discrete Event Simulation (RSimmer) as decision-aid in tackling ambulance response time breaches and handover delays\n5:29:49 Cara Thompson - Variations on a ggplot theme: how to apply a unifying aesthetic to all your plots\n5:38:40 Chris Beeley, Mary Amanuel and Craig Shenton - Why Python",
+          "published": "2022-11-21T14:46:45Z",
+          "duration": "PT5H48M27S",
+          "thumbnail": "https://i.ytimg.com/vi/RfiuBGD5IeU/mqdefault.jpg"
+        },
+        {
+          "id": "GS8CThaMZXM",
+          "title": "NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham",
+          "description": "2:NHS-R Conference 2022 - Day 2 (17th November 2022) \nEdgbaston, Birmingham\n\n00:00 Welcome\n01:09 Andi Orlowski - ApHA + NHSR\n13:45 Cara Thompson - Palatable palettes: creating and applying bespoke colour schemes for your (gg)plots\n27:22 Milan Wiedemann - Implementing and monitoring quality of care indicators in OpenSAFELY\n44:40 Chris Mainey - Bendy Regressions: dealing with non-linear relationships in regressions\n59:15 Adnan Shroufi - Developing a dbplyr-based Address Matching Package to Identify Care Home Prescription Forms\n1:15:11 Will Yuill - System Dynamics in R\n1:31:28 Razia Ghani - R Girls School Network\n1:45:00 Colin Gillespie How much does technical debt cost?\n2:04:39 Nathan Thomas - Using forecasts to measure change\n2:19:11 Veerle van Leemput -  How to use Plumber to make your data and analysis accessible across your organisation\n2:32:36 Santosh Kumar and Yihan Xu - Understanding the ageing patterns of the population in North West London: A survival analysis\n2:50:39 Ryan Johnson - Rstudio\n3:01:14 Tareef Kawaf - Rstudio\n3:12:40 Anastasiia Zharinova - Delivering analytical projects using R: lessons learnt\n3:23:08 Dr Samuel Channon-Wells - Modernising paediatric antimicrobial medicines surveillance: A Data Science approach\n3:38:33 Daniel Weiand - Writing a fully referenced paper for publication, entirely in R, using RMD and the citr package\n3:46:35 Louise Reynolds - Don’t copy and paste, press ‘Run’: Automating regular reporting for the Radiotherapy Data Set\n3:54:06 Annie Yu - Reusing functions across projects with box modules\n4:03:17 Ruchir Shah - Using R to save clinician time and to aide research; automatically extracting paediatric lung function data using open-source Optical Character Recognition package (Tesseract)\n4:12:32 Sebastian Bate - Validating time-to-event clinical prediction models: A case study in ANCA-associated glomerulonephritis.\n4:21:30 Batool Almarzouq Developing Open repository for Encephalitis\n4:32:30 Chris Beeley NHS-R",
+          "published": "2022-11-21T16:06:32Z",
+          "duration": "PT4H46M44S",
+          "thumbnail": "https://i.ytimg.com/vi/GS8CThaMZXM/mqdefault.jpg"
+        },
+        {
+          "id": "htQWauSV9J4",
+          "title": "NHS-R Workshop: Working with databases in R - 23//11/22",
+          "description": "Working with databases in R\nWednesday 23rd November 2022\n\nLed by Christopher Maronga,m R Programmer, University of Oxford\n\nAbout the course:\n\nThe first step in any data handling process is loading data into your working tool regardless of the form and media of storage.\n\nRelational databases such as RMySQL and web-based databases such as REDCap have gained popularity as efficient and cost-effective storage of small – medium data.\n\nIn this workshop, I am going to walk you through key steps in extracting and using data store in these platforms using R statistical software with the aid of user-developed Application Programming Interfaces (API’s).\n\nLearning objectives:\n\nEfficiently connect R to Relational Database Management Systems (RDBMS)\nQuery data stored in any RDBMS from within R/Rstudio using dplyr and SQL syntax\nConnect and querying data from Research Electronic Data Capture (REDCap) database\nHow to secure your API while working on collaborative projects.",
+          "published": "2022-11-24T11:28:00Z",
+          "duration": "PT3H6M37S",
+          "thumbnail": "https://i.ytimg.com/vi/htQWauSV9J4/mqdefault.jpg"
+        },
+        {
+          "id": "E1et8cSIRMQ",
+          "title": "NHS-R Workshop: PHM ExploreR An open source tool for Population Health Management  - 24/11/22",
+          "description": "PHM ExploreR: An open source tool for Population Health Management\nThursday 24th November 2022\n\nLed by Andras Varady, Forensic Cancer Pathway Data Scientist, NHS Bristol, North Somerset and South Gloucestershire CCG\n\nAbout the course:\n\nThe workshop will introduce delegates to the PHM ExploreR: a versatile R Shiny tool created for exploring Population Health and facilitating Population Health Management (PHM) in healthcare systems.\n\nPHM is of increasingly high interest within the NHS, but many Business Intelligence departments lack the appropriate tools to keep pace with this rapidly growing field.\n\nFor NHS analysts, the PHM ExploreR aims to reduce reliance on Excel solutions and management consultancies offering bespoke pieces of work, and enable users to independently and interactively explore the key areas of PHM, such as Population Segmentation and Risk Stratification.\n\nThe workshop will start by describing the data requirements of the tool, and introduce the synthetic linked dataset used for demonstration. This will also cover the data required for maximum effectiveness of the tool.\n\nThe workshop will then move on to cover the full functionality of the suite, including:\n\nA number of summary graphs and statistics to provide a high level overview of the population.\nA series of segmentation methods, including Bridges to Health and data-driven methods such as decision trees and clustering methods.\nPatient-level ‘theoplots’, charting activity utilisation for individuals across multiple healthcare settings.\nRegression-based risk stratification for analysing and predicting differences in patient activity utilisation and spend.",
+          "published": "2022-11-24T14:27:07Z",
+          "duration": "PT1H39M56S",
+          "thumbnail": "https://i.ytimg.com/vi/E1et8cSIRMQ/mqdefault.jpg"
+        },
+        {
+          "id": "yaMpZsordu4",
+          "title": "NHS-R Workshop - Regression Modelling in R - 24/11/22",
+          "description": "Introduction to Regression Modelling\nThursday 24th November 2022\n\nLed by Chris Mainey, Deputy Director of Specialist Analytics at North Central London Integrated Care Board\n\nPre-requisites: Some introductory experience with R\n\nAbout the course:\nThis session will focus on how to fit regression models in R, the most common form of statistical modelling. We will examine the essential theory underpinning these models, then fit linear models with a single predictor, then multiple predictors and look at how to interpret them\n\nResources\nGitHub: https://github.com/chrismainey/Regression_Modelling_NHSR",
+          "published": "2022-11-25T14:30:48Z",
+          "duration": "PT2H25M16S",
+          "thumbnail": "https://i.ytimg.com/vi/yaMpZsordu4/mqdefault.jpg"
+        },
+        {
+          "id": "86sviwkA088",
+          "title": "NHS-R Workshop: Fitting Distributions in R - 25/11/22",
+          "description": "Fitting distributions in R\nFriday 25th November 2022\n\nLed by Dr Sean Manzi, Research Fellow in Applied Healthcare Modelling and Analysis, University of Exeter College of Medicine and Health\n\nPre-requisites:\nA basic understanding of how to use R\n\nAbout the course:\nThis session will begin by introducing probability distributions, the different types of distribution and why we use them in data science.\n\nWe will then move on to an overview of the distribution fitting process and how to implement this in R using the ‘fitdistrplus’ and ‘actuar’ packages.\n\nAs we proceed through the distribution fitting process, we will discuss some of the theory around the techniques used to fit a distribution to a data set.\n\nThere will be the opportunity to practice generating data from and fitting data to different distributions.\n\nFinally, we will explore the use of a shiny based app to help streamline your day-to-day distribution fitting activities.",
+          "published": "2022-11-25T13:33:16Z",
+          "duration": "PT1H32M54S",
+          "thumbnail": "https://i.ytimg.com/vi/86sviwkA088/mqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "label": "NHS-R Community Conference 2022: Python track",
+      "id": "PLSLQ7uyfNIIuFYsyo9Hf0cbYoOqgcly9m",
+      "videos": [
+        {
+          "id": "-0Bxk7v0SM4",
+          "title": "Mary Amanuel: Conference Opening",
+          "description": "@NHSOA_Community Conference: Python Track 17th of Nov 2022 \n■ *Speaker:* Mary Amanuel, Economics & Strategic Analysis, NHS England.\n■ *LinkedIn:* https://www.linkedin.com/in/mary-amanuel-b9b4621b4\n■ *GitHub:* https://github.com/maryamanuel1",
+          "published": "2022-11-26T19:10:04Z",
+          "duration": "PT2M7S",
+          "thumbnail": "https://i.ytimg.com/vi/-0Bxk7v0SM4/mqdefault.jpg"
+        },
+        {
+          "id": "ZctiQuwf9tI",
+          "title": "Sarah Culkin:  Keynote Speech",
+          "description": "@NHSOA_Community Conference: Python Track 17th of Nov 2022 \n■ *Speaker:* Sarah Culkin, Deputy Director, Analytics and Data Science, NHS England.\n■ *LinkedIn:* https://uk.linkedin.com/in/sarah-culkin-83a3908b\n■ *Website:* https://transform.england.nhs.uk/key-tools-and-info/nhsx-analytics-unit/",
+          "published": "2022-11-26T19:45:42Z",
+          "duration": "PT32M44S",
+          "thumbnail": "https://i.ytimg.com/vi/ZctiQuwf9tI/mqdefault.jpg"
+        },
+        {
+          "id": "O5IOFv50WyA",
+          "title": "Panel Discussion: What are the benefits of python and open-source code in the NHS?",
+          "description": "@NHSOA_Community Conference: Python Track 17th of Nov 2022 \n■ *Chair:* Sarah Culkin, Deputy Director, Analytics and Data Science, NHS England.\n■ *Speaker:* Pawel Orzechowski. Lecturer in Programming for Business, University of Edinburgh\n■ *Speaker:* Thiago Viana. Senior Lecturer in Computing, University of Gloucestershire\n■ *Speaker:* Andrew Harding. Open Tech Lead, NHS England",
+          "published": "2022-11-26T21:32:35Z",
+          "duration": "PT46M",
+          "thumbnail": "https://i.ytimg.com/vi/O5IOFv50WyA/mqdefault.jpg"
+        },
+        {
+          "id": "saANOhFQym8",
+          "title": "Adam Carruthers: Turbocharge your development with VS Code",
+          "description": "@NHSOA_Community Conference: Python Track 17th of Nov 2022 \n■ Speaker: Adam Carruthers, Graduate Trainee, NHS Digital\n■ LinkedIn: https://www.linkedin.com/in/adam-j-carruthers/\n■ GitHub: https://github.com/goodyguts",
+          "published": "2022-12-04T16:19:30Z",
+          "duration": "PT23M53S",
+          "thumbnail": "https://i.ytimg.com/vi/saANOhFQym8/mqdefault.jpg"
+        },
+        {
+          "id": "1W9N7gA210s",
+          "title": "Dr Mark Bailey: Spiritum Duo - Clinical Pathways - A to B but faster",
+          "description": "@NHSOA_Community  Conference: Python Track 17th of Nov 2022 \n■ Speaker: Mark Bailey, Speciality Doctor and Digital Lead in Respiratory Medicine. Gloucestershire Hospitals NHS Foundation Trust\n■ LinkedIn: https://www.linkedin.com/in/mark-allan-bailey/\n■ Github: https://github.com/Cotswoldsmaker\n■ Links: https://github.com/spiritumduo/spiritumDuo",
+          "published": "2022-12-04T16:49:06Z",
+          "duration": "PT13M57S",
+          "thumbnail": "https://i.ytimg.com/vi/1W9N7gA210s/mqdefault.jpg"
+        },
+        {
+          "id": "cs5-_CYJhZg",
+          "title": "Steven Maude: Documenting the OpenSAFELY platform with Python and MkDocs",
+          "description": "​ @NHSOA_Community Conference: Python Track 17th of Nov 2022 \n■ Speaker: Steven Maude, Software Developer, Bennett Institute for Applied Data Science\n■ Github: https://docs.opensafely.org\n■ Links: https://github.com/opensafely/documentation\n■ Links: https://github.com/opensafely-core/databuilder",
+          "published": "2022-12-04T20:07:11Z",
+          "duration": "PT26M39S",
+          "thumbnail": "https://i.ytimg.com/vi/cs5-_CYJhZg/mqdefault.jpg"
+        },
+        {
+          "id": "gELirXjNG4M",
+          "title": "Charlotte James: Forecasting Long-Term Demand in Emergency Departments",
+          "description": "@NHSOA_Community Conference: Python Track 17th of Nov 2022 \n■ Speaker: Charlotte James, Senior Research Associate in Health Data Science / Researcher in Residence, University of Bristol / BNSSG ICB\n■ Github: https://github.com/CharlotteJames\n■ Links: https://charlottejames.github.io/ed-forecast/",
+          "published": "2022-12-04T20:24:38Z",
+          "duration": "PT20M34S",
+          "thumbnail": "https://i.ytimg.com/vi/gELirXjNG4M/mqdefault.jpg"
+        },
+        {
+          "id": "kbozStgX7Ow",
+          "title": "Paul Carroll: Travel Time to NHS Organisations",
+          "description": "​ @NHSOA_Community Conference: Python Track 17th of Nov 2022 \n■ Speaker: Paul Carroll, Senior Data Scientist, NHS England, Transformation Directorate\n■ Github: https://github.com/pauldscarroll\n■ LinkedIn: https://www.linkedin.com/in/pauldscarroll/",
+          "published": "2022-12-04T20:40:57Z",
+          "duration": "PT12M36S",
+          "thumbnail": "https://i.ytimg.com/vi/kbozStgX7Ow/mqdefault.jpg"
+        },
+        {
+          "id": "1B_SG5fnOlA",
+          "title": "Dan Schofield: Connecting Research to NHS Operations",
+          "description": "​@NHSOA_Community Conference: Python Track 17th of Nov 2022 \n■ Speaker: Dan Schofield, Senior Data Scientist, NHS England, Transformation Directorate\n■ Github: https://github.com/danjscho\n■ LinkedIn: https://www.linkedin.com/in/dan-schofield-96439a99/",
+          "published": "2022-12-19T09:38:57Z",
+          "duration": "PT21M35S",
+          "thumbnail": "https://i.ytimg.com/vi/1B_SG5fnOlA/mqdefault.jpg"
+        },
+        {
+          "id": "VMgHQDOumPA",
+          "title": "David Sgorbati: R and Python – Integrating Workflows in the Creation of Synthetic Datasets",
+          "description": "@NHSOA_Community Conference: Python Track 17th of Nov 2022 \n■ Speaker: David Sgorbati, Chief Analyst, Health Economics Unit (Midlands and Lancashire CSU)\n■ LinkedIn: https://www.linkedin.com/in/david-sgorbati-68678512b/",
+          "published": "2022-12-19T09:46:04Z",
+          "duration": "PT23M57S",
+          "thumbnail": "https://i.ytimg.com/vi/VMgHQDOumPA/mqdefault.jpg"
+        },
+        {
+          "id": "8OTYqU7o1Wo",
+          "title": "Dany Gammall: Evaluating FHIR clinical data quality with BigQuery and dbt",
+          "description": "​@NHSOA_Community Conference: Python Track 17th of Nov 2022 \n■ Speaker: Dany Gammall, Clinician and Data Scientist, Google.\n■ LinkedIn: https://www.linkedin.com/in/dany-gammall/",
+          "published": "2022-12-19T10:00:59Z",
+          "duration": "PT12M56S",
+          "thumbnail": "https://i.ytimg.com/vi/8OTYqU7o1Wo/mqdefault.jpg"
+        },
+        {
+          "id": "ZWhhZrHbj6s",
+          "title": "German Priks: Exhibit: General Purpose Declarative Synthetic Data Generator",
+          "description": "​@NHSOA_Community Conference: Python Track 17th of Nov 2022 \n■ Speaker: German Priks\n■ GitHub: https://github.com/gherka\n■ LinkedIn: https://www.linkedin.com/in/german-priks-933745194/\n■ Links: https://github.com/gherka/exhibit",
+          "published": "2022-12-19T10:19:31Z",
+          "duration": "PT19M56S",
+          "thumbnail": "https://i.ytimg.com/vi/ZWhhZrHbj6s/mqdefault.jpg"
+        },
+        {
+          "id": "hu6sTdCrjG4",
+          "title": "Darshita Chaturvedi: Creating Progressive Web Apps using PyScript and Atri",
+          "description": "​@NHSOA_Community Conference: Python Track 17th of Nov 2022 \n■ Speaker: Darshita Chaturvedi, Co-Founder & CEO Atri Labs\n■ GitHub: https://github.com/darshitac11\n■ LinkedIn: https://www.linkedin.com/in/darshitac/",
+          "published": "2022-12-19T09:55:25Z",
+          "duration": "PT21M54S",
+          "thumbnail": "https://i.ytimg.com/vi/hu6sTdCrjG4/mqdefault.jpg"
+        },
+        {
+          "id": "4bXGCGGb5kw",
+          "title": "Alistair Jones: How we generate privacy-enhancing artificial healthcare data at NHS Digital",
+          "description": "@NHSOA_Community Conference: Python Track 17th of Nov 2022 \n■ Speaker: Alistair Jones, Senior Data Scientist, NHS Digital\n■ GitHub: https://github.com/alistair-jones\n■ LinkedIn: https://www.linkedin.com/in/alistair-h-jones/\n■ Links: https://github.com/NHSDigital/artificial-data-generator",
+          "published": "2022-12-19T10:07:10Z",
+          "duration": "PT22M13S",
+          "thumbnail": "https://i.ytimg.com/vi/4bXGCGGb5kw/mqdefault.jpg"
+        },
+        {
+          "id": "qhXiNyTTR6g",
+          "title": "Zeki Gultekin: Sensitive Data Detection - Convolutional Neural Networks and Name Entity Recognition",
+          "description": "@NHSOA_Community Conference: Python Track 17th of Nov 2022 \n■ Speaker: Zeki Gultekin, Data Analyst, DataTera\n■ LinkedIn: https://www.linkedin.com/in/zeki-gultekin/\n■ Github: https://github.com/Gltknzk\n■ Links: https://github.com/Gltknzk/My-Works_Data-Analysis",
+          "published": "2022-12-19T10:13:44Z",
+          "duration": "PT16M32S",
+          "thumbnail": "https://i.ytimg.com/vi/qhXiNyTTR6g/mqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "label": "NHS-R Community Conference 2021",
+      "id": "PLXCrMzQaI6c1R5K-iqHpOVDG0PelBA6uc",
+      "videos": [
+        {
+          "id": "R7uDB9iqlZY",
+          "title": "NHS-R Community Conference 2021 - Day 1",
+          "description": "Join us for Day 1 of the Virtual NHS-R Community conference 2021 on Monday 8th November 2021  - including lightning talks and plenary sessions.\n\nProgramme for Day 1\n09:30 Professor Mohammed Mohammed, NHS-R Community Opening and Welcome\n09:45 Ellen Coughlan, Programme Manager, The Health Foundation Advancing Analytics: Community and Capability\n10:05 Peter Spilsbury, Director, The Strategy Unit\nWhat should the NHS learn from the NHS-R Community\n10:25 Natalia Domagala, Head of Data Ethics Policy, Cabinet Office Implementing data ethics initiatives in the public sector\nBreak\n11:05 Colin Angus, Senior Research Fellow, University of Sheffield Challenges and opportunities in visualising COVID data using R\n11:25 Madeleine Whelan and Will Yuill, Hertfordshire County Council COVID-19 Modelling using R\n\n11:45 Colin Fay, Data Science and Engineering at ThinkR \nBreak\n12:25 Jessica Pang, Improvement Cymru, Public Health Wales Our journey to RShiny applications for COVID-19 Sampling and Testing\n12:45 Ben Murch, NHS England and NHS Improvement and Emma Gara, NHS Bristol, North Somerset & South Gloucestershire CCG  Modelling the impact of first wave Covid-19 on mental health service capacity across a local health system\nBreak\n14:00 Lightning Talks\n14:05 1. Lee Coulson, Senior Information Analyst, NHS Devon CCG Simple Geospatial Visualisation Using Leaflet\n14:15 2. Anne Alarilla, Senior Data Analyst, The Health Foundation Using R to analyse survey data\n14:25 3. Sebastien Peytrignet, Data Analyst, The Health Foundation What can an online shopping algorithm teach us about coordinating outpatient care?\n14:35 4. Tom Jemmett, Senior Healthcare Analyst, The Strategy Unit Introduction to OOP in R with S3\n\n14:45 5. Martine Wauben, Interim Head of Data Science, DHSC Voices of the public: using text data\nBreak\n15:05 6. Jay Hughes, Data Engineer, The Health Foundation Introducing an R package to process CPRD Aurum data\n15:15 7. Andy South, Data Scientist, University College London Hospital Developing R & data skills in clinicians at UCLH through a fellowship program & training\n15:25 8. Lydia Briggs, Data Scientist, Great Ormond Street Hospital NHS Trust Automated Data Processes in Clinical Operations – A pilot study for the Cardiac M&M meetings\n15:35 Close",
+          "published": "2021-11-15T13:05:15Z",
+          "duration": "PT5H48M55S",
+          "thumbnail": "https://i.ytimg.com/vi/R7uDB9iqlZY/mqdefault.jpg"
+        },
+        {
+          "id": "5HnW1YP3vTk",
+          "title": "NHS-R Community Conference 2021 - Day 2",
+          "description": "Join us for Day 2 of the Virtual NHS-R Community conference 2021 on Tuesday 9th November 2021  - including lightning talks and plenary sessions.\n\n0:05:56 Rich Gillett and Andrew Johnson, Patient Safety and Clinical Quality Directorate, Government for Western Australia, Department for Health - Down undeR: our journey using R for quality assurance in Perth Australia\n0:24:26 Sarah Culkin, Head of Analytics, NHSX - Free and open - what is the role of the centre?\n0:44:48 Rony Arafin, Chief Operating Officer, AphA - Empowering Analytics using Open Source Tools\n1:04:36 Emma Rand, Senior Lecturer in the Department of Biology at the University of York - You can make an R package too!\n\n1:44:49 Jacob Anhøj, Centre of Diagnostic Investigation, Rigshospitalet, University of Copenhagen - Run Forest, run! - Understanding variation using runs analysis\n2:05:46 Peter Higgins, Professor of Gastroenterology, University of Michigan - Introducing the {medicaldata} teaching package\n2:15:47 Lluís Revilla Sancho, Bioinformatician - Improving (analysis) process: developing packages\n2:34:24 Simon Wellesley-Miller, Information Manager at Devon Partnership NHS Trust and Christopher Reading, Divisional Information Specialist, Worcestershire Acute Hospitals NHS Trust - NHSRplotthedots\n\n3:04:50 Simon Moss with Dr Richard Wood, NHS Bristol, North Somerset and South Gloucestershire CCG - Use of PathSimR to support COVID-19 mass vaccination and stroke service centralisation\n3:25:02 Will Yuill, Principal Epidemiologist, Public Health, Hertfordshire County Council - Putting R into Production\n3:45:10 Hazel Kirkland and Chris Beeley, Lead Pharmacist and Senior Data Scientist, Nottinghamshire Healthcare NHS Trust - Putting the R in phaRmacy- forecasting and stock control using R for pharmacy inventory management\n\n5:40:00 - Frank Harrell, Professor of Biostatistics in the School of Medicine at Vanderbilt University - Statistical Mistakes to Avoid\n6:24:00 Gergely Daroczi and Ajay Gopal, Rx Studio Inc. - R package and APIs for Scaled Personalized Medicine\n6:40:21 Jeroen Ooms, Staff Research Engineer with @ropensci at UC Berkeley - The r-universe project",
+          "published": "2021-11-09T17:02:55Z",
+          "duration": "PT7H6M33S",
+          "thumbnail": "https://i.ytimg.com/vi/5HnW1YP3vTk/mqdefault.jpg"
+        },
+        {
+          "id": "NFQ4filc2jI",
+          "title": "NHS-R Community Conference 2021 - Day 3",
+          "description": "Join us for Day 3 of the Virtual NHS-R Community conference 2021 on Wednesday 10th November 2021  - including lightning talks and plenary sessions.\n\n0:04:28 Gary Hutson, Senior Data Scientist, Ascent - NHS-R Solutions\n0:21:44 John Lodge, Head of Quality Improvement (London Region), NHS England and NHS Improvement. Co-founder of Hexitime - Hexitime: the skill exchange and timebank for improving health and care services\n0:40:58 Suki Panesar, Deputy Director, NHS England and NHS Improvement - Connecting the data and analytic workforce and creating a social movement for good: the story of AnalystX\n1:29:47 Simon Wellesley-Miller, Information Manager, Devon Partnership Trust - Interactive reports using HTML widgets in R Markdown\n\n1:42:27 Hugo Cosh and Zoe Strawbridge, Public Health Wales - Shiny doesn't have to be scary: an easy way in with RMarkdown\n2:01:28 Dr Kate Bamford, Senior Data Surveillance Scientist, East Midlands Health Protection Team \nUK Health Security Agency - Using R Markdown, Reactable and Crosstalk to create an interactive COVID-19 review tool\n2:20:57 Kieran Zucker, NIHR Clinical Lecturer, University of Leeds - Self Service Analytics and Automatic Document Generation with R\n\n2:59:36 Heather Turner, R-Ladies, EPSRC Research Software Engineering Fellow, University of Warwick - Supporting Equality, Diversity and Inclusion in the R Community\n3:19:28 Adam Watkins, Advanced Improvement Analyst/Uwch-ddadansoddwr Gwelliant, Improvement Cymru (Public Health Wales) - Mapping public transport travel times - building on and enabling the work of others\n\n5:39:55 Hugo Herrera, Head of Analytics , East Suffolk & North Essex NHS Foundation Trust - Analysing A&E capacity and demand with R\n5:52:14 Dr William Bryant, Senior Data Scientist, Great Ormond Street Hospital NHS Trust - Predicting length-of-stay to improve patient flow – operational data science using R, `tidymodels` and `targets`\n6:07:45 Neli Garbuzanova, Deputy Head of Transformation, NHS England - R challenges and opportunities in the delivery of NHS service\n\n6:34:03 Julia Silge, Data Scientist and Software Engineer at RStudio - Creating features for machine learning from text\n7:33:25 Chris Beeley, Senior Data Scientist, Nottinghamshire Healthcare NHS Trust - Closing Remarks",
+          "published": "2021-11-10T17:45:21Z",
+          "duration": "PT7H44M27S",
+          "thumbnail": "https://i.ytimg.com/vi/NFQ4filc2jI/mqdefault.jpg"
+        },
+        {
+          "id": "2gqgq1rRTG4",
+          "title": "NHS-R Conference 2021: Fitting Distributions in R workshop",
+          "description": "This workshop session was recorded live on 1st November 2021 during the NHS-R community conference. All of the workshop materials can be found on GitHub here https://github.com/semanzi/fitting_distributions_with_R_NHSR_2021\n\nThe workshop begins by introducing probability distributions, the different types of distribution and why we use them in data science. We then move on to an overview of the distribution fitting process and how to implement this in R using the ‘fitdistrplus’ and ‘actuar’ packages. As we proceed through the distribution fitting process, we discuss some of the theory around the techniques used to fit a distribution to a data set. During the workshop you practice generating data from and fitting data to different distributions. Finally, we explore the use of a shiny based app to help streamline your day-to-day distribution fitting activities.\n\n#rstats #nhs #nhs-r",
+          "published": "2021-11-09T18:20:17Z",
+          "duration": "PT1H26M3S",
+          "thumbnail": "https://i.ytimg.com/vi/2gqgq1rRTG4/mqdefault.jpg"
+        },
+        {
+          "id": "Mmo1usxWEW4",
+          "title": "NHS-R Conference 2021 workshop: Functional Programming with R",
+          "description": "Tom Jemmett from The Strategy Unit presents a workshop in functional programming in R. In this session we cover some of the theory behind functional programming, and then cover the {purrr} package.\n\nGit repository: https://github.com/tomjemmett/nhs-r_conf_21-fp_workshop\nSlides: https://nhsr-21-fp.tjmt.uk/\nJoin the NHS-R slack: https://tinyurl.com/nhsrslack",
+          "published": "2021-11-03T12:58:50Z",
+          "duration": "PT2H2M30S",
+          "thumbnail": "https://i.ytimg.com/vi/Mmo1usxWEW4/mqdefault.jpg"
+        },
+        {
+          "id": "VI4wd3rSezc",
+          "title": "NHS-R Conference 2021 workshop: Great Tables",
+          "description": "",
+          "published": "2021-11-09T15:19:21Z",
+          "duration": "PT2H28M37S",
+          "thumbnail": "https://i.ytimg.com/vi/VI4wd3rSezc/mqdefault.jpg"
+        },
+        {
+          "id": "uerf_bY-d4c",
+          "title": "NHS-R Conference 2021: Intro to R/RStudio - Part 1",
+          "description": "Join Zoë Turner, Data Scientist,, Nottinghamshire Healthcare NHS Foundation Trust for this NHS-R Workshop - Introduction to R/RStudio\n\nSummary: An Introduction to R workshop covering R/RStudio, manipulation of data (dplyr), creating charts (ggplot2) and reports (R Markdown). This is a great opportunity for anyone who is interested in data analysis using Excel, SQL, Access or uses statistical programmes like SPSS to get started with R and R Studio. Pre-requisites: Assumes no prior experience with R. Pre-installation of key software is essential. Further details on how to complete this will be sent to you on registration.\n\nPre-requisites: Assumes no prior experience with R. However, pre-installation of key software is essential. Further details on how to complete this will be sent to you on registration.",
+          "published": "2022-02-17T17:50:23Z",
+          "duration": "PT44M39S",
+          "thumbnail": "https://i.ytimg.com/vi/uerf_bY-d4c/mqdefault.jpg"
+        },
+        {
+          "id": "9GESlEIvPDI",
+          "title": "NHS-R Conference 2021: Intro to R/RStudio Workshop - Part 2",
+          "description": "Join Zoë Turner, Data Scientist, Nottinghamshire Healthcare NHS Foundation Trust for Part 2 of this NHS-R Workshop - Introduction to R/RStudio\n\nSummary: An Introduction to R workshop covering R/RStudio, manipulation of data (dplyr), creating charts (ggplot2) and reports (R Markdown). This is a great opportunity for anyone who is interested in data analysis using Excel, SQL, Access or uses statistical programmes like SPSS to get started with R and R Studio. Pre-requisites: Assumes no prior experience with R. Pre-installation of key software is essential. Further details on how to complete this will be sent to you on registration.\n\nPre-requisites: Assumes no prior experience with R. However, pre-installation of key software is essential. Further details on how to complete this will be sent to you on registration.",
+          "published": "2022-02-17T17:51:31Z",
+          "duration": "PT3H32M58S",
+          "thumbnail": "https://i.ytimg.com/vi/9GESlEIvPDI/mqdefault.jpg"
+        },
+        {
+          "id": "w2LbATKFAI8",
+          "title": "NHS-R Conference 2021 workshop: NHS DataDictionaRy",
+          "description": "This workshop session was recorded live on 3rd November 2021 during the NHS-R community conference. All of the workshop materials can be found on GitHub here https://github.com/StatsGary/NHSDataDictionaRy_workshop.\n\nThe workshop was run by Gary Hutson - Senior Data Scientist @ Mango Solutions and was focused around working with NHS data dictionary lookups, getting familiar with web scraping, extending scraping beyond NHS data, working with websites, understanding how to use and consume xpath links from websites, understanding how to extract HTML tables and other functionality within the package.",
+          "published": "2021-11-12T16:05:49Z",
+          "duration": "PT2H16M24S",
+          "thumbnail": "https://i.ytimg.com/vi/w2LbATKFAI8/mqdefault.jpg"
+        },
+        {
+          "id": "sXJkMvvdXOI",
+          "title": "NHS-R Conference 2021 workshop: PHM ExploreR",
+          "description": "",
+          "published": "2021-11-17T12:26:37Z",
+          "duration": "PT1H35M22S",
+          "thumbnail": "https://i.ytimg.com/vi/sXJkMvvdXOI/mqdefault.jpg"
+        },
+        {
+          "id": "QbuXObUVTaw",
+          "title": "NHS-R Workshop:  Regression Modelling, November 2021",
+          "description": "Presented by:  Chris Mainey, Patient Safety Lead – System Analysis and Delivery, NHS Improvement\n\nPre-requisites: Some introductory experience with R\n\nSummary: This session focuses on how to fit regression models in R, the most common form of statistical modelling. Examining the essential theory underpinning these models, then fitting linear models with a single predictor, then multiple predictors and looking at how to interpret them",
+          "published": "2021-11-30T18:24:18Z",
+          "duration": "PT1H51M23S",
+          "thumbnail": "https://i.ytimg.com/vi/QbuXObUVTaw/mqdefault.jpg"
+        },
+        {
+          "id": "sE0hKSgMZfM",
+          "title": "NHS-R Conference 2021 Workshop Week - RMarkdown, Thomas Mock, RStudio",
+          "description": "RMarkdown – Friday 5th November 2021\nFacilitator: Thomas Mock, Software Engineer at RStudio\nPre-requisites: Some introductory experience with R",
+          "published": "2021-11-30T18:24:30Z",
+          "duration": "PT1H35M42S",
+          "thumbnail": "https://i.ytimg.com/vi/sE0hKSgMZfM/mqdefault.jpg"
+        },
+        {
+          "id": "wEYaeltxlys",
+          "title": "NHS-R Workshop: Shiny (Part 1 of 2) November 2021",
+          "description": "Facilitator: Chris Beeley, Senior Data Scientist, Nottinghamshire Healthcare NHS Foundation Trust\n\nSummary: Shiny is an programming framework for R that allows you to build dynamic and interactive dashboards for the web with no knowledge of HTML, CSS, or JavaScript. It allows R programmers to very easily allow their users to interact with analyses written in R.\nThis course will teach you Shiny all the way from writing your very first application to writing a full fledged dashboard with real NHS data in, and cover good practice in Shiny development. The course finishes with a preview of advanced methods for those curious to learn more.\n\nPre-requisites: Intermediate knowledge of R and RMarkdown is essential",
+          "published": "2021-11-30T17:52:15Z",
+          "duration": "PT2H27M40S",
+          "thumbnail": "https://i.ytimg.com/vi/wEYaeltxlys/mqdefault.jpg"
+        },
+        {
+          "id": "aeTgh91EgTs",
+          "title": "NHS-R Workshop: Shiny (Part 2 of 2) - November 2021",
+          "description": "Facilitator: Chris Beeley, Senior Data Scientist, Nottinghamshire Healthcare NHS Foundation Trust\n\nSummary: Shiny is an programming framework for R that allows you to build dynamic and interactive dashboards for the web with no knowledge of HTML, CSS, or JavaScript. It allows R programmers to very easily allow their users to interact with analyses written in R.\nThis course will teach you Shiny all the way from writing your very first application to writing a full fledged dashboard with real NHS data in, and cover good practice in Shiny development. The course finishes with a preview of advanced methods for those curious to learn more.\n\nPre-requisites: Intermediate knowledge of R and RMarkdown is essential",
+          "published": "2021-12-01T15:34:21Z",
+          "duration": "PT2H16M30S",
+          "thumbnail": "https://i.ytimg.com/vi/aeTgh91EgTs/mqdefault.jpg"
+        },
+        {
+          "id": "UfGrLJ7S3sc",
+          "title": "NHS-R Workshop: Introduction to changepoint analysis with R-  November 2021",
+          "description": "Facilitator: Dr Rebecca Killick Associate Professor in the Mathematics & Statistics department at Lancaster University\n\nSummary: This workshop introduces participants to the analysis of changepoint models (also known as time series segmentation or structural changes). The course is aimed at those with an interest in discovering methods for models that include changepoints. It will be interactive and use packages available on CRAN.\n\nFollowing the course participants will be able to:\n - recognise datasets that potentially contain changepoints\n - identify appropriate changepoint methods dependent on the type of change suspected\n - perform changepoint analyses using a variety of techniques in R\n - summarise and evaluate results of a changepoint analysis\n\nPre-requisites: Basic working knowledge of R and statistical modelling is assumed",
+          "published": "2021-12-03T15:02:21Z",
+          "duration": "PT2H49M1S",
+          "thumbnail": "https://i.ytimg.com/vi/UfGrLJ7S3sc/mqdefault.jpg"
+        },
+        {
+          "id": "rRL8rT97S0I",
+          "title": "NHS-R Workshop: Further changepoint analysis techniques –December 2021",
+          "description": "Facilitator: Dr Rebecca Killick Associate Professor in the Mathematics & Statistics department at Lancaster University\n\nSummary:  ‘Further changepoint analysis techniques’ workshop builds upon the introduction to changepoint course and that knowledge will be assumed. We will focus on more advanced and recently developed techniques such as how to incorporate:\n - covariates\n - seasonality\n - dependence / autocorrelation\n - multivariate data\nPre-requisites: This workshop builds upon the introduction to changepoint course and that knowledge will be assumed",
+          "published": "2021-12-03T18:01:06Z",
+          "duration": "PT1H43M11S",
+          "thumbnail": "https://i.ytimg.com/vi/rRL8rT97S0I/mqdefault.jpg"
+        },
+        {
+          "id": "_broZee5Y6s",
+          "title": "Introduction to Machine Learning and Image Processing with R, December 2021",
+          "description": "Facilitators: Santosh Kumar and Bruno Petrungaro, The Health Economics Unit\n\nSummary: This workshop covers the basics of image processing, classical machine learning with R. Topics in machine learning include an introduction to machine learning, the difference between machine learning and AI, Machine learning models, overfitting in machine learning models, applications of machine learning in the healthcare, and machine learning with R. Topics in image processing include the basics of image processing, including conventions of image representation, visualization, common transformations, and filtering operations, and common methods for image classification.\n\nPre-requisites: Basic mathematics, Beginner R programming, Basic data structure",
+          "published": "2021-12-09T17:09:34Z",
+          "duration": "PT2H59M51S",
+          "thumbnail": "https://i.ytimg.com/vi/_broZee5Y6s/mqdefault.jpg"
+        },
+        {
+          "id": "pCaqwX7bDLs",
+          "title": "Statistical process control charts with R - Jacob Anhøj, November 2021",
+          "description": "Date: Thursday 4th November 2021\nStatistical process control charts with R \nOne day Workshop: Masterclass for R programmers\n\nFacilitators: Jacob Anhøj, Medical Doctor, Rigshospitalet, Copenhagen, Denmark and Zoë Turner, Senior Information Analyst, Nottinghamshire Healthcare NHS Foundation Trust\n\nhttps://github.com/anhoej/r4spc\n\nSummary: This full-day masterclass is for R programmers who want to learn statistical process control (SPC) for continuous quality improvement.\n\nIn this masterclass you will learn the tools, most notably the process control chart, which is a simple an elegant graph that helps to distinguish between common and special cause variation in processes in time or space.\n\nPre-requisites: are familiar with the basic ideas of SPC, specifically the distinction between common cause and special cause variation;\nhave experience using the R programming language to manipulate, analyse, and plot data; understand basic statistical concepts including probability, population, sample, distribution, and measures of central tendency and dispersion.",
+          "published": "2022-05-13T08:14:07Z",
+          "duration": "PT4H21M11S",
+          "thumbnail": "https://i.ytimg.com/vi/pCaqwX7bDLs/mqdefault.jpg"
+        },
+        {
+          "id": "OdBG78Tmx70",
+          "title": "Reproducible computation at scale in R with targets, Will Landau, November 2021",
+          "description": "Facilitator: Will Landau, Eli Lilly and Company – USA\n\nData science can be slow. A single round of statistical computation can take several minutes, hours, or even days to complete.\n\nThe targets R package keeps results up to date and reproducible while minimizing the number of expensive tasks that actually run. targets arranges the steps of your pipeline, skips costly runtime for steps that are already up to date, runs the rest with optional implicit parallel computing, abstracts files as R objects, and shows tangible evidence that the output matches the underlying code and data. In other words, the package saves time while increasing your ability to trust the results.\n\nThis hands-on workshop teaches targets using a realistic case study\n\nPre-requisites: Some introductory experience with R",
+          "published": "2022-05-13T13:52:51Z",
+          "duration": "PT1H41M32S",
+          "thumbnail": "https://i.ytimg.com/vi/OdBG78Tmx70/mqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "label": "NHS-R Community Conference 2020: talks",
+      "id": "PLXCrMzQaI6c0Kvs7lE-Rxdig5nc5-4Xx2",
+      "videos": [
+        {
+          "id": "9-XlwH5VPLk",
+          "title": "Conference opening: NHS-R Journey so far and next steps by Mohammed Mohammed",
+          "description": "Session 1 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/\n\nAll presentations will be uploaded to our github page: https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-10T13:40:49Z",
+          "duration": "PT28M53S",
+          "thumbnail": "https://i.ytimg.com/vi/9-XlwH5VPLk/mqdefault.jpg"
+        },
+        {
+          "id": "rxgUbee7U38",
+          "title": "OpenSAFELY.org: proving the power of open methods for NHS data analysis byDr Ben Goldacre",
+          "description": "Session 2 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/\n\n\nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-10T14:32:14Z",
+          "duration": "PT38M5S",
+          "thumbnail": "https://i.ytimg.com/vi/rxgUbee7U38/mqdefault.jpg"
+        },
+        {
+          "id": "bsnSUMLAcxk",
+          "title": "Strengthening data analytics in pursuit of better health care by Adam Steventon",
+          "description": "Session 3 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/\n\n\nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-10T16:00:17Z",
+          "duration": "PT20M13S",
+          "thumbnail": "https://i.ytimg.com/vi/bsnSUMLAcxk/mqdefault.jpg"
+        },
+        {
+          "id": "gOWccQP2SIE",
+          "title": "phsmethods: An R package for PublicHealth Scotland by Ciara Gribben",
+          "description": "Session 4 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/\n\n\nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-10T17:05:27Z",
+          "duration": "PT27M35S",
+          "thumbnail": "https://i.ytimg.com/vi/gOWccQP2SIE/mqdefault.jpg"
+        },
+        {
+          "id": "fvBmI6A7Ncg",
+          "title": "Introduction to Hexitime by John Lodge & Hesham Abdalla",
+          "description": "Session 5 of the NHS-R Community Conference 2020. All presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-10T17:25:30Z",
+          "duration": "PT41M35S",
+          "thumbnail": "https://i.ytimg.com/vi/fvBmI6A7Ncg/mqdefault.jpg"
+        },
+        {
+          "id": "nT2TCnpKAlw",
+          "title": "Hexitime session: Deep Dive by John Lodge & Hesham Abdalla",
+          "description": "Session 5 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/\n\nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-12T13:27:19Z",
+          "duration": "PT59M41S",
+          "thumbnail": "https://i.ytimg.com/vi/nT2TCnpKAlw/mqdefault.jpg"
+        },
+        {
+          "id": "5eEaAxeDFRE",
+          "title": "Lightning talks: Session 1",
+          "description": "Session 7 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/\n\nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-12T14:09:45Z",
+          "duration": "PT1H15M21S",
+          "thumbnail": "https://i.ytimg.com/vi/5eEaAxeDFRE/mqdefault.jpg"
+        },
+        {
+          "id": "AD8k5CnrYnk",
+          "title": "The Health Foundation: Supporting Better Analytics by Ellen Coughlan",
+          "description": "Session 8 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here: https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/  \n\nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-11T14:06:26Z",
+          "duration": "PT36M5S",
+          "thumbnail": "https://i.ytimg.com/vi/AD8k5CnrYnk/mqdefault.jpg"
+        },
+        {
+          "id": "J7q2GJImEW8",
+          "title": "Causal Inference in Population Health Management by Andi Orlowski and Bruno Petrungaro",
+          "description": "Session 9 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/  \nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-11T14:20:55Z",
+          "duration": "PT38M17S",
+          "thumbnail": "https://i.ytimg.com/vi/J7q2GJImEW8/mqdefault.jpg"
+        },
+        {
+          "id": "07BV1LdykvM",
+          "title": "Rapid development of a multifaceted profile on health and wellbeing by Bethan Patterson &Rhys Powell",
+          "description": "Session 10 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/ \nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-11T14:29:20Z",
+          "duration": "PT22M27S",
+          "thumbnail": "https://i.ytimg.com/vi/07BV1LdykvM/mqdefault.jpg"
+        },
+        {
+          "id": "vQCXT_YwsfE",
+          "title": "Using ggplot2 polygon and spatial data to plot brain atlases by Athanasia Mowinckel",
+          "description": "Session 11 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/ \nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-11T14:51:00Z",
+          "duration": "PT29M23S",
+          "thumbnail": "https://i.ytimg.com/vi/vQCXT_YwsfE/mqdefault.jpg"
+        },
+        {
+          "id": "Jr75a9FRawI",
+          "title": "R Shiny in Transformation by Eleanor Barnes",
+          "description": "Session 12 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/ \nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-11T14:52:27Z",
+          "duration": "PT18M31S",
+          "thumbnail": "https://i.ytimg.com/vi/Jr75a9FRawI/mqdefault.jpg"
+        },
+        {
+          "id": "EHmcIBJS2dg",
+          "title": "Come Together by Hillary Juma",
+          "description": "Session 13 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/ \n\nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-11T14:55:09Z",
+          "duration": "PT21M25S",
+          "thumbnail": "https://i.ytimg.com/vi/EHmcIBJS2dg/mqdefault.jpg"
+        },
+        {
+          "id": "0UyIEYdGx_g",
+          "title": "Lightning talks: Session 2",
+          "description": "Session 14 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/\n\nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-12T15:15:34Z",
+          "duration": "PT1H16M55S",
+          "thumbnail": "https://i.ytimg.com/vi/0UyIEYdGx_g/mqdefault.jpg"
+        },
+        {
+          "id": "8uAG3KKBxM0",
+          "title": "Opening up Analytics by Sarah Culkin",
+          "description": "Session 15 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/ \nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-12T14:02:31Z",
+          "duration": "PT26M25S",
+          "thumbnail": "https://i.ytimg.com/vi/8uAG3KKBxM0/mqdefault.jpg"
+        },
+        {
+          "id": "0BiGiZfqqZA",
+          "title": "Building predictive models with HES data using R by Chris Mainey",
+          "description": "Session 16 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/ \n \nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-12T14:08:28Z",
+          "duration": "PT27M11S",
+          "thumbnail": "https://i.ytimg.com/vi/0BiGiZfqqZA/mqdefault.jpg"
+        },
+        {
+          "id": "hfYX5cfvR0I",
+          "title": "R you seriously still using Excel? by Gianluca Baio",
+          "description": "Session 17 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/ \n\nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-12T14:18:02Z",
+          "duration": "PT25M3S",
+          "thumbnail": "https://i.ytimg.com/vi/hfYX5cfvR0I/mqdefault.jpg"
+        },
+        {
+          "id": "Pl66-h5UXgI",
+          "title": "Decision Modelling in R-Shiny by Robert Smith",
+          "description": "Session 18 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/ \n\nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-12T14:16:37Z",
+          "duration": "PT21M7S",
+          "thumbnail": "https://i.ytimg.com/vi/Pl66-h5UXgI/mqdefault.jpg"
+        },
+        {
+          "id": "Ezfr6uiYKG0",
+          "title": "For love or money? How to generate high revenue from a team of R developers by Lisa Clark",
+          "description": "Session 19 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/ \n\nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-12T14:22:50Z",
+          "duration": "PT30M31S",
+          "thumbnail": "https://i.ytimg.com/vi/Ezfr6uiYKG0/mqdefault.jpg"
+        },
+        {
+          "id": "6PV5dGpmQgk",
+          "title": "Navigating open-source software: Ensuring you can rely on what you use by Rebecca Killick",
+          "description": "Session 20 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/ \n\nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-12T14:29:13Z",
+          "duration": "PT31M31S",
+          "thumbnail": "https://i.ytimg.com/vi/6PV5dGpmQgk/mqdefault.jpg"
+        },
+        {
+          "id": "H_qzxl8qpTs",
+          "title": "Lightning talks: Session 3",
+          "description": "Session 21 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/ \n\nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-12T14:40:36Z",
+          "duration": "PT1H6M11S",
+          "thumbnail": "https://i.ytimg.com/vi/H_qzxl8qpTs/mqdefault.jpg"
+        },
+        {
+          "id": "6SASXHRokIA",
+          "title": "The Art of Insight: Making Decisions in Visualization by Alberto Cairo",
+          "description": "Session 22 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/ \n\nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-12T14:48:47Z",
+          "duration": "PT1H10M3S",
+          "thumbnail": "https://i.ytimg.com/vi/6SASXHRokIA/mqdefault.jpg"
+        },
+        {
+          "id": "b1MUzUVHdkw",
+          "title": "R in British Heart Foundation by Kate Cheema",
+          "description": "Session 23 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/ \nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-13T15:52:00Z",
+          "duration": "PT24M59S",
+          "thumbnail": "https://i.ytimg.com/vi/b1MUzUVHdkw/mqdefault.jpg"
+        },
+        {
+          "id": "wV6mQ8RQ2rM",
+          "title": "Preventing human trafficking through the power of analytics by Sandro Matos",
+          "description": "Session 24 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/ \nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-13T15:58:14Z",
+          "duration": "PT27M59S",
+          "thumbnail": "https://i.ytimg.com/vi/wV6mQ8RQ2rM/mqdefault.jpg"
+        },
+        {
+          "id": "7ezy5xHMTno",
+          "title": "How computer vision can assist clinicians by Gary Hutson",
+          "description": "Session 25 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/ \nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-13T15:56:15Z",
+          "duration": "PT25M5S",
+          "thumbnail": "https://i.ytimg.com/vi/7ezy5xHMTno/mqdefault.jpg"
+        },
+        {
+          "id": "-N6C3yn0D4o",
+          "title": "OpenSAFELY: a walkthrough in R (and a little bit of Python) by William Hulme",
+          "description": "Session 26 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/ \nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-13T16:23:26Z",
+          "duration": "PT24M5S",
+          "thumbnail": "https://i.ytimg.com/vi/-N6C3yn0D4o/mqdefault.jpg"
+        },
+        {
+          "id": "gh8oWH519Hs",
+          "title": "Training pathways: adopting R across the organisation by Russell McCreath",
+          "description": "Session 27 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/ \nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-13T16:21:16Z",
+          "duration": "PT23M19S",
+          "thumbnail": "https://i.ytimg.com/vi/gh8oWH519Hs/mqdefault.jpg"
+        },
+        {
+          "id": "aykTpe_JIEU",
+          "title": "Performance of NEWS and compliance with vital sign monitoring during COVID pandemic by Ina Kostakis",
+          "description": "Session 28 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/ \nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-13T16:32:12Z",
+          "duration": "PT23M47S",
+          "thumbnail": "https://i.ytimg.com/vi/aykTpe_JIEU/mqdefault.jpg"
+        },
+        {
+          "id": "hcBD69WE2no",
+          "title": "Providing structure in messy healthcare data by Michael Hurst",
+          "description": "Session 29 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/ \nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-13T16:43:41Z",
+          "duration": "PT35M51S",
+          "thumbnail": "https://i.ytimg.com/vi/hcBD69WE2no/mqdefault.jpg"
+        },
+        {
+          "id": "NntdfEfa1gM",
+          "title": "Marvelous RMarkdown by Tom Mock",
+          "description": "Session 30 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/ \nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-13T18:16:31Z",
+          "duration": "PT35M3S",
+          "thumbnail": "https://i.ytimg.com/vi/NntdfEfa1gM/mqdefault.jpg"
+        },
+        {
+          "id": "b9WWNO4P2nY",
+          "title": "Styling Shiny & R Markdown with bslib & thematic by Carson Sievert",
+          "description": "Session 31 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/ \nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-13T18:16:40Z",
+          "duration": "PT23M41S",
+          "thumbnail": "https://i.ytimg.com/vi/b9WWNO4P2nY/mqdefault.jpg"
+        },
+        {
+          "id": "f_l1oa4ShJo",
+          "title": "APIs in R with Plumber by James Blair",
+          "description": "Session 32 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/ \nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-13T18:16:35Z",
+          "duration": "PT28M33S",
+          "thumbnail": "https://i.ytimg.com/vi/f_l1oa4ShJo/mqdefault.jpg"
+        },
+        {
+          "id": "TVbOSll5QX4",
+          "title": "Workflows by Kelly O'Briant",
+          "description": "Session 33 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/ \nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-16T09:22:06Z",
+          "duration": "PT30M23S",
+          "thumbnail": "https://i.ytimg.com/vi/TVbOSll5QX4/mqdefault.jpg"
+        },
+        {
+          "id": "tsggE1Zz0-0",
+          "title": "Illustrating R: Creative Contributions for R Education and Engagement by Allison Horst",
+          "description": "Session 34 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/ \nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-16T09:36:33Z",
+          "duration": "PT19M51S",
+          "thumbnail": "https://i.ytimg.com/vi/tsggE1Zz0-0/mqdefault.jpg"
+        },
+        {
+          "id": "1Sw3qPqSb70",
+          "title": "R Code Quality: Does it Really Matter? by Colin Gillespie",
+          "description": "Session 35 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/ \nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-13T13:32:53Z",
+          "duration": "PT27M23S",
+          "thumbnail": "https://i.ytimg.com/vi/1Sw3qPqSb70/mqdefault.jpg"
+        },
+        {
+          "id": "rm6G3sAFrmQ",
+          "title": "R and open analytics in the Health Foundation response to COVID-19 by Fiona Grimm and Emma Vestesson",
+          "description": "Session 37 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/ \nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-13T13:45:03Z",
+          "duration": "PT24M23S",
+          "thumbnail": "https://i.ytimg.com/vi/rm6G3sAFrmQ/mqdefault.jpg"
+        },
+        {
+          "id": "a0V7W2tuZAs",
+          "title": "Constructing a mortality dashboard by Richard Wilson",
+          "description": "Session 38 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/ \n\nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-13T13:51:13Z",
+          "duration": "PT19M15S",
+          "thumbnail": "https://i.ytimg.com/vi/a0V7W2tuZAs/mqdefault.jpg"
+        },
+        {
+          "id": "fi6YntQA1Xo",
+          "title": "Integrating R and Qlik Sense by Jamie-Leigh Chapman",
+          "description": "Session 39 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/ \n\nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-13T13:56:46Z",
+          "duration": "PT22M3S",
+          "thumbnail": "https://i.ytimg.com/vi/fi6YntQA1Xo/mqdefault.jpg"
+        },
+        {
+          "id": "y2rGTsGuzrU",
+          "title": "Communicating statistics in the age of short attention spans by Federica Cocco and John Burn-Murdoch",
+          "description": "Session 40 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here https://nhsrcommunity.com/events/nhs-r-virtual-conference-2020/ \n\nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-13T14:04:31Z",
+          "duration": "PT37M23S",
+          "thumbnail": "https://i.ytimg.com/vi/y2rGTsGuzrU/mqdefault.jpg"
+        },
+        {
+          "id": "FyXNW14vfFg",
+          "title": "Closing Remarks",
+          "description": "Session 41 of the NHS-R Community Conference 2020. \n\nAll presentations will be uploaded to our github page https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-13T14:10:56Z",
+          "duration": "PT15M43S",
+          "thumbnail": "https://i.ytimg.com/vi/FyXNW14vfFg/mqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "label": "NHS-R Community Conference 2020: workshops",
+      "id": "PLXCrMzQaI6c3EAh10hDZectzBALWPk19w",
+      "videos": [
+        {
+          "id": "veJlBNoK1zA",
+          "title": "An introduction to Public HealthEngland’s packages; fingertipsR and fingertipscharts",
+          "description": "This is a recording from the NHS-R Community Conference 2020, An introduction to Public HealthEngland’s packages. It was run on Monday 2nd of November by Sebastian Fox, Principal Data\nScientist and Public Health England and supported by his colleagues Sam Dunn. The video was not edited and might include time for exercises/breaks.\n\nAll materials can be found here: https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-03T10:15:02Z",
+          "duration": "PT2H2M4S",
+          "thumbnail": "https://i.ytimg.com/vi/veJlBNoK1zA/mqdefault.jpg"
+        },
+        {
+          "id": "MxjHiIaVmA0",
+          "title": "Text analysis",
+          "description": "This is a recording from the NHS-R Community Conference 2020, Text Analysis workshop. It was run on Monday 2nd of November by Duncan Leng, Junior Data Scientist at Mango Solutions.  You can read more about Mango Solutions on their website (https://www.mango-solutions.com/) or Twitter (https://twitter.com/mangothecat). The video was not edited and might include time for exercises/breaks.\n\nAll materials can be found here: https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-03T17:04:52Z",
+          "duration": "PT2H54M27S",
+          "thumbnail": "https://i.ytimg.com/vi/MxjHiIaVmA0/mqdefault.jpg"
+        },
+        {
+          "id": "EXjgo3ByVUk",
+          "title": "R for Excel Users",
+          "description": "This is a recording from the NHS-R Community Conference 2020, R for Excel users workshop. It was run on Tuesday 3nd of November by Sean Manzi, Research Fellow in Applied Healthcare Modelling and Analysis, University of Exeter College of Medicine and Health\r. The video was not edited and might include time for exercises/breaks.\n\nAll materials can be found here: https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-03T17:27:58Z",
+          "duration": "PT1H17M29S",
+          "thumbnail": "https://i.ytimg.com/vi/EXjgo3ByVUk/mqdefault.jpg"
+        },
+        {
+          "id": "jiuDr4aYgkY",
+          "title": "Introduction to ggplot2",
+          "description": "This is a recording from the NHS-R Community Conference 2020, R for Excel users workshop. It was run on Tuesday 3nd of November by Rhian Davis, Data Scientist at Jumping Rivers\r You can read more about Jumping Rivers on their website (https://www.jumpingrivers.com/) and Twitter (https://twitter.com/jumping_uk). The video was not edited and might include time for exercises/breaks.\n\nAll materials can be found here: https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-04T10:06:47Z",
+          "duration": "PT2H5M33S",
+          "thumbnail": "https://i.ytimg.com/vi/jiuDr4aYgkY/mqdefault.jpg"
+        },
+        {
+          "id": "M3skTMQbCD0",
+          "title": "Xaringan Slides (part 1)",
+          "description": "This is a recording from the NHS-R Community Conference 2020, Xaringan Slides (part 1). It was run on Tuesday 3nd of November by Silvia Canelon, postdoctoral research scientist in the Department of Biostatistics, Epidemiology, and Informatics at the University of Pennsylvania Perelman School of Medicine (https://silvia.rbind.io/)\r. Laurie Baker,  Data Science Lecturer at Data Science campus, has supported this workshop. You can follow the trainers on Twitter: https://twitter.com/spcanelon and https://twitter.com/llbaker1707.\nThe video was not edited and might include time for exercises/breaks.\n\nAll materials can be found here: https://github.com/nhs-r-community/Conference_2020\n\nOriginal materials: https://spcanelon.github.io/xaringan-basics-and-beyond/\nDay 1: https://spcanelon.github.io/xaringan-basics-and-beyond/slides/day-01-basics.html\nDay 2: https://spcanelon.github.io/xaringan-basics-and-beyond/slides/day-02-beyond.html",
+          "published": "2020-11-04T10:38:07Z",
+          "duration": "PT1H46M34S",
+          "thumbnail": "https://i.ytimg.com/vi/M3skTMQbCD0/mqdefault.jpg"
+        },
+        {
+          "id": "WelmlZK5G2Y",
+          "title": "Introduction to changepoint analysis",
+          "description": "This is a recording from the NHS-R Community Conference 2020, Introduction to Changepoint analysis workshop. It was run on Wednesday 4th of November by Dr Rebecca Killick, Senior Lecturer (Associate Professor) in Statistics at Lancaster University. Jamie-Leigh Chapman, Data Scientist at Wrightington, Wigan and Leigh NHS Foundation Trust, has supported this workshop. .\nThe video was not edited and might include time for exercises/breaks.\n\nAll materials can be found here: https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-04T15:56:16Z",
+          "duration": "PT2H29M58S",
+          "thumbnail": "https://i.ytimg.com/vi/WelmlZK5G2Y/mqdefault.jpg"
+        },
+        {
+          "id": "lXHpFRVfMfM",
+          "title": "Great tables",
+          "description": "This is a recording from the NHS-R Community Conference 2020, great tables workshop. It was run on Wednesday 4th of November by Rich Iannone, Software Engineer at RStudio. You can follow Rich on Twitter https://twitter.com/riannone.\nThe video was not edited and might include time for exercises/breaks.\n\nAll materials can be found here: https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-05T10:39:58Z",
+          "duration": "PT2H35M27S",
+          "thumbnail": "https://i.ytimg.com/vi/lXHpFRVfMfM/mqdefault.jpg"
+        },
+        {
+          "id": "UrZsKfNw1wc",
+          "title": "Introduction to RMarkdown",
+          "description": "This is a recording from the NHS-R Community Conference 2020, Introduction to R Workshop. It was run on Thursday 5th of November by Matthew Francis, Principal Public Health Intelligence Analyst, Public Health England.\r\nThe video was not edited and might include time for exercises/breaks.\n\nAll materials can be found here: https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-05T15:20:29Z",
+          "duration": "PT1H58M4S",
+          "thumbnail": "https://i.ytimg.com/vi/UrZsKfNw1wc/mqdefault.jpg"
+        },
+        {
+          "id": "VATINtNWpH0",
+          "title": "Interactive reports",
+          "description": "This is a recording from the NHS-R Community Conference 2020, Interactive reports webinar. It was run on Thursday 5th of November by Simon Wellesley-Miller, Information Manager, Devon Partnership NHS Trust.\r\nThe video was not edited and might include time for exercises/breaks.\n\nAll materials can be found here: https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-05T15:41:19Z",
+          "duration": "PT51M36S",
+          "thumbnail": "https://i.ytimg.com/vi/VATINtNWpH0/mqdefault.jpg"
+        },
+        {
+          "id": "UWLfhQFRde4",
+          "title": "Regression modelling",
+          "description": "This is a recording from the NHS-R Community Conference 2020, Regression Modelling. It was run on Friday 6th of November by Chris Mainey,  Intelligence Analyst, Healthcare Evaluation Data (HED) team, University Hospitals Birmingham NHS Foundation Trust\r. You can follow Chris on Twitter: https://twitter.com/chrismainey\nThe video was not edited and might include time for exercises/breaks.\n\nAll materials can be found here: https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-09T13:50:46Z",
+          "duration": "PT1H51M33S",
+          "thumbnail": "https://i.ytimg.com/vi/UWLfhQFRde4/mqdefault.jpg"
+        },
+        {
+          "id": "y5ispDcKfHw",
+          "title": "Introduction to dplyr",
+          "description": "This is a recording from the NHS-R Community Conference 2020, dplyr workshop. It was run on Friday 6th of November by Zoë Turner, Senior Information Analyst, Nottinghamshire Healthcare NHS Foundation Trust. You can follow Zoe on Twitter: https://twitter.com/Letxuga007\n\nAll materials can be found here: https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-10T13:22:33Z",
+          "duration": "PT2H14M11S",
+          "thumbnail": "https://i.ytimg.com/vi/y5ispDcKfHw/mqdefault.jpg"
+        },
+        {
+          "id": "cAtpZxW4bTI",
+          "title": "Xaringan slides (part 2)",
+          "description": "This is a recording from the NHS-R Community Conference 2020, Xaringan Slides (part 2). It was run on Thursday 5th of November by Silvia Canelon, postdoctoral research scientist in the Department of Biostatistics, Epidemiology, and Informatics at the University of Pennsylvania Perelman School of Medicine (https://silvia.rbind.io/)\r. Laurie Baker,  Data Science Lecturer at Data Science campus, has supported this workshop. You can follow the trainers on Twitter: https://twitter.com/spcanelon and https://twitter.com/llbaker1707.\nThe video was not edited and might include time for exercises/breaks.\n\nAll materials can be found here: https://github.com/nhs-r-community/Conference_2020\n\nOriginal materials: https://spcanelon.github.io/xaringan-basics-and-beyond/\nDay 1: https://spcanelon.github.io/xaringan-basics-and-beyond/slides/day-01-basics.html\nDay 2: https://spcanelon.github.io/xaringan-basics-and-beyond/slides/day-02-beyond.html",
+          "published": "2020-11-06T10:45:20Z",
+          "duration": "PT1H43M40S",
+          "thumbnail": "https://i.ytimg.com/vi/cAtpZxW4bTI/mqdefault.jpg"
+        },
+        {
+          "id": "lQgfPFldh3w",
+          "title": "Tour of tidyverse",
+          "description": "This is a recording from the NHS-R Community Conference 2020, Introduction to R Workshop. It was run on Thursday 5th of November by Max Krongborg and Mango Solutions. You can read more about Mango Solutions on their website (https://www.mango-solutions.com/) or Twitter (https://twitter.com/mangothecat).\nThe video was not edited and might include time for exercises/breaks.\n\nAll materials can be found here: https://github.com/nhs-r-community/Co...",
+          "published": "2020-11-06T08:32:12Z",
+          "duration": "PT2H28M58S",
+          "thumbnail": "https://i.ytimg.com/vi/lQgfPFldh3w/mqdefault.jpg"
+        },
+        {
+          "id": "Wmc0GS6gayI",
+          "title": "Introduction to R (part 1)",
+          "description": "This is a recording from the NHS-R Community Conference 2020, Introduction to R (part 1). It was run on Monday 2nd of November by Zoё Turner Senior Information Analyst, Nottinghamshire Healthcare\nNHS Foundation Trust\r\r. Dominic Rowney has supported this workshop. \n\nThe video was not edited and might include time for exercises/breaks.\n\nAll materials can be found here: https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-19T08:31:30Z",
+          "duration": "PT45M18S",
+          "thumbnail": "https://i.ytimg.com/vi/Wmc0GS6gayI/mqdefault.jpg"
+        },
+        {
+          "id": "N3pIxcCB9K8",
+          "title": "Introduction to R (part 2)",
+          "description": "This is a recording from the NHS-R Community Conference 2020, Introduction to R (part 2). It was run on Monday 2nd of November by Zoё Turner, Senior Information Analyst, Nottinghamshire Healthcare\nNHS Foundation Trust\r\r. Dominic Rowney has supported this workshop. \n\nThe video was not edited and might include time for exercises/breaks.\n\nAll materials can be found here: https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-19T09:18:57Z",
+          "duration": "PT2H13M58S",
+          "thumbnail": "https://i.ytimg.com/vi/N3pIxcCB9K8/mqdefault.jpg"
+        },
+        {
+          "id": "PX316WC0oiU",
+          "title": "Introduction to R (part 3)",
+          "description": "This is a recording from the NHS-R Community Conference 2020, Introduction to R (part 1). It was run on Monday 2nd of November by Zoё Turner Senior Information Analyst, Nottinghamshire Healthcare\nNHS Foundation Trust\r\r. Dominic Rowney has supported this workshop. \n\nThe video was not edited and might include time for exercises/breaks.\n\nAll materials can be found here: https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-19T09:20:45Z",
+          "duration": "PT50M25S",
+          "thumbnail": "https://i.ytimg.com/vi/PX316WC0oiU/mqdefault.jpg"
+        },
+        {
+          "id": "GP5O3_iko1M",
+          "title": "Further Changepoint Analysis",
+          "description": "This is a recording from the NHS-R Community Conference 2020, Further Changepoint analysis workshop. It was run on Wednesday 18th of November by Dr Rebecca Killick, Senior Lecturer (Associate Professor) in Statistics at Lancaster University. Jamie-Leigh Chapman, Data Scientist at Wrightington, Wigan and Leigh NHS Foundation Trust, has supported this workshop. .\nThe video was not edited and might include time for exercises/breaks.\n\nAll materials can be found here: https://github.com/nhs-r-community/Conference_2020",
+          "published": "2020-11-19T09:36:41Z",
+          "duration": "PT1H35M24S",
+          "thumbnail": "https://i.ytimg.com/vi/GP5O3_iko1M/mqdefault.jpg"
+        }
+      ]
+    }
+  ]
+}

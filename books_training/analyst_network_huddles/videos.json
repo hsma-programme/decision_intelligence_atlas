@@ -1,0 +1,906 @@
+{
+  "playlists": [
+    {
+      "label": "Analyst Network huddles",
+      "id": "PLFEXOtXX7YkmiOpE31JfMDBWidHAZROqR",
+      "videos": [
+        {
+          "id": "aRDHAP-vGpQ",
+          "title": "Midlands Analyst Huddle: Exploring analysis of primary care services, Steven Wyatt - 24/02/2022",
+          "description": "Steven Wyatt - exploring analysis of primary care services\n \nSteven Wyatt, Head of Research and Policy at the SU, discusses analysis of primary care services.  ICSs will soon be assuming responsibility for commissioning GP services.  Although 10% of the NHS budget is allocated to primary care, novel analyses of the service are few and far between.  Analysts often say that data access is the key constraint.   This session explores opportunities to improve and extend analysis of primary care services.\n\nSummary: \nIn the first half of the session, we will be describing summary primary care datasets that are available from public domain websites.  Have we made the most of these datasets?  We will be assessing network member interest in collaborating on projects that use these datasets.\nIn the second half of the session, we will be discussing record-level primary care datasets: proposed national data flows, research datasets and local solutions.",
+          "published": "2022-03-10T09:55:02Z",
+          "duration": "PT57M40S",
+          "thumbnail": "https://i.ytimg.com/vi/aRDHAP-vGpQ/mqdefault.jpg"
+        },
+        {
+          "id": "YTyZAv_Cmy0",
+          "title": "Midlands Analyst Huddle: Intro to Machine Learning & how it can be applied to healthcare - 27/01/022",
+          "description": "Intro to Machine Learning and how it can be applied to healthcare\n \nFind out more about Machine Learning and how it can be applied to healthcare.  Joe Lillington and Santosh Kumar from the Health Economics Unit are going to be first giving a high-level overview of what machine learning is and then discussing some interesting applications of machine learning prediction both in healthcare generally, and some of the interesting projects that they have been working on in the Health Economics Unit (HEU).",
+          "published": "2022-03-10T14:46:32Z",
+          "duration": "PT54M20S",
+          "thumbnail": "https://i.ytimg.com/vi/YTyZAv_Cmy0/mqdefault.jpg"
+        },
+        {
+          "id": "Wo2Vzu_VKps",
+          "title": "Midland Analyst Huddle: Health Inequalities in the Midlands - 10/02/2022",
+          "description": "Health Inequalities in the Midlands \n\nFind out more inequalities in health in the Midlands and how to reduce them.  We have invited friends from the Office for Health Improvement and Disparities Local Knowledge and Intelligence Team to present some of their work on Health Inequalities:\n\nZachary Gleisner will be presenting the findings from the West Midlands Disparities Report\n \nAnam Khan will be providing an overview of the Midlands populations covered in the Core 20 plus 5 plans from NHS EI\n \nLaura Griffith will be providing an update on the latest functionality in the Fingertips tool",
+          "published": "2022-03-08T18:56:44Z",
+          "duration": "PT57M27S",
+          "thumbnail": "https://i.ytimg.com/vi/Wo2Vzu_VKps/mqdefault.jpg"
+        },
+        {
+          "id": "uuc-FbqObFg",
+          "title": "Midlands Analyst Huddle: A Data Visualisation Taster, Dan Isaacs - 13/01/2022",
+          "description": "A Data Visualisation Taster: How to Communicate Effectively with your Data\n \nWe have Dan Isaac who is going to be giving us a taster session for the 1-day course Dan delivers on Data Visualisation.\n  \nCreating effective data visualisations is no longer a task for highly technical specialists and design professionals.  In the modern workplace, we are all responsible for the data that we produce and learning how to effectively communicate with this data can be an invaluable asset. Drawing content from a full day workshop that Dan Isaac has been delivering through the Midlands Decision Support Network, this introductory session will provide a brief overview of some of the key psychological and practical principles of effective data visualisation\n\n“Your Data Viz session today was superb, and backed up by lots of valuable theory and practice. I really liked the term ‘computationally kind” (feedback from training attendee)\n\nWe’ve had great feedback on Dan’s training so far so if you are someone who works with data and if you feel you need some guidance, inspiration or just a reminder on effective ways to get your message across, then do come along to this taster session to find out more about the 1-day training course.",
+          "published": "2022-03-09T17:05:07Z",
+          "duration": "PT56M32S",
+          "thumbnail": "https://i.ytimg.com/vi/uuc-FbqObFg/mqdefault.jpg"
+        },
+        {
+          "id": "xZ2Kiw5psV4",
+          "title": "MAN Huddle: Economic evaluation sharing session: demonstrating value locally -10/03/2022",
+          "description": "Economic evaluation sharing session: an approach to demonstrating value locally\n\nWe are again delighted to welcome friends from the Health Economics Unit:  Lisa Cummins, Will Rawlinson and Bea Rubio Huete are going to be delivering an economic evaluation sharing session: an approach to demonstrating value locally.  In the session they will:\n\nIntroduce who they are and what they do, focusing on economic evaluations of digital technologies and new models of care implemented within the NHS\n \nGet a feel for your experience of doing economic evaluation or demonstrating value for money\n \nGive an overview of their approach to evaluation which will include how and when they engage with analysts \n \nShare a case study as an example\n \nCase study: Economic Evaluation of MaST - a decision support tool which uses predictive analytics to help healthcare professionals assess and manage their caseloads",
+          "published": "2022-03-11T09:29:11Z",
+          "duration": "PT53M8S",
+          "thumbnail": "https://i.ytimg.com/vi/xZ2Kiw5psV4/mqdefault.jpg"
+        },
+        {
+          "id": "vcDaeROU_8c",
+          "title": "MAN Huddle: Federated analytics of linked health data in the UK  - Networked Data Lab - 24/03/2022",
+          "description": "The Health Foundation present 'Federated analytics of linked health data in the UK – Introducing the Networked Data Lab'\n    \nMAN Huddle with the Health Foundation’s Networked Data Lab – a UK-wide collaborative network of analytical teams across the UK working together to use linked datasets on the most pressing challenges facing health and care. \n\nFiona Grimm (Senior Analytical Manager) and Sebastien Peytrignet (Senior Data Analyst) will take you through why and how the Networked Data Lab was set up, and discuss their approach to bringing local systems together to provide insights for local and national system leaders to take action to improve the UK’s health and care. \n\nUsing two practical case studies – on the COVID-19 shielding policy and children and young people’s mental health – they will show how they developed open and federated ways of working to produce analyses that make most of local, linked datasets.",
+          "published": "2022-03-25T14:52:56Z",
+          "duration": "PT57M44S",
+          "thumbnail": "https://i.ytimg.com/vi/vcDaeROU_8c/mqdefault.jpg"
+        },
+        {
+          "id": "raWufYUqw9U",
+          "title": "MAN Huddle: New guidance for cross-system intelligence functions - 07/04/22",
+          "description": "What does the new guidance for cross-system intelligence functions mean for me?'\n \nFind out more about what the new guidance for cross-system intelligence functions means for us as analysts in the Midlands.  \nEach ICS in England is required to develop a ‘cross-system intelligence function’, as described in NHSE/I’s Integrating Care, the ICS Design Framework. \nThe purpose of an intelligence function is to enable high quality decisions to be made. \nDavid Callaghan (the Strategy Unit) is going to be talking to us about the guidance and the supporting toolkit and sharing case studies to help us understand how the guidance affects us and how we can get involved.",
+          "published": "2022-04-07T15:21:04Z",
+          "duration": "PT57M41S",
+          "thumbnail": "https://i.ytimg.com/vi/raWufYUqw9U/mqdefault.jpg"
+        },
+        {
+          "id": "0bp8ZJeM57M",
+          "title": "MAN Huddle: ‘Impactibility’ from techno buzzword to action! - 21/04/22",
+          "description": "‘Impactibility’ from techno buzzword to action! With Andi Orlowski (Health Economics Unit)\n\nWe are delighted to welcome Andi Orlowski https://healtheconomicsunit.nhs.uk/teams/andi-orlowski/ (Health Economics Unit) who will be talking to us about Impactability and its role in Population Health Management. Risk stratification alone is often not enough – impactability modelling goes further to predict which of those high risk patients are most likely to respond to an intervention and suggests which changes to care are most likely to lead to better health outcomes.\n\nBut not only that, we also have Jack Ettinger https://healtheconomicsunit.nhs.uk/teams/jack-ettinger/ (Health Economics Unit) telling us about Allocative Efficiency and STAR (Socio-Technical Allocation of Resources) so this is a session not to be missed!",
+          "published": "2022-04-22T10:53:08Z",
+          "duration": "PT55M49S",
+          "thumbnail": "https://i.ytimg.com/vi/0bp8ZJeM57M/mqdefault.jpg"
+        },
+        {
+          "id": "SFddk6jx5-g",
+          "title": "MAN Huddle: ‘Strategies to reduce inequalities in access to planned hospital procedures' - 05/05/22",
+          "description": "Steven Wyatt (Head of Research and Policy, Strategy Unit) shares his strategies to reduce inequalities in access to planned hospital procedures (MDSN project)\nIn last year’s report, ‘Socio-economic inequalities in access to planned hospital care: causes and consequences’, Steven Wyatt and Jake Parsons described how people living in more deprived areas have poorer access to planned hospital care than their more affluent counterparts. These deficits are widespread, substantial, and worsening. In his new report, Steven moves beyond describing and explaining the problem, providing practical support for those keen to address it. The Strategy Unit starts from the premise that inequities are not immutable. Tackling the issue will not be easy, but it is essential if the NHS is to be true to its founding principles. Efforts to date have clearly not been sufficient. Bolder action and more potent interventions are required.\n\nSteven will share with us his approach, key findings and look at how systems can implement the changes needed to reduce inequalities in access to planned hospital procedures.",
+          "published": "2022-05-05T18:51:23Z",
+          "duration": "PT51M7S",
+          "thumbnail": "https://i.ytimg.com/vi/SFddk6jx5-g/mqdefault.jpg"
+        },
+        {
+          "id": "7do7rAlhtGk",
+          "title": "MAN Huddle: Does the Goldacre Review make health research & analysis Better Broader Safer? -19/05/22",
+          "description": "Does the Goldacre Review make health research and analysis Better, Broader, Safer?\nCome and see our panel discuss the Goldacre Review and its implications for analysts.  Not to be missed!\nOur experienced panel, hosted by Simon Bourne (Principle Consultant, Strategy Unit and Programme Director, MDSN) \nIncluding: \nPeter Spilsbury (Director, Strategy Unit), \nAndi Orlowski (Director, Health Economics Unit), \nDavid Sgorbati  (Chief Analyst, Health Economics Unit), \nSteven Wyatt (Head of Research & Policy, Strategy Unit and Lead Analyst, MDSN)",
+          "published": "2022-05-20T08:55:55Z",
+          "duration": "PT59M12S",
+          "thumbnail": "https://i.ytimg.com/vi/7do7rAlhtGk/mqdefault.jpg"
+        },
+        {
+          "id": "Q2NPhvtoMDs",
+          "title": "MAN Huddle: A Changing Population – Why Workforce Planning Matters, 16/06/22",
+          "description": "A Changing Population – Why Workforce Planning Matters\n\nDuring this Huddle Tom Clayton (Health Education England) will discuss major changes in UK population and demographics in the next 20 years, what this might means for demand for the NHS, and what we’re doing to help manage it. \nDuring this Huddle Tom Clayton (Health Education England) will discuss major changes in UK population and demographics in the next 20 years, what this might means for demand for the NHS, and what we’re doing to help manage it.",
+          "published": "2022-07-01T13:04:15Z",
+          "duration": "PT51M41S",
+          "thumbnail": "https://i.ytimg.com/vi/Q2NPhvtoMDs/mqdefault.jpg"
+        },
+        {
+          "id": "SKf-tGp23Kg",
+          "title": "MAN Huddle: Using System Dynamics simulation to support capacity planning - 30/06/22",
+          "description": "Using System Dynamics simulation to support capacity planning\n\nThis week, we are turning our attention to System Dynamics simulation and using it to support capacity planning.  The Strategy Unit is using System Dynamics simulation to support capacity and workforce planning across various services and  I’m delighted to be welcoming our presenters, Douglas McKelvie (Symmetric Scenarios), Hannah Wilson (Mersey Care Foundation Trust), Sally Thompson (Strategy Unit) and Stacey Croft (Strategy Unit), who are going to be:\n\n Providing you with a gentle introduction to some key concepts underpinning the approach;\n \nOutlining some prototype models developed with Mersey Care to support respiratory services, including the potential integration of telecare and virtual wards; and, if time allows,\n\nIntroducing you to an on-line Ready Reckoner-type model for you to experiment with.",
+          "published": "2022-07-01T13:12:11Z",
+          "duration": "PT57M11S",
+          "thumbnail": "https://i.ytimg.com/vi/SKf-tGp23Kg/mqdefault.jpg"
+        },
+        {
+          "id": "pahDDL3NyIQ",
+          "title": "MAN Huddle: Using system dynamics to gain insight into domiciliary care - 14/07/22",
+          "description": "Title: Using system dynamics to gain insight into domiciliary care AND the launch of a new system dynamics development programme\n    \nIn the Huddle on 30/06/22  we had an introduction to System Dynamics and an example of how this was used to support capacity planning https://www.youtube.com/watch?v=SKf-tGp23Kg\nIf you’d like to have a go, yourselves, then please do try out this System Dynamics ‘Ready Reckoner’ https://exchange.iseesystems.com/public/dmck/capa-ready-reckoner/index.html which is a simple model structure is to give an introductory insight into how System Dynamics is used to model capacity in health and social care services.\n\nThis week’s Huddle is another look at System Dynamics – this time in relation to domiciliary care and we are also going to learn about an exciting opportunity for you as part of a new system dynamics development programme.  \n\nThe Strategy Unit and Douglas McKelvie have been working on an exciting project with WM ADASS, the Association of Directors of Adult Social Care Services in the West Midlands to explore the challenges facing domiciliary care and the opportunities that exist to transform and improve the service. If domiciliary care is not provided, then the effects are felt not just by those who need the service, but also by a wide range of aligned health and care services: hospital beds become blocked and care home beds are overrun. “Using system dynamics we have been collaborating with local authorities to develop through iteration a model which gives us a better grip on what the future might hold and how options to address future challenges might perform.”\n\nAnd in addition, we are going to be learning about the exciting new development programme and opportunities for analysts and others to be part of this.\n\nIn the Autumn the Strategy Unit and Douglas McKelvie will be launching a system dynamics development programme, as well as the core programme there will also be the option of enhanced support for some of the ICSs in the region to be part of a pilot in parallel with NHSEI to use system dynamics to tackle system-wide capacity and demand challenges.",
+          "published": "2022-07-15T08:50:05Z",
+          "duration": "PT51M30S",
+          "thumbnail": "https://i.ytimg.com/vi/pahDDL3NyIQ/mqdefault.jpg"
+        },
+        {
+          "id": "JblzWnWlrgQ",
+          "title": "A very brief introduction to Decision Quality (DQ)",
+          "description": "",
+          "published": "2022-07-14T21:07:15Z",
+          "duration": "PT14M43S",
+          "thumbnail": "https://i.ytimg.com/vi/JblzWnWlrgQ/mqdefault.jpg"
+        },
+        {
+          "id": "iWpwpoVzPzY",
+          "title": "MAN Huddle: Associations between some household context factors & emergency hospital use - 28/07/22",
+          "description": "28th July 2022 – Latest analysis on the associations between some household context factors & emergency hospital use\n\nRichard Brine https://www.health.org.uk/about-the-health-foundation/our-people/improvement-analytics-unit-iau/richard-brine\nand Liz Crellin https://www.linkedin.com/in/elizabeth-crellin-76708238/?originalSubdomain=uk\nfrom the Health Foundation https://www.health.org.uk/\nare going to be talking to us about two household context factors that the Improvement Analytics Unit have derived from national routine administrative health data. \nThese are:\n. living alone, and\n. living in a two-person household with someone who is frail.\n\nThey have developed the indicators as they believe they can provide important and useful information related to social context when understanding population health and care needs and could be potential proxies for caring responsibilities or risk factors for social isolation.\n\nThe session will demonstrate:\n. how the context factors were derived using a pseudonymised Unique Property Reference Number (UPRN) variable contained in a minimised version of an NHS England and Improvement dataset, the Master Patient Index, and\n. the results of their analysis into whether these household context factors were associated with emergency hospital use (A&E attendances and emergency admissions) in people aged 65 and over (approximately 5m patients). They found that both factors were strongly associated with both higher A&E attendance and emergency hospital admission, even after adjusting for common predictors of emergency use (age, gender, ethnicity, geographic region, level of socio-economic deprivation, historical emergency hospital use, frailty indicators and a range of long-term conditions).",
+          "published": "2022-08-08T11:23:26Z",
+          "duration": "PT47M15S",
+          "thumbnail": "https://i.ytimg.com/vi/iWpwpoVzPzY/mqdefault.jpg"
+        },
+        {
+          "id": "RCNj98XPSFk",
+          "title": "MAN Huddle: NHS Nottingham and Nottinghamshire System Analytical Intelligence Portal - 11/08/22",
+          "description": "11/08/22: NHS Nottingham and Nottinghamshire System Analytical Intelligence Portal\n \nRyan Cope, Senior Analytical Lead for Demand and Capacity and Jack Rodber, Chief Analyst at Nottingham and Nottinghamshire System Analytical Unit provide ‘A Demonstration of the new system analytical intelligence portal launched in July 2022’ \n\nThis is a sharepoint based portal available to all system partners within Nottingham and Nottinghamshire.  \n\nIt includes system information dashboards developed in power BI, PHM deep dive packs, system intelligence reports and a shared resource for analyst workforce development.",
+          "published": "2022-08-12T07:16:35Z",
+          "duration": "PT49M15S",
+          "thumbnail": "https://i.ytimg.com/vi/RCNj98XPSFk/mqdefault.jpg"
+        },
+        {
+          "id": "Qn4qYrD3kUA",
+          "title": "MAN Huddle: Population Health Management and Health Economics training programmes - 25/08/22",
+          "description": "Midlands Analyst Huddle - 25/08/22\n\nA taster session for the new Population Health Management and Health Economics training programmes, Presented by: Sophie Hodges, Health Economics Unit\n\nFind out more about the new Population Health Management and Health Economics training programmes.  Each programme is made up from a series of short sessions (most are 2 hours) and you can select the one /s you are interested in.  The training programmes are led by David Sgorbati and Lisa Cummins who are both from the Health Economics Unit.\n\nSign up to these sessions via the Training & Events page.\nhttps://www.midlandsdecisionsupport.nhs.uk/training-events/",
+          "published": "2022-09-04T18:02:32Z",
+          "duration": "PT52M36S",
+          "thumbnail": "https://i.ytimg.com/vi/Qn4qYrD3kUA/mqdefault.jpg"
+        },
+        {
+          "id": "tc9oWhjWtPg",
+          "title": "MAN Huddle: Introducing Data Hazards -  07/09/22",
+          "description": "Introducing Data Hazards – how can analysts and data scientists use Data Hazards in our day to day work?\nThis session is be run by Zoë Turner, data scientist in Nottinghamshire Healthcare NHS Foundation Trust.\n08/09/22\n    \nIf our profession of data analysts/data scientists in health and care is to be recognised for the power of good we can do then we must also be responsible for highlighting how our work can potentially cause harm; and that’s where Data Hazards can help to facilitate those discussions. The process of outlining Data Hazards was started by Natalie Zelenka and Nina Di Cara, who also run the Data Ethics Club, on their website which is open to contribution and released under an open licence to use. The hazards are visually depicted, like COSHH chemical hazards, and are a concise way of communicating and inviting opinions on projects. Whilst Natalie and Nina concentrated on the value of this to research, this short introduction in this week’s Huddle will attempt to show how analysts and data scientists can use the Data Hazards in our day to day work. Together we’ll consider a couple of case scenarios and discuss the benefits (or perhaps not!) of using something like Data Hazards labels regularly in our work. We’d be really interested to see what you think!",
+          "published": "2022-09-09T08:38:18Z",
+          "duration": "PT49M45S",
+          "thumbnail": "https://i.ytimg.com/vi/tc9oWhjWtPg/mqdefault.jpg"
+        },
+        {
+          "id": "8ODPYjT_iI4",
+          "title": "MAN Huddle: Understanding the ageing patterns of the population in NW London - 22/09/22",
+          "description": "Understanding the ageing patterns of the population in NW London: A survival analysis\n\nRecent analysis has found that demand for health and social care may not necessarily increase in line with an ageing population. Because older people may stay healthy for longer, or they may experience milder health conditions. The Health Economics Unit, with support from the REAL Centre, investigated whether this was the case in North West London.\n\nIn this Huddle we will cover:\n\nTheories on whether an ageing population leads to higher lifetime health and social care spending\n \nIntroduction to Survival Analysis\n \nMethodology for the North West London analysis\n \nResults from our analysis\n \nRecommendations and caveats\n\nIt would be useful but not essential to have some basic analytical skills to understand the technical elements of this huddle but everyone is very welcome!  After this session, you’ll have a good understanding of survival analysis, recent literature and a case study on the use of survival analysis\n\nYour presenters will be Yihan Xu and Santosh Kumar (Health Economics Unit).",
+          "published": "2022-09-23T08:40:16Z",
+          "duration": "PT49M52S",
+          "thumbnail": "https://i.ytimg.com/vi/8ODPYjT_iI4/mqdefault.jpg"
+        },
+        {
+          "id": "MHFl1tOnrs8",
+          "title": "MAN Huddle: National Data Science conference, NHS-R conference and more! - 06/10/22",
+          "description": "MAN Huddle: 06/10/22\n\nFind out more about the National Data Science conference, the NHS-R conference and about the Midlands Chief Analysts’ Group … and more!\n\nPeter Spilsbury, Simon Bourne and Professor Mohammed A Mohammed  give updates on our early thoughts on what the National Data Science conference will look like and what your views are on this, the imminent NHS-R Conference and also an update on the new Chief Analysts’ Group.",
+          "published": "2022-10-06T15:43:45Z",
+          "duration": "PT51M11S",
+          "thumbnail": "https://i.ytimg.com/vi/MHFl1tOnrs8/mqdefault.jpg"
+        },
+        {
+          "id": "GSBrqyr4bqY",
+          "title": "MAN Huddle: Health implications of reduced access to care during the COVID 19 - 20/10/22",
+          "description": "MAN Huddle: 20/10/22\n\nMDSN Regional Analysis: What are the health implications of reduced access to care during the COVID 19 pandemic?\n\nProject Lead, Paul Seamer (Strategy Unit) describes his approach and key findings for this important Midlands Decision Support Network (MDSN) Regional Analysis. The MDSN agrees an analytical work programme every year.  This is an annual programme of 3 projects determined by the network steering group and is focused on agreed network priorities. \n\nWhat are the health implications of reduced access to care during the COVID 19 pandemic?  Access to many forms of planned and unplanned healthcare reduced dramatically during the COVID-19 pandemic and associated lockdowns. \n\nThe aims of this project were to investigate:\n- The effect on health outcomes of changes in healthcare utilisation during the COVID-19 pandemic\n- The actions available to health systems to mitigate these effects\n\nThis was done by:\n- Exploring how the overall activity changed, by looking at the trends in activity levels for key services, for example, A&E visits, planned admissions, emergency admissions and primary care consultations\n- In-depth analysis of unplanned emergency care to look for differences in current patterns of morbidity compared with pre-Covid\n- A focused analysis of the impact of reduced access to care for diabetes patients\n- Reviewing the implications for health care systems and identifying strategies and interventions to help health systems mitigate the negative effects",
+          "published": "2022-10-26T19:08:23Z",
+          "duration": "PT1H52M35S",
+          "thumbnail": "https://i.ytimg.com/vi/GSBrqyr4bqY/mqdefault.jpg"
+        },
+        {
+          "id": "aoLEGaWIpq0",
+          "title": "MAN Huddle: Health Profile Reports for the East and West Midlands - 03/11/22",
+          "description": "MAN Huddle: 03/11/22\nHealth Profile Reports for the East and West Midlands with Becca Elleray (OHID)\n    \nSee how the data shows, for the first time, the impact of COVID on our local populations, the impact on the wider determinants and widening health inequalities as well as health behaviours and access to health care.  \nThese reports, based on the Health Profile for England, show a compelling story which Becca Elleray (OHID) will share with us.",
+          "published": "2022-11-04T10:50:56Z",
+          "duration": "PT52M39S",
+          "thumbnail": "https://i.ytimg.com/vi/aoLEGaWIpq0/mqdefault.jpg"
+        },
+        {
+          "id": "zsbFGGHpveU",
+          "title": "MAN Huddle: INSIGHT 2022 The new Health Index - Midlands Focus - 01/12/22",
+          "description": "MAN Huddle\nINSIGHT 2022: Sam Booth (ONS) takes us through the new Health Index – Midlands focus\n\n1st December 2022\n\nSam Booth, Lead Researcher (Integrated Care Systems and Health Index) joins the Huddle to tell us about the new Health Index.  Find out more about the Health Index and how it can support Integrated Care Systems (ICS) to achieve their purpose and maximising the impact of the index at a local level.\n\nThe Health Index for England is a new measure of the health of the nation. It uses a broad definition of health, including:\n- health outcomes\n- health-related behaviours and personal circumstances\n- wider drivers of health that relate to the places where people live\n\nThe Health Index: 2015 to 2020  provides a systematic, independent view of health in England.  It can be used to compare health over time and across geographies. It gives a picture of health in its broadest sense, recognising the importance of health outcomes, risk factors and the social, economic, and environmental drivers which affect people’s lives. Data is published at local authority and integrated care system geographies as well as for regions and England as a whole.  A semi-automated online article, how health has changed in your local area, presents users with data and insights for their local area.\n\nThe session will cover:\n- What the Health Index is\n- Insights from the Health Index\n- How to access and use the Health Index at a local level\n- Next steps in development\n\nThis Huddle will be of interest to policy makers, commissioners and analysts who aim to use data and insights about their populations to improve health now and for the long term.",
+          "published": "2022-12-04T21:22:03Z",
+          "duration": "PT50M45S",
+          "thumbnail": "https://i.ytimg.com/vi/zsbFGGHpveU/mqdefault.jpg"
+        },
+        {
+          "id": "A00mrE9pnV4",
+          "title": "MAN Huddle: Population Health Management Training Course - 15/12/22",
+          "description": "MDSN Training opportunity: Find out more about the next PHM training course – starting January 2023\n\nFind out more about the PHM training course starting in January!  \nSophie Hodges and David Sgorbati from the Health Economics Unit tell you all about the course and tell you how to apply.",
+          "published": "2022-12-30T15:32:31Z",
+          "duration": "PT37M15S",
+          "thumbnail": "https://i.ytimg.com/vi/A00mrE9pnV4/mqdefault.jpg"
+        },
+        {
+          "id": "kB-FVmpY08A",
+          "title": "MAN Huddle: Exploring socioeconomic inequalities in coronary heart disease - 12/01/22",
+          "description": "MAN Huddle: Exploring socioeconomic inequalities in coronary heart disease – NEW TOOL\nDate: 12/01/23\n\nA collaboration between the British Heart Foundation and The Strategy Unit to create a tool that explores socioeconomic inequalities in coronary heart disease pathways at a national and local level.\nFind out more about where the inequalities lie across the typical CHD pathway and learn how to use the tool to identify which areas to target to close the gaps.",
+          "published": "2023-01-13T15:08:27Z",
+          "duration": "PT49M54S",
+          "thumbnail": "https://i.ytimg.com/vi/kB-FVmpY08A/mqdefault.jpg"
+        },
+        {
+          "id": "ZUdi4U4zNrg",
+          "title": "MAN Huddle: Making data visualisations more accessible to all users - 26/01/23",
+          "description": "MAN Huddle: Making data visualisations more accessible to all users\nDate: 26/01/23\n\nIn this session Hannah Thomas (ONS)  talks about how we can publish more accessible data visualisations online. This will be based around the Web Content Accessibility Guidelines and the Accessibility Legislation which came into force in 2020. It will talk about formatting, publication and use of colour and will be interesting and relevant to many of you!\n\nhttps://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps",
+          "published": "2023-01-27T12:08:30Z",
+          "duration": "PT48M27S",
+          "thumbnail": "https://i.ytimg.com/vi/ZUdi4U4zNrg/mqdefault.jpg"
+        },
+        {
+          "id": "D7NRqFwoVmA",
+          "title": "MAN Huddle: Positive Public Health from Warwickshire County Council -  09/02/23",
+          "description": "MAN Huddle: Positive Public Health from Warwickshire County Council\nDate: 09/02/23\n\nLed by Frances de Paeztron, Business Intelligence Lead – Population Health, this will be an interactive session on Positive Public Health from Warwickshire County Council. The session aims to celebrate analysts, elevate their work, take a moment for their wellbeing and consider together the lens of positivity for the populations we serve and the benefits that can bring.",
+          "published": "2023-02-10T11:38:37Z",
+          "duration": "PT49M28S",
+          "thumbnail": "https://i.ytimg.com/vi/D7NRqFwoVmA/mqdefault.jpg"
+        },
+        {
+          "id": "KPamG3M2Los",
+          "title": "MAN Huddle: How is the rapid growth in diagnostic testing affecting the hospital system? - 23/02/23",
+          "description": "MAN Huddle: How is the rapid growth in diagnostic testing affecting the hospital system?\nDate: 23/02/23\n\nThe Midlands Decision Support Network (MDSN) agrees an analytical work programme every year.  This is an annual programme of 3 significant projects determined by the network steering group and focused on agreed network priorities. This report is part for the 22/23 programme.\n\nThe number of diagnostic tests carried out in secondary care has increased substantially over the last two decades. An increase in diagnostic testing brings undoubted benefits. Yet, there has been limited consideration of the indirect effects of this growth.\n\nHow has the growth in testing affected elective care waiting lists, A&E waits, and inpatient length of stay? Do the unintended consequences of increased testing offset the benefits? What might we see in future?\n\nAndrew Jones and Steven Wyatt (Strategy Unit) describe the latest MDSN report in terms of its objectives, methods, data sources, results and conclusions.",
+          "published": "2023-02-28T17:29:43Z",
+          "duration": "PT52M23S",
+          "thumbnail": "https://i.ytimg.com/vi/KPamG3M2Los/mqdefault.jpg"
+        },
+        {
+          "id": "o7uZBYeBchY",
+          "title": "MAN Huddle: RAP - what is it and how can my team start using it effectively? - 09/03/23",
+          "description": "MAN Huddle: RAP - what is it and how can my team start using it effectively? \nDate: 09/03/23\n\nThis talk will discuss reproducible analytical pipelines and give a blueprint for development within teams and systems. The talk draws from the levels of RAP described in the RAP community of interest hosted by NHS Digital, and discusses ways of working and learning that can make a team more efficient and help them do high quality, rigorous work, all the way from the first steps using RAP to NHS Digital’s gold standard.\n\nHear from Chris Beeley, the Strategy Unit, tell us all about RAP!",
+          "published": "2023-03-14T09:17:30Z",
+          "duration": "PT50M6S",
+          "thumbnail": "https://i.ytimg.com/vi/o7uZBYeBchY/mqdefault.jpg"
+        },
+        {
+          "id": "v9Sa92hnmFo",
+          "title": "MAN Huddle: Using Git and GitHub - 23/03/23",
+          "description": "MAN Huddle: Using Git and GitHub\nDate: 23/03/23\n\nSo what is Git and what is GitHub!!  \nThis is an introduction to GitHub for anyone who doesn’t know what GitHub is, has heard of it but doesn’t know where to start and for anyone who has ever been told: “code is available on the GitHub repo”.\n\n Hear from Zoë Turner, the Strategy Unit, tellng us all about GitHub!",
+          "published": "2023-03-24T19:50:26Z",
+          "duration": "PT46M30S",
+          "thumbnail": "https://i.ytimg.com/vi/v9Sa92hnmFo/mqdefault.jpg"
+        },
+        {
+          "id": "2g0rPd4a13o",
+          "title": "MAN Huddle: Projects from the Midlands System Dynamics Applied Learning Programme (Part 1)  06/04/23",
+          "description": "Examples of the projects being developed in the Midlands System Dynamics Applied Learning Programme (Part 1)\n\nDate: 06/04/2023\n\nOver the last 6 months The Strategy Unit and Douglas McKelvie (Symmetric) have been running an applied learning programme in system dynamics. This is a method of simulation modelling that helps us look at the behaviour of systems over time and to ask ‘what if?’. The learning programme included both teaching sessions and project support. Twelve participants through the programme have been working individually or in pairs on projects using system dynamics to embed their learning and tackle real world strategic issues.\n\nIn this Huddle we will summarise the structure of the programme and describe two of the projects. \n\nThe first looks at Community Mental Health future bed requirements, a work in progress from Sam Jones & Tom Jones from Staffordshire & Stoke ICB and North Staffs Combined Health respectively. Our second example is on the future need for care home places from Tracy Bennett & Jane Shaw from Shropshire Council. \n\nIn Part 2, in a fortnight, (20/04/23) we will look at some further example projects and be thinking about how we further develop the capability of system dynamics in health and care.\n\nWe ask the audience to understand these projects are the participants’ first attempts at creating their own models using system dynamics, to appreciate the journey they have been on and to realise these are likely to still be developing.",
+          "published": "2023-04-11T18:12:24Z",
+          "duration": "PT52M55S",
+          "thumbnail": "https://i.ytimg.com/vi/2g0rPd4a13o/mqdefault.jpg"
+        },
+        {
+          "id": "FCKXrxupCnA",
+          "title": "MAN Huddle: Projects from the Midlands System Dynamics Applied Learning Programme (Part 2) 20/04/23",
+          "description": "Examples of the projects being developed in the Midlands System Dynamics Applied Learning Programme (Part 2)\n\nDate: 20/04/2023\n\nOver the last 6 months The Strategy Unit and Douglas McKelvie (Symmetric) have been running an applied learning programme in system dynamics. This is a method of simulation modelling that helps us look at the behaviour of systems over time and to ask ‘what if?’. The learning programme included both teaching sessions and project support. Twelve participants through the programme have been working individually or in pairs on projects using system dynamics to embed their learning and tackle real world strategic issues.\n\nIn this Huddle we will summarise the structure of the programme and describe two of the projects. \n\nThe first looks at the colorectal cancer 2 week referral pathway with Phil Alexander (work was done with Steve Dunne) from University Hospitals of North Midlands (UHNM). Our second example in this session is on the future capacity required in dermatology outpatients from James Turner from WVT.\n\nIn closing some of our participants will be reflecting on their experience and thinking about how we further develop the capability of system dynamics in health and care.\n\nWe ask the audience to understand these projects are the participants' first attempts at creating their own models, to appreciate the journey they have been on and to realise these are likely to still be developing.\n\nWe’re very proud of this training programme and of our participants have achieved!",
+          "published": "2023-04-21T16:08:15Z",
+          "duration": "PT51M41S",
+          "thumbnail": "https://i.ytimg.com/vi/FCKXrxupCnA/mqdefault.jpg"
+        },
+        {
+          "id": "bhO64ERizxU",
+          "title": "MAN Huddle: Weapons of Maths Destruction - 04/05/23",
+          "description": "Weapons of Maths Destruction\n\nDate: 04/05/23\n\nHuw Day is a Maths PhD student at the University of Bristol. Huw co-organises the Jean Golding Institute’s Data Ethics Club (dataethicsclub.com) and has worked on a Digital Health project in conjunction with NHS clinicians evaluating NEWS scoring systems.\n\nHuw has been giving talks that are aimed to inspire secondary school students (ages 15-18) to study maths. Inspired by Cathy O’Neil’s work, the talk is called “Weapons of Maths Destruction.” It involves teaching students the basics of correlation and linear regression and then got students to design a model for ranking teachers to evaluate if they should be hired of fired (using the dread on their teachers’ faces to fuel participation). In this session he’ll present an adapted version of this talk, getting the group to design a similar algorithm for deciding which bosses get to keep their jobs.\n\nBlog link: https://dataethicsclub.com/write_ups/2022/GLMBlogpost.html",
+          "published": "2023-05-05T05:52:24Z",
+          "duration": "PT48M59S",
+          "thumbnail": "https://i.ytimg.com/vi/bhO64ERizxU/mqdefault.jpg"
+        },
+        {
+          "id": "X5A4buRHVaY",
+          "title": "MAN Huddle: Using multi-criteria decision analysis (MCDA) in health technology assessments -18/05/23",
+          "description": "Midlands Analsyt Huddle: Using multi-criteria decision analysis (MCDA) in health technology assessments with Melody Ni, Imperial College\n\nDate: 18th May 2023\n\nDr Melody Ni is senior research fellow at NIHR London IVD based at Imperial College. She’s an expert in decision analysis and HTAs, having been working with innovators for more than a decade, helping them taking ideas to the market. This brief talk will introduce how decision analysis, in particular multi-criterial decision analysis, has been used to prioritise healthtech development, appraise options and in general, provide a structure for thinking and for consensus building.",
+          "published": "2023-05-19T13:30:23Z",
+          "duration": "PT48M41S",
+          "thumbnail": "https://i.ytimg.com/vi/X5A4buRHVaY/mqdefault.jpg"
+        },
+        {
+          "id": "MNplCUPF_m0",
+          "title": "MAN Huddle: NHS hip replacements and the inverse care law - 01/06/23",
+          "description": "NHS hip replacements and the inverse care law - with Steven Wyatt (Strategy Unit)\n\nDate: 01/06/23\n\nFifty years ago, Julian-Tudor-Hart, a GP working in South Wales first described the Inverse Care Law.  \nThe law states that populations with the greatest need for a health service tend to be the least likely to receive it.  \nPrevious research has shown that the supply of elective hip replacements, a common and cost-effective means of improving hip function, follows the inverse care law.  \n\nIn this Midlands Analysts Huddle, Steven Wyatt, Head of Research and Policy at the Strategy Unit will talk about whether efforts to improve equity of access to hip replacements have paid off.",
+          "published": "2023-06-07T14:46:36Z",
+          "duration": "PT52M38S",
+          "thumbnail": "https://i.ytimg.com/vi/MNplCUPF_m0/mqdefault.jpg"
+        },
+        {
+          "id": "4_2LRR_rJlg",
+          "title": "MAN Huddle: Data Visualisation – How to Effectively Communicate with your Data (15/06/23)",
+          "description": "Data Visualisation – How to Effectively Communicate with your Data – TASTER SESSION with Dan Isaac\n\nDate: 15/06/23\n\nWith Dan Isaac, Business Intelligence Officer and Data Visualisation Specialist, University of Exeter \nhttps://www.graphicinsight.org/about-me.html\n\nDuring this session, Dan will briefly outline some of the key principles of effective data visualisation. From knowing your audience, telling a good story and avoiding pie charts(!), this session will introduce you to some of the concepts underlying good data visualisation practice. Please note that this session draws content from the full-day workshops that Dan will be delivering in June and September.",
+          "published": "2023-06-16T10:29:27Z",
+          "duration": "PT51M52S",
+          "thumbnail": "https://i.ytimg.com/vi/4_2LRR_rJlg/mqdefault.jpg"
+        },
+        {
+          "id": "S5aTRb5_ZVk",
+          "title": "MAN Huddle: NHS ICB resource allocation models and the ICB Place Based Allocation Tool -  29/06/23",
+          "description": "Midlands Analsyt Huddle: Overview of NHS ICB resource allocation models and the ICB Place Based Allocation Tool\n\nDate: 29th June 2023\n\nNHS England’s Analysis and Insight for Finance team provide an overview of their overall approach and models for calculating fair shares which together distribute over a £100 billion in funding to ICBs. This will be followed by a more detailed look at how individual models are developed (e.g. variables, methods, QA), taking the General & Acute model as an example.\n\nFinally, the team demonstrate its ICB place-based allocations tool. https://aif-allocation-tool-202324-202425.streamlit.app/\nThis tool is predominantly aimed at ICBs in order to provide them with insight on how need for different services is distributed within smaller geographical areas within their patch.",
+          "published": "2023-06-29T13:29:33Z",
+          "duration": "PT48M17S",
+          "thumbnail": "https://i.ytimg.com/vi/S5aTRb5_ZVk/mqdefault.jpg"
+        },
+        {
+          "id": "XyOx1jpXs3c",
+          "title": "MAN Huddle: HACA 2023 - A roundup from the first Health & Care Analytics Conference! - 13/07/23",
+          "description": "Midlands Analyst Huddle: HACA 2023 - A roundup from the first Health & Care Analytics Conference! \n\nDate: 13th July 2023\n\nPeter Spilsbury (Director, Strategy Unit), Chris Beeley (Head of Data Science and HACA 2023 Director), Tom Parnell (HACA comms lead), Rachel Caswell and others reflect on the very first Health and Health Analytics Conference.",
+          "published": "2023-07-17T09:07:57Z",
+          "duration": "PT52M17S",
+          "thumbnail": "https://i.ytimg.com/vi/XyOx1jpXs3c/mqdefault.jpg"
+        },
+        {
+          "id": "5BQSkuGphZc",
+          "title": "MAN Huddle: Musculoskeletal patients experience of the OA hip pathway - A qualitative study 27/07/23",
+          "description": "Midlands Analyst Huddle: Musculoskeletal patients' experiences of the OA hip pathway – A qualitative study. \nSupporting vulnerable patients and improving the management of long term conditions\n\nDate:  27/07/23\n\n- What are the barriers and facilitators impacting on vulnerable patient populations?\n- How can we improve patient experiences and outcomes?\n\nIn May 2021 the Strategy Unit produced an analysis of ‘Socio-economic inequalities in access to planned hospital care’, this reported on socio-economic inequalities in the levels of primary and secondary care treatments received by patients for four conditions: COPD, Heart Failure, Hip Arthritis (OA Hip) and Cataracts. In the Black Country the most prominent inequality centered on the OA Hip pathway, in particular in relation to levels of Total Hip Replacement surgery (THR).\n\nThe Black Country Healthier Futures Academy set up a project, led by Rosalind Smithson (Principal Analyst – Qualitative Methods, Healthier Futures Academy, Black Country Integrated Care System) to explore patients’ experiences of the OA pathway, investigating what factors facilitated patients to gain appropriate support and what acted as a barrier. 15 in-depth interviews were conducted with patients at different stages in the pathway living in Sandwell or Walsall.  Two focus groups were also conducted with First Contact Practitioners (FCP) and Advanced Physiotherapists on their experiences of working with patients and of the system itself.\n\nThis session will give a brief overview of the Strategy Unit analysis (Steven Wyatt) before Rosalind Smithson’s presentation of the project findings and how these led to a series of applied pathway recommendations for improvement.  The results focus on pathway navigation, and how the existing pathway relies on patients successfully negotiating the pathway largely on their own.  In between touch points with medical professionals, patients had to manage their condition independently and co-ordinate the various aspects of their care. There were a number of system factors (e.g., the practice approach of health professionals, pathway processes, treatment criteria etc.,) which can support or create a barrier to patients directing and self-managing their condition, and patient factors (e.g., other health conditions, confidence, family support, etc.) that can support or act as a barrier.",
+          "published": "2023-07-27T17:29:29Z",
+          "duration": "PT51M51S",
+          "thumbnail": "https://i.ytimg.com/vi/5BQSkuGphZc/mqdefault.jpg"
+        },
+        {
+          "id": "bM6J9d2SuOs",
+          "title": "MAN Huddle: The NHS England eProduct Workforce Portal - 10/08/23",
+          "description": "The NHS England eProduct Workforce Portal provides data, analysis and intelligence to support NHS colleagues, Regional teams & Integrated Care Systems (ICS).\n\nThe Portal provides:\n- Access to specialist workforce analytics and modelling products\n-  Data at organisation, ICS and regional level\n- Consistent methodologies and mappings\n- Automated refreshes with the latest data available\n- Insights to inform workforce planning\n- Links to regional products and portals providing joined up local intelligence and expertise\n- User guides and FAQs\n\nDavid Pujol (NHSE) demonstrates the eProduct and takes questions during the session.",
+          "published": "2023-08-15T09:00:06Z",
+          "duration": "PT50M37S",
+          "thumbnail": "https://i.ytimg.com/vi/bM6J9d2SuOs/mqdefault.jpg"
+        },
+        {
+          "id": "oWqSL0m3C8I",
+          "title": "MAN Huddle: Ideas on presenting analytical work - 24/08/23",
+          "description": "MAN Huddle: 24/08/23\nIdeas on presenting analytical work\n\nWhat is essential is invisible to the eye… but visuals can be important, too: Ideas on presenting analytical work with Andrew Jones (Strategy Unit)\n\nAt various times in our lives (perhaps often), we will attempt to communicate complex ideas to others. In the modern professional world, this communication may involve a formal presentation. Whilst good presentations are often accompanied by well-designed slides, well-designed slides are not the foundation of a good presentation.* This session will initially explore the unseen aspects of presenting. However, since visuals are perhaps the part we find most challenging to get right, Andrew will share ideas on this, too, and will encourage others to share their thoughts.\n\n*The confounding variable here could be experience/preparation time/ attention to detail. (Or, for some lucky few, innate talent?)",
+          "published": "2023-08-30T12:23:50Z",
+          "duration": "PT36M1S",
+          "thumbnail": "https://i.ytimg.com/vi/oWqSL0m3C8I/mqdefault.jpg"
+        },
+        {
+          "id": "YvRxI89YU9g",
+          "title": "MAN Huddle: The National Competency Framework for Data Professionals - 07/09/23",
+          "description": "MAN Huddle: 07/09/23\nThe National Competency Framework for Data Professionals \nwith Andy Lavelle and Sarah Blundell (NHSE)\n\nAfter 2 years in development, the National Competency Framework for data professionals will be launched in October 2023.\nFind out what’s in it, what it means for you and how it will play a key role in the journey to professionalising the data and analytics workforce.",
+          "published": "2023-09-08T08:43:51Z",
+          "duration": "PT55M8S",
+          "thumbnail": "https://i.ytimg.com/vi/YvRxI89YU9g/mqdefault.jpg"
+        },
+        {
+          "id": "PMLZ3lUzXuk",
+          "title": "MAN Huddle: Let’s talk about analysis and creativity - 21/09/23",
+          "description": "MAN Huddle: 21/09/23\nLet’s talk about analysis and creativity\nwith Gordon Stovin & Fraser Battye \n\n‘Analysis’ and ‘creativity’ don’t often share the same sentence. Analysts don’t typically think of themselves as being creative; and it would be rare for decision makers to demand that analysis is done more creatively. But is this right? Is there scope for seeing analysis as a genuinely creative act? Certainly the best analysts seem to think and communicate in interesting and creative ways.\n\nLed by Fraser Battye (Strategy Unit) and Gordon Stovin (Information Initiative Support Specialist / Head of Colouring in).",
+          "published": "2023-09-21T13:57:46Z",
+          "duration": "PT29M32S",
+          "thumbnail": "https://i.ytimg.com/vi/PMLZ3lUzXuk/mqdefault.jpg"
+        },
+        {
+          "id": "3XatCnuOPrE",
+          "title": "MAN Huddle: Update on the Nottingham ICB – System Analytical Intelligence Unit portal   - 05/10/23",
+          "description": "MAN Huddle: 05/10/23\nNotts & Nottingham ICB – update on their System Analytical Intelligence Unit (SAIU) portal and eHealthscope\n\nRyan Cope and Sergio Pappalettera share the progress they have made in the last 12 months for their two main business tools for intelligence sharing. \nThese are the SAIU intelligence portal and eHealthscope.  \n- what is new, \n- how the ICS are using each tool and \n- the benefits they bring to their team of analysts.",
+          "published": "2023-10-05T19:12:04Z",
+          "duration": "PT50M34S",
+          "thumbnail": "https://i.ytimg.com/vi/3XatCnuOPrE/mqdefault.jpg"
+        },
+        {
+          "id": "IwGZHbMIxE8",
+          "title": "MAN Huddle:  Waiting list equity analysis within a provider context - progress so far 19/10/23",
+          "description": "MAN Huddle: 19/10/23\nWaiting list equity analysis within a provider context – progress so far\n\nMatt Eves and James Chisholm from Derbyshire Community Health Services NHS Foundation Trust will be joining us to walk us through their recent (and ongoing) work focused on waiting list inequities.  \nThis will include sharing their in-progress development to scale previous analyses, using python, and lessons learnt so far. \n\nMatt and James have adopted a continuous improvement approach to this work, and very much welcome thoughts or suggestions from the Midlands Analyst Network.",
+          "published": "2023-10-20T14:08:17Z",
+          "duration": "PT46M33S",
+          "thumbnail": "https://i.ytimg.com/vi/IwGZHbMIxE8/mqdefault.jpg"
+        },
+        {
+          "id": "NWthhW5Fgls",
+          "title": "MAN Huddle: Understanding Waiting List Pressures (using queuing theory) with Neil Walton - 02/11/23",
+          "description": "MAN Huddle: 02/11/23\nUnderstanding Waiting List Pressures (using queuing theory)\n\nWith Neil Walton who is a Professor in Operations Management at Durham University Business School.\nUsing queuing theory to understand the demand, queue size, waiting times, capacity requirements and trade-offs for different waiting lists.\n\nNHS waiting lists currently sit at record lengths due to a combination of the immediate impact of the pandemic and, as well as, long-run pressures requiring investment on NHS resources. These factors have left managers and clinicians with increasingly complex decisions when scheduling elective operations. It is imperative that managers understand the basic dynamics, tradeoffs, and pressures when managing waiting lists.\n\nQueueing theory is a key part of operational research, extensively used throughout manufacturing, retail, information technology and other sectors. This work provides an exposition of the theory of queues within the context of the current NHS backlog. With this information a manager will be able understand the demand, queue size, waiting times, capacity requirements and trade-offs for different waiting lists. We describe the metrics and a reporting system developed to understand waiting list pressures in a large NHS trust.\n\nOur aim is to enable managers to better understand their waiting lists, to achieve targets and improve health outcomes.",
+          "published": "2023-11-03T08:35:06Z",
+          "duration": "PT51M42S",
+          "thumbnail": "https://i.ytimg.com/vi/NWthhW5Fgls/mqdefault.jpg"
+        },
+        {
+          "id": "J3Knr-PIsYA",
+          "title": "MAN Huddle: Reducing inequalities in elective care - 16/11/23",
+          "description": "MAN Huddle: 16/11/23\nReducing inequalities in elective care \n\nwith Dr. Kate Warren who is a Consultant in Public Health, and Jason Gwinnett who works in Public Health Intelligence (City of Wolverhampton Council and The Royal Wolverhampton NHS Trust).  \n\nFollowing Steven Wyatt’s (Strategy Unit) report on inequalities in access to elective care, Kate and Jason will describe the analytical work that they carried out to examine inequalities in attendance and receipt of elective care using the clock stops dataset (RTT) for The Royal Wolverhampton NHS Trust.\n\nKate and Jason will also describe the findings and lessons learnt from their evaluation (including the value of RII) of a telephone-based pilot to reduce non-attendance which targeted people living in more deprived areas.  The pilot involved calling people a week before their appointment to remind them and ask if they needed any support to attend.  This is a fascinating story, and we think you will be very interested to hear about the results and practical issues that Kate and Jason had to work through and that you can learn from.",
+          "published": "2023-11-17T13:23:15Z",
+          "duration": "PT49M29S",
+          "thumbnail": "https://i.ytimg.com/vi/J3Knr-PIsYA/mqdefault.jpg"
+        },
+        {
+          "id": "Up0WWHMC8sk",
+          "title": "MAN Huddle: Find the Future in You – The Health Service Modelling Associates Programme - 30/11/23",
+          "description": "MAN Huddle: 30/11/23\nFind the Future in You – The Health Service Modelling Associates Programme\n\nWith Dr Daniel Chalk (HSMA Programme Lead) and Sammi Rosser (HSMA Trainer)\n\nIn 2016, the Health Service Modelling Associates (HSMA) Programme (https://sites.google.com/nihr.ac.uk/hsma) was launched in South West England as a way to provide modelling and data science training and mentoring support to staff working in health and social care.  Since its inception the programme has grown to a 15 month online programme open to anyone working in health, social care or policing anywhere in England free of charge.  The programme is entirely open and teaches free and open source skills in Python programming, Discrete Event Simulation (pathway modelling), Geographic Modelling, Machine Learning, Natural Language Processing, Agent Based Simulation, System Dynamics, Web Application Development and much more, and no prior knowledge of coding is required.\n\nStaff are released for a day a week from their usual role for 15 months to first undertake 6 months of training, and then supported by a community of over 300 modelling and data science experts to undertake a project that addresses an issue of importance for their organisation, immediately applying their new skills.  Previous HSMA projects have led to £multi-million new mental health, support for the COVID mass vaccination programme, transformative improvements to urgent care services and the formation of dedicated modelling and data science teams within trusts.  The programme has also become the first training programme accredited by AphA and offers certification for completion of the course.\n\nIn this session, Dan and Sammi will talk in more detail about the programme, you’ll have a chance to speak with the programme staff and they will encourage you to attend their virtual HSMA Open Day on 13th December (https://bit.ly/hsma-open-day), at which you can find out more about the programme and the application process, hear from current HSMAs about the work they’ve been doing, and sample mini-taster workshops that give you a flavour of HSMA teaching.\n\nDr Daniel Chalk, Senior Research Fellow in Applied Healthcare Modelling and Analysis, HSMA Programme Lead, NIHR Applied Research Collaboration for the South West Peninsula (PenARC)\n\n• HSMA Resource Site (google.com)\nhttps://sites.google.com/nihr.ac.uk/hsma/home\n• HSMA YouTube channel (watch HSMA lectures and event recordings) : https://www.youtube.com/@hsma",
+          "published": "2023-12-01T12:24:02Z",
+          "duration": "PT50M38S",
+          "thumbnail": "https://i.ytimg.com/vi/Up0WWHMC8sk/mqdefault.jpg"
+        },
+        {
+          "id": "t4MzKhP-NCE",
+          "title": "MAN Huddle: Introduction to Adult Social Care Client Level Data (CLD) - 14/12/23",
+          "description": "MAN Huddle: 14/12/23\nIntroduction to Adult Social Care Client Level Data (CLD)\n\nWith Ross Bailey (West Midlands ADASS) and Jenny Neuburger (DHSC)\n\nRoss Bailey (West Midlands ADASS) and Jenny Neuburger (DHSC) will be giving us an introduction to client level data, and a basic overview of the specification and its potential uses.  \nRoss and Jenny will cover:\n• What is social care client level data? \n• How will CLD be used to improve adult social care? \n• How the project is structured?\n• Work stream updates.\nWhilst we can think about the potential benefits of linking adult social care data with health and other data, the session isn’t about this or how we can access this data.",
+          "published": "2023-12-14T16:06:59Z",
+          "duration": "PT52M32S",
+          "thumbnail": "https://i.ytimg.com/vi/t4MzKhP-NCE/mqdefault.jpg"
+        },
+        {
+          "id": "b3JONu61G5s",
+          "title": "MAN Huddle: Long term trends in GP practice consultation rates  - 11/01/2024",
+          "description": "MAN Huddle: 11/01/24\nLong term trends in GP practice consultation rates \n\nWith Steven Wyatt, Head of Research and Policy at the Strategy Unit\n\nSteven Wyatt, Head of Research and Policy at the Strategy Unit, presents the results of a recent analysis estimating GP practice consultation rates in England between 1995 and 2022.\n\nPatient consultations with their GP practice are, by some distance, the most common interaction between the NHS and the population it serves.  One might expect that the NHS would have a detailed and comprehensive understanding of the levels, types, and distribution of this important service.  Whilst there have been many advances in recent years, there remain important gaps in our knowledge.\n\nIn this session Steven explores the long-terms trends in GP practice consultation rates using two research databases, Clinical Practice Research Datalink (CPRD) Gold and Aurum.  The results will be set alongside estimates from other studies, new data on GP appointment rates, patient survey results and other important forms of GP Practice activity.",
+          "published": "2024-01-16T16:29:32Z",
+          "duration": "PT1H17M38S",
+          "thumbnail": "https://i.ytimg.com/vi/b3JONu61G5s/mqdefault.jpg"
+        },
+        {
+          "id": "U68GHI8iK8E",
+          "title": "MAN Huddle: What’s driving increasing length of stay in hospitals since 2019?  - 25/01/24",
+          "description": "MAN Huddle: 25/01/24\nWhat’s driving increasing length of stay in hospitals since 2019? Health Foundation Analysis\n\nWith Andrew Mooney (The Health Foundation)  \nhttps://www.health.org.uk/about-the-health-foundation/our-people/andrew-mooney\n\nSince the COVID-19 pandemic, fewer patients have been admitted for treatment in NHS hospitals. However, those admitted are spending longer in hospital. This has contributed to record waits for elective treatments and emergency care and raised concerns about NHS hospital productivity. In this presentation we discuss some of the patient-led factors which may have contributed to increased length of stay, including an ageing population with more complex care needs, as well as the continued impact from COVID-19.\n\nOne of the authors of the report, Andrew Mooney (The Health Foundation)  talks through the findings and his approach to the analysis.",
+          "published": "2024-01-25T15:50:57Z",
+          "duration": "PT45M22S",
+          "thumbnail": "https://i.ytimg.com/vi/U68GHI8iK8E/mqdefault.jpg"
+        },
+        {
+          "id": "AEiAHVFp5n8",
+          "title": "MDSN MAN Huddle: The gap between need and supply of GP practice consultations - 08/02/24",
+          "description": "MAN Huddle: 08/02/24\nThe gap between need and supply of GP practice consultations\n\nWith Steven Wyatt (Strategy Unit)\n\nIn a recent huddle, Steven Wyatt, Head of Research and Policy at the Strategy Unit described the long-term trends in GP practice consultation rates.  In the next huddle, Steven will focus on the gap between need and supply of GP practice consultations, estimating the size of the gap nationally and in each of the Midlands ICBs, and examining the consequence of these gaps for patients and health systems.",
+          "published": "2024-02-09T13:17:20Z",
+          "duration": "PT48M8S",
+          "thumbnail": "https://i.ytimg.com/vi/AEiAHVFp5n8/mqdefault.jpg"
+        },
+        {
+          "id": "njw5Wb-MQXU",
+          "title": "MAN Huddle: How COVID activity and system responses impacted Urgent Care - 22/02/24",
+          "description": "MAN Huddle: 22/02/24\nHow COVID activity and system responses impacted Urgent Care\n\nWith Andy McCann, Lead Data Scientist at Midlands and Lancashire Commissioning Support Unit and Kelly Bishop, Assistant Director of Nursing and Urgent Care at Midlands and Lancashire Commissioning Support Unit#\n\nRevisiting a HACA2023 presentation on how COVID impacted Urgent Care in the North West of England, with specific reference to Acute Hospitals.  A combination of data analysis and observational investigation, with analysts working alongside clinicians.",
+          "published": "2024-02-23T11:36:46Z",
+          "duration": "PT50M3S",
+          "thumbnail": "https://i.ytimg.com/vi/njw5Wb-MQXU/mqdefault.jpg"
+        },
+        {
+          "id": "xSYCx_41akc",
+          "title": "MAN Huddle: Using the Community Services Dataset to investigate variation in access - 07/03/24",
+          "description": "MAN Huddle: 07/03/27\nTopic: Using the Community Services Dataset (CSDS) to investigate variation in access to community services.\nWith Andrew Jones, Senior Healthcare Analyst, The Strategy Unit\n\nCommunity services are a vital yet under-examined part of our health system. We know comparatively little about how access to community services varies according to where a person lives. And we have still less data on how access varies by social or demographic group. Without an understanding of these essentials, the NHS may be falling short when it comes to delivering current services and planning services for the future.\n\nIn this huddle, Andrew Jones (Strategy Unit) will share the findings of a report commissioned by the Midlands and South West DSNs. The report investigates variation in access to community services and what the impact of this variation might be. The huddle will bring together colleagues from across the Midlands, the South West of England, and the rest of the country",
+          "published": "2024-03-08T12:09:57Z",
+          "duration": "PT49M26S",
+          "thumbnail": "https://i.ytimg.com/vi/xSYCx_41akc/mqdefault.jpg"
+        },
+        {
+          "id": "PnRH1c9GVMw",
+          "title": "MAN Huddle: 21/03/24 The 85% bed occupancy fallacy",
+          "description": "MAN Huddle: 21/03/24\nTopic: The 85% bed occupancy fallacy \nHow useful is a bed occupancy target? \nWith Nathan Proudlove, The University of Manchester\n\nThis talk is in some ways a companion piece to Prof Neil Wilson’s talk on waiting list pressures, which used some insights from queuing theory models to consider the size of a bed pool required to keep the risk (or proportion) of patients breaching some waiting time limit within some target value (Fong et al, 2022).\n\nAnalytical queuing theory models can give us quick, first-cut answers on a range of performance metrics, under certain conditions; more complex systems and contexts can be modelled (much more laboriously) by building computer simulations. \n\nA BMJ paper of a simple inpatient system (Bagust et al, 1999) was influential forming DH views on bed occupancy and management, but these were not well considered. \n\nIn this talk we look at what queuing theory models tell us about the relationship between utilisation (e.g., bed occupancy) and waiting times, and reflect on the usefulness (or otherwise) of the policy of a target bed occupancy of e.g. 85%, as was prevalent in some DH guidance and trust policies some years ago. These models can give us further insights into things like the impact on performance of capacity carve out versus pooling (e.g., bed ring fencing vs pooling). \n\nThe commonly used basic analytical queuing models (as above) require many assumptions for the maths to be tractable, including about the shape of the randomness in arrivals and service times (e.g. length of stay). This overlooks and hides the dramatic impact that the amount of variation (e.g., the standard deviation) has on system performance – and variation reduction is, of course, at the heart of improvement approaches such as lean an six sigma.\n\nThe final stage is an approximate queuing theory model that allows us to see this impact of variation explicitly; in fact we can see that system Performance (e.g. expected waiting time) is related to  Variation × Utilisation × service Time, the ‘VUT Relationship’. The size of the bed pool (i.e, the  amount of bed pooling) is also an input to the model. So, with this we can see, and approximately quantify, the power of and trade-offs between these key drivers of system performance.\n\nThe talk draws on material from Proudlove (2020) [also Proudlove (2023)]. Open access version of the paper:\nwww.researchgate.net/publication/335487564_The_85_bed_occupancy_fallacy_The_use_misuse_and_insights_of_queuing_theory \nand its appendix: www.researchgate.net/publication/376678922_Proudlove_2020_HSMR_bed_occupancy_fallacy_App_17docx \nand Excel models: www.researchgate.net/publication/376678613_Bed_Pool_Calculator_30_SUBMITxlsx",
+          "published": "2024-03-22T09:22:14Z",
+          "duration": "PT52M50S",
+          "thumbnail": "https://i.ytimg.com/vi/PnRH1c9GVMw/mqdefault.jpg"
+        },
+        {
+          "id": "m0kZaddZJco",
+          "title": "MAN Huddle: How to automatically backup SQL Server Reporting Services (SSRS) reports -  04/04/24",
+          "description": "MAN Huddle: 04/04/24\nTopic: How to automatically backup SQL Server Reporting Services (SSRS) reports\n\nWith Chris Lee, Senior Information Analyst, Nottinghamshire Healthcare NHS Foundation Trust\n\nChanges are frequently made to SSRS reports where the original file is overwritten and there is no ability to retrieve previous versions or understand how a report has developed over time.\n\nTo address this Chris Lee (Senior Information Analyst, Nottinghamshire Healthcare NHS Foundation Trust) developed a solution using SQL Server Integration Services (SSIS) , C# and T-SQL which is able to automatically back up SSRS reports which have been modified.  \nThis presentation will go over how to develop a system like this, how it works in practice and other potential uses of the same or similar code.\n\nThe code that powers this solution will also be made available at the end of the presentation for anyone who would like to use it.",
+          "published": "2024-04-05T07:45:20Z",
+          "duration": "PT38M53S",
+          "thumbnail": "https://i.ytimg.com/vi/m0kZaddZJco/mqdefault.jpg"
+        },
+        {
+          "id": "PLsiQOeNUGo",
+          "title": "MAN Huddle: The National Competency Framework – an update -18/04/24",
+          "description": "MAN Huddle: 18/04/24\nTopic: The National Competency Framework – an update \n\nWith Sarah Blundell,  Lead for Data and Analytical Development, NHSE, and Andy Lavelle, Senior Manager Analytical Professionalisation, NHSE\n\nThe very latest news about the National Competency Framework (NCF) for Data Professionals in Health and Care.  The NCF was launched in October 23 at the annual conference for the Association of Professional Healthcare Analysts (AphA) in Stoke-on-Trent and has been moving at pace since then.  \n\nThe NCF was created to standardise the working practices of data professionals with a view to raising the professional status away from the current generally accepted “admin” job group, to a sector recognised in its own right as a profession.\n\nHere’s a reminder of when Sarah and Andy last presented at a Huddle \nhttps://www.youtube.com/watch?v=YvRxI89YU9g&t=5s\nand also their talk at HACA2023. \nhttps://www.youtube.com/watch?v=3bM-PuEv7cQ&t=75s",
+          "published": "2024-04-19T11:24:53Z",
+          "duration": "PT51M31S",
+          "thumbnail": "https://i.ytimg.com/vi/PLsiQOeNUGo/mqdefault.jpg"
+        },
+        {
+          "id": "1ZHUKbEgRJs",
+          "title": "MAN Huddle: Kent JSNA Cohort Model - 02/05/24",
+          "description": "MAN Huddle:  02/05/24\nTopic: Kent JSNA Cohort Model \nWith Abraham George and Peter Lacey\n\nHear how Kent County Council Public Health provides population health intelligence support for the local health system planning and decision making. \nWith the help of external consultancy support, we have developed a system dynamic modelling tool to forecast long term conditions prevalence and incidence in the population over the next 5 to 20 years and scenario test how they would change if we were to implement prevention interventions at pace and scale.",
+          "published": "2024-05-10T12:52:20Z",
+          "duration": "PT49M10S",
+          "thumbnail": "https://i.ytimg.com/vi/1ZHUKbEgRJs/mqdefault.jpg"
+        },
+        {
+          "id": "kxdYQkdOCe4",
+          "title": "MAN Huddle Assessing impact of specialist workforce - children & young people with epilepsy 16/05/24",
+          "description": "MAN Huddle: 16/05/24\nTopic: Assessing the impact of the specialist workforce in children and young people with epilepsy\nWith Joe Lillington from the Health Economics Unit\n\n• Why this project is important and the need for more research into epilepsy.\n• Some of the key concepts behind the analytics methods.\n• Key findings.",
+          "published": "2024-05-17T10:26:33Z",
+          "duration": "PT42M29S",
+          "thumbnail": "https://i.ytimg.com/vi/kxdYQkdOCe4/mqdefault.jpg"
+        },
+        {
+          "id": "EPnIka8b8Es",
+          "title": "MAN Huddle: Forecasting in Retail and Healthcare – addressing common themes - 30/05/24",
+          "description": "MAN Huddle: 30/05/24\nTopic: Forecasting in Retail and Healthcare – addressing common themes\n\nWith Dr Bahman Rostami-Tabar who is Professor of Data-Driven Decision Science, Cardiff University and Dr Stephan Kolassa, Data Science Expert\n\nIn this session our presenters will address forecasting in retail and healthcare.  They will focus on common themes across the two domains such as probabilistic forecasting, temporal granularity and forecast horizon, cross-sectional/hierarchical forecasting, and impact of special events. \n\nStephan will look over the many retail processes that need forecasting and will dig a little deeper into his main focus areas, store and distribution centre replenishment and promotional planning. \n\nBahman will discuss the use of forecasting in various areas of healthcare, and then investigate some cases including hourly forecasting in emergency departments (ED), daily forecasting in EDs with special events, hierarchical forecasting in ambulance services, long-term forecasting of ICU unit admissions, and mental health workforce planning.\n\nWho is this for?\nThis session will be relevant to data analysts, modellers, professionals, or anyone interested in the development and application of forecasting techniques.\nWhat will you learn?\n1. How forecasting methods apply to different domains such as retail and healthcare, highlighting the needs of each and common challenges.\n2. Get insights into the use of probabilistic approaches that account for uncertainty in forecasts.\n3. Learn about how to build forecasting models over different time frames, from hourly to long-term.\n4. Find out more about approaches to integrate data across various levels of aggregation, from individual locations, and attributes to national.\n5. Learn about strategies for integrating the impact of special events into models.\n6. And learn about cases from each sector, giving examples of how to develop forecasting models.",
+          "published": "2024-05-31T13:26:10Z",
+          "duration": "PT1H2M41S",
+          "thumbnail": "https://i.ytimg.com/vi/EPnIka8b8Es/mqdefault.jpg"
+        },
+        {
+          "id": "hU8kVOPeB3k",
+          "title": "MAN Huddle: How much healthcare will our population need in 5, 10, 20 years’ time? - 13/06/24",
+          "description": "MAN Huddle: 13/06/24\nTopic: How much healthcare will our population need in 5, 10, 20 years’ time? \nWith Paul Seamer (Strategy Unit)\n\nHow much healthcare will our population need in 5, 10, 20 years’ time? This is a staggeringly difficult question. By definition, the future is uncertain. And planning healthcare means making judgments about factors such as population size, age and healthiness – as well as how likely needs will differ for different services.\n\nThis session will explore some of the challenges in modelling the impact of demographic change on future demand for healthcare. In particular, how to handle potential changes in population health status. Will 60 really become the new 50 or are we destined to spend more time living with chronic disease and disability?\n\nThere will be a demonstration of a new interactive tool developed by the Strategy Unit with the aim of showing how population aging, and other demographic changes will impact the future need for different types of hospital services in your local area.\n\nThe development of a web-based application is a departure from more traditional report-type outputs. To test the tools ease-of-use and to identify and remedy issues there will be an opportunity for attendees to volunteer to help with usability testing.",
+          "published": "2024-06-14T15:30:07Z",
+          "duration": "PT52M23S",
+          "thumbnail": "https://i.ytimg.com/vi/hU8kVOPeB3k/mqdefault.jpg"
+        },
+        {
+          "id": "4O-8YLYq7Lw",
+          "title": "MAN Huddle: Describing general practice staffing mix using latent profile analysis - 27/06/24",
+          "description": "MAN Huddle: 27/06/24\nTopic: Describing general practice staffing mix using latent profile analysis \nWith Alex Lawless, The Health Foundation\n\nGeneral practices in England are currently facing major workforce pressures and rising demand for services. There is interest in understanding whether skill mix changes have improved access to general practice, increased the range of general practice services available to patients, or reduced use of other parts of the health care system.\n\nThis analysis aims to identify clusters in practice staffing levels using routine general practice consultations and to assess distribution of clusters within practice deprivation quintiles.\n\nThis cross-sectional study utilises Clinical Practice Research Datalink (CPRD) data to derive practice-level daily full time equivalent (FTE) rate per 1000 registered patients by staff group. Practice FTE rates by staff group were analysed using Latent Profile Analysis (LPA) methods to identify clustering. Practice Index of Multiple Deprivation (IMD) quintile and geographic region was linked to examine the relationship between demographic variables and practice staffing configurations.",
+          "published": "2024-06-28T12:04:01Z",
+          "duration": "PT48M3S",
+          "thumbnail": "https://i.ytimg.com/vi/4O-8YLYq7Lw/mqdefault.jpg"
+        },
+        {
+          "id": "dG0h-GGG3r8",
+          "title": "MAN Huddle: Impacts of poor questions from decision makers, how do we improve this? 11/07/24",
+          "description": "MAN Huddle: 11/07/24\nTopic: What are the impacts of poor questions from decision makers, and how do we improve this?\nWith Rachel Caswell (The Strategy Unit) and Andrew Lavelle, Senior Manager, Analytical Professionalisation (NHS England) \n\nBoth the 2022 and 2023 AnalystX Observatory Surveys asked what were the key challenges for analytical teams over the next 5 years.  The most mentioned theme was ‘Better questions from decision makers’.\n\nShare and discuss the impacts of poor questions (and conversely of good questions), and think about how we support people to ask better questions.\n• So what are the impacts on you and your team of poor questions?\n• How much time and resource is spent on these questions that could be spent on other things?\n• What would help people better articulate their question and allow better analytical insights?",
+          "published": "2024-07-12T09:21:51Z",
+          "duration": "PT47M51S",
+          "thumbnail": "https://i.ytimg.com/vi/dG0h-GGG3r8/mqdefault.jpg"
+        },
+        {
+          "id": "J52Yw7MMx9g",
+          "title": "MAN Huddle: 08/08/24 Health inequalities in 2040: Current and future patterns in England",
+          "description": "MAN Huddle: 08/08/24\nTopic: Health inequalities in 2040: Current and future patterns of inequalities in illness in England\n\nWith Ann Raymond, The Health Foundation\n\nOn current trends, health inequalities are projected to persist into the future. This has significant implications not just for population health but for labour supply and wider economic growth.\n\nThe existence of wide inequalities in health across England is well-documented. This Health Foundation research adds to this evidence on inequalities in self-reported health by describing current patterns and projecting future patterns of inequality in diagnosed illness across multiple conditions by deprivation.\n\nThey used the IMPACTNCD microsimulation model that simulates a close-to-reality synthetic population of adults in England from 2019 to 2040. This model combines individual-level data on demographics, health and mortality from linked administrative data for primary and secondary care with survey responses on individual-level risk factors and epidemiological evidence on the associations between risk factors and chronic illness.\n\nAnn and colleagues used the Cambridge Multimorbidity Score (CMS) as our multimorbidity measure. This assigns a weight to 20 common long-term conditions based on individuals’ healthcare use and their likelihood of death. We further focus on “major illness” which corresponds to a CMS greater than 1.5.\n\nIn preliminary results, health inequalities are not projected to improve between 2019 and 2040. In 2019, the share of working age people living with major illness in the most deprived 10% of areas in England (14.6%) was more than double the rate seen in the least deprived 10% of areas (6.3%). In 2040, we project these rates to remain largely unchanged at 15.2% (13.0%, 17.6%) and 6.8% (5.4%, 9.1%) respectively.",
+          "published": "2024-08-08T12:55:13Z",
+          "duration": "PT46M8S",
+          "thumbnail": "https://i.ytimg.com/vi/J52Yw7MMx9g/mqdefault.jpg"
+        },
+        {
+          "id": "3Qq2ig358wk",
+          "title": "MAN Huddle: The Empowering Futures, Growing Up Well in Warwickshire, JSNA - 22/08/24",
+          "description": "MAN Huddle: 22/08/24\nTopic: The Empowering Futures, Growing Up Well in Warwickshire, joint Strategic Needs Assessment (JSNA)\nWith Michael Maddocks, Matthew Head, and Thomas Mansbridge (Warwickshire County Council)\n\nEmpowering Futures joint Strategic Needs Assessment (JSNA)\n\nThe Empowering Futures, Growing Up Well in Warwickshire Joint Strategic Needs Assessment (JSNA) focuses on the physical health of school-aged children and was prioritised to support the delivery of the school nursing service and the development of a Children and the Young Person’s Making Every Contact Count (MECC) offer. This JSNA has been produced as an interactive report using PowerBI rather than a static document, so the report is:\n\n• Interactive – users will be able to interact with the dashboard to explore the data and findings.\n• Iterative – it will be updated, developed, and added to beyond the end of the JSNA timeline.\n• Editorial – the data in the dashboard has been carefully selected to highlight the key messages as part of this work and original scope.\n\nWhat this session will cover\n• Background and context for the JSNA in Warwickshire.\n• Why this approach was taken with the JSNA.\n• Data scavenger hunt.\n• How we used agile project management to create this JSNA.\n• How has this JSNA changed our way of working.",
+          "published": "2024-08-22T13:28:53Z",
+          "duration": "PT49M58S",
+          "thumbnail": "https://i.ytimg.com/vi/3Qq2ig358wk/mqdefault.jpg"
+        },
+        {
+          "id": "gfZZrHvYEjE",
+          "title": "MAN: Health equity and the humaniverse - 05/09/24",
+          "description": "MAN: 05/09/24\nTopic: Health equity and the humaniverse\nWith Dr Matt Thomas (Head of Strategic Insight & Foresight at British Red Cross) \n\nThe British Red Cross helps people in the UK receive the care and support they need without falling through gaps in the health and care system. To help our Health & Care teams understand local health inequalities, population health needs, and health system pressures, we have built a Health Inequalities Explorer web app. In this talk, Dr Matt Thomas (Head of Strategic Insight & Foresight at British Red Cross) will run through how they built this app and the underlying data science infrastructure and data products – the ‘humaniverse’ – upon which it all sits.\n\nThis talk would be most interesting to people who use R for data analysis and/or people who design and build web apps / insight products. Matt isn't assuming any knowledge of data science techniques or app development, although he will cover a few technical details at a couple of points.   However, most of the talk should be reasonably accessible and certainly interesting to a broader audience.",
+          "published": "2024-09-06T08:27:39Z",
+          "duration": "PT51M37S",
+          "thumbnail": "https://i.ytimg.com/vi/gfZZrHvYEjE/mqdefault.jpg"
+        },
+        {
+          "id": "MGp-w890MDY",
+          "title": "MAN Huddle: The National Competency Framework - one year on - 03/10/24",
+          "description": "MAN Huddle: 03/10/24\nTopic: The National Competency Framework - one year on\nwith Sarah Blundell and Andrew Lavelle (NHSE)\n\nOne year and a day since the National Competency Framework was launched in Stoke.  And the team have been busy!  \nFrom 15 to 55 teams/organisations have signed up in the last year so NCP is already having a significant impact.  \nFind out more and to get involved, whether you have heard about the Framework and want to find out a bit more, or if you are ready to get started and want to what happens next.  The Framework is relevant for anyone who has a analytical role or a part analytical role and who works in any organisation in health and care.",
+          "published": "2024-10-04T11:38:12Z",
+          "duration": "PT52M42S",
+          "thumbnail": "https://i.ytimg.com/vi/MGp-w890MDY/mqdefault.jpg"
+        },
+        {
+          "id": "vCfg5U-gG18",
+          "title": "MAN Huddle: Modelling Long-Term Changes in Population Health State - 17/10/24",
+          "description": "MAN Huddle: 17/10/24\nTopic: Modelling Long-Term Changes in Population Health State and Associated Healthcare Resource Requirements \nWith Luke Shaw (NHS Bristol, North Somerset and South Gloucestershire ICB)\n\nFind out more about the mathematical model, which has already influenced financial decisions of resource allocation for long-term commissioning needs within the Bristol, North Somerset, South Gloucestershire (BNSSG) ICS. As presented at HACA2024, Luke will talk about the journey to develop this model will present examples of the model being used in real life situations and review outputs against two other externally developed models. \n\nThere have been recent improvements to the modelling framework since the HACA presentation, (please see https://youtu.be/Qq20AV4f83U) such as an increased understanding of ONS migration estimates and projections, as well as disaggregating the inputs further by population age distribution. During this presentation the new version of the model, with its differences both in design and outputs, will be presented and discussed.",
+          "published": "2024-10-17T12:54:52Z",
+          "duration": "PT47M15S",
+          "thumbnail": "https://i.ytimg.com/vi/vCfg5U-gG18/mqdefault.jpg"
+        },
+        {
+          "id": "GoHb3tE4xZQ",
+          "title": "MAN Huddle: NHSquicker: Shaping Demand for Urgent Care Using Real-Time Data  - 31/10/24",
+          "description": "MAN Huddle: 31/10/24 \nTopic: NHSquicker: Shaping Demand for Urgent Care Using Real-Time Data and Digital Nudges \nWith Nav Mustafee, Professor of Operations Management and Analytics at the University of Exeter Business School\n\nThis research and impact work investigates whether indirect suggestions (nudges) can support patients needing urgent care to make more informed decisions about available healthcare choices. \nA nudge can be delivered using targeted adverts, mail campaigns, and, central to the theme of this research, through \"digital\" means using apps and wearables. \n\nhttps://nhsquicker.co.uk/ \n\nNHSquicker is a platform co-developed with the NHS Trusts in southwest England. It is designed to deliver nudges to inform patients of alternative locations for urgent care. NHSquicker comprises:\n\n(a) a user-facing app that provides suggestions taking into account the live waiting time from Accident & Emergency (A&E) departments and Urgent Care Centres (UCC)/Minor Injury Units (MIU)/Walk-in Centres (WICs), also factoring the travel time; \n(b) the platform backend that receives real-time feeds and allows for easy integration of new feeds from Trusts that join the initiative. \n\nThe app helps patients make informed decisions, for example, whether they visit a facility which may be nearer to them but with a long waiting time or travel to an alternative location that is further away but with a shorter waiting time. \nAn evaluation framework captures evidence of impact and triangulate findings from patient questionnaires, secondary data analysis and app analytics. \n\nOur study has shown the potential of NHSquicker to shape demand for urgent care by reducing A&E visits from low-acuity attendees and helping redirect patients to UCC/MIU/WICs and other healthcare facilities.\n A sustained communication effort by the NHS will further increase patients' adoption of NHSquicker (or other such real-time solutions) and help realise further benefits for the Trusts.\nThe NHSquicker project was initiated in 2017 at the University of Exeter Business School. Over the years, the network has grown. It currently covers all urgent care facilities in Devon, Cornwall and Somerset. It received funding from NHS Devon ICB in September 2023.  \n\nMeet our presenter: Navonil (Nav) Mustafee is a Professor of Operations Management and Analytics at the University of Exeter Business School. His research focuses on Modelling & Simulation methodologies and their application in Healthcare Operations Management, Supply Chain, Sustainability and the Circular Economy. \nNav is the joint editor-in-chief of the Journal of Simulation (UK OR Society journal) and associate editor of Health Systems and Simulation: The Transactions of the SCS.",
+          "published": "2024-11-05T11:55:51Z",
+          "duration": "PT51M50S",
+          "thumbnail": "https://i.ytimg.com/vi/GoHb3tE4xZQ/mqdefault.jpg"
+        },
+        {
+          "id": "s9J1EcGjaGI",
+          "title": "MAN Huddle: Ordinance Survey (OS) Data supporting local health - 14/11/2024",
+          "description": "MAN Huddle: 14/11/2024\nTopic: Ordinance Survey (OS) Data supporting local health\n\n• Overview of the Public Sector Geospatial Agreement (PSGA), of the data and service available and what support is available.\n• Introduction to the new data available via the National Geographic Database (NGD). Describe how the new attributes such as building and land theme can support local health. \n• Brief explanation of innovative projects at OS and how they may the support public sector in the future.",
+          "published": "2024-11-15T11:10:19Z",
+          "duration": "PT48M46S",
+          "thumbnail": "https://i.ytimg.com/vi/s9J1EcGjaGI/mqdefault.jpg"
+        },
+        {
+          "id": "HB-E2WhOy8M",
+          "title": "MAN Huddle: HDR UK Midlands – Building a regional data science network 28/11/24",
+          "description": "MAN Huddle: 28/11/24\nTopic: HDR UK Midlands – Building a regional data science network\nWith Kevin Dunn, HDR UK Programme Manager\nhttps://www.hdrmidlands.org.uk/portfolio/kevin-dunn/\n\nFind out about Health Data Research UK Midlands.  \n\nKevin Dunn, who manages this network, will give us an overview of what they are trying to achieve through advancing health data science across the East and West Midlands by collaborating with academic, NHS, and health sector partners to tackle key health challenges and improve patient care, healthcare policy, and clinical practices. \n\nRachel Caswell will be chatting to Kevin about his role, the successes of the network to date and about our joint webinar in January 'Failure Parade'\nhttps://www.hdrmidlands.org.uk/hdrevents/failure-parade-why-and-how-we-learn-more-when-things-dont-go-as-planned-28th-jan-2025/",
+          "published": "2024-11-29T10:01:40Z",
+          "duration": "PT51M59S",
+          "thumbnail": "https://i.ytimg.com/vi/HB-E2WhOy8M/mqdefault.jpg"
+        },
+        {
+          "id": "JKHE61cPGbI",
+          "title": "MAN Huddle: COMPLEX-IT: Enabling Non-Experts to Leverage Advanced Computational Modelling - 12/12/24",
+          "description": "MAN Huddle: 12/12/24\nTopic: COMPLEX-IT: Enabling Non-Experts to Leverage Advanced Computational Modelling for Policy Evaluation and Decision Making\n\nWith Brian Castellani, PhD. FAcSS, Professor of Social and Public Health, Director, Research Methods Centre, Co-Director, Wolfson Research Institute for Health and Wellbeing, Durham University, UK; Adjunct Professor of Psychiatry, Northeastern Ohio Medical University, US and Lasse Gerrits, Professor and Academic Director, Institute for Housing and Urban Development Studies, Erasmus University Rotterdam, the Netherlands\n\nOver the past decade, computational methods for decision support - ranging from simulation and machine learning to network analysis and systems mapping—have advanced significantly. However, the challenge remains in making these tools accessible to non-experts, particularly those involved in healthcare research, strategy, and policy evaluation. This methods session addresses that need. \nBrian introduces COMPLEX-IT, a free, intuitive R-platform designed to equip non-experts with cutting-edge tools in machine learning, data visualization, participatory systems mapping, network analysis, simulation, data forecasting, and cluster analysis. Through hands-on exploration of a real-world dataset, participants will gain a step-by-step understanding of how to use COMPLEX-IT to enhance decision making in healthcare. By the session’s conclusion, attendees will leave with a powerful, practical platform they can readily apply to their own research and policy evaluation efforts. \nFor more, see https://www.complex-it-data.org/\n\nThis session is for anyone keen to learn more about how to use computational methods (e.g., AI, networks, simulation, systems mapping and machine learning) in their healthcare work or research.",
+          "published": "2024-12-13T16:59:03Z",
+          "duration": "PT59M5S",
+          "thumbnail": "https://i.ytimg.com/vi/JKHE61cPGbI/mqdefault.jpg"
+        },
+        {
+          "id": "1mAqQ0t1zdg",
+          "title": "MAN Huddle: Process Mining in Healthcare – Opportunities and Challenges  23/01/2025",
+          "description": "MAN Huddle: 23/01/2025\nProcess Mining in Healthcare – Opportunities and Challenges \nWith Owen Johnson, Director of Impact, School of Computer Science, University of Leeds\n\nFind out more about the opportunities and challenges for using Process Mining in healthcare.\nThe NHS needs shorter waiting lists and faster, better, more effective care pathways. We can and should be using NHS data to understand the options for improvement but data mining does not have the answers, NHS data analysts and data scientists need to understand process mining and use it as part of their analytics tool set. This talk introduces process mining with examples of how it has helped NHS case studies.\n\nA simple approach to process mining is introduced along with an overview of the ClearPath method and a discussion on the unique challenges and opportunities ahead. The talk ends with a discussion on how to implement process mining within local practice with signposting to resources that will help.",
+          "published": "2025-01-24T11:33:42Z",
+          "duration": "PT56M36S",
+          "thumbnail": "https://i.ytimg.com/vi/1mAqQ0t1zdg/mqdefault.jpg"
+        },
+        {
+          "id": "Elrl6OSfnBs",
+          "title": "MAN Huddle: Making Data Count: What is it and why should I know about it? - 06/02/2025",
+          "description": "MAN Huddle: 06/02/2025\nTopic: Making Data Count: What is it and why should I know about it?\nWith Adam Smith, Making Data Count team\n\nLearn more about Statistical Process Control charts - an introduction/reminder as well as an update of all that has, and continues to be achieved, by the Making Data Count team.\n\nAn update on all things MDC and how you can get involved.\nIn this session, Adam Smith will:\n• Provide an overview of the Making Data Count programme\n• Describe the free resources and training that are available to teams working in health and care (including analysts)\n• Outline the range of benefits from adopting the MDC approach\n• Explain recent national developments related to use of SPC nationally\n• Answer any questions you have about Making Data Count!\n\nWhat will you learn?\nAnalysts (and others) will come away from the session equipped with new knowledge about how they can have an even greater impact on patient care and outcomes, and quality improvements in their organisation.",
+          "published": "2025-02-07T15:01:54Z",
+          "duration": "PT53M2S",
+          "thumbnail": "https://i.ytimg.com/vi/Elrl6OSfnBs/mqdefault.jpg"
+        },
+        {
+          "id": "8pGuuHt_Do0",
+          "title": "MAN: Public expenditure in the last year of life Nuffield Trust & Health Economics Unit - 20/02/2025",
+          "description": "MAN Huddle: 20/02/2025\nTopic: Public expenditure in the last year of life - Nuffield Trust & Health Economics Unit\nWith Lisa Cummins and Gayathri Kumar, Health Economics Unit\n\nSupporting people at the end of life is a crucially important element of public spending, yet there is remarkably little evidence available on how much money is being spent on it, and what that money goes on. The Nuffield Trust and the Health Economics Unit were commissioned by Marie Curie to estimate the range of public expenditure that supports the care of people in their last year, to help inform national and local funding decisions to improve services for people at the end of life.\n•  Around 650,000 adults die each year in the UK, with one in six dying in poverty. We know that the care and support people receive from publicly funded services greatly influences the quality of their last year of life – yet very little is known about the cost of the care and support they receive.\n• To address this gap, and to help inform decision makers on the best possible use of funding, the Health Economics Unit (HEU), in collaboration with the Nuffield Trust, were commissioned by Marie Curie to estimate how much the UK spends on people in the last year of life.\n\"We undertook analysis of published data and statistics and extensive stakeholder engagement to estimate how much health care, social care and social security funding was spent on people in their last year of life across all four nations of the United Kingdom (UK) in 2022. We also performed sensitivity analysis to assess uncertainty in our estimates.\"",
+          "published": "2025-02-20T15:10:22Z",
+          "duration": "PT50M",
+          "thumbnail": "https://i.ytimg.com/vi/8pGuuHt_Do0/mqdefault.jpg"
+        },
+        {
+          "id": "_SBpQNeThj4",
+          "title": "MAN Huddle: 20/03/25 Updates from the Warwickshire Joint Strategic Needs Assessment (JSNA)",
+          "description": "MAN Huddle: 20/03/25\nTopic: Updates from the Warwickshire Joint Strategic Needs Assessment (JSNA)\nWith Michael Maddocks Programme Manager – JSNA, Warwickshire CC\n\nIn last August's huddle, colleagues from Warwickshire County Council shared their experiences of producing the Empowering Futures: Growing Up Well in Warwickshire JSNA, which produced an interactive report using PowerBI to examine the picture of children's health in Warwickshire. 7 months on, Warwickshire have just published an Adults with a Learning Disability JSNA and are now planning to change their approach from thematic needs assessments to producing a set of life course dashboards covering the health needs of the population in Warwickshire.\n\nThis session will cover lessons learned from the recently published Adults with a Learning Disability JSNA, and an overview and discussion on the approach to the future work programme.",
+          "published": "2025-03-20T14:26:14Z",
+          "duration": "PT51M34S",
+          "thumbnail": "https://i.ytimg.com/vi/_SBpQNeThj4/mqdefault.jpg"
+        },
+        {
+          "id": "H3y7Ps-Y1is",
+          "title": "MAN Huddle: 03/04/2025 Toy Model for risk stratification and healthcare needs in the future",
+          "description": "MAN Huddle: 03/04/2025\nTopics:\nToy models – Complex problems in small packages! and \nHow much healthcare will our population need in five, ten, 20 years' time?”\n\nWith Andy Hood and Lucy Morgan, and Paul Seamer, from the Strategy Unit https://www.strategyunitwm.nhs.uk\n\nToy models – Complex problems in small packages!\n\nOften analysts find themselves in situations having to describe complex theories and their intended or unintended consequences to decision-makers but with data itself that is complicated or that overwhelms the theory. Toy models provide a way of distilling key mathematical concepts on a given topic or issue and providing simple data and a platform on which to explore, test and visualise them. The Strategy Unit (SU), funded through the New Hospitals Programme (NHP) is developing a series of toy models that explore risk stratification cost effectiveness, bed pooling & identifying bottle necks that impact patient flow and left-shift. These tools, it is hoped, will allow analysts, decision-makers, trainers and students to explore these concepts in a digestible way and gauge the high-level impacts of changing approaches before doing so at scale. In this bite-size session we will be introducing and demonstrating the Risk Stratification toy model app and trailing the other upcoming toy models which will all be made publicly available. \nAimed predominantly at analysts, this session will (hopefully) introduce the key concepts in risk stratification implementation; demonstrate the impacts of changing any of these features; provide links to freely access this tool and describe plans for similar upcoming and future tools.\n\n21:37 How much healthcare will our population need in five, ten, 20 years' time?\n\nAt a previous huddle the Strategy Unit shared a beta version of a new interactive tool that showed how population aging, and other demographic changes will impact the future need for different types of hospital services across local areas.\nDuring the earlier huddle session, we asked for volunteers to help with usability testing. A number of people kindly volunteered to review the tool and provided helpful feedback. We are now ready to officially launch the tool. This short session will include a demo of the new tool, a reminder of the themes it addresses, and an opportunity to ask questions.",
+          "published": "2025-04-03T15:47:51Z",
+          "duration": "PT51M12S",
+          "thumbnail": "https://i.ytimg.com/vi/H3y7Ps-Y1is/mqdefault.jpg"
+        },
+        {
+          "id": "3JjEtox2EOc",
+          "title": "MAN Huddle: Evaluating the Heart Failure Targeted Funding Programme 2023/24 - 17/04/2025",
+          "description": "MAN Huddle: 17/04/2025\nTopic: Evaluating the Heart Failure Targeted Funding Programme 2023/24 (Strategy Unit)\nWith: Faizan Mahmood and Andre Bilbrough, The Strategy Unit\n\nFind out more about the Strategy Unit's recent evaluation of the Heart Failure Targeted Funding Programme 2023/24. This presentation will summarise the project in terms of the type of analysis that could be undertaken when working with limited data, results at a national and site-level and reflections on what could be improved on in future.\n\nLearn from this mixed method evaluation which included 63 separate heart failure projects to introduce innovations and recover to pre-COVID activity.",
+          "published": "2025-04-17T16:29:09Z",
+          "duration": "PT46M13S",
+          "thumbnail": "https://i.ytimg.com/vi/3JjEtox2EOc/mqdefault.jpg"
+        },
+        {
+          "id": "UtyPhpGA_PE",
+          "title": "MAN Huddle: 01/05/2025",
+          "description": "MAN Huddle: 01/05/2025\nTopic: An update AphA (Association of Professional Healthcare Analysts) \nWith Jane Johnston (Co-CEO) and Jeannette Fraser (AphA SE Branch Lead & WIHD Network Committee Lead) \n\nAn update on everything AphA - the aims, the story so far, the regional networks, the professionalisation of analysts, the National Competency Framework and much more!  \nAphA is growing and more and more analysts are seeking professionalisation.",
+          "published": "2025-05-12T10:14:47Z",
+          "duration": "PT50M59S",
+          "thumbnail": "https://i.ytimg.com/vi/UtyPhpGA_PE/mqdefault.jpg"
+        },
+        {
+          "id": "-X09nvNQkYg",
+          "title": "MAN Huddle: An introduction to problem structuring - 15/05/25",
+          "description": "MAN Huddle: 15/05/25\nTopic: An introduction to problem structuring \nWith Steven Wyatt (Strategy Unit)\n\nWe are delighted to welcome back, Steven Wyatt, Head of Research and Policy at the Strategy Unit, who will introduce the concept of problem structuring, an essential skill for healthcare analysts.\n\nProblem structuring involves working with managers, clinicians and other stakeholders to reach a shared view about the problem(s) that need to be addressed and the nature of any analysis that might help.  When done well, problem structuring increases the chance that an analysis will lead to service improvements.  Steven will describe three simple frameworks that healthcare analysts might use in conversations with customers of their analysis.",
+          "published": "2025-05-16T12:03:15Z",
+          "duration": "PT51M6S",
+          "thumbnail": "https://i.ytimg.com/vi/-X09nvNQkYg/mqdefault.jpg"
+        },
+        {
+          "id": "nEMRrLTBRds",
+          "title": "MAN Huddle: How we are using data in Leicester, Leicestershire & Rutland  - 29/05/2025",
+          "description": "MAN Huddle: 29/05/2025\n\nTopic: How we are using data in Leicester, Leicestershire & Rutland, to drive transformation of urgent and emergency care services\n\nWith Janine Dellar, Head of Strategic Business Intelligence and George MacDonald, Data Scientist \n\nJanine Dellar, Head of Strategic Business Intelligence and George MacDonald, Data Scientist who will be sharing their approach and results of their:\n• Evaluation of the primary care led complex care service and its impact on UEC activity \n• Work to develop an understanding of ED demand and how this varies by population group, to shape targeted actions for patients within an acute trust. George has done work to understand who is using ED and how they flow through the department",
+          "published": "2025-05-29T12:54:31Z",
+          "duration": "PT53M50S",
+          "thumbnail": "https://i.ytimg.com/vi/nEMRrLTBRds/mqdefault.jpg"
+        },
+        {
+          "id": "WmO53eF7U1I",
+          "title": "MAN Huddle - 12/06/2025",
+          "description": "MAN Huddle - 12/06/2025\nTopic: Reshaping the pattern of care - Sizing and exploring the left shift challenge\nWith Jennifer Wood and Justine Wiltshire, The Strategy Unit\n\nPresenting findings from her and other colleagues’ latest modelling work and policy review. Jennifer and Justine will present their novel techniques for sizing the opportunity of shifting care from acute to community and talk about the tools and evidence they have generated to help policy makers, clinicians and analysts make the difficult choices that might facilitate this shift.",
+          "published": "2025-06-13T08:23:17Z",
+          "duration": "PT52M4S",
+          "thumbnail": "https://i.ytimg.com/vi/WmO53eF7U1I/mqdefault.jpg"
+        },
+        {
+          "id": "YLAELLs_MUw",
+          "title": "MAN Huddle: 26/05/25",
+          "description": "MAN Huddle: 26/05/25\nTopic: Humans, AI and the Importance of Data Literacy’\nWith Dan Isaac, Data Literacy & Training Lead, Exeter University\n\nEveryone is talking about AI, but people aren’t talking about the humans that use AI and the data that fuels it. In this talk, Dan aims to correct that by discussing:\n\nThe role of humans in evaluating AI\n• Why AI tools and their human users should be evaluated as a singular system of distributed cognition\n• The importance of prompt engineering\n• Should we trust AI?\n AI’s data problem\n• \"Garbage In, Garbage Out\": AI will provide poor outputs unless it is fed from good data.\n• How can we define 'good' data?\n• Understanding Availability Bias for humans and AI\n• The data challenge faced by 'legacy' organisation\n• The knowledge gap between AI/Data Professionals and Business Leaders\n Why humans need data literacy\n• What is Data Literacy?\n• Always asking \"What does the data tell us?\" when making a decision\n• Data literacy is not intuitive and must be learned\n\nDan Isaac is the Data Literacy & Training Lead at the University of Exeter and a specialist in Data Visualisation, with a particular interest in the psychology behind effective data communication. Based at the University of Exeter, Dan has been delivering Data Visualisation training since 2013 and also teaching on the MSc Business Analytics programme at the University’s Business School.",
+          "published": "2025-06-26T13:31:19Z",
+          "duration": "PT49M41S",
+          "thumbnail": "https://i.ytimg.com/vi/YLAELLs_MUw/mqdefault.jpg"
+        },
+        {
+          "id": "671-55ziYzc",
+          "title": "MAN Huddle: Understanding the costs and benefits of interventions in cervical cancer - 10/07/2025",
+          "description": "MAN Huddle: 10/07/2025\nTopic: Understanding the costs and benefits of interventions in cervical cancer\nWith: Lisa Cummins, Lead Health Economist at the Health Economics Unit\n\nLisa will share a great example of how using a health economics model can measure the impact of interventions.\n\nThis session will walk through:\n✅ How cost-benefit and cost-effectiveness analyses were combined to give a comprehensive picture of value for money\n✅ Insights into the economic impact of prevention strategies from both health care and wider societal perspectives\n✅ Practical considerations for analysts and decision-makers looking to apply similar methods\n\nWhether you’re an analyst, commissioner, public health professional or simply interested in how health economics can support better decisions, this is a great opportunity to learn from real-world experience.\n🔗 Read the full case study\nhttps://healtheconomicsunit.nhs.uk/case_study/understanding-the-costs-and-benefits-of-interventions-in-cervical-cancer/",
+          "published": "2025-07-11T08:35:11Z",
+          "duration": "PT49M20S",
+          "thumbnail": "https://i.ytimg.com/vi/671-55ziYzc/mqdefault.jpg"
+        },
+        {
+          "id": "sLQG5XX0H0E",
+          "title": "MAN Huddle: 'Rules of Thumb' for assessing the quality of analysis - 24/07/2025",
+          "description": "MAN Huddle: 24/07/2025\nTopic: 'Rules of Thumb' for assessing the quality of analysis\nWith Fraser Battye (Strategy Unit) and Danielle Jefferies (The Kings Fund)\n\nHow do you assess the quality of analytical work? \nWhen you first receive a report, what are the first signs and signals you are looking for? \nThe author(s)? The layout? The methods? Data sources? Drafting? \nAnd - of all the quick tests of quality you are performing - could a non-analyst be primed to see the same things? \nAre there any 'rules of thumb' that non-analysts could use to assess the likely quality of analytical work? \n\nAt this huddle, we will examine these questions with Fraser Battye (Head of Policy, Strategy Unit) and Danielle Jefferies (Analyst at the Kings Fund). They will present the results of a project, which drew on interviews with senior analysts, and suggest that there are pointers which non-analysts could use to get a first-approximation assessment of analytical quality.",
+          "published": "2025-07-28T10:42:55Z",
+          "duration": "PT50M37S",
+          "thumbnail": "https://i.ytimg.com/vi/sLQG5XX0H0E/mqdefault.jpg"
+        },
+        {
+          "id": "zUdpm_9tcTU",
+          "title": "MAN Huddle: Simplifying statistical process control with I-prime charts - 07/08/2025",
+          "description": "MAN Huddle - 07/08/2025\nTopic: Simplifying statistical process control with I-prime charts\nWith\n\nIn this Huddle, you will be introduced to the I-prime (I') chart – a new and improved SPC tool that retains the simplicity of the I chart while addressing its limitations. It handles both measurement and count data, adapts to varying subgroup sizes, and holds the potential to replace other common SPC charts.\n\nTarget audience: The webinar is intended for analysts and practitioners involved in healthcare quality control and improvement. Prior experience with SPC methodology and programming in R will be beneficial but not essential.  If this isn't you, you are still very welcome to come along and learn a bit more about SPC charts and about what can be achieved from programming in R. \n\nAims: After the session you will:\n• understand the theory behind I' charts,\n• know when – and when not – to use I' charts as alternatives to traditional SPC charts, and\n• be able to construct I' charts using R.\n\nPreparations and materials: No preparation is required to participate in the webinar. However, if you would like to refresh your understanding of basic SPC theory and practice, we recommend browsing Part 1 of our work-in-progress book:\n\n• Anhøj & Mohammed (2025): Mastering Statistical Process Control Charts in Healthcare. A book under development. https://anhoej.github.io/spc4hc/\n\nIf you want a head start on the theory behind I' charts, we recommend reading Taylor's original paper:\n• Taylor (2018): Normalized Individuals Control Chart. The original article introducing I' charts.\nhttps://variation.com/normalized-individuals-control-chart/\n\nAlso, you may wish to install and familiarise yourself with pbcharts, an R package currently in development:\n• Anhøj (2025): Process Behaviour Charts. Yet another R package for making SPC charts:\ndevtools::install_github(\"anhoej/pbcharts\")\nhttps://github.com/anhoej/pbcharts",
+          "published": "2025-09-22T10:43:29Z",
+          "duration": "PT53M39S",
+          "thumbnail": "https://i.ytimg.com/vi/zUdpm_9tcTU/mqdefault.jpg"
+        },
+        {
+          "id": "DdYUSW2VIMg",
+          "title": "MAN Huddle: Introducing the Strategy Unit Demand Model - 04.09.25",
+          "description": "MAN Huddle 04/09/25\nTopic: Introducing the Strategy Unit Demand Model: sizing hospitals & shifting care closer to home\nWith Chris Beeley, Head of Data Science, The Strategy Unit\n\nIntroducing the Strategy Unit Demand Model: an award-winning, open-source tool developed with the New Hospital Programme, already recognised nationally with the Florence Nightingale Award.\n\nLed by Chris Beeley, Head of Data Science ise joined by other colleagues in the Strategy Unit, to show how the model tackles some of health & care’s most important challenges:\n\n• Sizing new hospitals so they are fit for purpose\n• Supporting the ‘left shift’ by identifying care that could be prevented or delivered in homes and communities\n• Building a picture of people at risk of preventable conditions, enabling early intervention\n\nDuring the session we will explore:\n• Why the model was created and its journey so far\n• What makes it different \n• How it helps size new hospitals appropriately\n• How it identifies care that could be prevented or delivered in homes or communities\n• How it builds a picture of people at risk of preventable conditions - supporting early intervention\n• Case studies and insights so far\n• How you can get involved in shaping and applying the model\n\nFor analysts, leaders, and decision-makers, this is an opportunity to understand more about the Demand Model and how it provides a robust, system-wide view of demand - and how you can be part of shaping its development.",
+          "published": "2025-09-05T11:05:44Z",
+          "duration": "PT52M24S",
+          "thumbnail": "https://i.ytimg.com/vi/DdYUSW2VIMg/mqdefault.jpg"
+        },
+        {
+          "id": "xeDd0cjsbjE",
+          "title": "MAN Huddle: 'I wish I was macho instead of just deep' - 18.09.25",
+          "description": "MAN Huddle: 18.09.25\nTopic: 'I wish I was macho instead of just deep' \nWith Marc Farr - Analytical Officer at East Kent Hospitals University NHSFT\n\nMarc Farr will give his latest thoughts on the role of the analytical leader in the current ever-changing NHS data landscape.\n\nWhile there is increased focus on the analytical workforce - we have a senior head of profession, the Federated Data Platform (FDP) and Secure Data Environment (SDE) programmes and a national competency framework, the analyst community would agree that there is a still a long way to go to deliver cliches such as evidence-based decision-making, data into action, integration at the data as opposed to system level and so forth. Marc will describe progress made and also the challenge that still remains to see senior analytical roles in positions of genuine significance. \n\nMark has talked at many events including our Health and Care Analytics conferences – he was one of most popular presenters, see the recording here: \nhttps://youtu.be/_CwXUljFcfo?list=PLD3zJ_XF_szyOeb29e2tGnbSIrMwgippM (starts about 6 mins in) and well worth a watch, if you missed it live in Telford last year.",
+          "published": "2025-09-22T10:43:22Z",
+          "duration": "PT48M28S",
+          "thumbnail": "https://i.ytimg.com/vi/xeDd0cjsbjE/mqdefault.jpg"
+        },
+        {
+          "id": "al7J7U9vjMw",
+          "title": "MAN Huddle: Learn how to measure and solve “exit block” - 02/10/25",
+          "description": "MAN Huddle:  02/10/25\nTopic: Heaviness past, heaviness present and heaviness future: measuring, describing and finding solutions to exit block in acute hospitals.\nWith Neil Pettinger (Kurtosis) \n\nExit block – when patients can’t leave emergency departments because of a lack of empty beds – is a major barrier to patient flow and ED performance. \n\nNeil will show how we can refine our measurement of exit block, incorporating length of stay to understand and tackle the problem more effectively.",
+          "published": "2025-10-02T13:32:20Z",
+          "duration": "PT59M3S",
+          "thumbnail": "https://i.ytimg.com/vi/al7J7U9vjMw/mqdefault.jpg"
+        },
+        {
+          "id": "DmM4gqdxv5I",
+          "title": "MAN Huddle: The Accidental Project Manager - 16/10/2025",
+          "description": "MAN Huddle: 16/10/2025\nTopic: The Accidental Project Manager \nWith Jo Stanford, CEO, Healthcare Project and Change Association (HPCA) \n\nIn this session you will learn about the Healthcare Project and Change Association (HPCA) and the key role that analysts (and non-analysts) have in delivering successful change. \nYou will take away tools and techniques to manage small scale projects with confidence and learn how to integrate them into your day job routine. It will be a fun and interactive session with lots of practical tips to apply straight away and some free next-step learning. \n\nAbout our presenter:  Jo Stanford is the CEO for The Healthcare Project and Change Association,  https://www.hpca.uk/ a not for profit Community Interest Company, promoting professional standards and supporting the interests of project and change professionals in healthcare in the UK.",
+          "published": "2025-10-16T12:25:38Z",
+          "duration": "PT1H1M29S",
+          "thumbnail": "https://i.ytimg.com/vi/DmM4gqdxv5I/mqdefault.jpg"
+        },
+        {
+          "id": "0CYLOpnwg1c",
+          "title": "MAN Huddle: National Competency Framework – 2 Years on. Where are the adopters now? 30/10/25",
+          "description": "MAN Huddle: 30/10/25\nTopic: National Competency Framework – 2 Years on. Where are the adopters now?\nWith Sarah Blundell, Lead for Data and Analytical Development, and Andy Lavelle, Senior Manager for Analytical Professionalisation (NHS England)\n\nSarah Blundell, Lead for Data and Analytical Development, and Andy Lavelle, Senior Manager for Analytical Professionalisation (NHS England) explore how the National Competency Framework for Data Professionals is being used, refined, and expanded across health and care.\nLaunched just over two years ago, the Framework is helping individuals, teams and organisations to plan careers, develop skills, and strengthen professional practice.\nIn this session you’ll:\n• Hear real examples of how the Framework is being used in action, by individuals, teams and organisations\n• Learn about how the NHS Data and Analytics Academy supports learning and progression\n• Discover what’s next, including enhancements to existing roles and the new roles being added to the Framework\n• Find out how you can get involved in testing the next version before its formal release in March 2026",
+          "published": "2025-10-31T09:03:25Z",
+          "duration": "PT50M21S",
+          "thumbnail": "https://i.ytimg.com/vi/0CYLOpnwg1c/mqdefault.jpg"
+        },
+        {
+          "id": "AJ4lq7yelYA",
+          "title": "MAN Huddle The impact of NHS waiting lists on patient decisions to privately fund treatment 13/11/25",
+          "description": "MAN Huddle: 13/11/25\nTopic: The impact of NHS waiting lists on patient decisions to privately fund treatment \nwith Steven Wyatt, Head of Research and Policy at the Strategy Unit\n\nHow many people privately purchase hip and knee replacement surgery?  Who are these patients and how are their decisions influenced by waiting times for NHS-funded orthopaedic pathways?  \n\nIn this session, Steven Wyatt, Head of Research and Policy at the Strategy Unit, will describe a recent analysis on this topic using data from the National Joint Registry.  Steven will set out the context, show how this has changed over the last 10 years, before outlining the modelling methods used and the results.\n\nThe work has important implications for those planning levels of elective activity, in the context of changes in waiting times for NHS-funded care.",
+          "published": "2025-11-13T15:15:18Z",
+          "duration": "PT52M42S",
+          "thumbnail": "https://i.ytimg.com/vi/AJ4lq7yelYA/mqdefault.jpg"
+        },
+        {
+          "id": "J6I_1uHstyk",
+          "title": "MAN Huddle: The Networked Data Lab - 27/11/25",
+          "description": "MAN Huddle: 27/11/25\nTopic: The Networked Data Lab - What can linked data tell us about the elective care waiting list?\nWith Tom Prendergast, Senior Data Analyst (The Health Foundation), \nAnna Palczewska, Senior Data Scientist and Josh Elvidge-Murgatroyd, Data Engineer/ Analyst (West Yorkshire ICB)\n\nJoin this Huddle to find out what really happens while people wait for elective care? Learn about uncovering inequalities, patient journeys and the realities of working with the WLMDS.\n\nThrough the Health Foundation’s Networked Data Lab, analytical teams in four areas of the UK (West Yorkshire, Cheshire and Merseyside, North West London, and Grampian) have linked data on elective waiting times to primary and secondary healthcare datasets to examine inequalities in waiting times and the impact of waiting on health.\n\nIn this talk, Tom Prendergast, Senior Data Analyst (The Health Foundation), Anna Palczewska, Senior Data Scientist and Josh Elvidge-Murgatroyd, Data Engineer/ Analyst (West Yorkshire ICB), will be discussing what they learned from this research and the many challenges of examining the elective waiting list using linked data. \n\nWhat you will learn:\nHow waiting times for care and experiences while on the waiting list, vary between population groups; how much and what kinds of other healthcare do people use while waiting for and recovering from elective care; challenges of working with the WLMDS and how some of these can be overcome.",
+          "published": "2025-11-28T12:49:03Z",
+          "duration": "PT55M50S",
+          "thumbnail": "https://i.ytimg.com/vi/J6I_1uHstyk/mqdefault.jpg"
+        },
+        {
+          "id": "Ps47Azr2Jz0",
+          "title": "MAN Huddle: An Analyst's Perspective on the Federated Data Platform - 11/12/25",
+          "description": "MAN Huddle: 11/12/25\nTopic: An Analyst's Perspective on the Federated Data Platform \nWith Matt Oakes, Head of Intelligence & Analytics at Sherwood Forest Hospitals\n\nMatt will share an analyst’s view of the Federated Data Platform (FDP) - what it is, what it means in practice, and how it may support analytical work across the NHS. He’ll also bring insights from the Chief Data & Analytics Officer Network and from his own Trust’s experience.\n\nHe’ll cover:\n• What the FDP actually is\n• Why analysts should care\n• How it could support decision-making and data access\n• Opportunities and implications for analytical teams\n\nWhat you will learn\nYou will learn what the FDP is and what it means for you.",
+          "published": "2025-12-12T10:03:17Z",
+          "duration": "PT52M53S",
+          "thumbnail": "https://i.ytimg.com/vi/Ps47Azr2Jz0/mqdefault.jpg"
+        },
+        {
+          "id": "44Qmh1A8L8A",
+          "title": "MAN Huddle: From hospital to community: shifting care or swimming uphill? -  08/01/2026",
+          "description": "MAN Huddle: 08/01/2026\nTopic: From hospital to community: shifting care or swimming uphill?\nWith Fraser Battye, Head of Policy at the Strategy Unit\n\nThe shift from hospital to community is one of the three main aims of current health policy. This is not new. Indeed, the desire for a less hospital-centric health and care system has been a fairly consistent aim for several decades.\n\nWhy has progress proved so elusive? And what will current efforts – on neighbourhood health for example – have to contend with if they are to be successful?\n\nFraser Battye, Head of Policy at the Strategy Unit, will examine these questions. He will present the hopeful pessimist’s view: that a more community-focused care system is desirable, but that achieving it will be like swimming uphill. As well as outlining broad, secular trends, Fraser will point to elements where analytical skills are needed.",
+          "published": "2026-01-09T13:06:27Z",
+          "duration": "PT49M38S",
+          "thumbnail": "https://i.ytimg.com/vi/44Qmh1A8L8A/mqdefault.jpg"
+        },
+        {
+          "id": "AwI2dzPj1Dc",
+          "title": "MAN Huddle: What hospital activity could be done differently? 22/01/2026",
+          "description": "MAN Huddle: 22/01/2026\nTopic: What hospital activity could be done differently?\nWith Sarah Lucas, Healthcare Analyst, Strategy Unit\n\nIn this session, Sarah Lucas (Healthcare Analyst, Strategy Unit) will introduce new work exploring the scale, trends and regional variation of potentially mitigable hospital activity, using national data taken from the New Hospital Programme demand model.\n\nShifting care from hospital to community is a core ambition of current health policy, but understanding where there may be genuine opportunities for change - and how big they are - remains challenging.\n\nThis session will:\n• introduce a publicly available report and interactive resource\n• share key national and sub-national findings\n• explore how the work can be used by analysts, planners, leaders and decision-makers to inform discussions about care models and capacity",
+          "published": "2026-01-22T15:25:39Z",
+          "duration": "PT51M38S",
+          "thumbnail": "https://i.ytimg.com/vi/AwI2dzPj1Dc/mqdefault.jpg"
+        },
+        {
+          "id": "NJ_Hw89jb04",
+          "title": "MAN Huddle: Maximising the use of ethnicity data – developing a guide for analysts - 05.02.26",
+          "description": "MAN Huddle 05.02.26\n\nTopic: Maximising the use of ethnicity data – developing a guide for analysts \nWith Mike Woodall, Analytics Manager, The Strategy Unit\n\nHigh-quality ethnicity data is essential for identifying, understanding and addressing inequalities across health and care. Yet many analysts still face practical challenges in how ethnicity data is recorded, analysed, interpreted and used.\nThis Midlands Analyst Network Huddle forms part of the next phase of work following NHS England’s national Ethnicity Recording Improvement Plan, which was supported by the Strategy Unit.\nIn this session, I will be joined by Mike Woodall, Analytics Manager (Strategy Unit) who will introduce early thinking on a practical guide for analysts working in health and care, designed to support more confident, consistent and meaningful use of ethnicity data. While rooted in NHS-focused work, the learning and principles are relevant across the wider health and care landscape.\nThe guide is very much in development, and this Huddle is an opportunity for the MAN community to help shape it.\n\nThe session will:\n• recap the national context and why ethnicity data matters for tackling inequalities\n• explore a balance of good practice examples and practical analytical considerations\n• reflect on common challenges when working with ethnicity data\n• invite best practice examples, with the aim of publishing selected examples in the final guide\n\nWho is this session for?\nAnalysts working in health and care, and anyone interested in improving how ethnicity data is used to support fairer, more equitable decision-making.",
+          "published": "2026-02-05T16:38:09Z",
+          "duration": "PT54M29S",
+          "thumbnail": "https://i.ytimg.com/vi/NJ_Hw89jb04/mqdefault.jpg"
+        },
+        {
+          "id": "KMFV3MBf6vw",
+          "title": "MAN: Using data to inform the role of a specialist children's hospital in the left shift - 19/02/26",
+          "description": "MAN Huddle: 19/02/2026\nTopic: Using data to inform the role of a specialist children's hospital in the left shift \nWith Izaak Gilchrist. Senior Analyst at Edge Health https://www.linkedin.com/in/izaak-gilchrist/\n\nAs healthcare systems transition toward neighbourhood-based care, specialist children’s hospitals must define their role. This session presents a deep-dive analysis into the \"Left Shift, the movement of care from acute hospital beds into the community.\n\nIn this Huddle I will be joined by Izaak Gilchrist who is a Senior Analyst at Edge Health and who is in the Analytics Team at the Children's Hospital Alliance (CHA) which is a national network of specialist NHS trusts working together to improve the quality, access and experience of hospital care for children and families.\n\nIzaak will share a robust methodology for identifying potentially \"divertible\" patient cohorts, revealing that a percentage of all non-elective admissions across the CHA Trusts could be effectively managed in non-acute settings. By breaking down the data by age, diagnosis, and cost, this presentation provides a roadmap for how specialist trusts can lead the design of community-based services rather than simply reacting to them.\n\nWhat you will learn:\n·         The Divertibility Framework: A methodology for identifying which patient cohorts (e.g., respiratory, seizure-related) are \"primed\" for community care.\n·         The Scale of Impact: An analysis of the annual admissions that could be diverted and the millions of pounds in variable costs associated with them.\n·         Strategic Intervention and \"Influencing the Money\"\n\nWho is this session for?\n·         Data Analysts\n·         Service Planners & Commissioners: To understand where to allocate resources based on specialist trends.\n·         Integrated Care Board (ICB) Leads: To see how specialist hospitals fit into the broader \"Neighbourhood\" strategy.\n·         Clinical Leads: To understand how pathways may be redesigned outside the hospital walls.\n·         Operational Managers: To prepare for the potential shift in patient volume and the changing role of hospital outpatient services.",
+          "published": "2026-02-19T16:32:29Z",
+          "duration": "PT46M46S",
+          "thumbnail": "https://i.ytimg.com/vi/KMFV3MBf6vw/mqdefault.jpg"
+        },
+        {
+          "id": "fi2MhVubjPM",
+          "title": "MAN: Building an open source model to understand future demand in CKD/KRT pathways - 05/03/2026",
+          "description": "MAN Huddle: 05/03/2026\nTopic: Building an open source model to understand future demand in CKD/KRT pathways\nwith Strategy Unit colleagues \n\nIn this session we will introduce our renal demand and capacity model (Kidney-SCOPE) and how we are developing it using the principles of open-science.\n\nKidney-SCOPE is a hybrid simulation model for use in understanding the required capacity for renal services in the future under no-change and intervention scenarios. The model is novel in its use of system dynamics (SD) to represent the progression of (CKD) combined with the use of discrete event simulation (DES) to mimic patient pathways in kidney replacement therapy (KRT). The combination of models allows us to investigate the impact of interventions in both the upstream (i.e. prevention and new medications) and downstream (i.e. increase in home dialysis) models.\n\nSince October 2025 we have been redeveloping the original DES component of Kidney-SCOPE to make it available open-source using the simPy package in Python. We would like to use this session to reflect upon what we've learnt from the process and share what has and hasn't worked well.\n\nDisclaimer - we have now released version 1 of the model on GitHub but it is still under development as we receive feedback from the renal centres we're working with.\n\nWhat you will learn:\n• about hybrid simulation modelling for chronic conditions\n• the approach from commercial to open-source modelling\n\nWho is this session for?\n• Anyone with an interest in simulation, it won't be too technical so this should be of interest to a broad audience which could include commissioners, clinicians and any decision-makers who are interested in this topic\n• Anyone specifically interested in open-source modelling and inter-disciplinary working",
+          "published": "2026-03-05T16:28:55Z",
+          "duration": "PT51M45S",
+          "thumbnail": "https://i.ytimg.com/vi/fi2MhVubjPM/mqdefault.jpg"
+        },
+        {
+          "id": "Zj41uGhE5sE",
+          "title": "MAN: Discharged without a diagnosis: what does it mean for patients providers & improvement 19/03/26",
+          "description": "MAN Huddle: 19/03/26\nTopic: Discharged without a diagnosis: what does it mean for patients, providers and improvement? \nWith Andrew Jones, Senior Healthcare Analyst and Steven Wyatt, Head of Research and Policy (Strategy Unit) \n\nThis session will explore a large but often overlooked group of emergency inpatients: those who leave hospital without a specific diagnosis. Drawing on national hospital data, Andrew Jones, Senior Healthcare Analyst and Steven Wyatt, Head of Research and Policy (Strategy Unit) will share what they found about the scale of this phenomenon, who is most affected, and what it might mean for patient care, hospital efficiency and service improvement. The session will also introduce an emerging typology of four distinct patient classes and discuss how analysis like this can support better decision-making.\n\nWhat you will learn:\n• how common discharge without a diagnosis is in emergency inpatient care\n• what the analysis suggests about who is most affected and how patterns vary across groups\n• why this cohort should not be treated as one single category\n• what the findings might mean for care quality, patient experience, diagnostic pathways and hospital pressure\n• how national administrative data can be used to shed light on a clinically and operationally important issue\n\nWho is this session for? This session will be relevant to:\n• analysts interested in using routine data to explore overlooked questions in urgent and emergency care\n• clinicians and service leads interested in diagnostic uncertainty, inpatient flow and patient experience\n• operational managers and improvement leads thinking about avoidable pressure, escalation and pathways\n• decision-makers and policy audiences interested in the intersection of equity, efficiency and quality in hospital care",
+          "published": "2026-03-19T14:14:26Z",
+          "duration": "PT55M28S",
+          "thumbnail": "https://i.ytimg.com/vi/Zj41uGhE5sE/mqdefault.jpg"
+        },
+        {
+          "id": "Q99oH5RXnpQ",
+          "title": "MAN Huddle: Socio-economic deprivation and changes in self-reported health over a decade - 02.04.26",
+          "description": "MAN Huddle: 02.04.26\nTopic: Socio-economic deprivation and changes in self-reported health over a decade \nWith Freya Tracey (The Health Foundation) and Rhian Davey (Office for National Statistics) \n\nIn this session, Freya Tracey (The Health Foundation) and Rhian Davey (Office for National Statistics) will present recent analysis looking at how people’s self-reported health changed over a decade, using linked census data.\n\nThe work explores the relationship between self-reported health and socioeconomic deprivation between 2011 and 2021, and is the largest study of its kind. The findings are highly relevant to current conversations on widening health inequalities, declining healthy life expectancy, and the social and economic factors linked to poorer health.\n\nThe session will cover the methods, key findings, and the implications for public health, policy and wider decision-making.",
+          "published": "2026-04-07T13:18:13Z",
+          "duration": "PT52M48S",
+          "thumbnail": "https://i.ytimg.com/vi/Q99oH5RXnpQ/mqdefault.jpg"
+        },
+        {
+          "id": "W6VJQgjQvNY",
+          "title": "MAN Huddle: Chart with Purpose - 16.04.26",
+          "description": "MAN Huddle 16.04.26\nTopic: Chart with Purpose\nWith Simon Wellesley-Miller, Senior Analytical Manager NHS England\n\nData visualisation is a powerful tool, yet poorly designed charts frequently mislead or fail to communicate key insights, leading to flawed decision-making. \n\nThis workshop presentation, Chart with Purpose, addresses this critical challenge by providing practical, actionable examples and strategies for effective data storytelling.  It will be a whirlwind ride with examples of good and bad and have interactive elements and opinionated opinions.",
+          "published": "2026-04-16T14:36:48Z",
+          "duration": "PT51M37S",
+          "thumbnail": "https://i.ytimg.com/vi/W6VJQgjQvNY/mqdefault.jpg"
+        },
+        {
+          "id": "VO8AThOe-Wg",
+          "title": "MAN Huddle: How to evaluate healthcare policy: from data to interpretation - 30/04/2026",
+          "description": "MAN Huddle - 30/04/2026\nTopic: How to evaluate healthcare policy: from data to interpretation\nWith Professor Alex Bottle, Professor of Medical Statistics at Imperial College London\n\nIn this session, Professor Alex Bottle will explore how to evaluate healthcare policy - from framing the research question through to interpreting the output.\n\nThe session will cover key statistical methods including before-and-after comparisons, interrupted time series, and statistical process control charts, with real-world examples throughout.\n\nWho is this for? This will be useful for analysts and data professionals, and also for policymakers, commissioners, clinicians and decision-makers who want to better understand how evaluation can inform better decisions.",
+          "published": "2026-04-30T19:24:59Z",
+          "duration": "PT53M44S",
+          "thumbnail": "https://i.ytimg.com/vi/VO8AThOe-Wg/mqdefault.jpg"
+        },
+        {
+          "id": "p_vtUyZEfxo",
+          "title": "MAN Huddle: Data reflections from the domestic abuse portfolio - 14/05/2026",
+          "description": "MAN Huddle - 14/05/2026\nTopic: Data reflections from the domestic abuse portfolio\nWith Nicola Dennis, Consultant in Public Health, and Sophie Ross, Public Health Practitioner (Analyst), Isle of Wight Council\n\nIn this session, Nicola and Sophie, Isle of Wight Council, will reflect on their work within the domestic abuse portfolio and the role that data can play in understanding this complex and important area.\n\nThey will:\n• introduce domestic abuse and how it intersects with public health\n• reflect on the challenges and barriers of using domestic abuse data\n• discuss how this work can inform policy and decision-making\n\nThis Huddle will be relevant to analysts in health and care and community safety, public health professionals, commissioners, and others interested in how analysis can support action in this field.",
+          "published": "2026-05-15T10:08:54Z",
+          "duration": "PT51M13S",
+          "thumbnail": "https://i.ytimg.com/vi/p_vtUyZEfxo/mqdefault.jpg"
+        },
+        {
+          "id": "vjp2g3fuUsk",
+          "title": "MAN Huddle: The Art of the Adjacent Possible - 28/05/2026",
+          "description": "MAN Huddle: 28/05/2026\nTopic: The Art of the Adjacent Possible *\nWith Neil Pettinger, Kurtosis\n\nDuring this Huddle Neil will explore if we can find data clues within existing practice that suggest improvements in patient flow might be more within our grasp than we think?\n\nPatient flow continues to be a problem for acute hospitals. And we are all aware that unless we can do something remarkable and sustainable to improve bed availability, it will continue to be a problem. But the directorates and specialties that manage hospital beds do not usually have ready access to data that would enable them to identify possibilities for improvement.\n\nThis talk proposes a way of presenting flow metrics to inpatient directorates and specialties so that managers and clinicians can tap into the potential of internal benchmarking – what Neil is calling ‘the adjacent possible’* – in order to identify those possibilities for improvement.\n\nThis is an exploratory session, and Neil will be actively inviting feedback on whether this approach feels credible, useful and workable in practice.\n\n* “What is actual now enables what is next possible: the adjacent possible.” -Stuart Kauffman",
+          "published": "2026-05-28T14:21:45Z",
+          "duration": "PT48M44S",
+          "thumbnail": "https://i.ytimg.com/vi/vjp2g3fuUsk/mqdefault.jpg"
+        },
+        {
+          "id": "mMMTk3Mjw8A",
+          "title": "MAN Huddle: A deeper look at failure demand in healthcare - 11/06/26",
+          "description": "MAN Huddle: 11/06/26\nTopic: A deeper look at failure demand in healthcare\nWith Alison Turner, Head of Knowledge Mobilisation, The Strategy Unit\n\nIn this Huddle, Alison Turner, Head of Knowledge Mobilisation, will take a deeper, more analyst-focused look at failure demand in healthcare, following the broader Strategy Unit webinar on the same topic.\n\nFailure demand is the work created when people’s needs are not met effectively first time - for example, repeated contacts, avoidable follow-up activity, or demand generated by delays and fragmented care. One of the challenges is that this work can often appear in data as if it were productive output.\n\nAlison will introduce the key concepts, share an emerging typology of failure demand, and explore how analysts might begin to recognise it in their own datasets. The session will also reflect on the hidden costs for patients, carers and staff, and ask what it would mean to bring this perspective more explicitly into analytical work.\n\nThis will be a reflective and participative session, with opportunities to test ideas and connect them to your own experience.\n\nWho is this session for?\nThis Huddle will be useful for anyone working with demand, productivity, performance or improvement data - especially analysts, planners, improvement leads and decision-makers curious about how failure demand might show up in practice.",
+          "published": "2026-06-12T08:25:58Z",
+          "duration": "PT55M48S",
+          "thumbnail": "https://i.ytimg.com/vi/mMMTk3Mjw8A/mqdefault.jpg"
+        },
+        {
+          "id": "aO8ptFlkqDA",
+          "title": "MAN Huddle: From Analyst to Professional: Inside AphA and its Specialist Networks  - 25/06/2026",
+          "description": "MAN Huddle: 25/06/2026\nTopic: From Analyst to Professional: Inside AphA and its Specialist Networks  \n\nWith Jane Johnston (Co-CEO, AphA) and Corielyn Bromley (Executive Director of Continued Professional Development, AphA) \n\nIn this session, we’ll explore the changing professional landscape for people working in data and analytics, and what this means for analysts across health and care and beyond.\n\nUnder the title From Analyst to Professional: Inside AphA and its Specialist Networks, the session will look at the growing emphasis on professionalism, standards and registration, including NHS England’s phased approach to professional membership and registration for the Digital, Data and Technology workforce.\n\nIt will also introduce the Association of Professional Healthcare Analysts (AphA) and the support it offers through membership, CPD, mentoring, publications, events, professional recognition and specialist networks.\n\nWho is this session for?\nThis Huddle will be useful for analysts and data professionals at any career stage, and for anyone interested in how the analytical profession is developing.",
+          "published": "2026-07-27T11:26:28Z",
+          "duration": "PT53M3S",
+          "thumbnail": "https://i.ytimg.com/vi/aO8ptFlkqDA/mqdefault.jpg"
+        },
+        {
+          "id": "KiKjlYiR3M4",
+          "title": "MAN: Enterprise Risk Management (ERM) + Decision Quality - 23.07.26",
+          "description": "MAN Huddle: 23.07.26\n\nTopic: Enterprise Risk Management (ERM) + Decision Quality\nWith Deb Lessard, Director of Corporate Risk Management Excellence at the University of Pittsburgh Medical Centre (UPMC)\n\nDeb brings more than 30 years of experience across healthcare risk management, patient safety, quality and decision-making. With a background in both nursing and law, she is particularly interested in using interdisciplinary, evidence-informed approaches to support better decisions and improve healthcare practice.\n\nIn this Huddle, Deb will begin by sharing some background about her organisation before exploring two practical applications of Enterprise Risk Management (ERM) and Decision Quality (DQ):\n• AI Clinical Decision Support Software (CDSS) through the data governance and operational excellence lenses\n• Risk Management / Claims: using Decision Quality in reserving analyses and trial strategy\n\nThis session will be relevant to analysts, decision-makers, clinicians, and anyone interested in the application of AI and decision quality in healthcare.",
+          "published": "2026-07-27T11:54:21Z",
+          "duration": "PT52M7S",
+          "thumbnail": "https://i.ytimg.com/vi/KiKjlYiR3M4/mqdefault.jpg"
+        },
+        {
+          "id": "2HQZGPmQNY8",
+          "title": "MAN Huddle: Do we need more hospital beds? - 06/08/2026",
+          "description": "MAN Huddle: 06/08/2026\nTopic: Do we need more hospital beds? \nWith Lucy Morgan, Head of Analytics and Modelling at the Strategy Unit\n\nFor more than 30 years, hospital admissions have risen while bed numbers have fallen. A major reason this has been possible is the remarkable reduction in average length of stay - from around 8.5 days in 1994 to approximately 2.6 days today.\n\nBut length of stay is now levelling off and may be approaching its practical limit. If admissions continue to grow, what might this mean for future hospital capacity?\n\nIn this Huddle I’m joined by, Lucy Morgan, Head of Analytics and Modelling at the Strategy Unit, who will introduce the interactive app Do we need more hospital beds?\n\nThe app allows users to explore more than 30 years of national trends and test assumptions about admissions, length of stay, occupancy and future bed requirements.\n\nLucy will show how it can be used to:\n• understand the trends that have shaped hospital capacity \n• examine how changes in admissions could affect future bed needs \n• explore how much activity different levels of bed capacity could support \n• test what may be reasonable to assume about future length of stay and occupancy \n• support better conversations about demand, capacity and hospital planning \n\nThe model is deliberately simple, but it highlights an increasingly urgent challenge. If length of stay cannot continue to fall at the same rate, and hospital capacity cannot expand significantly, reducing growth in admissions becomes increasingly important.\n\nThis session will be relevant to analysts, commissioners, hospital planners, clinicians, decision-makers and anyone interested in the future of hospital care. No specialist modelling knowledge is required.",
+          "published": "2026-08-07T14:18:45Z",
+          "duration": "PT48M34S",
+          "thumbnail": "https://i.ytimg.com/vi/2HQZGPmQNY8/mqdefault.jpg"
+        },
+        {
+          "id": "UC5BMdI-Oa4",
+          "title": "MAN Huddle: Why Hospital Admission Avoidance Schemes May Not Reduce Bed Occupancy - 20/08/2026",
+          "description": "MAN Huddle:  - 20/08/2026\n\nTopic: Hospital Admission Thresholds, the Left Shift, and Why Admission Avoidance Schemes May Not Reduce Bed Occupancy\n\nWith Andrew Jones and Steven Wyatt, The Strategy Unit \n\nIf admission avoidance and left shift successfully free up hospital beds… what stops those beds simply filling up again?\n\nEvery patient attending an Emergency Department effectively encounters a threshold for admission. Clinical need is obviously central to that decision, but other factors can also play a part - including available hospital capacity and the alternatives to hospital care. So, if better community and neighbourhood services release hospital capacity, could the threshold for admission quietly fall? And if it does, might some of the capacity created through left shift simply be absorbed by patients who would previously not have been admitted?\n\nAt the Huddle, I’ll be joined by my Strategy Unit colleagues Andrew Jones and Steven Wyatt, who have been exploring exactly this.\n\nThey’ll explain the idea of an admission threshold, demystify casemix-adjusted odds of admission, show what they have found when looking at changes over time, and explore whether admission thresholds could potentially be monitored using routinely collected ED data.\n\nIt should be a really interesting mix of analysis, methods and a much bigger question about how we make left shift work in practice.",
+          "published": "2026-08-21T08:02:27Z",
+          "duration": "PT51M26S",
+          "thumbnail": "https://i.ytimg.com/vi/UC5BMdI-Oa4/mqdefault.jpg"
+        },
+        {
+          "id": "S8bo5ucw52o",
+          "title": "NAN Huddle: Making more strategic use of analysis- 03.09.26",
+          "description": "NAN Huddle: 03.09.26\nTopic: Making more strategic use of analysis: what has to be true if analysts are to play a fuller role in decision making?\n\nWith Fraser Battye and Charles Tallack \n\nFraser Battye and Charles Tallack will explore the opportunities being created for analysts by strategic commissioning and other developments across health and care.\n\nAnalysis is increasingly being asked to help answer some fundamental questions: What should priorities be, given the needs of the population? How can limited resources be used to best effect? What outcomes result from changes in service provision?\n\nIn principle, analysis is looking less ‘nice to have’ and more ‘absolutely fundamental’. But what needs to be true for that to happen in practice – and what do analysts and their organisations need to do to make it a reality?",
+          "published": "2026-09-09T08:21:11Z",
+          "duration": "PT56M54S",
+          "thumbnail": "https://i.ytimg.com/vi/S8bo5ucw52o/mqdefault.jpg"
+        },
+        {
+          "id": "dm0xkiBTxK4",
+          "title": "NAN Huddle: From Insight to Impact: The Midlands Prevention Pathway Toolkit - 17.09.26",
+          "description": "MAN Huddle: 17/09/2026\nTopic: From Insight to Impact: The Midlands Prevention Pathway Toolkit\nWith Dr Su Xavier, NHS England – Midlands\n\nDr Su Xavier will explore how the Midlands Prevention Pathway Toolkit uses evidence and intelligence to support prevention at scale, reduce health inequalities and strengthen value-based decision making.\n\nThere is a strong link to strategic commissioning - particularly understanding population need, identifying where preventative action could have greatest impact, and making informed choices about how resources are used.",
+          "published": "2026-09-22T13:03:05Z",
+          "duration": "PT46M26S",
+          "thumbnail": "https://i.ytimg.com/vi/dm0xkiBTxK4/mqdefault.jpg"
+        }
+      ]
+    }
+  ]
+}

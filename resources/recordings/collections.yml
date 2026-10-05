@@ -1,0 +1,116 @@
+# Collections of YouTube recordings shown on the Atlas.
+#
+# Each collection belongs to an Atlas entry (`folder`), where
+# fetch_youtube_playlists.py writes its videos.json and build_youtube_talks.py
+# writes its talks.yml. All collections are also combined into the
+# Recordings Finder (recordings/index.qmd).
+#
+# For each collection:
+#   source             - who published the recordings, shown in the Recordings Finder
+#   playlists          - playlists to fetch, each with:
+#       label          - name shown on the site; a year in it (e.g. "RPySOC 2025")
+#                        is used as the year of its videos, otherwise the publish
+#                        date is used
+#       id             - YouTube playlist ID. A channel's uploads can be fetched with
+#                        its uploads playlist ID (its channel ID, with "UC" replaced
+#                        by "UU")
+#       type           - kind of recording, shown in the Recordings Finder
+#       talk_list      - optional; true if session recordings list their talks one per
+#                        line without timestamps (see build_youtube_talks.py)
+#       no_year        - optional; true to leave the year blank, e.g. where videos were
+#                        uploaded long after the event and the label has no year
+#   exclude_playlists  - optional; videos in these playlists are left out
+#   exclude_videos     - optional; these videos are left out
+
+nhs_oa_conferences:
+  folder: books_training/nhs_oa_conference_recordings
+  source: NHS-OA Community
+  playlists:
+    - label: RPySOC 2025
+      id: PLXCrMzQaI6c0kEKt4lN0659WQj_-SNUr_
+      type: Conference talk
+    - label: RPySOC 2024
+      id: PLXCrMzQaI6c2vQUabRSOg9_FCxp6x6cVg
+      type: Conference talk
+      talk_list: true
+    - label: "NHS-R/NHS.pycom Conference 2023: talks"
+      id: PLXCrMzQaI6c2RjLQvFWpW_1QA68qylKb9
+      type: Conference talk
+    - label: "NHS-R/NHS.pycom Conference 2023: workshops"
+      id: PLXCrMzQaI6c3vXRIOmgv8Qk9wYSoXatdt
+      type: Conference workshop
+    - label: NHS-R Community Conference 2022
+      id: PLXCrMzQaI6c3kFGGOuR432J8tUJq_VhWp
+      type: Conference talk
+    - label: "NHS-R Community Conference 2022: Python track"
+      id: PLSLQ7uyfNIIuFYsyo9Hf0cbYoOqgcly9m
+      type: Conference talk
+    - label: NHS-R Community Conference 2021
+      id: PLXCrMzQaI6c1R5K-iqHpOVDG0PelBA6uc
+      type: Conference talk
+    - label: "NHS-R Community Conference 2020: talks"
+      id: PLXCrMzQaI6c0Kvs7lE-Rxdig5nc5-4Xx2
+      type: Conference talk
+    - label: "NHS-R Community Conference 2020: workshops"
+      id: PLXCrMzQaI6c3EAh10hDZectzBALWPk19w
+      type: Conference workshop
+
+nhs_oa_webinars:
+  folder: books_training/nhs_oa_webinars
+  source: NHS-OA Community
+  playlists:
+    - label: Webinars
+      id: PLXCrMzQaI6c36jqIWc9AgHzowzZ2ak9DL
+      type: Webinar
+
+nhs_oa_workshops:
+  folder: books_training/nhs_oa_workshops
+  source: NHS-OA Community
+  playlists:
+    - label: Workshops
+      id: PLXCrMzQaI6c2L4JCRaF2iujzBxe9Rk-rC
+      type: Workshop
+
+nhs_pycom_talks:
+  folder: books_training/nhs_pycom_talks
+  source: NHS.pycom
+  playlists:
+    - label: NHS.pycom uploads
+      id: UU_jacmsGNZQR5BPP7h0EtXw
+      type: Talk
+  # Already listed with the NHS-OA conference recordings: the 2022 Python
+  # track talks, and the full-day livestream of that track
+  exclude_playlists: [PLSLQ7uyfNIIuFYsyo9Hf0cbYoOqgcly9m]
+  exclude_videos: [YEa_3TmtCoE]
+
+analyst_network_huddles:
+  folder: books_training/analyst_network_huddles
+  source: National Analyst Network
+  playlists:
+    - label: Analyst Network huddles
+      id: PLFEXOtXX7YkmiOpE31JfMDBWidHAZROqR
+      type: Huddle
+  # Untitled meeting recording
+  exclude_videos: [LF_EgYTgeLY]
+
+hsma_project_showcases:
+  folder: books_training/hsma_project_showcases
+  source: HSMA
+  # Uploaded long after some rounds ran, so publish dates don't give the year
+  playlists:
+    - label: HSMA 6
+      id: PLgHO2TgIJXdlwBbDGJqFBoh9qhjnKZVd6
+      type: Project showcase
+      no_year: true
+    - label: HSMA 5
+      id: PLgHO2TgIJXdl1MvfkwCGJ6n8_1EYCSzex
+      type: Project showcase
+      no_year: true
+    - label: HSMA 4
+      id: PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN
+      type: Project showcase
+      no_year: true
+    - label: HSMA 3
+      id: PLgHO2TgIJXdnAWY7tGGPQLWYAjn0tgG_A
+      type: Project showcase
+      no_year: true

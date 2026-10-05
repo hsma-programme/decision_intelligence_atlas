@@ -1,0 +1,64 @@
+---
+title: "NHS.pycom: Talk Recordings"
+categories:
+  - Courses and Training or Reference Materials
+  - Recorded Talks
+tool-language:
+  - Python
+status: N/A
+image: pycom_talk.jpg
+author:
+  - name: NHS Python Community (NHS.pycom)
+pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i>
+  rationale-for-status: |
+    Collection of recordings from many different presenters, so it is not ranked as a whole.
+  entry-author:
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
+  abstract: |
+    Recordings of talks and events from the NHS Python Community (NHS.pycom), now part of the NHS-OA Community. They include show-and-tell sessions on using Python in clinical and operational settings, introductions to Python and machine learning, software engineering for data scientists, and talks on reproducible analytical pipelines.
+  links:
+  - name: YouTube
+    url: https://www.youtube.com/%40nhs-pycom/videos
+    icon: fa-brands fa-youtube
+  - name: Website
+    url: https://nhsoa.uk
+    icon: fa-solid fa-globe
+date: "2026-10-05T00:00:00+01:00"
+listing:
+  - id: pycom-talks
+    contents: talks.yml
+    type: table
+    fields: [title, year, description]
+    field-display-names:
+      title: "Talk"
+      year: "Year"
+      description: "Details"
+    sort: "date desc"
+    filter-ui: [title, year, description]
+    sort-ui: [title, year]
+    page-size: 25
+---
+
+[![NHS Python Community talk](pycom_talk.jpg)](https://www.youtube.com/%40nhs-pycom/videos)
+
+The NHS Python Community (NHS.pycom) promoted the use of Python and open source code in the NHS and wider healthcare sector, and has since become part of the [NHS-OA Community](/books_training/nhs_oa_community/index.qmd). Its YouTube channel has recordings of its own events, including:
+
+* **Show-and-tell sessions** - such as *Python in the Clinic* and *Saving life and learning from death with Python*, where clinicians and analysts shared projects using Python
+* **Introductions to Python and machine learning** - such as an introduction to Python for data analysis and data science, and the basics of machine learning
+* **Talks on good practice** - such as software engineering for data scientists, and reproducible analytical pipelines (RAP)
+* **Joint events with the NHS-R Community** - such as NHS.Pycom X NHS-R in February 2022
+
+Recordings of the Python track of the 2022 NHS-R Community Conference are listed with the [NHS-OA Community's conference recordings](/books_training/nhs_oa_conference_recordings/index.qmd) instead.
+
+## Search the talks
+
+Search for a talk by title, speaker, year or topic. Newest talks are listed first.
+
+::: {#pycom-talks}
+:::
+
+You can also browse all of the videos on [NHS.pycom's YouTube channel](https://www.youtube.com/%40nhs-pycom/videos).
+
+To search these recordings alongside talks, webinars and workshops from other communities, use the [Recordings Finder](/recordings/index.qmd).

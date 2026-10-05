@@ -1,0 +1,78 @@
+---
+title: "HSMA: Health Service Modelling Associates Programme"
+categories:
+  - Service Planning
+  - Machine Learning
+  - Courses and Training or Reference Materials
+  - Courses
+  - Synchronous
+tool-language:
+  - Python
+status: '<span style="color: #D18B12FF">Gold</span>'
+# image: hsma_homepage.png
+author:
+    - name: Dr Daniel Chalk
+      affiliation: Health Service Modelling Associates Programme (HSMA), NIHR PenArc, University of Exeter
+      url: https://experts.exeter.ac.uk/19916-daniel-chalk/about
+    - name: Sammi Rosser
+      affiliation: Health Service Modelling Associates Programme (HSMA), NIHR PenArc, University of Exeter
+      url: https://github.com/Bergam0t
+pub-info:
+  project-type: <i class="fa-solid fa-user-graduate"></i>
+  rationale-for-status: |
+    Long-running course, delivered since 2016 by an experienced team of academics with over a decade in the operational research and data science space, with input from an ex-NHS data scientist. All materials, recordings and code are freely available.
+  entry-author:
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
+  abstract: |
+    The Health Service Modelling Associates (HSMA) Programme is a 15-month online training and mentorship course teaching public sector analysts, clinicians and managers to use data science and operational research techniques in Python, and supporting them to apply these in their organisations. It is free for people working in health, social care and policing in England, and all recordings, materials and code are freely available to anyone.
+  links:
+  - name: Code
+    url: https://github.com/hsma-programme
+    icon: fa-brands fa-github
+  - name: Website
+    url: https://hsma.co.uk
+    icon: fa-solid fa-globe
+  - name: Modules
+    url: https://hsma.co.uk/modules.html
+    icon: fa-solid fa-book
+  - name: YouTube
+    url: https://www.youtube.com/@hsma
+    icon: fa-brands fa-youtube
+date: "2026-10-05T00:00:00+01:00"
+---
+
+The [Health Service Modelling Associates (HSMA) Programme](https://hsma.co.uk) was launched by NIHR PenARC in 2016 and is delivered by a team from the NIHR Applied Research Collaboration South West. In the programme's own words:
+
+> The Health Service Modelling Associates (HSMA) Programme is an online programme teaching public sector analysts, clinicians and managers how to use data science and operational research techniques, as well as supporting them to apply these techniques in their organisations.
+>
+> The full HSMA course experience is provided free of charge to people working in health, social care and policing organisations in England.
+>
+> Recordings of previous course sessions, as well as all of our course materials and code, are offered free of charge to anyone, anywhere in the world for personal use and adaptation.
+
+The programme runs in two phases. In the first, participants attend live online lectures and exercises. In the second, they carry out a modelling or data science project for their own organisation, supported by the HSMA team and wider community. The programme is accredited by the [Association of Professional Healthcare Analysts (AphA)](/books_training/apha/index.qmd).
+
+## Taught content
+
+The taught content of the most recent round (HSMA 6, April 2024 to June 2025) is split into eight modules, each of which has its own entry in the Atlas:
+
+| Module | Length |
+|--------|--------|
+| [1: Introduction to Operational Research, Data Science and Programming](/books_training/hsma_intro_programming_module/index.qmd) | 36 hours |
+| [2: Modelling Pathway and Queuing Problems](/books_training/hsma_des_module/index.qmd) | 9 hours |
+| [3: Geographic Modelling and Visualisation](/books_training/hsma_geographic_module/index.qmd) | 12 hours |
+| [4: Machine Learning](/books_training/hsma_machine_learning_module/index.qmd) | 30 hours |
+| [5: Natural Language Processing](/books_training/hsma_nlp_module/index.qmd) | 15 hours |
+| [6: Modelling Behaviour and System Dynamics](/books_training/hsma_sd_abs_module/index.qmd) | 12 hours |
+| [7: Open Source Collaborative Development and Web Development](/books_training/hsma_git_web_dev_module/index.qmd) | 18 hours |
+| [8: Modern Analytics](/books_training/hsma_modern_analytics_module/index.qmd) | 12 hours |
+
+Python is taught from scratch in module 1, so no prior programming experience is needed. Module 1 is needed for all later modules, but most of the others can be followed independently.
+
+Session recordings, slides, exercises and solutions for every module are on the [HSMA modules page](https://hsma.co.uk/modules.html). For a written summary of the content instead, see the [HSMA books](https://hsma.co.uk/books.html).
+
+## Joining the programme
+
+The next round, HSMA 7, is planned to launch in spring/summer 2027. To hear when applications open, see the [HSMA website](https://hsma.co.uk).
+
+Not looking to build models yourself, but want to understand what these techniques can do for your organisation? See the [HSMA-λ workshops for decision makers](/books_training/hsma_lambda/index.qmd), planned to run from winter 2026 to spring 2027.

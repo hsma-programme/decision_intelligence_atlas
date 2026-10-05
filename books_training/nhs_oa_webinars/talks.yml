@@ -1,0 +1,424 @@
+- title: Dashboards in R using Flexdashboard, a case study using mortality
+  description: This webinar was facilitated by Richard Wilson on Wednesday 17th February from 1-2pm.
+  path: https://www.youtube.com/watch?v=668k5sBkKus
+  year: 2021
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/668k5sBkKus/mqdefault.jpg
+  date: '2021-02-18'
+- title: R and Python – a happy union with reticulate webinar
+  description: This webinar was facilitated by Gary Hutson and Andreas Soteriades on Wednesday 20th January from 1-2pm.
+  path: https://www.youtube.com/watch?v=8WE-EU5k97Q
+  year: 2021
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/8WE-EU5k97Q/mqdefault.jpg
+  date: '2021-01-21'
+- title: Forecasting with Multiple Seasonality
+  description: Dr Bahman Rostami-Tabar, Senior Lecturer in Management Science at Cardiff Business School, and Mitchell O’Hara-Wild, Teaching Associate at Monash University, present "Forecasting with Multiple Seasonality".
+  path: https://www.youtube.com/watch?v=FKSk6WV-fLo
+  year: 2020
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/FKSk6WV-fLo/mqdefault.jpg
+  date: '2020-11-27'
+- title: Time Series Forecasting Models
+  description: Dr Tahseen Jilani, Digital Research Scientist at University of Nottingham presents "Time Series Forecasting Models".
+  path: https://www.youtube.com/watch?v=dwpzVeVtvao
+  year: 2020
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/dwpzVeVtvao/mqdefault.jpg
+  date: '2020-10-29'
+- title: Why and how to build an R package
+  description: 'Chris Mainey from the HED team at University Hospitals Birmingham NHS Foundation Trust presents "Why and how to build an R package", taking you through the basics of package development in R. Follow us on Twitter to find out about future webinars! Slides can be found at: Code can be found at:'
+  path: https://www.youtube.com/watch?v=qmTaAIEXxSQ
+  year: 2020
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/qmTaAIEXxSQ/mqdefault.jpg
+  date: '2020-09-16'
+- title: Reshaping and Combining Data in R
+  description: 'Emma Vestesson from The Health Foundation presents "Reshaping and Combining Data in R", covering the pivot_wider/longer functions from {tidyr} and the various *_join functions from {dplyr} If you work in the UK Healthcare sector then we would love for you to complete our annual survey: Follow us on…'
+  path: https://www.youtube.com/watch?v=a3eJXwonbU8
+  year: 2020
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/a3eJXwonbU8/mqdefault.jpg
+  date: '2020-08-20'
+- title: Task automation with R
+  description: In this webinar Daria Cosentino from HCA Healthcare UK talks us through how to automate tasks in R.
+  path: https://www.youtube.com/watch?v=GZhoXIkXGrc
+  year: 2020
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/GZhoXIkXGrc/mqdefault.jpg
+  date: '2020-07-15'
+- title: Advanced Modelling Webinar
+  description: This webinar was facilitated by Gary Hutson (Head of Solutions and AI at Draper and Dash) on Wednesday 17th June 2020 from 1-2pm.
+  path: https://www.youtube.com/watch?v=rO40vvKXU-4
+  year: 2020
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/rO40vvKXU-4/mqdefault.jpg
+  date: '2020-06-18'
+- title: Functional Programming using the Purrr Package webinar
+  description: This webinar was facilitated by Tom Jemmett (Senior Healthcare Analyst at The Strategy Unit) on Wednesday 20th May 2020 from 1-2pm.
+  path: https://www.youtube.com/watch?v=GxvccD8K49M
+  year: 2020
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/GxvccD8K49M/mqdefault.jpg
+  date: '2020-05-22'
+- title: Shiny webinar
+  description: This webinar was facilitated by Chris Beeley (Senior Analyst at Nottinghamshire Healthcare NHS Foundation Trust) on Wednesday 22nd April 2020 from 1-2pm.
+  path: https://www.youtube.com/watch?v=vVl1f2lMfsA
+  year: 2020
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/vVl1f2lMfsA/mqdefault.jpg
+  date: '2020-04-23'
+- title: Database Connections in R Webinar
+  description: This webinar was facilitated by Chris Mainey (Senior Statistical Intelligence Analyst at University Hospitals Birmingham NHS Foundation Trust) on Wednesday 19th February 2020 from 1-2pm.
+  path: https://www.youtube.com/watch?v=XWFuwSTz8dY
+  year: 2020
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/XWFuwSTz8dY/mqdefault.jpg
+  date: '2020-02-21'
+- title: Communicating your analysis with clinicians and managers
+  description: This webinar was facilitated by Lori Edwards Suárez and Andreas Soteriades on Wednesday 17th March from 1-2pm.
+  path: https://www.youtube.com/watch?v=gCZPye-hXPc
+  year: 2021
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/gCZPye-hXPc/mqdefault.jpg
+  date: '2021-03-17'
+- title: 'NHSDataDictionaRy: a new package for keeping NHS lookups up to date and easily accessible'
+  description: This webinar was facilitated by Gary Hutson on Wednesday 21st April from 1-2pm.
+  path: https://www.youtube.com/watch?v=MqCFHCbTORs
+  year: 2021
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/MqCFHCbTORs/mqdefault.jpg
+  date: '2021-04-21'
+- title: Plotting interactive visualizations with Plotly in R
+  description: 'Presented by: Elizabeth Brown and Hannah Alexander An introduction to plotting interactive visualizations with Plotly in R. Covers - creating a number of interactive plots, including plots using spacial data, and the integration of Plotly with ggplot2. Please access materials here:'
+  path: https://www.youtube.com/watch?v=WmofiOklux8
+  year: 2021
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/WmofiOklux8/mqdefault.jpg
+  date: '2021-05-25'
+- title: NHS R Webinar - Using Git and GitHub by Zoë Turner
+  description: 'Presented by: Zoë Turner - Senior Information Analyst, Clinical Development Unit, Nottinghamshire Healthcare NHS Foundation Trust This is an introduction to GitHub for anyone who doesn’t know what GitHub is, has heard of it but doesn’t know where to start and for anyone who has ever been told:…'
+  path: https://www.youtube.com/watch?v=SGD3nK7u8fw
+  year: 2021
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/SGD3nK7u8fw/mqdefault.jpg
+  date: '2021-06-17'
+- title: Assessing the impact of Covid-19 on hip replacement rates using R and R Markdown
+  description: 'Presented by: Alexander Lawless, Healthcare Analyst, The Strategy Unit Alex presents the findings of a recent piece of analysis into how the Covid-19 pandemic impacted planned and unplanned hip replacement procedures across the country and in different socio-demographic groups. This work was…'
+  path: https://www.youtube.com/watch?v=hDhI2iuYyLY
+  year: 2021
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/hDhI2iuYyLY/mqdefault.jpg
+  date: '2021-07-22'
+- title: NHS-R Webinar - Adaptive Clinical Trial Design using R by Dr Anna Heath (August 2021)
+  description: Adaptive Clinical Trial Design using R by Dr Anna Heath In this webinar Anna presents two adaptive clinical trials to investigate treatments for pain relief in the pediatric emergency department. Both these trials were designed using R and were combined with an R shiny interface to support their…
+  path: https://www.youtube.com/watch?v=A7TeTv5m5rg
+  year: 2021
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/A7TeTv5m5rg/mqdefault.jpg
+  date: '2021-08-18'
+- title: NHS R Webinar - Building a TidyModels Classification Model from Scratch, December 2021
+  description: 'Join Gary Hutson for the NHS-R webinar - Building a TidyModels Classification Model from Scratch Gary Hutson - Head of Machine Learning and Senior NHS-R Fellow Please resources at: This webinar will take you through how to: - Build your first Machine Learning classification model with tidynodels -…'
+  path: https://www.youtube.com/watch?v=hxRx7ozLNKw
+  year: 2021
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/hxRx7ozLNKw/mqdefault.jpg
+  date: '2021-12-16'
+- title: NHS-R Webinar - Designing a Shiny dashboard using a Raspberry Pi cluster server, January 2022
+  description: Join Pablo Leon-Rodenas, for the NHS-R webinar - Designing a Shiny dashboard using a Raspberry Pi cluster server Pablo Leon-Rodenas, Analytics Developer, NHS England and NHS Improvement Pablo has built the Raspberry PI cluster to host the Shiny Server. In this webinar Pablo with describe in detail…
+  path: https://www.youtube.com/watch?v=UxS5JyKZJxg
+  year: 2022
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/UxS5JyKZJxg/mqdefault.jpg
+  date: '2022-01-20'
+- title: 'NHS-R Webinar: Building Multiple Page Shiny Apps with {brochure} - February 2022'
+  description: 'Join Colin Fay for the NHS-R Webinar - Building Multiple Page Shiny Apps with {brochure} Presenter: Colin Fay, Data Science Engineering at ThinkR Summary: How about we take a step back and think about the way we''ve been building {shiny} apps so far? What can we learn from the way web apps are built…'
+  path: https://www.youtube.com/watch?v=8UiCqSKlfew
+  year: 2022
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/8UiCqSKlfew/mqdefault.jpg
+  date: '2022-02-17'
+- title: 'NHS-R Webinar : Strategic Health Asset Planning and Evaluation (SHAPE) - March 2022'
+  description: 'Join Barbara Coyle for the NHS-R Webinar - Strategic Health Asset Planning and Evaluation (SHAPE) Date: Wednesday 16th March, 1.00 pm – 2.00 pm Presenter: Barbara Coyle, Associate Director at Public Health England Strategic Health Asset Planning and Evaluation (SHAPE) is a web enabled, evidence…'
+  path: https://www.youtube.com/watch?v=bD65nCSmeQs
+  year: 2022
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/bD65nCSmeQs/mqdefault.jpg
+  date: '2022-03-23'
+- title: 'NHS-R Webinar: Approaches to Teaching R - April 2022'
+  description: 'Presenter: Jenny Sloane, PhD student, Studying Cognitive Psychology, UNSW In this webinar, I will share different approaches and tips for how to effectively teach R. From personal experience, I know there''s a steep learning curve to learning R, which can be very frustrating at times. However, it is…'
+  path: https://www.youtube.com/watch?v=G5MYlWGRz34
+  year: 2022
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/G5MYlWGRz34/mqdefault.jpg
+  date: '2022-04-21'
+- title: 'NHS-R Webinar: KCL Innovation Scholars Data training programme, May 2022'
+  description: 'KCL Innovation Scholars Data training programme Date: Wednesday 18th May 2022 Presenter: Emily Robinson and Team from Innovation Scholars Programme, Centre for Doctoral Studies, King''s College London Healthcare is not exempt from the big data deluge which is transforming the workplace and with it…'
+  path: https://www.youtube.com/watch?v=HeGpHy2naJY
+  year: 2022
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/HeGpHy2naJY/mqdefault.jpg
+  date: '2022-05-18'
+- title: 'NHS-R Webinar: Statistical Disclosure Control Methods via R for Statistical Publications, June 2022'
+  description: 'Statistical Disclosure Control Methods via R for Statistical Publications Date: Wednesday 15th June, 1.00 pm – 2.00 pm Presenters: Robert Mitchell and Alex Reid from the CHILI team who have developed the code and by Scott Wilson who leads the Statistical Governance/CHILI team. This webinar aims to…'
+  path: https://www.youtube.com/watch?v=GdAooA0uijI
+  year: 2022
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/GdAooA0uijI/mqdefault.jpg
+  date: '2022-06-21'
+- title: 'NHS-R Webinar: Shiny Tool Predicting Primary Care Demand from Large Scale Housing Devs, July 2022'
+  description: 'Shiny Tool Predicting Primary Care Demand from Large Scale Housing Developments in Wales Date: Wednesday 20th July, 1.00 pm – 2.00 pm Presenters: From the Strategy Unit, Justine Wiltshire the project lead and Ozayr Mohammed the developer of this shiny based application Join the Strategy Unit as…'
+  path: https://www.youtube.com/watch?v=Q6sKc0y5uK8
+  year: 2022
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/Q6sKc0y5uK8/mqdefault.jpg
+  date: '2022-07-22'
+- title: 'NHS-R Webinar: PrAna R package to calculate & visualize NHS primary care prescribing data, Aug 2022'
+  description: 'PrAna: an R package to calculate and visualize England NHS primary care prescribing data. Wednesday 17th August 2022, 1.00 pm Dr Kishore Kumar Jagadeesan, University of Bath Kishore is a researcher with 10+ years of experience contributing to scientific discoveries in the fields of Analytical…'
+  path: https://www.youtube.com/watch?v=ztoWo6hiPkE
+  year: 2022
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/ztoWo6hiPkE/mqdefault.jpg
+  date: '2022-08-24'
+- title: 'NHS-R Webinar: Live Data Analysis with Chris Mainey - September 2022'
+  description: 'Join Chris Mainey, NHS England for a Live Data Analysis Webinar. Webinar: 28/09/22'
+  path: https://www.youtube.com/watch?v=cVmB6jcmGdc
+  year: 2022
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/cVmB6jcmGdc/mqdefault.jpg
+  date: '2022-09-29'
+- title: 'NHS-R Conference Webinar: Shiny and Advanced Shiny – 1/11/22'
+  description: 'Intro to Shiny and Advanced Shiny Tuesday 1st November, 12.00 – 2.00 pm Led by Ryan Johnson, Customer Success Manager, RSTUDIO About the course: Intro to Shiny: We’ll go over the basic structure of a Shiny app and how they work. This is a great session for those new to Shiny. Advanced Shiny: Also…'
+  path: https://www.youtube.com/watch?v=4aE0a_JnERU
+  year: 2022
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/4aE0a_JnERU/mqdefault.jpg
+  date: '2022-11-01'
+- title: 'NHS-R Webinar: Introduction to business case analytics using Decision Analysis in R – 01/11/22'
+  description: 'NHS-R Conference Webinar: Introduction to business case analytics using Decision Analysis in R Tuesday 1st November 2022 Led by: Rob Brown, Cybersecurity Risk Management Leader About the webinar: How decision analysis leads data analysis, what considerations need to be in place to do that. With…'
+  path: https://www.youtube.com/watch?v=VzVwdWn11s8
+  year: 2022
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/VzVwdWn11s8/mqdefault.jpg
+  date: '2022-11-02'
+- title: 'NHS-R Webinar: Tips and tricks learnt from building production {shiny} apps  - 07/11/22'
+  description: 'Tips and tricks learnt from building production {shiny} apps Monday 7th November Delivered by Colin Fay, Data Scientist & R Hacker at ThinkR About the webinar: The road to a production-ready software is always a bumpy road. Whatever you do, you can always expect the unexpected. But the good news is…'
+  path: https://www.youtube.com/watch?v=vO_Wn2tgIck
+  year: 2022
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/vO_Wn2tgIck/mqdefault.jpg
+  date: '2022-11-08'
+- title: 'December 2022 Webinar: The R Workflow – Dr Ryan Johnson from Posit'
+  description: 'The R Workflow Wednesday 21st December. Ryan Johnson, Posit discusses the following (using a Shiny app as the end product): - R Markdown Job Scheduling - Pins - - Plumber APIs This session is a show-and-tell getting you familiar with various open source tools (Pins, Plumber) and how they can be…'
+  path: https://www.youtube.com/watch?v=zyLT7akvc8s
+  year: 2022
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/zyLT7akvc8s/mqdefault.jpg
+  date: '2022-12-22'
+- title: 'NHS-R January 2023 Webinar:  Create reproducible and accessible spreadsheets with {a11ytables}'
+  description: 'NHS-R Webinar: January 2023 Topic: Create reproducible and accessible spreadsheets with {a11ytables} Delivered by: Matt Dray, Analyst, Analysis & Insight – Cabinet Office Wednesday 18th January 202 About the webinar: The Reproducible Analytical Pipelines (RAP) movement has revolutionised data…'
+  path: https://www.youtube.com/watch?v=VcEZBYDBJwo
+  year: 2023
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/VcEZBYDBJwo/mqdefault.jpg
+  date: '2023-01-18'
+- title: 'NHS-R February 2023 Webinar: Introduction to Causal Inference and propensity modelling'
+  description: 'Introduction to Causal Inference and propensity modelling Wednesday 15th February 2023 With Christel Swift, Principal Data Scientist, BBC About the webinar: In an ideal world, when trying to assess the effectiveness of a treatment (e.g. a new medicine, a government policy, a marketing…'
+  path: https://www.youtube.com/watch?v=FBq66XF0lRY
+  year: 2023
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/FBq66XF0lRY/mqdefault.jpg
+  date: '2023-02-16'
+- title: 'NHS-R March 2023 Webinar: Build a Golem Application'
+  description: Build a Golem Application Wednesday 15th March 2023 With Chris Beeley, Senior Lead Data Scientist, The Strategy Unit
+  path: https://www.youtube.com/watch?v=ugMatRCIO4Q
+  year: 2023
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/ugMatRCIO4Q/mqdefault.jpg
+  date: '2023-04-05'
+- title: 'NHS-R April 2023 Webinar: Chat with your data via RTutor and ChatGPT'
+  description: 'Chat with your data via RTutor and ChatGPT Friday 14th April 2023 With Dr. Xijin “Steven” Ge, Professor of Bioinformatics at South Dakota State University. About the webinar: First, I will demonstrate RTutor ( an AI-powered app that lets you chat with your data. RTutor uses ChatGPT to turn requests…'
+  path: https://www.youtube.com/watch?v=MyZM-hOyJX4
+  year: 2023
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/MyZM-hOyJX4/mqdefault.jpg
+  date: '2023-05-11'
+- title: 'April 2023 Webinar: Introduction to Quarto for R Users'
+  description: 'Introduction to Quarto for R Users Friday 21st April 2023 With Filippo Cavallari, Data Science Lecturer at The Office for National Statistics (ONS) About the webinar: If you are an R user, then you’ve probably been using R Markdown. And probably you loved R also because of R Markdown. But since…'
+  path: https://www.youtube.com/watch?v=8nPfCUKPnBE
+  year: 2023
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/8nPfCUKPnBE/mqdefault.jpg
+  date: '2023-05-15'
+- title: 'May 2023 Webinar: Version Control and RStudio'
+  description: 'Version Control and RStudio Thursday 25th May 2023 With Ryan Johnson, Data Science Advisor at Posit About the webinar: In this 1-hour training, we’ll discuss what are version control and git, setting up Git, RStudio Projects + Version Control, RStudio IDE git integrations, and Git-backed deployment…'
+  path: https://www.youtube.com/watch?v=qNMOPWT8jSo
+  year: 2023
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/qNMOPWT8jSo/mqdefault.jpg
+  date: '2023-05-31'
+- title: 'June 2023 Webinar: Patient Feedback using LimeSurvey and R'
+  description: Patient Feedback using LimeSurvey and R Wednesday 21st June 2023 With Roberts Klotins, Consultant Psychiatrist
+  path: https://www.youtube.com/watch?v=UJKUpEpsrzE
+  year: 2023
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/UJKUpEpsrzE/mqdefault.jpg
+  date: '2023-10-10'
+- title: 'July 2023 Webinar: Shiny in Production'
+  description: 'Shiny in Production Wednesday 19th July 2023 With Ryan Johnson, Data Science Advisor at Posit About the webinar: In this session, we’ll discuss how to create production-ready Shiny apps in R that can scale to thousands of concurrent users.'
+  path: https://www.youtube.com/watch?v=7v_CaT0IPAk
+  year: 2023
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/7v_CaT0IPAk/mqdefault.jpg
+  date: '2023-10-10'
+- title: 'August 2023 Webinar: Introduction to Unit Tests in R'
+  description: 'Introduction to Unit Tests in R Wednesday 23rd August 2023 With Tom Jemmett, Senior Data Scientist at The Strategy Unit About the webinar: This session will provide an introduction to the use of unit tests in R.'
+  path: https://www.youtube.com/watch?v=3M1K7lGzrHQ
+  year: 2023
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/3M1K7lGzrHQ/mqdefault.jpg
+  date: '2023-10-10'
+- title: 'October 2023 Webinar: Package Management in R Studio'
+  description: 'Package Management in R Studio Thursday 26th October 2023 With Ryan Johnson, Data Science Advisor at Posit About the webinar: Managing packages in your R environment can be challenging. We’ll introduce R Packages, Libraries, and Repositories for this training and discuss strategies for managing…'
+  path: https://www.youtube.com/watch?v=VFtO54DF4_c
+  year: 2023
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/VFtO54DF4_c/mqdefault.jpg
+  date: '2023-10-30'
+- title: 'November 2023 Webinar: Customising your R Experience'
+  description: 'Customising your R Experience Wednesday 29th November 2023 With James Laird-Smith, Data Scientist at the Bank of England About the webinar: R is a fantastic environment for interactive programming. It also has a fantastic IDE in RStudio. But many people don’t move beyond default behaviours with…'
+  path: https://www.youtube.com/watch?v=MTui2ojTH0Q
+  year: 2023
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/MTui2ojTH0Q/mqdefault.jpg
+  date: '2023-12-18'
+- title: 'December 2023 Webinar: Reproducible Environments using renv'
+  description: 'Reproducible Environments using renv Wednesday 20th December 2023 With Ryan Johnson – Data Science Advisor, Posit About the webinar: The renv package helps create reproducible environments for your R projects. In this training we will provide an overview of the renv package and how to initialize,…'
+  path: https://www.youtube.com/watch?v=7lCOjGrwclQ
+  year: 2023
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/7lCOjGrwclQ/mqdefault.jpg
+  date: '2023-12-22'
+- title: How to turn your hospital's EHR data into predictions of emergency demand for beds
+  description: In this first of two webinars, I will provide detail on how to do this modelling including what our users (bed managers) wanted and how we catered to their needs • what data you need to do this modelling in your hospital • what data structures are suitable for prediction of short-term demand and…
+  path: https://www.youtube.com/watch?v=ha_zckz3_rU
+  year: 2024
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/ha_zckz3_rU/mqdefault.jpg
+  date: '2024-06-27'
+- title: Data quality reporting for temporal datasets using the daiquiri package with Phuong Quan
+  description: ''
+  path: https://www.youtube.com/watch?v=UzonwAs5dNk
+  year: 2024
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/UzonwAs5dNk/mqdefault.jpg
+  date: '2024-03-21'
+- title: GitHub Actions and Continuous Integration (pre-recorded)
+  description: A pre-recorded talk about GitHub Actions from Ziad Ahmed and Shivam Missar from their 6-week internship scheme provided by Nottingham Trent University (NTU) at Nottingham University Hospitals NHS Trust. Shared with kind permission.
+  path: https://www.youtube.com/watch?v=6UpVES4aGgw
+  year: 2024
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/6UpVES4aGgw/mqdefault.jpg
+  date: '2024-09-23'
+- title: Unveiling Congenital Heart Disease and Comorbidities using Primary Care data
+  description: 'This is a recording of an NHS-R webinar: "Unveiling Congenital Heart Disease and Comorbidities - ground-breaking collaboration using primary care data" presented by James Partington on 10 July 2024. Snomed code referred to in this video are available on the NHS-R Community repository'
+  path: https://www.youtube.com/watch?v=vSekPvgwJKY
+  year: 2024
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/vSekPvgwJKY/mqdefault.jpg
+  date: '2024-07-11'
+- title: 'NHS-R Webinar:  Open source for analysts and data scientists - 4 July 2024'
+  description: This is a recording of a webinar delivered by Chris Beeley on 4 July 2024
+  path: https://www.youtube.com/watch?v=CRCr_z84F14
+  year: 2024
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/CRCr_z84F14/mqdefault.jpg
+  date: '2024-07-04'
+- title: NHS R Community and Posit Quarto Q&A
+  description: Informal Posit Quarto team Q&A with discussions with NHS-R Community members. Questions were opened up to the NHS-R Community via the Slack channel prior to the meeting.
+  path: https://www.youtube.com/watch?v=W8dMHYKrAII
+  year: 2025
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/W8dMHYKrAII/mqdefault.jpg
+  date: '2025-01-24'
+- title: 'May 2025 Webinar: Surfacing the weekly consequences of ED admission delays by statistical modelling'
+  description: 'Surfacing the weekly consequences of ED admission delays by statistical modelling implemented within an automated ML pipeline Wednesday 14th May 2025 With Dr Richard Wood and Dr Nick Howlett Content Summary: Surfacing the weekly consequences of ED admission delays by statistical modelling…'
+  path: https://www.youtube.com/watch?v=NS7RqVFoqA0
+  year: 2025
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/NS7RqVFoqA0/mqdefault.jpg
+  date: '2025-07-03'
+- title: 'August 2025 Webinar: An Improved I Chart'
+  description: 'An Improved I Chart Wednesday 13th August 2025 With Dr Jacob Anhøj and Professor Mohammed A. Mohammed Content Summary: A webinar on simplifying statistical process control with I-prime charts In this webinar, we introduce the I-prime (I'') chart – a new SPC tool that retains the simplicity of the I…'
+  path: https://www.youtube.com/watch?v=DAYuUEES1Xc
+  year: 2025
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/DAYuUEES1Xc/mqdefault.jpg
+  date: '2025-12-16'
+- title: 'December 2025 Webinar: Breaking it up: an approach to reproducible analytical pipelines (RAPs)'
+  description: 'Breaking it up: an approach to reproducible analytical pipelines (RAPs) Thursday 11th December 2025 With Georgina Anderson Content Summary: Writing a piece of code that can be re-used is a great thing, but how can we optimise our code to facilitate reproducibility and re-usability? My talk will…'
+  path: https://www.youtube.com/watch?v=JfqpQYXVUzg
+  year: 2025
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/JfqpQYXVUzg/mqdefault.jpg
+  date: '2025-12-18'
+- title: 'September Webinar 2025: Complexity Made Approachable: Rethinking R-Based Modelling for Healthcare'
+  description: 'Complexity Made Approachable: Rethinking R-Based Modelling for Healthcare with AM-Smart Tools Thursday 11th September 2025 With Brian Castellani, Corey Schimpf and Chris Caden Content Summary: The rapid rise of data science and its wide array of computational methods has widened the gap between…'
+  path: https://www.youtube.com/watch?v=gZ3a6hLn2bY
+  year: 2025
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/gZ3a6hLn2bY/mqdefault.jpg
+  date: '2025-12-16'

@@ -1,6 +1,6 @@
-name: "Suggestion: New Book or Training Resource Entry"
+name: "Suggestion: New Book, Training Resource or Community Entry"
 description: "Submit a suggestion for a new book, course, tutorial or community you think should be added to the atlas (without writing the full entry)"
-title: "Book/Training Suggestion: [NAME]"
+title: "Book/Training/Community Suggestion: [NAME]"
 labels: ["SUGGESTION: new book or training"]
 
 body:

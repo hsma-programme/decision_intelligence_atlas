@@ -96,9 +96,9 @@ jobs:
             # Raw data for the blocks
             JSON_DATA: ${{ steps.extract.outputs.json }}
         run: |
-          # Books, courses and training resources live in their own section
+          # Books, courses, training resources and communities live in their own section
           TARGET_DIR="packages_projects_tools"
-          if echo "$JSON_DATA" | jq -e '.category[]? | select(. == "Courses and Training or Reference Materials")' > /dev/null; then
+          if echo "$JSON_DATA" | jq -e '.category[]? | select(. == "Courses and Training or Reference Materials" or . == "Books" or . == "Communities" or . == "Courses" or . == "Interactive Learning Tools" or . == "Reference Sites" or . == "Recorded Talks")' > /dev/null; then
             TARGET_DIR="books_training"
           fi
           mkdir -p "$TARGET_DIR/${{ steps.modelname.outputs.safe_model_name }}"

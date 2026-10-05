@@ -5,7 +5,7 @@ aliases:
 categories:
   - RAP
   - Courses and Training or Reference Materials
-  - Books
+  - Communities
 tool-language: N/A
 status: N/A
 image: homepage.png

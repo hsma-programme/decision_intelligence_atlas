@@ -1,0 +1,55 @@
+---
+title: "Visualizing Health and Healthcare Data"
+categories:
+  - Courses and Training or Reference Materials
+  - Books
+  - Paid Resources
+  - Data Visualisation
+tool-language: N/A
+status: N/A
+# image: cover.jpg
+author:
+  - name: Katherine Rowell
+    affiliation: HealthDataViz
+  - name: Lindsay Betzendahl
+    affiliation: HealthDataViz
+  - name: Cambria Brown
+    affiliation: HealthDataViz
+pub-info:
+  project-type: <i class="fa-solid fa-sterling-sign" title="Paid resource"></i>
+  rationale-for-status: |
+    Paid book without accompanying code, so it is not ranked.
+  entry-author:
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
+  abstract: |
+    A paid book from Wiley on data visualisation best practice for health and healthcare professionals. It covers health and healthcare data, visual perception research, gathering requirements, building teams, and designing tables, graphs, dashboards and reports for health data.
+  links:
+  - name: O'Reilly
+    url: https://www.oreilly.com/library/view/visualizing-health-and/9781119680888/
+    icon: fa-solid fa-book
+  - name: Publisher
+    url: https://www.wiley.com/en-us/Visualizing+Health+and+Healthcare+Data%3A+Creating+Clear+and+Compelling+Visualizations+to+%22See+How+You%27re+Doing%22-p-9781119680888
+    icon: fa-solid fa-globe
+date: "2026-10-05T00:00:00+01:00"
+---
+
+*Visualizing Health and Healthcare Data: Creating Clear and Compelling Visualizations to "See How You're Doing"* (Wiley, 2020) is a paid book, available in print, as an eBook, or through an O'Reilly subscription.
+
+The publisher describes it as follows:
+
+> The only data visualization book written by and for health and healthcare professionals.
+>
+> [...] It provides a high-level summary of health and healthcare data, an overview of relevant visual intelligence research, strategies and techniques to gather requirements, and how to build strong teams with the expertise required to create dashboards and reports that people love to use. Clear and detailed explanations of data visualization best practices will help you understand the how and the why.
+>
+> * Learn how to build beautiful and useful data products that deliver powerful insights for the end user
+> * Follow along with examples of data visualization best practices, including table and graph design for health and healthcare data
+> * Learn the difference between dashboards, reports, multidimensional exploratory displays and infographics (and why it matters)
+> * Avoid common mistakes in data visualization by learning why they do not work and better ways to display the data
+
+
+
+
+::: {.value-box color="#009c92" width="100%" icon="bi-chat-quote" icon-position="left" icon-size="3rem" title="Brief review - Sammi Rosser" font-size="1rem"}
+I've found this to be a valuable addition to my bookshelf. It's not tied to any coding language, and a lot of the principles of good data visualisation covered here aren't specific to healthcare, but it's very helpful to have something written from a healthcare slant and the recommendations for alternative visualisations to replace those that are generally considered problematic are particularly useful.
+:::
