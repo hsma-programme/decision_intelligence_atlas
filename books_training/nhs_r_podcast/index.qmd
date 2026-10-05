@@ -1,0 +1,64 @@
+---
+title: "NHS-OA Community: NHS-R Podcast"
+categories:
+  - Courses and Training or Reference Materials
+  - Recorded Talks
+tool-language:
+  - R
+status: N/A
+image: podcast.jpg
+author:
+  - name: NHS-OA Community (formerly NHS-R Community)
+pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i>
+  rationale-for-status: |
+    Collection of podcast episodes with many different guests, so it is not ranked as a whole.
+  entry-author:
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
+  abstract: |
+    The NHS-R Community's podcast, first released on SoundCloud from 2022 and now on YouTube with edited subtitles. Its episodes cover the history of R and the NHS-R Community, learning R, the team behind the COVID-19 dashboard, and a text mining project for Friends and Family Test feedback.
+  links:
+  - name: YouTube
+    url: https://www.youtube.com/playlist?list=PLXCrMzQaI6c0FDV6LHzkVmLmaFgvosRck
+    icon: fa-brands fa-youtube
+  - name: SoundCloud
+    url: https://soundcloud.com/nhs-r-community
+    icon: fa-brands fa-soundcloud
+  - name: Website
+    url: https://nhsoa.uk
+    icon: fa-solid fa-globe
+date: "2026-10-05T00:00:00+01:00"
+listing:
+  - id: podcast-episodes
+    contents: talks.yml
+    type: table
+    fields: [title, description]
+    field-display-names:
+      title: "Episode"
+      description: "Details"
+    sort: "date"
+    filter-ui: [title, description]
+    sort-ui: [title]
+    page-size: 25
+---
+
+[![NHS-R Community Podcast](podcast.jpg)](https://www.youtube.com/playlist?list=PLXCrMzQaI6c0FDV6LHzkVmLmaFgvosRck)
+
+The NHS-R Podcast was made by the NHS-R Community, now the [NHS-OA Community](/books_training/nhs_oa_community/index.qmd), and first released on [SoundCloud](https://soundcloud.com/nhs-r-community) from 2022. The episodes have since been uploaded to YouTube, with automatic subtitles that have been checked and edited by hand.
+
+The episodes feature people from across the community talking about their work and experiences:
+
+* **Episode 0** - a pilot episode in which Chris Beeley and Tom Jemmett talk about R, its uses, and their experiences of learning it
+* **Episode 1** - the history of R, the NHS-R Community and its conferences, with Professor Mohammed Mohammed, Paul Stroner, Sarah Culkin, Jenny Morgan, Ellen Coughlan and Chris Beeley (in two parts)
+* **Episode 2** - Chris Beeley talks to the Public Health England team behind the COVID-19 dashboard
+* **Episode 3** - Chris Beeley talks to Andreas Soteriades about a text mining project for Friends and Family Test feedback
+
+## Episodes
+
+::: {#podcast-episodes}
+:::
+
+The NHS-OA Community also publishes recordings of [webinars](/books_training/nhs_oa_webinars/index.qmd), [workshops](/books_training/nhs_oa_workshops/index.qmd) and [conference talks](/books_training/nhs_oa_conference_recordings/index.qmd).
+
+To search these recordings alongside talks, webinars and workshops from other communities, use the [Recordings Finder](/recordings/index.qmd).

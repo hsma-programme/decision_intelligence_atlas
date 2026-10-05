@@ -5556,6 +5556,66 @@
   "collection_url": "/books_training/nhs_oa_workshops/index.html"
  },
  {
+  "title": "NHS-R Podcast Episode 3 - Friends and Family text mining project",
+  "year": null,
+  "date": "2024-10-15",
+  "type": "Podcast",
+  "source": "NHS-OA Community",
+  "event": "",
+  "details": "Episode 3 of NHS-R podcast first distributed on Soundcloud Chris Beeley talks to Andreas Soteriades about a Friends and Family text mining project. Thanks as always to Tom Jemmett for his fantastic editing Links: Edited with Clipchamp with auto subtitles which were edited by Zoë Turner",
+  "url": "https://www.youtube.com/watch?v=LOKjdIz38qw",
+  "collection": "NHS-OA Community: NHS-R Podcast",
+  "collection_url": "/books_training/nhs_r_podcast/index.html"
+ },
+ {
+  "title": "NHS-R Podcast Episode 2 - Public Health England COVID dashboard team",
+  "year": null,
+  "date": "2024-07-12",
+  "type": "Podcast",
+  "source": "NHS-OA Community",
+  "event": "",
+  "details": "Episode 2 of NHS-R podcast first distributed in 2022 on Soundcloud Chris Beeley talks to the Covid dashboard team - it was under Public Health England at the time of the podcast - Clare Griffiths, James Westwood, Pouria Hadjibagheri and Anxo Roibas. Edited with Clipchamp with auto subtitles which…",
+  "url": "https://www.youtube.com/watch?v=8xCj3kYQ8EQ",
+  "collection": "NHS-OA Community: NHS-R Podcast",
+  "collection_url": "/books_training/nhs_r_podcast/index.html"
+ },
+ {
+  "title": "NHS-R Podcast Episode 1 part 2 - the history of NHS-R Community",
+  "year": null,
+  "date": "2024-06-28",
+  "type": "Podcast",
+  "source": "NHS-OA Community",
+  "event": "",
+  "details": "Episode 1, part 2 of NHS-R podcast first distributed in 2022 on Soundcloud In this first half of episode 1 Professor Mohammed Mohammed featuring Paul Stroner, Sarah Culkin, Jenny Morgan, Ellen Coughlan, and Chris Beeley talk about the history of R, NHS-R Community and its conferences. Edited with…",
+  "url": "https://www.youtube.com/watch?v=nk0YXyBaNJ8",
+  "collection": "NHS-OA Community: NHS-R Podcast",
+  "collection_url": "/books_training/nhs_r_podcast/index.html"
+ },
+ {
+  "title": "NHS-R Podcast Episode 1 part 1 - the history of NHS-R Community",
+  "year": null,
+  "date": "2024-06-12",
+  "type": "Podcast",
+  "source": "NHS-OA Community",
+  "event": "",
+  "details": "Episode 1, part 1 of NHS-R podcast first distributed in 2022 on Soundcloud In this first half of episode 1 Professor Mohammed Mohammed featuring Paul Stroner, Sarah Culkin, Jenny Morgan, Ellen Coughlan, and Chris Beeley talk about the history of R, NHS-R Community and its conferences. Edited with…",
+  "url": "https://www.youtube.com/watch?v=j9XTt3ac3H4",
+  "collection": "NHS-OA Community: NHS-R Podcast",
+  "collection_url": "/books_training/nhs_r_podcast/index.html"
+ },
+ {
+  "title": "NHS-R Podcast Episode 0 - pilot",
+  "year": null,
+  "date": "2024-06-11",
+  "type": "Podcast",
+  "source": "NHS-OA Community",
+  "event": "",
+  "details": "Episode 0 of NHS-R podcast first distributed in 2022 on Soundcloud Chris Beeley and Tom Jemmett introduce the podcast for NHS-R and discuss how R, its uses and their experiences of learning it. Edited with Clipchamp with auto subtitles which were edited by Zoë Turner",
+  "url": "https://www.youtube.com/watch?v=hnp7VRpX8qo",
+  "collection": "NHS-OA Community: NHS-R Podcast",
+  "collection_url": "/books_training/nhs_r_podcast/index.html"
+ },
+ {
   "title": "The State of Data Analytics in the NHS | Google Health x NHS Python Community Tech Talk",
   "year": 2026,
   "date": "2026-05-19",

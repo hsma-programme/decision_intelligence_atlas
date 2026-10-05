@@ -84,6 +84,16 @@ nhs_oa_workshops:
       id: PLXCrMzQaI6c2L4JCRaF2iujzBxe9Rk-rC
       type: Workshop
 
+nhs_r_podcast:
+  folder: books_training/nhs_r_podcast
+  source: NHS-OA Community
+  playlists:
+    # First released on SoundCloud from 2022, and uploaded to YouTube in 2024
+    - label: NHS-R Podcast
+      id: PLXCrMzQaI6c0FDV6LHzkVmLmaFgvosRck
+      type: Podcast
+      no_year: true
+
 nhs_pycom_talks:
   folder: books_training/nhs_pycom_talks
   source: NHS.pycom

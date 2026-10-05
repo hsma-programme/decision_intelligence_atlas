@@ -147,6 +147,7 @@ The Recordings Finder brings together the recordings listed in these Atlas entri
 * [NHS-OA Community: Conference Recordings](/books_training/nhs_oa_conference_recordings/index.qmd)
 * [NHS-OA Community: Webinar Recordings](/books_training/nhs_oa_webinars/index.qmd)
 * [NHS-OA Community: Workshop Recordings](/books_training/nhs_oa_workshops/index.qmd)
+* [NHS-OA Community: NHS-R Podcast](/books_training/nhs_r_podcast/index.qmd)
 * [NHS.pycom: Talk Recordings](/books_training/nhs_pycom_talks/index.qmd)
 * [National Analyst Network (formerly Midlands Analyst Network): Huddle Recordings](/books_training/analyst_network_huddles/index.qmd)
 * [Midlands Decision Support Network: Training Recordings](/books_training/mdsn_training/index.qmd)
