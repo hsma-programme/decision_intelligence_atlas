@@ -7,8 +7,8 @@ execute:
   echo: false
 grid:
   sidebar-width: 0px
-  body-width: 1100px
-  margin-width: 300px
+  body-width: 1300px
+  margin-width: 50px
   gutter-width: 1.5rem
 
 format:
@@ -78,7 +78,7 @@ md`Showing **${filtered.length}** of ${recordings.length} recordings.`
 
 ```{ojs}
 html`<div class="recordings-table">${Inputs.table(filtered, {
-  columns: ["title", "year", "type", "event", "source", "details", "url", "collection"],
+  columns: ["title", "url", "year", "type", "event", "source", "details", "collection"],
   header: {
     title: "Title",
     year: "Year",
@@ -95,7 +95,7 @@ html`<div class="recordings-table">${Inputs.table(filtered, {
     url: d => html`<a href="${d}" target="_blank" rel="noopener">Watch <i class="bi bi-box-arrow-up-right"></i></a>`,
     collection: d => html`<a href="${entryLinks.get(d)}" title="${d}">Atlas entry</a>`
   },
-  width: {title: 280, year: 60, type: 120, event: 110, source: 120, details: 330, url: 80, collection: 100},
+  width: {title: 360, year: 60, type: 110, event: 110, source: 130, details: 400, url: 80, collection: 100},
   layout: "fixed",
   rows: 25,
   height: 750,

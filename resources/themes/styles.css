@@ -276,8 +276,10 @@ p {
     gap: 0 2rem;
 }
 
-.recordings-table td {
+.recordings-table table td,
+.recordings-table table th {
     white-space: normal !important;
+    text-overflow: clip !important;
     overflow-wrap: anywhere;
     vertical-align: top;
 }
