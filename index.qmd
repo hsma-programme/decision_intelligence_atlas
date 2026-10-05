@@ -123,13 +123,13 @@ Click on the links below, or use the menu bar to navigate.
 
 <br/>
 
-::::: {.value-box-row columns="4" width="100%" align="center" min-height="180px" icon-size="4.5rem" font-size="0.9rem" color="#009c92"}
+::::: {.value-box-row columns="4" width="100%" align="center" min-height="180px" icon-size="4.5rem" font-size="0.9rem" color="#009c92" value-font-size="1.7rem"}
 
-:::: {.value-box icon="bi-tools" href="https://atlas.hsma.co.uk/packages_projects_tools/" value="Packages, Projects<br/>and Tools"}
+:::: {.value-box icon="bi-tools" href="https://atlas.hsma.co.uk/packages_projects_tools/" value="Packages, Projects<br/>& Tools"}
 A showcase of projects, code packages, scripts and other resources that may be of use
 ::::
 
-:::: {.value-box icon="bi-book" href="https://atlas.hsma.co.uk/books_training/" value="Books, Training<br/>and Communities"}
+:::: {.value-box icon="bi-book" href="https://atlas.hsma.co.uk/books_training/" value="Books, Training<br/>& Communities"}
 Books, courses, tutorials and communities to help you build your skills
 ::::
 
