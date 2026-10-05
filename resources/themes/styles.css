@@ -471,6 +471,11 @@ p {
     vertical-align: top;
 }
 
+/* Smaller text in the Recordings Finder's shorter columns */
+.recordings-small {
+    font-size: 0.875em;
+}
+
 /* Keep column headers such as "Published" on one line */
 .recordings-table table th {
     overflow-wrap: normal;

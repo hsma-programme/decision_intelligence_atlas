@@ -141,6 +141,11 @@ function multiselect(values, {label, all}) {
   return form;
 }
 
+// Smaller text, for the table's shorter columns
+function small(content) {
+  return html`<span class="recordings-small">${content}</span>`;
+}
+
 // Unique values, sorted
 function options(values) {
   return Array.from(new Set(values)).sort((a, b) => a < b ? -1 : a > b ? 1 : 0);
@@ -219,10 +224,13 @@ html`<div class="recordings-table">${Inputs.table(filtered, {
     collection: "More"
   },
   format: {
-    date: d => monthLabel(d.slice(0, 7)),
-    duration: d => d ?? "",
+    date: d => small(monthLabel(d.slice(0, 7))),
+    duration: d => small(d ?? ""),
+    type: small,
+    event: small,
+    source: small,
     details: d => expandable(d),
-    url: d => html`<a href="${d}" target="_blank" rel="noopener">Watch <i class="bi bi-box-arrow-up-right"></i></a>`,
+    url: d => small(html`<a href="${d}" target="_blank" rel="noopener">Watch <i class="bi bi-box-arrow-up-right"></i></a>`),
     collection: d => html`<a href="${entryLinks.get(d)}" title="${d}">Atlas entry</a>`
   },
   width: {title: 330, date: 105, duration: 100, type: 110, event: 100, source: 120, details: 370, url: 80, collection: 100},
