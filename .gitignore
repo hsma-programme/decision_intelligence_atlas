@@ -6,3 +6,4 @@ site_libs/
 .env
 *.env
 **.env
+__pycache__/

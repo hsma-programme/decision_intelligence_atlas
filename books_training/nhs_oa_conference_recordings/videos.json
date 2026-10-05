@@ -599,6 +599,132 @@
       ]
     },
     {
+      "label": "NHS-R Community Conference 2022: Python track",
+      "id": "PLSLQ7uyfNIIuFYsyo9Hf0cbYoOqgcly9m",
+      "videos": [
+        {
+          "id": "-0Bxk7v0SM4",
+          "title": "Mary Amanuel: Conference Opening",
+          "description": "@NHSOA_Community Conference: Python Track 17th of Nov 2022 \n■ *Speaker:* Mary Amanuel, Economics & Strategic Analysis, NHS England.\n■ *LinkedIn:* https://www.linkedin.com/in/mary-amanuel-b9b4621b4\n■ *GitHub:* https://github.com/maryamanuel1",
+          "published": "2022-11-26T19:10:04Z",
+          "duration": "PT2M7S",
+          "thumbnail": "https://i.ytimg.com/vi/-0Bxk7v0SM4/mqdefault.jpg"
+        },
+        {
+          "id": "ZctiQuwf9tI",
+          "title": "Sarah Culkin:  Keynote Speech",
+          "description": "@NHSOA_Community Conference: Python Track 17th of Nov 2022 \n■ *Speaker:* Sarah Culkin, Deputy Director, Analytics and Data Science, NHS England.\n■ *LinkedIn:* https://uk.linkedin.com/in/sarah-culkin-83a3908b\n■ *Website:* https://transform.england.nhs.uk/key-tools-and-info/nhsx-analytics-unit/",
+          "published": "2022-11-26T19:45:42Z",
+          "duration": "PT32M44S",
+          "thumbnail": "https://i.ytimg.com/vi/ZctiQuwf9tI/mqdefault.jpg"
+        },
+        {
+          "id": "O5IOFv50WyA",
+          "title": "Panel Discussion: What are the benefits of python and open-source code in the NHS?",
+          "description": "@NHSOA_Community Conference: Python Track 17th of Nov 2022 \n■ *Chair:* Sarah Culkin, Deputy Director, Analytics and Data Science, NHS England.\n■ *Speaker:* Pawel Orzechowski. Lecturer in Programming for Business, University of Edinburgh\n■ *Speaker:* Thiago Viana. Senior Lecturer in Computing, University of Gloucestershire\n■ *Speaker:* Andrew Harding. Open Tech Lead, NHS England",
+          "published": "2022-11-26T21:32:35Z",
+          "duration": "PT46M",
+          "thumbnail": "https://i.ytimg.com/vi/O5IOFv50WyA/mqdefault.jpg"
+        },
+        {
+          "id": "saANOhFQym8",
+          "title": "Adam Carruthers: Turbocharge your development with VS Code",
+          "description": "@NHSOA_Community Conference: Python Track 17th of Nov 2022 \n■ Speaker: Adam Carruthers, Graduate Trainee, NHS Digital\n■ LinkedIn: https://www.linkedin.com/in/adam-j-carruthers/\n■ GitHub: https://github.com/goodyguts",
+          "published": "2022-12-04T16:19:30Z",
+          "duration": "PT23M53S",
+          "thumbnail": "https://i.ytimg.com/vi/saANOhFQym8/mqdefault.jpg"
+        },
+        {
+          "id": "1W9N7gA210s",
+          "title": "Dr Mark Bailey: Spiritum Duo - Clinical Pathways - A to B but faster",
+          "description": "@NHSOA_Community  Conference: Python Track 17th of Nov 2022 \n■ Speaker: Mark Bailey, Speciality Doctor and Digital Lead in Respiratory Medicine. Gloucestershire Hospitals NHS Foundation Trust\n■ LinkedIn: https://www.linkedin.com/in/mark-allan-bailey/\n■ Github: https://github.com/Cotswoldsmaker\n■ Links: https://github.com/spiritumduo/spiritumDuo",
+          "published": "2022-12-04T16:49:06Z",
+          "duration": "PT13M57S",
+          "thumbnail": "https://i.ytimg.com/vi/1W9N7gA210s/mqdefault.jpg"
+        },
+        {
+          "id": "cs5-_CYJhZg",
+          "title": "Steven Maude: Documenting the OpenSAFELY platform with Python and MkDocs",
+          "description": "​ @NHSOA_Community Conference: Python Track 17th of Nov 2022 \n■ Speaker: Steven Maude, Software Developer, Bennett Institute for Applied Data Science\n■ Github: https://docs.opensafely.org\n■ Links: https://github.com/opensafely/documentation\n■ Links: https://github.com/opensafely-core/databuilder",
+          "published": "2022-12-04T20:07:11Z",
+          "duration": "PT26M39S",
+          "thumbnail": "https://i.ytimg.com/vi/cs5-_CYJhZg/mqdefault.jpg"
+        },
+        {
+          "id": "gELirXjNG4M",
+          "title": "Charlotte James: Forecasting Long-Term Demand in Emergency Departments",
+          "description": "@NHSOA_Community Conference: Python Track 17th of Nov 2022 \n■ Speaker: Charlotte James, Senior Research Associate in Health Data Science / Researcher in Residence, University of Bristol / BNSSG ICB\n■ Github: https://github.com/CharlotteJames\n■ Links: https://charlottejames.github.io/ed-forecast/",
+          "published": "2022-12-04T20:24:38Z",
+          "duration": "PT20M34S",
+          "thumbnail": "https://i.ytimg.com/vi/gELirXjNG4M/mqdefault.jpg"
+        },
+        {
+          "id": "kbozStgX7Ow",
+          "title": "Paul Carroll: Travel Time to NHS Organisations",
+          "description": "​ @NHSOA_Community Conference: Python Track 17th of Nov 2022 \n■ Speaker: Paul Carroll, Senior Data Scientist, NHS England, Transformation Directorate\n■ Github: https://github.com/pauldscarroll\n■ LinkedIn: https://www.linkedin.com/in/pauldscarroll/",
+          "published": "2022-12-04T20:40:57Z",
+          "duration": "PT12M36S",
+          "thumbnail": "https://i.ytimg.com/vi/kbozStgX7Ow/mqdefault.jpg"
+        },
+        {
+          "id": "1B_SG5fnOlA",
+          "title": "Dan Schofield: Connecting Research to NHS Operations",
+          "description": "​@NHSOA_Community Conference: Python Track 17th of Nov 2022 \n■ Speaker: Dan Schofield, Senior Data Scientist, NHS England, Transformation Directorate\n■ Github: https://github.com/danjscho\n■ LinkedIn: https://www.linkedin.com/in/dan-schofield-96439a99/",
+          "published": "2022-12-19T09:38:57Z",
+          "duration": "PT21M35S",
+          "thumbnail": "https://i.ytimg.com/vi/1B_SG5fnOlA/mqdefault.jpg"
+        },
+        {
+          "id": "VMgHQDOumPA",
+          "title": "David Sgorbati: R and Python – Integrating Workflows in the Creation of Synthetic Datasets",
+          "description": "@NHSOA_Community Conference: Python Track 17th of Nov 2022 \n■ Speaker: David Sgorbati, Chief Analyst, Health Economics Unit (Midlands and Lancashire CSU)\n■ LinkedIn: https://www.linkedin.com/in/david-sgorbati-68678512b/",
+          "published": "2022-12-19T09:46:04Z",
+          "duration": "PT23M57S",
+          "thumbnail": "https://i.ytimg.com/vi/VMgHQDOumPA/mqdefault.jpg"
+        },
+        {
+          "id": "8OTYqU7o1Wo",
+          "title": "Dany Gammall: Evaluating FHIR clinical data quality with BigQuery and dbt",
+          "description": "​@NHSOA_Community Conference: Python Track 17th of Nov 2022 \n■ Speaker: Dany Gammall, Clinician and Data Scientist, Google.\n■ LinkedIn: https://www.linkedin.com/in/dany-gammall/",
+          "published": "2022-12-19T10:00:59Z",
+          "duration": "PT12M56S",
+          "thumbnail": "https://i.ytimg.com/vi/8OTYqU7o1Wo/mqdefault.jpg"
+        },
+        {
+          "id": "ZWhhZrHbj6s",
+          "title": "German Priks: Exhibit: General Purpose Declarative Synthetic Data Generator",
+          "description": "​@NHSOA_Community Conference: Python Track 17th of Nov 2022 \n■ Speaker: German Priks\n■ GitHub: https://github.com/gherka\n■ LinkedIn: https://www.linkedin.com/in/german-priks-933745194/\n■ Links: https://github.com/gherka/exhibit",
+          "published": "2022-12-19T10:19:31Z",
+          "duration": "PT19M56S",
+          "thumbnail": "https://i.ytimg.com/vi/ZWhhZrHbj6s/mqdefault.jpg"
+        },
+        {
+          "id": "hu6sTdCrjG4",
+          "title": "Darshita Chaturvedi: Creating Progressive Web Apps using PyScript and Atri",
+          "description": "​@NHSOA_Community Conference: Python Track 17th of Nov 2022 \n■ Speaker: Darshita Chaturvedi, Co-Founder & CEO Atri Labs\n■ GitHub: https://github.com/darshitac11\n■ LinkedIn: https://www.linkedin.com/in/darshitac/",
+          "published": "2022-12-19T09:55:25Z",
+          "duration": "PT21M54S",
+          "thumbnail": "https://i.ytimg.com/vi/hu6sTdCrjG4/mqdefault.jpg"
+        },
+        {
+          "id": "4bXGCGGb5kw",
+          "title": "Alistair Jones: How we generate privacy-enhancing artificial healthcare data at NHS Digital",
+          "description": "@NHSOA_Community Conference: Python Track 17th of Nov 2022 \n■ Speaker: Alistair Jones, Senior Data Scientist, NHS Digital\n■ GitHub: https://github.com/alistair-jones\n■ LinkedIn: https://www.linkedin.com/in/alistair-h-jones/\n■ Links: https://github.com/NHSDigital/artificial-data-generator",
+          "published": "2022-12-19T10:07:10Z",
+          "duration": "PT22M13S",
+          "thumbnail": "https://i.ytimg.com/vi/4bXGCGGb5kw/mqdefault.jpg"
+        },
+        {
+          "id": "qhXiNyTTR6g",
+          "title": "Zeki Gultekin: Sensitive Data Detection - Convolutional Neural Networks and Name Entity Recognition",
+          "description": "@NHSOA_Community Conference: Python Track 17th of Nov 2022 \n■ Speaker: Zeki Gultekin, Data Analyst, DataTera\n■ LinkedIn: https://www.linkedin.com/in/zeki-gultekin/\n■ Github: https://github.com/Gltknzk\n■ Links: https://github.com/Gltknzk/My-Works_Data-Analysis",
+          "published": "2022-12-19T10:13:44Z",
+          "duration": "PT16M32S",
+          "thumbnail": "https://i.ytimg.com/vi/qhXiNyTTR6g/mqdefault.jpg"
+        }
+      ]
+    },
+    {
       "label": "NHS-R Community Conference 2021",
       "id": "PLXCrMzQaI6c1R5K-iqHpOVDG0PelBA6uc",
       "videos": [
