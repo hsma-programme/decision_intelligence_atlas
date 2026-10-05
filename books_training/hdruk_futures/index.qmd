@@ -1,0 +1,62 @@
+---
+title: "HDR UK Futures"
+categories:
+  - Courses and Training or Reference Materials
+  - Courses
+  - Asynchronous
+tool-language: N/A
+status: N/A
+image: hdruk_futures.png
+author:
+  - name: Health Data Research UK (HDR UK)
+pub-info:
+  project-type: <i class="fa-solid fa-user-graduate"></i>
+  rationale-for-status: |
+    Learning platform hosting many courses from different contributors, so it is not ranked as a whole.
+  entry-author:
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
+  abstract: |
+    Futures is a free online learning platform from Health Data Research UK (HDR UK), with self-paced expert-led courses, over 100 short videos and live events on health data science. Courses cover topics such as accessing health data, databases and research software engineering. Courses are free, but some modules charge for a certificate.
+  links:
+  - name: Website
+    url: https://hdruklearn.org/
+    icon: fa-solid fa-globe
+  - name: About
+    url: https://www.hdruk.ac.uk/careers-in-health-data-science/futures/
+    icon: fa-solid fa-circle-info
+date: "2026-10-05T00:00:00+01:00"
+---
+
+[![HDR UK Futures Homepage](hdruk_futures.png)](https://hdruklearn.org/)
+
+Futures is a free online learning platform from [Health Data Research UK (HDR UK)](https://www.hdruk.ac.uk), the UK's national institute for health data science. In its own words:
+
+> Short videos, expert-led courses and live events - free to start, flexible to fit. Build the skills that healthcare and research need from you next.
+
+It is aimed at a wide range of learners, from students, early-career researchers and career changers to NHS clinicians, allied health professionals, analysts and informaticians, and people working in industry. The platform suggests where to start based on your role.
+
+Futures offers:
+
+* **Expert-led courses** - structured, self-paced courses designed and delivered by researchers, clinicians and practitioners
+* **Bite-sized videos** - over 100 short, focused videos
+* **Signposted training** - a curated map of training from across the health data ecosystem
+* **Events** - live events run by people from the NHS, industry and universities
+
+The course catalogue changes over time, but examples of courses likely to be of interest to analysts and data scientists include:
+
+* Accessing Health Data
+* Databases for Health Data
+* Research Software Engineering
+
+Browse the [full list of courses](https://hdruklearn.org/) on the platform.
+
+Most of the content is free to access, though you need to register for a free account. Courses are checked and approved by HDR UK.
+
+::: {.callout-note}
+While the courses themselves are free, for some modules you have to pay if you want a certificate of completion.
+:::
+
+## Visit the platform
+
+To visit Futures, click on the image above or go to <https://hdruklearn.org/>.
