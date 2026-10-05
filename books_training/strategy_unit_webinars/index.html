@@ -87,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-year','listing-event','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-year','listing-event','listing-duration','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
       page: 25,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-year","listing-event","listing-description"],
@@ -640,6 +640,9 @@ new FinisherHeader({
       <option value="listing-event" data-direction="asc">
         Series
       </option>
+      <option value="listing-duration" data-direction="asc">
+        Duration
+      </option>
     </select>
   </div>
     <div class="input-group input-group-sm quarto-listing-filter">
@@ -664,6 +667,10 @@ new FinisherHeader({
 </th>
 
 <th>
+<a class="sort" data-sort="listing-duration" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Duration</a>
+</th>
+
+<th>
 Details
 </th>
 
@@ -682,6 +689,9 @@ Details
 <span class="listing-event">SU Insights</span>
 </td>
 <td>
+<span class="listing-duration">00:58:07</span>
+</td>
+<td>
 <span class="listing-description">Join the Strategy Unit for the next session in the Neighbourhood INSIGHTS series, exploring how evidence and analysis can support the shift from hospital to community. The NHS is developing its approach to neighbourhood working. Together with partners in other services and sectors, it is devising…</span>
 </td>
 
@@ -696,6 +706,9 @@ Details
 </td>
 <td>
 <span class="listing-event">SU Insights</span>
+</td>
+<td>
+<span class="listing-duration">00:58:42</span>
 </td>
 <td>
 <span class="listing-description">Neighbourhoods INSIGHTS’ Series -The risks of risk stratification in neighbourhood health The theory behind risk stratification is seductive. Almost irresistible in fact. It is that running algorithms over (mainly) primary care data will allow services to spot individual patients at high risk of…</span>
@@ -714,6 +727,9 @@ Details
 <span class="listing-event">SU Insights</span>
 </td>
 <td>
+<span class="listing-duration">00:59:07</span>
+</td>
+<td>
 <span class="listing-description">‘Neighbourhood INSIGHTS’ series - Looking back, looking forward What the past and the future tell us about neighbourhood health</span>
 </td>
 
@@ -728,6 +744,9 @@ Details
 </td>
 <td>
 <span class="listing-event">SU Insights</span>
+</td>
+<td>
+<span class="listing-duration">01:00:13</span>
 </td>
 <td>
 <span class="listing-description">This event in collaboration with the Health Foundation featuring Professor Trish Greenhalgh and experts explored the critical questions on the downsides of digital, drawing on research to reflect the implications of digital technology in health and care. There is widespread enthusiasm for the use…</span>
@@ -746,6 +765,9 @@ Details
 <span class="listing-event">SU Insights</span>
 </td>
 <td>
+<span class="listing-duration">01:29:26</span>
+</td>
+<td>
 <span class="listing-description">The inaugural ‘SU Insights’ session explore the evolving landscape of “Contracting for health outcomes”. The concept of outcomes-based commissioning was a hot topic in health policy around 15 years ago. Innovative contracting models were promoted as a way to transform the way services were paid…</span>
 </td>
 
@@ -760,6 +782,9 @@ Details
 </td>
 <td>
 <span class="listing-event">SU Insights</span>
+</td>
+<td>
+<span class="listing-duration">00:58:09</span>
 </td>
 <td>
 <span class="listing-description">Event 3: Is ‘Do With’ the essence of neighbourhood health? Neighbourhood health is often discussed in terms of services: how they are structured, funded and delivered. But at its heart, it is about something more fundamental - relationships. In particular, the relationships between services and the…</span>
@@ -778,6 +803,9 @@ Details
 <span class="listing-event">NNHIP evaluation and analysis community of practice</span>
 </td>
 <td>
+<span class="listing-duration">00:55:43</span>
+</td>
+<td>
 <span class="listing-description">NNHIP Evaluation and Analysis CoP: Drop in Sesssion NNHIP Care Shift Tracker - 04.03.26 In this Evaluation and Analysis Community of Practice drop-in session, there was and demo of a tool that is being developed to offer a system-wide view using a range of indicators to help spot emerging patterns,…</span>
 </td>
 
@@ -792,6 +820,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NNHIP evaluation and analysis community of practice</span>
+</td>
+<td>
+<span class="listing-duration">00:46:38</span>
 </td>
 <td>
 <span class="listing-description">Topic: Where are the opportunities to shift care from acute hospitals, in my Place? In this Evaluation and Analysis Community of Practice drop-in session, there was and demo of a tool that is being developed to help identify the types of hospital activity that could be done in a different way or…</span>
@@ -810,6 +841,9 @@ Details
 <span class="listing-event">NNHIP evaluation and analysis community of practice</span>
 </td>
 <td>
+<span class="listing-duration">01:02:01</span>
+</td>
+<td>
 <span class="listing-description">Topic: NNHIP Measurement Guide Q&amp;A session In this second Evaluation and Analysis Community of Practice drop-in session, we covered key questions, and next steps, around the Measurement Guide and the Neighbourhood Index. About The Evaluation and Analysis Community of Practice (CoP) is part of the…</span>
 </td>
 
@@ -824,6 +858,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NNHIP evaluation and analysis community of practice</span>
+</td>
+<td>
+<span class="listing-duration">00:39:45</span>
 </td>
 <td>
 <span class="listing-description">The National Neighbourhood Health Implementation Programme (NNHIP) Evaluation and Analysis Community of Practice (CoP), has been set up as part of the NNHIP Intelligence Centre. This CoP has been created directly in response to feedback that it would be helpful to have a dedicated space for local…</span>
@@ -842,6 +879,9 @@ Details
 <span class="listing-event">ICS intelligence functions</span>
 </td>
 <td>
+<span class="listing-duration">00:29:54</span>
+</td>
+<td>
 <span class="listing-description">Hear what Midlands Decision Support Network and Black Country ICS had to say about developing an Intelligence Function, webinar on 04/05/22</span>
 </td>
 
@@ -856,6 +896,9 @@ Details
 </td>
 <td>
 <span class="listing-event">ICS intelligence functions</span>
+</td>
+<td>
+<span class="listing-duration">00:34:26</span>
 </td>
 <td>
 <span class="listing-description">Hear what Kent and Medway ICS had to say about developing their Intelligence Function, webinar on 20/05/22</span>
@@ -874,6 +917,9 @@ Details
 <span class="listing-event">ICS intelligence functions</span>
 </td>
 <td>
+<span class="listing-duration">00:39:23</span>
+</td>
+<td>
 <span class="listing-description">Hear what the Local knowledge &amp; Intelligence Service had to say about developing an Intelligence Function, webinar on 06/05/22</span>
 </td>
 
@@ -888,6 +934,9 @@ Details
 </td>
 <td>
 <span class="listing-event">ICS intelligence functions</span>
+</td>
+<td>
+<span class="listing-duration">00:28:20</span>
 </td>
 <td>
 <span class="listing-description">Hear what South West London had to say about developing their Intelligence Function, webinar on 03/05/22</span>
@@ -906,6 +955,9 @@ Details
 <span class="listing-event">ICS intelligence functions</span>
 </td>
 <td>
+<span class="listing-duration">00:05:58</span>
+</td>
+<td>
 <span class="listing-description">ICS Intelligence Functions (IF) have been described as part of the ICS infrastructure in NHSE/I’s Integrating Care, and the ICS Design Framework. NHSE/I are set to release guidance to systems to support their IF journey. This includes further detail on what an IF is, what they should look like, and…</span>
 </td>
 
@@ -920,6 +972,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Decision Support Units</span>
+</td>
+<td>
+<span class="listing-duration">00:10:23</span>
 </td>
 <td>
 <span class="listing-description">&nbsp;</span>
@@ -938,6 +993,9 @@ Details
 <span class="listing-event">Decision Support Units</span>
 </td>
 <td>
+<span class="listing-duration">00:08:40</span>
+</td>
+<td>
 <span class="listing-description">&nbsp;</span>
 </td>
 
@@ -952,6 +1010,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Decision Support Units</span>
+</td>
+<td>
+<span class="listing-duration">00:09:53</span>
 </td>
 <td>
 <span class="listing-description">&nbsp;</span>
@@ -970,6 +1031,9 @@ Details
 <span class="listing-event">Decision Support Units</span>
 </td>
 <td>
+<span class="listing-duration">00:50:31</span>
+</td>
+<td>
 <span class="listing-description">&nbsp;</span>
 </td>
 
@@ -984,6 +1048,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Decision Support Units</span>
+</td>
+<td>
+<span class="listing-duration">00:32:46</span>
 </td>
 <td>
 <span class="listing-description">&nbsp;</span>
@@ -1002,6 +1069,9 @@ Details
 <span class="listing-event">Decision Support Units</span>
 </td>
 <td>
+<span class="listing-duration">00:48:48</span>
+</td>
+<td>
 <span class="listing-description">&nbsp;</span>
 </td>
 
@@ -1016,6 +1086,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Population health management</span>
+</td>
+<td>
+<span class="listing-duration">00:03:47</span>
 </td>
 <td>
 <span class="listing-description">Fraser Battye, Programme Director, provides an overview of the Midlands PHM Academy</span>
@@ -1034,6 +1107,9 @@ Details
 <span class="listing-event">Population health management</span>
 </td>
 <td>
+<span class="listing-duration">00:36:35</span>
+</td>
+<td>
 <span class="listing-description">Fraser Battye and Lucy Hawkins share their reflections on the programme. This webinar forms part of our ‘lessons learned’ series</span>
 </td>
 
@@ -1048,6 +1124,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Population health management</span>
+</td>
+<td>
+<span class="listing-duration">00:54:43</span>
 </td>
 <td>
 <span class="listing-description">The third in our summer webinar series. Al Mulley talks about how we can learn from variation warranted and unwarranted, to deliver what is valued.</span>
@@ -1066,6 +1145,9 @@ Details
 <span class="listing-event">Population health management</span>
 </td>
 <td>
+<span class="listing-duration">01:01:34</span>
+</td>
+<td>
 <span class="listing-description">An introduction to Qualitative Methods with Dr Abeda Mulla from the Strategy Unit</span>
 </td>
 
@@ -1080,6 +1162,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Population health management</span>
+</td>
+<td>
+<span class="listing-duration">00:46:30</span>
 </td>
 <td>
 <span class="listing-description">The first in our 2019 Summer webinar series, Professor Sir Muir Gray explains his five key tasks for Population Health Management.</span>
@@ -1098,6 +1183,9 @@ Details
 <span class="listing-event">Population health management</span>
 </td>
 <td>
+<span class="listing-duration">00:06:11</span>
+</td>
+<td>
 <span class="listing-description">Muir Gray and Robin Miller discuss what we mean by community, how that is changing with technology and the implications for health and social care.</span>
 </td>
 
@@ -1112,6 +1200,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Population health management</span>
+</td>
+<td>
+<span class="listing-duration">00:52:01</span>
 </td>
 <td>
 <span class="listing-description">An introduction to using evidence in Health and Social Care with Alison Turner</span>
@@ -1130,6 +1221,9 @@ Details
 <span class="listing-event">Population health management</span>
 </td>
 <td>
+<span class="listing-duration">00:54:49</span>
+</td>
+<td>
 <span class="listing-description">An introduction to Logic Models with Fraser Battye, The Strategy Unit.</span>
 </td>
 
@@ -1144,6 +1238,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Population health management</span>
+</td>
+<td>
+<span class="listing-duration">00:24:10</span>
 </td>
 <td>
 <span class="listing-description">As part of our Academy webinar series, Nicola Dennis from Public Health England provides an introduction to the Population Health Management tools available from PHE.</span>
@@ -1162,6 +1259,9 @@ Details
 <span class="listing-event">Population health management</span>
 </td>
 <td>
+<span class="listing-duration">00:55:56</span>
+</td>
+<td>
 <span class="listing-description">Professor Mohammed A Mohammed has continued the series of the Midlands PHM Academy with his webinar on Systems thinking and the Science of Improvement.</span>
 </td>
 
@@ -1176,6 +1276,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Population health management</span>
+</td>
+<td>
+<span class="listing-duration">00:04:29</span>
 </td>
 <td>
 <span class="listing-description">Professor Robin Miller gives his perspective on the value of PHM as a practice.</span>
@@ -1194,6 +1297,9 @@ Details
 <span class="listing-event">Population health management</span>
 </td>
 <td>
+<span class="listing-duration">00:04:39</span>
+</td>
+<td>
 <span class="listing-description">Professor Sir Muir Gray gives his perspectives on the value of PHM as a practice.</span>
 </td>
 
@@ -1208,6 +1314,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Population health management</span>
+</td>
+<td>
+<span class="listing-duration">00:17:53</span>
 </td>
 <td>
 <span class="listing-description">Professor Mohammed A Mohammed gives his perspective on the value of PHM as a practice.</span>
@@ -1226,6 +1335,9 @@ Details
 <span class="listing-event">Population health management</span>
 </td>
 <td>
+<span class="listing-duration">00:04:32</span>
+</td>
+<td>
 <span class="listing-description">Professor Albert Mulley gives his perspective on the value of PHM as a practise.</span>
 </td>
 
@@ -1240,6 +1352,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Population health management</span>
+</td>
+<td>
+<span class="listing-duration">00:51:22</span>
 </td>
 <td>
 <span class="listing-description">An introduction to Systems Leadership with Belinda Weir from the Centre for Health and Care Leadership at the University of Birmingham.</span>
@@ -1258,6 +1373,9 @@ Details
 <span class="listing-event">Population health management</span>
 </td>
 <td>
+<span class="listing-duration">00:38:34</span>
+</td>
+<td>
 <span class="listing-description">The fourth in our summer series, Professor Jon Glasby and Robin Miller discuss the importance of joint work between the NHS and local government, and why local government matters to population health management.</span>
 </td>
 
@@ -1272,6 +1390,9 @@ Details
 </td>
 <td>
 <span class="listing-event">End of life analysis</span>
+</td>
+<td>
+<span class="listing-duration">00:05:08</span>
 </td>
 <td>
 <span class="listing-description">&nbsp;</span>
@@ -1290,6 +1411,9 @@ Details
 <span class="listing-event">End of life analysis</span>
 </td>
 <td>
+<span class="listing-duration">00:07:15</span>
+</td>
+<td>
 <span class="listing-description">&nbsp;</span>
 </td>
 
@@ -1304,6 +1428,9 @@ Details
 </td>
 <td>
 <span class="listing-event">End of life analysis</span>
+</td>
+<td>
+<span class="listing-duration">00:10:51</span>
 </td>
 <td>
 <span class="listing-description">&nbsp;</span>
@@ -1322,6 +1449,9 @@ Details
 <span class="listing-event">End of life analysis</span>
 </td>
 <td>
+<span class="listing-duration">00:13:43</span>
+</td>
+<td>
 <span class="listing-description">&nbsp;</span>
 </td>
 
@@ -1336,6 +1466,9 @@ Details
 </td>
 <td>
 <span class="listing-event">End of life analysis</span>
+</td>
+<td>
+<span class="listing-duration">00:08:44</span>
 </td>
 <td>
 <span class="listing-description">&nbsp;</span>

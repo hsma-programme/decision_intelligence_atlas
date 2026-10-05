@@ -87,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-year','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-year','listing-duration','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
       page: 25,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-year","listing-description"],
@@ -637,6 +637,9 @@ new FinisherHeader({
       <option value="listing-year" data-direction="asc">
         Year
       </option>
+      <option value="listing-duration" data-direction="asc">
+        Duration
+      </option>
     </select>
   </div>
     <div class="input-group input-group-sm quarto-listing-filter">
@@ -657,6 +660,10 @@ new FinisherHeader({
 </th>
 
 <th>
+<a class="sort" data-sort="listing-duration" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Duration</a>
+</th>
+
+<th>
 Details
 </th>
 
@@ -672,6 +679,9 @@ Details
 <span class="listing-year">2026</span>
 </td>
 <td>
+<span class="listing-duration">00:46:26</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: 17/09/2026 Topic: From Insight to Impact: The Midlands Prevention Pathway Toolkit With Dr Su Xavier, NHS England – Midlands Dr Su Xavier will explore how the Midlands Prevention Pathway Toolkit uses evidence and intelligence to support prevention at scale, reduce health inequalities and…</span>
 </td>
 
@@ -683,6 +693,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-duration">00:56:54</span>
 </td>
 <td>
 <span class="listing-description">NAN Huddle: 03.09.26 Topic: Making more strategic use of analysis: what has to be true if analysts are to play a fuller role in decision making? With Fraser Battye and Charles Tallack Fraser Battye and Charles Tallack will explore the opportunities being created for analysts by strategic…</span>
@@ -698,6 +711,9 @@ Details
 <span class="listing-year">2026</span>
 </td>
 <td>
+<span class="listing-duration">00:51:26</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: - 20/08/2026 Topic: Hospital Admission Thresholds, the Left Shift, and Why Admission Avoidance Schemes May Not Reduce Bed Occupancy With Andrew Jones and Steven Wyatt, The Strategy Unit If admission avoidance and left shift successfully free up hospital beds… what stops those beds…</span>
 </td>
 
@@ -709,6 +725,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-duration">00:48:34</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 06/08/2026 Topic: Do we need more hospital beds? With Lucy Morgan, Head of Analytics and Modelling at the Strategy Unit For more than 30 years, hospital admissions have risen while bed numbers have fallen. A major reason this has been possible is the remarkable reduction in average…</span>
@@ -724,6 +743,9 @@ Details
 <span class="listing-year">2026</span>
 </td>
 <td>
+<span class="listing-duration">00:53:03</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: 25/06/2026 Topic: From Analyst to Professional: Inside AphA and its Specialist Networks With Jane Johnston (Co-CEO, AphA) and Corielyn Bromley (Executive Director of Continued Professional Development, AphA) In this session, we’ll explore the changing professional landscape for people…</span>
 </td>
 
@@ -735,6 +757,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-duration">00:52:07</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 23.07.26 Topic: Enterprise Risk Management (ERM) + Decision Quality With Deb Lessard, Director of Corporate Risk Management Excellence at the University of Pittsburgh Medical Centre (UPMC) Deb brings more than 30 years of experience across healthcare risk management, patient safety,…</span>
@@ -750,6 +775,9 @@ Details
 <span class="listing-year">2026</span>
 </td>
 <td>
+<span class="listing-duration">00:55:48</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: 11/06/26 Topic: A deeper look at failure demand in healthcare With Alison Turner, Head of Knowledge Mobilisation, The Strategy Unit In this Huddle, Alison Turner, Head of Knowledge Mobilisation, will take a deeper, more analyst-focused look at failure demand in healthcare, following the…</span>
 </td>
 
@@ -761,6 +789,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-duration">00:48:44</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 28/05/2026 Topic: The Art of the Adjacent Possible * With Neil Pettinger, Kurtosis During this Huddle Neil will explore if we can find data clues within existing practice that suggest improvements in patient flow might be more within our grasp than we think? Patient flow continues to be…</span>
@@ -776,6 +807,9 @@ Details
 <span class="listing-year">2026</span>
 </td>
 <td>
+<span class="listing-duration">00:51:13</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle - 14/05/2026 Topic: Data reflections from the domestic abuse portfolio With Nicola Dennis, Consultant in Public Health, and Sophie Ross, Public Health Practitioner (Analyst), Isle of Wight Council In this session, Nicola and Sophie, Isle of Wight Council, will reflect on their work…</span>
 </td>
 
@@ -787,6 +821,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-duration">00:53:44</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle - 30/04/2026 Topic: How to evaluate healthcare policy: from data to interpretation With Professor Alex Bottle, Professor of Medical Statistics at Imperial College London In this session, Professor Alex Bottle will explore how to evaluate healthcare policy - from framing the research…</span>
@@ -802,6 +839,9 @@ Details
 <span class="listing-year">2026</span>
 </td>
 <td>
+<span class="listing-duration">00:51:37</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle 16.04.26 Topic: Chart with Purpose With Simon Wellesley-Miller, Senior Analytical Manager NHS England Data visualisation is a powerful tool, yet poorly designed charts frequently mislead or fail to communicate key insights, leading to flawed decision-making. This workshop presentation,…</span>
 </td>
 
@@ -813,6 +853,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-duration">00:52:48</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 02.04.26 Topic: Socio-economic deprivation and changes in self-reported health over a decade With Freya Tracey (The Health Foundation) and Rhian Davey (Office for National Statistics) In this session, Freya Tracey (The Health Foundation) and Rhian Davey (Office for National Statistics)…</span>
@@ -828,6 +871,9 @@ Details
 <span class="listing-year">2026</span>
 </td>
 <td>
+<span class="listing-duration">00:55:28</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: 19/03/26 Topic: Discharged without a diagnosis: what does it mean for patients, providers and improvement? With Andrew Jones, Senior Healthcare Analyst and Steven Wyatt, Head of Research and Policy (Strategy Unit) This session will explore a large but often overlooked group of emergency…</span>
 </td>
 
@@ -839,6 +885,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-duration">00:51:45</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 05/03/2026 Topic: Building an open source model to understand future demand in CKD/KRT pathways with Strategy Unit colleagues In this session we will introduce our renal demand and capacity model (Kidney-SCOPE) and how we are developing it using the principles of open-science.…</span>
@@ -854,6 +903,9 @@ Details
 <span class="listing-year">2026</span>
 </td>
 <td>
+<span class="listing-duration">00:46:46</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: 19/02/2026 Topic: Using data to inform the role of a specialist children’s hospital in the left shift With Izaak Gilchrist. Senior Analyst at Edge Health As healthcare systems transition toward neighbourhood-based care, specialist children’s hospitals must define their role. This…</span>
 </td>
 
@@ -865,6 +917,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-duration">00:54:29</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle 05.02.26 Topic: Maximising the use of ethnicity data – developing a guide for analysts With Mike Woodall, Analytics Manager, The Strategy Unit High-quality ethnicity data is essential for identifying, understanding and addressing inequalities across health and care. Yet many analysts…</span>
@@ -880,6 +935,9 @@ Details
 <span class="listing-year">2026</span>
 </td>
 <td>
+<span class="listing-duration">00:51:38</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: 22/01/2026 Topic: What hospital activity could be done differently? With Sarah Lucas, Healthcare Analyst, Strategy Unit In this session, Sarah Lucas (Healthcare Analyst, Strategy Unit) will introduce new work exploring the scale, trends and regional variation of potentially mitigable…</span>
 </td>
 
@@ -891,6 +949,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-duration">00:49:38</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 08/01/2026 Topic: From hospital to community: shifting care or swimming uphill? With Fraser Battye, Head of Policy at the Strategy Unit The shift from hospital to community is one of the three main aims of current health policy. This is not new. Indeed, the desire for a less…</span>
@@ -906,6 +967,9 @@ Details
 <span class="listing-year">2025</span>
 </td>
 <td>
+<span class="listing-duration">00:52:53</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: 11/12/25 Topic: An Analyst’s Perspective on the Federated Data Platform With Matt Oakes, Head of Intelligence &amp; Analytics at Sherwood Forest Hospitals Matt will share an analyst’s view of the Federated Data Platform (FDP) - what it is, what it means in practice, and how it may support…</span>
 </td>
 
@@ -917,6 +981,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-duration">00:55:50</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 27/11/25 Topic: The Networked Data Lab - What can linked data tell us about the elective care waiting list? With Tom Prendergast, Senior Data Analyst (The Health Foundation), Anna Palczewska, Senior Data Scientist and Josh Elvidge-Murgatroyd, Data Engineer/ Analyst (West Yorkshire ICB)…</span>
@@ -932,6 +999,9 @@ Details
 <span class="listing-year">2025</span>
 </td>
 <td>
+<span class="listing-duration">00:52:42</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: 13/11/25 Topic: The impact of NHS waiting lists on patient decisions to privately fund treatment with Steven Wyatt, Head of Research and Policy at the Strategy Unit How many people privately purchase hip and knee replacement surgery? Who are these patients and how are their decisions…</span>
 </td>
 
@@ -943,6 +1013,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-duration">00:50:21</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 30/10/25 Topic: National Competency Framework – 2 Years on. Where are the adopters now? With Sarah Blundell, Lead for Data and Analytical Development, and Andy Lavelle, Senior Manager for Analytical Professionalisation (NHS England) Sarah Blundell, Lead for Data and Analytical…</span>
@@ -958,6 +1031,9 @@ Details
 <span class="listing-year">2025</span>
 </td>
 <td>
+<span class="listing-duration">01:01:29</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: 16/10/2025 Topic: The Accidental Project Manager With Jo Stanford, CEO, Healthcare Project and Change Association (HPCA) In this session you will learn about the Healthcare Project and Change Association (HPCA) and the key role that analysts (and non-analysts) have in delivering…</span>
 </td>
 
@@ -969,6 +1045,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-duration">00:59:03</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 02/10/25 Topic: Heaviness past, heaviness present and heaviness future: measuring, describing and finding solutions to exit block in acute hospitals. With Neil Pettinger (Kurtosis) Exit block – when patients can’t leave emergency departments because of a lack of empty beds – is a major…</span>
@@ -984,6 +1063,9 @@ Details
 <span class="listing-year">2025</span>
 </td>
 <td>
+<span class="listing-duration">00:53:39</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle - 07/08/2025 Topic: Simplifying statistical process control with I-prime charts With In this Huddle, you will be introduced to the I-prime (I’) chart – a new and improved SPC tool that retains the simplicity of the I chart while addressing its limitations. It handles both measurement and…</span>
 </td>
 
@@ -995,6 +1077,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-duration">00:48:28</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 18.09.25 Topic: ‘I wish I was macho instead of just deep’ With Marc Farr - Analytical Officer at East Kent Hospitals University NHSFT Marc Farr will give his latest thoughts on the role of the analytical leader in the current ever-changing NHS data landscape. While there is increased…</span>
@@ -1010,6 +1095,9 @@ Details
 <span class="listing-year">2025</span>
 </td>
 <td>
+<span class="listing-duration">00:52:24</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle 04/09/25 Topic: Introducing the Strategy Unit Demand Model: sizing hospitals &amp; shifting care closer to home With Chris Beeley, Head of Data Science, The Strategy Unit Introducing the Strategy Unit Demand Model: an award-winning, open-source tool developed with the New Hospital Programme,…</span>
 </td>
 
@@ -1021,6 +1109,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-duration">00:50:37</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 24/07/2025 Topic: ‘Rules of Thumb’ for assessing the quality of analysis With Fraser Battye (Strategy Unit) and Danielle Jefferies (The Kings Fund) How do you assess the quality of analytical work? When you first receive a report, what are the first signs and signals you are looking…</span>
@@ -1036,6 +1127,9 @@ Details
 <span class="listing-year">2025</span>
 </td>
 <td>
+<span class="listing-duration">00:49:20</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: 10/07/2025 Topic: Understanding the costs and benefits of interventions in cervical cancer With: Lisa Cummins, Lead Health Economist at the Health Economics Unit Lisa will share a great example of how using a health economics model can measure the impact of interventions. This session…</span>
 </td>
 
@@ -1047,6 +1141,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-duration">00:49:41</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 26/05/25 Topic: Humans, AI and the Importance of Data Literacy’ With Dan Isaac, Data Literacy &amp; Training Lead, Exeter University Everyone is talking about AI, but people aren’t talking about the humans that use AI and the data that fuels it. In this talk, Dan aims to correct that by…</span>
@@ -1062,6 +1159,9 @@ Details
 <span class="listing-year">2025</span>
 </td>
 <td>
+<span class="listing-duration">00:52:04</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle - 12/06/2025 Topic: Reshaping the pattern of care - Sizing and exploring the left shift challenge With Jennifer Wood and Justine Wiltshire, The Strategy Unit Presenting findings from her and other colleagues’ latest modelling work and policy review. Jennifer and Justine will present…</span>
 </td>
 
@@ -1073,6 +1173,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-duration">00:53:50</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 29/05/2025 Topic: How we are using data in Leicester, Leicestershire &amp; Rutland, to drive transformation of urgent and emergency care services With Janine Dellar, Head of Strategic Business Intelligence and George MacDonald, Data Scientist Janine Dellar, Head of Strategic Business…</span>
@@ -1088,6 +1191,9 @@ Details
 <span class="listing-year">2025</span>
 </td>
 <td>
+<span class="listing-duration">00:51:06</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: 15/05/25 Topic: An introduction to problem structuring With Steven Wyatt (Strategy Unit) We are delighted to welcome back, Steven Wyatt, Head of Research and Policy at the Strategy Unit, who will introduce the concept of problem structuring, an essential skill for healthcare analysts.…</span>
 </td>
 
@@ -1099,6 +1205,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-duration">00:50:59</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 01/05/2025 Topic: An update AphA (Association of Professional Healthcare Analysts) With Jane Johnston (Co-CEO) and Jeannette Fraser (AphA SE Branch Lead &amp; WIHD Network Committee Lead) An update on everything AphA - the aims, the story so far, the regional networks, the…</span>
@@ -1114,6 +1223,9 @@ Details
 <span class="listing-year">2025</span>
 </td>
 <td>
+<span class="listing-duration">00:46:13</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: 17/04/2025 Topic: Evaluating the Heart Failure Targeted Funding Programme 2023/24 (Strategy Unit) With: Faizan Mahmood and Andre Bilbrough, The Strategy Unit Find out more about the Strategy Unit’s recent evaluation of the Heart Failure Targeted Funding Programme 2023/24. This…</span>
 </td>
 
@@ -1125,6 +1237,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-duration">00:51:12</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 03/04/2025 Topics: Toy models – Complex problems in small packages! and How much healthcare will our population need in five, ten, 20 years’ time?” With Andy Hood and Lucy Morgan, and Paul Seamer, from the Strategy Unit Toy models – Complex problems in small packages! Often analysts…</span>
@@ -1140,6 +1255,9 @@ Details
 <span class="listing-year">2025</span>
 </td>
 <td>
+<span class="listing-duration">00:51:34</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: 20/03/25 Topic: Updates from the Warwickshire Joint Strategic Needs Assessment (JSNA) With Michael Maddocks Programme Manager – JSNA, Warwickshire CC In last August’s huddle, colleagues from Warwickshire County Council shared their experiences of producing the Empowering Futures:…</span>
 </td>
 
@@ -1151,6 +1269,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-duration">00:50:00</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 20/02/2025 Topic: Public expenditure in the last year of life - Nuffield Trust &amp; Health Economics Unit With Lisa Cummins and Gayathri Kumar, Health Economics Unit Supporting people at the end of life is a crucially important element of public spending, yet there is remarkably little…</span>
@@ -1166,6 +1287,9 @@ Details
 <span class="listing-year">2025</span>
 </td>
 <td>
+<span class="listing-duration">00:53:02</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: 06/02/2025 Topic: Making Data Count: What is it and why should I know about it? With Adam Smith, Making Data Count team Learn more about Statistical Process Control charts - an introduction/reminder as well as an update of all that has, and continues to be achieved, by the Making Data…</span>
 </td>
 
@@ -1177,6 +1301,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-duration">00:56:36</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 23/01/2025 Process Mining in Healthcare – Opportunities and Challenges With Owen Johnson, Director of Impact, School of Computer Science, University of Leeds Find out more about the opportunities and challenges for using Process Mining in healthcare. The NHS needs shorter waiting lists…</span>
@@ -1192,6 +1319,9 @@ Details
 <span class="listing-year">2024</span>
 </td>
 <td>
+<span class="listing-duration">00:59:05</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: 12/12/24 Topic: COMPLEX-IT: Enabling Non-Experts to Leverage Advanced Computational Modelling for Policy Evaluation and Decision Making With Brian Castellani, PhD. FAcSS, Professor of Social and Public Health, Director, Research Methods Centre, Co-Director, Wolfson Research Institute…</span>
 </td>
 
@@ -1203,6 +1333,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-duration">00:51:59</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 28/11/24 Topic: HDR UK Midlands – Building a regional data science network With Kevin Dunn, HDR UK Programme Manager Find out about Health Data Research UK Midlands. Kevin Dunn, who manages this network, will give us an overview of what they are trying to achieve through advancing…</span>
@@ -1218,6 +1351,9 @@ Details
 <span class="listing-year">2024</span>
 </td>
 <td>
+<span class="listing-duration">00:48:46</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: 14/11/2024 Topic: Ordinance Survey (OS) Data supporting local health • Overview of the Public Sector Geospatial Agreement (PSGA), of the data and service available and what support is available. • Introduction to the new data available via the National Geographic Database (NGD).…</span>
 </td>
 
@@ -1229,6 +1365,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-duration">00:51:50</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 31/10/24 Topic: NHSquicker: Shaping Demand for Urgent Care Using Real-Time Data and Digital Nudges With Nav Mustafee, Professor of Operations Management and Analytics at the University of Exeter Business School This research and impact work investigates whether indirect suggestions…</span>
@@ -1244,6 +1383,9 @@ Details
 <span class="listing-year">2024</span>
 </td>
 <td>
+<span class="listing-duration">00:47:15</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: 17/10/24 Topic: Modelling Long-Term Changes in Population Health State and Associated Healthcare Resource Requirements With Luke Shaw (NHS Bristol, North Somerset and South Gloucestershire ICB) Find out more about the mathematical model, which has already influenced financial decisions…</span>
 </td>
 
@@ -1255,6 +1397,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-duration">00:52:42</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 03/10/24 Topic: The National Competency Framework - one year on with Sarah Blundell and Andrew Lavelle (NHSE) One year and a day since the National Competency Framework was launched in Stoke. And the team have been busy! From 15 to 55 teams/organisations have signed up in the last year…</span>
@@ -1270,6 +1415,9 @@ Details
 <span class="listing-year">2024</span>
 </td>
 <td>
+<span class="listing-duration">00:51:37</span>
+</td>
+<td>
 <span class="listing-description">MAN: 05/09/24 Topic: Health equity and the humaniverse With Dr Matt Thomas (Head of Strategic Insight &amp; Foresight at British Red Cross) The British Red Cross helps people in the UK receive the care and support they need without falling through gaps in the health and care system. To help our Health…</span>
 </td>
 
@@ -1281,6 +1429,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-duration">00:49:58</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 22/08/24 Topic: The Empowering Futures, Growing Up Well in Warwickshire, joint Strategic Needs Assessment (JSNA) With Michael Maddocks, Matthew Head, and Thomas Mansbridge (Warwickshire County Council) Empowering Futures joint Strategic Needs Assessment (JSNA) The Empowering Futures,…</span>
@@ -1296,6 +1447,9 @@ Details
 <span class="listing-year">2024</span>
 </td>
 <td>
+<span class="listing-duration">00:46:08</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: 08/08/24 Topic: Health inequalities in 2040: Current and future patterns of inequalities in illness in England With Ann Raymond, The Health Foundation On current trends, health inequalities are projected to persist into the future. This has significant implications not just for…</span>
 </td>
 
@@ -1307,6 +1461,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-duration">00:47:51</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 11/07/24 Topic: What are the impacts of poor questions from decision makers, and how do we improve this? With Rachel Caswell (The Strategy Unit) and Andrew Lavelle, Senior Manager, Analytical Professionalisation (NHS England) Both the 2022 and 2023 AnalystX Observatory Surveys asked…</span>
@@ -1322,6 +1479,9 @@ Details
 <span class="listing-year">2024</span>
 </td>
 <td>
+<span class="listing-duration">00:48:03</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: 27/06/24 Topic: Describing general practice staffing mix using latent profile analysis With Alex Lawless, The Health Foundation General practices in England are currently facing major workforce pressures and rising demand for services. There is interest in understanding whether skill…</span>
 </td>
 
@@ -1333,6 +1493,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-duration">00:52:23</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 13/06/24 Topic: How much healthcare will our population need in 5, 10, 20 years’ time? With Paul Seamer (Strategy Unit) How much healthcare will our population need in 5, 10, 20 years’ time? This is a staggeringly difficult question. By definition, the future is uncertain. And planning…</span>
@@ -1348,6 +1511,9 @@ Details
 <span class="listing-year">2024</span>
 </td>
 <td>
+<span class="listing-duration">01:02:41</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: 30/05/24 Topic: Forecasting in Retail and Healthcare – addressing common themes With Dr Bahman Rostami-Tabar who is Professor of Data-Driven Decision Science, Cardiff University and Dr Stephan Kolassa, Data Science Expert In this session our presenters will address forecasting in retail…</span>
 </td>
 
@@ -1359,6 +1525,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-duration">00:42:29</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 16/05/24 Topic: Assessing the impact of the specialist workforce in children and young people with epilepsy With Joe Lillington from the Health Economics Unit • Why this project is important and the need for more research into epilepsy. • Some of the key concepts behind the analytics…</span>
@@ -1374,6 +1543,9 @@ Details
 <span class="listing-year">2024</span>
 </td>
 <td>
+<span class="listing-duration">00:49:10</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: 02/05/24 Topic: Kent JSNA Cohort Model With Abraham George and Peter Lacey Hear how Kent County Council Public Health provides population health intelligence support for the local health system planning and decision making. With the help of external consultancy support, we have…</span>
 </td>
 
@@ -1385,6 +1557,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-duration">00:51:31</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 18/04/24 Topic: The National Competency Framework – an update With Sarah Blundell, Lead for Data and Analytical Development, NHSE, and Andy Lavelle, Senior Manager Analytical Professionalisation, NHSE The very latest news about the National Competency Framework (NCF) for Data…</span>
@@ -1400,6 +1575,9 @@ Details
 <span class="listing-year">2024</span>
 </td>
 <td>
+<span class="listing-duration">00:38:53</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: 04/04/24 Topic: How to automatically backup SQL Server Reporting Services (SSRS) reports With Chris Lee, Senior Information Analyst, Nottinghamshire Healthcare NHS Foundation Trust Changes are frequently made to SSRS reports where the original file is overwritten and there is no ability…</span>
 </td>
 
@@ -1411,6 +1589,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-duration">00:52:50</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 21/03/24 Topic: The 85% bed occupancy fallacy How useful is a bed occupancy target? With Nathan Proudlove, The University of Manchester This talk is in some ways a companion piece to Prof Neil Wilson’s talk on waiting list pressures, which used some insights from queuing theory models…</span>
@@ -1426,6 +1607,9 @@ Details
 <span class="listing-year">2024</span>
 </td>
 <td>
+<span class="listing-duration">00:49:26</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: 07/03/27 Topic: Using the Community Services Dataset (CSDS) to investigate variation in access to community services. With Andrew Jones, Senior Healthcare Analyst, The Strategy Unit Community services are a vital yet under-examined part of our health system. We know comparatively little…</span>
 </td>
 
@@ -1437,6 +1621,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-duration">00:50:03</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 22/02/24 How COVID activity and system responses impacted Urgent Care With Andy McCann, Lead Data Scientist at Midlands and Lancashire Commissioning Support Unit and Kelly Bishop, Assistant Director of Nursing and Urgent Care at Midlands and Lancashire Commissioning Support Unit#…</span>
@@ -1452,6 +1639,9 @@ Details
 <span class="listing-year">2024</span>
 </td>
 <td>
+<span class="listing-duration">00:48:08</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: 08/02/24 The gap between need and supply of GP practice consultations With Steven Wyatt (Strategy Unit) In a recent huddle, Steven Wyatt, Head of Research and Policy at the Strategy Unit described the long-term trends in GP practice consultation rates. In the next huddle, Steven will…</span>
 </td>
 
@@ -1463,6 +1653,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-duration">00:45:22</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 25/01/24 What’s driving increasing length of stay in hospitals since 2019? Health Foundation Analysis With Andrew Mooney (The Health Foundation) Since the COVID-19 pandemic, fewer patients have been admitted for treatment in NHS hospitals. However, those admitted are spending longer in…</span>
@@ -1478,6 +1671,9 @@ Details
 <span class="listing-year">2024</span>
 </td>
 <td>
+<span class="listing-duration">01:17:38</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: 11/01/24 Long term trends in GP practice consultation rates With Steven Wyatt, Head of Research and Policy at the Strategy Unit Steven Wyatt, Head of Research and Policy at the Strategy Unit, presents the results of a recent analysis estimating GP practice consultation rates in England…</span>
 </td>
 
@@ -1489,6 +1685,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2023</span>
+</td>
+<td>
+<span class="listing-duration">00:52:32</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 14/12/23 Introduction to Adult Social Care Client Level Data (CLD) With Ross Bailey (West Midlands ADASS) and Jenny Neuburger (DHSC) Ross Bailey (West Midlands ADASS) and Jenny Neuburger (DHSC) will be giving us an introduction to client level data, and a basic overview of the…</span>
@@ -1504,6 +1703,9 @@ Details
 <span class="listing-year">2023</span>
 </td>
 <td>
+<span class="listing-duration">00:50:38</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: 30/11/23 Find the Future in You – The Health Service Modelling Associates Programme With Dr Daniel Chalk (HSMA Programme Lead) and Sammi Rosser (HSMA Trainer) In 2016, the Health Service Modelling Associates (HSMA) Programme ( was launched in South West England as a way to provide…</span>
 </td>
 
@@ -1515,6 +1717,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2023</span>
+</td>
+<td>
+<span class="listing-duration">00:49:29</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 16/11/23 Reducing inequalities in elective care with Dr.&nbsp;Kate Warren who is a Consultant in Public Health, and Jason Gwinnett who works in Public Health Intelligence (City of Wolverhampton Council and The Royal Wolverhampton NHS Trust). Following Steven Wyatt’s (Strategy Unit) report on…</span>
@@ -1530,6 +1735,9 @@ Details
 <span class="listing-year">2023</span>
 </td>
 <td>
+<span class="listing-duration">00:51:42</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: 02/11/23 Understanding Waiting List Pressures (using queuing theory) With Neil Walton who is a Professor in Operations Management at Durham University Business School. Using queuing theory to understand the demand, queue size, waiting times, capacity requirements and trade-offs for…</span>
 </td>
 
@@ -1541,6 +1749,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2023</span>
+</td>
+<td>
+<span class="listing-duration">00:46:33</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 19/10/23 Waiting list equity analysis within a provider context – progress so far Matt Eves and James Chisholm from Derbyshire Community Health Services NHS Foundation Trust will be joining us to walk us through their recent (and ongoing) work focused on waiting list inequities. This…</span>
@@ -1556,6 +1767,9 @@ Details
 <span class="listing-year">2023</span>
 </td>
 <td>
+<span class="listing-duration">00:50:34</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: 05/10/23 Notts &amp; Nottingham ICB – update on their System Analytical Intelligence Unit (SAIU) portal and eHealthscope Ryan Cope and Sergio Pappalettera share the progress they have made in the last 12 months for their two main business tools for intelligence sharing. These are the SAIU…</span>
 </td>
 
@@ -1567,6 +1781,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2023</span>
+</td>
+<td>
+<span class="listing-duration">00:29:32</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 21/09/23 Let’s talk about analysis and creativity with Gordon Stovin &amp; Fraser Battye ‘Analysis’ and ‘creativity’ don’t often share the same sentence. Analysts don’t typically think of themselves as being creative; and it would be rare for decision makers to demand that analysis is done…</span>
@@ -1582,6 +1799,9 @@ Details
 <span class="listing-year">2023</span>
 </td>
 <td>
+<span class="listing-duration">00:55:08</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: 07/09/23 The National Competency Framework for Data Professionals with Andy Lavelle and Sarah Blundell (NHSE) After 2 years in development, the National Competency Framework for data professionals will be launched in October 2023. Find out what’s in it, what it means for you and how it…</span>
 </td>
 
@@ -1593,6 +1813,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2023</span>
+</td>
+<td>
+<span class="listing-duration">00:36:01</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 24/08/23 Ideas on presenting analytical work What is essential is invisible to the eye… but visuals can be important, too: Ideas on presenting analytical work with Andrew Jones (Strategy Unit) At various times in our lives (perhaps often), we will attempt to communicate complex ideas to…</span>
@@ -1608,6 +1831,9 @@ Details
 <span class="listing-year">2023</span>
 </td>
 <td>
+<span class="listing-duration">00:50:37</span>
+</td>
+<td>
 <span class="listing-description">The NHS England eProduct Workforce Portal provides data, analysis and intelligence to support NHS colleagues, Regional teams &amp; Integrated Care Systems (ICS). The Portal provides: - Access to specialist workforce analytics and modelling products - Data at organisation, ICS and regional level -…</span>
 </td>
 
@@ -1619,6 +1845,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2023</span>
+</td>
+<td>
+<span class="listing-duration">00:51:51</span>
 </td>
 <td>
 <span class="listing-description">Midlands Analyst Huddle: Musculoskeletal patients’ experiences of the OA hip pathway – A qualitative study. Supporting vulnerable patients and improving the management of long term conditions Date: 27/07/23 - What are the barriers and facilitators impacting on vulnerable patient populations? - How…</span>
@@ -1634,6 +1863,9 @@ Details
 <span class="listing-year">2023</span>
 </td>
 <td>
+<span class="listing-duration">00:52:17</span>
+</td>
+<td>
 <span class="listing-description">Midlands Analyst Huddle: HACA 2023 - A roundup from the first Health &amp; Care Analytics Conference! Date: 13th July 2023 Peter Spilsbury (Director, Strategy Unit), Chris Beeley (Head of Data Science and HACA 2023 Director), Tom Parnell (HACA comms lead), Rachel Caswell and others reflect on the very…</span>
 </td>
 
@@ -1645,6 +1877,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2023</span>
+</td>
+<td>
+<span class="listing-duration">00:48:17</span>
 </td>
 <td>
 <span class="listing-description">Midlands Analsyt Huddle: Overview of NHS ICB resource allocation models and the ICB Place Based Allocation Tool Date: 29th June 2023 NHS England’s Analysis and Insight for Finance team provide an overview of their overall approach and models for calculating fair shares which together distribute…</span>
@@ -1660,6 +1895,9 @@ Details
 <span class="listing-year">2023</span>
 </td>
 <td>
+<span class="listing-duration">00:51:52</span>
+</td>
+<td>
 <span class="listing-description">Data Visualisation – How to Effectively Communicate with your Data – TASTER SESSION with Dan Isaac Date: 15/06/23 With Dan Isaac, Business Intelligence Officer and Data Visualisation Specialist, University of Exeter During this session, Dan will briefly outline some of the key principles of…</span>
 </td>
 
@@ -1671,6 +1909,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2023</span>
+</td>
+<td>
+<span class="listing-duration">00:52:38</span>
 </td>
 <td>
 <span class="listing-description">NHS hip replacements and the inverse care law - with Steven Wyatt (Strategy Unit) Date: 01/06/23 Fifty years ago, Julian-Tudor-Hart, a GP working in South Wales first described the Inverse Care Law. The law states that populations with the greatest need for a health service tend to be the least…</span>
@@ -1686,6 +1927,9 @@ Details
 <span class="listing-year">2023</span>
 </td>
 <td>
+<span class="listing-duration">00:48:41</span>
+</td>
+<td>
 <span class="listing-description">Midlands Analsyt Huddle: Using multi-criteria decision analysis (MCDA) in health technology assessments with Melody Ni, Imperial College Date: 18th May 2023 Dr Melody Ni is senior research fellow at NIHR London IVD based at Imperial College. She’s an expert in decision analysis and HTAs, having…</span>
 </td>
 
@@ -1697,6 +1941,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2023</span>
+</td>
+<td>
+<span class="listing-duration">00:48:59</span>
 </td>
 <td>
 <span class="listing-description">Weapons of Maths Destruction Date: 04/05/23 Huw Day is a Maths PhD student at the University of Bristol. Huw co-organises the Jean Golding Institute’s Data Ethics Club (dataethicsclub.com) and has worked on a Digital Health project in conjunction with NHS clinicians evaluating NEWS scoring systems.…</span>
@@ -1712,6 +1959,9 @@ Details
 <span class="listing-year">2023</span>
 </td>
 <td>
+<span class="listing-duration">00:51:41</span>
+</td>
+<td>
 <span class="listing-description">Examples of the projects being developed in the Midlands System Dynamics Applied Learning Programme (Part 2) Date: 20/04/2023 Over the last 6 months The Strategy Unit and Douglas McKelvie (Symmetric) have been running an applied learning programme in system dynamics. This is a method of simulation…</span>
 </td>
 
@@ -1723,6 +1973,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2023</span>
+</td>
+<td>
+<span class="listing-duration">00:52:55</span>
 </td>
 <td>
 <span class="listing-description">Examples of the projects being developed in the Midlands System Dynamics Applied Learning Programme (Part 1) Date: 06/04/2023 Over the last 6 months The Strategy Unit and Douglas McKelvie (Symmetric) have been running an applied learning programme in system dynamics. This is a method of simulation…</span>
@@ -1738,6 +1991,9 @@ Details
 <span class="listing-year">2023</span>
 </td>
 <td>
+<span class="listing-duration">00:46:30</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: Using Git and GitHub Date: 23/03/23 So what is Git and what is GitHub!! This is an introduction to GitHub for anyone who doesn’t know what GitHub is, has heard of it but doesn’t know where to start and for anyone who has ever been told: “code is available on the GitHub repo”. Hear from…</span>
 </td>
 
@@ -1749,6 +2005,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2023</span>
+</td>
+<td>
+<span class="listing-duration">00:50:06</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: RAP - what is it and how can my team start using it effectively? Date: 09/03/23 This talk will discuss reproducible analytical pipelines and give a blueprint for development within teams and systems. The talk draws from the levels of RAP described in the RAP community of interest hosted…</span>
@@ -1764,6 +2023,9 @@ Details
 <span class="listing-year">2023</span>
 </td>
 <td>
+<span class="listing-duration">00:52:23</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: How is the rapid growth in diagnostic testing affecting the hospital system? Date: 23/02/23 The Midlands Decision Support Network (MDSN) agrees an analytical work programme every year. This is an annual programme of 3 significant projects determined by the network steering group and…</span>
 </td>
 
@@ -1775,6 +2037,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2023</span>
+</td>
+<td>
+<span class="listing-duration">00:49:28</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: Positive Public Health from Warwickshire County Council Date: 09/02/23 Led by Frances de Paeztron, Business Intelligence Lead – Population Health, this will be an interactive session on Positive Public Health from Warwickshire County Council. The session aims to celebrate analysts,…</span>
@@ -1790,6 +2055,9 @@ Details
 <span class="listing-year">2023</span>
 </td>
 <td>
+<span class="listing-duration">00:48:27</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: Making data visualisations more accessible to all users Date: 26/01/23 In this session Hannah Thomas (ONS) talks about how we can publish more accessible data visualisations online. This will be based around the Web Content Accessibility Guidelines and the Accessibility Legislation…</span>
 </td>
 
@@ -1801,6 +2069,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2023</span>
+</td>
+<td>
+<span class="listing-duration">00:49:54</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: Exploring socioeconomic inequalities in coronary heart disease – NEW TOOL Date: 12/01/23 A collaboration between the British Heart Foundation and The Strategy Unit to create a tool that explores socioeconomic inequalities in coronary heart disease pathways at a national and local level.…</span>
@@ -1816,6 +2087,9 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-duration">00:37:15</span>
+</td>
+<td>
 <span class="listing-description">MDSN Training opportunity: Find out more about the next PHM training course – starting January 2023 Find out more about the PHM training course starting in January! Sophie Hodges and David Sgorbati from the Health Economics Unit tell you all about the course and tell you how to apply.</span>
 </td>
 
@@ -1827,6 +2101,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-duration">00:50:45</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle INSIGHT 2022: Sam Booth (ONS) takes us through the new Health Index – Midlands focus 1st December 2022 Sam Booth, Lead Researcher (Integrated Care Systems and Health Index) joins the Huddle to tell us about the new Health Index. Find out more about the Health Index and how it can support…</span>
@@ -1842,6 +2119,9 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-duration">00:52:39</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: 03/11/22 Health Profile Reports for the East and West Midlands with Becca Elleray (OHID) See how the data shows, for the first time, the impact of COVID on our local populations, the impact on the wider determinants and widening health inequalities as well as health behaviours and…</span>
 </td>
 
@@ -1853,6 +2133,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-duration">01:52:35</span>
 </td>
 <td>
 <span class="listing-description">MAN Huddle: 20/10/22 MDSN Regional Analysis: What are the health implications of reduced access to care during the COVID 19 pandemic? Project Lead, Paul Seamer (Strategy Unit) describes his approach and key findings for this important Midlands Decision Support Network (MDSN) Regional Analysis. The…</span>
@@ -1868,6 +2151,9 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-duration">00:51:11</span>
+</td>
+<td>
 <span class="listing-description">MAN Huddle: 06/10/22 Find out more about the National Data Science conference, the NHS-R conference and about the Midlands Chief Analysts’ Group … and more! Peter Spilsbury, Simon Bourne and Professor Mohammed A Mohammed give updates on our early thoughts on what the National Data Science…</span>
 </td>
 
@@ -1879,6 +2165,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-duration">00:49:52</span>
 </td>
 <td>
 <span class="listing-description">Understanding the ageing patterns of the population in NW London: A survival analysis Recent analysis has found that demand for health and social care may not necessarily increase in line with an ageing population. Because older people may stay healthy for longer, or they may experience milder…</span>
@@ -1894,6 +2183,9 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-duration">00:49:45</span>
+</td>
+<td>
 <span class="listing-description">Introducing Data Hazards – how can analysts and data scientists use Data Hazards in our day to day work? This session is be run by Zoë Turner, data scientist in Nottinghamshire Healthcare NHS Foundation Trust. 08/09/22 If our profession of data analysts/data scientists in health and care is to be…</span>
 </td>
 
@@ -1905,6 +2197,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-duration">00:52:36</span>
 </td>
 <td>
 <span class="listing-description">Midlands Analyst Huddle - 25/08/22 A taster session for the new Population Health Management and Health Economics training programmes, Presented by: Sophie Hodges, Health Economics Unit Find out more about the new Population Health Management and Health Economics training programmes. Each programme…</span>
@@ -1920,6 +2215,9 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-duration">00:49:15</span>
+</td>
+<td>
 <span class="listing-description">11/08/22: NHS Nottingham and Nottinghamshire System Analytical Intelligence Portal Ryan Cope, Senior Analytical Lead for Demand and Capacity and Jack Rodber, Chief Analyst at Nottingham and Nottinghamshire System Analytical Unit provide ’A Demonstration of the new system analytical intelligence…</span>
 </td>
 
@@ -1931,6 +2229,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-duration">00:47:15</span>
 </td>
 <td>
 <span class="listing-description">28th July 2022 – Latest analysis on the associations between some household context factors &amp; emergency hospital use Richard Brine and Liz Crellin from the Health Foundation are going to be talking to us about two household context factors that the Improvement Analytics Unit have derived from…</span>
@@ -1946,6 +2247,9 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-duration">00:51:30</span>
+</td>
+<td>
 <span class="listing-description">Title: Using system dynamics to gain insight into domiciliary care AND the launch of a new system dynamics development programme In the Huddle on 30/06/22 we had an introduction to System Dynamics and an example of how this was used to support capacity planning If you’d like to have a go,…</span>
 </td>
 
@@ -1957,6 +2261,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-duration">00:14:43</span>
 </td>
 <td>
 <span class="listing-description">&nbsp;</span>
@@ -1972,6 +2279,9 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-duration">00:51:41</span>
+</td>
+<td>
 <span class="listing-description">A Changing Population – Why Workforce Planning Matters During this Huddle Tom Clayton (Health Education England) will discuss major changes in UK population and demographics in the next 20 years, what this might means for demand for the NHS, and what we’re doing to help manage it. During this…</span>
 </td>
 
@@ -1983,6 +2293,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-duration">00:57:11</span>
 </td>
 <td>
 <span class="listing-description">Using System Dynamics simulation to support capacity planning This week, we are turning our attention to System Dynamics simulation and using it to support capacity planning. The Strategy Unit is using System Dynamics simulation to support capacity and workforce planning across various services and…</span>
@@ -1998,6 +2311,9 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-duration">00:59:12</span>
+</td>
+<td>
 <span class="listing-description">Does the Goldacre Review make health research and analysis Better, Broader, Safer? Come and see our panel discuss the Goldacre Review and its implications for analysts. Not to be missed! Our experienced panel, hosted by Simon Bourne (Principle Consultant, Strategy Unit and Programme Director, MDSN)…</span>
 </td>
 
@@ -2009,6 +2325,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-duration">00:51:07</span>
 </td>
 <td>
 <span class="listing-description">Steven Wyatt (Head of Research and Policy, Strategy Unit) shares his strategies to reduce inequalities in access to planned hospital procedures (MDSN project) In last year’s report, ‘Socio-economic inequalities in access to planned hospital care: causes and consequences’, Steven Wyatt and Jake…</span>
@@ -2024,6 +2343,9 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-duration">00:55:49</span>
+</td>
+<td>
 <span class="listing-description">‘Impactibility’ from techno buzzword to action! With Andi Orlowski (Health Economics Unit) We are delighted to welcome Andi Orlowski (Health Economics Unit) who will be talking to us about Impactability and its role in Population Health Management. Risk stratification alone is often not enough –…</span>
 </td>
 
@@ -2035,6 +2357,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-duration">00:57:41</span>
 </td>
 <td>
 <span class="listing-description">What does the new guidance for cross-system intelligence functions mean for me?’ Find out more about what the new guidance for cross-system intelligence functions means for us as analysts in the Midlands. Each ICS in England is required to develop a ‘cross-system intelligence function’, as…</span>
@@ -2050,6 +2375,9 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-duration">00:57:44</span>
+</td>
+<td>
 <span class="listing-description">The Health Foundation present ‘Federated analytics of linked health data in the UK – Introducing the Networked Data Lab’ MAN Huddle with the Health Foundation’s Networked Data Lab – a UK-wide collaborative network of analytical teams across the UK working together to use linked datasets on the most…</span>
 </td>
 
@@ -2061,6 +2389,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-duration">00:53:08</span>
 </td>
 <td>
 <span class="listing-description">Economic evaluation sharing session: an approach to demonstrating value locally We are again delighted to welcome friends from the Health Economics Unit: Lisa Cummins, Will Rawlinson and Bea Rubio Huete are going to be delivering an economic evaluation sharing session: an approach to demonstrating…</span>
@@ -2076,6 +2407,9 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-duration">00:57:40</span>
+</td>
+<td>
 <span class="listing-description">Steven Wyatt - exploring analysis of primary care services Steven Wyatt, Head of Research and Policy at the SU, discusses analysis of primary care services. ICSs will soon be assuming responsibility for commissioning GP services. Although 10% of the NHS budget is allocated to primary care, novel…</span>
 </td>
 
@@ -2087,6 +2421,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-duration">00:54:20</span>
 </td>
 <td>
 <span class="listing-description">Intro to Machine Learning and how it can be applied to healthcare Find out more about Machine Learning and how it can be applied to healthcare. Joe Lillington and Santosh Kumar from the Health Economics Unit are going to be first giving a high-level overview of what machine learning is and then…</span>
@@ -2102,6 +2439,9 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-duration">00:56:32</span>
+</td>
+<td>
 <span class="listing-description">A Data Visualisation Taster: How to Communicate Effectively with your Data We have Dan Isaac who is going to be giving us a taster session for the 1-day course Dan delivers on Data Visualisation. Creating effective data visualisations is no longer a task for highly technical specialists and design…</span>
 </td>
 
@@ -2113,6 +2453,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-duration">00:57:27</span>
 </td>
 <td>
 <span class="listing-description">Health Inequalities in the Midlands Find out more inequalities in health in the Midlands and how to reduce them. We have invited friends from the Office for Health Improvement and Disparities Local Knowledge and Intelligence Team to present some of their work on Health Inequalities: Zachary…</span>

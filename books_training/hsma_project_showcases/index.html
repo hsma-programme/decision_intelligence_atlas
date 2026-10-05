@@ -87,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-event','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-event','listing-duration','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
       page: 25,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-event","listing-description"],
@@ -638,6 +638,9 @@ new FinisherHeader({
       <option value="listing-event" data-direction="asc">
         Round
       </option>
+      <option value="listing-duration" data-direction="asc">
+        Duration
+      </option>
     </select>
   </div>
     <div class="input-group input-group-sm quarto-listing-filter">
@@ -658,6 +661,10 @@ new FinisherHeader({
 </th>
 
 <th>
+<a class="sort" data-sort="listing-duration" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Duration</a>
+</th>
+
+<th>
 Details
 </th>
 
@@ -673,6 +680,9 @@ Details
 <span class="listing-event">HSMA 6</span>
 </td>
 <td>
+<span class="listing-duration">00:47:10</span>
+</td>
+<td>
 <span class="listing-description">In this video, Dr Dan Chalk gives an overview of the sixth round of the HSMA programme. He also gives an insight into the plans for HSMA 7 and beyond. We wrap up by hearing from Professor Stuart Logan about what HSMA means to PenARC. HSMA website: HSMA books: HSMA modules: #nhs #datascience…</span>
 </td>
 
@@ -684,6 +694,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-duration">00:22:11</span>
 </td>
 <td>
 <span class="listing-description">In this video, Heath McDonald (Senior Business Intelligence Developer, Lancashire &amp; South Cumbria NHS Foundation Trust) talks us through his HSMA projects on using simulation modelling to tackle backlogs in children’s neurodiversity assessment and NHS Talking Therapies. This talk was part of the…</span>
@@ -699,6 +712,9 @@ Details
 <span class="listing-event">HSMA 6</span>
 </td>
 <td>
+<span class="listing-duration">00:09:56</span>
+</td>
+<td>
 <span class="listing-description">In this talk, we hear from Helena Robinson (Senior Analyst/Data Scientist, Countess of Chester NHS Foundation Trust) about her HSMA project on using discrete event simulation to model non-elective flow. Code: Tool: Project Page: HSMA Website: #nhs #datascience #operationalresearch</span>
 </td>
 
@@ -710,6 +726,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-duration">00:09:47</span>
 </td>
 <td>
 <span class="listing-description">In this talk, we hear from Dr Jake Wilson (Urology Specialist Registrar, Great Western Hospitals NHS Foundation Trust) about his project on predicting the operation times for robotic assisted laparoscopy (RALP) in prostate cancer from patient notes, using natural language processing (NLP) and…</span>
@@ -725,6 +744,9 @@ Details
 <span class="listing-event">HSMA 6</span>
 </td>
 <td>
+<span class="listing-duration">00:03:56</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘HSMA 6 Lightning Talks Session 1 - Blood Donation Capacity, GP Phone Calls, HRG Coding and More!’, starting at 0:30.</span>
 </td>
 
@@ -736,6 +758,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-duration">00:03:27</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘HSMA 6 Lightning Talks Session 1 - Blood Donation Capacity, GP Phone Calls, HRG Coding and More!’, starting at 4:26.</span>
@@ -751,6 +776,9 @@ Details
 <span class="listing-event">HSMA 6</span>
 </td>
 <td>
+<span class="listing-duration">00:04:14</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘HSMA 6 Lightning Talks Session 1 - Blood Donation Capacity, GP Phone Calls, HRG Coding and More!’, starting at 7:53.</span>
 </td>
 
@@ -762,6 +790,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-duration">00:04:06</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘HSMA 6 Lightning Talks Session 1 - Blood Donation Capacity, GP Phone Calls, HRG Coding and More!’, starting at 12:07.</span>
@@ -777,6 +808,9 @@ Details
 <span class="listing-event">HSMA 6</span>
 </td>
 <td>
+<span class="listing-duration">00:11:02</span>
+</td>
+<td>
 <span class="listing-description">In this talk, we hear from Dr Hannah Thould (Chief Registratr, University Hospitals Bristol and Weston NHS Foundation Trust) about her project on optimising resourcing for same day emergency care using discrete event simulation (DES). Hannah also reflects on her experience of the HSMA programme as…</span>
 </td>
 
@@ -788,6 +822,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-duration">00:12:07</span>
 </td>
 <td>
 <span class="listing-description">In this talk, we hear from Dorota Scott, Dr Kristian Boote and Charlotte Anderson (North West Ambulance Service NHS Foundation Trust) about their project on redrawing the dispatch boundaries of the ambulance in their services using geographic modelling, including the use of Voronoi tessellations.…</span>
@@ -803,6 +840,9 @@ Details
 <span class="listing-event">HSMA 6</span>
 </td>
 <td>
+<span class="listing-duration">00:12:57</span>
+</td>
+<td>
 <span class="listing-description">In this talk, we hear from Dr Luke Herbert (Consultant Opthalmic Surgeon, Surrey &amp; Sussex Healthcare Foundation Trust) about his project on simulating opthalmology pathways, allowing the exploration of the impact of different anti-VEGF treatment strategies on patients and costs. Project Page: HSMA…</span>
 </td>
 
@@ -814,6 +854,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-duration">00:16:14</span>
 </td>
 <td>
 <span class="listing-description">In this talk, we hear from James Wise and Phil King (South Central Ambulance Service NHS Foundation Trust) about their project on using natural language processing to improve ambulance care quality indicator (ACQI) data. By processing the data that is currently held in free text fields, they are…</span>
@@ -829,6 +872,9 @@ Details
 <span class="listing-event">HSMA 6</span>
 </td>
 <td>
+<span class="listing-duration">00:15:28</span>
+</td>
+<td>
 <span class="listing-description">In this talk, we hear from Dom Rowney, Sam Vautier and Dr Luke Herbert about their project on using agent-based simulation to model behavioural dynamics and explore the potential impact of MECC training. Project Page: HSMA site: #nhs #datascience #operationalresearch</span>
 </td>
 
@@ -840,6 +886,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-duration">00:11:26</span>
 </td>
 <td>
 <span class="listing-description">In this talk, we hear from Yu Qiao (Clinical Data Scientist, Liverpool University Hospitals NHS Foundation Trust) about his project on forecasting future A&amp;E attendances 6 weeks in advance, accounting for seasonal patterns and allowing better management of the staffing level to ensure the predicted…</span>
@@ -855,6 +904,9 @@ Details
 <span class="listing-event">HSMA 6</span>
 </td>
 <td>
+<span class="listing-duration">00:23:32</span>
+</td>
+<td>
 <span class="listing-description">In this talk, we hear from John Williams (Clinical Data Scientist, Maidstone and Tunbridge Wells NHS Trust) about his project on using discrete event simulation to explore the impact of changes to operating hours of the same-day emergency care (SDEC) stroke pathway and the CT perfusion scanner in…</span>
 </td>
 
@@ -866,6 +918,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-duration">00:04:51</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘HSMA 6 Lightning Talks Session 2 - Bed Occupancy, Complex Patient pathways, Segmentation and More!’, starting at 0:40.</span>
@@ -881,6 +936,9 @@ Details
 <span class="listing-event">HSMA 6</span>
 </td>
 <td>
+<span class="listing-duration">00:04:14</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘HSMA 6 Lightning Talks Session 2 - Bed Occupancy, Complex Patient pathways, Segmentation and More!’, starting at 5:31.</span>
 </td>
 
@@ -892,6 +950,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-duration">00:04:00</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘HSMA 6 Lightning Talks Session 2 - Bed Occupancy, Complex Patient pathways, Segmentation and More!’, starting at 9:45.</span>
@@ -907,6 +968,9 @@ Details
 <span class="listing-event">HSMA 6</span>
 </td>
 <td>
+<span class="listing-duration">00:03:26</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘HSMA 6 Lightning Talks Session 2 - Bed Occupancy, Complex Patient pathways, Segmentation and More!’, starting at 13:45.</span>
 </td>
 
@@ -918,6 +982,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-duration">00:11:00</span>
 </td>
 <td>
 <span class="listing-description">In this talk, we hear from Nathan Hack and Dr Helen Wharam (Hampshire and Isle of Wight Healthcare NHS Foundation Trust) about their project on building a simulation model of a mental health hub in Portsmouth to help with right-sizing the service as routes into the service are expanded. Project…</span>
@@ -933,6 +1000,9 @@ Details
 <span class="listing-event">HSMA 6</span>
 </td>
 <td>
+<span class="listing-duration">00:11:27</span>
+</td>
+<td>
 <span class="listing-description">In this talk, we hear from Peter Andrews (Information Business Partner, Barts Health NHS Trust) about his project on using machine learning to forecast non-attendance and help reduce the number of unattended appointments, potentially improving patient experience and saving money. Project Page: HSMA…</span>
 </td>
 
@@ -944,6 +1014,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-duration">00:11:58</span>
 </td>
 <td>
 <span class="listing-description">In this talk, we hear from Dr Chris Lewis (General Practitioner, The Park Medical Practice) about his project on using modelling and data science techniques to better monitor and plan for the staffing of a GP surgery, helping patients to have their phone calls answered in a timely manner while…</span>
@@ -959,6 +1032,9 @@ Details
 <span class="listing-event">HSMA 6</span>
 </td>
 <td>
+<span class="listing-duration">00:12:50</span>
+</td>
+<td>
 <span class="listing-description">In this talk, HSMA 5 Alumnus Peter Saiu talks us through his user-friendly, web-based tool for allocating additional GP funding equitably, helping to save commissioners time and reduce health inequalities. Tool: Project Page: Code: HSMA site: #nhs #datascience #operationalresearch</span>
 </td>
 
@@ -970,6 +1046,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-duration">00:12:20</span>
 </td>
 <td>
 <span class="listing-description">Project 5016 : “Developing a tool to assess inequalities and demographic coverage of service locations” Alex Owens, Arden GEM CSU</span>
@@ -985,6 +1064,9 @@ Details
 <span class="listing-event">HSMA 5</span>
 </td>
 <td>
+<span class="listing-duration">00:10:39</span>
+</td>
+<td>
 <span class="listing-description">Project 5014 : “Investigating factors impacting NHS workforce retention using public data” Marie Rogers, NHS England and Richard Pilbery, Yorkshire Ambulance Service</span>
 </td>
 
@@ -996,6 +1078,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-duration">00:07:26</span>
 </td>
 <td>
 <span class="listing-description">Project 5006 : “Using Machine Learning to estimate inequities in access to hospital procedures” Benjamin Mouncer, Norfolk County Council</span>
@@ -1011,6 +1096,9 @@ Details
 <span class="listing-event">HSMA 5</span>
 </td>
 <td>
+<span class="listing-duration">00:12:01</span>
+</td>
+<td>
 <span class="listing-description">Project 5003 : “Using Discrete Event Simulation to model the bottlenecks in the Acute Medical Unit pathway in two Devon hospitals” Becky Crofts and Kayleigh Haydock, Royal Devon University Healthcare</span>
 </td>
 
@@ -1022,6 +1110,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-duration">00:09:55</span>
 </td>
 <td>
 <span class="listing-description">Project 5002 : “Using Natural Language Processing to detect drug related content within free text”</span>
@@ -1037,6 +1128,9 @@ Details
 <span class="listing-event">HSMA 5</span>
 </td>
 <td>
+<span class="listing-duration">00:10:14</span>
+</td>
+<td>
 <span class="listing-description">Project 5012 : “Conversion and expansion of a tool to forecast elective demand” Jane Kirkpatrick, Evelyn Koon and Mathew Ojo, NHS England; Lyndsey Allen and Luke Asante, NECS Consultancy</span>
 </td>
 
@@ -1048,6 +1142,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-duration">00:07:11</span>
 </td>
 <td>
 <span class="listing-description">Project 5005 : “Development of an open source tool to model waiting lists for elective surgery” Dominic Allen, Leeds Teaching Hospitals Trust</span>
@@ -1063,6 +1160,9 @@ Details
 <span class="listing-event">HSMA 5</span>
 </td>
 <td>
+<span class="listing-duration">00:11:55</span>
+</td>
+<td>
 <span class="listing-description">Project 5008 : “Modelling the location of neonatal critical care units in North West England” Duncan Galletly, North West Neonatal Operational Delivery Network</span>
 </td>
 
@@ -1074,6 +1174,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-duration">00:11:14</span>
 </td>
 <td>
 <span class="listing-description">Project 5004 : “Modelling the effect of complex discharge delays on acute performance” Hannah Perkins, University Hospitals Plymouth</span>
@@ -1089,6 +1192,9 @@ Details
 <span class="listing-event">HSMA 5</span>
 </td>
 <td>
+<span class="listing-duration">00:10:39</span>
+</td>
+<td>
 <span class="listing-description">Project 5010 : “Creating a tool to automatically generate health equity audits for Community Diagnostic Centres” Sarah Houston, UCL Partners and Deborah Newton, Reading Borough Council</span>
 </td>
 
@@ -1100,6 +1206,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-duration">00:10:21</span>
 </td>
 <td>
 <span class="listing-description">Project 5013 : “Forecasting excess mortality in Dorset” Ellie Jeram, Lee Robertson and Wilson Otitonaiye, Public Health Dorset</span>
@@ -1115,6 +1224,9 @@ Details
 <span class="listing-event">HSMA 5</span>
 </td>
 <td>
+<span class="listing-duration">00:08:52</span>
+</td>
+<td>
 <span class="listing-description">Project 5015 : “A Discrete Event Simulation Model to reduce Rheumatology Waiting Times in Dorset” Abby Dewhurst, NHS Dorset and Claire Davies, BCP Council</span>
 </td>
 
@@ -1126,6 +1238,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-duration">00:15:07</span>
 </td>
 <td>
 <span class="listing-description">“An Alumnus Story : Life Beyond HSMA” Matt Eves, Derbyshire Community Health Services In this talk, Matt Eves (HSMA alumnus) will talk about the work he has undertaken since being part of the HSMA programme in 2022, including work to develop automated tools with web application interfaces that…</span>
@@ -1141,6 +1256,9 @@ Details
 <span class="listing-event">HSMA 5 (PenCHORD showcases)</span>
 </td>
 <td>
+<span class="listing-duration">00:33:29</span>
+</td>
+<td>
 <span class="listing-description">The first in our series of project showcases, in which we showcase some current and previous work of the PenCHORD research team (that run the HSMA Programme) to serve as inspiration for potential HSMA projects. In this showcase, Dr Daniel Chalk talks about his 2020 work modelling the resourcing…</span>
 </td>
 
@@ -1152,6 +1270,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HSMA 5 (PenCHORD showcases)</span>
+</td>
+<td>
+<span class="listing-duration">00:30:01</span>
 </td>
 <td>
 <span class="listing-description">The second in our series of project showcases, in which we showcase some current and previous work of the PenCHORD research team (that run the HSMA Programme) to serve as inspiration for potential HSMA projects. In this showcase, Prof Tom Monks talks about his 2020 work modelling the safe…</span>
@@ -1167,6 +1288,9 @@ Details
 <span class="listing-event">HSMA 5 (PenCHORD showcases)</span>
 </td>
 <td>
+<span class="listing-duration">00:34:05</span>
+</td>
+<td>
 <span class="listing-description">The third in our series of project showcases, in which we showcase some current and previous work of the PenCHORD research team (that run the HSMA Programme) to serve as inspiration for potential HSMA projects. In this showcase, Elliott talks about his 2022 work using Machine Learning methods to…</span>
 </td>
 
@@ -1178,6 +1302,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HSMA 5 (PenCHORD showcases)</span>
+</td>
+<td>
+<span class="listing-duration">00:36:42</span>
 </td>
 <td>
 <span class="listing-description">The fourth in our series of project showcases, in which we showcase some current and previous work of the PenCHORD research team (that run the HSMA Programme) to serve as inspiration for potential HSMA projects. In this showcase, Dan talks about his 2016 work using Discrete Event Simulation to…</span>
@@ -1193,6 +1320,9 @@ Details
 <span class="listing-event">HSMA 5 (PenCHORD showcases)</span>
 </td>
 <td>
+<span class="listing-duration">00:31:06</span>
+</td>
+<td>
 <span class="listing-description">The fifth in our series of project showcases, in which we showcase some current and previous work of the PenCHORD research team (that run the HSMA Programme) to serve as inspiration for potential HSMA projects. In this showcase, Mike talks about work looking at using genetic algorithms to try to…</span>
 </td>
 
@@ -1204,6 +1334,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-duration">00:12:09</span>
 </td>
 <td>
 <span class="listing-description">Meeting the demand of 111 for primary care services - Richard Pilbery, Maddie Smith, Jon Green</span>
@@ -1219,6 +1352,9 @@ Details
 <span class="listing-event">HSMA 4</span>
 </td>
 <td>
+<span class="listing-duration">00:12:11</span>
+</td>
+<td>
 <span class="listing-description">Use Of Discrete Event Simulation (DES) to reduce delays in Cancer Diagnosis &amp; Treatment - Angel Masih, James Page, Mahya Kaveh</span>
 </td>
 
@@ -1230,6 +1366,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-duration">00:10:18</span>
 </td>
 <td>
 <span class="listing-description">South East Regional Covid 19 Vaccination Demand &amp; Capacity Modelling - Charlene Black, Adonis Sithole, Edward Chick, Mayoor Dhokia</span>
@@ -1245,6 +1384,9 @@ Details
 <span class="listing-event">HSMA 4</span>
 </td>
 <td>
+<span class="listing-duration">00:49:37</span>
+</td>
+<td>
 <span class="listing-description">Discrete Event Simulation of Cognitive Behavioural Therapy Pathway in an IAPT Service - Katie Brown, Hannah Carroll, Andrew Poole, Matthew Chapman</span>
 </td>
 
@@ -1256,6 +1398,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-duration">00:09:23</span>
 </td>
 <td>
 <span class="listing-description">Effect of Booked Appointments on Waiting Times at Urgent Treatment Centres - Alice Waterhouse</span>
@@ -1271,6 +1416,9 @@ Details
 <span class="listing-event">HSMA 4</span>
 </td>
 <td>
+<span class="listing-duration">00:11:07</span>
+</td>
+<td>
 <span class="listing-description">Reducing Travel Times to Treatment for Cardiac Patients in the South East of England - Glenn Ubly, Atonia Drummond, Janine James, Victor Yu</span>
 </td>
 
@@ -1282,6 +1430,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-duration">00:10:14</span>
 </td>
 <td>
 <span class="listing-description">Forecasting Demand and Length of Stay in the Emergency Department - Lisa Sabir</span>
@@ -1297,6 +1448,9 @@ Details
 <span class="listing-event">HSMA 4</span>
 </td>
 <td>
+<span class="listing-duration">00:09:50</span>
+</td>
+<td>
 <span class="listing-description">Developing a Service Planning Decision Support Tool to Tackle Inequalities and Minimise Carbon Output - Matt Eves, Anya Gopfert, Sally Brown</span>
 </td>
 
@@ -1308,6 +1462,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-duration">00:08:27</span>
 </td>
 <td>
 <span class="listing-description">Using DES to Improve Flow through an Acute Medicine Assessment Pathway - Helen Young, Thomas Knight</span>
@@ -1323,6 +1480,9 @@ Details
 <span class="listing-event">HSMA 4</span>
 </td>
 <td>
+<span class="listing-duration">00:09:11</span>
+</td>
+<td>
 <span class="listing-description">Spatial Modelling of Violent Crime to Support Strategic Analysis</span>
 </td>
 
@@ -1334,6 +1494,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-duration">00:08:42</span>
 </td>
 <td>
 <span class="listing-description">Discrete Event Simulation to Improve Flow and Performance in the Urgent Treatment Centre - Shilpa Patel</span>
@@ -1349,6 +1512,9 @@ Details
 <span class="listing-event">HSMA 4</span>
 </td>
 <td>
+<span class="listing-duration">00:11:07</span>
+</td>
+<td>
 <span class="listing-description">The role of Patient Initiated Follow-up (PIFU) and ‘Digital Outpatients’ in Supporting the Elective Recovery - Martina Fonseca, Xiaochen Ge</span>
 </td>
 
@@ -1360,6 +1526,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-duration">00:18:00</span>
 </td>
 <td>
 <span class="listing-description">Use of discrete event simulation to tackle long waits and a growing backlog for children requiring neuro development assessment (Autism and ADHD) - Irma Tanovic</span>
@@ -1375,6 +1544,9 @@ Details
 <span class="listing-event">HSMA 4</span>
 </td>
 <td>
+<span class="listing-duration">00:11:17</span>
+</td>
+<td>
 <span class="listing-description">Using machine learning to predict hospital admissions &amp; Length of Stay for respiratory conditions - Andy McCann</span>
 </td>
 
@@ -1386,6 +1558,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-duration">00:13:42</span>
 </td>
 <td>
 <span class="listing-description">Simulation modelling to test proposed models of pediatric critical care in South West England - Adam Scull</span>
@@ -1401,6 +1576,9 @@ Details
 <span class="listing-event">HSMA 3</span>
 </td>
 <td>
+<span class="listing-duration">00:12:35</span>
+</td>
+<td>
 <span class="listing-description">Exploring the use of Machine Learning and Natural Language Processing to teach a machine to predict whether a patient is likely to be imminently admitted to hospital based on GP data and clues in GP notes - Adam Kwiatkowski, Mona Nasser, Imca Hensels-Pelling</span>
 </td>
 
@@ -1412,6 +1590,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-duration">00:20:27</span>
 </td>
 <td>
 <span class="listing-description">Developing a generic vaccination service model for the COVID-19 pandemic and beyond - Adam Kwiatkowski</span>
@@ -1427,6 +1608,9 @@ Details
 <span class="listing-event">HSMA 3</span>
 </td>
 <td>
+<span class="listing-duration">00:11:23</span>
+</td>
+<td>
 <span class="listing-description">Modelling strategies to reduce the elective backlog in hip surgery - Claire Rudler, Matt Smith, Imca Hensels-Pelling, Zoe Ficken</span>
 </td>
 
@@ -1438,6 +1622,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-duration">00:10:56</span>
 </td>
 <td>
 <span class="listing-description">Generating a richer understanding of relationships in crime data in order to identify opportunities to safeguard individuals and families</span>
@@ -1453,6 +1640,9 @@ Details
 <span class="listing-event">HSMA 3</span>
 </td>
 <td>
+<span class="listing-duration">00:14:51</span>
+</td>
+<td>
 <span class="listing-description">What are they saying about us? An AI tool to determine the sentiment of tweets to police forces across the country, and what people are talking about</span>
 </td>
 
@@ -1464,6 +1654,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HSMA 3 (final presentation event)</span>
+</td>
+<td>
+<span class="listing-duration">02:15:40</span>
 </td>
 <td>
 <span class="listing-description">Our HSMAs from the third round of the programme present their work and the impact the programme has had for their organisations.</span>

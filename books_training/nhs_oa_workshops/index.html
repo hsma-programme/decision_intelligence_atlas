@@ -87,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-year','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-year','listing-duration','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
       page: 25,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-year","listing-description"],
@@ -641,6 +641,9 @@ new FinisherHeader({
       <option value="listing-year" data-direction="asc">
         Year
       </option>
+      <option value="listing-duration" data-direction="asc">
+        Duration
+      </option>
     </select>
   </div>
     <div class="input-group input-group-sm quarto-listing-filter">
@@ -661,6 +664,10 @@ new FinisherHeader({
 </th>
 
 <th>
+<a class="sort" data-sort="listing-duration" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Duration</a>
+</th>
+
+<th>
 Details
 </th>
 
@@ -676,6 +683,9 @@ Details
 <span class="listing-year">2026</span>
 </td>
 <td>
+<span class="listing-duration">05:17:19</span>
+</td>
+<td>
 <span class="listing-description">Introduction to R and R Studio with Zoë Turner (Part 1 &amp; 2) Tuesday 15th September 2026 and Wednesday 16th September 2026 Course Description: From ‘Hello World’ to producing a basic report. This introduction takes you from no knowledge of R to teaching you the basics of the R studio environment,…</span>
 </td>
 
@@ -687,6 +697,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-duration">03:52:35</span>
 </td>
 <td>
 <span class="listing-description">Intermediate R with Simon Wellesley-Miller (Part 2) Wednesday 11th February 2026 Course Description: This course is designed to follow on from the Introduction to R and R Studio course, noting that attendees should be familiar with the basics covered in the workshop. Please be advised that this…</span>
@@ -702,6 +715,9 @@ Details
 <span class="listing-year">2026</span>
 </td>
 <td>
+<span class="listing-duration">03:57:31</span>
+</td>
+<td>
 <span class="listing-description">Intermediate R with Simon Wellesley-Miller (Part 1) Tuesday 10th February 2026 Course Description: This course is designed to follow on from the Introduction to R and R Studio course, noting that attendees should be familiar with the basics covered in the workshop. Please be advised that this…</span>
 </td>
 
@@ -713,6 +729,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-duration">01:27:14</span>
 </td>
 <td>
 <span class="listing-description">Better, Kinder Code Review Wednesday 09th July 2025 With Dr Toby Hodges Content Summary: This hands-on workshop will introduce participants to some good practices and practical tips for code review, exploring how to provide effective, constructive feedback that results in better code, happier…</span>
@@ -728,6 +747,9 @@ Details
 <span class="listing-year">2025</span>
 </td>
 <td>
+<span class="listing-duration">03:58:56</span>
+</td>
+<td>
 <span class="listing-description">Introduction to R and R Studio with Dr Claire Welsh Tuesday 23rd September 2025 Course Description: From ‘Hello World’ to producing a basic report. This introduction takes you from no knowledge of R to teaching you the basics of the R studio environment, then loading in some data, some common data…</span>
 </td>
 
@@ -739,6 +761,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-duration">03:57:31</span>
 </td>
 <td>
 <span class="listing-description">Introduction to R and R Studio with Dr Claire Welsh Wednesday 24th September 2025 Course Description: From ‘Hello World’ to producing a basic report. This introduction takes you from no knowledge of R to teaching you the basics of the R studio environment, then loading in some data, some common…</span>
@@ -754,6 +779,9 @@ Details
 <span class="listing-year">2025</span>
 </td>
 <td>
+<span class="listing-duration">03:16:23</span>
+</td>
+<td>
 <span class="listing-description">Intermediate R with Dr Claire Welsh Wednesday 15th October 2025 Course Description: This course is designed to follow on from the Introduction to R and R Studio course, noting that attendees should be familiar with the basics covered in the workshop. Please be advised that this session will go into…</span>
 </td>
 
@@ -765,6 +793,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-duration">03:36:45</span>
 </td>
 <td>
 <span class="listing-description">Intermediate R with Dr Claire Welsh Tuesday 14th October 2025 Course Description: This course is designed to follow on from the Introduction to R and R Studio course, noting that attendees should be familiar with the basics covered in the workshop. Please be advised that this session will go into…</span>
@@ -780,6 +811,9 @@ Details
 <span class="listing-year">2025</span>
 </td>
 <td>
+<span class="listing-duration">07:14:10</span>
+</td>
+<td>
 <span class="listing-description">Intermediate R with Simon Wellesley-Miller Monday 2nd June 2025 and Tuesday 3rd June 2025 Course Description: This course is designed to follow on from the introduction course assuming people are familiar with the basics covered there. We go into more in depth and complex wrangling tasks, explore…</span>
 </td>
 
@@ -791,6 +825,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-duration">07:03:04</span>
 </td>
 <td>
 <span class="listing-description">Introduction to R with Simon Wellesley-Miller Monday 12th May 2025 and Tuesday 13th May 2025 Course Description: From ‘Hello World’ to producing a basic report. This introduction takes you from no knowledge of R to teaching you the basics of the R studio environment, then loading in some data, some…</span>
@@ -806,6 +843,9 @@ Details
 <span class="listing-year">2024</span>
 </td>
 <td>
+<span class="listing-duration">00:00:44</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘How to use the reprex R package to produce a reproducible example’, starting at 3:59.</span>
 </td>
 
@@ -817,6 +857,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-duration">00:00:45</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘How to use the reprex R package to produce a reproducible example’, starting at 4:43.</span>
@@ -832,6 +875,9 @@ Details
 <span class="listing-year">2024</span>
 </td>
 <td>
+<span class="listing-duration">00:00:10</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘How to use the reprex R package to produce a reproducible example’, starting at 5:28.</span>
 </td>
 
@@ -843,6 +889,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-duration">00:02:14</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘How to use the reprex R package to produce a reproducible example’, starting at 5:38.</span>
@@ -858,6 +907,9 @@ Details
 <span class="listing-year">2024</span>
 </td>
 <td>
+<span class="listing-duration">00:02:44</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘How to use the reprex R package to produce a reproducible example’, starting at 7:52.</span>
 </td>
 
@@ -869,6 +921,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-duration">00:00:44</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘How to use the reprex R package to produce a reproducible example’, starting at 10:36.</span>
@@ -884,6 +939,9 @@ Details
 <span class="listing-year">2024</span>
 </td>
 <td>
+<span class="listing-duration">01:45:40</span>
+</td>
+<td>
 <span class="listing-description">This the first part of a recording of an Intermediate R course with Anya Ferguson assisted by Jeremy Selva on 25 June 2024</span>
 </td>
 
@@ -895,6 +953,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-duration">02:10:36</span>
 </td>
 <td>
 <span class="listing-description">This is a recording of a Part 2 of an Intermediate R course run by Anya Ferguson with assistance from Jeremy Selva on 26 June 2024</span>
@@ -910,6 +971,9 @@ Details
 <span class="listing-year">2024</span>
 </td>
 <td>
+<span class="listing-duration">03:27:34</span>
+</td>
+<td>
 <span class="listing-description">This is the second part of a recording of Introduction to R and R Studio course which took place on 27 March 2024 with Simon Wellesley-Miller</span>
 </td>
 
@@ -921,6 +985,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-duration">05:43:45</span>
 </td>
 <td>
 <span class="listing-description">This is a recording of an Intermediate R course presented by Simon Wellesley Miller and co-hosted by Anya Ferguson on 14 May 2924</span>
@@ -936,6 +1003,9 @@ Details
 <span class="listing-year">2024</span>
 </td>
 <td>
+<span class="listing-duration">01:51:00</span>
+</td>
+<td>
 <span class="listing-description">This a recording of a workshop by Nicola Rennie: “Introduction to machine learning with {tidymodels} on 22 May 2024 GitHub repository:</span>
 </td>
 
@@ -947,6 +1017,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-duration">02:06:01</span>
 </td>
 <td>
 <span class="listing-description">This is the first part of a recording of Introduction to R and R Studio course which took place on 27 March 2024 with Simon Wellesley-Miller</span>
@@ -962,6 +1035,9 @@ Details
 <span class="listing-year">2024</span>
 </td>
 <td>
+<span class="listing-duration">05:25:47</span>
+</td>
+<td>
 <span class="listing-description">Intermediate R with Simon Wellesley Miller One day course 3 April 2024 and Lyn Howard (co-host) GitHub link with the original from Simon</span>
 </td>
 
@@ -973,6 +1049,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-duration">02:56:33</span>
 </td>
 <td>
 <span class="listing-description">Learn about how to import data, wrangle data and produce and export graphs. Pre-requisites: No prior knowledge of R is required; however, it is assumed that you will have a moderate level of computer literacy. For example, you will be able to navigate to drives and files and be confident in…</span>
@@ -988,6 +1067,9 @@ Details
 <span class="listing-year">2024</span>
 </td>
 <td>
+<span class="listing-duration">03:01:19</span>
+</td>
+<td>
 <span class="listing-description">Learn about how to import data, wrangle data and produce and export graphs. Pre-requisites: No prior knowledge of R is required; however, it is assumed that you will have a moderate level of computer literacy. For example, you will be able to navigate to drives and files and be confident in…</span>
 </td>
 
@@ -999,6 +1081,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-duration">01:16:09</span>
 </td>
 <td>
 <span class="listing-description">This is an introductory-level workshop aimed at analysts who can write R code but who don’t really get what functions are yet. We’ll be turning some repetitive code into functions, and learning: – how to make a function; – what makes functions useful for analysts. I coded for ages before I…</span>
@@ -1014,6 +1099,9 @@ Details
 <span class="listing-year">2024</span>
 </td>
 <td>
+<span class="listing-duration">01:01:02</span>
+</td>
+<td>
 <span class="listing-description">Interactive Visualisations for Beginners in Python with Shiny Apps Thursday 07th December 2023 with Dr Pawel Orzechowski 10:00am until 12:00pm (UK time) Course Description: Imagine coding an interactive demo and sharing it with the world within minutes. Your data could be displayed as maps or…</span>
 </td>
 
@@ -1025,6 +1113,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2023</span>
+</td>
+<td>
+<span class="listing-duration">02:41:56</span>
 </td>
 <td>
 <span class="listing-description">NHS-R Workshop: GitHub Actions 101 – Test, Build, and Deploy with Joseph Wilson and Harriet Sands.</span>
@@ -1040,6 +1131,9 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-duration">02:25:16</span>
+</td>
+<td>
 <span class="listing-description">Introduction to Regression Modelling Thursday 24th November 2022 Led by Chris Mainey, Deputy Director of Specialist Analytics at North Central London Integrated Care Board Pre-requisites: Some introductory experience with R About the course: This session will focus on how to fit regression models…</span>
 </td>
 
@@ -1051,6 +1145,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-duration">01:32:54</span>
 </td>
 <td>
 <span class="listing-description">Fitting distributions in R Friday 25th November 2022 Led by Dr Sean Manzi, Research Fellow in Applied Healthcare Modelling and Analysis, University of Exeter College of Medicine and Health Pre-requisites: A basic understanding of how to use R About the course: This session will begin by introducing…</span>
@@ -1066,6 +1163,9 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-duration">03:06:37</span>
+</td>
+<td>
 <span class="listing-description">Working with databases in R Wednesday 23rd November 2022 Led by Christopher Maronga,m R Programmer, University of Oxford About the course: The first step in any data handling process is loading data into your working tool regardless of the form and media of storage. Relational databases such as…</span>
 </td>
 
@@ -1077,6 +1177,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-duration">01:39:56</span>
 </td>
 <td>
 <span class="listing-description">PHM ExploreR: An open source tool for Population Health Management Thursday 24th November 2022 Led by Andras Varady, Forensic Cancer Pathway Data Scientist, NHS Bristol, North Somerset and South Gloucestershire CCG About the course: The workshop will introduce delegates to the PHM ExploreR: a…</span>
@@ -1092,6 +1195,9 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-duration">02:49:37</span>
+</td>
+<td>
 <span class="listing-description">Debugging in R Friday 11th November 2022 Led by Shannon Pileggi, Data Scientist, The Prostate Cancer Clinical Trials Consortium Pre-requisites: Knowledge of how to write a function in R. About the course: Learning objectives: Review code troubleshooting tips. Discuss debugging functions…</span>
 </td>
 
@@ -1103,6 +1209,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-duration">02:27:41</span>
 </td>
 <td>
 <span class="listing-description">Introduction to Interactive plotting with R Thursday 3rd November 2022, Led by Annie Yu, Epidemiological Programmer, Hertfordshire County Council Pre-requisites: Some introductory experience with R About the course: The workshop will cover creating interactive graphs using plotly and echarts4r…</span>
@@ -1118,6 +1227,9 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-duration">02:01:45</span>
+</td>
+<td>
 <span class="listing-description">Level up your plots: tips and tricks for creating compelling data visualisations in R Friday 4th November 202 Led by Cara Thompson, Freelance Data Consultant - Building Stories with Data Pre-requisites: It would be helpful for participants to have a basic grasp of: - creating a plot with ggplot2 -…</span>
 </td>
 
@@ -1129,6 +1241,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-duration">00:55:23</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22’, starting at 0:00.</span>
@@ -1144,6 +1259,9 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-duration">00:12:37</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22’, starting at 55:23.</span>
 </td>
 
@@ -1155,6 +1273,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-duration">00:10:00</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22’, starting at 1:08:00.</span>
@@ -1170,6 +1291,9 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-duration">01:04:00</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22’, starting at 1:18:00.</span>
 </td>
 
@@ -1181,6 +1305,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-duration">00:18:21</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22’, starting at 2:22:00.</span>
@@ -1196,6 +1323,9 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-duration">01:58:54</span>
+</td>
+<td>
 <span class="listing-description">Building Websites in R with Distill Wednesday 2nd November 2022, Led by Jennifer Sloane, PhD Student, UNSW Do you want to learn how to build your own website in R? About the course: In this interactive workshop, we will build a website from scratch in R using the Distill package. Whether you want…</span>
 </td>
 
@@ -1207,6 +1337,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-duration">01:45:18</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Workshop: Intro to R and RStudio (Part 2) - 03/11/22’, starting at 0:00.</span>
@@ -1222,6 +1355,9 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-duration">00:25:03</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Workshop: Intro to R and RStudio (Part 2) - 03/11/22’, starting at 1:45:18.</span>
 </td>
 
@@ -1233,6 +1369,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-duration">00:29:39</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Workshop: Intro to R and RStudio (Part 2) - 03/11/22’, starting at 2:10:21.</span>
@@ -1248,6 +1387,9 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-duration">00:12:42</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Workshop: Intro to R and RStudio (Part 2) - 03/11/22’, starting at 2:40:00.</span>
 </td>
 
@@ -1259,6 +1401,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-duration">01:59:15</span>
 </td>
 <td>
 <span class="listing-description">Led by Gary Hutson, Head of Machine Learning, Crisp 1st November 2022 Here we will learn how to build a TidyModels classification model from scratch RPubs document: About the course: The art and science of building a machine model from scratch and then pushing this into production as a consumable…</span>
@@ -1274,6 +1419,9 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-duration">04:21:11</span>
+</td>
+<td>
 <span class="listing-description">Date: Thursday 4th November 2021 Statistical process control charts with R One day Workshop: Masterclass for R programmers Facilitators: Jacob Anhøj, Medical Doctor, Rigshospitalet, Copenhagen, Denmark and Zoë Turner, Senior Information Analyst, Nottinghamshire Healthcare NHS Foundation Trust…</span>
 </td>
 
@@ -1285,6 +1433,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-duration">01:41:32</span>
 </td>
 <td>
 <span class="listing-description">Facilitator: Will Landau, Eli Lilly and Company – USA Data science can be slow. A single round of statistical computation can take several minutes, hours, or even days to complete. The targets R package keeps results up to date and reproducible while minimizing the number of expensive tasks that…</span>
@@ -1300,6 +1451,9 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-duration">00:44:39</span>
+</td>
+<td>
 <span class="listing-description">Join Zoë Turner, Data Scientist,, Nottinghamshire Healthcare NHS Foundation Trust for this NHS-R Workshop - Introduction to R/RStudio Summary: An Introduction to R workshop covering R/RStudio, manipulation of data (dplyr), creating charts (ggplot2) and reports (R Markdown). This is a great…</span>
 </td>
 
@@ -1311,6 +1465,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-duration">03:32:58</span>
 </td>
 <td>
 <span class="listing-description">Join Zoë Turner, Data Scientist, Nottinghamshire Healthcare NHS Foundation Trust for Part 2 of this NHS-R Workshop - Introduction to R/RStudio Summary: An Introduction to R workshop covering R/RStudio, manipulation of data (dplyr), creating charts (ggplot2) and reports (R Markdown). This is a great…</span>
@@ -1326,6 +1483,9 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-duration">05:41:34</span>
+</td>
+<td>
 <span class="listing-description">Join Hansel Palencia for the NHS-R Workshop - ‘Introduction to RMarkdown’</span>
 </td>
 
@@ -1337,6 +1497,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-duration">02:59:51</span>
 </td>
 <td>
 <span class="listing-description">Facilitators: Santosh Kumar and Bruno Petrungaro, The Health Economics Unit Summary: This workshop covers the basics of image processing, classical machine learning with R. Topics in machine learning include an introduction to machine learning, the difference between machine learning and AI,…</span>
@@ -1352,6 +1515,9 @@ Details
 <span class="listing-year">2021</span>
 </td>
 <td>
+<span class="listing-duration">01:43:11</span>
+</td>
+<td>
 <span class="listing-description">Facilitator: Dr Rebecca Killick Associate Professor in the Mathematics &amp; Statistics department at Lancaster University Summary: ‘Further changepoint analysis techniques’ workshop builds upon the introduction to changepoint course and that knowledge will be assumed. We will focus on more advanced…</span>
 </td>
 
@@ -1363,6 +1529,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-duration">02:49:01</span>
 </td>
 <td>
 <span class="listing-description">Facilitator: Dr Rebecca Killick Associate Professor in the Mathematics &amp; Statistics department at Lancaster University Summary: This workshop introduces participants to the analysis of changepoint models (also known as time series segmentation or structural changes). The course is aimed at those…</span>
@@ -1378,6 +1547,9 @@ Details
 <span class="listing-year">2021</span>
 </td>
 <td>
+<span class="listing-duration">02:16:30</span>
+</td>
+<td>
 <span class="listing-description">Facilitator: Chris Beeley, Senior Data Scientist, Nottinghamshire Healthcare NHS Foundation Trust Summary: Shiny is an programming framework for R that allows you to build dynamic and interactive dashboards for the web with no knowledge of HTML, CSS, or JavaScript. It allows R programmers to very…</span>
 </td>
 
@@ -1389,6 +1561,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-duration">01:51:23</span>
 </td>
 <td>
 <span class="listing-description">Presented by: Chris Mainey, Patient Safety Lead – System Analysis and Delivery, NHS Improvement Pre-requisites: Some introductory experience with R Summary: This session focuses on how to fit regression models in R, the most common form of statistical modelling. Examining the essential theory…</span>
@@ -1404,6 +1579,9 @@ Details
 <span class="listing-year">2021</span>
 </td>
 <td>
+<span class="listing-duration">02:27:40</span>
+</td>
+<td>
 <span class="listing-description">Facilitator: Chris Beeley, Senior Data Scientist, Nottinghamshire Healthcare NHS Foundation Trust Summary: Shiny is an programming framework for R that allows you to build dynamic and interactive dashboards for the web with no knowledge of HTML, CSS, or JavaScript. It allows R programmers to very…</span>
 </td>
 
@@ -1415,6 +1593,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-duration">04:40:15</span>
 </td>
 <td>
 <span class="listing-description">Presented by: Eugene Hickey, Lecturer in Physics, Technology University, Dublin This course will be of interest to those who have some experience working with R but have yet to take the plunge to using ggplot. Topics include: The mechanics of ggplot - layers, attributes, and aesthetics Using ggplot…</span>
@@ -1430,6 +1611,9 @@ Details
 <span class="listing-year">2021</span>
 </td>
 <td>
+<span class="listing-duration">02:11:06</span>
+</td>
+<td>
 <span class="listing-description">By Jo McSweeney, Analyst, NHS England and NHS Improvement Using the officeR package to automate PowerPoint slide generation. Do you have slides that you need to repeat for different organisation levels? Are you unable to use the PowerPoint option from the Markdown menu? Using the NHSRdatasets r…</span>
 </td>
 
@@ -1443,6 +1627,9 @@ Details
 <span class="listing-year">2018</span>
 </td>
 <td>
+<span class="listing-duration">00:09:31</span>
+</td>
+<td>
 <span class="listing-description">&nbsp;</span>
 </td>
 
@@ -1454,6 +1641,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2018</span>
+</td>
+<td>
+<span class="listing-duration">00:02:35</span>
 </td>
 <td>
 <span class="listing-description">&nbsp;</span>

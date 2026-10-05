@@ -87,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-year','listing-event','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-year','listing-event','listing-duration','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
       page: 25,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-year","listing-event","listing-description"],
@@ -639,6 +639,9 @@ new FinisherHeader({
       <option value="listing-event" data-direction="asc">
         Series
       </option>
+      <option value="listing-duration" data-direction="asc">
+        Duration
+      </option>
     </select>
   </div>
     <div class="input-group input-group-sm quarto-listing-filter">
@@ -663,6 +666,10 @@ new FinisherHeader({
 </th>
 
 <th>
+<a class="sort" data-sort="listing-duration" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Duration</a>
+</th>
+
+<th>
 Details
 </th>
 
@@ -681,6 +688,9 @@ Details
 <span class="listing-event">Lunch &amp; Learn</span>
 </td>
 <td>
+<span class="listing-duration">00:52:28</span>
+</td>
+<td>
 <span class="listing-description">&nbsp;</span>
 </td>
 
@@ -695,6 +705,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-duration">00:53:49</span>
 </td>
 <td>
 <span class="listing-description">&nbsp;</span>
@@ -713,6 +726,9 @@ Details
 <span class="listing-event">Lunch &amp; Learn</span>
 </td>
 <td>
+<span class="listing-duration">00:54:17</span>
+</td>
+<td>
 <span class="listing-description">Data Storytelling from (x = 0, y = 0) to (x = 10, y = 10)</span>
 </td>
 
@@ -727,6 +743,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-duration">00:40:38</span>
 </td>
 <td>
 <span class="listing-description">&nbsp;</span>
@@ -745,6 +764,9 @@ Details
 <span class="listing-event">Lunch &amp; Learn</span>
 </td>
 <td>
+<span class="listing-duration">00:32:56</span>
+</td>
+<td>
 <span class="listing-description">&nbsp;</span>
 </td>
 
@@ -759,6 +781,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-duration">00:45:22</span>
 </td>
 <td>
 <span class="listing-description">&nbsp;</span>
@@ -777,6 +802,9 @@ Details
 <span class="listing-event">Lunch &amp; Learn</span>
 </td>
 <td>
+<span class="listing-duration">00:51:08</span>
+</td>
+<td>
 <span class="listing-description">&nbsp;</span>
 </td>
 
@@ -791,6 +819,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-duration">00:43:55</span>
 </td>
 <td>
 <span class="listing-description">&nbsp;</span>
@@ -809,6 +840,9 @@ Details
 <span class="listing-event">Lunch &amp; Learn</span>
 </td>
 <td>
+<span class="listing-duration">00:51:43</span>
+</td>
+<td>
 <span class="listing-description">The Human behind the data</span>
 </td>
 
@@ -823,6 +857,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-duration">00:58:05</span>
 </td>
 <td>
 <span class="listing-description">The rise of LLM and what it means for NHS Analysts</span>
@@ -841,6 +878,9 @@ Details
 <span class="listing-event">Lunch &amp; Learn</span>
 </td>
 <td>
+<span class="listing-duration">00:44:57</span>
+</td>
+<td>
 <span class="listing-description">&nbsp;</span>
 </td>
 
@@ -855,6 +895,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-duration">00:41:45</span>
 </td>
 <td>
 <span class="listing-description">&nbsp;</span>
@@ -873,6 +916,9 @@ Details
 <span class="listing-event">Lunch &amp; Learn</span>
 </td>
 <td>
+<span class="listing-duration">00:52:09</span>
+</td>
+<td>
 <span class="listing-description">10 Feb 2026 Meeting Recording</span>
 </td>
 
@@ -887,6 +933,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Webinars and workshops</span>
+</td>
+<td>
+<span class="listing-duration">00:52:29</span>
 </td>
 <td>
 <span class="listing-description">&nbsp;</span>
@@ -905,6 +954,9 @@ Details
 <span class="listing-event">Lunch &amp; Learn</span>
 </td>
 <td>
+<span class="listing-duration">00:54:27</span>
+</td>
+<td>
 <span class="listing-description">&nbsp;</span>
 </td>
 
@@ -919,6 +971,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-duration">00:56:45</span>
 </td>
 <td>
 <span class="listing-description">&nbsp;</span>
@@ -937,6 +992,9 @@ Details
 <span class="listing-event">Lunch &amp; Learn</span>
 </td>
 <td>
+<span class="listing-duration">00:56:18</span>
+</td>
+<td>
 <span class="listing-description">&nbsp;</span>
 </td>
 
@@ -951,6 +1009,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-duration">00:47:30</span>
 </td>
 <td>
 <span class="listing-description">Kick start Tableau</span>
@@ -969,6 +1030,9 @@ Details
 <span class="listing-event">Lunch &amp; Learn</span>
 </td>
 <td>
+<span class="listing-duration">01:02:18</span>
+</td>
+<td>
 <span class="listing-description">Bridging Hearts: Addressing inequalities in cardiovascular health</span>
 </td>
 
@@ -983,6 +1047,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-duration">00:55:47</span>
 </td>
 <td>
 <span class="listing-description">First Steps in the Wessex SDE</span>
@@ -1001,6 +1068,9 @@ Details
 <span class="listing-event">Lunch &amp; Learn</span>
 </td>
 <td>
+<span class="listing-duration">00:58:36</span>
+</td>
+<td>
 <span class="listing-description">AI Digital &amp; Data Readiness Across NHS Teams</span>
 </td>
 
@@ -1015,6 +1085,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-duration">00:53:28</span>
 </td>
 <td>
 <span class="listing-description">Getting the most out of messy NHS data</span>
@@ -1033,6 +1106,9 @@ Details
 <span class="listing-event">Lunch &amp; Learn</span>
 </td>
 <td>
+<span class="listing-duration">00:58:20</span>
+</td>
+<td>
 <span class="listing-description">An analyst’s perspective on the FDP</span>
 </td>
 
@@ -1047,6 +1123,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-duration">00:57:26</span>
 </td>
 <td>
 <span class="listing-description">with Jennifer Woods &amp; Justine Wiltshire , The Strategy Unit</span>
@@ -1065,6 +1144,9 @@ Details
 <span class="listing-event">Lunch &amp; Learn</span>
 </td>
 <td>
+<span class="listing-duration">01:04:06</span>
+</td>
+<td>
 <span class="listing-description">Data and Analytics workforce: Who, what, how and why with Sarah Blundell &amp; Andy Lavelle</span>
 </td>
 
@@ -1079,6 +1161,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-duration">00:37:41</span>
 </td>
 <td>
 <span class="listing-description">Facts &amp; Dimensions</span>
@@ -1097,6 +1182,9 @@ Details
 <span class="listing-event">Lunch &amp; Learn</span>
 </td>
 <td>
+<span class="listing-duration">01:01:24</span>
+</td>
+<td>
 <span class="listing-description">An analyst’s perspective on the FDP</span>
 </td>
 
@@ -1111,6 +1199,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-duration">00:39:12</span>
 </td>
 <td>
 <span class="listing-description">Intro into data visualisation</span>
@@ -1129,6 +1220,9 @@ Details
 <span class="listing-event">Lunch &amp; Learn</span>
 </td>
 <td>
+<span class="listing-duration">00:47:00</span>
+</td>
+<td>
 <span class="listing-description">Facts &amp; Dimensions</span>
 </td>
 
@@ -1143,6 +1237,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-duration">00:47:22</span>
 </td>
 <td>
 <span class="listing-description">Reaching the Unreached: How Data Can Include and Exclude</span>
@@ -1161,6 +1258,9 @@ Details
 <span class="listing-event">Webinars and workshops</span>
 </td>
 <td>
+<span class="listing-duration">00:50:44</span>
+</td>
+<td>
 <span class="listing-description">Cultivating Wellbeing in a Changing Landscape</span>
 </td>
 
@@ -1175,6 +1275,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Webinars and workshops</span>
+</td>
+<td>
+<span class="listing-duration">00:55:36</span>
 </td>
 <td>
 <span class="listing-description">Steady Mind, Shifting World: Building Mental Resilience in Uncertain Times</span>
@@ -1193,6 +1296,9 @@ Details
 <span class="listing-event">Webinars and workshops</span>
 </td>
 <td>
+<span class="listing-duration">00:57:27</span>
+</td>
+<td>
 <span class="listing-description">&nbsp;</span>
 </td>
 
@@ -1207,6 +1313,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Webinars and workshops</span>
+</td>
+<td>
+<span class="listing-duration">00:59:17</span>
 </td>
 <td>
 <span class="listing-description">&nbsp;</span>
@@ -1225,6 +1334,9 @@ Details
 <span class="listing-event">Branch meetings</span>
 </td>
 <td>
+<span class="listing-duration">01:03:53</span>
+</td>
+<td>
 <span class="listing-description">&nbsp;</span>
 </td>
 
@@ -1239,6 +1351,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Branch meetings</span>
+</td>
+<td>
+<span class="listing-duration">00:51:37</span>
 </td>
 <td>
 <span class="listing-description">&nbsp;</span>
@@ -1257,6 +1372,9 @@ Details
 <span class="listing-event">Branch meetings</span>
 </td>
 <td>
+<span class="listing-duration">01:23:33</span>
+</td>
+<td>
 <span class="listing-description">&nbsp;</span>
 </td>
 
@@ -1271,6 +1389,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Branch meetings</span>
+</td>
+<td>
+<span class="listing-duration">01:29:02</span>
 </td>
 <td>
 <span class="listing-description">&nbsp;</span>
@@ -1289,6 +1410,9 @@ Details
 <span class="listing-event">Branch meetings</span>
 </td>
 <td>
+<span class="listing-duration">01:26:34</span>
+</td>
+<td>
 <span class="listing-description">&nbsp;</span>
 </td>
 
@@ -1303,6 +1427,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Branch meetings</span>
+</td>
+<td>
+<span class="listing-duration">01:33:05</span>
 </td>
 <td>
 <span class="listing-description">&nbsp;</span>
@@ -1321,6 +1448,9 @@ Details
 <span class="listing-event">Branch meetings</span>
 </td>
 <td>
+<span class="listing-duration">01:18:51</span>
+</td>
+<td>
 <span class="listing-description">&nbsp;</span>
 </td>
 
@@ -1335,6 +1465,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Branch meetings</span>
+</td>
+<td>
+<span class="listing-duration">00:10:13</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘AphA Y&amp;H Branch Meeting’, starting at 3:27.</span>
@@ -1353,6 +1486,9 @@ Details
 <span class="listing-event">Branch meetings</span>
 </td>
 <td>
+<span class="listing-duration">00:18:30</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘AphA Y&amp;H Branch Meeting’, starting at 13:40.</span>
 </td>
 
@@ -1367,6 +1503,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Branch meetings</span>
+</td>
+<td>
+<span class="listing-duration">00:24:32</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘AphA Y&amp;H Branch Meeting’, starting at 32:10.</span>
@@ -1385,6 +1524,9 @@ Details
 <span class="listing-event">Branch meetings</span>
 </td>
 <td>
+<span class="listing-duration">00:14:05</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘AphA Y&amp;H Branch Meeting’, starting at 56:42.</span>
 </td>
 
@@ -1399,6 +1541,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Branch meetings</span>
+</td>
+<td>
+<span class="listing-duration">00:22:56</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘AphA Y&amp;H Branch Meeting’, starting at 1:10:47.</span>
@@ -1417,6 +1562,9 @@ Details
 <span class="listing-event">Branch meetings</span>
 </td>
 <td>
+<span class="listing-duration">00:19:03</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘AphA Y&amp;H Branch Meeting’, starting at 1:33:43.</span>
 </td>
 
@@ -1431,6 +1579,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Branch meetings</span>
+</td>
+<td>
+<span class="listing-duration">00:18:34</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘AphA Y&amp;H Branch Meeting’, starting at 1:52:46.</span>
@@ -1449,6 +1600,9 @@ Details
 <span class="listing-event">Branch meetings</span>
 </td>
 <td>
+<span class="listing-duration">01:27:01</span>
+</td>
+<td>
 <span class="listing-description">AphA’s London branch was launched in 2017 and holds regular branch meetings where we: showcase some of the great data and analytics work in London network within the London data and analytics community share knowledge and skills hear from a variety of invited speakers We aim to be as inclusive as…</span>
 </td>
 
@@ -1463,6 +1617,9 @@ Details
 </td>
 <td>
 <span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:29:07</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘The Annual AphA Conference 2021Day 2 (2 of 2)’, starting at 1:05.</span>
@@ -1481,6 +1638,9 @@ Details
 <span class="listing-event">AphA Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:35:11</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘The Annual AphA Conference 2021Day 2 (2 of 2)’, starting at 30:12.</span>
 </td>
 
@@ -1495,6 +1655,9 @@ Details
 </td>
 <td>
 <span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:09:25</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘The Annual AphA Conference 2021Day 2 (2 of 2)’, starting at 1:05:23.</span>
@@ -1513,6 +1676,9 @@ Details
 <span class="listing-event">AphA Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:28:49</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘The Annual AphA Conference 2021Day 2 (2 of 2)’, starting at 1:14:48.</span>
 </td>
 
@@ -1527,6 +1693,9 @@ Details
 </td>
 <td>
 <span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:45:03</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘The Annual AphA Conference Day 2 (1 of 2)’, starting at 7:10.</span>
@@ -1545,6 +1714,9 @@ Details
 <span class="listing-event">AphA Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:23:38</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘The Annual AphA Conference Day 2 (1 of 2)’, starting at 52:13.</span>
 </td>
 
@@ -1559,6 +1731,9 @@ Details
 </td>
 <td>
 <span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:17:39</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘The Annual AphA Conference Day 2 (1 of 2)’, starting at 1:15:51.</span>
@@ -1577,6 +1752,9 @@ Details
 <span class="listing-event">AphA Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:44:09</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘The Annual AphA Conference Day 2 (1 of 2)’, starting at 1:33:30.</span>
 </td>
 
@@ -1591,6 +1769,9 @@ Details
 </td>
 <td>
 <span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:17:58</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘The Annual AphA Conference 2021 Day 1 (3 of 3)’, starting at 15:42.</span>
@@ -1609,6 +1790,9 @@ Details
 <span class="listing-event">AphA Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:12:38</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘The Annual AphA Conference 2021 Day 1 (3 of 3)’, starting at 33:40.</span>
 </td>
 
@@ -1623,6 +1807,9 @@ Details
 </td>
 <td>
 <span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:35:19</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘The Annual AphA Conference 2021 Day 1 (3 of 3)’, starting at 46:18.</span>
@@ -1641,6 +1828,9 @@ Details
 <span class="listing-event">AphA Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:12:04</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘The Annual AphA Conference 2021 Day 1 (3 of 3)’, starting at 1:21:37.</span>
 </td>
 
@@ -1655,6 +1845,9 @@ Details
 </td>
 <td>
 <span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:58:37</span>
 </td>
 <td>
 <span class="listing-description">Day 1 Part 2 of the Annual AphA Conference 2021 featuring a discussion of the UK Coronavirus Dashboard</span>
@@ -1673,6 +1866,9 @@ Details
 <span class="listing-event">AphA Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:41:19</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘AphA Conference 2021 Day One (1 of 3)’, starting at 6:09.</span>
 </td>
 
@@ -1687,6 +1883,9 @@ Details
 </td>
 <td>
 <span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:39:49</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘AphA Conference 2021 Day One (1 of 3)’, starting at 47:28.</span>
@@ -1705,6 +1904,9 @@ Details
 <span class="listing-event">Webinars and workshops</span>
 </td>
 <td>
+<span class="listing-duration">00:52:34</span>
+</td>
+<td>
 <span class="listing-description">AphA Webinar - 19th November 2020 Sponsored by Ideal Health www.idealts.co.uk</span>
 </td>
 
@@ -1719,6 +1921,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Webinars and workshops</span>
+</td>
+<td>
+<span class="listing-duration">00:31:01</span>
 </td>
 <td>
 <span class="listing-description">AphA Webinar - Helping the analytical community to develop through knowledge base Webinar - 19th November 2020 Sponsored by Ideal Health www.idealts.co.uk</span>
@@ -1737,6 +1942,9 @@ Details
 <span class="listing-event">Webinars and workshops</span>
 </td>
 <td>
+<span class="listing-duration">00:20:25</span>
+</td>
+<td>
 <span class="listing-description">Webinar - 19th November 2020 Sponsored by Ideal Health www.idealts.co.uk</span>
 </td>
 
@@ -1751,6 +1959,9 @@ Details
 </td>
 <td>
 <span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-duration">01:10:53</span>
 </td>
 <td>
 <span class="listing-description">In this video you will hear from: Sukhmeet Panesar (NHSE/I) and Sarah Culkin (NHSX) on Covid19: a period of unprecedented analyses – what next? And an interactive survey</span>
@@ -1769,6 +1980,9 @@ Details
 <span class="listing-event">AphA Conference</span>
 </td>
 <td>
+<span class="listing-duration">01:22:45</span>
+</td>
+<td>
 <span class="listing-description">In this video you will hear from: Professor Martin Pitt (AphA President) - AphA through the looking glass We have more member show and tell - from Alex Porter, Midlands and Rebecca Thompson, Northern Care Alliance You will see an interactive feedback session with the audience Event close by Rony…</span>
 </td>
 
@@ -1783,6 +1997,9 @@ Details
 </td>
 <td>
 <span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-duration">01:04:15</span>
 </td>
 <td>
 <span class="listing-description">In this video you will hear from: Event sponsor - Huw Davies (Director - Davies Furlong Consulting), Huw talks about The Colour Purple (Effective Communication Using Soft Systems) We have more member show and tell - David Robinson from Poole and Brandon Chapman from the Royal Cornwall NHS Trust</span>
@@ -1801,6 +2018,9 @@ Details
 <span class="listing-event">AphA Conference</span>
 </td>
 <td>
+<span class="listing-duration">01:18:09</span>
+</td>
+<td>
 <span class="listing-description">In this video you will hear from: Opening of Day-1 by Rony Arafin (AphA Chief Officer) and Martin Pitt (AphA President) Dr Jenni Quint - Using routine data for real time change: a step too far? Awards - Kate Thomas Member show and tell - Sian Jones from NHS Devon CCG</span>
 </td>
 
@@ -1815,6 +2035,9 @@ Details
 </td>
 <td>
 <span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-duration">01:22:26</span>
 </td>
 <td>
 <span class="listing-description">In this video you will hear from: Matthew O’Reilly &amp; Keith Khunpha (NHS England and Improvement) …..And then the world changed AphA Analytics Professional Registration by Emma Wright and Garry Fothergill Closing of Day-1 by Rony Arafin (AphA Chief Officer) and Martin Pitt (AphA President)</span>
@@ -1833,6 +2056,9 @@ Details
 <span class="listing-event">AphA Conference</span>
 </td>
 <td>
+<span class="listing-duration">01:23:07</span>
+</td>
+<td>
 <span class="listing-description">In this video you will hear from: Paul Stroner (President elect) and Rony Arafin, our Chief Officer. Dr Ben Goldacre - Making Operational Research Great! Open methods, open platforms, open learning. The New Socks Awards from our South Branch Lead - Kate Thomas</span>
 </td>
 
@@ -1849,6 +2075,9 @@ Details
 <span class="listing-event">Webinars and workshops</span>
 </td>
 <td>
+<span class="listing-duration">01:49:23</span>
+</td>
+<td>
 <span class="listing-description">Disclaimer - The opinions expressed in this session are the personal opinions of the speaker and in no way represent the views of their organisation, nor are they referring to any specific individual or individuals. Recording of the AphA Webinar - Data challenges in a time of crisis Wednesday 17…</span>
 </td>
 
@@ -1863,6 +2092,9 @@ Details
 </td>
 <td>
 <span class="listing-event">Webinars and workshops</span>
+</td>
+<td>
+<span class="listing-duration">00:20:57</span>
 </td>
 <td>
 <span class="listing-description">First of the AphA webinar series, in this video Rony Arafin, our Director of Digital Engagement speaks with Paul Stroner, the Chief Executive Officer (CEO) of AphA. This video provides excellent insight and Paul speaks from his experience in detail about what AphA can offer, and how Analysts can…</span>

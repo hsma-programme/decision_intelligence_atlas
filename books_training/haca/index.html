@@ -87,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-year','listing-event','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-year','listing-event','listing-duration','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
       page: 25,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-year","listing-event","listing-description"],
@@ -649,6 +649,9 @@ new FinisherHeader({
       <option value="listing-event" data-direction="asc">
         Event
       </option>
+      <option value="listing-duration" data-direction="asc">
+        Duration
+      </option>
     </select>
   </div>
     <div class="input-group input-group-sm quarto-listing-filter">
@@ -673,6 +676,10 @@ new FinisherHeader({
 </th>
 
 <th>
+<a class="sort" data-sort="listing-duration" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Duration</a>
+</th>
+
+<th>
 Details
 </th>
 
@@ -691,6 +698,9 @@ Details
 <span class="listing-event">HACA: Main Stage</span>
 </td>
 <td>
+<span class="listing-duration">00:17:12</span>
+</td>
+<td>
 <span class="listing-description">Marc Far, Chief Data and Analytical Officer (East Kent Hospitals University NHS Foundation Trust)</span>
 </td>
 
@@ -705,6 +715,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Main Stage</span>
+</td>
+<td>
+<span class="listing-duration">00:44:37</span>
 </td>
 <td>
 <span class="listing-description">Jess Morley, Health Data Academic (Yale Digital Ethics Center) Ellen Coughlan, Programme Manager (The Health Foundation)</span>
@@ -723,6 +736,9 @@ Details
 <span class="listing-event">HACA: Main Stage</span>
 </td>
 <td>
+<span class="listing-duration">00:12:16</span>
+</td>
+<td>
 <span class="listing-description">&nbsp;</span>
 </td>
 
@@ -737,6 +753,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Main Stage</span>
+</td>
+<td>
+<span class="listing-duration">00:51:43</span>
 </td>
 <td>
 <span class="listing-description">&nbsp;</span>
@@ -755,6 +774,9 @@ Details
 <span class="listing-event">HACA: Main Stage</span>
 </td>
 <td>
+<span class="listing-duration">00:41:22</span>
+</td>
+<td>
 <span class="listing-description">&nbsp;</span>
 </td>
 
@@ -769,6 +791,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Main Stage</span>
+</td>
+<td>
+<span class="listing-duration">00:31:00</span>
 </td>
 <td>
 <span class="listing-description">&nbsp;</span>
@@ -787,6 +812,9 @@ Details
 <span class="listing-event">HACA: Main Stage</span>
 </td>
 <td>
+<span class="listing-duration">00:29:34</span>
+</td>
+<td>
 <span class="listing-description">&nbsp;</span>
 </td>
 
@@ -801,6 +829,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Main Stage</span>
+</td>
+<td>
+<span class="listing-duration">00:11:43</span>
 </td>
 <td>
 <span class="listing-description">&nbsp;</span>
@@ -819,6 +850,9 @@ Details
 <span class="listing-event">HACA: Main Stage</span>
 </td>
 <td>
+<span class="listing-duration">00:37:50</span>
+</td>
+<td>
 <span class="listing-description">Iain Atherton (Chair), Professor of Nursing and Data Science (Edinburgh Napier University) Jan Savinc, Research Fellow (ADR Scotland) Fiona Williams, Pallative Care Nurse (North Cumbria Integrated Care NHS FT) Grace Rowley, Pallative Care Consultant (North Cumbria Integrated Care NHS FT) Suzanne…</span>
 </td>
 
@@ -833,6 +867,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Main Stage</span>
+</td>
+<td>
+<span class="listing-duration">00:54:13</span>
 </td>
 <td>
 <span class="listing-description">&nbsp;</span>
@@ -851,6 +888,9 @@ Details
 <span class="listing-event">HACA: Main Stage</span>
 </td>
 <td>
+<span class="listing-duration">00:29:00</span>
+</td>
+<td>
 <span class="listing-description">&nbsp;</span>
 </td>
 
@@ -865,6 +905,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Main Stage</span>
+</td>
+<td>
+<span class="listing-duration">00:30:19</span>
 </td>
 <td>
 <span class="listing-description">&nbsp;</span>
@@ -883,6 +926,9 @@ Details
 <span class="listing-event">HACA: Main Stage</span>
 </td>
 <td>
+<span class="listing-duration">00:29:46</span>
+</td>
+<td>
 <span class="listing-description">&nbsp;</span>
 </td>
 
@@ -897,6 +943,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Main Stage</span>
+</td>
+<td>
+<span class="listing-duration">00:30:52</span>
 </td>
 <td>
 <span class="listing-description">&nbsp;</span>
@@ -915,6 +964,9 @@ Details
 <span class="listing-event">HACA: Main Stage</span>
 </td>
 <td>
+<span class="listing-duration">00:10:46</span>
+</td>
+<td>
 <span class="listing-description">&nbsp;</span>
 </td>
 
@@ -929,6 +981,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Improving System Flow</span>
+</td>
+<td>
+<span class="listing-duration">00:16:15</span>
 </td>
 <td>
 <span class="listing-description">Faced with growing pressure on urgent and emergency care (UEC) services, Shropshire, Telford and Wrekin Integrated Care Board (STW ICB) developed an innovative UEC Dashboard to deliver near real-time insight across the whole system—from NHS 111 and ambulance services to emergency departments,…</span>
@@ -947,6 +1002,9 @@ Details
 <span class="listing-event">HACA: Improving System Flow</span>
 </td>
 <td>
+<span class="listing-duration">00:30:20</span>
+</td>
+<td>
 <span class="listing-description">“Introduction Missed diagnostic endoscopy appointments (“did not attend”, or DNA) negatively affect cancer outcomes by delaying treatment and worsening prognosis. DNAs also waste clinical resources and lengthen waiting times. Based on historical DNA data, we developed a machine learning–based…</span>
 </td>
 
@@ -961,6 +1019,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Improving System Flow</span>
+</td>
+<td>
+<span class="listing-duration">00:14:27</span>
 </td>
 <td>
 <span class="listing-description">“Monitoring Scotland’s Medication-Assisted Treatment (MAT) Standards is essential for the National mission on ensuring timely and consistent access to care for people affected by substance use. In order to reduce barriers for frontline staff, we developed a semi-automated reporting approach that…</span>
@@ -979,6 +1040,9 @@ Details
 <span class="listing-event">HACA: Improving System Flow</span>
 </td>
 <td>
+<span class="listing-duration">00:15:12</span>
+</td>
+<td>
 <span class="listing-description">“Right Care, Right Person (RCRP) is being implemented across police forces in England and Wales with the aim of ensuring that vulnerable people get the right support from the right agency. RCRP ensures calls for service relating to mental health are dealt with by the right service, and the police…</span>
 </td>
 
@@ -993,6 +1057,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Improving System Flow</span>
+</td>
+<td>
+<span class="listing-duration">00:15:32</span>
 </td>
 <td>
 <span class="listing-description">Seasonal COVID-19 vaccination campaigns in England require distributing millions of doses to almost 7,000 sites. The Targeted Deployment Model (TDM) currently manages deployment, balancing site stock levels against expected demand. However, the existing forecasting approach is deterministic and can…</span>
@@ -1011,6 +1078,9 @@ Details
 <span class="listing-event">HACA: Improving System Flow</span>
 </td>
 <td>
+<span class="listing-duration">00:14:56</span>
+</td>
+<td>
 <span class="listing-description">Background: Lower socio-economic regions have higher pressures on emergency services. Virtual services can reduce the demand on secondary care. We aim to assess the effect of virtual fracture clinics (VFC) on compliance with BOAST guidelines, patient reported outcomes and hospital metrics in an…</span>
 </td>
 
@@ -1025,6 +1095,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Improving System Flow</span>
+</td>
+<td>
+<span class="listing-duration">00:20:57</span>
 </td>
 <td>
 <span class="listing-description">We don’t have sufficient capacity to meet future needs for renal services. The Strategy Unit, working collaboratively with Midlands Renal Network, have built a hybrid simulation model of renal care from the progression of chronic kidney disease (CKD) to kidney replacement therapy (KRT). This…</span>
@@ -1043,6 +1116,9 @@ Details
 <span class="listing-event">HACA: Improving System Flow</span>
 </td>
 <td>
+<span class="listing-duration">00:13:16</span>
+</td>
+<td>
 <span class="listing-description">Primary care resilience is often only recognised at the point of crisis. We set out to make earlier signals visible — so that practices under pressure can be supported sooner, protecting patient access and staff sustainability. The GP Resilience Matrix was first developed in Excel and became a…</span>
 </td>
 
@@ -1057,6 +1133,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Improving System Flow</span>
+</td>
+<td>
+<span class="listing-duration">00:14:14</span>
 </td>
 <td>
 <span class="listing-description">High call volumes to NHS 111, often from low acuity callers, are straining urgent and emergency care services. Using the EAST (easy, attractive, social, timely) framework, new messaging was developed and trialled to encourage London patients to use digital services for dental and prescription…</span>
@@ -1075,6 +1154,9 @@ Details
 <span class="listing-event">HACA: Improving System Flow</span>
 </td>
 <td>
+<span class="listing-duration">00:24:29</span>
+</td>
+<td>
 <span class="listing-description">“Background Between December 2022 and July 2024, the English National Health Service saw 27 periods of industrial action over 78 days, involving hospital and ambulance staff. We examine the impacts of industrial action on the Emergency Department (ED). Methods This observation study of unplanned…</span>
 </td>
 
@@ -1089,6 +1171,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Improving System Flow</span>
+</td>
+<td>
+<span class="listing-duration">00:22:20</span>
 </td>
 <td>
 <span class="listing-description">Tom Prendergast, Senior Data Analyst (The Health Foundation) Hannah Knight, Senior Analytical Manager (The Health Foundation) Benjamin Barr, Professor in Applied Health Research (The Health Foundation</span>
@@ -1107,6 +1192,9 @@ Details
 <span class="listing-event">HACA: Improving System Flow</span>
 </td>
 <td>
+<span class="listing-duration">00:15:50</span>
+</td>
+<td>
 <span class="listing-description">“Introduction Many people live with asthma as a long-term condition. Up to 2020, data showed that Dorset had higher asthma mortality rates than other areas in the South West. Overuse of Short-Acting Beta Agonists (SABA) is linked to poor outcomes and increased risk of death. Dorset needed a way to…</span>
 </td>
 
@@ -1121,6 +1209,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Improving System Flow</span>
+</td>
+<td>
+<span class="listing-duration">00:18:17</span>
 </td>
 <td>
 <span class="listing-description">“Adult Social Care (ASC) provides support to those who find it difficult to perform day-to-day tasks. ASC provides support based on the need of the resident. Those that live in care homes typically receive a higher level of support, at higher cost, than those that live in the community. Residents…</span>
@@ -1139,6 +1230,9 @@ Details
 <span class="listing-event">HACA: Improving System Flow</span>
 </td>
 <td>
+<span class="listing-duration">00:16:37</span>
+</td>
+<td>
 <span class="listing-description">Victoria Arno, Senior Health Intelligence Analyst (ArthritisUK) Katie Brown, (ArthritisUK)</span>
 </td>
 
@@ -1153,6 +1247,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Improving System Flow</span>
+</td>
+<td>
+<span class="listing-duration">00:13:00</span>
 </td>
 <td>
 <span class="listing-description">Introduction: Some patients do not receive recommended care. For example, there are big differences in how well primary care networks help patients to reduce blood glucose levels and associated risks. To improve care, national organisations provide interventions (e.g.&nbsp;webinars) to clinical teams.…</span>
@@ -1171,6 +1268,9 @@ Details
 <span class="listing-event">HACA: Improving System Flow</span>
 </td>
 <td>
+<span class="listing-duration">00:20:34</span>
+</td>
+<td>
 <span class="listing-description">We provide an overview of the output of the NHSR waiting list package. Here we create a national level overview of waiting times across all trusts and specialties nationally, providing insights into the size, distribution and improvement in each area. Neil Walton, Professor (Durham University)</span>
 </td>
 
@@ -1185,6 +1285,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Improving System Flow</span>
+</td>
+<td>
+<span class="listing-duration">00:16:40</span>
 </td>
 <td>
 <span class="listing-description">Introduction BI teams often face the challenge of being data rich but insight poor. Requests arrive from different directions, similar work starts in parallel, and duplication wastes valuable time. We are developing a “Woodyard” operating model — a structured flow from data investigation →…</span>
@@ -1203,6 +1306,9 @@ Details
 <span class="listing-event">HACA: Improving System Flow</span>
 </td>
 <td>
+<span class="listing-duration">00:15:32</span>
+</td>
+<td>
 <span class="listing-description">Within the NHS, nationally set tariffs are based on average procedure costs and often fail to reflect resources needed for complex patients, disadvantaging main sites. Elective hubs focus on high-volume, low-risk cases, leaving main hospitals to deliver complex care at a loss. Unpredictable case…</span>
 </td>
 
@@ -1217,6 +1323,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Improving System Flow</span>
+</td>
+<td>
+<span class="listing-duration">00:23:45</span>
 </td>
 <td>
 <span class="listing-description">In day surgery units, patients not discharged on the day of their procedure (delayed discharges, DD) strain local healthcare resources and impact outcomes. The national target for day surgery discharge is that 91% of cases are same-day discharges (SDD) but only 85% SDD is achieved. The Day Surgery…</span>
@@ -1235,6 +1344,9 @@ Details
 <span class="listing-event">HACA: Improving System Flow</span>
 </td>
 <td>
+<span class="listing-duration">00:27:35</span>
+</td>
+<td>
 <span class="listing-description">Accident and Emergency (A&amp;E) crowding and long waits are a widespread issue in our National Health Service. We analysed three years of data from three A&amp;E departments, using regression to quantify how medical patient boarding—a major contributor to delays—correlated with inpatient length of stay,…</span>
 </td>
 
@@ -1249,6 +1361,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Improving System Flow</span>
+</td>
+<td>
+<span class="listing-duration">00:12:10</span>
 </td>
 <td>
 <span class="listing-description">Background: Gastrointestinal (GI) endoscopy services face challenges in mounting demand and constrained budgets, particularly post-pandemic. Demand and capacity modelling has become essential for optimising resources across various services in the NHS. Objective: To develop a compartmental Ordinary…</span>
@@ -1267,6 +1382,9 @@ Details
 <span class="listing-event">HACA: Improving System Flow</span>
 </td>
 <td>
+<span class="listing-duration">00:19:06</span>
+</td>
+<td>
 <span class="listing-description">Elective care waiting lists in England have reached unprecedented levels, with over 7.6 million patients waiting and only 59.1% treated within the NHS’s 18-week target. This study, conducted by the Networked Data Lab in North West London (NWL), provides a comprehensive analysis of waiting list…</span>
 </td>
 
@@ -1281,6 +1399,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Shift to Community</span>
+</td>
+<td>
+<span class="listing-duration">00:19:08</span>
 </td>
 <td>
 <span class="listing-description">• Introduction: Health problem presentations are becoming increasingly complex. There is a need for new approaches that show the value of health improvement initiatives. Reflection from the health and care workforce, about existing evaluation guidance, includes that ’there seems too much, yet too…</span>
@@ -1299,6 +1420,9 @@ Details
 <span class="listing-event">HACA: Shift to Community</span>
 </td>
 <td>
+<span class="listing-duration">00:25:09</span>
+</td>
+<td>
 <span class="listing-description">Introduction Problem: Cold weather disproportionately harms older people, driving primary care demand, admissions and excess mortality. Following changes to winter fuel eligibility, Dorset faced a larger cohort of financially vulnerable pensioners at risk of cold-related harm. Aim,…</span>
 </td>
 
@@ -1313,6 +1437,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Shift to Community</span>
+</td>
+<td>
+<span class="listing-duration">00:25:13</span>
 </td>
 <td>
 <span class="listing-description">“In this paper, we present systematic evidence on the composition and growth of patient demand for Emergency Department services at University Hospitals of Leicester from July 2022 to November 2024. We use a combination of descriptive analysis and least squares regression to document five key…</span>
@@ -1331,6 +1458,9 @@ Details
 <span class="listing-event">HACA: Shift to Community</span>
 </td>
 <td>
+<span class="listing-duration">00:14:40</span>
+</td>
+<td>
 <span class="listing-description">“A key focus in current healthcare planning is on shifting care delivery from acute hospitals to community settings. This approach assumes that certain subsets of hospital activity can be mitigated with greater use of new or existing community services. To inform healthcare planning there is a need…</span>
 </td>
 
@@ -1345,6 +1475,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Shift to Community</span>
+</td>
+<td>
+<span class="listing-duration">00:15:52</span>
 </td>
 <td>
 <span class="listing-description">“The Strategy Unit was engaged by the New Hospital Programme to develop a model that would predict future demand for acute care in the coming years to support in the sizing of new build hospitals. This talk tells a story in three parts: the preparatory stage of development of this model which…</span>
@@ -1363,6 +1496,9 @@ Details
 <span class="listing-event">HACA: Shift to Community</span>
 </td>
 <td>
+<span class="listing-duration">00:22:17</span>
+</td>
+<td>
 <span class="listing-description">“This session demonstrates a forecasting model of the community pharmacy workforce supply and demand, not only for its own importance, but also for its broader implications in accommodating intervention scenarios and shifting demands from GPs to community pharmacies. The model uses an automated…</span>
 </td>
 
@@ -1377,6 +1513,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Shift to Community</span>
+</td>
+<td>
+<span class="listing-duration">00:19:22</span>
 </td>
 <td>
 <span class="listing-description">“Problem: The Emergency Department (ED) at Sahlgrenska University Hospital faces daily challenges in securing beds for patients who require admission to hospital wards—a difficulty also encountered in the UK. Real-time predictions can offer actionable insights and foster a shared understanding of…</span>
@@ -1395,6 +1534,9 @@ Details
 <span class="listing-event">HACA: Shift to Community</span>
 </td>
 <td>
+<span class="listing-duration">00:11:37</span>
+</td>
+<td>
 <span class="listing-description">“Many health and care analysts work alone, trying to implement reproducible analytical pipelines (RAP) without much local support. To help, The Strategy Unit has been running regular RAP drop-ins. These sessions provide a supportive space where both analysts and managers can share challenges, swap…</span>
 </td>
 
@@ -1409,6 +1551,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Shift to Community</span>
+</td>
+<td>
+<span class="listing-duration">00:13:15</span>
 </td>
 <td>
 <span class="listing-description">“Aim To uncover which patient characteristics are driving poor outcomes (death, readmission and new long-term services) for patients in the 90 days following discharge, specifically assessing the impact of hospital discharge delays, given the known impact of deconditioning on patient health.…</span>
@@ -1427,6 +1572,9 @@ Details
 <span class="listing-event">HACA: Targeting Care / Advancing Analytics</span>
 </td>
 <td>
+<span class="listing-duration">00:19:29</span>
+</td>
+<td>
 <span class="listing-description">Introduction: What problem were you addressing? In this talk we want to showcase the modern “Triple Threat Analyst”. An analyst who combines traditional analytical skills, descriptive, to predictive to explicative analytics, with the ability to embrace modern developmental analytical techniques…</span>
 </td>
 
@@ -1441,6 +1589,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Targeting Care / Advancing Analytics</span>
+</td>
+<td>
+<span class="listing-duration">00:19:06</span>
 </td>
 <td>
 <span class="listing-description">Local Authorities are facing pressure to use data effectively, but it’s often difficult to know where to start, how to balance different needs, and how to make meaningful improvements in Adult Social Care. Even though Local Authorities collect and share social care data, it’s often hard to access…</span>
@@ -1459,6 +1610,9 @@ Details
 <span class="listing-event">HACA: Targeting Care / Advancing Analytics</span>
 </td>
 <td>
+<span class="listing-duration">00:13:58</span>
+</td>
+<td>
 <span class="listing-description">Introduction: The NHS is legally committed to achieve ambitious net-zero targets while balancing operational demands. At Manchester University NHS Foundation Trust (MFT), sustainability and carbon emissions data was fragmented, inconsistently processed, and not accessible to key decision-makers.…</span>
 </td>
 
@@ -1473,6 +1627,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Targeting Care / Advancing Analytics</span>
+</td>
+<td>
+<span class="listing-duration">00:17:00</span>
 </td>
 <td>
 <span class="listing-description">Introduction: Suicide is a national public health priority, and prevention depends on understanding events leading to each death. Traditionally, insights come from manual case reviews, which are slow, resource-intensive, and hard to repeat. A faster, scalable, and cost-effective approach is needed…</span>
@@ -1491,6 +1648,9 @@ Details
 <span class="listing-event">HACA: Targeting Care / Advancing Analytics</span>
 </td>
 <td>
+<span class="listing-duration">00:12:36</span>
+</td>
+<td>
 <span class="listing-description">The Problem Making Manchester Fairer (MMF) is a Manchester City Council initiative aimed at reducing health inequalities, which were starkly exposed during the COVID-19 pandemic. With increasing pressure on public finances, it’s essential to demonstrate that health interventions deliver meaningful…</span>
 </td>
 
@@ -1505,6 +1665,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Targeting Care / Advancing Analytics</span>
+</td>
+<td>
+<span class="listing-duration">00:25:10</span>
 </td>
 <td>
 <span class="listing-description">Introduction: What problem were you addressing? The NHS Health Check is a key national preventative tool, yet significant uptake disparities persist among racially marginalised communities in Birmingham. Commissioners lacked granular, community-specific evidence to understand why uptake was low,…</span>
@@ -1523,6 +1686,9 @@ Details
 <span class="listing-event">HACA: Targeting Care / Advancing Analytics</span>
 </td>
 <td>
+<span class="listing-duration">00:13:28</span>
+</td>
+<td>
 <span class="listing-description">Introduction and aim: MMR (measles, mumps and rubella) vaccine uptake has been declining in Birmingham and Solihull in recent years, to the extent that 25% of five-year-olds in Birmingham had not received two doses of MMR in 2023/24. A measles outbreak in spring 2025 prompted renewed interest in…</span>
 </td>
 
@@ -1537,6 +1703,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Targeting Care / Advancing Analytics</span>
+</td>
+<td>
+<span class="listing-duration">00:25:26</span>
 </td>
 <td>
 <span class="listing-description">Introduction: Our team’s learning and development programme has successfully upskilled the advanced analytical and leadership skills of all analysts, to meet the southeast region’s demand for prescriptive and predictive analytics and excellent stakeholder management and consultancy skills. Both are…</span>
@@ -1555,6 +1724,9 @@ Details
 <span class="listing-event">HACA: Targeting Care / Advancing Analytics</span>
 </td>
 <td>
+<span class="listing-duration">00:24:38</span>
+</td>
+<td>
 <span class="listing-description">RShiny is increasingly being used by data analysts to share results and visualisations with peers, stakeholders, and the public. While RShiny is a powerful tool, default dashboard designs with many selectors and charts have the potential to overwhelm the user, often work poorly on mobile devices,…</span>
 </td>
 
@@ -1569,6 +1741,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Targeting Care / Advancing Analytics</span>
+</td>
+<td>
+<span class="listing-duration">00:13:02</span>
 </td>
 <td>
 <span class="listing-description">Introduction The future of health and care systems depends on analysts who are confident, visible, and equipped to shape decisions. Yet women remain under-represented in senior data and analytics roles, limiting equity and the diversity of perspectives that inform system decisions. The Women in…</span>
@@ -1587,6 +1762,9 @@ Details
 <span class="listing-event">HACA: Targeting Care / Advancing Analytics</span>
 </td>
 <td>
+<span class="listing-duration">00:22:49</span>
+</td>
+<td>
 <span class="listing-description">In the last ten years there has been an explosion in the number of ways to easily bring data science products to a wider audience. Typically a data scientist will build an application for a specific customer by prototyping and refining what they produce using customer feedback. But what happens…</span>
 </td>
 
@@ -1601,6 +1779,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Targeting Care / Advancing Analytics</span>
+</td>
+<td>
+<span class="listing-duration">00:13:20</span>
 </td>
 <td>
 <span class="listing-description">Introduction More than 600,000 people die each year in the UK, of whom 90% could benefit from end-of-life (EOL) and palliative care. EOL care has had a limited profile compared with other pressures on the health system and public finances, which has profound implications for resource allocation…</span>
@@ -1619,6 +1800,9 @@ Details
 <span class="listing-event">HACA: Targeting Care / Advancing Analytics</span>
 </td>
 <td>
+<span class="listing-duration">00:14:21</span>
+</td>
+<td>
 <span class="listing-description">Introduction Addressing health inequalities is important for improving health outcomes and equity within society. Following a paper from the Nuffield Trust examining wait times in A&amp;E across equity themes, the Population Health Unit in Wolverhampton was asked to explore this for Walsall and…</span>
 </td>
 
@@ -1633,6 +1817,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Targeting Care / Advancing Analytics</span>
+</td>
+<td>
+<span class="listing-duration">00:25:00</span>
 </td>
 <td>
 <span class="listing-description">Our data science team has been engaged for some time productionising a simulation model whose function is to predict demand for acute hospital care. Providing the functionality required to make the model easy to use, reliable, and quick in use has posed a considerable challenge, as has building,…</span>
@@ -1651,6 +1838,9 @@ Details
 <span class="listing-event">HACA: Targeting Care / Advancing Analytics</span>
 </td>
 <td>
+<span class="listing-duration">00:24:55</span>
+</td>
+<td>
 <span class="listing-description">This presentation focusses on the methods and results of an impact evaluation of a large national programme which invested £30 million pounds over five years across more than 35 sites to improve clinical outcomes for a specific at-risk and socially marginalized group*. From the perspective of the…</span>
 </td>
 
@@ -1665,6 +1855,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Targeting Care / Advancing Analytics</span>
+</td>
+<td>
+<span class="listing-duration">00:14:28</span>
 </td>
 <td>
 <span class="listing-description">Introduction: Health Needs Assessments (HNAs) are central to understanding population health and guiding Integrated Care Board (ICB) planning, but they are often delivered as static reports. These can be difficult to update, lack transparency, and limit opportunities for interactive exploration.…</span>
@@ -1683,6 +1876,9 @@ Details
 <span class="listing-event">HACA: Targeting Care / Advancing Analytics</span>
 </td>
 <td>
+<span class="listing-duration">00:25:09</span>
+</td>
+<td>
 <span class="listing-description">Launched in October 2023, this National Competency Framework for data professionals framework is now in its second version and work is already under way for version three. New roles, new specialisms and the first ever definition of a domain will all form part of the next iteration. Our goal was to…</span>
 </td>
 
@@ -1697,6 +1893,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Targeting Care / Advancing Analytics</span>
+</td>
+<td>
+<span class="listing-duration">00:15:33</span>
 </td>
 <td>
 <span class="listing-description">National cancer audits play a key role in monitoring care quality and driving NHS service improvement. The National Cancer Audit Collaborating Centre (NATCAN) reports cancer audit results for 120 providers in England and six in Wales. Historically, provider-level results were distributed as…</span>
@@ -1715,6 +1914,9 @@ Details
 <span class="listing-event">HACA: Targeting Care / Advancing Analytics</span>
 </td>
 <td>
+<span class="listing-duration">00:22:23</span>
+</td>
+<td>
 <span class="listing-description">Background: The Health Economics Unit was commissioned by ICB partners to identify valuable evidence from more than 38,000 publications. Working collaboratively with stakeholders, we agreed to trial an AI-assisted methodology to test whether it could deliver a faster and reproducible review. Aim:…</span>
 </td>
 
@@ -1729,6 +1931,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Workshops</span>
+</td>
+<td>
+<span class="listing-duration">00:52:09</span>
 </td>
 <td>
 <span class="listing-description">Natalie Cantillon, Associate Director (Department for Health and Social Care) Sarah Preece, Principal Knowledge Translator Facilitator (Department for Health and Social Care) Katie Dykes, (Department for Health and Social Care)</span>
@@ -1747,6 +1952,9 @@ Details
 <span class="listing-event">HACA: Workshops</span>
 </td>
 <td>
+<span class="listing-duration">01:01:24</span>
+</td>
+<td>
 <span class="listing-description">Rhian Davies, Senior Data Scientist (Strategy Unit) YiWen Hon, Data Scientist (Strategy Unit)</span>
 </td>
 
@@ -1761,6 +1969,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Workshops</span>
+</td>
+<td>
+<span class="listing-duration">00:36:24</span>
 </td>
 <td>
 <span class="listing-description">Mike Woodall, Head of Impact Evaluation (Strategy Unit)</span>
@@ -1779,6 +1990,9 @@ Details
 <span class="listing-event">HACA: Workshops</span>
 </td>
 <td>
+<span class="listing-duration">01:03:30</span>
+</td>
+<td>
 <span class="listing-description">Lucy Morgan, Analytics Manager (Simulation) (Strategy Unit) Sally Thompson, Senior Healthcare Analyst (Strategy Unit)</span>
 </td>
 
@@ -1793,6 +2007,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Workshops</span>
+</td>
+<td>
+<span class="listing-duration">00:53:04</span>
 </td>
 <td>
 <span class="listing-description">Lucy Morgan, Analytics Manager (Simulation) (Strategy Unit) Sally Thompson, Senior Healthcare Analyst (Strategy Unit)</span>
@@ -1811,6 +2028,9 @@ Details
 <span class="listing-event">HACA: Workshops</span>
 </td>
 <td>
+<span class="listing-duration">00:38:13</span>
+</td>
+<td>
 <span class="listing-description">Helena Robinson, Senior Analyst / Data Scientist (Countess of Chester Hospital NHS FT) Patrick Devaney, Senior Data Engineer (Alderhey Children’s NHS FT)</span>
 </td>
 
@@ -1825,6 +2045,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: Workshops</span>
+</td>
+<td>
+<span class="listing-duration">00:44:37</span>
 </td>
 <td>
 <span class="listing-description">Jen Wood, Managing Consultant (Strategy Unit)</span>
@@ -1843,6 +2066,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:14:07</span>
+</td>
+<td>
 <span class="listing-description">Mahmoda Begum, The Strategy Unit Peter Spilsbury, The Strategy Unit</span>
 </td>
 
@@ -1857,6 +2083,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:25:14</span>
 </td>
 <td>
 <span class="listing-description">Keynote: Sir Andrew Dilnot, Warden of Nuffield College Oxford &amp; Non-executive Chair of the Oxford University Press Finance Committee</span>
@@ -1875,6 +2104,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:36:39</span>
+</td>
+<td>
 <span class="listing-description">Keynote: Anita Charlesworth, Director of Research &amp; The REAL Centre at the Health Foundation and Honorary Professor in the College of Social Sciences at the Health Services Management Centre (HSMC)</span>
 </td>
 
@@ -1889,6 +2121,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">01:07:49</span>
 </td>
 <td>
 <span class="listing-description">Chair: Ellen Coughlan, The Health Foundation</span>
@@ -1907,6 +2142,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:30:45</span>
+</td>
+<td>
 <span class="listing-description">Keynote: Andy Boyd, Director, UK Longitudinal Linkage Collaboration, University Bristol and ‘Trust &amp; Transparency’ Programme Co-lead, Health Data Research UK</span>
 </td>
 
@@ -1921,6 +2159,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:45:32</span>
 </td>
 <td>
 <span class="listing-description">Interviewer: Fraser Battye, The Strategy Unit Interviewee: Anita Charlesworth, Director of Research &amp; The REAL Centre at the Health Foundation and Honorary Professor in the College of Social Sciences at the Health Services Management Centre (HSMC)</span>
@@ -1939,6 +2180,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:16:27</span>
+</td>
+<td>
 <span class="listing-description">Richard Sanders, NHS South, Central, and West</span>
 </td>
 
@@ -1953,6 +2197,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:25:43</span>
 </td>
 <td>
 <span class="listing-description">James Lewis, UKHSA</span>
@@ -1971,6 +2218,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:19:33</span>
+</td>
+<td>
 <span class="listing-description">Gareth Humphreys, NHS Blood and Transplant</span>
 </td>
 
@@ -1985,6 +2235,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:04:17</span>
 </td>
 <td>
 <span class="listing-description">Fraser Battye, The Strategy Unit</span>
@@ -2003,6 +2256,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:14:28</span>
+</td>
+<td>
 <span class="listing-description">Brandon Chapman, Royal Cornwall Hospitals NHS Trust</span>
 </td>
 
@@ -2017,6 +2273,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:16:34</span>
 </td>
 <td>
 <span class="listing-description">Melissa Co and Freya Tracey, The Health Foundation</span>
@@ -2035,6 +2294,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:26:40</span>
+</td>
+<td>
 <span class="listing-description">Dr Zella King, University College London Hospitals NHS Trust</span>
 </td>
 
@@ -2049,6 +2311,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:24:43</span>
 </td>
 <td>
 <span class="listing-description">Jane Kirkpatrick, NHS England</span>
@@ -2067,6 +2332,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:25:00</span>
+</td>
+<td>
 <span class="listing-description">Kamil Barczak, NHS Arden &amp; GEM CSU</span>
 </td>
 
@@ -2081,6 +2349,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:14:24</span>
 </td>
 <td>
 <span class="listing-description">Shaun Rowark, The National Institute For Health And Care Excellence (NICE).</span>
@@ -2099,6 +2370,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:21:49</span>
+</td>
+<td>
 <span class="listing-description">Neil Bendel, Manchester City Council</span>
 </td>
 
@@ -2113,6 +2387,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:16:46</span>
 </td>
 <td>
 <span class="listing-description">Anna Pickford, NECS</span>
@@ -2131,6 +2408,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:16:44</span>
+</td>
+<td>
 <span class="listing-description">Michael Cheetham, Barts Health NHS Trust</span>
 </td>
 
@@ -2145,6 +2425,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:21:08</span>
 </td>
 <td>
 <span class="listing-description">Ehsan Taati and Lee Robertson, Public Health Dorset</span>
@@ -2163,6 +2446,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:26:08</span>
+</td>
+<td>
 <span class="listing-description">Lilianna Valles, Alice Tapper, and Matthew Taylor, NHS England</span>
 </td>
 
@@ -2177,6 +2463,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:17:05</span>
 </td>
 <td>
 <span class="listing-description">Sarah Louise Blundell, NHS England</span>
@@ -2195,6 +2484,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:21:43</span>
+</td>
+<td>
 <span class="listing-description">Nuha Bazeer, The Health Foundation</span>
 </td>
 
@@ -2209,6 +2501,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:15:28</span>
 </td>
 <td>
 <span class="listing-description">Alexander Lawless, The Health Foundation</span>
@@ -2227,6 +2522,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:24:38</span>
+</td>
+<td>
 <span class="listing-description">Anastasiia Zharinova, NHS England</span>
 </td>
 
@@ -2241,6 +2539,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:09:57</span>
 </td>
 <td>
 <span class="listing-description">Colleen Dempster, Public Health Agency</span>
@@ -2259,6 +2560,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:23:29</span>
+</td>
+<td>
 <span class="listing-description">Matthew Eves, Derbyshire Community Health Services NHS FT</span>
 </td>
 
@@ -2273,6 +2577,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:16:35</span>
 </td>
 <td>
 <span class="listing-description">Jamie Gale, Neil Jackson and Elisa Santoro, NHS England</span>
@@ -2291,6 +2598,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:12:56</span>
+</td>
+<td>
 <span class="listing-description">Bethany Thompson, NHS England</span>
 </td>
 
@@ -2305,6 +2615,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:24:06</span>
 </td>
 <td>
 <span class="listing-description">Robert Watkins, Midlands &amp; Lancashire CSU</span>
@@ -2323,6 +2636,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:28:54</span>
+</td>
+<td>
 <span class="listing-description">Michael Richardson, NHS Bristol, North Somerset and South Gloucestershire ICB</span>
 </td>
 
@@ -2337,6 +2653,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:15:33</span>
 </td>
 <td>
 <span class="listing-description">Ruth Green, Kelly Bishop, Joanne Bayliss, NHS Midlands and Lancashire CSU</span>
@@ -2355,6 +2674,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:29:31</span>
+</td>
+<td>
 <span class="listing-description">Hadi Modarres and Divya Balasubramanian, NHS England</span>
 </td>
 
@@ -2369,6 +2691,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:17:21</span>
 </td>
 <td>
 <span class="listing-description">Kathie McPeake, NHS Lincolnshire ICB</span>
@@ -2387,6 +2712,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:20:29</span>
+</td>
+<td>
 <span class="listing-description">Mahmoda Begum, The Strategy Unit Peter Spilsbury, The Strategy Unit Charles Tallack, The Health Foundation</span>
 </td>
 
@@ -2401,6 +2729,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:22:10</span>
 </td>
 <td>
 <span class="listing-description">Keynote: Emma Gordon, Director, Administrative Data Research UK</span>
@@ -2419,6 +2750,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:28:10</span>
+</td>
+<td>
 <span class="listing-description">Keynote: Richard Humphries, Independent Social Care Expert and Commentator</span>
 </td>
 
@@ -2433,6 +2767,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:22:58</span>
 </td>
 <td>
 <span class="listing-description">Ann Raymond, The Health Foundation</span>
@@ -2451,6 +2788,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:41:04</span>
+</td>
+<td>
 <span class="listing-description">Chair: Richard Humphries, Independent Social Care Expert and Commentator Panelists: Pete Jackson, WM-ADASS Regional Improvement Director Philippa Lynch, Programme Research and Data Manager, Partners in Care &amp; Health programme, Local Government Association</span>
 </td>
 
@@ -2465,6 +2805,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:16:10</span>
 </td>
 <td>
 <span class="listing-description">Sally Thompson, The Strategy Unit</span>
@@ -2483,6 +2826,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:36:47</span>
+</td>
+<td>
 <span class="listing-description">Keynote: Marc Farr, Chief Analytical Officer, Kent and Medway ICB and East Kent Hospital NHS Foundation Trust</span>
 </td>
 
@@ -2497,6 +2843,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:14:41</span>
 </td>
 <td>
 <span class="listing-description">Thomas Owen, NHS Business Services Authority</span>
@@ -2515,6 +2864,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:27:49</span>
+</td>
+<td>
 <span class="listing-description">Jennifer Wood, The Strategy Unit</span>
 </td>
 
@@ -2529,6 +2881,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:24:53</span>
 </td>
 <td>
 <span class="listing-description">Dani Collier, South Central and West CSU</span>
@@ -2547,6 +2902,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:12:49</span>
+</td>
+<td>
 <span class="listing-description">&nbsp;</span>
 </td>
 
@@ -2561,6 +2919,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:26:30</span>
 </td>
 <td>
 <span class="listing-description">Natalie Cantillon, Department for Health and Social Care</span>
@@ -2579,6 +2940,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:15:02</span>
+</td>
+<td>
 <span class="listing-description">Luke Shaw, Bristol, North Somerset, South Gloucestershire Integrated Care Board</span>
 </td>
 
@@ -2593,6 +2957,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:10:58</span>
 </td>
 <td>
 <span class="listing-description">Katie Binley, Public Health Agency</span>
@@ -2611,6 +2978,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:30:22</span>
+</td>
+<td>
 <span class="listing-description">Hazel Kirkland, Nottinghamshire Healthcare NHS Foundation Trust</span>
 </td>
 
@@ -2625,6 +2995,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:14:09</span>
 </td>
 <td>
 <span class="listing-description">Janarth Duraisingham, NHS Blood and Transplant</span>
@@ -2643,6 +3016,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:28:42</span>
+</td>
+<td>
 <span class="listing-description">Polly Sinclair, Health Innovation Network South London</span>
 </td>
 
@@ -2657,6 +3033,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:31:36</span>
 </td>
 <td>
 <span class="listing-description">Giulia Mantovani, NHS England</span>
@@ -2675,6 +3054,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:13:47</span>
+</td>
+<td>
 <span class="listing-description">Warren Davies, NHS England</span>
 </td>
 
@@ -2689,6 +3071,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:29:55</span>
 </td>
 <td>
 <span class="listing-description">David Jephson, Department of Health and Social Care</span>
@@ -2707,6 +3092,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:10:15</span>
+</td>
+<td>
 <span class="listing-description">Jack Burden, Cameron Stewart, Thilaksan Vikneswaran, Department of Health and Social Care</span>
 </td>
 
@@ -2721,6 +3109,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:24:36</span>
 </td>
 <td>
 <span class="listing-description">Nick Howlett, NHS Bristol, North Somerset and South Gloucestershire ICB</span>
@@ -2739,6 +3130,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:22:05</span>
+</td>
+<td>
 <span class="listing-description">Jonathan Laidler and Amala Imaz Blanco, NHS England</span>
 </td>
 
@@ -2753,6 +3147,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:13:50</span>
 </td>
 <td>
 <span class="listing-description">Sarah Lucas, The Strategy Unit</span>
@@ -2771,6 +3168,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:12:12</span>
+</td>
+<td>
 <span class="listing-description">Lee Cadwallader-Allan, NHS England</span>
 </td>
 
@@ -2785,6 +3185,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:25:52</span>
 </td>
 <td>
 <span class="listing-description">An Te, NHS Arden &amp; GEM CSU</span>
@@ -2803,6 +3206,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:17:36</span>
+</td>
+<td>
 <span class="listing-description">John O’Neil, Midlands and Lancashire CSU</span>
 </td>
 
@@ -2817,6 +3223,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:28:53</span>
 </td>
 <td>
 <span class="listing-description">Claire Tucker, University College London Hospitals NHS Trust</span>
@@ -2835,6 +3244,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:11:59</span>
+</td>
+<td>
 <span class="listing-description">Gabriel Hobro, NHS England</span>
 </td>
 
@@ -2849,6 +3261,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: E-labs</span>
+</td>
+<td>
+<span class="listing-duration">00:58:22</span>
 </td>
 <td>
 <span class="listing-description">HACA2024 E-lab session</span>
@@ -2867,6 +3282,9 @@ Details
 <span class="listing-event">HACA: E-labs</span>
 </td>
 <td>
+<span class="listing-duration">00:58:19</span>
+</td>
+<td>
 <span class="listing-description">HACA2024 E-lab session</span>
 </td>
 
@@ -2881,6 +3299,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: E-labs</span>
+</td>
+<td>
+<span class="listing-duration">00:59:23</span>
 </td>
 <td>
 <span class="listing-description">HACA2024 E-lab session</span>
@@ -2899,6 +3320,9 @@ Details
 <span class="listing-event">HACA: E-labs</span>
 </td>
 <td>
+<span class="listing-duration">00:57:02</span>
+</td>
+<td>
 <span class="listing-description">HACA2024 E-lab session</span>
 </td>
 
@@ -2913,6 +3337,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA: E-labs</span>
+</td>
+<td>
+<span class="listing-duration">00:57:14</span>
 </td>
 <td>
 <span class="listing-description">HACA2024 E-lab Session</span>
@@ -2931,6 +3358,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:15:57</span>
+</td>
+<td>
 <span class="listing-description">Peter Spilsbury, Director of the Strategy Unit, welcomes visitors to the first session of the first day of the Health and Care Analytics conference 2023.</span>
 </td>
 
@@ -2945,6 +3375,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:27:01</span>
 </td>
 <td>
 <span class="listing-description">Ben Goldacre delivers the inaugural talk of the Health and Care Analytics Conference 2023.</span>
@@ -2963,6 +3396,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:16:50</span>
+</td>
+<td>
 <span class="listing-description">Chief Data and Analytics Officer of NHS England Ming Tang addresses the first day of the Health and Care Analytics conference 2023. Ming explores the transformative potential of health and care data and looks at how this might be unleashed in the NHS and beyond.</span>
 </td>
 
@@ -2977,6 +3413,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:17:31</span>
 </td>
 <td>
 <span class="listing-description">Chief Scientific Officer for England Sue Hill addresses the first ever Health and Care Analytics conference 2023, exploring unleashing the transformative potential of data across the NHS.</span>
@@ -2995,6 +3434,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:28:04</span>
+</td>
+<td>
 <span class="listing-description">Andrew Lavelle, of NHS England, takes the Health and Care Analytics 2023 audience through the National Competency Framework for data professionals in health and care.</span>
 </td>
 
@@ -3009,6 +3451,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:27:23</span>
 </td>
 <td>
 <span class="listing-description">Neil Cockburn, of Birmingham University, looks at the prevalence of 281 common conditions in UK primary care data, in his talk at Health and Care Analytics 2023.</span>
@@ -3027,6 +3472,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:23:43</span>
+</td>
+<td>
 <span class="listing-description">Richard Riley of the University of Birmingham takes a dive into healthcare statistics at the Health and Care Analytics conference 2023.</span>
 </td>
 
@@ -3041,6 +3489,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:28:50</span>
 </td>
 <td>
 <span class="listing-description">Tom Jemmett of the Strategy Unit takes the Health and Care Analytics 2023 audience through an introduction to the New Hospital Programme demand model.</span>
@@ -3059,6 +3510,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:13:04</span>
+</td>
+<td>
 <span class="listing-description">William Bryant of the Great Ormond Street Hospital NHS Trust presents on understanding the operational consequences of case mix changes on services for complex patients in a specialty tertiary pediatric NHS trust. This talk was first given at the first ever Health and Care Analytics conference 2023.</span>
 </td>
 
@@ -3073,6 +3527,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:24:44</span>
 </td>
 <td>
 <span class="listing-description">Towards Operational Intelligence: Predicting emergency admissions by hospital speciality using real-time EHR data and Machine Learning by Zella King from University College London and Craig Wood from University College London Hospitals NHS Trust</span>
@@ -3091,6 +3548,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:24:38</span>
+</td>
+<td>
 <span class="listing-description">Lisa Mumford, of NHS Blood and Transport, presents at the first ever Health and Care Analytics Conference 2023, exploring decision aiding tools for deceased donor offers when joining the transplant waiting list.</span>
 </td>
 
@@ -3105,6 +3565,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:12:59</span>
 </td>
 <td>
 <span class="listing-description">Mia Stafford, of The Health Foundation, presents at the first ever Health and Care Analytics conference 2023.</span>
@@ -3123,6 +3586,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:11:16</span>
+</td>
+<td>
 <span class="listing-description">Lisa Mumford, of NHS Blood and Transplant, presents a national retrospective cohort study on Vaccine effectiveness against the SARS-CoV-2 B.1.1.529 Omicron variant in solid organ and islet transplant recipients in England. Recorded at the first ever Health and Care Analytics conference 2023.</span>
 </td>
 
@@ -3137,6 +3603,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:26:02</span>
 </td>
 <td>
 <span class="listing-description">Allis Keeble and Sarah Scobie, of the Nuffield Trust, present at the first ever national Health and Care Analytics conference 2023.</span>
@@ -3155,6 +3624,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:32:40</span>
+</td>
+<td>
 <span class="listing-description">David Shepherd, of Leicester, Leicestershire and Rutland ICB, explains how he used case-mix adjustment and statistical methodologies to devise a fairer resource allocation formula for UK primary care. Recorded at the first ever national Health and Care Analytics conference 2023.</span>
 </td>
 
@@ -3169,6 +3641,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:12:15</span>
 </td>
 <td>
 <span class="listing-description">Rich Bilsborough, of Collaborative Newcastle, presents at the Health and Care Analytics conference 2023 on his experience linking Newcastle health and social-care data at user-level to identify inefficiency, inequality and duplication</span>
@@ -3187,6 +3662,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:16:04</span>
+</td>
+<td>
 <span class="listing-description">Janie Dellar, of Leicester, Leicestershire and Rutland ICB, presents at the first ever national Health and Care Analytics conference 2023.</span>
 </td>
 
@@ -3201,6 +3679,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:14:29</span>
 </td>
 <td>
 <span class="listing-description">Jennifer Wood, of the Strategy Unit, presents at the first ever Health and Care Analytics conference 2023.</span>
@@ -3219,6 +3700,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:21:20</span>
+</td>
+<td>
 <span class="listing-description">Sophie Hedges and Rose Davidson, of the National Children’s Bureau, present at Health and Care Analytics 2023. The talk covers their experience linking data across services to evidence improved parent and child outcomes</span>
 </td>
 
@@ -3233,6 +3717,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:13:50</span>
 </td>
 <td>
 <span class="listing-description">Jon Adamson, of MLCSU, presents at the first national Health and Care Analytics conference 2023.</span>
@@ -3251,6 +3738,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:13:18</span>
+</td>
+<td>
 <span class="listing-description">Anya Gopfert, University of Exeter, and Matthew Eves, Derbyshire Community NHS Foundation Trust, give a demonstration of how health analytics can support the bringing together of these two important agendas. Recorded at the first national Health and Care Analytics conference 2023.</span>
 </td>
 
@@ -3265,6 +3755,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:12:31</span>
 </td>
 <td>
 <span class="listing-description">Donald Maruta, of NHS North Central London ICB, presents at the first national Health and Care Analytics conference 2023.</span>
@@ -3283,6 +3776,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:14:31</span>
+</td>
+<td>
 <span class="listing-description">Donald Maruta, of NHS North Central London ICB, presents at the first national Health and Care Analytics conference 2023.</span>
 </td>
 
@@ -3297,6 +3793,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:14:47</span>
 </td>
 <td>
 <span class="listing-description">Sygal Amitay, of Nottingham University Hospitals NHS Trust, presents at the first national Health and Care Analytics conference 2023.</span>
@@ -3315,6 +3814,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:10:34</span>
+</td>
+<td>
 <span class="listing-description">Alberto Liuzzo Scropo, of NHS England, presents at the first national Health and Care Analytics conference 2023. Alberto presents on adapting a Shewart chart application to identify growth phases for Covid-19 hospital demand and facilitate decisions about elective capacity and mutual aid.</span>
 </td>
 
@@ -3329,6 +3831,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:29:57</span>
 </td>
 <td>
 <span class="listing-description">Tom Bruss, of NHS England, presents at the first national Health and Care Analytics conference 2023.</span>
@@ -3347,6 +3852,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:27:45</span>
+</td>
+<td>
 <span class="listing-description">Adam Cook, of South Central and West Commissioning Support Unit, presents at the first national Health and Care Analytics conference 2023.</span>
 </td>
 
@@ -3361,6 +3869,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:15:43</span>
 </td>
 <td>
 <span class="listing-description">Martina Bargeman Fonesca, NHS England, presents at the first national Health and Care Analytics conference 2023.</span>
@@ -3379,6 +3890,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:13:39</span>
+</td>
+<td>
 <span class="listing-description">Sarah Houston, of UCL Partners, presents at the first national Health and Care Analytics conference 2023. Sarah presents on exploring a diverse population, visualising challenges and tracking progress: learning from the development of an insight platform to drive change and upskill decision makers.</span>
 </td>
 
@@ -3393,6 +3907,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:16:14</span>
 </td>
 <td>
 <span class="listing-description">Jo Davis, of the Royal Cornwall Hospitals NHS Trust, presents at the first national Health and Care Analytics conference 2023.</span>
@@ -3411,6 +3928,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:26:22</span>
+</td>
+<td>
 <span class="listing-description">Helping Social Prescribers: utilising machine learning within a case finding tool by Farah Adam and An Te</span>
 </td>
 
@@ -3425,6 +3945,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:14:42</span>
 </td>
 <td>
 <span class="listing-description">Lorna Willis, of Cancer Research UK/NHS England, presents an analysis of patients waiting more than 104 days from urgent suspected cancer referral to first cancer treatment. Recorded at the first national Health and Care Analytics 2023.</span>
@@ -3443,6 +3966,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:15:46</span>
+</td>
+<td>
 <span class="listing-description">Isobel Ward, Daniel Ayoubkhani and Vahe Nafilyan, of the Office of National Statistics, present at the first national Health and Care Analytics conference 2023.</span>
 </td>
 
@@ -3457,6 +3983,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">02:13:47</span>
 </td>
 <td>
 <span class="listing-description">Tom Frost, Jack Hodgson and Bethany Thompson, of NHS England, present a description of the creation of national patient level data collections and the analysis and visualisation of the resultant data. Recorded at the first national Health and Care Analytics conference 2023.</span>
@@ -3475,6 +4004,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:12:23</span>
+</td>
+<td>
 <span class="listing-description">Leon Green, of the Office for Health Improvement and Disparities, presents at the first national Health and Care Analytics conference 2023.</span>
 </td>
 
@@ -3489,6 +4021,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:14:20</span>
 </td>
 <td>
 <span class="listing-description">Tom Hennell and Emma Das, of the Office for Health Improvement and Disparities, present a study matching historic rates of hospital admissions and mortality for respiratory and cardiovascular causes, with small-area characteristics and rates of condition and illness prevalence from linked…</span>
@@ -3507,6 +4042,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:27:28</span>
+</td>
+<td>
 <span class="listing-description">Measuring the impact of Electronic Patient Record systems (‘’EPRs’’) on key outcomes in acute NHS providers by Toby Lowton and Andrew Sylvester</span>
 </td>
 
@@ -3521,6 +4059,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:13:44</span>
 </td>
 <td>
 <span class="listing-description">Hugo Herrera, of East Sussex and North East Essex Foundation Trust, presents at Health and Care Analytics 2023.</span>
@@ -3539,6 +4080,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:12:53</span>
+</td>
+<td>
 <span class="listing-description">Lucy Kaluvu, of Edge Hill University, speaks at the first national Health and Care Analytics conference 2023. Lucy explores Multimorbidity and socioeconomic deprivation and its effect on health utilisation in NorthWest England, through an analysis of the Combined Intelligence for Population Health…</span>
 </td>
 
@@ -3553,6 +4097,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:21:12</span>
 </td>
 <td>
 <span class="listing-description">Ann Raymond, of the Health Foundation, presents at the first national Health and Care Analytics conference 2023. Ann explores her work on projected patterns of long-term illness in the population of England to 2040 through a microsimulation study.</span>
@@ -3571,6 +4118,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:23:35</span>
+</td>
+<td>
 <span class="listing-description">Jessica Butler, of NHS Grampian, presents at the first national Health and Care Analytics conference 2023.</span>
 </td>
 
@@ -3585,6 +4135,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:24:15</span>
 </td>
 <td>
 <span class="listing-description">Sam Hollings, of NHS England, presents at the first national Health and Care Analytics conference 2023. Sam’s talk covers rolling out reproductible analytical pipelines within NHS England: Faster, more robust and more transparent analysis, and how you can do it too!</span>
@@ -3603,6 +4156,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:13:02</span>
+</td>
+<td>
 <span class="listing-description">Kamil Barczak and Prasanth Peddaayyavarla - An early warning system to support clinicians to manage patients with diabetes,</span>
 </td>
 
@@ -3617,6 +4173,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:04:56</span>
 </td>
 <td>
 <span class="listing-description">Peter Spilsbury of the Strategy Unit welcomes attendees back to the second day of the Health and Care Analytics Conference 2023.</span>
@@ -3635,6 +4194,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:25:40</span>
+</td>
+<td>
 <span class="listing-description">Michael Blastland, of the Royal Papworth Hospital, presents at the Health and Care Analytics conference 2023. Michael looks at Dark Data through the lens of how NOT to run a hospital.</span>
 </td>
 
@@ -3649,6 +4211,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:30:13</span>
 </td>
 <td>
 <span class="listing-description">Two of the key figures in the creation of the UK’s COVID-19 dashboard, Clare Griffiths and Pouria Hadjibagheri, tell the dashboard’s story at Health and Care Analytics 2023.</span>
@@ -3667,6 +4232,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:26:04</span>
+</td>
+<td>
 <span class="listing-description">John Newton of the Department of Public Health and Sport Science presents on tackling health inequalities at the first ever Health and Care Analytics conference 2023.</span>
 </td>
 
@@ -3681,6 +4249,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:14:06</span>
 </td>
 <td>
 <span class="listing-description">Janine Dellar, of Leicestershire and Rutland Integrated Care Board, presents at Health and Care Analytics 2023.</span>
@@ -3699,6 +4270,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:15:02</span>
+</td>
+<td>
 <span class="listing-description">Steve Wyatt, of the Strategy Unit, presents at Health and Care Analytics 2023.</span>
 </td>
 
@@ -3713,6 +4287,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:15:17</span>
 </td>
 <td>
 <span class="listing-description">Stacey Croft, of the Strategy Unit, shares her experience of an applied learning programme in the Midlands at Health and Care Analytics 2023.</span>
@@ -3731,6 +4308,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:12:19</span>
+</td>
+<td>
 <span class="listing-description">Thomas Nicholas, of East London NHS Foundation Trust, presents at Health and Care Analytics 2023.</span>
 </td>
 
@@ -3745,6 +4325,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:14:03</span>
 </td>
 <td>
 <span class="listing-description">Chris Beeley of the Strategy Unit gives his final thoughts and closing remarks on the final day of the first ever Health and Care Analytics conference 2023.</span>
@@ -3763,6 +4346,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:45:04</span>
+</td>
+<td>
 <span class="listing-description">What do leaders want from analysts - discussion panel</span>
 </td>
 
@@ -3777,6 +4363,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:16:08</span>
 </td>
 <td>
 <span class="listing-description">Martina Bargeman Fonseca, of NHS England, presents at the first ever Health and Care Analytics conference 2023. The presentation examines the impact of ambulance performance improvement strategies using estimation through discrete event simulation.</span>
@@ -3795,6 +4384,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:13:24</span>
+</td>
+<td>
 <span class="listing-description">Andrew Jones, of the Strategy Unit, presents at the first national Health and Care Analytics conference 2023.</span>
 </td>
 
@@ -3809,6 +4401,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:11:18</span>
 </td>
 <td>
 <span class="listing-description">Elizabeth Johnstone and Jane Kirkpatrick, of NHS England, present at the first national Health and Care Analytics conference 2023.</span>
@@ -3827,6 +4422,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:15:26</span>
+</td>
+<td>
 <span class="listing-description">Kelly Bishop and Andy McCann, of the Midlands and Lancashire Commissioning Support Unit, present at the first national Health and Care Analytics conference 2023. The presentation covers their review of the impact of the Covid pandemic on the provision of urgent and emergency care across hospitals…</span>
 </td>
 
@@ -3841,6 +4439,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:12:17</span>
 </td>
 <td>
 <span class="listing-description">Simon Wellesley-Miller, of NHS England, presents at the first nation Health and Care Analytics conference, 2023.</span>
@@ -3859,6 +4460,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:09:34</span>
+</td>
+<td>
 <span class="listing-description">Sonia Hayre, of Arden and GEM CSU, explores evaluating the presence and magnitude of health inequalities in ICBs at PCN and Place-level using advanced analytics. Recorded at Health and Care Analytics 2023.</span>
 </td>
 
@@ -3873,6 +4477,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:10:34</span>
 </td>
 <td>
 <span class="listing-description">Steven Wyatt, of the Strategy Unit, presents at the first national Health and Care Analytics conference 2023.</span>
@@ -3891,6 +4498,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:12:12</span>
+</td>
+<td>
 <span class="listing-description">Chris Morris, of NHS South Central and West CSU, presents at the first national Health and Care Analytics conference 2023.</span>
 </td>
 
@@ -3905,6 +4515,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:27:33</span>
 </td>
 <td>
 <span class="listing-description">Jyotsna Srinath and Paola De Pascali, of Essex County Council, present at the first national Health and Care Analytics conference 2023.</span>
@@ -3923,6 +4536,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:13:03</span>
+</td>
+<td>
 <span class="listing-description">Chris Bodimeade, of East Surrey Hospital, presents at the first national Health and Care Analytics conference 2023.</span>
 </td>
 
@@ -3937,6 +4553,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:12:53</span>
 </td>
 <td>
 <span class="listing-description">Prajwal Khairnar, of the Northern Care Alliance, explains semi-automating the clinical coding process: improving efficiency, accuracy and support for clinical coders. Recorded at the first national Health and Care Analytics conference 2023.</span>
@@ -3955,6 +4574,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:19:33</span>
+</td>
+<td>
 <span class="listing-description">Arun Sahni, of the Mid &amp; South Essex NHS Trust, presents on the linking of diverse intra institutional and government raw data sources to monitor the impact of Covid-19 on hospital healthcare resources in a major district general hospital NHS trust during the pandemic. Recorded at the first…</span>
 </td>
 
@@ -3969,6 +4591,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:28:44</span>
 </td>
 <td>
 <span class="listing-description">Santosh Kumar, Maria Paraskevopoulou and Rayne Wang, of the Health Economics Unit, present at the first national Health and Care Analytics conference 2023.</span>
@@ -3987,6 +4612,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:16:44</span>
+</td>
+<td>
 <span class="listing-description">Adam Hollings, of NHS England, presents at the first national Health and Care Analytics conference 2023.</span>
 </td>
 
@@ -4001,6 +4629,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:28:39</span>
 </td>
 <td>
 <span class="listing-description">Natalie Zelenka, Nina Di Cara and Huw Day, of the University of Bristol, present at the first national Health and Care Analytics conference 2023.</span>
@@ -4019,6 +4650,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:26:37</span>
+</td>
+<td>
 <span class="listing-description">Chamut Abebe and Zoe Ruziczka, of The Health Foundation, join Helen Butters, of West Yorkshire ICB, and Sharon Gordon, of the University of Aberdeen, to present at the Health and Care Analytics 2023. The discussion explores an embedded patient and public involvement and engagement approach leading…</span>
 </td>
 
@@ -4033,6 +4667,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:14:39</span>
 </td>
 <td>
 <span class="listing-description">Predicting exacerbations of COPD: a machine learning approach by Kamil Barczak and Prasanth Peddaayyavarla</span>
@@ -4051,6 +4688,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:10:42</span>
+</td>
+<td>
 <span class="listing-description">Sophie Hedges, of the National Children’s Bureau, demonstrate how participation in a community-based pre-natal programme helps pregnant women with a BMI over 25 to increase their physical activity levels. Recorded at the first national Health and Care Analytics conference 2023.</span>
 </td>
 
@@ -4065,6 +4705,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:14:10</span>
 </td>
 <td>
 <span class="listing-description">Matthew Conroy and Aseem Mishra, of NHS Greater Manchester ICS, present at the first national Health and Care Analytics conference 2023.</span>
@@ -4083,6 +4726,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:14:14</span>
+</td>
+<td>
 <span class="listing-description">Nick Grudgings and Alex Brownrigg, of NHS ICB Leeds, and Benjamin Alcock, of NHS Arden and GEM CSU, present at the first national Health and Care Analytics conference 2023. The talk covers their work testing the application of a city-wide segmentation model for planning care and tracking population…</span>
 </td>
 
@@ -4097,6 +4743,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:12:25</span>
 </td>
 <td>
 <span class="listing-description">Nick Hassey, of Bristol, North Somerset and South Gloucestershire ICB, presents at the first national Health and Care Analytics conference 2023. Covering development and practical use in delivering pro-active care and modelling future population health need of a population segmentation in which…</span>
@@ -4115,6 +4764,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:13:30</span>
+</td>
+<td>
 <span class="listing-description">Steven Knuckey and Antoinette Woodhouse, of the Office for Health Improvement and Disparities, present at the first national Health and Care Analytics conference 2023.</span>
 </td>
 
@@ -4129,6 +4781,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:15:16</span>
 </td>
 <td>
 <span class="listing-description">Greg Ceely, of the Office for National Statistics, presents at the first national Health and Care Analytics conference 2023.</span>
@@ -4147,6 +4802,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:27:16</span>
+</td>
+<td>
 <span class="listing-description">Andrew Fogarty, of the University of Nottingham, presents an analysis using routinely collected data from a large UK teaching hospital. Recorded at the first national Health and Care Analytics conference 2023.</span>
 </td>
 
@@ -4161,6 +4819,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:16:38</span>
 </td>
 <td>
 <span class="listing-description">Amanda Dixon and Neil Bendel, of Manchester City Council, present at the first national Health and Care Analytics conference 2023.</span>
@@ -4179,6 +4840,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:13:15</span>
+</td>
+<td>
 <span class="listing-description">Marc Farr, of East Kent Hospitals University NHS Foundation Trust, presents on designing an analysis framework that is simple to use, but has statistical rigour, at the first national Health and Care Analytics conference 2023.</span>
 </td>
 
@@ -4193,6 +4857,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:12:24</span>
 </td>
 <td>
 <span class="listing-description">Michael Cheetham, of North East London ICB, presents at the first national Health and Care Analytics conference 2023.</span>
@@ -4211,6 +4878,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:24:46</span>
+</td>
+<td>
 <span class="listing-description">Jonathan Pearson, of NHS England, speaks at the first national Health and Care Analytics conference 2023.</span>
 </td>
 
@@ -4225,6 +4895,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:13:25</span>
 </td>
 <td>
 <span class="listing-description">Kenneth Quan, of NHS England, presents a case study for emergency hospital readmission rates, at the first national Health and Care Analytics conference 2023.</span>
@@ -4243,6 +4916,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:18:50</span>
+</td>
+<td>
 <span class="listing-description">Alexander Garwood, of Suffolk County Council, presents on the interactive dashboard to drive action and reduce inequalities in Suffolk. Originally recorded at the first national Health and Care Analytics Conference 2023.</span>
 </td>
 
@@ -4257,6 +4933,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:27:48</span>
 </td>
 <td>
 <span class="listing-description">Michaela Breilmann, of Suffolk Office of Data &amp; Analytics, presents at the first national Health and Care Analytics conference 2023.</span>
@@ -4275,6 +4954,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:21:35</span>
+</td>
+<td>
 <span class="listing-description">Emily Baldwin, of NHS Blood and Transplant, presents at the first national Health and Care Analytics conference 2023.</span>
 </td>
 
@@ -4289,6 +4971,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:12:51</span>
 </td>
 <td>
 <span class="listing-description">Jack Ettinger, of the Health Economics Unit, presents at the first national Health and Care Analytics conference 2023. Jack shares his work on the Smarter Spending in Population Health programme, aimed at helping ICSs/ICBs effectively allocate resources on the COPD pathway.</span>
@@ -4307,6 +4992,9 @@ Details
 <span class="listing-event">HACA</span>
 </td>
 <td>
+<span class="listing-duration">00:15:21</span>
+</td>
+<td>
 <span class="listing-description">Nadine Rooney, of West Yorkshire and Barnsley Learning Disability Services ICS, examines how a mental health nurse is driving improvements in learning disability services. Recorded at the first national Health and Care Analytics conference 2023.</span>
 </td>
 
@@ -4321,6 +5009,9 @@ Details
 </td>
 <td>
 <span class="listing-event">HACA</span>
+</td>
+<td>
+<span class="listing-duration">00:23:22</span>
 </td>
 <td>
 <span class="listing-description">Alex Owens, of NHS Arden and GEM CSU, presents at the first national Health and Care Analytics conference 2023.</span>

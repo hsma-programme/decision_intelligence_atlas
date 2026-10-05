@@ -115,10 +115,10 @@
       "/books_training/nhs_oa_conference_recordings/index.html",
       "/books_training/nhs_oa_webinars/index.html",
       "/books_training/nhs_oa_workshops/index.html",
-      "/books_training/nhs_pycom_talks/index.html",
       "/books_training/nhs_r_podcast/index.html",
       "/books_training/r_for_data_science/index.html",
       "/books_training/strategy_unit_webinars/index.html",
+      "/books_training/swaih/index.html",
       "/books_training/visualizing_health_and_healthcare_data/index.html",
       "/packages_projects_tools/des_rap_mms/index.html",
       "/packages_projects_tools/des_rap_stroke/index.html",
@@ -176,7 +176,11 @@
     ]
   },
   {
-    "listing": "/books_training/nhs_pycom_talks/index.html",
+    "listing": "/books_training/strategy_unit_webinars/index.html",
+    "items": []
+  },
+  {
+    "listing": "/books_training/nhs_r_podcast/index.html",
     "items": []
   },
   {
@@ -219,13 +223,13 @@
       "/books_training/insight_festival/index.html",
       "/books_training/nhs_oa_conference_recordings/index.html",
       "/books_training/nhs_oa_webinars/index.html",
-      "/books_training/nhs_pycom_talks/index.html",
       "/books_training/nhs_r_podcast/index.html",
       "/books_training/strategy_unit_webinars/index.html",
       "/books_training/apha/index.html",
       "/books_training/haca/index.html",
       "/books_training/nhs_oa_community/index.html",
-      "/books_training/rap_community_of_practice/index.html"
+      "/books_training/rap_community_of_practice/index.html",
+      "/books_training/swaih/index.html"
     ]
   },
   {
@@ -269,11 +273,7 @@
     "items": []
   },
   {
-    "listing": "/books_training/nhs_r_podcast/index.html",
-    "items": []
-  },
-  {
-    "listing": "/books_training/strategy_unit_webinars/index.html",
+    "listing": "/books_training/swaih/index.html",
     "items": []
   },
   {

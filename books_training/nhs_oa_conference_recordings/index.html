@@ -87,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-year','listing-event','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-year','listing-event','listing-duration','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
       page: 25,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-year","listing-event","listing-description"],
@@ -643,6 +643,9 @@ new FinisherHeader({
       <option value="listing-event" data-direction="asc">
         Conference
       </option>
+      <option value="listing-duration" data-direction="asc">
+        Duration
+      </option>
     </select>
   </div>
     <div class="input-group input-group-sm quarto-listing-filter">
@@ -667,6 +670,10 @@ new FinisherHeader({
 </th>
 
 <th>
+<a class="sort" data-sort="listing-duration" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Duration</a>
+</th>
+
+<th>
 Details
 </th>
 
@@ -685,6 +692,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">00:13:51</span>
+</td>
+<td>
 <span class="listing-description">Talk: Welcome speech and community merger announcement Speaker: Dr Claire Welsh</span>
 </td>
 
@@ -699,6 +709,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">00:35:02</span>
 </td>
 <td>
 <span class="listing-description">Talk: Total Eclipse of the Excel Chart - A reflection on 12 years of teaching modelling and data science in the NHS Speaker: Dr Dan Chalk</span>
@@ -717,6 +730,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">00:26:26</span>
+</td>
+<td>
 <span class="listing-description">Talk: Beautifully reproducible dataviz: lessons learnt from building data-to-viz pipelines Speaker: Cara Thompson</span>
 </td>
 
@@ -731,6 +747,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">00:18:15</span>
 </td>
 <td>
 <span class="listing-description">Talk: Using open data and open source code to create an open elective waiting lists modelling tool (RTT Planner) Speaker: Sebastian Fox</span>
@@ -749,6 +768,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">00:11:29</span>
+</td>
+<td>
 <span class="listing-description">Talk: opencodecounts: An R package and Shiny app exploring NHS clinical coding data Speaker: Milan Wiedemann</span>
 </td>
 
@@ -763,6 +785,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">00:10:41</span>
 </td>
 <td>
 <span class="listing-description">Talk: DES-igning Better Flow: Modelling Non-Elective Admissions Speaker: Helena Robinson</span>
@@ -781,6 +806,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">00:09:00</span>
+</td>
+<td>
 <span class="listing-description">Talk: Mapping Accessibility: Using R5py and GTFS Data to Optimise Women’s Health Hub Locations in the Sussex Speaker: Karrie LIU</span>
 </td>
 
@@ -795,6 +823,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">00:10:19</span>
 </td>
 <td>
 <span class="listing-description">Talk: 3 years on NHS-RPy Unconference: open, self-organising exchange of ideas Speakers: Dr Pawel Orzechowski and Dr Brittany Blankinship</span>
@@ -813,6 +844,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">00:11:43</span>
+</td>
+<td>
 <span class="listing-description">Talk: Design a model for Community pharmacy workforce with open source data Speaker: Chaeyoon Kim</span>
 </td>
 
@@ -827,6 +861,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">00:22:05</span>
 </td>
 <td>
 <span class="listing-description">Talk: Word is better than Quarto? Speaker: Jacqueline Grout</span>
@@ -845,6 +882,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">00:20:47</span>
+</td>
+<td>
 <span class="listing-description">Talk: Deploying Python in production: containers, kubernetes and embracing yaml Speaker: Amadeus Stevenson</span>
 </td>
 
@@ -859,6 +899,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">00:10:41</span>
 </td>
 <td>
 <span class="listing-description">Talk: Modelling Community waiting lists with NHS-R waiting list library Speaker: Simon Wellesley-Miller</span>
@@ -877,6 +920,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">00:08:04</span>
+</td>
+<td>
 <span class="listing-description">Talk: Using APIs in R to obtain Health indicators for interactive visualizations Speaker: Pablo Leon-Rodenas</span>
 </td>
 
@@ -891,6 +937,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">00:17:57</span>
 </td>
 <td>
 <span class="listing-description">Talk: The story of patientflow: from hospital prototype to Python package Speaker: Dr Zella King</span>
@@ -909,6 +958,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">00:20:57</span>
+</td>
+<td>
 <span class="listing-description">Talk: Going for Gold: Adopting RAP-by-default to Create Analysts from Nowhere Speaker: Joseph Wilson</span>
 </td>
 
@@ -923,6 +975,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">00:08:01</span>
 </td>
 <td>
 <span class="listing-description">Talk: Zhuzhing custom error messages with {cli} Speaker: Fran Barton</span>
@@ -941,6 +996,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">00:07:41</span>
+</td>
+<td>
 <span class="listing-description">Talk: Shattered pottery and cancer data: using R to rejoin the pieces Speaker: Joe Shaw</span>
 </td>
 
@@ -955,6 +1013,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">00:30:32</span>
 </td>
 <td>
 <span class="listing-description">Talk: Reusable by Default: Reflections on Building Sustainable Open Tools and Knowledge for Healthcare Speaker: Sammi Rosser</span>
@@ -973,6 +1034,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">00:09:05</span>
+</td>
+<td>
 <span class="listing-description">Talk: A Short Story of a Short Course - Natural Language Processing in R for Health and Social Care Speaker: Dr Pawel Orzechowski and Dr Brittany Blankinship</span>
 </td>
 
@@ -987,6 +1051,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">00:21:33</span>
 </td>
 <td>
 <span class="listing-description">Talk: Practical Testing for Reproducible Analytical Pipelines Speaker: Thomas Jemmett</span>
@@ -1005,6 +1072,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">00:09:21</span>
+</td>
+<td>
 <span class="listing-description">Talk: Building QA into everyday workflows with GitHub Speaker: Rhian Davies</span>
 </td>
 
@@ -1019,6 +1089,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">00:31:51</span>
 </td>
 <td>
 <span class="listing-description">Talk: How we delivered the OpenSAFELY platform to analyse the whole population’s GP records securely, transparently, with open code Speaker: Professor Ben Goldacre</span>
@@ -1037,6 +1110,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">00:16:26</span>
+</td>
+<td>
 <span class="listing-description">Talk: Patient-Level Analytics That Work: Using R to Achieve Rapid, Sustained MRSA Screening Compliance Improvements Speaker: Daniel Weiand</span>
 </td>
 
@@ -1051,6 +1127,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">00:18:31</span>
 </td>
 <td>
 <span class="listing-description">Talk: Using simulation to evaluate a service: what to do when you’ve got no data, no clear questions, and no clue if it’s working Speaker: Chris Mainey</span>
@@ -1069,6 +1148,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">00:13:33</span>
+</td>
+<td>
 <span class="listing-description">Talk: Making national cancer audit reporting Shiny: a journey from Excel to web-based apps using R and Reproducible Analytical Pipelines Speaker: Ella Barber</span>
 </td>
 
@@ -1083,6 +1165,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">00:08:48</span>
 </td>
 <td>
 <span class="listing-description">Talk: Better together: lessons from RAP drop-ins Speaker: YiWen Hon</span>
@@ -1101,6 +1186,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">00:08:59</span>
+</td>
+<td>
 <span class="listing-description">Talk: Predicting Outpatient Non-Attendance Speaker: Peter Andrews</span>
 </td>
 
@@ -1115,6 +1203,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">00:15:39</span>
 </td>
 <td>
 <span class="listing-description">Talk: Introduction to Causal Inference for R and Python users Speaker: Nathan Thomas</span>
@@ -1133,6 +1224,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">00:09:33</span>
+</td>
+<td>
 <span class="listing-description">Talk: Publishing reproducible websites using R Quarto: Camden’s JSNA Hub Speaker: Annie Yu</span>
 </td>
 
@@ -1147,6 +1241,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">00:10:17</span>
 </td>
 <td>
 <span class="listing-description">Talk: What Patients Ask: Harnessing Free-Text Data for Patient-Centred Care Speaker: Mimi Reyburn</span>
@@ -1165,6 +1262,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">00:06:47</span>
+</td>
+<td>
 <span class="listing-description">Talk: Closing speech Speaker: Dr Claire Welsh</span>
 </td>
 
@@ -1179,6 +1279,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">&nbsp;</span>
 </td>
 <td>
 <span class="listing-description">Part of the recording ‘RPYSOC 24 - 22 Nov - Day two afternoon 1’ - see its description for timings.</span>
@@ -1197,6 +1300,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">&nbsp;</span>
+</td>
+<td>
 <span class="listing-description">Part of the recording ‘RPYSOC 24 - 22 Nov - Day two afternoon 1’ - see its description for timings.</span>
 </td>
 
@@ -1211,6 +1317,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">&nbsp;</span>
 </td>
 <td>
 <span class="listing-description">Part of the recording ‘RPYSOC 24 - 22 Nov - Day two afternoon 1’ - see its description for timings.</span>
@@ -1229,6 +1338,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">&nbsp;</span>
+</td>
+<td>
 <span class="listing-description">Part of the recording ‘RPYSOC 24 - 22 Nov - Day two afternoon 1’ - see its description for timings.</span>
 </td>
 
@@ -1243,6 +1355,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">&nbsp;</span>
 </td>
 <td>
 <span class="listing-description">Part of the recording ‘RPYSOC 24 - 22 Nov - Day two afternoon 1’ - see its description for timings.</span>
@@ -1261,6 +1376,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">&nbsp;</span>
+</td>
+<td>
 <span class="listing-description">Part of the recording ‘RPYSOC 24 - 22 Nov - Day two morning 2’ - see its description for timings.</span>
 </td>
 
@@ -1275,6 +1393,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">&nbsp;</span>
 </td>
 <td>
 <span class="listing-description">Part of the recording ‘RPYSOC 24 - 22 Nov - Day two morning 2’ - see its description for timings.</span>
@@ -1293,6 +1414,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">&nbsp;</span>
+</td>
+<td>
 <span class="listing-description">Part of the recording ‘RPYSOC 24 - 22 Nov - Day two morning 2’ - see its description for timings.</span>
 </td>
 
@@ -1307,6 +1431,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">&nbsp;</span>
 </td>
 <td>
 <span class="listing-description">Part of the recording ‘RPYSOC 24 - 22 Nov - Day two morning 2’ - see its description for timings.</span>
@@ -1325,6 +1452,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">&nbsp;</span>
+</td>
+<td>
 <span class="listing-description">Part of the recording ‘RPYSOC 24 - 21 Nov - Day one - afternoon 1’ - see its description for timings.</span>
 </td>
 
@@ -1339,6 +1469,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">&nbsp;</span>
 </td>
 <td>
 <span class="listing-description">Part of the recording ‘RPYSOC 24 - 21 Nov - Day one - afternoon 1’ - see its description for timings.</span>
@@ -1357,6 +1490,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">&nbsp;</span>
+</td>
+<td>
 <span class="listing-description">Part of the recording ‘RPYSOC 24 - 21 Nov - Day one - afternoon 1’ - see its description for timings.</span>
 </td>
 
@@ -1371,6 +1507,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">&nbsp;</span>
 </td>
 <td>
 <span class="listing-description">Part of the recording ‘RPYSOC 24 - 21 Nov - Day one - afternoon 1’ - see its description for timings.</span>
@@ -1389,6 +1528,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">&nbsp;</span>
+</td>
+<td>
 <span class="listing-description">Part of the recording ‘RPYSOC 24 - 22 Nov - Day two afternoon 2’ - see its description for timings.</span>
 </td>
 
@@ -1403,6 +1545,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">&nbsp;</span>
 </td>
 <td>
 <span class="listing-description">Part of the recording ‘RPYSOC 24 - 22 Nov - Day two afternoon 2’ - see its description for timings.</span>
@@ -1421,6 +1566,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">&nbsp;</span>
+</td>
+<td>
 <span class="listing-description">Part of the recording ‘RPYSOC 24 - 22 Nov - Day two afternoon 2’ - see its description for timings.</span>
 </td>
 
@@ -1435,6 +1583,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">&nbsp;</span>
 </td>
 <td>
 <span class="listing-description">Part of the recording ‘RPYSOC 24 - 22 Nov - Day two afternoon 2’ - see its description for timings.</span>
@@ -1453,6 +1604,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">&nbsp;</span>
+</td>
+<td>
 <span class="listing-description">Part of the recording ‘RPYSOC 24 - 22 Nov - Day two - morning 1’ - see its description for timings.</span>
 </td>
 
@@ -1467,6 +1621,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">&nbsp;</span>
 </td>
 <td>
 <span class="listing-description">Part of the recording ‘RPYSOC 24 - 22 Nov - Day two - morning 1’ - see its description for timings.</span>
@@ -1485,6 +1642,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">&nbsp;</span>
+</td>
+<td>
 <span class="listing-description">Part of the recording ‘RPYSOC 24 - 22 Nov - Day two - morning 1’ - see its description for timings.</span>
 </td>
 
@@ -1499,6 +1659,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">&nbsp;</span>
 </td>
 <td>
 <span class="listing-description">Part of the recording ‘RPYSOC 24 - 21 Nov - Day one afternoon 2’ - see its description for timings.</span>
@@ -1517,6 +1680,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">&nbsp;</span>
+</td>
+<td>
 <span class="listing-description">Part of the recording ‘RPYSOC 24 - 21 Nov - Day one afternoon 2’ - see its description for timings.</span>
 </td>
 
@@ -1531,6 +1697,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">&nbsp;</span>
 </td>
 <td>
 <span class="listing-description">Part of the recording ‘RPYSOC 24 - 21 Nov - Day one afternoon 2’ - see its description for timings.</span>
@@ -1549,6 +1718,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">&nbsp;</span>
+</td>
+<td>
 <span class="listing-description">Part of the recording ‘RPYSOC 24 - 21 Nov - Day one afternoon 2’ - see its description for timings.</span>
 </td>
 
@@ -1563,6 +1735,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">&nbsp;</span>
 </td>
 <td>
 <span class="listing-description">Part of the recording ‘RPYSOC 24 - 21 Nov - Day one - morning 2’ - see its description for timings.</span>
@@ -1581,6 +1756,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">&nbsp;</span>
+</td>
+<td>
 <span class="listing-description">Part of the recording ‘RPYSOC 24 - 21 Nov - Day one - morning 2’ - see its description for timings.</span>
 </td>
 
@@ -1595,6 +1773,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">&nbsp;</span>
 </td>
 <td>
 <span class="listing-description">Part of the recording ‘RPYSOC 24 - 21 Nov - Day one - morning 2’ - see its description for timings.</span>
@@ -1613,6 +1794,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">&nbsp;</span>
+</td>
+<td>
 <span class="listing-description">Part of the recording ‘RPYSOC 24 - 21 Nov - Day one - morning 2’ - see its description for timings.</span>
 </td>
 
@@ -1627,6 +1811,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">&nbsp;</span>
 </td>
 <td>
 <span class="listing-description">Part of the recording ‘RPYSOC 24 - 21 Nov - Day one - morning 2’ - see its description for timings.</span>
@@ -1645,6 +1832,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">&nbsp;</span>
+</td>
+<td>
 <span class="listing-description">Part of the recording ‘RPYSOC 2024 - 21 Nov - DAY one - morning 1’ - see its description for timings.</span>
 </td>
 
@@ -1659,6 +1849,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">&nbsp;</span>
 </td>
 <td>
 <span class="listing-description">Part of the recording ‘RPYSOC 2024 - 21 Nov - DAY one - morning 1’ - see its description for timings.</span>
@@ -1677,6 +1870,9 @@ Details
 <span class="listing-event">RPySOC</span>
 </td>
 <td>
+<span class="listing-duration">&nbsp;</span>
+</td>
+<td>
 <span class="listing-description">Part of the recording ‘RPYSOC 2024 - 21 Nov - DAY one - morning 1’ - see its description for timings.</span>
 </td>
 
@@ -1691,6 +1887,9 @@ Details
 </td>
 <td>
 <span class="listing-event">RPySOC</span>
+</td>
+<td>
+<span class="listing-duration">&nbsp;</span>
 </td>
 <td>
 <span class="listing-description">Part of the recording ‘RPYSOC 2024 - 21 Nov - DAY one - morning 1’ - see its description for timings.</span>
@@ -1709,6 +1908,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:32:19</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: Online Conference Talks [Wednesday 11th October 2023]’, starting at 2:04.</span>
 </td>
 
@@ -1723,6 +1925,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:23:48</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: Online Conference Talks [Wednesday 11th October 2023]’, starting at 34:23.</span>
@@ -1741,6 +1946,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:25:02</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: Online Conference Talks [Wednesday 11th October 2023]’, starting at 58:11.</span>
 </td>
 
@@ -1755,6 +1963,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:22:03</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: Online Conference Talks [Wednesday 11th October 2023]’, starting at 1:23:13.</span>
@@ -1773,6 +1984,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:14:44</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: Online Conference Talks [Wednesday 11th October 2023]’, starting at 1:45:16.</span>
 </td>
 
@@ -1787,6 +2001,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:14:37</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: Online Conference Talks [Wednesday 11th October 2023]’, starting at 2:00:00.</span>
@@ -1805,6 +2022,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:11:20</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: Online Conference Talks [Wednesday 11th October 2023]’, starting at 2:14:37.</span>
 </td>
 
@@ -1819,6 +2039,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:19:00</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: Online Conference Talks [Wednesday 11th October 2023]’, starting at 2:25:57.</span>
@@ -1837,6 +2060,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:02:20</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: Online Conference Talks [Wednesday 11th October 2023]’, starting at 2:44:57.</span>
 </td>
 
@@ -1851,6 +2077,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">02:59:09</span>
 </td>
 <td>
 <span class="listing-description">We are very excited to share this recording of the NHS-R/NHS.pycom online conference talks from Tuesday 10th October 2023.</span>
@@ -1869,6 +2098,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">02:54:12</span>
+</td>
+<td>
 <span class="listing-description">We are very excited to share this recording of the NHS-R/NHS.pycom online conference talks from Monday 09th October 2023.</span>
 </td>
 
@@ -1883,6 +2115,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:28:40</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Tuesday 17th October 2023]’, starting at 2:07.</span>
@@ -1901,6 +2136,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:12:06</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Tuesday 17th October 2023]’, starting at 30:47.</span>
 </td>
 
@@ -1915,6 +2153,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:10:52</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Tuesday 17th October 2023]’, starting at 42:53.</span>
@@ -1933,6 +2174,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:10:56</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Tuesday 17th October 2023]’, starting at 53:45.</span>
 </td>
 
@@ -1947,6 +2191,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:21:19</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Tuesday 17th October 2023]’, starting at 1:04:41.</span>
@@ -1965,6 +2212,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:10:47</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Tuesday 17th October 2023]’, starting at 1:26:00.</span>
 </td>
 
@@ -1979,6 +2229,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:31:23</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Tuesday 17th October 2023]’, starting at 1:36:47.</span>
@@ -1997,6 +2250,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:05:22</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Tuesday 17th October 2023]’, starting at 2:08:10.</span>
 </td>
 
@@ -2011,6 +2267,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:15:39</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Tuesday 17th October 2023]’, starting at 2:13:32.</span>
@@ -2029,6 +2288,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:20:25</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Tuesday 17th October 2023]’, starting at 2:29:11.</span>
 </td>
 
@@ -2043,6 +2305,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:08:08</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Tuesday 17th October 2023]’, starting at 2:49:36.</span>
@@ -2061,6 +2326,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:18:57</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Tuesday 17th October 2023]’, starting at 2:57:44.</span>
 </td>
 
@@ -2075,6 +2343,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:15:23</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Tuesday 17th October 2023]’, starting at 3:16:41.</span>
@@ -2093,6 +2364,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:02:05</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Tuesday 17th October 2023]’, starting at 3:32:04.</span>
 </td>
 
@@ -2107,6 +2381,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:16:12</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Tuesday 17th October 2023]’, starting at 3:34:09.</span>
@@ -2125,6 +2402,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:15:06</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Tuesday 17th October 2023]’, starting at 3:50:21.</span>
 </td>
 
@@ -2139,6 +2419,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:10:59</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Tuesday 17th October 2023]’, starting at 4:05:27.</span>
@@ -2157,6 +2440,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:10:50</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Tuesday 17th October 2023]’, starting at 4:16:26.</span>
 </td>
 
@@ -2171,6 +2457,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:09:11</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Tuesday 17th October 2023]’, starting at 4:27:16.</span>
@@ -2189,6 +2478,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:09:59</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Tuesday 17th October 2023]’, starting at 4:36:27.</span>
 </td>
 
@@ -2203,6 +2495,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:11:37</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Tuesday 17th October 2023]’, starting at 4:46:26.</span>
@@ -2221,6 +2516,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:07:43</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Tuesday 17th October 2023]’, starting at 4:58:03.</span>
 </td>
 
@@ -2235,6 +2533,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:10:05</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Tuesday 17th October 2023]’, starting at 5:05:46.</span>
@@ -2253,6 +2554,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:10:58</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Tuesday 17th October 2023]’, starting at 5:15:51.</span>
 </td>
 
@@ -2267,6 +2571,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:00:21</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Tuesday 17th October 2023]’, starting at 5:26:49.</span>
@@ -2285,6 +2592,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:05:07</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Wednesday 18th October 2023]’, starting at 3:28.</span>
 </td>
 
@@ -2299,6 +2609,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:10:37</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Wednesday 18th October 2023]’, starting at 8:35.</span>
@@ -2317,6 +2630,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:11:13</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Wednesday 18th October 2023]’, starting at 19:12.</span>
 </td>
 
@@ -2331,6 +2647,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:12:18</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Wednesday 18th October 2023]’, starting at 30:25.</span>
@@ -2349,6 +2668,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:17:03</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Wednesday 18th October 2023]’, starting at 42:43.</span>
 </td>
 
@@ -2363,6 +2685,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:24:20</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Wednesday 18th October 2023]’, starting at 59:46.</span>
@@ -2381,6 +2706,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:29:11</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Wednesday 18th October 2023]’, starting at 1:24:06.</span>
 </td>
 
@@ -2395,6 +2723,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:12:39</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Wednesday 18th October 2023]’, starting at 1:53:17.</span>
@@ -2413,6 +2744,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:17:54</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Wednesday 18th October 2023]’, starting at 2:05:56.</span>
 </td>
 
@@ -2427,6 +2761,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">&nbsp;</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Wednesday 18th October 2023]’, starting at 2:23:50.</span>
@@ -2445,6 +2782,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:17:36</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Wednesday 18th October 2023]’, starting at 2:23:36.</span>
 </td>
 
@@ -2459,6 +2799,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:13:24</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Wednesday 18th October 2023]’, starting at 2:41:12.</span>
@@ -2477,6 +2820,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:14:27</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Wednesday 18th October 2023]’, starting at 2:54:36.</span>
 </td>
 
@@ -2491,6 +2837,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:19:01</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Wednesday 18th October 2023]’, starting at 3:09:03.</span>
@@ -2509,6 +2858,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:20:06</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Wednesday 18th October 2023]’, starting at 3:28:04.</span>
 </td>
 
@@ -2523,6 +2875,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:10:21</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Wednesday 18th October 2023]’, starting at 3:48:10.</span>
@@ -2541,6 +2896,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:08:41</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Wednesday 18th October 2023]’, starting at 3:58:31.</span>
 </td>
 
@@ -2555,6 +2913,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">01:10:29</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Wednesday 18th October 2023]’, starting at 4:07:12.</span>
@@ -2573,6 +2934,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">&nbsp;</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Wednesday 18th October 2023]’, starting at 5:17:41.</span>
 </td>
 
@@ -2587,6 +2951,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:20:07</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Wednesday 18th October 2023]’, starting at 4:27:41.</span>
@@ -2605,6 +2972,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:12:40</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R/NHS.pycom Conference: In-Person &amp; Virtual Conference Talks [Wednesday 18th October 2023]’, starting at 4:47:48.</span>
 </td>
 
@@ -2619,6 +2989,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: workshops</span>
+</td>
+<td>
+<span class="listing-duration">02:51:44</span>
 </td>
 <td>
 <span class="listing-description">Level up your plots: Using colour, annotations, text hierarchy and other tricks to make your data story stand out with Cara Thompson Wednesday 04th October 2023 Workshop Content: You are encouraged to bring a ggplot of your own making to the workshop – we will code our way towards a better version…</span>
@@ -2637,6 +3010,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: workshops</span>
 </td>
 <td>
+<span class="listing-duration">02:07:53</span>
+</td>
+<td>
 <span class="listing-description">Create your own API with Python and FastAPI with YiWen Hon Monday 02nd October 2023 Workshop Content: The objective of this workshop is to introduce Python users to the FastAPI package and show them how to build their own API, using free and open source tools. APIs are a great way of making machine…</span>
 </td>
 
@@ -2651,6 +3027,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: workshops</span>
+</td>
+<td>
+<span class="listing-duration">02:01:10</span>
 </td>
 <td>
 <span class="listing-description">Modelling non-linear data with Generalized Additive Models (GAMs), using the mgcv package with Chris Mainey Friday 13th October 2023 Workshop Content: This workshop is a follow-on from my talk at last year’s NHS-R conference on modelling ‘wiggly’ data using Generalized Additive Models. Regression…</span>
@@ -2669,6 +3048,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: workshops</span>
 </td>
 <td>
+<span class="listing-duration">05:17:17</span>
+</td>
+<td>
 <span class="listing-description">Introduction to Version Control (Git/GitHub) with Joseph Wilson and Helen Richardson Thursday 12th October 2023 GitHub repository: Workshop Content: Building upon the success of the 2022 Introduction to Version Control (Git/GitHub) workshop, this day-long course returns to equip participants with…</span>
 </td>
 
@@ -2683,6 +3065,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: workshops</span>
+</td>
+<td>
+<span class="listing-duration">02:57:26</span>
 </td>
 <td>
 <span class="listing-description">Data Visualisation with Seaborn with Parisa Gregg Thursday 05th October 2023 Workshop Content: Over the last few decades, a plethora of Python packages have been developed to tackle a range of data visualisation problems. This tutorial will provide a hands-on introduction to Seaborn, a fantastic…</span>
@@ -2701,6 +3086,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: workshops</span>
 </td>
 <td>
+<span class="listing-duration">02:54:05</span>
+</td>
+<td>
 <span class="listing-description">Introduction to R and R Studio (Part 2) with Zoë Turner Tuesday 03rd October 2023 Workshop Content: This is a great opportunity for anyone who is interested in data analysis using Excel, SQL, Access or uses statistical programmes like SPSS to get started with R and R Studio. After this course, you…</span>
 </td>
 
@@ -2715,6 +3103,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R/NHS.pycom Conference: workshops</span>
+</td>
+<td>
+<span class="listing-duration">02:32:57</span>
 </td>
 <td>
 <span class="listing-description">Introduction to R and R Studio (Part 1) with Zoë Turner Monday 02nd October 2023 Workshop Content: This is a great opportunity for anyone who is interested in data analysis using Excel, SQL, Access or uses statistical programmes like SPSS to get started with R and R Studio. After this course, you…</span>
@@ -2733,6 +3124,9 @@ Details
 <span class="listing-event">NHS-R/NHS.pycom Conference: workshops</span>
 </td>
 <td>
+<span class="listing-duration">06:20:36</span>
+</td>
+<td>
 <span class="listing-description">Intermediate R – follow on from ‘Introduction to R and R Studio’ with Simon Wellesley-Miller Friday 06th October 2023 Workshop Content: In this workshop we will be looking at applying some of the knowledge learned in the ‘Introduction to R and R Studio’ workshop and applying the methods learned to…</span>
 </td>
 
@@ -2747,6 +3141,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">01:59:15</span>
 </td>
 <td>
 <span class="listing-description">Led by Gary Hutson, Head of Machine Learning, Crisp 1st November 2022 Here we will learn how to build a TidyModels classification model from scratch RPubs document: About the course: The art and science of building a machine model from scratch and then pushing this into production as a consumable…</span>
@@ -2765,6 +3162,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">01:46:19</span>
+</td>
+<td>
 <span class="listing-description">Intro to Shiny and Advanced Shiny Tuesday 1st November, 12.00 – 2.00 pm Led by Ryan Johnson, Customer Success Manager, RSTUDIO About the course: Intro to Shiny: We’ll go over the basic structure of a Shiny app and how they work. This is a great session for those new to Shiny. Advanced Shiny: Also…</span>
 </td>
 
@@ -2779,6 +3179,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">01:24:34</span>
 </td>
 <td>
 <span class="listing-description">NHS-R Conference Webinar: Introduction to business case analytics using Decision Analysis in R Tuesday 1st November 2022 Led by: Rob Brown, Cybersecurity Risk Management Leader About the webinar: How decision analysis leads data analysis, what considerations need to be in place to do that. With…</span>
@@ -2797,6 +3200,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:55:23</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22’, starting at 0:00.</span>
 </td>
 
@@ -2811,6 +3217,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:12:37</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22’, starting at 55:23.</span>
@@ -2829,6 +3238,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:10:00</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22’, starting at 1:08:00.</span>
 </td>
 
@@ -2843,6 +3255,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">01:04:00</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22’, starting at 1:18:00.</span>
@@ -2861,6 +3276,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:18:21</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22’, starting at 2:22:00.</span>
 </td>
 
@@ -2875,6 +3293,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">01:58:54</span>
 </td>
 <td>
 <span class="listing-description">Building Websites in R with Distill Wednesday 2nd November 2022, Led by Jennifer Sloane, PhD Student, UNSW Do you want to learn how to build your own website in R? About the course: In this interactive workshop, we will build a website from scratch in R using the Distill package. Whether you want…</span>
@@ -2893,6 +3314,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">01:45:18</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Workshop: Intro to R and RStudio (Part 2) - 03/11/22’, starting at 0:00.</span>
 </td>
 
@@ -2907,6 +3331,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:25:03</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Workshop: Intro to R and RStudio (Part 2) - 03/11/22’, starting at 1:45:18.</span>
@@ -2925,6 +3352,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:29:39</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Workshop: Intro to R and RStudio (Part 2) - 03/11/22’, starting at 2:10:21.</span>
 </td>
 
@@ -2939,6 +3369,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:12:42</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Workshop: Intro to R and RStudio (Part 2) - 03/11/22’, starting at 2:40:00.</span>
@@ -2957,6 +3390,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">02:27:41</span>
+</td>
+<td>
 <span class="listing-description">Introduction to Interactive plotting with R Thursday 3rd November 2022, Led by Annie Yu, Epidemiological Programmer, Hertfordshire County Council Pre-requisites: Some introductory experience with R About the course: The workshop will cover creating interactive graphs using plotly and echarts4r…</span>
 </td>
 
@@ -2971,6 +3407,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">02:01:45</span>
 </td>
 <td>
 <span class="listing-description">Level up your plots: tips and tricks for creating compelling data visualisations in R Friday 4th November 202 Led by Cara Thompson, Freelance Data Consultant - Building Stories with Data Pre-requisites: It would be helpful for participants to have a basic grasp of: - creating a plot with ggplot2 -…</span>
@@ -2989,6 +3428,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:57:29</span>
+</td>
+<td>
 <span class="listing-description">Tips and tricks learnt from building production {shiny} apps Monday 7th November Delivered by Colin Fay, Data Scientist &amp; R Hacker at ThinkR About the webinar: The road to a production-ready software is always a bumpy road. Whatever you do, you can always expect the unexpected. But the good news is…</span>
 </td>
 
@@ -3003,6 +3445,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:02:00</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Online Speaker Conference 2022 - Day 1: 8th November’, starting at 0:00.</span>
@@ -3021,6 +3466,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:14:40</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Online Speaker Conference 2022 - Day 1: 8th November’, starting at 2:00.</span>
 </td>
 
@@ -3035,6 +3483,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:17:58</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Online Speaker Conference 2022 - Day 1: 8th November’, starting at 16:40.</span>
@@ -3053,6 +3504,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:13:33</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Online Speaker Conference 2022 - Day 1: 8th November’, starting at 34:38.</span>
 </td>
 
@@ -3067,6 +3521,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:18:19</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Online Speaker Conference 2022 - Day 1: 8th November’, starting at 48:11.</span>
@@ -3085,6 +3542,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:20:21</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Online Speaker Conference 2022 - Day 1: 8th November’, starting at 1:06:30.</span>
 </td>
 
@@ -3099,6 +3559,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:19:32</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Online Speaker Conference 2022 - Day 1: 8th November’, starting at 1:26:51.</span>
@@ -3117,6 +3580,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:10:39</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Online Speaker Conference 2022 - Day 1: 8th November’, starting at 1:46:23.</span>
 </td>
 
@@ -3131,6 +3597,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:16:35</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Online Speaker Conference 2022 - Day 1: 8th November’, starting at 1:57:02.</span>
@@ -3149,6 +3618,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:02:35</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Online Speaker Conference 2022 - Day 2: 9th November’, starting at 0:00.</span>
 </td>
 
@@ -3163,6 +3635,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:12:33</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Online Speaker Conference 2022 - Day 2: 9th November’, starting at 2:35.</span>
@@ -3181,6 +3656,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:20:02</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Online Speaker Conference 2022 - Day 2: 9th November’, starting at 15:08.</span>
 </td>
 
@@ -3195,6 +3673,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:12:31</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Online Speaker Conference 2022 - Day 2: 9th November’, starting at 35:10.</span>
@@ -3213,6 +3694,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:19:53</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Online Speaker Conference 2022 - Day 2: 9th November’, starting at 47:41.</span>
 </td>
 
@@ -3227,6 +3711,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:17:04</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Online Speaker Conference 2022 - Day 2: 9th November’, starting at 1:07:34.</span>
@@ -3245,6 +3732,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:13:38</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Online Speaker Conference 2022 - Day 2: 9th November’, starting at 1:24:38.</span>
 </td>
 
@@ -3259,6 +3749,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:12:13</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Online Speaker Conference 2022 - Day 2: 9th November’, starting at 1:38:16.</span>
@@ -3277,6 +3770,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:17:53</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Online Speaker Conference 2022 - Day 2: 9th November’, starting at 1:50:29.</span>
 </td>
 
@@ -3291,6 +3787,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:17:40</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Online Speaker Conference 2022 - Day 2: 9th November’, starting at 2:08:22.</span>
@@ -3309,6 +3808,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:01:20</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Online Speaker Conference 2022 - Day 3: 10th November’, starting at 0:00.</span>
 </td>
 
@@ -3323,6 +3825,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:15:00</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Online Speaker Conference 2022 - Day 3: 10th November’, starting at 1:20.</span>
@@ -3341,6 +3846,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:13:36</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Online Speaker Conference 2022 - Day 3: 10th November’, starting at 16:20.</span>
 </td>
 
@@ -3355,6 +3863,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:14:48</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Online Speaker Conference 2022 - Day 3: 10th November’, starting at 29:56.</span>
@@ -3373,6 +3884,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:17:51</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Online Speaker Conference 2022 - Day 3: 10th November’, starting at 44:44.</span>
 </td>
 
@@ -3387,6 +3901,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:15:32</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Online Speaker Conference 2022 - Day 3: 10th November’, starting at 1:02:35.</span>
@@ -3405,6 +3922,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:16:33</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Online Speaker Conference 2022 - Day 3: 10th November’, starting at 1:18:07.</span>
 </td>
 
@@ -3419,6 +3939,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:14:55</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Online Speaker Conference 2022 - Day 3: 10th November’, starting at 1:34:40.</span>
@@ -3437,6 +3960,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:18:09</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Online Speaker Conference 2022 - Day 3: 10th November’, starting at 1:49:35.</span>
 </td>
 
@@ -3451,6 +3977,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">02:49:37</span>
 </td>
 <td>
 <span class="listing-description">Debugging in R Friday 11th November 2022 Led by Shannon Pileggi, Data Scientist, The Prostate Cancer Clinical Trials Consortium Pre-requisites: Knowledge of how to write a function in R. About the course: Learning objectives: Review code troubleshooting tips. Discuss debugging functions…</span>
@@ -3469,6 +3998,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:15:25</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham’, starting at 0:00.</span>
 </td>
 
@@ -3483,6 +4015,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:10:03</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham’, starting at 15:25.</span>
@@ -3501,6 +4036,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:16:17</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham’, starting at 25:28.</span>
 </td>
 
@@ -3515,6 +4053,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:22:52</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham’, starting at 41:45.</span>
@@ -3533,6 +4074,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:17:05</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham’, starting at 1:04:37.</span>
 </td>
 
@@ -3547,6 +4091,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:14:15</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham’, starting at 1:21:42.</span>
@@ -3565,6 +4112,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:23:38</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham’, starting at 1:35:57.</span>
 </td>
 
@@ -3579,6 +4129,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:14:31</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham’, starting at 1:59:35.</span>
@@ -3597,6 +4150,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:11:46</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham’, starting at 2:14:06.</span>
 </td>
 
@@ -3611,6 +4167,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:17:17</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham’, starting at 2:25:52.</span>
@@ -3629,6 +4188,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:13:30</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham’, starting at 2:43:09.</span>
 </td>
 
@@ -3643,6 +4205,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:15:56</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham’, starting at 2:56:39.</span>
@@ -3661,6 +4226,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:13:15</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham’, starting at 3:12:35.</span>
 </td>
 
@@ -3675,6 +4243,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:13:04</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham’, starting at 3:25:50.</span>
@@ -3693,6 +4264,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:16:47</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham’, starting at 3:38:54.</span>
 </td>
 
@@ -3707,6 +4281,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:13:14</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham’, starting at 3:55:41.</span>
@@ -3725,6 +4302,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:13:27</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham’, starting at 4:08:55.</span>
 </td>
 
@@ -3739,6 +4319,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:15:47</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham’, starting at 4:22:22.</span>
@@ -3757,6 +4340,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:16:58</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham’, starting at 4:38:09.</span>
 </td>
 
@@ -3771,6 +4357,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:09:59</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham’, starting at 4:55:07.</span>
@@ -3789,6 +4378,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:07:38</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham’, starting at 5:05:06.</span>
 </td>
 
@@ -3803,6 +4395,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:08:19</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham’, starting at 5:12:44.</span>
@@ -3821,6 +4416,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:08:46</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham’, starting at 5:21:03.</span>
 </td>
 
@@ -3835,6 +4433,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:08:51</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham’, starting at 5:29:49.</span>
@@ -3853,6 +4454,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:09:47</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham’, starting at 5:38:40.</span>
 </td>
 
@@ -3867,6 +4471,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:01:09</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham’, starting at 0:00.</span>
@@ -3885,6 +4492,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:12:36</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham’, starting at 1:09.</span>
 </td>
 
@@ -3899,6 +4509,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:13:37</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham’, starting at 13:45.</span>
@@ -3917,6 +4530,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:17:18</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham’, starting at 27:22.</span>
 </td>
 
@@ -3931,6 +4547,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:14:35</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham’, starting at 44:40.</span>
@@ -3949,6 +4568,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:15:56</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham’, starting at 59:15.</span>
 </td>
 
@@ -3963,6 +4585,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:16:17</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham’, starting at 1:15:11.</span>
@@ -3981,6 +4606,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:13:32</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham’, starting at 1:31:28.</span>
 </td>
 
@@ -3995,6 +4623,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:19:39</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham’, starting at 1:45:00.</span>
@@ -4013,6 +4644,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:14:32</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham’, starting at 2:04:39.</span>
 </td>
 
@@ -4027,6 +4661,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:13:25</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham’, starting at 2:19:11.</span>
@@ -4045,6 +4682,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:18:03</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham’, starting at 2:32:36.</span>
 </td>
 
@@ -4059,6 +4699,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:10:35</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham’, starting at 2:50:39.</span>
@@ -4077,6 +4720,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:11:26</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham’, starting at 3:01:14.</span>
 </td>
 
@@ -4091,6 +4737,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:10:28</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham’, starting at 3:12:40.</span>
@@ -4109,6 +4758,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:15:25</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham’, starting at 3:23:08.</span>
 </td>
 
@@ -4123,6 +4775,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:08:02</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham’, starting at 3:38:33.</span>
@@ -4141,6 +4796,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:07:31</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham’, starting at 3:46:35.</span>
 </td>
 
@@ -4155,6 +4813,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:09:11</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham’, starting at 3:54:06.</span>
@@ -4173,6 +4834,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:09:15</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham’, starting at 4:03:17.</span>
 </td>
 
@@ -4187,6 +4851,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:08:58</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham’, starting at 4:12:32.</span>
@@ -4205,6 +4872,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:11:00</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham’, starting at 4:21:30.</span>
 </td>
 
@@ -4219,6 +4889,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:14:14</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham’, starting at 4:32:30.</span>
@@ -4237,6 +4910,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">03:06:37</span>
+</td>
+<td>
 <span class="listing-description">Working with databases in R Wednesday 23rd November 2022 Led by Christopher Maronga,m R Programmer, University of Oxford About the course: The first step in any data handling process is loading data into your working tool regardless of the form and media of storage. Relational databases such as…</span>
 </td>
 
@@ -4251,6 +4927,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">01:39:56</span>
 </td>
 <td>
 <span class="listing-description">PHM ExploreR: An open source tool for Population Health Management Thursday 24th November 2022 Led by Andras Varady, Forensic Cancer Pathway Data Scientist, NHS Bristol, North Somerset and South Gloucestershire CCG About the course: The workshop will introduce delegates to the PHM ExploreR: a…</span>
@@ -4269,6 +4948,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">02:25:16</span>
+</td>
+<td>
 <span class="listing-description">Introduction to Regression Modelling Thursday 24th November 2022 Led by Chris Mainey, Deputy Director of Specialist Analytics at North Central London Integrated Care Board Pre-requisites: Some introductory experience with R About the course: This session will focus on how to fit regression models…</span>
 </td>
 
@@ -4283,6 +4965,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">01:32:54</span>
 </td>
 <td>
 <span class="listing-description">Fitting distributions in R Friday 25th November 2022 Led by Dr Sean Manzi, Research Fellow in Applied Healthcare Modelling and Analysis, University of Exeter College of Medicine and Health Pre-requisites: A basic understanding of how to use R About the course: This session will begin by introducing…</span>
@@ -4301,6 +4986,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: Python track</span>
 </td>
 <td>
+<span class="listing-duration">00:02:07</span>
+</td>
+<td>
 <span class="listing-description"><span class="citation" data-cites="NHSOA_Community">@NHSOA_Community</span> Conference: Python Track 17th of Nov 2022 ■ <em>Speaker:</em> Mary Amanuel, Economics &amp; Strategic Analysis, NHS England. ■ <em>LinkedIn:</em> ■ <em>GitHub:</em></span>
 </td>
 
@@ -4315,6 +5003,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: Python track</span>
+</td>
+<td>
+<span class="listing-duration">00:32:44</span>
 </td>
 <td>
 <span class="listing-description"><span class="citation" data-cites="NHSOA_Community">@NHSOA_Community</span> Conference: Python Track 17th of Nov 2022 ■ <em>Speaker:</em> Sarah Culkin, Deputy Director, Analytics and Data Science, NHS England. ■ <em>LinkedIn:</em> ■ <em>Website:</em></span>
@@ -4333,6 +5024,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: Python track</span>
 </td>
 <td>
+<span class="listing-duration">00:46:00</span>
+</td>
+<td>
 <span class="listing-description"><span class="citation" data-cites="NHSOA_Community">@NHSOA_Community</span> Conference: Python Track 17th of Nov 2022 ■ <em>Chair:</em> Sarah Culkin, Deputy Director, Analytics and Data Science, NHS England. ■ <em>Speaker:</em> Pawel Orzechowski. Lecturer in Programming for Business, University of Edinburgh ■ <em>Speaker:</em> Thiago Viana. Senior Lecturer in Computing,…</span>
 </td>
 
@@ -4347,6 +5041,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: Python track</span>
+</td>
+<td>
+<span class="listing-duration">00:23:53</span>
 </td>
 <td>
 <span class="listing-description"><span class="citation" data-cites="NHSOA_Community">@NHSOA_Community</span> Conference: Python Track 17th of Nov 2022 ■ Speaker: Adam Carruthers, Graduate Trainee, NHS Digital ■ LinkedIn: ■ GitHub:</span>
@@ -4365,6 +5062,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: Python track</span>
 </td>
 <td>
+<span class="listing-duration">00:13:57</span>
+</td>
+<td>
 <span class="listing-description"><span class="citation" data-cites="NHSOA_Community">@NHSOA_Community</span> Conference: Python Track 17th of Nov 2022 ■ Speaker: Mark Bailey, Speciality Doctor and Digital Lead in Respiratory Medicine. Gloucestershire Hospitals NHS Foundation Trust ■ LinkedIn: ■ Github: ■ Links:</span>
 </td>
 
@@ -4379,6 +5079,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: Python track</span>
+</td>
+<td>
+<span class="listing-duration">00:26:39</span>
 </td>
 <td>
 <span class="listing-description">​ <span class="citation" data-cites="NHSOA_Community">@NHSOA_Community</span> Conference: Python Track 17th of Nov 2022 ■ Speaker: Steven Maude, Software Developer, Bennett Institute for Applied Data Science ■ Github: ■ Links: ■ Links:</span>
@@ -4397,6 +5100,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: Python track</span>
 </td>
 <td>
+<span class="listing-duration">00:20:34</span>
+</td>
+<td>
 <span class="listing-description"><span class="citation" data-cites="NHSOA_Community">@NHSOA_Community</span> Conference: Python Track 17th of Nov 2022 ■ Speaker: Charlotte James, Senior Research Associate in Health Data Science / Researcher in Residence, University of Bristol / BNSSG ICB ■ Github: ■ Links:</span>
 </td>
 
@@ -4411,6 +5117,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: Python track</span>
+</td>
+<td>
+<span class="listing-duration">00:12:36</span>
 </td>
 <td>
 <span class="listing-description">​ <span class="citation" data-cites="NHSOA_Community">@NHSOA_Community</span> Conference: Python Track 17th of Nov 2022 ■ Speaker: Paul Carroll, Senior Data Scientist, NHS England, Transformation Directorate ■ Github: ■ LinkedIn:</span>
@@ -4429,6 +5138,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: Python track</span>
 </td>
 <td>
+<span class="listing-duration">00:21:35</span>
+</td>
+<td>
 <span class="listing-description">​<span class="citation" data-cites="NHSOA_Community">@NHSOA_Community</span> Conference: Python Track 17th of Nov 2022 ■ Speaker: Dan Schofield, Senior Data Scientist, NHS England, Transformation Directorate ■ Github: ■ LinkedIn:</span>
 </td>
 
@@ -4443,6 +5155,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: Python track</span>
+</td>
+<td>
+<span class="listing-duration">00:23:57</span>
 </td>
 <td>
 <span class="listing-description"><span class="citation" data-cites="NHSOA_Community">@NHSOA_Community</span> Conference: Python Track 17th of Nov 2022 ■ Speaker: David Sgorbati, Chief Analyst, Health Economics Unit (Midlands and Lancashire CSU) ■ LinkedIn:</span>
@@ -4461,6 +5176,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: Python track</span>
 </td>
 <td>
+<span class="listing-duration">00:12:56</span>
+</td>
+<td>
 <span class="listing-description">​<span class="citation" data-cites="NHSOA_Community">@NHSOA_Community</span> Conference: Python Track 17th of Nov 2022 ■ Speaker: Dany Gammall, Clinician and Data Scientist, Google. ■ LinkedIn:</span>
 </td>
 
@@ -4475,6 +5193,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: Python track</span>
+</td>
+<td>
+<span class="listing-duration">00:19:56</span>
 </td>
 <td>
 <span class="listing-description">​<span class="citation" data-cites="NHSOA_Community">@NHSOA_Community</span> Conference: Python Track 17th of Nov 2022 ■ Speaker: German Priks ■ GitHub: ■ LinkedIn: ■ Links:</span>
@@ -4493,6 +5214,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: Python track</span>
 </td>
 <td>
+<span class="listing-duration">00:21:54</span>
+</td>
+<td>
 <span class="listing-description">​<span class="citation" data-cites="NHSOA_Community">@NHSOA_Community</span> Conference: Python Track 17th of Nov 2022 ■ Speaker: Darshita Chaturvedi, Co-Founder &amp; CEO Atri Labs ■ GitHub: ■ LinkedIn:</span>
 </td>
 
@@ -4507,6 +5231,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: Python track</span>
+</td>
+<td>
+<span class="listing-duration">00:22:13</span>
 </td>
 <td>
 <span class="listing-description"><span class="citation" data-cites="NHSOA_Community">@NHSOA_Community</span> Conference: Python Track 17th of Nov 2022 ■ Speaker: Alistair Jones, Senior Data Scientist, NHS Digital ■ GitHub: ■ LinkedIn: ■ Links:</span>
@@ -4525,6 +5252,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: Python track</span>
 </td>
 <td>
+<span class="listing-duration">00:16:32</span>
+</td>
+<td>
 <span class="listing-description"><span class="citation" data-cites="NHSOA_Community">@NHSOA_Community</span> Conference: Python Track 17th of Nov 2022 ■ Speaker: Zeki Gultekin, Data Analyst, DataTera ■ LinkedIn: ■ Github: ■ Links:</span>
 </td>
 
@@ -4539,6 +5269,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">&nbsp;</span>
 </td>
 <td>
 <span class="listing-description">Part of the recording ‘NHS-R Community Conference 2021 - Day 1’ - see its description for timings.</span>
@@ -4557,6 +5290,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">&nbsp;</span>
+</td>
+<td>
 <span class="listing-description">Part of the recording ‘NHS-R Community Conference 2021 - Day 1’ - see its description for timings.</span>
 </td>
 
@@ -4571,6 +5307,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">&nbsp;</span>
 </td>
 <td>
 <span class="listing-description">Part of the recording ‘NHS-R Community Conference 2021 - Day 1’ - see its description for timings.</span>
@@ -4589,6 +5328,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">&nbsp;</span>
+</td>
+<td>
 <span class="listing-description">Part of the recording ‘NHS-R Community Conference 2021 - Day 1’ - see its description for timings.</span>
 </td>
 
@@ -4603,6 +5345,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">&nbsp;</span>
 </td>
 <td>
 <span class="listing-description">Part of the recording ‘NHS-R Community Conference 2021 - Day 1’ - see its description for timings.</span>
@@ -4621,6 +5366,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">&nbsp;</span>
+</td>
+<td>
 <span class="listing-description">Part of the recording ‘NHS-R Community Conference 2021 - Day 1’ - see its description for timings.</span>
 </td>
 
@@ -4635,6 +5383,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">&nbsp;</span>
 </td>
 <td>
 <span class="listing-description">Part of the recording ‘NHS-R Community Conference 2021 - Day 1’ - see its description for timings.</span>
@@ -4653,6 +5404,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">&nbsp;</span>
+</td>
+<td>
 <span class="listing-description">Part of the recording ‘NHS-R Community Conference 2021 - Day 1’ - see its description for timings.</span>
 </td>
 
@@ -4667,6 +5421,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">&nbsp;</span>
 </td>
 <td>
 <span class="listing-description">Part of the recording ‘NHS-R Community Conference 2021 - Day 1’ - see its description for timings.</span>
@@ -4685,6 +5442,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">&nbsp;</span>
+</td>
+<td>
 <span class="listing-description">Part of the recording ‘NHS-R Community Conference 2021 - Day 1’ - see its description for timings.</span>
 </td>
 
@@ -4699,6 +5459,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">&nbsp;</span>
 </td>
 <td>
 <span class="listing-description">Part of the recording ‘NHS-R Community Conference 2021 - Day 1’ - see its description for timings.</span>
@@ -4717,6 +5480,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">&nbsp;</span>
+</td>
+<td>
 <span class="listing-description">Part of the recording ‘NHS-R Community Conference 2021 - Day 1’ - see its description for timings.</span>
 </td>
 
@@ -4731,6 +5497,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">&nbsp;</span>
 </td>
 <td>
 <span class="listing-description">Part of the recording ‘NHS-R Community Conference 2021 - Day 1’ - see its description for timings.</span>
@@ -4749,6 +5518,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">&nbsp;</span>
+</td>
+<td>
 <span class="listing-description">Part of the recording ‘NHS-R Community Conference 2021 - Day 1’ - see its description for timings.</span>
 </td>
 
@@ -4763,6 +5535,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">&nbsp;</span>
 </td>
 <td>
 <span class="listing-description">Part of the recording ‘NHS-R Community Conference 2021 - Day 1’ - see its description for timings.</span>
@@ -4781,6 +5556,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">&nbsp;</span>
+</td>
+<td>
 <span class="listing-description">Part of the recording ‘NHS-R Community Conference 2021 - Day 1’ - see its description for timings.</span>
 </td>
 
@@ -4795,6 +5573,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">&nbsp;</span>
 </td>
 <td>
 <span class="listing-description">Part of the recording ‘NHS-R Community Conference 2021 - Day 1’ - see its description for timings.</span>
@@ -4813,6 +5594,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:18:30</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Community Conference 2021 - Day 2’, starting at 5:56.</span>
 </td>
 
@@ -4827,6 +5611,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:20:22</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Community Conference 2021 - Day 2’, starting at 24:26.</span>
@@ -4845,6 +5632,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:19:48</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Community Conference 2021 - Day 2’, starting at 44:48.</span>
 </td>
 
@@ -4859,6 +5649,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:40:13</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Community Conference 2021 - Day 2’, starting at 1:04:36.</span>
@@ -4877,6 +5670,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:20:57</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Community Conference 2021 - Day 2’, starting at 1:44:49.</span>
 </td>
 
@@ -4891,6 +5687,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:10:01</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Community Conference 2021 - Day 2’, starting at 2:05:46.</span>
@@ -4909,6 +5708,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:18:37</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Community Conference 2021 - Day 2’, starting at 2:15:47.</span>
 </td>
 
@@ -4923,6 +5725,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:30:26</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Community Conference 2021 - Day 2’, starting at 2:34:24.</span>
@@ -4941,6 +5746,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:20:12</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Community Conference 2021 - Day 2’, starting at 3:04:50.</span>
 </td>
 
@@ -4955,6 +5763,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:20:08</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Community Conference 2021 - Day 2’, starting at 3:25:02.</span>
@@ -4973,6 +5784,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">01:54:50</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Community Conference 2021 - Day 2’, starting at 3:45:10.</span>
 </td>
 
@@ -4987,6 +5801,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:44:00</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Community Conference 2021 - Day 2’, starting at 5:40:00.</span>
@@ -5005,6 +5822,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:16:21</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Community Conference 2021 - Day 2’, starting at 6:24:00.</span>
 </td>
 
@@ -5019,6 +5839,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:26:12</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Community Conference 2021 - Day 2’, starting at 6:40:21.</span>
@@ -5037,6 +5860,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:17:16</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Community Conference 2021 - Day 3’, starting at 4:28.</span>
 </td>
 
@@ -5051,6 +5877,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:19:14</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Community Conference 2021 - Day 3’, starting at 21:44.</span>
@@ -5069,6 +5898,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:48:49</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Community Conference 2021 - Day 3’, starting at 40:58.</span>
 </td>
 
@@ -5083,6 +5915,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:12:40</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Community Conference 2021 - Day 3’, starting at 1:29:47.</span>
@@ -5101,6 +5936,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:19:01</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Community Conference 2021 - Day 3’, starting at 1:42:27.</span>
 </td>
 
@@ -5115,6 +5953,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:19:29</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Community Conference 2021 - Day 3’, starting at 2:01:28.</span>
@@ -5133,6 +5974,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:38:39</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Community Conference 2021 - Day 3’, starting at 2:20:57.</span>
 </td>
 
@@ -5147,6 +5991,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:19:52</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Community Conference 2021 - Day 3’, starting at 2:59:36.</span>
@@ -5165,6 +6012,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">02:20:27</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Community Conference 2021 - Day 3’, starting at 3:19:28.</span>
 </td>
 
@@ -5179,6 +6029,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:12:19</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Community Conference 2021 - Day 3’, starting at 5:39:55.</span>
@@ -5197,6 +6050,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:15:31</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Community Conference 2021 - Day 3’, starting at 5:52:14.</span>
 </td>
 
@@ -5211,6 +6067,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:26:18</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Community Conference 2021 - Day 3’, starting at 6:07:45.</span>
@@ -5229,6 +6088,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">00:59:22</span>
+</td>
+<td>
 <span class="listing-description">From the recording ‘NHS-R Community Conference 2021 - Day 3’, starting at 6:34:03.</span>
 </td>
 
@@ -5243,6 +6105,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:11:02</span>
 </td>
 <td>
 <span class="listing-description">From the recording ‘NHS-R Community Conference 2021 - Day 3’, starting at 7:33:25.</span>
@@ -5261,6 +6126,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">01:26:03</span>
+</td>
+<td>
 <span class="listing-description">This workshop session was recorded live on 1st November 2021 during the NHS-R community conference. All of the workshop materials can be found on GitHub here The workshop begins by introducing probability distributions, the different types of distribution and why we use them in data science. We…</span>
 </td>
 
@@ -5275,6 +6143,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">02:02:30</span>
 </td>
 <td>
 <span class="listing-description">Tom Jemmett from The Strategy Unit presents a workshop in functional programming in R. In this session we cover some of the theory behind functional programming, and then cover the {purrr} package. Git repository: Slides: Join the NHS-R slack:</span>
@@ -5293,6 +6164,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">02:28:37</span>
+</td>
+<td>
 <span class="listing-description">&nbsp;</span>
 </td>
 
@@ -5307,6 +6181,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">00:44:39</span>
 </td>
 <td>
 <span class="listing-description">Join Zoë Turner, Data Scientist,, Nottinghamshire Healthcare NHS Foundation Trust for this NHS-R Workshop - Introduction to R/RStudio Summary: An Introduction to R workshop covering R/RStudio, manipulation of data (dplyr), creating charts (ggplot2) and reports (R Markdown). This is a great…</span>
@@ -5325,6 +6202,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">03:32:58</span>
+</td>
+<td>
 <span class="listing-description">Join Zoë Turner, Data Scientist, Nottinghamshire Healthcare NHS Foundation Trust for Part 2 of this NHS-R Workshop - Introduction to R/RStudio Summary: An Introduction to R workshop covering R/RStudio, manipulation of data (dplyr), creating charts (ggplot2) and reports (R Markdown). This is a great…</span>
 </td>
 
@@ -5339,6 +6219,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">02:16:24</span>
 </td>
 <td>
 <span class="listing-description">This workshop session was recorded live on 3rd November 2021 during the NHS-R community conference. All of the workshop materials can be found on GitHub here The workshop was run by Gary Hutson - Senior Data Scientist @ Mango Solutions and was focused around working with NHS data dictionary…</span>
@@ -5357,6 +6240,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">01:35:22</span>
+</td>
+<td>
 <span class="listing-description">&nbsp;</span>
 </td>
 
@@ -5371,6 +6257,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">01:51:23</span>
 </td>
 <td>
 <span class="listing-description">Presented by: Chris Mainey, Patient Safety Lead – System Analysis and Delivery, NHS Improvement Pre-requisites: Some introductory experience with R Summary: This session focuses on how to fit regression models in R, the most common form of statistical modelling. Examining the essential theory…</span>
@@ -5389,6 +6278,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">01:35:42</span>
+</td>
+<td>
 <span class="listing-description">RMarkdown – Friday 5th November 2021 Facilitator: Thomas Mock, Software Engineer at RStudio Pre-requisites: Some introductory experience with R</span>
 </td>
 
@@ -5403,6 +6295,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">02:27:40</span>
 </td>
 <td>
 <span class="listing-description">Facilitator: Chris Beeley, Senior Data Scientist, Nottinghamshire Healthcare NHS Foundation Trust Summary: Shiny is an programming framework for R that allows you to build dynamic and interactive dashboards for the web with no knowledge of HTML, CSS, or JavaScript. It allows R programmers to very…</span>
@@ -5421,6 +6316,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">02:16:30</span>
+</td>
+<td>
 <span class="listing-description">Facilitator: Chris Beeley, Senior Data Scientist, Nottinghamshire Healthcare NHS Foundation Trust Summary: Shiny is an programming framework for R that allows you to build dynamic and interactive dashboards for the web with no knowledge of HTML, CSS, or JavaScript. It allows R programmers to very…</span>
 </td>
 
@@ -5435,6 +6333,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">02:49:01</span>
 </td>
 <td>
 <span class="listing-description">Facilitator: Dr Rebecca Killick Associate Professor in the Mathematics &amp; Statistics department at Lancaster University Summary: This workshop introduces participants to the analysis of changepoint models (also known as time series segmentation or structural changes). The course is aimed at those…</span>
@@ -5453,6 +6354,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">01:43:11</span>
+</td>
+<td>
 <span class="listing-description">Facilitator: Dr Rebecca Killick Associate Professor in the Mathematics &amp; Statistics department at Lancaster University Summary: ‘Further changepoint analysis techniques’ workshop builds upon the introduction to changepoint course and that knowledge will be assumed. We will focus on more advanced…</span>
 </td>
 
@@ -5467,6 +6371,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">02:59:51</span>
 </td>
 <td>
 <span class="listing-description">Facilitators: Santosh Kumar and Bruno Petrungaro, The Health Economics Unit Summary: This workshop covers the basics of image processing, classical machine learning with R. Topics in machine learning include an introduction to machine learning, the difference between machine learning and AI,…</span>
@@ -5485,6 +6392,9 @@ Details
 <span class="listing-event">NHS-R Community Conference</span>
 </td>
 <td>
+<span class="listing-duration">04:21:11</span>
+</td>
+<td>
 <span class="listing-description">Date: Thursday 4th November 2021 Statistical process control charts with R One day Workshop: Masterclass for R programmers Facilitators: Jacob Anhøj, Medical Doctor, Rigshospitalet, Copenhagen, Denmark and Zoë Turner, Senior Information Analyst, Nottinghamshire Healthcare NHS Foundation Trust…</span>
 </td>
 
@@ -5499,6 +6409,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference</span>
+</td>
+<td>
+<span class="listing-duration">01:41:32</span>
 </td>
 <td>
 <span class="listing-description">Facilitator: Will Landau, Eli Lilly and Company – USA Data science can be slow. A single round of statistical computation can take several minutes, hours, or even days to complete. The targets R package keeps results up to date and reproducible while minimizing the number of expensive tasks that…</span>
@@ -5517,6 +6430,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:28:53</span>
+</td>
+<td>
 <span class="listing-description">Session 1 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page:</span>
 </td>
 
@@ -5531,6 +6447,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:38:05</span>
 </td>
 <td>
 <span class="listing-description">Session 2 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
@@ -5549,6 +6468,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:20:13</span>
+</td>
+<td>
 <span class="listing-description">Session 3 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
 </td>
 
@@ -5563,6 +6485,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:27:35</span>
 </td>
 <td>
 <span class="listing-description">Session 4 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
@@ -5581,6 +6506,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:41:35</span>
+</td>
+<td>
 <span class="listing-description">Session 5 of the NHS-R Community Conference 2020. All presentations will be uploaded to our github page</span>
 </td>
 
@@ -5595,6 +6523,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:59:41</span>
 </td>
 <td>
 <span class="listing-description">Session 5 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
@@ -5613,6 +6544,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">01:15:21</span>
+</td>
+<td>
 <span class="listing-description">Session 7 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
 </td>
 
@@ -5627,6 +6561,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:36:05</span>
 </td>
 <td>
 <span class="listing-description">Session 8 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here: All presentations will be uploaded to our github page</span>
@@ -5645,6 +6582,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:38:17</span>
+</td>
+<td>
 <span class="listing-description">Session 9 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
 </td>
 
@@ -5659,6 +6599,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:22:27</span>
 </td>
 <td>
 <span class="listing-description">Session 10 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
@@ -5677,6 +6620,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:29:23</span>
+</td>
+<td>
 <span class="listing-description">Session 11 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
 </td>
 
@@ -5691,6 +6637,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:18:31</span>
 </td>
 <td>
 <span class="listing-description">Session 12 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
@@ -5709,6 +6658,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:21:25</span>
+</td>
+<td>
 <span class="listing-description">Session 13 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
 </td>
 
@@ -5723,6 +6675,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">01:16:55</span>
 </td>
 <td>
 <span class="listing-description">Session 14 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
@@ -5741,6 +6696,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:26:25</span>
+</td>
+<td>
 <span class="listing-description">Session 15 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
 </td>
 
@@ -5755,6 +6713,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:27:11</span>
 </td>
 <td>
 <span class="listing-description">Session 16 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
@@ -5773,6 +6734,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:25:03</span>
+</td>
+<td>
 <span class="listing-description">Session 17 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
 </td>
 
@@ -5787,6 +6751,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:21:07</span>
 </td>
 <td>
 <span class="listing-description">Session 18 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
@@ -5805,6 +6772,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:30:31</span>
+</td>
+<td>
 <span class="listing-description">Session 19 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
 </td>
 
@@ -5819,6 +6789,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:31:31</span>
 </td>
 <td>
 <span class="listing-description">Session 20 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
@@ -5837,6 +6810,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">01:06:11</span>
+</td>
+<td>
 <span class="listing-description">Session 21 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
 </td>
 
@@ -5851,6 +6827,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">01:10:03</span>
 </td>
 <td>
 <span class="listing-description">Session 22 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
@@ -5869,6 +6848,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:24:59</span>
+</td>
+<td>
 <span class="listing-description">Session 23 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
 </td>
 
@@ -5883,6 +6865,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:27:59</span>
 </td>
 <td>
 <span class="listing-description">Session 24 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
@@ -5901,6 +6886,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:25:05</span>
+</td>
+<td>
 <span class="listing-description">Session 25 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
 </td>
 
@@ -5915,6 +6903,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:24:05</span>
 </td>
 <td>
 <span class="listing-description">Session 26 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
@@ -5933,6 +6924,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:23:19</span>
+</td>
+<td>
 <span class="listing-description">Session 27 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
 </td>
 
@@ -5947,6 +6941,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:23:47</span>
 </td>
 <td>
 <span class="listing-description">Session 28 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
@@ -5965,6 +6962,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:35:51</span>
+</td>
+<td>
 <span class="listing-description">Session 29 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
 </td>
 
@@ -5979,6 +6979,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:35:03</span>
 </td>
 <td>
 <span class="listing-description">Session 30 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
@@ -5997,6 +7000,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:23:41</span>
+</td>
+<td>
 <span class="listing-description">Session 31 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
 </td>
 
@@ -6011,6 +7017,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:28:33</span>
 </td>
 <td>
 <span class="listing-description">Session 32 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
@@ -6029,6 +7038,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:30:23</span>
+</td>
+<td>
 <span class="listing-description">Session 33 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
 </td>
 
@@ -6043,6 +7055,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:19:51</span>
 </td>
 <td>
 <span class="listing-description">Session 34 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
@@ -6061,6 +7076,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:27:23</span>
+</td>
+<td>
 <span class="listing-description">Session 35 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
 </td>
 
@@ -6075,6 +7093,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:24:23</span>
 </td>
 <td>
 <span class="listing-description">Session 37 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
@@ -6093,6 +7114,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:19:15</span>
+</td>
+<td>
 <span class="listing-description">Session 38 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
 </td>
 
@@ -6107,6 +7131,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:22:03</span>
 </td>
 <td>
 <span class="listing-description">Session 39 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
@@ -6125,6 +7152,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: talks</span>
 </td>
 <td>
+<span class="listing-duration">00:37:23</span>
+</td>
+<td>
 <span class="listing-description">Session 40 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page</span>
 </td>
 
@@ -6139,6 +7169,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: talks</span>
+</td>
+<td>
+<span class="listing-duration">00:15:43</span>
 </td>
 <td>
 <span class="listing-description">Session 41 of the NHS-R Community Conference 2020. All presentations will be uploaded to our github page</span>
@@ -6157,6 +7190,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: workshops</span>
 </td>
 <td>
+<span class="listing-duration">02:02:04</span>
+</td>
+<td>
 <span class="listing-description">This is a recording from the NHS-R Community Conference 2020, An introduction to Public HealthEngland’s packages. It was run on Monday 2nd of November by Sebastian Fox, Principal Data Scientist and Public Health England and supported by his colleagues Sam Dunn. The video was not edited and might…</span>
 </td>
 
@@ -6171,6 +7207,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: workshops</span>
+</td>
+<td>
+<span class="listing-duration">02:54:27</span>
 </td>
 <td>
 <span class="listing-description">This is a recording from the NHS-R Community Conference 2020, Text Analysis workshop. It was run on Monday 2nd of November by Duncan Leng, Junior Data Scientist at Mango Solutions. You can read more about Mango Solutions on their website ( or Twitter ( The video was not edited and might include…</span>
@@ -6189,6 +7228,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: workshops</span>
 </td>
 <td>
+<span class="listing-duration">01:17:29</span>
+</td>
+<td>
 <span class="listing-description">This is a recording from the NHS-R Community Conference 2020, R for Excel users workshop. It was run on Tuesday 3nd of November by Sean Manzi, Research Fellow in Applied Healthcare Modelling and Analysis, University of Exeter College of Medicine and Health . The video was not edited and might…</span>
 </td>
 
@@ -6203,6 +7245,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: workshops</span>
+</td>
+<td>
+<span class="listing-duration">02:05:33</span>
 </td>
 <td>
 <span class="listing-description">This is a recording from the NHS-R Community Conference 2020, R for Excel users workshop. It was run on Tuesday 3nd of November by Rhian Davis, Data Scientist at Jumping Rivers You can read more about Jumping Rivers on their website ( and Twitter ( The video was not edited and might include time…</span>
@@ -6221,6 +7266,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: workshops</span>
 </td>
 <td>
+<span class="listing-duration">01:46:34</span>
+</td>
+<td>
 <span class="listing-description">This is a recording from the NHS-R Community Conference 2020, Xaringan Slides (part 1). It was run on Tuesday 3nd of November by Silvia Canelon, postdoctoral research scientist in the Department of Biostatistics, Epidemiology, and Informatics at the University of Pennsylvania Perelman School of…</span>
 </td>
 
@@ -6235,6 +7283,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: workshops</span>
+</td>
+<td>
+<span class="listing-duration">02:29:58</span>
 </td>
 <td>
 <span class="listing-description">This is a recording from the NHS-R Community Conference 2020, Introduction to Changepoint analysis workshop. It was run on Wednesday 4th of November by Dr Rebecca Killick, Senior Lecturer (Associate Professor) in Statistics at Lancaster University. Jamie-Leigh Chapman, Data Scientist at…</span>
@@ -6253,6 +7304,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: workshops</span>
 </td>
 <td>
+<span class="listing-duration">02:35:27</span>
+</td>
+<td>
 <span class="listing-description">This is a recording from the NHS-R Community Conference 2020, great tables workshop. It was run on Wednesday 4th of November by Rich Iannone, Software Engineer at RStudio. You can follow Rich on Twitter The video was not edited and might include time for exercises/breaks. All materials can be found…</span>
 </td>
 
@@ -6267,6 +7321,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: workshops</span>
+</td>
+<td>
+<span class="listing-duration">01:58:04</span>
 </td>
 <td>
 <span class="listing-description">This is a recording from the NHS-R Community Conference 2020, Introduction to R Workshop. It was run on Thursday 5th of November by Matthew Francis, Principal Public Health Intelligence Analyst, Public Health England. The video was not edited and might include time for exercises/breaks. All…</span>
@@ -6285,6 +7342,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: workshops</span>
 </td>
 <td>
+<span class="listing-duration">00:51:36</span>
+</td>
+<td>
 <span class="listing-description">This is a recording from the NHS-R Community Conference 2020, Interactive reports webinar. It was run on Thursday 5th of November by Simon Wellesley-Miller, Information Manager, Devon Partnership NHS Trust. The video was not edited and might include time for exercises/breaks. All materials can be…</span>
 </td>
 
@@ -6299,6 +7359,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: workshops</span>
+</td>
+<td>
+<span class="listing-duration">01:51:33</span>
 </td>
 <td>
 <span class="listing-description">This is a recording from the NHS-R Community Conference 2020, Regression Modelling. It was run on Friday 6th of November by Chris Mainey, Intelligence Analyst, Healthcare Evaluation Data (HED) team, University Hospitals Birmingham NHS Foundation Trust . You can follow Chris on Twitter: The video…</span>
@@ -6317,6 +7380,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: workshops</span>
 </td>
 <td>
+<span class="listing-duration">02:14:11</span>
+</td>
+<td>
 <span class="listing-description">This is a recording from the NHS-R Community Conference 2020, dplyr workshop. It was run on Friday 6th of November by Zoë Turner, Senior Information Analyst, Nottinghamshire Healthcare NHS Foundation Trust. You can follow Zoe on Twitter: All materials can be found here:</span>
 </td>
 
@@ -6331,6 +7397,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: workshops</span>
+</td>
+<td>
+<span class="listing-duration">01:43:40</span>
 </td>
 <td>
 <span class="listing-description">This is a recording from the NHS-R Community Conference 2020, Xaringan Slides (part 2). It was run on Thursday 5th of November by Silvia Canelon, postdoctoral research scientist in the Department of Biostatistics, Epidemiology, and Informatics at the University of Pennsylvania Perelman School of…</span>
@@ -6349,6 +7418,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: workshops</span>
 </td>
 <td>
+<span class="listing-duration">02:28:58</span>
+</td>
+<td>
 <span class="listing-description">This is a recording from the NHS-R Community Conference 2020, Introduction to R Workshop. It was run on Thursday 5th of November by Max Krongborg and Mango Solutions. You can read more about Mango Solutions on their website ( or Twitter ( The video was not edited and might include time for…</span>
 </td>
 
@@ -6363,6 +7435,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: workshops</span>
+</td>
+<td>
+<span class="listing-duration">00:45:18</span>
 </td>
 <td>
 <span class="listing-description">This is a recording from the NHS-R Community Conference 2020, Introduction to R (part 1). It was run on Monday 2nd of November by Zoё Turner Senior Information Analyst, Nottinghamshire Healthcare NHS Foundation Trust . Dominic Rowney has supported this workshop. The video was not edited and might…</span>
@@ -6381,6 +7456,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: workshops</span>
 </td>
 <td>
+<span class="listing-duration">02:13:58</span>
+</td>
+<td>
 <span class="listing-description">This is a recording from the NHS-R Community Conference 2020, Introduction to R (part 2). It was run on Monday 2nd of November by Zoё Turner, Senior Information Analyst, Nottinghamshire Healthcare NHS Foundation Trust . Dominic Rowney has supported this workshop. The video was not edited and might…</span>
 </td>
 
@@ -6397,6 +7475,9 @@ Details
 <span class="listing-event">NHS-R Community Conference: workshops</span>
 </td>
 <td>
+<span class="listing-duration">00:50:25</span>
+</td>
+<td>
 <span class="listing-description">This is a recording from the NHS-R Community Conference 2020, Introduction to R (part 1). It was run on Monday 2nd of November by Zoё Turner Senior Information Analyst, Nottinghamshire Healthcare NHS Foundation Trust . Dominic Rowney has supported this workshop. The video was not edited and might…</span>
 </td>
 
@@ -6411,6 +7492,9 @@ Details
 </td>
 <td>
 <span class="listing-event">NHS-R Community Conference: workshops</span>
+</td>
+<td>
+<span class="listing-duration">01:35:24</span>
 </td>
 <td>
 <span class="listing-description">This is a recording from the NHS-R Community Conference 2020, Further Changepoint analysis workshop. It was run on Wednesday 18th of November by Dr Rebecca Killick, Senior Lecturer (Associate Professor) in Statistics at Lancaster University. Jamie-Leigh Chapman, Data Scientist at Wrightington,…</span>
@@ -6464,7 +7548,7 @@ Details
 </tbody>
 </table>
 <p>To find recordings from newer conferences, see the <a href="https://www.youtube.com/@NHSOA_Community/playlists">NHS-OA Community’s YouTube playlists</a>.</p>
-<p>The NHS-OA Community also publishes recordings of <a href="../../books_training/nhs_oa_webinars/index.html">webinars</a> and <a href="../../books_training/nhs_oa_workshops/index.html">workshops</a>, and other <a href="../../books_training/nhs_pycom_talks/index.html">NHS.pycom talks</a> are also available.</p>
+<p>The NHS-OA Community also publishes recordings of <a href="../../books_training/nhs_oa_webinars/index.html">webinars and NHS.pycom talks</a> and <a href="../../books_training/nhs_oa_workshops/index.html">workshops</a>.</p>
 <p>To search these recordings alongside talks, webinars and workshops from other communities, use the <a href="../../recordings/index.html">Recordings Finder</a>.</p>
 
 

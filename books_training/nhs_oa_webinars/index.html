@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="NHS-OA Community (formerly NHS-R Community)">
+<meta name="author" content="NHS-OA Community (formerly NHS-R Community and NHS.pycom)">
 <meta name="dcterms.date" content="2026-10-04">
 
-<title>NHS-OA Community: Webinar Recordings – The Healthcare Service Analytics &amp; Decision Intelligence Atlas</title>
+<title>NHS-OA Community: Webinar and Talk Recordings – The Healthcare Service Analytics &amp; Decision Intelligence Atlas</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -87,10 +87,10 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-year','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-year','listing-event','listing-duration','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
       page: 25,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-title","listing-year","listing-description"],
+      searchColumns: ["listing-title","listing-year","listing-event","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -434,18 +434,19 @@ window.Quarto = {
                                         <div class="quarto-category">Courses and Training or Reference Materials</div>
                                         <div class="quarto-category">Recorded Talks</div>
                                     </div>
-                                                <h1 class="title">NHS-OA Community: Webinar Recordings <i class="fa-solid fa-hospital"></i></h1>
+                                                <h1 class="title">NHS-OA Community: Webinar and Talk Recordings <i class="fa-solid fa-hospital"></i></h1>
                                                                 <br>
                 <div class="abstract">
                     <b>Summary</b>
-                    <p>A YouTube playlist of recorded webinars from the NHS-OA Community and its predecessor, the NHS-R Community. Mostly focused on R, the webinars cover tools and techniques such as Shiny, Quarto, Git, package development, testing and reproducible environments, alongside real-world NHS case studies in forecasting, statistical modelling and service planning.</p>
+                    <p>Recorded webinars and talks from the NHS-OA Community and the two communities that merged to form it, the NHS-R Community and the NHS Python Community (NHS.pycom). They cover tools and techniques such as Shiny, Quarto, Git, package development, testing and reproducible environments, introductions to Python and machine learning, and real-world NHS case studies in forecasting, statistical modelling and service planning.</p>
                                         Rating: N/A
                                         <p>Collection of recordings from many different presenters, so it is not ranked as a whole.</p>
                                                         </div>
                 
                                 <div class="project-link-buttons">
                     <ul class="project-links">
-                                                                        <button class="custom-button"><a href="https://www.youtube.com/playlist?list=PLXCrMzQaI6c36jqIWc9AgHzowzZ2ak9DL"><i class="fa-brands fa-youtube"></i> YouTube</a></button>
+                                                                        <button class="custom-button"><a href="https://www.youtube.com/playlist?list=PLXCrMzQaI6c36jqIWc9AgHzowzZ2ak9DL"><i class="fa-brands fa-youtube"></i> YouTube (webinars)</a></button>
+                                                                                                <button class="custom-button"><a href="https://www.youtube.com/%40nhs-pycom/videos"><i class="fa-brands fa-youtube"></i> YouTube (NHS.pycom)</a></button>
                                                                                                 <button class="custom-button"><a href="https://nhsoa.uk"><i class="fa-solid fa-globe"></i> Website</a></button>
                                                                     </ul>
                 </div>
@@ -466,7 +467,7 @@ window.Quarto = {
         <div>
         <div class="quarto-title-meta-heading">Author</div>
         <div class="quarto-title-meta-contents">
-                 <p>NHS-OA Community (formerly NHS-R Community) </p>
+                 <p>NHS-OA Community (formerly NHS-R Community and NHS.pycom) </p>
               </div>
       </div>
         
@@ -488,7 +489,7 @@ window.Quarto = {
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#search-the-webinars" id="toc-search-the-webinars" class="nav-link active" data-scroll-target="#search-the-webinars">Search the webinars</a></li>
+  <li><a href="#search-the-webinars-and-talks" id="toc-search-the-webinars-and-talks" class="nav-link active" data-scroll-target="#search-the-webinars-and-talks">Search the webinars and talks</a></li>
   </ul>
 </nav>
     </div>
@@ -612,16 +613,23 @@ new FinisherHeader({
 <figcaption>NHS-R Community Webinar</figcaption>
 </figure>
 </div>
-<p>This YouTube playlist collects recordings of webinars run by the <a href="../../books_training/nhs_oa_community/index.html">NHS-OA Community</a>, including those run when it was the NHS-R Community. Each webinar is a standalone session given by analysts, data scientists and other speakers from the NHS and beyond.</p>
-<p>The webinars are mostly focused on R, and include:</p>
+<p>The <a href="../../books_training/nhs_oa_community/index.html">NHS-OA Community</a> was formed in late 2025, when the NHS-R Community and the NHS Python Community (NHS.pycom) merged. This entry brings together recordings of webinars and talks from all three.</p>
+<p><strong>Webinars</strong> from the NHS-OA Community, and from the NHS-R Community before it. Each webinar is a standalone session given by analysts, data scientists and other speakers from the NHS and beyond. They are mostly focused on R, and include:</p>
 <ul>
 <li><strong>tools and good practice</strong> - such as Shiny, Quarto, Git and GitHub, writing R packages, unit testing, package management and reproducible environments with renv</li>
 <li><strong>analytical techniques</strong> - such as time series forecasting, causal inference, statistical process control and statistical disclosure control</li>
 <li><strong>NHS case studies</strong> - such as predicting emergency demand for beds, assessing the impact of COVID-19 on hip replacement rates, and modelling the consequences of emergency department admission delays</li>
 </ul>
-<section id="search-the-webinars" class="level2">
-<h2 class="anchored" data-anchor-id="search-the-webinars">Search the webinars</h2>
-<p>Search for a webinar by title, speaker, year or topic. Newest webinars are listed first. Where a recording’s description gives timings for its sections, each section is listed separately and the link starts the video at that section.</p>
+<p><strong>NHS.pycom talks</strong> from the NHS Python Community’s own YouTube channel, which promoted the use of Python and open source code in the NHS and wider healthcare sector. They include:</p>
+<ul>
+<li><strong>show-and-tell sessions</strong> - such as <em>Python in the Clinic</em> and <em>Saving life and learning from death with Python</em>, where clinicians and analysts shared projects using Python</li>
+<li><strong>introductions to Python and machine learning</strong> - such as an introduction to Python for data analysis and data science, and the basics of machine learning</li>
+<li><strong>talks on good practice</strong> - such as software engineering for data scientists, and reproducible analytical pipelines (RAP)</li>
+<li><strong>joint events with the NHS-R Community</strong> - such as NHS.Pycom X NHS-R in February 2022</li>
+</ul>
+<section id="search-the-webinars-and-talks" class="level2">
+<h2 class="anchored" data-anchor-id="search-the-webinars-and-talks">Search the webinars and talks</h2>
+<p>Search for a webinar or talk by title, speaker, year, series or topic. Newest recordings are listed first. Where a recording’s description gives timings for its sections, each section is listed separately and the link starts the video at that section.</p>
 <div id="listing-webinar-recordings" class="quarto-listing quarto-listing-container-table">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
@@ -634,6 +642,12 @@ new FinisherHeader({
       </option>
       <option value="listing-year" data-direction="asc">
         Year
+      </option>
+      <option value="listing-event" data-direction="asc">
+        Series
+      </option>
+      <option value="listing-duration" data-direction="asc">
+        Duration
       </option>
     </select>
   </div>
@@ -655,6 +669,14 @@ new FinisherHeader({
 </th>
 
 <th>
+<a class="sort" data-sort="listing-event" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Series</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-duration" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Duration</a>
+</th>
+
+<th>
 Details
 </th>
 
@@ -662,7 +684,26 @@ Details
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-date-sort="1766016000000" data-listing-title-sort="December 2025 Webinar: Breaking it up: an approach to reproducible analytical pipelines (RAPs)">
+<tr data-index="0" data-listing-date-sort="1779148800000" data-listing-title-sort="The State of Data Analytics in the NHS | Google Health x NHS Python Community Tech Talk">
+<td>
+<a href="https://www.youtube.com/watch?v=9TPl1sij6Gw" class="title listing-title">The State of Data Analytics in the NHS | Google Health x NHS Python Community Tech Talk</a>
+</td>
+<td>
+<span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-event">NHS.pycom talks</span>
+</td>
+<td>
+<span class="listing-duration">00:52:26</span>
+</td>
+<td>
+<span class="listing-description">In 2023, Mary Amanuel, Paul Carroll, Ewan Wakeman and Faaiz Shanawas were invited to present at Google Health @ Google UK HQ, Pancras Square, London, UK to showcase innovations, and highlight challenges in data and analytics faced by the NHS to the private sector.</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-listing-date-sort="1766016000000" data-listing-title-sort="December 2025 Webinar: Breaking it up: an approach to reproducible analytical pipelines (RAPs)">
 <td>
 <a href="https://www.youtube.com/watch?v=JfqpQYXVUzg" class="title listing-title">December 2025 Webinar: Breaking it up: an approach to reproducible analytical pipelines (RAPs)</a>
 </td>
@@ -670,12 +711,18 @@ Details
 <span class="listing-year">2025</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:51:08</span>
+</td>
+<td>
 <span class="listing-description">Breaking it up: an approach to reproducible analytical pipelines (RAPs) Thursday 11th December 2025 With Georgina Anderson Content Summary: Writing a piece of code that can be re-used is a great thing, but how can we optimise our code to facilitate reproducibility and re-usability? My talk will…</span>
 </td>
 
 </tr>
 
-<tr data-index="1" data-listing-date-sort="1765843200000" data-listing-title-sort="August 2025 Webinar: An Improved I Chart">
+<tr data-index="2" data-listing-date-sort="1765843200000" data-listing-title-sort="August 2025 Webinar: An Improved I Chart">
 <td>
 <a href="https://www.youtube.com/watch?v=DAYuUEES1Xc" class="title listing-title">August 2025 Webinar: An Improved I Chart</a>
 </td>
@@ -683,12 +730,18 @@ Details
 <span class="listing-year">2025</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:53:59</span>
+</td>
+<td>
 <span class="listing-description">An Improved I Chart Wednesday 13th August 2025 With Dr Jacob Anhøj and Professor Mohammed A. Mohammed Content Summary: A webinar on simplifying statistical process control with I-prime charts In this webinar, we introduce the I-prime (I’) chart – a new SPC tool that retains the simplicity of the I…</span>
 </td>
 
 </tr>
 
-<tr data-index="2" data-listing-date-sort="1765843200000" data-listing-title-sort="September Webinar 2025: Complexity Made Approachable: Rethinking R-Based Modelling for Healthcare">
+<tr data-index="3" data-listing-date-sort="1765843200000" data-listing-title-sort="September Webinar 2025: Complexity Made Approachable: Rethinking R-Based Modelling for Healthcare">
 <td>
 <a href="https://www.youtube.com/watch?v=gZ3a6hLn2bY" class="title listing-title">September Webinar 2025: Complexity Made Approachable: Rethinking R-Based Modelling for Healthcare</a>
 </td>
@@ -696,12 +749,18 @@ Details
 <span class="listing-year">2025</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:54:56</span>
+</td>
+<td>
 <span class="listing-description">Complexity Made Approachable: Rethinking R-Based Modelling for Healthcare with AM-Smart Tools Thursday 11th September 2025 With Brian Castellani, Corey Schimpf and Chris Caden Content Summary: The rapid rise of data science and its wide array of computational methods has widened the gap between…</span>
 </td>
 
 </tr>
 
-<tr data-index="3" data-listing-date-sort="1751500800000" data-listing-title-sort="May 2025 Webinar: Surfacing the weekly consequences of ED admission delays by statistical modelling">
+<tr data-index="4" data-listing-date-sort="1751500800000" data-listing-title-sort="May 2025 Webinar: Surfacing the weekly consequences of ED admission delays by statistical modelling">
 <td>
 <a href="https://www.youtube.com/watch?v=NS7RqVFoqA0" class="title listing-title">May 2025 Webinar: Surfacing the weekly consequences of ED admission delays by statistical modelling</a>
 </td>
@@ -709,12 +768,18 @@ Details
 <span class="listing-year">2025</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:56:37</span>
+</td>
+<td>
 <span class="listing-description">Surfacing the weekly consequences of ED admission delays by statistical modelling implemented within an automated ML pipeline Wednesday 14th May 2025 With Dr Richard Wood and Dr Nick Howlett Content Summary: Surfacing the weekly consequences of ED admission delays by statistical modelling…</span>
 </td>
 
 </tr>
 
-<tr data-index="4" data-listing-date-sort="1737676800000" data-listing-title-sort="NHS R Community and Posit Quarto Q&amp;A">
+<tr data-index="5" data-listing-date-sort="1737676800000" data-listing-title-sort="NHS R Community and Posit Quarto Q&amp;A">
 <td>
 <a href="https://www.youtube.com/watch?v=W8dMHYKrAII" class="title listing-title">NHS R Community and Posit Quarto Q&amp;A</a>
 </td>
@@ -722,12 +787,37 @@ Details
 <span class="listing-year">2025</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:55:01</span>
+</td>
+<td>
 <span class="listing-description">Informal Posit Quarto team Q&amp;A with discussions with NHS-R Community members. Questions were opened up to the NHS-R Community via the Slack channel prior to the meeting.</span>
 </td>
 
 </tr>
 
-<tr data-index="5" data-listing-date-sort="1727049600000" data-listing-title-sort="GitHub Actions and Continuous Integration (pre-recorded)">
+<tr data-index="6" data-listing-date-sort="1730678400000" data-listing-title-sort="PatientFlow: python package for predicting short-term demand for emergency beds | Dr Zella King">
+<td>
+<a href="https://www.youtube.com/watch?v=r8aQ3eIwy4c" class="title listing-title">PatientFlow: python package for predicting short-term demand for emergency beds | Dr Zella King</a>
+</td>
+<td>
+<span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-event">NHS.pycom talks</span>
+</td>
+<td>
+<span class="listing-duration">00:59:03</span>
+</td>
+<td>
+<span class="listing-description">(Part 1) How to turn your EHR data into predictions of emergency demand: Code: University College London Hospital (UCLH) has a real-time application predicting short-term emergency demand for beds that is now in daily use by bed managers. The work has attracted wide interest among trusts and ICBs…</span>
+</td>
+
+</tr>
+
+<tr data-index="7" data-listing-date-sort="1727049600000" data-listing-title-sort="GitHub Actions and Continuous Integration (pre-recorded)">
 <td>
 <a href="https://www.youtube.com/watch?v=6UpVES4aGgw" class="title listing-title">GitHub Actions and Continuous Integration (pre-recorded)</a>
 </td>
@@ -735,12 +825,18 @@ Details
 <span class="listing-year">2024</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:30:00</span>
+</td>
+<td>
 <span class="listing-description">A pre-recorded talk about GitHub Actions from Ziad Ahmed and Shivam Missar from their 6-week internship scheme provided by Nottingham Trent University (NTU) at Nottingham University Hospitals NHS Trust. Shared with kind permission.</span>
 </td>
 
 </tr>
 
-<tr data-index="6" data-listing-date-sort="1720656000000" data-listing-title-sort="Unveiling Congenital Heart Disease and Comorbidities using Primary Care data">
+<tr data-index="8" data-listing-date-sort="1720656000000" data-listing-title-sort="Unveiling Congenital Heart Disease and Comorbidities using Primary Care data">
 <td>
 <a href="https://www.youtube.com/watch?v=vSekPvgwJKY" class="title listing-title">Unveiling Congenital Heart Disease and Comorbidities using Primary Care data</a>
 </td>
@@ -748,12 +844,18 @@ Details
 <span class="listing-year">2024</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:56:22</span>
+</td>
+<td>
 <span class="listing-description">This is a recording of an NHS-R webinar: “Unveiling Congenital Heart Disease and Comorbidities - ground-breaking collaboration using primary care data” presented by James Partington on 10 July 2024. Snomed code referred to in this video are available on the NHS-R Community repository</span>
 </td>
 
 </tr>
 
-<tr data-index="7" data-listing-date-sort="1720051200000" data-listing-title-sort="NHS-R Webinar:  Open source for analysts and data scientists - 4 July 2024">
+<tr data-index="9" data-listing-date-sort="1720051200000" data-listing-title-sort="NHS-R Webinar:  Open source for analysts and data scientists - 4 July 2024">
 <td>
 <a href="https://www.youtube.com/watch?v=CRCr_z84F14" class="title listing-title">NHS-R Webinar: Open source for analysts and data scientists - 4 July 2024</a>
 </td>
@@ -761,12 +863,18 @@ Details
 <span class="listing-year">2024</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:56:00</span>
+</td>
+<td>
 <span class="listing-description">This is a recording of a webinar delivered by Chris Beeley on 4 July 2024</span>
 </td>
 
 </tr>
 
-<tr data-index="8" data-listing-date-sort="1719446400000" data-listing-title-sort="How to turn your hospital's EHR data into predictions of emergency demand for beds">
+<tr data-index="10" data-listing-date-sort="1719446400000" data-listing-title-sort="How to turn your hospital's EHR data into predictions of emergency demand for beds">
 <td>
 <a href="https://www.youtube.com/watch?v=ha_zckz3_rU" class="title listing-title">How to turn your hospital’s EHR data into predictions of emergency demand for beds</a>
 </td>
@@ -774,12 +882,37 @@ Details
 <span class="listing-year">2024</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:43:32</span>
+</td>
+<td>
 <span class="listing-description">In this first of two webinars, I will provide detail on how to do this modelling including what our users (bed managers) wanted and how we catered to their needs • what data you need to do this modelling in your hospital • what data structures are suitable for prediction of short-term demand and…</span>
 </td>
 
 </tr>
 
-<tr data-index="9" data-listing-date-sort="1710979200000" data-listing-title-sort="Data quality reporting for temporal datasets using the daiquiri package with Phuong Quan">
+<tr data-index="11" data-listing-date-sort="1713744000000" data-listing-title-sort="Introduction to Machine Learning - Understanding the basics 🐍 | NHS Python Community">
+<td>
+<a href="https://www.youtube.com/watch?v=Gf4l8EdmtJ0" class="title listing-title">Introduction to Machine Learning - Understanding the basics 🐍 | NHS Python Community</a>
+</td>
+<td>
+<span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-event">NHS.pycom talks</span>
+</td>
+<td>
+<span class="listing-duration">01:03:11</span>
+</td>
+<td>
+<span class="listing-description">Welcome to an Introduction to Machine Learning - Understanding the basics 🐍 – The first part of our “New Machine Learning for Everybody” Series from NHS Python Community. This series is led by Ameer Sohail Syed, Associate Data Engineer at the NHS . This is an accessible introduction to ML and is…</span>
+</td>
+
+</tr>
+
+<tr data-index="12" data-listing-date-sort="1710979200000" data-listing-title-sort="Data quality reporting for temporal datasets using the daiquiri package with Phuong Quan">
 <td>
 <a href="https://www.youtube.com/watch?v=UzonwAs5dNk" class="title listing-title">Data quality reporting for temporal datasets using the daiquiri package with Phuong Quan</a>
 </td>
@@ -787,12 +920,18 @@ Details
 <span class="listing-year">2024</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:42:21</span>
+</td>
+<td>
 <span class="listing-description">&nbsp;</span>
 </td>
 
 </tr>
 
-<tr data-index="10" data-listing-date-sort="1703203200000" data-listing-title-sort="December 2023 Webinar: Reproducible Environments using renv">
+<tr data-index="13" data-listing-date-sort="1703203200000" data-listing-title-sort="December 2023 Webinar: Reproducible Environments using renv">
 <td>
 <a href="https://www.youtube.com/watch?v=7lCOjGrwclQ" class="title listing-title">December 2023 Webinar: Reproducible Environments using renv</a>
 </td>
@@ -800,12 +939,18 @@ Details
 <span class="listing-year">2023</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:56:20</span>
+</td>
+<td>
 <span class="listing-description">Reproducible Environments using renv Wednesday 20th December 2023 With Ryan Johnson – Data Science Advisor, Posit About the webinar: The renv package helps create reproducible environments for your R projects. In this training we will provide an overview of the renv package and how to initialize,…</span>
 </td>
 
 </tr>
 
-<tr data-index="11" data-listing-date-sort="1702857600000" data-listing-title-sort="November 2023 Webinar: Customising your R Experience">
+<tr data-index="14" data-listing-date-sort="1702857600000" data-listing-title-sort="November 2023 Webinar: Customising your R Experience">
 <td>
 <a href="https://www.youtube.com/watch?v=MTui2ojTH0Q" class="title listing-title">November 2023 Webinar: Customising your R Experience</a>
 </td>
@@ -813,12 +958,18 @@ Details
 <span class="listing-year">2023</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:48:23</span>
+</td>
+<td>
 <span class="listing-description">Customising your R Experience Wednesday 29th November 2023 With James Laird-Smith, Data Scientist at the Bank of England About the webinar: R is a fantastic environment for interactive programming. It also has a fantastic IDE in RStudio. But many people don’t move beyond default behaviours with…</span>
 </td>
 
 </tr>
 
-<tr data-index="12" data-listing-date-sort="1698624000000" data-listing-title-sort="October 2023 Webinar: Package Management in R Studio">
+<tr data-index="15" data-listing-date-sort="1698624000000" data-listing-title-sort="October 2023 Webinar: Package Management in R Studio">
 <td>
 <a href="https://www.youtube.com/watch?v=VFtO54DF4_c" class="title listing-title">October 2023 Webinar: Package Management in R Studio</a>
 </td>
@@ -826,12 +977,18 @@ Details
 <span class="listing-year">2023</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">01:10:33</span>
+</td>
+<td>
 <span class="listing-description">Package Management in R Studio Thursday 26th October 2023 With Ryan Johnson, Data Science Advisor at Posit About the webinar: Managing packages in your R environment can be challenging. We’ll introduce R Packages, Libraries, and Repositories for this training and discuss strategies for managing…</span>
 </td>
 
 </tr>
 
-<tr data-index="13" data-listing-date-sort="1696896000000" data-listing-title-sort="June 2023 Webinar: Patient Feedback using LimeSurvey and R">
+<tr data-index="16" data-listing-date-sort="1696896000000" data-listing-title-sort="June 2023 Webinar: Patient Feedback using LimeSurvey and R">
 <td>
 <a href="https://www.youtube.com/watch?v=UJKUpEpsrzE" class="title listing-title">June 2023 Webinar: Patient Feedback using LimeSurvey and R</a>
 </td>
@@ -839,12 +996,18 @@ Details
 <span class="listing-year">2023</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:50:20</span>
+</td>
+<td>
 <span class="listing-description">Patient Feedback using LimeSurvey and R Wednesday 21st June 2023 With Roberts Klotins, Consultant Psychiatrist</span>
 </td>
 
 </tr>
 
-<tr data-index="14" data-listing-date-sort="1696896000000" data-listing-title-sort="July 2023 Webinar: Shiny in Production">
+<tr data-index="17" data-listing-date-sort="1696896000000" data-listing-title-sort="July 2023 Webinar: Shiny in Production">
 <td>
 <a href="https://www.youtube.com/watch?v=7v_CaT0IPAk" class="title listing-title">July 2023 Webinar: Shiny in Production</a>
 </td>
@@ -852,12 +1015,18 @@ Details
 <span class="listing-year">2023</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:55:14</span>
+</td>
+<td>
 <span class="listing-description">Shiny in Production Wednesday 19th July 2023 With Ryan Johnson, Data Science Advisor at Posit About the webinar: In this session, we’ll discuss how to create production-ready Shiny apps in R that can scale to thousands of concurrent users.</span>
 </td>
 
 </tr>
 
-<tr data-index="15" data-listing-date-sort="1696896000000" data-listing-title-sort="August 2023 Webinar: Introduction to Unit Tests in R">
+<tr data-index="18" data-listing-date-sort="1696896000000" data-listing-title-sort="August 2023 Webinar: Introduction to Unit Tests in R">
 <td>
 <a href="https://www.youtube.com/watch?v=3M1K7lGzrHQ" class="title listing-title">August 2023 Webinar: Introduction to Unit Tests in R</a>
 </td>
@@ -865,12 +1034,37 @@ Details
 <span class="listing-year">2023</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:58:10</span>
+</td>
+<td>
 <span class="listing-description">Introduction to Unit Tests in R Wednesday 23rd August 2023 With Tom Jemmett, Senior Data Scientist at The Strategy Unit About the webinar: This session will provide an introduction to the use of unit tests in R.</span>
 </td>
 
 </tr>
 
-<tr data-index="16" data-listing-date-sort="1685491200000" data-listing-title-sort="May 2023 Webinar: Version Control and RStudio">
+<tr data-index="19" data-listing-date-sort="1689120000000" data-listing-title-sort="NHS Python Community: Software Engineering for Data Scientists">
+<td>
+<a href="https://www.youtube.com/watch?v=We1KwBIZc_s" class="title listing-title">NHS Python Community: Software Engineering for Data Scientists</a>
+</td>
+<td>
+<span class="listing-year">2023</span>
+</td>
+<td>
+<span class="listing-event">NHS.pycom talks</span>
+</td>
+<td>
+<span class="listing-duration">00:58:39</span>
+</td>
+<td>
+<span class="listing-description">NHS Python Community: Software Engineering for Data Scientists is a talk by Nick Fortescue. and Hosted by Mary Amanuel, Co-founder, NHS Python Community Nick is an outstanding software engineer who gives up 20% of his work time at Google Health to collaborate with the NHS Python Community for…</span>
+</td>
+
+</tr>
+
+<tr data-index="20" data-listing-date-sort="1685491200000" data-listing-title-sort="May 2023 Webinar: Version Control and RStudio">
 <td>
 <a href="https://www.youtube.com/watch?v=qNMOPWT8jSo" class="title listing-title">May 2023 Webinar: Version Control and RStudio</a>
 </td>
@@ -878,12 +1072,18 @@ Details
 <span class="listing-year">2023</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:57:08</span>
+</td>
+<td>
 <span class="listing-description">Version Control and RStudio Thursday 25th May 2023 With Ryan Johnson, Data Science Advisor at Posit About the webinar: In this 1-hour training, we’ll discuss what are version control and git, setting up Git, RStudio Projects + Version Control, RStudio IDE git integrations, and Git-backed deployment…</span>
 </td>
 
 </tr>
 
-<tr data-index="17" data-listing-date-sort="1684108800000" data-listing-title-sort="April 2023 Webinar: Introduction to Quarto for R Users">
+<tr data-index="21" data-listing-date-sort="1684108800000" data-listing-title-sort="April 2023 Webinar: Introduction to Quarto for R Users">
 <td>
 <a href="https://www.youtube.com/watch?v=8nPfCUKPnBE" class="title listing-title">April 2023 Webinar: Introduction to Quarto for R Users</a>
 </td>
@@ -891,12 +1091,18 @@ Details
 <span class="listing-year">2023</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:57:16</span>
+</td>
+<td>
 <span class="listing-description">Introduction to Quarto for R Users Friday 21st April 2023 With Filippo Cavallari, Data Science Lecturer at The Office for National Statistics (ONS) About the webinar: If you are an R user, then you’ve probably been using R Markdown. And probably you loved R also because of R Markdown. But since…</span>
 </td>
 
 </tr>
 
-<tr data-index="18" data-listing-date-sort="1683763200000" data-listing-title-sort="NHS-R April 2023 Webinar: Chat with your data via RTutor and ChatGPT">
+<tr data-index="22" data-listing-date-sort="1683763200000" data-listing-title-sort="NHS-R April 2023 Webinar: Chat with your data via RTutor and ChatGPT">
 <td>
 <a href="https://www.youtube.com/watch?v=MyZM-hOyJX4" class="title listing-title">NHS-R April 2023 Webinar: Chat with your data via RTutor and ChatGPT</a>
 </td>
@@ -904,12 +1110,18 @@ Details
 <span class="listing-year">2023</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">01:01:13</span>
+</td>
+<td>
 <span class="listing-description">Chat with your data via RTutor and ChatGPT Friday 14th April 2023 With Dr.&nbsp;Xijin “Steven” Ge, Professor of Bioinformatics at South Dakota State University. About the webinar: First, I will demonstrate RTutor ( an AI-powered app that lets you chat with your data. RTutor uses ChatGPT to turn requests…</span>
 </td>
 
 </tr>
 
-<tr data-index="19" data-listing-date-sort="1680652800000" data-listing-title-sort="NHS-R March 2023 Webinar: Build a Golem Application">
+<tr data-index="23" data-listing-date-sort="1680652800000" data-listing-title-sort="NHS-R March 2023 Webinar: Build a Golem Application">
 <td>
 <a href="https://www.youtube.com/watch?v=ugMatRCIO4Q" class="title listing-title">NHS-R March 2023 Webinar: Build a Golem Application</a>
 </td>
@@ -917,12 +1129,18 @@ Details
 <span class="listing-year">2023</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:57:40</span>
+</td>
+<td>
 <span class="listing-description">Build a Golem Application Wednesday 15th March 2023 With Chris Beeley, Senior Lead Data Scientist, The Strategy Unit</span>
 </td>
 
 </tr>
 
-<tr data-index="20" data-listing-date-sort="1676505600000" data-listing-title-sort="NHS-R February 2023 Webinar: Introduction to Causal Inference and propensity modelling">
+<tr data-index="24" data-listing-date-sort="1676505600000" data-listing-title-sort="NHS-R February 2023 Webinar: Introduction to Causal Inference and propensity modelling">
 <td>
 <a href="https://www.youtube.com/watch?v=FBq66XF0lRY" class="title listing-title">NHS-R February 2023 Webinar: Introduction to Causal Inference and propensity modelling</a>
 </td>
@@ -930,12 +1148,18 @@ Details
 <span class="listing-year">2023</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:54:25</span>
+</td>
+<td>
 <span class="listing-description">Introduction to Causal Inference and propensity modelling Wednesday 15th February 2023 With Christel Swift, Principal Data Scientist, BBC About the webinar: In an ideal world, when trying to assess the effectiveness of a treatment (e.g.&nbsp;a new medicine, a government policy, a marketing…</span>
 </td>
 
 </tr>
 
-<tr data-index="21" data-listing-date-sort="1674000000000" data-listing-title-sort="NHS-R January 2023 Webinar:  Create reproducible and accessible spreadsheets with {a11ytables}">
+<tr data-index="25" data-listing-date-sort="1674000000000" data-listing-title-sort="NHS-R January 2023 Webinar:  Create reproducible and accessible spreadsheets with {a11ytables}">
 <td>
 <a href="https://www.youtube.com/watch?v=VcEZBYDBJwo" class="title listing-title">NHS-R January 2023 Webinar: Create reproducible and accessible spreadsheets with {a11ytables}</a>
 </td>
@@ -943,12 +1167,18 @@ Details
 <span class="listing-year">2023</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:58:43</span>
+</td>
+<td>
 <span class="listing-description">NHS-R Webinar: January 2023 Topic: Create reproducible and accessible spreadsheets with {a11ytables} Delivered by: Matt Dray, Analyst, Analysis &amp; Insight – Cabinet Office Wednesday 18th January 202 About the webinar: The Reproducible Analytical Pipelines (RAP) movement has revolutionised data…</span>
 </td>
 
 </tr>
 
-<tr data-index="22" data-listing-date-sort="1671667200000" data-listing-title-sort="December 2022 Webinar: The R Workflow – Dr Ryan Johnson from Posit">
+<tr data-index="26" data-listing-date-sort="1671667200000" data-listing-title-sort="December 2022 Webinar: The R Workflow – Dr Ryan Johnson from Posit">
 <td>
 <a href="https://www.youtube.com/watch?v=zyLT7akvc8s" class="title listing-title">December 2022 Webinar: The R Workflow – Dr Ryan Johnson from Posit</a>
 </td>
@@ -956,12 +1186,18 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:50:16</span>
+</td>
+<td>
 <span class="listing-description">The R Workflow Wednesday 21st December. Ryan Johnson, Posit discusses the following (using a Shiny app as the end product): - R Markdown Job Scheduling - Pins - - Plumber APIs This session is a show-and-tell getting you familiar with various open source tools (Pins, Plumber) and how they can be…</span>
 </td>
 
 </tr>
 
-<tr data-index="23" data-listing-date-sort="1669075200000" data-listing-title-sort="NHS-R Conference Webinar: Shiny in Production and Debugging Shiny Apps - 22/11/22">
+<tr data-index="27" data-listing-date-sort="1669075200000" data-listing-title-sort="NHS-R Conference Webinar: Shiny in Production and Debugging Shiny Apps - 22/11/22">
 <td>
 <a href="https://www.youtube.com/watch?v=BZLY7lWzidA" class="title listing-title">NHS-R Conference Webinar: Shiny in Production and Debugging Shiny Apps - 22/11/22</a>
 </td>
@@ -969,12 +1205,18 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">01:28:11</span>
+</td>
+<td>
 <span class="listing-description">Shiny in Production and Debugging Shiny Apps Led by Ryan Johnson, Customer Success Manager, RSTUDIO Tuesday 22nd November, About the course: Shiny in Production: How to create production-ready Shiny apps that can scale to thousands of concurrent users. Debugging Shiny Apps: Tips for debugging shiny…</span>
 </td>
 
 </tr>
 
-<tr data-index="24" data-listing-date-sort="1667865600000" data-listing-title-sort="NHS-R Webinar: Tips and tricks learnt from building production {shiny} apps  - 07/11/22">
+<tr data-index="28" data-listing-date-sort="1667865600000" data-listing-title-sort="NHS-R Webinar: Tips and tricks learnt from building production {shiny} apps  - 07/11/22">
 <td>
 <a href="https://www.youtube.com/watch?v=vO_Wn2tgIck" class="title listing-title">NHS-R Webinar: Tips and tricks learnt from building production {shiny} apps - 07/11/22</a>
 </td>
@@ -982,12 +1224,18 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:57:29</span>
+</td>
+<td>
 <span class="listing-description">Tips and tricks learnt from building production {shiny} apps Monday 7th November Delivered by Colin Fay, Data Scientist &amp; R Hacker at ThinkR About the webinar: The road to a production-ready software is always a bumpy road. Whatever you do, you can always expect the unexpected. But the good news is…</span>
 </td>
 
 </tr>
 
-<tr data-index="25" data-listing-date-sort="1667347200000" data-listing-title-sort="NHS-R Webinar: Introduction to business case analytics using Decision Analysis in R – 01/11/22">
+<tr data-index="29" data-listing-date-sort="1667347200000" data-listing-title-sort="NHS-R Webinar: Introduction to business case analytics using Decision Analysis in R – 01/11/22">
 <td>
 <a href="https://www.youtube.com/watch?v=VzVwdWn11s8" class="title listing-title">NHS-R Webinar: Introduction to business case analytics using Decision Analysis in R – 01/11/22</a>
 </td>
@@ -995,12 +1243,18 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">01:24:34</span>
+</td>
+<td>
 <span class="listing-description">NHS-R Conference Webinar: Introduction to business case analytics using Decision Analysis in R Tuesday 1st November 2022 Led by: Rob Brown, Cybersecurity Risk Management Leader About the webinar: How decision analysis leads data analysis, what considerations need to be in place to do that. With…</span>
 </td>
 
 </tr>
 
-<tr data-index="26" data-listing-date-sort="1667260800000" data-listing-title-sort="NHS-R Conference Webinar: Shiny and Advanced Shiny – 1/11/22">
+<tr data-index="30" data-listing-date-sort="1667260800000" data-listing-title-sort="NHS-R Conference Webinar: Shiny and Advanced Shiny – 1/11/22">
 <td>
 <a href="https://www.youtube.com/watch?v=4aE0a_JnERU" class="title listing-title">NHS-R Conference Webinar: Shiny and Advanced Shiny – 1/11/22</a>
 </td>
@@ -1008,12 +1262,18 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">01:46:19</span>
+</td>
+<td>
 <span class="listing-description">Intro to Shiny and Advanced Shiny Tuesday 1st November, 12.00 – 2.00 pm Led by Ryan Johnson, Customer Success Manager, RSTUDIO About the course: Intro to Shiny: We’ll go over the basic structure of a Shiny app and how they work. This is a great session for those new to Shiny. Advanced Shiny: Also…</span>
 </td>
 
 </tr>
 
-<tr data-index="27" data-listing-date-sort="1664409600000" data-listing-title-sort="NHS-R Webinar: Live Data Analysis with Chris Mainey - September 2022">
+<tr data-index="31" data-listing-date-sort="1664409600000" data-listing-title-sort="NHS-R Webinar: Live Data Analysis with Chris Mainey - September 2022">
 <td>
 <a href="https://www.youtube.com/watch?v=cVmB6jcmGdc" class="title listing-title">NHS-R Webinar: Live Data Analysis with Chris Mainey - September 2022</a>
 </td>
@@ -1021,12 +1281,18 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:54:28</span>
+</td>
+<td>
 <span class="listing-description">Join Chris Mainey, NHS England for a Live Data Analysis Webinar. Webinar: 28/09/22</span>
 </td>
 
 </tr>
 
-<tr data-index="28" data-listing-date-sort="1661299200000" data-listing-title-sort="NHS-R Webinar: PrAna R package to calculate &amp; visualize NHS primary care prescribing data, Aug 2022">
+<tr data-index="32" data-listing-date-sort="1661299200000" data-listing-title-sort="NHS-R Webinar: PrAna R package to calculate &amp; visualize NHS primary care prescribing data, Aug 2022">
 <td>
 <a href="https://www.youtube.com/watch?v=ztoWo6hiPkE" class="title listing-title">NHS-R Webinar: PrAna R package to calculate &amp; visualize NHS primary care prescribing data, Aug 2022</a>
 </td>
@@ -1034,12 +1300,18 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:47:45</span>
+</td>
+<td>
 <span class="listing-description">PrAna: an R package to calculate and visualize England NHS primary care prescribing data. Wednesday 17th August 2022, 1.00 pm Dr Kishore Kumar Jagadeesan, University of Bath Kishore is a researcher with 10+ years of experience contributing to scientific discoveries in the fields of Analytical…</span>
 </td>
 
 </tr>
 
-<tr data-index="29" data-listing-date-sort="1658448000000" data-listing-title-sort="NHS-R Webinar: Shiny Tool Predicting Primary Care Demand from Large Scale Housing Devs, July 2022">
+<tr data-index="33" data-listing-date-sort="1658448000000" data-listing-title-sort="NHS-R Webinar: Shiny Tool Predicting Primary Care Demand from Large Scale Housing Devs, July 2022">
 <td>
 <a href="https://www.youtube.com/watch?v=Q6sKc0y5uK8" class="title listing-title">NHS-R Webinar: Shiny Tool Predicting Primary Care Demand from Large Scale Housing Devs, July 2022</a>
 </td>
@@ -1047,12 +1319,37 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:45:21</span>
+</td>
+<td>
 <span class="listing-description">Shiny Tool Predicting Primary Care Demand from Large Scale Housing Developments in Wales Date: Wednesday 20th July, 1.00 pm – 2.00 pm Presenters: From the Strategy Unit, Justine Wiltshire the project lead and Ozayr Mohammed the developer of this shiny based application Join the Strategy Unit as…</span>
 </td>
 
 </tr>
 
-<tr data-index="30" data-listing-date-sort="1655769600000" data-listing-title-sort="NHS-R Webinar: Statistical Disclosure Control Methods via R for Statistical Publications, June 2022">
+<tr data-index="34" data-listing-date-sort="1656806400000" data-listing-title-sort="Is it time for Patient Initiated Methotrexate Monitoring? An analysis in Python">
+<td>
+<a href="https://www.youtube.com/watch?v=UypoOc5sL1U" class="title listing-title">Is it time for Patient Initiated Methotrexate Monitoring? An analysis in Python</a>
+</td>
+<td>
+<span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-event">NHS.pycom talks</span>
+</td>
+<td>
+<span class="listing-duration">00:18:32</span>
+</td>
+<td>
+<span class="listing-description">NHS Python Community Show &amp; Tell: 30th of June 2022. Patient-Level Data Analysis: Applications in Python Speakers: Leila Farmer Role: Data Analyst, Royal Devon University Healthcare NHS Foundation Trust Description: Using Python to analyse the wealth of laboratory results data has allowed us to…</span>
+</td>
+
+</tr>
+
+<tr data-index="35" data-listing-date-sort="1655769600000" data-listing-title-sort="NHS-R Webinar: Statistical Disclosure Control Methods via R for Statistical Publications, June 2022">
 <td>
 <a href="https://www.youtube.com/watch?v=GdAooA0uijI" class="title listing-title">NHS-R Webinar: Statistical Disclosure Control Methods via R for Statistical Publications, June 2022</a>
 </td>
@@ -1060,12 +1357,94 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:56:56</span>
+</td>
+<td>
 <span class="listing-description">Statistical Disclosure Control Methods via R for Statistical Publications Date: Wednesday 15th June, 1.00 pm – 2.00 pm Presenters: Robert Mitchell and Alex Reid from the CHILI team who have developed the code and by Scott Wilson who leads the Statistical Governance/CHILI team. This webinar aims to…</span>
 </td>
 
 </tr>
 
-<tr data-index="31" data-listing-date-sort="1652832000000" data-listing-title-sort="NHS-R Webinar: KCL Innovation Scholars Data training programme, May 2022">
+<tr data-index="36" data-listing-date-sort="1655683200000" data-listing-title-sort="Introduction to Python for Data Analysis &amp; Data Science">
+<td>
+<a href="https://www.youtube.com/watch?v=zAnC3TphiTc" class="title listing-title">Introduction to Python for Data Analysis &amp; Data Science</a>
+</td>
+<td>
+<span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-event">NHS.pycom talks</span>
+</td>
+<td>
+<span class="listing-duration">00:47:08</span>
+</td>
+<td>
+<span class="listing-description">Python Teach-Back at the Economics &amp; Strategic Analysis Team, NHS England. With Mary Amanuel (Analytical Officer) and Josh Strong (Data Science Analyst) Repository: Google-Colab: #nhs #python #datascience</span>
+</td>
+
+</tr>
+
+<tr data-index="37" data-listing-date-sort="1653523200000" data-listing-title-sort="Life and Death with Python: QI-Py by Clinicians (Part 2)">
+<td>
+<a href="https://www.youtube.com/watch?v=FNVmtuM-PGM" class="title listing-title">Life and Death with Python: QI-Py by Clinicians (Part 2)</a>
+</td>
+<td>
+<span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-event">NHS.pycom talks</span>
+</td>
+<td>
+<span class="listing-duration">00:11:18</span>
+</td>
+<td>
+<span class="listing-description">Speaker: Matthew Stammers - Consultant Gastroenterologist/Data Scientist, University Hospital Southampton (UHS) Clinicians often feel stumped when trying to cross the divide between programming and deploying those innovations in real-world clinical settings. Questions such as: How do I connect my…</span>
+</td>
+
+</tr>
+
+<tr data-index="38" data-listing-date-sort="1653523200000" data-listing-title-sort="Life and Death with Python: QI-Py by Clinicians (Part 1)">
+<td>
+<a href="https://www.youtube.com/watch?v=zvItX-4NJyE" class="title listing-title">Life and Death with Python: QI-Py by Clinicians (Part 1)</a>
+</td>
+<td>
+<span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-event">NHS.pycom talks</span>
+</td>
+<td>
+<span class="listing-duration">00:20:47</span>
+</td>
+<td>
+<span class="listing-description">Speaker: Michael George - Clinical Fellow in Data Engineering, University Hospital Southampton (UHS) Clinicians often feel stumped when trying to cross the divide between programming and deploying those innovations in real-world clinical settings. Questions such as: How do I connect my python…</span>
+</td>
+
+</tr>
+
+<tr data-index="39" data-listing-date-sort="1653523200000" data-listing-title-sort="AI Deployment Engine (AIDE): A new hospital operating system">
+<td>
+<a href="https://www.youtube.com/watch?v=nWf-DZrA_yk" class="title listing-title">AI Deployment Engine (AIDE): A new hospital operating system</a>
+</td>
+<td>
+<span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-event">NHS.pycom talks</span>
+</td>
+<td>
+<span class="listing-duration">00:14:56</span>
+</td>
+<td>
+<span class="listing-description">Speaker: Haris Shuaib. Head of Clinical Scientific Computing, Guy’s &amp; St.&nbsp;Thomas’ NHS Foundation Trust An overview of the progress of the AI Deployment Engine (AIDE) — a world-leading program to enable AI at the point of care. Led by the London AI Centre, in partnership with 10 of the largest…</span>
+</td>
+
+</tr>
+
+<tr data-index="40" data-listing-date-sort="1652832000000" data-listing-title-sort="NHS-R Webinar: KCL Innovation Scholars Data training programme, May 2022">
 <td>
 <a href="https://www.youtube.com/watch?v=HeGpHy2naJY" class="title listing-title">NHS-R Webinar: KCL Innovation Scholars Data training programme, May 2022</a>
 </td>
@@ -1073,12 +1452,18 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:37:07</span>
+</td>
+<td>
 <span class="listing-description">KCL Innovation Scholars Data training programme Date: Wednesday 18th May 2022 Presenter: Emily Robinson and Team from Innovation Scholars Programme, Centre for Doctoral Studies, King’s College London Healthcare is not exempt from the big data deluge which is transforming the workplace and with it…</span>
 </td>
 
 </tr>
 
-<tr data-index="32" data-listing-date-sort="1650499200000" data-listing-title-sort="NHS-R Webinar: Approaches to Teaching R - April 2022">
+<tr data-index="41" data-listing-date-sort="1650499200000" data-listing-title-sort="NHS-R Webinar: Approaches to Teaching R - April 2022">
 <td>
 <a href="https://www.youtube.com/watch?v=G5MYlWGRz34" class="title listing-title">NHS-R Webinar: Approaches to Teaching R - April 2022</a>
 </td>
@@ -1086,12 +1471,170 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:56:19</span>
+</td>
+<td>
 <span class="listing-description">Presenter: Jenny Sloane, PhD student, Studying Cognitive Psychology, UNSW In this webinar, I will share different approaches and tips for how to effectively teach R. From personal experience, I know there’s a steep learning curve to learning R, which can be very frustrating at times. However, it is…</span>
 </td>
 
 </tr>
 
-<tr data-index="33" data-listing-date-sort="1647993600000" data-listing-title-sort="NHS-R Webinar : Strategic Health Asset Planning and Evaluation (SHAPE) - March 2022">
+<tr data-index="42" data-listing-date-sort="1649894400000" data-listing-title-sort="Spiritum Duo - Clinical pathways, A to B but faster!">
+<td>
+<a href="https://www.youtube.com/watch?v=5Fc-v3EE2Ws" class="title listing-title">Spiritum Duo - Clinical pathways, A to B but faster!</a>
+</td>
+<td>
+<span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-event">NHS.pycom talks</span>
+</td>
+<td>
+<span class="listing-duration">00:27:02</span>
+</td>
+<td>
+<span class="listing-description">The NHS Python Community Presents: Python in the Clinic. April 14 2022.</span>
+</td>
+
+</tr>
+
+<tr data-index="43" data-listing-date-sort="1649894400000" data-listing-title-sort="Regional Radiology Quality Improvement in Devon and Cornwall Using Open Source Tools.">
+<td>
+<a href="https://www.youtube.com/watch?v=N8e5saR75g0" class="title listing-title">Regional Radiology Quality Improvement in Devon and Cornwall Using Open Source Tools.</a>
+</td>
+<td>
+<span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-event">NHS.pycom talks</span>
+</td>
+<td>
+<span class="listing-duration">00:27:38</span>
+</td>
+<td>
+<span class="listing-description">The NHS Python Community Presents: Python in the Clinic. April 14 2022.</span>
+</td>
+
+</tr>
+
+<tr data-index="44" data-listing-date-sort="1649030400000" data-listing-title-sort="Python Pyrate on the Front Line">
+<td>
+<a href="https://www.youtube.com/watch?v=hx_4VweTQYs" class="title listing-title">Python Pyrate on the Front Line</a>
+</td>
+<td>
+<span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-event">NHS.pycom talks</span>
+</td>
+<td>
+<span class="listing-duration">00:09:15</span>
+</td>
+<td>
+<span class="listing-description">The NHS Python Community Presents: Nov 16 2021. The Potential for Python in the NHS.</span>
+</td>
+
+</tr>
+
+<tr data-index="45" data-listing-date-sort="1649030400000" data-listing-title-sort="Python Pyrate Leading Innovation in Search of 'Bountiful Insights'">
+<td>
+<a href="https://www.youtube.com/watch?v=NyKj_3zr2JY" class="title listing-title">Python Pyrate Leading Innovation in Search of ‘Bountiful Insights’</a>
+</td>
+<td>
+<span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-event">NHS.pycom talks</span>
+</td>
+<td>
+<span class="listing-duration">00:13:06</span>
+</td>
+<td>
+<span class="listing-description">The NHS Python Community Presents: Nov 16 2021. The Potential for Python in the NHS.</span>
+</td>
+
+</tr>
+
+<tr data-index="46" data-listing-date-sort="1649030400000" data-listing-title-sort="Reproducible Analytical Pipelines (RAP)">
+<td>
+<a href="https://www.youtube.com/watch?v=WRXagzGTILQ" class="title listing-title">Reproducible Analytical Pipelines (RAP)</a>
+</td>
+<td>
+<span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-event">NHS.pycom talks</span>
+</td>
+<td>
+<span class="listing-duration">00:10:02</span>
+</td>
+<td>
+<span class="listing-description">NHS.Pycom X NHS-R Feb 23 2022. Helen Richardson, Senior Data Scientist @ NHS Digital. GitHub:</span>
+</td>
+
+</tr>
+
+<tr data-index="47" data-listing-date-sort="1649030400000" data-listing-title-sort="RAP Community of Practice">
+<td>
+<a href="https://www.youtube.com/watch?v=SWMaAr29SyI" class="title listing-title">RAP Community of Practice</a>
+</td>
+<td>
+<span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-event">NHS.pycom talks</span>
+</td>
+<td>
+<span class="listing-duration">00:05:42</span>
+</td>
+<td>
+<span class="listing-description">NHS.Pycom X NHS-R Feb 23 2022. Kenneth Quan, Senior Data Scientist @ NHS Digital GitHub:</span>
+</td>
+
+</tr>
+
+<tr data-index="48" data-listing-date-sort="1648944000000" data-listing-title-sort="Drivers of Crowding in Type 1 EDs: Econometric Model and its Implementation in R">
+<td>
+<a href="https://www.youtube.com/watch?v=Nh5bd_gxb9k" class="title listing-title">Drivers of Crowding in Type 1 EDs: Econometric Model and its Implementation in R</a>
+</td>
+<td>
+<span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-event">NHS.pycom talks</span>
+</td>
+<td>
+<span class="listing-duration">00:09:28</span>
+</td>
+<td>
+<span class="listing-description">NHS.Pycom X NHS-R Feb 23. Edmund Haacke, Economic Analyst @ Economics and Strategic Analysis (ESA) Team, NHS England. GitHub:</span>
+</td>
+
+</tr>
+
+<tr data-index="49" data-listing-date-sort="1648944000000" data-listing-title-sort="Developing Tools for Querying, Tidying, and Analysing Data in R">
+<td>
+<a href="https://www.youtube.com/watch?v=KPtNteFL4Xg" class="title listing-title">Developing Tools for Querying, Tidying, and Analysing Data in R</a>
+</td>
+<td>
+<span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-event">NHS.pycom talks</span>
+</td>
+<td>
+<span class="listing-duration">00:09:14</span>
+</td>
+<td>
+<span class="listing-description">NHS.Pycom X NHS-R Feb 23 Milan Wiedemann, Researcher @ Oxford DataLab, University of Oxford Blog Post:</span>
+</td>
+
+</tr>
+
+<tr data-index="50" data-listing-date-sort="1647993600000" data-listing-title-sort="NHS-R Webinar : Strategic Health Asset Planning and Evaluation (SHAPE) - March 2022">
 <td>
 <a href="https://www.youtube.com/watch?v=bD65nCSmeQs" class="title listing-title">NHS-R Webinar : Strategic Health Asset Planning and Evaluation (SHAPE) - March 2022</a>
 </td>
@@ -1099,12 +1642,18 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:48:17</span>
+</td>
+<td>
 <span class="listing-description">Join Barbara Coyle for the NHS-R Webinar - Strategic Health Asset Planning and Evaluation (SHAPE) Date: Wednesday 16th March, 1.00 pm – 2.00 pm Presenter: Barbara Coyle, Associate Director at Public Health England Strategic Health Asset Planning and Evaluation (SHAPE) is a web enabled, evidence…</span>
 </td>
 
 </tr>
 
-<tr data-index="34" data-listing-date-sort="1645056000000" data-listing-title-sort="NHS-R Webinar: Building Multiple Page Shiny Apps with {brochure} - February 2022">
+<tr data-index="51" data-listing-date-sort="1645056000000" data-listing-title-sort="NHS-R Webinar: Building Multiple Page Shiny Apps with {brochure} - February 2022">
 <td>
 <a href="https://www.youtube.com/watch?v=8UiCqSKlfew" class="title listing-title">NHS-R Webinar: Building Multiple Page Shiny Apps with {brochure} - February 2022</a>
 </td>
@@ -1112,12 +1661,18 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:57:18</span>
+</td>
+<td>
 <span class="listing-description">Join Colin Fay for the NHS-R Webinar - Building Multiple Page Shiny Apps with {brochure} Presenter: Colin Fay, Data Science Engineering at ThinkR Summary: How about we take a step back and think about the way we’ve been building {shiny} apps so far? What can we learn from the way web apps are built…</span>
 </td>
 
 </tr>
 
-<tr data-index="35" data-listing-date-sort="1642636800000" data-listing-title-sort="NHS-R Webinar - Designing a Shiny dashboard using a Raspberry Pi cluster server, January 2022">
+<tr data-index="52" data-listing-date-sort="1642636800000" data-listing-title-sort="NHS-R Webinar - Designing a Shiny dashboard using a Raspberry Pi cluster server, January 2022">
 <td>
 <a href="https://www.youtube.com/watch?v=UxS5JyKZJxg" class="title listing-title">NHS-R Webinar - Designing a Shiny dashboard using a Raspberry Pi cluster server, January 2022</a>
 </td>
@@ -1125,12 +1680,18 @@ Details
 <span class="listing-year">2022</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:24:22</span>
+</td>
+<td>
 <span class="listing-description">Join Pablo Leon-Rodenas, for the NHS-R webinar - Designing a Shiny dashboard using a Raspberry Pi cluster server Pablo Leon-Rodenas, Analytics Developer, NHS England and NHS Improvement Pablo has built the Raspberry PI cluster to host the Shiny Server. In this webinar Pablo with describe in detail…</span>
 </td>
 
 </tr>
 
-<tr data-index="36" data-listing-date-sort="1639612800000" data-listing-title-sort="NHS R Webinar - Building a TidyModels Classification Model from Scratch, December 2021">
+<tr data-index="53" data-listing-date-sort="1639612800000" data-listing-title-sort="NHS R Webinar - Building a TidyModels Classification Model from Scratch, December 2021">
 <td>
 <a href="https://www.youtube.com/watch?v=hxRx7ozLNKw" class="title listing-title">NHS R Webinar - Building a TidyModels Classification Model from Scratch, December 2021</a>
 </td>
@@ -1138,12 +1699,18 @@ Details
 <span class="listing-year">2021</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:59:47</span>
+</td>
+<td>
 <span class="listing-description">Join Gary Hutson for the NHS-R webinar - Building a TidyModels Classification Model from Scratch Gary Hutson - Head of Machine Learning and Senior NHS-R Fellow Please resources at: This webinar will take you through how to: - Build your first Machine Learning classification model with tidynodels -…</span>
 </td>
 
 </tr>
 
-<tr data-index="37" data-listing-date-sort="1629244800000" data-listing-title-sort="NHS-R Webinar - Adaptive Clinical Trial Design using R by Dr Anna Heath (August 2021)">
+<tr data-index="54" data-listing-date-sort="1629244800000" data-listing-title-sort="NHS-R Webinar - Adaptive Clinical Trial Design using R by Dr Anna Heath (August 2021)">
 <td>
 <a href="https://www.youtube.com/watch?v=A7TeTv5m5rg" class="title listing-title">NHS-R Webinar - Adaptive Clinical Trial Design using R by Dr Anna Heath (August 2021)</a>
 </td>
@@ -1151,12 +1718,18 @@ Details
 <span class="listing-year">2021</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">01:06:48</span>
+</td>
+<td>
 <span class="listing-description">Adaptive Clinical Trial Design using R by Dr Anna Heath In this webinar Anna presents two adaptive clinical trials to investigate treatments for pain relief in the pediatric emergency department. Both these trials were designed using R and were combined with an R shiny interface to support their…</span>
 </td>
 
 </tr>
 
-<tr data-index="38" data-listing-date-sort="1626912000000" data-listing-title-sort="Assessing the impact of Covid-19 on hip replacement rates using R and R Markdown">
+<tr data-index="55" data-listing-date-sort="1626912000000" data-listing-title-sort="Assessing the impact of Covid-19 on hip replacement rates using R and R Markdown">
 <td>
 <a href="https://www.youtube.com/watch?v=hDhI2iuYyLY" class="title listing-title">Assessing the impact of Covid-19 on hip replacement rates using R and R Markdown</a>
 </td>
@@ -1164,12 +1737,18 @@ Details
 <span class="listing-year">2021</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:51:35</span>
+</td>
+<td>
 <span class="listing-description">Presented by: Alexander Lawless, Healthcare Analyst, The Strategy Unit Alex presents the findings of a recent piece of analysis into how the Covid-19 pandemic impacted planned and unplanned hip replacement procedures across the country and in different socio-demographic groups. This work was…</span>
 </td>
 
 </tr>
 
-<tr data-index="39" data-listing-date-sort="1623888000000" data-listing-title-sort="NHS R Webinar - Using Git and GitHub by Zoë Turner">
+<tr data-index="56" data-listing-date-sort="1623888000000" data-listing-title-sort="NHS R Webinar - Using Git and GitHub by Zoë Turner">
 <td>
 <a href="https://www.youtube.com/watch?v=SGD3nK7u8fw" class="title listing-title">NHS R Webinar - Using Git and GitHub by Zoë Turner</a>
 </td>
@@ -1177,12 +1756,18 @@ Details
 <span class="listing-year">2021</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:45:55</span>
+</td>
+<td>
 <span class="listing-description">Presented by: Zoë Turner - Senior Information Analyst, Clinical Development Unit, Nottinghamshire Healthcare NHS Foundation Trust This is an introduction to GitHub for anyone who doesn’t know what GitHub is, has heard of it but doesn’t know where to start and for anyone who has ever been told:…</span>
 </td>
 
 </tr>
 
-<tr data-index="40" data-listing-date-sort="1621900800000" data-listing-title-sort="Plotting interactive visualizations with Plotly in R">
+<tr data-index="57" data-listing-date-sort="1621900800000" data-listing-title-sort="Plotting interactive visualizations with Plotly in R">
 <td>
 <a href="https://www.youtube.com/watch?v=WmofiOklux8" class="title listing-title">Plotting interactive visualizations with Plotly in R</a>
 </td>
@@ -1190,12 +1775,18 @@ Details
 <span class="listing-year">2021</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:57:44</span>
+</td>
+<td>
 <span class="listing-description">Presented by: Elizabeth Brown and Hannah Alexander An introduction to plotting interactive visualizations with Plotly in R. Covers - creating a number of interactive plots, including plots using spacial data, and the integration of Plotly with ggplot2. Please access materials here:</span>
 </td>
 
 </tr>
 
-<tr data-index="41" data-listing-date-sort="1618963200000" data-listing-title-sort="NHSDataDictionaRy: a new package for keeping NHS lookups up to date and easily accessible">
+<tr data-index="58" data-listing-date-sort="1618963200000" data-listing-title-sort="NHSDataDictionaRy: a new package for keeping NHS lookups up to date and easily accessible">
 <td>
 <a href="https://www.youtube.com/watch?v=MqCFHCbTORs" class="title listing-title">NHSDataDictionaRy: a new package for keeping NHS lookups up to date and easily accessible</a>
 </td>
@@ -1203,12 +1794,18 @@ Details
 <span class="listing-year">2021</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:50:09</span>
+</td>
+<td>
 <span class="listing-description">This webinar was facilitated by Gary Hutson on Wednesday 21st April from 1-2pm.</span>
 </td>
 
 </tr>
 
-<tr data-index="42" data-listing-date-sort="1615939200000" data-listing-title-sort="Communicating your analysis with clinicians and managers">
+<tr data-index="59" data-listing-date-sort="1615939200000" data-listing-title-sort="Communicating your analysis with clinicians and managers">
 <td>
 <a href="https://www.youtube.com/watch?v=gCZPye-hXPc" class="title listing-title">Communicating your analysis with clinicians and managers</a>
 </td>
@@ -1216,12 +1813,18 @@ Details
 <span class="listing-year">2021</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:48:32</span>
+</td>
+<td>
 <span class="listing-description">This webinar was facilitated by Lori Edwards Suárez and Andreas Soteriades on Wednesday 17th March from 1-2pm.</span>
 </td>
 
 </tr>
 
-<tr data-index="43" data-listing-date-sort="1613606400000" data-listing-title-sort="Dashboards in R using Flexdashboard, a case study using mortality">
+<tr data-index="60" data-listing-date-sort="1613606400000" data-listing-title-sort="Dashboards in R using Flexdashboard, a case study using mortality">
 <td>
 <a href="https://www.youtube.com/watch?v=668k5sBkKus" class="title listing-title">Dashboards in R using Flexdashboard, a case study using mortality</a>
 </td>
@@ -1229,12 +1832,18 @@ Details
 <span class="listing-year">2021</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">01:11:34</span>
+</td>
+<td>
 <span class="listing-description">This webinar was facilitated by Richard Wilson on Wednesday 17th February from 1-2pm.</span>
 </td>
 
 </tr>
 
-<tr data-index="44" data-listing-date-sort="1611187200000" data-listing-title-sort="R and Python – a happy union with reticulate webinar">
+<tr data-index="61" data-listing-date-sort="1611187200000" data-listing-title-sort="R and Python – a happy union with reticulate webinar">
 <td>
 <a href="https://www.youtube.com/watch?v=8WE-EU5k97Q" class="title listing-title">R and Python – a happy union with reticulate webinar</a>
 </td>
@@ -1242,12 +1851,18 @@ Details
 <span class="listing-year">2021</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">01:01:02</span>
+</td>
+<td>
 <span class="listing-description">This webinar was facilitated by Gary Hutson and Andreas Soteriades on Wednesday 20th January from 1-2pm.</span>
 </td>
 
 </tr>
 
-<tr data-index="45" data-listing-date-sort="1606435200000" data-listing-title-sort="Forecasting with Multiple Seasonality">
+<tr data-index="62" data-listing-date-sort="1606435200000" data-listing-title-sort="Forecasting with Multiple Seasonality">
 <td>
 <a href="https://www.youtube.com/watch?v=FKSk6WV-fLo" class="title listing-title">Forecasting with Multiple Seasonality</a>
 </td>
@@ -1255,12 +1870,18 @@ Details
 <span class="listing-year">2020</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">01:31:15</span>
+</td>
+<td>
 <span class="listing-description">Dr Bahman Rostami-Tabar, Senior Lecturer in Management Science at Cardiff Business School, and Mitchell O’Hara-Wild, Teaching Associate at Monash University, present “Forecasting with Multiple Seasonality”.</span>
 </td>
 
 </tr>
 
-<tr data-index="46" data-listing-date-sort="1603929600000" data-listing-title-sort="Time Series Forecasting Models">
+<tr data-index="63" data-listing-date-sort="1603929600000" data-listing-title-sort="Time Series Forecasting Models">
 <td>
 <a href="https://www.youtube.com/watch?v=dwpzVeVtvao" class="title listing-title">Time Series Forecasting Models</a>
 </td>
@@ -1268,12 +1889,18 @@ Details
 <span class="listing-year">2020</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:49:03</span>
+</td>
+<td>
 <span class="listing-description">Dr Tahseen Jilani, Digital Research Scientist at University of Nottingham presents “Time Series Forecasting Models”.</span>
 </td>
 
 </tr>
 
-<tr data-index="47" data-listing-date-sort="1600214400000" data-listing-title-sort="Why and how to build an R package">
+<tr data-index="64" data-listing-date-sort="1600214400000" data-listing-title-sort="Why and how to build an R package">
 <td>
 <a href="https://www.youtube.com/watch?v=qmTaAIEXxSQ" class="title listing-title">Why and how to build an R package</a>
 </td>
@@ -1281,12 +1908,18 @@ Details
 <span class="listing-year">2020</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">01:10:17</span>
+</td>
+<td>
 <span class="listing-description">Chris Mainey from the HED team at University Hospitals Birmingham NHS Foundation Trust presents “Why and how to build an R package”, taking you through the basics of package development in R. Follow us on Twitter to find out about future webinars! Slides can be found at: Code can be found at:</span>
 </td>
 
 </tr>
 
-<tr data-index="48" data-listing-date-sort="1597881600000" data-listing-title-sort="Reshaping and Combining Data in R">
+<tr data-index="65" data-listing-date-sort="1597881600000" data-listing-title-sort="Reshaping and Combining Data in R">
 <td>
 <a href="https://www.youtube.com/watch?v=a3eJXwonbU8" class="title listing-title">Reshaping and Combining Data in R</a>
 </td>
@@ -1294,12 +1927,18 @@ Details
 <span class="listing-year">2020</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:57:34</span>
+</td>
+<td>
 <span class="listing-description">Emma Vestesson from The Health Foundation presents “Reshaping and Combining Data in R”, covering the pivot_wider/longer functions from {tidyr} and the various *_join functions from {dplyr} If you work in the UK Healthcare sector then we would love for you to complete our annual survey: Follow us on…</span>
 </td>
 
 </tr>
 
-<tr data-index="49" data-listing-date-sort="1594771200000" data-listing-title-sort="Task automation with R">
+<tr data-index="66" data-listing-date-sort="1594771200000" data-listing-title-sort="Task automation with R">
 <td>
 <a href="https://www.youtube.com/watch?v=GZhoXIkXGrc" class="title listing-title">Task automation with R</a>
 </td>
@@ -1307,12 +1946,18 @@ Details
 <span class="listing-year">2020</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:52:56</span>
+</td>
+<td>
 <span class="listing-description">In this webinar Daria Cosentino from HCA Healthcare UK talks us through how to automate tasks in R.</span>
 </td>
 
 </tr>
 
-<tr data-index="50" data-listing-date-sort="1592438400000" data-listing-title-sort="Advanced Modelling Webinar">
+<tr data-index="67" data-listing-date-sort="1592438400000" data-listing-title-sort="Advanced Modelling Webinar">
 <td>
 <a href="https://www.youtube.com/watch?v=rO40vvKXU-4" class="title listing-title">Advanced Modelling Webinar</a>
 </td>
@@ -1320,12 +1965,18 @@ Details
 <span class="listing-year">2020</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:58:49</span>
+</td>
+<td>
 <span class="listing-description">This webinar was facilitated by Gary Hutson (Head of Solutions and AI at Draper and Dash) on Wednesday 17th June 2020 from 1-2pm.</span>
 </td>
 
 </tr>
 
-<tr data-index="51" data-listing-date-sort="1590105600000" data-listing-title-sort="Functional Programming using the Purrr Package webinar">
+<tr data-index="68" data-listing-date-sort="1590105600000" data-listing-title-sort="Functional Programming using the Purrr Package webinar">
 <td>
 <a href="https://www.youtube.com/watch?v=GxvccD8K49M" class="title listing-title">Functional Programming using the Purrr Package webinar</a>
 </td>
@@ -1333,12 +1984,18 @@ Details
 <span class="listing-year">2020</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:56:22</span>
+</td>
+<td>
 <span class="listing-description">This webinar was facilitated by Tom Jemmett (Senior Healthcare Analyst at The Strategy Unit) on Wednesday 20th May 2020 from 1-2pm.</span>
 </td>
 
 </tr>
 
-<tr data-index="52" data-listing-date-sort="1587600000000" data-listing-title-sort="Shiny webinar">
+<tr data-index="69" data-listing-date-sort="1587600000000" data-listing-title-sort="Shiny webinar">
 <td>
 <a href="https://www.youtube.com/watch?v=vVl1f2lMfsA" class="title listing-title">Shiny webinar</a>
 </td>
@@ -1346,17 +2003,29 @@ Details
 <span class="listing-year">2020</span>
 </td>
 <td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">00:55:07</span>
+</td>
+<td>
 <span class="listing-description">This webinar was facilitated by Chris Beeley (Senior Analyst at Nottinghamshire Healthcare NHS Foundation Trust) on Wednesday 22nd April 2020 from 1-2pm.</span>
 </td>
 
 </tr>
 
-<tr data-index="53" data-listing-date-sort="1582243200000" data-listing-title-sort="Database Connections in R Webinar">
+<tr data-index="70" data-listing-date-sort="1582243200000" data-listing-title-sort="Database Connections in R Webinar">
 <td>
 <a href="https://www.youtube.com/watch?v=XWFuwSTz8dY" class="title listing-title">Database Connections in R Webinar</a>
 </td>
 <td>
 <span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-event">Webinars</span>
+</td>
+<td>
+<span class="listing-duration">01:03:25</span>
 </td>
 <td>
 <span class="listing-description">This webinar was facilitated by Chris Mainey (Senior Statistical Intelligence Analyst at University Hospitals Birmingham NHS Foundation Trust) on Wednesday 19th February 2020 from 1-2pm.</span>
@@ -1371,8 +2040,8 @@ Details
   <ul class="pagination"></ul>
 </nav>
 </div>
-<p>You can also browse the full <a href="https://www.youtube.com/playlist?list=PLXCrMzQaI6c36jqIWc9AgHzowzZ2ak9DL">webinar playlist on YouTube</a>.</p>
-<p>The NHS-OA Community also publishes recordings of <a href="../../books_training/nhs_oa_workshops/index.html">workshops</a> and <a href="../../books_training/nhs_oa_conference_recordings/index.html">conference talks</a>.</p>
+<p>You can also browse the full <a href="https://www.youtube.com/playlist?list=PLXCrMzQaI6c36jqIWc9AgHzowzZ2ak9DL">webinar playlist</a> and <a href="https://www.youtube.com/%40nhs-pycom/videos">NHS.pycom’s channel</a> on YouTube.</p>
+<p>The NHS-OA Community also publishes recordings of <a href="../../books_training/nhs_oa_workshops/index.html">workshops</a> and <a href="../../books_training/nhs_oa_conference_recordings/index.html">conference talks</a>, including the Python track of the 2022 NHS-R Community Conference, which was run by NHS.pycom.</p>
 <p>To search these recordings alongside talks, webinars and workshops from other communities, use the <a href="../../recordings/index.html">Recordings Finder</a>.</p>
 
 

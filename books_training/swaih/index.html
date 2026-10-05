@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="The Strategy Unit">
-<meta name="dcterms.date" content="2026-10-05">
+<meta name="author" content="SWAIH">
+<meta name="dcterms.date" content="2026-10-04">
 
-<title>New Hospital Programme Demand Model – The Healthcare Service Analytics &amp; Decision Intelligence Atlas</title>
+<title>SWAIH - South West Analytics and Infrastructure in Healthcare – The Healthcare Service Analytics &amp; Decision Intelligence Atlas</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -80,21 +80,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-nhp-training .list');
+    const listingTargetEl = window.document.querySelector('#listing-swaih-talks .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-year','listing-duration','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
-      page: 10,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-title","listing-year","listing-description"],
+      valueNames: ['listing-title','listing-year','listing-type','listing-duration','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-title","listing-year","listing-type","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-nhp-training'] = new List('listing-nhp-training', options);
+    window['quarto-listings']['listing-swaih-talks'] = new List('listing-swaih-talks', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -431,29 +430,29 @@ window.Quarto = {
         <div class="quarto-title-banner page-columns page-full">
             <div class="quarto-title column-page-left">
                                                 <div class="quarto-categories">
-                                        <div class="quarto-category">Demand Prediction</div>
-                                        <div class="quarto-category">Forecasting</div>
-                                        <div class="quarto-category">Service Planning</div>
+                                        <div class="quarto-category">Courses and Training or Reference Materials</div>
+                                        <div class="quarto-category">Communities</div>
                                     </div>
-                                                <h1 class="title">New Hospital Programme Demand Model <i class="fa-solid fa-hospital"></i></h1>
+                                                <h1 class="title">SWAIH - South West Analytics and Infrastructure in Healthcare <i class="fa-solid fa-hospital"></i></h1>
                                                                 <br>
                 <div class="abstract">
                     <b>Summary</b>
-                    <p>The Demand and Capacity Modelling Tool, developed by the Strategy Unit for DHSC and its partners, supports robust and transparent forecasting of future hospital activity to inform the design and scaling of over 40 new hospitals planned by 2030.</p>
-                                        Rating: <span style="color: #D18B12FF">Gold</span>
-                                        <p>Extensive documentation, robust quality assurance, modular design, and transparent, actively maintained processes.</p>
+                    <p>SWAIH (South West Analytics and Infrastructure in Healthcare) is a regional network, hosted by the University of Exeter, for analysts, researchers and others using health and care data across the South West of England. It runs an annual meeting, online Insight Talks and workshops, and the SW Data Science Hub, which meets monthly in Exeter. Recordings of its Insight Talks are available on YouTube.</p>
+                                        Rating: N/A
+                                        <p>Community resource rather than code, so it is not ranked.</p>
                                                         </div>
                 
                                 <div class="project-link-buttons">
                     <ul class="project-links">
-                                                                        <button class="custom-button"><a href="https://github.com/The-Strategy-Unit/nhp_model"><i class="fa-brands fa-github"></i> Code</a></button>
-                                                                                                <button class="custom-button"><a href="https://connect.strategyunitwm.nhs.uk/nhp/project_information/"><i class="fa-solid fa-book"></i> Documentation</a></button>
+                                                                        <button class="custom-button"><a href="https://sites.google.com/nihr.ac.uk/swaih/home"><i class="fa-solid fa-globe"></i> Website</a></button>
+                                                                                                <button class="custom-button"><a href="https://www.youtube.com/%40SouthWest_AIH"><i class="fa-brands fa-youtube"></i> YouTube</a></button>
+                                                                                                <button class="custom-button"><a href="https://www.linkedin.com/company/swaih/"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></button>
                                                                     </ul>
                 </div>
                 
                                 <p><b>Atlas Entry authored by:</b>
-                                |&nbsp;Amy Heather
-                                (<a href="https://github.com/amyheather">Link</a>)
+                                |&nbsp;Sammi Rosser
+                                (<a href="https://github.com/Bergam0t">Link</a>)
                                 &nbsp;|&nbsp;
                                 </p>
                             </div>
@@ -467,14 +466,14 @@ window.Quarto = {
         <div>
         <div class="quarto-title-meta-heading">Author</div>
         <div class="quarto-title-meta-contents">
-                 <p>The Strategy Unit </p>
+                 <p>SWAIH </p>
               </div>
       </div>
         
         <div>
         <div class="quarto-title-meta-heading">Page last modified</div>
         <div class="quarto-title-meta-contents">
-          <p class="date">05 October 2026</p>
+          <p class="date">04 October 2026</p>
         </div>
       </div>
       
@@ -489,10 +488,10 @@ window.Quarto = {
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#github-repositories" id="toc-github-repositories" class="nav-link active" data-scroll-target="#github-repositories">GitHub repositories</a></li>
-  <li><a href="#project-information-website" id="toc-project-information-website" class="nav-link" data-scroll-target="#project-information-website">Project information website</a></li>
-  <li><a href="#quality-assurance" id="toc-quality-assurance" class="nav-link" data-scroll-target="#quality-assurance">Quality assurance</a></li>
-  <li><a href="#training-recordings" id="toc-training-recordings" class="nav-link" data-scroll-target="#training-recordings">Training recordings</a></li>
+  <li><a href="#recordings" id="toc-recordings" class="nav-link active" data-scroll-target="#recordings">Recordings</a>
+  <ul class="collapse">
+  <li><a href="#search-the-talks" id="toc-search-the-talks" class="nav-link" data-scroll-target="#search-the-talks">Search the talks</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -610,58 +609,51 @@ new FinisherHeader({
 
 
 
-<p>“The government has committed to building more than 40 new hospitals by 2030. The New Hospital Programme (NHP), a partnership between DHSC and NHSE, aims to ensure that this new hospital infrastructure will meet the future needs of the population and that the required investment represents value for money.</p>
-<p>Estimating future activity levels represents a critical early step in the process of scaling and designing new hospital infrastructure. The Demand and Capacity Modelling Tool has been developed by the Strategy Unit to support DHSC and its stakeholders to make robust and auditable assessments of activity that hospitals may need to accommodate in future.” (<a href="https://connect.strategyunitwm.nhs.uk/nhp/project_information/project_plan_and_summary/plan_and_summary.html">source</a>)</p>
-<p><br></p>
-<section id="github-repositories" class="level2">
-<h2 class="anchored" data-anchor-id="github-repositories">GitHub repositories</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.youtube.com/%40SouthWest_AIH"><img src="swaih_insight_talk.jpg" class="img-fluid figure-img"></a></p>
+<figcaption>SWAIH Insight Talk on process mining</figcaption>
+</figure>
+</div>
+<p>SWAIH (South West Analytics and Infrastructure in Healthcare) is a regional network for analysts, researchers and others using health and care data across the South West of England. In its own words:</p>
+<blockquote class="blockquote">
+<p>SWAIH is a network that hosts meetings, workshops and online talks for people working with healthcare data for research in the South West.</p>
+</blockquote>
+<p>SWAIH began in late 2022, prompted by the Goldacre review, the <em>Data Saves Lives</em> strategy and the creation of regional Secure Data Environments for the NHS. The University of Exeter hosts it, and its funders and supporters are the NIHR Applied Research Collaboration South West Peninsula (PenARC), the NIHR Exeter Biomedical Research Centre, Health Data Research UK and the Great Western Secure Data Environment.</p>
+<p>SWAIH runs:</p>
 <ul>
-<li><a href="https://github.com/The-Strategy-Unit/nhp_model">nhp_model</a></li>
-<li><a href="https://github.com/The-Strategy-Unit/nhp_outputs">nhp_outputs</a></li>
-<li><a href="https://github.com/The-Strategy-Unit/nhp_data">nhp_data</a></li>
-<li><a href="https://github.com/The-Strategy-Unit/nhp_project_information">nhp_project information</a></li>
+<li><strong>an annual meeting</strong> - held since 2024, most recently in July 2026 at Sandy Park, Exeter</li>
+<li><strong>Insight Talks</strong> - described as “regular online talks, including discussions and Q&amp;As”</li>
+<li><strong>the SW Data Science Hub</strong> - “a focused in-person group for analysts and data leads to learn and work together across Cornwall, Devon and Somerset”, which meets monthly at the University of Exeter and offers training in Python, R, GitHub, simulation, forecasting, process mining and more</li>
 </ul>
-<p><br></p>
-</section>
-<section id="project-information-website" class="level2">
-<h2 class="anchored" data-anchor-id="project-information-website">Project information website</h2>
-<p>NHP model project information website: <a href="https://connect.strategyunitwm.nhs.uk/nhp/project_information/" class="uri">https://connect.strategyunitwm.nhs.uk/nhp/project_information/</a>.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="nationally_consistent_approach.png" class="img-fluid figure-img"></p>
-<figcaption>Image from <a href="https://github.com/The-Strategy-Unit/nhp_model">nhp_model</a> repository.</figcaption>
-</figure>
-</div>
-<p><br></p>
-</section>
-<section id="quality-assurance" class="level2">
-<h2 class="anchored" data-anchor-id="quality-assurance">Quality assurance</h2>
-<p>Quality assurance plan and log managed using GitHub Projects at <a href="https://github.com/orgs/The-Strategy-Unit/projects/6" class="uri">https://github.com/orgs/The-Strategy-Unit/projects/6</a>.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://github.com/orgs/The-Strategy-Unit/projects/6"><img src="quality_assurance.png" class="img-fluid figure-img"></a></p>
-<figcaption>Using GitHub projects for quality assurance.</figcaption>
-</figure>
-</div>
-<p>This is explained in their <a href="https://statsrhian.github.io/qa-in-github/">presentation from the NHS RPySOC 2025 Conference</a>.</p>
-<p><br></p>
-<p><br></p>
-</section>
-<section id="training-recordings" class="level2">
-<h2 class="anchored" data-anchor-id="training-recordings">Training recordings</h2>
-<p>The Strategy Unit has published recordings of its training sessions, technical deep dives and Q&amp;A sessions on the Demand and Capacity Model, for analysts and strategic planners working on new hospital schemes. Where a recording’s description gives timings for its sections, each section is listed separately and the link starts the video at that section.</p>
-<div id="listing-nhp-training" class="quarto-listing quarto-listing-container-table">
+<p>You can join the mailing list or get in touch through the <a href="https://sites.google.com/nihr.ac.uk/swaih/home">SWAIH website</a>.</p>
+<section id="recordings" class="level2">
+<h2 class="anchored" data-anchor-id="recordings">Recordings</h2>
+<p>Recordings of SWAIH’s Insight Talks are available on YouTube. They include:</p>
+<ul>
+<li><strong>health data infrastructure</strong> - such as the SAIL Databank, the One Devon Dataset, the OMOP Common Data Model, the UK Health Data Research Alliance and the South West Secure Data Environment</li>
+<li><strong>data science in the NHS</strong> - such as introducing data science and open methods into NHS teams, and using data science to improve NHS performance</li>
+<li><strong>analytical methods and tools</strong> - such as process mining (with a follow-up workshop), modelling patient flow between acute, community and social care, and OpenPrescribing.net</li>
+<li><strong>careers and skills</strong> - such as the National Competency Framework for health data analysts, and NIHR Academy funding for data science careers</li>
+</ul>
+<section id="search-the-talks" class="level3">
+<h3 class="anchored" data-anchor-id="search-the-talks">Search the talks</h3>
+<p>Search for a talk by title, speaker, year or topic. Newest talks are listed first.</p>
+<div id="listing-swaih-talks" class="quarto-listing quarto-listing-container-table">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-nhp-training-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-nhp-training'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+    <select id="listing-swaih-talks-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-swaih-talks'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
       <option value="" disabled="" selected="" hidden="">Order By</option>
       <option value="index" data-direction="asc">Default</option>
       <option value="listing-title-sort" data-direction="asc">
-        Session
+        Talk
       </option>
       <option value="listing-year" data-direction="asc">
         Year
+      </option>
+      <option value="listing-type" data-direction="asc">
+        Type
       </option>
       <option value="listing-duration" data-direction="asc">
         Duration
@@ -678,11 +670,15 @@ new FinisherHeader({
 <tr>
 
 <th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Session</a>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Talk</a>
 </th>
 
 <th>
 <a class="sort" data-sort="listing-year" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Year</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-type" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Type</a>
 </th>
 
 <th>
@@ -697,434 +693,249 @@ Details
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-date-sort="1777334400000" data-listing-title-sort="NHP D&amp;C Tech/Data Q&amp;A">
+<tr data-index="0" data-listing-date-sort="1784592000000" data-listing-title-sort="SWSDE   Supporting VCSEs">
 <td>
-<a href="https://www.youtube.com/watch?v=RsP_B0tAvyM" class="title listing-title">NHP D&amp;C Tech/Data Q&amp;A</a>
+<a href="https://www.youtube.com/watch?v=vU3KjEiU-m4" class="title listing-title">SWSDE Supporting VCSEs</a>
 </td>
 <td>
 <span class="listing-year">2026</span>
 </td>
 <td>
-<span class="listing-duration">00:30:55</span>
+<span class="listing-type">Webinar</span>
 </td>
 <td>
-<span class="listing-description">Discussion Session for All Schemes 24th April 2026</span>
+<span class="listing-duration">00:23:48</span>
+</td>
+<td>
+<span class="listing-description">Henry Ireland, Adam Horton-Tuckett and Andy Gibson from the South West Secure Data Environment team gave an introduction to the support the SWSDE can provide to Voluntary, Community and Social Enterprises. Topics included a technical overview of the SWSDE, developing processes and resources, and…</span>
 </td>
 
 </tr>
 
-<tr data-index="1" data-listing-date-sort="1776816000000" data-listing-title-sort="NHP D&amp;C Modelling and Validation">
+<tr data-index="1" data-listing-date-sort="1777420800000" data-listing-title-sort="Process Mining Workshop">
 <td>
-<a href="https://www.youtube.com/watch?v=JG6eIjQdRGY" class="title listing-title">NHP D&amp;C Modelling and Validation</a>
+<a href="https://www.youtube.com/watch?v=uglgDdq-uEc" class="title listing-title">Process Mining Workshop</a>
 </td>
 <td>
 <span class="listing-year">2026</span>
 </td>
 <td>
-<span class="listing-duration">01:30:02</span>
+<span class="listing-type">Workshop</span>
 </td>
 <td>
-<span class="listing-description">Training Session for All Schemes 17th April 2026</span>
+<span class="listing-duration">00:29:59</span>
+</td>
+<td>
+<span class="listing-description">Owen Johnson returns for a deeper dive into Process Mining</span>
 </td>
 
 </tr>
 
-<tr data-index="2" data-listing-date-sort="1768262400000" data-listing-title-sort="NHP D&amp;C Modelling - Validation">
+<tr data-index="2" data-listing-date-sort="1771891200000" data-listing-title-sort="OpenPrescribing.net">
 <td>
-<a href="https://www.youtube.com/watch?v=jdbZm4KeWYc" class="title listing-title">NHP D&amp;C Modelling - Validation</a>
+<a href="https://www.youtube.com/watch?v=mdDVeMr2F-4" class="title listing-title">OpenPrescribing.net</a>
 </td>
 <td>
 <span class="listing-year">2026</span>
 </td>
 <td>
-<span class="listing-duration">01:45:57</span>
+<span class="listing-type">Webinar</span>
 </td>
 <td>
-<span class="listing-description">Training Session for All Schemes 7th January 2026</span>
+<span class="listing-duration">00:32:36</span>
+</td>
+<td>
+<span class="listing-description">In this talk Richard Croker - Chief Pharmacist, Primary Care at NHS Devon, and Clinical Informatics team lead at the Bennett Institute developing OpenPrescribing.net - provides an accessible introduction to the latest suite of tools offered by OpenPrescribing. He explains how individual practices…</span>
 </td>
 
 </tr>
 
-<tr data-index="3" data-listing-date-sort="1750032000000" data-listing-title-sort="Introduction">
+<tr data-index="3" data-listing-date-sort="1769126400000" data-listing-title-sort="Process Mining">
 <td>
-<a href="https://www.youtube.com/watch?v=egUhA9OtXyg&amp;t=0s" class="title listing-title">Introduction</a>
+<a href="https://www.youtube.com/watch?v=vPznoJHMA40" class="title listing-title">Process Mining</a>
+</td>
+<td>
+<span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-type">Webinar</span>
+</td>
+<td>
+<span class="listing-duration">00:34:13</span>
+</td>
+<td>
+<span class="listing-description">Process mining can be useful within a data analyst’s tool kit - bridging data science methods like data mining, and process science methods like process modelling and improvement. In this talk, the case is made that processes need to be mapped, mined and fully understood before AI can be…</span>
+</td>
+
+</tr>
+
+<tr data-index="4" data-listing-date-sort="1743379200000" data-listing-title-sort="UK Health Data Research Alliance">
+<td>
+<a href="https://www.youtube.com/watch?v=9j4xFriBzBc" class="title listing-title">UK Health Data Research Alliance</a>
 </td>
 <td>
 <span class="listing-year">2025</span>
 </td>
 <td>
-<span class="listing-duration">00:00:39</span>
+<span class="listing-type">Webinar</span>
 </td>
 <td>
-<span class="listing-description">From the recording ‘Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy’, starting at 0:00.</span>
+<span class="listing-duration">00:34:43</span>
+</td>
+<td>
+<span class="listing-description">An overview of the Alliance, its role in shaping the UK health data research landscape, and how researchers, both within and outside member organisations, can engage with its initiatives.</span>
 </td>
 
 </tr>
 
-<tr data-index="4" data-listing-date-sort="1750032000000" data-listing-title-sort="Background and understanding potentially mitigable activity">
+<tr data-index="5" data-listing-date-sort="1740700800000" data-listing-title-sort="NIHR Academy - Career Development Opportunities for Data Science in Health and Care">
 <td>
-<a href="https://www.youtube.com/watch?v=egUhA9OtXyg&amp;t=39s" class="title listing-title">Background and understanding potentially mitigable activity</a>
+<a href="https://www.youtube.com/watch?v=51q32LmsawU" class="title listing-title">NIHR Academy - Career Development Opportunities for Data Science in Health and Care</a>
 </td>
 <td>
 <span class="listing-year">2025</span>
 </td>
 <td>
-<span class="listing-duration">00:05:27</span>
+<span class="listing-type">Webinar</span>
 </td>
 <td>
-<span class="listing-description">From the recording ‘Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy’, starting at 0:39.</span>
+<span class="listing-duration">00:33:13</span>
+</td>
+<td>
+<span class="listing-description">This Insight talk introduces the career development programmes available through the NIHR Academy - with a particular focus towards funding support for those using Data Science tools and methods for health and care research. Chris and Kieran cover the range of opportunities across all career…</span>
 </td>
 
 </tr>
 
-<tr data-index="5" data-listing-date-sort="1750032000000" data-listing-title-sort="Typical assumptions for the extent of mitigation">
+<tr data-index="6" data-listing-date-sort="1738108800000" data-listing-title-sort="IPACS - Improving Patient Flow between Acute, Community and Social Care">
 <td>
-<a href="https://www.youtube.com/watch?v=egUhA9OtXyg&amp;t=366s" class="title listing-title">Typical assumptions for the extent of mitigation</a>
+<a href="https://www.youtube.com/watch?v=jcMvAHz3gbU" class="title listing-title">IPACS - Improving Patient Flow between Acute, Community and Social Care</a>
 </td>
 <td>
 <span class="listing-year">2025</span>
 </td>
 <td>
-<span class="listing-duration">00:04:01</span>
+<span class="listing-type">Webinar</span>
 </td>
 <td>
-<span class="listing-description">From the recording ‘Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy’, starting at 6:06.</span>
-</td>
-
-</tr>
-
-<tr data-index="6" data-listing-date-sort="1750032000000" data-listing-title-sort="Future opportunities">
-<td>
-<a href="https://www.youtube.com/watch?v=egUhA9OtXyg&amp;t=607s" class="title listing-title">Future opportunities</a>
+<span class="listing-duration">00:33:36</span>
 </td>
 <td>
-<span class="listing-year">2025</span>
-</td>
-<td>
-<span class="listing-duration">00:05:12</span>
-</td>
-<td>
-<span class="listing-description">From the recording ‘Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy’, starting at 10:07.</span>
+<span class="listing-description">This talk introduces the IPACS project - exploring how to optimize capacity for complex patient discharge pathways and understand how to alleviate the shortage of acute beds that results from any delays in discharge to social care . Transferring patients from hospitals to their homes or temporary…</span>
 </td>
 
 </tr>
 
-<tr data-index="7" data-listing-date-sort="1750032000000" data-listing-title-sort="User guide: understanding the report layout">
+<tr data-index="7" data-listing-date-sort="1729814400000" data-listing-title-sort="Data Science to improve NHS performance">
 <td>
-<a href="https://www.youtube.com/watch?v=egUhA9OtXyg&amp;t=919s" class="title listing-title">User guide: understanding the report layout</a>
-</td>
-<td>
-<span class="listing-year">2025</span>
-</td>
-<td>
-<span class="listing-duration">00:02:47</span>
-</td>
-<td>
-<span class="listing-description">From the recording ‘Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy’, starting at 15:19.</span>
-</td>
-
-</tr>
-
-<tr data-index="8" data-listing-date-sort="1750032000000" data-listing-title-sort="Characterising the mitigator cohorts">
-<td>
-<a href="https://www.youtube.com/watch?v=egUhA9OtXyg&amp;t=1086s" class="title listing-title">Characterising the mitigator cohorts</a>
-</td>
-<td>
-<span class="listing-year">2025</span>
-</td>
-<td>
-<span class="listing-duration">00:01:19</span>
-</td>
-<td>
-<span class="listing-description">From the recording ‘Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy’, starting at 18:06.</span>
-</td>
-
-</tr>
-
-<tr data-index="9" data-listing-date-sort="1750032000000" data-listing-title-sort="Understanding overlap between mitigator cohorts">
-<td>
-<a href="https://www.youtube.com/watch?v=egUhA9OtXyg&amp;t=1165s" class="title listing-title">Understanding overlap between mitigator cohorts</a>
-</td>
-<td>
-<span class="listing-year">2025</span>
-</td>
-<td>
-<span class="listing-duration">00:01:20</span>
-</td>
-<td>
-<span class="listing-description">From the recording ‘Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy’, starting at 19:25.</span>
-</td>
-
-</tr>
-
-<tr data-index="10" data-listing-date-sort="1750032000000" data-listing-title-sort="Making comparisons between ICBs">
-<td>
-<a href="https://www.youtube.com/watch?v=egUhA9OtXyg&amp;t=1245s" class="title listing-title">Making comparisons between ICBs</a>
-</td>
-<td>
-<span class="listing-year">2025</span>
-</td>
-<td>
-<span class="listing-duration">00:01:39</span>
-</td>
-<td>
-<span class="listing-description">From the recording ‘Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy’, starting at 20:45.</span>
-</td>
-
-</tr>
-
-<tr data-index="11" data-listing-date-sort="1750032000000" data-listing-title-sort="National and sub-national trends in mitigable activity">
-<td>
-<a href="https://www.youtube.com/watch?v=egUhA9OtXyg&amp;t=1344s" class="title listing-title">National and sub-national trends in mitigable activity</a>
-</td>
-<td>
-<span class="listing-year">2025</span>
-</td>
-<td>
-<span class="listing-duration">00:02:58</span>
-</td>
-<td>
-<span class="listing-description">From the recording ‘Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy’, starting at 22:24.</span>
-</td>
-
-</tr>
-
-<tr data-index="12" data-listing-date-sort="1750032000000" data-listing-title-sort="Potential limitations/pitfalls">
-<td>
-<a href="https://www.youtube.com/watch?v=egUhA9OtXyg&amp;t=1522s" class="title listing-title">Potential limitations/pitfalls</a>
-</td>
-<td>
-<span class="listing-year">2025</span>
-</td>
-<td>
-<span class="listing-duration">00:03:51</span>
-</td>
-<td>
-<span class="listing-description">From the recording ‘Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy’, starting at 25:22.</span>
-</td>
-
-</tr>
-
-<tr data-index="13" data-listing-date-sort="1747180800000" data-listing-title-sort="NHP Demand and Capacity (D&amp;C) Model">
-<td>
-<a href="https://www.youtube.com/watch?v=dXjNG2EbsfI" class="title listing-title">NHP Demand and Capacity (D&amp;C) Model</a>
-</td>
-<td>
-<span class="listing-year">2025</span>
-</td>
-<td>
-<span class="listing-duration">01:29:42</span>
-</td>
-<td>
-<span class="listing-description">A Technical Deep Dive for Data Scientists 13th May 2025</span>
-</td>
-
-</tr>
-
-<tr data-index="14" data-listing-date-sort="1746144000000" data-listing-title-sort="Advanced training for analysts and strategic planners #2">
-<td>
-<a href="https://www.youtube.com/watch?v=g2iATe63WpQ" class="title listing-title">Advanced training for analysts and strategic planners #2</a>
-</td>
-<td>
-<span class="listing-year">2025</span>
-</td>
-<td>
-<span class="listing-duration">02:34:44</span>
-</td>
-<td>
-<span class="listing-description">Demand and Capacity Modelling 29th April 2025</span>
-</td>
-
-</tr>
-
-<tr data-index="15" data-listing-date-sort="1744329600000" data-listing-title-sort="Advanced Training for Analysts and Strategic Partners">
-<td>
-<a href="https://www.youtube.com/watch?v=F--GMyRYYmg" class="title listing-title">Advanced Training for Analysts and Strategic Partners</a>
-</td>
-<td>
-<span class="listing-year">2025</span>
-</td>
-<td>
-<span class="listing-duration">02:07:18</span>
-</td>
-<td>
-<span class="listing-description">Demand and Capacity Modlelling - 8th April 2025</span>
-</td>
-
-</tr>
-
-<tr data-index="16" data-listing-date-sort="1743120000000" data-listing-title-sort="The New Hospitals Programme Demand and Capacity Model - Introductory Session for CSU Staff">
-<td>
-<a href="https://www.youtube.com/watch?v=fjr2v9iwCjA" class="title listing-title">The New Hospitals Programme Demand and Capacity Model - Introductory Session for CSU Staff</a>
-</td>
-<td>
-<span class="listing-year">2025</span>
-</td>
-<td>
-<span class="listing-duration">01:00:39</span>
-</td>
-<td>
-<span class="listing-description">&nbsp;</span>
-</td>
-
-</tr>
-
-<tr data-index="17" data-listing-date-sort="1733270400000" data-listing-title-sort="The New Hospital Programme: Demand and Capacity Model 24/25">
-<td>
-<a href="https://www.youtube.com/watch?v=ztLyhnAmvsM" class="title listing-title">The New Hospital Programme: Demand and Capacity Model 24/25</a>
+<a href="https://www.youtube.com/watch?v=9M0GfvvLU7Y" class="title listing-title">Data Science to improve NHS performance</a>
 </td>
 <td>
 <span class="listing-year">2024</span>
 </td>
 <td>
-<span class="listing-duration">00:46:30</span>
+<span class="listing-type">Webinar</span>
 </td>
 <td>
-<span class="listing-description">Technical Leads Meeting 3rd December 2024</span>
+<span class="listing-duration">00:42:38</span>
+</td>
+<td>
+<span class="listing-description">Introducing data science and advanced analytics techniques into an NHS team can be daunting. Building on our previous SWAIH Insight talk Simon will offer a practical introduction to how you can progress from excel spreadsheets towards open coding, using NHS performance as a case study. The talk…</span>
 </td>
 
 </tr>
 
-<tr data-index="18" data-listing-date-sort="1731628800000" data-listing-title-sort="The New Hospital Programme: Demand and Capacity Modelling 24/25">
+<tr data-index="8" data-listing-date-sort="1726444800000" data-listing-title-sort="OMOP Common Data Model">
 <td>
-<a href="https://www.youtube.com/watch?v=xUGaqWQsD-I" class="title listing-title">The New Hospital Programme: Demand and Capacity Modelling 24/25</a>
+<a href="https://www.youtube.com/watch?v=MEITbGYrseg" class="title listing-title">OMOP Common Data Model</a>
 </td>
 <td>
 <span class="listing-year">2024</span>
 </td>
 <td>
-<span class="listing-duration">00:56:51</span>
+<span class="listing-type">Webinar</span>
 </td>
 <td>
-<span class="listing-description">Technical Leads Meeting 14th November 2024</span>
+<span class="listing-duration">00:23:48</span>
+</td>
+<td>
+<span class="listing-description">A SWAIH Insight Talk from Quin Ashcroft of Lancashire Teaching Hospitals NHS Foundation Trust, introducing OMOP, and explaining how a small team of three people in her Trust have ‘OMOP’d’ their healthcare data to enable operational improvement and access to research quality data. This has involved…</span>
 </td>
 
 </tr>
 
-<tr data-index="19" data-listing-date-sort="1730246400000" data-listing-title-sort="The New Hospital Programme: Demand and Capacity Modelling 24/25">
+<tr data-index="9" data-listing-date-sort="1716163200000" data-listing-title-sort="SAIL Databank">
 <td>
-<a href="https://www.youtube.com/watch?v=1qAqYRorxcc" class="title listing-title">The New Hospital Programme: Demand and Capacity Modelling 24/25</a>
+<a href="https://www.youtube.com/watch?v=qsBgiXLEkJ4" class="title listing-title">SAIL Databank</a>
 </td>
 <td>
 <span class="listing-year">2024</span>
 </td>
 <td>
-<span class="listing-duration">00:19:39</span>
+<span class="listing-type">Webinar</span>
 </td>
 <td>
-<span class="listing-description">Technical Leads Meeting 29th October 2024</span>
+<span class="listing-duration">00:30:52</span>
+</td>
+<td>
+<span class="listing-description">A talk from Ashley Akbari offering an overview of the SAIL Databank, how a TRE and linked data can be used in a multi-disciplinary team to support research and improve services and people’s outcomes, using examples from the One Wales collaboration response to the COVID-19 pandemic using the SAIL…</span>
 </td>
 
 </tr>
 
-<tr data-index="20" data-listing-date-sort="1728604800000" data-listing-title-sort="The New Hospital Programme: Demand and Capacity Modelling 24/25">
+<tr data-index="10" data-listing-date-sort="1714089600000" data-listing-title-sort="One Devon Dataset">
 <td>
-<a href="https://www.youtube.com/watch?v=mG8ZAnS2IxU" class="title listing-title">The New Hospital Programme: Demand and Capacity Modelling 24/25</a>
+<a href="https://www.youtube.com/watch?v=3uaCVNAqtZc" class="title listing-title">One Devon Dataset</a>
 </td>
 <td>
 <span class="listing-year">2024</span>
 </td>
 <td>
-<span class="listing-duration">00:15:27</span>
+<span class="listing-type">Webinar</span>
 </td>
 <td>
-<span class="listing-description">Technical Leads Meeting 8th October 2024</span>
+<span class="listing-duration">00:36:38</span>
+</td>
+<td>
+<span class="listing-description">A talk from Simon Chant from Devon County Council, introducing the One Devon Dataset, a linked dataset covering GP, secondary care, community health, mental health, social care and wider population data, that was established in 2020. 22 April 2024</span>
 </td>
 
 </tr>
 
-<tr data-index="21" data-listing-date-sort="1726531200000" data-listing-title-sort="The New Hospital Programme: Demand and Capacity Modelling 24/25">
+<tr data-index="11" data-listing-date-sort="1713312000000" data-listing-title-sort="National Competency Framework for Health Data Analysts">
 <td>
-<a href="https://www.youtube.com/watch?v=o8XFXTKMhLI" class="title listing-title">The New Hospital Programme: Demand and Capacity Modelling 24/25</a>
+<a href="https://www.youtube.com/watch?v=7jcmH2OG7Mc" class="title listing-title">National Competency Framework for Health Data Analysts</a>
 </td>
 <td>
 <span class="listing-year">2024</span>
 </td>
 <td>
-<span class="listing-duration">00:54:11</span>
+<span class="listing-type">Webinar</span>
 </td>
 <td>
-<span class="listing-description">Technical Leads Meeting 17th September 2024</span>
+<span class="listing-duration">00:27:51</span>
+</td>
+<td>
+<span class="listing-description">A talk from Huw Davies, introduced by Louise Taylor from NHS Dorset. An overview of the National Competency Framework, and how it can be used within your organisation for recruitment, retention and team development.</span>
 </td>
 
 </tr>
 
-<tr data-index="22" data-listing-date-sort="1721952000000" data-listing-title-sort="The New Hospital Programme: Demand and Capacity Model 24/25">
+<tr data-index="12" data-listing-date-sort="1708041600000" data-listing-title-sort="Data Science in the NHS">
 <td>
-<a href="https://www.youtube.com/watch?v=oEvLbcAfipk" class="title listing-title">The New Hospital Programme: Demand and Capacity Model 24/25</a>
+<a href="https://www.youtube.com/watch?v=PuaLMKIFLcc" class="title listing-title">Data Science in the NHS</a>
 </td>
 <td>
 <span class="listing-year">2024</span>
 </td>
 <td>
-<span class="listing-duration">00:50:05</span>
+<span class="listing-type">Webinar</span>
 </td>
 <td>
-<span class="listing-description">Technical Leads Meeting 19th July 2024</span>
-</td>
-
-</tr>
-
-<tr data-index="23" data-listing-date-sort="1720137600000" data-listing-title-sort="The New Hospital Programme: Demand and Capacity Model 24/25">
-<td>
-<a href="https://www.youtube.com/watch?v=czwNQqAXjWc" class="title listing-title">The New Hospital Programme: Demand and Capacity Model 24/25</a>
+<span class="listing-duration">00:44:20</span>
 </td>
 <td>
-<span class="listing-year">2024</span>
-</td>
-<td>
-<span class="listing-duration">01:43:22</span>
-</td>
-<td>
-<span class="listing-description">Training Session 4th July 2024</span>
-</td>
-
-</tr>
-
-<tr data-index="24" data-listing-date-sort="1719360000000" data-listing-title-sort="The New Hospital Programme: Demand and Capacity Modelling">
-<td>
-<a href="https://www.youtube.com/watch?v=Oc74J-z_C_w" class="title listing-title">The New Hospital Programme: Demand and Capacity Modelling</a>
-</td>
-<td>
-<span class="listing-year">2024</span>
-</td>
-<td>
-<span class="listing-duration">00:40:30</span>
-</td>
-<td>
-<span class="listing-description">Technical Leads Meeting 24th June 2024</span>
-</td>
-
-</tr>
-
-<tr data-index="25" data-listing-date-sort="1718841600000" data-listing-title-sort="The New Hospital Programme: Demand and Capacity Model 24/25">
-<td>
-<a href="https://www.youtube.com/watch?v=zgbfie46xL0" class="title listing-title">The New Hospital Programme: Demand and Capacity Model 24/25</a>
-</td>
-<td>
-<span class="listing-year">2024</span>
-</td>
-<td>
-<span class="listing-duration">00:31:44</span>
-</td>
-<td>
-<span class="listing-description">Interpreting Outputs - Questions &amp; Answers Session 19th June 2024</span>
-</td>
-
-</tr>
-
-<tr data-index="26" data-listing-date-sort="1718582400000" data-listing-title-sort="The New Hospital Programme: New Models of Care Evidence Map">
-<td>
-<a href="https://www.youtube.com/watch?v=qNZhDeboLwg" class="title listing-title">The New Hospital Programme: New Models of Care Evidence Map</a>
-</td>
-<td>
-<span class="listing-year">2024</span>
-</td>
-<td>
-<span class="listing-duration">00:13:21</span>
-</td>
-<td>
-<span class="listing-description">An Introduction 17th June 2024</span>
+<span class="listing-description">A talk from PenCHORD’s Sammi Rosser discussing the opportunities and challenges of introducing data science and open methods within the NHS. 15 February 2024</span>
 </td>
 
 </tr>
@@ -1132,14 +943,12 @@ Details
 </tbody>
 </table>
 <div class="listing-no-matching d-none">No matching items</div>
-<nav id="nhp-training-pagination" class="listing-pagination" aria-label="Page Navigation">
-  <ul class="pagination"></ul>
-</nav>
 </div>
-<p>You can also browse the <a href="https://www.youtube.com/playlist?list=PLFEXOtXX7YkkHkN2mWn3V-K_LnZXP2cGY">New Hospital Programme playlist</a> on YouTube, or search these recordings alongside others in the <a href="../../recordings/index.html">Recordings Finder</a>.</p>
+<p>To search these recordings alongside talks, webinars and workshops from other communities, use the <a href="../../recordings/index.html">Recordings Finder</a>.</p>
 
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

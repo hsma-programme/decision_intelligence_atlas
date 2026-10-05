@@ -87,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-year','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-year','listing-duration','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
       page: 25,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-year","listing-description"],
@@ -640,6 +640,9 @@ new FinisherHeader({
       <option value="listing-year" data-direction="asc">
         Year
       </option>
+      <option value="listing-duration" data-direction="asc">
+        Duration
+      </option>
     </select>
   </div>
     <div class="input-group input-group-sm quarto-listing-filter">
@@ -660,6 +663,10 @@ new FinisherHeader({
 </th>
 
 <th>
+<a class="sort" data-sort="listing-duration" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Duration</a>
+</th>
+
+<th>
 Details
 </th>
 
@@ -675,6 +682,9 @@ Details
 <span class="listing-year">2020</span>
 </td>
 <td>
+<span class="listing-duration">01:23:22</span>
+</td>
+<td>
 <span class="listing-description">Our Festival journey begins with the Strategy Unit team setting the scene on the importance of analytics, evaluation and evidence in addressing the current challenges facing health and care and supporting better decision-making – followed by two perspectives from our keynote speakers, Ben Goldacre…</span>
 </td>
 
@@ -686,6 +696,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-duration">01:20:43</span>
 </td>
 <td>
 <span class="listing-description">From the outset of COVID-19, the analytical collaboration has undertaken a programme of work to help make sense of emerging evidence and analysis, and to provide useful information for the NHS in planning its way forward. This video is Event 4 of Insight 2020 and shows the panel discussing the…</span>
@@ -701,6 +714,9 @@ Details
 <span class="listing-year">2020</span>
 </td>
 <td>
+<span class="listing-duration">01:03:48</span>
+</td>
+<td>
 <span class="listing-description">This video shows the thought-provoking session about different approaches to involving people in decisions about health services. It includes interactive exercises that demonstrate first-hand what different research approaches can add and examples of where these approaches have worked in the NHS…</span>
 </td>
 
@@ -712,6 +728,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-duration">00:58:58</span>
 </td>
 <td>
 <span class="listing-description">Social care services have had to change rapidly in the face of the challenge of COVID-19. At the same time, the preferences and choices of those services have also changed. The market for care provision is also heavily impacted. This panel discussion will consider what has changed; what has been…</span>
@@ -727,6 +746,9 @@ Details
 <span class="listing-year">2020</span>
 </td>
 <td>
+<span class="listing-duration">00:04:57</span>
+</td>
+<td>
 <span class="listing-description">In this video Peter Spilsbury (Director, the Strategy Unit) introduces the Insight 2020 Festival, describing what it’s all about and why we decided to do this. Week 1: Our decision-making context in 2020 Transformation in health and care has been rapid and intensive, particularly in 2020. Asking…</span>
 </td>
 
@@ -738,6 +760,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-duration">01:17:57</span>
 </td>
 <td>
 <span class="listing-description">This session, hosted by the Strategy Unit, describes the development of the Decision Support Network and the importance of analytics, evaluation and evidence for addressing the current challenges faced by health and care in the region. Leads, responsible for Decision Support Unit (DSU) development…</span>
@@ -753,6 +778,9 @@ Details
 <span class="listing-year">2020</span>
 </td>
 <td>
+<span class="listing-duration">01:01:12</span>
+</td>
+<td>
 <span class="listing-description">Before investing in improvements or innovations, we need to understand what we currently know about what works, so we can make the best use of our limited resources. But it’s not always so easy! This video show our interactive session where we introduced our Decision Support Centre (DSC) evidence…</span>
 </td>
 
@@ -764,6 +792,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-duration">00:57:56</span>
 </td>
 <td>
 <span class="listing-description">This session described why evaluation is important in achieving the best outcomes for patients, service users, health and care systems and their workforce. It also covered how the DSC could support evaluation across the DSU Network and the resources that are available, including an Evaluation…</span>
@@ -779,6 +810,9 @@ Details
 <span class="listing-year">2020</span>
 </td>
 <td>
+<span class="listing-duration">00:45:12</span>
+</td>
+<td>
 <span class="listing-description">This was an interactive session which explored ways in which analysts across the Midlands could work together on shared interests and provide mutual support. Speakers: Steven Wyatt, Jake Parsons, Paul Seamer and Gareth Wrench (The Strategy Unit) Contact / links: The Strategy Unit Strategy Unit…</span>
 </td>
 
@@ -790,6 +824,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-duration">01:12:08</span>
 </td>
 <td>
 <span class="listing-description">This week of Insight 2020 we learned all about the Midlands Decision Support Network, how local systems are setting up and operating their own Decision Support Units, and how they will be supported by the Decision Support Center. During this session our panel of experts discuss: the benefits of…</span>
@@ -805,6 +842,9 @@ Details
 <span class="listing-year">2020</span>
 </td>
 <td>
+<span class="listing-duration">00:42:42</span>
+</td>
+<td>
 <span class="listing-description">In this session, Paul Mason and Abeda Mulla from the Decision Support Centre (DSC) evaluation team present findings from qualitative evaluation research with Herefordshire and Worcestershire Sustainability and Transformation Partnership (STP), exploring learning from the COVID-19 response. The…</span>
 </td>
 
@@ -816,6 +856,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-duration">01:01:30</span>
 </td>
 <td>
 <span class="listing-description">This session looks at the analytical projects including how they were selected, that the Decision Support Centre (DSC) will be delivering on behalf of the Network. These are: • classifying outpatient visits by function; • inequalities in access to mental health services for children and young…</span>
@@ -831,6 +874,9 @@ Details
 <span class="listing-year">2020</span>
 </td>
 <td>
+<span class="listing-duration">00:51:24</span>
+</td>
+<td>
 <span class="listing-description">This is a ‘think-piece’ session which considers the major issues, challenges and opportunities facing health and care analysts in terms of future skills, technology, software, data, application, etc. Speakers: Gareth Wrench, Mohammed A Mohammed, Steven Wyatt (The Strategy Unit) and Julian Flowers…</span>
 </td>
 
@@ -842,6 +888,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-duration">01:19:43</span>
 </td>
 <td>
 <span class="listing-description">This interactive presentation focusses on the Strategy Unit’s recently completed project on end of life care which analyzed the resource usage in the last two years of life across a number of different health and care settings. This project provides an early example of the kind of work the Midlands…</span>
@@ -857,6 +906,9 @@ Details
 <span class="listing-year">2020</span>
 </td>
 <td>
+<span class="listing-duration">00:56:15</span>
+</td>
+<td>
 <span class="listing-description">This video: What are the big analytical questions on the horizon for the Decision Support Centre? During this week of the Insight 2020 Festival we had looked at some of the significant analysis being conducted on behalf of the Midlands, as well as nationally, and thought about the implications of…</span>
 </td>
 
@@ -868,6 +920,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-duration">01:03:00</span>
 </td>
 <td>
 <span class="listing-description">Context: Covid-19 brought crisis to many people already in crisis. For people experiencing homelessness it led to radical changes in circumstance, not least as the ‘everyone in’ policy changed their housing situation. Health and care services also had to make radical changes in their operation.…</span>
@@ -883,6 +938,9 @@ Details
 <span class="listing-year">2020</span>
 </td>
 <td>
+<span class="listing-duration">01:17:31</span>
+</td>
+<td>
 <span class="listing-description">Context: Whilst for children and young people the direct impact of COVID-19 has been limited, the impact of COVID-19 on family and society and the experience of lockdown have both been profound in their effects. It seems certain that many children and young people have experienced trauma as a…</span>
 </td>
 
@@ -894,6 +952,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-duration">00:53:04</span>
 </td>
 <td>
 <span class="listing-description">In this session we focus on the recent findings of poorer health outcomes from COVID-19 for ethnic minority populations in England and beyond. We share high-level findings from a qualitative study undertaken by the Strategy Unit, exploring the experience of Black and Ethnic Minority individuals who…</span>
@@ -909,6 +970,9 @@ Details
 <span class="listing-year">2020</span>
 </td>
 <td>
+<span class="listing-duration">01:09:21</span>
+</td>
+<td>
 <span class="listing-description">Context: This is a session which introduces the Decision Support Toolkit, created by the Midlands Decision Support Centre (DSC). We hear from some of our inspirational local leaders on the components that they need to blend together to make good local decisions. We hear about how they triangulate…</span>
 </td>
 
@@ -920,6 +984,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-duration">01:02:08</span>
 </td>
 <td>
 <span class="listing-description">Background R is free, it’s highly sharable and is backed up by a community of R users who love to help and apparently when you get the R bug – you’re hooked! There are so many examples of its potential and the opportunities to ultimately improve care and outcomes. But this doesn’t ‘just happen’ and…</span>
@@ -935,6 +1002,9 @@ Details
 <span class="listing-year">2020</span>
 </td>
 <td>
+<span class="listing-duration">01:00:55</span>
+</td>
+<td>
 <span class="listing-description">Decision-making in health and care is complex. Unsurprisingly, although some decisions succeed a significant portion fail and given the increased pressures on leadership, how can we make better decisions. This session provided an overview of a systematic, practical, approach to enhancing decision…</span>
 </td>
 
@@ -946,6 +1016,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-duration">00:59:12</span>
 </td>
 <td>
 <span class="listing-description">In this session, we heard different perspectives on the COVID-19 evidence conundrum along with some ideas for how we might manage some of the challenges. The panel shared different experiences of generating, using or applying COVID-19 evidence and discussed what this meant for how we use evidence…</span>
@@ -961,6 +1034,9 @@ Details
 <span class="listing-year">2020</span>
 </td>
 <td>
+<span class="listing-duration">01:17:25</span>
+</td>
+<td>
 <span class="listing-description">The DSU’s analysis of healthcare use in the last 24 months of life was launched in week 3 of the Insight 2020 Festival. These reports and other materials are available on the Strategy Unit’s publications pa–e - This session provides an explanation of how the reports were constructed and how…</span>
 </td>
 
@@ -972,6 +1048,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-duration">01:27:34</span>
 </td>
 <td>
 <span class="listing-description">To close the Insight 2020 Festival, we brought together a remarkable panel of leaders to discuss how decision quality could be improved in the new NHS. The panel reflected on: • The nature of the decision-making challenge ahead and questions of legitimacy in decision-making that we are seeing…</span>
@@ -987,6 +1066,9 @@ Details
 <span class="listing-year">2020</span>
 </td>
 <td>
+<span class="listing-duration">00:58:57</span>
+</td>
+<td>
 <span class="listing-description">In this video, “Event 29 – What do analysts bring to the task of leadership?” our panel discuss what is meant by analytical leadership; whether it is important and how we develop analysts as leaders. Our speakers are: Fraser Battye (Strategy Unit), Steven Wyatt (The Strategy Unit), Kate Cheema…</span>
 </td>
 
@@ -998,6 +1080,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-duration">00:49:59</span>
 </td>
 <td>
 <span class="listing-description">Population Health Management promises much, but how do we realise this in practice? What are the practical steps needed to ready systems for PHM? What about the role of analysts within that? In this video “Event 31 - Are we ready to adopt Population Health Management (PHM)?” Strategy Unit…</span>
@@ -1013,6 +1098,9 @@ Details
 <span class="listing-year">2020</span>
 </td>
 <td>
+<span class="listing-duration">00:10:18</span>
+</td>
+<td>
 <span class="listing-description">This video provides content to support the main Event 30 event “Accessing the data and code that underpins the Decision Support Unit (DSU) Network analysis of healthcare use at the end of life” The Decision Support Unit’s analysis of healthcare use in the last 24 months of life was launched in week…</span>
 </td>
 
@@ -1024,6 +1112,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-duration">00:56:12</span>
 </td>
 <td>
 <span class="listing-description">This video: Event 25 – The Decision Support Unit Education &amp; Development Programme Analytics is increasingly featuring in complex decision-making processes and more is now expected of our analyst workforce, but finding relevant, practical, high quality training and development solutions is…</span>
@@ -1039,6 +1130,9 @@ Details
 <span class="listing-year">2020</span>
 </td>
 <td>
+<span class="listing-duration">00:56:38</span>
+</td>
+<td>
 <span class="listing-description">In this video, Professor Al Mulley, managing director of the Dartmouth Institute’s Global Health Care Delivery Science Program, addresses the challenge of measurably improving decision quality by considering the interdependence of the dialogues that take place between: (1) patients and clinicians;…</span>
 </td>
 
@@ -1050,6 +1144,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-duration">01:05:21</span>
 </td>
 <td>
 <span class="listing-description">‘A brave new world: Should health and care systems trust algorithms?’ In our first session, we discussed ‘how health and care systems should respond to the rise of patient facing Artificial Intelligence tools’ with our diverse panel Andi Orlowski (Health Economics Unit), Farzana Hussain (GP and…</span>
@@ -1065,6 +1162,9 @@ Details
 <span class="listing-year">2021</span>
 </td>
 <td>
+<span class="listing-duration">00:55:13</span>
+</td>
+<td>
 <span class="listing-description">The COVID pandemic has highlighted the stark inequalities in health that exist in the UK and globally. This session will reflect on some of the learning from the NHS frontline in Bradford and how data, science and community engagement was harnessed to protect a city. There is a second pandemic that…</span>
 </td>
 
@@ -1078,6 +1178,9 @@ Details
 <span class="listing-year">2021</span>
 </td>
 <td>
+<span class="listing-duration">01:24:46</span>
+</td>
+<td>
 <span class="listing-description">It has been estimated that it can take up to 17 years to translate evidence into practice - how can we change that? Join us to hear from a diverse panel of speakers who will share their experiences of research and practice across a range of sectors. Learn about what works (and what doesn’t!) in…</span>
 </td>
 
@@ -1089,6 +1192,9 @@ Details
 </td>
 <td>
 <span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-duration">00:52:16</span>
 </td>
 <td>
 <span class="listing-description">The session will look at how we can put insight into action through remarkable stories, working with communication teams, spreading your ideas and standing out from the crowd.</span>
