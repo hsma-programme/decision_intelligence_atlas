@@ -41,7 +41,7 @@ Choose 'New Package, Project or Tool Submission'
 
 You'll then be provided with a form to gather the information we need to create a new Atlas entry - no code required.
 
-This form is also the route for submitting books, courses, other training resources and communities - just choose the 'Courses and Training or Reference Materials' category, plus one of 'Books', 'Courses', 'Interactive Learning Tools', 'Reference Sites' or 'Communities' (and 'General Open Analytics' for books that aren't specific to healthcare, or 'Paid Resources' for books that aren't free to read), and your entry will be added to the [Books, Training and Communities](/books_training/index.qmd) page.
+This form is also the route for submitting books, courses, other training resources and communities - just choose the 'Courses and Training or Reference Materials' category, plus one of 'Books', 'Courses', 'Interactive Learning Tools', 'Reference Sites' or 'Communities' (and 'General Open Analytics' for books that aren't specific to healthcare, or 'Paid Resources' for books that aren't free to read, and 'Synchronous' and/or 'Asynchronous' for courses that are taught live or are self-paced), and your entry will be added to the [Books, Training and Communities](/books_training/index.qmd) page.
 
 ![](assets/2025-12-01-18-05-56.png)
 

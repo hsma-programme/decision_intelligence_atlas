@@ -109,6 +109,7 @@ body:
       description: Select the categories that are relevant to this tool, project or package. You may select multiple options from this list.
       options:
         - Ambulances
+        - Asynchronous
         - Beds
         - Benchmarking
         - Books
@@ -132,6 +133,7 @@ body:
         - Reference Sites
         - Service Planning
         - Statistical Process Control
+        - Synchronous
         - Travel Times
         - Urgent and Emergency Care
         - Waiting Lists

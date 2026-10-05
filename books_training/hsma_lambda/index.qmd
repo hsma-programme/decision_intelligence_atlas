@@ -5,6 +5,7 @@ categories:
   - Machine Learning
   - Courses and Training or Reference Materials
   - Courses
+  - Synchronous
 tool-language: N/A
 status: N/A
 # image: hsma_lambda.png

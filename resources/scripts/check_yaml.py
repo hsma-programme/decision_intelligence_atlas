@@ -22,6 +22,9 @@ TRAINING_SUBSECTIONS = {
     "Reference Sites",
 }
 
+# Delivery categories; every `Courses` entry needs at least one.
+DELIVERY_CATEGORIES = {"Synchronous", "Asynchronous"}
+
 # Icon that must appear in `pub-info.project-type` for `Paid Resources`.
 PAID_ICON = "fa-sterling-sign"
 
@@ -134,7 +137,8 @@ def check_books_training_sections():
     training subsection (`Courses`, `Interactive Learning Tools`,
     `Reference Sites`). Otherwise it would be missing from, or duplicated
     on, the Books, Training and Communities page. `Paid Resources` entries
-    must also be `Books` and show the paid icon.
+    must also be `Books` and show the paid icon. `Courses` entries must be
+    `Synchronous`, `Asynchronous` or both, and only `Courses` may use these.
     """
     problems = []
 
@@ -159,6 +163,16 @@ def check_books_training_sections():
         if "General Open Analytics" in categories and "Books" not in categories:
             problems.append(
                 f"{path}: 'General Open Analytics' can only be used with 'Books'"
+            )
+        delivery = set(categories) & DELIVERY_CATEGORIES
+        if "Courses" in categories and not delivery:
+            problems.append(
+                f"{path}: 'Courses' entries must have at least one of "
+                f"{sorted(DELIVERY_CATEGORIES)} in categories"
+            )
+        if delivery and "Courses" not in categories:
+            problems.append(
+                f"{path}: {sorted(delivery)} can only be used with 'Courses'"
             )
         if "Paid Resources" in categories:
             if "Books" not in categories:

@@ -161,6 +161,8 @@ Books that must be bought or accessed through a paid subscription. These are mar
 
 Structured courses and modules, often including recorded sessions, slides and exercises.
 
+Each course is tagged as **synchronous (live)**, meaning it is taught live at set times, or **asynchronous (self-paced)**, meaning its materials can be worked through at any time. Some courses are both. You can also filter by the `Synchronous` and `Asynchronous` categories.
+
 ::: {#training-courses}
 :::
 

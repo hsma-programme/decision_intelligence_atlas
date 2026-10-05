@@ -5,6 +5,7 @@ aliases:
 categories:
   - Courses and Training or Reference Materials
   - Courses
+  - Asynchronous
 tool-language:
   - Python
 status: '<span style="color: #888888FF">Silver</span>'

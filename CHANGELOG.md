@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Projects now grouped by language rather than analysis type.
 * "Books and Training" page renamed to "Books, Training and Communities" and split into Books (healthcare-specific / general open analytics), Training (courses / interactive tools / reference sites) and Communities sections, using new `Communities`, `Courses`, `Interactive Learning Tools`, `Reference Sites` and `General Open Analytics` categories. `check_yaml.py` now checks each entry appears in exactly one section.
 * Added a 'Paid books' subsection to the Books, Training and Communities page, using a new `Paid Resources` category and a <i class="fa-solid fa-sterling-sign"></i> icon in `project-type`, plus an icon key on that page. `check_yaml.py` checks `Paid Resources` is only used with `Books` and that the icon is present.
+* Added `Synchronous` and `Asynchronous` categories for courses, shown as tags on listing cards. `check_yaml.py` checks every `Courses` entry has at least one, and that they are only used with `Courses`.
 
 ## v0.2.0 (2025-11-19)
 

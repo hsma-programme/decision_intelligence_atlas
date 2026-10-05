@@ -25,6 +25,16 @@
             </div>
             <% } %>
 
+            <% const deliveryTags = { 'Synchronous': 'Synchronous (live)', 'Asynchronous': 'Asynchronous (self-paced)' }; %>
+            <% const itemDelivery = (item.categories || []).filter(cat => deliveryTags[cat]); %>
+            <% if (itemDelivery.length > 0) { %>
+            <div class="delivery-tags">
+              <% for (const cat of itemDelivery) { %>
+                <span class="delivery-tag delivery-tag-<%- cat.toLowerCase() %>"><%= deliveryTags[cat] %></span>
+              <% } %>
+            </div>
+            <% } %>
+
             <% if (item['pub-info'] && item['pub-info'].abstract) { %>
               <p class="listing-abstract"><%= item['pub-info'].abstract %></p>
                 <% } else { %> <p class="listing-abstract"><%= item.description %></p>

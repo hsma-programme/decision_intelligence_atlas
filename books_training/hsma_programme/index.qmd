@@ -5,6 +5,7 @@ categories:
   - Machine Learning
   - Courses and Training or Reference Materials
   - Courses
+  - Synchronous
 tool-language:
   - Python
 status: '<span style="color: #D18B12FF">Gold</span>'
@@ -53,26 +54,22 @@ The programme runs in two phases. In the first, participants attend live online 
 
 ## Taught content
 
-The taught content of the most recent round (HSMA 6, April 2024 to June 2025) is split into eight modules:
+The taught content of the most recent round (HSMA 6, April 2024 to June 2025) is split into eight modules, each of which has its own entry in the Atlas:
 
 | Module | Length |
 |--------|--------|
-| 1: Introduction to Operational Research, Data Science and Programming | 36 hours |
-| 2: Modelling Pathway and Queuing Problems | 9 hours |
-| 3: Geographic Modelling and Visualisation | 12 hours |
-| 4: Machine Learning | 30 hours |
-| 5: Natural Language Processing | 15 hours |
-| 6: Modelling Behaviour and System Dynamics | 12 hours |
-| 7: Open Source Collaborative Development and Web Development | 18 hours |
-| 8: Modern Analytics | 12 hours |
+| [1: Introduction to Operational Research, Data Science and Programming](/books_training/hsma_intro_programming_module/index.qmd) | 36 hours |
+| [2: Modelling Pathway and Queuing Problems](/books_training/hsma_des_module/index.qmd) | 9 hours |
+| [3: Geographic Modelling and Visualisation](/books_training/hsma_geographic_module/index.qmd) | 12 hours |
+| [4: Machine Learning](/books_training/hsma_machine_learning_module/index.qmd) | 30 hours |
+| [5: Natural Language Processing](/books_training/hsma_nlp_module/index.qmd) | 15 hours |
+| [6: Modelling Behaviour and System Dynamics](/books_training/hsma_sd_abs_module/index.qmd) | 12 hours |
+| [7: Open Source Collaborative Development and Web Development](/books_training/hsma_git_web_dev_module/index.qmd) | 18 hours |
+| [8: Modern Analytics](/books_training/hsma_modern_analytics_module/index.qmd) | 12 hours |
 
 Python is taught from scratch in module 1, so no prior programming experience is needed. Module 1 is needed for all later modules, but most of the others can be followed independently.
 
 Session recordings, slides, exercises and solutions for every module are on the [HSMA modules page](https://hsma.co.uk/modules.html). For a written summary of the content instead, see the [HSMA books](https://hsma.co.uk/books.html).
-
-:::{.callout-tip}
-Interested in simulation? The DES module also has its own entry: [HSMA: Discrete Event Simulation Module](/books_training/hsma_des_module/index.qmd).
-:::
 
 ## Joining the programme
 
