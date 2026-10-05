@@ -52,19 +52,22 @@ website:
             href: https://github.com/orgs/hsma-programme/projects/2/views/7
     right:
       - href: index.qmd
-        text: Welcome
+        text: Home
 
       - href: packages_projects_tools/index.qmd
-        text: Packages, Projects and Tools
+        text: Packages, Projects & Tools
 
       - href: books_training/index.qmd
         text: Books, Training & Communities
+
+      - href: recordings/index.qmd
+        text: Recordings
 
       - href: techniques/index.qmd
         text: Techniques
 
       - href: graph_catalogue/index.qmd
-        text: Graph Catalogue
+        text: Graphs
 
       - href: about/index.qmd
         text: About
