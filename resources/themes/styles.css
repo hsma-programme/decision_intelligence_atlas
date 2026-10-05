@@ -284,6 +284,16 @@ p {
     vertical-align: top;
 }
 
+.recordings-see-more {
+    padding: 0;
+    border: none;
+    background: none;
+    color: var(--bs-link-color);
+    text-decoration: underline;
+    font-size: inherit;
+    white-space: nowrap;
+}
+
 /* Keep titles as written in table listings (e.g. searchable talk titles) */
 .quarto-listing-table .listing-title {
     text-transform: none;

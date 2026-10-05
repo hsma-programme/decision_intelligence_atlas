@@ -34,6 +34,22 @@ function shorten(text, length = 160) {
   return text.length > length ? text.slice(0, length).replace(/\s+\S*$/, "") + "…" : text;
 }
 
+// Truncated text with a toggle to show the whole description
+function expandable(text) {
+  const short = shorten(text);
+  if (short === text) return text;
+  const content = html`<span>${short}</span>`;
+  const toggle = html`<button type="button" class="recordings-see-more">See more</button>`;
+  let expanded = false;
+  toggle.onclick = event => {
+    event.stopPropagation();
+    expanded = !expanded;
+    content.textContent = expanded ? text : short;
+    toggle.textContent = expanded ? "See less" : "See more";
+  };
+  return html`<span>${content} ${toggle}</span>`;
+}
+
 function options(values, all) {
   return [all, ...Array.from(new Set(values)).sort((a, b) => a < b ? -1 : a > b ? 1 : 0)];
 }
@@ -91,7 +107,7 @@ html`<div class="recordings-table">${Inputs.table(filtered, {
   },
   format: {
     year: d => d == null ? "" : String(d),
-    details: d => shorten(d),
+    details: d => expandable(d),
     url: d => html`<a href="${d}" target="_blank" rel="noopener">Watch <i class="bi bi-box-arrow-up-right"></i></a>`,
     collection: d => html`<a href="${entryLinks.get(d)}" title="${d}">Atlas entry</a>`
   },
