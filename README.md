@@ -227,6 +227,7 @@ Each collection in `collections.yml` has:
 | `folder` | Yes | The folder of the collection's Atlas entry. |
 | `source` | Yes | Who published the recordings, shown in the Recordings Finder's Source column and filter. Collections from the same community should use the same source. |
 | `playlists` | Yes | The playlists in the collection (see below). |
+| `earlier_source` | No | A `before` date and a `source`, giving the source of videos published before that date, e.g. for a community that has been renamed or merged. For example, the NHS-OA collections show videos published before 2026 as from the NHS-R Community. |
 | `exclude_playlists` | No | Leave out any videos that are also in these playlists, e.g. to avoid listing the same talk in two collections. |
 | `exclude_videos` | No | Leave out these videos, e.g. promotional videos or untitled recordings. |
 
@@ -244,6 +245,7 @@ Each playlist has the following options. Most are only needed to tidy up playlis
 | Option | Required? | Description |
 |---|---|---|
 | `label` | Yes | The playlist's name, shown in the Event column when a collection has more than one event. Must be unique within the collection. If it contains a year (e.g. `RPySOC 2025`), that year is used for all of its videos on the collection's entry; otherwise each video's upload date is used. See [Years and dates](#years-and-dates). |
+| `source` | No | The source shown for the playlist's videos in the Recordings Finder, in place of the collection's (and its `earlier_source`), e.g. for a playlist from a different community. |
 | `event` | No | The event shown for the playlist's videos, in place of one taken from the label, e.g. so that extra videos added with `videos` are shown as part of the same series. |
 | `events_by_title` | No | For playlists covering several courses or series: a list of `pattern` (a regular expression) and `event`. Videos whose titles match a pattern get that event (e.g. the course name) instead of one taken from the label, shown in the Event column. |
 | `type` | Yes | The kind of recording (e.g. `Conference talk`, `Webinar`, `Workshop`, `Lecture`), shown in the Recordings Finder's Type column and filter. Reuse an existing type where one fits. |

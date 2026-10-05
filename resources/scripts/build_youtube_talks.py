@@ -314,7 +314,37 @@ def remove_boilerplate(video, config):
     return {**video, "title": title, "description": description}
 
 
-def build_talks(playlists, playlist_config):
+def video_source(video, config, collection):
+    """
+    Return who published a video, for the Recordings Finder.
+
+    Parameters
+    ----------
+    video : dict
+        Video metadata from `fetch_youtube_playlists.py`.
+    config : dict
+        The video's playlist settings from the config file. Its optional
+        `source` overrides the collection's.
+    collection : dict
+        The video's collection settings from the config file. Its optional
+        `earlier_source` (with `before`, a date, and `source`) gives the
+        source of videos published before that date, e.g. for a community
+        that has been renamed.
+
+    Returns
+    -------
+    str
+        The video's source.
+    """
+    if config.get("source"):
+        return config["source"]
+    earlier = collection.get("earlier_source")
+    if earlier and video["published"][:10] < str(earlier["before"]):
+        return earlier["source"]
+    return collection["source"]
+
+
+def build_talks(playlists, playlist_config, collection):
     """
     Build one listing item per talk from fetched playlist metadata.
 
@@ -324,6 +354,8 @@ def build_talks(playlists, playlist_config):
         Playlists from `fetch_youtube_playlists.py`.
     playlist_config : dict
         Each playlist's settings from the config file, keyed by label.
+    collection : dict
+        The collection's settings from the config file.
 
     Returns
     -------
@@ -332,8 +364,8 @@ def build_talks(playlists, playlist_config):
         image and date. The year is taken from the playlist label if it
         contains one (e.g. "RPySOC 2025"), otherwise from the video's publish
         date, and the event is the playlist label without the year. Items
-        whose description was shortened also have a full_description, for the
-        Recordings Finder.
+        also have a source, and those whose description was shortened have a
+        full_description, both only used by the Recordings Finder.
     """
     items = []
     for playlist in playlists:
@@ -356,6 +388,7 @@ def build_talks(playlists, playlist_config):
                 "type": video_type(video, config),
                 "image": video["thumbnail"],
                 "date": video["published"][:10],
+                "source": video_source(video, config, collection),
             }
             if config.get("title_from_description"):
                 video = title_from_description(video)
@@ -436,18 +469,18 @@ def main():
         if videos_file.exists():
             playlists = json.loads(videos_file.read_text(encoding="utf-8"))["playlists"]
             playlist_config = {playlist["label"]: playlist for playlist in collection["playlists"]}
-            items = build_talks(playlists, playlist_config)
+            items = build_talks(playlists, playlist_config, collection)
         else:
             # Not fetched yet, e.g. a new collection added without an API key.
             # Write an empty table so its entry still renders.
             print(f"{name}: no {videos_file} - run fetch_youtube_playlists.py to fetch its videos")
             items = []
 
-        # The entry's table shows the shortened descriptions; full ones are
-        # only used by the Recordings Finder, which can expand them
+        # The entry's table shows the shortened descriptions; full ones, and
+        # sources, are only used by the Recordings Finder
         out_file = folder / "talks.yml"
         listing_items = [
-            {key: value for key, value in item.items() if key != "full_description"}
+            {key: value for key, value in item.items() if key not in ("full_description", "source")}
             for item in items
         ]
         out_file.write_text(
@@ -471,7 +504,7 @@ def main():
                 "year": item["year"],
                 "date": item["date"],
                 "type": item["type"],
-                "source": collection["source"],
+                "source": item["source"],
                 "event": item["event"] if show_event else "",
                 "details": item.get("full_description", item["description"]),
                 "url": item["path"],

@@ -14,6 +14,8 @@
 #
 # For each collection:
 #   source             - who published the recordings, shown in the Recordings Finder
+#   earlier_source     - optional; `before` (a date) and `source`, giving the source of
+#                        videos published before that date, e.g. for a renamed community
 #   playlists          - playlists to fetch, each with:
 #       label          - name shown on the site, unique within the collection; a year
 #                        in it (e.g. "RPySOC 2025")
@@ -27,6 +29,8 @@
 #                        e.g. to pick out a few videos from a larger playlist
 #       event          - optional; event shown for its videos, in place of one taken
 #                        from the label
+#       source         - optional; source shown for its videos, in place of the
+#                        collection's
 #       type           - kind of recording, shown in the Recordings Finder
 #       talk_list      - optional; true if session recordings list their talks one per
 #                        line without timestamps (see build_youtube_talks.py)
@@ -55,10 +59,17 @@
 nhs_oa_conferences:
   folder: books_training/nhs_oa_conference_recordings
   source: NHS-OA Community
+  # The NHS-R and NHS.pycom communities merged to form NHS-OA in late 2025.
+  # Recordings were branded NHS-R until the end of 2025.
+  earlier_source:
+    before: 2026-01-01
+    source: NHS-R Community
   playlists:
     - label: RPySOC 2025
       id: PLXCrMzQaI6c0kEKt4lN0659WQj_-SNUr_
       type: Conference talk
+      # Held before the merger, though uploaded in 2026
+      source: NHS-R Community
     - label: RPySOC 2024
       id: PLXCrMzQaI6c2vQUabRSOg9_FCxp6x6cVg
       type: Conference talk
@@ -75,6 +86,8 @@ nhs_oa_conferences:
     - label: "NHS-R Community Conference 2022: Python track"
       id: PLSLQ7uyfNIIuFYsyo9Hf0cbYoOqgcly9m
       type: Conference talk
+      # Run by NHS.pycom, and published on its channel
+      source: NHS.pycom
     - label: NHS-R Community Conference 2021
       id: PLXCrMzQaI6c1R5K-iqHpOVDG0PelBA6uc
       type: Conference talk
@@ -88,6 +101,11 @@ nhs_oa_conferences:
 nhs_oa_webinars:
   folder: books_training/nhs_oa_webinars
   source: NHS-OA Community
+  # The NHS-R and NHS.pycom communities merged to form NHS-OA in late 2025.
+  # Recordings were branded NHS-R until the end of 2025.
+  earlier_source:
+    before: 2026-01-01
+    source: NHS-R Community
   playlists:
     - label: Webinars
       id: PLXCrMzQaI6c36jqIWc9AgHzowzZ2ak9DL
@@ -97,10 +115,24 @@ nhs_oa_webinars:
       event: Webinars
       videos: [BZLY7lWzidA]
       type: Webinar
+    # Talks and events from the NHS Python Community's own channel
+    - label: NHS.pycom talks
+      id: UU_jacmsGNZQR5BPP7h0EtXw # all of NHS.pycom's uploads
+      type: Webinar
+      source: NHS.pycom
+  # Already listed with the conference recordings: the 2022 Python track
+  # talks, and the full-day livestream of that track
+  exclude_playlists: [PLSLQ7uyfNIIuFYsyo9Hf0cbYoOqgcly9m]
+  exclude_videos: [YEa_3TmtCoE]
 
 nhs_oa_workshops:
   folder: books_training/nhs_oa_workshops
   source: NHS-OA Community
+  # The NHS-R and NHS.pycom communities merged to form NHS-OA in late 2025.
+  # Recordings were branded NHS-R until the end of 2025.
+  earlier_source:
+    before: 2026-01-01
+    source: NHS-R Community
   playlists:
     - label: Workshops
       id: PLXCrMzQaI6c2L4JCRaF2iujzBxe9Rk-rC
@@ -116,25 +148,13 @@ nhs_oa_workshops:
 
 nhs_r_podcast:
   folder: books_training/nhs_r_podcast
-  source: NHS-OA Community
+  source: NHS-R Community
   playlists:
     # First released on SoundCloud from 2022, and uploaded to YouTube in 2024
     - label: NHS-R Podcast
       id: PLXCrMzQaI6c0FDV6LHzkVmLmaFgvosRck
       type: Podcast
       no_year: true
-
-nhs_pycom_talks:
-  folder: books_training/nhs_pycom_talks
-  source: NHS.pycom
-  playlists:
-    - label: NHS.pycom uploads
-      id: UU_jacmsGNZQR5BPP7h0EtXw
-      type: Webinar
-  # Already listed with the NHS-OA conference recordings: the 2022 Python
-  # track talks, and the full-day livestream of that track
-  exclude_playlists: [PLSLQ7uyfNIIuFYsyo9Hf0cbYoOqgcly9m]
-  exclude_videos: [YEa_3TmtCoE]
 
 apha_recordings:
   folder: books_training/apha_recordings

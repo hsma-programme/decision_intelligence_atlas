@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-* New pages for: `ConcurrentSim`, Julia for Healthcare, Visualizing Health and Healthcare Data (the first paid book), NHS-OA webinars, workshops and conference recordings, NHS.pycom talk recordings, National Analyst Network Huddle recordings, HSMA project showcase recordings, HSMA lecture and masterclass recordings, HACA (Health and Care Analytics Conference), Midlands Decision Support Network training recordings, the NHS-R Podcast, Insight 2020 and 2021 festival recordings, AphA webinar and conference recordings, Strategy Unit webinar recordings. Added HSMA 3 lectures and a standalone DES workshop to the HSMA lecture recordings, and training recordings to the New Hospital Programme Demand Model entry.
+* New pages for: `ConcurrentSim`, Julia for Healthcare, Visualizing Health and Healthcare Data (the first paid book), NHS-OA webinar and talk (including NHS.pycom), workshop and conference recordings, National Analyst Network Huddle recordings, HSMA project showcase recordings, HSMA lecture and masterclass recordings, HACA (Health and Care Analytics Conference), Midlands Decision Support Network training recordings, the NHS-R Podcast, Insight 2020 and 2021 festival recordings, AphA webinar and conference recordings, Strategy Unit webinar recordings. Added HSMA 3 lectures and a standalone DES workshop to the HSMA lecture recordings, and training recordings to the New Hospital Programme Demand Model entry.
 
 ### Changed
 
@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Added a 'Recorded webinars and conference talks' subsection to the Training section, using a new `Recorded Talks` category.
 * Recording entries now include searchable tables of their talks, built from YouTube playlists using `fetch_youtube_playlists.py` and `build_youtube_talks.py`, and configured in `resources/recordings/collections.yml`.
 * New Recordings Finder page, bringing together recordings from all of these collections in one table with search and multi-select filters, linked from the homepage.
+* The Recordings Finder shows recordings from before the NHS-R and NHS.pycom communities merged to form NHS-OA under their original communities, using new `earlier_source` and per-playlist `source` options.
 
 ## v0.2.0 (2025-11-19)
 

@@ -29,3 +29,14 @@ pub-info:
     icon: fa-brands fa-linkedin
 date: "2026-10-02T00:00:00+01:00"
 ---
+
+The NHS-OA Community was formed in late 2025, when the NHS-R Community and the NHS Python Community (NHS.pycom) merged, bringing together analysts using R, Python and other open source tools across health and care.
+
+Recordings from NHS-OA, and from NHS-R and NHS.pycom before it, are listed in these Atlas entries:
+
+* [Conference recordings](/books_training/nhs_oa_conference_recordings/index.qmd), from the NHS-R Community Conference and RPySOC
+* [Webinar and talk recordings](/books_training/nhs_oa_webinars/index.qmd), including NHS.pycom's talks
+* [Workshop recordings](/books_training/nhs_oa_workshops/index.qmd)
+* [The NHS-R Podcast](/books_training/nhs_r_podcast/index.qmd)
+
+They can also be searched alongside recordings from other communities in the [Recordings Finder](/recordings/index.qmd).

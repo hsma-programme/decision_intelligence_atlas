@@ -1,14 +1,17 @@
 ---
-title: "NHS-OA Community: Webinar Recordings"
+title: "NHS-OA Community: Webinar and Talk Recordings"
+aliases:
+  - /books_training/nhs_pycom_talks/index.html
 categories:
   - Courses and Training or Reference Materials
   - Recorded Talks
 tool-language:
   - R
+  - Python
 status: N/A
 image: webinar.jpg
 author:
-  - name: NHS-OA Community (formerly NHS-R Community)
+  - name: NHS-OA Community (formerly NHS-R Community and NHS.pycom)
 pub-info:
   project-type: <i class="fa-solid fa-hospital"></i>
   rationale-for-status: |
@@ -17,10 +20,13 @@ pub-info:
     - name: Sammi Rosser
       url: https://github.com/Bergam0t
   abstract: |
-    A YouTube playlist of recorded webinars from the NHS-OA Community and its predecessor, the NHS-R Community. Mostly focused on R, the webinars cover tools and techniques such as Shiny, Quarto, Git, package development, testing and reproducible environments, alongside real-world NHS case studies in forecasting, statistical modelling and service planning.
+    Recorded webinars and talks from the NHS-OA Community and the two communities that merged to form it, the NHS-R Community and the NHS Python Community (NHS.pycom). They cover tools and techniques such as Shiny, Quarto, Git, package development, testing and reproducible environments, introductions to Python and machine learning, and real-world NHS case studies in forecasting, statistical modelling and service planning.
   links:
-  - name: YouTube
+  - name: YouTube (webinars)
     url: https://www.youtube.com/playlist?list=PLXCrMzQaI6c36jqIWc9AgHzowzZ2ak9DL
+    icon: fa-brands fa-youtube
+  - name: YouTube (NHS.pycom)
+    url: https://www.youtube.com/%40nhs-pycom/videos
     icon: fa-brands fa-youtube
   - name: Website
     url: https://nhsoa.uk
@@ -30,36 +36,44 @@ listing:
   - id: webinar-recordings
     contents: talks.yml
     type: table
-    fields: [title, year, description]
+    fields: [title, year, event, description]
     field-display-names:
       title: "Webinar"
       year: "Year"
+      event: "Series"
       description: "Details"
     sort: "date desc"
-    filter-ui: [title, year, description]
-    sort-ui: [title, year]
+    filter-ui: [title, year, event, description]
+    sort-ui: [title, year, event]
     page-size: 25
 ---
 
 [![NHS-R Community Webinar](webinar.jpg)](https://www.youtube.com/playlist?list=PLXCrMzQaI6c36jqIWc9AgHzowzZ2ak9DL)
 
-This YouTube playlist collects recordings of webinars run by the [NHS-OA Community](/books_training/nhs_oa_community/index.qmd), including those run when it was the NHS-R Community. Each webinar is a standalone session given by analysts, data scientists and other speakers from the NHS and beyond.
+The [NHS-OA Community](/books_training/nhs_oa_community/index.qmd) was formed in late 2025, when the NHS-R Community and the NHS Python Community (NHS.pycom) merged. This entry brings together recordings of webinars and talks from all three.
 
-The webinars are mostly focused on R, and include:
+**Webinars** from the NHS-OA Community, and from the NHS-R Community before it. Each webinar is a standalone session given by analysts, data scientists and other speakers from the NHS and beyond. They are mostly focused on R, and include:
 
 * **tools and good practice** - such as Shiny, Quarto, Git and GitHub, writing R packages, unit testing, package management and reproducible environments with renv
 * **analytical techniques** - such as time series forecasting, causal inference, statistical process control and statistical disclosure control
 * **NHS case studies** - such as predicting emergency demand for beds, assessing the impact of COVID-19 on hip replacement rates, and modelling the consequences of emergency department admission delays
 
-## Search the webinars
+**NHS.pycom talks** from the NHS Python Community's own YouTube channel, which promoted the use of Python and open source code in the NHS and wider healthcare sector. They include:
 
-Search for a webinar by title, speaker, year or topic. Newest webinars are listed first. Where a recording's description gives timings for its sections, each section is listed separately and the link starts the video at that section.
+* **show-and-tell sessions** - such as *Python in the Clinic* and *Saving life and learning from death with Python*, where clinicians and analysts shared projects using Python
+* **introductions to Python and machine learning** - such as an introduction to Python for data analysis and data science, and the basics of machine learning
+* **talks on good practice** - such as software engineering for data scientists, and reproducible analytical pipelines (RAP)
+* **joint events with the NHS-R Community** - such as NHS.Pycom X NHS-R in February 2022
+
+## Search the webinars and talks
+
+Search for a webinar or talk by title, speaker, year, series or topic. Newest recordings are listed first. Where a recording's description gives timings for its sections, each section is listed separately and the link starts the video at that section.
 
 ::: {#webinar-recordings}
 :::
 
-You can also browse the full [webinar playlist on YouTube](https://www.youtube.com/playlist?list=PLXCrMzQaI6c36jqIWc9AgHzowzZ2ak9DL).
+You can also browse the full [webinar playlist](https://www.youtube.com/playlist?list=PLXCrMzQaI6c36jqIWc9AgHzowzZ2ak9DL) and [NHS.pycom's channel](https://www.youtube.com/%40nhs-pycom/videos) on YouTube.
 
-The NHS-OA Community also publishes recordings of [workshops](/books_training/nhs_oa_workshops/index.qmd) and [conference talks](/books_training/nhs_oa_conference_recordings/index.qmd).
+The NHS-OA Community also publishes recordings of [workshops](/books_training/nhs_oa_workshops/index.qmd) and [conference talks](/books_training/nhs_oa_conference_recordings/index.qmd), including the Python track of the 2022 NHS-R Community Conference, which was run by NHS.pycom.
 
 To search these recordings alongside talks, webinars and workshops from other communities, use the [Recordings Finder](/recordings/index.qmd).

@@ -443,6 +443,148 @@
           "thumbnail": "https://i.ytimg.com/vi/BZLY7lWzidA/mqdefault.jpg"
         }
       ]
+    },
+    {
+      "label": "NHS.pycom talks",
+      "id": "UU_jacmsGNZQR5BPP7h0EtXw",
+      "videos": [
+        {
+          "id": "9TPl1sij6Gw",
+          "title": "The State of Data Analytics in the NHS | Google Health x NHS Python Community Tech Talk",
+          "description": "In 2023, Mary Amanuel, Paul Carroll, Ewan Wakeman and Faaiz Shanawas were invited to present at Google Health @ Google UK HQ, Pancras Square, London, UK to showcase innovations, and highlight challenges in data and analytics faced by the NHS to the private sector.",
+          "published": "2026-05-19T15:53:36Z",
+          "duration": "PT52M26S",
+          "thumbnail": "https://i.ytimg.com/vi/9TPl1sij6Gw/mqdefault.jpg"
+        },
+        {
+          "id": "r8aQ3eIwy4c",
+          "title": "PatientFlow: python package for predicting short-term demand for emergency beds | Dr Zella King",
+          "description": "(Part 1) How to turn your EHR data into predictions of emergency demand: https://www.youtube.com/watch?v=ha_zckz3_rU\nCode: https://github.com/zmek/patientflow \n\nUniversity College London Hospital (UCLH) has a real-time application predicting short-term emergency demand for beds that is now in daily use by bed managers. The work has attracted wide interest among trusts and ICBs who are keen to anticipate and manage pressures on hospital capacity. \n\nDr Zella King, Health Data Scientist in the Clinical Operational Research Unit at UCL is the lead researcher on this work. In this webinar, she shows an example of how to do this modelling in Python including:  \n- an overview of the patientflow repository on GitHub, which contains all the modelling code used at UCLH, as a Reproducible Analytic Pipeline \n- the datasets that have been made available by UCLH, which are derived from Electronic Health Record (EHR) data and based on real ED visits\n- a walkthrough of some Jupyter notebooks showing the modelling steps. These include \n(a) use of a XGBoost classifier to predict patient-level probability of admission after ED \n(b) aggregation from patient level predictions of admission to bed counts by specialty of admission \n(c) modelling of admissions within a prediction window from later arrivals (d) how to make the modelling aspirational, by assuming the ED meets its targets\n \nProject Team:\nDr Zella King, Clinical Operational Research Unit (CORU), UCL (zella.king@ucl.ac.uk) Jon Gillham, Institute of Health Informatics, UCL Professor Sonya Crowe, CORU Professor Martin Utley, CORU\n \nBio:\nZella King is a health data scientist in the Clinical Operational Research Unit (CORU) at University College London.  She applies data analytics, machine learning, programming and organisational psychology as tools for better decision making in healthcare operations. She is currently an embedded researcher at University College London Hospital (UCLH), where develops analytical tools that help the hospital anticipate and respond to short-term capacity pressures. \n \nZella developed a real-time application that is in daily use by the patient flow team at UCLH to predict demand for emergency beds, and is lead author on a paper about this work that has been published in Nature Digital Medicine. Her team at UCL won a London Higher Healthcare Partnership of the Year award for their work with UCLH, and were finalists for a HSJ Digital award in Improving Urgent and Emergency Care.\n \nZella gained her PhD in Organisational Psychology from Birkbeck College. Her academic career began with 15 years in business schools. Her work on human resources, careers and networks has been published in top business journals. In 2016, concerned about healthcare in ageing societies, she changed fields to focus on health data research. She gained a distinction in UCL's MSc in Health Data Science and was recognised in the Dean’s List for outstanding students in 2020-21.",
+          "published": "2024-11-04T23:16:13Z",
+          "duration": "PT59M3S",
+          "thumbnail": "https://i.ytimg.com/vi/r8aQ3eIwy4c/mqdefault.jpg"
+        },
+        {
+          "id": "Gf4l8EdmtJ0",
+          "title": "Introduction to Machine Learning - Understanding the basics 🐍 | NHS Python Community",
+          "description": "Welcome to an Introduction to Machine Learning - Understanding the basics 🐍  – The first part of our “New Machine Learning for Everybody” Series from NHS Python Community.\n \nThis series is led by Ameer Sohail Syed, Associate Data Engineer at the NHS\n.\nThis is an accessible introduction to ML and is tailored for everyone starting from scratch:\n- beginners curious about ML\n- people seeking refreshers\n- Anyone in between\n\nResources from the session: https://github.com/nhs-pycom/machine-learning-for-everybody",
+          "published": "2024-04-22T14:21:17Z",
+          "duration": "PT1H3M11S",
+          "thumbnail": "https://i.ytimg.com/vi/Gf4l8EdmtJ0/mqdefault.jpg"
+        },
+        {
+          "id": "We1KwBIZc_s",
+          "title": "NHS Python Community: Software Engineering for Data Scientists",
+          "description": "NHS Python Community: Software Engineering for Data Scientists is a talk by Nick Fortescue. and Hosted by Mary Amanuel, Co-founder, NHS Python Community\n\nNick is an outstanding software engineer who gives up 20% of his work time at Google Health to collaborate with the NHS Python Community for Healthcare on our Geospatial Python App (https://github.com/nhs-pycom/nhs_time_of_travel). He will share some best practices he learned with the healthcare community - saving data scientists and analysts across the NHS time and stress.\n\nJoin our Slack: https://join.slack.com/t/nhs-pycom/shared_invite/zt-1bo0hkyhy-B~E8eCvzUen3p0b~4Ju7xA",
+          "published": "2023-07-12T10:46:51Z",
+          "duration": "PT58M39S",
+          "thumbnail": "https://i.ytimg.com/vi/We1KwBIZc_s/mqdefault.jpg"
+        },
+        {
+          "id": "UypoOc5sL1U",
+          "title": "Is it time for Patient Initiated Methotrexate Monitoring? An analysis in Python",
+          "description": "NHS Python Community Show & Tell: 30th of June 2022. Patient-Level Data Analysis: Applications in Python\n\nSpeakers:  Leila Farmer\nRole: Data Analyst, Royal Devon University Healthcare NHS Foundation Trust\nDescription: Using Python to analyse the wealth of laboratory results data has allowed us to gain a much greater understanding of methotrexate monitoring in North Devon. Through various analyses, we conclude that moving to less frequent monitoring (due to the Covid pandemic) did not result in harm.  Therefore, is now the time for Patient Initiated Methotrexate Monitoring?",
+          "published": "2022-07-03T18:53:05Z",
+          "duration": "PT18M32S",
+          "thumbnail": "https://i.ytimg.com/vi/UypoOc5sL1U/mqdefault.jpg"
+        },
+        {
+          "id": "zAnC3TphiTc",
+          "title": "Introduction to Python for Data Analysis & Data Science",
+          "description": "Python Teach-Back at the Economics & Strategic Analysis Team, NHS England. \nWith Mary Amanuel (Analytical Officer) and Josh Strong (Data Science Analyst)\n\nRepository: https://github.com/nhs-pycom/coding-club/tree/main/introduction-to-data-science\nGoogle-Colab: https://colab.research.google.com/github/nhs-pycom/coding-club/blob/main/introduction-to-data-science/introduction-to-data-science.ipynb\n\n#nhs #python #datascience",
+          "published": "2022-06-20T12:11:39Z",
+          "duration": "PT47M8S",
+          "thumbnail": "https://i.ytimg.com/vi/zAnC3TphiTc/mqdefault.jpg"
+        },
+        {
+          "id": "FNVmtuM-PGM",
+          "title": "Life and Death with Python: QI-Py by Clinicians (Part 2)",
+          "description": "Speaker: Matthew Stammers - Consultant Gastroenterologist/Data Scientist, University Hospital Southampton (UHS)\nClinicians often feel stumped when trying to cross the divide between programming and deploying those innovations in real-world clinical settings. Questions such as: How do I connect my python script to the hospital database? How do I navigate the IG barriers? and How do deploy the outputs to affect clinical practice and get stakeholders interested? We hope to inspire you to break through these barriers.",
+          "published": "2022-05-26T23:02:05Z",
+          "duration": "PT11M18S",
+          "thumbnail": "https://i.ytimg.com/vi/FNVmtuM-PGM/mqdefault.jpg"
+        },
+        {
+          "id": "zvItX-4NJyE",
+          "title": "Life and Death with Python: QI-Py by Clinicians (Part 1)",
+          "description": "Speaker: Michael George - Clinical Fellow in Data Engineering, University Hospital Southampton (UHS)\nClinicians often feel stumped when trying to cross the divide between programming and deploying those innovations in real-world clinical settings. Questions such as: How do I connect my python script to the hospital database? How do I navigate the IG barriers? and How do deploy the outputs to affect clinical practice and get stakeholders interested? We hope to inspire you to break through these barriers.",
+          "published": "2022-05-26T22:50:11Z",
+          "duration": "PT20M47S",
+          "thumbnail": "https://i.ytimg.com/vi/zvItX-4NJyE/mqdefault.jpg"
+        },
+        {
+          "id": "nWf-DZrA_yk",
+          "title": "AI Deployment Engine (AIDE): A new hospital operating system",
+          "description": "Speaker: Haris Shuaib. Head of Clinical Scientific Computing, Guy's & St. Thomas' NHS Foundation Trust\nAn overview of the progress of the AI Deployment Engine (AIDE) — a world-leading program to enable AI at the point of care. Led by the London AI Centre, in partnership with 10 of the largest London National Health Service Trusts, the minimum viable product for AIDE is already live and progress is happening at speed. AIDE utilises a combination of Python and MONAI, a PyTorch-based framework for deep learning in healthcare imaging.",
+          "published": "2022-05-26T22:05:30Z",
+          "duration": "PT14M56S",
+          "thumbnail": "https://i.ytimg.com/vi/nWf-DZrA_yk/mqdefault.jpg"
+        },
+        {
+          "id": "5Fc-v3EE2Ws",
+          "title": "Spiritum Duo - Clinical pathways, A to B but faster!",
+          "description": "The NHS Python Community Presents:\nPython in the Clinic. April 14 2022.",
+          "published": "2022-04-14T16:24:14Z",
+          "duration": "PT27M2S",
+          "thumbnail": "https://i.ytimg.com/vi/5Fc-v3EE2Ws/mqdefault.jpg"
+        },
+        {
+          "id": "N8e5saR75g0",
+          "title": "Regional Radiology Quality Improvement in Devon and Cornwall Using Open Source Tools.",
+          "description": "The NHS Python Community Presents:\nPython in the Clinic. April 14 2022.",
+          "published": "2022-04-14T15:11:16Z",
+          "duration": "PT27M38S",
+          "thumbnail": "https://i.ytimg.com/vi/N8e5saR75g0/mqdefault.jpg"
+        },
+        {
+          "id": "hx_4VweTQYs",
+          "title": "Python Pyrate on the Front Line",
+          "description": "The NHS Python Community Presents: Nov 16 2021.\nThe Potential for Python in the NHS.",
+          "published": "2022-04-04T17:42:50Z",
+          "duration": "PT9M15S",
+          "thumbnail": "https://i.ytimg.com/vi/hx_4VweTQYs/mqdefault.jpg"
+        },
+        {
+          "id": "NyKj_3zr2JY",
+          "title": "Python Pyrate Leading Innovation in Search of 'Bountiful Insights'",
+          "description": "The NHS Python Community Presents: Nov 16 2021.\nThe Potential for Python in the NHS.",
+          "published": "2022-04-04T17:16:45Z",
+          "duration": "PT13M6S",
+          "thumbnail": "https://i.ytimg.com/vi/NyKj_3zr2JY/mqdefault.jpg"
+        },
+        {
+          "id": "WRXagzGTILQ",
+          "title": "Reproducible Analytical Pipelines (RAP)",
+          "description": "NHS.Pycom X NHS-R Feb 23 2022.\nHelen Richardson, Senior Data Scientist @ NHS Digital.\nGitHub: https://github.com/NHSDigital/rap-community-of-practice",
+          "published": "2022-04-04T08:45:17Z",
+          "duration": "PT10M2S",
+          "thumbnail": "https://i.ytimg.com/vi/WRXagzGTILQ/mqdefault.jpg"
+        },
+        {
+          "id": "SWMaAr29SyI",
+          "title": "RAP Community of Practice",
+          "description": "NHS.Pycom X NHS-R Feb 23 2022.\nKenneth Quan, Senior Data Scientist @ NHS Digital\nGitHub: https://github.com/NHSDigital/rap-community-of-practice",
+          "published": "2022-04-04T08:29:11Z",
+          "duration": "PT5M42S",
+          "thumbnail": "https://i.ytimg.com/vi/SWMaAr29SyI/mqdefault.jpg"
+        },
+        {
+          "id": "Nh5bd_gxb9k",
+          "title": "Drivers of Crowding in Type 1 EDs: Econometric Model and its Implementation in R",
+          "description": "NHS.Pycom X NHS-R Feb 23.\nEdmund Haacke, Economic Analyst @ Economics and Strategic Analysis (ESA) Team, NHS England.\nGitHub: https://github.com/NHSEngland/ESA_ED_Crowding",
+          "published": "2022-04-03T21:17:03Z",
+          "duration": "PT9M28S",
+          "thumbnail": "https://i.ytimg.com/vi/Nh5bd_gxb9k/mqdefault.jpg"
+        },
+        {
+          "id": "KPtNteFL4Xg",
+          "title": "Developing Tools for Querying, Tidying, and Analysing Data in R",
+          "description": "NHS.Pycom X NHS-R Feb 23\nMilan Wiedemann, Researcher @ Oxford DataLab, University of Oxford\nBlog Post: https://cdu-data-science-team.github.io/team-blog/posts/2021-08-06-nottshcverse/",
+          "published": "2022-04-03T20:32:49Z",
+          "duration": "PT9M14S",
+          "thumbnail": "https://i.ytimg.com/vi/KPtNteFL4Xg/mqdefault.jpg"
+        }
+      ]
     }
   ]
 }
