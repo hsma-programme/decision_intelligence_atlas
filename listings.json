@@ -26,92 +26,19 @@
     ]
   },
   {
-    "listing": "/packages_projects_tools/nhspy-plotthedots/index.html",
+    "listing": "/packages_projects_tools/nhsrplotthedots/index.html",
     "items": [
       "/packages_projects_tools/mdc_spc_excel_chart_tool/index.html",
       "/packages_projects_tools/nhs_ptd_power_bi/index.html",
-      "/packages_projects_tools/nhsrplotthedots/index.html"
+      "/packages_projects_tools/nhspy-plotthedots/index.html"
     ]
   },
   {
-    "listing": "/packages_projects_tools/mdc_spc_excel_chart_tool/index.html",
+    "listing": "/packages_projects_tools/nhs_ptd_power_bi/index.html",
     "items": [
-      "/packages_projects_tools/nhs_ptd_power_bi/index.html",
-      "/packages_projects_tools/nhspy-plotthedots/index.html",
-      "/packages_projects_tools/nhsrplotthedots/index.html"
-    ]
-  },
-  {
-    "listing": "/books_training/index.html",
-    "items": [
-      "/books_training/des_rap_book/index.html",
-      "/books_training/hsma_des_module/index.html",
-      "/books_training/hsma_des_playground/index.html",
-      "/books_training/hsma_little_book_of_des/index.html",
-      "/books_training/julia_healthcare/index.html",
-      "/books_training/rap_community_of_practice/index.html",
-      "/books_training/somerset_data_science_course/index.html"
-    ]
-  },
-  {
-    "listing": "/books_training/des_rap_book/index.html",
-    "items": []
-  },
-  {
-    "listing": "/graph_catalogue/index.html",
-    "items": [
-      "/graph_catalogue/spc/index.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/packages_projects_tools/des_rap_mms/index.html",
-      "/packages_projects_tools/des_rap_stroke/index.html",
-      "/packages_projects_tools/demand_forecasting_tool_for_capacity_planning/index.html",
-      "/packages_projects_tools/nhs_vega_library/index.html",
-      "/packages_projects_tools/ten_similar_ccgs/index.html",
-      "/packages_projects_tools/ape/index.html",
-      "/packages_projects_tools/adhd_cyp_des/index.html",
-      "/packages_projects_tools/aif_allocation_tool/index.html",
-      "/packages_projects_tools/ambmodelopen/index.html",
-      "/packages_projects_tools/bptk_py/index.html",
-      "/packages_projects_tools/bupaR/index.html",
-      "/packages_projects_tools/ciw/index.html",
-      "/packages_projects_tools/community_pharmacy_workforce/index.html",
-      "/packages_projects_tools/concurrentsim/index.html",
-      "/packages_projects_tools/esa_avoidable_ed/index.html",
-      "/packages_projects_tools/esaedcrowding/index.html",
-      "/packages_projects_tools/hybridsim/index.html",
       "/packages_projects_tools/mdc_spc_excel_chart_tool/index.html",
-      "/packages_projects_tools/meeting_the_demand_of_111/index.html",
-      "/packages_projects_tools/new_hospital_programme/index.html",
-      "/packages_projects_tools/nhs_ptd_power_bi/index.html",
-      "/packages_projects_tools/nhs_time_of_travel/index.html",
-      "/packages_projects_tools/nhse_ndrs_cancer_registrations/index.html",
-      "/packages_projects_tools/nhse_ndrs_cancer_treatments/index.html",
       "/packages_projects_tools/nhspy-plotthedots/index.html",
-      "/packages_projects_tools/nhsrplotthedots/index.html",
-      "/packages_projects_tools/nhsrtt/index.html",
-      "/packages_projects_tools/nhsrwaitinglist/index.html",
-      "/packages_projects_tools/nonelectiveflow/index.html",
-      "/packages_projects_tools/nowcasting/index.html",
-      "/packages_projects_tools/opencodecounts/index.html",
-      "/packages_projects_tools/patientflow/index.html",
-      "/packages_projects_tools/pm4py/index.html",
-      "/packages_projects_tools/renal_capacity_des_model/index.html",
-      "/packages_projects_tools/sim_tools/index.html",
-      "/packages_projects_tools/somerset_wait_list_simulation/index.html",
-      "/packages_projects_tools/stars_reusability_examples/index.html",
-      "/packages_projects_tools/streamlit/index.html",
-      "/packages_projects_tools/vidigi/index.html",
-      "/books_training/somerset_data_science_course/index.html",
-      "/books_training/des_rap_book/index.html",
-      "/books_training/hsma_des_module/index.html",
-      "/books_training/hsma_des_playground/index.html",
-      "/books_training/hsma_little_book_of_des/index.html",
-      "/books_training/julia_healthcare/index.html",
-      "/books_training/rap_community_of_practice/index.html"
+      "/packages_projects_tools/nhsrplotthedots/index.html"
     ]
   },
   {
@@ -159,19 +86,168 @@
     ]
   },
   {
-    "listing": "/packages_projects_tools/nhs_ptd_power_bi/index.html",
+    "listing": "/index.html",
     "items": [
+      "/books_training/healthcare_decision_intelligence/index.html",
+      "/books_training/analyst_network_huddles/index.html",
+      "/books_training/hdruk_futures/index.html",
+      "/books_training/health_rap_playbook/index.html",
+      "/books_training/hsma_geographic_book/index.html",
+      "/books_training/hsma_geographic_module/index.html",
+      "/books_training/hsma_git_web_dev_module/index.html",
+      "/books_training/hsma_intro_programming_module/index.html",
+      "/books_training/hsma_lambda/index.html",
+      "/books_training/hsma_machine_learning_module/index.html",
+      "/books_training/hsma_machine_learning_notebooks/index.html",
+      "/books_training/hsma_modern_analytics_module/index.html",
+      "/books_training/hsma_nlp_module/index.html",
+      "/books_training/hsma_programme/index.html",
+      "/books_training/hsma_project_showcases/index.html",
+      "/books_training/hsma_python_book/index.html",
+      "/books_training/hsma_sd_abs_module/index.html",
+      "/books_training/hsma_streamlit_book/index.html",
+      "/books_training/nhs_oa_conference_recordings/index.html",
+      "/books_training/nhs_oa_webinars/index.html",
+      "/books_training/nhs_oa_workshops/index.html",
+      "/books_training/nhs_pycom_talks/index.html",
+      "/books_training/r_for_data_science/index.html",
+      "/books_training/visualizing_health_and_healthcare_data/index.html",
+      "/packages_projects_tools/des_rap_mms/index.html",
+      "/packages_projects_tools/des_rap_stroke/index.html",
+      "/books_training/apha/index.html",
+      "/books_training/nhs_oa_community/index.html",
+      "/packages_projects_tools/demand_forecasting_tool_for_capacity_planning/index.html",
+      "/packages_projects_tools/nhs_vega_library/index.html",
+      "/packages_projects_tools/ten_similar_ccgs/index.html",
+      "/packages_projects_tools/ape/index.html",
+      "/packages_projects_tools/adhd_cyp_des/index.html",
+      "/packages_projects_tools/aif_allocation_tool/index.html",
+      "/packages_projects_tools/ambmodelopen/index.html",
+      "/packages_projects_tools/bptk_py/index.html",
+      "/packages_projects_tools/bupaR/index.html",
+      "/packages_projects_tools/ciw/index.html",
+      "/packages_projects_tools/community_pharmacy_workforce/index.html",
+      "/packages_projects_tools/concurrentsim/index.html",
+      "/packages_projects_tools/esa_avoidable_ed/index.html",
+      "/packages_projects_tools/esaedcrowding/index.html",
+      "/packages_projects_tools/hybridsim/index.html",
       "/packages_projects_tools/mdc_spc_excel_chart_tool/index.html",
+      "/packages_projects_tools/meeting_the_demand_of_111/index.html",
+      "/packages_projects_tools/new_hospital_programme/index.html",
+      "/packages_projects_tools/nhs_ptd_power_bi/index.html",
+      "/packages_projects_tools/nhs_time_of_travel/index.html",
+      "/packages_projects_tools/nhse_ndrs_cancer_registrations/index.html",
+      "/packages_projects_tools/nhse_ndrs_cancer_treatments/index.html",
+      "/packages_projects_tools/nhspy-plotthedots/index.html",
+      "/packages_projects_tools/nhsrplotthedots/index.html",
+      "/packages_projects_tools/nhsrtt/index.html",
+      "/packages_projects_tools/nhsrwaitinglist/index.html",
+      "/packages_projects_tools/nonelectiveflow/index.html",
+      "/packages_projects_tools/nowcasting/index.html",
+      "/packages_projects_tools/opencodecounts/index.html",
+      "/packages_projects_tools/patientflow/index.html",
+      "/packages_projects_tools/pm4py/index.html",
+      "/packages_projects_tools/renal_capacity_des_model/index.html",
+      "/packages_projects_tools/sim_tools/index.html",
+      "/packages_projects_tools/somerset_wait_list_simulation/index.html",
+      "/packages_projects_tools/stars_reusability_examples/index.html",
+      "/packages_projects_tools/streamlit/index.html",
+      "/packages_projects_tools/vidigi/index.html",
+      "/books_training/somerset_data_science_course/index.html",
+      "/books_training/des_rap_book/index.html",
+      "/books_training/hsma_des_module/index.html",
+      "/books_training/hsma_des_playground/index.html",
+      "/books_training/hsma_little_book_of_des/index.html",
+      "/books_training/julia_healthcare/index.html",
+      "/books_training/rap_community_of_practice/index.html"
+    ]
+  },
+  {
+    "listing": "/graph_catalogue/index.html",
+    "items": [
+      "/graph_catalogue/spc/index.html"
+    ]
+  },
+  {
+    "listing": "/books_training/nhs_pycom_talks/index.html",
+    "items": []
+  },
+  {
+    "listing": "/books_training/nhs_oa_webinars/index.html",
+    "items": []
+  },
+  {
+    "listing": "/books_training/index.html",
+    "items": [
+      "/books_training/des_rap_book/index.html",
+      "/books_training/health_rap_playbook/index.html",
+      "/books_training/healthcare_decision_intelligence/index.html",
+      "/books_training/hsma_geographic_book/index.html",
+      "/books_training/hsma_little_book_of_des/index.html",
+      "/books_training/hsma_machine_learning_notebooks/index.html",
+      "/books_training/hsma_python_book/index.html",
+      "/books_training/hsma_streamlit_book/index.html",
+      "/books_training/r_for_data_science/index.html",
+      "/books_training/visualizing_health_and_healthcare_data/index.html",
+      "/books_training/hdruk_futures/index.html",
+      "/books_training/hsma_des_module/index.html",
+      "/books_training/hsma_geographic_module/index.html",
+      "/books_training/hsma_git_web_dev_module/index.html",
+      "/books_training/hsma_intro_programming_module/index.html",
+      "/books_training/hsma_lambda/index.html",
+      "/books_training/hsma_machine_learning_module/index.html",
+      "/books_training/hsma_modern_analytics_module/index.html",
+      "/books_training/hsma_nlp_module/index.html",
+      "/books_training/hsma_programme/index.html",
+      "/books_training/hsma_sd_abs_module/index.html",
+      "/books_training/nhs_oa_workshops/index.html",
+      "/books_training/somerset_data_science_course/index.html",
+      "/books_training/hsma_des_playground/index.html",
+      "/books_training/julia_healthcare/index.html",
+      "/books_training/analyst_network_huddles/index.html",
+      "/books_training/hsma_project_showcases/index.html",
+      "/books_training/nhs_oa_conference_recordings/index.html",
+      "/books_training/nhs_oa_webinars/index.html",
+      "/books_training/nhs_pycom_talks/index.html",
+      "/books_training/apha/index.html",
+      "/books_training/nhs_oa_community/index.html",
+      "/books_training/rap_community_of_practice/index.html"
+    ]
+  },
+  {
+    "listing": "/books_training/hsma_project_showcases/index.html",
+    "items": []
+  },
+  {
+    "listing": "/books_training/analyst_network_huddles/index.html",
+    "items": []
+  },
+  {
+    "listing": "/books_training/des_rap_book/index.html",
+    "items": []
+  },
+  {
+    "listing": "/books_training/nhs_oa_conference_recordings/index.html",
+    "items": []
+  },
+  {
+    "listing": "/books_training/nhs_oa_workshops/index.html",
+    "items": []
+  },
+  {
+    "listing": "/packages_projects_tools/mdc_spc_excel_chart_tool/index.html",
+    "items": [
+      "/packages_projects_tools/nhs_ptd_power_bi/index.html",
       "/packages_projects_tools/nhspy-plotthedots/index.html",
       "/packages_projects_tools/nhsrplotthedots/index.html"
     ]
   },
   {
-    "listing": "/packages_projects_tools/nhsrplotthedots/index.html",
+    "listing": "/packages_projects_tools/nhspy-plotthedots/index.html",
     "items": [
       "/packages_projects_tools/mdc_spc_excel_chart_tool/index.html",
       "/packages_projects_tools/nhs_ptd_power_bi/index.html",
-      "/packages_projects_tools/nhspy-plotthedots/index.html"
+      "/packages_projects_tools/nhsrplotthedots/index.html"
     ]
   },
   {

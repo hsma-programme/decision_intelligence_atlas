@@ -1,0 +1,1841 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Health Service Modelling Associates Programme (HSMA)">
+<meta name="dcterms.date" content="2026-10-04">
+
+<title>HSMA: Project Showcase Recordings – The Healthcare Service Analytics &amp; Decision Intelligence Atlas</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-618e44c3880220e6abd753417ff4158a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-2848ceaae436bc62036f45d299d60ae4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-618e44c3880220e6abd753417ff4158a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-showcase-recordings .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-event','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
+      page: 25,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-event","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-showcase-recordings'] = new List('listing-showcase-recordings', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-41QML5TFEF"></script>
+
+<script type="text/plain" cookie-consent="tracking">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-41QML5TFEF', { 'anonymize_ip': true});
+</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"express",
+  "palette":"dark",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  ,
+"language":"en"
+  });
+});
+</script> 
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<script>
+  window.addEventListener('load', function() {
+    document.getElementById("cc-nb-text").innerHTML = "We use cookies and other tracking technologies to analyze our website traffic and to understand where our visitors are coming from.";
+  });
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../resources/themes/styles.css">
+</head>
+
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../resources/atlas_logo_outline_transparent_white.png" alt="" class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../packages_projects_tools/index.html"> 
+<span class="menu-text">Packages, Projects &amp; Tools</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../books_training/index.html"> 
+<span class="menu-text">Books, Training &amp; Communities</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../recordings/index.html"> 
+<span class="menu-text">Recordings</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../techniques/index.html"> 
+<span class="menu-text">Techniques</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../graph_catalogue/index.html"> 
+<span class="menu-text">Graphs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about/index.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../contributing/index.html"> 
+<span class="menu-text">Contribute</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose">
+            Submit an Atlas entry or a bug report
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/hsma-programme/decision_intelligence_atlas">
+            View the code for the Atlas
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/orgs/hsma-programme/projects/2/views/7">
+            View planned Atlas entries
+            </a>
+          </li>
+      </ul>
+    </div>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block projects default page-columns page-full">
+        <div class="back-nav" style="color:white">
+        <a href="javascript:history.back()" style="color:white">← Back</a>
+    </div>
+    
+    <!-- Wrapper with relative positioning for this section only -->
+    <div class="banner-wrapper page-columns page-full" style="position: relative;">
+        <!-- Full-width background container -->
+        <!-- <div class="finisher-header-background">
+            <div class="finisher-header default"></div>
+        </div> -->
+
+        <!-- Content layer -->
+        <!-- <div class="quarto-title-banner" style="position: relative; z-index: 1; width: 100%; margin-left: auto; margin-right: auto; text-align: center;"> -->
+        <div class="quarto-title-banner page-columns page-full">
+            <div class="quarto-title column-page-left">
+                                                <div class="quarto-categories">
+                                        <div class="quarto-category">Courses and Training or Reference Materials</div>
+                                        <div class="quarto-category">Recorded Talks</div>
+                                    </div>
+                                                <h1 class="title">HSMA: Project Showcase Recordings <i class="fa-solid fa-user-graduate"></i></h1>
+                                                                <br>
+                <div class="abstract">
+                    <b>Summary</b>
+                    <p>Recordings of project presentations from the showcases of the Health Service Modelling Associates (HSMA) programme, where participants present the modelling and data science projects they have carried out in their own health, social care and policing organisations. Projects use techniques such as discrete event simulation, machine learning, natural language processing, forecasting and geographic modelling.</p>
+                                        Rating: N/A
+                                        <p>Collection of recordings from many different presenters, so it is not ranked as a whole.</p>
+                                                        </div>
+                
+                                <div class="project-link-buttons">
+                    <ul class="project-links">
+                                                                        <button class="custom-button"><a href="https://www.youtube.com/playlist?list=PLgHO2TgIJXdkhu3IVabE3XSeHji8-X6hh"><i class="fa-brands fa-youtube"></i> YouTube</a></button>
+                                                                                                <button class="custom-button"><a href="https://hsma.co.uk/previous_projects/completed_projects.html"><i class="fa-solid fa-globe"></i> Projects</a></button>
+                                                                    </ul>
+                </div>
+                
+                                <p><b>Atlas Entry authored by:</b>
+                                |&nbsp;Sammi Rosser
+                                (<a href="https://github.com/Bergam0t">Link</a>)
+                                &nbsp;|&nbsp;
+                                </p>
+                            </div>
+
+        </div>
+    <!-- </div> -->
+
+    
+    <div class="quarto-title-meta column-page-left">
+
+        <div>
+        <div class="quarto-title-meta-heading">Author</div>
+        <div class="quarto-title-meta-contents">
+                 <p>Health Service Modelling Associates Programme (HSMA) </p>
+              </div>
+      </div>
+        
+        <div>
+        <div class="quarto-title-meta-heading">Page last modified</div>
+        <div class="quarto-title-meta-contents">
+          <p class="date">04 October 2026</p>
+        </div>
+      </div>
+      
+        
+      </div>
+      
+    </div></header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#search-the-project-presentations" id="toc-search-the-project-presentations" class="nav-link active" data-scroll-target="#search-the-project-presentations">Search the project presentations</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+
+<script src="../../resources/finisher-header.es5.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+new FinisherHeader({
+  "count": 10,
+  "size": {
+    "min": 1300,
+    "max": 1500,
+    "pulse": 0
+  },
+  "speed": {
+    "x": {
+      "min": 0.1,
+      "max": 0.6
+    },
+    "y": {
+      "min": 0.1,
+      "max": 0.6
+    }
+  },
+  "colors": {
+    "background": "#005eb8",
+    "particles": [
+      "#00a9ce",
+      "#41b6e6",
+      "#ffb81c",
+      "#00a499",
+      "#ff0000"
+    ]
+  },
+  "blending": "overlay",
+  "opacity": {
+    "center": 0.5,
+    "edge": 0.05
+  },
+  "skew": 0,
+  "shapes": [
+    "c"
+  ]
+});
+</script>
+
+<!-- <style>
+    .banner-wrapper {
+        position: relative;
+        overflow: hidden;
+
+    }
+
+    #title-block-header {
+        margin-top: -30px;
+        margin-left: 50px;
+        width: 120vw;
+    }
+
+    /* Full-width background layer - only for the banner section */
+    .finisher-header-background {
+        position: absolute;
+        top: 0;
+        left: calc(-1 * ((100vw - 100%) / 2));
+        /* Pull left by half the difference between viewport and container */
+        width: 120vw;
+        height: 100%;
+        z-index: 0;
+        pointer-events: none;
+        overflow: visible;
+    }
+
+    .finisher-header {
+        width: 100%;
+        height: 100%;
+        max-height: 100%;
+        /* Constrain to parent */
+        overflow: visible;
+        /* Prevent canvas from expanding beyond */
+    }
+
+    .finisher-header canvas {
+        width: 100% !important;
+        height: 100% !important;
+        max-height: 100%;
+        display: block;
+    }
+</style> -->
+
+
+<style>
+    /* Put your existing title banner *above* the animation */
+    #title-block-header .quarto-title-banner {
+        position: relative;
+        z-index: 1;
+        /* background: transparent;   so you can actually see the animation */
+    }
+
+    .quarto-title-block .quarto-title-banner {
+        background-color: #006962;
+    }
+
+    #title-block-header > div.banner-wrapper.page-columns.page-full {
+        margin-top: -25px
+    }
+
+    .project-link-buttons {
+        justify-content: left;
+        margin-left: -35px;
+    }
+
+</style>
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.youtube.com/playlist?list=PLgHO2TgIJXdkhu3IVabE3XSeHji8-X6hh"><img src="showcase.jpg" class="img-fluid figure-img"></a></p>
+<figcaption>HSMA 6 Showcase</figcaption>
+</figure>
+</div>
+<p>In the second phase of the <a href="../../books_training/hsma_programme/index.html">Health Service Modelling Associates (HSMA) programme</a>, participants carry out a modelling or data science project for their own health, social care or policing organisation. At the end of each round, they present their projects at a showcase, and the recordings are published on the HSMA YouTube channel.</p>
+<p>The projects tackle real-world problems using the techniques taught on the programme, such as:</p>
+<ul>
+<li>discrete event simulation of pathways, from emergency departments and urgent treatment centres to mental health and neurodevelopmental services</li>
+<li>machine learning and natural language processing, for example predicting admissions or non-attendance and analysing free text</li>
+<li>forecasting demand, from A&amp;E attendances to excess mortality</li>
+<li>geographic modelling, for example of travel times and ambulance dispatch boundaries</li>
+</ul>
+<p>Some showcases also include talks from HSMA alumni about what they have done since the programme.</p>
+<p>More details about many of the projects, including links to their code where it is shared, can be found on the <a href="https://hsma.co.uk/previous_projects/completed_projects.html">HSMA website</a>.</p>
+<section id="search-the-project-presentations" class="level2">
+<h2 class="anchored" data-anchor-id="search-the-project-presentations">Search the project presentations</h2>
+<p>Search for a project by title, presenter, organisation or round. The most recent rounds are listed first. Where a recording covers several projects and its description gives the timings, each project is listed separately and the link starts the video at that project.</p>
+<div id="listing-showcase-recordings" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-showcase-recordings-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-showcase-recordings'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title-sort" data-direction="asc">
+        Project
+      </option>
+      <option value="listing-event" data-direction="asc">
+        Round
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Project</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-event" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Round</a>
+</th>
+
+<th>
+Details
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-listing-date-sort="1753142400000" data-listing-title-sort="HSMA 6 Showcase Introduction - A Look Back at HSMA 6">
+<td>
+<a href="https://www.youtube.com/watch?v=0Fq3ATwcouo" class="title listing-title">HSMA 6 Showcase Introduction - A Look Back at HSMA 6</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-description">In this video, Dr Dan Chalk gives an overview of the sixth round of the HSMA programme. He also gives an insight into the plans for HSMA 7 and beyond. We wrap up by hearing from Professor Stuart Logan about what HSMA means to PenARC. HSMA website: HSMA books: HSMA modules: #nhs #datascience…</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-listing-date-sort="1753142400000" data-listing-title-sort="Simulation Modelling for Tackling Backlogs in Children's Neurodiversity and NHS Talking Therapies">
+<td>
+<a href="https://www.youtube.com/watch?v=EmfpThPdXKo" class="title listing-title">Simulation Modelling for Tackling Backlogs in Children’s Neurodiversity and NHS Talking Therapies</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-description">In this video, Heath McDonald (Senior Business Intelligence Developer, Lancashire &amp; South Cumbria NHS Foundation Trust) talks us through his HSMA projects on using simulation modelling to tackle backlogs in children’s neurodiversity assessment and NHS Talking Therapies. This talk was part of the…</span>
+</td>
+
+</tr>
+
+<tr data-index="2" data-listing-date-sort="1753142400000" data-listing-title-sort="Simulation Modelling of Non-Elective Flow">
+<td>
+<a href="https://www.youtube.com/watch?v=0DUx5hhxjoA" class="title listing-title">Simulation Modelling of Non-Elective Flow</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-description">In this talk, we hear from Helena Robinson (Senior Analyst/Data Scientist, Countess of Chester NHS Foundation Trust) about her HSMA project on using discrete event simulation to model non-elective flow. Code: Tool: Project Page: HSMA Website: #nhs #datascience #operationalresearch</span>
+</td>
+
+</tr>
+
+<tr data-index="3" data-listing-date-sort="1753142400000" data-listing-title-sort="Predicting Surgical Times from Patient Note Data">
+<td>
+<a href="https://www.youtube.com/watch?v=ZLfEgmVCYJM" class="title listing-title">Predicting Surgical Times from Patient Note Data</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-description">In this talk, we hear from Dr Jake Wilson (Urology Specialist Registrar, Great Western Hospitals NHS Foundation Trust) about his project on predicting the operation times for robotic assisted laparoscopy (RALP) in prostate cancer from patient notes, using natural language processing (NLP) and…</span>
+</td>
+
+</tr>
+
+<tr data-index="4" data-listing-date-sort="1753142400000" data-listing-title-sort="Forecasting blood donation session capacity - Sam Plimmer, NHS Blood and Transplant">
+<td>
+<a href="https://www.youtube.com/watch?v=zeYG0EJ83bA&amp;t=30s" class="title listing-title">Forecasting blood donation session capacity - Sam Plimmer, NHS Blood and Transplant</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘HSMA 6 Lightning Talks Session 1 - Blood Donation Capacity, GP Phone Calls, HRG Coding and More!’, starting at 0:30.</span>
+</td>
+
+</tr>
+
+<tr data-index="5" data-listing-date-sort="1753142400000" data-listing-title-sort="Modelling GP phone calls - Sarah Blincko, NHS England">
+<td>
+<a href="https://www.youtube.com/watch?v=zeYG0EJ83bA&amp;t=266s" class="title listing-title">Modelling GP phone calls - Sarah Blincko, NHS England</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘HSMA 6 Lightning Talks Session 1 - Blood Donation Capacity, GP Phone Calls, HRG Coding and More!’, starting at 4:26.</span>
+</td>
+
+</tr>
+
+<tr data-index="6" data-listing-date-sort="1753142400000" data-listing-title-sort="Using classification modelling techniques to investigate changes in HRG coding over time - Chris Todd &amp; Beth Evans, NHS England">
+<td>
+<a href="https://www.youtube.com/watch?v=zeYG0EJ83bA&amp;t=473s" class="title listing-title">Using classification modelling techniques to investigate changes in HRG coding over time - Chris Todd &amp; Beth Evans, NHS England</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘HSMA 6 Lightning Talks Session 1 - Blood Donation Capacity, GP Phone Calls, HRG Coding and More!’, starting at 7:53.</span>
+</td>
+
+</tr>
+
+<tr data-index="7" data-listing-date-sort="1753142400000" data-listing-title-sort="Predicting gestational diabetes using Machine Learning, assessing travel times to maternity units and simulating inpatient flow - Rochelle Francis-Reid, Epsom and St Helier University Hospitals NHS Trust">
+<td>
+<a href="https://www.youtube.com/watch?v=zeYG0EJ83bA&amp;t=727s" class="title listing-title">Predicting gestational diabetes using Machine Learning, assessing travel times to maternity units and simulating inpatient flow - Rochelle Francis-Reid, Epsom and St Helier University Hospitals NHS Trust</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘HSMA 6 Lightning Talks Session 1 - Blood Donation Capacity, GP Phone Calls, HRG Coding and More!’, starting at 12:07.</span>
+</td>
+
+</tr>
+
+<tr data-index="8" data-listing-date-sort="1753142400000" data-listing-title-sort="Optimising Same Day Emergency Care (SDEC) Resourcing with Simulation Modelling">
+<td>
+<a href="https://www.youtube.com/watch?v=Yck3vOioRdQ" class="title listing-title">Optimising Same Day Emergency Care (SDEC) Resourcing with Simulation Modelling</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-description">In this talk, we hear from Dr Hannah Thould (Chief Registratr, University Hospitals Bristol and Weston NHS Foundation Trust) about her project on optimising resourcing for same day emergency care using discrete event simulation (DES). Hannah also reflects on her experience of the HSMA programme as…</span>
+</td>
+
+</tr>
+
+<tr data-index="9" data-listing-date-sort="1753142400000" data-listing-title-sort="Using Geographic Modelling to Redraw North West Ambulance Dispatch Boundaries">
+<td>
+<a href="https://www.youtube.com/watch?v=BONCgiiFfHc" class="title listing-title">Using Geographic Modelling to Redraw North West Ambulance Dispatch Boundaries</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-description">In this talk, we hear from Dorota Scott, Dr Kristian Boote and Charlotte Anderson (North West Ambulance Service NHS Foundation Trust) about their project on redrawing the dispatch boundaries of the ambulance in their services using geographic modelling, including the use of Voronoi tessellations.…</span>
+</td>
+
+</tr>
+
+<tr data-index="10" data-listing-date-sort="1753142400000" data-listing-title-sort="Modelling Eye Injection Pathways with the AMD Protocol Explorer (APE)">
+<td>
+<a href="https://www.youtube.com/watch?v=0OKev_kbQEc" class="title listing-title">Modelling Eye Injection Pathways with the AMD Protocol Explorer (APE)</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-description">In this talk, we hear from Dr Luke Herbert (Consultant Opthalmic Surgeon, Surrey &amp; Sussex Healthcare Foundation Trust) about his project on simulating opthalmology pathways, allowing the exploration of the impact of different anti-VEGF treatment strategies on patients and costs. Project Page: HSMA…</span>
+</td>
+
+</tr>
+
+<tr data-index="11" data-listing-date-sort="1753142400000" data-listing-title-sort="Using Natural Language Processing to Improve Ambulance Care Quality Indicator (ACQI) Data">
+<td>
+<a href="https://www.youtube.com/watch?v=zKZv3zWcXzc" class="title listing-title">Using Natural Language Processing to Improve Ambulance Care Quality Indicator (ACQI) Data</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-description">In this talk, we hear from James Wise and Phil King (South Central Ambulance Service NHS Foundation Trust) about their project on using natural language processing to improve ambulance care quality indicator (ACQI) data. By processing the data that is currently held in free text fields, they are…</span>
+</td>
+
+</tr>
+
+<tr data-index="12" data-listing-date-sort="1753142400000" data-listing-title-sort="Modelling the Benefit of Making Every Contact Count (MECC) Training using Agent Based Simulation">
+<td>
+<a href="https://www.youtube.com/watch?v=U6-_3q_CZtA" class="title listing-title">Modelling the Benefit of Making Every Contact Count (MECC) Training using Agent Based Simulation</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-description">In this talk, we hear from Dom Rowney, Sam Vautier and Dr Luke Herbert about their project on using agent-based simulation to model behavioural dynamics and explore the potential impact of MECC training. Project Page: HSMA site: #nhs #datascience #operationalresearch</span>
+</td>
+
+</tr>
+
+<tr data-index="13" data-listing-date-sort="1753142400000" data-listing-title-sort="Forecasting A&amp;E Attendance to Inform Staff Planning">
+<td>
+<a href="https://www.youtube.com/watch?v=uywbayhnass" class="title listing-title">Forecasting A&amp;E Attendance to Inform Staff Planning</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-description">In this talk, we hear from Yu Qiao (Clinical Data Scientist, Liverpool University Hospitals NHS Foundation Trust) about his project on forecasting future A&amp;E attendances 6 weeks in advance, accounting for seasonal patterns and allowing better management of the staffing level to ensure the predicted…</span>
+</td>
+
+</tr>
+
+<tr data-index="14" data-listing-date-sort="1753142400000" data-listing-title-sort="Modelling Hyperacute/Acute Stroke Pathways - Reducing Costs &amp; Improving Patient Care">
+<td>
+<a href="https://www.youtube.com/watch?v=ThltRNDt9k8" class="title listing-title">Modelling Hyperacute/Acute Stroke Pathways - Reducing Costs &amp; Improving Patient Care</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-description">In this talk, we hear from John Williams (Clinical Data Scientist, Maidstone and Tunbridge Wells NHS Trust) about his project on using discrete event simulation to explore the impact of changes to operating hours of the same-day emergency care (SDEC) stroke pathway and the CT perfusion scanner in…</span>
+</td>
+
+</tr>
+
+<tr data-index="15" data-listing-date-sort="1753142400000" data-listing-title-sort="Acute Ward Bed Occupancy Simulation - Rey Tan, Royal United Hospitals Bath NHS Foundation Trust">
+<td>
+<a href="https://www.youtube.com/watch?v=SH4geMXr8a8&amp;t=40s" class="title listing-title">Acute Ward Bed Occupancy Simulation - Rey Tan, Royal United Hospitals Bath NHS Foundation Trust</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘HSMA 6 Lightning Talks Session 2 - Bed Occupancy, Complex Patient pathways, Segmentation and More!’, starting at 0:40.</span>
+</td>
+
+</tr>
+
+<tr data-index="16" data-listing-date-sort="1753142400000" data-listing-title-sort="Identifying potential concurrent treatment areas and services that would better support patients with multiple, complex referral to treatment (RTT) pathways - Amaia Imaz Blanco, Sean Aller, NHS England Data Science &amp; Applied AI Team">
+<td>
+<a href="https://www.youtube.com/watch?v=SH4geMXr8a8&amp;t=331s" class="title listing-title">Identifying potential concurrent treatment areas and services that would better support patients with multiple, complex referral to treatment (RTT) pathways - Amaia Imaz Blanco, Sean Aller, NHS England Data Science &amp; Applied AI Team</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘HSMA 6 Lightning Talks Session 2 - Bed Occupancy, Complex Patient pathways, Segmentation and More!’, starting at 5:31.</span>
+</td>
+
+</tr>
+
+<tr data-index="17" data-listing-date-sort="1753142400000" data-listing-title-sort="Segmenting Dorset's Population for Better Health Planning - Rhianna Everett, Dorset Intelligence &amp; Insight Service; James Roberts, Dorset Council">
+<td>
+<a href="https://www.youtube.com/watch?v=SH4geMXr8a8&amp;t=585s" class="title listing-title">Segmenting Dorset’s Population for Better Health Planning - Rhianna Everett, Dorset Intelligence &amp; Insight Service; James Roberts, Dorset Council</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘HSMA 6 Lightning Talks Session 2 - Bed Occupancy, Complex Patient pathways, Segmentation and More!’, starting at 9:45.</span>
+</td>
+
+</tr>
+
+<tr data-index="18" data-listing-date-sort="1753142400000" data-listing-title-sort="Understanding the Drivers of Length of Stay (LoS) - Jake Kealey, North Central London ICB">
+<td>
+<a href="https://www.youtube.com/watch?v=SH4geMXr8a8&amp;t=825s" class="title listing-title">Understanding the Drivers of Length of Stay (LoS) - Jake Kealey, North Central London ICB</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘HSMA 6 Lightning Talks Session 2 - Bed Occupancy, Complex Patient pathways, Segmentation and More!’, starting at 13:45.</span>
+</td>
+
+</tr>
+
+<tr data-index="19" data-listing-date-sort="1753142400000" data-listing-title-sort="Creating a Simulation Model of a Mental Health Hub">
+<td>
+<a href="https://www.youtube.com/watch?v=GlEoH8B3CHE" class="title listing-title">Creating a Simulation Model of a Mental Health Hub</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-description">In this talk, we hear from Nathan Hack and Dr Helen Wharam (Hampshire and Isle of Wight Healthcare NHS Foundation Trust) about their project on building a simulation model of a mental health hub in Portsmouth to help with right-sizing the service as routes into the service are expanded. Project…</span>
+</td>
+
+</tr>
+
+<tr data-index="20" data-listing-date-sort="1753142400000" data-listing-title-sort="Proactive Patient Attendance Prediction">
+<td>
+<a href="https://www.youtube.com/watch?v=WNtIIWA_IYg" class="title listing-title">Proactive Patient Attendance Prediction</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-description">In this talk, we hear from Peter Andrews (Information Business Partner, Barts Health NHS Trust) about his project on using machine learning to forecast non-attendance and help reduce the number of unattended appointments, potentially improving patient experience and saving money. Project Page: HSMA…</span>
+</td>
+
+</tr>
+
+<tr data-index="21" data-listing-date-sort="1753142400000" data-listing-title-sort="Developing a Primary Care Load Management Tool">
+<td>
+<a href="https://www.youtube.com/watch?v=AUNmuPFnq4c" class="title listing-title">Developing a Primary Care Load Management Tool</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-description">In this talk, we hear from Dr Chris Lewis (General Practitioner, The Park Medical Practice) about his project on using modelling and data science techniques to better monitor and plan for the staffing of a GP surgery, helping patients to have their phone calls answered in a timely manner while…</span>
+</td>
+
+</tr>
+
+<tr data-index="22" data-listing-date-sort="1753142400000" data-listing-title-sort="An Alumnus Story - The e-Fit tool for allocating additional GP funding equitably">
+<td>
+<a href="https://www.youtube.com/watch?v=YbmiEilW9I8" class="title listing-title">An Alumnus Story - The e-Fit tool for allocating additional GP funding equitably</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-description">In this talk, HSMA 5 Alumnus Peter Saiu talks us through his user-friendly, web-based tool for allocating additional GP funding equitably, helping to save commissioners time and reduce health inequalities. Tool: Project Page: Code: HSMA site: #nhs #datascience #operationalresearch</span>
+</td>
+
+</tr>
+
+<tr data-index="23" data-listing-date-sort="1702944000000" data-listing-title-sort="Project 5016: Developing a tool to assess inequalities and demographic coverage of service locations">
+<td>
+<a href="https://www.youtube.com/watch?v=7a1bx1NfyBA" class="title listing-title">Project 5016: Developing a tool to assess inequalities and demographic coverage of service locations</a>
+</td>
+<td>
+<span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-description">Project 5016 : “Developing a tool to assess inequalities and demographic coverage of service locations” Alex Owens, Arden GEM CSU</span>
+</td>
+
+</tr>
+
+<tr data-index="24" data-listing-date-sort="1702944000000" data-listing-title-sort="Project 5014: Investigating factors impacting NHS workforce retention">
+<td>
+<a href="https://www.youtube.com/watch?v=yYnkdsM5HHo" class="title listing-title">Project 5014: Investigating factors impacting NHS workforce retention</a>
+</td>
+<td>
+<span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-description">Project 5014 : “Investigating factors impacting NHS workforce retention using public data” Marie Rogers, NHS England and Richard Pilbery, Yorkshire Ambulance Service</span>
+</td>
+
+</tr>
+
+<tr data-index="25" data-listing-date-sort="1702944000000" data-listing-title-sort="Project 5006: Using Machine Learning to estimate inequities in access to hospital procedures">
+<td>
+<a href="https://www.youtube.com/watch?v=NXGYKKPntO8" class="title listing-title">Project 5006: Using Machine Learning to estimate inequities in access to hospital procedures</a>
+</td>
+<td>
+<span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-description">Project 5006 : “Using Machine Learning to estimate inequities in access to hospital procedures” Benjamin Mouncer, Norfolk County Council</span>
+</td>
+
+</tr>
+
+<tr data-index="26" data-listing-date-sort="1702944000000" data-listing-title-sort="Project 5003: Using DES to model the bottlenecks in the AMU pathway">
+<td>
+<a href="https://www.youtube.com/watch?v=_3j0xC_yCKQ" class="title listing-title">Project 5003: Using DES to model the bottlenecks in the AMU pathway</a>
+</td>
+<td>
+<span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-description">Project 5003 : “Using Discrete Event Simulation to model the bottlenecks in the Acute Medical Unit pathway in two Devon hospitals” Becky Crofts and Kayleigh Haydock, Royal Devon University Healthcare</span>
+</td>
+
+</tr>
+
+<tr data-index="27" data-listing-date-sort="1702944000000" data-listing-title-sort="Project 5002: Using NLP to detect drug related content within free text">
+<td>
+<a href="https://www.youtube.com/watch?v=7j8_DlMoaSc" class="title listing-title">Project 5002: Using NLP to detect drug related content within free text</a>
+</td>
+<td>
+<span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-description">Project 5002 : “Using Natural Language Processing to detect drug related content within free text”</span>
+</td>
+
+</tr>
+
+<tr data-index="28" data-listing-date-sort="1702944000000" data-listing-title-sort="Project 5012: Conversion and expansion of a tool to forecast elective demand">
+<td>
+<a href="https://www.youtube.com/watch?v=Obzos_OfyEw" class="title listing-title">Project 5012: Conversion and expansion of a tool to forecast elective demand</a>
+</td>
+<td>
+<span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-description">Project 5012 : “Conversion and expansion of a tool to forecast elective demand” Jane Kirkpatrick, Evelyn Koon and Mathew Ojo, NHS England; Lyndsey Allen and Luke Asante, NECS Consultancy</span>
+</td>
+
+</tr>
+
+<tr data-index="29" data-listing-date-sort="1702944000000" data-listing-title-sort="Project 5005: Development of an open source tool to model waiting lists for elective surgery">
+<td>
+<a href="https://www.youtube.com/watch?v=prKoVH2DeyU" class="title listing-title">Project 5005: Development of an open source tool to model waiting lists for elective surgery</a>
+</td>
+<td>
+<span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-description">Project 5005 : “Development of an open source tool to model waiting lists for elective surgery” Dominic Allen, Leeds Teaching Hospitals Trust</span>
+</td>
+
+</tr>
+
+<tr data-index="30" data-listing-date-sort="1702944000000" data-listing-title-sort="Project 5008: Modelling the location of neonatal critical care units in North West England">
+<td>
+<a href="https://www.youtube.com/watch?v=Fsn_PTGCERI" class="title listing-title">Project 5008: Modelling the location of neonatal critical care units in North West England</a>
+</td>
+<td>
+<span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-description">Project 5008 : “Modelling the location of neonatal critical care units in North West England” Duncan Galletly, North West Neonatal Operational Delivery Network</span>
+</td>
+
+</tr>
+
+<tr data-index="31" data-listing-date-sort="1702944000000" data-listing-title-sort="Project 5004: Modelling the effect of complex discharge delays on acute performance">
+<td>
+<a href="https://www.youtube.com/watch?v=nrUkRha_5F0" class="title listing-title">Project 5004: Modelling the effect of complex discharge delays on acute performance</a>
+</td>
+<td>
+<span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-description">Project 5004 : “Modelling the effect of complex discharge delays on acute performance” Hannah Perkins, University Hospitals Plymouth</span>
+</td>
+
+</tr>
+
+<tr data-index="32" data-listing-date-sort="1702944000000" data-listing-title-sort="Project 5010: Creating a tool to automatically generate health equity audits for CDC">
+<td>
+<a href="https://www.youtube.com/watch?v=tavZS5MmwOA" class="title listing-title">Project 5010: Creating a tool to automatically generate health equity audits for CDC</a>
+</td>
+<td>
+<span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-description">Project 5010 : “Creating a tool to automatically generate health equity audits for Community Diagnostic Centres” Sarah Houston, UCL Partners and Deborah Newton, Reading Borough Council</span>
+</td>
+
+</tr>
+
+<tr data-index="33" data-listing-date-sort="1702944000000" data-listing-title-sort="Project 5013: Forecasting excess mortality in Dorset">
+<td>
+<a href="https://www.youtube.com/watch?v=e4wYE9tphVk" class="title listing-title">Project 5013: Forecasting excess mortality in Dorset</a>
+</td>
+<td>
+<span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-description">Project 5013 : “Forecasting excess mortality in Dorset” Ellie Jeram, Lee Robertson and Wilson Otitonaiye, Public Health Dorset</span>
+</td>
+
+</tr>
+
+<tr data-index="34" data-listing-date-sort="1702944000000" data-listing-title-sort="Project 5015: A Discrete Event Simulation Model to reduce Rheumatology Waiting Times in Dorset">
+<td>
+<a href="https://www.youtube.com/watch?v=P6nQle5tgBM" class="title listing-title">Project 5015: A Discrete Event Simulation Model to reduce Rheumatology Waiting Times in Dorset</a>
+</td>
+<td>
+<span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-description">Project 5015 : “A Discrete Event Simulation Model to reduce Rheumatology Waiting Times in Dorset” Abby Dewhurst, NHS Dorset and Claire Davies, BCP Council</span>
+</td>
+
+</tr>
+
+<tr data-index="35" data-listing-date-sort="1702944000000" data-listing-title-sort="An Alumnus Story : Life Beyond HSMA">
+<td>
+<a href="https://www.youtube.com/watch?v=pss1Hb0e2z4" class="title listing-title">An Alumnus Story : Life Beyond HSMA</a>
+</td>
+<td>
+<span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-description">“An Alumnus Story : Life Beyond HSMA” Matt Eves, Derbyshire Community Health Services In this talk, Matt Eves (HSMA alumnus) will talk about the work he has undertaken since being part of the HSMA programme in 2022, including work to develop automated tools with web application interfaces that…</span>
+</td>
+
+</tr>
+
+<tr data-index="36" data-listing-date-sort="1707696000000" data-listing-title-sort="Meeting the demand of 111 for primary care services">
+<td>
+<a href="https://www.youtube.com/watch?v=cg5Bp3O02io" class="title listing-title">Meeting the demand of 111 for primary care services</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-description">Meeting the demand of 111 for primary care services - Richard Pilbery, Maddie Smith, Jon Green</span>
+</td>
+
+</tr>
+
+<tr data-index="37" data-listing-date-sort="1707696000000" data-listing-title-sort="Use Of Discrete Event Simulation (DES) to reduce delays in Cancer Diagnosis &amp; Treatment">
+<td>
+<a href="https://www.youtube.com/watch?v=Wmpu4fpu0J4" class="title listing-title">Use Of Discrete Event Simulation (DES) to reduce delays in Cancer Diagnosis &amp; Treatment</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-description">Use Of Discrete Event Simulation (DES) to reduce delays in Cancer Diagnosis &amp; Treatment - Angel Masih, James Page, Mahya Kaveh</span>
+</td>
+
+</tr>
+
+<tr data-index="38" data-listing-date-sort="1707696000000" data-listing-title-sort="South East Regional Covid 19 Vaccination Demand &amp; Capacity Modelling">
+<td>
+<a href="https://www.youtube.com/watch?v=_AWTVeNqOwM" class="title listing-title">South East Regional Covid 19 Vaccination Demand &amp; Capacity Modelling</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-description">South East Regional Covid 19 Vaccination Demand &amp; Capacity Modelling - Charlene Black, Adonis Sithole, Edward Chick, Mayoor Dhokia</span>
+</td>
+
+</tr>
+
+<tr data-index="39" data-listing-date-sort="1707696000000" data-listing-title-sort="Discrete Event Simulation of Cognitive Behavioural Therapy Pathway in an IAPT Service">
+<td>
+<a href="https://www.youtube.com/watch?v=KPmxGzSuN0s" class="title listing-title">Discrete Event Simulation of Cognitive Behavioural Therapy Pathway in an IAPT Service</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-description">Discrete Event Simulation of Cognitive Behavioural Therapy Pathway in an IAPT Service - Katie Brown, Hannah Carroll, Andrew Poole, Matthew Chapman</span>
+</td>
+
+</tr>
+
+<tr data-index="40" data-listing-date-sort="1707696000000" data-listing-title-sort="Effect of Booked Appointments on Waiting Times at Urgent Treatment Centres">
+<td>
+<a href="https://www.youtube.com/watch?v=W1cK5vVukXc" class="title listing-title">Effect of Booked Appointments on Waiting Times at Urgent Treatment Centres</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-description">Effect of Booked Appointments on Waiting Times at Urgent Treatment Centres - Alice Waterhouse</span>
+</td>
+
+</tr>
+
+<tr data-index="41" data-listing-date-sort="1707696000000" data-listing-title-sort="Reducing Travel Times to Treatment for Cardiac Patients in the South East of England">
+<td>
+<a href="https://www.youtube.com/watch?v=28yXjieiMEM" class="title listing-title">Reducing Travel Times to Treatment for Cardiac Patients in the South East of England</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-description">Reducing Travel Times to Treatment for Cardiac Patients in the South East of England - Glenn Ubly, Atonia Drummond, Janine James, Victor Yu</span>
+</td>
+
+</tr>
+
+<tr data-index="42" data-listing-date-sort="1707696000000" data-listing-title-sort="Forecasting Demand and Length of Stay in the Emergency Department">
+<td>
+<a href="https://www.youtube.com/watch?v=a7MtCSbTg0I" class="title listing-title">Forecasting Demand and Length of Stay in the Emergency Department</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-description">Forecasting Demand and Length of Stay in the Emergency Department - Lisa Sabir</span>
+</td>
+
+</tr>
+
+<tr data-index="43" data-listing-date-sort="1707696000000" data-listing-title-sort="Developing a Service Planning Decision Support Tool to Tackle Inequalities &amp; Minimise Carbon Output">
+<td>
+<a href="https://www.youtube.com/watch?v=zYWte2obxDs" class="title listing-title">Developing a Service Planning Decision Support Tool to Tackle Inequalities &amp; Minimise Carbon Output</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-description">Developing a Service Planning Decision Support Tool to Tackle Inequalities and Minimise Carbon Output - Matt Eves, Anya Gopfert, Sally Brown</span>
+</td>
+
+</tr>
+
+<tr data-index="44" data-listing-date-sort="1707696000000" data-listing-title-sort="Using DES to Improve Flow through an Acute Medicine Assessment Pathway">
+<td>
+<a href="https://www.youtube.com/watch?v=TDTyBcVZDUU" class="title listing-title">Using DES to Improve Flow through an Acute Medicine Assessment Pathway</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-description">Using DES to Improve Flow through an Acute Medicine Assessment Pathway - Helen Young, Thomas Knight</span>
+</td>
+
+</tr>
+
+<tr data-index="45" data-listing-date-sort="1707696000000" data-listing-title-sort="Spatial Modelling of Violent Crime to Support Strategic Analysis">
+<td>
+<a href="https://www.youtube.com/watch?v=K0g2Iaw3blY" class="title listing-title">Spatial Modelling of Violent Crime to Support Strategic Analysis</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-description">Spatial Modelling of Violent Crime to Support Strategic Analysis</span>
+</td>
+
+</tr>
+
+<tr data-index="46" data-listing-date-sort="1707696000000" data-listing-title-sort="Discrete Event Simulation to Improve Flow and Performance in the Urgent Treatment Centre">
+<td>
+<a href="https://www.youtube.com/watch?v=3JO8_70hHdA" class="title listing-title">Discrete Event Simulation to Improve Flow and Performance in the Urgent Treatment Centre</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-description">Discrete Event Simulation to Improve Flow and Performance in the Urgent Treatment Centre - Shilpa Patel</span>
+</td>
+
+</tr>
+
+<tr data-index="47" data-listing-date-sort="1707696000000" data-listing-title-sort="The role of PIFU and ‘Digital Outpatients’ in Supporting the Elective Recovery">
+<td>
+<a href="https://www.youtube.com/watch?v=TO5sKaW6BGk" class="title listing-title">The role of PIFU and ‘Digital Outpatients’ in Supporting the Elective Recovery</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-description">The role of Patient Initiated Follow-up (PIFU) and ‘Digital Outpatients’ in Supporting the Elective Recovery - Martina Fonseca, Xiaochen Ge</span>
+</td>
+
+</tr>
+
+<tr data-index="48" data-listing-date-sort="1707696000000" data-listing-title-sort="Use of DES to tackle long waits &amp; growing backlog for children needing neuro development assessment">
+<td>
+<a href="https://www.youtube.com/watch?v=IuD0tmKtjV4" class="title listing-title">Use of DES to tackle long waits &amp; growing backlog for children needing neuro development assessment</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-description">Use of discrete event simulation to tackle long waits and a growing backlog for children requiring neuro development assessment (Autism and ADHD) - Irma Tanovic</span>
+</td>
+
+</tr>
+
+<tr data-index="49" data-listing-date-sort="1707696000000" data-listing-title-sort="Using machine learning to predict hospital admissions &amp; Length of Stay for respiratory conditions">
+<td>
+<a href="https://www.youtube.com/watch?v=-0AGbib9Ig0" class="title listing-title">Using machine learning to predict hospital admissions &amp; Length of Stay for respiratory conditions</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-description">Using machine learning to predict hospital admissions &amp; Length of Stay for respiratory conditions - Andy McCann</span>
+</td>
+
+</tr>
+
+<tr data-index="50" data-listing-date-sort="1707696000000" data-listing-title-sort="Simulation modelling to test proposed models of pediatric critical care in South West England">
+<td>
+<a href="https://www.youtube.com/watch?v=eOqujR64JkQ" class="title listing-title">Simulation modelling to test proposed models of pediatric critical care in South West England</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-description">Simulation modelling to test proposed models of pediatric critical care in South West England - Adam Scull</span>
+</td>
+
+</tr>
+
+<tr data-index="51" data-listing-date-sort="1707696000000" data-listing-title-sort="Exploring the use of Machine Learning and NLP to predict admissions based on GP notes">
+<td>
+<a href="https://www.youtube.com/watch?v=xlHuSYo4XAg" class="title listing-title">Exploring the use of Machine Learning and NLP to predict admissions based on GP notes</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-description">Exploring the use of Machine Learning and Natural Language Processing to teach a machine to predict whether a patient is likely to be imminently admitted to hospital based on GP data and clues in GP notes - Adam Kwiatkowski, Mona Nasser, Imca Hensels-Pelling</span>
+</td>
+
+</tr>
+
+<tr data-index="52" data-listing-date-sort="1707696000000" data-listing-title-sort="Developing a generic vaccination service model for the COVID-19 pandemic and beyond">
+<td>
+<a href="https://www.youtube.com/watch?v=Ve5LuePWrQ4" class="title listing-title">Developing a generic vaccination service model for the COVID-19 pandemic and beyond</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-description">Developing a generic vaccination service model for the COVID-19 pandemic and beyond - Adam Kwiatkowski</span>
+</td>
+
+</tr>
+
+<tr data-index="53" data-listing-date-sort="1707696000000" data-listing-title-sort="Modelling strategies to reduce the elective backlog in hip surgery">
+<td>
+<a href="https://www.youtube.com/watch?v=VLituG9Sbc0" class="title listing-title">Modelling strategies to reduce the elective backlog in hip surgery</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-description">Modelling strategies to reduce the elective backlog in hip surgery - Claire Rudler, Matt Smith, Imca Hensels-Pelling, Zoe Ficken</span>
+</td>
+
+</tr>
+
+<tr data-index="54" data-listing-date-sort="1707696000000" data-listing-title-sort="Generating a richer understanding of relationships in crime data to safeguard individuals &amp; families">
+<td>
+<a href="https://www.youtube.com/watch?v=oSPxFaeDa5Q" class="title listing-title">Generating a richer understanding of relationships in crime data to safeguard individuals &amp; families</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-description">Generating a richer understanding of relationships in crime data in order to identify opportunities to safeguard individuals and families</span>
+</td>
+
+</tr>
+
+<tr data-index="55" data-listing-date-sort="1707696000000" data-listing-title-sort="An AI tool to determine the sentiment of tweets to police forces across the UK">
+<td>
+<a href="https://www.youtube.com/watch?v=Vj2a-Q_RwKo" class="title listing-title">An AI tool to determine the sentiment of tweets to police forces across the UK</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-description">What are they saying about us? An AI tool to determine the sentiment of tweets to police forces across the country, and what people are talking about</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<div class="listing-no-matching d-none">No matching items</div>
+<nav id="showcase-recordings-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div>
+<p>You can also browse the <a href="https://www.youtube.com/playlist?list=PLgHO2TgIJXdlwBbDGJqFBoh9qhjnKZVd6">HSMA 6</a>, <a href="https://www.youtube.com/playlist?list=PLgHO2TgIJXdl1MvfkwCGJ6n8_1EYCSzex">HSMA 5</a>, <a href="https://www.youtube.com/playlist?list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN">HSMA 4</a> and <a href="https://www.youtube.com/playlist?list=PLgHO2TgIJXdnAWY7tGGPQLWYAjn0tgG_A">HSMA 3</a> playlists on YouTube.</p>
+<p>To search these recordings alongside talks, webinars and workshops from other communities, use the <a href="../../recordings/index.html">Recordings Finder</a>.</p>
+
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/atlas\.hsma\.co\.uk");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p><a href="https://www.hsma.co.uk/"><img src="../../resources/hsma_logo.png" class="img-fluid" width="150"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://arc-swp.nihr.ac.uk/"><img src="../../resources/nihr_logo.png" class="img-fluid" width="250"></a><br><br> <em>This report is independent research supported by the National Institute for Health and Care Research Applied Research Collaboration South West Peninsula.<br> The views expressed in this publication are those of the author(s) and not necessarily those of the National Institute for Health and Care Research or the Department of Health and Social Care.</em> <br><br></p>
+<div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

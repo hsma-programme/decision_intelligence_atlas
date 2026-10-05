@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Books and Training – The Healthcare Service Analytics &amp; Decision Intelligence Atlas</title>
+<title>Books, Training and Communities – The Healthcare Service Analytics &amp; Decision Intelligence Atlas</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -79,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-all .list');
+    const listingTargetEl = window.document.querySelector('#listing-books-healthcare .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -92,7 +92,203 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-all'] = new List('listing-all', options);
+    window['quarto-listings']['listing-books-healthcare'] = new List('listing-books-healthcare', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-books-general .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-webr','listing-filters','listing-website','listing-language','listing-format','listing-draft-mode','listing-date-format','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-title','listing-categories','listing-tool-language','listing-status','listing-image','listing-author','listing-pub-info','listing-date','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-webr","listing-filters","listing-website","listing-language","listing-format","listing-draft-mode","listing-date-format","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-title","listing-categories","listing-tool-language","listing-status","listing-image","listing-author","listing-pub-info","listing-date","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-books-general'] = new List('listing-books-general', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-books-paid .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-webr','listing-filters','listing-website','listing-language','listing-format','listing-draft-mode','listing-date-format','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-title','listing-categories','listing-tool-language','listing-status','listing-author','listing-pub-info','listing-date','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-webr","listing-filters","listing-website","listing-language","listing-format","listing-draft-mode","listing-date-format","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-title","listing-categories","listing-tool-language","listing-status","listing-author","listing-pub-info","listing-date","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-books-paid'] = new List('listing-books-paid', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-training-courses .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-webr','listing-filters','listing-website','listing-language','listing-format','listing-draft-mode','listing-date-format','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-title','listing-categories','listing-tool-language','listing-status','listing-image','listing-author','listing-pub-info','listing-date','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-aliases','listing-listing',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-webr","listing-filters","listing-website","listing-language","listing-format","listing-draft-mode","listing-date-format","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-title","listing-categories","listing-tool-language","listing-status","listing-image","listing-author","listing-pub-info","listing-date","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-aliases","listing-listing"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-training-courses'] = new List('listing-training-courses', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-training-interactive .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-webr','listing-filters','listing-website','listing-language','listing-format','listing-draft-mode','listing-date-format','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-title','listing-aliases','listing-categories','listing-tool-language','listing-status','listing-image','listing-author','listing-pub-info','listing-date','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-webr","listing-filters","listing-website","listing-language","listing-format","listing-draft-mode","listing-date-format","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-title","listing-aliases","listing-categories","listing-tool-language","listing-status","listing-image","listing-author","listing-pub-info","listing-date","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-training-interactive'] = new List('listing-training-interactive', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-training-reference .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-webr','listing-filters','listing-website','listing-language','listing-format','listing-draft-mode','listing-date-format','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-title','listing-aliases','listing-categories','listing-tool-language','listing-status','listing-image','listing-author','listing-pub-info','listing-date','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-webr","listing-filters","listing-website","listing-language","listing-format","listing-draft-mode","listing-date-format","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-title","listing-aliases","listing-categories","listing-tool-language","listing-status","listing-image","listing-author","listing-pub-info","listing-date","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-training-reference'] = new List('listing-training-reference', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-training-recordings .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-webr','listing-filters','listing-website','listing-language','listing-format','listing-draft-mode','listing-date-format','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-title','listing-categories','listing-tool-language','listing-status','listing-image','listing-author','listing-pub-info','listing-date','listing-listing','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-webr","listing-filters","listing-website","listing-language","listing-format","listing-draft-mode","listing-date-format","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-title","listing-categories","listing-tool-language","listing-status","listing-image","listing-author","listing-pub-info","listing-date","listing-listing","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-training-recordings'] = new List('listing-training-recordings', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-communities .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-webr','listing-filters','listing-website','listing-language','listing-format','listing-draft-mode','listing-date-format','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-title','listing-categories','listing-tool-language','listing-status','listing-image','listing-author','listing-pub-info','listing-date','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-aliases',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-webr","listing-filters","listing-website","listing-language","listing-format","listing-draft-mode","listing-date-format","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-title","listing-categories","listing-tool-language","listing-status","listing-image","listing-author","listing-pub-info","listing-date","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-aliases"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-communities'] = new List('listing-communities', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -353,15 +549,19 @@ window.Quarto = {
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="../index.html"> 
-<span class="menu-text">Welcome</span></a>
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../packages_projects_tools/index.html"> 
-<span class="menu-text">Packages, Projects and Tools</span></a>
+<span class="menu-text">Packages, Projects &amp; Tools</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="../books_training/index.html" aria-current="page"> 
-<span class="menu-text">Books &amp; Training</span></a>
+<span class="menu-text">Books, Training &amp; Communities</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../recordings/index.html"> 
+<span class="menu-text">Recordings</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../techniques/index.html"> 
@@ -369,7 +569,7 @@ window.Quarto = {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../graph_catalogue/index.html"> 
-<span class="menu-text">Graph Catalogue</span></a>
+<span class="menu-text">Graphs</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../about/index.html"> 
@@ -414,7 +614,7 @@ window.Quarto = {
 
         <div class="quarto-title-banner" style="width: 100%;display: flex;justify-content: center;align-items: center;flex-direction: column;text-transform: uppercase;text-align: center;min-height: 200px;z-index: 1;">
 
-            <h1 class="title">Books and Training</h1>
+            <h1 class="title">Books, Training and Communities</h1>
                         
                                 </div>
 
@@ -423,7 +623,7 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="Qm9va3M=">Books <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Q291cnNlcyUyMGFuZCUyMFRyYWluaW5nJTIwb3IlMjBSZWZlcmVuY2UlMjBNYXRlcmlhbHM=">Courses and Training or Reference Materials <span class="quarto-category-count">(7)</span></div><div class="category" data-category="SWRlbnRpZnlpbmclMjBCb3R0bGVuZWNrcw==">Identifying Bottlenecks <span class="quarto-category-count">(4)</span></div><div class="category" data-category="UkFQ">RAP <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U2VydmljZSUyMFBsYW5uaW5n">Service Planning <span class="quarto-category-count">(5)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(33)</span></div><div class="category" data-category="QXN5bmNocm9ub3Vz">Asynchronous <span class="quarto-category-count">(11)</span></div><div class="category" data-category="Qm9va3M=">Books <span class="quarto-category-count">(10)</span></div><div class="category" data-category="Q29tbXVuaXRpZXM=">Communities <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Q291cnNlcw==">Courses <span class="quarto-category-count">(13)</span></div><div class="category" data-category="Q291cnNlcyUyMGFuZCUyMFRyYWluaW5nJTIwb3IlMjBSZWZlcmVuY2UlMjBNYXRlcmlhbHM=">Courses and Training or Reference Materials <span class="quarto-category-count">(33)</span></div><div class="category" data-category="RGF0YSUyMFZpc3VhbGlzYXRpb24=">Data Visualisation <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Rm9yZWNhc3Rpbmc=">Forecasting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2VuZXJhbCUyME9wZW4lMjBBbmFseXRpY3M=">General Open Analytics <span class="quarto-category-count">(3)</span></div><div class="category" data-category="SWRlbnRpZnlpbmclMjBCb3R0bGVuZWNrcw==">Identifying Bottlenecks <span class="quarto-category-count">(4)</span></div><div class="category" data-category="SW50ZXJhY3RpdmUlMjBMZWFybmluZyUyMFRvb2xz">Interactive Learning Tools <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFjaGluZSUyMExlYXJuaW5n">Machine Learning <span class="quarto-category-count">(5)</span></div><div class="category" data-category="UGFpZCUyMFJlc291cmNlcw==">Paid Resources <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UkFQ">RAP <span class="quarto-category-count">(5)</span></div><div class="category" data-category="UmVjb3JkZWQlMjBUYWxrcw==">Recorded Talks <span class="quarto-category-count">(5)</span></div><div class="category" data-category="UmVmZXJlbmNlJTIwU2l0ZXM=">Reference Sites <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U2VydmljZSUyMFBsYW5uaW5n">Service Planning <span class="quarto-category-count">(10)</span></div><div class="category" data-category="U3luY2hyb25vdXM=">Synchronous <span class="quarto-category-count">(2)</span></div><div class="category" data-category="VHJhdmVsJTIwVGltZXM=">Travel Times <span class="quarto-category-count">(2)</span></div><div class="category" data-category="V2ViJTIwSW50ZXJmYWNlJTIwQ3JlYXRpb24=">Web Interface Creation <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -480,11 +680,20 @@ new FinisherHeader({
 <p>If you have any concerns, or would like any content to be removed, please <a href="https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose">raise an issue on the repository</a>.</p>
 </div></div></div>
 <p><br></p>
-<div id="listing-all" class="quarto-listing quarto-listing-container-custom">
+<p><i class="fa-solid fa-hospital"></i> indicates a resource has been written by a team in the NHS, Public Health England, or a similar organisation</p>
+<p><i class="fa-solid fa-user-graduate"></i> indicates a resource has been written by academics, though often they will be working in partnership with NHS organisations in some manner</p>
+<p><i class="fa-solid fa-sterling-sign"></i> indicates a resource is not free to access</p>
+<section id="books" class="level2">
+<h2 class="anchored" data-anchor-id="books">Books</h2>
+<p>Books and eBooks covering analytics, modelling and data science techniques. Most are free to read online; paid books are listed separately at the end of this section.</p>
+<section id="healthcare-specific" class="level3">
+<h3 class="anchored" data-anchor-id="healthcare-specific">Healthcare-specific</h3>
+<p>Books written for, or built around examples from, health and care settings.</p>
+<div id="listing-books-healthcare" class="quarto-listing quarto-listing-container-custom">
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="U2VydmljZSUyMFBsYW5uaW5nJTJDSWRlbnRpZnlpbmclMjBCb3R0bGVuZWNrcyUyQ1JBUCUyQ0NvdXJzZXMlMjBhbmQlMjBUcmFpbmluZyUyMG9yJTIwUmVmZXJlbmNlJTIwTWF0ZXJpYWxzJTJDQm9va3M=" data-listing-date-sort="1763721370000" data-listing-file-modified-sort="1790958620789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="252">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="U2VydmljZSUyMFBsYW5uaW5nJTJDSWRlbnRpZnlpbmclMjBCb3R0bGVuZWNrcyUyQ1JBUCUyQ0NvdXJzZXMlMjBhbmQlMjBUcmFpbmluZyUyMG9yJTIwUmVmZXJlbmNlJTIwTWF0ZXJpYWxzJTJDQm9va3M=" data-listing-date-sort="1763721370000" data-listing-file-modified-sort="1791198123872" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="252">
             <div class="main-card-content">
             
                   <a href="../books_training/des_rap_book/index.html">
@@ -504,6 +713,10 @@ new FinisherHeader({
             <div class="project-status">
               Status: <span style="color: #D18B12FF">Gold</span>
             </div>
+            
+
+            
+            
             
 
             
@@ -540,30 +753,34 @@ new FinisherHeader({
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="U2VydmljZSUyMFBsYW5uaW5nJTJDSWRlbnRpZnlpbmclMjBCb3R0bGVuZWNrcyUyQ0NvdXJzZXMlMjBhbmQlMjBUcmFpbmluZyUyMG9yJTIwUmVmZXJlbmNlJTIwTWF0ZXJpYWxz" data-listing-date-sort="1763721370000" data-listing-file-modified-sort="1790958620790" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="235">
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="UkFQJTJDQ291cnNlcyUyMGFuZCUyMFRyYWluaW5nJTIwb3IlMjBSZWZlcmVuY2UlMjBNYXRlcmlhbHMlMkNCb29rcw==" data-listing-date-sort="1791154800000" data-listing-file-modified-sort="1791198123874" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="168">
             <div class="main-card-content">
             
-                  <a href="../books_training/hsma_des_module/index.html">
-              <img class="card-img" src="../books_training/hsma_des_module/hsma_des_module.png" alt="HSMA: Discrete Event Simulation Module">
+                  <a href="../books_training/health_rap_playbook/index.html">
+              <img class="card-img" src="../books_training/health_rap_playbook/image.png" alt="Health RAP Playbook (Alpha)">
                   </a>
                 
 
             <div class="project-content listing-title">
                 <h5 class="no-anchor card-title listing-title">
-                  <a href="../books_training/hsma_des_module/index.html" class="title-link">HSMA: Discrete Event Simulation Module
-                    <i class="fa-solid fa-user-graduate"></i>
+                  <a href="../books_training/health_rap_playbook/index.html" class="title-link">Health RAP Playbook (Alpha)
+                    <i class="fa-solid fa-hospital"></i>
                   </a>
                 </h5>
             </div>
 
             
             <div class="project-status">
-              Status: <span style="color: #D18B12FF">Gold</span>
+              Status: <span style="color: #888888FF">Silver</span>
             </div>
             
 
             
-              <p class="listing-abstract">This is a collection of slides, session recordings, code examples, exercises, exercise solutions and solution videos from the discrete event simulation (DES) module of the Health Service Modelling Associates Programme, covering 9 hours of content. It teaches discrete event simulation with the Python SimPy package, assuming no prior knowledge of the package or DES concepts. DES is helpful for building simulations of pathways and services, allowing 'what-if' questions to be tested.
+            
+            
+
+            
+              <p class="listing-abstract">The Health RAP Playbook, maintained by NHS England, documents the processes, tools and technologies used in health and care when creating Reproducible Analytical Pipelines (RAP). It complements existing UK Government and NHS RAP guidance, and is aimed at analysts, analytical leaders, IT, cyber and information governance professionals, and members of the public.
 </p>
                 
 
@@ -576,12 +793,16 @@ new FinisherHeader({
           </div>
 
             <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="../books_training/hsma_des_module/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+              <button class="project-link-listing-button"><a href="../books_training/health_rap_playbook/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
                     
                       
                           
                             
-                      <button class="project-link-listing-button"><a href="https://hsma.co.uk/hsma_content/modules/current_module_details/2_des.html"><i class="fa-solid fa-book"></i> Module </a></button>
+                      <button class="project-link-listing-button"><a href="https://github.com/nhsengland/Health-RAP-Playbook-Alpha"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://nhsengland.github.io/Health-RAP-Playbook-Alpha/"><i class="fa-solid fa-book"></i> eBook </a></button>
                           
                         
                         
@@ -590,17 +811,17 @@ new FinisherHeader({
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="U2VydmljZSUyMFBsYW5uaW5nJTJDSWRlbnRpZnlpbmclMjBCb3R0bGVuZWNrcyUyQ0NvdXJzZXMlMjBhbmQlMjBUcmFpbmluZyUyMG9yJTIwUmVmZXJlbmNlJTIwTWF0ZXJpYWxz" data-listing-date-sort="1763721370000" data-listing-file-modified-sort="1790958620794" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="127">
+      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="Q291cnNlcyUyMGFuZCUyMFRyYWluaW5nJTIwb3IlMjBSZWZlcmVuY2UlMjBNYXRlcmlhbHMlMkNCb29rcw==" data-listing-file-modified-sort="1791198123876" data-listing-reading-time-sort="1" data-listing-word-count-sort="91">
             <div class="main-card-content">
             
-                  <a href="../books_training/hsma_des_playground/index.html">
-              <img class="card-img" src="../books_training/hsma_des_playground/desplayground.png" alt="HSMA: The Discrete Event Simulation (DES) Playground">
+                  <a href="../books_training/healthcare_decision_intelligence/index.html">
+              <img class="card-img" src="../books_training/healthcare_decision_intelligence/healthcare_decision_intelligence.jpg" alt="Healthcare Decision Intelligence eBook">
                   </a>
                 
 
             <div class="project-content listing-title">
                 <h5 class="no-anchor card-title listing-title">
-                  <a href="../books_training/hsma_des_playground/index.html" class="title-link">HSMA: The Discrete Event Simulation (DES) Playground
+                  <a href="../books_training/healthcare_decision_intelligence/index.html" class="title-link">Healthcare Decision Intelligence eBook
                     <i class="fa-solid fa-user-graduate"></i>
                   </a>
                 </h5>
@@ -613,7 +834,11 @@ new FinisherHeader({
             
 
             
-              <p class="listing-abstract">The Discrete Event Simulation (DES) playground is an interactive web application designed to teach the fundamental concepts of DES to absolute beginners. Used to support a range of training sessions, it can also be used as a standalone tool to introduce yourself to why DES is useful, building up from a very simple to a more complex model and allowing you to explore the impact of changing a range of parameters. DES is used for building simulations of pathways and services, allowing 'what-if' questions to be tested.
+            
+            
+
+            
+              <p class="listing-abstract">Healthcare Decision Intelligence is a free eBook series helping analysts, clinicians, managers and decision-makers to interpret, question and use healthcare data responsibly. Grounded in realistic NHS scenarios, its modules cover topics such as rates, variation, fair comparison, reading dashboards, evaluation, uncertainty, demand and capacity, data quality, health economics and population health management, each with questions decision-makers should ask. It is accompanied by an interactive companion app that recommends what to read next.
 </p>
                 
 
@@ -626,18 +851,20 @@ new FinisherHeader({
           </div>
 
             <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="../books_training/hsma_des_playground/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+              <button class="project-link-listing-button"><a href="../books_training/healthcare_decision_intelligence/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
                     
                       
                           
                             
-                      <button class="project-link-listing-button"><a href="https://github.com/hsma-programme/Teaching_DES_Concepts_Streamlit"><i class="fa-brands fa-github"></i> Code </a></button>
+                        
+                            
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://ckaur5689.github.io/DecisionIntelligence/"><i class="fa-solid fa-book"></i> eBook </a></button>
                           
                         
                             
-                        
-                            
-                      <button class="project-link-listing-button"><a href="https://playground.hsma.co.uk/"><i class="fa-solid fa-globe"></i> Web App </a></button>
+                      <button class="project-link-listing-button"><a href="https://decisionintelligence-healthcare.streamlit.app"><i class="fa-solid fa-globe"></i> eBook Companion </a></button>
                           
                         
                         
@@ -646,7 +873,65 @@ new FinisherHeader({
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="3" data-categories="U2VydmljZSUyMFBsYW5uaW5nJTJDSWRlbnRpZnlpbmclMjBCb3R0bGVuZWNrcyUyQ0NvdXJzZXMlMjBhbmQlMjBUcmFpbmluZyUyMG9yJTIwUmVmZXJlbmNlJTIwTWF0ZXJpYWxzJTJDQm9va3M=" data-listing-date-sort="1763721370000" data-listing-file-modified-sort="1790958620794" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="121">
+      <div class="custom-grid-card border-2 rounded-3" data-index="3" data-categories="VHJhdmVsJTIwVGltZXMlMkNTZXJ2aWNlJTIwUGxhbm5pbmclMkNEYXRhJTIwVmlzdWFsaXNhdGlvbiUyQ0NvdXJzZXMlMjBhbmQlMjBUcmFpbmluZyUyMG9yJTIwUmVmZXJlbmNlJTIwTWF0ZXJpYWxzJTJDQm9va3M=" data-listing-date-sort="1791154800000" data-listing-file-modified-sort="1791198123881" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="161">
+            <div class="main-card-content">
+            
+                  <a href="../books_training/hsma_geographic_book/index.html">
+              <img class="card-img" src="../books_training/hsma_geographic_book/hsma_geographic_book.png" alt="HSMA: Geographic Modelling and Visualisation">
+                  </a>
+                
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../books_training/hsma_geographic_book/index.html" class="title-link">HSMA: Geographic Modelling and Visualisation
+                    <i class="fa-solid fa-user-graduate"></i>
+                  </a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: <span style="color: #D18B12FF">Gold</span>
+            </div>
+            
+
+            
+            
+            
+
+            
+              <p class="listing-abstract">HSMA: Geographic Modelling and Visualisation is a free eBook written to accompany the geographic module of the Health Service Modelling Associates (HSMA) programme. It covers key geographic concepts, making maps in the free point-and-click tool QGIS and in Python, working with travel times, solving facility location problems such as where to place services, and redrawing boundaries.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../books_training/hsma_geographic_book/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/hsma-programme/hsma6_geographic_optimisation_and_visualisation_book"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://geographic.hsma.co.uk"><i class="fa-solid fa-book"></i> eBook </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="4" data-categories="U2VydmljZSUyMFBsYW5uaW5nJTJDSWRlbnRpZnlpbmclMjBCb3R0bGVuZWNrcyUyQ0NvdXJzZXMlMjBhbmQlMjBUcmFpbmluZyUyMG9yJTIwUmVmZXJlbmNlJTIwTWF0ZXJpYWxzJTJDQm9va3M=" data-listing-date-sort="1763721370000" data-listing-file-modified-sort="1791198123885" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="121">
             <div class="main-card-content">
             
                   <a href="../books_training/hsma_little_book_of_des/index.html">
@@ -666,6 +951,10 @@ new FinisherHeader({
             <div class="project-status">
               Status: <span style="color: #D18B12FF">Gold</span>
             </div>
+            
+
+            
+            
             
 
             
@@ -702,17 +991,17 @@ new FinisherHeader({
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="4" data-categories="U2VydmljZSUyMFBsYW5uaW5nJTJDQ291cnNlcyUyMGFuZCUyMFRyYWluaW5nJTIwb3IlMjBSZWZlcmVuY2UlMjBNYXRlcmlhbHM=" data-listing-date-sort="1763721370000" data-listing-file-modified-sort="1790958620795" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
+      <div class="custom-grid-card border-2 rounded-3" data-index="5" data-categories="TWFjaGluZSUyMExlYXJuaW5nJTJDQ291cnNlcyUyMGFuZCUyMFRyYWluaW5nJTIwb3IlMjBSZWZlcmVuY2UlMjBNYXRlcmlhbHMlMkNCb29rcw==" data-listing-date-sort="1791154800000" data-listing-file-modified-sort="1791198123890" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="186">
             <div class="main-card-content">
             
-                  <a href="../books_training/julia_healthcare/index.html">
-              <img class="card-img" src="../books_training/julia_healthcare/screenshot.png" alt="Julia for healthcare modelling and data science">
+                  <a href="../books_training/hsma_machine_learning_notebooks/index.html">
+              <img class="card-img" src="../books_training/hsma_machine_learning_notebooks/hsma_machine_learning_notebooks.png" alt="HSMA: Machine Learning Notebooks">
                   </a>
                 
 
             <div class="project-content listing-title">
                 <h5 class="no-anchor card-title listing-title">
-                  <a href="../books_training/julia_healthcare/index.html" class="title-link">Julia for healthcare modelling and data science
+                  <a href="../books_training/hsma_machine_learning_notebooks/index.html" class="title-link">HSMA: Machine Learning Notebooks
                     <i class="fa-solid fa-user-graduate"></i>
                   </a>
                 </h5>
@@ -720,12 +1009,16 @@ new FinisherHeader({
 
             
             <div class="project-status">
-              Status: <span style="color: #893400FF">Bronze</span>
+              Status: <span style="color: #D18B12FF">Gold</span>
             </div>
             
 
             
-              <p class="listing-abstract">Website with snippets of Julia code helpful for modelling health care systems.
+            
+            
+
+            
+              <p class="listing-abstract">HSMA: Machine Learning Notebooks is a free online collection of the guided code examples from the machine learning module of the Health Service Modelling Associates (HSMA) programme. It covers logistic regression, tree-based models, neural networks, explainable AI, synthetic data and model optimisation in Python, with links to the lecture videos and slides for each session.
 </p>
                 
 
@@ -738,16 +1031,16 @@ new FinisherHeader({
           </div>
 
             <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="../books_training/julia_healthcare/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+              <button class="project-link-listing-button"><a href="../books_training/hsma_machine_learning_notebooks/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
                     
                       
                           
                             
-                      <button class="project-link-listing-button"><a href="https://github.com/julia-healthcare/"><i class="fa-brands fa-github"></i> Code </a></button>
+                      <button class="project-link-listing-button"><a href="https://github.com/hsma-programme/h6_module4_notebooks"><i class="fa-brands fa-github"></i> Code </a></button>
                           
                         
                             
-                      <button class="project-link-listing-button"><a href="https://www.juliahealthcare.org/"><i class="fa-solid fa-globe"></i> Website </a></button>
+                      <button class="project-link-listing-button"><a href="https://machinelearning.hsma.co.uk"><i class="fa-solid fa-book"></i> eBook </a></button>
                           
                         
                         
@@ -756,17 +1049,970 @@ new FinisherHeader({
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="5" data-categories="UkFQJTJDQ291cnNlcyUyMGFuZCUyMFRyYWluaW5nJTIwb3IlMjBSZWZlcmVuY2UlMjBNYXRlcmlhbHMlMkNCb29rcw==" data-listing-date-sort="1763721370000" data-listing-file-modified-sort="1790958620797" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="85">
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="general-open-analytics" class="level3">
+<h3 class="anchored" data-anchor-id="general-open-analytics">General open analytics</h3>
+<p>Open books on analytics, modelling and data science that are not specific to healthcare, but are useful for healthcare analysts.</p>
+<div id="listing-books-general" class="quarto-listing quarto-listing-container-custom">
+<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
+
+    
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Q291cnNlcyUyMGFuZCUyMFRyYWluaW5nJTIwb3IlMjBSZWZlcmVuY2UlMjBNYXRlcmlhbHMlMkNCb29rcyUyQ0dlbmVyYWwlMjBPcGVuJTIwQW5hbHl0aWNz" data-listing-date-sort="1791154800000" data-listing-file-modified-sort="1791198123894" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="139">
             <div class="main-card-content">
             
-                  <a href="../books_training/rap_community_of_practice/index.html">
-              <img class="card-img" src="../books_training/rap_community_of_practice/homepage.png" alt="NHS RAP Community of Practice">
+                  <a href="../books_training/hsma_python_book/index.html">
+              <img class="card-img" src="../books_training/hsma_python_book/hsma_python_book.png" alt="HSMA: Programming in Python">
                   </a>
                 
 
             <div class="project-content listing-title">
                 <h5 class="no-anchor card-title listing-title">
-                  <a href="../books_training/rap_community_of_practice/index.html" class="title-link">NHS RAP Community of Practice
+                  <a href="../books_training/hsma_python_book/index.html" class="title-link">HSMA: Programming in Python
+                    <i class="fa-solid fa-user-graduate"></i>
+                  </a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: <span style="color: #D18B12FF">Gold</span>
+            </div>
+            
+
+            
+            
+            
+
+            
+              <p class="listing-abstract">HSMA: Programming in Python is a free eBook that teaches Python from scratch, written to accompany the introductory module of the Health Service Modelling Associates (HSMA) programme. It covers data types, lists, dictionaries, loops, conditional logic, functions, packages, error handling and object oriented programming, plus an introduction to numpy, pandas and creating graphs.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../books_training/hsma_python_book/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/hsma-programme/hsma6_intro_to_python_book"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://python.hsma.co.uk"><i class="fa-solid fa-book"></i> eBook </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="V2ViJTIwSW50ZXJmYWNlJTIwQ3JlYXRpb24lMkNDb3Vyc2VzJTIwYW5kJTIwVHJhaW5pbmclMjBvciUyMFJlZmVyZW5jZSUyME1hdGVyaWFscyUyQ0Jvb2tzJTJDR2VuZXJhbCUyME9wZW4lMjBBbmFseXRpY3M=" data-listing-date-sort="1791154800000" data-listing-file-modified-sort="1791198123896" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="196">
+            <div class="main-card-content">
+            
+                  <a href="../books_training/hsma_streamlit_book/index.html">
+              <img class="card-img" src="../books_training/hsma_streamlit_book/hsma_streamlit_book.png" alt="HSMA: Web Apps with Streamlit">
+                  </a>
+                
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../books_training/hsma_streamlit_book/index.html" class="title-link">HSMA: Web Apps with Streamlit
+                    <i class="fa-solid fa-user-graduate"></i>
+                  </a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: <span style="color: #D18B12FF">Gold</span>
+            </div>
+            
+
+            
+            
+            
+
+            
+              <p class="listing-abstract">HSMA: Web Apps with Streamlit is a free eBook written to accompany the Streamlit sessions of the Health Service Modelling Associates (HSMA) programme. It takes you from your first Streamlit app through to deploying it on a free hosting service, and acts as a reference guide for techniques such as multi-page apps, download buttons, partial reruns, custom styling, caching, session state and stlite.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../books_training/hsma_streamlit_book/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/hsma-programme/streamlit_book"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://webapps.hsma.co.uk"><i class="fa-solid fa-book"></i> eBook </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="Q291cnNlcyUyMGFuZCUyMFRyYWluaW5nJTIwb3IlMjBSZWZlcmVuY2UlMjBNYXRlcmlhbHMlMkNCb29rcyUyQ0dlbmVyYWwlMjBPcGVuJTIwQW5hbHl0aWNzJTJDRGF0YSUyMFZpc3VhbGlzYXRpb24=" data-listing-date-sort="1791154800000" data-listing-file-modified-sort="1791198123902" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="81">
+            <div class="main-card-content">
+            
+                  <a href="../books_training/r_for_data_science/index.html">
+              <img class="card-img" src="../books_training/r_for_data_science/cover.jpg" alt="R for Data Science (2e)">
+                  </a>
+                
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../books_training/r_for_data_science/index.html" class="title-link">R for Data Science (2e)
+                    <i class="fa-solid fa-user-graduate"></i>
+                  </a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: <span style="color: #D18B12FF">Gold</span>
+            </div>
+            
+
+            
+            
+            
+
+            
+              <p class="listing-abstract">R for Data Science is a free online book that teaches how to do data science with R, from importing and tidying data through to transforming, visualising and communicating it. It is built around the tidyverse collection of packages, including ggplot2, dplyr and tidyr, and Quarto for reporting.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../books_training/r_for_data_science/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/hadley/r4ds"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://r4ds.hadley.nz"><i class="fa-solid fa-book"></i> eBook </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="paid-books" class="level3">
+<h3 class="anchored" data-anchor-id="paid-books">Paid books</h3>
+<p>Books that must be bought or accessed through a paid subscription. These are marked with <i class="fa-solid fa-sterling-sign"></i>.</p>
+<div id="listing-books-paid" class="quarto-listing quarto-listing-container-custom">
+<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
+
+    
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Q291cnNlcyUyMGFuZCUyMFRyYWluaW5nJTIwb3IlMjBSZWZlcmVuY2UlMjBNYXRlcmlhbHMlMkNCb29rcyUyQ1BhaWQlMjBSZXNvdXJjZXMlMkNEYXRhJTIwVmlzdWFsaXNhdGlvbg==" data-listing-date-sort="1791154800000" data-listing-file-modified-sort="1791198123905" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="261">
+            <div class="main-card-content">
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../books_training/visualizing_health_and_healthcare_data/index.html" class="title-link">Visualizing Health and Healthcare Data
+                    <i class="fa-solid fa-sterling-sign" title="Paid resource"></i>
+                  </a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: N/A
+            </div>
+            
+
+            
+            
+            
+
+            
+              <p class="listing-abstract">A paid book from Wiley on data visualisation best practice for health and healthcare professionals. It covers health and healthcare data, visual perception research, gathering requirements, building teams, and designing tables, graphs, dashboards and reports for health data.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../books_training/visualizing_health_and_healthcare_data/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://www.oreilly.com/library/view/visualizing-health-and/9781119680888/"><i class="fa-solid fa-book"></i> O'Reilly </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://www.wiley.com/en-us/Visualizing+Health+and+Healthcare+Data%3A+Creating+Clear+and+Compelling+Visualizations+to+%22See+How+You%27re+Doing%22-p-9781119680888"><i class="fa-solid fa-globe"></i> Publisher </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+</section>
+<section id="training" class="level2">
+<h2 class="anchored" data-anchor-id="training">Training</h2>
+<section id="courses" class="level3">
+<h3 class="anchored" data-anchor-id="courses">Courses</h3>
+<p>Structured courses and modules, often including recorded sessions, slides and exercises.</p>
+<p>Each course is tagged as <strong>synchronous (live)</strong>, meaning it is taught live at set times, or <strong>asynchronous (self-paced)</strong>, meaning its materials can be worked through at any time. Some courses are both. You can also filter by the <code>Synchronous</code> and <code>Asynchronous</code> categories.</p>
+<div id="listing-training-courses" class="quarto-listing quarto-listing-container-custom">
+<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
+
+    
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Q291cnNlcyUyMGFuZCUyMFRyYWluaW5nJTIwb3IlMjBSZWZlcmVuY2UlMjBNYXRlcmlhbHMlMkNDb3Vyc2VzJTJDQXN5bmNocm9ub3Vz" data-listing-date-sort="1791154800000" data-listing-file-modified-sort="1791198123873" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="236">
+            <div class="main-card-content">
+            
+                  <a href="../books_training/hdruk_futures/index.html">
+              <img class="card-img" src="../books_training/hdruk_futures/hdruk_futures.png" alt="HDR UK Futures">
+                  </a>
+                
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../books_training/hdruk_futures/index.html" class="title-link">HDR UK Futures
+                    <i class="fa-solid fa-user-graduate"></i>
+                  </a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: N/A
+            </div>
+            
+
+            
+            
+            
+            <div class="delivery-tags">
+              
+                <span class="delivery-tag delivery-tag-asynchronous">Asynchronous (self-paced)</span>
+              
+            </div>
+            
+
+            
+              <p class="listing-abstract">Futures is a free online learning platform from Health Data Research UK (HDR UK), with self-paced expert-led courses, over 100 short videos and live events on health data science. Courses cover topics such as accessing health data, databases and research software engineering. Courses are free, but some modules charge for a certificate.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../books_training/hdruk_futures/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://hdruklearn.org/"><i class="fa-solid fa-globe"></i> Website </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://www.hdruk.ac.uk/careers-in-health-data-science/futures/"><i class="fa-solid fa-circle-info"></i> About </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="U2VydmljZSUyMFBsYW5uaW5nJTJDSWRlbnRpZnlpbmclMjBCb3R0bGVuZWNrcyUyQ0NvdXJzZXMlMjBhbmQlMjBUcmFpbmluZyUyMG9yJTIwUmVmZXJlbmNlJTIwTWF0ZXJpYWxzJTJDQ291cnNlcyUyQ0FzeW5jaHJvbm91cw==" data-listing-date-sort="1763721370000" data-listing-file-modified-sort="1791198123877" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="235">
+            <div class="main-card-content">
+            
+                  <a href="../books_training/hsma_des_module/index.html">
+              <img class="card-img" src="../books_training/hsma_des_module/hsma_des_module.png" alt="HSMA: Discrete Event Simulation Module">
+                  </a>
+                
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../books_training/hsma_des_module/index.html" class="title-link">HSMA: Discrete Event Simulation Module
+                    <i class="fa-solid fa-user-graduate"></i>
+                  </a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: <span style="color: #D18B12FF">Gold</span>
+            </div>
+            
+
+            
+            
+            
+            <div class="delivery-tags">
+              
+                <span class="delivery-tag delivery-tag-asynchronous">Asynchronous (self-paced)</span>
+              
+            </div>
+            
+
+            
+              <p class="listing-abstract">This is a collection of slides, session recordings, code examples, exercises, exercise solutions and solution videos from the discrete event simulation (DES) module of the Health Service Modelling Associates Programme, covering 9 hours of content. It teaches discrete event simulation with the Python SimPy package, assuming no prior knowledge of the package or DES concepts. DES is helpful for building simulations of pathways and services, allowing 'what-if' questions to be tested.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../books_training/hsma_des_module/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://hsma.co.uk/hsma_content/modules/current_module_details/2_des.html"><i class="fa-solid fa-book"></i> Module </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="VHJhdmVsJTIwVGltZXMlMkNTZXJ2aWNlJTIwUGxhbm5pbmclMkNEYXRhJTIwVmlzdWFsaXNhdGlvbiUyQ0NvdXJzZXMlMjBhbmQlMjBUcmFpbmluZyUyMG9yJTIwUmVmZXJlbmNlJTIwTWF0ZXJpYWxzJTJDQ291cnNlcyUyQ0FzeW5jaHJvbm91cw==" data-listing-date-sort="1791154800000" data-listing-file-modified-sort="1791198123882" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="371">
+            <div class="main-card-content">
+            
+                  <a href="../books_training/hsma_geographic_module/index.html">
+              <img class="card-img" src="../books_training/hsma_geographic_module/hsma_geographic_module.png" alt="HSMA: Geographic Modelling and Visualisation Module">
+                  </a>
+                
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../books_training/hsma_geographic_module/index.html" class="title-link">HSMA: Geographic Modelling and Visualisation Module
+                    <i class="fa-solid fa-user-graduate"></i>
+                  </a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: <span style="color: #D18B12FF">Gold</span>
+            </div>
+            
+
+            
+            
+            
+            <div class="delivery-tags">
+              
+                <span class="delivery-tag delivery-tag-asynchronous">Asynchronous (self-paced)</span>
+              
+            </div>
+            
+
+            
+              <p class="listing-abstract">This is a collection of slides, session recordings, code examples and exercises from the geographic modelling and visualisation module of the Health Service Modelling Associates Programme, covering 12 hours of content. It teaches how to make maps in the free point-and-click tool QGIS and in Python with geopandas and folium, how to obtain and use travel time data, and how to solve location optimisation problems such as where to site services.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../books_training/hsma_geographic_module/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://hsma.co.uk/hsma_content/modules/current_module_details/3_geographic_modelling_visualisation.html"><i class="fa-solid fa-book"></i> Module </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://geographic.hsma.co.uk"><i class="fa-solid fa-book-open"></i> eBook </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="3" data-categories="V2ViJTIwSW50ZXJmYWNlJTIwQ3JlYXRpb24lMkNSQVAlMkNDb3Vyc2VzJTIwYW5kJTIwVHJhaW5pbmclMjBvciUyMFJlZmVyZW5jZSUyME1hdGVyaWFscyUyQ0NvdXJzZXMlMkNBc3luY2hyb25vdXM=" data-listing-date-sort="1791154800000" data-listing-file-modified-sort="1791198123883" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="368">
+            <div class="main-card-content">
+            
+                  <a href="../books_training/hsma_git_web_dev_module/index.html">
+              <img class="card-img" src="../books_training/hsma_git_web_dev_module/hsma_git_web_dev_module.png" alt="HSMA: Open Source Collaborative Development and Web Development Module">
+                  </a>
+                
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../books_training/hsma_git_web_dev_module/index.html" class="title-link">HSMA: Open Source Collaborative Development and Web Development Module
+                    <i class="fa-solid fa-user-graduate"></i>
+                  </a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: <span style="color: #D18B12FF">Gold</span>
+            </div>
+            
+
+            
+            
+            
+            <div class="delivery-tags">
+              
+                <span class="delivery-tag delivery-tag-asynchronous">Asynchronous (self-paced)</span>
+              
+            </div>
+            
+
+            
+              <p class="listing-abstract">This is a collection of slides, session recordings, code examples and exercises from the open source collaborative development and web development module of the Health Service Modelling Associates Programme, covering 18 hours of content. It teaches version control with Git and GitHub, and how to build and deploy interactive web apps in Python with Streamlit.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../books_training/hsma_git_web_dev_module/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://hsma.co.uk/hsma_content/modules/current_module_details/7_git_and_web_development.html"><i class="fa-solid fa-book"></i> Module </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://webapps.hsma.co.uk"><i class="fa-solid fa-book-open"></i> eBook </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="4" data-categories="Q291cnNlcyUyMGFuZCUyMFRyYWluaW5nJTIwb3IlMjBSZWZlcmVuY2UlMjBNYXRlcmlhbHMlMkNDb3Vyc2VzJTJDQXN5bmNocm9ub3Vz" data-listing-date-sort="1791154800000" data-listing-file-modified-sort="1791198123884" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="223">
+            <div class="main-card-content">
+            
+                  <a href="../books_training/hsma_intro_programming_module/index.html">
+              <img class="card-img" src="../books_training/hsma_intro_programming_module/hsma_intro_programming_module.png" alt="HSMA: Introduction to Operational Research, Data Science and Programming Module">
+                  </a>
+                
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../books_training/hsma_intro_programming_module/index.html" class="title-link">HSMA: Introduction to Operational Research, Data Science and Programming Module
+                    <i class="fa-solid fa-user-graduate"></i>
+                  </a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: <span style="color: #D18B12FF">Gold</span>
+            </div>
+            
+
+            
+            
+            
+            <div class="delivery-tags">
+              
+                <span class="delivery-tag delivery-tag-asynchronous">Asynchronous (self-paced)</span>
+              
+            </div>
+            
+
+            
+              <p class="listing-abstract">This is a collection of slides, session recordings, code examples and exercises from the introductory module of the Health Service Modelling Associates Programme, covering 36 hours of content. It introduces the fields of operational research and data science, and teaches Python programming from scratch, assuming no prior programming experience.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../books_training/hsma_intro_programming_module/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://hsma.co.uk/hsma_content/modules/current_module_details/1_intro_or_ds_python.html"><i class="fa-solid fa-book"></i> Module </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://python.hsma.co.uk"><i class="fa-solid fa-book-open"></i> eBook </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="5" data-categories="U2VydmljZSUyMFBsYW5uaW5nJTJDTWFjaGluZSUyMExlYXJuaW5nJTJDQ291cnNlcyUyMGFuZCUyMFRyYWluaW5nJTIwb3IlMjBSZWZlcmVuY2UlMjBNYXRlcmlhbHMlMkNDb3Vyc2VzJTJDU3luY2hyb25vdXM=" data-listing-date-sort="1791154800000" data-listing-file-modified-sort="1791198123885" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="371">
+            <div class="main-card-content">
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../books_training/hsma_lambda/index.html" class="title-link">HSMA-λ (HSMA Lambda): Workshops for Decision Makers
+                    <i class="fa-solid fa-user-graduate"></i>
+                  </a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: N/A
+            </div>
+            
+
+            
+            
+            
+            <div class="delivery-tags">
+              
+                <span class="delivery-tag delivery-tag-synchronous">Synchronous (live)</span>
+              
+            </div>
+            
+
+            
+              <p class="listing-abstract">HSMA-λ is a series of standalone, code-free online workshops from the HSMA team for decision makers in the health service. Each three-hour workshop covers one technique taught on the HSMA programme - simulation, location optimisation or machine learning - so that participants can ask the right questions and interpret project outputs. It is free to people working in public sector healthcare organisations.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../books_training/hsma_lambda/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://hsma.co.uk/lambda.html"><i class="fa-solid fa-globe"></i> Website </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://forms.cloud.microsoft/e/spFr8qr2pP"><i class="fa-solid fa-pen-to-square"></i> Register interest </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="6" data-categories="TWFjaGluZSUyMExlYXJuaW5nJTJDQ291cnNlcyUyMGFuZCUyMFRyYWluaW5nJTIwb3IlMjBSZWZlcmVuY2UlMjBNYXRlcmlhbHMlMkNDb3Vyc2VzJTJDQXN5bmNocm9ub3Vz" data-listing-date-sort="1791154800000" data-listing-file-modified-sort="1791198123887" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="325">
+            <div class="main-card-content">
+            
+                  <a href="../books_training/hsma_machine_learning_module/index.html">
+              <img class="card-img" src="../books_training/hsma_machine_learning_module/hsma_machine_learning_module.png" alt="HSMA: Machine Learning Module">
+                  </a>
+                
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../books_training/hsma_machine_learning_module/index.html" class="title-link">HSMA: Machine Learning Module
+                    <i class="fa-solid fa-user-graduate"></i>
+                  </a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: <span style="color: #D18B12FF">Gold</span>
+            </div>
+            
+
+            
+            
+            
+            <div class="delivery-tags">
+              
+                <span class="delivery-tag delivery-tag-asynchronous">Asynchronous (self-paced)</span>
+              
+            </div>
+            
+
+            
+              <p class="listing-abstract">This is a collection of slides, session recordings, code examples and exercises from the machine learning module of the Health Service Modelling Associates Programme, covering 30 hours of content. It teaches classification and regression with scikit-learn and tensorflow, including machine learning ethics, assessing model performance, explainable AI, model optimisation, reinforcement learning and synthetic data.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../books_training/hsma_machine_learning_module/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://hsma.co.uk/hsma_content/modules/current_module_details/4_machine_learning.html"><i class="fa-solid fa-book"></i> Module </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://machinelearning.hsma.co.uk"><i class="fa-solid fa-book-open"></i> Notebooks </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="7" data-categories="UkFQJTJDRm9yZWNhc3RpbmclMkNDb3Vyc2VzJTIwYW5kJTIwVHJhaW5pbmclMjBvciUyMFJlZmVyZW5jZSUyME1hdGVyaWFscyUyQ0NvdXJzZXMlMkNBc3luY2hyb25vdXM=" data-listing-date-sort="1791154800000" data-listing-file-modified-sort="1791198123891" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="310">
+            <div class="main-card-content">
+            
+                  <a href="../books_training/hsma_modern_analytics_module/index.html">
+              <img class="card-img" src="../books_training/hsma_modern_analytics_module/hsma_modern_analytics_module.png" alt="HSMA: Modern Analytics Module">
+                  </a>
+                
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../books_training/hsma_modern_analytics_module/index.html" class="title-link">HSMA: Modern Analytics Module
+                    <i class="fa-solid fa-user-graduate"></i>
+                  </a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: <span style="color: #D18B12FF">Gold</span>
+            </div>
+            
+
+            
+            
+            
+            <div class="delivery-tags">
+              
+                <span class="delivery-tag delivery-tag-asynchronous">Asynchronous (self-paced)</span>
+              
+            </div>
+            
+
+            
+              <p class="listing-abstract">This is a collection of slides, session recordings, code examples and exercises from the modern analytics module of the Health Service Modelling Associates Programme, covering 12 hours of content. It teaches reproducible, parameterised reporting with Quarto and xlsxwriter, and time-series forecasting in Python, including the Prophet library.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../books_training/hsma_modern_analytics_module/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://hsma.co.uk/hsma_content/modules/current_module_details/8_modern_analytics.html"><i class="fa-solid fa-book"></i> Module </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="8" data-categories="TWFjaGluZSUyMExlYXJuaW5nJTJDQ291cnNlcyUyMGFuZCUyMFRyYWluaW5nJTIwb3IlMjBSZWZlcmVuY2UlMjBNYXRlcmlhbHMlMkNDb3Vyc2VzJTJDQXN5bmNocm9ub3Vz" data-listing-date-sort="1791154800000" data-listing-file-modified-sort="1791198123892" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="318">
+            <div class="main-card-content">
+            
+                  <a href="../books_training/hsma_nlp_module/index.html">
+              <img class="card-img" src="../books_training/hsma_nlp_module/hsma_nlp_module.png" alt="HSMA: Natural Language Processing Module">
+                  </a>
+                
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../books_training/hsma_nlp_module/index.html" class="title-link">HSMA: Natural Language Processing Module
+                    <i class="fa-solid fa-user-graduate"></i>
+                  </a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: <span style="color: #D18B12FF">Gold</span>
+            </div>
+            
+
+            
+            
+            
+            <div class="delivery-tags">
+              
+                <span class="delivery-tag delivery-tag-asynchronous">Asynchronous (self-paced)</span>
+              
+            </div>
+            
+
+            
+              <p class="listing-abstract">This is a collection of slides, session recordings, code examples and exercises from the natural language processing (NLP) module of the Health Service Modelling Associates Programme, covering 15 hours of content. It teaches how to make sense of unstructured text data in Python, covering word frequencies and wordclouds, named entity recognition, and sentiment analysis with neural networks.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../books_training/hsma_nlp_module/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://hsma.co.uk/hsma_content/modules/current_module_details/5_natural_language_processing.html"><i class="fa-solid fa-book"></i> Module </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="9" data-categories="U2VydmljZSUyMFBsYW5uaW5nJTJDTWFjaGluZSUyMExlYXJuaW5nJTJDQ291cnNlcyUyMGFuZCUyMFRyYWluaW5nJTIwb3IlMjBSZWZlcmVuY2UlMjBNYXRlcmlhbHMlMkNDb3Vyc2VzJTJDU3luY2hyb25vdXM=" data-listing-date-sort="1791154800000" data-listing-file-modified-sort="1791198123892" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="398">
+            <div class="main-card-content">
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../books_training/hsma_programme/index.html" class="title-link">HSMA: Health Service Modelling Associates Programme
+                    <i class="fa-solid fa-user-graduate"></i>
+                  </a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: <span style="color: #D18B12FF">Gold</span>
+            </div>
+            
+
+            
+            
+            
+            <div class="delivery-tags">
+              
+                <span class="delivery-tag delivery-tag-synchronous">Synchronous (live)</span>
+              
+            </div>
+            
+
+            
+              <p class="listing-abstract">The Health Service Modelling Associates (HSMA) Programme is a 15-month online training and mentorship course teaching public sector analysts, clinicians and managers to use data science and operational research techniques in Python, and supporting them to apply these in their organisations. It is free for people working in health, social care and policing in England, and all recordings, materials and code are freely available to anyone.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../books_training/hsma_programme/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/hsma-programme"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://hsma.co.uk"><i class="fa-solid fa-globe"></i> Website </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://hsma.co.uk/modules.html"><i class="fa-solid fa-book"></i> Modules </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://www.youtube.com/@hsma"><i class="fa-brands fa-youtube"></i> YouTube </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="10" data-categories="U2VydmljZSUyMFBsYW5uaW5nJTJDQ291cnNlcyUyMGFuZCUyMFRyYWluaW5nJTIwb3IlMjBSZWZlcmVuY2UlMjBNYXRlcmlhbHMlMkNDb3Vyc2VzJTJDQXN5bmNocm9ub3Vz" data-listing-date-sort="1791154800000" data-listing-file-modified-sort="1791198123895" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="209">
+            <div class="main-card-content">
+            
+                  <a href="../books_training/hsma_sd_abs_module/index.html">
+              <img class="card-img" src="../books_training/hsma_sd_abs_module/hsma_sd_abs_module.png" alt="HSMA: Modelling Behaviour and System Dynamics Module">
+                  </a>
+                
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../books_training/hsma_sd_abs_module/index.html" class="title-link">HSMA: Modelling Behaviour and System Dynamics Module
+                    <i class="fa-solid fa-user-graduate"></i>
+                  </a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: <span style="color: #D18B12FF">Gold</span>
+            </div>
+            
+
+            
+            
+            
+            <div class="delivery-tags">
+              
+                <span class="delivery-tag delivery-tag-asynchronous">Asynchronous (self-paced)</span>
+              
+            </div>
+            
+
+            
+              <p class="listing-abstract">This is a collection of slides, session recordings, code examples and exercises from the system dynamics and agent-based simulation module of the Health Service Modelling Associates Programme, covering 12 hours of content. It introduces system dynamics using the codeless InsightMaker platform, and agent-based simulation in Python using the MESA package.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../books_training/hsma_sd_abs_module/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://hsma.co.uk/hsma_content/modules/current_module_details/6_system_dynamics_agent_based_simulation.html"><i class="fa-solid fa-book"></i> Module </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="11" data-categories="Q291cnNlcyUyMGFuZCUyMFRyYWluaW5nJTIwb3IlMjBSZWZlcmVuY2UlMjBNYXRlcmlhbHMlMkNDb3Vyc2VzJTJDQXN5bmNocm9ub3Vz" data-listing-date-sort="1791154800000" data-listing-file-modified-sort="1791198123900" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="197">
+            <div class="main-card-content">
+            
+                  <a href="../books_training/nhs_oa_workshops/index.html">
+              <img class="card-img" src="../books_training/nhs_oa_workshops/workshop.jpg" alt="NHS-OA Community: Workshop Recordings">
+                  </a>
+                
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../books_training/nhs_oa_workshops/index.html" class="title-link">NHS-OA Community: Workshop Recordings
                     <i class="fa-solid fa-hospital"></i>
                   </a>
                 </h5>
@@ -779,7 +2025,17 @@ new FinisherHeader({
             
 
             
-              <p class="listing-abstract">The NHS RAP Community of Practice, maintained by NHS England, supports analysts and teams in adopting reproducible analytical pipeline (RAP) methods.
+            
+            
+            <div class="delivery-tags">
+              
+                <span class="delivery-tag delivery-tag-asynchronous">Asynchronous (self-paced)</span>
+              
+            </div>
+            
+
+            
+              <p class="listing-abstract">A YouTube playlist of recorded hands-on workshops from the NHS-OA Community and its predecessor, the NHS-R Community. The workshops are mostly in R, from introductory and intermediate R courses through to topics such as data visualisation, Shiny, regression modelling, tidymodels, statistical process control and working with databases.
 </p>
                 
 
@@ -792,16 +2048,16 @@ new FinisherHeader({
           </div>
 
             <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="../books_training/rap_community_of_practice/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+              <button class="project-link-listing-button"><a href="../books_training/nhs_oa_workshops/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
                     
                       
                           
                             
-                      <button class="project-link-listing-button"><a href="https://github.com/NHSDigital/rap-community-of-practice"><i class="fa-brands fa-github"></i> Code </a></button>
+                      <button class="project-link-listing-button"><a href="https://www.youtube.com/playlist?list=PLXCrMzQaI6c2L4JCRaF2iujzBxe9Rk-rC"><i class="fa-brands fa-youtube"></i> YouTube </a></button>
                           
                         
                             
-                      <button class="project-link-listing-button"><a href="https://nhsdigital.github.io/rap-community-of-practice/"><i class="fa-solid fa-globe"></i> Website </a></button>
+                      <button class="project-link-listing-button"><a href="https://nhsoa.uk"><i class="fa-solid fa-globe"></i> Website </a></button>
                           
                         
                         
@@ -810,7 +2066,7 @@ new FinisherHeader({
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="6" data-categories="Q291cnNlcyUyMGFuZCUyMFRyYWluaW5nJTIwb3IlMjBSZWZlcmVuY2UlMjBNYXRlcmlhbHM=" data-listing-date-sort="1763997272000" data-listing-file-modified-sort="1790958620799" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="41">
+      <div class="custom-grid-card border-2 rounded-3" data-index="12" data-categories="Q291cnNlcyUyMGFuZCUyMFRyYWluaW5nJTIwb3IlMjBSZWZlcmVuY2UlMjBNYXRlcmlhbHMlMkNDb3Vyc2VzJTJDQXN5bmNocm9ub3Vz" data-listing-date-sort="1763997272000" data-listing-file-modified-sort="1791198123904" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="41">
             <div class="main-card-content">
             
                   <a href="../books_training/somerset_data_science_course/index.html">
@@ -829,6 +2085,16 @@ new FinisherHeader({
             
             <div class="project-status">
               Status: <span style="color: #888888FF">Silver</span>
+            </div>
+            
+
+            
+            
+            
+            <div class="delivery-tags">
+              
+                <span class="delivery-tag delivery-tag-asynchronous">Asynchronous (self-paced)</span>
+              
             </div>
             
 
@@ -867,9 +2133,638 @@ new FinisherHeader({
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
+</section>
+<section id="interactive-tools" class="level3">
+<h3 class="anchored" data-anchor-id="interactive-tools">Interactive tools</h3>
+<p>Interactive apps and tools to help you explore and learn concepts hands-on.</p>
+<div id="listing-training-interactive" class="quarto-listing quarto-listing-container-custom">
+<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
+
+    
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="U2VydmljZSUyMFBsYW5uaW5nJTJDSWRlbnRpZnlpbmclMjBCb3R0bGVuZWNrcyUyQ0NvdXJzZXMlMjBhbmQlMjBUcmFpbmluZyUyMG9yJTIwUmVmZXJlbmNlJTIwTWF0ZXJpYWxzJTJDSW50ZXJhY3RpdmUlMjBMZWFybmluZyUyMFRvb2xz" data-listing-date-sort="1763721370000" data-listing-file-modified-sort="1791198123880" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="127">
+            <div class="main-card-content">
+            
+                  <a href="../books_training/hsma_des_playground/index.html">
+              <img class="card-img" src="../books_training/hsma_des_playground/desplayground.png" alt="HSMA: The Discrete Event Simulation (DES) Playground">
+                  </a>
+                
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../books_training/hsma_des_playground/index.html" class="title-link">HSMA: The Discrete Event Simulation (DES) Playground
+                    <i class="fa-solid fa-user-graduate"></i>
+                  </a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: <span style="color: #D18B12FF">Gold</span>
+            </div>
+            
+
+            
+            
+            
+
+            
+              <p class="listing-abstract">The Discrete Event Simulation (DES) playground is an interactive web application designed to teach the fundamental concepts of DES to absolute beginners. Used to support a range of training sessions, it can also be used as a standalone tool to introduce yourself to why DES is useful, building up from a very simple to a more complex model and allowing you to explore the impact of changing a range of parameters. DES is used for building simulations of pathways and services, allowing 'what-if' questions to be tested.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../books_training/hsma_des_playground/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/hsma-programme/Teaching_DES_Concepts_Streamlit"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://playground.hsma.co.uk/"><i class="fa-solid fa-globe"></i> Web App </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="reference-sites" class="level3">
+<h3 class="anchored" data-anchor-id="reference-sites">Reference sites</h3>
+<p>Websites with code snippets, guides and reference material to dip into as needed.</p>
+<div id="listing-training-reference" class="quarto-listing quarto-listing-container-custom">
+<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
+
+    
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="U2VydmljZSUyMFBsYW5uaW5nJTJDQ291cnNlcyUyMGFuZCUyMFRyYWluaW5nJTIwb3IlMjBSZWZlcmVuY2UlMjBNYXRlcmlhbHMlMkNSZWZlcmVuY2UlMjBTaXRlcw==" data-listing-date-sort="1763721370000" data-listing-file-modified-sort="1791198123896" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
+            <div class="main-card-content">
+            
+                  <a href="../books_training/julia_healthcare/index.html">
+              <img class="card-img" src="../books_training/julia_healthcare/screenshot.png" alt="Julia for healthcare modelling and data science">
+                  </a>
+                
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../books_training/julia_healthcare/index.html" class="title-link">Julia for healthcare modelling and data science
+                    <i class="fa-solid fa-user-graduate"></i>
+                  </a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: <span style="color: #893400FF">Bronze</span>
+            </div>
+            
+
+            
+            
+            
+
+            
+              <p class="listing-abstract">Website with snippets of Julia code helpful for modelling health care systems.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../books_training/julia_healthcare/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/julia-healthcare/"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://www.juliahealthcare.org/"><i class="fa-solid fa-globe"></i> Website </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="recorded-webinars-and-conference-talks" class="level3">
+<h3 class="anchored" data-anchor-id="recorded-webinars-and-conference-talks">Recorded webinars and conference talks</h3>
+<p>Recordings of one-off webinars and conference talks, covering a wide range of topics and real-world projects.</p>
+<p>To search the individual recordings from all of these collections at once, use the <a href="../recordings/index.html">Recordings Finder</a>.</p>
+<div id="listing-training-recordings" class="quarto-listing quarto-listing-container-custom">
+<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
+
+    
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Q291cnNlcyUyMGFuZCUyMFRyYWluaW5nJTIwb3IlMjBSZWZlcmVuY2UlMjBNYXRlcmlhbHMlMkNSZWNvcmRlZCUyMFRhbGtz" data-listing-date-sort="1791154800000" data-listing-file-modified-sort="1791198123870" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="259">
+            <div class="main-card-content">
+            
+                  <a href="../books_training/analyst_network_huddles/index.html">
+              <img class="card-img" src="../books_training/analyst_network_huddles/huddle.jpg" alt="National Analyst Network (formerly Midlands Analyst Network): Huddle Recordings">
+                  </a>
+                
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../books_training/analyst_network_huddles/index.html" class="title-link">National Analyst Network (formerly Midlands Analyst Network): Huddle Recordings
+                    <i class="fa-solid fa-hospital"></i>
+                  </a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: N/A
+            </div>
+            
+
+            
+            
+            
+
+            
+              <p class="listing-abstract">Recordings of the fortnightly online Huddles of the Midlands Analyst Network, hosted by the Strategy Unit, which relaunched as the National Analyst Network in 2026. Each hour-long Huddle features a presenter from health and care, academia or beyond, on topics ranging from health inequalities, waiting lists and demand modelling to data visualisation, RAP and the analyst profession.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../books_training/analyst_network_huddles/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://www.youtube.com/playlist?list=PLFEXOtXX7YkmiOpE31JfMDBWidHAZROqR"><i class="fa-brands fa-youtube"></i> YouTube </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Q291cnNlcyUyMGFuZCUyMFRyYWluaW5nJTIwb3IlMjBSZWZlcmVuY2UlMjBNYXRlcmlhbHMlMkNSZWNvcmRlZCUyMFRhbGtz" data-listing-date-sort="1791154800000" data-listing-file-modified-sort="1791198123892" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="232">
+            <div class="main-card-content">
+            
+                  <a href="../books_training/hsma_project_showcases/index.html">
+              <img class="card-img" src="../books_training/hsma_project_showcases/showcase.jpg" alt="HSMA: Project Showcase Recordings">
+                  </a>
+                
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../books_training/hsma_project_showcases/index.html" class="title-link">HSMA: Project Showcase Recordings
+                    <i class="fa-solid fa-user-graduate"></i>
+                  </a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: N/A
+            </div>
+            
+
+            
+            
+            
+
+            
+              <p class="listing-abstract">Recordings of project presentations from the showcases of the Health Service Modelling Associates (HSMA) programme, where participants present the modelling and data science projects they have carried out in their own health, social care and policing organisations. Projects use techniques such as discrete event simulation, machine learning, natural language processing, forecasting and geographic modelling.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../books_training/hsma_project_showcases/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://www.youtube.com/playlist?list=PLgHO2TgIJXdkhu3IVabE3XSeHji8-X6hh"><i class="fa-brands fa-youtube"></i> YouTube </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://hsma.co.uk/previous_projects/completed_projects.html"><i class="fa-solid fa-globe"></i> Projects </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="Q291cnNlcyUyMGFuZCUyMFRyYWluaW5nJTIwb3IlMjBSZWZlcmVuY2UlMjBNYXRlcmlhbHMlMkNSZWNvcmRlZCUyMFRhbGtz" data-listing-date-sort="1791154800000" data-listing-file-modified-sort="1791198123898" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="292">
+            <div class="main-card-content">
+            
+                  <a href="../books_training/nhs_oa_conference_recordings/index.html">
+              <img class="card-img" src="../books_training/nhs_oa_conference_recordings/rpysoc_2025.jpg" alt="NHS-OA Community: Conference Recordings">
+                  </a>
+                
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../books_training/nhs_oa_conference_recordings/index.html" class="title-link">NHS-OA Community: Conference Recordings
+                    <i class="fa-solid fa-hospital"></i>
+                  </a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: N/A
+            </div>
+            
+
+            
+            
+            
+
+            
+              <p class="listing-abstract">YouTube recordings of talks from the NHS-OA Community's annual conference, formerly the NHS-R Community Conference and now RPySOC, the NHS-R/NHS.pycom open source conference, including the Python track run by the NHS Python Community (NHS.pycom). Talks from analysts and data scientists across health and care showcase real-world projects using R, Python and other open source tools, from simulation and waiting list modelling to data visualisation and reproducible analytical pipelines.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../books_training/nhs_oa_conference_recordings/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://www.youtube.com/%40NHSOA_Community/playlists"><i class="fa-brands fa-youtube"></i> YouTube </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://nhsoa.uk"><i class="fa-solid fa-globe"></i> Website </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="3" data-categories="Q291cnNlcyUyMGFuZCUyMFRyYWluaW5nJTIwb3IlMjBSZWZlcmVuY2UlMjBNYXRlcmlhbHMlMkNSZWNvcmRlZCUyMFRhbGtz" data-listing-date-sort="1791154800000" data-listing-file-modified-sort="1791198123899" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="192">
+            <div class="main-card-content">
+            
+                  <a href="../books_training/nhs_oa_webinars/index.html">
+              <img class="card-img" src="../books_training/nhs_oa_webinars/webinar.jpg" alt="NHS-OA Community: Webinar Recordings">
+                  </a>
+                
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../books_training/nhs_oa_webinars/index.html" class="title-link">NHS-OA Community: Webinar Recordings
+                    <i class="fa-solid fa-hospital"></i>
+                  </a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: N/A
+            </div>
+            
+
+            
+            
+            
+
+            
+              <p class="listing-abstract">A YouTube playlist of recorded webinars from the NHS-OA Community and its predecessor, the NHS-R Community. Mostly focused on R, the webinars cover tools and techniques such as Shiny, Quarto, Git, package development, testing and reproducible environments, alongside real-world NHS case studies in forecasting, statistical modelling and service planning.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../books_training/nhs_oa_webinars/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://www.youtube.com/playlist?list=PLXCrMzQaI6c36jqIWc9AgHzowzZ2ak9DL"><i class="fa-brands fa-youtube"></i> YouTube </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://nhsoa.uk"><i class="fa-solid fa-globe"></i> Website </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="4" data-categories="Q291cnNlcyUyMGFuZCUyMFRyYWluaW5nJTIwb3IlMjBSZWZlcmVuY2UlMjBNYXRlcmlhbHMlMkNSZWNvcmRlZCUyMFRhbGtz" data-listing-date-sort="1791154800000" data-listing-file-modified-sort="1791198123900" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="186">
+            <div class="main-card-content">
+            
+                  <a href="../books_training/nhs_pycom_talks/index.html">
+              <img class="card-img" src="../books_training/nhs_pycom_talks/pycom_talk.jpg" alt="NHS.pycom: Talk Recordings">
+                  </a>
+                
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../books_training/nhs_pycom_talks/index.html" class="title-link">NHS.pycom: Talk Recordings
+                    <i class="fa-solid fa-hospital"></i>
+                  </a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: N/A
+            </div>
+            
+
+            
+            
+            
+
+            
+              <p class="listing-abstract">Recordings of talks and events from the NHS Python Community (NHS.pycom), now part of the NHS-OA Community. They include show-and-tell sessions on using Python in clinical and operational settings, introductions to Python and machine learning, software engineering for data scientists, and talks on reproducible analytical pipelines.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../books_training/nhs_pycom_talks/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://www.youtube.com/%40nhs-pycom/videos"><i class="fa-brands fa-youtube"></i> YouTube </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://nhsoa.uk"><i class="fa-solid fa-globe"></i> Website </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+</section>
+<section id="communities" class="level2">
+<h2 class="anchored" data-anchor-id="communities">Communities</h2>
+<p>Professional networks and communities of practice where healthcare analysts can connect, share their work and learn from each other.</p>
+<div id="listing-communities" class="quarto-listing quarto-listing-container-custom">
+<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
+
+    
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Q291cnNlcyUyMGFuZCUyMFRyYWluaW5nJTIwb3IlMjBSZWZlcmVuY2UlMjBNYXRlcmlhbHMlMkNDb21tdW5pdGllcw==" data-listing-date-sort="1790895600000" data-listing-file-modified-sort="1791198123871" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+            <div class="main-card-content">
+            
+                  <a href="../books_training/apha/index.html">
+              <img class="card-img" src="../books_training/apha/images.png" alt="AphA - Association of Professional Healthcare Analysts">
+                  </a>
+                
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../books_training/apha/index.html" class="title-link">AphA - Association of Professional Healthcare Analysts
+                    <i class="fa-solid fa-hospital"></i>
+                  </a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: N/A
+            </div>
+            
+
+            
+            
+            
+
+            
+              <p class="listing-abstract">AphA is the professional membership body for health and care data and analytics professionals in the UK. It aims to raise the profile of analysts and provide a professional support network, offering professional accreditation, mentoring, networking events, an annual conference, discounted training and course accreditation, delivered through regional branches and specialist networks.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../books_training/apha/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://www.aphanalysts.org"><i class="fa-solid fa-globe"></i> Website </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://www.linkedin.com/in/apha-analysts/"><i class="fa-brands fa-linkedin"></i> LinkedIn </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Q291cnNlcyUyMGFuZCUyMFRyYWluaW5nJTIwb3IlMjBSZWZlcmVuY2UlMjBNYXRlcmlhbHMlMkNDb21tdW5pdGllcw==" data-listing-date-sort="1790895600000" data-listing-file-modified-sort="1791198123897" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+            <div class="main-card-content">
+            
+                  <a href="../books_training/nhs_oa_community/index.html">
+              <img class="card-img" src="../books_training/nhs_oa_community/oa-logo_basic_min_bg.png" alt="NHS-OA Community">
+                  </a>
+                
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../books_training/nhs_oa_community/index.html" class="title-link">NHS-OA Community
+                    <i class="fa-solid fa-hospital"></i>
+                  </a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: N/A
+            </div>
+            
+
+            
+            
+            
+
+            
+              <p class="listing-abstract">The NHS-OA Community is a community of practice for data analysis and data science using open source software in the NHS and the wider UK health and care system. It runs workshops, webinars, Coffee and Coding sessions, RAP drop-ins, and conferences, and shares blog posts, training materials and books.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../books_training/nhs_oa_community/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/nhs-oa-community"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://nhsoa.uk"><i class="fa-solid fa-globe"></i> Website </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://www.linkedin.com/in/nhs-oa-community-2555a6282/"><i class="fa-brands fa-linkedin"></i> LinkedIn </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="UkFQJTJDQ291cnNlcyUyMGFuZCUyMFRyYWluaW5nJTIwb3IlMjBSZWZlcmVuY2UlMjBNYXRlcmlhbHMlMkNDb21tdW5pdGllcw==" data-listing-date-sort="1763721370000" data-listing-file-modified-sort="1791198123903" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="85">
+            <div class="main-card-content">
+            
+                  <a href="../books_training/rap_community_of_practice/index.html">
+              <img class="card-img" src="../books_training/rap_community_of_practice/homepage.png" alt="NHS RAP Community of Practice">
+                  </a>
+                
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">
+                  <a href="../books_training/rap_community_of_practice/index.html" class="title-link">NHS RAP Community of Practice
+                    <i class="fa-solid fa-hospital"></i>
+                  </a>
+                </h5>
+            </div>
+
+            
+            <div class="project-status">
+              Status: N/A
+            </div>
+            
+
+            
+            
+            
+
+            
+              <p class="listing-abstract">The NHS RAP Community of Practice, maintained by NHS England, supports analysts and teams in adopting reproducible analytical pipeline (RAP) methods.
+</p>
+                
+
+            
+
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../books_training/rap_community_of_practice/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/NHSDigital/rap-community-of-practice"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://nhsdigital.github.io/rap-community-of-practice/"><i class="fa-solid fa-globe"></i> Website </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

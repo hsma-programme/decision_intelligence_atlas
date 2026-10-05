@@ -212,6 +212,30 @@ p {
     /* Rounded corners */
 }
 
+/* Synchronous/asynchronous tags on course listing cards */
+.delivery-tags {
+    padding: 0.4rem 1rem 0 1rem;
+}
+
+.delivery-tag {
+    display: inline-block;
+    color: rgb(230, 230, 230);
+    border: 2px solid rgb(138, 138, 138);
+    padding: 2px 6px;
+    margin: 2px 2px 2px 0px;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.delivery-tag-synchronous {
+    background-color: rgb(0, 80, 90);
+}
+
+.delivery-tag-asynchronous {
+    background-color: rgb(95, 60, 120);
+}
+
 .project-link-listing-button {
     background-color: #009c92;
     /* Grey background */
@@ -243,6 +267,24 @@ p {
 .listing-title {
     padding: 0.5rem 0.5rem;
     text-transform: capitalize;
+}
+
+/* Recordings Finder: filters side by side, and wrap long table text */
+.recordings-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 2rem;
+}
+
+.recordings-table td {
+    white-space: normal !important;
+    overflow-wrap: anywhere;
+    vertical-align: top;
+}
+
+/* Keep titles as written in table listings (e.g. searchable talk titles) */
+.quarto-listing-table .listing-title {
+    text-transform: none;
 }
 
 .quarto-categories {
