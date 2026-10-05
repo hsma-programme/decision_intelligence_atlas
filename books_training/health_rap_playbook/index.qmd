@@ -1,0 +1,46 @@
+---
+title: "Health RAP Playbook (Alpha)"
+categories:
+  - RAP
+  - Courses and Training or Reference Materials
+  - Books
+tool-language: N/A
+status: '<span style="color: #888888FF">Silver</span>'
+# image: homepage.png
+author:
+  - name: NHS England
+pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i>
+  rationale-for-status: |
+    An official NHS England resource that draws on extensive experience of implementing RAP in health, but it is currently marked as being in alpha.
+  entry-author:
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
+  abstract: |
+    The Health RAP Playbook, maintained by NHS England, documents the processes, tools and technologies used in health and care when creating Reproducible Analytical Pipelines (RAP). It complements existing UK Government and NHS RAP guidance, and is aimed at analysts, analytical leaders, IT, cyber and information governance professionals, and members of the public.
+  links:
+  - name: Code
+    url: https://github.com/nhsengland/Health-RAP-Playbook-Alpha
+    icon: fa-brands fa-github
+  - name: eBook
+    url: https://nhsengland.github.io/Health-RAP-Playbook-Alpha/
+    icon: fa-solid fa-book
+date: "2026-10-05T00:00:00+01:00"
+---
+
+The Health RAP Playbook is a guide from NHS England to adopting Reproducible Analytical Pipelines (RAP) in health and care. In its own words, its initial release covers:
+
+> * How do I do RAP in health – deals with the difficulties of doing RAP when you have sensitive data
+> * Who else is doing it – links to testimony and resources from other health organisations who are doing RAP
+> * Exceptions to open sharing of RAP – this discusses situations where it may be necessary not to publish your code
+> * Levels of RAP maturity – this gives guidance on how to stage your RAP strategy to achieve high value gains early on in your journey
+
+Further sections are planned, including why RAP matters to health and resources for analysts in Trusts, PCNs and ICBs.
+
+::: {.callout-note}
+The site carries the following notice:
+
+> Please note that this website is currently in alpha testing. As such, you may encounter bugs, errors, or inaccuracies during your visit.
+:::
+
+You can read the playbook at <https://nhsengland.github.io/Health-RAP-Playbook-Alpha/>.
