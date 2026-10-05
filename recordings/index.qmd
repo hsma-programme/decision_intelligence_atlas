@@ -21,12 +21,71 @@ Search hundreds of recorded conference talks, webinars, workshops, network huddl
 
 Where a long recording covers several talks and its YouTube description gives the timings, each talk is listed separately and its link starts the video at that talk. Each recording also links to its Atlas entry, where you can find out more about the community that published it.
 
+Dates are when each recording was published on YouTube. This is usually within a few weeks of the event, but some older recordings were uploaded later - the Atlas entry for each collection gives more details.
+
+Durations are the length of each video, or for a talk within a longer recording, the time until the next timestamp in its description. A few talks are listed without timestamps, so their length isn't known - these are only shown when the duration slider covers its full range.
+
 ```{ojs}
-// Newest first: by year, then publish date, keeping talks from the same
-// recording in their original order. Recordings without a year come last.
+// Newest first, keeping talks from the same recording in their original order
 recordings = (await FileAttachment("recordings.json").json())
-  .map((d, i) => ({...d, order: i}))
-  .sort((a, b) => (b.year ?? 0) - (a.year ?? 0) || b.date.localeCompare(a.date) || a.order - b.order)
+  .map((d, i) => ({...d, order: i, month: d.date.slice(0, 7)}))
+  .sort((a, b) => b.date.localeCompare(a.date) || a.order - b.order)
+
+// "2024-03" -> "Mar 2024"
+function monthLabel(month) {
+  const [year, m] = month.split("-");
+  return new Date(year, m - 1, 1).toLocaleString("en-GB", {month: "short", year: "numeric"});
+}
+
+// "95" minutes -> "1 hr 35 min"
+function minutesLabel(minutes) {
+  const hours = Math.floor(minutes / 60);
+  const mins = minutes % 60;
+  return hours ? `${hours} hr${mins ? ` ${mins} min` : ""}` : `${mins} min`;
+}
+
+// A slider with two handles, for choosing a range from a list of values.
+// Its value is [first value, last value], e.g. ["2024-01", "2026-10"].
+function rangeSlider(values, {label, format}) {
+  const max = values.length - 1;
+  const from = html`<input type="range" min="0" max="${max}" step="1" value="0" aria-label="${label} from">`;
+  const to = html`<input type="range" min="0" max="${max}" step="1" value="${max}" aria-label="${label} to">`;
+  const output = html`<span class="recordings-range-output"></span>`;
+  const slider = html`<div class="recordings-range-slider">${from}${to}</div>`;
+  const form = html`<div class="recordings-range"><label>${label}</label>${slider}${output}</div>`;
+  const update = event => {
+    // Stop the handles crossing over
+    if (+from.value > +to.value) {
+      if (event?.target === from) from.value = to.value;
+      else to.value = from.value;
+    }
+    output.textContent = `${format(values[from.value])} – ${format(values[to.value])}`;
+    // Highlight the track between the handles
+    slider.style.setProperty("--from", `${100 * from.value / max}%`);
+    slider.style.setProperty("--to", `${100 * to.value / max}%`);
+  };
+  from.addEventListener("input", update);
+  to.addEventListener("input", update);
+  Object.defineProperty(form, "value", {get: () => [values[from.value], values[to.value]]});
+  update();
+  return form;
+}
+
+// Every month from the earliest to the latest recording
+allMonths = {
+  const [first, last] = d3.extent(recordings, d => d.month);
+  const months = [];
+  for (let date = new Date(first + "-01"); date <= new Date(last + "-01"); date.setUTCMonth(date.getUTCMonth() + 1)) {
+    months.push(date.toISOString().slice(0, 7));
+  }
+  return months;
+}
+
+// Every 5 minutes from 0 to the longest recording
+allDurations = {
+  const longest = Math.ceil(d3.max(recordings, d => d.seconds) / 300) * 5;
+  return d3.range(0, longest + 5, 5);
+}
 
 entryLinks = new Map(recordings.map(d => [d.collection, d.collection_url]))
 
@@ -65,8 +124,26 @@ function multiselect(values, {label, all}) {
     if (!dropdown.contains(event.target)) dropdown.open = false;
   });
   Object.defineProperty(form, "value", {get: () => checkboxes.value});
+  // Show only the given options, unticking any hidden ones
+  form.showOnly = shown => {
+    let changed = false;
+    for (const box of checkboxes.querySelectorAll("input")) {
+      const visible = shown.has(values[box.value]);
+      box.parentElement.style.display = visible ? "" : "none";
+      if (!visible && box.checked) {
+        box.checked = false;
+        changed = true;
+      }
+    }
+    if (changed) checkboxes.dispatchEvent(new Event("input", {bubbles: true}));
+  };
   update();
   return form;
+}
+
+// Smaller text, for the table's shorter columns
+function small(content) {
+  return html`<span class="recordings-small">${content}</span>`;
 }
 
 // Unique values, sorted
@@ -94,31 +171,51 @@ viewof types = multiselect(options(recordings.map(d => d.type)), {label: "Type",
 ```
 
 ```{ojs}
-// Select any number of years; selecting none shows all years
-viewof years = multiselect(
-  options(recordings.map(d => d.year).filter(d => d != null)).reverse(),
-  {label: "Year", all: "All years"}
-)
+viewof events = multiselect(options(recordings.map(d => d.event).filter(d => d)), {label: "Event", all: "All events"})
+```
+
+```{ojs}
+viewof published = rangeSlider(allMonths, {label: "Published", format: monthLabel})
+```
+
+```{ojs}
+viewof duration = rangeSlider(allDurations, {label: "Duration", format: minutesLabel})
 ```
 
 :::
 
 ```{ojs}
+//| output: false
+// Only offer events from the selected sources (or all sources if none are selected)
+{
+  viewof events.showOnly(new Set(recordings
+    .filter(d => sources.length === 0 || sources.includes(d.source))
+    .map(d => d.event)));
+}
+```
+
+```{ojs}
 filtered = query.filter(d =>
   (sources.length === 0 || sources.includes(d.source)) &&
   (types.length === 0 || types.includes(d.type)) &&
-  (years.length === 0 || years.includes(d.year))
+  (events.length === 0 || events.includes(d.event)) &&
+  d.month >= published[0] && d.month <= published[1] &&
+  // Recordings of unknown length are only shown when no duration range is set
+  (d.seconds === null
+    ? duration[0] === allDurations[0] && duration[1] === allDurations.at(-1)
+    : d.seconds >= duration[0] * 60 && d.seconds <= duration[1] * 60)
 )
 
-md`Showing **${filtered.length}** of ${recordings.length} recordings${filtered.length > 6 ? " - scroll within the table to see them all" : ""}.`
+md`Showing **${filtered.length}** of ${recordings.length} recordings${filtered.length > 6 ? " - scroll within the table to see them all" : ""}. Click a column header to sort by it.`
 ```
 
 ```{ojs}
 html`<div class="recordings-table">${Inputs.table(filtered, {
-  columns: ["title", "url", "year", "type", "event", "source", "details", "collection"],
+  columns: ["title", "url", "date", "duration", "type", "event", "source", "details", "collection"],
   header: {
     title: "Title",
-    year: "Year",
+    date: "Published",
+    duration: "Duration",
     type: "Type",
     event: "Event",
     source: "Source",
@@ -127,12 +224,16 @@ html`<div class="recordings-table">${Inputs.table(filtered, {
     collection: "More"
   },
   format: {
-    year: d => d == null ? "" : String(d),
+    date: d => small(monthLabel(d.slice(0, 7))),
+    duration: d => small(d ?? ""),
+    type: small,
+    event: small,
+    source: small,
     details: d => expandable(d),
-    url: d => html`<a href="${d}" target="_blank" rel="noopener">Watch <i class="bi bi-box-arrow-up-right"></i></a>`,
+    url: d => small(html`<a href="${d}" target="_blank" rel="noopener">Watch <i class="bi bi-box-arrow-up-right"></i></a>`),
     collection: d => html`<a href="${entryLinks.get(d)}" title="${d}">Atlas entry</a>`
   },
-  width: {title: 360, year: 60, type: 110, event: 110, source: 130, details: 400, url: 80, collection: 100},
+  width: {title: 330, date: 105, duration: 100, type: 110, event: 100, source: 120, details: 370, url: 80, collection: 100},
   layout: "fixed",
   rows: 25,
   height: 750,
@@ -145,10 +246,9 @@ html`<div class="recordings-table">${Inputs.table(filtered, {
 The Recordings Finder brings together the recordings listed in these Atlas entries:
 
 * [NHS-OA Community: Conference Recordings](/books_training/nhs_oa_conference_recordings/index.qmd)
-* [NHS-OA Community: Webinar Recordings](/books_training/nhs_oa_webinars/index.qmd)
+* [NHS-OA Community: Webinar and Talk Recordings](/books_training/nhs_oa_webinars/index.qmd)
 * [NHS-OA Community: Workshop Recordings](/books_training/nhs_oa_workshops/index.qmd)
 * [NHS-OA Community: NHS-R Podcast](/books_training/nhs_r_podcast/index.qmd)
-* [NHS.pycom: Talk Recordings](/books_training/nhs_pycom_talks/index.qmd)
 * [AphA: Webinar and Conference Recordings](/books_training/apha_recordings/index.qmd)
 * [National Analyst Network (formerly Midlands Analyst Network): Huddle Recordings](/books_training/analyst_network_huddles/index.qmd)
 * [Midlands Decision Support Network: Training Recordings](/books_training/mdsn_training/index.qmd)
@@ -158,5 +258,6 @@ The Recordings Finder brings together the recordings listed in these Atlas entri
 * [HSMA: Project Showcase Recordings](/books_training/hsma_project_showcases/index.qmd)
 * [HSMA: Lecture and Masterclass Recordings](/books_training/hsma_lecture_recordings/index.qmd)
 * [HACA - Health and Care Analytics Conference](/books_training/haca/index.qmd)
+* [SWAIH - South West Analytics and Infrastructure in Healthcare](/books_training/swaih/index.qmd)
 
 Know of another collection of recordings that should be included? [Raise an issue on the repository](https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose) to let us know.

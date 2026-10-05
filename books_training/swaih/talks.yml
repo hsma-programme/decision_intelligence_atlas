@@ -1,0 +1,117 @@
+- title: SWSDE   Supporting VCSEs
+  description: Henry Ireland, Adam Horton-Tuckett and Andy Gibson from the South West Secure Data Environment team gave an introduction to the support the SWSDE can provide to Voluntary, Community and Social Enterprises. Topics included a technical overview of the SWSDE, developing processes and resources, and…
+  path: https://www.youtube.com/watch?v=vU3KjEiU-m4
+  year: 2026
+  event: Insight Talks
+  type: Webinar
+  image: https://i.ytimg.com/vi/vU3KjEiU-m4/mqdefault.jpg
+  date: '2026-07-21'
+  duration: 00:23:48
+- title: Process Mining Workshop
+  description: Owen Johnson returns for a deeper dive into Process Mining
+  path: https://www.youtube.com/watch?v=uglgDdq-uEc
+  year: 2026
+  event: Insight Talks
+  type: Workshop
+  image: https://i.ytimg.com/vi/uglgDdq-uEc/mqdefault.jpg
+  date: '2026-04-29'
+  duration: 00:29:59
+- title: OpenPrescribing.net
+  description: In this talk Richard Croker - Chief Pharmacist, Primary Care at NHS Devon, and Clinical Informatics team lead at the Bennett Institute developing OpenPrescribing.net - provides an accessible introduction to the latest suite of tools offered by OpenPrescribing. He explains how individual practices…
+  path: https://www.youtube.com/watch?v=mdDVeMr2F-4
+  year: 2026
+  event: Insight Talks
+  type: Webinar
+  image: https://i.ytimg.com/vi/mdDVeMr2F-4/mqdefault.jpg
+  date: '2026-02-24'
+  duration: 00:32:36
+- title: Process Mining
+  description: Process mining can be useful within a data analyst’s tool kit - bridging data science methods like data mining, and process science methods like process modelling and improvement. In this talk, the case is made that processes need to be mapped, mined and fully understood before AI can be…
+  path: https://www.youtube.com/watch?v=vPznoJHMA40
+  year: 2026
+  event: Insight Talks
+  type: Webinar
+  image: https://i.ytimg.com/vi/vPznoJHMA40/mqdefault.jpg
+  date: '2026-01-23'
+  duration: 00:34:13
+- title: UK Health Data Research Alliance
+  description: An overview of the Alliance, its role in shaping the UK health data research landscape, and how researchers, both within and outside member organisations, can engage with its initiatives.
+  path: https://www.youtube.com/watch?v=9j4xFriBzBc
+  year: 2025
+  event: Insight Talks
+  type: Webinar
+  image: https://i.ytimg.com/vi/9j4xFriBzBc/mqdefault.jpg
+  date: '2025-03-31'
+  duration: 00:34:43
+- title: NIHR Academy - Career Development Opportunities for Data Science in Health and Care
+  description: This Insight talk introduces the career development programmes available through the NIHR Academy - with a particular focus towards funding support for those using Data Science tools and methods for health and care research. Chris and Kieran cover the range of opportunities across all career…
+  path: https://www.youtube.com/watch?v=51q32LmsawU
+  year: 2025
+  event: Insight Talks
+  type: Webinar
+  image: https://i.ytimg.com/vi/51q32LmsawU/mqdefault.jpg
+  date: '2025-02-28'
+  duration: 00:33:13
+- title: IPACS - Improving Patient Flow between Acute, Community and Social Care
+  description: This talk introduces the IPACS project - exploring how to optimize capacity for complex patient discharge pathways and understand how to alleviate the shortage of acute beds that results from any delays in discharge to social care . Transferring patients from hospitals to their homes or temporary…
+  path: https://www.youtube.com/watch?v=jcMvAHz3gbU
+  year: 2025
+  event: Insight Talks
+  type: Webinar
+  image: https://i.ytimg.com/vi/jcMvAHz3gbU/mqdefault.jpg
+  date: '2025-01-29'
+  duration: 00:33:36
+- title: Data Science to improve NHS performance
+  description: Introducing data science and advanced analytics techniques into an NHS team can be daunting. Building on our previous SWAIH Insight talk Simon will offer a practical introduction to how you can progress from excel spreadsheets towards open coding, using NHS performance as a case study. The talk…
+  path: https://www.youtube.com/watch?v=9M0GfvvLU7Y
+  year: 2024
+  event: Insight Talks
+  type: Webinar
+  image: https://i.ytimg.com/vi/9M0GfvvLU7Y/mqdefault.jpg
+  date: '2024-10-25'
+  duration: 00:42:38
+- title: OMOP Common Data Model
+  description: A SWAIH Insight Talk from Quin Ashcroft of Lancashire Teaching Hospitals NHS Foundation Trust, introducing OMOP, and explaining how a small team of three people in her Trust have 'OMOP'd' their healthcare data to enable operational improvement and access to research quality data. This has involved…
+  path: https://www.youtube.com/watch?v=MEITbGYrseg
+  year: 2024
+  event: Insight Talks
+  type: Webinar
+  image: https://i.ytimg.com/vi/MEITbGYrseg/mqdefault.jpg
+  date: '2024-09-16'
+  duration: 00:23:48
+- title: SAIL Databank
+  description: A talk from Ashley Akbari offering an overview of the SAIL Databank, how a TRE and linked data can be used in a multi-disciplinary team to support research and improve services and people’s outcomes, using examples from the One Wales collaboration response to the COVID-19 pandemic using the SAIL…
+  path: https://www.youtube.com/watch?v=qsBgiXLEkJ4
+  year: 2024
+  event: Insight Talks
+  type: Webinar
+  image: https://i.ytimg.com/vi/qsBgiXLEkJ4/mqdefault.jpg
+  date: '2024-05-20'
+  duration: 00:30:52
+- title: One Devon Dataset
+  description: A talk from Simon Chant from Devon County Council, introducing the One Devon Dataset, a linked dataset covering GP, secondary care, community health, mental health, social care and wider population data, that was established in 2020. 22 April 2024
+  path: https://www.youtube.com/watch?v=3uaCVNAqtZc
+  year: 2024
+  event: Insight Talks
+  type: Webinar
+  image: https://i.ytimg.com/vi/3uaCVNAqtZc/mqdefault.jpg
+  date: '2024-04-26'
+  duration: 00:36:38
+- title: National Competency Framework for Health Data Analysts
+  description: A talk from Huw Davies, introduced by Louise Taylor from NHS Dorset. An overview of the National Competency Framework, and how it can be used within your organisation for recruitment, retention and team development.
+  path: https://www.youtube.com/watch?v=7jcmH2OG7Mc
+  year: 2024
+  event: Insight Talks
+  type: Webinar
+  image: https://i.ytimg.com/vi/7jcmH2OG7Mc/mqdefault.jpg
+  date: '2024-04-17'
+  duration: 00:27:51
+- title: Data Science in the NHS
+  description: A talk from PenCHORD's Sammi Rosser discussing the opportunities and challenges of introducing data science and open methods within the NHS. 15 February 2024
+  path: https://www.youtube.com/watch?v=PuaLMKIFLcc
+  year: 2024
+  event: Insight Talks
+  type: Webinar
+  image: https://i.ytimg.com/vi/PuaLMKIFLcc/mqdefault.jpg
+  date: '2024-02-16'
+  duration: 00:44:20

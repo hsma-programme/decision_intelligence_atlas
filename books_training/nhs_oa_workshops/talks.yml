@@ -6,6 +6,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/ZXRjnoOYirg/mqdefault.jpg
   date: '2018-06-25'
+  duration: 00:09:31
 - title: R   Projects
   description: ''
   path: https://www.youtube.com/watch?v=jBfyErr1HDk
@@ -14,6 +15,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/jBfyErr1HDk/mqdefault.jpg
   date: '2018-06-25'
+  duration: 00:02:35
 - title: NHS-R Workshop - An introduction to ggplot2
   description: 'Presented by: Eugene Hickey, Lecturer in Physics, Technology University, Dublin This course will be of interest to those who have some experience working with R but have yet to take the plunge to using ggplot. Topics include: The mechanics of ggplot - layers, attributes, and aesthetics Using ggplot…'
   path: https://www.youtube.com/watch?v=VLuzpaWt0ZE
@@ -22,6 +24,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/VLuzpaWt0ZE/mqdefault.jpg
   date: '2021-01-26'
+  duration: 04:40:15
 - title: NHS-R workshop - Automating slides using NHS data
   description: By Jo McSweeney, Analyst, NHS England and NHS Improvement Using the officeR package to automate PowerPoint slide generation. Do you have slides that you need to repeat for different organisation levels? Are you unable to use the PowerPoint option from the Markdown menu? Using the NHSRdatasets r…
   path: https://www.youtube.com/watch?v=WNmCucbjmQg
@@ -30,6 +33,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/WNmCucbjmQg/mqdefault.jpg
   date: '2021-01-20'
+  duration: 02:11:06
 - title: 'NHS-R Workshop:  Regression Modelling, November 2021'
   description: 'Presented by: Chris Mainey, Patient Safety Lead – System Analysis and Delivery, NHS Improvement Pre-requisites: Some introductory experience with R Summary: This session focuses on how to fit regression models in R, the most common form of statistical modelling. Examining the essential theory…'
   path: https://www.youtube.com/watch?v=QbuXObUVTaw
@@ -38,6 +42,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/QbuXObUVTaw/mqdefault.jpg
   date: '2021-11-30'
+  duration: 01:51:23
 - title: 'NHS-R Workshop: Shiny (Part 2 of 2) - November 2021'
   description: 'Facilitator: Chris Beeley, Senior Data Scientist, Nottinghamshire Healthcare NHS Foundation Trust Summary: Shiny is an programming framework for R that allows you to build dynamic and interactive dashboards for the web with no knowledge of HTML, CSS, or JavaScript. It allows R programmers to very…'
   path: https://www.youtube.com/watch?v=aeTgh91EgTs
@@ -46,6 +51,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/aeTgh91EgTs/mqdefault.jpg
   date: '2021-12-01'
+  duration: 02:16:30
 - title: 'NHS-R Workshop: Further changepoint analysis techniques –December 2021'
   description: 'Facilitator: Dr Rebecca Killick Associate Professor in the Mathematics & Statistics department at Lancaster University Summary: ‘Further changepoint analysis techniques’ workshop builds upon the introduction to changepoint course and that knowledge will be assumed. We will focus on more advanced…'
   path: https://www.youtube.com/watch?v=rRL8rT97S0I
@@ -54,6 +60,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/rRL8rT97S0I/mqdefault.jpg
   date: '2021-12-03'
+  duration: 01:43:11
 - title: 'NHS-R Workshop: Introduction to changepoint analysis with R-  November 2021'
   description: 'Facilitator: Dr Rebecca Killick Associate Professor in the Mathematics & Statistics department at Lancaster University Summary: This workshop introduces participants to the analysis of changepoint models (also known as time series segmentation or structural changes). The course is aimed at those…'
   path: https://www.youtube.com/watch?v=UfGrLJ7S3sc
@@ -62,6 +69,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/UfGrLJ7S3sc/mqdefault.jpg
   date: '2021-12-03'
+  duration: 02:49:01
 - title: 'NHS-R Workshop: Shiny (Part 1 of 2) November 2021'
   description: 'Facilitator: Chris Beeley, Senior Data Scientist, Nottinghamshire Healthcare NHS Foundation Trust Summary: Shiny is an programming framework for R that allows you to build dynamic and interactive dashboards for the web with no knowledge of HTML, CSS, or JavaScript. It allows R programmers to very…'
   path: https://www.youtube.com/watch?v=wEYaeltxlys
@@ -70,6 +78,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/wEYaeltxlys/mqdefault.jpg
   date: '2021-11-30'
+  duration: 02:27:40
 - title: Introduction to Machine Learning and Image Processing with R, December 2021
   description: 'Facilitators: Santosh Kumar and Bruno Petrungaro, The Health Economics Unit Summary: This workshop covers the basics of image processing, classical machine learning with R. Topics in machine learning include an introduction to machine learning, the difference between machine learning and AI,…'
   path: https://www.youtube.com/watch?v=_broZee5Y6s
@@ -78,6 +87,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/_broZee5Y6s/mqdefault.jpg
   date: '2021-12-09'
+  duration: 02:59:51
 - title: NHS-R Introduction to RMarkdown Workshop - November 2021, Hansel Palencia
   description: Join Hansel Palencia for the NHS-R Workshop - 'Introduction to RMarkdown'
   path: https://www.youtube.com/watch?v=RaM6fgwMZIs
@@ -86,6 +96,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/RaM6fgwMZIs/mqdefault.jpg
   date: '2022-02-07'
+  duration: 05:41:34
 - title: 'NHS-R Conference 2021: Intro to R/RStudio - Part 1'
   description: 'Join Zoë Turner, Data Scientist,, Nottinghamshire Healthcare NHS Foundation Trust for this NHS-R Workshop - Introduction to R/RStudio Summary: An Introduction to R workshop covering R/RStudio, manipulation of data (dplyr), creating charts (ggplot2) and reports (R Markdown). This is a great…'
   path: https://www.youtube.com/watch?v=uerf_bY-d4c
@@ -94,6 +105,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/uerf_bY-d4c/mqdefault.jpg
   date: '2022-02-17'
+  duration: 00:44:39
 - title: 'NHS-R Conference 2021: Intro to R/RStudio Workshop - Part 2'
   description: 'Join Zoë Turner, Data Scientist, Nottinghamshire Healthcare NHS Foundation Trust for Part 2 of this NHS-R Workshop - Introduction to R/RStudio Summary: An Introduction to R workshop covering R/RStudio, manipulation of data (dplyr), creating charts (ggplot2) and reports (R Markdown). This is a great…'
   path: https://www.youtube.com/watch?v=9GESlEIvPDI
@@ -102,6 +114,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/9GESlEIvPDI/mqdefault.jpg
   date: '2022-02-17'
+  duration: 03:32:58
 - title: Statistical process control charts with R - Jacob Anhøj, November 2021
   description: 'Date: Thursday 4th November 2021 Statistical process control charts with R One day Workshop: Masterclass for R programmers Facilitators: Jacob Anhøj, Medical Doctor, Rigshospitalet, Copenhagen, Denmark and Zoë Turner, Senior Information Analyst, Nottinghamshire Healthcare NHS Foundation Trust…'
   path: https://www.youtube.com/watch?v=pCaqwX7bDLs
@@ -110,6 +123,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/pCaqwX7bDLs/mqdefault.jpg
   date: '2022-05-13'
+  duration: 04:21:11
 - title: Reproducible computation at scale in R with targets, Will Landau, November 2021
   description: 'Facilitator: Will Landau, Eli Lilly and Company – USA Data science can be slow. A single round of statistical computation can take several minutes, hours, or even days to complete. The targets R package keeps results up to date and reproducible while minimizing the number of expensive tasks that…'
   path: https://www.youtube.com/watch?v=OdBG78Tmx70
@@ -118,6 +132,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/OdBG78Tmx70/mqdefault.jpg
   date: '2022-05-13'
+  duration: 01:41:32
 - title: 'NHS-R Conference Workshop: Building a TidyModels model from scratch – 01/11/22'
   description: 'Led by Gary Hutson, Head of Machine Learning, Crisp 1st November 2022 Here we will learn how to build a TidyModels classification model from scratch RPubs document: About the course: The art and science of building a machine model from scratch and then pushing this into production as a consumable…'
   path: https://www.youtube.com/watch?v=CEh-jeQdOqA
@@ -126,6 +141,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/CEh-jeQdOqA/mqdefault.jpg
   date: '2022-11-01'
+  duration: 01:59:15
 - title: Introduction and Prework
   description: 'From the recording ''NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22'', starting at 0:00.'
   path: https://www.youtube.com/watch?v=dS91HzZLD_c&t=0s
@@ -134,6 +150,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/dS91HzZLD_c/mqdefault.jpg
   date: '2022-11-03'
+  duration: 00:55:23
 - title: Using Projects
   description: 'From the recording ''NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22'', starting at 55:23.'
   path: https://www.youtube.com/watch?v=dS91HzZLD_c&t=3323s
@@ -142,6 +159,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/dS91HzZLD_c/mqdefault.jpg
   date: '2022-11-03'
+  duration: 00:12:37
 - title: Importing Data
   description: 'From the recording ''NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22'', starting at 1:08:00.'
   path: https://www.youtube.com/watch?v=dS91HzZLD_c&t=4080s
@@ -150,6 +168,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/dS91HzZLD_c/mqdefault.jpg
   date: '2022-11-03'
+  duration: 00:10:00
 - title: Introduction to {ggplot2}
   description: 'From the recording ''NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22'', starting at 1:18:00.'
   path: https://www.youtube.com/watch?v=dS91HzZLD_c&t=4680s
@@ -158,6 +177,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/dS91HzZLD_c/mqdefault.jpg
   date: '2022-11-03'
+  duration: 01:04:00
 - title: What does this function do?
   description: 'From the recording ''NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22'', starting at 2:22:00.'
   path: https://www.youtube.com/watch?v=dS91HzZLD_c&t=8520s
@@ -166,6 +186,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/dS91HzZLD_c/mqdefault.jpg
   date: '2022-11-03'
+  duration: 00:18:21
 - title: 'NHS-R Workshop: Building Websites in R with Distill - 02/11/22'
   description: 'Building Websites in R with Distill Wednesday 2nd November 2022, Led by Jennifer Sloane, PhD Student, UNSW Do you want to learn how to build your own website in R? About the course: In this interactive workshop, we will build a website from scratch in R using the Distill package. Whether you want…'
   path: https://www.youtube.com/watch?v=LK_vxLS9BNg
@@ -174,6 +195,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/LK_vxLS9BNg/mqdefault.jpg
   date: '2022-11-03'
+  duration: 01:58:54
 - title: Data wrangling with dplyr
   description: 'From the recording ''NHS-R Workshop: Intro to R and RStudio (Part 2) - 03/11/22'', starting at 0:00.'
   path: https://www.youtube.com/watch?v=1tjQkxYfSGk&t=0s
@@ -182,6 +204,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/1tjQkxYfSGk/mqdefault.jpg
   date: '2022-11-03'
+  duration: 01:45:18
 - title: Relational Data (joins)
   description: 'From the recording ''NHS-R Workshop: Intro to R and RStudio (Part 2) - 03/11/22'', starting at 1:45:18.'
   path: https://www.youtube.com/watch?v=1tjQkxYfSGk&t=6318s
@@ -190,6 +213,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/1tjQkxYfSGk/mqdefault.jpg
   date: '2022-11-03'
+  duration: 00:25:03
 - title: RMarkdown
   description: 'From the recording ''NHS-R Workshop: Intro to R and RStudio (Part 2) - 03/11/22'', starting at 2:10:21.'
   path: https://www.youtube.com/watch?v=1tjQkxYfSGk&t=7821s
@@ -198,6 +222,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/1tjQkxYfSGk/mqdefault.jpg
   date: '2022-11-03'
+  duration: 00:29:39
 - title: Ongoing Learning
   description: 'From the recording ''NHS-R Workshop: Intro to R and RStudio (Part 2) - 03/11/22'', starting at 2:40:00.'
   path: https://www.youtube.com/watch?v=1tjQkxYfSGk&t=9600s
@@ -206,6 +231,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/1tjQkxYfSGk/mqdefault.jpg
   date: '2022-11-03'
+  duration: 00:12:42
 - title: 'NHS-R Conference Workshop: Introduction to Interactive plotting with R – 03/11/22'
   description: 'Introduction to Interactive plotting with R Thursday 3rd November 2022, Led by Annie Yu, Epidemiological Programmer, Hertfordshire County Council Pre-requisites: Some introductory experience with R About the course: The workshop will cover creating interactive graphs using plotly and echarts4r…'
   path: https://www.youtube.com/watch?v=fmelRhf14PE
@@ -214,6 +240,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/fmelRhf14PE/mqdefault.jpg
   date: '2022-11-08'
+  duration: 02:27:41
 - title: 'NHS-R Workshop: Level up your plots! - 04/11/22'
   description: 'Level up your plots: tips and tricks for creating compelling data visualisations in R Friday 4th November 202 Led by Cara Thompson, Freelance Data Consultant - Building Stories with Data Pre-requisites: It would be helpful for participants to have a basic grasp of: - creating a plot with ggplot2 -…'
   path: https://www.youtube.com/watch?v=Zt_SMnNPLX0
@@ -222,6 +249,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/Zt_SMnNPLX0/mqdefault.jpg
   date: '2022-11-08'
+  duration: 02:01:45
 - title: 'NHS-R Workshop: Debugging in R - 11/11/22'
   description: 'Debugging in R Friday 11th November 2022 Led by Shannon Pileggi, Data Scientist, The Prostate Cancer Clinical Trials Consortium Pre-requisites: Knowledge of how to write a function in R. About the course: Learning objectives: Review code troubleshooting tips. Discuss debugging functions…'
   path: https://www.youtube.com/watch?v=evzo-F2Yp5g
@@ -230,6 +258,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/evzo-F2Yp5g/mqdefault.jpg
   date: '2022-11-13'
+  duration: 02:49:37
 - title: 'NHS-R Workshop: Working with databases in R - 23//11/22'
   description: 'Working with databases in R Wednesday 23rd November 2022 Led by Christopher Maronga,m R Programmer, University of Oxford About the course: The first step in any data handling process is loading data into your working tool regardless of the form and media of storage. Relational databases such as…'
   path: https://www.youtube.com/watch?v=htQWauSV9J4
@@ -238,6 +267,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/htQWauSV9J4/mqdefault.jpg
   date: '2022-11-24'
+  duration: 03:06:37
 - title: 'NHS-R Workshop: PHM ExploreR An open source tool for Population Health Management  - 24/11/22'
   description: 'PHM ExploreR: An open source tool for Population Health Management Thursday 24th November 2022 Led by Andras Varady, Forensic Cancer Pathway Data Scientist, NHS Bristol, North Somerset and South Gloucestershire CCG About the course: The workshop will introduce delegates to the PHM ExploreR: a…'
   path: https://www.youtube.com/watch?v=E1et8cSIRMQ
@@ -246,6 +276,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/E1et8cSIRMQ/mqdefault.jpg
   date: '2022-11-24'
+  duration: 01:39:56
 - title: NHS-R Workshop - Regression Modelling in R - 24/11/22
   description: 'Introduction to Regression Modelling Thursday 24th November 2022 Led by Chris Mainey, Deputy Director of Specialist Analytics at North Central London Integrated Care Board Pre-requisites: Some introductory experience with R About the course: This session will focus on how to fit regression models…'
   path: https://www.youtube.com/watch?v=yaMpZsordu4
@@ -254,6 +285,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/yaMpZsordu4/mqdefault.jpg
   date: '2022-11-25'
+  duration: 02:25:16
 - title: 'NHS-R Workshop: Fitting Distributions in R - 25/11/22'
   description: 'Fitting distributions in R Friday 25th November 2022 Led by Dr Sean Manzi, Research Fellow in Applied Healthcare Modelling and Analysis, University of Exeter College of Medicine and Health Pre-requisites: A basic understanding of how to use R About the course: This session will begin by introducing…'
   path: https://www.youtube.com/watch?v=86sviwkA088
@@ -262,6 +294,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/86sviwkA088/mqdefault.jpg
   date: '2022-11-25'
+  duration: 01:32:54
 - title: Intermediate R with Anya Ferguson Pt 1
   description: This the first part of a recording of an Intermediate R course with Anya Ferguson assisted by Jeremy Selva on 25 June 2024
   path: https://www.youtube.com/watch?v=b08sQUwWnXM
@@ -270,6 +303,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/b08sQUwWnXM/mqdefault.jpg
   date: '2024-06-28'
+  duration: 01:45:40
 - title: Intermediate R with Anya Ferguson Pt 2
   description: This is a recording of a Part 2 of an Intermediate R course run by Anya Ferguson with assistance from Jeremy Selva on 26 June 2024
   path: https://www.youtube.com/watch?v=E5G94mkbsoA
@@ -278,6 +312,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/E5G94mkbsoA/mqdefault.jpg
   date: '2024-06-28'
+  duration: 02:10:36
 - title: Intermediate R with Simon Wellesley-Miller 14 May 2024
   description: This is a recording of an Intermediate R course presented by Simon Wellesley Miller and co-hosted by Anya Ferguson on 14 May 2924
   path: https://www.youtube.com/watch?v=-ryFXMK1DoI
@@ -286,6 +321,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/-ryFXMK1DoI/mqdefault.jpg
   date: '2024-05-31'
+  duration: 05:43:45
 - title: Introduction to machine learning with {tidymodels}
   description: 'This a recording of a workshop by Nicola Rennie: "Introduction to machine learning with {tidymodels} on 22 May 2024 GitHub repository:'
   path: https://www.youtube.com/watch?v=qFvbzUivIHY
@@ -294,6 +330,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/qFvbzUivIHY/mqdefault.jpg
   date: '2024-05-31'
+  duration: 01:51:00
 - title: Intermediate R with Simon Wellesley Miller
   description: Intermediate R with Simon Wellesley Miller One day course 3 April 2024 and Lyn Howard (co-host) GitHub link with the original from Simon
   path: https://www.youtube.com/watch?v=I-wT2NUeB18
@@ -302,6 +339,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/I-wT2NUeB18/mqdefault.jpg
   date: '2024-04-08'
+  duration: 05:25:47
 - title: Understanding Functions in R
   description: 'This is an introductory-level workshop aimed at analysts who can write R code but who don’t really get what functions are yet. We’ll be turning some repetitive code into functions, and learning: – how to make a function; – what makes functions useful for analysts. I coded for ages before I…'
   path: https://www.youtube.com/watch?v=SoGqSKVpXq4
@@ -310,6 +348,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/SoGqSKVpXq4/mqdefault.jpg
   date: '2024-02-28'
+  duration: 01:16:09
 - title: 'NHS-R Workshop: Interactive Visualisations for Beginners in Python with Shiny Apps'
   description: 'Interactive Visualisations for Beginners in Python with Shiny Apps Thursday 07th December 2023 with Dr Pawel Orzechowski 10:00am until 12:00pm (UK time) Course Description: Imagine coding an interactive demo and sharing it with the world within minutes. Your data could be displayed as maps or…'
   path: https://www.youtube.com/watch?v=aMn5W5bCJTY
@@ -318,6 +357,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/aMn5W5bCJTY/mqdefault.jpg
   date: '2024-01-03'
+  duration: 01:01:02
 - title: 'NHS-R Workshop: GitHub Actions 101 – Test, Build, and Deploy [Wednesday 22nd November 2023]'
   description: 'NHS-R Workshop: GitHub Actions 101 – Test, Build, and Deploy with Joseph Wilson and Harriet Sands.'
   path: https://www.youtube.com/watch?v=kPBne5nCdbs
@@ -326,6 +366,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/kPBne5nCdbs/mqdefault.jpg
   date: '2023-12-22'
+  duration: 02:41:56
 - title: 'NHS-R Workshop: Introduction to R (Day 1 and Day 2)'
   description: 'Introduction to R with Simon Wellesley-Miller Monday 12th May 2025 and Tuesday 13th May 2025 Course Description: From ‘Hello World’ to producing a basic report. This introduction takes you from no knowledge of R to teaching you the basics of the R studio environment, then loading in some data, some…'
   path: https://www.youtube.com/watch?v=R2qGBIKoebo
@@ -334,6 +375,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/R2qGBIKoebo/mqdefault.jpg
   date: '2025-05-16'
+  duration: 07:03:04
 - title: 'NHS-R Workshop: Intermediate R (Day 1 and Day 2)'
   description: 'Intermediate R with Simon Wellesley-Miller Monday 2nd June 2025 and Tuesday 3rd June 2025 Course Description: This course is designed to follow on from the introduction course assuming people are familiar with the basics covered there. We go into more in depth and complex wrangling tasks, explore…'
   path: https://www.youtube.com/watch?v=UAucTfy1qtU
@@ -342,6 +384,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/UAucTfy1qtU/mqdefault.jpg
   date: '2025-06-13'
+  duration: 07:14:10
 - title: 'NHS-R Workshop: Introduction to R and R Studio (Day 1 – Tuesday 23rd September 2025)'
   description: 'Introduction to R and R Studio with Dr Claire Welsh Tuesday 23rd September 2025 Course Description: From ‘Hello World’ to producing a basic report. This introduction takes you from no knowledge of R to teaching you the basics of the R studio environment, then loading in some data, some common data…'
   path: https://www.youtube.com/watch?v=qb14cnDSjSM
@@ -350,6 +393,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/qb14cnDSjSM/mqdefault.jpg
   date: '2025-10-30'
+  duration: 03:58:56
 - title: 'NHS-R Workshop: Introduction to R and R Studio (Day 2 – Wednesday 24th September 2025)'
   description: 'Introduction to R and R Studio with Dr Claire Welsh Wednesday 24th September 2025 Course Description: From ‘Hello World’ to producing a basic report. This introduction takes you from no knowledge of R to teaching you the basics of the R studio environment, then loading in some data, some common…'
   path: https://www.youtube.com/watch?v=yx7g6v0Usfc
@@ -358,6 +402,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/yx7g6v0Usfc/mqdefault.jpg
   date: '2025-10-30'
+  duration: 03:57:31
 - title: 'NHS-R Workshop: Intermediate R (Day 2 - Wednesday 15th October 2025)'
   description: 'Intermediate R with Dr Claire Welsh Wednesday 15th October 2025 Course Description: This course is designed to follow on from the Introduction to R and R Studio course, noting that attendees should be familiar with the basics covered in the workshop. Please be advised that this session will go into…'
   path: https://www.youtube.com/watch?v=PEgtCOXBV4o
@@ -366,6 +411,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/PEgtCOXBV4o/mqdefault.jpg
   date: '2025-10-30'
+  duration: 03:16:23
 - title: 'NHS-R Workshop: Intermediate R (Day 1 - Tuesday 14th October 2025)'
   description: 'Intermediate R with Dr Claire Welsh Tuesday 14th October 2025 Course Description: This course is designed to follow on from the Introduction to R and R Studio course, noting that attendees should be familiar with the basics covered in the workshop. Please be advised that this session will go into…'
   path: https://www.youtube.com/watch?v=UW0pPHaLdO8
@@ -374,6 +420,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/UW0pPHaLdO8/mqdefault.jpg
   date: '2025-10-30'
+  duration: 03:36:45
 - title: 'NHS-R Workshop: Better, Kinder Code Review'
   description: 'Better, Kinder Code Review Wednesday 09th July 2025 With Dr Toby Hodges Content Summary: This hands-on workshop will introduce participants to some good practices and practical tips for code review, exploring how to provide effective, constructive feedback that results in better code, happier…'
   path: https://www.youtube.com/watch?v=lbx0AHyFNuA
@@ -382,6 +429,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/lbx0AHyFNuA/mqdefault.jpg
   date: '2025-12-16'
+  duration: 01:27:14
 - title: 'NHS-Open Analytics Workshop: Intermediate R - Part 1 (Tuesday 10th February 2026)'
   description: 'Intermediate R with Simon Wellesley-Miller (Part 1) Tuesday 10th February 2026 Course Description: This course is designed to follow on from the Introduction to R and R Studio course, noting that attendees should be familiar with the basics covered in the workshop. Please be advised that this…'
   path: https://www.youtube.com/watch?v=ZBSWBSoNo-A
@@ -390,6 +438,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/ZBSWBSoNo-A/mqdefault.jpg
   date: '2026-02-10'
+  duration: 03:57:31
 - title: 'NHS-Open Analytics Workshop: Intermediate R - Part 2 (Wednesday 11th February 2026)'
   description: 'Intermediate R with Simon Wellesley-Miller (Part 2) Wednesday 11th February 2026 Course Description: This course is designed to follow on from the Introduction to R and R Studio course, noting that attendees should be familiar with the basics covered in the workshop. Please be advised that this…'
   path: https://www.youtube.com/watch?v=ihaM-bMt9Yg
@@ -398,6 +447,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/ihaM-bMt9Yg/mqdefault.jpg
   date: '2026-02-11'
+  duration: 03:52:35
 - title: 'NHS Open Analytics Workshop: Introduction to R and R Studio - Part 1 & 2 (September 2026)'
   description: 'Introduction to R and R Studio with Zoë Turner (Part 1 & 2) Tuesday 15th September 2026 and Wednesday 16th September 2026 Course Description: From ‘Hello World’ to producing a basic report. This introduction takes you from no knowledge of R to teaching you the basics of the R studio environment,…'
   path: https://www.youtube.com/watch?v=IWEY2ELKO2Q
@@ -406,6 +456,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/IWEY2ELKO2Q/mqdefault.jpg
   date: '2026-09-17'
+  duration: 05:17:19
 - title: Introduction to R and R Studio Pt1
   description: This is the first part of a recording of Introduction to R and R Studio course which took place on 27 March 2024 with Simon Wellesley-Miller
   path: https://www.youtube.com/watch?v=V0SZsIFMIe4
@@ -414,6 +465,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/V0SZsIFMIe4/mqdefault.jpg
   date: '2024-05-31'
+  duration: 02:06:01
 - title: Introduction to R and R Studio Pt2
   description: This is the second part of a recording of Introduction to R and R Studio course which took place on 27 March 2024 with Simon Wellesley-Miller
   path: https://www.youtube.com/watch?v=2ATXKgv9s7M
@@ -422,6 +474,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/2ATXKgv9s7M/mqdefault.jpg
   date: '2024-06-03'
+  duration: 03:27:34
 - title: Introduction to R and R Studio Part 1 with Annie Yu on 21 February 2024
   description: 'Learn about how to import data, wrangle data and produce and export graphs. Pre-requisites: No prior knowledge of R is required; however, it is assumed that you will have a moderate level of computer literacy. For example, you will be able to navigate to drives and files and be confident in…'
   path: https://www.youtube.com/watch?v=H_y-QVrG--w
@@ -430,6 +483,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/H_y-QVrG--w/mqdefault.jpg
   date: '2024-03-01'
+  duration: 02:56:33
 - title: Introduction to R and R Studio with Annie Yu Pt 2
   description: 'Learn about how to import data, wrangle data and produce and export graphs. Pre-requisites: No prior knowledge of R is required; however, it is assumed that you will have a moderate level of computer literacy. For example, you will be able to navigate to drives and files and be confident in…'
   path: https://www.youtube.com/watch?v=XMbpHfnoMcM
@@ -438,6 +492,7 @@
   type: Workshop
   image: https://i.ytimg.com/vi/XMbpHfnoMcM/mqdefault.jpg
   date: '2024-03-01'
+  duration: 03:01:19
 - title: Install package
   description: From the recording 'How to use the reprex R package to produce a reproducible example', starting at 3:59.
   path: https://www.youtube.com/watch?v=iLfzNWh2dLI&t=239s
@@ -446,6 +501,7 @@
   type: Tutorial
   image: https://i.ytimg.com/vi/iLfzNWh2dLI/mqdefault.jpg
   date: '2024-09-13'
+  duration: 00:00:44
 - title: Creating data to replicate the problem
   description: From the recording 'How to use the reprex R package to produce a reproducible example', starting at 4:43.
   path: https://www.youtube.com/watch?v=iLfzNWh2dLI&t=283s
@@ -454,6 +510,7 @@
   type: Tutorial
   image: https://i.ytimg.com/vi/iLfzNWh2dLI/mqdefault.jpg
   date: '2024-09-13'
+  duration: 00:00:45
 - title: Code that works using dplyr
   description: From the recording 'How to use the reprex R package to produce a reproducible example', starting at 5:28.
   path: https://www.youtube.com/watch?v=iLfzNWh2dLI&t=328s
@@ -462,6 +519,7 @@
   type: Tutorial
   image: https://i.ytimg.com/vi/iLfzNWh2dLI/mqdefault.jpg
   date: '2024-09-13'
+  duration: 00:00:10
 - title: Code that gives an error using dbplyr with SQL
   description: From the recording 'How to use the reprex R package to produce a reproducible example', starting at 5:38.
   path: https://www.youtube.com/watch?v=iLfzNWh2dLI&t=338s
@@ -470,6 +528,7 @@
   type: Tutorial
   image: https://i.ytimg.com/vi/iLfzNWh2dLI/mqdefault.jpg
   date: '2024-09-13'
+  duration: 00:02:14
 - title: Copy the text and use the reprex add in for RStudio
   description: From the recording 'How to use the reprex R package to produce a reproducible example', starting at 7:52.
   path: https://www.youtube.com/watch?v=iLfzNWh2dLI&t=472s
@@ -478,6 +537,7 @@
   type: Tutorial
   image: https://i.ytimg.com/vi/iLfzNWh2dLI/mqdefault.jpg
   date: '2024-09-13'
+  duration: 00:02:44
 - title: Copy the text and use command line
   description: From the recording 'How to use the reprex R package to produce a reproducible example', starting at 10:36.
   path: https://www.youtube.com/watch?v=iLfzNWh2dLI&t=636s
@@ -486,3 +546,4 @@
   type: Tutorial
   image: https://i.ytimg.com/vi/iLfzNWh2dLI/mqdefault.jpg
   date: '2024-09-13'
+  duration: 00:00:44

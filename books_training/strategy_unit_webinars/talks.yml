@@ -6,6 +6,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/ZSPIsdEz4sE/mqdefault.jpg
   date: '2026-05-21'
+  duration: 00:58:07
 - title: The risks of risk stratification in neighbourhood health
   description: Neighbourhoods INSIGHTS' Series -The risks of risk stratification in neighbourhood health The theory behind risk stratification is seductive. Almost irresistible in fact. It is that running algorithms over (mainly) primary care data will allow services to spot individual patients at high risk of…
   path: https://www.youtube.com/watch?v=NdEOYJZ8_TA
@@ -14,6 +15,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/NdEOYJZ8_TA/mqdefault.jpg
   date: '2026-04-17'
+  duration: 00:58:42
 - title: ‘Neighbourhood INSIGHTS’ series - Looking back, looking forward
   description: ‘Neighbourhood INSIGHTS’ series - Looking back, looking forward What the past and the future tell us about neighbourhood health
   path: https://www.youtube.com/watch?v=yiec0Rl9LqU
@@ -22,6 +24,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/yiec0Rl9LqU/mqdefault.jpg
   date: '2026-03-19'
+  duration: 00:59:07
 - title: SU Insights   Downsides of Digital
   description: This event in collaboration with the Health Foundation featuring Professor Trish Greenhalgh and experts explored the critical questions on the downsides of digital, drawing on research to reflect the implications of digital technology in health and care. There is widespread enthusiasm for the use…
   path: https://www.youtube.com/watch?v=c-mGU-3GnJ8
@@ -30,6 +33,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/c-mGU-3GnJ8/mqdefault.jpg
   date: '2025-02-07'
+  duration: 01:00:13
 - title: SU Insights - Contracting for Health Outcomes
   description: The inaugural ‘SU Insights’ session explore the evolving landscape of "Contracting for health outcomes". The concept of outcomes-based commissioning was a hot topic in health policy around 15 years ago. Innovative contracting models were promoted as a way to transform the way services were paid…
   path: https://www.youtube.com/watch?v=Ogrl_arIRtM
@@ -38,6 +42,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/Ogrl_arIRtM/mqdefault.jpg
   date: '2024-10-11'
+  duration: 01:29:26
 - title: Is ‘Do With’ the essence of neighbourhood health?
   description: 'Event 3: Is ‘Do With’ the essence of neighbourhood health? Neighbourhood health is often discussed in terms of services: how they are structured, funded and delivered. But at its heart, it is about something more fundamental - relationships. In particular, the relationships between services and the…'
   path: https://www.youtube.com/watch?v=UtJKmgCPe8Y
@@ -46,6 +51,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/UtJKmgCPe8Y/mqdefault.jpg
   date: '2026-04-30'
+  duration: 00:58:09
 - title: 'NNHIP Evaluation and Analysis CoP: Drop in Sesssion NNHIP Care Shift Tracker'
   description: 'NNHIP Evaluation and Analysis CoP: Drop in Sesssion NNHIP Care Shift Tracker - 04.03.26 In this Evaluation and Analysis Community of Practice drop-in session, there was and demo of a tool that is being developed to offer a system-wide view using a range of indicators to help spot emerging patterns,…'
   path: https://www.youtube.com/watch?v=Z5fH3khIbPQ
@@ -54,6 +60,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/Z5fH3khIbPQ/mqdefault.jpg
   date: '2026-03-05'
+  duration: 00:55:43
 - title: 'NNHIP Evaluation and Analysis CoP: Drop-in session: Opportunities to shift care in my Place 18/02/26'
   description: 'Topic: Where are the opportunities to shift care from acute hospitals, in my Place? In this Evaluation and Analysis Community of Practice drop-in session, there was and demo of a tool that is being developed to help identify the types of hospital activity that could be done in a different way or…'
   path: https://www.youtube.com/watch?v=D7GsuWni4j8
@@ -62,6 +69,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/D7GsuWni4j8/mqdefault.jpg
   date: '2026-02-23'
+  duration: 00:46:38
 - title: 'NNHIP Evaluation and Analysis Community of Practice (CoP): Drop-in session: Measurement Guide'
   description: 'Topic: NNHIP Measurement Guide Q&A session In this second Evaluation and Analysis Community of Practice drop-in session, we covered key questions, and next steps, around the Measurement Guide and the Neighbourhood Index. About The Evaluation and Analysis Community of Practice (CoP) is part of the…'
   path: https://www.youtube.com/watch?v=IAndD_L_pvA
@@ -70,6 +78,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/IAndD_L_pvA/mqdefault.jpg
   date: '2026-02-04'
+  duration: 01:02:01
 - title: 'NNHIP Evaluation & Analysis CoP - 21/1/26 - Subject: Neighbourhood Index'
   description: The National Neighbourhood Health Implementation Programme (NNHIP) Evaluation and Analysis Community of Practice (CoP), has been set up as part of the NNHIP Intelligence Centre. This CoP has been created directly in response to feedback that it would be helpful to have a dedicated space for local…
   path: https://www.youtube.com/watch?v=pPGyTGnSORI
@@ -78,6 +87,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/pPGyTGnSORI/mqdefault.jpg
   date: '2026-01-27'
+  duration: 00:39:45
 - title: Developing your ICS Intelligence Function, learning MDSN and Black Country ICS 04/05/22
   description: Hear what Midlands Decision Support Network and Black Country ICS had to say about developing an Intelligence Function, webinar on 04/05/22
   path: https://www.youtube.com/watch?v=rRaEh3x3HsI
@@ -86,6 +96,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/rRaEh3x3HsI/mqdefault.jpg
   date: '2022-05-23'
+  duration: 00:29:54
 - title: Developing your ICS Intelligence Function, learning from Kent and Medway ICS - 20/05/22
   description: Hear what Kent and Medway ICS had to say about developing their Intelligence Function, webinar on 20/05/22
   path: https://www.youtube.com/watch?v=2kcRMF6yDuA
@@ -94,6 +105,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/2kcRMF6yDuA/mqdefault.jpg
   date: '2022-05-23'
+  duration: 00:34:26
 - title: Developing your ICS Intelligence Function, learning from the Local knowledge & Intelligence Service
   description: Hear what the Local knowledge & Intelligence Service had to say about developing an Intelligence Function, webinar on 06/05/22
   path: https://www.youtube.com/watch?v=i5QcSITCwYI
@@ -102,6 +114,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/i5QcSITCwYI/mqdefault.jpg
   date: '2022-05-23'
+  duration: 00:39:23
 - title: Developing your ICS Intelligence Function, learning from South West London Health & Care Partnership
   description: Hear what South West London had to say about developing their Intelligence Function, webinar on 03/05/22
   path: https://www.youtube.com/watch?v=quS-UsN-X_M
@@ -110,6 +123,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/quS-UsN-X_M/mqdefault.jpg
   date: '2022-05-23'
+  duration: 00:28:20
 - title: Intelligence Function Webinar Introduction
   description: ICS Intelligence Functions (IF) have been described as part of the ICS infrastructure in NHSE/I’s Integrating Care, and the ICS Design Framework. NHSE/I are set to release guidance to systems to support their IF journey. This includes further detail on what an IF is, what they should look like, and…
   path: https://www.youtube.com/watch?v=s7F1eZ3BKSk
@@ -118,6 +132,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/s7F1eZ3BKSk/mqdefault.jpg
   date: '2022-05-23'
+  duration: 00:05:58
 - title: Progress in a local system DSU - Black Country and West Birmingham ICS
   description: ''
   path: https://www.youtube.com/watch?v=RoXqkkLNGKg
@@ -126,6 +141,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/RoXqkkLNGKg/mqdefault.jpg
   date: '2021-06-09'
+  duration: 00:10:23
 - title: Overview of our inequality in access to planned care report
   description: ''
   path: https://www.youtube.com/watch?v=gR7KTfHyiVA
@@ -134,6 +150,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/gR7KTfHyiVA/mqdefault.jpg
   date: '2021-06-09'
+  duration: 00:08:40
 - title: Overview of the Midlands Decision Support Network and progress to date
   description: ''
   path: https://www.youtube.com/watch?v=aEuAX5o8ex0
@@ -142,6 +159,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/aEuAX5o8ex0/mqdefault.jpg
   date: '2021-06-09'
+  duration: 00:09:53
 - title: Children and Young People Mental Health inequalities webinar 170621
   description: ''
   path: https://www.youtube.com/watch?v=gdP58eh2s8U
@@ -150,6 +168,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/gdP58eh2s8U/mqdefault.jpg
   date: '2021-06-18'
+  duration: 00:50:31
 - title: Inequalities in access to elective hospital care
   description: ''
   path: https://www.youtube.com/watch?v=CjAXSDwjn0U
@@ -158,6 +177,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/CjAXSDwjn0U/mqdefault.jpg
   date: '2021-06-18'
+  duration: 00:32:46
 - title: CYPMH Inequalities Webinar 170621 V2
   description: ''
   path: https://www.youtube.com/watch?v=zYazVgvIlM4
@@ -166,6 +186,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/zYazVgvIlM4/mqdefault.jpg
   date: '2021-06-21'
+  duration: 00:48:48
 - title: An Introduction to the Midlands PHM Academy – July 2019
   description: Fraser Battye, Programme Director, provides an overview of the Midlands PHM Academy
   path: https://www.youtube.com/watch?v=xeT7PnRjhJM
@@ -174,6 +195,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/xeT7PnRjhJM/mqdefault.jpg
   date: '2021-03-30'
+  duration: 00:03:47
 - title: PHM Lessons Learned Webinar - March 2020
   description: Fraser Battye and Lucy Hawkins share their reflections on the programme. This webinar forms part of our 'lessons learned' series
   path: https://www.youtube.com/watch?v=D8h3e-EmfC8
@@ -182,6 +204,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/D8h3e-EmfC8/mqdefault.jpg
   date: '2021-03-30'
+  duration: 00:36:35
 - title: Professor Al Mulley, The Dartmouth Institute, on Learning from variation; making visible processes.
   description: The third in our summer webinar series. Al Mulley talks about how we can learn from variation warranted and unwarranted, to deliver what is valued.
   path: https://www.youtube.com/watch?v=N3q-wKTEbdA
@@ -190,6 +213,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/N3q-wKTEbdA/mqdefault.jpg
   date: '2021-03-30'
+  duration: 00:54:43
 - title: Dr Abeda Mulla Qualitative Methods Webinar
   description: An introduction to Qualitative Methods with Dr Abeda Mulla from the Strategy Unit
   path: https://www.youtube.com/watch?v=rpqYI6qnHRI
@@ -198,6 +222,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/rpqYI6qnHRI/mqdefault.jpg
   date: '2021-03-30'
+  duration: 01:01:34
 - title: Professor Sir Muir Gray, The Oxford Centre for Triple Value Healthcare.
   description: The first in our 2019 Summer webinar series, Professor Sir Muir Gray explains his five key tasks for Population Health Management.
   path: https://www.youtube.com/watch?v=02MRVjw75yc
@@ -206,6 +231,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/02MRVjw75yc/mqdefault.jpg
   date: '2021-03-30'
+  duration: 00:46:30
 - title: What do we mean by ‘community’?
   description: Muir Gray and Robin Miller discuss what we mean by community, how that is changing with technology and the implications for health and social care.
   path: https://www.youtube.com/watch?v=XA4uOuP4oJ4
@@ -214,6 +240,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/XA4uOuP4oJ4/mqdefault.jpg
   date: '2021-03-30'
+  duration: 00:06:11
 - title: PHM Evidence Webinar by Alison Turner
   description: An introduction to using evidence in Health and Social Care with Alison Turner
   path: https://www.youtube.com/watch?v=a6GeaDF49wg
@@ -222,6 +249,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/a6GeaDF49wg/mqdefault.jpg
   date: '2021-03-30'
+  duration: 00:52:01
 - title: Logic Models Webinar with Fraser Battye
   description: An introduction to Logic Models with Fraser Battye, The Strategy Unit.
   path: https://www.youtube.com/watch?v=hi0n1uhNmHg
@@ -230,6 +258,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/hi0n1uhNmHg/mqdefault.jpg
   date: '2021-03-30'
+  duration: 00:54:49
 - title: Public Health England's PHM Tools Webinar by Nicola Dennis
   description: As part of our Academy webinar series, Nicola Dennis from Public Health England provides an introduction to the Population Health Management tools available from PHE.
   path: https://www.youtube.com/watch?v=ECkqs-8xf7Q
@@ -238,6 +267,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/ECkqs-8xf7Q/mqdefault.jpg
   date: '2021-03-30'
+  duration: 00:24:10
 - title: 'Professor Mohammed Mohammed, The Strategy Unit, on: Systems thinking and the science of improvement'
   description: Professor Mohammed A Mohammed has continued the series of the Midlands PHM Academy with his webinar on Systems thinking and the Science of Improvement.
   path: https://www.youtube.com/watch?v=wAudEoV9dck
@@ -246,6 +276,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/wAudEoV9dck/mqdefault.jpg
   date: '2021-03-30'
+  duration: 00:55:56
 - title: 'Perspectives on PHM: Professor Robin Miller'
   description: Professor Robin Miller gives his perspective on the value of PHM as a practice.
   path: https://www.youtube.com/watch?v=qkIok1e2QqU
@@ -254,6 +285,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/qkIok1e2QqU/mqdefault.jpg
   date: '2021-03-30'
+  duration: 00:04:29
 - title: 'Perspectives on PHM: Professor Sir Muir Gray'
   description: Professor Sir Muir Gray gives his perspectives on the value of PHM as a practice.
   path: https://www.youtube.com/watch?v=bBDLEYAKz98
@@ -262,6 +294,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/bBDLEYAKz98/mqdefault.jpg
   date: '2021-03-30'
+  duration: 00:04:39
 - title: 'Perspectives on PHM: Professor Mohammed A Mohammed'
   description: Professor Mohammed A Mohammed gives his perspective on the value of PHM as a practice.
   path: https://www.youtube.com/watch?v=KtztTYI0zQA
@@ -270,6 +303,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/KtztTYI0zQA/mqdefault.jpg
   date: '2021-03-30'
+  duration: 00:17:53
 - title: 'Perspectives on PHM: Professor Albert Mulley'
   description: Professor Albert Mulley gives his perspective on the value of PHM as a practise.
   path: https://www.youtube.com/watch?v=ZFyOzg-0XwQ
@@ -278,6 +312,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/ZFyOzg-0XwQ/mqdefault.jpg
   date: '2021-03-30'
+  duration: 00:04:32
 - title: Belinda Weir Systems Leadership Webinar
   description: An introduction to Systems Leadership with Belinda Weir from the Centre for Health and Care Leadership at the University of Birmingham.
   path: https://www.youtube.com/watch?v=Mg-lR7k3tCY
@@ -286,6 +321,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/Mg-lR7k3tCY/mqdefault.jpg
   date: '2021-03-30'
+  duration: 00:51:22
 - title: 'Professor Robin Miller and Professor Jon Glasby on: PHM and integration'
   description: The fourth in our summer series, Professor Jon Glasby and Robin Miller discuss the importance of joint work between the NHS and local government, and why local government matters to population health management.
   path: https://www.youtube.com/watch?v=XLvGfRvRVxM
@@ -294,6 +330,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/XLvGfRvRVxM/mqdefault.jpg
   date: '2021-04-21'
+  duration: 00:38:34
 - title: End of Life Analysis Matters by Peter Spilsbury
   description: ''
   path: https://www.youtube.com/watch?v=zoJ50B18K0M
@@ -302,6 +339,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/zoJ50B18K0M/mqdefault.jpg
   date: '2020-10-13'
+  duration: 00:05:08
 - title: Report Topic 1 - Background to the Report
   description: ''
   path: https://www.youtube.com/watch?v=B1ZJFSID-Y0
@@ -310,6 +348,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/B1ZJFSID-Y0/mqdefault.jpg
   date: '2020-10-13'
+  duration: 00:07:15
 - title: Report Topic 2 - People and Place
   description: ''
   path: https://www.youtube.com/watch?v=as-cxNA48DQ
@@ -318,6 +357,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/as-cxNA48DQ/mqdefault.jpg
   date: '2020-10-13'
+  duration: 00:10:51
 - title: Report Topic 3 - Service Use
   description: ''
   path: https://www.youtube.com/watch?v=FO2N8iJPQos
@@ -326,6 +366,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/FO2N8iJPQos/mqdefault.jpg
   date: '2020-10-13'
+  duration: 00:13:43
 - title: Report Topic 4 - Final Weeks of Life
   description: ''
   path: https://www.youtube.com/watch?v=WDNjxUiRvzc
@@ -334,3 +375,4 @@
   type: Webinar
   image: https://i.ytimg.com/vi/WDNjxUiRvzc/mqdefault.jpg
   date: '2020-10-13'
+  duration: 00:08:44

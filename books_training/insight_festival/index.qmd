@@ -32,14 +32,15 @@ listing:
   - id: insight-events
     contents: talks.yml
     type: table
-    fields: [title, year, description]
+    fields: [title, year, duration, description]
     field-display-names:
       title: "Event"
       year: "Year"
       description: "Details"
+      duration: "Duration"
     sort: [year, date]
     filter-ui: [title, year, description]
-    sort-ui: [title, year]
+    sort-ui: [title, year, duration]
     page-size: 25
 ---
 

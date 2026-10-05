@@ -6,6 +6,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/ML0SLATYYvE/mqdefault.jpg
   date: '2021-10-05'
+  duration: 01:05:21
 - title: Event 2 - What can we learn from the pandemic to reduce health inequalities?
   description: The COVID pandemic has highlighted the stark inequalities in health that exist in the UK and globally. This session will reflect on some of the learning from the NHS frontline in Bradford and how data, science and community engagement was harnessed to protect a city. There is a second pandemic that…
   path: https://www.youtube.com/watch?v=sktulUsacV0
@@ -14,6 +15,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/sktulUsacV0/mqdefault.jpg
   date: '2021-10-06'
+  duration: 00:55:13
 - title: 'Event 4: Insight to action – what works?'
   description: It has been estimated that it can take up to 17 years to translate evidence into practice - how can we change that? Join us to hear from a diverse panel of speakers who will share their experiences of research and practice across a range of sectors. Learn about what works (and what doesn't!) in…
   path: https://www.youtube.com/watch?v=SXF5ZgBtPus
@@ -22,6 +24,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/SXF5ZgBtPus/mqdefault.jpg
   date: '2021-10-08'
+  duration: 01:24:46
 - title: Event 7 - Sharing your awesomeness
   description: The session will look at how we can put insight into action through remarkable stories, working with communication teams, spreading your ideas and standing out from the crowd.
   path: https://www.youtube.com/watch?v=P3XnFPebAJM
@@ -30,6 +33,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/P3XnFPebAJM/mqdefault.jpg
   date: '2021-10-13'
+  duration: 00:52:16
 - title: Festival Launch - new perspectives on analysis and decision making
   description: Our Festival journey begins with the Strategy Unit team setting the scene on the importance of analytics, evaluation and evidence in addressing the current challenges facing health and care and supporting better decision-making – followed by two perspectives from our keynote speakers, Ben Goldacre…
   path: https://www.youtube.com/watch?v=eJOKB0UN7KA
@@ -38,6 +42,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/eJOKB0UN7KA/mqdefault.jpg
   date: '2020-10-08'
+  duration: 01:23:22
 - title: Event 4  - What has COVID-19 told us about how we make decisions?
   description: From the outset of COVID-19, the analytical collaboration has undertaken a programme of work to help make sense of emerging evidence and analysis, and to provide useful information for the NHS in planning its way forward. This video is Event 4 of Insight 2020 and shows the panel discussing the…
   path: https://www.youtube.com/watch?v=IYtUvtEgNXg
@@ -46,6 +51,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/IYtUvtEgNXg/mqdefault.jpg
   date: '2020-10-08'
+  duration: 01:20:43
 - title: Event 6  - How do we know what we know?  Meet the Strategy Unit Evidence Team
   description: Before investing in improvements or innovations, we need to understand what we currently know about what works, so we can make the best use of our limited resources. But it’s not always so easy! This video show our interactive session where we introduced our Decision Support Centre (DSC) evidence…
   path: https://www.youtube.com/watch?v=y1G5PU81ES0
@@ -54,6 +60,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/y1G5PU81ES0/mqdefault.jpg
   date: '2020-10-10'
+  duration: 01:01:12
 - title: Event 7 - The Evaluation Network
   description: This session described why evaluation is important in achieving the best outcomes for patients, service users, health and care systems and their workforce. It also covered how the DSC could support evaluation across the DSU Network and the resources that are available, including an Evaluation…
   path: https://www.youtube.com/watch?v=pAPeYZC24YM
@@ -62,6 +69,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/pAPeYZC24YM/mqdefault.jpg
   date: '2020-10-10'
+  duration: 00:57:56
 - title: Event 8 - Developing the Network of Analysts in the Midlands
   description: 'This was an interactive session which explored ways in which analysts across the Midlands could work together on shared interests and provide mutual support. Speakers: Steven Wyatt, Jake Parsons, Paul Seamer and Gareth Wrench (The Strategy Unit) Contact / links: The Strategy Unit Strategy Unit…'
   path: https://www.youtube.com/watch?v=L-mt5tY0-UM
@@ -70,6 +78,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/L-mt5tY0-UM/mqdefault.jpg
   date: '2020-10-10'
+  duration: 00:45:12
 - title: 'Event 10 -The DSU Network: What''s Next'
   description: 'This week of Insight 2020 we learned all about the Midlands Decision Support Network, how local systems are setting up and operating their own Decision Support Units, and how they will be supported by the Decision Support Center. During this session our panel of experts discuss: the benefits of…'
   path: https://www.youtube.com/watch?v=fta97w2zZrc
@@ -78,6 +87,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/fta97w2zZrc/mqdefault.jpg
   date: '2020-10-12'
+  duration: 01:12:08
 - title: Event 5 - The Role of the Decision Support Network and importance of analytics
   description: This session, hosted by the Strategy Unit, describes the development of the Decision Support Network and the importance of analytics, evaluation and evidence for addressing the current challenges faced by health and care in the region. Leads, responsible for Decision Support Unit (DSU) development…
   path: https://www.youtube.com/watch?v=xlYWiXTQeQY
@@ -86,6 +96,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/xlYWiXTQeQY/mqdefault.jpg
   date: '2020-10-09'
+  duration: 01:17:57
 - title: Event 3 - Better decisions through meaningful population involvement
   description: This video shows the thought-provoking session about different approaches to involving people in decisions about health services. It includes interactive exercises that demonstrate first-hand what different research approaches can add and examples of where these approaches have worked in the NHS…
   path: https://www.youtube.com/watch?v=PGIEiuiUA-4
@@ -94,6 +105,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/PGIEiuiUA-4/mqdefault.jpg
   date: '2020-10-08'
+  duration: 01:03:48
 - title: Event 2 - How has COVID-19 affected how we think about future social care?
   description: Social care services have had to change rapidly in the face of the challenge of COVID-19. At the same time, the preferences and choices of those services have also changed. The market for care provision is also heavily impacted. This panel discussion will consider what has changed; what has been…
   path: https://www.youtube.com/watch?v=U_61tphFlkY
@@ -102,6 +114,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/U_61tphFlkY/mqdefault.jpg
   date: '2020-10-08'
+  duration: 00:58:58
 - title: Introduction by Peter Spilsbury, Director of the Strategy Unit
   description: 'In this video Peter Spilsbury (Director, the Strategy Unit) introduces the Insight 2020 Festival, describing what it''s all about and why we decided to do this. Week 1: Our decision-making context in 2020 Transformation in health and care has been rapid and intensive, particularly in 2020. Asking…'
   path: https://www.youtube.com/watch?v=BanOB82a3n8
@@ -110,6 +123,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/BanOB82a3n8/mqdefault.jpg
   date: '2020-10-08'
+  duration: 00:04:57
 - title: Event 12  - Changing how we work in the COVID context
   description: In this session, Paul Mason and Abeda Mulla from the Decision Support Centre (DSC) evaluation team present findings from qualitative evaluation research with Herefordshire and Worcestershire Sustainability and Transformation Partnership (STP), exploring learning from the COVID-19 response. The…
   path: https://www.youtube.com/watch?v=L2JM9ux-n6M
@@ -118,6 +132,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/L2JM9ux-n6M/mqdefault.jpg
   date: '2020-10-14'
+  duration: 00:42:42
 - title: Event 11 - Network Analytical Priorities
   description: 'This session looks at the analytical projects including how they were selected, that the Decision Support Centre (DSC) will be delivering on behalf of the Network. These are: • classifying outpatient visits by function; • inequalities in access to mental health services for children and young…'
   path: https://www.youtube.com/watch?v=kI-ctxlfSgM
@@ -126,6 +141,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/kI-ctxlfSgM/mqdefault.jpg
   date: '2020-10-15'
+  duration: 01:01:30
 - title: Event 13 - The Future of Analytics
   description: 'This is a ‘think-piece’ session which considers the major issues, challenges and opportunities facing health and care analysts in terms of future skills, technology, software, data, application, etc. Speakers: Gareth Wrench, Mohammed A Mohammed, Steven Wyatt (The Strategy Unit) and Julian Flowers…'
   path: https://www.youtube.com/watch?v=K8SzyZMs-T0
@@ -134,6 +150,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/K8SzyZMs-T0/mqdefault.jpg
   date: '2020-10-19'
+  duration: 00:51:24
 - title: Event 15 - End of Life Care Analytical Insights
   description: This interactive presentation focusses on the Strategy Unit’s recently completed project on end of life care which analyzed the resource usage in the last two years of life across a number of different health and care settings. This project provides an early example of the kind of work the Midlands…
   path: https://www.youtube.com/watch?v=Ss6u2P-mMXg
@@ -142,6 +159,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/Ss6u2P-mMXg/mqdefault.jpg
   date: '2020-10-19'
+  duration: 01:19:43
 - title: Event 16 - Panel discussion shaping future analytical priorities
   description: 'This video: What are the big analytical questions on the horizon for the Decision Support Centre? During this week of the Insight 2020 Festival we had looked at some of the significant analysis being conducted on behalf of the Midlands, as well as nationally, and thought about the implications of…'
   path: https://www.youtube.com/watch?v=oqyKRom9Bl0
@@ -150,6 +168,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/oqyKRom9Bl0/mqdefault.jpg
   date: '2020-10-23'
+  duration: 00:56:15
 - title: Event 18 - Homelessness and Covid 19 using research to learn in a crisis
   description: 'Context: Covid-19 brought crisis to many people already in crisis. For people experiencing homelessness it led to radical changes in circumstance, not least as the ‘everyone in’ policy changed their housing situation. Health and care services also had to make radical changes in their operation.…'
   path: https://www.youtube.com/watch?v=nB7SLam_p0M
@@ -158,6 +177,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/nB7SLam_p0M/mqdefault.jpg
   date: '2020-10-29'
+  duration: 01:03:00
 - title: Event 19 - The trauma impact of COVID 19 on children and young people - how to respond
   description: 'Context: Whilst for children and young people the direct impact of COVID-19 has been limited, the impact of COVID-19 on family and society and the experience of lockdown have both been profound in their effects. It seems certain that many children and young people have experienced trauma as a…'
   path: https://www.youtube.com/watch?v=jNV71k9sDLk
@@ -166,6 +186,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/jNV71k9sDLk/mqdefault.jpg
   date: '2020-10-29'
+  duration: 01:17:31
 - title: Event 20 - Health inequalities and ethnicity
   description: In this session we focus on the recent findings of poorer health outcomes from COVID-19 for ethnic minority populations in England and beyond. We share high-level findings from a qualitative study undertaken by the Strategy Unit, exploring the experience of Black and Ethnic Minority individuals who…
   path: https://www.youtube.com/watch?v=EEXnlANE6DI
@@ -174,6 +195,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/EEXnlANE6DI/mqdefault.jpg
   date: '2020-10-30'
+  duration: 00:53:04
 - title: Event 23 - What is in your decision making toolkit
   description: 'Context: This is a session which introduces the Decision Support Toolkit, created by the Midlands Decision Support Centre (DSC). We hear from some of our inspirational local leaders on the components that they need to blend together to make good local decisions. We hear about how they triangulate…'
   path: https://www.youtube.com/watch?v=9IazoiLcTm4
@@ -182,6 +204,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/9IazoiLcTm4/mqdefault.jpg
   date: '2020-11-10'
+  duration: 01:09:21
 - title: 'Event 24  - Insight 2020 and NHS-R: Why the NHS and care system should use R'
   description: Background R is free, it’s highly sharable and is backed up by a community of R users who love to help and apparently when you get the R bug – you’re hooked! There are so many examples of its potential and the opportunities to ultimately improve care and outcomes. But this doesn’t ‘just happen’ and…
   path: https://www.youtube.com/watch?v=wZQW4LP6rwA
@@ -190,6 +213,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/wZQW4LP6rwA/mqdefault.jpg
   date: '2020-11-11'
+  duration: 01:02:08
 - title: Event 28 - An introduction to decision quality
   description: Decision-making in health and care is complex. Unsurprisingly, although some decisions succeed a significant portion fail and given the increased pressures on leadership, how can we make better decisions. This session provided an overview of a systematic, practical, approach to enhancing decision…
   path: https://www.youtube.com/watch?v=sRcB5IwbSqk
@@ -198,6 +222,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/sRcB5IwbSqk/mqdefault.jpg
   date: '2020-11-12'
+  duration: 01:00:55
 - title: 'Event 27 - Shifting sands: making sense of an emerging COVID 19 evidence base'
   description: In this session, we heard different perspectives on the COVID-19 evidence conundrum along with some ideas for how we might manage some of the challenges. The panel shared different experiences of generating, using or applying COVID-19 evidence and discussed what this meant for how we use evidence…
   path: https://www.youtube.com/watch?v=1lo9EWTNXT4
@@ -206,6 +231,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/1lo9EWTNXT4/mqdefault.jpg
   date: '2020-11-12'
+  duration: 00:59:12
 - title: Event 30 - Accessing the data and code behind DSU end of life analysis
   description: The DSU’s analysis of healthcare use in the last 24 months of life was launched in week 3 of the Insight 2020 Festival. These reports and other materials are available on the Strategy Unit’s publications pa–e - This session provides an explanation of how the reports were constructed and how…
   path: https://www.youtube.com/watch?v=RlqpImghU9M
@@ -214,6 +240,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/RlqpImghU9M/mqdefault.jpg
   date: '2020-11-13'
+  duration: 01:17:25
 - title: Event 34 - Closing panel - what's next for decision-making?
   description: 'To close the Insight 2020 Festival, we brought together a remarkable panel of leaders to discuss how decision quality could be improved in the new NHS. The panel reflected on: • The nature of the decision-making challenge ahead and questions of legitimacy in decision-making that we are seeing…'
   path: https://www.youtube.com/watch?v=cQT-uiVmiIM
@@ -222,6 +249,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/cQT-uiVmiIM/mqdefault.jpg
   date: '2020-11-18'
+  duration: 01:27:34
 - title: Event 29 - What do analysts bring to the task of leadership?
   description: 'In this video, "Event 29 – What do analysts bring to the task of leadership?" our panel discuss what is meant by analytical leadership; whether it is important and how we develop analysts as leaders. Our speakers are: Fraser Battye (Strategy Unit), Steven Wyatt (The Strategy Unit), Kate Cheema…'
   path: https://www.youtube.com/watch?v=ZZDfThrBFMQ
@@ -230,6 +258,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/ZZDfThrBFMQ/mqdefault.jpg
   date: '2020-11-20'
+  duration: 00:58:57
 - title: Event 31 - Are we ready to adopt Population Health Management?
   description: Population Health Management promises much, but how do we realise this in practice? What are the practical steps needed to ready systems for PHM? What about the role of analysts within that? In this video "Event 31 - Are we ready to adopt Population Health Management (PHM)?" Strategy Unit…
   path: https://www.youtube.com/watch?v=lbDxAiHl_G4
@@ -238,6 +267,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/lbDxAiHl_G4/mqdefault.jpg
   date: '2020-11-24'
+  duration: 00:49:59
 - title: Event 30 (supporting content) – Accessing the data and code used in end of life work
   description: This video provides content to support the main Event 30 event "Accessing the data and code that underpins the Decision Support Unit (DSU) Network analysis of healthcare use at the end of life" The Decision Support Unit’s analysis of healthcare use in the last 24 months of life was launched in week…
   path: https://www.youtube.com/watch?v=LPzraXmTxqE
@@ -246,6 +276,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/LPzraXmTxqE/mqdefault.jpg
   date: '2020-11-24'
+  duration: 00:10:18
 - title: Event 25 - Decision Support Unit Education and Development Programme
   description: 'This video: Event 25 – The Decision Support Unit Education & Development Programme Analytics is increasingly featuring in complex decision-making processes and more is now expected of our analyst workforce, but finding relevant, practical, high quality training and development solutions is…'
   path: https://www.youtube.com/watch?v=mfipKtWK7DE
@@ -254,6 +285,7 @@
   type: Webinar
   image: https://i.ytimg.com/vi/mfipKtWK7DE/mqdefault.jpg
   date: '2020-12-08'
+  duration: 00:56:12
 - title: Event 32 - Addressing the decision quality challenge with Prof Al Mulley
   description: 'In this video, Professor Al Mulley, managing director of the Dartmouth Institute’s Global Health Care Delivery Science Program, addresses the challenge of measurably improving decision quality by considering the interdependence of the dialogues that take place between: (1) patients and clinicians;…'
   path: https://www.youtube.com/watch?v=2J4io8hd2Go
@@ -262,3 +294,4 @@
   type: Webinar
   image: https://i.ytimg.com/vi/2J4io8hd2Go/mqdefault.jpg
   date: '2021-05-26'
+  duration: 00:56:38

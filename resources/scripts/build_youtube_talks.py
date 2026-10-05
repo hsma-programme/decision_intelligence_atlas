@@ -18,6 +18,10 @@ where the description lists them:
 
 Recordings with no talk details are kept as a single row.
 
+Each row also gets a duration: the length of the video, or for a talk split
+out by timestamps, the time until the next timestamp (or the end of the
+video). Talks without timestamps have no duration, as their length isn't known.
+
 Usage
 -----
 python resources/scripts/build_youtube_talks.py
@@ -117,7 +121,7 @@ def is_programme_time(times):
     return bool(re.fullmatch(r"(0[7-9]|1[0-2]):\d{2}", times[0]))
 
 
-def clean_description(description):
+def clean_description(description, max_length=MAX_DESCRIPTION_LENGTH):
     """
     Shorten a description for display, removing URLs and extra whitespace.
 
@@ -125,6 +129,8 @@ def clean_description(description):
     ----------
     description : str
         Full video description.
+    max_length : int or None
+        Maximum length, or None to keep the whole description.
 
     Returns
     -------
@@ -133,8 +139,8 @@ def clean_description(description):
     """
     text = re.sub(r"https?://\S+", "", description)
     text = re.sub(r"\s+", " ", text).strip()
-    if len(text) > MAX_DESCRIPTION_LENGTH:
-        text = text[:MAX_DESCRIPTION_LENGTH].rsplit(" ", 1)[0] + "…"
+    if max_length and len(text) > max_length:
+        text = text[:max_length].rsplit(" ", 1)[0] + "…"
     return text
 
 
@@ -169,29 +175,111 @@ def split_talks(video, talk_list):
     Returns
     -------
     list of tuple
-        (talk title, start time in seconds or None) for each talk. Empty if
-        the description doesn't list the talks.
+        (talk title, start time, end time) for each talk, with times in
+        seconds. The start is None if the talk's position isn't known, and
+        the end is None if the talk runs to the end of the video (or its
+        position isn't known). Empty if the description doesn't list the
+        talks.
     """
     lines = video["description"].splitlines()
 
     timed = [m for m in map(TIMESTAMP_LINE.match, lines) if m]
     if len(timed) >= 2:
         times = [m["time"] for m in timed]
-        programme_time = is_programme_time(times)
+        if is_programme_time(times):
+            starts = [None] * len(timed)
+            ends = [None] * len(timed)
+        else:
+            starts = to_start_times(times)
+            # Each talk ends where the next item (including breaks) starts
+            ends = starts[1:] + [None]
         return [
-            (strip_urls(m["text"]), None if programme_time else start)
-            for m, start in zip(timed, to_start_times(times))
+            (strip_urls(m["text"]), start, end)
+            for m, start, end in zip(timed, starts, ends)
             if not NOT_TALKS.search(m["text"])
         ]
 
     if talk_list:
         return [
-            (line.strip(), None)
+            (line.strip(), None, None)
             for line in lines
             if line.strip() and "http" not in line
         ]
 
     return []
+
+
+def parse_duration(duration):
+    """
+    Convert a YouTube duration such as "PT1H2M3S" to seconds.
+
+    Parameters
+    ----------
+    duration : str or None
+        ISO 8601 duration from the YouTube Data API.
+
+    Returns
+    -------
+    int or None
+        Number of seconds, or None if the duration is missing or zero (as it
+        is for upcoming live streams).
+    """
+    match = re.fullmatch(
+        r"P(?:(?P<d>\d+)D)?(?:T(?:(?P<h>\d+)H)?(?:(?P<m>\d+)M)?(?:(?P<s>\d+)S)?)?",
+        duration or "",
+    )
+    if not match:
+        return None
+    parts = {key: int(value or 0) for key, value in match.groupdict().items()}
+    seconds = ((parts["d"] * 24 + parts["h"]) * 60 + parts["m"]) * 60 + parts["s"]
+    return seconds or None
+
+
+def talk_duration(start, end, video_seconds):
+    """
+    Return the length of a talk within a video.
+
+    Parameters
+    ----------
+    start : int or None
+        Start of the talk in seconds, or None if not known.
+    end : int or None
+        End of the talk in seconds, or None if it runs to the end of the video.
+    video_seconds : int or None
+        Length of the video in seconds.
+
+    Returns
+    -------
+    int or None
+        Length of the talk in seconds, or None if it can't be worked out.
+    """
+    if start is None:
+        return None
+    end = video_seconds if end is None else end
+    if end is None or end <= start:
+        return None
+    return end - start
+
+
+def format_duration(seconds):
+    """
+    Format a number of seconds as HH:MM:SS.
+
+    Parameters
+    ----------
+    seconds : int or None
+        Number of seconds.
+
+    Returns
+    -------
+    str or None
+        Formatted duration, or None if not known.
+    """
+    if seconds is None:
+        return None
+    hours, remainder = divmod(seconds, 3600)
+    minutes, secs = divmod(remainder, 60)
+    return f"{hours:02d}:{minutes:02d}:{secs:02d}"
 
 
 def video_type(video, config):
@@ -312,7 +400,37 @@ def remove_boilerplate(video, config):
     return {**video, "title": title, "description": description}
 
 
-def build_talks(playlists, playlist_config):
+def video_source(video, config, collection):
+    """
+    Return who published a video, for the Recordings Finder.
+
+    Parameters
+    ----------
+    video : dict
+        Video metadata from `fetch_youtube_playlists.py`.
+    config : dict
+        The video's playlist settings from the config file. Its optional
+        `source` overrides the collection's.
+    collection : dict
+        The video's collection settings from the config file. Its optional
+        `earlier_source` (with `before`, a date, and `source`) gives the
+        source of videos published before that date, e.g. for a community
+        that has been renamed.
+
+    Returns
+    -------
+    str
+        The video's source.
+    """
+    if config.get("source"):
+        return config["source"]
+    earlier = collection.get("earlier_source")
+    if earlier and video["published"][:10] < str(earlier["before"]):
+        return earlier["source"]
+    return collection["source"]
+
+
+def build_talks(playlists, playlist_config, collection):
     """
     Build one listing item per talk from fetched playlist metadata.
 
@@ -322,14 +440,19 @@ def build_talks(playlists, playlist_config):
         Playlists from `fetch_youtube_playlists.py`.
     playlist_config : dict
         Each playlist's settings from the config file, keyed by label.
+    collection : dict
+        The collection's settings from the config file.
 
     Returns
     -------
     list of dict
         Listing items with title, year, event, type, description, path,
-        image and date. The year is taken from the playlist label if it
+        image, date and duration (HH:MM:SS, or None if not known). The year is taken from the playlist label if it
         contains one (e.g. "RPySOC 2025"), otherwise from the video's publish
-        date, and the event is the playlist label without the year.
+        date, and the event is the playlist label without the year. Items
+        also have a source and the duration in seconds, and those whose
+        description was shortened have a full_description, all only used by
+        the Recordings Finder.
     """
     items = []
     for playlist in playlists:
@@ -352,20 +475,29 @@ def build_talks(playlists, playlist_config):
                 "type": video_type(video, config),
                 "image": video["thumbnail"],
                 "date": video["published"][:10],
+                "source": video_source(video, config, collection),
             }
             if config.get("title_from_description"):
                 video = title_from_description(video)
             video = remove_boilerplate(video, config)
+            video_seconds = parse_duration(video.get("duration"))
             talks = split_talks(video, config.get("talk_list", False))
             if not talks:
-                items.append({
+                item = {
                     "title": video["title"],
                     "description": clean_description(video["description"]),
                     "path": url,
                     **shared,
-                })
+                    "duration": format_duration(video_seconds),
+                    "seconds": video_seconds,
+                }
+                full_description = clean_description(video["description"], max_length=None)
+                if full_description != item["description"]:
+                    item["full_description"] = full_description
+                items.append(item)
                 continue
-            for title, start in talks:
+            for title, start, end in talks:
+                seconds = talk_duration(start, end, video_seconds)
                 items.append({
                     "title": title,
                     "description": (
@@ -375,6 +507,8 @@ def build_talks(playlists, playlist_config):
                     ),
                     "path": url if start is None else f"{url}&t={start}s",
                     **shared,
+                    "duration": format_duration(seconds),
+                    "seconds": seconds,
                 })
     return items
 
@@ -428,16 +562,27 @@ def main():
         if videos_file.exists():
             playlists = json.loads(videos_file.read_text(encoding="utf-8"))["playlists"]
             playlist_config = {playlist["label"]: playlist for playlist in collection["playlists"]}
-            items = build_talks(playlists, playlist_config)
+            items = build_talks(playlists, playlist_config, collection)
         else:
             # Not fetched yet, e.g. a new collection added without an API key.
             # Write an empty table so its entry still renders.
             print(f"{name}: no {videos_file} - run fetch_youtube_playlists.py to fetch its videos")
             items = []
 
+        # The entry's table shows the shortened descriptions; full ones,
+        # sources and seconds are only used by the Recordings Finder
         out_file = folder / "talks.yml"
+        listing_items = [
+            {
+                key: value for key, value in item.items()
+                if key not in ("full_description", "source", "seconds")
+                # Leave unknown durations blank rather than showing "null"
+                and not (key == "duration" and value is None)
+            }
+            for item in items
+        ]
         out_file.write_text(
-            yaml.safe_dump(items, allow_unicode=True, sort_keys=False, width=1000),
+            yaml.safe_dump(listing_items, allow_unicode=True, sort_keys=False, width=1000),
             encoding="utf-8",
         )
         print(f"{name}: wrote {len(items)} talks to {out_file}")
@@ -456,10 +601,12 @@ def main():
                 "title": item["title"],
                 "year": item["year"],
                 "date": item["date"],
+                "duration": item["duration"],
+                "seconds": item["seconds"],
                 "type": item["type"],
-                "source": collection["source"],
+                "source": item["source"],
                 "event": item["event"] if show_event else "",
-                "details": item["description"],
+                "details": item.get("full_description", item["description"]),
                 "url": item["path"],
                 "collection": collection_title,
                 "collection_url": f"/{folder.as_posix()}/index.html",

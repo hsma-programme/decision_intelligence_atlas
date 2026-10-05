@@ -6,6 +6,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/PKMWHemidIw/mqdefault.jpg
   date: '2026-02-04'
+  duration: 00:13:51
 - title: Total Eclipse of the Excel Chart
   description: 'Talk: Total Eclipse of the Excel Chart - A reflection on 12 years of teaching modelling and data science in the NHS Speaker: Dr Dan Chalk'
   path: https://www.youtube.com/watch?v=Njm87gLaK9Q
@@ -14,6 +15,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/Njm87gLaK9Q/mqdefault.jpg
   date: '2026-02-04'
+  duration: 00:35:02
 - title: 'Beautifully reproducible dataviz: lessons learnt from building data-to-viz pipelines'
   description: 'Talk: Beautifully reproducible dataviz: lessons learnt from building data-to-viz pipelines Speaker: Cara Thompson'
   path: https://www.youtube.com/watch?v=glJ9rBBrP7o
@@ -22,6 +24,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/glJ9rBBrP7o/mqdefault.jpg
   date: '2026-02-04'
+  duration: 00:26:26
 - title: Using open data and open source code to create an open elective waiting lists modelling tool
   description: 'Talk: Using open data and open source code to create an open elective waiting lists modelling tool (RTT Planner) Speaker: Sebastian Fox'
   path: https://www.youtube.com/watch?v=bXg37CCbDtU
@@ -30,6 +33,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/bXg37CCbDtU/mqdefault.jpg
   date: '2026-02-04'
+  duration: 00:18:15
 - title: 'opencodecounts: An R package and Shiny app exploring NHS clinical coding data'
   description: 'Talk: opencodecounts: An R package and Shiny app exploring NHS clinical coding data Speaker: Milan Wiedemann'
   path: https://www.youtube.com/watch?v=e_TCVkOXjYI
@@ -38,6 +42,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/e_TCVkOXjYI/mqdefault.jpg
   date: '2026-02-04'
+  duration: 00:11:29
 - title: 'DES-igning Better Flow: Modelling Non-Elective Admissions'
   description: 'Talk: DES-igning Better Flow: Modelling Non-Elective Admissions Speaker: Helena Robinson'
   path: https://www.youtube.com/watch?v=OOeJsnYEVhQ
@@ -46,6 +51,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/OOeJsnYEVhQ/mqdefault.jpg
   date: '2026-02-04'
+  duration: 00:10:41
 - title: 'Mapping Accessibility: Using R5py and GTFS Data to Optimise Women’s Health Hub Locations in Sussex'
   description: 'Talk: Mapping Accessibility: Using R5py and GTFS Data to Optimise Women’s Health Hub Locations in the Sussex Speaker: Karrie LIU'
   path: https://www.youtube.com/watch?v=pOrBY_9aJp8
@@ -54,6 +60,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/pOrBY_9aJp8/mqdefault.jpg
   date: '2026-02-04'
+  duration: 00:09:00
 - title: '3 years on NHS-RPy Unconference: open, self-organising exchange of ideas'
   description: 'Talk: 3 years on NHS-RPy Unconference: open, self-organising exchange of ideas Speakers: Dr Pawel Orzechowski and Dr Brittany Blankinship'
   path: https://www.youtube.com/watch?v=1xL9z7jNwgk
@@ -62,6 +69,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/1xL9z7jNwgk/mqdefault.jpg
   date: '2026-02-04'
+  duration: 00:10:19
 - title: Design a model for Community pharmacy workforce with open source data
   description: 'Talk: Design a model for Community pharmacy workforce with open source data Speaker: Chaeyoon Kim'
   path: https://www.youtube.com/watch?v=drewjDzz3LA
@@ -70,6 +78,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/drewjDzz3LA/mqdefault.jpg
   date: '2026-02-04'
+  duration: 00:11:43
 - title: Word is better than Quarto?
   description: 'Talk: Word is better than Quarto? Speaker: Jacqueline Grout'
   path: https://www.youtube.com/watch?v=42b6om-Avfw
@@ -78,6 +87,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/42b6om-Avfw/mqdefault.jpg
   date: '2026-02-04'
+  duration: 00:22:05
 - title: 'Deploying Python in production: containers, kubernetes and embracing yaml'
   description: 'Talk: Deploying Python in production: containers, kubernetes and embracing yaml Speaker: Amadeus Stevenson'
   path: https://www.youtube.com/watch?v=9d0cZ1Z_giI
@@ -86,6 +96,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/9d0cZ1Z_giI/mqdefault.jpg
   date: '2026-02-04'
+  duration: 00:20:47
 - title: Modelling Community waiting lists with NHS-R waiting list library
   description: 'Talk: Modelling Community waiting lists with NHS-R waiting list library Speaker: Simon Wellesley-Miller'
   path: https://www.youtube.com/watch?v=kkJ45N_HvBE
@@ -94,6 +105,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/kkJ45N_HvBE/mqdefault.jpg
   date: '2026-02-04'
+  duration: 00:10:41
 - title: Using APIs in R to obtain Health indicators for interactive visualizations
   description: 'Talk: Using APIs in R to obtain Health indicators for interactive visualizations Speaker: Pablo Leon-Rodenas'
   path: https://www.youtube.com/watch?v=lodB2zdmRaQ
@@ -102,6 +114,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/lodB2zdmRaQ/mqdefault.jpg
   date: '2026-02-04'
+  duration: 00:08:04
 - title: 'The story of patientflow: from hospital prototype to Python package'
   description: 'Talk: The story of patientflow: from hospital prototype to Python package Speaker: Dr Zella King'
   path: https://www.youtube.com/watch?v=tH057N-iiTo
@@ -110,6 +123,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/tH057N-iiTo/mqdefault.jpg
   date: '2026-02-04'
+  duration: 00:17:57
 - title: 'Going for Gold: Adopting RAP-by-default to Create Analysts from Nowhere'
   description: 'Talk: Going for Gold: Adopting RAP-by-default to Create Analysts from Nowhere Speaker: Joseph Wilson'
   path: https://www.youtube.com/watch?v=DHWcD2NS-ro
@@ -118,6 +132,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/DHWcD2NS-ro/mqdefault.jpg
   date: '2026-02-04'
+  duration: 00:20:57
 - title: Zhuzhing custom error messages with {cli}
   description: 'Talk: Zhuzhing custom error messages with {cli} Speaker: Fran Barton'
   path: https://www.youtube.com/watch?v=x7H5qiQMpRs
@@ -126,6 +141,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/x7H5qiQMpRs/mqdefault.jpg
   date: '2026-02-04'
+  duration: 00:08:01
 - title: 'Shattered pottery and cancer data: using R to rejoin the pieces'
   description: 'Talk: Shattered pottery and cancer data: using R to rejoin the pieces Speaker: Joe Shaw'
   path: https://www.youtube.com/watch?v=qDBYP3pzz4U
@@ -134,6 +150,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/qDBYP3pzz4U/mqdefault.jpg
   date: '2026-02-04'
+  duration: 00:07:41
 - title: 'Reusable by Default: Reflections on Building Sustainable Open Tools and Knowledge for Healthcare'
   description: 'Talk: Reusable by Default: Reflections on Building Sustainable Open Tools and Knowledge for Healthcare Speaker: Sammi Rosser'
   path: https://www.youtube.com/watch?v=JU0DG0hB1bQ
@@ -142,6 +159,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/JU0DG0hB1bQ/mqdefault.jpg
   date: '2026-02-04'
+  duration: 00:30:32
 - title: A Short Story of a Short Course - Natural Language Processing in R for Health and Social Care
   description: 'Talk: A Short Story of a Short Course - Natural Language Processing in R for Health and Social Care Speaker: Dr Pawel Orzechowski and Dr Brittany Blankinship'
   path: https://www.youtube.com/watch?v=fwZX0mC7rLo
@@ -150,6 +168,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/fwZX0mC7rLo/mqdefault.jpg
   date: '2026-02-04'
+  duration: 00:09:05
 - title: Practical Testing for Reproducible Analytical Pipelines
   description: 'Talk: Practical Testing for Reproducible Analytical Pipelines Speaker: Thomas Jemmett'
   path: https://www.youtube.com/watch?v=ipriM7ETfZc
@@ -158,6 +177,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/ipriM7ETfZc/mqdefault.jpg
   date: '2026-02-04'
+  duration: 00:21:33
 - title: Building QA into everyday workflows with GitHub
   description: 'Talk: Building QA into everyday workflows with GitHub Speaker: Rhian Davies'
   path: https://www.youtube.com/watch?v=frqLr5nM9ZY
@@ -166,6 +186,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/frqLr5nM9ZY/mqdefault.jpg
   date: '2026-02-04'
+  duration: 00:09:21
 - title: How we delivered the OpenSAFELY platform to analyse the whole population’s GP records
   description: 'Talk: How we delivered the OpenSAFELY platform to analyse the whole population’s GP records securely, transparently, with open code Speaker: Professor Ben Goldacre'
   path: https://www.youtube.com/watch?v=UenglxXd2us
@@ -174,6 +195,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/UenglxXd2us/mqdefault.jpg
   date: '2026-02-04'
+  duration: 00:31:51
 - title: Patient-Level Analytics That Work
   description: 'Talk: Patient-Level Analytics That Work: Using R to Achieve Rapid, Sustained MRSA Screening Compliance Improvements Speaker: Daniel Weiand'
   path: https://www.youtube.com/watch?v=a5C47SJWHUU
@@ -182,6 +204,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/a5C47SJWHUU/mqdefault.jpg
   date: '2026-02-04'
+  duration: 00:16:26
 - title: Using simulation to evaluate a service
   description: 'Talk: Using simulation to evaluate a service: what to do when you''ve got no data, no clear questions, and no clue if it''s working Speaker: Chris Mainey'
   path: https://www.youtube.com/watch?v=N0KZbtC_Vqg
@@ -190,6 +213,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/N0KZbtC_Vqg/mqdefault.jpg
   date: '2026-02-04'
+  duration: 00:18:31
 - title: 'Making national cancer audit reporting Shiny: a journey from Excel to web-based apps using R and RAP'
   description: 'Talk: Making national cancer audit reporting Shiny: a journey from Excel to web-based apps using R and Reproducible Analytical Pipelines Speaker: Ella Barber'
   path: https://www.youtube.com/watch?v=nAeqfg0ISSw
@@ -198,6 +222,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/nAeqfg0ISSw/mqdefault.jpg
   date: '2026-02-04'
+  duration: 00:13:33
 - title: 'Better together: lessons from RAP drop-ins'
   description: 'Talk: Better together: lessons from RAP drop-ins Speaker: YiWen Hon'
   path: https://www.youtube.com/watch?v=Jsna0bgPHNc
@@ -206,6 +231,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/Jsna0bgPHNc/mqdefault.jpg
   date: '2026-02-04'
+  duration: 00:08:48
 - title: Predicting Outpatient Non-Attendance
   description: 'Talk: Predicting Outpatient Non-Attendance Speaker: Peter Andrews'
   path: https://www.youtube.com/watch?v=tWcLIMTQb8A
@@ -214,6 +240,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/tWcLIMTQb8A/mqdefault.jpg
   date: '2026-02-04'
+  duration: 00:08:59
 - title: Introduction to Causal Inference for R and Python users
   description: 'Talk: Introduction to Causal Inference for R and Python users Speaker: Nathan Thomas'
   path: https://www.youtube.com/watch?v=d97_XRoYFUU
@@ -222,6 +249,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/d97_XRoYFUU/mqdefault.jpg
   date: '2026-02-04'
+  duration: 00:15:39
 - title: 'Publishing reproducible websites using R Quarto: Camden''s JSNA Hub'
   description: 'Talk: Publishing reproducible websites using R Quarto: Camden''s JSNA Hub Speaker: Annie Yu'
   path: https://www.youtube.com/watch?v=N7glrf9mLkk
@@ -230,6 +258,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/N7glrf9mLkk/mqdefault.jpg
   date: '2026-02-04'
+  duration: 00:09:33
 - title: 'What Patients Ask: Harnessing Free-Text Data for Patient-Centred Care'
   description: 'Talk: What Patients Ask: Harnessing Free-Text Data for Patient-Centred Care Speaker: Mimi Reyburn'
   path: https://www.youtube.com/watch?v=8b0zgCahr5k
@@ -238,6 +267,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/8b0zgCahr5k/mqdefault.jpg
   date: '2026-02-04'
+  duration: 00:10:17
 - title: 'RPySOC 2025: Closing Speech'
   description: 'Talk: Closing speech Speaker: Dr Claire Welsh'
   path: https://www.youtube.com/watch?v=v5OaYnKPZaQ
@@ -246,6 +276,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/v5OaYnKPZaQ/mqdefault.jpg
   date: '2026-02-04'
+  duration: 00:06:47
 - title: 'Presenting fingertips in data in a more friendly format: Rachel Brown'
   description: Part of the recording 'RPYSOC 24 - 22 Nov - Day two afternoon 1' - see its description for timings.
   path: https://www.youtube.com/watch?v=SD_GZ1URYzI
@@ -518,6 +549,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/3uSbLT7ISPc/mqdefault.jpg
   date: '2023-11-13'
+  duration: 00:32:19
 - title: Sammi Rosser Plenary Talk Extending PowerBI’s Visualisation Capabilities – R and Plotly to the rescue!
   description: 'From the recording ''NHS-R/NHS.pycom Conference: Online Conference Talks [Wednesday 11th October 2023]'', starting at 34:23.'
   path: https://www.youtube.com/watch?v=3uSbLT7ISPc&t=2063s
@@ -526,6 +558,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/3uSbLT7ISPc/mqdefault.jpg
   date: '2023-11-13'
+  duration: 00:23:48
 - title: Cara Thompson Plenary Talk “So much more than pretty graphs” – The value of creating and implementing a dataviz design system in R
   description: 'From the recording ''NHS-R/NHS.pycom Conference: Online Conference Talks [Wednesday 11th October 2023]'', starting at 58:11.'
   path: https://www.youtube.com/watch?v=3uSbLT7ISPc&t=3491s
@@ -534,6 +567,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/3uSbLT7ISPc/mqdefault.jpg
   date: '2023-11-13'
+  duration: 00:25:02
 - title: Lori Edwards Suarez Plenary Talk Using Data to Address Barriers in Perinatal Mental Health Care
   description: 'From the recording ''NHS-R/NHS.pycom Conference: Online Conference Talks [Wednesday 11th October 2023]'', starting at 1:23:13.'
   path: https://www.youtube.com/watch?v=3uSbLT7ISPc&t=4993s
@@ -542,6 +576,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/3uSbLT7ISPc/mqdefault.jpg
   date: '2023-11-13'
+  duration: 00:22:03
 - title: Oluwasegun Apejoye Lightning Talk Building an open-source Patient Experience Data Categorisation Dashboard
   description: 'From the recording ''NHS-R/NHS.pycom Conference: Online Conference Talks [Wednesday 11th October 2023]'', starting at 1:45:16.'
   path: https://www.youtube.com/watch?v=3uSbLT7ISPc&t=6316s
@@ -550,6 +585,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/3uSbLT7ISPc/mqdefault.jpg
   date: '2023-11-13'
+  duration: 00:14:44
 - title: Peter Andrews Lightning Talk No More Copy and Paste! – Exec reporting from R
   description: 'From the recording ''NHS-R/NHS.pycom Conference: Online Conference Talks [Wednesday 11th October 2023]'', starting at 2:00:00.'
   path: https://www.youtube.com/watch?v=3uSbLT7ISPc&t=7200s
@@ -558,6 +594,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/3uSbLT7ISPc/mqdefault.jpg
   date: '2023-11-13'
+  duration: 00:14:37
 - title: 'Lysandros Sofocleous Lightning Talk Automating reporting pack generation using RStudio on Databricks: Visualisation of dental data activity across NHS practices and national benchmarks'
   description: 'From the recording ''NHS-R/NHS.pycom Conference: Online Conference Talks [Wednesday 11th October 2023]'', starting at 2:14:37.'
   path: https://www.youtube.com/watch?v=3uSbLT7ISPc&t=8077s
@@ -566,6 +603,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/3uSbLT7ISPc/mqdefault.jpg
   date: '2023-11-13'
+  duration: 00:11:20
 - title: Fran Barton Plenary Talk How we built DataHoover (a reporting toolkit that _doesn’t_ suck)
   description: 'From the recording ''NHS-R/NHS.pycom Conference: Online Conference Talks [Wednesday 11th October 2023]'', starting at 2:25:57.'
   path: https://www.youtube.com/watch?v=3uSbLT7ISPc&t=8757s
@@ -574,6 +612,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/3uSbLT7ISPc/mqdefault.jpg
   date: '2023-11-13'
+  duration: 00:19:00
 - title: Zoë Turner Thank You and Short Closing Speech
   description: 'From the recording ''NHS-R/NHS.pycom Conference: Online Conference Talks [Wednesday 11th October 2023]'', starting at 2:44:57.'
   path: https://www.youtube.com/watch?v=3uSbLT7ISPc&t=9897s
@@ -582,6 +621,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/3uSbLT7ISPc/mqdefault.jpg
   date: '2023-11-13'
+  duration: 00:02:20
 - title: 'NHS-R/NHS.pycom Conference: Online Conference Talks [Tuesday 10th October 2023]'
   description: We are very excited to share this recording of the NHS-R/NHS.pycom online conference talks from Tuesday 10th October 2023.
   path: https://www.youtube.com/watch?v=laKYVuElROs
@@ -590,6 +630,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/laKYVuElROs/mqdefault.jpg
   date: '2023-11-13'
+  duration: 02:59:09
 - title: 'NHS-R/NHS.pycom Conference: Online Conference Talks [Monday 09th October 2023]'
   description: We are very excited to share this recording of the NHS-R/NHS.pycom online conference talks from Monday 09th October 2023.
   path: https://www.youtube.com/watch?v=X-fyKq1GXQI
@@ -598,6 +639,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/X-fyKq1GXQI/mqdefault.jpg
   date: '2023-11-13'
+  duration: 02:54:12
 - title: 'Brian Tarran, Forging community links: NHS-R, the Royal Statistical Society and Real World Data Science'
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Tuesday 17th October 2023]'', starting at 2:07.'
   path: https://www.youtube.com/watch?v=8jcPwD8x8WE&t=127s
@@ -606,6 +648,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/8jcPwD8x8WE/mqdefault.jpg
   date: '2023-11-20'
+  duration: 00:28:40
 - title: Zoe Hancox Using Hypergraphs to model multimorbidity
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Tuesday 17th October 2023]'', starting at 30:47.'
   path: https://www.youtube.com/watch?v=8jcPwD8x8WE&t=1847s
@@ -614,6 +657,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/8jcPwD8x8WE/mqdefault.jpg
   date: '2023-11-20'
+  duration: 00:12:06
 - title: Nick Howlett, Near real-time prediction of hospital performance metrics using scalable random forest algorithm
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Tuesday 17th October 2023]'', starting at 42:53.'
   path: https://www.youtube.com/watch?v=8jcPwD8x8WE&t=2573s
@@ -622,6 +666,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/8jcPwD8x8WE/mqdefault.jpg
   date: '2023-11-20'
+  duration: 00:10:52
 - title: Jane Kirkpatrick and Michael Spence, Forecasting emergency department admissions for operational decision support in the NHS
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Tuesday 17th October 2023]'', starting at 53:45.'
   path: https://www.youtube.com/watch?v=8jcPwD8x8WE&t=3225s
@@ -630,6 +675,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/8jcPwD8x8WE/mqdefault.jpg
   date: '2023-11-20'
+  duration: 00:10:56
 - title: Daniel Weiland, Predicting Antimicrobial Resistance Rates using R and Sharing the Results in the form of Parameterised Reports produced using Quarto
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Tuesday 17th October 2023]'', starting at 1:04:41.'
   path: https://www.youtube.com/watch?v=8jcPwD8x8WE&t=3881s
@@ -638,6 +684,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/8jcPwD8x8WE/mqdefault.jpg
   date: '2023-11-20'
+  duration: 00:21:19
 - title: 'Ferran Espuny-Pujol, Survival hazard estimation using B-splines: R package development and learning sharing'
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Tuesday 17th October 2023]'', starting at 1:26:00.'
   path: https://www.youtube.com/watch?v=8jcPwD8x8WE&t=5160s
@@ -646,6 +693,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/8jcPwD8x8WE/mqdefault.jpg
   date: '2023-11-20'
+  duration: 00:10:47
 - title: 'Robin Lovelace, Data Science for Active Travel Planning: streets, schemes and networks'
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Tuesday 17th October 2023]'', starting at 1:36:47.'
   path: https://www.youtube.com/watch?v=8jcPwD8x8WE&t=5807s
@@ -654,6 +702,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/8jcPwD8x8WE/mqdefault.jpg
   date: '2023-11-20'
+  duration: 00:31:23
 - title: Martina Fonseca, Portable and interactive geographic mappings with Leaflet – supporting rapid stakeholder requests
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Tuesday 17th October 2023]'', starting at 2:08:10.'
   path: https://www.youtube.com/watch?v=8jcPwD8x8WE&t=7690s
@@ -662,6 +711,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/8jcPwD8x8WE/mqdefault.jpg
   date: '2023-11-20'
+  duration: 00:05:22
 - title: Paul Carroll, Process Mining to Generate Healthcare Pathways
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Tuesday 17th October 2023]'', starting at 2:13:32.'
   path: https://www.youtube.com/watch?v=8jcPwD8x8WE&t=8012s
@@ -670,6 +720,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/8jcPwD8x8WE/mqdefault.jpg
   date: '2023-11-20'
+  duration: 00:15:39
 - title: Chris Mainey, Building NHS Data Science Teams
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Tuesday 17th October 2023]'', starting at 2:29:11.'
   path: https://www.youtube.com/watch?v=8jcPwD8x8WE&t=8951s
@@ -678,6 +729,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/8jcPwD8x8WE/mqdefault.jpg
   date: '2023-11-20'
+  duration: 00:20:25
 - title: Helen Young, Discrete Event Simulation as a right-sizing tool for daycase unit design
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Tuesday 17th October 2023]'', starting at 2:49:36.'
   path: https://www.youtube.com/watch?v=8jcPwD8x8WE&t=10176s
@@ -686,6 +738,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/8jcPwD8x8WE/mqdefault.jpg
   date: '2023-11-20'
+  duration: 00:08:08
 - title: Andy Poole, Urgent Care Transformation – How to develop and evaluate what if scenario’s collaboratively and openly
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Tuesday 17th October 2023]'', starting at 2:57:44.'
   path: https://www.youtube.com/watch?v=8jcPwD8x8WE&t=10664s
@@ -694,6 +747,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/8jcPwD8x8WE/mqdefault.jpg
   date: '2023-11-20'
+  duration: 00:18:57
 - title: Tom Jemmett, Conference check-in app (or, on why you should ignore your boss, play about, and have fun)
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Tuesday 17th October 2023]'', starting at 3:16:41.'
   path: https://www.youtube.com/watch?v=8jcPwD8x8WE&t=11801s
@@ -702,6 +756,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/8jcPwD8x8WE/mqdefault.jpg
   date: '2023-11-20'
+  duration: 00:15:23
 - title: Pawel Orzechowski, Unconferencing
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Tuesday 17th October 2023]'', starting at 3:32:04.'
   path: https://www.youtube.com/watch?v=8jcPwD8x8WE&t=12724s
@@ -710,6 +765,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/8jcPwD8x8WE/mqdefault.jpg
   date: '2023-11-20'
+  duration: 00:02:05
 - title: Pawel Orzechowski and Brittany Blankinship, Teaching Programming to Non-programmers
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Tuesday 17th October 2023]'', starting at 3:34:09.'
   path: https://www.youtube.com/watch?v=8jcPwD8x8WE&t=12849s
@@ -718,6 +774,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/8jcPwD8x8WE/mqdefault.jpg
   date: '2023-11-20'
+  duration: 00:16:12
 - title: Chris Beeley
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Tuesday 17th October 2023]'', starting at 3:50:21.'
   path: https://www.youtube.com/watch?v=8jcPwD8x8WE&t=13821s
@@ -726,6 +783,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/8jcPwD8x8WE/mqdefault.jpg
   date: '2023-11-20'
+  duration: 00:15:06
 - title: Steve Piper, Using R to automate the generation of performance matrixes from Fingertips
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Tuesday 17th October 2023]'', starting at 4:05:27.'
   path: https://www.youtube.com/watch?v=8jcPwD8x8WE&t=14727s
@@ -734,6 +792,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/8jcPwD8x8WE/mqdefault.jpg
   date: '2023-11-20'
+  duration: 00:10:59
 - title: Richard Wilson, Generating outcome framework slide packs for ICS
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Tuesday 17th October 2023]'', starting at 4:16:26.'
   path: https://www.youtube.com/watch?v=8jcPwD8x8WE&t=15386s
@@ -742,6 +801,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/8jcPwD8x8WE/mqdefault.jpg
   date: '2023-11-20'
+  duration: 00:10:50
 - title: 'YiWen Hon, Pxtextmining: Open coding, open working in qualitative patient feedback analysis'
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Tuesday 17th October 2023]'', starting at 4:27:16.'
   path: https://www.youtube.com/watch?v=8jcPwD8x8WE&t=16036s
@@ -750,6 +810,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/8jcPwD8x8WE/mqdefault.jpg
   date: '2023-11-20'
+  duration: 00:09:11
 - title: Nicola Farthing, R dashboard design for a varied customer base
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Tuesday 17th October 2023]'', starting at 4:36:27.'
   path: https://www.youtube.com/watch?v=8jcPwD8x8WE&t=16587s
@@ -758,6 +819,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/8jcPwD8x8WE/mqdefault.jpg
   date: '2023-11-20'
+  duration: 00:09:59
 - title: 'Jacqueline Grout, Getting started with collaboration on GitHub: Crunching webinar attendance data with R and Shiny'
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Tuesday 17th October 2023]'', starting at 4:46:26.'
   path: https://www.youtube.com/watch?v=8jcPwD8x8WE&t=17186s
@@ -766,6 +828,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/8jcPwD8x8WE/mqdefault.jpg
   date: '2023-11-20'
+  duration: 00:11:37
 - title: Ozayr Mohammed, Evidence Mapping in Shiny
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Tuesday 17th October 2023]'', starting at 4:58:03.'
   path: https://www.youtube.com/watch?v=8jcPwD8x8WE&t=17883s
@@ -774,6 +837,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/8jcPwD8x8WE/mqdefault.jpg
   date: '2023-11-20'
+  duration: 00:07:43
 - title: Neil Bray, Strategies to reduce cognitive load when coding
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Tuesday 17th October 2023]'', starting at 5:05:46.'
   path: https://www.youtube.com/watch?v=8jcPwD8x8WE&t=18346s
@@ -782,6 +846,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/8jcPwD8x8WE/mqdefault.jpg
   date: '2023-11-20'
+  duration: 00:10:05
 - title: Humaira Hussein, Comparative efficacy of type 2 diabetes treatments in randomised controlled trials using network meta-analysis methods
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Tuesday 17th October 2023]'', starting at 5:15:51.'
   path: https://www.youtube.com/watch?v=8jcPwD8x8WE&t=18951s
@@ -790,6 +855,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/8jcPwD8x8WE/mqdefault.jpg
   date: '2023-11-20'
+  duration: 00:10:58
 - title: Chris Beeley, Thank You and Short Closing Speech
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Tuesday 17th October 2023]'', starting at 5:26:49.'
   path: https://www.youtube.com/watch?v=8jcPwD8x8WE&t=19609s
@@ -798,6 +864,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/8jcPwD8x8WE/mqdefault.jpg
   date: '2023-11-20'
+  duration: 00:00:21
 - title: Marcos Fabietti, NHSRplotthedots Plotly Update
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Wednesday 18th October 2023]'', starting at 3:28.'
   path: https://www.youtube.com/watch?v=q-JZxrDC0ck&t=208s
@@ -806,6 +873,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/q-JZxrDC0ck/mqdefault.jpg
   date: '2023-11-27'
+  duration: 00:05:07
 - title: Alberto Liuzzo Scorpo (giving talk), Keiko Toma, Sam Akinloye, Laura Birks and Allison Jordan, Upskilling 80% of an NHSE performance analysis team in R and sharing reproducible code on Github
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Wednesday 18th October 2023]'', starting at 8:35.'
   path: https://www.youtube.com/watch?v=q-JZxrDC0ck&t=515s
@@ -814,6 +882,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/q-JZxrDC0ck/mqdefault.jpg
   date: '2023-11-27'
+  duration: 00:10:37
 - title: Simon Wellesley-Miller and Alex Porter, Challenges, lessons, failures and fun from setting the NHS England R-Revolution
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Wednesday 18th October 2023]'', starting at 19:12.'
   path: https://www.youtube.com/watch?v=q-JZxrDC0ck&t=1152s
@@ -822,6 +891,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/q-JZxrDC0ck/mqdefault.jpg
   date: '2023-11-27'
+  duration: 00:11:13
 - title: Will Manners, Developing Inequalities Reporting in R
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Wednesday 18th October 2023]'', starting at 30:25.'
   path: https://www.youtube.com/watch?v=q-JZxrDC0ck&t=1825s
@@ -830,6 +900,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/q-JZxrDC0ck/mqdefault.jpg
   date: '2023-11-27'
+  duration: 00:12:18
 - title: David Jephson and Marika, Reflections on developing a dashboard website in gov.uk style using Quarto
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Wednesday 18th October 2023]'', starting at 42:43.'
   path: https://www.youtube.com/watch?v=q-JZxrDC0ck&t=2563s
@@ -838,6 +909,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/q-JZxrDC0ck/mqdefault.jpg
   date: '2023-11-27'
+  duration: 00:17:03
 - title: Parisa Gregg, Reproducible workflows in Python
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Wednesday 18th October 2023]'', starting at 59:46.'
   path: https://www.youtube.com/watch?v=q-JZxrDC0ck&t=3586s
@@ -846,6 +918,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/q-JZxrDC0ck/mqdefault.jpg
   date: '2023-11-27'
+  duration: 00:24:20
 - title: Chris Roebuck, RAP
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Wednesday 18th October 2023]'', starting at 1:24:06.'
   path: https://www.youtube.com/watch?v=q-JZxrDC0ck&t=5046s
@@ -854,6 +927,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/q-JZxrDC0ck/mqdefault.jpg
   date: '2023-11-27'
+  duration: 00:29:11
 - title: Claire Welsh, Talk Using a RAP approach to uplift existing processes within the National Disease Registration Service
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Wednesday 18th October 2023]'', starting at 1:53:17.'
   path: https://www.youtube.com/watch?v=q-JZxrDC0ck&t=6797s
@@ -862,6 +936,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/q-JZxrDC0ck/mqdefault.jpg
   date: '2023-11-27'
+  duration: 00:12:39
 - title: Joseph Wilson, Releasing the Potential of the RAP Community of Practice with GitHub Actions
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Wednesday 18th October 2023]'', starting at 2:05:56.'
   path: https://www.youtube.com/watch?v=q-JZxrDC0ck&t=7556s
@@ -870,6 +945,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/q-JZxrDC0ck/mqdefault.jpg
   date: '2023-11-27'
+  duration: 00:17:54
 - title: Dr. Charlie Pinder, QA of analytical projects in the health sector
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Wednesday 18th October 2023]'', starting at 2:23:50.'
   path: https://www.youtube.com/watch?v=q-JZxrDC0ck&t=8630s
@@ -886,6 +962,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/q-JZxrDC0ck/mqdefault.jpg
   date: '2023-11-27'
+  duration: 00:17:36
 - title: Katie Thornton, Developing a reproducible, regular report exploring delayed discharges in Mental Health
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Wednesday 18th October 2023]'', starting at 2:41:12.'
   path: https://www.youtube.com/watch?v=q-JZxrDC0ck&t=9672s
@@ -894,6 +971,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/q-JZxrDC0ck/mqdefault.jpg
   date: '2023-11-27'
+  duration: 00:13:24
 - title: 'Chaeyoon Kim, Enhancing Analytics: Move from Excel to Python'
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Wednesday 18th October 2023]'', starting at 2:54:36.'
   path: https://www.youtube.com/watch?v=q-JZxrDC0ck&t=10476s
@@ -902,6 +980,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/q-JZxrDC0ck/mqdefault.jpg
   date: '2023-11-27'
+  duration: 00:14:27
 - title: Amadeus Stevenson, How I learned to stop worrying and embrace pip, conda, virtualenv, venv and Visual Studio Code (How to install Python)
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Wednesday 18th October 2023]'', starting at 3:09:03.'
   path: https://www.youtube.com/watch?v=q-JZxrDC0ck&t=11343s
@@ -910,6 +989,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/q-JZxrDC0ck/mqdefault.jpg
   date: '2023-11-27'
+  duration: 00:19:01
 - title: Dr. Bahman Rostami-Tabar, Probabilistic Forecast Reconciliation For Health Services
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Wednesday 18th October 2023]'', starting at 3:28:04.'
   path: https://www.youtube.com/watch?v=q-JZxrDC0ck&t=12484s
@@ -918,6 +998,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/q-JZxrDC0ck/mqdefault.jpg
   date: '2023-11-27'
+  duration: 00:20:06
 - title: Roberto Villegas-Diaz, You love purrr, but have you tried speeding up things furrr-ther?
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Wednesday 18th October 2023]'', starting at 3:48:10.'
   path: https://www.youtube.com/watch?v=q-JZxrDC0ck&t=13690s
@@ -926,6 +1007,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/q-JZxrDC0ck/mqdefault.jpg
   date: '2023-11-27'
+  duration: 00:10:21
 - title: Matt Dray, Base slaps!
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Wednesday 18th October 2023]'', starting at 3:58:31.'
   path: https://www.youtube.com/watch?v=q-JZxrDC0ck&t=14311s
@@ -934,6 +1016,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/q-JZxrDC0ck/mqdefault.jpg
   date: '2023-11-27'
+  duration: 00:08:41
 - title: 'Sam Hollings, Flow Charts: an easy trick to better, more easily understood code and data pipelines'
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Wednesday 18th October 2023]'', starting at 4:07:12.'
   path: https://www.youtube.com/watch?v=q-JZxrDC0ck&t=14832s
@@ -942,6 +1025,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/q-JZxrDC0ck/mqdefault.jpg
   date: '2023-11-27'
+  duration: 01:10:29
 - title: 'Iain Dillingham, Less neat, less tidy, and more unpredictable: Improving your code with property-based tests'
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Wednesday 18th October 2023]'', starting at 5:17:41.'
   path: https://www.youtube.com/watch?v=q-JZxrDC0ck&t=19061s
@@ -958,6 +1042,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/q-JZxrDC0ck/mqdefault.jpg
   date: '2023-11-27'
+  duration: 00:20:07
 - title: Chris Beeley, Thank You and Closing Speech
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Wednesday 18th October 2023]'', starting at 4:47:48.'
   path: https://www.youtube.com/watch?v=q-JZxrDC0ck&t=17268s
@@ -966,6 +1051,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/q-JZxrDC0ck/mqdefault.jpg
   date: '2023-11-27'
+  duration: 00:12:40
 - title: 'NHS-R/NHS.pycom Conference Workshop 2023: Level Up Your Plots!'
   description: 'Level up your plots: Using colour, annotations, text hierarchy and other tricks to make your data story stand out with Cara Thompson Wednesday 04th October 2023 Workshop Content: You are encouraged to bring a ggplot of your own making to the workshop – we will code our way towards a better version…'
   path: https://www.youtube.com/watch?v=yuX0V3fE9rI
@@ -974,6 +1060,7 @@
   type: Conference workshop
   image: https://i.ytimg.com/vi/yuX0V3fE9rI/mqdefault.jpg
   date: '2023-11-07'
+  duration: 02:51:44
 - title: 'NHS-R/NHS.pycom Conference Workshop 2023: Create your own API with Python and FastAPI'
   description: 'Create your own API with Python and FastAPI with YiWen Hon Monday 02nd October 2023 Workshop Content: The objective of this workshop is to introduce Python users to the FastAPI package and show them how to build their own API, using free and open source tools. APIs are a great way of making machine…'
   path: https://www.youtube.com/watch?v=_D4llf41KC8
@@ -982,6 +1069,7 @@
   type: Conference workshop
   image: https://i.ytimg.com/vi/_D4llf41KC8/mqdefault.jpg
   date: '2023-11-07'
+  duration: 02:07:53
 - title: 'NHS-R/NHS.pycom Conference Workshop 2023: Modelling non-linear data with Generalized Additive Models'
   description: 'Modelling non-linear data with Generalized Additive Models (GAMs), using the mgcv package with Chris Mainey Friday 13th October 2023 Workshop Content: This workshop is a follow-on from my talk at last year’s NHS-R conference on modelling ‘wiggly’ data using Generalized Additive Models. Regression…'
   path: https://www.youtube.com/watch?v=D4ckP2mZDa4
@@ -990,6 +1078,7 @@
   type: Conference workshop
   image: https://i.ytimg.com/vi/D4ckP2mZDa4/mqdefault.jpg
   date: '2023-11-07'
+  duration: 02:01:10
 - title: 'NHS-R/NHS.pycom Conference Workshop 2023: Introduction to Version Control (Git/GitHub)'
   description: 'Introduction to Version Control (Git/GitHub) with Joseph Wilson and Helen Richardson Thursday 12th October 2023 GitHub repository: Workshop Content: Building upon the success of the 2022 Introduction to Version Control (Git/GitHub) workshop, this day-long course returns to equip participants with…'
   path: https://www.youtube.com/watch?v=wOk7wDsHD8o
@@ -998,6 +1087,7 @@
   type: Conference workshop
   image: https://i.ytimg.com/vi/wOk7wDsHD8o/mqdefault.jpg
   date: '2023-11-07'
+  duration: 05:17:17
 - title: 'NHS-R/NHS.pycom Conference Workshop 2023: Data Visualisation with Seaborn'
   description: 'Data Visualisation with Seaborn with Parisa Gregg Thursday 05th October 2023 Workshop Content: Over the last few decades, a plethora of Python packages have been developed to tackle a range of data visualisation problems. This tutorial will provide a hands-on introduction to Seaborn, a fantastic…'
   path: https://www.youtube.com/watch?v=LZdbCOOdsPE
@@ -1006,6 +1096,7 @@
   type: Conference workshop
   image: https://i.ytimg.com/vi/LZdbCOOdsPE/mqdefault.jpg
   date: '2023-11-07'
+  duration: 02:57:26
 - title: 'NHS-R/NHS.pycom Conference Workshop 2023: Introduction to R and R Studio (Part 2)'
   description: 'Introduction to R and R Studio (Part 2) with Zoë Turner Tuesday 03rd October 2023 Workshop Content: This is a great opportunity for anyone who is interested in data analysis using Excel, SQL, Access or uses statistical programmes like SPSS to get started with R and R Studio. After this course, you…'
   path: https://www.youtube.com/watch?v=ZJN2KQ1K38Y
@@ -1014,6 +1105,7 @@
   type: Conference workshop
   image: https://i.ytimg.com/vi/ZJN2KQ1K38Y/mqdefault.jpg
   date: '2023-11-07'
+  duration: 02:54:05
 - title: 'NHS-R/NHS.pycom Conference Workshop 2023: Introduction to R and R Studio (Part 1)'
   description: 'Introduction to R and R Studio (Part 1) with Zoë Turner Monday 02nd October 2023 Workshop Content: This is a great opportunity for anyone who is interested in data analysis using Excel, SQL, Access or uses statistical programmes like SPSS to get started with R and R Studio. After this course, you…'
   path: https://www.youtube.com/watch?v=M7GyRQw2y9M
@@ -1022,6 +1114,7 @@
   type: Conference workshop
   image: https://i.ytimg.com/vi/M7GyRQw2y9M/mqdefault.jpg
   date: '2023-11-07'
+  duration: 02:32:57
 - title: 'NHS-R/NHS.pycom Conference Workshop 2023: Intermediate R follow on from "Intro to R and RStudio"'
   description: 'Intermediate R – follow on from ‘Introduction to R and R Studio’ with Simon Wellesley-Miller Friday 06th October 2023 Workshop Content: In this workshop we will be looking at applying some of the knowledge learned in the ‘Introduction to R and R Studio’ workshop and applying the methods learned to…'
   path: https://www.youtube.com/watch?v=65iZGCcUVfU
@@ -1030,6 +1123,7 @@
   type: Conference workshop
   image: https://i.ytimg.com/vi/65iZGCcUVfU/mqdefault.jpg
   date: '2023-11-08'
+  duration: 06:20:36
 - title: 'NHS-R Conference Workshop: Building a TidyModels model from scratch – 01/11/22'
   description: 'Led by Gary Hutson, Head of Machine Learning, Crisp 1st November 2022 Here we will learn how to build a TidyModels classification model from scratch RPubs document: About the course: The art and science of building a machine model from scratch and then pushing this into production as a consumable…'
   path: https://www.youtube.com/watch?v=CEh-jeQdOqA
@@ -1038,6 +1132,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/CEh-jeQdOqA/mqdefault.jpg
   date: '2022-11-01'
+  duration: 01:59:15
 - title: 'NHS-R Conference Webinar: Shiny and Advanced Shiny – 1/11/22'
   description: 'Intro to Shiny and Advanced Shiny Tuesday 1st November, 12.00 – 2.00 pm Led by Ryan Johnson, Customer Success Manager, RSTUDIO About the course: Intro to Shiny: We’ll go over the basic structure of a Shiny app and how they work. This is a great session for those new to Shiny. Advanced Shiny: Also…'
   path: https://www.youtube.com/watch?v=4aE0a_JnERU
@@ -1046,6 +1141,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/4aE0a_JnERU/mqdefault.jpg
   date: '2022-11-01'
+  duration: 01:46:19
 - title: 'NHS-R Webinar: Introduction to business case analytics using Decision Analysis in R – 01/11/22'
   description: 'NHS-R Conference Webinar: Introduction to business case analytics using Decision Analysis in R Tuesday 1st November 2022 Led by: Rob Brown, Cybersecurity Risk Management Leader About the webinar: How decision analysis leads data analysis, what considerations need to be in place to do that. With…'
   path: https://www.youtube.com/watch?v=VzVwdWn11s8
@@ -1054,6 +1150,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/VzVwdWn11s8/mqdefault.jpg
   date: '2022-11-02'
+  duration: 01:24:34
 - title: Introduction and Prework
   description: 'From the recording ''NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22'', starting at 0:00.'
   path: https://www.youtube.com/watch?v=dS91HzZLD_c&t=0s
@@ -1062,6 +1159,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/dS91HzZLD_c/mqdefault.jpg
   date: '2022-11-03'
+  duration: 00:55:23
 - title: Using Projects
   description: 'From the recording ''NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22'', starting at 55:23.'
   path: https://www.youtube.com/watch?v=dS91HzZLD_c&t=3323s
@@ -1070,6 +1168,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/dS91HzZLD_c/mqdefault.jpg
   date: '2022-11-03'
+  duration: 00:12:37
 - title: Importing Data
   description: 'From the recording ''NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22'', starting at 1:08:00.'
   path: https://www.youtube.com/watch?v=dS91HzZLD_c&t=4080s
@@ -1078,6 +1177,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/dS91HzZLD_c/mqdefault.jpg
   date: '2022-11-03'
+  duration: 00:10:00
 - title: Introduction to {ggplot2}
   description: 'From the recording ''NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22'', starting at 1:18:00.'
   path: https://www.youtube.com/watch?v=dS91HzZLD_c&t=4680s
@@ -1086,6 +1186,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/dS91HzZLD_c/mqdefault.jpg
   date: '2022-11-03'
+  duration: 01:04:00
 - title: What does this function do?
   description: 'From the recording ''NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22'', starting at 2:22:00.'
   path: https://www.youtube.com/watch?v=dS91HzZLD_c&t=8520s
@@ -1094,6 +1195,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/dS91HzZLD_c/mqdefault.jpg
   date: '2022-11-03'
+  duration: 00:18:21
 - title: 'NHS-R Workshop: Building Websites in R with Distill - 02/11/22'
   description: 'Building Websites in R with Distill Wednesday 2nd November 2022, Led by Jennifer Sloane, PhD Student, UNSW Do you want to learn how to build your own website in R? About the course: In this interactive workshop, we will build a website from scratch in R using the Distill package. Whether you want…'
   path: https://www.youtube.com/watch?v=LK_vxLS9BNg
@@ -1102,6 +1204,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/LK_vxLS9BNg/mqdefault.jpg
   date: '2022-11-03'
+  duration: 01:58:54
 - title: Data wrangling with dplyr
   description: 'From the recording ''NHS-R Workshop: Intro to R and RStudio (Part 2) - 03/11/22'', starting at 0:00.'
   path: https://www.youtube.com/watch?v=1tjQkxYfSGk&t=0s
@@ -1110,6 +1213,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/1tjQkxYfSGk/mqdefault.jpg
   date: '2022-11-03'
+  duration: 01:45:18
 - title: Relational Data (joins)
   description: 'From the recording ''NHS-R Workshop: Intro to R and RStudio (Part 2) - 03/11/22'', starting at 1:45:18.'
   path: https://www.youtube.com/watch?v=1tjQkxYfSGk&t=6318s
@@ -1118,6 +1222,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/1tjQkxYfSGk/mqdefault.jpg
   date: '2022-11-03'
+  duration: 00:25:03
 - title: RMarkdown
   description: 'From the recording ''NHS-R Workshop: Intro to R and RStudio (Part 2) - 03/11/22'', starting at 2:10:21.'
   path: https://www.youtube.com/watch?v=1tjQkxYfSGk&t=7821s
@@ -1126,6 +1231,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/1tjQkxYfSGk/mqdefault.jpg
   date: '2022-11-03'
+  duration: 00:29:39
 - title: Ongoing Learning
   description: 'From the recording ''NHS-R Workshop: Intro to R and RStudio (Part 2) - 03/11/22'', starting at 2:40:00.'
   path: https://www.youtube.com/watch?v=1tjQkxYfSGk&t=9600s
@@ -1134,6 +1240,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/1tjQkxYfSGk/mqdefault.jpg
   date: '2022-11-03'
+  duration: 00:12:42
 - title: 'NHS-R Conference Workshop: Introduction to Interactive plotting with R – 03/11/22'
   description: 'Introduction to Interactive plotting with R Thursday 3rd November 2022, Led by Annie Yu, Epidemiological Programmer, Hertfordshire County Council Pre-requisites: Some introductory experience with R About the course: The workshop will cover creating interactive graphs using plotly and echarts4r…'
   path: https://www.youtube.com/watch?v=fmelRhf14PE
@@ -1142,6 +1249,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/fmelRhf14PE/mqdefault.jpg
   date: '2022-11-08'
+  duration: 02:27:41
 - title: 'NHS-R Workshop: Level up your plots! - 04/11/22'
   description: 'Level up your plots: tips and tricks for creating compelling data visualisations in R Friday 4th November 202 Led by Cara Thompson, Freelance Data Consultant - Building Stories with Data Pre-requisites: It would be helpful for participants to have a basic grasp of: - creating a plot with ggplot2 -…'
   path: https://www.youtube.com/watch?v=Zt_SMnNPLX0
@@ -1150,6 +1258,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/Zt_SMnNPLX0/mqdefault.jpg
   date: '2022-11-08'
+  duration: 02:01:45
 - title: 'NHS-R Webinar: Tips and tricks learnt from building production {shiny} apps  - 07/11/22'
   description: 'Tips and tricks learnt from building production {shiny} apps Monday 7th November Delivered by Colin Fay, Data Scientist & R Hacker at ThinkR About the webinar: The road to a production-ready software is always a bumpy road. Whatever you do, you can always expect the unexpected. But the good news is…'
   path: https://www.youtube.com/watch?v=vO_Wn2tgIck
@@ -1158,6 +1267,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/vO_Wn2tgIck/mqdefault.jpg
   date: '2022-11-08'
+  duration: 00:57:29
 - title: Mohammed Mohammed - Welcome and Introduction
   description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 1: 8th November'', starting at 0:00.'
   path: https://www.youtube.com/watch?v=Rv3JJAqbrFY&t=0s
@@ -1166,6 +1276,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/Rv3JJAqbrFY/mqdefault.jpg
   date: '2022-11-08'
+  duration: 00:02:00
 - title: Dev Sanghera - PPTautomation
   description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 1: 8th November'', starting at 2:00.'
   path: https://www.youtube.com/watch?v=Rv3JJAqbrFY&t=120s
@@ -1174,6 +1285,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/Rv3JJAqbrFY/mqdefault.jpg
   date: '2022-11-08'
+  duration: 00:14:40
 - title: 'Ina Kostakis - Abdominal emergencies: surgery vs. no surgery'
   description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 1: 8th November'', starting at 16:40.'
   path: https://www.youtube.com/watch?v=Rv3JJAqbrFY&t=1000s
@@ -1182,6 +1294,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/Rv3JJAqbrFY/mqdefault.jpg
   date: '2022-11-08'
+  duration: 00:17:58
 - title: Joseph Lillington - Demand and capacity modelling for the population experiencing gambling harm
   description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 1: 8th November'', starting at 34:38.'
   path: https://www.youtube.com/watch?v=Rv3JJAqbrFY&t=2078s
@@ -1190,6 +1303,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/Rv3JJAqbrFY/mqdefault.jpg
   date: '2022-11-08'
+  duration: 00:13:33
 - title: Karina-Doris Vihta / Nujcharee Haswell -  Iterative sequential regression for real time surveillance of infectious diseases
   description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 1: 8th November'', starting at 48:11.'
   path: https://www.youtube.com/watch?v=Rv3JJAqbrFY&t=2891s
@@ -1198,6 +1312,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/Rv3JJAqbrFY/mqdefault.jpg
   date: '2022-11-08'
+  duration: 00:18:19
 - title: 'Mark McPherson - Leaflet in R: Creating dynamic, interactive maps'
   description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 1: 8th November'', starting at 1:06:30.'
   path: https://www.youtube.com/watch?v=Rv3JJAqbrFY&t=3990s
@@ -1206,6 +1321,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/Rv3JJAqbrFY/mqdefault.jpg
   date: '2022-11-08'
+  duration: 00:20:21
 - title: Muhammad Faisal -  Development and validation of clinical prediction models using R
   description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 1: 8th November'', starting at 1:26:51.'
   path: https://www.youtube.com/watch?v=Rv3JJAqbrFY&t=5211s
@@ -1214,6 +1330,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/Rv3JJAqbrFY/mqdefault.jpg
   date: '2022-11-08'
+  duration: 00:19:32
 - title: Zoë Turner - Creating packages the NHS-R Community way
   description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 1: 8th November'', starting at 1:46:23.'
   path: https://www.youtube.com/watch?v=Rv3JJAqbrFY&t=6383s
@@ -1222,6 +1339,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/Rv3JJAqbrFY/mqdefault.jpg
   date: '2022-11-08'
+  duration: 00:10:39
 - title: Ben Kimpton -  SPC for mental health
   description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 1: 8th November'', starting at 1:57:02.'
   path: https://www.youtube.com/watch?v=Rv3JJAqbrFY&t=7022s
@@ -1230,6 +1348,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/Rv3JJAqbrFY/mqdefault.jpg
   date: '2022-11-08'
+  duration: 00:16:35
 - title: Mohammed Mohammed - Welcome and Introduction
   description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 2: 9th November'', starting at 0:00.'
   path: https://www.youtube.com/watch?v=fWYehE5U6Vs&t=0s
@@ -1238,6 +1357,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/fWYehE5U6Vs/mqdefault.jpg
   date: '2022-11-09'
+  duration: 00:02:35
 - title: Benjamin Bainham - Novice’s Journey in creating a Bilingual RShiny Tool
   description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 2: 9th November'', starting at 2:35.'
   path: https://www.youtube.com/watch?v=fWYehE5U6Vs&t=155s
@@ -1246,6 +1366,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/fWYehE5U6Vs/mqdefault.jpg
   date: '2022-11-09'
+  duration: 00:12:33
 - title: 'Iñaki Ucar - simmer: Discrete-Event Simulation for R'
   description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 2: 9th November'', starting at 15:08.'
   path: https://www.youtube.com/watch?v=fWYehE5U6Vs&t=908s
@@ -1254,6 +1375,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/fWYehE5U6Vs/mqdefault.jpg
   date: '2022-11-09'
+  duration: 00:20:02
 - title: Sam Hollings - Rolling out RAP across an analytical function
   description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 2: 9th November'', starting at 35:10.'
   path: https://www.youtube.com/watch?v=fWYehE5U6Vs&t=2110s
@@ -1262,6 +1384,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/fWYehE5U6Vs/mqdefault.jpg
   date: '2022-11-09'
+  duration: 00:12:31
 - title: Tom Smith - SPCreporter - Bulk-processing SPC charts in the NHSEI "Making Data Count" style
   description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 2: 9th November'', starting at 47:41.'
   path: https://www.youtube.com/watch?v=fWYehE5U6Vs&t=2861s
@@ -1270,6 +1393,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/fWYehE5U6Vs/mqdefault.jpg
   date: '2022-11-09'
+  duration: 00:19:53
 - title: Rory Quinn - Using R for Content Analysis of Medical Practitioner Notes
   description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 2: 9th November'', starting at 1:07:34.'
   path: https://www.youtube.com/watch?v=fWYehE5U6Vs&t=4054s
@@ -1278,6 +1402,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/fWYehE5U6Vs/mqdefault.jpg
   date: '2022-11-09'
+  duration: 00:17:04
 - title: Jessica Pang - Adapting a dashboard to work with an uploaded file in RShiny
   description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 2: 9th November'', starting at 1:24:38.'
   path: https://www.youtube.com/watch?v=fWYehE5U6Vs&t=5078s
@@ -1286,6 +1411,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/fWYehE5U6Vs/mqdefault.jpg
   date: '2022-11-09'
+  duration: 00:13:38
 - title: Jessica Pang - Adapting R code from GitHub to work with my data
   description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 2: 9th November'', starting at 1:38:16.'
   path: https://www.youtube.com/watch?v=fWYehE5U6Vs&t=5896s
@@ -1294,6 +1420,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/fWYehE5U6Vs/mqdefault.jpg
   date: '2022-11-09'
+  duration: 00:12:13
 - title: 'Shannon Pileggi - Introducing gtreg: an R package to produce regulatory tables for clinical research'
   description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 2: 9th November'', starting at 1:50:29.'
   path: https://www.youtube.com/watch?v=fWYehE5U6Vs&t=6629s
@@ -1302,6 +1429,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/fWYehE5U6Vs/mqdefault.jpg
   date: '2022-11-09'
+  duration: 00:17:53
 - title: Jennifer Sloane - Teaching R to Beginners
   description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 2: 9th November'', starting at 2:08:22.'
   path: https://www.youtube.com/watch?v=fWYehE5U6Vs&t=7702s
@@ -1310,6 +1438,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/fWYehE5U6Vs/mqdefault.jpg
   date: '2022-11-09'
+  duration: 00:17:40
 - title: Zoë Turner Welcome and Introductions
   description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 3: 10th November'', starting at 0:00.'
   path: https://www.youtube.com/watch?v=GWeZt1to1Po&t=0s
@@ -1318,6 +1447,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GWeZt1to1Po/mqdefault.jpg
   date: '2022-11-10'
+  duration: 00:01:20
 - title: Chris Waller Create A Map RShiny App
   description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 3: 10th November'', starting at 1:20.'
   path: https://www.youtube.com/watch?v=GWeZt1to1Po&t=80s
@@ -1326,6 +1456,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GWeZt1to1Po/mqdefault.jpg
   date: '2022-11-10'
+  duration: 00:15:00
 - title: Jeremy Selva Viewing Multiple Inteactive Plots Using plotly and trelliscopejs
   description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 3: 10th November'', starting at 16:20.'
   path: https://www.youtube.com/watch?v=GWeZt1to1Po&t=980s
@@ -1334,6 +1465,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GWeZt1to1Po/mqdefault.jpg
   date: '2022-11-10'
+  duration: 00:13:36
 - title: Kieran Dale Optimising Patient Flows in ED
   description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 3: 10th November'', starting at 29:56.'
   path: https://www.youtube.com/watch?v=GWeZt1to1Po&t=1796s
@@ -1342,6 +1474,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GWeZt1to1Po/mqdefault.jpg
   date: '2022-11-10'
+  duration: 00:14:48
 - title: Ffion Thomas and Danielle Hearn - Combining R-shiny and R-markdown to create a user-centred interactive web application
   description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 3: 10th November'', starting at 44:44.'
   path: https://www.youtube.com/watch?v=GWeZt1to1Po&t=2684s
@@ -1350,6 +1483,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GWeZt1to1Po/mqdefault.jpg
   date: '2022-11-10'
+  duration: 00:17:51
 - title: Alex Reid and Robert John Mitchell - Using RShiny for Statistical Disclosure Control data and other applications
   description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 3: 10th November'', starting at 1:02:35.'
   path: https://www.youtube.com/watch?v=GWeZt1to1Po&t=3755s
@@ -1358,6 +1492,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GWeZt1to1Po/mqdefault.jpg
   date: '2022-11-10'
+  duration: 00:15:32
 - title: William Bryant - Adopting Reproducible Analytical Pipelines in a specialist paediatric NHS Trust
   description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 3: 10th November'', starting at 1:18:07.'
   path: https://www.youtube.com/watch?v=GWeZt1to1Po&t=4687s
@@ -1366,6 +1501,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GWeZt1to1Po/mqdefault.jpg
   date: '2022-11-10'
+  duration: 00:16:33
 - title: Oscar Baruffa - Generate documentation from spreadsheets (and databases) programmatically
   description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 3: 10th November'', starting at 1:34:40.'
   path: https://www.youtube.com/watch?v=GWeZt1to1Po&t=5680s
@@ -1374,6 +1510,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GWeZt1to1Po/mqdefault.jpg
   date: '2022-11-10'
+  duration: 00:14:55
 - title: 'Edwin Thoen - padr: convenience functions to transform datetime date ready for analyses'
   description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 3: 10th November'', starting at 1:49:35.'
   path: https://www.youtube.com/watch?v=GWeZt1to1Po&t=6575s
@@ -1382,6 +1519,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GWeZt1to1Po/mqdefault.jpg
   date: '2022-11-10'
+  duration: 00:18:09
 - title: 'NHS-R Workshop: Debugging in R - 11/11/22'
   description: 'Debugging in R Friday 11th November 2022 Led by Shannon Pileggi, Data Scientist, The Prostate Cancer Clinical Trials Consortium Pre-requisites: Knowledge of how to write a function in R. About the course: Learning objectives: Review code troubleshooting tips. Discuss debugging functions…'
   path: https://www.youtube.com/watch?v=evzo-F2Yp5g
@@ -1390,6 +1528,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/evzo-F2Yp5g/mqdefault.jpg
   date: '2022-11-13'
+  duration: 02:49:37
 - title: Mohammed Mohammed - Welcome
   description: From the recording 'NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham', starting at 0:00.
   path: https://www.youtube.com/watch?v=RfiuBGD5IeU&t=0s
@@ -1398,6 +1537,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/RfiuBGD5IeU/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:15:25
 - title: Charles Tallack - Building Analytical Capability
   description: From the recording 'NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham', starting at 15:25.
   path: https://www.youtube.com/watch?v=RfiuBGD5IeU&t=925s
@@ -1406,6 +1546,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/RfiuBGD5IeU/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:10:03
 - title: Peter Spilsbury - The Strategy Unit and NHS-R
   description: From the recording 'NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham', starting at 25:28.
   path: https://www.youtube.com/watch?v=RfiuBGD5IeU&t=1528s
@@ -1414,6 +1555,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/RfiuBGD5IeU/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:16:17
 - title: 'Jessica Morley - Better, broader, Safer: Using Health Data for Research and Analysis'
   description: From the recording 'NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham', starting at 41:45.
   path: https://www.youtube.com/watch?v=RfiuBGD5IeU&t=2505s
@@ -1422,6 +1564,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/RfiuBGD5IeU/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:22:52
 - title: Heather Turner - Good Coding Practices for Data Analysts
   description: From the recording 'NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham', starting at 1:04:37.
   path: https://www.youtube.com/watch?v=RfiuBGD5IeU&t=3877s
@@ -1430,6 +1573,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/RfiuBGD5IeU/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:17:05
 - title: 'Iain Dillingham - Code Reuse in a Trusted Research Environment: Reusable Actions in OpenSAFELY'
   description: From the recording 'NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham', starting at 1:21:42.
   path: https://www.youtube.com/watch?v=RfiuBGD5IeU&t=4902s
@@ -1438,6 +1582,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/RfiuBGD5IeU/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:14:15
 - title: Jonny Pearson - Sharing code in the open
   description: From the recording 'NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham', starting at 1:35:57.
   path: https://www.youtube.com/watch?v=RfiuBGD5IeU&t=5757s
@@ -1446,6 +1591,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/RfiuBGD5IeU/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:23:38
 - title: Steven Wyatt - Activity and capacity modelling for the New Hospital Programme
   description: From the recording 'NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham', starting at 1:59:35.
   path: https://www.youtube.com/watch?v=RfiuBGD5IeU&t=7175s
@@ -1454,6 +1600,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/RfiuBGD5IeU/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:14:31
 - title: Dr Richard Wood - Simple and Scalable modelling of elective waiting lists using R
   description: From the recording 'NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham', starting at 2:14:06.
   path: https://www.youtube.com/watch?v=RfiuBGD5IeU&t=8046s
@@ -1462,6 +1609,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/RfiuBGD5IeU/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:11:46
 - title: Christopher Reading-Skilton - Pythia – RTT Acute Trust Waiting List Modelling using Simmer
   description: From the recording 'NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham', starting at 2:25:52.
   path: https://www.youtube.com/watch?v=RfiuBGD5IeU&t=8752s
@@ -1470,6 +1618,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/RfiuBGD5IeU/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:17:17
 - title: Zehra Önen-Dumlu - A simulation tool for determining intermediate care capacity requirements along the complex discharge pathway
   description: From the recording 'NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham', starting at 2:43:09.
   path: https://www.youtube.com/watch?v=RfiuBGD5IeU&t=9789s
@@ -1478,6 +1627,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/RfiuBGD5IeU/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:13:30
 - title: Simon Wellesley-Miller - Identifying waiting list health inequalities and predicting emergency admissions
   description: From the recording 'NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham', starting at 2:56:39.
   path: https://www.youtube.com/watch?v=RfiuBGD5IeU&t=10599s
@@ -1486,6 +1636,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/RfiuBGD5IeU/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:15:56
 - title: Edmund Haacke - Investigation the drivers of ED crowding, and identifying ’avoidable’ ED attendances
   description: From the recording 'NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham', starting at 3:12:35.
   path: https://www.youtube.com/watch?v=RfiuBGD5IeU&t=11555s
@@ -1494,6 +1645,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/RfiuBGD5IeU/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:13:15
 - title: Robin Marlow - Automating Emergency Department Clinical Governance using R
   description: From the recording 'NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham', starting at 3:25:50.
   path: https://www.youtube.com/watch?v=RfiuBGD5IeU&t=12350s
@@ -1502,6 +1654,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/RfiuBGD5IeU/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:13:04
 - title: Chris Beeley - Shiny Endominer
   description: From the recording 'NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham', starting at 3:38:54.
   path: https://www.youtube.com/watch?v=RfiuBGD5IeU&t=13134s
@@ -1510,6 +1663,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/RfiuBGD5IeU/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:16:47
 - title: Calum Polwart - Analysis of Systemic Anti-cancer Treatment Data using R
   description: From the recording 'NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham', starting at 3:55:41.
   path: https://www.youtube.com/watch?v=RfiuBGD5IeU&t=14141s
@@ -1518,6 +1672,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/RfiuBGD5IeU/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:13:14
 - title: Vivek Verma - Application of R and real-world data to customise cancer therapy
   description: From the recording 'NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham', starting at 4:08:55.
   path: https://www.youtube.com/watch?v=RfiuBGD5IeU&t=14935s
@@ -1526,6 +1681,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/RfiuBGD5IeU/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:13:27
 - title: Jason Pott - Automating observational trial data abstraction in the Emergency Department – work SmaRter not harder
   description: From the recording 'NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham', starting at 4:22:22.
   path: https://www.youtube.com/watch?v=RfiuBGD5IeU&t=15742s
@@ -1534,6 +1690,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/RfiuBGD5IeU/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:15:47
 - title: 'Richard Wilson - Reproducible Report Production using R markdown: an example using SHMI'
   description: From the recording 'NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham', starting at 4:38:09.
   path: https://www.youtube.com/watch?v=RfiuBGD5IeU&t=16689s
@@ -1542,6 +1699,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/RfiuBGD5IeU/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:16:58
 - title: Victor Yu - A Local Analysis of the NCMP in Hertfordshire
   description: From the recording 'NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham', starting at 4:55:07.
   path: https://www.youtube.com/watch?v=RfiuBGD5IeU&t=17707s
@@ -1550,6 +1708,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/RfiuBGD5IeU/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:09:59
 - title: Anne Alarilla - Using R to explore the ambulance crisis
   description: From the recording 'NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham', starting at 5:05:06.
   path: https://www.youtube.com/watch?v=RfiuBGD5IeU&t=18306s
@@ -1558,6 +1717,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/RfiuBGD5IeU/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:07:38
 - title: Paul Carroll - Structured Topic Modelling in R
   description: From the recording 'NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham', starting at 5:12:44.
   path: https://www.youtube.com/watch?v=RfiuBGD5IeU&t=18764s
@@ -1566,6 +1726,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/RfiuBGD5IeU/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:08:19
 - title: Martina Fonseca - Use of Discrete Event Simulation (RSimmer) as decision-aid in tackling ambulance response time breaches and handover delays
   description: From the recording 'NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham', starting at 5:21:03.
   path: https://www.youtube.com/watch?v=RfiuBGD5IeU&t=19263s
@@ -1574,6 +1735,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/RfiuBGD5IeU/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:08:46
 - title: 'Cara Thompson - Variations on a ggplot theme: how to apply a unifying aesthetic to all your plots'
   description: From the recording 'NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham', starting at 5:29:49.
   path: https://www.youtube.com/watch?v=RfiuBGD5IeU&t=19789s
@@ -1582,6 +1744,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/RfiuBGD5IeU/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:08:51
 - title: Chris Beeley, Mary Amanuel and Craig Shenton - Why Python
   description: From the recording 'NHS-R Conference 2022 - Day 1 (16th November 2022) - Edgbaston, Birmingham', starting at 5:38:40.
   path: https://www.youtube.com/watch?v=RfiuBGD5IeU&t=20320s
@@ -1590,6 +1753,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/RfiuBGD5IeU/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:09:47
 - title: Welcome
   description: From the recording 'NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham', starting at 0:00.
   path: https://www.youtube.com/watch?v=GS8CThaMZXM&t=0s
@@ -1598,6 +1762,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GS8CThaMZXM/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:01:09
 - title: Andi Orlowski - ApHA + NHSR
   description: From the recording 'NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham', starting at 1:09.
   path: https://www.youtube.com/watch?v=GS8CThaMZXM&t=69s
@@ -1606,6 +1771,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GS8CThaMZXM/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:12:36
 - title: 'Cara Thompson - Palatable palettes: creating and applying bespoke colour schemes for your (gg)plots'
   description: From the recording 'NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham', starting at 13:45.
   path: https://www.youtube.com/watch?v=GS8CThaMZXM&t=825s
@@ -1614,6 +1780,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GS8CThaMZXM/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:13:37
 - title: Milan Wiedemann - Implementing and monitoring quality of care indicators in OpenSAFELY
   description: From the recording 'NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham', starting at 27:22.
   path: https://www.youtube.com/watch?v=GS8CThaMZXM&t=1642s
@@ -1622,6 +1789,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GS8CThaMZXM/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:17:18
 - title: 'Chris Mainey - Bendy Regressions: dealing with non-linear relationships in regressions'
   description: From the recording 'NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham', starting at 44:40.
   path: https://www.youtube.com/watch?v=GS8CThaMZXM&t=2680s
@@ -1630,6 +1798,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GS8CThaMZXM/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:14:35
 - title: Adnan Shroufi - Developing a dbplyr-based Address Matching Package to Identify Care Home Prescription Forms
   description: From the recording 'NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham', starting at 59:15.
   path: https://www.youtube.com/watch?v=GS8CThaMZXM&t=3555s
@@ -1638,6 +1807,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GS8CThaMZXM/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:15:56
 - title: Will Yuill - System Dynamics in R
   description: From the recording 'NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham', starting at 1:15:11.
   path: https://www.youtube.com/watch?v=GS8CThaMZXM&t=4511s
@@ -1646,6 +1816,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GS8CThaMZXM/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:16:17
 - title: Razia Ghani - R Girls School Network
   description: From the recording 'NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham', starting at 1:31:28.
   path: https://www.youtube.com/watch?v=GS8CThaMZXM&t=5488s
@@ -1654,6 +1825,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GS8CThaMZXM/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:13:32
 - title: Colin Gillespie How much does technical debt cost?
   description: From the recording 'NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham', starting at 1:45:00.
   path: https://www.youtube.com/watch?v=GS8CThaMZXM&t=6300s
@@ -1662,6 +1834,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GS8CThaMZXM/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:19:39
 - title: Nathan Thomas - Using forecasts to measure change
   description: From the recording 'NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham', starting at 2:04:39.
   path: https://www.youtube.com/watch?v=GS8CThaMZXM&t=7479s
@@ -1670,6 +1843,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GS8CThaMZXM/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:14:32
 - title: Veerle van Leemput -  How to use Plumber to make your data and analysis accessible across your organisation
   description: From the recording 'NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham', starting at 2:19:11.
   path: https://www.youtube.com/watch?v=GS8CThaMZXM&t=8351s
@@ -1678,6 +1852,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GS8CThaMZXM/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:13:25
 - title: 'Santosh Kumar and Yihan Xu - Understanding the ageing patterns of the population in North West London: A survival analysis'
   description: From the recording 'NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham', starting at 2:32:36.
   path: https://www.youtube.com/watch?v=GS8CThaMZXM&t=9156s
@@ -1686,6 +1861,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GS8CThaMZXM/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:18:03
 - title: Ryan Johnson - Rstudio
   description: From the recording 'NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham', starting at 2:50:39.
   path: https://www.youtube.com/watch?v=GS8CThaMZXM&t=10239s
@@ -1694,6 +1870,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GS8CThaMZXM/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:10:35
 - title: Tareef Kawaf - Rstudio
   description: From the recording 'NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham', starting at 3:01:14.
   path: https://www.youtube.com/watch?v=GS8CThaMZXM&t=10874s
@@ -1702,6 +1879,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GS8CThaMZXM/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:11:26
 - title: 'Anastasiia Zharinova - Delivering analytical projects using R: lessons learnt'
   description: From the recording 'NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham', starting at 3:12:40.
   path: https://www.youtube.com/watch?v=GS8CThaMZXM&t=11560s
@@ -1710,6 +1888,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GS8CThaMZXM/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:10:28
 - title: 'Dr Samuel Channon-Wells - Modernising paediatric antimicrobial medicines surveillance: A Data Science approach'
   description: From the recording 'NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham', starting at 3:23:08.
   path: https://www.youtube.com/watch?v=GS8CThaMZXM&t=12188s
@@ -1718,6 +1897,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GS8CThaMZXM/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:15:25
 - title: Daniel Weiand - Writing a fully referenced paper for publication, entirely in R, using RMD and the citr package
   description: From the recording 'NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham', starting at 3:38:33.
   path: https://www.youtube.com/watch?v=GS8CThaMZXM&t=13113s
@@ -1726,6 +1906,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GS8CThaMZXM/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:08:02
 - title: 'Louise Reynolds - Don’t copy and paste, press ‘Run’: Automating regular reporting for the Radiotherapy Data Set'
   description: From the recording 'NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham', starting at 3:46:35.
   path: https://www.youtube.com/watch?v=GS8CThaMZXM&t=13595s
@@ -1734,6 +1915,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GS8CThaMZXM/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:07:31
 - title: Annie Yu - Reusing functions across projects with box modules
   description: From the recording 'NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham', starting at 3:54:06.
   path: https://www.youtube.com/watch?v=GS8CThaMZXM&t=14046s
@@ -1742,6 +1924,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GS8CThaMZXM/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:09:11
 - title: Ruchir Shah - Using R to save clinician time and to aide research; automatically extracting paediatric lung function data using open-source Optical Character Recognition package (Tesseract)
   description: From the recording 'NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham', starting at 4:03:17.
   path: https://www.youtube.com/watch?v=GS8CThaMZXM&t=14597s
@@ -1750,6 +1933,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GS8CThaMZXM/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:09:15
 - title: 'Sebastian Bate - Validating time-to-event clinical prediction models: A case study in ANCA-associated glomerulonephritis.'
   description: From the recording 'NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham', starting at 4:12:32.
   path: https://www.youtube.com/watch?v=GS8CThaMZXM&t=15152s
@@ -1758,6 +1942,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GS8CThaMZXM/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:08:58
 - title: Batool Almarzouq Developing Open repository for Encephalitis
   description: From the recording 'NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham', starting at 4:21:30.
   path: https://www.youtube.com/watch?v=GS8CThaMZXM&t=15690s
@@ -1766,6 +1951,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GS8CThaMZXM/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:11:00
 - title: Chris Beeley NHS-R
   description: From the recording 'NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham', starting at 4:32:30.
   path: https://www.youtube.com/watch?v=GS8CThaMZXM&t=16350s
@@ -1774,6 +1960,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/GS8CThaMZXM/mqdefault.jpg
   date: '2022-11-21'
+  duration: 00:14:14
 - title: 'NHS-R Workshop: Working with databases in R - 23//11/22'
   description: 'Working with databases in R Wednesday 23rd November 2022 Led by Christopher Maronga,m R Programmer, University of Oxford About the course: The first step in any data handling process is loading data into your working tool regardless of the form and media of storage. Relational databases such as…'
   path: https://www.youtube.com/watch?v=htQWauSV9J4
@@ -1782,6 +1969,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/htQWauSV9J4/mqdefault.jpg
   date: '2022-11-24'
+  duration: 03:06:37
 - title: 'NHS-R Workshop: PHM ExploreR An open source tool for Population Health Management  - 24/11/22'
   description: 'PHM ExploreR: An open source tool for Population Health Management Thursday 24th November 2022 Led by Andras Varady, Forensic Cancer Pathway Data Scientist, NHS Bristol, North Somerset and South Gloucestershire CCG About the course: The workshop will introduce delegates to the PHM ExploreR: a…'
   path: https://www.youtube.com/watch?v=E1et8cSIRMQ
@@ -1790,6 +1978,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/E1et8cSIRMQ/mqdefault.jpg
   date: '2022-11-24'
+  duration: 01:39:56
 - title: NHS-R Workshop - Regression Modelling in R - 24/11/22
   description: 'Introduction to Regression Modelling Thursday 24th November 2022 Led by Chris Mainey, Deputy Director of Specialist Analytics at North Central London Integrated Care Board Pre-requisites: Some introductory experience with R About the course: This session will focus on how to fit regression models…'
   path: https://www.youtube.com/watch?v=yaMpZsordu4
@@ -1798,6 +1987,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/yaMpZsordu4/mqdefault.jpg
   date: '2022-11-25'
+  duration: 02:25:16
 - title: 'NHS-R Workshop: Fitting Distributions in R - 25/11/22'
   description: 'Fitting distributions in R Friday 25th November 2022 Led by Dr Sean Manzi, Research Fellow in Applied Healthcare Modelling and Analysis, University of Exeter College of Medicine and Health Pre-requisites: A basic understanding of how to use R About the course: This session will begin by introducing…'
   path: https://www.youtube.com/watch?v=86sviwkA088
@@ -1806,6 +1996,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/86sviwkA088/mqdefault.jpg
   date: '2022-11-25'
+  duration: 01:32:54
 - title: 'Mary Amanuel: Conference Opening'
   description: '@NHSOA_Community Conference: Python Track 17th of Nov 2022 ■ *Speaker:* Mary Amanuel, Economics & Strategic Analysis, NHS England. ■ *LinkedIn:* ■ *GitHub:*'
   path: https://www.youtube.com/watch?v=-0Bxk7v0SM4
@@ -1814,6 +2005,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/-0Bxk7v0SM4/mqdefault.jpg
   date: '2022-11-26'
+  duration: 00:02:07
 - title: 'Sarah Culkin:  Keynote Speech'
   description: '@NHSOA_Community Conference: Python Track 17th of Nov 2022 ■ *Speaker:* Sarah Culkin, Deputy Director, Analytics and Data Science, NHS England. ■ *LinkedIn:* ■ *Website:*'
   path: https://www.youtube.com/watch?v=ZctiQuwf9tI
@@ -1822,6 +2014,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/ZctiQuwf9tI/mqdefault.jpg
   date: '2022-11-26'
+  duration: 00:32:44
 - title: 'Panel Discussion: What are the benefits of python and open-source code in the NHS?'
   description: '@NHSOA_Community Conference: Python Track 17th of Nov 2022 ■ *Chair:* Sarah Culkin, Deputy Director, Analytics and Data Science, NHS England. ■ *Speaker:* Pawel Orzechowski. Lecturer in Programming for Business, University of Edinburgh ■ *Speaker:* Thiago Viana. Senior Lecturer in Computing,…'
   path: https://www.youtube.com/watch?v=O5IOFv50WyA
@@ -1830,6 +2023,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/O5IOFv50WyA/mqdefault.jpg
   date: '2022-11-26'
+  duration: 00:46:00
 - title: 'Adam Carruthers: Turbocharge your development with VS Code'
   description: '@NHSOA_Community Conference: Python Track 17th of Nov 2022 ■ Speaker: Adam Carruthers, Graduate Trainee, NHS Digital ■ LinkedIn: ■ GitHub:'
   path: https://www.youtube.com/watch?v=saANOhFQym8
@@ -1838,6 +2032,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/saANOhFQym8/mqdefault.jpg
   date: '2022-12-04'
+  duration: 00:23:53
 - title: 'Dr Mark Bailey: Spiritum Duo - Clinical Pathways - A to B but faster'
   description: '@NHSOA_Community Conference: Python Track 17th of Nov 2022 ■ Speaker: Mark Bailey, Speciality Doctor and Digital Lead in Respiratory Medicine. Gloucestershire Hospitals NHS Foundation Trust ■ LinkedIn: ■ Github: ■ Links:'
   path: https://www.youtube.com/watch?v=1W9N7gA210s
@@ -1846,6 +2041,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/1W9N7gA210s/mqdefault.jpg
   date: '2022-12-04'
+  duration: 00:13:57
 - title: 'Steven Maude: Documenting the OpenSAFELY platform with Python and MkDocs'
   description: '​ @NHSOA_Community Conference: Python Track 17th of Nov 2022 ■ Speaker: Steven Maude, Software Developer, Bennett Institute for Applied Data Science ■ Github: ■ Links: ■ Links:'
   path: https://www.youtube.com/watch?v=cs5-_CYJhZg
@@ -1854,6 +2050,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/cs5-_CYJhZg/mqdefault.jpg
   date: '2022-12-04'
+  duration: 00:26:39
 - title: 'Charlotte James: Forecasting Long-Term Demand in Emergency Departments'
   description: '@NHSOA_Community Conference: Python Track 17th of Nov 2022 ■ Speaker: Charlotte James, Senior Research Associate in Health Data Science / Researcher in Residence, University of Bristol / BNSSG ICB ■ Github: ■ Links:'
   path: https://www.youtube.com/watch?v=gELirXjNG4M
@@ -1862,6 +2059,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/gELirXjNG4M/mqdefault.jpg
   date: '2022-12-04'
+  duration: 00:20:34
 - title: 'Paul Carroll: Travel Time to NHS Organisations'
   description: '​ @NHSOA_Community Conference: Python Track 17th of Nov 2022 ■ Speaker: Paul Carroll, Senior Data Scientist, NHS England, Transformation Directorate ■ Github: ■ LinkedIn:'
   path: https://www.youtube.com/watch?v=kbozStgX7Ow
@@ -1870,6 +2068,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/kbozStgX7Ow/mqdefault.jpg
   date: '2022-12-04'
+  duration: 00:12:36
 - title: 'Dan Schofield: Connecting Research to NHS Operations'
   description: '​@NHSOA_Community Conference: Python Track 17th of Nov 2022 ■ Speaker: Dan Schofield, Senior Data Scientist, NHS England, Transformation Directorate ■ Github: ■ LinkedIn:'
   path: https://www.youtube.com/watch?v=1B_SG5fnOlA
@@ -1878,6 +2077,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/1B_SG5fnOlA/mqdefault.jpg
   date: '2022-12-19'
+  duration: 00:21:35
 - title: 'David Sgorbati: R and Python – Integrating Workflows in the Creation of Synthetic Datasets'
   description: '@NHSOA_Community Conference: Python Track 17th of Nov 2022 ■ Speaker: David Sgorbati, Chief Analyst, Health Economics Unit (Midlands and Lancashire CSU) ■ LinkedIn:'
   path: https://www.youtube.com/watch?v=VMgHQDOumPA
@@ -1886,6 +2086,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/VMgHQDOumPA/mqdefault.jpg
   date: '2022-12-19'
+  duration: 00:23:57
 - title: 'Dany Gammall: Evaluating FHIR clinical data quality with BigQuery and dbt'
   description: '​@NHSOA_Community Conference: Python Track 17th of Nov 2022 ■ Speaker: Dany Gammall, Clinician and Data Scientist, Google. ■ LinkedIn:'
   path: https://www.youtube.com/watch?v=8OTYqU7o1Wo
@@ -1894,6 +2095,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/8OTYqU7o1Wo/mqdefault.jpg
   date: '2022-12-19'
+  duration: 00:12:56
 - title: 'German Priks: Exhibit: General Purpose Declarative Synthetic Data Generator'
   description: '​@NHSOA_Community Conference: Python Track 17th of Nov 2022 ■ Speaker: German Priks ■ GitHub: ■ LinkedIn: ■ Links:'
   path: https://www.youtube.com/watch?v=ZWhhZrHbj6s
@@ -1902,6 +2104,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/ZWhhZrHbj6s/mqdefault.jpg
   date: '2022-12-19'
+  duration: 00:19:56
 - title: 'Darshita Chaturvedi: Creating Progressive Web Apps using PyScript and Atri'
   description: '​@NHSOA_Community Conference: Python Track 17th of Nov 2022 ■ Speaker: Darshita Chaturvedi, Co-Founder & CEO Atri Labs ■ GitHub: ■ LinkedIn:'
   path: https://www.youtube.com/watch?v=hu6sTdCrjG4
@@ -1910,6 +2113,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/hu6sTdCrjG4/mqdefault.jpg
   date: '2022-12-19'
+  duration: 00:21:54
 - title: 'Alistair Jones: How we generate privacy-enhancing artificial healthcare data at NHS Digital'
   description: '@NHSOA_Community Conference: Python Track 17th of Nov 2022 ■ Speaker: Alistair Jones, Senior Data Scientist, NHS Digital ■ GitHub: ■ LinkedIn: ■ Links:'
   path: https://www.youtube.com/watch?v=4bXGCGGb5kw
@@ -1918,6 +2122,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/4bXGCGGb5kw/mqdefault.jpg
   date: '2022-12-19'
+  duration: 00:22:13
 - title: 'Zeki Gultekin: Sensitive Data Detection - Convolutional Neural Networks and Name Entity Recognition'
   description: '@NHSOA_Community Conference: Python Track 17th of Nov 2022 ■ Speaker: Zeki Gultekin, Data Analyst, DataTera ■ LinkedIn: ■ Github: ■ Links:'
   path: https://www.youtube.com/watch?v=qhXiNyTTR6g
@@ -1926,6 +2131,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/qhXiNyTTR6g/mqdefault.jpg
   date: '2022-12-19'
+  duration: 00:16:32
 - title: Professor Mohammed Mohammed, NHS-R Community Opening and Welcome
   description: Part of the recording 'NHS-R Community Conference 2021 - Day 1' - see its description for timings.
   path: https://www.youtube.com/watch?v=R7uDB9iqlZY
@@ -2070,6 +2276,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/5HnW1YP3vTk/mqdefault.jpg
   date: '2021-11-09'
+  duration: 00:18:30
 - title: Sarah Culkin, Head of Analytics, NHSX - Free and open - what is the role of the centre?
   description: From the recording 'NHS-R Community Conference 2021 - Day 2', starting at 24:26.
   path: https://www.youtube.com/watch?v=5HnW1YP3vTk&t=1466s
@@ -2078,6 +2285,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/5HnW1YP3vTk/mqdefault.jpg
   date: '2021-11-09'
+  duration: 00:20:22
 - title: Rony Arafin, Chief Operating Officer, AphA - Empowering Analytics using Open Source Tools
   description: From the recording 'NHS-R Community Conference 2021 - Day 2', starting at 44:48.
   path: https://www.youtube.com/watch?v=5HnW1YP3vTk&t=2688s
@@ -2086,6 +2294,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/5HnW1YP3vTk/mqdefault.jpg
   date: '2021-11-09'
+  duration: 00:19:48
 - title: Emma Rand, Senior Lecturer in the Department of Biology at the University of York - You can make an R package too!
   description: From the recording 'NHS-R Community Conference 2021 - Day 2', starting at 1:04:36.
   path: https://www.youtube.com/watch?v=5HnW1YP3vTk&t=3876s
@@ -2094,6 +2303,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/5HnW1YP3vTk/mqdefault.jpg
   date: '2021-11-09'
+  duration: 00:40:13
 - title: Jacob Anhøj, Centre of Diagnostic Investigation, Rigshospitalet, University of Copenhagen - Run Forest, run! - Understanding variation using runs analysis
   description: From the recording 'NHS-R Community Conference 2021 - Day 2', starting at 1:44:49.
   path: https://www.youtube.com/watch?v=5HnW1YP3vTk&t=6289s
@@ -2102,6 +2312,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/5HnW1YP3vTk/mqdefault.jpg
   date: '2021-11-09'
+  duration: 00:20:57
 - title: Peter Higgins, Professor of Gastroenterology, University of Michigan - Introducing the {medicaldata} teaching package
   description: From the recording 'NHS-R Community Conference 2021 - Day 2', starting at 2:05:46.
   path: https://www.youtube.com/watch?v=5HnW1YP3vTk&t=7546s
@@ -2110,6 +2321,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/5HnW1YP3vTk/mqdefault.jpg
   date: '2021-11-09'
+  duration: 00:10:01
 - title: 'Lluís Revilla Sancho, Bioinformatician - Improving (analysis) process: developing packages'
   description: From the recording 'NHS-R Community Conference 2021 - Day 2', starting at 2:15:47.
   path: https://www.youtube.com/watch?v=5HnW1YP3vTk&t=8147s
@@ -2118,6 +2330,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/5HnW1YP3vTk/mqdefault.jpg
   date: '2021-11-09'
+  duration: 00:18:37
 - title: Simon Wellesley-Miller, Information Manager at Devon Partnership NHS Trust and Christopher Reading, Divisional Information Specialist, Worcestershire Acute Hospitals NHS Trust - NHSRplotthedots
   description: From the recording 'NHS-R Community Conference 2021 - Day 2', starting at 2:34:24.
   path: https://www.youtube.com/watch?v=5HnW1YP3vTk&t=9264s
@@ -2126,6 +2339,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/5HnW1YP3vTk/mqdefault.jpg
   date: '2021-11-09'
+  duration: 00:30:26
 - title: Simon Moss with Dr Richard Wood, NHS Bristol, North Somerset and South Gloucestershire CCG - Use of PathSimR to support COVID-19 mass vaccination and stroke service centralisation
   description: From the recording 'NHS-R Community Conference 2021 - Day 2', starting at 3:04:50.
   path: https://www.youtube.com/watch?v=5HnW1YP3vTk&t=11090s
@@ -2134,6 +2348,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/5HnW1YP3vTk/mqdefault.jpg
   date: '2021-11-09'
+  duration: 00:20:12
 - title: Will Yuill, Principal Epidemiologist, Public Health, Hertfordshire County Council - Putting R into Production
   description: From the recording 'NHS-R Community Conference 2021 - Day 2', starting at 3:25:02.
   path: https://www.youtube.com/watch?v=5HnW1YP3vTk&t=12302s
@@ -2142,6 +2357,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/5HnW1YP3vTk/mqdefault.jpg
   date: '2021-11-09'
+  duration: 00:20:08
 - title: Hazel Kirkland and Chris Beeley, Lead Pharmacist and Senior Data Scientist, Nottinghamshire Healthcare NHS Trust - Putting the R in phaRmacy- forecasting and stock control using R for pharmacy inventory management
   description: From the recording 'NHS-R Community Conference 2021 - Day 2', starting at 3:45:10.
   path: https://www.youtube.com/watch?v=5HnW1YP3vTk&t=13510s
@@ -2150,6 +2366,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/5HnW1YP3vTk/mqdefault.jpg
   date: '2021-11-09'
+  duration: 01:54:50
 - title: Frank Harrell, Professor of Biostatistics in the School of Medicine at Vanderbilt University - Statistical Mistakes to Avoid
   description: From the recording 'NHS-R Community Conference 2021 - Day 2', starting at 5:40:00.
   path: https://www.youtube.com/watch?v=5HnW1YP3vTk&t=20400s
@@ -2158,6 +2375,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/5HnW1YP3vTk/mqdefault.jpg
   date: '2021-11-09'
+  duration: 00:44:00
 - title: Gergely Daroczi and Ajay Gopal, Rx Studio Inc. - R package and APIs for Scaled Personalized Medicine
   description: From the recording 'NHS-R Community Conference 2021 - Day 2', starting at 6:24:00.
   path: https://www.youtube.com/watch?v=5HnW1YP3vTk&t=23040s
@@ -2166,6 +2384,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/5HnW1YP3vTk/mqdefault.jpg
   date: '2021-11-09'
+  duration: 00:16:21
 - title: Jeroen Ooms, Staff Research Engineer with @ropensci at UC Berkeley - The r-universe project
   description: From the recording 'NHS-R Community Conference 2021 - Day 2', starting at 6:40:21.
   path: https://www.youtube.com/watch?v=5HnW1YP3vTk&t=24021s
@@ -2174,6 +2393,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/5HnW1YP3vTk/mqdefault.jpg
   date: '2021-11-09'
+  duration: 00:26:12
 - title: Gary Hutson, Senior Data Scientist, Ascent - NHS-R Solutions
   description: From the recording 'NHS-R Community Conference 2021 - Day 3', starting at 4:28.
   path: https://www.youtube.com/watch?v=NFQ4filc2jI&t=268s
@@ -2182,6 +2402,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/NFQ4filc2jI/mqdefault.jpg
   date: '2021-11-10'
+  duration: 00:17:16
 - title: 'John Lodge, Head of Quality Improvement (London Region), NHS England and NHS Improvement. Co-founder of Hexitime - Hexitime: the skill exchange and timebank for improving health and care services'
   description: From the recording 'NHS-R Community Conference 2021 - Day 3', starting at 21:44.
   path: https://www.youtube.com/watch?v=NFQ4filc2jI&t=1304s
@@ -2190,6 +2411,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/NFQ4filc2jI/mqdefault.jpg
   date: '2021-11-10'
+  duration: 00:19:14
 - title: 'Suki Panesar, Deputy Director, NHS England and NHS Improvement - Connecting the data and analytic workforce and creating a social movement for good: the story of AnalystX'
   description: From the recording 'NHS-R Community Conference 2021 - Day 3', starting at 40:58.
   path: https://www.youtube.com/watch?v=NFQ4filc2jI&t=2458s
@@ -2198,6 +2420,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/NFQ4filc2jI/mqdefault.jpg
   date: '2021-11-10'
+  duration: 00:48:49
 - title: Simon Wellesley-Miller, Information Manager, Devon Partnership Trust - Interactive reports using HTML widgets in R Markdown
   description: From the recording 'NHS-R Community Conference 2021 - Day 3', starting at 1:29:47.
   path: https://www.youtube.com/watch?v=NFQ4filc2jI&t=5387s
@@ -2206,6 +2429,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/NFQ4filc2jI/mqdefault.jpg
   date: '2021-11-10'
+  duration: 00:12:40
 - title: 'Hugo Cosh and Zoe Strawbridge, Public Health Wales - Shiny doesn''t have to be scary: an easy way in with RMarkdown'
   description: From the recording 'NHS-R Community Conference 2021 - Day 3', starting at 1:42:27.
   path: https://www.youtube.com/watch?v=NFQ4filc2jI&t=6147s
@@ -2214,6 +2438,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/NFQ4filc2jI/mqdefault.jpg
   date: '2021-11-10'
+  duration: 00:19:01
 - title: Dr Kate Bamford, Senior Data Surveillance Scientist, East Midlands Health Protection Team
   description: From the recording 'NHS-R Community Conference 2021 - Day 3', starting at 2:01:28.
   path: https://www.youtube.com/watch?v=NFQ4filc2jI&t=7288s
@@ -2222,6 +2447,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/NFQ4filc2jI/mqdefault.jpg
   date: '2021-11-10'
+  duration: 00:19:29
 - title: Kieran Zucker, NIHR Clinical Lecturer, University of Leeds - Self Service Analytics and Automatic Document Generation with R
   description: From the recording 'NHS-R Community Conference 2021 - Day 3', starting at 2:20:57.
   path: https://www.youtube.com/watch?v=NFQ4filc2jI&t=8457s
@@ -2230,6 +2456,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/NFQ4filc2jI/mqdefault.jpg
   date: '2021-11-10'
+  duration: 00:38:39
 - title: Heather Turner, R-Ladies, EPSRC Research Software Engineering Fellow, University of Warwick - Supporting Equality, Diversity and Inclusion in the R Community
   description: From the recording 'NHS-R Community Conference 2021 - Day 3', starting at 2:59:36.
   path: https://www.youtube.com/watch?v=NFQ4filc2jI&t=10776s
@@ -2238,6 +2465,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/NFQ4filc2jI/mqdefault.jpg
   date: '2021-11-10'
+  duration: 00:19:52
 - title: Adam Watkins, Advanced Improvement Analyst/Uwch-ddadansoddwr Gwelliant, Improvement Cymru (Public Health Wales) - Mapping public transport travel times - building on and enabling the work of others
   description: From the recording 'NHS-R Community Conference 2021 - Day 3', starting at 3:19:28.
   path: https://www.youtube.com/watch?v=NFQ4filc2jI&t=11968s
@@ -2246,6 +2474,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/NFQ4filc2jI/mqdefault.jpg
   date: '2021-11-10'
+  duration: 02:20:27
 - title: Hugo Herrera, Head of Analytics , East Suffolk & North Essex NHS Foundation Trust - Analysing A&E capacity and demand with R
   description: From the recording 'NHS-R Community Conference 2021 - Day 3', starting at 5:39:55.
   path: https://www.youtube.com/watch?v=NFQ4filc2jI&t=20395s
@@ -2254,6 +2483,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/NFQ4filc2jI/mqdefault.jpg
   date: '2021-11-10'
+  duration: 00:12:19
 - title: Dr William Bryant, Senior Data Scientist, Great Ormond Street Hospital NHS Trust - Predicting length-of-stay to improve patient flow – operational data science using R, `tidymodels` and `targets`
   description: From the recording 'NHS-R Community Conference 2021 - Day 3', starting at 5:52:14.
   path: https://www.youtube.com/watch?v=NFQ4filc2jI&t=21134s
@@ -2262,6 +2492,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/NFQ4filc2jI/mqdefault.jpg
   date: '2021-11-10'
+  duration: 00:15:31
 - title: Neli Garbuzanova, Deputy Head of Transformation, NHS England - R challenges and opportunities in the delivery of NHS service
   description: From the recording 'NHS-R Community Conference 2021 - Day 3', starting at 6:07:45.
   path: https://www.youtube.com/watch?v=NFQ4filc2jI&t=22065s
@@ -2270,6 +2501,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/NFQ4filc2jI/mqdefault.jpg
   date: '2021-11-10'
+  duration: 00:26:18
 - title: Julia Silge, Data Scientist and Software Engineer at RStudio - Creating features for machine learning from text
   description: From the recording 'NHS-R Community Conference 2021 - Day 3', starting at 6:34:03.
   path: https://www.youtube.com/watch?v=NFQ4filc2jI&t=23643s
@@ -2278,6 +2510,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/NFQ4filc2jI/mqdefault.jpg
   date: '2021-11-10'
+  duration: 00:59:22
 - title: Chris Beeley, Senior Data Scientist, Nottinghamshire Healthcare NHS Trust - Closing Remarks
   description: From the recording 'NHS-R Community Conference 2021 - Day 3', starting at 7:33:25.
   path: https://www.youtube.com/watch?v=NFQ4filc2jI&t=27205s
@@ -2286,6 +2519,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/NFQ4filc2jI/mqdefault.jpg
   date: '2021-11-10'
+  duration: 00:11:02
 - title: 'NHS-R Conference 2021: Fitting Distributions in R workshop'
   description: This workshop session was recorded live on 1st November 2021 during the NHS-R community conference. All of the workshop materials can be found on GitHub here The workshop begins by introducing probability distributions, the different types of distribution and why we use them in data science. We…
   path: https://www.youtube.com/watch?v=2gqgq1rRTG4
@@ -2294,6 +2528,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/2gqgq1rRTG4/mqdefault.jpg
   date: '2021-11-09'
+  duration: 01:26:03
 - title: 'NHS-R Conference 2021 workshop: Functional Programming with R'
   description: 'Tom Jemmett from The Strategy Unit presents a workshop in functional programming in R. In this session we cover some of the theory behind functional programming, and then cover the {purrr} package. Git repository: Slides: Join the NHS-R slack:'
   path: https://www.youtube.com/watch?v=Mmo1usxWEW4
@@ -2302,6 +2537,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/Mmo1usxWEW4/mqdefault.jpg
   date: '2021-11-03'
+  duration: 02:02:30
 - title: 'NHS-R Conference 2021 workshop: Great Tables'
   description: ''
   path: https://www.youtube.com/watch?v=VI4wd3rSezc
@@ -2310,6 +2546,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/VI4wd3rSezc/mqdefault.jpg
   date: '2021-11-09'
+  duration: 02:28:37
 - title: 'NHS-R Conference 2021: Intro to R/RStudio - Part 1'
   description: 'Join Zoë Turner, Data Scientist,, Nottinghamshire Healthcare NHS Foundation Trust for this NHS-R Workshop - Introduction to R/RStudio Summary: An Introduction to R workshop covering R/RStudio, manipulation of data (dplyr), creating charts (ggplot2) and reports (R Markdown). This is a great…'
   path: https://www.youtube.com/watch?v=uerf_bY-d4c
@@ -2318,6 +2555,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/uerf_bY-d4c/mqdefault.jpg
   date: '2022-02-17'
+  duration: 00:44:39
 - title: 'NHS-R Conference 2021: Intro to R/RStudio Workshop - Part 2'
   description: 'Join Zoë Turner, Data Scientist, Nottinghamshire Healthcare NHS Foundation Trust for Part 2 of this NHS-R Workshop - Introduction to R/RStudio Summary: An Introduction to R workshop covering R/RStudio, manipulation of data (dplyr), creating charts (ggplot2) and reports (R Markdown). This is a great…'
   path: https://www.youtube.com/watch?v=9GESlEIvPDI
@@ -2326,6 +2564,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/9GESlEIvPDI/mqdefault.jpg
   date: '2022-02-17'
+  duration: 03:32:58
 - title: 'NHS-R Conference 2021 workshop: NHS DataDictionaRy'
   description: This workshop session was recorded live on 3rd November 2021 during the NHS-R community conference. All of the workshop materials can be found on GitHub here The workshop was run by Gary Hutson - Senior Data Scientist @ Mango Solutions and was focused around working with NHS data dictionary…
   path: https://www.youtube.com/watch?v=w2LbATKFAI8
@@ -2334,6 +2573,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/w2LbATKFAI8/mqdefault.jpg
   date: '2021-11-12'
+  duration: 02:16:24
 - title: 'NHS-R Conference 2021 workshop: PHM ExploreR'
   description: ''
   path: https://www.youtube.com/watch?v=sXJkMvvdXOI
@@ -2342,6 +2582,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/sXJkMvvdXOI/mqdefault.jpg
   date: '2021-11-17'
+  duration: 01:35:22
 - title: 'NHS-R Workshop:  Regression Modelling, November 2021'
   description: 'Presented by: Chris Mainey, Patient Safety Lead – System Analysis and Delivery, NHS Improvement Pre-requisites: Some introductory experience with R Summary: This session focuses on how to fit regression models in R, the most common form of statistical modelling. Examining the essential theory…'
   path: https://www.youtube.com/watch?v=QbuXObUVTaw
@@ -2350,6 +2591,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/QbuXObUVTaw/mqdefault.jpg
   date: '2021-11-30'
+  duration: 01:51:23
 - title: NHS-R Conference 2021 Workshop Week - RMarkdown, Thomas Mock, RStudio
   description: 'RMarkdown – Friday 5th November 2021 Facilitator: Thomas Mock, Software Engineer at RStudio Pre-requisites: Some introductory experience with R'
   path: https://www.youtube.com/watch?v=sE0hKSgMZfM
@@ -2358,6 +2600,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/sE0hKSgMZfM/mqdefault.jpg
   date: '2021-11-30'
+  duration: 01:35:42
 - title: 'NHS-R Workshop: Shiny (Part 1 of 2) November 2021'
   description: 'Facilitator: Chris Beeley, Senior Data Scientist, Nottinghamshire Healthcare NHS Foundation Trust Summary: Shiny is an programming framework for R that allows you to build dynamic and interactive dashboards for the web with no knowledge of HTML, CSS, or JavaScript. It allows R programmers to very…'
   path: https://www.youtube.com/watch?v=wEYaeltxlys
@@ -2366,6 +2609,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/wEYaeltxlys/mqdefault.jpg
   date: '2021-11-30'
+  duration: 02:27:40
 - title: 'NHS-R Workshop: Shiny (Part 2 of 2) - November 2021'
   description: 'Facilitator: Chris Beeley, Senior Data Scientist, Nottinghamshire Healthcare NHS Foundation Trust Summary: Shiny is an programming framework for R that allows you to build dynamic and interactive dashboards for the web with no knowledge of HTML, CSS, or JavaScript. It allows R programmers to very…'
   path: https://www.youtube.com/watch?v=aeTgh91EgTs
@@ -2374,6 +2618,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/aeTgh91EgTs/mqdefault.jpg
   date: '2021-12-01'
+  duration: 02:16:30
 - title: 'NHS-R Workshop: Introduction to changepoint analysis with R-  November 2021'
   description: 'Facilitator: Dr Rebecca Killick Associate Professor in the Mathematics & Statistics department at Lancaster University Summary: This workshop introduces participants to the analysis of changepoint models (also known as time series segmentation or structural changes). The course is aimed at those…'
   path: https://www.youtube.com/watch?v=UfGrLJ7S3sc
@@ -2382,6 +2627,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/UfGrLJ7S3sc/mqdefault.jpg
   date: '2021-12-03'
+  duration: 02:49:01
 - title: 'NHS-R Workshop: Further changepoint analysis techniques –December 2021'
   description: 'Facilitator: Dr Rebecca Killick Associate Professor in the Mathematics & Statistics department at Lancaster University Summary: ‘Further changepoint analysis techniques’ workshop builds upon the introduction to changepoint course and that knowledge will be assumed. We will focus on more advanced…'
   path: https://www.youtube.com/watch?v=rRL8rT97S0I
@@ -2390,6 +2636,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/rRL8rT97S0I/mqdefault.jpg
   date: '2021-12-03'
+  duration: 01:43:11
 - title: Introduction to Machine Learning and Image Processing with R, December 2021
   description: 'Facilitators: Santosh Kumar and Bruno Petrungaro, The Health Economics Unit Summary: This workshop covers the basics of image processing, classical machine learning with R. Topics in machine learning include an introduction to machine learning, the difference between machine learning and AI,…'
   path: https://www.youtube.com/watch?v=_broZee5Y6s
@@ -2398,6 +2645,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/_broZee5Y6s/mqdefault.jpg
   date: '2021-12-09'
+  duration: 02:59:51
 - title: Statistical process control charts with R - Jacob Anhøj, November 2021
   description: 'Date: Thursday 4th November 2021 Statistical process control charts with R One day Workshop: Masterclass for R programmers Facilitators: Jacob Anhøj, Medical Doctor, Rigshospitalet, Copenhagen, Denmark and Zoë Turner, Senior Information Analyst, Nottinghamshire Healthcare NHS Foundation Trust…'
   path: https://www.youtube.com/watch?v=pCaqwX7bDLs
@@ -2406,6 +2654,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/pCaqwX7bDLs/mqdefault.jpg
   date: '2022-05-13'
+  duration: 04:21:11
 - title: Reproducible computation at scale in R with targets, Will Landau, November 2021
   description: 'Facilitator: Will Landau, Eli Lilly and Company – USA Data science can be slow. A single round of statistical computation can take several minutes, hours, or even days to complete. The targets R package keeps results up to date and reproducible while minimizing the number of expensive tasks that…'
   path: https://www.youtube.com/watch?v=OdBG78Tmx70
@@ -2414,6 +2663,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/OdBG78Tmx70/mqdefault.jpg
   date: '2022-05-13'
+  duration: 01:41:32
 - title: 'Conference opening: NHS-R Journey so far and next steps by Mohammed Mohammed'
   description: 'Session 1 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page:'
   path: https://www.youtube.com/watch?v=9-XlwH5VPLk
@@ -2422,6 +2672,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/9-XlwH5VPLk/mqdefault.jpg
   date: '2020-11-10'
+  duration: 00:28:53
 - title: 'OpenSAFELY.org: proving the power of open methods for NHS data analysis byDr Ben Goldacre'
   description: Session 2 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=rxgUbee7U38
@@ -2430,6 +2681,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/rxgUbee7U38/mqdefault.jpg
   date: '2020-11-10'
+  duration: 00:38:05
 - title: Strengthening data analytics in pursuit of better health care by Adam Steventon
   description: Session 3 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=bsnSUMLAcxk
@@ -2438,6 +2690,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/bsnSUMLAcxk/mqdefault.jpg
   date: '2020-11-10'
+  duration: 00:20:13
 - title: 'phsmethods: An R package for PublicHealth Scotland by Ciara Gribben'
   description: Session 4 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=gOWccQP2SIE
@@ -2446,6 +2699,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/gOWccQP2SIE/mqdefault.jpg
   date: '2020-11-10'
+  duration: 00:27:35
 - title: Introduction to Hexitime by John Lodge & Hesham Abdalla
   description: Session 5 of the NHS-R Community Conference 2020. All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=fvBmI6A7Ncg
@@ -2454,6 +2708,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/fvBmI6A7Ncg/mqdefault.jpg
   date: '2020-11-10'
+  duration: 00:41:35
 - title: 'Hexitime session: Deep Dive by John Lodge & Hesham Abdalla'
   description: Session 5 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=nT2TCnpKAlw
@@ -2462,6 +2717,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/nT2TCnpKAlw/mqdefault.jpg
   date: '2020-11-12'
+  duration: 00:59:41
 - title: 'Lightning talks: Session 1'
   description: Session 7 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=5eEaAxeDFRE
@@ -2470,6 +2726,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/5eEaAxeDFRE/mqdefault.jpg
   date: '2020-11-12'
+  duration: 01:15:21
 - title: 'The Health Foundation: Supporting Better Analytics by Ellen Coughlan'
   description: 'Session 8 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here: All presentations will be uploaded to our github page'
   path: https://www.youtube.com/watch?v=AD8k5CnrYnk
@@ -2478,6 +2735,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/AD8k5CnrYnk/mqdefault.jpg
   date: '2020-11-11'
+  duration: 00:36:05
 - title: Causal Inference in Population Health Management by Andi Orlowski and Bruno Petrungaro
   description: Session 9 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=J7q2GJImEW8
@@ -2486,6 +2744,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/J7q2GJImEW8/mqdefault.jpg
   date: '2020-11-11'
+  duration: 00:38:17
 - title: Rapid development of a multifaceted profile on health and wellbeing by Bethan Patterson &Rhys Powell
   description: Session 10 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=07BV1LdykvM
@@ -2494,6 +2753,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/07BV1LdykvM/mqdefault.jpg
   date: '2020-11-11'
+  duration: 00:22:27
 - title: Using ggplot2 polygon and spatial data to plot brain atlases by Athanasia Mowinckel
   description: Session 11 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=vQCXT_YwsfE
@@ -2502,6 +2762,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/vQCXT_YwsfE/mqdefault.jpg
   date: '2020-11-11'
+  duration: 00:29:23
 - title: R Shiny in Transformation by Eleanor Barnes
   description: Session 12 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=Jr75a9FRawI
@@ -2510,6 +2771,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/Jr75a9FRawI/mqdefault.jpg
   date: '2020-11-11'
+  duration: 00:18:31
 - title: Come Together by Hillary Juma
   description: Session 13 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=EHmcIBJS2dg
@@ -2518,6 +2780,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/EHmcIBJS2dg/mqdefault.jpg
   date: '2020-11-11'
+  duration: 00:21:25
 - title: 'Lightning talks: Session 2'
   description: Session 14 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=0UyIEYdGx_g
@@ -2526,6 +2789,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/0UyIEYdGx_g/mqdefault.jpg
   date: '2020-11-12'
+  duration: 01:16:55
 - title: Opening up Analytics by Sarah Culkin
   description: Session 15 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=8uAG3KKBxM0
@@ -2534,6 +2798,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/8uAG3KKBxM0/mqdefault.jpg
   date: '2020-11-12'
+  duration: 00:26:25
 - title: Building predictive models with HES data using R by Chris Mainey
   description: Session 16 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=0BiGiZfqqZA
@@ -2542,6 +2807,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/0BiGiZfqqZA/mqdefault.jpg
   date: '2020-11-12'
+  duration: 00:27:11
 - title: R you seriously still using Excel? by Gianluca Baio
   description: Session 17 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=hfYX5cfvR0I
@@ -2550,6 +2816,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/hfYX5cfvR0I/mqdefault.jpg
   date: '2020-11-12'
+  duration: 00:25:03
 - title: Decision Modelling in R-Shiny by Robert Smith
   description: Session 18 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=Pl66-h5UXgI
@@ -2558,6 +2825,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/Pl66-h5UXgI/mqdefault.jpg
   date: '2020-11-12'
+  duration: 00:21:07
 - title: For love or money? How to generate high revenue from a team of R developers by Lisa Clark
   description: Session 19 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=Ezfr6uiYKG0
@@ -2566,6 +2834,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/Ezfr6uiYKG0/mqdefault.jpg
   date: '2020-11-12'
+  duration: 00:30:31
 - title: 'Navigating open-source software: Ensuring you can rely on what you use by Rebecca Killick'
   description: Session 20 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=6PV5dGpmQgk
@@ -2574,6 +2843,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/6PV5dGpmQgk/mqdefault.jpg
   date: '2020-11-12'
+  duration: 00:31:31
 - title: 'Lightning talks: Session 3'
   description: Session 21 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=H_qzxl8qpTs
@@ -2582,6 +2852,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/H_qzxl8qpTs/mqdefault.jpg
   date: '2020-11-12'
+  duration: 01:06:11
 - title: 'The Art of Insight: Making Decisions in Visualization by Alberto Cairo'
   description: Session 22 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=6SASXHRokIA
@@ -2590,6 +2861,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/6SASXHRokIA/mqdefault.jpg
   date: '2020-11-12'
+  duration: 01:10:03
 - title: R in British Heart Foundation by Kate Cheema
   description: Session 23 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=b1MUzUVHdkw
@@ -2598,6 +2870,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/b1MUzUVHdkw/mqdefault.jpg
   date: '2020-11-13'
+  duration: 00:24:59
 - title: Preventing human trafficking through the power of analytics by Sandro Matos
   description: Session 24 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=wV6mQ8RQ2rM
@@ -2606,6 +2879,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/wV6mQ8RQ2rM/mqdefault.jpg
   date: '2020-11-13'
+  duration: 00:27:59
 - title: How computer vision can assist clinicians by Gary Hutson
   description: Session 25 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=7ezy5xHMTno
@@ -2614,6 +2888,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/7ezy5xHMTno/mqdefault.jpg
   date: '2020-11-13'
+  duration: 00:25:05
 - title: 'OpenSAFELY: a walkthrough in R (and a little bit of Python) by William Hulme'
   description: Session 26 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=-N6C3yn0D4o
@@ -2622,6 +2897,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/-N6C3yn0D4o/mqdefault.jpg
   date: '2020-11-13'
+  duration: 00:24:05
 - title: 'Training pathways: adopting R across the organisation by Russell McCreath'
   description: Session 27 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=gh8oWH519Hs
@@ -2630,6 +2906,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/gh8oWH519Hs/mqdefault.jpg
   date: '2020-11-13'
+  duration: 00:23:19
 - title: Performance of NEWS and compliance with vital sign monitoring during COVID pandemic by Ina Kostakis
   description: Session 28 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=aykTpe_JIEU
@@ -2638,6 +2915,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/aykTpe_JIEU/mqdefault.jpg
   date: '2020-11-13'
+  duration: 00:23:47
 - title: Providing structure in messy healthcare data by Michael Hurst
   description: Session 29 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=hcBD69WE2no
@@ -2646,6 +2924,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/hcBD69WE2no/mqdefault.jpg
   date: '2020-11-13'
+  duration: 00:35:51
 - title: Marvelous RMarkdown by Tom Mock
   description: Session 30 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=NntdfEfa1gM
@@ -2654,6 +2933,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/NntdfEfa1gM/mqdefault.jpg
   date: '2020-11-13'
+  duration: 00:35:03
 - title: Styling Shiny & R Markdown with bslib & thematic by Carson Sievert
   description: Session 31 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=b9WWNO4P2nY
@@ -2662,6 +2942,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/b9WWNO4P2nY/mqdefault.jpg
   date: '2020-11-13'
+  duration: 00:23:41
 - title: APIs in R with Plumber by James Blair
   description: Session 32 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=f_l1oa4ShJo
@@ -2670,6 +2951,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/f_l1oa4ShJo/mqdefault.jpg
   date: '2020-11-13'
+  duration: 00:28:33
 - title: Workflows by Kelly O'Briant
   description: Session 33 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=TVbOSll5QX4
@@ -2678,6 +2960,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/TVbOSll5QX4/mqdefault.jpg
   date: '2020-11-16'
+  duration: 00:30:23
 - title: 'Illustrating R: Creative Contributions for R Education and Engagement by Allison Horst'
   description: Session 34 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=tsggE1Zz0-0
@@ -2686,6 +2969,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/tsggE1Zz0-0/mqdefault.jpg
   date: '2020-11-16'
+  duration: 00:19:51
 - title: 'R Code Quality: Does it Really Matter? by Colin Gillespie'
   description: Session 35 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=1Sw3qPqSb70
@@ -2694,6 +2978,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/1Sw3qPqSb70/mqdefault.jpg
   date: '2020-11-13'
+  duration: 00:27:23
 - title: R and open analytics in the Health Foundation response to COVID-19 by Fiona Grimm and Emma Vestesson
   description: Session 37 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=rm6G3sAFrmQ
@@ -2702,6 +2987,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/rm6G3sAFrmQ/mqdefault.jpg
   date: '2020-11-13'
+  duration: 00:24:23
 - title: Constructing a mortality dashboard by Richard Wilson
   description: Session 38 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=a0V7W2tuZAs
@@ -2710,6 +2996,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/a0V7W2tuZAs/mqdefault.jpg
   date: '2020-11-13'
+  duration: 00:19:15
 - title: Integrating R and Qlik Sense by Jamie-Leigh Chapman
   description: Session 39 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=fi6YntQA1Xo
@@ -2718,6 +3005,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/fi6YntQA1Xo/mqdefault.jpg
   date: '2020-11-13'
+  duration: 00:22:03
 - title: Communicating statistics in the age of short attention spans by Federica Cocco and John Burn-Murdoch
   description: Session 40 of the NHS-R Community Conference 2020. Details about the event and full programme can be found here All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=y2rGTsGuzrU
@@ -2726,6 +3014,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/y2rGTsGuzrU/mqdefault.jpg
   date: '2020-11-13'
+  duration: 00:37:23
 - title: Closing Remarks
   description: Session 41 of the NHS-R Community Conference 2020. All presentations will be uploaded to our github page
   path: https://www.youtube.com/watch?v=FyXNW14vfFg
@@ -2734,6 +3023,7 @@
   type: Conference talk
   image: https://i.ytimg.com/vi/FyXNW14vfFg/mqdefault.jpg
   date: '2020-11-13'
+  duration: 00:15:43
 - title: An introduction to Public HealthEngland’s packages; fingertipsR and fingertipscharts
   description: This is a recording from the NHS-R Community Conference 2020, An introduction to Public HealthEngland’s packages. It was run on Monday 2nd of November by Sebastian Fox, Principal Data Scientist and Public Health England and supported by his colleagues Sam Dunn. The video was not edited and might…
   path: https://www.youtube.com/watch?v=veJlBNoK1zA
@@ -2742,6 +3032,7 @@
   type: Conference workshop
   image: https://i.ytimg.com/vi/veJlBNoK1zA/mqdefault.jpg
   date: '2020-11-03'
+  duration: 02:02:04
 - title: Text analysis
   description: This is a recording from the NHS-R Community Conference 2020, Text Analysis workshop. It was run on Monday 2nd of November by Duncan Leng, Junior Data Scientist at Mango Solutions. You can read more about Mango Solutions on their website ( or Twitter ( The video was not edited and might include…
   path: https://www.youtube.com/watch?v=MxjHiIaVmA0
@@ -2750,6 +3041,7 @@
   type: Conference workshop
   image: https://i.ytimg.com/vi/MxjHiIaVmA0/mqdefault.jpg
   date: '2020-11-03'
+  duration: 02:54:27
 - title: R for Excel Users
   description: This is a recording from the NHS-R Community Conference 2020, R for Excel users workshop. It was run on Tuesday 3nd of November by Sean Manzi, Research Fellow in Applied Healthcare Modelling and Analysis, University of Exeter College of Medicine and Health . The video was not edited and might…
   path: https://www.youtube.com/watch?v=EXjgo3ByVUk
@@ -2758,6 +3050,7 @@
   type: Conference workshop
   image: https://i.ytimg.com/vi/EXjgo3ByVUk/mqdefault.jpg
   date: '2020-11-03'
+  duration: 01:17:29
 - title: Introduction to ggplot2
   description: This is a recording from the NHS-R Community Conference 2020, R for Excel users workshop. It was run on Tuesday 3nd of November by Rhian Davis, Data Scientist at Jumping Rivers You can read more about Jumping Rivers on their website ( and Twitter ( The video was not edited and might include time…
   path: https://www.youtube.com/watch?v=jiuDr4aYgkY
@@ -2766,6 +3059,7 @@
   type: Conference workshop
   image: https://i.ytimg.com/vi/jiuDr4aYgkY/mqdefault.jpg
   date: '2020-11-04'
+  duration: 02:05:33
 - title: Xaringan Slides (part 1)
   description: This is a recording from the NHS-R Community Conference 2020, Xaringan Slides (part 1). It was run on Tuesday 3nd of November by Silvia Canelon, postdoctoral research scientist in the Department of Biostatistics, Epidemiology, and Informatics at the University of Pennsylvania Perelman School of…
   path: https://www.youtube.com/watch?v=M3skTMQbCD0
@@ -2774,6 +3068,7 @@
   type: Conference workshop
   image: https://i.ytimg.com/vi/M3skTMQbCD0/mqdefault.jpg
   date: '2020-11-04'
+  duration: 01:46:34
 - title: Introduction to changepoint analysis
   description: This is a recording from the NHS-R Community Conference 2020, Introduction to Changepoint analysis workshop. It was run on Wednesday 4th of November by Dr Rebecca Killick, Senior Lecturer (Associate Professor) in Statistics at Lancaster University. Jamie-Leigh Chapman, Data Scientist at…
   path: https://www.youtube.com/watch?v=WelmlZK5G2Y
@@ -2782,6 +3077,7 @@
   type: Conference workshop
   image: https://i.ytimg.com/vi/WelmlZK5G2Y/mqdefault.jpg
   date: '2020-11-04'
+  duration: 02:29:58
 - title: Great tables
   description: This is a recording from the NHS-R Community Conference 2020, great tables workshop. It was run on Wednesday 4th of November by Rich Iannone, Software Engineer at RStudio. You can follow Rich on Twitter The video was not edited and might include time for exercises/breaks. All materials can be found…
   path: https://www.youtube.com/watch?v=lXHpFRVfMfM
@@ -2790,6 +3086,7 @@
   type: Conference workshop
   image: https://i.ytimg.com/vi/lXHpFRVfMfM/mqdefault.jpg
   date: '2020-11-05'
+  duration: 02:35:27
 - title: Introduction to RMarkdown
   description: This is a recording from the NHS-R Community Conference 2020, Introduction to R Workshop. It was run on Thursday 5th of November by Matthew Francis, Principal Public Health Intelligence Analyst, Public Health England. The video was not edited and might include time for exercises/breaks. All…
   path: https://www.youtube.com/watch?v=UrZsKfNw1wc
@@ -2798,6 +3095,7 @@
   type: Conference workshop
   image: https://i.ytimg.com/vi/UrZsKfNw1wc/mqdefault.jpg
   date: '2020-11-05'
+  duration: 01:58:04
 - title: Interactive reports
   description: This is a recording from the NHS-R Community Conference 2020, Interactive reports webinar. It was run on Thursday 5th of November by Simon Wellesley-Miller, Information Manager, Devon Partnership NHS Trust. The video was not edited and might include time for exercises/breaks. All materials can be…
   path: https://www.youtube.com/watch?v=VATINtNWpH0
@@ -2806,6 +3104,7 @@
   type: Conference workshop
   image: https://i.ytimg.com/vi/VATINtNWpH0/mqdefault.jpg
   date: '2020-11-05'
+  duration: 00:51:36
 - title: Regression modelling
   description: 'This is a recording from the NHS-R Community Conference 2020, Regression Modelling. It was run on Friday 6th of November by Chris Mainey, Intelligence Analyst, Healthcare Evaluation Data (HED) team, University Hospitals Birmingham NHS Foundation Trust . You can follow Chris on Twitter: The video…'
   path: https://www.youtube.com/watch?v=UWLfhQFRde4
@@ -2814,6 +3113,7 @@
   type: Conference workshop
   image: https://i.ytimg.com/vi/UWLfhQFRde4/mqdefault.jpg
   date: '2020-11-09'
+  duration: 01:51:33
 - title: Introduction to dplyr
   description: 'This is a recording from the NHS-R Community Conference 2020, dplyr workshop. It was run on Friday 6th of November by Zoë Turner, Senior Information Analyst, Nottinghamshire Healthcare NHS Foundation Trust. You can follow Zoe on Twitter: All materials can be found here:'
   path: https://www.youtube.com/watch?v=y5ispDcKfHw
@@ -2822,6 +3122,7 @@
   type: Conference workshop
   image: https://i.ytimg.com/vi/y5ispDcKfHw/mqdefault.jpg
   date: '2020-11-10'
+  duration: 02:14:11
 - title: Xaringan slides (part 2)
   description: This is a recording from the NHS-R Community Conference 2020, Xaringan Slides (part 2). It was run on Thursday 5th of November by Silvia Canelon, postdoctoral research scientist in the Department of Biostatistics, Epidemiology, and Informatics at the University of Pennsylvania Perelman School of…
   path: https://www.youtube.com/watch?v=cAtpZxW4bTI
@@ -2830,6 +3131,7 @@
   type: Conference workshop
   image: https://i.ytimg.com/vi/cAtpZxW4bTI/mqdefault.jpg
   date: '2020-11-06'
+  duration: 01:43:40
 - title: Tour of tidyverse
   description: This is a recording from the NHS-R Community Conference 2020, Introduction to R Workshop. It was run on Thursday 5th of November by Max Krongborg and Mango Solutions. You can read more about Mango Solutions on their website ( or Twitter ( The video was not edited and might include time for…
   path: https://www.youtube.com/watch?v=lQgfPFldh3w
@@ -2838,6 +3140,7 @@
   type: Conference workshop
   image: https://i.ytimg.com/vi/lQgfPFldh3w/mqdefault.jpg
   date: '2020-11-06'
+  duration: 02:28:58
 - title: Introduction to R (part 1)
   description: This is a recording from the NHS-R Community Conference 2020, Introduction to R (part 1). It was run on Monday 2nd of November by Zoё Turner Senior Information Analyst, Nottinghamshire Healthcare NHS Foundation Trust . Dominic Rowney has supported this workshop. The video was not edited and might…
   path: https://www.youtube.com/watch?v=Wmc0GS6gayI
@@ -2846,6 +3149,7 @@
   type: Conference workshop
   image: https://i.ytimg.com/vi/Wmc0GS6gayI/mqdefault.jpg
   date: '2020-11-19'
+  duration: 00:45:18
 - title: Introduction to R (part 2)
   description: This is a recording from the NHS-R Community Conference 2020, Introduction to R (part 2). It was run on Monday 2nd of November by Zoё Turner, Senior Information Analyst, Nottinghamshire Healthcare NHS Foundation Trust . Dominic Rowney has supported this workshop. The video was not edited and might…
   path: https://www.youtube.com/watch?v=N3pIxcCB9K8
@@ -2854,6 +3158,7 @@
   type: Conference workshop
   image: https://i.ytimg.com/vi/N3pIxcCB9K8/mqdefault.jpg
   date: '2020-11-19'
+  duration: 02:13:58
 - title: Introduction to R (part 3)
   description: This is a recording from the NHS-R Community Conference 2020, Introduction to R (part 1). It was run on Monday 2nd of November by Zoё Turner Senior Information Analyst, Nottinghamshire Healthcare NHS Foundation Trust . Dominic Rowney has supported this workshop. The video was not edited and might…
   path: https://www.youtube.com/watch?v=PX316WC0oiU
@@ -2862,6 +3167,7 @@
   type: Conference workshop
   image: https://i.ytimg.com/vi/PX316WC0oiU/mqdefault.jpg
   date: '2020-11-19'
+  duration: 00:50:25
 - title: Further Changepoint Analysis
   description: This is a recording from the NHS-R Community Conference 2020, Further Changepoint analysis workshop. It was run on Wednesday 18th of November by Dr Rebecca Killick, Senior Lecturer (Associate Professor) in Statistics at Lancaster University. Jamie-Leigh Chapman, Data Scientist at Wrightington,…
   path: https://www.youtube.com/watch?v=GP5O3_iko1M
@@ -2870,3 +3176,4 @@
   type: Conference workshop
   image: https://i.ytimg.com/vi/GP5O3_iko1M/mqdefault.jpg
   date: '2020-11-19'
+  duration: 01:35:24
