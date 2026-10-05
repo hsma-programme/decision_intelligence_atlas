@@ -1,0 +1,61 @@
+name: Update YouTube recordings
+
+# Refreshes the recordings listed in resources/recordings/collections.yml,
+# commits any changes, and republishes the site if anything changed.
+# Needs the YOUTUBE_API_KEY repository secret.
+
+on:
+  schedule:
+    - cron: '0 6 1 * *' # 06:00 UTC on the 1st of each month
+  workflow_dispatch: {} # manual trigger, e.g. after a conference
+
+jobs:
+  update-recordings:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # commit refreshed recordings
+      actions: write # trigger the publish workflow
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml
+
+      - name: Fetch playlists from YouTube
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python resources/scripts/fetch_youtube_playlists.py
+
+      - name: Build tables of talks
+        run: python resources/scripts/build_youtube_talks.py
+
+      - name: Commit & push changes (if any)
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add books_training recordings
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "chore(recordings): refresh YouTube recordings"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Pushes made with GITHUB_TOKEN don't trigger other workflows, so start
+      # the publish workflow directly
+      - name: Republish site
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run publish.yml --ref "${{ github.ref_name }}"

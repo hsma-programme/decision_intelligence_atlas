@@ -152,6 +152,8 @@ To add a playlist, add it to an existing collection in that file, or add a new c
 
     This writes a `talks.yml` file to each collection's folder, used as the contents of a listing on its entry, and `recordings/recordings.json` for the Recordings Finder. Long recordings are split into one row per talk where their descriptions list the talks.
 
+The **Update YouTube recordings** GitHub Action runs both steps for all collections on the 1st of each month, commits any changes and republishes the site. It uses the `YOUTUBE_API_KEY` repository secret, and can also be run by hand from the repository's Actions tab, e.g. straight after a conference.
+
 ### Making other suggestions
 
 If you have any other suggestions about the website layout, content, or anything else, please [raise an issue]() on the repository.
