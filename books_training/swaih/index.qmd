@@ -16,7 +16,7 @@ pub-info:
     - name: Sammi Rosser
       url: https://github.com/Bergam0t
   abstract: |
-    SWAIH (South West Analytics and Infrastructure in Healthcare) is a network for people working with health and care data in the South West of England, hosted by the University of Exeter. It runs an annual meeting, online Insight Talks and workshops, and the in-person SW Data Science Hub for analysts and data leads in Cornwall, Devon and Somerset. Recordings of its Insight Talks are available on YouTube.
+    SWAIH (South West Analytics and Infrastructure in Healthcare) is a regional network, hosted by the University of Exeter, for analysts, researchers and others using health and care data across the South West of England. It runs an annual meeting, online Insight Talks and workshops, and the SW Data Science Hub, which meets monthly in Exeter. Recordings of its Insight Talks are available on YouTube.
   links:
   - name: Website
     url: https://sites.google.com/nihr.ac.uk/swaih/home
@@ -47,17 +47,17 @@ listing:
 
 [![SWAIH Insight Talk on process mining](swaih_insight_talk.jpg)](https://www.youtube.com/%40SouthWest_AIH)
 
-SWAIH (South West Analytics and Infrastructure in Healthcare) is a network for people working with health and care data in the South West of England, including analysts and researchers in primary and secondary care, local authorities, universities and charities. In its own words:
+SWAIH (South West Analytics and Infrastructure in Healthcare) is a regional network for analysts, researchers and others using health and care data across the South West of England. In its own words:
 
 > SWAIH is a network that hosts meetings, workshops and online talks for people working with healthcare data for research in the South West.
 
-It developed in late 2022 in response to the Goldacre review of health data for research and analysis. It is hosted by the University of Exeter, and funded and supported by the NIHR Applied Research Collaboration South West Peninsula (PenARC), the NIHR Exeter Biomedical Research Centre, Health Data Research UK and the Great Western Secure Data Environment.
+SWAIH began in late 2022, prompted by the Goldacre review, the *Data Saves Lives* strategy and the creation of regional Secure Data Environments for the NHS. The University of Exeter hosts it, and its funders and supporters are the NIHR Applied Research Collaboration South West Peninsula (PenARC), the NIHR Exeter Biomedical Research Centre, Health Data Research UK and the Great Western Secure Data Environment.
 
 SWAIH runs:
 
-* **an annual meeting** - held in person in Exeter each July since 2024
-* **Insight Talks** - regular online talks with discussion and Q&A, on topics of interest to the wider SWAIH community
-* **the SW Data Science Hub** - a monthly in-person group at the University of Exeter, where analysts and data leads from Cornwall, Devon and Somerset learn and work together, with training in Python, R, GitHub, simulation, forecasting, process mining and more
+* **an annual meeting** - held since 2024, most recently in July 2026 at Sandy Park, Exeter
+* **Insight Talks** - described as "regular online talks, including discussions and Q&As"
+* **the SW Data Science Hub** - "a focused in-person group for analysts and data leads to learn and work together across Cornwall, Devon and Somerset", which meets monthly at the University of Exeter and offers training in Python, R, GitHub, simulation, forecasting, process mining and more
 
 You can join the mailing list or get in touch through the [SWAIH website](https://sites.google.com/nihr.ac.uk/swaih/home).
 
