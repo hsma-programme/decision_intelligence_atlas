@@ -296,7 +296,7 @@ The collection entries and the Recordings Finder date recordings differently:
 
 Most recordings are published within a few weeks of the event, so the two usually agree, but watch out for:
 
-* **Recordings uploaded long after the event**, which show their upload date in the Recordings Finder, even if their year is blank on their entry. For example, HSMA project showcases from earlier rounds show the date they were uploaded, in 2023-2025.
+* **Recordings uploaded long after the event**, which show their upload date in the Recordings Finder, even if their year is blank on their entry. For example, HSMA project showcases from earlier rounds show when they were uploaded, rather than when the round ran.
 * **Events late in the year whose recordings were published early the following year.** For example, RPySOC 2025 talks show 2025 on their entry, but January 2026 in the Recordings Finder.
 
 If a collection's dates could mislead, say so on its entry, e.g. "These recordings were uploaded in 2022, after HSMA 4 ran".
