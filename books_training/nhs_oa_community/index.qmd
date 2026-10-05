@@ -1,0 +1,31 @@
+---
+title: "NHS-OA Community"
+categories:
+  - Courses and Training or Reference Materials
+  - Communities
+tool-language: N/A
+status: N/A
+image: oa-logo_basic_min_bg.png
+author:
+  - name: NHS-OA Community
+pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i>
+  rationale-for-status: |
+    Community resource rather than code, so it is not ranked.
+  entry-author:
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
+  abstract: |
+    The NHS-OA Community is a community of practice for data analysis and data science using open source software in the NHS and the wider UK health and care system. It runs workshops, webinars, Coffee and Coding sessions, RAP drop-ins, and conferences, and shares blog posts, training materials and books.
+  links:
+  - name: Code
+    url: https://github.com/nhs-oa-community
+    icon: fa-brands fa-github
+  - name: Website
+    url: https://nhsoa.uk
+    icon: fa-solid fa-globe
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/nhs-oa-community-2555a6282/
+    icon: fa-brands fa-linkedin
+date: "2026-10-02T00:00:00+01:00"
+---

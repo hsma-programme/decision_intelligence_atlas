@@ -1,0 +1,28 @@
+---
+title: "AphA - Association of Professional Healthcare Analysts"
+categories:
+  - Courses and Training or Reference Materials
+  - Communities
+tool-language: N/A
+status: N/A
+image: images.png
+author:
+  - name: Association of Professional Healthcare Analysts (AphA)
+pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i>
+  rationale-for-status: |
+    Community resource rather than code, so it is not ranked.
+  entry-author:
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
+  abstract: |
+    AphA is the professional membership body for health and care data and analytics professionals in the UK. It aims to raise the profile of analysts and provide a professional support network, offering professional accreditation, mentoring, networking events, an annual conference, discounted training and course accreditation, delivered through regional branches and specialist networks.
+  links:
+  - name: Website
+    url: https://www.aphanalysts.org
+    icon: fa-solid fa-globe
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/apha-analysts/
+    icon: fa-brands fa-linkedin
+date: "2026-10-02T00:00:00+01:00"
+---
