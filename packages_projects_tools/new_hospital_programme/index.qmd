@@ -26,6 +26,19 @@ pub-info:
     url: https://connect.strategyunitwm.nhs.uk/nhp/project_information/
     icon: fa-solid fa-book
 date: "2025-11-21T10:36:10+00:00"
+listing:
+  - id: nhp-training
+    contents: talks.yml
+    type: table
+    fields: [title, year, description]
+    field-display-names:
+      title: "Session"
+      year: "Year"
+      description: "Details"
+    sort: "date desc"
+    filter-ui: [title, year, description]
+    sort-ui: [title, year]
+    page-size: 10
 ---
 
 "The government has committed to building more than 40 new hospitals by 2030. The New Hospital Programme (NHP), a partnership between DHSC and NHSE, aims to ensure that this new hospital infrastructure will meet the future needs of the population and that the required investment represents value for money.
@@ -60,3 +73,14 @@ Quality assurance plan and log managed using GitHub Projects at <https://github.
 This is explained in their [presentation from the NHS RPySOC 2025 Conference](https://statsrhian.github.io/qa-in-github/).
 
 <br>
+
+<br>
+
+## Training recordings
+
+The Strategy Unit has published recordings of its training sessions, technical deep dives and Q&A sessions on the Demand and Capacity Model, for analysts and strategic planners working on new hospital schemes. Where a recording's description gives timings for its sections, each section is listed separately and the link starts the video at that section.
+
+::: {#nhp-training}
+:::
+
+You can also browse the [New Hospital Programme playlist](https://www.youtube.com/playlist?list=PLFEXOtXX7YkkHkN2mWn3V-K_LnZXP2cGY) on YouTube, or search these recordings alongside others in the [Recordings Finder](/recordings/index.qmd).

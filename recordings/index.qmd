@@ -153,6 +153,8 @@ The Recordings Finder brings together the recordings listed in these Atlas entri
 * [National Analyst Network (formerly Midlands Analyst Network): Huddle Recordings](/books_training/analyst_network_huddles/index.qmd)
 * [Midlands Decision Support Network: Training Recordings](/books_training/mdsn_training/index.qmd)
 * [Midlands Decision Support Network: Insight Festival Recordings](/books_training/insight_festival/index.qmd)
+* [The Strategy Unit: Webinar Recordings](/books_training/strategy_unit_webinars/index.qmd)
+* [New Hospital Programme Demand Model (training recordings)](/packages_projects_tools/new_hospital_programme/index.qmd)
 * [HSMA: Project Showcase Recordings](/books_training/hsma_project_showcases/index.qmd)
 * [HSMA: Lecture and Masterclass Recordings](/books_training/hsma_lecture_recordings/index.qmd)
 * [HACA - Health and Care Analytics Conference](/books_training/haca/index.qmd)

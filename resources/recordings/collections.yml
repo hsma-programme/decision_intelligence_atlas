@@ -219,6 +219,42 @@ insight_festival:
   # with the MDSN training recordings
   exclude_videos: [O-6ya7uY3zA, daF4tVK8ED8]
 
+strategy_unit_webinars:
+  folder: books_training/strategy_unit_webinars
+  source: The Strategy Unit
+  playlists:
+    - label: SU Insights
+      # The SU Insights and Neighbourhood Insights playlists overlap
+      id: [PLFEXOtXX7YkmRnmr12lFeZgm7bxOgZQ5_, PLFEXOtXX7YknRzPHdT_NTgq91NjGvz_NJ]
+      type: Webinar
+    - label: NNHIP evaluation and analysis community of practice
+      id: PLFEXOtXX7YkmeD9U0vu3qjZlah4vCJBR_
+      type: Webinar
+    - label: ICS intelligence functions
+      id: PLFEXOtXX7YkkyrO1UrgGgjGdcYCsdBj7p
+      type: Webinar
+    - label: Decision Support Units
+      id: PLFEXOtXX7YkmjWbagd9fqsOpLAR95Prpb
+      type: Webinar
+    - label: Population health management
+      id: PLFEXOtXX7Ykm2QcoFSUVy6D0v_XzVGZJP
+      type: Webinar
+      # Recorded from 2019 onwards, and uploaded in 2021
+      no_year: true
+    - label: End of life analysis
+      id: PLFEXOtXX7YklU_OmhsDUmzelQLbCzF4Ne
+      type: Webinar
+  # Already listed with the Insight 2020 festival recordings
+  exclude_playlists: [PLFEXOtXX7YkkFkTe1fRum-cyWPWCf-YKO]
+
+nhp_training:
+  folder: packages_projects_tools/new_hospital_programme
+  source: The Strategy Unit
+  playlists:
+    - label: NHP demand and capacity model training
+      id: PLFEXOtXX7YkkHkN2mWn3V-K_LnZXP2cGY
+      type: Training course
+
 hsma_project_showcases:
   folder: books_training/hsma_project_showcases
   source: HSMA
