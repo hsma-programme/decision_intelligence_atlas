@@ -89,7 +89,10 @@
     "listing": "/index.html",
     "items": [
       "/books_training/healthcare_decision_intelligence/index.html",
+      "/packages_projects_tools/new_hospital_programme/index.html",
       "/books_training/analyst_network_huddles/index.html",
+      "/books_training/apha_recordings/index.html",
+      "/books_training/haca/index.html",
       "/books_training/hdruk_futures/index.html",
       "/books_training/health_rap_playbook/index.html",
       "/books_training/hsma_geographic_book/index.html",
@@ -97,6 +100,7 @@
       "/books_training/hsma_git_web_dev_module/index.html",
       "/books_training/hsma_intro_programming_module/index.html",
       "/books_training/hsma_lambda/index.html",
+      "/books_training/hsma_lecture_recordings/index.html",
       "/books_training/hsma_machine_learning_module/index.html",
       "/books_training/hsma_machine_learning_notebooks/index.html",
       "/books_training/hsma_modern_analytics_module/index.html",
@@ -106,11 +110,15 @@
       "/books_training/hsma_python_book/index.html",
       "/books_training/hsma_sd_abs_module/index.html",
       "/books_training/hsma_streamlit_book/index.html",
+      "/books_training/insight_festival/index.html",
+      "/books_training/mdsn_training/index.html",
       "/books_training/nhs_oa_conference_recordings/index.html",
       "/books_training/nhs_oa_webinars/index.html",
       "/books_training/nhs_oa_workshops/index.html",
       "/books_training/nhs_pycom_talks/index.html",
+      "/books_training/nhs_r_podcast/index.html",
       "/books_training/r_for_data_science/index.html",
+      "/books_training/strategy_unit_webinars/index.html",
       "/books_training/visualizing_health_and_healthcare_data/index.html",
       "/packages_projects_tools/des_rap_mms/index.html",
       "/packages_projects_tools/des_rap_stroke/index.html",
@@ -133,7 +141,6 @@
       "/packages_projects_tools/hybridsim/index.html",
       "/packages_projects_tools/mdc_spc_excel_chart_tool/index.html",
       "/packages_projects_tools/meeting_the_demand_of_111/index.html",
-      "/packages_projects_tools/new_hospital_programme/index.html",
       "/packages_projects_tools/nhs_ptd_power_bi/index.html",
       "/packages_projects_tools/nhs_time_of_travel/index.html",
       "/packages_projects_tools/nhse_ndrs_cancer_registrations/index.html",
@@ -200,22 +207,37 @@
       "/books_training/hsma_nlp_module/index.html",
       "/books_training/hsma_programme/index.html",
       "/books_training/hsma_sd_abs_module/index.html",
+      "/books_training/mdsn_training/index.html",
       "/books_training/nhs_oa_workshops/index.html",
       "/books_training/somerset_data_science_course/index.html",
       "/books_training/hsma_des_playground/index.html",
       "/books_training/julia_healthcare/index.html",
       "/books_training/analyst_network_huddles/index.html",
+      "/books_training/apha_recordings/index.html",
+      "/books_training/hsma_lecture_recordings/index.html",
       "/books_training/hsma_project_showcases/index.html",
+      "/books_training/insight_festival/index.html",
       "/books_training/nhs_oa_conference_recordings/index.html",
       "/books_training/nhs_oa_webinars/index.html",
       "/books_training/nhs_pycom_talks/index.html",
+      "/books_training/nhs_r_podcast/index.html",
+      "/books_training/strategy_unit_webinars/index.html",
       "/books_training/apha/index.html",
+      "/books_training/haca/index.html",
       "/books_training/nhs_oa_community/index.html",
       "/books_training/rap_community_of_practice/index.html"
     ]
   },
   {
     "listing": "/books_training/hsma_project_showcases/index.html",
+    "items": []
+  },
+  {
+    "listing": "/books_training/haca/index.html",
+    "items": []
+  },
+  {
+    "listing": "/books_training/apha_recordings/index.html",
     "items": []
   },
   {
@@ -227,11 +249,31 @@
     "items": []
   },
   {
+    "listing": "/books_training/hsma_lecture_recordings/index.html",
+    "items": []
+  },
+  {
+    "listing": "/books_training/insight_festival/index.html",
+    "items": []
+  },
+  {
+    "listing": "/books_training/mdsn_training/index.html",
+    "items": []
+  },
+  {
     "listing": "/books_training/nhs_oa_conference_recordings/index.html",
     "items": []
   },
   {
     "listing": "/books_training/nhs_oa_workshops/index.html",
+    "items": []
+  },
+  {
+    "listing": "/books_training/nhs_r_podcast/index.html",
+    "items": []
+  },
+  {
+    "listing": "/books_training/strategy_unit_webinars/index.html",
     "items": []
   },
   {
@@ -241,6 +283,10 @@
       "/packages_projects_tools/nhspy-plotthedots/index.html",
       "/packages_projects_tools/nhsrplotthedots/index.html"
     ]
+  },
+  {
+    "listing": "/packages_projects_tools/new_hospital_programme/index.html",
+    "items": []
   },
   {
     "listing": "/packages_projects_tools/nhspy-plotthedots/index.html",

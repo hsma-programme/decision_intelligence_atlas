@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="The Strategy Unit">
-<meta name="dcterms.date" content="2026-03-30">
+<meta name="dcterms.date" content="2026-10-05">
 
 <title>New Hospital Programme Demand Model – The Healthcare Service Analytics &amp; Decision Intelligence Atlas</title>
 <style>
@@ -32,6 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
@@ -75,6 +77,36 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-nhp-training .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-year','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
+      page: 10,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-year","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-nhp-training'] = new List('listing-nhp-training', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-41QML5TFEF"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -109,6 +141,35 @@ cookieconsent.run({
   });
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../resources/themes/styles.css">
 </head>
@@ -413,7 +474,7 @@ cookieconsent.run({
         <div>
         <div class="quarto-title-meta-heading">Page last modified</div>
         <div class="quarto-title-meta-contents">
-          <p class="date">30 March 2026</p>
+          <p class="date">05 October 2026</p>
         </div>
       </div>
       
@@ -431,6 +492,7 @@ cookieconsent.run({
   <li><a href="#github-repositories" id="toc-github-repositories" class="nav-link active" data-scroll-target="#github-repositories">GitHub repositories</a></li>
   <li><a href="#project-information-website" id="toc-project-information-website" class="nav-link" data-scroll-target="#project-information-website">Project information website</a></li>
   <li><a href="#quality-assurance" id="toc-quality-assurance" class="nav-link" data-scroll-target="#quality-assurance">Quality assurance</a></li>
+  <li><a href="#training-recordings" id="toc-training-recordings" class="nav-link" data-scroll-target="#training-recordings">Training recordings</a></li>
   </ul>
 </nav>
     </div>
@@ -583,6 +645,411 @@ new FinisherHeader({
 </div>
 <p>This is explained in their <a href="https://statsrhian.github.io/qa-in-github/">presentation from the NHS RPySOC 2025 Conference</a>.</p>
 <p><br></p>
+<p><br></p>
+</section>
+<section id="training-recordings" class="level2">
+<h2 class="anchored" data-anchor-id="training-recordings">Training recordings</h2>
+<p>The Strategy Unit has published recordings of its training sessions, technical deep dives and Q&amp;A sessions on the Demand and Capacity Model, for analysts and strategic planners working on new hospital schemes. Where a recording’s description gives timings for its sections, each section is listed separately and the link starts the video at that section.</p>
+<div id="listing-nhp-training" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-nhp-training-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-nhp-training'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title-sort" data-direction="asc">
+        Session
+      </option>
+      <option value="listing-year" data-direction="asc">
+        Year
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Session</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-year" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Year</a>
+</th>
+
+<th>
+Details
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-listing-date-sort="1777334400000" data-listing-title-sort="NHP D&amp;C Tech/Data Q&amp;A">
+<td>
+<a href="https://www.youtube.com/watch?v=RsP_B0tAvyM" class="title listing-title">NHP D&amp;C Tech/Data Q&amp;A</a>
+</td>
+<td>
+<span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-description">Discussion Session for All Schemes 24th April 2026</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-listing-date-sort="1776816000000" data-listing-title-sort="NHP D&amp;C Modelling and Validation">
+<td>
+<a href="https://www.youtube.com/watch?v=JG6eIjQdRGY" class="title listing-title">NHP D&amp;C Modelling and Validation</a>
+</td>
+<td>
+<span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-description">Training Session for All Schemes 17th April 2026</span>
+</td>
+
+</tr>
+
+<tr data-index="2" data-listing-date-sort="1768262400000" data-listing-title-sort="NHP D&amp;C Modelling - Validation">
+<td>
+<a href="https://www.youtube.com/watch?v=jdbZm4KeWYc" class="title listing-title">NHP D&amp;C Modelling - Validation</a>
+</td>
+<td>
+<span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-description">Training Session for All Schemes 7th January 2026</span>
+</td>
+
+</tr>
+
+<tr data-index="3" data-listing-date-sort="1750032000000" data-listing-title-sort="Introduction">
+<td>
+<a href="https://www.youtube.com/watch?v=egUhA9OtXyg&amp;t=0s" class="title listing-title">Introduction</a>
+</td>
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy’, starting at 0:00.</span>
+</td>
+
+</tr>
+
+<tr data-index="4" data-listing-date-sort="1750032000000" data-listing-title-sort="Background and understanding potentially mitigable activity">
+<td>
+<a href="https://www.youtube.com/watch?v=egUhA9OtXyg&amp;t=39s" class="title listing-title">Background and understanding potentially mitigable activity</a>
+</td>
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy’, starting at 0:39.</span>
+</td>
+
+</tr>
+
+<tr data-index="5" data-listing-date-sort="1750032000000" data-listing-title-sort="Typical assumptions for the extent of mitigation">
+<td>
+<a href="https://www.youtube.com/watch?v=egUhA9OtXyg&amp;t=366s" class="title listing-title">Typical assumptions for the extent of mitigation</a>
+</td>
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy’, starting at 6:06.</span>
+</td>
+
+</tr>
+
+<tr data-index="6" data-listing-date-sort="1750032000000" data-listing-title-sort="Future opportunities">
+<td>
+<a href="https://www.youtube.com/watch?v=egUhA9OtXyg&amp;t=607s" class="title listing-title">Future opportunities</a>
+</td>
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy’, starting at 10:07.</span>
+</td>
+
+</tr>
+
+<tr data-index="7" data-listing-date-sort="1750032000000" data-listing-title-sort="User guide: understanding the report layout">
+<td>
+<a href="https://www.youtube.com/watch?v=egUhA9OtXyg&amp;t=919s" class="title listing-title">User guide: understanding the report layout</a>
+</td>
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy’, starting at 15:19.</span>
+</td>
+
+</tr>
+
+<tr data-index="8" data-listing-date-sort="1750032000000" data-listing-title-sort="Characterising the mitigator cohorts">
+<td>
+<a href="https://www.youtube.com/watch?v=egUhA9OtXyg&amp;t=1086s" class="title listing-title">Characterising the mitigator cohorts</a>
+</td>
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy’, starting at 18:06.</span>
+</td>
+
+</tr>
+
+<tr data-index="9" data-listing-date-sort="1750032000000" data-listing-title-sort="Understanding overlap between mitigator cohorts">
+<td>
+<a href="https://www.youtube.com/watch?v=egUhA9OtXyg&amp;t=1165s" class="title listing-title">Understanding overlap between mitigator cohorts</a>
+</td>
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy’, starting at 19:25.</span>
+</td>
+
+</tr>
+
+<tr data-index="10" data-listing-date-sort="1750032000000" data-listing-title-sort="Making comparisons between ICBs">
+<td>
+<a href="https://www.youtube.com/watch?v=egUhA9OtXyg&amp;t=1245s" class="title listing-title">Making comparisons between ICBs</a>
+</td>
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy’, starting at 20:45.</span>
+</td>
+
+</tr>
+
+<tr data-index="11" data-listing-date-sort="1750032000000" data-listing-title-sort="National and sub-national trends in mitigable activity">
+<td>
+<a href="https://www.youtube.com/watch?v=egUhA9OtXyg&amp;t=1344s" class="title listing-title">National and sub-national trends in mitigable activity</a>
+</td>
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy’, starting at 22:24.</span>
+</td>
+
+</tr>
+
+<tr data-index="12" data-listing-date-sort="1750032000000" data-listing-title-sort="Potential limitations/pitfalls">
+<td>
+<a href="https://www.youtube.com/watch?v=egUhA9OtXyg&amp;t=1522s" class="title listing-title">Potential limitations/pitfalls</a>
+</td>
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy’, starting at 25:22.</span>
+</td>
+
+</tr>
+
+<tr data-index="13" data-listing-date-sort="1747180800000" data-listing-title-sort="NHP Demand and Capacity (D&amp;C) Model">
+<td>
+<a href="https://www.youtube.com/watch?v=dXjNG2EbsfI" class="title listing-title">NHP Demand and Capacity (D&amp;C) Model</a>
+</td>
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-description">A Technical Deep Dive for Data Scientists 13th May 2025</span>
+</td>
+
+</tr>
+
+<tr data-index="14" data-listing-date-sort="1746144000000" data-listing-title-sort="Advanced training for analysts and strategic planners #2">
+<td>
+<a href="https://www.youtube.com/watch?v=g2iATe63WpQ" class="title listing-title">Advanced training for analysts and strategic planners #2</a>
+</td>
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-description">Demand and Capacity Modelling 29th April 2025</span>
+</td>
+
+</tr>
+
+<tr data-index="15" data-listing-date-sort="1744329600000" data-listing-title-sort="Advanced Training for Analysts and Strategic Partners">
+<td>
+<a href="https://www.youtube.com/watch?v=F--GMyRYYmg" class="title listing-title">Advanced Training for Analysts and Strategic Partners</a>
+</td>
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-description">Demand and Capacity Modlelling - 8th April 2025</span>
+</td>
+
+</tr>
+
+<tr data-index="16" data-listing-date-sort="1743120000000" data-listing-title-sort="The New Hospitals Programme Demand and Capacity Model - Introductory Session for CSU Staff">
+<td>
+<a href="https://www.youtube.com/watch?v=fjr2v9iwCjA" class="title listing-title">The New Hospitals Programme Demand and Capacity Model - Introductory Session for CSU Staff</a>
+</td>
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="17" data-listing-date-sort="1733270400000" data-listing-title-sort="The New Hospital Programme: Demand and Capacity Model 24/25">
+<td>
+<a href="https://www.youtube.com/watch?v=ztLyhnAmvsM" class="title listing-title">The New Hospital Programme: Demand and Capacity Model 24/25</a>
+</td>
+<td>
+<span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-description">Technical Leads Meeting 3rd December 2024</span>
+</td>
+
+</tr>
+
+<tr data-index="18" data-listing-date-sort="1731628800000" data-listing-title-sort="The New Hospital Programme: Demand and Capacity Modelling 24/25">
+<td>
+<a href="https://www.youtube.com/watch?v=xUGaqWQsD-I" class="title listing-title">The New Hospital Programme: Demand and Capacity Modelling 24/25</a>
+</td>
+<td>
+<span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-description">Technical Leads Meeting 14th November 2024</span>
+</td>
+
+</tr>
+
+<tr data-index="19" data-listing-date-sort="1730246400000" data-listing-title-sort="The New Hospital Programme: Demand and Capacity Modelling 24/25">
+<td>
+<a href="https://www.youtube.com/watch?v=1qAqYRorxcc" class="title listing-title">The New Hospital Programme: Demand and Capacity Modelling 24/25</a>
+</td>
+<td>
+<span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-description">Technical Leads Meeting 29th October 2024</span>
+</td>
+
+</tr>
+
+<tr data-index="20" data-listing-date-sort="1728604800000" data-listing-title-sort="The New Hospital Programme: Demand and Capacity Modelling 24/25">
+<td>
+<a href="https://www.youtube.com/watch?v=mG8ZAnS2IxU" class="title listing-title">The New Hospital Programme: Demand and Capacity Modelling 24/25</a>
+</td>
+<td>
+<span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-description">Technical Leads Meeting 8th October 2024</span>
+</td>
+
+</tr>
+
+<tr data-index="21" data-listing-date-sort="1726531200000" data-listing-title-sort="The New Hospital Programme: Demand and Capacity Modelling 24/25">
+<td>
+<a href="https://www.youtube.com/watch?v=o8XFXTKMhLI" class="title listing-title">The New Hospital Programme: Demand and Capacity Modelling 24/25</a>
+</td>
+<td>
+<span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-description">Technical Leads Meeting 17th September 2024</span>
+</td>
+
+</tr>
+
+<tr data-index="22" data-listing-date-sort="1721952000000" data-listing-title-sort="The New Hospital Programme: Demand and Capacity Model 24/25">
+<td>
+<a href="https://www.youtube.com/watch?v=oEvLbcAfipk" class="title listing-title">The New Hospital Programme: Demand and Capacity Model 24/25</a>
+</td>
+<td>
+<span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-description">Technical Leads Meeting 19th July 2024</span>
+</td>
+
+</tr>
+
+<tr data-index="23" data-listing-date-sort="1720137600000" data-listing-title-sort="The New Hospital Programme: Demand and Capacity Model 24/25">
+<td>
+<a href="https://www.youtube.com/watch?v=czwNQqAXjWc" class="title listing-title">The New Hospital Programme: Demand and Capacity Model 24/25</a>
+</td>
+<td>
+<span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-description">Training Session 4th July 2024</span>
+</td>
+
+</tr>
+
+<tr data-index="24" data-listing-date-sort="1719360000000" data-listing-title-sort="The New Hospital Programme: Demand and Capacity Modelling">
+<td>
+<a href="https://www.youtube.com/watch?v=Oc74J-z_C_w" class="title listing-title">The New Hospital Programme: Demand and Capacity Modelling</a>
+</td>
+<td>
+<span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-description">Technical Leads Meeting 24th June 2024</span>
+</td>
+
+</tr>
+
+<tr data-index="25" data-listing-date-sort="1718841600000" data-listing-title-sort="The New Hospital Programme: Demand and Capacity Model 24/25">
+<td>
+<a href="https://www.youtube.com/watch?v=zgbfie46xL0" class="title listing-title">The New Hospital Programme: Demand and Capacity Model 24/25</a>
+</td>
+<td>
+<span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-description">Interpreting Outputs - Questions &amp; Answers Session 19th June 2024</span>
+</td>
+
+</tr>
+
+<tr data-index="26" data-listing-date-sort="1718582400000" data-listing-title-sort="The New Hospital Programme: New Models of Care Evidence Map">
+<td>
+<a href="https://www.youtube.com/watch?v=qNZhDeboLwg" class="title listing-title">The New Hospital Programme: New Models of Care Evidence Map</a>
+</td>
+<td>
+<span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-description">An Introduction 17th June 2024</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<div class="listing-no-matching d-none">No matching items</div>
+<nav id="nhp-training-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div>
+<p>You can also browse the <a href="https://www.youtube.com/playlist?list=PLFEXOtXX7YkkHkN2mWn3V-K_LnZXP2cGY">New Hospital Programme playlist</a> on YouTube, or search these recordings alongside others in the <a href="../../recordings/index.html">Recordings Finder</a>.</p>
+
 
 
 </section>

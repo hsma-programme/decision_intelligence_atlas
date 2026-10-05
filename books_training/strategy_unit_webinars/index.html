@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Sammi Rosser">
-<meta name="dcterms.date" content="2026-03-30">
+<meta name="author" content="The Strategy Unit">
+<meta name="dcterms.date" content="2026-10-04">
 
-<title>Statistical Process Control (SPC) – The Healthcare Service Analytics &amp; Decision Intelligence Atlas</title>
+<title>The Strategy Unit: Webinar Recordings – The Healthcare Service Analytics &amp; Decision Intelligence Atlas</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -80,20 +80,21 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-spc .list');
+    const listingTargetEl = window.document.querySelector('#listing-su-webinars .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-project','listing-webr','listing-filters','listing-website','listing-language','listing-format','listing-draft-mode','listing-date-format','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-title','listing-categories','listing-tool-language','listing-status','listing-image','listing-author','listing-pub-info','listing-date','listing-listing','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
-      
-      searchColumns: ["listing-project","listing-webr","listing-filters","listing-website","listing-language","listing-format","listing-draft-mode","listing-date-format","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-title","listing-categories","listing-tool-language","listing-status","listing-image","listing-author","listing-pub-info","listing-date","listing-listing","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      valueNames: ['listing-title','listing-year','listing-event','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
+      page: 25,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-year","listing-event","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-spc'] = new List('listing-spc', options);
+    window['quarto-listings']['listing-su-webinars'] = new List('listing-su-webinars', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -429,46 +430,50 @@ window.Quarto = {
         <!-- <div class="quarto-title-banner" style="position: relative; z-index: 1; width: 100%; margin-left: auto; margin-right: auto; text-align: center;"> -->
         <div class="quarto-title-banner page-columns page-full">
             <div class="quarto-title column-page-left">
-                                <h1 class="title">Statistical Process Control (SPC)</h1>
+                                                <div class="quarto-categories">
+                                        <div class="quarto-category">Courses and Training or Reference Materials</div>
+                                        <div class="quarto-category">Recorded Talks</div>
+                                    </div>
+                                                <h1 class="title">The Strategy Unit: Webinar Recordings <i class="fa-solid fa-hospital"></i></h1>
                                                                 <br>
                 <div class="abstract">
                     <b>Summary</b>
-                    <p>SPC charts are a useful tool for monitoring and reporting, allowing KPIs to be looked at over time and in the context of expected variation, moving away from some of the pitfalls of traditional RAG reporting and providing insights into trends and, if there is a target, whether it is likely to be reliably met.</p>
-                </div>
+                    <p>Recordings of webinars from the Strategy Unit, an NHS analysis and evaluation team hosted by NHS Midlands and Lancashire. They include its SU Insights and Neighbourhood Insights series, webinars on developing decision support units and ICS intelligence functions, the Midlands Population Health Management Academy webinar series, and walkthroughs of its end of life care analysis.</p>
+                                        Rating: N/A
+                                        <p>Collection of recordings from many different presenters, so it is not ranked as a whole.</p>
+                                                        </div>
                 
+                                <div class="project-link-buttons">
+                    <ul class="project-links">
+                                                                        <button class="custom-button"><a href="https://www.youtube.com/channel/UCXu4WE5N-S9iWhKRMAYTZsA/playlists"><i class="fa-brands fa-youtube"></i> YouTube</a></button>
+                                                                                                <button class="custom-button"><a href="https://www.strategyunitwm.nhs.uk/"><i class="fa-solid fa-globe"></i> Website</a></button>
+                                                                    </ul>
+                </div>
                 
                                 <p><b>Atlas Entry authored by:</b>
                                 |&nbsp;Sammi Rosser
                                 (<a href="https://github.com/Bergam0t">Link</a>)
                                 &nbsp;|&nbsp;
                                 </p>
-                
-            </div>
+                            </div>
 
         </div>
     <!-- </div> -->
 
-    <div class="quarto-title-meta-author column-page-left">
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-heading">Affiliation</div>
-      
-        <div class="quarto-title-meta-contents">
-        <p class="author">Sammi Rosser </p>
-      </div>
-      <div class="quarto-title-meta-contents">
-            <p class="affiliation">
-                Health Service Modelling Associates (HSMA), NIHR PenARC
-              </p>
-          </div>
-      </div>
-
+    
     <div class="quarto-title-meta column-page-left">
 
-          
+        <div>
+        <div class="quarto-title-meta-heading">Author</div>
+        <div class="quarto-title-meta-contents">
+                 <p>The Strategy Unit </p>
+              </div>
+      </div>
+        
         <div>
         <div class="quarto-title-meta-heading">Page last modified</div>
         <div class="quarto-title-meta-contents">
-          <p class="date">30 March 2026</p>
+          <p class="date">04 October 2026</p>
         </div>
       </div>
       
@@ -483,14 +488,7 @@ window.Quarto = {
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#the-making-data-count-programme" id="toc-the-making-data-count-programme" class="nav-link active" data-scroll-target="#the-making-data-count-programme">The Making Data Count Programme</a>
-  <ul class="collapse">
-  <li><a href="#getting-started" id="toc-getting-started" class="nav-link" data-scroll-target="#getting-started">Getting Started</a></li>
-  <li><a href="#strengthening-your-decisions" id="toc-strengthening-your-decisions" class="nav-link" data-scroll-target="#strengthening-your-decisions">Strengthening Your Decisions</a></li>
-  </ul></li>
-  <li><a href="#types-of-spc-charts" id="toc-types-of-spc-charts" class="nav-link" data-scroll-target="#types-of-spc-charts">Types of SPC charts</a></li>
-  <li><a href="#other-resources" id="toc-other-resources" class="nav-link" data-scroll-target="#other-resources">Other Resources</a></li>
-  <li><a href="#relevant-packages-projects-and-tools" id="toc-relevant-packages-projects-and-tools" class="nav-link" data-scroll-target="#relevant-packages-projects-and-tools">Relevant Packages, Projects and Tools</a></li>
+  <li><a href="#search-the-webinars" id="toc-search-the-webinars" class="nav-link active" data-scroll-target="#search-the-webinars">Search the webinars</a></li>
   </ul>
 </nav>
     </div>
@@ -608,421 +606,753 @@ new FinisherHeader({
 
 
 
-<p>Statistical process control (SPC) charts are a widely well-regarded way to report on KPIs in trusts and other organisations across the country.</p>
-<p>SPC charts can help make sense of whether variation in a metric is at a level of concern. By helping to cut through random noise and highlight true patterns of variation, we can move away from ‘spuddling’ - constant meddling that fails to produce real change - and make our reporting more impactful.</p>
-<p>SPC charts calculate and display several key pieces of information</p>
-<p><img src="assets/2025-12-03-18-41-18.png" class="img-fluid"></p>
-<ul>
-<li><strong>Mean</strong>: the average of all the points (from summing all values and dividing by the number of points)</li>
-<li><strong>Upper Control Limit</strong>: This is the mean + 3 sigma</li>
-<li><strong>Lower Control Limit</strong>: This is the mean - 3 sigma</li>
-</ul>
-<div class="callout callout-style-simple callout-tip no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>“Standard deviation measures the average distance from each and every data point to the mean. The chronological order in which you plot the data is irrelevant. You could reorder the data and the calculation would stay the same. This means special cause variation can be missed.</p>
-<p>Sigma considers the average change from one point to the next in chronological order. Think about why the chronological order of data is key to understanding trends and significance.”</p>
-<ul>
-<li>Making Data Count: Strengthening Your Decisions</li>
-</ul>
-</div>
-</div>
-</div>
-<p>They use these limits to distinguish between two kinds of variation</p>
-<ul>
-<li><strong>common cause</strong>: normal, natural, random variation in a process</li>
-<li><strong>special cause</strong>: unexpected, out-of-the-norm shifts or patterns that are a signal something has changed</li>
-</ul>
-<p>Categories of special cause variation are as follows:</p>
-<ul>
-<li>A single point falls outside the control limits (either upper or lower)</li>
-<li>A number of consecutive points all fall above or below the mean line
-<ul>
-<li>this often defaults to 6 points, but it may be adjusted</li>
-</ul></li>
-<li>Six consecutive points are either all increasing or all decreasing</li>
-<li>Two out of three points fall close to the process limit (within the outer third)</li>
-</ul>
-<p>A target line can optionally be included.</p>
-<ul>
-<li>If the target line does not fall within the control limits, this suggests that the system will either reliably meet the target, or not</li>
-<li>If the target line falls within the control limits, this suggests that the target will not reliably be met, as it is expected that the natural variation seen will lead to the values varying around the line</li>
-</ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="assets/2025-12-03-18-47-46.png" class="img-fluid figure-img"></p>
-<figcaption>Credit: Making Data Count Team</figcaption>
+<p><a href="https://www.youtube.com/channel/UCXu4WE5N-S9iWhKRMAYTZsA/playlists"><img src="su_insights.jpg" class="img-fluid figure-img"></a></p>
+<figcaption>SU Insights: Contracting for Health Outcomes</figcaption>
 </figure>
 </div>
-<section id="the-making-data-count-programme" class="level2">
-<h2 class="anchored" data-anchor-id="the-making-data-count-programme">The Making Data Count Programme</h2>
-<p>This programme ran workshops explaining the principles of Making Data Count and supported trusts with moving to SPC charts instead of RAG reports, and provide lots of training materials.</p>
-<p>One of the most recognisable parts of the programme are the icons, which have been adopted by lots of users of SPC within healthcare.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="assets/2025-12-03-18-05-53.png" class="img-fluid figure-img"></p>
-<figcaption>Credit: Making Data Count Team</figcaption>
-</figure>
+<p><a href="https://www.strategyunitwm.nhs.uk/">The Strategy Unit</a> is an NHS team that provides analysis, evaluation and strategy support to health and care organisations, hosted by NHS Midlands and Lancashire. As well as running the <a href="../../books_training/mdsn_training/index.html">Midlands Decision Support Network</a>, it publishes recordings of many of its webinars on YouTube, including:</p>
+<ul>
+<li><strong>SU Insights</strong> - discussions of current issues in health and care with expert panels, such as contracting for health outcomes, the downsides of digital, and the Neighbourhood Insights series on neighbourhood health</li>
+<li><strong>National Neighbourhood Health Implementation Programme (NNHIP) evaluation and analysis community of practice</strong> - drop-in sessions on measuring and analysing neighbourhood health, such as the Neighbourhood Index and opportunities to shift care out of hospitals</li>
+<li><strong>ICS intelligence functions</strong> - webinars from 2022 in which integrated care systems shared what they had learned from developing their intelligence functions</li>
+<li><strong>Decision Support Units</strong> - webinars from 2021 on the progress of the Midlands Decision Support Units and their analysis of inequalities, including in access to planned care and in children and young people’s mental health</li>
+<li><strong>Population health management</strong> - the Midlands Population Health Management Academy’s webinar series, with speakers including Professor Sir Muir Gray, Professor Al Mulley and Professor Mohammed Mohammed, and introductions to methods such as logic models, qualitative methods and using evidence</li>
+<li><strong>End of life analysis</strong> - walkthroughs of the Strategy Unit’s 2020 report on healthcare use in the last two years of life</li>
+</ul>
+<section id="search-the-webinars" class="level2">
+<h2 class="anchored" data-anchor-id="search-the-webinars">Search the webinars</h2>
+<p>Search for a webinar by title, speaker, year, series or topic. The most recent series are listed first.</p>
+<div id="listing-su-webinars" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-su-webinars-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-su-webinars'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title-sort" data-direction="asc">
+        Webinar
+      </option>
+      <option value="listing-year" data-direction="asc">
+        Year
+      </option>
+      <option value="listing-event" data-direction="asc">
+        Series
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
 </div>
-<p>These icons - which will be automatically applied when data meets particular criteria if you are using an NHS-aligned tool to make your SPC charts - can help to quickly pick out areas of concern.</p>
-<p>An SPC summary report to replace a RAG rated might look like this. The use of the icons helps to draw attention to the metrics of most concern, and helping to steer people away from worrying unnecessarily about tiny shifts in the ‘wrong’ direction that are meaningless when you step back and look at the data in this way.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="assets/2025-12-03-17-59-33.png" class="img-fluid figure-img"></p>
-<figcaption>Credit: Making Data Count Team</figcaption>
-</figure>
-</div>
-<p>Not come across SPC charts before? Read these guides from the NHS England Making Data Count team.</p>
-<section id="getting-started" class="level3">
-<h3 class="anchored" data-anchor-id="getting-started">Getting Started</h3>
-<embed width="100%" height="700" src="making-data-count-getting-started-2019.pdf" title="Making Data Count - Getting Started">
-<p><br></p>
-</section>
-<section id="strengthening-your-decisions" class="level3">
-<h3 class="anchored" data-anchor-id="strengthening-your-decisions">Strengthening Your Decisions</h3>
-<embed width="100%" height="700" src="making-data-count-strengthening-your-decisions.pdf" title="Making Data Count - Strengthening Your Decisions">
-</section>
-</section>
-<section id="types-of-spc-charts" class="level2">
-<h2 class="anchored" data-anchor-id="types-of-spc-charts">Types of SPC charts</h2>
-<p>There are actually a wide range of specialised SPC charts for different types of data.</p>
-<p>The making data count programme uses only XmR (Individuals &amp; Moving Range) charts regardless of data type, and many NHS-focussed tools and packages therefore only provide the facility to make this type of chart. The MDC programme makes the case that XmR handles almost all types of routine NHS data, and it’s not necessary to overcomplicate the choice of chart.</p>
-<p>Some packages - particularly more general purpose SPC charting packages - provide the facility to make these other kinds of charts.</p>
-<p><em>Some</em> other types are as follows:</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
+<table class="quarto-listing-table table">
 <thead>
-<tr class="header">
-<th>Type</th>
-<th>Purpose</th>
-<th>Why might you use it?</th>
+<tr>
+
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Webinar</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-year" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Year</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-event" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Series</a>
+</th>
+
+<th>
+Details
+</th>
+
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td>p-chart</td>
-<td>Monitoring Proportions</td>
-<td>Greater sensitivity to changes than an XmR chart</td>
+<tbody class="list">
+
+<tr data-index="0" data-listing-date-sort="1779321600000" data-listing-title-sort="Neighbourhood INSIGHTS: What can the NHS learn from neighbourhood working in other policy areas?">
+<td>
+<a href="https://www.youtube.com/watch?v=ZSPIsdEz4sE" class="title listing-title">Neighbourhood INSIGHTS: What can the NHS learn from neighbourhood working in other policy areas?</a>
+</td>
+<td>
+<span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-event">SU Insights</span>
+</td>
+<td>
+<span class="listing-description">Join the Strategy Unit for the next session in the Neighbourhood INSIGHTS series, exploring how evidence and analysis can support the shift from hospital to community. The NHS is developing its approach to neighbourhood working. Together with partners in other services and sectors, it is devising…</span>
+</td>
+
 </tr>
-<tr class="even">
-<td>u-chart</td>
-<td>For event rates</td>
-<td></td>
+
+<tr data-index="1" data-listing-date-sort="1776384000000" data-listing-title-sort="The risks of risk stratification in neighbourhood health">
+<td>
+<a href="https://www.youtube.com/watch?v=NdEOYJZ8_TA" class="title listing-title">The risks of risk stratification in neighbourhood health</a>
+</td>
+<td>
+<span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-event">SU Insights</span>
+</td>
+<td>
+<span class="listing-description">Neighbourhoods INSIGHTS’ Series -The risks of risk stratification in neighbourhood health The theory behind risk stratification is seductive. Almost irresistible in fact. It is that running algorithms over (mainly) primary care data will allow services to spot individual patients at high risk of…</span>
+</td>
+
 </tr>
-<tr class="odd">
-<td>c-chart</td>
-<td>For counts</td>
-<td></td>
+
+<tr data-index="2" data-listing-date-sort="1773878400000" data-listing-title-sort="‘Neighbourhood INSIGHTS’ series - Looking back, looking forward">
+<td>
+<a href="https://www.youtube.com/watch?v=yiec0Rl9LqU" class="title listing-title">‘Neighbourhood INSIGHTS’ series - Looking back, looking forward</a>
+</td>
+<td>
+<span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-event">SU Insights</span>
+</td>
+<td>
+<span class="listing-description">‘Neighbourhood INSIGHTS’ series - Looking back, looking forward What the past and the future tell us about neighbourhood health</span>
+</td>
+
 </tr>
-<tr class="even">
-<td>g-chart/t-chart</td>
-<td>Rare Events</td>
-<td></td>
+
+<tr data-index="3" data-listing-date-sort="1738886400000" data-listing-title-sort="SU Insights   Downsides of Digital">
+<td>
+<a href="https://www.youtube.com/watch?v=c-mGU-3GnJ8" class="title listing-title">SU Insights Downsides of Digital</a>
+</td>
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-event">SU Insights</span>
+</td>
+<td>
+<span class="listing-description">This event in collaboration with the Health Foundation featuring Professor Trish Greenhalgh and experts explored the critical questions on the downsides of digital, drawing on research to reflect the implications of digital technology in health and care. There is widespread enthusiasm for the use…</span>
+</td>
+
 </tr>
+
+<tr data-index="4" data-listing-date-sort="1728604800000" data-listing-title-sort="SU Insights - Contracting for Health Outcomes">
+<td>
+<a href="https://www.youtube.com/watch?v=Ogrl_arIRtM" class="title listing-title">SU Insights - Contracting for Health Outcomes</a>
+</td>
+<td>
+<span class="listing-year">2024</span>
+</td>
+<td>
+<span class="listing-event">SU Insights</span>
+</td>
+<td>
+<span class="listing-description">The inaugural ‘SU Insights’ session explore the evolving landscape of “Contracting for health outcomes”. The concept of outcomes-based commissioning was a hot topic in health policy around 15 years ago. Innovative contracting models were promoted as a way to transform the way services were paid…</span>
+</td>
+
+</tr>
+
+<tr data-index="5" data-listing-date-sort="1777507200000" data-listing-title-sort="Is ‘Do With’ the essence of neighbourhood health?">
+<td>
+<a href="https://www.youtube.com/watch?v=UtJKmgCPe8Y" class="title listing-title">Is ‘Do With’ the essence of neighbourhood health?</a>
+</td>
+<td>
+<span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-event">SU Insights</span>
+</td>
+<td>
+<span class="listing-description">Event 3: Is ‘Do With’ the essence of neighbourhood health? Neighbourhood health is often discussed in terms of services: how they are structured, funded and delivered. But at its heart, it is about something more fundamental - relationships. In particular, the relationships between services and the…</span>
+</td>
+
+</tr>
+
+<tr data-index="6" data-listing-date-sort="1772668800000" data-listing-title-sort="NNHIP Evaluation and Analysis CoP: Drop in Sesssion NNHIP Care Shift Tracker">
+<td>
+<a href="https://www.youtube.com/watch?v=Z5fH3khIbPQ" class="title listing-title">NNHIP Evaluation and Analysis CoP: Drop in Sesssion NNHIP Care Shift Tracker</a>
+</td>
+<td>
+<span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-event">NNHIP evaluation and analysis community of practice</span>
+</td>
+<td>
+<span class="listing-description">NNHIP Evaluation and Analysis CoP: Drop in Sesssion NNHIP Care Shift Tracker - 04.03.26 In this Evaluation and Analysis Community of Practice drop-in session, there was and demo of a tool that is being developed to offer a system-wide view using a range of indicators to help spot emerging patterns,…</span>
+</td>
+
+</tr>
+
+<tr data-index="7" data-listing-date-sort="1771804800000" data-listing-title-sort="NNHIP Evaluation and Analysis CoP: Drop-in session: Opportunities to shift care in my Place 18/02/26">
+<td>
+<a href="https://www.youtube.com/watch?v=D7GsuWni4j8" class="title listing-title">NNHIP Evaluation and Analysis CoP: Drop-in session: Opportunities to shift care in my Place 18/02/26</a>
+</td>
+<td>
+<span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-event">NNHIP evaluation and analysis community of practice</span>
+</td>
+<td>
+<span class="listing-description">Topic: Where are the opportunities to shift care from acute hospitals, in my Place? In this Evaluation and Analysis Community of Practice drop-in session, there was and demo of a tool that is being developed to help identify the types of hospital activity that could be done in a different way or…</span>
+</td>
+
+</tr>
+
+<tr data-index="8" data-listing-date-sort="1770163200000" data-listing-title-sort="NNHIP Evaluation and Analysis Community of Practice (CoP): Drop-in session: Measurement Guide">
+<td>
+<a href="https://www.youtube.com/watch?v=IAndD_L_pvA" class="title listing-title">NNHIP Evaluation and Analysis Community of Practice (CoP): Drop-in session: Measurement Guide</a>
+</td>
+<td>
+<span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-event">NNHIP evaluation and analysis community of practice</span>
+</td>
+<td>
+<span class="listing-description">Topic: NNHIP Measurement Guide Q&amp;A session In this second Evaluation and Analysis Community of Practice drop-in session, we covered key questions, and next steps, around the Measurement Guide and the Neighbourhood Index. About The Evaluation and Analysis Community of Practice (CoP) is part of the…</span>
+</td>
+
+</tr>
+
+<tr data-index="9" data-listing-date-sort="1769472000000" data-listing-title-sort="NNHIP Evaluation &amp; Analysis CoP - 21/1/26 - Subject: Neighbourhood Index">
+<td>
+<a href="https://www.youtube.com/watch?v=pPGyTGnSORI" class="title listing-title">NNHIP Evaluation &amp; Analysis CoP - 21/1/26 - Subject: Neighbourhood Index</a>
+</td>
+<td>
+<span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-event">NNHIP evaluation and analysis community of practice</span>
+</td>
+<td>
+<span class="listing-description">The National Neighbourhood Health Implementation Programme (NNHIP) Evaluation and Analysis Community of Practice (CoP), has been set up as part of the NNHIP Intelligence Centre. This CoP has been created directly in response to feedback that it would be helpful to have a dedicated space for local…</span>
+</td>
+
+</tr>
+
+<tr data-index="10" data-listing-date-sort="1653264000000" data-listing-title-sort="Developing your ICS Intelligence Function, learning MDSN and Black Country ICS 04/05/22">
+<td>
+<a href="https://www.youtube.com/watch?v=rRaEh3x3HsI" class="title listing-title">Developing your ICS Intelligence Function, learning MDSN and Black Country ICS 04/05/22</a>
+</td>
+<td>
+<span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-event">ICS intelligence functions</span>
+</td>
+<td>
+<span class="listing-description">Hear what Midlands Decision Support Network and Black Country ICS had to say about developing an Intelligence Function, webinar on 04/05/22</span>
+</td>
+
+</tr>
+
+<tr data-index="11" data-listing-date-sort="1653264000000" data-listing-title-sort="Developing your ICS Intelligence Function, learning from Kent and Medway ICS - 20/05/22">
+<td>
+<a href="https://www.youtube.com/watch?v=2kcRMF6yDuA" class="title listing-title">Developing your ICS Intelligence Function, learning from Kent and Medway ICS - 20/05/22</a>
+</td>
+<td>
+<span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-event">ICS intelligence functions</span>
+</td>
+<td>
+<span class="listing-description">Hear what Kent and Medway ICS had to say about developing their Intelligence Function, webinar on 20/05/22</span>
+</td>
+
+</tr>
+
+<tr data-index="12" data-listing-date-sort="1653264000000" data-listing-title-sort="Developing your ICS Intelligence Function, learning from the Local knowledge &amp; Intelligence Service">
+<td>
+<a href="https://www.youtube.com/watch?v=i5QcSITCwYI" class="title listing-title">Developing your ICS Intelligence Function, learning from the Local knowledge &amp; Intelligence Service</a>
+</td>
+<td>
+<span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-event">ICS intelligence functions</span>
+</td>
+<td>
+<span class="listing-description">Hear what the Local knowledge &amp; Intelligence Service had to say about developing an Intelligence Function, webinar on 06/05/22</span>
+</td>
+
+</tr>
+
+<tr data-index="13" data-listing-date-sort="1653264000000" data-listing-title-sort="Developing your ICS Intelligence Function, learning from South West London Health &amp; Care Partnership">
+<td>
+<a href="https://www.youtube.com/watch?v=quS-UsN-X_M" class="title listing-title">Developing your ICS Intelligence Function, learning from South West London Health &amp; Care Partnership</a>
+</td>
+<td>
+<span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-event">ICS intelligence functions</span>
+</td>
+<td>
+<span class="listing-description">Hear what South West London had to say about developing their Intelligence Function, webinar on 03/05/22</span>
+</td>
+
+</tr>
+
+<tr data-index="14" data-listing-date-sort="1653264000000" data-listing-title-sort="Intelligence Function Webinar Introduction">
+<td>
+<a href="https://www.youtube.com/watch?v=s7F1eZ3BKSk" class="title listing-title">Intelligence Function Webinar Introduction</a>
+</td>
+<td>
+<span class="listing-year">2022</span>
+</td>
+<td>
+<span class="listing-event">ICS intelligence functions</span>
+</td>
+<td>
+<span class="listing-description">ICS Intelligence Functions (IF) have been described as part of the ICS infrastructure in NHSE/I’s Integrating Care, and the ICS Design Framework. NHSE/I are set to release guidance to systems to support their IF journey. This includes further detail on what an IF is, what they should look like, and…</span>
+</td>
+
+</tr>
+
+<tr data-index="15" data-listing-date-sort="1623196800000" data-listing-title-sort="Progress in a local system DSU - Black Country and West Birmingham ICS">
+<td>
+<a href="https://www.youtube.com/watch?v=RoXqkkLNGKg" class="title listing-title">Progress in a local system DSU - Black Country and West Birmingham ICS</a>
+</td>
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-event">Decision Support Units</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="16" data-listing-date-sort="1623196800000" data-listing-title-sort="Overview of our inequality in access to planned care report">
+<td>
+<a href="https://www.youtube.com/watch?v=gR7KTfHyiVA" class="title listing-title">Overview of our inequality in access to planned care report</a>
+</td>
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-event">Decision Support Units</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="17" data-listing-date-sort="1623196800000" data-listing-title-sort="Overview of the Midlands Decision Support Network and progress to date">
+<td>
+<a href="https://www.youtube.com/watch?v=aEuAX5o8ex0" class="title listing-title">Overview of the Midlands Decision Support Network and progress to date</a>
+</td>
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-event">Decision Support Units</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="18" data-listing-date-sort="1623974400000" data-listing-title-sort="Children and Young People Mental Health inequalities webinar 170621">
+<td>
+<a href="https://www.youtube.com/watch?v=gdP58eh2s8U" class="title listing-title">Children and Young People Mental Health inequalities webinar 170621</a>
+</td>
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-event">Decision Support Units</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="19" data-listing-date-sort="1623974400000" data-listing-title-sort="Inequalities in access to elective hospital care">
+<td>
+<a href="https://www.youtube.com/watch?v=CjAXSDwjn0U" class="title listing-title">Inequalities in access to elective hospital care</a>
+</td>
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-event">Decision Support Units</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="20" data-listing-date-sort="1624233600000" data-listing-title-sort="CYPMH Inequalities Webinar 170621 V2">
+<td>
+<a href="https://www.youtube.com/watch?v=zYazVgvIlM4" class="title listing-title">CYPMH Inequalities Webinar 170621 V2</a>
+</td>
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-event">Decision Support Units</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="21" data-listing-date-sort="1617062400000" data-listing-title-sort="An Introduction to the Midlands PHM Academy – July 2019">
+<td>
+<a href="https://www.youtube.com/watch?v=xeT7PnRjhJM" class="title listing-title">An Introduction to the Midlands PHM Academy – July 2019</a>
+</td>
+<td>
+<span class="listing-year">&nbsp;</span>
+</td>
+<td>
+<span class="listing-event">Population health management</span>
+</td>
+<td>
+<span class="listing-description">Fraser Battye, Programme Director, provides an overview of the Midlands PHM Academy</span>
+</td>
+
+</tr>
+
+<tr data-index="22" data-listing-date-sort="1617062400000" data-listing-title-sort="PHM Lessons Learned Webinar - March 2020">
+<td>
+<a href="https://www.youtube.com/watch?v=D8h3e-EmfC8" class="title listing-title">PHM Lessons Learned Webinar - March 2020</a>
+</td>
+<td>
+<span class="listing-year">&nbsp;</span>
+</td>
+<td>
+<span class="listing-event">Population health management</span>
+</td>
+<td>
+<span class="listing-description">Fraser Battye and Lucy Hawkins share their reflections on the programme. This webinar forms part of our ‘lessons learned’ series</span>
+</td>
+
+</tr>
+
+<tr data-index="23" data-listing-date-sort="1617062400000" data-listing-title-sort="Professor Al Mulley, The Dartmouth Institute, on Learning from variation; making visible processes.">
+<td>
+<a href="https://www.youtube.com/watch?v=N3q-wKTEbdA" class="title listing-title">Professor Al Mulley, The Dartmouth Institute, on Learning from variation; making visible processes.</a>
+</td>
+<td>
+<span class="listing-year">&nbsp;</span>
+</td>
+<td>
+<span class="listing-event">Population health management</span>
+</td>
+<td>
+<span class="listing-description">The third in our summer webinar series. Al Mulley talks about how we can learn from variation warranted and unwarranted, to deliver what is valued.</span>
+</td>
+
+</tr>
+
+<tr data-index="24" data-listing-date-sort="1617062400000" data-listing-title-sort="Dr Abeda Mulla Qualitative Methods Webinar">
+<td>
+<a href="https://www.youtube.com/watch?v=rpqYI6qnHRI" class="title listing-title">Dr Abeda Mulla Qualitative Methods Webinar</a>
+</td>
+<td>
+<span class="listing-year">&nbsp;</span>
+</td>
+<td>
+<span class="listing-event">Population health management</span>
+</td>
+<td>
+<span class="listing-description">An introduction to Qualitative Methods with Dr Abeda Mulla from the Strategy Unit</span>
+</td>
+
+</tr>
+
+<tr data-index="25" data-listing-date-sort="1617062400000" data-listing-title-sort="Professor Sir Muir Gray, The Oxford Centre for Triple Value Healthcare.">
+<td>
+<a href="https://www.youtube.com/watch?v=02MRVjw75yc" class="title listing-title">Professor Sir Muir Gray, The Oxford Centre for Triple Value Healthcare.</a>
+</td>
+<td>
+<span class="listing-year">&nbsp;</span>
+</td>
+<td>
+<span class="listing-event">Population health management</span>
+</td>
+<td>
+<span class="listing-description">The first in our 2019 Summer webinar series, Professor Sir Muir Gray explains his five key tasks for Population Health Management.</span>
+</td>
+
+</tr>
+
+<tr data-index="26" data-listing-date-sort="1617062400000" data-listing-title-sort="What do we mean by ‘community’?">
+<td>
+<a href="https://www.youtube.com/watch?v=XA4uOuP4oJ4" class="title listing-title">What do we mean by ‘community’?</a>
+</td>
+<td>
+<span class="listing-year">&nbsp;</span>
+</td>
+<td>
+<span class="listing-event">Population health management</span>
+</td>
+<td>
+<span class="listing-description">Muir Gray and Robin Miller discuss what we mean by community, how that is changing with technology and the implications for health and social care.</span>
+</td>
+
+</tr>
+
+<tr data-index="27" data-listing-date-sort="1617062400000" data-listing-title-sort="PHM Evidence Webinar by Alison Turner">
+<td>
+<a href="https://www.youtube.com/watch?v=a6GeaDF49wg" class="title listing-title">PHM Evidence Webinar by Alison Turner</a>
+</td>
+<td>
+<span class="listing-year">&nbsp;</span>
+</td>
+<td>
+<span class="listing-event">Population health management</span>
+</td>
+<td>
+<span class="listing-description">An introduction to using evidence in Health and Social Care with Alison Turner</span>
+</td>
+
+</tr>
+
+<tr data-index="28" data-listing-date-sort="1617062400000" data-listing-title-sort="Logic Models Webinar with Fraser Battye">
+<td>
+<a href="https://www.youtube.com/watch?v=hi0n1uhNmHg" class="title listing-title">Logic Models Webinar with Fraser Battye</a>
+</td>
+<td>
+<span class="listing-year">&nbsp;</span>
+</td>
+<td>
+<span class="listing-event">Population health management</span>
+</td>
+<td>
+<span class="listing-description">An introduction to Logic Models with Fraser Battye, The Strategy Unit.</span>
+</td>
+
+</tr>
+
+<tr data-index="29" data-listing-date-sort="1617062400000" data-listing-title-sort="Public Health England's PHM Tools Webinar by Nicola Dennis">
+<td>
+<a href="https://www.youtube.com/watch?v=ECkqs-8xf7Q" class="title listing-title">Public Health England’s PHM Tools Webinar by Nicola Dennis</a>
+</td>
+<td>
+<span class="listing-year">&nbsp;</span>
+</td>
+<td>
+<span class="listing-event">Population health management</span>
+</td>
+<td>
+<span class="listing-description">As part of our Academy webinar series, Nicola Dennis from Public Health England provides an introduction to the Population Health Management tools available from PHE.</span>
+</td>
+
+</tr>
+
+<tr data-index="30" data-listing-date-sort="1617062400000" data-listing-title-sort="Professor Mohammed Mohammed, The Strategy Unit, on: Systems thinking and the science of improvement">
+<td>
+<a href="https://www.youtube.com/watch?v=wAudEoV9dck" class="title listing-title">Professor Mohammed Mohammed, The Strategy Unit, on: Systems thinking and the science of improvement</a>
+</td>
+<td>
+<span class="listing-year">&nbsp;</span>
+</td>
+<td>
+<span class="listing-event">Population health management</span>
+</td>
+<td>
+<span class="listing-description">Professor Mohammed A Mohammed has continued the series of the Midlands PHM Academy with his webinar on Systems thinking and the Science of Improvement.</span>
+</td>
+
+</tr>
+
+<tr data-index="31" data-listing-date-sort="1617062400000" data-listing-title-sort="Perspectives on PHM: Professor Robin Miller">
+<td>
+<a href="https://www.youtube.com/watch?v=qkIok1e2QqU" class="title listing-title">Perspectives on PHM: Professor Robin Miller</a>
+</td>
+<td>
+<span class="listing-year">&nbsp;</span>
+</td>
+<td>
+<span class="listing-event">Population health management</span>
+</td>
+<td>
+<span class="listing-description">Professor Robin Miller gives his perspective on the value of PHM as a practice.</span>
+</td>
+
+</tr>
+
+<tr data-index="32" data-listing-date-sort="1617062400000" data-listing-title-sort="Perspectives on PHM: Professor Sir Muir Gray">
+<td>
+<a href="https://www.youtube.com/watch?v=bBDLEYAKz98" class="title listing-title">Perspectives on PHM: Professor Sir Muir Gray</a>
+</td>
+<td>
+<span class="listing-year">&nbsp;</span>
+</td>
+<td>
+<span class="listing-event">Population health management</span>
+</td>
+<td>
+<span class="listing-description">Professor Sir Muir Gray gives his perspectives on the value of PHM as a practice.</span>
+</td>
+
+</tr>
+
+<tr data-index="33" data-listing-date-sort="1617062400000" data-listing-title-sort="Perspectives on PHM: Professor Mohammed A Mohammed">
+<td>
+<a href="https://www.youtube.com/watch?v=KtztTYI0zQA" class="title listing-title">Perspectives on PHM: Professor Mohammed A Mohammed</a>
+</td>
+<td>
+<span class="listing-year">&nbsp;</span>
+</td>
+<td>
+<span class="listing-event">Population health management</span>
+</td>
+<td>
+<span class="listing-description">Professor Mohammed A Mohammed gives his perspective on the value of PHM as a practice.</span>
+</td>
+
+</tr>
+
+<tr data-index="34" data-listing-date-sort="1617062400000" data-listing-title-sort="Perspectives on PHM: Professor Albert Mulley">
+<td>
+<a href="https://www.youtube.com/watch?v=ZFyOzg-0XwQ" class="title listing-title">Perspectives on PHM: Professor Albert Mulley</a>
+</td>
+<td>
+<span class="listing-year">&nbsp;</span>
+</td>
+<td>
+<span class="listing-event">Population health management</span>
+</td>
+<td>
+<span class="listing-description">Professor Albert Mulley gives his perspective on the value of PHM as a practise.</span>
+</td>
+
+</tr>
+
+<tr data-index="35" data-listing-date-sort="1617062400000" data-listing-title-sort="Belinda Weir Systems Leadership Webinar">
+<td>
+<a href="https://www.youtube.com/watch?v=Mg-lR7k3tCY" class="title listing-title">Belinda Weir Systems Leadership Webinar</a>
+</td>
+<td>
+<span class="listing-year">&nbsp;</span>
+</td>
+<td>
+<span class="listing-event">Population health management</span>
+</td>
+<td>
+<span class="listing-description">An introduction to Systems Leadership with Belinda Weir from the Centre for Health and Care Leadership at the University of Birmingham.</span>
+</td>
+
+</tr>
+
+<tr data-index="36" data-listing-date-sort="1618963200000" data-listing-title-sort="Professor Robin Miller and Professor Jon Glasby on: PHM and integration">
+<td>
+<a href="https://www.youtube.com/watch?v=XLvGfRvRVxM" class="title listing-title">Professor Robin Miller and Professor Jon Glasby on: PHM and integration</a>
+</td>
+<td>
+<span class="listing-year">&nbsp;</span>
+</td>
+<td>
+<span class="listing-event">Population health management</span>
+</td>
+<td>
+<span class="listing-description">The fourth in our summer series, Professor Jon Glasby and Robin Miller discuss the importance of joint work between the NHS and local government, and why local government matters to population health management.</span>
+</td>
+
+</tr>
+
+<tr data-index="37" data-listing-date-sort="1602547200000" data-listing-title-sort="End of Life Analysis Matters by Peter Spilsbury">
+<td>
+<a href="https://www.youtube.com/watch?v=zoJ50B18K0M" class="title listing-title">End of Life Analysis Matters by Peter Spilsbury</a>
+</td>
+<td>
+<span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-event">End of life analysis</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="38" data-listing-date-sort="1602547200000" data-listing-title-sort="Report Topic 1 - Background to the Report">
+<td>
+<a href="https://www.youtube.com/watch?v=B1ZJFSID-Y0" class="title listing-title">Report Topic 1 - Background to the Report</a>
+</td>
+<td>
+<span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-event">End of life analysis</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="39" data-listing-date-sort="1602547200000" data-listing-title-sort="Report Topic 2 - People and Place">
+<td>
+<a href="https://www.youtube.com/watch?v=as-cxNA48DQ" class="title listing-title">Report Topic 2 - People and Place</a>
+</td>
+<td>
+<span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-event">End of life analysis</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="40" data-listing-date-sort="1602547200000" data-listing-title-sort="Report Topic 3 - Service Use">
+<td>
+<a href="https://www.youtube.com/watch?v=FO2N8iJPQos" class="title listing-title">Report Topic 3 - Service Use</a>
+</td>
+<td>
+<span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-event">End of life analysis</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="41" data-listing-date-sort="1602547200000" data-listing-title-sort="Report Topic 4 - Final Weeks of Life">
+<td>
+<a href="https://www.youtube.com/watch?v=WDNjxUiRvzc" class="title listing-title">Report Topic 4 - Final Weeks of Life</a>
+</td>
+<td>
+<span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-event">End of life analysis</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
 </tbody>
 </table>
-</section>
-<section id="other-resources" class="level2">
-<h2 class="anchored" data-anchor-id="other-resources">Other Resources</h2>
-<p>The book ‘Mastering Statistical Process Control Charts’ in healthcare is under development and can help you to extend your knowledge of SPC charts.</p>
-<iframe width="780" height="500" src="https://anhoej.github.io/spc4hc/" title="SPC for Healthcare"></iframe>
-</section>
-<section id="relevant-packages-projects-and-tools" class="level2">
-<h2 class="anchored" data-anchor-id="relevant-packages-projects-and-tools">Relevant Packages, Projects and Tools</h2>
-<div id="listing-spc" class="quarto-listing quarto-listing-container-custom">
-<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
-
-    
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="U3RhdGlzdGljYWwlMjBQcm9jZXNzJTIwQ29udHJvbA==" data-listing-date-sort="1774882098000" data-listing-file-modified-sort="1791205973857" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="102">
-            <div class="main-card-content">
-            
-                  <a href="../../packages_projects_tools/mdc_spc_excel_chart_tool/index.html">
-              <img class="card-img" src="../../packages_projects_tools/mdc_spc_excel_chart_tool/spc_excel.png" alt="Making Data Count: the SPC single and multiple chart tool">
-                  </a>
-                
-
-            <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">
-                  <a href="../../packages_projects_tools/mdc_spc_excel_chart_tool/index.html" class="title-link">Making Data Count: the SPC single and multiple chart tool
-                    <i class="fa-solid fa-hospital"></i>
-                  </a>
-                </h5>
-            </div>
-
-            
-            <div class="project-status">
-              Status: <span style="color: #893400FF">Bronze</span>
-            </div>
-            
-
-            
-            
-            
-
-            
-              <p class="listing-abstract">These Excel templates support the creation of statistical process control (SPC) charts adhering to the making data count rules and style. SPC charts are a good alternative to red-amber-green (RAG) rated reporting of metrics, helping to build a more informed picture of a metric's performance over time and spot signals of improvement or deterioration.
-</p>
-                
-
-            
-
-            
-
-            
-
-          </div>
-
-            <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="../../packages_projects_tools/mdc_spc_excel_chart_tool/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
-                    
-                      
-                          
-                            
-                        
-                            
-                        
-                            
-                        
-                            
-                        
-                            
-                        
-                            
-                      <button class="project-link-listing-button"><a href="https://www.england.nhs.uk/statistical-process-control-tool/"><i class="fa-solid fa-globe"></i> Website - Single Chart </a></button>
-                          
-                        
-                            
-                      <button class="project-link-listing-button"><a href="https://www.england.nhs.uk/wp-content/uploads/2020/08/Statistical-process-control-tool.xlsm"><i class="fa-solid fa-download"></i> Download - Single Chart </a></button>
-                          
-                        
-                            
-                      <button class="project-link-listing-button"><a href="https://www.england.nhs.uk/statistical-process-control-multiple-chart-tool/"><i class="fa-solid fa-globe"></i> Website - Multiple Chart </a></button>
-                          
-                        
-                            
-                      <button class="project-link-listing-button"><a href="https://www.england.nhs.uk/wp-content/uploads/2020/09/statistical-process-control--multiple-chart-tool.xlsm"><i class="fa-solid fa-download"></i> Download - Multiple Chart </a></button>
-                          
-                        
-                        
-                    
-            </div>
-          </div>
-
-        
-      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="U3RhdGlzdGljYWwlMjBQcm9jZXNzJTIwQ29udHJvbA==" data-listing-date-sort="1774882098000" data-listing-file-modified-sort="1791205973972" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="216">
-            <div class="main-card-content">
-            
-                  <a href="../../packages_projects_tools/nhs_ptd_power_bi/index.html">
-              <img class="card-img" src="../../packages_projects_tools/nhs_ptd_power_bi/filter.png" alt="NHSRplotthedots - a PowerBI Custom Visual Implementation">
-                  </a>
-                
-
-            <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">
-                  <a href="../../packages_projects_tools/nhs_ptd_power_bi/index.html" class="title-link">NHSRplotthedots - a PowerBI Custom Visual Implementation
-                    <i class="fa-solid fa-hospital"></i> <i class="fa-solid fa-user-graduate"></i>
-                  </a>
-                </h5>
-            </div>
-
-            
-            <div class="project-status">
-              Status: <span style="color: #893400FF">Bronze</span>
-            </div>
-            
-
-            
-            
-            
-
-            
-              <p class="listing-abstract">This custom PowerBI visual (based on NHSRplotthedots) simplifies the creation and automation of statistical process control (SPC) charts for KPIs. It helps analysts and teams move beyond static KPIs to understand true performance variation and identify opportunities for improvement, producing R-backed visuals within the setting of PowerBI and integrating with PowerBIs data model and filters.
-</p>
-                
-
-            
-
-            
-
-            
-
-          </div>
-
-            <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="../../packages_projects_tools/nhs_ptd_power_bi/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
-                    
-                      
-                          
-                            
-                      <button class="project-link-listing-button"><a href="https://github.com/Bergam0t/nhs_ptd_power_bi"><i class="fa-brands fa-github"></i> Code </a></button>
-                          
-                        
-                            
-                      <button class="project-link-listing-button"><a href="https://github.com/Bergam0t/nhs_ptd_power_bi/releases"><i class="fa-solid fa-download"></i> Download Custom Visual </a></button>
-                          
-                        
-                            
-                      <button class="project-link-listing-button"><a href="https://github.com/Bergam0t/nhs_ptd_power_bi?tab=readme-ov-file#readme"><i class="fa-solid fa-book"></i> Documentation </a></button>
-                          
-                        
-                            
-                        
-                            
-                        
-                            
-                        
-                            
-                        
-                        
-                    
-            </div>
-          </div>
-
-        
-      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="S1BJJTIwUmVwb3J0aW5nJTJDU3RhdGlzdGljYWwlMjBQcm9jZXNzJTIwQ29udHJvbA==" data-listing-date-sort="1774882098000" data-listing-file-modified-sort="1791205974002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="61">
-            <div class="main-card-content">
-            
-                  <a href="../../packages_projects_tools/nhspy-plotthedots/index.html">
-              <img class="card-img" src="../../packages_projects_tools/nhspy-plotthedots/image.png" alt="nhspy-plotthedots">
-                  </a>
-                
-
-            <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">
-                  <a href="../../packages_projects_tools/nhspy-plotthedots/index.html" class="title-link">nhspy-plotthedots
-                    <i class="fa-solid fa-hospital"></i>
-                  </a>
-                </h5>
-            </div>
-
-            
-            <div class="project-status">
-              Status: <span style="color: #893400FF">Bronze</span>
-            </div>
-            
-
-            
-            
-            
-
-            
-              <p class="listing-abstract">NHSpy-plotthedots is a Python port of the NHSRplotthedots package that simplifies the creation and automation of statistical process control (SPC) charts for KPIs. It helps analysts and teams move beyond static KPIs to understand true performance variation and identify opportunities for improvement.
-</p>
-                
-
-            
-
-            
-
-            
-
-          </div>
-
-            <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="../../packages_projects_tools/nhspy-plotthedots/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
-                    
-                      
-                          
-                            
-                      <button class="project-link-listing-button"><a href="https://github.com/nhs-pycom/nhspy-plotthedots"><i class="fa-brands fa-github"></i> Code </a></button>
-                          
-                        
-                            
-                      <button class="project-link-listing-button"><a href="https://nhs-pycom.github.io/nhspy-plotthedots/"><i class="fa-solid fa-book"></i> Documentation </a></button>
-                          
-                        
-                            
-                        
-                            
-                        
-                            
-                        
-                            
-                        
-                        
-                    
-            </div>
-          </div>
-
-        
-      <div class="custom-grid-card border-2 rounded-3" data-index="3" data-categories="S1BJJTIwUmVwb3J0aW5nJTJDU3RhdGlzdGljYWwlMjBQcm9jZXNzJTIwQ29udHJvbA==" data-listing-date-sort="1774882098000" data-listing-file-modified-sort="1791205974009" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="106">
-            <div class="main-card-content">
-            
-                  <a href="../../packages_projects_tools/nhsrplotthedots/index.html">
-              <img class="card-img" src="../../packages_projects_tools/nhsrplotthedots/nhsrplotthedots.png" alt="NHSRPlotTheDots: statistical process control for better metric reporting">
-                  </a>
-                
-
-            <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">
-                  <a href="../../packages_projects_tools/nhsrplotthedots/index.html" class="title-link">NHSRPlotTheDots: statistical process control for better metric reporting
-                    <i class="fa-solid fa-hospital"></i>
-                  </a>
-                </h5>
-            </div>
-
-            
-            <div class="project-status">
-              Status: <span style="color: #D18B12FF">Gold</span>
-            </div>
-            
-
-            
-            
-            
-
-            
-              <p class="listing-abstract">NHSRplotthedots is an R package that simplifies the creation and automation of statistical process control (SPC) charts for KPIs. It helps analysts and teams move beyond static KPIs to understand true performance variation and identify opportunities for improvement.
-</p>
-                
-
-            
-
-            
-
-            
-
-          </div>
-
-            <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="../../packages_projects_tools/nhsrplotthedots/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
-                    
-                      
-                          
-                            
-                      <button class="project-link-listing-button"><a href="https://github.com/nhs-r-community/NHSRplotthedots"><i class="fa-brands fa-github"></i> Code </a></button>
-                          
-                        
-                            
-                      <button class="project-link-listing-button"><a href="https://nhsrplotthedots.nhsrcommunity.com/"><i class="fa-solid fa-book"></i> Documentation </a></button>
-                          
-                        
-                            
-                        
-                            
-                        
-                            
-                      <button class="project-link-listing-button"><a href="https://cran.r-project.org/web/packages/NHSRplotthedots/index.html"><i class="fa-solid fa-brands fa-r-project"></i> CRAN </a></button>
-                          
-                        
-                            
-                        
-                        
-                    
-            </div>
-          </div>
-
-        
-</div>
 <div class="listing-no-matching d-none">No matching items</div>
+<nav id="su-webinars-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
+<p>You can also browse all of the playlists on <a href="https://www.youtube.com/channel/UCXu4WE5N-S9iWhKRMAYTZsA/playlists">the Strategy Unit’s YouTube channel</a>.</p>
+<p>The Strategy Unit’s other recordings are listed separately in the Atlas: <a href="../../books_training/mdsn_training/index.html">Midlands Decision Support Network training</a>, the <a href="../../books_training/insight_festival/index.html">Insight festival</a>, the <a href="../../books_training/analyst_network_huddles/index.html">Analyst Network Huddles</a>, and training on the <a href="../../packages_projects_tools/new_hospital_programme/index.html">New Hospital Programme Demand Model</a>.</p>
+<p>To search these recordings alongside talks, webinars and workshops from other communities, use the <a href="../../recordings/index.html">Recordings Finder</a>.</p>
 
 
 

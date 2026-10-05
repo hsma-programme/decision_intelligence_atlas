@@ -376,6 +376,11 @@ cookieconsent.run({
   <li><a href="#without-code" id="toc-without-code" class="nav-link" data-scroll-target="#without-code">Without code</a></li>
   <li><a href="#with-code" id="toc-with-code" class="nav-link" data-scroll-target="#with-code">With code</a></li>
   </ul></li>
+  <li><a href="#add-a-collection-of-recordings" id="toc-add-a-collection-of-recordings" class="nav-link" data-scroll-target="#add-a-collection-of-recordings">Add a collection of recordings</a>
+  <ul class="collapse">
+  <li><a href="#without-code-1" id="toc-without-code-1" class="nav-link" data-scroll-target="#without-code-1">Without code</a></li>
+  <li><a href="#with-code-1" id="toc-with-code-1" class="nav-link" data-scroll-target="#with-code-1">With code</a></li>
+  </ul></li>
   <li><a href="#contributor-code-of-conduct" id="toc-contributor-code-of-conduct" class="nav-link" data-scroll-target="#contributor-code-of-conduct">Contributor Code of Conduct</a></li>
   </ul>
 </nav>
@@ -470,6 +475,21 @@ Note
 <h3 class="anchored" data-anchor-id="with-code">With code</h3>
 <p>Like working with Quarto, or want to give it a try?</p>
 <p>Head over to the <a href="https://github.com/hsma-programme/decision_intelligence_atlas?tab=readme-ov-file#advanced-option-contributing-a-qmd-file">instructions in our GitHub readme</a> for details of how you can contribute to the Atlas via making a pull request on GitHub.</p>
+</section>
+</section>
+<section id="add-a-collection-of-recordings" class="level2">
+<h2 class="anchored" data-anchor-id="add-a-collection-of-recordings">Add a collection of recordings</h2>
+<p>The Atlas lists recordings of conference talks, webinars, workshops and lectures from across the health and care analytics community. Each collection has its own entry in the ‘Recorded webinars and conference talks’ section of the <a href="../books_training/index.html">Books, Training and Communities</a> page, and they are all brought together in the searchable <a href="../recordings/index.html">Recordings Finder</a>.</p>
+<p>The recordings are pulled automatically from YouTube playlists, and refreshed every month, so once a playlist has been added, new videos in it will appear in the Atlas without anyone having to update it.</p>
+<section id="without-code-1" class="level3">
+<h3 class="anchored" data-anchor-id="without-code-1">Without code</h3>
+<p>Know of a YouTube playlist or channel with recordings that would be useful to people working in healthcare analytics? <a href="https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose">Submit an issue</a> on the Atlas’s GitHub repository with a link to it, and a sentence or two about who publishes the recordings and what they cover. We’ll take it from there.</p>
+</section>
+<section id="with-code-1" class="level3">
+<h3 class="anchored" data-anchor-id="with-code-1">With code</h3>
+<p>Adding a playlist to an existing collection, or a new collection of recordings, only takes a few lines in a configuration file. A collection can have its own entry, or be added to an existing one - for example, a table of training videos on the entry for the tool they teach. See the <a href="https://github.com/hsma-programme/decision_intelligence_atlas?tab=readme-ov-file#adding-youtube-recordings">instructions for adding YouTube recordings in our GitHub readme</a> for details.</p>
+<p>You don’t need a YouTube API key of your own to contribute. The videos’ details are fetched by a GitHub Action that uses the Atlas’s own key, stored securely in the repository. It runs every month, and maintainers can also run it by hand from the repository’s Actions tab.</p>
+<p>If you’d like to fetch the videos yourself, you’ll need a free YouTube Data API key - the readme explains how to get one and how to set it up as an environment variable. Please keep your key secret: never commit it to the repository or paste it into issues, pull requests or chat tools.</p>
 </section>
 </section>
 <section id="contributor-code-of-conduct" class="level2">

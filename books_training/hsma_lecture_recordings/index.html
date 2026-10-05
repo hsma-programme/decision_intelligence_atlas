@@ -1,0 +1,4993 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Health Service Modelling Associates Programme (HSMA)">
+<meta name="dcterms.date" content="2026-10-04">
+
+<title>HSMA: Lecture and Masterclass Recordings – The Healthcare Service Analytics &amp; Decision Intelligence Atlas</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-618e44c3880220e6abd753417ff4158a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-2848ceaae436bc62036f45d299d60ae4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-618e44c3880220e6abd753417ff4158a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-lecture-recordings .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-event','listing-type','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
+      page: 25,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-event","listing-type","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-lecture-recordings'] = new List('listing-lecture-recordings', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-41QML5TFEF"></script>
+
+<script type="text/plain" cookie-consent="tracking">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-41QML5TFEF', { 'anonymize_ip': true});
+</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"express",
+  "palette":"dark",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  ,
+"language":"en"
+  });
+});
+</script> 
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<script>
+  window.addEventListener('load', function() {
+    document.getElementById("cc-nb-text").innerHTML = "We use cookies and other tracking technologies to analyze our website traffic and to understand where our visitors are coming from.";
+  });
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../resources/themes/styles.css">
+</head>
+
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../resources/atlas_logo_outline_transparent_white.png" alt="" class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../packages_projects_tools/index.html"> 
+<span class="menu-text">Packages, Projects &amp; Tools</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../books_training/index.html"> 
+<span class="menu-text">Books, Training &amp; Communities</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../recordings/index.html"> 
+<span class="menu-text">Recordings</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../techniques/index.html"> 
+<span class="menu-text">Techniques</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../graph_catalogue/index.html"> 
+<span class="menu-text">Graphs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about/index.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../contributing/index.html"> 
+<span class="menu-text">Contribute</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose">
+            Submit an Atlas entry or a bug report
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/hsma-programme/decision_intelligence_atlas">
+            View the code for the Atlas
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/orgs/hsma-programme/projects/2/views/7">
+            View planned Atlas entries
+            </a>
+          </li>
+      </ul>
+    </div>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block projects default page-columns page-full">
+        <div class="back-nav" style="color:white">
+        <a href="javascript:history.back()" style="color:white">← Back</a>
+    </div>
+    
+    <!-- Wrapper with relative positioning for this section only -->
+    <div class="banner-wrapper page-columns page-full" style="position: relative;">
+        <!-- Full-width background container -->
+        <!-- <div class="finisher-header-background">
+            <div class="finisher-header default"></div>
+        </div> -->
+
+        <!-- Content layer -->
+        <!-- <div class="quarto-title-banner" style="position: relative; z-index: 1; width: 100%; margin-left: auto; margin-right: auto; text-align: center;"> -->
+        <div class="quarto-title-banner page-columns page-full">
+            <div class="quarto-title column-page-left">
+                                                <div class="quarto-categories">
+                                        <div class="quarto-category">Courses and Training or Reference Materials</div>
+                                        <div class="quarto-category">Recorded Talks</div>
+                                    </div>
+                                                <h1 class="title">HSMA: Lecture and Masterclass Recordings <i class="fa-solid fa-user-graduate"></i></h1>
+                                                                <br>
+                <div class="abstract">
+                    <b>Summary</b>
+                    <p>Recordings of the live lectures from the third, fourth, fifth and sixth rounds of the Health Service Modelling Associates (HSMA) programme, plus standalone HSMA masterclasses and workshops. They cover programming in Python (and R in earlier rounds), discrete event simulation, geographic modelling, machine learning, natural language processing, forecasting, network analysis, system dynamics, agent-based simulation, web apps and reproducible reporting.</p>
+                                        Rating: N/A
+                                        <p>Collection of recordings from several rounds of a course, with differing content and presenters, so it is not ranked as a whole.</p>
+                                                        </div>
+                
+                                <div class="project-link-buttons">
+                    <ul class="project-links">
+                                                                        <button class="custom-button"><a href="https://www.youtube.com/%40hsma/playlists"><i class="fa-brands fa-youtube"></i> YouTube</a></button>
+                                                                                                <button class="custom-button"><a href="https://hsma.co.uk/modules.html"><i class="fa-solid fa-book"></i> Modules</a></button>
+                                                                    </ul>
+                </div>
+                
+                                <p><b>Atlas Entry authored by:</b>
+                                |&nbsp;Sammi Rosser
+                                (<a href="https://github.com/Bergam0t">Link</a>)
+                                &nbsp;|&nbsp;
+                                </p>
+                            </div>
+
+        </div>
+    <!-- </div> -->
+
+    
+    <div class="quarto-title-meta column-page-left">
+
+        <div>
+        <div class="quarto-title-meta-heading">Author</div>
+        <div class="quarto-title-meta-contents">
+                 <p>Health Service Modelling Associates Programme (HSMA) </p>
+              </div>
+      </div>
+        
+        <div>
+        <div class="quarto-title-meta-heading">Page last modified</div>
+        <div class="quarto-title-meta-contents">
+          <p class="date">04 October 2026</p>
+        </div>
+      </div>
+      
+        
+      </div>
+      
+    </div></header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#search-the-sessions" id="toc-search-the-sessions" class="nav-link active" data-scroll-target="#search-the-sessions">Search the sessions</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+
+<script src="../../resources/finisher-header.es5.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+new FinisherHeader({
+  "count": 10,
+  "size": {
+    "min": 1300,
+    "max": 1500,
+    "pulse": 0
+  },
+  "speed": {
+    "x": {
+      "min": 0.1,
+      "max": 0.6
+    },
+    "y": {
+      "min": 0.1,
+      "max": 0.6
+    }
+  },
+  "colors": {
+    "background": "#005eb8",
+    "particles": [
+      "#00a9ce",
+      "#41b6e6",
+      "#ffb81c",
+      "#00a499",
+      "#ff0000"
+    ]
+  },
+  "blending": "overlay",
+  "opacity": {
+    "center": 0.5,
+    "edge": 0.05
+  },
+  "skew": 0,
+  "shapes": [
+    "c"
+  ]
+});
+</script>
+
+<!-- <style>
+    .banner-wrapper {
+        position: relative;
+        overflow: hidden;
+
+    }
+
+    #title-block-header {
+        margin-top: -30px;
+        margin-left: 50px;
+        width: 120vw;
+    }
+
+    /* Full-width background layer - only for the banner section */
+    .finisher-header-background {
+        position: absolute;
+        top: 0;
+        left: calc(-1 * ((100vw - 100%) / 2));
+        /* Pull left by half the difference between viewport and container */
+        width: 120vw;
+        height: 100%;
+        z-index: 0;
+        pointer-events: none;
+        overflow: visible;
+    }
+
+    .finisher-header {
+        width: 100%;
+        height: 100%;
+        max-height: 100%;
+        /* Constrain to parent */
+        overflow: visible;
+        /* Prevent canvas from expanding beyond */
+    }
+
+    .finisher-header canvas {
+        width: 100% !important;
+        height: 100% !important;
+        max-height: 100%;
+        display: block;
+    }
+</style> -->
+
+
+<style>
+    /* Put your existing title banner *above* the animation */
+    #title-block-header .quarto-title-banner {
+        position: relative;
+        z-index: 1;
+        /* background: transparent;   so you can actually see the animation */
+    }
+
+    .quarto-title-block .quarto-title-banner {
+        background-color: #006962;
+    }
+
+    #title-block-header > div.banner-wrapper.page-columns.page-full {
+        margin-top: -25px
+    }
+
+    .project-link-buttons {
+        justify-content: left;
+        margin-left: -35px;
+    }
+
+</style>
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.youtube.com/%40hsma/playlists"><img src="lecture.jpg" class="img-fluid figure-img"></a></p>
+<figcaption>HSMA 6 lecture recording</figcaption>
+</figure>
+</div>
+<p>The <a href="../../books_training/hsma_programme/index.html">Health Service Modelling Associates (HSMA) programme</a> teaches its live lectures online, and records them for participants and anyone else who wants to learn. This entry brings together the recordings from four rounds of the programme, plus standalone workshops and masterclasses:</p>
+<ul>
+<li><strong>Standalone workshops</strong> (2026) - a two-part introduction to discrete event simulation and SimPy, run separately from the main programme</li>
+<li><strong>HSMA 6</strong> (2024) - every lecture from the most recent round, which also make up the <a href="../../books_training/hsma_intro_programming_module/index.html">HSMA module</a> entries in the Atlas</li>
+<li><strong>HSMA 5</strong> (2022 to 2023) - lectures, plus the programme’s open day</li>
+<li><strong>HSMA 4</strong> - lectures and bonus tutorials, including sessions on network analysis and programming in R</li>
+<li><strong>HSMA 3</strong> (2020) - lectures and bonus tutorials, including programming in Python and R, discrete event simulation, geographic modelling with QGIS and GeoPandas, system dynamics, network analysis, agent-based simulation, machine learning, forecasting and natural language processing</li>
+<li><strong>Masterclasses</strong> (2023) - standalone sessions on explainable AI with SHAP, Shiny for Python, Streamlit and BERT for natural language processing</li>
+</ul>
+<p>Content changes between rounds, so older recordings may use different tools or package versions from those taught today. For the most up-to-date materials, including slides, code and exercises for each session, see the <a href="https://hsma.co.uk/modules.html">HSMA modules page</a> or the HSMA books, such as the <a href="../../books_training/hsma_python_book/index.html">HSMA book of Python</a>.</p>
+<section id="search-the-sessions" class="level2">
+<h2 class="anchored" data-anchor-id="search-the-sessions">Search the sessions</h2>
+<p>Search for a session by title, topic, round or type. The most recent rounds are listed first. Where a recording’s description gives timings for its sections, each section is listed separately and the link starts the video at that section.</p>
+<div id="listing-lecture-recordings" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-lecture-recordings-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-lecture-recordings'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title-sort" data-direction="asc">
+        Session
+      </option>
+      <option value="listing-event" data-direction="asc">
+        Round
+      </option>
+      <option value="listing-type" data-direction="asc">
+        Type
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Session</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-event" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Round</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-type" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Type</a>
+</th>
+
+<th>
+Details
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-listing-date-sort="1790812800000" data-listing-title-sort="PART 2 Introduction to Discrete Event Simulation and SimPy - a Standalone Workshop (vidigi)">
+<td>
+<a href="https://www.youtube.com/watch?v=twN-B6LW1tU" class="title listing-title">PART 2 Introduction to Discrete Event Simulation and SimPy - a Standalone Workshop (vidigi)</a>
+</td>
+<td>
+<span class="listing-event">Standalone workshops</span>
+</td>
+<td>
+<span class="listing-type">Workshop</span>
+</td>
+<td>
+<span class="listing-description">Part 2 of our two-part workshop. Discrete Event Simulation (DES) is a simulation modelling technique that allows us to tackle queuing problems in health and social care. These might include identifying delays in patient pathways and testing out the impact of reconfiguring processes and resources to…</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-listing-date-sort="1790812800000" data-listing-title-sort="PART 1 Introduction to Discrete Event Simulation and SimPy - a Standalone Workshop">
+<td>
+<a href="https://www.youtube.com/watch?v=vUtObBS0XVk" class="title listing-title">PART 1 Introduction to Discrete Event Simulation and SimPy - a Standalone Workshop</a>
+</td>
+<td>
+<span class="listing-event">Standalone workshops</span>
+</td>
+<td>
+<span class="listing-type">Workshop</span>
+</td>
+<td>
+<span class="listing-description">This is Part 1 of a two-part workshop. Discrete Event Simulation (DES) is a simulation modelling technique that allows us to tackle queuing problems in health and social care. These might include identifying delays in patient pathways and testing out the impact of reconfiguring processes and…</span>
+</td>
+
+</tr>
+
+<tr data-index="2" data-listing-date-sort="1713312000000" data-listing-title-sort="(HSMA 6 Day 1) 1A : Welcome to HSMA">
+<td>
+<a href="https://www.youtube.com/watch?v=gIUzgz7CeMw" class="title listing-title">(HSMA 6 Day 1) 1A : Welcome to HSMA</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">The induction session for our new HSMA cohort in April 2024. GitHub Repo for this session :</span>
+</td>
+
+</tr>
+
+<tr data-index="3" data-listing-date-sort="1713916800000" data-listing-title-sort="(HSMA 6 Day 2) : 1B Introduction to OR and Data Science and 1C Principles of Programming">
+<td>
+<a href="https://www.youtube.com/watch?v=aftDNqfMe1w" class="title listing-title">(HSMA 6 Day 2) : 1B Introduction to OR and Data Science and 1C Principles of Programming</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In these sessions, we introduce Operational Research and Data Science and explore the concept of conceptual modelling. We also explore key concepts in programming ahead of the subsequent Python training. Session 1B Links GitHub : Slides : Session 1C Links GitHub : Slides : HSMA Website :</span>
+</td>
+
+</tr>
+
+<tr data-index="4" data-listing-date-sort="1714521600000" data-listing-title-sort="(HSMA 6 Day 3) : 1D Hello World!  Introduction to the IDEs and Python Parlance">
+<td>
+<a href="https://www.youtube.com/watch?v=0jV0jtIE3_U" class="title listing-title">(HSMA 6 Day 3) : 1D Hello World! Introduction to the IDEs and Python Parlance</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this session, we introduce VSCode and demonstrate how to set up VSCode for Python coding. We also demonstrate Jupyter Notebooks and Google CoLab, and talk about Python packages and working with virtual environments. GitHub : Slides : HSMA Website :</span>
+</td>
+
+</tr>
+
+<tr data-index="5" data-listing-date-sort="1715126400000" data-listing-title-sort="Intro to Python">
+<td>
+<a href="https://www.youtube.com/watch?v=Ey3yUaKkZKY&amp;t=921s" class="title listing-title">Intro to Python</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 4) 1E Python Programming Part 1’, starting at 15:21.</span>
+</td>
+
+</tr>
+
+<tr data-index="6" data-listing-date-sort="1715126400000" data-listing-title-sort="Print">
+<td>
+<a href="https://www.youtube.com/watch?v=Ey3yUaKkZKY&amp;t=1087s" class="title listing-title">Print</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 4) 1E Python Programming Part 1’, starting at 18:07.</span>
+</td>
+
+</tr>
+
+<tr data-index="7" data-listing-date-sort="1715126400000" data-listing-title-sort="Variables">
+<td>
+<a href="https://www.youtube.com/watch?v=Ey3yUaKkZKY&amp;t=1450s" class="title listing-title">Variables</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 4) 1E Python Programming Part 1’, starting at 24:10.</span>
+</td>
+
+</tr>
+
+<tr data-index="8" data-listing-date-sort="1715126400000" data-listing-title-sort="Variable Types">
+<td>
+<a href="https://www.youtube.com/watch?v=Ey3yUaKkZKY&amp;t=1834s" class="title listing-title">Variable Types</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 4) 1E Python Programming Part 1’, starting at 30:34.</span>
+</td>
+
+</tr>
+
+<tr data-index="9" data-listing-date-sort="1715126400000" data-listing-title-sort="Variable Types - Storing Multiple Items">
+<td>
+<a href="https://www.youtube.com/watch?v=Ey3yUaKkZKY&amp;t=2088s" class="title listing-title">Variable Types - Storing Multiple Items</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 4) 1E Python Programming Part 1’, starting at 34:48.</span>
+</td>
+
+</tr>
+
+<tr data-index="10" data-listing-date-sort="1715126400000" data-listing-title-sort="fStrings">
+<td>
+<a href="https://www.youtube.com/watch?v=Ey3yUaKkZKY&amp;t=2340s" class="title listing-title">fStrings</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 4) 1E Python Programming Part 1’, starting at 39:00.</span>
+</td>
+
+</tr>
+
+<tr data-index="11" data-listing-date-sort="1715126400000" data-listing-title-sort="User Input and Casting">
+<td>
+<a href="https://www.youtube.com/watch?v=Ey3yUaKkZKY&amp;t=2662s" class="title listing-title">User Input and Casting</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 4) 1E Python Programming Part 1’, starting at 44:22.</span>
+</td>
+
+</tr>
+
+<tr data-index="12" data-listing-date-sort="1715126400000" data-listing-title-sort="Mathematical Operators">
+<td>
+<a href="https://www.youtube.com/watch?v=Ey3yUaKkZKY&amp;t=3239s" class="title listing-title">Mathematical Operators</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 4) 1E Python Programming Part 1’, starting at 53:59.</span>
+</td>
+
+</tr>
+
+<tr data-index="13" data-listing-date-sort="1715126400000" data-listing-title-sort="Comments">
+<td>
+<a href="https://www.youtube.com/watch?v=Ey3yUaKkZKY&amp;t=3784s" class="title listing-title">Comments</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 4) 1E Python Programming Part 1’, starting at 1:03:04.</span>
+</td>
+
+</tr>
+
+<tr data-index="14" data-listing-date-sort="1715126400000" data-listing-title-sort="Conditional Logic and Comparison Operators">
+<td>
+<a href="https://www.youtube.com/watch?v=Ey3yUaKkZKY&amp;t=4022s" class="title listing-title">Conditional Logic and Comparison Operators</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 4) 1E Python Programming Part 1’, starting at 1:07:02.</span>
+</td>
+
+</tr>
+
+<tr data-index="15" data-listing-date-sort="1715126400000" data-listing-title-sort="Comparison Operator Game">
+<td>
+<a href="https://www.youtube.com/watch?v=Ey3yUaKkZKY&amp;t=4721s" class="title listing-title">Comparison Operator Game</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 4) 1E Python Programming Part 1’, starting at 1:18:41.</span>
+</td>
+
+</tr>
+
+<tr data-index="16" data-listing-date-sort="1715126400000" data-listing-title-sort="An Intro to Loops">
+<td>
+<a href="https://www.youtube.com/watch?v=Ey3yUaKkZKY&amp;t=5469s" class="title listing-title">An Intro to Loops</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 4) 1E Python Programming Part 1’, starting at 1:31:09.</span>
+</td>
+
+</tr>
+
+<tr data-index="17" data-listing-date-sort="1715126400000" data-listing-title-sort="For Loops">
+<td>
+<a href="https://www.youtube.com/watch?v=Ey3yUaKkZKY&amp;t=5506s" class="title listing-title">For Loops</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 4) 1E Python Programming Part 1’, starting at 1:31:46.</span>
+</td>
+
+</tr>
+
+<tr data-index="18" data-listing-date-sort="1715126400000" data-listing-title-sort="While Loops">
+<td>
+<a href="https://www.youtube.com/watch?v=Ey3yUaKkZKY&amp;t=6191s" class="title listing-title">While Loops</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 4) 1E Python Programming Part 1’, starting at 1:43:11.</span>
+</td>
+
+</tr>
+
+<tr data-index="19" data-listing-date-sort="1715126400000" data-listing-title-sort="Breaking from a loop">
+<td>
+<a href="https://www.youtube.com/watch?v=Ey3yUaKkZKY&amp;t=6381s" class="title listing-title">Breaking from a loop</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 4) 1E Python Programming Part 1’, starting at 1:46:21.</span>
+</td>
+
+</tr>
+
+<tr data-index="20" data-listing-date-sort="1715126400000" data-listing-title-sort="Infinite Loops">
+<td>
+<a href="https://www.youtube.com/watch?v=Ey3yUaKkZKY&amp;t=6547s" class="title listing-title">Infinite Loops</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 4) 1E Python Programming Part 1’, starting at 1:49:07.</span>
+</td>
+
+</tr>
+
+<tr data-index="21" data-listing-date-sort="1715126400000" data-listing-title-sort="Lists">
+<td>
+<a href="https://www.youtube.com/watch?v=Ey3yUaKkZKY&amp;t=7232s" class="title listing-title">Lists</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 4) 1E Python Programming Part 1’, starting at 2:00:32.</span>
+</td>
+
+</tr>
+
+<tr data-index="22" data-listing-date-sort="1715126400000" data-listing-title-sort="Accessing List Elements">
+<td>
+<a href="https://www.youtube.com/watch?v=Ey3yUaKkZKY&amp;t=7675s" class="title listing-title">Accessing List Elements</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 4) 1E Python Programming Part 1’, starting at 2:07:55.</span>
+</td>
+
+</tr>
+
+<tr data-index="23" data-listing-date-sort="1715126400000" data-listing-title-sort="Negative Indexing and Slicing of Lists">
+<td>
+<a href="https://www.youtube.com/watch?v=Ey3yUaKkZKY&amp;t=8072s" class="title listing-title">Negative Indexing and Slicing of Lists</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 4) 1E Python Programming Part 1’, starting at 2:14:32.</span>
+</td>
+
+</tr>
+
+<tr data-index="24" data-listing-date-sort="1715126400000" data-listing-title-sort="List Comprehensions">
+<td>
+<a href="https://www.youtube.com/watch?v=Ey3yUaKkZKY&amp;t=8489s" class="title listing-title">List Comprehensions</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 4) 1E Python Programming Part 1’, starting at 2:21:29.</span>
+</td>
+
+</tr>
+
+<tr data-index="25" data-listing-date-sort="1715126400000" data-listing-title-sort="Dictionaries">
+<td>
+<a href="https://www.youtube.com/watch?v=Ey3yUaKkZKY&amp;t=8798s" class="title listing-title">Dictionaries</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 4) 1E Python Programming Part 1’, starting at 2:26:38.</span>
+</td>
+
+</tr>
+
+<tr data-index="26" data-listing-date-sort="1715126400000" data-listing-title-sort="Dictionary Operations">
+<td>
+<a href="https://www.youtube.com/watch?v=Ey3yUaKkZKY&amp;t=8939s" class="title listing-title">Dictionary Operations</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 4) 1E Python Programming Part 1’, starting at 2:28:59.</span>
+</td>
+
+</tr>
+
+<tr data-index="27" data-listing-date-sort="1715126400000" data-listing-title-sort="Importing Packages">
+<td>
+<a href="https://www.youtube.com/watch?v=Ey3yUaKkZKY&amp;t=9714s" class="title listing-title">Importing Packages</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 4) 1E Python Programming Part 1’, starting at 2:41:54.</span>
+</td>
+
+</tr>
+
+<tr data-index="28" data-listing-date-sort="1715126400000" data-listing-title-sort="The Random Library">
+<td>
+<a href="https://www.youtube.com/watch?v=Ey3yUaKkZKY&amp;t=10013s" class="title listing-title">The Random Library</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 4) 1E Python Programming Part 1’, starting at 2:46:53.</span>
+</td>
+
+</tr>
+
+<tr data-index="29" data-listing-date-sort="1715731200000" data-listing-title-sort="Functions">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=786s" class="title listing-title">Functions</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 13:06.</span>
+</td>
+
+</tr>
+
+<tr data-index="30" data-listing-date-sort="1715731200000" data-listing-title-sort="Writing and Calling Functions">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=1037s" class="title listing-title">Writing and Calling Functions</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 17:17.</span>
+</td>
+
+</tr>
+
+<tr data-index="31" data-listing-date-sort="1715731200000" data-listing-title-sort="Functions Without Inputs">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=1653s" class="title listing-title">Functions Without Inputs</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 27:33.</span>
+</td>
+
+</tr>
+
+<tr data-index="32" data-listing-date-sort="1715731200000" data-listing-title-sort="Returning Multiple Values from Functions">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=1730s" class="title listing-title">Returning Multiple Values from Functions</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 28:50.</span>
+</td>
+
+</tr>
+
+<tr data-index="33" data-listing-date-sort="1715731200000" data-listing-title-sort="Global and Local Variables">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=1994s" class="title listing-title">Global and Local Variables</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 33:14.</span>
+</td>
+
+</tr>
+
+<tr data-index="34" data-listing-date-sort="1715731200000" data-listing-title-sort="Exception Handling">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=2556s" class="title listing-title">Exception Handling</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 42:36.</span>
+</td>
+
+</tr>
+
+<tr data-index="35" data-listing-date-sort="1715731200000" data-listing-title-sort="Reading and Writing csv files without Pandas">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=2917s" class="title listing-title">Reading and Writing csv files without Pandas</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 48:37.</span>
+</td>
+
+</tr>
+
+<tr data-index="36" data-listing-date-sort="1715731200000" data-listing-title-sort="File Access Modes">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=3729s" class="title listing-title">File Access Modes</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 1:02:09.</span>
+</td>
+
+</tr>
+
+<tr data-index="37" data-listing-date-sort="1715731200000" data-listing-title-sort="An Introduction to Numpy and Multidimensional Arrays">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=4433s" class="title listing-title">An Introduction to Numpy and Multidimensional Arrays</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 1:13:53.</span>
+</td>
+
+</tr>
+
+<tr data-index="38" data-listing-date-sort="1715731200000" data-listing-title-sort="Creating Numpy Arrays">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=5086s" class="title listing-title">Creating Numpy Arrays</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 1:24:46.</span>
+</td>
+
+</tr>
+
+<tr data-index="39" data-listing-date-sort="1715731200000" data-listing-title-sort="Indexing and Slicing Numpy Arrays">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=5399s" class="title listing-title">Indexing and Slicing Numpy Arrays</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 1:29:59.</span>
+</td>
+
+</tr>
+
+<tr data-index="40" data-listing-date-sort="1715731200000" data-listing-title-sort="Updating Values in Numpy Arrays">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=5682s" class="title listing-title">Updating Values in Numpy Arrays</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 1:34:42.</span>
+</td>
+
+</tr>
+
+<tr data-index="41" data-listing-date-sort="1715731200000" data-listing-title-sort="Creating empty numpy arrays">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=5758s" class="title listing-title">Creating empty numpy arrays</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 1:35:58.</span>
+</td>
+
+</tr>
+
+<tr data-index="42" data-listing-date-sort="1715731200000" data-listing-title-sort="Creating numpy arrays with evenly spaced intervals">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=5914s" class="title listing-title">Creating numpy arrays with evenly spaced intervals</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 1:38:34.</span>
+</td>
+
+</tr>
+
+<tr data-index="43" data-listing-date-sort="1715731200000" data-listing-title-sort="Creating an array of zeros">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=5974s" class="title listing-title">Creating an array of zeros</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 1:39:34.</span>
+</td>
+
+</tr>
+
+<tr data-index="44" data-listing-date-sort="1715731200000" data-listing-title-sort="Numpy Array Shape and Dimensions">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=6003s" class="title listing-title">Numpy Array Shape and Dimensions</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 1:40:03.</span>
+</td>
+
+</tr>
+
+<tr data-index="45" data-listing-date-sort="1715731200000" data-listing-title-sort="Mathematical Operations with Numpy Arrays">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=6072s" class="title listing-title">Mathematical Operations with Numpy Arrays</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 1:41:12.</span>
+</td>
+
+</tr>
+
+<tr data-index="46" data-listing-date-sort="1715731200000" data-listing-title-sort="Statistical Operations with Numpy Arrays">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=6251s" class="title listing-title">Statistical Operations with Numpy Arrays</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 1:44:11.</span>
+</td>
+
+</tr>
+
+<tr data-index="47" data-listing-date-sort="1715731200000" data-listing-title-sort="Dot Product with Numpy">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=6397s" class="title listing-title">Dot Product with Numpy</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 1:46:37.</span>
+</td>
+
+</tr>
+
+<tr data-index="48" data-listing-date-sort="1715731200000" data-listing-title-sort="Removing Duplicates from Numpy Arrays">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=6507s" class="title listing-title">Removing Duplicates from Numpy Arrays</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 1:48:27.</span>
+</td>
+
+</tr>
+
+<tr data-index="49" data-listing-date-sort="1715731200000" data-listing-title-sort="An Introduction to Pandas">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=7853s" class="title listing-title">An Introduction to Pandas</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 2:10:53.</span>
+</td>
+
+</tr>
+
+<tr data-index="50" data-listing-date-sort="1715731200000" data-listing-title-sort="Creating New Pandas Dataframes and Setting the Index Column">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=7997s" class="title listing-title">Creating New Pandas Dataframes and Setting the Index Column</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 2:13:17.</span>
+</td>
+
+</tr>
+
+<tr data-index="51" data-listing-date-sort="1715731200000" data-listing-title-sort="Indexing Pandas Dataframes (Selecting Rows or Columns)">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=8256s" class="title listing-title">Indexing Pandas Dataframes (Selecting Rows or Columns)</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 2:17:36.</span>
+</td>
+
+</tr>
+
+<tr data-index="52" data-listing-date-sort="1715731200000" data-listing-title-sort="Conditional Indexing (selecting columns that meet a criteria)">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=8446s" class="title listing-title">Conditional Indexing (selecting columns that meet a criteria)</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 2:20:46.</span>
+</td>
+
+</tr>
+
+<tr data-index="53" data-listing-date-sort="1715731200000" data-listing-title-sort="Adding Rows and Columns to Dataframes">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=8643s" class="title listing-title">Adding Rows and Columns to Dataframes</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 2:24:03.</span>
+</td>
+
+</tr>
+
+<tr data-index="54" data-listing-date-sort="1715731200000" data-listing-title-sort="Concatenating Pandas Dataframes (joining dataframes)">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=8798s" class="title listing-title">Concatenating Pandas Dataframes (joining dataframes)</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 2:26:38.</span>
+</td>
+
+</tr>
+
+<tr data-index="55" data-listing-date-sort="1715731200000" data-listing-title-sort="Dropping (Removing) Rows and Columns from Dataframes">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=8951s" class="title listing-title">Dropping (Removing) Rows and Columns from Dataframes</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 2:29:11.</span>
+</td>
+
+</tr>
+
+<tr data-index="56" data-listing-date-sort="1715731200000" data-listing-title-sort="Value Counts on Pandas Dataframes">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=9129s" class="title listing-title">Value Counts on Pandas Dataframes</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 2:32:09.</span>
+</td>
+
+</tr>
+
+<tr data-index="57" data-listing-date-sort="1715731200000" data-listing-title-sort="Creating Pivot Tables from Pandas Dataframes">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=9293s" class="title listing-title">Creating Pivot Tables from Pandas Dataframes</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 2:34:53.</span>
+</td>
+
+</tr>
+
+<tr data-index="58" data-listing-date-sort="1715731200000" data-listing-title-sort="Dropping Duplicates from Pandas Dataframes">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=9518s" class="title listing-title">Dropping Duplicates from Pandas Dataframes</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 2:38:38.</span>
+</td>
+
+</tr>
+
+<tr data-index="59" data-listing-date-sort="1715731200000" data-listing-title-sort="Sorting Pandas Dataframes">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=9795s" class="title listing-title">Sorting Pandas Dataframes</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 2:43:15.</span>
+</td>
+
+</tr>
+
+<tr data-index="60" data-listing-date-sort="1715731200000" data-listing-title-sort="Neat Pandas Features - head, tail, describe, astype, mean">
+<td>
+<a href="https://www.youtube.com/watch?v=QuhUeysnTgY&amp;t=9875s" class="title listing-title">Neat Pandas Features - head, tail, describe, astype, mean</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 5) 1F Python Programming Part 2’, starting at 2:44:35.</span>
+</td>
+
+</tr>
+
+<tr data-index="61" data-listing-date-sort="1716336000000" data-listing-title-sort="A Recap of Objected Oriented Programming">
+<td>
+<a href="https://www.youtube.com/watch?v=RvU3MBEd280&amp;t=806s" class="title listing-title">A Recap of Objected Oriented Programming</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 6) 1G Python Programming Part 3’, starting at 13:26.</span>
+</td>
+
+</tr>
+
+<tr data-index="62" data-listing-date-sort="1716336000000" data-listing-title-sort="OOP in Python - Classes, Attributes and Methods">
+<td>
+<a href="https://www.youtube.com/watch?v=RvU3MBEd280&amp;t=1166s" class="title listing-title">OOP in Python - Classes, Attributes and Methods</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 6) 1G Python Programming Part 3’, starting at 19:26.</span>
+</td>
+
+</tr>
+
+<tr data-index="63" data-listing-date-sort="1716336000000" data-listing-title-sort="OOP - A Python Class Example">
+<td>
+<a href="https://www.youtube.com/watch?v=RvU3MBEd280&amp;t=1732s" class="title listing-title">OOP - A Python Class Example</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 6) 1G Python Programming Part 3’, starting at 28:52.</span>
+</td>
+
+</tr>
+
+<tr data-index="64" data-listing-date-sort="1716336000000" data-listing-title-sort="OOP - Instantiation and Creating Multiple Instances">
+<td>
+<a href="https://www.youtube.com/watch?v=RvU3MBEd280&amp;t=1971s" class="title listing-title">OOP - Instantiation and Creating Multiple Instances</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 6) 1G Python Programming Part 3’, starting at 32:51.</span>
+</td>
+
+</tr>
+
+<tr data-index="65" data-listing-date-sort="1716336000000" data-listing-title-sort="Inheritance">
+<td>
+<a href="https://www.youtube.com/watch?v=RvU3MBEd280&amp;t=3015s" class="title listing-title">Inheritance</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 6) 1G Python Programming Part 3’, starting at 50:15.</span>
+</td>
+
+</tr>
+
+<tr data-index="66" data-listing-date-sort="1716336000000" data-listing-title-sort="Inheritance in Python">
+<td>
+<a href="https://www.youtube.com/watch?v=RvU3MBEd280&amp;t=3305s" class="title listing-title">Inheritance in Python</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 6) 1G Python Programming Part 3’, starting at 55:05.</span>
+</td>
+
+</tr>
+
+<tr data-index="67" data-listing-date-sort="1716336000000" data-listing-title-sort="Reusability">
+<td>
+<a href="https://www.youtube.com/watch?v=RvU3MBEd280&amp;t=4536s" class="title listing-title">Reusability</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 6) 1G Python Programming Part 3’, starting at 1:15:36.</span>
+</td>
+
+</tr>
+
+<tr data-index="68" data-listing-date-sort="1716336000000" data-listing-title-sort="An Introduction to matplotlib">
+<td>
+<a href="https://www.youtube.com/watch?v=RvU3MBEd280&amp;t=5459s" class="title listing-title">An Introduction to matplotlib</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 6) 1G Python Programming Part 3’, starting at 1:30:59.</span>
+</td>
+
+</tr>
+
+<tr data-index="69" data-listing-date-sort="1716336000000" data-listing-title-sort="matplotlib - Figures and Axes">
+<td>
+<a href="https://www.youtube.com/watch?v=RvU3MBEd280&amp;t=5739s" class="title listing-title">matplotlib - Figures and Axes</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 6) 1G Python Programming Part 3’, starting at 1:35:39.</span>
+</td>
+
+</tr>
+
+<tr data-index="70" data-listing-date-sort="1716336000000" data-listing-title-sort="matplotlib - Line Plots">
+<td>
+<a href="https://www.youtube.com/watch?v=RvU3MBEd280&amp;t=5872s" class="title listing-title">matplotlib - Line Plots</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 6) 1G Python Programming Part 3’, starting at 1:37:52.</span>
+</td>
+
+</tr>
+
+<tr data-index="71" data-listing-date-sort="1716336000000" data-listing-title-sort="matplotlibs - Bar and Scatter Plots">
+<td>
+<a href="https://www.youtube.com/watch?v=RvU3MBEd280&amp;t=6354s" class="title listing-title">matplotlibs - Bar and Scatter Plots</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 6) 1G Python Programming Part 3’, starting at 1:45:54.</span>
+</td>
+
+</tr>
+
+<tr data-index="72" data-listing-date-sort="1716336000000" data-listing-title-sort="matplotlib - Saving Plots">
+<td>
+<a href="https://www.youtube.com/watch?v=RvU3MBEd280&amp;t=6432s" class="title listing-title">matplotlib - Saving Plots</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘(HSMA 6 Day 6) 1G Python Programming Part 3’, starting at 1:47:12.</span>
+</td>
+
+</tr>
+
+<tr data-index="73" data-listing-date-sort="1716940800000" data-listing-title-sort="(HSMA 6 Day 7) 2A Introduction to Discrete Event Simulation">
+<td>
+<a href="https://www.youtube.com/watch?v=TxdvJQxuSx4" class="title listing-title">(HSMA 6 Day 7) 2A Introduction to Discrete Event Simulation</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">Today we begin module 2 of the programme, in which we explore how we can model pathway and queuing problems using a modelling method known as Discrete Event Simulation. We’ll explore how Discrete Event Simulations work and you’ll have a chance to design your own. GitHub (2A): Slides (2A): HSMA…</span>
+</td>
+
+</tr>
+
+<tr data-index="74" data-listing-date-sort="1716940800000" data-listing-title-sort="(HSMA 6 Day 7) 2B SimPy Part 1">
+<td>
+<a href="https://www.youtube.com/watch?v=nHgyJ6i0TGs" class="title listing-title">(HSMA 6 Day 7) 2B SimPy Part 1</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">Today we look at how we can use the SimPy Python package (which is built around generator functions) to build Discrete Event Simulations in Python. GitHub (2B): Slides (2B): HSMA Website :</span>
+</td>
+
+</tr>
+
+<tr data-index="75" data-listing-date-sort="1718150400000" data-listing-title-sort="(HSMA 6 Day 8) 2C SimPy Part 2">
+<td>
+<a href="https://www.youtube.com/watch?v=FBVBKtVkayA" class="title listing-title">(HSMA 6 Day 8) 2C SimPy Part 2</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this session we look at some more advanced DES concepts and how we can incorporate them in our SimPy models. This includes warm up periods, priority-based queuing, resource unavailability, Lognormal distributions, reneging, balking and jockeying. Slides : GitHub : HSMA Website :</span>
+</td>
+
+</tr>
+
+<tr data-index="76" data-listing-date-sort="1718150400000" data-listing-title-sort="(HSMA 6 Day 8) 3A Intro to Geospatial Problems in Health &amp; Geographic Visualisation using QGIS Pt 1">
+<td>
+<a href="https://www.youtube.com/watch?v=t-5KKMr3El4" class="title listing-title">(HSMA 6 Day 8) 3A Intro to Geospatial Problems in Health &amp; Geographic Visualisation using QGIS Pt 1</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this session, we introduce some key concepts of geographic modelling and visualisation, and begin our exploration of the free and open source geographic visualisation software package QGIS. Slides : GitHub : HSMA Website :</span>
+</td>
+
+</tr>
+
+<tr data-index="77" data-listing-date-sort="1718755200000" data-listing-title-sort="(HSMA 6 Day 9) 3B - Choropleths and print layouts in QGIS">
+<td>
+<a href="https://www.youtube.com/watch?v=eHJzQn9mI2E" class="title listing-title">(HSMA 6 Day 9) 3B - Choropleths and print layouts in QGIS</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="78" data-listing-date-sort="1718755200000" data-listing-title-sort="(HSMA 6 Day 9) 3B - Geopandas and plotting static maps in Python with matplotlib">
+<td>
+<a href="https://www.youtube.com/watch?v=7w366aEAGAs" class="title listing-title">(HSMA 6 Day 9) 3B - Geopandas and plotting static maps in Python with matplotlib</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="79" data-listing-date-sort="1718755200000" data-listing-title-sort="(HSMA 6 Day 9) 3C - Interactive Maps in Python with Folium">
+<td>
+<a href="https://www.youtube.com/watch?v=_14heKZ9YjA" class="title listing-title">(HSMA 6 Day 9) 3C - Interactive Maps in Python with Folium</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="80" data-listing-date-sort="1718755200000" data-listing-title-sort="(HSMA 6 Day 9) 3C - Visualising Travel Time Data in Python">
+<td>
+<a href="https://www.youtube.com/watch?v=_KD7gOMPFgY" class="title listing-title">(HSMA 6 Day 9) 3C - Visualising Travel Time Data in Python</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="81" data-listing-date-sort="1719273600000" data-listing-title-sort="(HSMA 6 Day 10) 3D - Location Allocation Problems">
+<td>
+<a href="https://www.youtube.com/watch?v=UJdv0HIuG6s" class="title listing-title">(HSMA 6 Day 10) 3D - Location Allocation Problems</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this session we talk about how to construct and carry out the p-median location allocation problem - minimising a weighted cost across a region for different possible combinations of sites. Materials can be found here:</span>
+</td>
+
+</tr>
+
+<tr data-index="82" data-listing-date-sort="1719273600000" data-listing-title-sort="(HSMA 6 Day 10) 3C - A brief introduction to routingpy">
+<td>
+<a href="https://www.youtube.com/watch?v=Zd8mQIXNq-o" class="title listing-title">(HSMA 6 Day 10) 3C - A brief introduction to routingpy</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this video we briefly talk about the routingpy library and introduce how it could be used to retrieve travel matrices and isochrone data to assist in p-median location allocation problems and more. All materials for this session can be found here:</span>
+</td>
+
+</tr>
+
+<tr data-index="83" data-listing-date-sort="1719360000000" data-listing-title-sort="(HSMA 6 Day 10) 4A  - Introduction to AI and Machine Learning">
+<td>
+<a href="https://www.youtube.com/watch?v=g3RmQombgEA" class="title listing-title">(HSMA 6 Day 10) 4A - Introduction to AI and Machine Learning</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this session we introduce some of the core concepts of AI and Machine Learning, including the concepts of features and labels, overfitting and underfitting and assessing model performance. We also explore some of the different types of machine learning, and practice our understanding of these…</span>
+</td>
+
+</tr>
+
+<tr data-index="84" data-listing-date-sort="1719964800000" data-listing-title-sort="(HSMA 6 Day 11) 4B - Logistic Regression - Who Would Survive the Titanic?">
+<td>
+<a href="https://www.youtube.com/watch?v=0Cw6LK-MO_w" class="title listing-title">(HSMA 6 Day 11) 4B - Logistic Regression - Who Would Survive the Titanic?</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this session we’ll begin exploring some of the Machine Learning approaches that we can use, starting today with Logistic Regression - a way of fusing together traditional linear regression models with a logistic function to create a powerful classifier model. You’ll see how these models can be…</span>
+</td>
+
+</tr>
+
+<tr data-index="85" data-listing-date-sort="1719964800000" data-listing-title-sort="(HSMA 6 Day 11) 4C  - Ethics in AI">
+<td>
+<a href="https://www.youtube.com/watch?v=fzgtDKCLGHI" class="title listing-title">(HSMA 6 Day 11) 4C - Ethics in AI</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this session we’ll explore some of the key ethical considerations that are fundamental to any machine learning work, as we explore what can (and will) go wrong. Slides : HSMA Website :</span>
+</td>
+
+</tr>
+
+<tr data-index="86" data-listing-date-sort="1720483200000" data-listing-title-sort="(HSMA 6 Day 12) 4D Part 1/2 - Decision Trees">
+<td>
+<a href="https://www.youtube.com/watch?v=p3Bc2kDtPPs" class="title listing-title">(HSMA 6 Day 12) 4D Part 1/2 - Decision Trees</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this session we’ll begin looking at how decision trees are built and how we can use the sklearn implementation of decision trees on our own datasets. We also recap sensitivity (recall), specificity and precision and how to calculate these in sklearn. Slides : Repository: HSMA Website :</span>
+</td>
+
+</tr>
+
+<tr data-index="87" data-listing-date-sort="1720483200000" data-listing-title-sort="(HSMA 6 Day 12) 4D Part 2/2 - Random Forests, F1 score + Confusion Matrices">
+<td>
+<a href="https://www.youtube.com/watch?v=jqvn_OXbIfg" class="title listing-title">(HSMA 6 Day 12) 4D Part 2/2 - Random Forests, F1 score + Confusion Matrices</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this session we’ll take a look at how we can avoid some of the problems of decision trees by using an ensemble method - random forests. We also find out an easier way of calculating sensitivity, specificity and precision in one function, as well as hearing about a new metric called f1 score, and…</span>
+</td>
+
+</tr>
+
+<tr data-index="88" data-listing-date-sort="1720483200000" data-listing-title-sort="(HSMA 6 Day 12) 4E Part 1/2 - Boosting Trees for Classification Problems">
+<td>
+<a href="https://www.youtube.com/watch?v=o9WB1ncskzU" class="title listing-title">(HSMA 6 Day 12) 4E Part 1/2 - Boosting Trees for Classification Problems</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this session we’ll take a look at a family of models called boosted trees. These are a very powerful type of algorithm that perform extremely well on tabular datasets. The session touches on XGBoost, AdaBoost, CatBoost, Histogram-based gradient boosting classifiers and LightGBM. Slides :…</span>
+</td>
+
+</tr>
+
+<tr data-index="89" data-listing-date-sort="1720483200000" data-listing-title-sort="(HSMA 6 Day 12) 4E Part 2/2 - Predicting Numeric Values with Tree-based Algorithms + OneHot encoding">
+<td>
+<a href="https://www.youtube.com/watch?v=udlOEtFWYFc" class="title listing-title">(HSMA 6 Day 12) 4E Part 2/2 - Predicting Numeric Values with Tree-based Algorithms + OneHot encoding</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this session we take a look at how decision trees, random forests and boosted trees can also be used when you want to predict a numeric value instead of classifying a sample as a member of one group or another. We also touch on some key parts of data preprocessing so we can work with a new…</span>
+</td>
+
+</tr>
+
+<tr data-index="90" data-listing-date-sort="1721174400000" data-listing-title-sort="(HSMA 6 Day 13) 4F Neural Networks">
+<td>
+<a href="https://www.youtube.com/watch?v=X0OAjmkuwO8" class="title listing-title">(HSMA 6 Day 13) 4F Neural Networks</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this session we’ll be looking at a subfield of AI that has dominated many of the big advancements in AI over the last few years - Deep Learning - as we introduce Neural Networks. Then, this afternoon, Sammi will dive into the fascinating emerging world of explainable AI as a way to build…</span>
+</td>
+
+</tr>
+
+<tr data-index="91" data-listing-date-sort="1721174400000" data-listing-title-sort="(HSMA 6 Day 13) 4G Part 1/6 - An Introduction to Explainable AI + Correlation vs Causality">
+<td>
+<a href="https://www.youtube.com/watch?v=33ZN1orqjKk" class="title listing-title">(HSMA 6 Day 13) 4G Part 1/6 - An Introduction to Explainable AI + Correlation vs Causality</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this part of the Explainable AI session, we explore - why explainability is importantant in AI models - what we mean by explainability - the difference between correlation and causation Slides : Repository: HSMA Website :</span>
+</td>
+
+</tr>
+
+<tr data-index="92" data-listing-date-sort="1721174400000" data-listing-title-sort="(HSMA 6 Day 13) 4G Part 2/6 - Feature Importance in Logistic Regression &amp; Odds/Log Odds/Probability">
+<td>
+<a href="https://www.youtube.com/watch?v=B_meJuMbMr4" class="title listing-title">(HSMA 6 Day 13) 4G Part 2/6 - Feature Importance in Logistic Regression &amp; Odds/Log Odds/Probability</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this part of the Explainable AI session, we explore - how we can extract feature importance from a logistic regression model - how to interpret the coefficients from logistic regression models - the relationship between odds, log odds and probability Slides : Repository: HSMA Website :</span>
+</td>
+
+</tr>
+
+<tr data-index="93" data-listing-date-sort="1721174400000" data-listing-title-sort="(HSMA 6 Day 13) 4G Part 3/6 - Feature Importance with MDI + PFI">
+<td>
+<a href="https://www.youtube.com/watch?v=qhVkmPV0QBg" class="title listing-title">(HSMA 6 Day 13) 4G Part 3/6 - Feature Importance with MDI + PFI</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this part of the Explainable AI session, we explore - feature importance for tree-based models with Mean Decrease in Importance (MDI) - model-agnostic feature importance with permutation feature importance (PFI) Slides : Repository: HSMA Website :</span>
+</td>
+
+</tr>
+
+<tr data-index="94" data-listing-date-sort="1721174400000" data-listing-title-sort="(HSMA 6 Day 13) 4G Part 4/6 - Partial Dependence Plots and Individual Conditional Expectation Plots">
+<td>
+<a href="https://www.youtube.com/watch?v=iP07GkeyPpA" class="title listing-title">(HSMA 6 Day 13) 4G Part 4/6 - Partial Dependence Plots and Individual Conditional Expectation Plots</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this part of the Explainable AI session, we explore - the partial dependence plot (PDP) - the individual conditional expectation plot (ICE) - ways of enhancing these plots Slides : Repository: HSMA Website :</span>
+</td>
+
+</tr>
+
+<tr data-index="95" data-listing-date-sort="1721174400000" data-listing-title-sort="(HSMA 6 Day 12) 4G Part 5/6 - Explainable AI with SHAP">
+<td>
+<a href="https://www.youtube.com/watch?v=A4MH0GNfxZA" class="title listing-title">(HSMA 6 Day 12) 4G Part 5/6 - Explainable AI with SHAP</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this part of the Explainable AI session, we explore - what Shapley values are - how the shap library allows us to look at global and local feature importance - how to create and interpret different shap plots Slides : Repository: HSMA Website :</span>
+</td>
+
+</tr>
+
+<tr data-index="96" data-listing-date-sort="1721174400000" data-listing-title-sort="(HSMA 6 Day 12) 4G Part 6/6 - Prediction Uncertainty">
+<td>
+<a href="https://www.youtube.com/watch?v=AUnKMEe3ub4" class="title listing-title">(HSMA 6 Day 12) 4G Part 6/6 - Prediction Uncertainty</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this part of the Explainable AI session, we explore - why calculating prediction uncertainty may be useful - how to calculate and show prediction uncertainty Slides : Repository: HSMA Website :</span>
+</td>
+
+</tr>
+
+<tr data-index="97" data-listing-date-sort="1721779200000" data-listing-title-sort="(HSMA 6 Day 13) 4H - Reinforcement Learning">
+<td>
+<a href="https://www.youtube.com/watch?v=ebFmAiUQkuY" class="title listing-title">(HSMA 6 Day 13) 4H - Reinforcement Learning</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this session we take a look at Reinforcement Learning in a session that will be very different to any you’ve experienced thus far. Note that we’d recommend not looking at the slides until after the first time the reinforcement learning game is played manually. Slides: App Link: App Github…</span>
+</td>
+
+</tr>
+
+<tr data-index="98" data-listing-date-sort="1721779200000" data-listing-title-sort="(HSMA 6 Day 13) 4I - Synthetic Data using SMOTE">
+<td>
+<a href="https://www.youtube.com/watch?v=3H0YMXWCxnM" class="title listing-title">(HSMA 6 Day 13) 4I - Synthetic Data using SMOTE</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this session we take a look at synthetic data - how to create our own fake but realistic data when we want to augment an underrepresented class, or just use the data instead of our real data. Slides: Github Repository: HSMA Website:</span>
+</td>
+
+</tr>
+
+<tr data-index="99" data-listing-date-sort="1722384000000" data-listing-title-sort="(HSMA 6 Day 14) 4J - Optimising ML: Imputation, Feature Engineering &amp; Selection, Hyperparameters">
+<td>
+<a href="https://www.youtube.com/watch?v=LYP1H7X-aeg" class="title listing-title">(HSMA 6 Day 14) 4J - Optimising ML: Imputation, Feature Engineering &amp; Selection, Hyperparameters</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description"><strong>Unfortunately the first 5 minutes or so of the lecture was not recorded</strong> Covering a range of ways to improve your model’s performance, including: - Missing Data Imputation with SimpleImputer and IterativeImputer - Feature Selection with SequentialFeatureSelector (forward and backward selection)…</span>
+</td>
+
+</tr>
+
+<tr data-index="100" data-listing-date-sort="1722384000000" data-listing-title-sort="(HSMA 6 Day 14) 5A - Introduction to Natural Language Processing (NLP)">
+<td>
+<a href="https://www.youtube.com/watch?v=XrdEnUiFBUQ" class="title listing-title">(HSMA 6 Day 14) 5A - Introduction to Natural Language Processing (NLP)</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this session we’ll begin Module 5 and our journey into Natural Language Processing. We’ll look at some core concepts important for processing text data, and learn a few little neat things we can do with our data along the way, including wordclouds and a method for assessing the similarity of…</span>
+</td>
+
+</tr>
+
+<tr data-index="101" data-listing-date-sort="1722988800000" data-listing-title-sort="(HSMA 6 Day 15) 5B - Named Entity Recognition">
+<td>
+<a href="https://www.youtube.com/watch?v=mOnG9H3oOdo" class="title listing-title">(HSMA 6 Day 15) 5B - Named Entity Recognition</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this session we’ll continue our journey into Natural Language Processing. Have you got named entities? Do you need them recognised? Then have we got the session for you! Our session on Named Entity Recognition will talk all about named entities, and recognition of them. Along the way we’ll stop…</span>
+</td>
+
+</tr>
+
+<tr data-index="102" data-listing-date-sort="1722988800000" data-listing-title-sort="(HSMA 6 Day 15) 5C - Sentiment Analysis">
+<td>
+<a href="https://www.youtube.com/watch?v=c74tpYU1opw" class="title listing-title">(HSMA 6 Day 15) 5C - Sentiment Analysis</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this session we don our pirate outfits and sail to the Caribbean as we look for the secret of Sentiment Analysis and Text Classification. We’ll fight dastardly pirates as well as a pirate that’s already dead but just won’t accept it. Slides: Repository: HSMA Website:</span>
+</td>
+
+</tr>
+
+<tr data-index="103" data-listing-date-sort="1723593600000" data-listing-title-sort="(HSMA 6 Day 16) 5D - NLP Hackathon">
+<td>
+<a href="https://www.youtube.com/watch?v=yfiDyURsRMA" class="title listing-title">(HSMA 6 Day 16) 5D - NLP Hackathon</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Hackathon</span>
+</td>
+<td>
+<span class="listing-description">In this session, HSMAs worked in groups to tackle a question of their choosing on some data of their choosing using Natural Language Processing techniques, undertaking miniature projects and practicing those all-important skills needed to tackle their own projects in Phase 2. The recording contains…</span>
+</td>
+
+</tr>
+
+<tr data-index="104" data-listing-date-sort="1725408000000" data-listing-title-sort="(HSMA 6 Day 17) 6B - An Introduction to Agent-Based Simulation">
+<td>
+<a href="https://www.youtube.com/watch?v=jeykRmcNOTU" class="title listing-title">(HSMA 6 Day 17) 6B - An Introduction to Agent-Based Simulation</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this session, we begin looking at Agent Based Simulation - a simulation modelling approach that allows us to capture individual level behaviours of actors in our system, and observe the emergent dynamics. We also take a look at Cellular Automata, and head to the Edge of Chaos. Slides:…</span>
+</td>
+
+</tr>
+
+<tr data-index="105" data-listing-date-sort="1725408000000" data-listing-title-sort="(HSMA 6 Day 17) 6A - System Dynamics">
+<td>
+<a href="https://www.youtube.com/watch?v=H0VVJXpgbfw" class="title listing-title">(HSMA 6 Day 17) 6A - System Dynamics</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this session, we take a look at System Dynamics as a way of understanding whether there are inherent issues in the way our systems are structured. We use the online InsightMaker ( tool to create a quantitative system dynamics model. Slides: Repository: HSMA Website:</span>
+</td>
+
+</tr>
+
+<tr data-index="106" data-listing-date-sort="1726012800000" data-listing-title-sort="(HSMA 6 Day 18) 6C - Agent-Based Simulation with MESA">
+<td>
+<a href="https://www.youtube.com/watch?v=Qe2gOpLDSeQ" class="title listing-title">(HSMA 6 Day 18) 6C - Agent-Based Simulation with MESA</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this session, we look at how we can use the excellent Python package MESA to help us build our own Agent Based Simulations, and we’ll revisit our old friend Object Oriented Programming to help us do that. Slides: Github Repository: HSMA Website:</span>
+</td>
+
+</tr>
+
+<tr data-index="107" data-listing-date-sort="1726617600000" data-listing-title-sort="(HSMA 6 Day 19) 7A - Version Control with Git and Github in VSCode">
+<td>
+<a href="https://www.youtube.com/watch?v=QTw6neSRuRA" class="title listing-title">(HSMA 6 Day 19) 7A - Version Control with Git and Github in VSCode</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">Today we’re going to be looking at the crucial importance of version control, and how we can use Git - a distributed version control system - to allow us to this. We’ll also look at how we can use Git interaction with GitHub to publish and work with repositories hosted online. Git is both amazing…</span>
+</td>
+
+</tr>
+
+<tr data-index="108" data-listing-date-sort="1727222400000" data-listing-title-sort="(HSMA 6 Day 20) 7B - An Introduction to Python Web Apps with Streamlit">
+<td>
+<a href="https://www.youtube.com/watch?v=iOfzfmuAr_Y" class="title listing-title">(HSMA 6 Day 20) 7B - An Introduction to Python Web Apps with Streamlit</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">Today we’re going to start looking at building web apps entirely in Python using the fantastic Streamlit framework. HSMA Streamlit Book: Slides: Github Repository: HSMA Website:</span>
+</td>
+
+</tr>
+
+<tr data-index="109" data-listing-date-sort="1728432000000" data-listing-title-sort="(HSMA 6 Day 21) 7C Python Web Apps with Streamlit - Discrete Event Simulation and Advanced Streamlit">
+<td>
+<a href="https://www.youtube.com/watch?v=1lSkHzOQ03E" class="title listing-title">(HSMA 6 Day 21) 7C Python Web Apps with Streamlit - Discrete Event Simulation and Advanced Streamlit</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">We kick off this session with a recap of the key Streamlit commands (though we’d recommend going through session 7B if you’re new to Streamlit: before a bit of a blast from the past - returning to our discrete event simulation (DES) code of a walk-in clinic from module 2 and turning it into an app.…</span>
+</td>
+
+</tr>
+
+<tr data-index="110" data-listing-date-sort="1729123200000" data-listing-title-sort="(HSMA 6 Day 22) 8A - Reproducible Reporting in Python with Quarto and xlsxwriter">
+<td>
+<a href="https://www.youtube.com/watch?v=xZMoHvZJmJM" class="title listing-title">(HSMA 6 Day 22) 8A - Reproducible Reporting in Python with Quarto and xlsxwriter</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this session, we spend a bit of time learning about Quarto, allowing you to create good-looking reports that weave together code, text, images and more in a neat, easily-distributable format. We also have a look at using a Python script to interact with the command line and produce multiple…</span>
+</td>
+
+</tr>
+
+<tr data-index="111" data-listing-date-sort="1729641600000" data-listing-title-sort="HSMA 6 Hackathon : Hack to the Future Part 2">
+<td>
+<a href="https://www.youtube.com/watch?v=59szwz40Pik" class="title listing-title">HSMA 6 Hackathon : Hack to the Future Part 2</a>
+</td>
+<td>
+<span class="listing-event">HSMA 6</span>
+</td>
+<td>
+<span class="listing-type">Hackathon</span>
+</td>
+<td>
+<span class="listing-description">A recording of presentations from our HSMA 6 Hackathon “Hack to the Future Part 2”. For more information about the HSMA Programme, see our website :</span>
+</td>
+
+</tr>
+
+<tr data-index="112" data-listing-date-sort="1655856000000" data-listing-title-sort="HSMA 5 Virtual Open Day 2022">
+<td>
+<a href="https://www.youtube.com/watch?v=fuTfVE-njjM" class="title listing-title">HSMA 5 Virtual Open Day 2022</a>
+</td>
+<td>
+<span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-type">Open day</span>
+</td>
+<td>
+<span class="listing-description">A recording of the HSMA 5 Virtual Open Day 2022. More details about the programme can be found on our website :</span>
+</td>
+
+</tr>
+
+<tr data-index="113" data-listing-date-sort="1664928000000" data-listing-title-sort="HSMA 5 1A : Introduction to Operational Research and Data Science and 1B : Principles of Programming">
+<td>
+<a href="https://www.youtube.com/watch?v=beqgaIgPsCg" class="title listing-title">HSMA 5 1A : Introduction to Operational Research and Data Science and 1B : Principles of Programming</a>
+</td>
+<td>
+<span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">An introduction to the principles of Operational Research and Data Science for informing operational decisions in health services research. An overview of the modelling process, including conceptual modelling, and other key considerations, is provided. The second session introduces viewers to the…</span>
+</td>
+
+</tr>
+
+<tr data-index="114" data-listing-date-sort="1665014400000" data-listing-title-sort="HSMA 5 2A : Spyder, Jupyter Notebooks and Google CoLab">
+<td>
+<a href="https://www.youtube.com/watch?v=2qsa-0KQJAs" class="title listing-title">HSMA 5 2A : Spyder, Jupyter Notebooks and Google CoLab</a>
+</td>
+<td>
+<span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">An introduction to Spyder, Jupyter Notebooks and Google CoLab for Python development. Accompanying lecture materials can be found here : More information about the HSMA Programme can be found here : Follow us on Twitter : <span class="citation" data-cites="PenCHORD_UoE">@PenCHORD_UoE</span> <span class="citation" data-cites="drdanielchalk">@drdanielchalk</span></span>
+</td>
+
+</tr>
+
+<tr data-index="115" data-listing-date-sort="1665532800000" data-listing-title-sort="HSMA 5 1C : Python Programming Part 1">
+<td>
+<a href="https://www.youtube.com/watch?v=nXK7El47JjQ" class="title listing-title">HSMA 5 1C : Python Programming Part 1</a>
+</td>
+<td>
+<span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">An introduction to programming in Python. In this lecture, we cover some of the basics of Python programming, including printing to the display, variables and casting, user input, comments, mathematical operators, conditional logic, for and while loops, working with lists and list comprehension,…</span>
+</td>
+
+</tr>
+
+<tr data-index="116" data-listing-date-sort="1666137600000" data-listing-title-sort="HSMA 5 1D : Python Programming Part 2">
+<td>
+<a href="https://www.youtube.com/watch?v=TZOCpXnhQJM" class="title listing-title">HSMA 5 1D : Python Programming Part 2</a>
+</td>
+<td>
+<span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this session, we talk about Python functions, exception handling and file reading and writing. We also introduce the basics of NumPy and Pandas - two fundamentally important Python libraries for Data Science. Accompanying lecture materials can be found here : More information about the HSMA…</span>
+</td>
+
+</tr>
+
+<tr data-index="117" data-listing-date-sort="1667347200000" data-listing-title-sort="HSMA 5 3A : Introduction to Discrete Event Simulation and 3B : SimPy for DES Part 1">
+<td>
+<a href="https://www.youtube.com/watch?v=IlUPJcowBrA" class="title listing-title">HSMA 5 3A : Introduction to Discrete Event Simulation and 3B : SimPy for DES Part 1</a>
+</td>
+<td>
+<span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In these sessions, we introduce the simulation modelling approach Discrete Event Simulation - a way of modelling queuing / pathway problems. We then show you how to use the Python package SimPy to build simple but effective Discrete Event Simulation models. We also talk about Python Generator…</span>
+</td>
+
+</tr>
+
+<tr data-index="118" data-listing-date-sort="1667952000000" data-listing-title-sort="HSMA 5 3C : SimPy for Discrete Event Simulation Pt 2 &amp; 7A : Introduction to AI and Machine Learning">
+<td>
+<a href="https://www.youtube.com/watch?v=F3av_4iJMzA" class="title listing-title">HSMA 5 3C : SimPy for Discrete Event Simulation Pt 2 &amp; 7A : Introduction to AI and Machine Learning</a>
+</td>
+<td>
+<span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In the first part of the video (session 3C) we look at how we can make our SimPy models more elegant by structuring them in an Object-Oriented way. We also look at how we can model entities having different priorities in a queue so that we use priorities to determine the next entity to be seen, and…</span>
+</td>
+
+</tr>
+
+<tr data-index="119" data-listing-date-sort="1668556800000" data-listing-title-sort="HSMA 5 7B : Ethics in AI and 7C : Machine Learning - Who Would Survive the Titanic?">
+<td>
+<a href="https://www.youtube.com/watch?v=kMj1--jNXSA" class="title listing-title">HSMA 5 7B : Ethics in AI and 7C : Machine Learning - Who Would Survive the Titanic?</a>
+</td>
+<td>
+<span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In the first part of this video (7B) we discuss some of the important ethical considerations necessary when undertaking AI and Machine Learning projects. We talk about issues around representation in our data, transparency of our models as well as the severe consequences that can happen when our AI…</span>
+</td>
+
+</tr>
+
+<tr data-index="120" data-listing-date-sort="1669248000000" data-listing-title-sort="HSMA 5 7D : Introduction to Neural Networks and 7E : Synthetic Data">
+<td>
+<a href="https://www.youtube.com/watch?v=rWFsGFVXKl0" class="title listing-title">HSMA 5 7D : Introduction to Neural Networks and 7E : Synthetic Data</a>
+</td>
+<td>
+<span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In the first part of this video (7D), we talk about Deep Learning and the magical world of Neural Networks. These structures allow us to get high performance learning models for a wide range of problems, although they do come with a cost - that we lose a little bit in terms of model explainability…</span>
+</td>
+
+</tr>
+
+<tr data-index="121" data-listing-date-sort="1669766400000" data-listing-title-sort="HSMA 5 8A : Intro to Natural Language Processing and 8B : Named Entity Recognition &amp; Word Clouds">
+<td>
+<a href="https://www.youtube.com/watch?v=4P_7cRG_X0c" class="title listing-title">HSMA 5 8A : Intro to Natural Language Processing and 8B : Named Entity Recognition &amp; Word Clouds</a>
+</td>
+<td>
+<span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">IMPORTANT NOTE - there is an error in the teaching in this video which has since been corrected. Specifically, some of the named entities that I suggested should have been picked up as named entities in Exercise 1 should not have been - “bread” and “milk” are not named entities as they are not…</span>
+</td>
+
+</tr>
+
+<tr data-index="122" data-listing-date-sort="1670371200000" data-listing-title-sort="HSMA 5 8C : Sentiment Analysis and 6A : Cellular Automata">
+<td>
+<a href="https://www.youtube.com/watch?v=B1fPC5ISXoU" class="title listing-title">HSMA 5 8C : Sentiment Analysis and 6A : Cellular Automata</a>
+</td>
+<td>
+<span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In the first part of this video (8C) we revisit our old friend Neural Networks to see if we can apply the same principles to automatically predict the sentiment of a piece of text. But because we’re dealing with text data, we’ll need to look at the concepts of Standardisation and Vectorisation to…</span>
+</td>
+
+</tr>
+
+<tr data-index="123" data-listing-date-sort="1670976000000" data-listing-title-sort="HSMA 5 6B : Agent Based Simulation using MESA">
+<td>
+<a href="https://www.youtube.com/watch?v=0qQsvLfPias" class="title listing-title">HSMA 5 6B : Agent Based Simulation using MESA</a>
+</td>
+<td>
+<span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this video, we walk through some code to develop a simple Agent Based Simulation to model the spread of a disease using the Python package MESA. We talk about the concepts of Agent Based Simulation and how it can be used to model behaviour. We then look at how MESA is structured, begin…</span>
+</td>
+
+</tr>
+
+<tr data-index="124" data-listing-date-sort="1671753600000" data-listing-title-sort="HSMA 5 6B Part 2 : BYOABS (Bring Your Own Agent Based Simulation)">
+<td>
+<a href="https://www.youtube.com/watch?v=1083YZRK4eY" class="title listing-title">HSMA 5 6B Part 2 : BYOABS (Bring Your Own Agent Based Simulation)</a>
+</td>
+<td>
+<span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this short video which serves as a part 2 to session 6B, the HSMA teams present their proof-of-concept Agent Based Simulation models built using MESA, and Dan gets his festive hat to wish you all a Merry Christmas! More information about the HSMA Programme can be found here : Follow us on…</span>
+</td>
+
+</tr>
+
+<tr data-index="125" data-listing-date-sort="1674086400000" data-listing-title-sort="HSMA 5 4B : System Dynamics and 2C : Patient and Public Involvement in Research">
+<td>
+<a href="https://www.youtube.com/watch?v=wZY5vjdOzI0" class="title listing-title">HSMA 5 4B : System Dynamics and 2C : Patient and Public Involvement in Research</a>
+</td>
+<td>
+<span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In the first part of this video (4B), we introduce you to the world of System Dynamics. We look at how we can explore the influential dynamics within a system to try and understand something more about how the system works, and whether there are intrinsic problems within the structure of a system.…</span>
+</td>
+
+</tr>
+
+<tr data-index="126" data-listing-date-sort="1676592000000" data-listing-title-sort="IPACS Workshop">
+<td>
+<a href="https://www.youtube.com/watch?v=mzJcwb4psQ0" class="title listing-title">IPACS Workshop</a>
+</td>
+<td>
+<span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-type">Workshop</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="127" data-listing-date-sort="1677628800000" data-listing-title-sort="HSMA 5 7F : Reinforcement Learning">
+<td>
+<a href="https://www.youtube.com/watch?v=zkqWv1qGjGI" class="title listing-title">HSMA 5 7F : Reinforcement Learning</a>
+</td>
+<td>
+<span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this video, we introduce some of the core concepts of Reinforcement Learning by using the 80s cult-classic UK TV series Treasure Hunt as our inspiration. We talk about the fundamental principles of Reinforcement Learning, the exploration / exploitation dilemma, multi-armed bandit problems and a…</span>
+</td>
+
+</tr>
+
+<tr data-index="128" data-listing-date-sort="1678233600000" data-listing-title-sort="HSMA 1F : Basics of R">
+<td>
+<a href="https://www.youtube.com/watch?v=_FKmFtp_jg4" class="title listing-title">HSMA 1F : Basics of R</a>
+</td>
+<td>
+<span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this video, our guest lecturer - Simon Wellesley-Miller (NHS England) introduces us to the world of R, for those bored of good coding languages like Python :) (Just kidding… mostly…). The video acts as a code-along using R Studio in the cloud, and goes from the basics to some of the great…</span>
+</td>
+
+</tr>
+
+<tr data-index="129" data-listing-date-sort="1684281600000" data-listing-title-sort="HSMA 5 2B : Principles of FOSS and Version Control using Git">
+<td>
+<a href="https://www.youtube.com/watch?v=SDRV6dujJ6Q" class="title listing-title">HSMA 5 2B : Principles of FOSS and Version Control using Git</a>
+</td>
+<td>
+<span class="listing-event">HSMA 5</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this video, we introduce viewers to the world of version control using Git and collaborative open source development using GitHub. First, we talk about the importance of FOSS and Open Science. We talk a bit about the history of FOSS, as well as reminisce about the good old days of computing,…</span>
+</td>
+
+</tr>
+
+<tr data-index="130" data-listing-date-sort="1598486400000" data-listing-title-sort="BONUS TUTORIAL : Simpy PriorityResource">
+<td>
+<a href="https://www.youtube.com/watch?v=qe3sms-TqD0" class="title listing-title">BONUS TUTORIAL : Simpy PriorityResource</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Tutorial</span>
+</td>
+<td>
+<span class="listing-description">This bonus tutorial shows students how to easily add functionality to their SimPy models that allows for entities that are queuing to prioritised rather than be seen in a strictly first-in first-out manner. You should watch this Bonus Tutorial after completing Session 5C : SimPy Part 2 of the HSMA…</span>
+</td>
+
+</tr>
+
+<tr data-index="131" data-listing-date-sort="1598486400000" data-listing-title-sort="BONUS TUTORIAL : Modelling resource unavailability in SimPy">
+<td>
+<a href="https://www.youtube.com/watch?v=732BleYHhF0" class="title listing-title">BONUS TUTORIAL : Modelling resource unavailability in SimPy</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Tutorial</span>
+</td>
+<td>
+<span class="listing-description">In this bonus tutorial we explain how we can model periods of unavailability of our resources in our SimPy models. This tutorial should be completed after the Bonus Tutorial on Priority Resource, and after Session 3C : SimPy Part 2 of the HSMA Programme.</span>
+</td>
+
+</tr>
+
+<tr data-index="132" data-listing-date-sort="1635206400000" data-listing-title-sort="Geopandas (python 3.8)">
+<td>
+<a href="https://www.youtube.com/watch?v=fZ2gQZwT1Gw" class="title listing-title">Geopandas (python 3.8)</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">Tutorial for GeoPandas using Python 3.8. All materials available at:</span>
+</td>
+
+</tr>
+
+<tr data-index="133" data-listing-date-sort="1651622400000" data-listing-title-sort="HSMA introduction to geospatial analysis">
+<td>
+<a href="https://www.youtube.com/watch?v=jOW5LwmXy4g" class="title listing-title">HSMA introduction to geospatial analysis</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">HSMA-4 introduction to geospatial analysis</span>
+</td>
+
+</tr>
+
+<tr data-index="134" data-listing-date-sort="1651622400000" data-listing-title-sort="HSMA 4 1A (Introduction to Operational Research and Data Science) and 1B (Principles of Programming)">
+<td>
+<a href="https://www.youtube.com/watch?v=vmoxlGlkpfs" class="title listing-title">HSMA 4 1A (Introduction to Operational Research and Data Science) and 1B (Principles of Programming)</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="135" data-listing-date-sort="1651622400000" data-listing-title-sort="HSMA 4 Session 2A : Spyder, Jupyter Notebooks and Google CoLab">
+<td>
+<a href="https://www.youtube.com/watch?v=gwzQ1OPjJ0k" class="title listing-title">HSMA 4 Session 2A : Spyder, Jupyter Notebooks and Google CoLab</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="136" data-listing-date-sort="1651622400000" data-listing-title-sort="HSMA 4 Session 1C : Python Programming Part 1">
+<td>
+<a href="https://www.youtube.com/watch?v=rRepYTJ-y8k" class="title listing-title">HSMA 4 Session 1C : Python Programming Part 1</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="137" data-listing-date-sort="1634169600000" data-listing-title-sort="Making Web Apps with Streamlit (2 of 2)">
+<td>
+<a href="https://www.youtube.com/watch?v=hnimOPhql0k" class="title listing-title">Making Web Apps with Streamlit (2 of 2)</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">Making python web apps using StreamLit This video focuses on makign a web app available on a Digital Ocean server GitHub repo for these example: Streamlit web: streamlit.io Digital Ocean:</span>
+</td>
+
+</tr>
+
+<tr data-index="138" data-listing-date-sort="1634169600000" data-listing-title-sort="Making Web Apps with Streamlit (1 of 2)">
+<td>
+<a href="https://www.youtube.com/watch?v=_PPUk__mXLI" class="title listing-title">Making Web Apps with Streamlit (1 of 2)</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">Making python web apps using StreamLit. This video focuses on creating a web app and testing locally. GitHub repo for these example: Streamlit web: streamlit.io Digital Ocean:</span>
+</td>
+
+</tr>
+
+<tr data-index="139" data-listing-date-sort="1651622400000" data-listing-title-sort="HSMA 4 Session 1D : Python Programming Part 2">
+<td>
+<a href="https://www.youtube.com/watch?v=DM8g8vBgQUY" class="title listing-title">HSMA 4 Session 1D : Python Programming Part 2</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="140" data-listing-date-sort="1651622400000" data-listing-title-sort="HSMA 4 Session 1E : Python Programming Part 3">
+<td>
+<a href="https://www.youtube.com/watch?v=dnINgY0o6ro" class="title listing-title">HSMA 4 Session 1E : Python Programming Part 3</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="141" data-listing-date-sort="1651622400000" data-listing-title-sort="HSMA 4 Session 2B : Principles of FOSS and Version Control">
+<td>
+<a href="https://www.youtube.com/watch?v=owPyL-ZlNmg" class="title listing-title">HSMA 4 Session 2B : Principles of FOSS and Version Control</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="142" data-listing-date-sort="1651622400000" data-listing-title-sort="HSMA 4 Sessions 3A and 3B (Discrete Event Simulation and SimPy Part 1)">
+<td>
+<a href="https://www.youtube.com/watch?v=-QuHjUPHzU8" class="title listing-title">HSMA 4 Sessions 3A and 3B (Discrete Event Simulation and SimPy Part 1)</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="143" data-listing-date-sort="1651622400000" data-listing-title-sort="facility location part1">
+<td>
+<a href="https://www.youtube.com/watch?v=8LNthQ4ZkSQ" class="title listing-title">facility location part1</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="144" data-listing-date-sort="1651622400000" data-listing-title-sort="HSMA Facility Location">
+<td>
+<a href="https://www.youtube.com/watch?v=9a9o4nt6Rk4" class="title listing-title">HSMA Facility Location</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">HSMA Facility Location: An evolutionary approach</span>
+</td>
+
+</tr>
+
+<tr data-index="145" data-listing-date-sort="1651622400000" data-listing-title-sort="HSMA 4 Session 4A : Introduction to Network Analysis (Raw Recording)">
+<td>
+<a href="https://www.youtube.com/watch?v=4hR2CVBiotg" class="title listing-title">HSMA 4 Session 4A : Introduction to Network Analysis (Raw Recording)</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="146" data-listing-date-sort="1651622400000" data-listing-title-sort="HSMA 4 Session 7A : Introduction to AI and Machine Learning">
+<td>
+<a href="https://www.youtube.com/watch?v=mXBlKCcy6IY" class="title listing-title">HSMA 4 Session 7A : Introduction to AI and Machine Learning</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="147" data-listing-date-sort="1651622400000" data-listing-title-sort="An introduction to routing and scheduling">
+<td>
+<a href="https://www.youtube.com/watch?v=_CNsF3eTuTo" class="title listing-title">An introduction to routing and scheduling</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">HSMA 4: an introduction to routing and scheduling</span>
+</td>
+
+</tr>
+
+<tr data-index="148" data-listing-date-sort="1651622400000" data-listing-title-sort="HSMA 4 Session 8A : Natural Language Processing">
+<td>
+<a href="https://www.youtube.com/watch?v=KRLhpEGg-bk" class="title listing-title">HSMA 4 Session 8A : Natural Language Processing</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="149" data-listing-date-sort="1651622400000" data-listing-title-sort="HSMA: Running the forecasting code using Colab or Binder">
+<td>
+<a href="https://www.youtube.com/watch?v=_3jUdnjoVuw" class="title listing-title">HSMA: Running the forecasting code using Colab or Binder</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Tutorial</span>
+</td>
+<td>
+<span class="listing-description">HSMA: Running the forecasting code using Colab or Binder</span>
+</td>
+
+</tr>
+
+<tr data-index="150" data-listing-date-sort="1651622400000" data-listing-title-sort="HSMA Forecasting: Setting up a conda environment">
+<td>
+<a href="https://www.youtube.com/watch?v=GpR6BxJGcak" class="title listing-title">HSMA Forecasting: Setting up a conda environment</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Tutorial</span>
+</td>
+<td>
+<span class="listing-description">HSMA Forecasting: Setting up a conda environment</span>
+</td>
+
+</tr>
+
+<tr data-index="151" data-listing-date-sort="1651622400000" data-listing-title-sort="HSMA 4 Session 3C (SimPy Part 2) and Session 6A (Cellular Automata)">
+<td>
+<a href="https://www.youtube.com/watch?v=Gc3Z5po80BM" class="title listing-title">HSMA 4 Session 3C (SimPy Part 2) and Session 6A (Cellular Automata)</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="152" data-listing-date-sort="1651622400000" data-listing-title-sort="HSMA 4 Session 7B : Ethics in AI">
+<td>
+<a href="https://www.youtube.com/watch?v=BSC_eZN6gcg" class="title listing-title">HSMA 4 Session 7B : Ethics in AI</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="153" data-listing-date-sort="1651622400000" data-listing-title-sort="HSMA 4 Session 7C : Machine Learning - Who Would Survive the Titanic?">
+<td>
+<a href="https://www.youtube.com/watch?v=FUMblNjbq9w" class="title listing-title">HSMA 4 Session 7C : Machine Learning - Who Would Survive the Titanic?</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="154" data-listing-date-sort="1651622400000" data-listing-title-sort="HSMA 4 Session 7D : Deeper into Machine Learning - Introduction to Neural Networks">
+<td>
+<a href="https://www.youtube.com/watch?v=pDiCXAzFO6Q" class="title listing-title">HSMA 4 Session 7D : Deeper into Machine Learning - Introduction to Neural Networks</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="155" data-listing-date-sort="1651622400000" data-listing-title-sort="HSMA 4: Module 9b setup on Windows">
+<td>
+<a href="https://www.youtube.com/watch?v=H4eopptC_Tw" class="title listing-title">HSMA 4: Module 9b setup on Windows</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Tutorial</span>
+</td>
+<td>
+<span class="listing-description">Follow the instructions in this video to setup a conda environment for HSMA4: module 9b Simple Forecasting</span>
+</td>
+
+</tr>
+
+<tr data-index="156" data-listing-date-sort="1651622400000" data-listing-title-sort="HSMA: Forecasting with Prophet Code along 2">
+<td>
+<a href="https://www.youtube.com/watch?v=DTm6a13IiSg" class="title listing-title">HSMA: Forecasting with Prophet Code along 2</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Tutorial</span>
+</td>
+<td>
+<span class="listing-description">HSMA: Forecasting with Prophet Code along 2</span>
+</td>
+
+</tr>
+
+<tr data-index="157" data-listing-date-sort="1651622400000" data-listing-title-sort="HSMA: forecasting with Prophet. Code along 3">
+<td>
+<a href="https://www.youtube.com/watch?v=5MV1coh63oA" class="title listing-title">HSMA: forecasting with Prophet. Code along 3</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Tutorial</span>
+</td>
+<td>
+<span class="listing-description">HSMA: forecasting with Prophet. Code along 3</span>
+</td>
+
+</tr>
+
+<tr data-index="158" data-listing-date-sort="1651622400000" data-listing-title-sort="HSMA 4 Session 1F : Getting to Grips with Programming in R">
+<td>
+<a href="https://www.youtube.com/watch?v=RENVbduz6Jk" class="title listing-title">HSMA 4 Session 1F : Getting to Grips with Programming in R</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="159" data-listing-date-sort="1651622400000" data-listing-title-sort="HSMA 4 Sessions 8B (Named Entity Recognition) and 8C (Sentiment Analysis)">
+<td>
+<a href="https://www.youtube.com/watch?v=_MuRtQoUdlM" class="title listing-title">HSMA 4 Sessions 8B (Named Entity Recognition) and 8C (Sentiment Analysis)</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="160" data-listing-date-sort="1651622400000" data-listing-title-sort="HSMA 4 Sessions 6B and 6C :Agent Based Simulation using MESA Parts 1 and 2">
+<td>
+<a href="https://www.youtube.com/watch?v=h_V8I04p-0U" class="title listing-title">HSMA 4 Sessions 6B and 6C :Agent Based Simulation using MESA Parts 1 and 2</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="161" data-listing-date-sort="1651622400000" data-listing-title-sort="HSMA: Introduction to autoregressive models + iterative and direct forecasting">
+<td>
+<a href="https://www.youtube.com/watch?v=zBNa6Zo-2lM" class="title listing-title">HSMA: Introduction to autoregressive models + iterative and direct forecasting</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">HSMA: Introduction to autoregressive models + iterative and direct forecasting</span>
+</td>
+
+</tr>
+
+<tr data-index="162" data-listing-date-sort="1651622400000" data-listing-title-sort="HSMA 4 Session 4B : System Dynamics">
+<td>
+<a href="https://www.youtube.com/watch?v=nR2aMNN076c" class="title listing-title">HSMA 4 Session 4B : System Dynamics</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="163" data-listing-date-sort="1651622400000" data-listing-title-sort="HSMA 4 Session 3D : A Generic ED Model using R">
+<td>
+<a href="https://www.youtube.com/watch?v=RJK8kGJ9Jv4" class="title listing-title">HSMA 4 Session 3D : A Generic ED Model using R</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="164" data-listing-date-sort="1651622400000" data-listing-title-sort="HSMA 4 Session 4C and 4D : Advanced Network Analysis (Parts 1 and 2)">
+<td>
+<a href="https://www.youtube.com/watch?v=xwTdu66nXwI" class="title listing-title">HSMA 4 Session 4C and 4D : Advanced Network Analysis (Parts 1 and 2)</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="165" data-listing-date-sort="1651622400000" data-listing-title-sort="Discrete event simulation   NDC">
+<td>
+<a href="https://www.youtube.com/watch?v=vg6RdBQaQT8" class="title listing-title">Discrete event simulation NDC</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="166" data-listing-date-sort="1651622400000" data-listing-title-sort="HSMA 4 Session 1G : Advanced R">
+<td>
+<a href="https://www.youtube.com/watch?v=tPlZaS_cjLk" class="title listing-title">HSMA 4 Session 1G : Advanced R</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="167" data-listing-date-sort="1651622400000" data-listing-title-sort="HSMA 4 Session 7E : Synthetic Data">
+<td>
+<a href="https://www.youtube.com/watch?v=e4Z7-8guaSE" class="title listing-title">HSMA 4 Session 7E : Synthetic Data</a>
+</td>
+<td>
+<span class="listing-event">HSMA 4</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="168" data-listing-date-sort="1601510400000" data-listing-title-sort="Session 1 Lecture 1 : An Introduction to OR and Data Science">
+<td>
+<a href="https://www.youtube.com/watch?v=sq44Ucqq78w" class="title listing-title">Session 1 Lecture 1 : An Introduction to OR and Data Science</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="169" data-listing-date-sort="1601510400000" data-listing-title-sort="Session 1 Lecture 2 : Distributions, Validation and Verification and Data Science">
+<td>
+<a href="https://www.youtube.com/watch?v=ayMfMnuS6V8" class="title listing-title">Session 1 Lecture 2 : Distributions, Validation and Verification and Data Science</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="170" data-listing-date-sort="1601510400000" data-listing-title-sort="Session 2 Lecture 1 : Principles of Variables, Conditional Logic and Loops">
+<td>
+<a href="https://www.youtube.com/watch?v=nXmdMhF1Q9Q" class="title listing-title">Session 2 Lecture 1 : Principles of Variables, Conditional Logic and Loops</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="171" data-listing-date-sort="1601510400000" data-listing-title-sort="Session 2 Lecture 2 : Principles of Functions and Object Oriented Programming">
+<td>
+<a href="https://www.youtube.com/watch?v=DJKm3R8nkUY" class="title listing-title">Session 2 Lecture 2 : Principles of Functions and Object Oriented Programming</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="172" data-listing-date-sort="1601942400000" data-listing-title-sort="Session 3A Lecture 1 : Hello World!">
+<td>
+<a href="https://www.youtube.com/watch?v=w-i2kXi2olo" class="title listing-title">Session 3A Lecture 1 : Hello World!</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="173" data-listing-date-sort="1601942400000" data-listing-title-sort="Session 3A Lecture 2 : Operators and Conditional Logic">
+<td>
+<a href="https://www.youtube.com/watch?v=_r3P0T1MwqA" class="title listing-title">Session 3A Lecture 2 : Operators and Conditional Logic</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="174" data-listing-date-sort="1601942400000" data-listing-title-sort="Session 3A Lecture 3 : For and While Loops">
+<td>
+<a href="https://www.youtube.com/watch?v=pFayCxrXA7U" class="title listing-title">Session 3A Lecture 3 : For and While Loops</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="175" data-listing-date-sort="1601942400000" data-listing-title-sort="Session 3A Lecture 4 : Lists and Dictionaries">
+<td>
+<a href="https://www.youtube.com/watch?v=4_7s-lZUa-s" class="title listing-title">Session 3A Lecture 4 : Lists and Dictionaries</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="176" data-listing-date-sort="1601942400000" data-listing-title-sort="Session 3A Lecture 5 : Libraries and Imports">
+<td>
+<a href="https://www.youtube.com/watch?v=J1eyJd95CQI" class="title listing-title">Session 3A Lecture 5 : Libraries and Imports</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="177" data-listing-date-sort="1603152000000" data-listing-title-sort="Session 3C Lecture 1 : Object Oriented Programming in Python">
+<td>
+<a href="https://www.youtube.com/watch?v=1Qj7c6qWVWs" class="title listing-title">Session 3C Lecture 1 : Object Oriented Programming in Python</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="178" data-listing-date-sort="1603152000000" data-listing-title-sort="Session 3C Lecture 3 : Debugging">
+<td>
+<a href="https://www.youtube.com/watch?v=e0gouYntSp0" class="title listing-title">Session 3C Lecture 3 : Debugging</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="179" data-listing-date-sort="1603152000000" data-listing-title-sort="Session 3C Lecture 2 : Inheritance and Plotting using MatPlotLib">
+<td>
+<a href="https://www.youtube.com/watch?v=NG3FJl5b1SI" class="title listing-title">Session 3C Lecture 2 : Inheritance and Plotting using MatPlotLib</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="180" data-listing-date-sort="1602547200000" data-listing-title-sort="Session 3B Lecture 1 : Functions and Exception Handling">
+<td>
+<a href="https://www.youtube.com/watch?v=n471TyuGytc" class="title listing-title">Session 3B Lecture 1 : Functions and Exception Handling</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="181" data-listing-date-sort="1602547200000" data-listing-title-sort="Session 3B Lecture 2 : File Reading and Writing">
+<td>
+<a href="https://www.youtube.com/watch?v=3R9KTI4dbVE" class="title listing-title">Session 3B Lecture 2 : File Reading and Writing</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="182" data-listing-date-sort="1602547200000" data-listing-title-sort="Session 3B Lecture 3 : NumPy">
+<td>
+<a href="https://www.youtube.com/watch?v=vImhbxEcjs8" class="title listing-title">Session 3B Lecture 3 : NumPy</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="183" data-listing-date-sort="1602547200000" data-listing-title-sort="Session 3B Lecture 4 : Pandas">
+<td>
+<a href="https://www.youtube.com/watch?v=dgGkRiZNFYk" class="title listing-title">Session 3B Lecture 4 : Pandas</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="184" data-listing-date-sort="1603756800000" data-listing-title-sort="Session 5A Lecture 1 : An Introduction to Discrete Event Simulation">
+<td>
+<a href="https://www.youtube.com/watch?v=3yQVpIcs0zg" class="title listing-title">Session 5A Lecture 1 : An Introduction to Discrete Event Simulation</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="185" data-listing-date-sort="1603756800000" data-listing-title-sort="Session 5A Lecture 2 : Python Generator Functions and a Glimpse at SimPy">
+<td>
+<a href="https://www.youtube.com/watch?v=d_c8d8j-asA" class="title listing-title">Session 5A Lecture 2 : Python Generator Functions and a Glimpse at SimPy</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="186" data-listing-date-sort="1603843200000" data-listing-title-sort="Session 6A Lecture 1: Introdution to QGIS and basemaps">
+<td>
+<a href="https://www.youtube.com/watch?v=8eM59sl0VHs" class="title listing-title">Session 6A Lecture 1: Introdution to QGIS and basemaps</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="187" data-listing-date-sort="1603843200000" data-listing-title-sort="Session 6A Lecture 2: Projections and single symbol symbology">
+<td>
+<a href="https://www.youtube.com/watch?v=RZJRAn5JNPU" class="title listing-title">Session 6A Lecture 2: Projections and single symbol symbology</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="188" data-listing-date-sort="1603843200000" data-listing-title-sort="Session 6A Lecture 3: Point data and categorized symbology">
+<td>
+<a href="https://www.youtube.com/watch?v=HGZV3Ciobak" class="title listing-title">Session 6A Lecture 3: Point data and categorized symbology</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="189" data-listing-date-sort="1603843200000" data-listing-title-sort="Session 6A Lecture 4: Shapefiles and graduated symbology">
+<td>
+<a href="https://www.youtube.com/watch?v=_PW8oma82mM" class="title listing-title">Session 6A Lecture 4: Shapefiles and graduated symbology</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="190" data-listing-date-sort="1603843200000" data-listing-title-sort="Session 6A Lecture 5: Print layout">
+<td>
+<a href="https://www.youtube.com/watch?v=h3BQdhwkumg" class="title listing-title">Session 6A Lecture 5: Print layout</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="191" data-listing-date-sort="1604102400000" data-listing-title-sort="Session 6B : An introduction to GeoPandas">
+<td>
+<a href="https://www.youtube.com/watch?v=QEZFnERpZxY" class="title listing-title">Session 6B : An introduction to GeoPandas</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">GitHub (with link to running on BinderHub) This video takes you through the ‘geopandas_1_blank.ipynb’ notebook Timings: 00’00 Introduction, installing locally, and running on BinderHub 13’15 Loading shape file into GeoPandas DataFrame. Showing simple map 26’45 Loading county data, and pointing to…</span>
+</td>
+
+</tr>
+
+<tr data-index="192" data-listing-date-sort="1604361600000" data-listing-title-sort="Session 7A Lecture 1 : Qualitative System Dynamics">
+<td>
+<a href="https://www.youtube.com/watch?v=8mRnOuGcBLY" class="title listing-title">Session 7A Lecture 1 : Qualitative System Dynamics</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="193" data-listing-date-sort="1604361600000" data-listing-title-sort="Session 7A Lecture 2 : Quantitative System Dynamics and InsightMaker">
+<td>
+<a href="https://www.youtube.com/watch?v=akorSpBGeFg" class="title listing-title">Session 7A Lecture 2 : Quantitative System Dynamics and InsightMaker</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="194" data-listing-date-sort="1604966400000" data-listing-title-sort="Session 8A Introduction to Network Analysis">
+<td>
+<a href="https://www.youtube.com/watch?v=M-lJoeCAkb4" class="title listing-title">Session 8A Introduction to Network Analysis</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">This video introduces the idea of network analysis for health service research. We look at the data transformation process from raw data to producing a basic network visualisation of that data using python and the NetworkX package. The GitHub repository with the session materials can be found at</span>
+</td>
+
+</tr>
+
+<tr data-index="195" data-listing-date-sort="1604966400000" data-listing-title-sort="Session 9A Lecture : Agent Based Simulation using MESA">
+<td>
+<a href="https://www.youtube.com/watch?v=VeQkhfDYyMc" class="title listing-title">Session 9A Lecture : Agent Based Simulation using MESA</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="196" data-listing-date-sort="1605571200000" data-listing-title-sort="Session 10 Lecture: Machine Learning Classification">
+<td>
+<a href="https://www.youtube.com/watch?v=zJ0jvkJU_KU" class="title listing-title">Session 10 Lecture: Machine Learning Classification</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">A lesson on using logistic regression for classification. Follow either of the two links to get to the code repository. Folly the GitHub link to be able to run the notebookd on the cloud on BinderHub or Google Colab (Colab is recommended but requires a Google account). Main starting web page:…</span>
+</td>
+
+</tr>
+
+<tr data-index="197" data-listing-date-sort="1606176000000" data-listing-title-sort="Installing and running the Titanic environment on Windows">
+<td>
+<a href="https://www.youtube.com/watch?v=LOrsK9mHeaE" class="title listing-title">Installing and running the Titanic environment on Windows</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Tutorial</span>
+</td>
+<td>
+<span class="listing-description">This video installs and runs the Titanic environment from here:</span>
+</td>
+
+</tr>
+
+<tr data-index="198" data-listing-date-sort="1606262400000" data-listing-title-sort="Session 11A : Introduction to Natural Language Processing">
+<td>
+<a href="https://www.youtube.com/watch?v=n9rXLOtNXQk" class="title listing-title">Session 11A : Introduction to Natural Language Processing</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="199" data-listing-date-sort="1606348800000" data-listing-title-sort="Session 7B Lecture 1 : Expanding the Chicken and Egg Model using InsightMaker">
+<td>
+<a href="https://www.youtube.com/watch?v=9pjzroktT0o" class="title listing-title">Session 7B Lecture 1 : Expanding the Chicken and Egg Model using InsightMaker</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="200" data-listing-date-sort="1606348800000" data-listing-title-sort="Session 7B Lecture 2 : Additional InsightMaker features, and critically appraising models">
+<td>
+<a href="https://www.youtube.com/watch?v=jjUMaQbPIMM" class="title listing-title">Session 7B Lecture 2 : Additional InsightMaker features, and critically appraising models</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="201" data-listing-date-sort="1606435200000" data-listing-title-sort="An introduction to neural nets using TensorFlow, Keras, and the Titanic Survival data">
+<td>
+<a href="https://www.youtube.com/watch?v=IAzuLSa-sb0" class="title listing-title">An introduction to neural nets using TensorFlow, Keras, and the Titanic Survival data</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">Launch colab notebook HSMA_neural_nets.ipynb from here (this is shown early on in the video): 01’22 What is a GPU? 04’46 Running the Titanic Notebook, and using Colab 10’04 Neurons/perceptrons - the building blocks of neural networks 16’06 From neurons to neural nets 25’30 Measuring network error…</span>
+</td>
+
+</tr>
+
+<tr data-index="202" data-listing-date-sort="1606694400000" data-listing-title-sort="Session 4a: Introduction to R (using RStudio)">
+<td>
+<a href="https://www.youtube.com/watch?v=_XUC8QbDIlY" class="title listing-title">Session 4a: Introduction to R (using RStudio)</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">This video is an introduction to R based on the materials found on The video covers the following topics: - An introduction to R and RStudio - Setting your working directory - Installing packages - Some R language conventions - Sequence generation and replication - Variable types and conversion -…</span>
+</td>
+
+</tr>
+
+<tr data-index="203" data-listing-date-sort="1606694400000" data-listing-title-sort="HSMA Deep Learning Tutorial. Introducing Deep Q Networks with CartPole and a hospital simulation">
+<td>
+<a href="https://www.youtube.com/watch?v=A9CFqcyI4v8" class="title listing-title">HSMA Deep Learning Tutorial. Introducing Deep Q Networks with CartPole and a hospital simulation</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Tutorial</span>
+</td>
+<td>
+<span class="listing-description">GitHub repo for code for this example: Code for more AI agents controlling staffed beds: Paper: Introductory videos on machine learning classification: Logistic regression: Neural nets: Video contents: 00’00 Intro 02’29 Key elements of Deep Reinforcement Learning 19’19 What is Q? A worked example…</span>
+</td>
+
+</tr>
+
+<tr data-index="204" data-listing-date-sort="1606780800000" data-listing-title-sort="Session 5B : Building a Discrete Event Simulation model using SimPy">
+<td>
+<a href="https://www.youtube.com/watch?v=jXDjrWKcu6w" class="title listing-title">Session 5B : Building a Discrete Event Simulation model using SimPy</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="205" data-listing-date-sort="1606953600000" data-listing-title-sort="Session 8B: Advanced network analysis 1 - Graph metrics">
+<td>
+<a href="https://www.youtube.com/watch?v=V4tDkdofgbw" class="title listing-title">Session 8B: Advanced network analysis 1 - Graph metrics</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">In this video I discuss the applied basics of graph theory and its relevance for monitoring healthcare operations. I then go on to discuss a variety of useful graph metrics, how they can be used for network based operational modelling and their implementation in Python using NetworkX. The materials…</span>
+</td>
+
+</tr>
+
+<tr data-index="206" data-listing-date-sort="1607385600000" data-listing-title-sort="Session 5C : Object Oriented SimPy">
+<td>
+<a href="https://www.youtube.com/watch?v=QV-pJnKrGuc" class="title listing-title">Session 5C : Object Oriented SimPy</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="207" data-listing-date-sort="1607558400000" data-listing-title-sort="Session 4B Advanced R: ggplot2, fitdistrplus, shiny">
+<td>
+<a href="https://www.youtube.com/watch?v=5klSpGC2puU" class="title listing-title">Session 4B Advanced R: ggplot2, fitdistrplus, shiny</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">This session is about plotting using ggplot2, distribution fitting with fitdistrplus (and actuar) and creating web apps with shiny. All of the materials for the session including all of the code, slide deck and notes are available on GitHub</span>
+</td>
+
+</tr>
+
+<tr data-index="208" data-listing-date-sort="1607990400000" data-listing-title-sort="Session 9B : Adding Vaccination to our Disease Model and using BatchRunner">
+<td>
+<a href="https://www.youtube.com/watch?v=yFb4Y41SeDE" class="title listing-title">Session 9B : Adding Vaccination to our Disease Model and using BatchRunner</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="209" data-listing-date-sort="1607990400000" data-listing-title-sort="Session 11B : Named Entity Recognition using SpaCy">
+<td>
+<a href="https://www.youtube.com/watch?v=5CDj-JfpL5s" class="title listing-title">Session 11B : Named Entity Recognition using SpaCy</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="210" data-listing-date-sort="1608076800000" data-listing-title-sort="Session 8C Advanced Network Analysis 2 - Graph Visualisation">
+<td>
+<a href="https://www.youtube.com/watch?v=rfKCgsKg9_w" class="title listing-title">Session 8C Advanced Network Analysis 2 - Graph Visualisation</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">This video follows on from sessions 8A and 8B. In this session we explore the visualisation of network graph data using NetworkX and Holoviews in Python. We build from simple plots in NetworkX to interactive plots in Holoviews then combining analyses in NetworkX and using them as plot attributes in…</span>
+</td>
+
+</tr>
+
+<tr data-index="211" data-listing-date-sort="1608163200000" data-listing-title-sort="Session 11C : Sentiment Analysis">
+<td>
+<a href="https://www.youtube.com/watch?v=1_b7hEHbaaA" class="title listing-title">Session 11C : Sentiment Analysis</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="212" data-listing-date-sort="1595289600000" data-listing-title-sort="Bonus Tutorial : Sensitivity Analysis">
+<td>
+<a href="https://www.youtube.com/watch?v=bn0WVcfbOqI" class="title listing-title">Bonus Tutorial : Sensitivity Analysis</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Tutorial</span>
+</td>
+<td>
+<span class="listing-description">Bonus Tutorial to watch after completion of Session 1 of the HSMA Programme (Intrdouction to Operational Research and Data Science)</span>
+</td>
+
+</tr>
+
+<tr data-index="213" data-listing-date-sort="1595376000000" data-listing-title-sort="Python Healthcare: Anaconda and Jupyter Notebooks">
+<td>
+<a href="https://www.youtube.com/watch?v=Om2DPFLMIBw" class="title listing-title">Python Healthcare: Anaconda and Jupyter Notebooks</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Tutorial</span>
+</td>
+<td>
+<span class="listing-description">Installing the Anaconda Python Data Science environment, and taking a quick look at Jupyter Lab and Jupyter Notebook. 2’20 Installing Anaconda 3’30 Anaconda Navigator 6’00 Anaconda Prompt/Command Line 7’20 Jupyter Lab + Jupyter Notebooks Much more material at: pythonhealthcare.org</span>
+</td>
+
+</tr>
+
+<tr data-index="214" data-listing-date-sort="1595376000000" data-listing-title-sort="Introduction to using Spyder for Python Data Science">
+<td>
+<a href="https://www.youtube.com/watch?v=-70Ib8x0d44" class="title listing-title">Introduction to using Spyder for Python Data Science</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Tutorial</span>
+</td>
+<td>
+<span class="listing-description">A very brief ‘get started’ video on Spyder, showing : 1) the interactive python console 2) writing and running a python file 3) debugging 4) Exploring data using the variable explorer 5) Showing plots Much more material at: pythonhealthcare.org</span>
+</td>
+
+</tr>
+
+<tr data-index="215" data-listing-date-sort="1599609600000" data-listing-title-sort="Introduction to Anaconda environments">
+<td>
+<a href="https://www.youtube.com/watch?v=L1pc0rCEO8s" class="title listing-title">Introduction to Anaconda environments</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Tutorial</span>
+</td>
+<td>
+<span class="listing-description">An introduction to Anaconda environments, installing packages from conda, conda-forge and pypi (pip), and saving/loading environments. Create empty environment (called temp_env here): conda create -n temp_env Create environment with given Python version (just use python alone for latest available…</span>
+</td>
+
+</tr>
+
+<tr data-index="216" data-listing-date-sort="1605139200000" data-listing-title-sort="BONUS TUTORIAL : Word Clouds">
+<td>
+<a href="https://www.youtube.com/watch?v=AH-pc7RbxvA" class="title listing-title">BONUS TUTORIAL : Word Clouds</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Tutorial</span>
+</td>
+<td>
+<span class="listing-description">In this video, I show you how you can easily create word clouds from your own text files using Python.</span>
+</td>
+
+</tr>
+
+<tr data-index="217" data-listing-date-sort="1606867200000" data-listing-title-sort="Face Detection with a Multi-Task Cascaded Convolutional Neural Network (MT-CNN)">
+<td>
+<a href="https://www.youtube.com/watch?v=fUQ1HNCrS7U" class="title listing-title">Face Detection with a Multi-Task Cascaded Convolutional Neural Network (MT-CNN)</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">This lesson uses mtcnn to: * Detect faces in a photo * Output a list of dictionary of location of faces and features of faces * Draw boxes around faces in the photo, and highlights face features * Extract faces and save as individual files GitHub repo for lesson: Requirements: matplotlib (conda or…</span>
+</td>
+
+</tr>
+
+<tr data-index="218" data-listing-date-sort="1610496000000" data-listing-title-sort="Paper: using Deep Reinforcement Learning agents to solve the Ambulance Location Problem">
+<td>
+<a href="https://www.youtube.com/watch?v=UYJtOLYcOU8" class="title listing-title">Paper: using Deep Reinforcement Learning agents to solve the Ambulance Location Problem</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">Paper: GitHub: Developing an OpenAI Gym-compatible framework and simulation environment for testing Deep Reinforcement Learning agents solving the Ambulance Location Problem. The simulation environment, using SimPy and OpenAI gym, provides an environment where: * Incidents occurs in areas within a…</span>
+</td>
+
+</tr>
+
+<tr data-index="219" data-listing-date-sort="1607817600000" data-listing-title-sort="Introduction to using Feedforward Neural Networks for Forecasting">
+<td>
+<a href="https://www.youtube.com/watch?v=SyHVMAjL-I0" class="title listing-title">Introduction to using Feedforward Neural Networks for Forecasting</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">HSMA 2020: Introduction to Forecasting using Neural Networks.</span>
+</td>
+
+</tr>
+
+<tr data-index="220" data-listing-date-sort="1607817600000" data-listing-title-sort="Auto-regressive Forecasting using OLS">
+<td>
+<a href="https://www.youtube.com/watch?v=ftYxpwQGUz0" class="title listing-title">Auto-regressive Forecasting using OLS</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">HSMA 2020: Before exploring forecasting with feedforward neural networks we will look at standard OLS as it has similar data requirements and prediction mechanics.</span>
+</td>
+
+</tr>
+
+<tr data-index="221" data-listing-date-sort="1607817600000" data-listing-title-sort="Introduction to forecasting using Feedforward Neural Networks using Keras and TF.">
+<td>
+<a href="https://www.youtube.com/watch?v=OV39MtxOlFk" class="title listing-title">Introduction to forecasting using Feedforward Neural Networks using Keras and TF.</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">HSMA 2020: Our final code along video is an introduction and overview of using standard feedforward neural networks for forecasting. We will use Keras and TF and test the Iterative, Direct and Vector approaches to forecasting. This is the tip of the iceberg RE neural network forecasting, but should…</span>
+</td>
+
+</tr>
+
+<tr data-index="222" data-listing-date-sort="1606780800000" data-listing-title-sort="HSMA 2020 Introduction to FBProphet">
+<td>
+<a href="https://www.youtube.com/watch?v=tV2_iLr7lsc" class="title listing-title">HSMA 2020 Introduction to FBProphet</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="223" data-listing-date-sort="1606780800000" data-listing-title-sort="Pre-processing time series data for use with FBProphet">
+<td>
+<a href="https://www.youtube.com/watch?v=DXG9aIECtp4" class="title listing-title">Pre-processing time series data for use with FBProphet</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">Some preliminary advice on pre-processing data steps for your time series data before using Prophet.</span>
+</td>
+
+</tr>
+
+<tr data-index="224" data-listing-date-sort="1606780800000" data-listing-title-sort="Simple Forecasting using FBProphet">
+<td>
+<a href="https://www.youtube.com/watch?v=dOvkPcuq9Fo" class="title listing-title">Simple Forecasting using FBProphet</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">HSMA 2020 introduction to FBProphet in Python</span>
+</td>
+
+</tr>
+
+<tr data-index="225" data-listing-date-sort="1606780800000" data-listing-title-sort="Adding holidays into FBProphet forecasts">
+<td>
+<a href="https://www.youtube.com/watch?v=GNW9_5i5fYQ" class="title listing-title">Adding holidays into FBProphet forecasts</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">HSMA 2020 Simple Forecasting course</span>
+</td>
+
+</tr>
+
+<tr data-index="226" data-listing-date-sort="1604016000000" data-listing-title-sort="Setup for HSMA Introduction to Forecasting">
+<td>
+<a href="https://www.youtube.com/watch?v=VWjoqQcC7BM" class="title listing-title">Setup for HSMA Introduction to Forecasting</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Tutorial</span>
+</td>
+<td>
+<span class="listing-description"><strong>Please watch this video and do you setup in advance of the class</strong> Setup for HSMA Introduction to Forecasting.</span>
+</td>
+
+</tr>
+
+<tr data-index="227" data-listing-date-sort="1604016000000" data-listing-title-sort="HSMA Forecasting: Introductory Lecture (part 1/4)">
+<td>
+<a href="https://www.youtube.com/watch?v=modVHPgdSWY" class="title listing-title">HSMA Forecasting: Introductory Lecture (part 1/4)</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">HSMA introduction to forecasting lecture 1 (part 1/4)</span>
+</td>
+
+</tr>
+
+<tr data-index="228" data-listing-date-sort="1604016000000" data-listing-title-sort="HSMA Forecasting: Introductory Lecture (part 2/4)">
+<td>
+<a href="https://www.youtube.com/watch?v=zYVvx1W_8NI" class="title listing-title">HSMA Forecasting: Introductory Lecture (part 2/4)</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">HSMA Introduction to forecasting Lecture 1 (part 2/4)</span>
+</td>
+
+</tr>
+
+<tr data-index="229" data-listing-date-sort="1604016000000" data-listing-title-sort="HSMA Forecasting: Introductory Lecture (part 3/4)">
+<td>
+<a href="https://www.youtube.com/watch?v=2fuZwjuJlOI" class="title listing-title">HSMA Forecasting: Introductory Lecture (part 3/4)</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">HSMA introduction to forecasting lecture 1 (part 3/4)</span>
+</td>
+
+</tr>
+
+<tr data-index="230" data-listing-date-sort="1604016000000" data-listing-title-sort="HSMA Forecasting: Introductory Lecture (part 4/4)">
+<td>
+<a href="https://www.youtube.com/watch?v=54w9oiXefGs" class="title listing-title">HSMA Forecasting: Introductory Lecture (part 4/4)</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">Part 4/4 of the HSMA introduction to forecasting</span>
+</td>
+
+</tr>
+
+<tr data-index="231" data-listing-date-sort="1604016000000" data-listing-title-sort="HSMA Forecasting Code Along 1: Loading time series into Pandas">
+<td>
+<a href="https://www.youtube.com/watch?v=9RXU0RJd64Q" class="title listing-title">HSMA Forecasting Code Along 1: Loading time series into Pandas</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Tutorial</span>
+</td>
+<td>
+<span class="listing-description">HSMA Forecasting Code Along 1: Loading time series into Pandas</span>
+</td>
+
+</tr>
+
+<tr data-index="232" data-listing-date-sort="1604016000000" data-listing-title-sort="HSMA Forecasting Code Along 2: Exploring Time Series">
+<td>
+<a href="https://www.youtube.com/watch?v=7EpUpzMH5po" class="title listing-title">HSMA Forecasting Code Along 2: Exploring Time Series</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Tutorial</span>
+</td>
+<td>
+<span class="listing-description">HSMA Forecasting Code Along 2: Exploring Time Series</span>
+</td>
+
+</tr>
+
+<tr data-index="233" data-listing-date-sort="1604016000000" data-listing-title-sort="HSMA Forecasting Code Along 3: Using Naive methods as benchmark forecasts">
+<td>
+<a href="https://www.youtube.com/watch?v=n4_roSjNcqU" class="title listing-title">HSMA Forecasting Code Along 3: Using Naive methods as benchmark forecasts</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Tutorial</span>
+</td>
+<td>
+<span class="listing-description">HSMA Forecasting Code Along 3: Using Naive methods as benchmark forecasts</span>
+</td>
+
+</tr>
+
+<tr data-index="234" data-listing-date-sort="1601596800000" data-listing-title-sort="Programming on the web - using Google Colab">
+<td>
+<a href="https://www.youtube.com/watch?v=-XsUK5fpqOw" class="title listing-title">Programming on the web - using Google Colab</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Tutorial</span>
+</td>
+<td>
+<span class="listing-description">An alternative to using your own machine</span>
+</td>
+
+</tr>
+
+<tr data-index="235" data-listing-date-sort="1603324800000" data-listing-title-sort="The Learning Hospital (Combining Deep Reinforcement Learning with Hospital Simulation)">
+<td>
+<a href="https://www.youtube.com/watch?v=Rm1bPdBGs00" class="title listing-title">The Learning Hospital (Combining Deep Reinforcement Learning with Hospital Simulation)</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">For more see: Paper: Allen M, Monks T. (2020) Integrating Deep Reinforcement Learning Networks with Health System Simulations. arXiv:200807434 [cs] Published Online First: 21 July 2020.</span>
+</td>
+
+</tr>
+
+<tr data-index="236" data-listing-date-sort="1603929600000" data-listing-title-sort="Synthetic patient-level data. First trials.">
+<td>
+<a href="https://www.youtube.com/watch?v=8ogfGIenEsU" class="title listing-title">Synthetic patient-level data. First trials.</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">Producing synthetic patient-level data with: SMOTE (Synthetic Minority Over-Sampling Technique) GAN (Generative Adversarial Network) VAE (Variational AutoEncoder) GitHub: Paper: Michael Allen, Andrew Salmon (2020) medRxiv 2020.10.09.20210138; doi:</span>
+</td>
+
+</tr>
+
+<tr data-index="237" data-listing-date-sort="1603929600000" data-listing-title-sort="This Patient Does Not Exist">
+<td>
+<a href="https://www.youtube.com/watch?v=tz8PqqYJr7g" class="title listing-title">This Patient Does Not Exist</a>
+</td>
+<td>
+<span class="listing-event">HSMA 3</span>
+</td>
+<td>
+<span class="listing-type">Lecture</span>
+</td>
+<td>
+<span class="listing-description">Let’s replace real patients with synthetic patients.</span>
+</td>
+
+</tr>
+
+<tr data-index="238" data-listing-date-sort="1684800000000" data-listing-title-sort="HSMA Masterclass : Explainable AI using SHAP">
+<td>
+<a href="https://www.youtube.com/watch?v=RBIU6hUXjJM" class="title listing-title">HSMA Masterclass : Explainable AI using SHAP</a>
+</td>
+<td>
+<span class="listing-event">Masterclasses</span>
+</td>
+<td>
+<span class="listing-type">Masterclass</span>
+</td>
+<td>
+<span class="listing-description">In our first ever Masterclass session, we talk about the importance of explainable AI, and introduce students to the use of SHAP (SHapley Additive exPlanations) to try to unpick how machine learning models are arriving at their predictions. This can help us better understand more about the…</span>
+</td>
+
+</tr>
+
+<tr data-index="239" data-listing-date-sort="1686614400000" data-listing-title-sort="HSMA Masterclass : Shiny for Python">
+<td>
+<a href="https://www.youtube.com/watch?v=tl9qwVj0wWg" class="title listing-title">HSMA Masterclass : Shiny for Python</a>
+</td>
+<td>
+<span class="listing-event">Masterclasses</span>
+</td>
+<td>
+<span class="listing-type">Masterclass</span>
+</td>
+<td>
+<span class="listing-description">In this Masterclass session, we introduce Shiny for Python - a relatively new library for Python that has been used extensively in R for many years - for developing web applications from your data and models simply but effectively. We also introduce the concept of Decorators in Python, which are…</span>
+</td>
+
+</tr>
+
+<tr data-index="240" data-listing-date-sort="1688428800000" data-listing-title-sort="HSMA Masterclass : StreamLit">
+<td>
+<a href="https://www.youtube.com/watch?v=6e0OPsjRYQ8" class="title listing-title">HSMA Masterclass : StreamLit</a>
+</td>
+<td>
+<span class="listing-event">Masterclasses</span>
+</td>
+<td>
+<span class="listing-type">Masterclass</span>
+</td>
+<td>
+<span class="listing-description">In this Masterclass session, we introduce StreamLit in Python for producing web apps for your models. We use an example of a Discrete Event Simulation built using SimPy and talk about how to best structure the model to make integration with StreamLit as easy as possible, before showcasing some of…</span>
+</td>
+
+</tr>
+
+<tr data-index="241" data-listing-date-sort="1690243200000" data-listing-title-sort="HSMA Masterclass : BERT for Natural Language Processing">
+<td>
+<a href="https://www.youtube.com/watch?v=Vje-dol9kc4" class="title listing-title">HSMA Masterclass : BERT for Natural Language Processing</a>
+</td>
+<td>
+<span class="listing-event">Masterclasses</span>
+</td>
+<td>
+<span class="listing-type">Masterclass</span>
+</td>
+<td>
+<span class="listing-description">In this Sesame Street-themed Masterclass session, we provide a beginner’s introduction to the world of BERT (Bidirectional Encoder Representations from Transformers) for Natural Language Processing - a model published in 2018 that has transformed the landscape of NLP. We provide a simple…</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<div class="listing-no-matching d-none">No matching items</div>
+<nav id="lecture-recordings-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div>
+<p>You can also browse the <a href="https://www.youtube.com/playlist?list=PLYdeZL7U9wI0">standalone workshop</a>, <a href="https://www.youtube.com/playlist?list=PLgHO2TgIJXdl0MvUdqxfQ1UgF9VdLGH1l">HSMA 6</a>, <a href="https://www.youtube.com/playlist?list=PLgHO2TgIJXdmB6T9sgyp64wNqBH1aBSu5">HSMA 5</a>, <a href="https://www.youtube.com/playlist?list=PLgHO2TgIJXdk9Kfqxxb_gmV2jPeIsbYTc">HSMA 4</a>, <a href="https://www.youtube.com/playlist?list=PLgHO2TgIJXdnoYRsxukJET7FwoOO4Qqag">HSMA 3</a> and <a href="https://www.youtube.com/playlist?list=PLgHO2TgIJXdmYZrsHHUqi08dWZ0OkSVrC">masterclass</a> playlists on YouTube.</p>
+<p>Recordings of HSMA participants presenting their projects are in the <a href="../../books_training/hsma_project_showcases/index.html">HSMA project showcase recordings</a>.</p>
+<p>To search these recordings alongside talks, webinars and workshops from other communities, use the <a href="../../recordings/index.html">Recordings Finder</a>.</p>
+
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/atlas\.hsma\.co\.uk");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p><a href="https://www.hsma.co.uk/"><img src="../../resources/hsma_logo.png" class="img-fluid" width="150"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://arc-swp.nihr.ac.uk/"><img src="../../resources/nihr_logo.png" class="img-fluid" width="250"></a><br><br> <em>This report is independent research supported by the National Institute for Health and Care Research Applied Research Collaboration South West Peninsula.<br> The views expressed in this publication are those of the author(s) and not necessarily those of the National Institute for Health and Care Research or the Department of Health and Social Care.</em> <br><br></p>
+<div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

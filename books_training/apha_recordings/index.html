@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="NHS-OA Community (formerly NHS-R Community)">
+<meta name="author" content="Association of Professional Healthcare Analysts (AphA)">
 <meta name="dcterms.date" content="2026-10-04">
 
-<title>NHS-OA Community: Workshop Recordings – The Healthcare Service Analytics &amp; Decision Intelligence Atlas</title>
+<title>AphA: Webinar and Conference Recordings – The Healthcare Service Analytics &amp; Decision Intelligence Atlas</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -80,21 +80,21 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-workshop-recordings .list');
+    const listingTargetEl = window.document.querySelector('#listing-apha-recordings .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-year','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-year','listing-event','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
       page: 25,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-title","listing-year","listing-description"],
+      searchColumns: ["listing-title","listing-year","listing-event","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-workshop-recordings'] = new List('listing-workshop-recordings', options);
+    window['quarto-listings']['listing-apha-recordings'] = new List('listing-apha-recordings', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -432,22 +432,21 @@ window.Quarto = {
             <div class="quarto-title column-page-left">
                                                 <div class="quarto-categories">
                                         <div class="quarto-category">Courses and Training or Reference Materials</div>
-                                        <div class="quarto-category">Courses</div>
-                                        <div class="quarto-category">Asynchronous</div>
+                                        <div class="quarto-category">Recorded Talks</div>
                                     </div>
-                                                <h1 class="title">NHS-OA Community: Workshop Recordings <i class="fa-solid fa-hospital"></i></h1>
+                                                <h1 class="title">AphA: Webinar and Conference Recordings <i class="fa-solid fa-hospital"></i></h1>
                                                                 <br>
                 <div class="abstract">
                     <b>Summary</b>
-                    <p>A YouTube playlist of recorded hands-on workshops from the NHS-OA Community and its predecessor, the NHS-R Community. The workshops are mostly in R, from introductory and intermediate R courses through to topics such as data visualisation, Shiny, regression modelling, tidymodels, statistical process control and working with databases.</p>
+                    <p>Recordings from the Association of Professional Healthcare Analysts (AphA), the professional body for health and care data and analytics professionals in the UK. They include its regular Lunch &amp; Learn webinars, branch meetings, workshops, and its 2020 and 2021 annual conferences, covering topics from statistics, data visualisation and data storytelling to AI, data platforms and the analytical workforce.</p>
                                         Rating: N/A
                                         <p>Collection of recordings from many different presenters, so it is not ranked as a whole.</p>
                                                         </div>
                 
                                 <div class="project-link-buttons">
                     <ul class="project-links">
-                                                                        <button class="custom-button"><a href="https://www.youtube.com/playlist?list=PLXCrMzQaI6c2L4JCRaF2iujzBxe9Rk-rC"><i class="fa-brands fa-youtube"></i> YouTube</a></button>
-                                                                                                <button class="custom-button"><a href="https://nhsoa.uk"><i class="fa-solid fa-globe"></i> Website</a></button>
+                                                                        <button class="custom-button"><a href="https://www.youtube.com/channel/UCJVrw1kIEyQmb1khi1nQSNQ/videos"><i class="fa-brands fa-youtube"></i> YouTube</a></button>
+                                                                                                <button class="custom-button"><a href="https://www.aphanalysts.org"><i class="fa-solid fa-globe"></i> Website</a></button>
                                                                     </ul>
                 </div>
                 
@@ -467,7 +466,7 @@ window.Quarto = {
         <div>
         <div class="quarto-title-meta-heading">Author</div>
         <div class="quarto-title-meta-contents">
-                 <p>NHS-OA Community (formerly NHS-R Community) </p>
+                 <p>Association of Professional Healthcare Analysts (AphA) </p>
               </div>
       </div>
         
@@ -489,7 +488,7 @@ window.Quarto = {
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#search-the-workshops" id="toc-search-the-workshops" class="nav-link active" data-scroll-target="#search-the-workshops">Search the workshops</a></li>
+  <li><a href="#search-the-recordings" id="toc-search-the-recordings" class="nav-link active" data-scroll-target="#search-the-recordings">Search the recordings</a></li>
   </ul>
 </nav>
     </div>
@@ -609,37 +608,36 @@ new FinisherHeader({
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.youtube.com/playlist?list=PLXCrMzQaI6c2L4JCRaF2iujzBxe9Rk-rC"><img src="workshop.jpg" class="img-fluid figure-img"></a></p>
-<figcaption>NHS-OA Community Workshop</figcaption>
+<p><a href="https://www.youtube.com/channel/UCJVrw1kIEyQmb1khi1nQSNQ/videos"><img src="apha.jpg" class="img-fluid figure-img"></a></p>
+<figcaption>AphA Annual Conference 2020</figcaption>
 </figure>
 </div>
-<p>This YouTube playlist collects recordings of hands-on workshops run by the <a href="../../books_training/nhs_oa_community/index.html">NHS-OA Community</a>, including those run when it was the NHS-R Community. The workshops were delivered live, often as part of the community’s annual conference, and the recordings can be followed at your own pace.</p>
-<p>The workshops are mostly in R. They include regular multi-part introductory and intermediate R courses, as well as one-off workshops on topics such as:</p>
+<p>The <a href="../../books_training/apha/index.html">Association of Professional Healthcare Analysts (AphA)</a> is the professional membership body for health and care data and analytics professionals in the UK. Its YouTube channel has recordings of many of its online events, including:</p>
 <ul>
-<li>data visualisation with ggplot2 and interactive plotting</li>
-<li>building apps with Shiny</li>
-<li>regression modelling and machine learning with tidymodels</li>
-<li>statistical process control charts and changepoint analysis</li>
-<li>working with databases</li>
-<li>reproducible reporting and automation, including R Markdown, targets and GitHub Actions</li>
-<li>code review and debugging</li>
+<li><strong>Lunch &amp; Learn webinars</strong> - regular lunchtime sessions with speakers from across health and care, academia and industry, on topics such as regression and statistical analysis, data visualisation and storytelling, messy NHS data, the Federated Data Platform, secure data environments, large language models and the analytical workforce</li>
+<li><strong>Branch meetings</strong> - meetings of AphA’s regional branches, such as London, Yorkshire and the Humber, and the East of England, with talks from local analysts</li>
+<li><strong>Annual conferences</strong> - recordings of the 2020 and 2021 AphA conferences, including Ben Goldacre on open methods and open platforms in 2020</li>
+<li><strong>Workshops and webinars</strong> - including sessions on wellbeing and resilience, and on the hiring process for analysts</li>
 </ul>
-<p>There is also an introduction to building interactive visualisations in Python with Shiny.</p>
-<section id="search-the-workshops" class="level2">
-<h2 class="anchored" data-anchor-id="search-the-workshops">Search the workshops</h2>
-<p>Search for a workshop by title, speaker, year or topic. Newest workshops are listed first. Where a recording’s description gives timings for its sections, each section is listed separately and the link starts the video at that section.</p>
-<div id="listing-workshop-recordings" class="quarto-listing quarto-listing-container-table">
+<p>AphA’s sessions about its own services, such as introductions to membership, professional registration and the mentoring programme, aren’t listed here - see <a href="https://www.aphanalysts.org">AphA’s website</a> for details of these.</p>
+<section id="search-the-recordings" class="level2">
+<h2 class="anchored" data-anchor-id="search-the-recordings">Search the recordings</h2>
+<p>Search for a recording by title, speaker, year, series or topic. Newest recordings are listed first. Where a recording’s description gives timings for its talks, each talk is listed separately and the link starts the video at that talk.</p>
+<div id="listing-apha-recordings" class="quarto-listing quarto-listing-container-table">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-workshop-recordings-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-workshop-recordings'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+    <select id="listing-apha-recordings-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-apha-recordings'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
       <option value="" disabled="" selected="" hidden="">Order By</option>
       <option value="index" data-direction="asc">Default</option>
       <option value="listing-title-sort" data-direction="asc">
-        Workshop
+        Recording
       </option>
       <option value="listing-year" data-direction="asc">
         Year
+      </option>
+      <option value="listing-event" data-direction="asc">
+        Series
       </option>
     </select>
   </div>
@@ -653,11 +651,15 @@ new FinisherHeader({
 <tr>
 
 <th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Workshop</a>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Recording</a>
 </th>
 
 <th>
 <a class="sort" data-sort="listing-year" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Year</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-event" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Series</a>
 </th>
 
 <th>
@@ -668,779 +670,607 @@ Details
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-date-sort="1789603200000" data-listing-title-sort="NHS Open Analytics Workshop: Introduction to R and R Studio - Part 1 &amp; 2 (September 2026)">
+<tr data-index="0" data-listing-date-sort="1790035200000" data-listing-title-sort="AphA Lunch &amp; Learn with Amy Makawana: Introduction to Logistic and Linear Regression">
 <td>
-<a href="https://www.youtube.com/watch?v=IWEY2ELKO2Q" class="title listing-title">NHS Open Analytics Workshop: Introduction to R and R Studio - Part 1 &amp; 2 (September 2026)</a>
+<a href="https://www.youtube.com/watch?v=safUlhPyEJw" class="title listing-title">AphA Lunch &amp; Learn with Amy Makawana: Introduction to Logistic and Linear Regression</a>
 </td>
 <td>
 <span class="listing-year">2026</span>
 </td>
 <td>
-<span class="listing-description">Introduction to R and R Studio with Zoë Turner (Part 1 &amp; 2) Tuesday 15th September 2026 and Wednesday 16th September 2026 Course Description: From ‘Hello World’ to producing a basic report. This introduction takes you from no knowledge of R to teaching you the basics of the R studio environment,…</span>
+<span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
 </td>
 
 </tr>
 
-<tr data-index="1" data-listing-date-sort="1770768000000" data-listing-title-sort="NHS-Open Analytics Workshop: Intermediate R - Part 2 (Wednesday 11th February 2026)">
+<tr data-index="1" data-listing-date-sort="1787011200000" data-listing-title-sort="AphA Lunch &amp; Learn: Introduction to statistical analysis and data types">
 <td>
-<a href="https://www.youtube.com/watch?v=ihaM-bMt9Yg" class="title listing-title">NHS-Open Analytics Workshop: Intermediate R - Part 2 (Wednesday 11th February 2026)</a>
+<a href="https://www.youtube.com/watch?v=AKLJDR1BYec" class="title listing-title">AphA Lunch &amp; Learn: Introduction to statistical analysis and data types</a>
 </td>
 <td>
 <span class="listing-year">2026</span>
 </td>
 <td>
-<span class="listing-description">Intermediate R with Simon Wellesley-Miller (Part 2) Wednesday 11th February 2026 Course Description: This course is designed to follow on from the Introduction to R and R Studio course, noting that attendees should be familiar with the basics covered in the workshop. Please be advised that this…</span>
+<span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
 </td>
 
 </tr>
 
-<tr data-index="2" data-listing-date-sort="1770681600000" data-listing-title-sort="NHS-Open Analytics Workshop: Intermediate R - Part 1 (Tuesday 10th February 2026)">
+<tr data-index="2" data-listing-date-sort="1785801600000" data-listing-title-sort="AphA Lunch &amp; Learn with Neil Pettinger">
 <td>
-<a href="https://www.youtube.com/watch?v=ZBSWBSoNo-A" class="title listing-title">NHS-Open Analytics Workshop: Intermediate R - Part 1 (Tuesday 10th February 2026)</a>
+<a href="https://www.youtube.com/watch?v=JNQ0EKAaRGM" class="title listing-title">AphA Lunch &amp; Learn with Neil Pettinger</a>
 </td>
 <td>
 <span class="listing-year">2026</span>
 </td>
 <td>
-<span class="listing-description">Intermediate R with Simon Wellesley-Miller (Part 1) Tuesday 10th February 2026 Course Description: This course is designed to follow on from the Introduction to R and R Studio course, noting that attendees should be familiar with the basics covered in the workshop. Please be advised that this…</span>
+<span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-description">Data Storytelling from (x = 0, y = 0) to (x = 10, y = 10)</span>
 </td>
 
 </tr>
 
-<tr data-index="3" data-listing-date-sort="1765843200000" data-listing-title-sort="NHS-R Workshop: Better, Kinder Code Review">
+<tr data-index="3" data-listing-date-sort="1784592000000" data-listing-title-sort="AphA L&amp;L with the Data Observatory">
 <td>
-<a href="https://www.youtube.com/watch?v=lbx0AHyFNuA" class="title listing-title">NHS-R Workshop: Better, Kinder Code Review</a>
+<a href="https://www.youtube.com/watch?v=iHAJCPMl79M" class="title listing-title">AphA L&amp;L with the Data Observatory</a>
+</td>
+<td>
+<span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="4" data-listing-date-sort="1783382400000" data-listing-title-sort="AphA Lunch &amp; Learn with Aaron Key">
+<td>
+<a href="https://www.youtube.com/watch?v=Rmrl2ObLulY" class="title listing-title">AphA Lunch &amp; Learn with Aaron Key</a>
+</td>
+<td>
+<span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="5" data-listing-date-sort="1781049600000" data-listing-title-sort="AphA L&amp;L with Graphnet">
+<td>
+<a href="https://www.youtube.com/watch?v=QVXxcZ78D3o" class="title listing-title">AphA L&amp;L with Graphnet</a>
+</td>
+<td>
+<span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="6" data-listing-date-sort="1779753600000" data-listing-title-sort="AphA L&amp;L with Fraser Battye">
+<td>
+<a href="https://www.youtube.com/watch?v=qv42lRINPvo" class="title listing-title">AphA L&amp;L with Fraser Battye</a>
+</td>
+<td>
+<span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="7" data-listing-date-sort="1778544000000" data-listing-title-sort="AphA Lunch &amp; Learn with UCL - Mixed methods evaluation insights">
+<td>
+<a href="https://www.youtube.com/watch?v=MhckGcTMPNI" class="title listing-title">AphA Lunch &amp; Learn with UCL - Mixed methods evaluation insights</a>
+</td>
+<td>
+<span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="8" data-listing-date-sort="1776729600000" data-listing-title-sort="AphA Lunch &amp; Learn with TPXImpact">
+<td>
+<a href="https://www.youtube.com/watch?v=MRHz8HCAFzc" class="title listing-title">AphA Lunch &amp; Learn with TPXImpact</a>
+</td>
+<td>
+<span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-description">The Human behind the data</span>
+</td>
+
+</tr>
+
+<tr data-index="9" data-listing-date-sort="1774915200000" data-listing-title-sort="AphA Lunch &amp; Learn session">
+<td>
+<a href="https://www.youtube.com/watch?v=GeWFfgd0wKM" class="title listing-title">AphA Lunch &amp; Learn session</a>
+</td>
+<td>
+<span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-description">The rise of LLM and what it means for NHS Analysts</span>
+</td>
+
+</tr>
+
+<tr data-index="10" data-listing-date-sort="1773100800000" data-listing-title-sort="AphA Lunch &amp; Learn sessions with HDRUK">
+<td>
+<a href="https://www.youtube.com/watch?v=BwDXQ-T19bw" class="title listing-title">AphA Lunch &amp; Learn sessions with HDRUK</a>
+</td>
+<td>
+<span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="11" data-listing-date-sort="1771891200000" data-listing-title-sort="AphA Lunch &amp; Learn with Hunter Healthcare">
+<td>
+<a href="https://www.youtube.com/watch?v=YegtMna3OKo" class="title listing-title">AphA Lunch &amp; Learn with Hunter Healthcare</a>
+</td>
+<td>
+<span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="12" data-listing-date-sort="1770681600000" data-listing-title-sort="AphA Lunch &amp; Learn: Skill Gap Analysis &amp; Leveraging Resources for Growth with the NCF">
+<td>
+<a href="https://www.youtube.com/watch?v=h70OvDdrafU" class="title listing-title">AphA Lunch &amp; Learn: Skill Gap Analysis &amp; Leveraging Resources for Growth with the NCF</a>
+</td>
+<td>
+<span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-description">10 Feb 2026 Meeting Recording</span>
+</td>
+
+</tr>
+
+<tr data-index="13" data-listing-date-sort="1770076800000" data-listing-title-sort="Alteryx &amp; AphA Webinar">
+<td>
+<a href="https://www.youtube.com/watch?v=4yMkaYQ8o8I" class="title listing-title">Alteryx &amp; AphA Webinar</a>
+</td>
+<td>
+<span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-event">Webinars and workshops</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="14" data-listing-date-sort="1769472000000" data-listing-title-sort="AphA Lunch &amp; Learn with Jo Stanford">
+<td>
+<a href="https://www.youtube.com/watch?v=vvy3bn-NMog" class="title listing-title">AphA Lunch &amp; Learn with Jo Stanford</a>
+</td>
+<td>
+<span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="15" data-listing-date-sort="1768262400000" data-listing-title-sort="AphA lunch and learn Best of Summit and Build with Snowflake">
+<td>
+<a href="https://www.youtube.com/watch?v=8ks0OWOFX0s" class="title listing-title">AphA lunch and learn Best of Summit and Build with Snowflake</a>
+</td>
+<td>
+<span class="listing-year">2026</span>
+</td>
+<td>
+<span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="16" data-listing-date-sort="1765324800000" data-listing-title-sort="AphA Lunch &amp; Learn with Neil Pettinger">
+<td>
+<a href="https://www.youtube.com/watch?v=zxfJ3s7-4Es" class="title listing-title">AphA Lunch &amp; Learn with Neil Pettinger</a>
 </td>
 <td>
 <span class="listing-year">2025</span>
 </td>
 <td>
-<span class="listing-description">Better, Kinder Code Review Wednesday 09th July 2025 With Dr Toby Hodges Content Summary: This hands-on workshop will introduce participants to some good practices and practical tips for code review, exploring how to provide effective, constructive feedback that results in better code, happier…</span>
+<span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
 </td>
 
 </tr>
 
-<tr data-index="4" data-listing-date-sort="1761782400000" data-listing-title-sort="NHS-R Workshop: Introduction to R and R Studio (Day 1 – Tuesday 23rd September 2025)">
+<tr data-index="17" data-listing-date-sort="1762819200000" data-listing-title-sort="AphA lunch &amp; learn with Charlotte Shearsby">
 <td>
-<a href="https://www.youtube.com/watch?v=qb14cnDSjSM" class="title listing-title">NHS-R Workshop: Introduction to R and R Studio (Day 1 – Tuesday 23rd September 2025)</a>
+<a href="https://www.youtube.com/watch?v=QT4c7RZ7PH4" class="title listing-title">AphA lunch &amp; learn with Charlotte Shearsby</a>
 </td>
 <td>
 <span class="listing-year">2025</span>
 </td>
 <td>
-<span class="listing-description">Introduction to R and R Studio with Dr Claire Welsh Tuesday 23rd September 2025 Course Description: From ‘Hello World’ to producing a basic report. This introduction takes you from no knowledge of R to teaching you the basics of the R studio environment, then loading in some data, some common data…</span>
+<span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-description">Kick start Tableau</span>
 </td>
 
 </tr>
 
-<tr data-index="5" data-listing-date-sort="1761782400000" data-listing-title-sort="NHS-R Workshop: Introduction to R and R Studio (Day 2 – Wednesday 24th September 2025)">
+<tr data-index="18" data-listing-date-sort="1761609600000" data-listing-title-sort="AphA Lunch &amp; Learn with BHF">
 <td>
-<a href="https://www.youtube.com/watch?v=yx7g6v0Usfc" class="title listing-title">NHS-R Workshop: Introduction to R and R Studio (Day 2 – Wednesday 24th September 2025)</a>
+<a href="https://www.youtube.com/watch?v=sN_3wkqnYJo" class="title listing-title">AphA Lunch &amp; Learn with BHF</a>
 </td>
 <td>
 <span class="listing-year">2025</span>
 </td>
 <td>
-<span class="listing-description">Introduction to R and R Studio with Dr Claire Welsh Wednesday 24th September 2025 Course Description: From ‘Hello World’ to producing a basic report. This introduction takes you from no knowledge of R to teaching you the basics of the R studio environment, then loading in some data, some common…</span>
+<span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-description">Bridging Hearts: Addressing inequalities in cardiovascular health</span>
 </td>
 
 </tr>
 
-<tr data-index="6" data-listing-date-sort="1761782400000" data-listing-title-sort="NHS-R Workshop: Intermediate R (Day 2 - Wednesday 15th October 2025)">
+<tr data-index="19" data-listing-date-sort="1760400000000" data-listing-title-sort="AphA Lunch &amp; Learn session with Mark Heffernan">
 <td>
-<a href="https://www.youtube.com/watch?v=PEgtCOXBV4o" class="title listing-title">NHS-R Workshop: Intermediate R (Day 2 - Wednesday 15th October 2025)</a>
+<a href="https://www.youtube.com/watch?v=DPqHpGTEOVA" class="title listing-title">AphA Lunch &amp; Learn session with Mark Heffernan</a>
 </td>
 <td>
 <span class="listing-year">2025</span>
 </td>
 <td>
-<span class="listing-description">Intermediate R with Dr Claire Welsh Wednesday 15th October 2025 Course Description: This course is designed to follow on from the Introduction to R and R Studio course, noting that attendees should be familiar with the basics covered in the workshop. Please be advised that this session will go into…</span>
+<span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-description">First Steps in the Wessex SDE</span>
 </td>
 
 </tr>
 
-<tr data-index="7" data-listing-date-sort="1761782400000" data-listing-title-sort="NHS-R Workshop: Intermediate R (Day 1 - Tuesday 14th October 2025)">
+<tr data-index="20" data-listing-date-sort="1757980800000" data-listing-title-sort="AphA Lunch &amp; Learn session with John O'Connell">
 <td>
-<a href="https://www.youtube.com/watch?v=UW0pPHaLdO8" class="title listing-title">NHS-R Workshop: Intermediate R (Day 1 - Tuesday 14th October 2025)</a>
+<a href="https://www.youtube.com/watch?v=ftiQSwxXQ2Y" class="title listing-title">AphA Lunch &amp; Learn session with John O’Connell</a>
 </td>
 <td>
 <span class="listing-year">2025</span>
 </td>
 <td>
-<span class="listing-description">Intermediate R with Dr Claire Welsh Tuesday 14th October 2025 Course Description: This course is designed to follow on from the Introduction to R and R Studio course, noting that attendees should be familiar with the basics covered in the workshop. Please be advised that this session will go into…</span>
+<span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-description">AI Digital &amp; Data Readiness Across NHS Teams</span>
 </td>
 
 </tr>
 
-<tr data-index="8" data-listing-date-sort="1749772800000" data-listing-title-sort="NHS-R Workshop: Intermediate R (Day 1 and Day 2)">
+<tr data-index="21" data-listing-date-sort="1756771200000" data-listing-title-sort="AphA Lunch &amp; Learn session with Alex Bottle">
 <td>
-<a href="https://www.youtube.com/watch?v=UAucTfy1qtU" class="title listing-title">NHS-R Workshop: Intermediate R (Day 1 and Day 2)</a>
+<a href="https://www.youtube.com/watch?v=8P7uUk-WJWw" class="title listing-title">AphA Lunch &amp; Learn session with Alex Bottle</a>
 </td>
 <td>
 <span class="listing-year">2025</span>
 </td>
 <td>
-<span class="listing-description">Intermediate R with Simon Wellesley-Miller Monday 2nd June 2025 and Tuesday 3rd June 2025 Course Description: This course is designed to follow on from the introduction course assuming people are familiar with the basics covered there. We go into more in depth and complex wrangling tasks, explore…</span>
+<span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-description">Getting the most out of messy NHS data</span>
 </td>
 
 </tr>
 
-<tr data-index="9" data-listing-date-sort="1747353600000" data-listing-title-sort="NHS-R Workshop: Introduction to R (Day 1 and Day 2)">
+<tr data-index="22" data-listing-date-sort="1755561600000" data-listing-title-sort="AphA Lunch &amp; Learn repeat session with Matt Oakes">
 <td>
-<a href="https://www.youtube.com/watch?v=R2qGBIKoebo" class="title listing-title">NHS-R Workshop: Introduction to R (Day 1 and Day 2)</a>
+<a href="https://www.youtube.com/watch?v=B021v_IVhrY" class="title listing-title">AphA Lunch &amp; Learn repeat session with Matt Oakes</a>
 </td>
 <td>
 <span class="listing-year">2025</span>
 </td>
 <td>
-<span class="listing-description">Introduction to R with Simon Wellesley-Miller Monday 12th May 2025 and Tuesday 13th May 2025 Course Description: From ‘Hello World’ to producing a basic report. This introduction takes you from no knowledge of R to teaching you the basics of the R studio environment, then loading in some data, some…</span>
+<span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-description">An analyst’s perspective on the FDP</span>
 </td>
 
 </tr>
 
-<tr data-index="10" data-listing-date-sort="1726185600000" data-listing-title-sort="Install package">
+<tr data-index="23" data-listing-date-sort="1754352000000" data-listing-title-sort="AphA Lunch &amp; Learn session Reshaping the pattern of care">
 <td>
-<a href="https://www.youtube.com/watch?v=iLfzNWh2dLI&amp;t=239s" class="title listing-title">Install package</a>
+<a href="https://www.youtube.com/watch?v=l1W7VYyURfM" class="title listing-title">AphA Lunch &amp; Learn session Reshaping the pattern of care</a>
+</td>
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-description">with Jennifer Woods &amp; Justine Wiltshire , The Strategy Unit</span>
+</td>
+
+</tr>
+
+<tr data-index="24" data-listing-date-sort="1753142400000" data-listing-title-sort="Lunch &amp; Learn session with Andy &amp; Sarah">
+<td>
+<a href="https://www.youtube.com/watch?v=QbgFTqzanpg" class="title listing-title">Lunch &amp; Learn session with Andy &amp; Sarah</a>
+</td>
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-description">Data and Analytics workforce: Who, what, how and why with Sarah Blundell &amp; Andy Lavelle</span>
+</td>
+
+</tr>
+
+<tr data-index="25" data-listing-date-sort="1752624000000" data-listing-title-sort="AphA lunch &amp; learn with Filipe McManus">
+<td>
+<a href="https://www.youtube.com/watch?v=oVGYabQ07Vo" class="title listing-title">AphA lunch &amp; learn with Filipe McManus</a>
+</td>
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-description">Facts &amp; Dimensions</span>
+</td>
+
+</tr>
+
+<tr data-index="26" data-listing-date-sort="1751932800000" data-listing-title-sort="AphA Lunch &amp; Learn session with Matt Oakes">
+<td>
+<a href="https://www.youtube.com/watch?v=DR7JnB7BT9Q" class="title listing-title">AphA Lunch &amp; Learn session with Matt Oakes</a>
+</td>
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-description">An analyst’s perspective on the FDP</span>
+</td>
+
+</tr>
+
+<tr data-index="27" data-listing-date-sort="1750723200000" data-listing-title-sort="AphA lunch &amp; learn with Charlotte Shearsby">
+<td>
+<a href="https://www.youtube.com/watch?v=nq-UMEhzeJI" class="title listing-title">AphA lunch &amp; learn with Charlotte Shearsby</a>
+</td>
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-description">Intro into data visualisation</span>
+</td>
+
+</tr>
+
+<tr data-index="28" data-listing-date-sort="1750204800000" data-listing-title-sort="AphA lunch &amp; learn with Filipe McManus">
+<td>
+<a href="https://www.youtube.com/watch?v=q9zMG2TIhfM" class="title listing-title">AphA lunch &amp; learn with Filipe McManus</a>
+</td>
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-description">Facts &amp; Dimensions</span>
+</td>
+
+</tr>
+
+<tr data-index="29" data-listing-date-sort="1749513600000" data-listing-title-sort="AphA lunch &amp; learn session with Alice Byram">
+<td>
+<a href="https://www.youtube.com/watch?v=ht-jVGUpTic" class="title listing-title">AphA lunch &amp; learn session with Alice Byram</a>
+</td>
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-event">Lunch &amp; Learn</span>
+</td>
+<td>
+<span class="listing-description">Reaching the Unreached: How Data Can Include and Exclude</span>
+</td>
+
+</tr>
+
+<tr data-index="30" data-listing-date-sort="1748304000000" data-listing-title-sort="AphA workshop with Caroline Beardall">
+<td>
+<a href="https://www.youtube.com/watch?v=qBoW0L9PCHM" class="title listing-title">AphA workshop with Caroline Beardall</a>
+</td>
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-event">Webinars and workshops</span>
+</td>
+<td>
+<span class="listing-description">Cultivating Wellbeing in a Changing Landscape</span>
+</td>
+
+</tr>
+
+<tr data-index="31" data-listing-date-sort="1747094400000" data-listing-title-sort="AphA workshop with Caroline Beardall">
+<td>
+<a href="https://www.youtube.com/watch?v=aw_37jgjEm4" class="title listing-title">AphA workshop with Caroline Beardall</a>
+</td>
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-event">Webinars and workshops</span>
+</td>
+<td>
+<span class="listing-description">Steady Mind, Shifting World: Building Mental Resilience in Uncertain Times</span>
+</td>
+
+</tr>
+
+<tr data-index="32" data-listing-date-sort="1745884800000" data-listing-title-sort="Decoding the Hiring Process  CVs, Interviews &amp; Beyond with Hunter Healthcare">
+<td>
+<a href="https://www.youtube.com/watch?v=Bk65rsCpVXY" class="title listing-title">Decoding the Hiring Process CVs, Interviews &amp; Beyond with Hunter Healthcare</a>
+</td>
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-event">Webinars and workshops</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="33" data-listing-date-sort="1745280000000" data-listing-title-sort="Decoding the Hiring Process  CVs, Interviews &amp; Beyond with Hunter Healthcare">
+<td>
+<a href="https://www.youtube.com/watch?v=mzUDjmQwZY8" class="title listing-title">Decoding the Hiring Process CVs, Interviews &amp; Beyond with Hunter Healthcare</a>
+</td>
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-event">Webinars and workshops</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="34" data-listing-date-sort="1714521600000" data-listing-title-sort="AphA London Hybrid Event part2">
+<td>
+<a href="https://www.youtube.com/watch?v=4zyUCm3gNwM" class="title listing-title">AphA London Hybrid Event part2</a>
 </td>
 <td>
 <span class="listing-year">2024</span>
 </td>
 <td>
-<span class="listing-description">From the recording ‘How to use the reprex R package to produce a reproducible example’, starting at 3:59.</span>
+<span class="listing-event">Branch meetings</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
 </td>
 
 </tr>
 
-<tr data-index="11" data-listing-date-sort="1726185600000" data-listing-title-sort="Creating data to replicate the problem">
+<tr data-index="35" data-listing-date-sort="1714521600000" data-listing-title-sort="AphA London Hybrid Event part 1">
 <td>
-<a href="https://www.youtube.com/watch?v=iLfzNWh2dLI&amp;t=283s" class="title listing-title">Creating data to replicate the problem</a>
+<a href="https://www.youtube.com/watch?v=vDXjhItggmg" class="title listing-title">AphA London Hybrid Event part 1</a>
 </td>
 <td>
 <span class="listing-year">2024</span>
 </td>
 <td>
-<span class="listing-description">From the recording ‘How to use the reprex R package to produce a reproducible example’, starting at 4:43.</span>
+<span class="listing-event">Branch meetings</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
 </td>
 
 </tr>
 
-<tr data-index="12" data-listing-date-sort="1726185600000" data-listing-title-sort="Code that works using dplyr">
+<tr data-index="36" data-listing-date-sort="1706832000000" data-listing-title-sort="AphA London Branch Event">
 <td>
-<a href="https://www.youtube.com/watch?v=iLfzNWh2dLI&amp;t=328s" class="title listing-title">Code that works using dplyr</a>
+<a href="https://www.youtube.com/watch?v=v0qJ1LTVbRs" class="title listing-title">AphA London Branch Event</a>
 </td>
 <td>
 <span class="listing-year">2024</span>
 </td>
 <td>
-<span class="listing-description">From the recording ‘How to use the reprex R package to produce a reproducible example’, starting at 5:28.</span>
+<span class="listing-event">Branch meetings</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
 </td>
 
 </tr>
 
-<tr data-index="13" data-listing-date-sort="1726185600000" data-listing-title-sort="Code that gives an error using dbplyr with SQL">
+<tr data-index="37" data-listing-date-sort="1696809600000" data-listing-title-sort="AphA London Branch meeting">
 <td>
-<a href="https://www.youtube.com/watch?v=iLfzNWh2dLI&amp;t=338s" class="title listing-title">Code that gives an error using dbplyr with SQL</a>
-</td>
-<td>
-<span class="listing-year">2024</span>
-</td>
-<td>
-<span class="listing-description">From the recording ‘How to use the reprex R package to produce a reproducible example’, starting at 5:38.</span>
-</td>
-
-</tr>
-
-<tr data-index="14" data-listing-date-sort="1726185600000" data-listing-title-sort="Copy the text and use the reprex add in for RStudio">
-<td>
-<a href="https://www.youtube.com/watch?v=iLfzNWh2dLI&amp;t=472s" class="title listing-title">Copy the text and use the reprex add in for RStudio</a>
-</td>
-<td>
-<span class="listing-year">2024</span>
-</td>
-<td>
-<span class="listing-description">From the recording ‘How to use the reprex R package to produce a reproducible example’, starting at 7:52.</span>
-</td>
-
-</tr>
-
-<tr data-index="15" data-listing-date-sort="1726185600000" data-listing-title-sort="Copy the text and use command line">
-<td>
-<a href="https://www.youtube.com/watch?v=iLfzNWh2dLI&amp;t=636s" class="title listing-title">Copy the text and use command line</a>
-</td>
-<td>
-<span class="listing-year">2024</span>
-</td>
-<td>
-<span class="listing-description">From the recording ‘How to use the reprex R package to produce a reproducible example’, starting at 10:36.</span>
-</td>
-
-</tr>
-
-<tr data-index="16" data-listing-date-sort="1719532800000" data-listing-title-sort="Intermediate R with Anya Ferguson Pt 1">
-<td>
-<a href="https://www.youtube.com/watch?v=b08sQUwWnXM" class="title listing-title">Intermediate R with Anya Ferguson Pt 1</a>
-</td>
-<td>
-<span class="listing-year">2024</span>
-</td>
-<td>
-<span class="listing-description">This the first part of a recording of an Intermediate R course with Anya Ferguson assisted by Jeremy Selva on 25 June 2024</span>
-</td>
-
-</tr>
-
-<tr data-index="17" data-listing-date-sort="1719532800000" data-listing-title-sort="Intermediate R with Anya Ferguson Pt 2">
-<td>
-<a href="https://www.youtube.com/watch?v=E5G94mkbsoA" class="title listing-title">Intermediate R with Anya Ferguson Pt 2</a>
-</td>
-<td>
-<span class="listing-year">2024</span>
-</td>
-<td>
-<span class="listing-description">This is a recording of a Part 2 of an Intermediate R course run by Anya Ferguson with assistance from Jeremy Selva on 26 June 2024</span>
-</td>
-
-</tr>
-
-<tr data-index="18" data-listing-date-sort="1717372800000" data-listing-title-sort="Introduction to R and R Studio Pt2">
-<td>
-<a href="https://www.youtube.com/watch?v=2ATXKgv9s7M" class="title listing-title">Introduction to R and R Studio Pt2</a>
-</td>
-<td>
-<span class="listing-year">2024</span>
-</td>
-<td>
-<span class="listing-description">This is the second part of a recording of Introduction to R and R Studio course which took place on 27 March 2024 with Simon Wellesley-Miller</span>
-</td>
-
-</tr>
-
-<tr data-index="19" data-listing-date-sort="1717113600000" data-listing-title-sort="Intermediate R with Simon Wellesley-Miller 14 May 2024">
-<td>
-<a href="https://www.youtube.com/watch?v=-ryFXMK1DoI" class="title listing-title">Intermediate R with Simon Wellesley-Miller 14 May 2024</a>
-</td>
-<td>
-<span class="listing-year">2024</span>
-</td>
-<td>
-<span class="listing-description">This is a recording of an Intermediate R course presented by Simon Wellesley Miller and co-hosted by Anya Ferguson on 14 May 2924</span>
-</td>
-
-</tr>
-
-<tr data-index="20" data-listing-date-sort="1717113600000" data-listing-title-sort="Introduction to machine learning with {tidymodels}">
-<td>
-<a href="https://www.youtube.com/watch?v=qFvbzUivIHY" class="title listing-title">Introduction to machine learning with {tidymodels}</a>
-</td>
-<td>
-<span class="listing-year">2024</span>
-</td>
-<td>
-<span class="listing-description">This a recording of a workshop by Nicola Rennie: “Introduction to machine learning with {tidymodels} on 22 May 2024 GitHub repository:</span>
-</td>
-
-</tr>
-
-<tr data-index="21" data-listing-date-sort="1717113600000" data-listing-title-sort="Introduction to R and R Studio Pt1">
-<td>
-<a href="https://www.youtube.com/watch?v=V0SZsIFMIe4" class="title listing-title">Introduction to R and R Studio Pt1</a>
-</td>
-<td>
-<span class="listing-year">2024</span>
-</td>
-<td>
-<span class="listing-description">This is the first part of a recording of Introduction to R and R Studio course which took place on 27 March 2024 with Simon Wellesley-Miller</span>
-</td>
-
-</tr>
-
-<tr data-index="22" data-listing-date-sort="1712534400000" data-listing-title-sort="Intermediate R with Simon Wellesley Miller">
-<td>
-<a href="https://www.youtube.com/watch?v=I-wT2NUeB18" class="title listing-title">Intermediate R with Simon Wellesley Miller</a>
-</td>
-<td>
-<span class="listing-year">2024</span>
-</td>
-<td>
-<span class="listing-description">Intermediate R with Simon Wellesley Miller One day course 3 April 2024 and Lyn Howard (co-host) GitHub link with the original from Simon</span>
-</td>
-
-</tr>
-
-<tr data-index="23" data-listing-date-sort="1709251200000" data-listing-title-sort="Introduction to R and R Studio Part 1 with Annie Yu on 21 February 2024">
-<td>
-<a href="https://www.youtube.com/watch?v=H_y-QVrG--w" class="title listing-title">Introduction to R and R Studio Part 1 with Annie Yu on 21 February 2024</a>
-</td>
-<td>
-<span class="listing-year">2024</span>
-</td>
-<td>
-<span class="listing-description">Learn about how to import data, wrangle data and produce and export graphs. Pre-requisites: No prior knowledge of R is required; however, it is assumed that you will have a moderate level of computer literacy. For example, you will be able to navigate to drives and files and be confident in…</span>
-</td>
-
-</tr>
-
-<tr data-index="24" data-listing-date-sort="1709251200000" data-listing-title-sort="Introduction to R and R Studio with Annie Yu Pt 2">
-<td>
-<a href="https://www.youtube.com/watch?v=XMbpHfnoMcM" class="title listing-title">Introduction to R and R Studio with Annie Yu Pt 2</a>
-</td>
-<td>
-<span class="listing-year">2024</span>
-</td>
-<td>
-<span class="listing-description">Learn about how to import data, wrangle data and produce and export graphs. Pre-requisites: No prior knowledge of R is required; however, it is assumed that you will have a moderate level of computer literacy. For example, you will be able to navigate to drives and files and be confident in…</span>
-</td>
-
-</tr>
-
-<tr data-index="25" data-listing-date-sort="1709078400000" data-listing-title-sort="Understanding Functions in R">
-<td>
-<a href="https://www.youtube.com/watch?v=SoGqSKVpXq4" class="title listing-title">Understanding Functions in R</a>
-</td>
-<td>
-<span class="listing-year">2024</span>
-</td>
-<td>
-<span class="listing-description">This is an introductory-level workshop aimed at analysts who can write R code but who don’t really get what functions are yet. We’ll be turning some repetitive code into functions, and learning: – how to make a function; – what makes functions useful for analysts. I coded for ages before I…</span>
-</td>
-
-</tr>
-
-<tr data-index="26" data-listing-date-sort="1704240000000" data-listing-title-sort="NHS-R Workshop: Interactive Visualisations for Beginners in Python with Shiny Apps">
-<td>
-<a href="https://www.youtube.com/watch?v=aMn5W5bCJTY" class="title listing-title">NHS-R Workshop: Interactive Visualisations for Beginners in Python with Shiny Apps</a>
-</td>
-<td>
-<span class="listing-year">2024</span>
-</td>
-<td>
-<span class="listing-description">Interactive Visualisations for Beginners in Python with Shiny Apps Thursday 07th December 2023 with Dr Pawel Orzechowski 10:00am until 12:00pm (UK time) Course Description: Imagine coding an interactive demo and sharing it with the world within minutes. Your data could be displayed as maps or…</span>
-</td>
-
-</tr>
-
-<tr data-index="27" data-listing-date-sort="1703203200000" data-listing-title-sort="NHS-R Workshop: GitHub Actions 101 – Test, Build, and Deploy [Wednesday 22nd November 2023]">
-<td>
-<a href="https://www.youtube.com/watch?v=kPBne5nCdbs" class="title listing-title">NHS-R Workshop: GitHub Actions 101 – Test, Build, and Deploy [Wednesday 22nd November 2023]</a>
+<a href="https://www.youtube.com/watch?v=pZZeGrSjuxc" class="title listing-title">AphA London Branch meeting</a>
 </td>
 <td>
 <span class="listing-year">2023</span>
 </td>
 <td>
-<span class="listing-description">NHS-R Workshop: GitHub Actions 101 – Test, Build, and Deploy with Joseph Wilson and Harriet Sands.</span>
-</td>
-
-</tr>
-
-<tr data-index="28" data-listing-date-sort="1669334400000" data-listing-title-sort="NHS-R Workshop - Regression Modelling in R - 24/11/22">
-<td>
-<a href="https://www.youtube.com/watch?v=yaMpZsordu4" class="title listing-title">NHS-R Workshop - Regression Modelling in R - 24/11/22</a>
-</td>
-<td>
-<span class="listing-year">2022</span>
-</td>
-<td>
-<span class="listing-description">Introduction to Regression Modelling Thursday 24th November 2022 Led by Chris Mainey, Deputy Director of Specialist Analytics at North Central London Integrated Care Board Pre-requisites: Some introductory experience with R About the course: This session will focus on how to fit regression models…</span>
-</td>
-
-</tr>
-
-<tr data-index="29" data-listing-date-sort="1669334400000" data-listing-title-sort="NHS-R Workshop: Fitting Distributions in R - 25/11/22">
-<td>
-<a href="https://www.youtube.com/watch?v=86sviwkA088" class="title listing-title">NHS-R Workshop: Fitting Distributions in R - 25/11/22</a>
-</td>
-<td>
-<span class="listing-year">2022</span>
-</td>
-<td>
-<span class="listing-description">Fitting distributions in R Friday 25th November 2022 Led by Dr Sean Manzi, Research Fellow in Applied Healthcare Modelling and Analysis, University of Exeter College of Medicine and Health Pre-requisites: A basic understanding of how to use R About the course: This session will begin by introducing…</span>
-</td>
-
-</tr>
-
-<tr data-index="30" data-listing-date-sort="1669248000000" data-listing-title-sort="NHS-R Workshop: Working with databases in R - 23//11/22">
-<td>
-<a href="https://www.youtube.com/watch?v=htQWauSV9J4" class="title listing-title">NHS-R Workshop: Working with databases in R - 23//11/22</a>
-</td>
-<td>
-<span class="listing-year">2022</span>
-</td>
-<td>
-<span class="listing-description">Working with databases in R Wednesday 23rd November 2022 Led by Christopher Maronga,m R Programmer, University of Oxford About the course: The first step in any data handling process is loading data into your working tool regardless of the form and media of storage. Relational databases such as…</span>
-</td>
-
-</tr>
-
-<tr data-index="31" data-listing-date-sort="1669248000000" data-listing-title-sort="NHS-R Workshop: PHM ExploreR An open source tool for Population Health Management  - 24/11/22">
-<td>
-<a href="https://www.youtube.com/watch?v=E1et8cSIRMQ" class="title listing-title">NHS-R Workshop: PHM ExploreR An open source tool for Population Health Management - 24/11/22</a>
-</td>
-<td>
-<span class="listing-year">2022</span>
-</td>
-<td>
-<span class="listing-description">PHM ExploreR: An open source tool for Population Health Management Thursday 24th November 2022 Led by Andras Varady, Forensic Cancer Pathway Data Scientist, NHS Bristol, North Somerset and South Gloucestershire CCG About the course: The workshop will introduce delegates to the PHM ExploreR: a…</span>
-</td>
-
-</tr>
-
-<tr data-index="32" data-listing-date-sort="1668297600000" data-listing-title-sort="NHS-R Workshop: Debugging in R - 11/11/22">
-<td>
-<a href="https://www.youtube.com/watch?v=evzo-F2Yp5g" class="title listing-title">NHS-R Workshop: Debugging in R - 11/11/22</a>
-</td>
-<td>
-<span class="listing-year">2022</span>
-</td>
-<td>
-<span class="listing-description">Debugging in R Friday 11th November 2022 Led by Shannon Pileggi, Data Scientist, The Prostate Cancer Clinical Trials Consortium Pre-requisites: Knowledge of how to write a function in R. About the course: Learning objectives: Review code troubleshooting tips. Discuss debugging functions…</span>
-</td>
-
-</tr>
-
-<tr data-index="33" data-listing-date-sort="1667865600000" data-listing-title-sort="NHS-R Conference Workshop: Introduction to Interactive plotting with R – 03/11/22">
-<td>
-<a href="https://www.youtube.com/watch?v=fmelRhf14PE" class="title listing-title">NHS-R Conference Workshop: Introduction to Interactive plotting with R – 03/11/22</a>
-</td>
-<td>
-<span class="listing-year">2022</span>
-</td>
-<td>
-<span class="listing-description">Introduction to Interactive plotting with R Thursday 3rd November 2022, Led by Annie Yu, Epidemiological Programmer, Hertfordshire County Council Pre-requisites: Some introductory experience with R About the course: The workshop will cover creating interactive graphs using plotly and echarts4r…</span>
-</td>
-
-</tr>
-
-<tr data-index="34" data-listing-date-sort="1667865600000" data-listing-title-sort="NHS-R Workshop: Level up your plots! - 04/11/22">
-<td>
-<a href="https://www.youtube.com/watch?v=Zt_SMnNPLX0" class="title listing-title">NHS-R Workshop: Level up your plots! - 04/11/22</a>
-</td>
-<td>
-<span class="listing-year">2022</span>
-</td>
-<td>
-<span class="listing-description">Level up your plots: tips and tricks for creating compelling data visualisations in R Friday 4th November 202 Led by Cara Thompson, Freelance Data Consultant - Building Stories with Data Pre-requisites: It would be helpful for participants to have a basic grasp of: - creating a plot with ggplot2 -…</span>
-</td>
-
-</tr>
-
-<tr data-index="35" data-listing-date-sort="1667433600000" data-listing-title-sort="Introduction and Prework">
-<td>
-<a href="https://www.youtube.com/watch?v=dS91HzZLD_c&amp;t=0s" class="title listing-title">Introduction and Prework</a>
-</td>
-<td>
-<span class="listing-year">2022</span>
-</td>
-<td>
-<span class="listing-description">From the recording ‘NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22’, starting at 0:00.</span>
-</td>
-
-</tr>
-
-<tr data-index="36" data-listing-date-sort="1667433600000" data-listing-title-sort="Using Projects">
-<td>
-<a href="https://www.youtube.com/watch?v=dS91HzZLD_c&amp;t=3323s" class="title listing-title">Using Projects</a>
-</td>
-<td>
-<span class="listing-year">2022</span>
-</td>
-<td>
-<span class="listing-description">From the recording ‘NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22’, starting at 55:23.</span>
-</td>
-
-</tr>
-
-<tr data-index="37" data-listing-date-sort="1667433600000" data-listing-title-sort="Importing Data">
-<td>
-<a href="https://www.youtube.com/watch?v=dS91HzZLD_c&amp;t=4080s" class="title listing-title">Importing Data</a>
-</td>
-<td>
-<span class="listing-year">2022</span>
-</td>
-<td>
-<span class="listing-description">From the recording ‘NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22’, starting at 1:08:00.</span>
-</td>
-
-</tr>
-
-<tr data-index="38" data-listing-date-sort="1667433600000" data-listing-title-sort="Introduction to {ggplot2}">
-<td>
-<a href="https://www.youtube.com/watch?v=dS91HzZLD_c&amp;t=4680s" class="title listing-title">Introduction to {ggplot2}</a>
-</td>
-<td>
-<span class="listing-year">2022</span>
-</td>
-<td>
-<span class="listing-description">From the recording ‘NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22’, starting at 1:18:00.</span>
-</td>
-
-</tr>
-
-<tr data-index="39" data-listing-date-sort="1667433600000" data-listing-title-sort="What does this function do?">
-<td>
-<a href="https://www.youtube.com/watch?v=dS91HzZLD_c&amp;t=8520s" class="title listing-title">What does this function do?</a>
-</td>
-<td>
-<span class="listing-year">2022</span>
-</td>
-<td>
-<span class="listing-description">From the recording ‘NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22’, starting at 2:22:00.</span>
-</td>
-
-</tr>
-
-<tr data-index="40" data-listing-date-sort="1667433600000" data-listing-title-sort="NHS-R Workshop: Building Websites in R with Distill - 02/11/22">
-<td>
-<a href="https://www.youtube.com/watch?v=LK_vxLS9BNg" class="title listing-title">NHS-R Workshop: Building Websites in R with Distill - 02/11/22</a>
-</td>
-<td>
-<span class="listing-year">2022</span>
-</td>
-<td>
-<span class="listing-description">Building Websites in R with Distill Wednesday 2nd November 2022, Led by Jennifer Sloane, PhD Student, UNSW Do you want to learn how to build your own website in R? About the course: In this interactive workshop, we will build a website from scratch in R using the Distill package. Whether you want…</span>
-</td>
-
-</tr>
-
-<tr data-index="41" data-listing-date-sort="1667433600000" data-listing-title-sort="Data wrangling with dplyr">
-<td>
-<a href="https://www.youtube.com/watch?v=1tjQkxYfSGk&amp;t=0s" class="title listing-title">Data wrangling with dplyr</a>
-</td>
-<td>
-<span class="listing-year">2022</span>
-</td>
-<td>
-<span class="listing-description">From the recording ‘NHS-R Workshop: Intro to R and RStudio (Part 2) - 03/11/22’, starting at 0:00.</span>
-</td>
-
-</tr>
-
-<tr data-index="42" data-listing-date-sort="1667433600000" data-listing-title-sort="Relational Data (joins)">
-<td>
-<a href="https://www.youtube.com/watch?v=1tjQkxYfSGk&amp;t=6318s" class="title listing-title">Relational Data (joins)</a>
-</td>
-<td>
-<span class="listing-year">2022</span>
-</td>
-<td>
-<span class="listing-description">From the recording ‘NHS-R Workshop: Intro to R and RStudio (Part 2) - 03/11/22’, starting at 1:45:18.</span>
-</td>
-
-</tr>
-
-<tr data-index="43" data-listing-date-sort="1667433600000" data-listing-title-sort="RMarkdown">
-<td>
-<a href="https://www.youtube.com/watch?v=1tjQkxYfSGk&amp;t=7821s" class="title listing-title">RMarkdown</a>
-</td>
-<td>
-<span class="listing-year">2022</span>
-</td>
-<td>
-<span class="listing-description">From the recording ‘NHS-R Workshop: Intro to R and RStudio (Part 2) - 03/11/22’, starting at 2:10:21.</span>
-</td>
-
-</tr>
-
-<tr data-index="44" data-listing-date-sort="1667433600000" data-listing-title-sort="Ongoing Learning">
-<td>
-<a href="https://www.youtube.com/watch?v=1tjQkxYfSGk&amp;t=9600s" class="title listing-title">Ongoing Learning</a>
-</td>
-<td>
-<span class="listing-year">2022</span>
-</td>
-<td>
-<span class="listing-description">From the recording ‘NHS-R Workshop: Intro to R and RStudio (Part 2) - 03/11/22’, starting at 2:40:00.</span>
-</td>
-
-</tr>
-
-<tr data-index="45" data-listing-date-sort="1667260800000" data-listing-title-sort="NHS-R Conference Workshop: Building a TidyModels model from scratch – 01/11/22">
-<td>
-<a href="https://www.youtube.com/watch?v=CEh-jeQdOqA" class="title listing-title">NHS-R Conference Workshop: Building a TidyModels model from scratch – 01/11/22</a>
-</td>
-<td>
-<span class="listing-year">2022</span>
-</td>
-<td>
-<span class="listing-description">Led by Gary Hutson, Head of Machine Learning, Crisp 1st November 2022 Here we will learn how to build a TidyModels classification model from scratch RPubs document: About the course: The art and science of building a machine model from scratch and then pushing this into production as a consumable…</span>
-</td>
-
-</tr>
-
-<tr data-index="46" data-listing-date-sort="1652400000000" data-listing-title-sort="Statistical process control charts with R - Jacob Anhøj, November 2021">
-<td>
-<a href="https://www.youtube.com/watch?v=pCaqwX7bDLs" class="title listing-title">Statistical process control charts with R - Jacob Anhøj, November 2021</a>
-</td>
-<td>
-<span class="listing-year">2022</span>
-</td>
-<td>
-<span class="listing-description">Date: Thursday 4th November 2021 Statistical process control charts with R One day Workshop: Masterclass for R programmers Facilitators: Jacob Anhøj, Medical Doctor, Rigshospitalet, Copenhagen, Denmark and Zoë Turner, Senior Information Analyst, Nottinghamshire Healthcare NHS Foundation Trust…</span>
-</td>
-
-</tr>
-
-<tr data-index="47" data-listing-date-sort="1652400000000" data-listing-title-sort="Reproducible computation at scale in R with targets, Will Landau, November 2021">
-<td>
-<a href="https://www.youtube.com/watch?v=OdBG78Tmx70" class="title listing-title">Reproducible computation at scale in R with targets, Will Landau, November 2021</a>
-</td>
-<td>
-<span class="listing-year">2022</span>
-</td>
-<td>
-<span class="listing-description">Facilitator: Will Landau, Eli Lilly and Company – USA Data science can be slow. A single round of statistical computation can take several minutes, hours, or even days to complete. The targets R package keeps results up to date and reproducible while minimizing the number of expensive tasks that…</span>
-</td>
-
-</tr>
-
-<tr data-index="48" data-listing-date-sort="1645056000000" data-listing-title-sort="NHS-R Conference 2021: Intro to R/RStudio - Part 1">
-<td>
-<a href="https://www.youtube.com/watch?v=uerf_bY-d4c" class="title listing-title">NHS-R Conference 2021: Intro to R/RStudio - Part 1</a>
-</td>
-<td>
-<span class="listing-year">2022</span>
-</td>
-<td>
-<span class="listing-description">Join Zoë Turner, Data Scientist,, Nottinghamshire Healthcare NHS Foundation Trust for this NHS-R Workshop - Introduction to R/RStudio Summary: An Introduction to R workshop covering R/RStudio, manipulation of data (dplyr), creating charts (ggplot2) and reports (R Markdown). This is a great…</span>
-</td>
-
-</tr>
-
-<tr data-index="49" data-listing-date-sort="1645056000000" data-listing-title-sort="NHS-R Conference 2021: Intro to R/RStudio Workshop - Part 2">
-<td>
-<a href="https://www.youtube.com/watch?v=9GESlEIvPDI" class="title listing-title">NHS-R Conference 2021: Intro to R/RStudio Workshop - Part 2</a>
-</td>
-<td>
-<span class="listing-year">2022</span>
-</td>
-<td>
-<span class="listing-description">Join Zoë Turner, Data Scientist, Nottinghamshire Healthcare NHS Foundation Trust for Part 2 of this NHS-R Workshop - Introduction to R/RStudio Summary: An Introduction to R workshop covering R/RStudio, manipulation of data (dplyr), creating charts (ggplot2) and reports (R Markdown). This is a great…</span>
-</td>
-
-</tr>
-
-<tr data-index="50" data-listing-date-sort="1644192000000" data-listing-title-sort="NHS-R Introduction to RMarkdown Workshop - November 2021, Hansel Palencia">
-<td>
-<a href="https://www.youtube.com/watch?v=RaM6fgwMZIs" class="title listing-title">NHS-R Introduction to RMarkdown Workshop - November 2021, Hansel Palencia</a>
-</td>
-<td>
-<span class="listing-year">2022</span>
-</td>
-<td>
-<span class="listing-description">Join Hansel Palencia for the NHS-R Workshop - ‘Introduction to RMarkdown’</span>
-</td>
-
-</tr>
-
-<tr data-index="51" data-listing-date-sort="1639008000000" data-listing-title-sort="Introduction to Machine Learning and Image Processing with R, December 2021">
-<td>
-<a href="https://www.youtube.com/watch?v=_broZee5Y6s" class="title listing-title">Introduction to Machine Learning and Image Processing with R, December 2021</a>
-</td>
-<td>
-<span class="listing-year">2021</span>
-</td>
-<td>
-<span class="listing-description">Facilitators: Santosh Kumar and Bruno Petrungaro, The Health Economics Unit Summary: This workshop covers the basics of image processing, classical machine learning with R. Topics in machine learning include an introduction to machine learning, the difference between machine learning and AI,…</span>
-</td>
-
-</tr>
-
-<tr data-index="52" data-listing-date-sort="1638489600000" data-listing-title-sort="NHS-R Workshop: Further changepoint analysis techniques –December 2021">
-<td>
-<a href="https://www.youtube.com/watch?v=rRL8rT97S0I" class="title listing-title">NHS-R Workshop: Further changepoint analysis techniques –December 2021</a>
-</td>
-<td>
-<span class="listing-year">2021</span>
-</td>
-<td>
-<span class="listing-description">Facilitator: Dr Rebecca Killick Associate Professor in the Mathematics &amp; Statistics department at Lancaster University Summary: ‘Further changepoint analysis techniques’ workshop builds upon the introduction to changepoint course and that knowledge will be assumed. We will focus on more advanced…</span>
-</td>
-
-</tr>
-
-<tr data-index="53" data-listing-date-sort="1638489600000" data-listing-title-sort="NHS-R Workshop: Introduction to changepoint analysis with R-  November 2021">
-<td>
-<a href="https://www.youtube.com/watch?v=UfGrLJ7S3sc" class="title listing-title">NHS-R Workshop: Introduction to changepoint analysis with R- November 2021</a>
-</td>
-<td>
-<span class="listing-year">2021</span>
-</td>
-<td>
-<span class="listing-description">Facilitator: Dr Rebecca Killick Associate Professor in the Mathematics &amp; Statistics department at Lancaster University Summary: This workshop introduces participants to the analysis of changepoint models (also known as time series segmentation or structural changes). The course is aimed at those…</span>
-</td>
-
-</tr>
-
-<tr data-index="54" data-listing-date-sort="1638316800000" data-listing-title-sort="NHS-R Workshop: Shiny (Part 2 of 2) - November 2021">
-<td>
-<a href="https://www.youtube.com/watch?v=aeTgh91EgTs" class="title listing-title">NHS-R Workshop: Shiny (Part 2 of 2) - November 2021</a>
-</td>
-<td>
-<span class="listing-year">2021</span>
-</td>
-<td>
-<span class="listing-description">Facilitator: Chris Beeley, Senior Data Scientist, Nottinghamshire Healthcare NHS Foundation Trust Summary: Shiny is an programming framework for R that allows you to build dynamic and interactive dashboards for the web with no knowledge of HTML, CSS, or JavaScript. It allows R programmers to very…</span>
-</td>
-
-</tr>
-
-<tr data-index="55" data-listing-date-sort="1638230400000" data-listing-title-sort="NHS-R Workshop:  Regression Modelling, November 2021">
-<td>
-<a href="https://www.youtube.com/watch?v=QbuXObUVTaw" class="title listing-title">NHS-R Workshop: Regression Modelling, November 2021</a>
-</td>
-<td>
-<span class="listing-year">2021</span>
-</td>
-<td>
-<span class="listing-description">Presented by: Chris Mainey, Patient Safety Lead – System Analysis and Delivery, NHS Improvement Pre-requisites: Some introductory experience with R Summary: This session focuses on how to fit regression models in R, the most common form of statistical modelling. Examining the essential theory…</span>
-</td>
-
-</tr>
-
-<tr data-index="56" data-listing-date-sort="1638230400000" data-listing-title-sort="NHS-R Workshop: Shiny (Part 1 of 2) November 2021">
-<td>
-<a href="https://www.youtube.com/watch?v=wEYaeltxlys" class="title listing-title">NHS-R Workshop: Shiny (Part 1 of 2) November 2021</a>
-</td>
-<td>
-<span class="listing-year">2021</span>
-</td>
-<td>
-<span class="listing-description">Facilitator: Chris Beeley, Senior Data Scientist, Nottinghamshire Healthcare NHS Foundation Trust Summary: Shiny is an programming framework for R that allows you to build dynamic and interactive dashboards for the web with no knowledge of HTML, CSS, or JavaScript. It allows R programmers to very…</span>
-</td>
-
-</tr>
-
-<tr data-index="57" data-listing-date-sort="1611619200000" data-listing-title-sort="NHS-R Workshop - An introduction to ggplot2">
-<td>
-<a href="https://www.youtube.com/watch?v=VLuzpaWt0ZE" class="title listing-title">NHS-R Workshop - An introduction to ggplot2</a>
-</td>
-<td>
-<span class="listing-year">2021</span>
-</td>
-<td>
-<span class="listing-description">Presented by: Eugene Hickey, Lecturer in Physics, Technology University, Dublin This course will be of interest to those who have some experience working with R but have yet to take the plunge to using ggplot. Topics include: The mechanics of ggplot - layers, attributes, and aesthetics Using ggplot…</span>
-</td>
-
-</tr>
-
-<tr data-index="58" data-listing-date-sort="1611100800000" data-listing-title-sort="NHS-R workshop - Automating slides using NHS data">
-<td>
-<a href="https://www.youtube.com/watch?v=WNmCucbjmQg" class="title listing-title">NHS-R workshop - Automating slides using NHS data</a>
-</td>
-<td>
-<span class="listing-year">2021</span>
-</td>
-<td>
-<span class="listing-description">By Jo McSweeney, Analyst, NHS England and NHS Improvement Using the officeR package to automate PowerPoint slide generation. Do you have slides that you need to repeat for different organisation levels? Are you unable to use the PowerPoint option from the Markdown menu? Using the NHSRdatasets r…</span>
-</td>
-
-</tr>
-
-<tr data-index="59" data-listing-date-sort="1529884800000" data-listing-title-sort="Setting up RStudio">
-<td>
-<a href="https://www.youtube.com/watch?v=ZXRjnoOYirg" class="title listing-title">Setting up RStudio</a>
-</td>
-<td>
-<span class="listing-year">2018</span>
+<span class="listing-event">Branch meetings</span>
 </td>
 <td>
 <span class="listing-description">&nbsp;</span>
@@ -1448,15 +1278,594 @@ Details
 
 </tr>
 
-<tr data-index="60" data-listing-date-sort="1529884800000" data-listing-title-sort="R   Projects">
+<tr data-index="38" data-listing-date-sort="1696809600000" data-listing-title-sort="AphA London Branch meeting">
 <td>
-<a href="https://www.youtube.com/watch?v=jBfyErr1HDk" class="title listing-title">R Projects</a>
+<a href="https://www.youtube.com/watch?v=al_3QZfMCbk" class="title listing-title">AphA London Branch meeting</a>
 </td>
 <td>
-<span class="listing-year">2018</span>
+<span class="listing-year">2023</span>
+</td>
+<td>
+<span class="listing-event">Branch meetings</span>
 </td>
 <td>
 <span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="39" data-listing-date-sort="1639526400000" data-listing-title-sort="Inaugural AphA East of England Branch Meeting">
+<td>
+<a href="https://www.youtube.com/watch?v=X3w6XUrJ7FE" class="title listing-title">Inaugural AphA East of England Branch Meeting</a>
+</td>
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-event">Branch meetings</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="40" data-listing-date-sort="1639440000000" data-listing-title-sort="AphA London Branch Meeting">
+<td>
+<a href="https://www.youtube.com/watch?v=5cy4U1OjBIM" class="title listing-title">AphA London Branch Meeting</a>
+</td>
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-event">Branch meetings</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="41" data-listing-date-sort="1632355200000" data-listing-title-sort="AphA Membership Pilot Programme">
+<td>
+<a href="https://www.youtube.com/watch?v=N58SJoDDSGA&amp;t=207s" class="title listing-title">AphA Membership Pilot Programme</a>
+</td>
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-event">Branch meetings</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘AphA Y&amp;H Branch Meeting’, starting at 3:27.</span>
+</td>
+
+</tr>
+
+<tr data-index="42" data-listing-date-sort="1632355200000" data-listing-title-sort="Mental Health Assurance Tool Demo">
+<td>
+<a href="https://www.youtube.com/watch?v=N58SJoDDSGA&amp;t=820s" class="title listing-title">Mental Health Assurance Tool Demo</a>
+</td>
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-event">Branch meetings</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘AphA Y&amp;H Branch Meeting’, starting at 13:40.</span>
+</td>
+
+</tr>
+
+<tr data-index="43" data-listing-date-sort="1632355200000" data-listing-title-sort="The Rotherham Way">
+<td>
+<a href="https://www.youtube.com/watch?v=N58SJoDDSGA&amp;t=1930s" class="title listing-title">The Rotherham Way</a>
+</td>
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-event">Branch meetings</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘AphA Y&amp;H Branch Meeting’, starting at 32:10.</span>
+</td>
+
+</tr>
+
+<tr data-index="44" data-listing-date-sort="1632355200000" data-listing-title-sort="The Virtual Flow Assistant, Comand Center: Cloud 2">
+<td>
+<a href="https://www.youtube.com/watch?v=N58SJoDDSGA&amp;t=3402s" class="title listing-title">The Virtual Flow Assistant, Comand Center: Cloud 2</a>
+</td>
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-event">Branch meetings</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘AphA Y&amp;H Branch Meeting’, starting at 56:42.</span>
+</td>
+
+</tr>
+
+<tr data-index="45" data-listing-date-sort="1632355200000" data-listing-title-sort="HR Dashboard">
+<td>
+<a href="https://www.youtube.com/watch?v=N58SJoDDSGA&amp;t=4247s" class="title listing-title">HR Dashboard</a>
+</td>
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-event">Branch meetings</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘AphA Y&amp;H Branch Meeting’, starting at 1:10:47.</span>
+</td>
+
+</tr>
+
+<tr data-index="46" data-listing-date-sort="1632355200000" data-listing-title-sort="Cancer Dashboard &amp; Hospital Sitrep">
+<td>
+<a href="https://www.youtube.com/watch?v=N58SJoDDSGA&amp;t=5623s" class="title listing-title">Cancer Dashboard &amp; Hospital Sitrep</a>
+</td>
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-event">Branch meetings</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘AphA Y&amp;H Branch Meeting’, starting at 1:33:43.</span>
+</td>
+
+</tr>
+
+<tr data-index="47" data-listing-date-sort="1632355200000" data-listing-title-sort="PBI Clinic &amp; Panel Discussion">
+<td>
+<a href="https://www.youtube.com/watch?v=N58SJoDDSGA&amp;t=6766s" class="title listing-title">PBI Clinic &amp; Panel Discussion</a>
+</td>
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-event">Branch meetings</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘AphA Y&amp;H Branch Meeting’, starting at 1:52:46.</span>
+</td>
+
+</tr>
+
+<tr data-index="48" data-listing-date-sort="1631232000000" data-listing-title-sort="AphA London Branch Meeting">
+<td>
+<a href="https://www.youtube.com/watch?v=gpkfbBrdfFw" class="title listing-title">AphA London Branch Meeting</a>
+</td>
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-event">Branch meetings</span>
+</td>
+<td>
+<span class="listing-description">AphA’s London branch was launched in 2017 and holds regular branch meetings where we: showcase some of the great data and analytics work in London network within the London data and analytics community share knowledge and skills hear from a variety of invited speakers We aim to be as inclusive as…</span>
+</td>
+
+</tr>
+
+<tr data-index="49" data-listing-date-sort="1623974400000" data-listing-title-sort="Analysts Doing It For Themselves - Paul Stroner">
+<td>
+<a href="https://www.youtube.com/watch?v=c4z9Yru5_2U&amp;t=65s" class="title listing-title">Analysts Doing It For Themselves - Paul Stroner</a>
+</td>
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘The Annual AphA Conference 2021Day 2 (2 of 2)’, starting at 1:05.</span>
+</td>
+
+</tr>
+
+<tr data-index="50" data-listing-date-sort="1623974400000" data-listing-title-sort="Sharing Your Awesome - Andi Oriowski, Matt Grek">
+<td>
+<a href="https://www.youtube.com/watch?v=c4z9Yru5_2U&amp;t=1812s" class="title listing-title">Sharing Your Awesome - Andi Oriowski, Matt Grek</a>
+</td>
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘The Annual AphA Conference 2021Day 2 (2 of 2)’, starting at 30:12.</span>
+</td>
+
+</tr>
+
+<tr data-index="51" data-listing-date-sort="1623974400000" data-listing-title-sort="Conference Feedback Session">
+<td>
+<a href="https://www.youtube.com/watch?v=c4z9Yru5_2U&amp;t=3923s" class="title listing-title">Conference Feedback Session</a>
+</td>
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘The Annual AphA Conference 2021Day 2 (2 of 2)’, starting at 1:05:23.</span>
+</td>
+
+</tr>
+
+<tr data-index="52" data-listing-date-sort="1623974400000" data-listing-title-sort="Professional Registration - Emma Wright">
+<td>
+<a href="https://www.youtube.com/watch?v=c4z9Yru5_2U&amp;t=4488s" class="title listing-title">Professional Registration - Emma Wright</a>
+</td>
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘The Annual AphA Conference 2021Day 2 (2 of 2)’, starting at 1:14:48.</span>
+</td>
+
+</tr>
+
+<tr data-index="53" data-listing-date-sort="1623974400000" data-listing-title-sort="Information Governance - Shaid Hussain">
+<td>
+<a href="https://www.youtube.com/watch?v=HM2Yp-Th5ZE&amp;t=430s" class="title listing-title">Information Governance - Shaid Hussain</a>
+</td>
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘The Annual AphA Conference Day 2 (1 of 2)’, starting at 7:10.</span>
+</td>
+
+</tr>
+
+<tr data-index="54" data-listing-date-sort="1623974400000" data-listing-title-sort="Clinical Prioritisation of the Surgical Waiting List - Laura Starkey">
+<td>
+<a href="https://www.youtube.com/watch?v=HM2Yp-Th5ZE&amp;t=3133s" class="title listing-title">Clinical Prioritisation of the Surgical Waiting List - Laura Starkey</a>
+</td>
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘The Annual AphA Conference Day 2 (1 of 2)’, starting at 52:13.</span>
+</td>
+
+</tr>
+
+<tr data-index="55" data-listing-date-sort="1623974400000" data-listing-title-sort="How To Use Data to Inform Patient Care - NHS Business Services Authority">
+<td>
+<a href="https://www.youtube.com/watch?v=HM2Yp-Th5ZE&amp;t=4551s" class="title listing-title">How To Use Data to Inform Patient Care - NHS Business Services Authority</a>
+</td>
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘The Annual AphA Conference Day 2 (1 of 2)’, starting at 1:15:51.</span>
+</td>
+
+</tr>
+
+<tr data-index="56" data-listing-date-sort="1623974400000" data-listing-title-sort="Ming Tang NHS England and NHS Improvement">
+<td>
+<a href="https://www.youtube.com/watch?v=HM2Yp-Th5ZE&amp;t=5610s" class="title listing-title">Ming Tang NHS England and NHS Improvement</a>
+</td>
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘The Annual AphA Conference Day 2 (1 of 2)’, starting at 1:33:30.</span>
+</td>
+
+</tr>
+
+<tr data-index="57" data-listing-date-sort="1623974400000" data-listing-title-sort="The Art &amp; Science of Prophecy  - Sygal Amitay">
+<td>
+<a href="https://www.youtube.com/watch?v=rsFh0MPZra8&amp;t=942s" class="title listing-title">The Art &amp; Science of Prophecy - Sygal Amitay</a>
+</td>
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘The Annual AphA Conference 2021 Day 1 (3 of 3)’, starting at 15:42.</span>
+</td>
+
+</tr>
+
+<tr data-index="58" data-listing-date-sort="1623974400000" data-listing-title-sort="SQL-R Project MIA - James Payne">
+<td>
+<a href="https://www.youtube.com/watch?v=rsFh0MPZra8&amp;t=2020s" class="title listing-title">SQL-R Project MIA - James Payne</a>
+</td>
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘The Annual AphA Conference 2021 Day 1 (3 of 3)’, starting at 33:40.</span>
+</td>
+
+</tr>
+
+<tr data-index="59" data-listing-date-sort="1623974400000" data-listing-title-sort="Report on Competency Framework for Health Service Analysts - Rony Arafin &amp; Sarah Culkin">
+<td>
+<a href="https://www.youtube.com/watch?v=rsFh0MPZra8&amp;t=2778s" class="title listing-title">Report on Competency Framework for Health Service Analysts - Rony Arafin &amp; Sarah Culkin</a>
+</td>
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘The Annual AphA Conference 2021 Day 1 (3 of 3)’, starting at 46:18.</span>
+</td>
+
+</tr>
+
+<tr data-index="60" data-listing-date-sort="1623974400000" data-listing-title-sort="Awards Ceremony">
+<td>
+<a href="https://www.youtube.com/watch?v=rsFh0MPZra8&amp;t=4897s" class="title listing-title">Awards Ceremony</a>
+</td>
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘The Annual AphA Conference 2021 Day 1 (3 of 3)’, starting at 1:21:37.</span>
+</td>
+
+</tr>
+
+<tr data-index="61" data-listing-date-sort="1623974400000" data-listing-title-sort="AphA Conference 2021 Day 1 (2 of 3)">
+<td>
+<a href="https://www.youtube.com/watch?v=MblVZpEHRbE" class="title listing-title">AphA Conference 2021 Day 1 (2 of 3)</a>
+</td>
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-description">Day 1 Part 2 of the Annual AphA Conference 2021 featuring a discussion of the UK Coronavirus Dashboard</span>
+</td>
+
+</tr>
+
+<tr data-index="62" data-listing-date-sort="1623974400000" data-listing-title-sort="Developing Clinical Informatics Solutions From Scratch by Dr Sebastian Zeki">
+<td>
+<a href="https://www.youtube.com/watch?v=adUTnAtj9mQ&amp;t=369s" class="title listing-title">Developing Clinical Informatics Solutions From Scratch by Dr Sebastian Zeki</a>
+</td>
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘AphA Conference 2021 Day One (1 of 3)’, starting at 6:09.</span>
+</td>
+
+</tr>
+
+<tr data-index="63" data-listing-date-sort="1623974400000" data-listing-title-sort="Live Demo of the Data Robot Tool from Data Robot">
+<td>
+<a href="https://www.youtube.com/watch?v=adUTnAtj9mQ&amp;t=2848s" class="title listing-title">Live Demo of the Data Robot Tool from Data Robot</a>
+</td>
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-description">From the recording ‘AphA Conference 2021 Day One (1 of 3)’, starting at 47:28.</span>
+</td>
+
+</tr>
+
+<tr data-index="64" data-listing-date-sort="1606262400000" data-listing-title-sort="AphA Webinar - Helping the analytical community to develop through knowledge base Part 2">
+<td>
+<a href="https://www.youtube.com/watch?v=_x-ldwWPuIU" class="title listing-title">AphA Webinar - Helping the analytical community to develop through knowledge base Part 2</a>
+</td>
+<td>
+<span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-event">Webinars and workshops</span>
+</td>
+<td>
+<span class="listing-description">AphA Webinar - 19th November 2020 Sponsored by Ideal Health www.idealts.co.uk</span>
+</td>
+
+</tr>
+
+<tr data-index="65" data-listing-date-sort="1606262400000" data-listing-title-sort="AphA Webinar - The role of digital maturity in delivering transformational change (Ideal Health)">
+<td>
+<a href="https://www.youtube.com/watch?v=BchdutdCrBc" class="title listing-title">AphA Webinar - The role of digital maturity in delivering transformational change (Ideal Health)</a>
+</td>
+<td>
+<span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-event">Webinars and workshops</span>
+</td>
+<td>
+<span class="listing-description">AphA Webinar - Helping the analytical community to develop through knowledge base Webinar - 19th November 2020 Sponsored by Ideal Health www.idealts.co.uk</span>
+</td>
+
+</tr>
+
+<tr data-index="66" data-listing-date-sort="1606262400000" data-listing-title-sort="AphA Webinar - Helping the analytical community to develop through knowledge base Part 1">
+<td>
+<a href="https://www.youtube.com/watch?v=E0ixrJTxVrM" class="title listing-title">AphA Webinar - Helping the analytical community to develop through knowledge base Part 1</a>
+</td>
+<td>
+<span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-event">Webinars and workshops</span>
+</td>
+<td>
+<span class="listing-description">Webinar - 19th November 2020 Sponsored by Ideal Health www.idealts.co.uk</span>
+</td>
+
+</tr>
+
+<tr data-index="67" data-listing-date-sort="1601510400000" data-listing-title-sort="AphA Annual Conference 2020 - Session 2">
+<td>
+<a href="https://www.youtube.com/watch?v=YCe1EJ8uadg" class="title listing-title">AphA Annual Conference 2020 - Session 2</a>
+</td>
+<td>
+<span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-description">In this video you will hear from: Sukhmeet Panesar (NHSE/I) and Sarah Culkin (NHSX) on Covid19: a period of unprecedented analyses – what next? And an interactive survey</span>
+</td>
+
+</tr>
+
+<tr data-index="68" data-listing-date-sort="1601424000000" data-listing-title-sort="AphA Annual Conference 2020 - Session 6 (Day 2)">
+<td>
+<a href="https://www.youtube.com/watch?v=u5eYizcp7n4" class="title listing-title">AphA Annual Conference 2020 - Session 6 (Day 2)</a>
+</td>
+<td>
+<span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-description">In this video you will hear from: Professor Martin Pitt (AphA President) - AphA through the looking glass We have more member show and tell - from Alex Porter, Midlands and Rebecca Thompson, Northern Care Alliance You will see an interactive feedback session with the audience Event close by Rony…</span>
+</td>
+
+</tr>
+
+<tr data-index="69" data-listing-date-sort="1601424000000" data-listing-title-sort="AphA Annual Conference 2020 - Session 5 (Day 2)">
+<td>
+<a href="https://www.youtube.com/watch?v=tiwXL2N0Pg0" class="title listing-title">AphA Annual Conference 2020 - Session 5 (Day 2)</a>
+</td>
+<td>
+<span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-description">In this video you will hear from: Event sponsor - Huw Davies (Director - Davies Furlong Consulting), Huw talks about The Colour Purple (Effective Communication Using Soft Systems) We have more member show and tell - David Robinson from Poole and Brandon Chapman from the Royal Cornwall NHS Trust</span>
+</td>
+
+</tr>
+
+<tr data-index="70" data-listing-date-sort="1601424000000" data-listing-title-sort="AphA Annual Conference 2020 - Session 4 (Day 2)">
+<td>
+<a href="https://www.youtube.com/watch?v=CUJ5UvlTuM8" class="title listing-title">AphA Annual Conference 2020 - Session 4 (Day 2)</a>
+</td>
+<td>
+<span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-description">In this video you will hear from: Opening of Day-1 by Rony Arafin (AphA Chief Officer) and Martin Pitt (AphA President) Dr Jenni Quint - Using routine data for real time change: a step too far? Awards - Kate Thomas Member show and tell - Sian Jones from NHS Devon CCG</span>
+</td>
+
+</tr>
+
+<tr data-index="71" data-listing-date-sort="1601424000000" data-listing-title-sort="AphA Annual Conference 2020 - Session 3">
+<td>
+<a href="https://www.youtube.com/watch?v=fIJrVDLJU_E" class="title listing-title">AphA Annual Conference 2020 - Session 3</a>
+</td>
+<td>
+<span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-description">In this video you will hear from: Matthew O’Reilly &amp; Keith Khunpha (NHS England and Improvement) …..And then the world changed AphA Analytics Professional Registration by Emma Wright and Garry Fothergill Closing of Day-1 by Rony Arafin (AphA Chief Officer) and Martin Pitt (AphA President)</span>
+</td>
+
+</tr>
+
+<tr data-index="72" data-listing-date-sort="1601424000000" data-listing-title-sort="AphA Annual Conference 2020 - Session 1">
+<td>
+<a href="https://www.youtube.com/watch?v=LxFICuw-Ndw" class="title listing-title">AphA Annual Conference 2020 - Session 1</a>
+</td>
+<td>
+<span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-event">AphA Conference</span>
+</td>
+<td>
+<span class="listing-description">In this video you will hear from: Paul Stroner (President elect) and Rony Arafin, our Chief Officer. Dr Ben Goldacre - Making Operational Research Great! Open methods, open platforms, open learning. The New Socks Awards from our South Branch Lead - Kate Thomas</span>
+</td>
+
+</tr>
+
+<tr data-index="73" data-listing-date-sort="1592784000000" data-listing-title-sort="AphA - Data challenges in a time of crisis">
+<td>
+<a href="https://www.youtube.com/watch?v=7kIXDlIJpG0" class="title listing-title">AphA - Data challenges in a time of crisis</a>
+</td>
+<td>
+<span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-event">Webinars and workshops</span>
+</td>
+<td>
+<span class="listing-description">Disclaimer - The opinions expressed in this session are the personal opinions of the speaker and in no way represent the views of their organisation, nor are they referring to any specific individual or individuals. Recording of the AphA Webinar - Data challenges in a time of crisis Wednesday 17…</span>
+</td>
+
+</tr>
+
+<tr data-index="74" data-listing-date-sort="1589414400000" data-listing-title-sort="Association of Professional Healthcare Analysts (AphA) discussion - Paul Stroner and Rony Arafin">
+<td>
+<a href="https://www.youtube.com/watch?v=RH7PRYRVf1E" class="title listing-title">Association of Professional Healthcare Analysts (AphA) discussion - Paul Stroner and Rony Arafin</a>
+</td>
+<td>
+<span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-event">Webinars and workshops</span>
+</td>
+<td>
+<span class="listing-description">First of the AphA webinar series, in this video Rony Arafin, our Director of Digital Engagement speaks with Paul Stroner, the Chief Executive Officer (CEO) of AphA. This video provides excellent insight and Paul speaks from his experience in detail about what AphA can offer, and how Analysts can…</span>
 </td>
 
 </tr>
@@ -1464,12 +1873,11 @@ Details
 </tbody>
 </table>
 <div class="listing-no-matching d-none">No matching items</div>
-<nav id="workshop-recordings-pagination" class="listing-pagination" aria-label="Page Navigation">
+<nav id="apha-recordings-pagination" class="listing-pagination" aria-label="Page Navigation">
   <ul class="pagination"></ul>
 </nav>
 </div>
-<p>You can also browse the full <a href="https://www.youtube.com/playlist?list=PLXCrMzQaI6c2L4JCRaF2iujzBxe9Rk-rC">workshop playlist on YouTube</a>.</p>
-<p>The NHS-OA Community also publishes recordings of <a href="../../books_training/nhs_oa_webinars/index.html">webinars</a> and <a href="../../books_training/nhs_oa_conference_recordings/index.html">conference talks</a>.</p>
+<p>You can also browse all of the videos on <a href="https://www.youtube.com/channel/UCJVrw1kIEyQmb1khi1nQSNQ/videos">AphA’s YouTube channel</a>.</p>
 <p>To search these recordings alongside talks, webinars and workshops from other communities, use the <a href="../../recordings/index.html">Recordings Finder</a>.</p>
 
 

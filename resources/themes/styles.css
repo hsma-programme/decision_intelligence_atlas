@@ -273,13 +273,125 @@ p {
 .recordings-filters {
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
     gap: 0 2rem;
 }
 
-.recordings-table td {
+.recordings-multiselect {
+    display: flex;
+    align-items: baseline;
+    font-size: 0.875rem;
+    margin: 3px 0;
+}
+
+.recordings-multiselect > label {
+    width: 120px;
+    flex-shrink: 0;
+}
+
+.recordings-multiselect details {
+    position: relative;
+    width: 240px;
+}
+
+.recordings-multiselect summary {
+    padding: 1px 6px;
+    border: 1px solid #767676;
+    border-radius: 2px;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    list-style: none;
+    padding-right: 1.5rem;
+    color: inherit;
+}
+
+.recordings-multiselect summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Arrow on the right, like the other dropdowns */
+.recordings-multiselect summary::after {
+    content: "▾";
+    position: absolute;
+    right: 6px;
+}
+
+.recordings-multiselect-options {
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 0.25rem 0.5rem;
+    background: var(--bs-body-bg, #fff);
+    border: 1px solid #767676;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* One checkbox per line */
+.recordings-multiselect-options form > div > label {
+    display: block;
+}
+
+/* Let the dropdown overlap the content below the filters */
+.recordings-filters .cell,
+.recordings-filters .cell-output-display,
+.recordings-filters .observablehq {
+    overflow: visible !important;
+}
+
+/* Make it obvious that the table scrolls */
+.recordings-table form {
+    border: 1px solid #c8c8c8;
+    border-radius: 4px;
+}
+
+.recordings-table form::-webkit-scrollbar {
+    width: 14px;
+    height: 14px;
+}
+
+.recordings-table form::-webkit-scrollbar-track {
+    background: #e9ecef;
+    border-radius: 0 4px 4px 0;
+}
+
+.recordings-table form::-webkit-scrollbar-thumb {
+    background: #009c92;
+    border: 3px solid #e9ecef;
+    border-radius: 7px;
+}
+
+.recordings-table form::-webkit-scrollbar-thumb:hover {
+    background: #007a72;
+}
+
+/* Firefox doesn't support the rules above */
+@supports not selector(::-webkit-scrollbar) {
+    .recordings-table form {
+        scrollbar-color: #009c92 #e9ecef;
+    }
+}
+
+.recordings-table table td,
+.recordings-table table th {
     white-space: normal !important;
+    text-overflow: clip !important;
     overflow-wrap: anywhere;
     vertical-align: top;
+}
+
+.recordings-see-more {
+    padding: 0;
+    border: none;
+    background: none;
+    color: var(--bs-link-color);
+    text-decoration: underline;
+    font-size: inherit;
+    white-space: nowrap;
 }
 
 /* Keep titles as written in table listings (e.g. searchable talk titles) */
