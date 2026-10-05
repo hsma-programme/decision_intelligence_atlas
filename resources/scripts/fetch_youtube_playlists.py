@@ -80,7 +80,8 @@ def call_api(endpoint, params, key):
 
 def get_playlist_video_ids(playlist_id, key):
     """
-    Return the IDs of the videos in a playlist, in playlist order.
+    Return the IDs of the videos in a playlist, in playlist order, without
+    duplicates.
 
     Parameters
     ----------
@@ -108,7 +109,8 @@ def get_playlist_video_ids(playlist_id, key):
         video_ids += [item["contentDetails"]["videoId"] for item in data["items"]]
         page_token = data.get("nextPageToken")
         if not page_token:
-            return video_ids
+            # A video can appear in a playlist more than once
+            return list(dict.fromkeys(video_ids))
 
 
 def get_video_details(video_ids, key):
@@ -169,13 +171,25 @@ def main():
             for video_id in get_playlist_video_ids(playlist_id, key)
         }
         playlists = []
+        seen = set()  # each video is only listed once per collection
         for playlist in collection["playlists"]:
-            video_ids = [
-                video_id for video_id in get_playlist_video_ids(playlist["id"], key)
-                if video_id not in excluded
+            # `id` may be a list, combining several playlists under one label
+            playlist_ids = playlist.get("id") or []
+            if isinstance(playlist_ids, str):
+                playlist_ids = [playlist_ids]
+            video_ids = playlist.get("videos") or [
+                video_id
+                for playlist_id in playlist_ids
+                for video_id in get_playlist_video_ids(playlist_id, key)
             ]
+            video_ids = [
+                video_id
+                for video_id in dict.fromkeys(video_ids)
+                if video_id not in excluded and video_id not in seen
+            ]
+            seen.update(video_ids)
             videos = get_video_details(video_ids, key)
-            playlists.append({"label": playlist["label"], "id": playlist["id"], "videos": videos})
+            playlists.append({"label": playlist["label"], "id": playlist.get("id"), "videos": videos})
             print(f"{name}: {playlist['label']}: {len(videos)} of {len(video_ids)} videos")
 
         out_file = Path(collection["folder"]) / "videos.json"

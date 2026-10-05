@@ -71,6 +71,8 @@ Python is taught from scratch in module 1, so no prior programming experience is
 
 Session recordings, slides, exercises and solutions for every module are on the [HSMA modules page](https://hsma.co.uk/modules.html). For a written summary of the content instead, see the [HSMA books](https://hsma.co.uk/books.html).
 
+You can also search the recordings of lectures from earlier rounds and HSMA masterclasses in the [HSMA lecture and masterclass recordings](/books_training/hsma_lecture_recordings/index.qmd), and watch participants present their projects in the [HSMA project showcase recordings](/books_training/hsma_project_showcases/index.qmd).
+
 ## Joining the programme
 
 The next round, HSMA 7, is planned to launch in spring/summer 2027. To hear when applications open, see the [HSMA website](https://hsma.co.uk).

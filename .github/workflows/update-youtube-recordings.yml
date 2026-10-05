@@ -42,7 +42,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add books_training recordings
+          git add books_training packages_projects_tools recordings
           if git diff --cached --quiet; then
             echo "No changes to commit."
             echo "changed=false" >> "$GITHUB_OUTPUT"
@@ -53,9 +53,11 @@ jobs:
           fi
 
       # Pushes made with GITHUB_TOKEN don't trigger other workflows, so start
-      # the publish workflow directly
+      # the publish workflow directly. Only for main, so that running this
+      # workflow on another branch (e.g. to fetch a new collection for a pull
+      # request) doesn't publish that branch.
       - name: Republish site
-        if: steps.commit.outputs.changed == 'true'
+        if: steps.commit.outputs.changed == 'true' && github.ref == 'refs/heads/main'
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run publish.yml --ref "${{ github.ref_name }}"

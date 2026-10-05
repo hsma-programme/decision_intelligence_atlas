@@ -194,6 +194,124 @@ def split_talks(video, talk_list):
     return []
 
 
+def video_type(video, config):
+    """
+    Return the type of a video, from its title or its playlist's type.
+
+    Parameters
+    ----------
+    video : dict
+        Video metadata from `fetch_youtube_playlists.py`.
+    config : dict
+        The video's playlist settings from the config file. Its optional
+        `types_by_title` lists patterns and types, e.g. a pattern of
+        "^Showcase" with a type of "Project showcase". The first pattern
+        found in the title gives the type; otherwise the playlist's `type`
+        is used.
+
+    Returns
+    -------
+    str
+        The video's type.
+    """
+    for rule in config.get("types_by_title", []):
+        if re.search(rule["pattern"], video["title"], re.IGNORECASE):
+            return rule["type"]
+    return config["type"]
+
+
+def video_event(video, config, event):
+    """
+    Return the event of a video, from its title or its playlist's label.
+
+    Parameters
+    ----------
+    video : dict
+        Video metadata from `fetch_youtube_playlists.py`.
+    config : dict
+        The video's playlist settings from the config file. Its optional
+        `events_by_title` lists patterns and events, e.g. a pattern of
+        "^PHM" with an event of "Population health management", for
+        playlists covering several courses or series. The first pattern
+        found in the title gives the event.
+    event : str
+        The event from the playlist's label, used if no pattern matches.
+
+    Returns
+    -------
+    str
+        The video's event.
+    """
+    for rule in config.get("events_by_title", []):
+        if re.search(rule["pattern"], video["title"], re.IGNORECASE):
+            return rule["event"]
+    return event
+
+
+def title_from_description(video):
+    """
+    Use the first line of a video's description as its title.
+
+    For playlists whose video titles are cluttered or cut short (e.g.
+    "HACA2025 - Day 1 - Main Stage") but whose descriptions start with the
+    talk title.
+
+    Parameters
+    ----------
+    video : dict
+        Video metadata from `fetch_youtube_playlists.py`.
+
+    Returns
+    -------
+    dict
+        The video metadata, with the first line of the description as the
+        title and the rest as the description. Unchanged if the description
+        is empty.
+    """
+    lines = video["description"].strip().splitlines()
+    if not lines:
+        return video
+    return {
+        **video,
+        "title": lines[0].strip().strip('"').strip(),
+        "description": "\n".join(lines[1:]),
+    }
+
+
+def remove_boilerplate(video, config):
+    """
+    Remove text repeated in every video's title or description.
+
+    Parameters
+    ----------
+    video : dict
+        Video metadata from `fetch_youtube_playlists.py`.
+    config : dict
+        The video's playlist settings from the config file. Its optional
+        `remove_from_title` is a regular expression removed from the title,
+        e.g. "^INSIGHT 2020: ". Its optional `remove_from_description` lists
+        regular expressions; paragraphs of the description matching any of
+        them are removed, e.g. an introduction to the event series.
+
+    Returns
+    -------
+    dict
+        The video metadata, with the matching text removed.
+    """
+    title = video["title"]
+    if config.get("remove_from_title"):
+        title = re.sub(config["remove_from_title"], "", title, flags=re.IGNORECASE).strip()
+
+    paragraphs = re.split(r"\n\s*\n", video["description"])
+    patterns = config.get("remove_from_description", [])
+    description = "\n\n".join(
+        paragraph
+        for paragraph in paragraphs
+        if not any(re.search(pattern, paragraph, re.IGNORECASE) for pattern in patterns)
+    )
+    return {**video, "title": title, "description": description}
+
+
 def build_talks(playlists, playlist_config):
     """
     Build one listing item per talk from fetched playlist metadata.
@@ -203,7 +321,7 @@ def build_talks(playlists, playlist_config):
     playlists : list of dict
         Playlists from `fetch_youtube_playlists.py`.
     playlist_config : dict
-        Each playlist's settings from the config file, keyed by playlist ID.
+        Each playlist's settings from the config file, keyed by label.
 
     Returns
     -------
@@ -215,21 +333,29 @@ def build_talks(playlists, playlist_config):
     """
     items = []
     for playlist in playlists:
-        config = playlist_config[playlist["id"]]
+        config = playlist_config[playlist["label"]]
         label_year = re.search(r"\b(19|20)\d{2}\b", playlist["label"])
-        event = re.sub(r"\s*\b(19|20)\d{2}\b", "", playlist["label"]).strip()
+        event = config.get("event") or re.sub(r"\s*\b(19|20)\d{2}\b", "", playlist["label"]).strip()
         for video in playlist["videos"]:
+            if any(
+                re.search(pattern, video["title"], re.IGNORECASE)
+                for pattern in config.get("exclude_by_title", [])
+            ):
+                continue
             url = f"https://www.youtube.com/watch?v={video['id']}"
             shared = {
                 "year": (
                     None if config.get("no_year")
                     else int(label_year.group(0) if label_year else video["published"][:4])
                 ),
-                "event": event,
-                "type": config["type"],
+                "event": video_event(video, config, event),
+                "type": video_type(video, config),
                 "image": video["thumbnail"],
                 "date": video["published"][:10],
             }
+            if config.get("title_from_description"):
+                video = title_from_description(video)
+            video = remove_boilerplate(video, config)
             talks = split_talks(video, config.get("talk_list", False))
             if not talks:
                 items.append({
@@ -295,11 +421,19 @@ def entry_title(folder):
 def main():
     config = yaml.safe_load(CONFIG_FILE.read_text(encoding="utf-8"))
     recordings = []
+    listed = set()
     for name, collection in config.items():
         folder = Path(collection["folder"])
-        playlists = json.loads((folder / "videos.json").read_text(encoding="utf-8"))["playlists"]
-        playlist_config = {playlist["id"]: playlist for playlist in collection["playlists"]}
-        items = build_talks(playlists, playlist_config)
+        videos_file = folder / "videos.json"
+        if videos_file.exists():
+            playlists = json.loads(videos_file.read_text(encoding="utf-8"))["playlists"]
+            playlist_config = {playlist["label"]: playlist for playlist in collection["playlists"]}
+            items = build_talks(playlists, playlist_config)
+        else:
+            # Not fetched yet, e.g. a new collection added without an API key.
+            # Write an empty table so its entry still renders.
+            print(f"{name}: no {videos_file} - run fetch_youtube_playlists.py to fetch its videos")
+            items = []
 
         out_file = folder / "talks.yml"
         out_file.write_text(
@@ -309,14 +443,22 @@ def main():
         print(f"{name}: wrote {len(items)} talks to {out_file}")
 
         collection_title = entry_title(folder)
+        # Events only add information if there's more than one in the collection
+        show_event = len({item["event"] for item in items}) > 1
         for item in items:
+            # Skip talks already listed by an earlier collection, e.g.
+            # conference workshops that are also in a workshop playlist
+            key = (item["path"], item["title"])
+            if key in listed:
+                continue
+            listed.add(key)
             recordings.append({
                 "title": item["title"],
                 "year": item["year"],
                 "date": item["date"],
                 "type": item["type"],
                 "source": collection["source"],
-                "event": item["event"] if len(collection["playlists"]) > 1 else "",
+                "event": item["event"] if show_event else "",
                 "details": item["description"],
                 "url": item["path"],
                 "collection": collection_title,

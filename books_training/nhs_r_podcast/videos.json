@@ -1,0 +1,50 @@
+{
+  "playlists": [
+    {
+      "label": "NHS-R Podcast",
+      "id": "PLXCrMzQaI6c0FDV6LHzkVmLmaFgvosRck",
+      "videos": [
+        {
+          "id": "LOKjdIz38qw",
+          "title": "NHS-R Podcast Episode 3 - Friends and Family text mining project",
+          "description": "Episode 3 of NHS-R podcast first distributed on Soundcloud   \n\nChris Beeley talks to Andreas Soteriades about a Friends and Family text mining project. \n\nThanks as always to Tom Jemmett for his fantastic editing Links: https://github.com/CDU-data-science-team/pxtextmining https://github.com/CDU-data-science-team/pxtextminingdashboard https://github.com/CDU-data-science-team/experiencesdashboard https://github.com/nhs-r-community/pxtextmineR \n\nEdited with Clipchamp with auto subtitles which were edited by Zoë Turner",
+          "published": "2024-10-15T13:56:13Z",
+          "duration": "PT33M41S",
+          "thumbnail": "https://i.ytimg.com/vi/LOKjdIz38qw/mqdefault.jpg"
+        },
+        {
+          "id": "8xCj3kYQ8EQ",
+          "title": "NHS-R Podcast Episode 2 - Public Health England COVID dashboard team",
+          "description": "Episode 2 of NHS-R podcast first distributed in 2022 on Soundcloud   \n\nChris Beeley talks to the Covid dashboard team - it was under Public Health England at the time of the podcast - Clare Griffiths, James Westwood, Pouria Hadjibagheri and Anxo Roibas. \n\nhttps://ukhsa-dashboard.data.gov.uk/\nhttps://github.com/UKHSA-Internal/coronavirus-dashboard\n\nEdited with Clipchamp with auto subtitles which were edited by Zoë Turner",
+          "published": "2024-07-12T11:20:06Z",
+          "duration": "PT37M58S",
+          "thumbnail": "https://i.ytimg.com/vi/8xCj3kYQ8EQ/mqdefault.jpg"
+        },
+        {
+          "id": "nk0YXyBaNJ8",
+          "title": "NHS-R Podcast Episode 1 part 2 - the history of NHS-R Community",
+          "description": "Episode 1, part 2 of NHS-R podcast first distributed in 2022 on Soundcloud https://soundcloud.com/nhs-r-community/nhs-r-podcast-episode-1\n\nIn this first half of episode 1 Professor Mohammed Mohammed featuring Paul Stroner, Sarah Culkin, Jenny Morgan, Ellen Coughlan, and Chris Beeley talk about the history of R, NHS-R Community and its conferences.\n\nEdited with Clipchamp with auto subtitles which were edited by Zoë Turner",
+          "published": "2024-06-28T16:04:01Z",
+          "duration": "PT32M21S",
+          "thumbnail": "https://i.ytimg.com/vi/nk0YXyBaNJ8/mqdefault.jpg"
+        },
+        {
+          "id": "j9XTt3ac3H4",
+          "title": "NHS-R Podcast Episode 1 part 1 - the history of NHS-R Community",
+          "description": "Episode 1, part 1 of NHS-R podcast first distributed in 2022 on Soundcloud https://soundcloud.com/nhs-r-community/nhs-r-podcast-episode-1\n\nIn this first half of episode 1 Professor Mohammed Mohammed featuring Paul Stroner, Sarah Culkin, Jenny Morgan, Ellen Coughlan, and Chris Beeley talk about the history of R, NHS-R Community and its conferences.\n\nEdited with Clipchamp with auto subtitles which were edited by Zoë Turner",
+          "published": "2024-06-12T14:46:59Z",
+          "duration": "PT35M25S",
+          "thumbnail": "https://i.ytimg.com/vi/j9XTt3ac3H4/mqdefault.jpg"
+        },
+        {
+          "id": "hnp7VRpX8qo",
+          "title": "NHS-R Podcast Episode 0 - pilot",
+          "description": "Episode 0 of NHS-R podcast first distributed in 2022 on Soundcloud https://soundcloud.com/nhs-r-community/nhs-r-podcast-episode-0\n\nChris Beeley and Tom Jemmett introduce the podcast for NHS-R and discuss how R, its uses and their experiences of learning it.\n\nEdited with Clipchamp with auto subtitles which were edited by Zoë Turner",
+          "published": "2024-06-11T22:07:10Z",
+          "duration": "PT13M5S",
+          "thumbnail": "https://i.ytimg.com/vi/hnp7VRpX8qo/mqdefault.jpg"
+        }
+      ]
+    }
+  ]
+}

@@ -7,8 +7,8 @@ execute:
   echo: false
 grid:
   sidebar-width: 0px
-  body-width: 1100px
-  margin-width: 300px
+  body-width: 1300px
+  margin-width: 50px
   gutter-width: 1.5rem
 
 format:
@@ -17,7 +17,7 @@ format:
       - /resources/partials/small/title-block.html
 ---
 
-Search hundreds of recorded conference talks, webinars, workshops, network huddles and project showcases from across the health and care analytics community, all in one place.
+Search hundreds of recorded conference talks, webinars, workshops, network huddles, lectures and project showcases from across the health and care analytics community, all in one place.
 
 Where a long recording covers several talks and its YouTube description gives the timings, each talk is listed separately and its link starts the video at that talk. Each recording also links to its Atlas entry, where you can find out more about the community that published it.
 
@@ -34,8 +34,44 @@ function shorten(text, length = 160) {
   return text.length > length ? text.slice(0, length).replace(/\s+\S*$/, "") + "…" : text;
 }
 
-function options(values, all) {
-  return [all, ...Array.from(new Set(values)).sort((a, b) => a < b ? -1 : a > b ? 1 : 0)];
+// Truncated text with a toggle to show the whole description
+function expandable(text) {
+  const short = shorten(text);
+  if (short === text) return text;
+  const content = html`<span>${short}</span>`;
+  const toggle = html`<button type="button" class="recordings-see-more">See more</button>`;
+  let expanded = false;
+  toggle.onclick = event => {
+    event.stopPropagation();
+    expanded = !expanded;
+    content.textContent = expanded ? text : short;
+    toggle.textContent = expanded ? "See less" : "See more";
+  };
+  return html`<span>${content} ${toggle}</span>`;
+}
+
+// A dropdown of checkboxes, for choosing any number of values
+function multiselect(values, {label, all}) {
+  const checkboxes = Inputs.checkbox(values, {format: String});
+  const summary = html`<summary></summary>`;
+  const dropdown = html`<details>${summary}<div class="recordings-multiselect-options">${checkboxes}</div></details>`;
+  const form = html`<div class="recordings-multiselect"><label>${label}</label>${dropdown}</div>`;
+  const update = () => {
+    summary.textContent = checkboxes.value.length ? checkboxes.value.join(", ") : all;
+  };
+  checkboxes.addEventListener("input", update);
+  // Close when clicking elsewhere on the page
+  document.addEventListener("click", event => {
+    if (!dropdown.contains(event.target)) dropdown.open = false;
+  });
+  Object.defineProperty(form, "value", {get: () => checkboxes.value});
+  update();
+  return form;
+}
+
+// Unique values, sorted
+function options(values) {
+  return Array.from(new Set(values)).sort((a, b) => a < b ? -1 : a > b ? 1 : 0);
 }
 ```
 
@@ -50,17 +86,18 @@ viewof query = Inputs.search(recordings, {
 ::: {.recordings-filters}
 
 ```{ojs}
-viewof source = Inputs.select(options(recordings.map(d => d.source), "All sources"), {label: "Source", width: 240})
+viewof sources = multiselect(options(recordings.map(d => d.source)), {label: "Source", all: "All sources"})
 ```
 
 ```{ojs}
-viewof type = Inputs.select(options(recordings.map(d => d.type), "All types"), {label: "Type", width: 240})
+viewof types = multiselect(options(recordings.map(d => d.type)), {label: "Type", all: "All types"})
 ```
 
 ```{ojs}
-viewof year = Inputs.select(
-  ["All years", ...options(recordings.map(d => d.year).filter(d => d != null), "").slice(1).reverse()],
-  {label: "Year", width: 240}
+// Select any number of years; selecting none shows all years
+viewof years = multiselect(
+  options(recordings.map(d => d.year).filter(d => d != null)).reverse(),
+  {label: "Year", all: "All years"}
 )
 ```
 
@@ -68,17 +105,17 @@ viewof year = Inputs.select(
 
 ```{ojs}
 filtered = query.filter(d =>
-  (source === "All sources" || d.source === source) &&
-  (type === "All types" || d.type === type) &&
-  (year === "All years" || d.year === year)
+  (sources.length === 0 || sources.includes(d.source)) &&
+  (types.length === 0 || types.includes(d.type)) &&
+  (years.length === 0 || years.includes(d.year))
 )
 
-md`Showing **${filtered.length}** of ${recordings.length} recordings.`
+md`Showing **${filtered.length}** of ${recordings.length} recordings${filtered.length > 6 ? " - scroll within the table to see them all" : ""}.`
 ```
 
 ```{ojs}
 html`<div class="recordings-table">${Inputs.table(filtered, {
-  columns: ["title", "year", "type", "event", "source", "details", "url", "collection"],
+  columns: ["title", "url", "year", "type", "event", "source", "details", "collection"],
   header: {
     title: "Title",
     year: "Year",
@@ -91,11 +128,11 @@ html`<div class="recordings-table">${Inputs.table(filtered, {
   },
   format: {
     year: d => d == null ? "" : String(d),
-    details: d => shorten(d),
+    details: d => expandable(d),
     url: d => html`<a href="${d}" target="_blank" rel="noopener">Watch <i class="bi bi-box-arrow-up-right"></i></a>`,
     collection: d => html`<a href="${entryLinks.get(d)}" title="${d}">Atlas entry</a>`
   },
-  width: {title: 280, year: 60, type: 120, event: 110, source: 120, details: 330, url: 80, collection: 100},
+  width: {title: 360, year: 60, type: 110, event: 110, source: 130, details: 400, url: 80, collection: 100},
   layout: "fixed",
   rows: 25,
   height: 750,
@@ -110,8 +147,16 @@ The Recordings Finder brings together the recordings listed in these Atlas entri
 * [NHS-OA Community: Conference Recordings](/books_training/nhs_oa_conference_recordings/index.qmd)
 * [NHS-OA Community: Webinar Recordings](/books_training/nhs_oa_webinars/index.qmd)
 * [NHS-OA Community: Workshop Recordings](/books_training/nhs_oa_workshops/index.qmd)
+* [NHS-OA Community: NHS-R Podcast](/books_training/nhs_r_podcast/index.qmd)
 * [NHS.pycom: Talk Recordings](/books_training/nhs_pycom_talks/index.qmd)
+* [AphA: Webinar and Conference Recordings](/books_training/apha_recordings/index.qmd)
 * [National Analyst Network (formerly Midlands Analyst Network): Huddle Recordings](/books_training/analyst_network_huddles/index.qmd)
+* [Midlands Decision Support Network: Training Recordings](/books_training/mdsn_training/index.qmd)
+* [Midlands Decision Support Network: Insight Festival Recordings](/books_training/insight_festival/index.qmd)
+* [The Strategy Unit: Webinar Recordings](/books_training/strategy_unit_webinars/index.qmd)
+* [New Hospital Programme Demand Model (training recordings)](/packages_projects_tools/new_hospital_programme/index.qmd)
 * [HSMA: Project Showcase Recordings](/books_training/hsma_project_showcases/index.qmd)
+* [HSMA: Lecture and Masterclass Recordings](/books_training/hsma_lecture_recordings/index.qmd)
+* [HACA - Health and Care Analytics Conference](/books_training/haca/index.qmd)
 
 Know of another collection of recordings that should be included? [Raise an issue on the repository](https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose) to let us know.

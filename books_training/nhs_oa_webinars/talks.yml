@@ -422,3 +422,11 @@
   type: Webinar
   image: https://i.ytimg.com/vi/gZ3a6hLn2bY/mqdefault.jpg
   date: '2025-12-16'
+- title: 'NHS-R Conference Webinar: Shiny in Production and Debugging Shiny Apps - 22/11/22'
+  description: 'Shiny in Production and Debugging Shiny Apps Led by Ryan Johnson, Customer Success Manager, RSTUDIO Tuesday 22nd November, About the course: Shiny in Production: How to create production-ready Shiny apps that can scale to thousands of concurrent users. Debugging Shiny Apps: Tips for debugging shiny…'
+  path: https://www.youtube.com/watch?v=BZLY7lWzidA
+  year: 2022
+  event: Webinars
+  type: Webinar
+  image: https://i.ytimg.com/vi/BZLY7lWzidA/mqdefault.jpg
+  date: '2022-11-22'

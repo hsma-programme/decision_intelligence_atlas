@@ -5,20 +5,50 @@
 # writes its talks.yml. All collections are also combined into the
 # Recordings Finder (recordings/index.qmd).
 #
+# Order matters: a video in several playlists of a collection is only listed
+# under the first, and a talk in several collections is only listed in the
+# Recordings Finder under the first. See "Duplicates" in the README.
+#
+# Patterns (in exclude_by_title, types_by_title and events_by_title) ignore case
+# and match the video's original YouTube title. The first matching rule wins.
+#
 # For each collection:
 #   source             - who published the recordings, shown in the Recordings Finder
 #   playlists          - playlists to fetch, each with:
-#       label          - name shown on the site; a year in it (e.g. "RPySOC 2025")
+#       label          - name shown on the site, unique within the collection; a year
+#                        in it (e.g. "RPySOC 2025")
 #                        is used as the year of its videos, otherwise the publish
 #                        date is used
-#       id             - YouTube playlist ID. A channel's uploads can be fetched with
-#                        its uploads playlist ID (its channel ID, with "UC" replaced
-#                        by "UU")
+#       id             - YouTube playlist ID, or a list of IDs to combine several
+#                        playlists under one label. A channel's uploads can be
+#                        fetched with its uploads playlist ID (its channel ID, with
+#                        "UC" replaced by "UU")
+#       videos         - optional, in place of `id`; a list of video IDs to include,
+#                        e.g. to pick out a few videos from a larger playlist
+#       event          - optional; event shown for its videos, in place of one taken
+#                        from the label
 #       type           - kind of recording, shown in the Recordings Finder
 #       talk_list      - optional; true if session recordings list their talks one per
 #                        line without timestamps (see build_youtube_talks.py)
 #       no_year        - optional; true to leave the year blank, e.g. where videos were
 #                        uploaded long after the event and the label has no year
+#       types_by_title - optional; list of `pattern` (a regular expression) and `type`,
+#                        giving the type of videos whose titles match the pattern,
+#                        for playlists mixing different kinds of recording
+#       events_by_title - optional; list of `pattern` (a regular expression) and
+#                        `event`, giving the event of videos whose titles match the
+#                        pattern, e.g. to group a playlist of training sessions by course
+#       exclude_by_title - optional; list of regular expressions; videos whose titles
+#                        match any of them are left out, e.g. regular admin sessions
+#       remove_from_title - optional; a regular expression removed from each video's
+#                        title, e.g. a prefix repeated in every title
+#       remove_from_description - optional; list of regular expressions; paragraphs of
+#                        each video's description matching any of them are removed,
+#                        e.g. an introduction to the event series repeated in every
+#                        description
+#       title_from_description - optional; true to use the first line of each
+#                        video's description as its title, for playlists whose video
+#                        titles are cluttered or cut short
 #   exclude_playlists  - optional; videos in these playlists are left out
 #   exclude_videos     - optional; these videos are left out
 
@@ -62,6 +92,11 @@ nhs_oa_webinars:
     - label: Webinars
       id: PLXCrMzQaI6c36jqIWc9AgHzowzZ2ak9DL
       type: Webinar
+    # Only in the channel's "Shiny and Golem" playlist
+    - label: Shiny and Golem playlist
+      event: Webinars
+      videos: [BZLY7lWzidA]
+      type: Webinar
 
 nhs_oa_workshops:
   folder: books_training/nhs_oa_workshops
@@ -70,6 +105,24 @@ nhs_oa_workshops:
     - label: Workshops
       id: PLXCrMzQaI6c2L4JCRaF2iujzBxe9Rk-rC
       type: Workshop
+    # Only in the channel's "Getting started" playlist
+    - label: Getting started playlist
+      event: Workshops
+      videos: [V0SZsIFMIe4, 2ATXKgv9s7M, H_y-QVrG--w, XMbpHfnoMcM, iLfzNWh2dLI]
+      type: Workshop
+      types_by_title:
+        - pattern: reprex
+          type: Tutorial
+
+nhs_r_podcast:
+  folder: books_training/nhs_r_podcast
+  source: NHS-OA Community
+  playlists:
+    # First released on SoundCloud from 2022, and uploaded to YouTube in 2024
+    - label: NHS-R Podcast
+      id: PLXCrMzQaI6c0FDV6LHzkVmLmaFgvosRck
+      type: Podcast
+      no_year: true
 
 nhs_pycom_talks:
   folder: books_training/nhs_pycom_talks
@@ -77,11 +130,44 @@ nhs_pycom_talks:
   playlists:
     - label: NHS.pycom uploads
       id: UU_jacmsGNZQR5BPP7h0EtXw
-      type: Talk
+      type: Webinar
   # Already listed with the NHS-OA conference recordings: the 2022 Python
   # track talks, and the full-day livestream of that track
   exclude_playlists: [PLSLQ7uyfNIIuFYsyo9Hf0cbYoOqgcly9m]
   exclude_videos: [YEa_3TmtCoE]
+
+apha_recordings:
+  folder: books_training/apha_recordings
+  source: AphA
+  playlists:
+    - label: Webinars and workshops
+      id: UUJVrw1kIEyQmb1khi1nQSNQ # all of AphA's uploads
+      type: Webinar
+      types_by_title:
+        - pattern: conference
+          type: Conference talk
+        - pattern: workshop
+          type: Workshop
+      events_by_title:
+        - pattern: 'lunch\s*(&|and)\s*learn|\bL&L\b'
+          event: Lunch & Learn
+        - pattern: conference
+          event: AphA Conference
+        - pattern: 'branch|hybrid event'
+          event: Branch meetings
+      # AphA's own admin sessions, e.g. on professional registration and mentoring
+      exclude_by_title:
+        - registration
+        - introductory webinar
+        - professional home
+        - mentor
+        - survey winners
+      # Dates and "meeting recording", added to most titles
+      remove_from_title: '\s*(\b\d{1,2}(st|nd|rd|th)?\s*(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*(\s*\d{2,4})?|\b\d{8}\s+\d{6}|\bmeeting\s+recording|\brecording)\b'
+      # Introduction repeated in each 2020 conference session's description
+      remove_from_description:
+        - '^Association of Professional HealthCare Analyst \(AphA\) Annual Conference'
+        - '^This video is from Session'
 
 analyst_network_huddles:
   folder: books_training/analyst_network_huddles
@@ -92,6 +178,89 @@ analyst_network_huddles:
       type: Huddle
   # Untitled meeting recording
   exclude_videos: [LF_EgYTgeLY]
+
+mdsn_training:
+  folder: books_training/mdsn_training
+  source: Midlands Decision Support Network
+  playlists:
+    - label: MDSN Training
+      id: PLFEXOtXX7YkkHfQ8OdHu2eefgoree3TCX
+      type: Training course
+      events_by_title:
+        - pattern: forecasting
+          event: Time-series forecasting
+        - pattern: "^PHM"
+          event: Population health management
+        - pattern: "^HE ?-"
+          event: Health economics and evaluation
+        - pattern: theory of constraints
+          event: Theory of constraints for patient flow
+        - pattern: rmarkdown
+          event: Introduction to R Markdown
+        - pattern: machine learning
+          event: Machine learning
+        - pattern: leadership
+          event: Leadership development for analysts
+  # Short promotional videos
+  exclude_videos: [ynRex9Tzagw, N46C1eJZVWk]
+
+insight_festival:
+  folder: books_training/insight_festival
+  source: Midlands Decision Support Network
+  playlists:
+    - label: Insight 2021
+      id: PLFEXOtXX7YkmJhpetyT5AIGyLWXsOlXyR
+      type: Webinar
+      remove_from_title: "^Insight 2021, [^,]+, "
+    - label: Insight 2020
+      id: PLFEXOtXX7YkkFkTe1fRum-cyWPWCf-YKO
+      type: Webinar
+      remove_from_title: '^INSIGHT 2020:\s*'
+      remove_from_description:
+        - '^(The |About )?Insight 2020( Festival)?:?\s*$'
+        - "6-week Festival of over 30 virtual events"
+        - "^Insight 2020 featured a mixture"
+        - "like any more information about the Festival"
+        - '^(www\.\S+\s*)+$'
+  # Short congratulations video, and a second upload of a training session listed
+  # with the MDSN training recordings
+  exclude_videos: [O-6ya7uY3zA, daF4tVK8ED8]
+
+strategy_unit_webinars:
+  folder: books_training/strategy_unit_webinars
+  source: The Strategy Unit
+  playlists:
+    - label: SU Insights
+      # The SU Insights and Neighbourhood Insights playlists overlap
+      id: [PLFEXOtXX7YkmRnmr12lFeZgm7bxOgZQ5_, PLFEXOtXX7YknRzPHdT_NTgq91NjGvz_NJ]
+      type: Webinar
+    - label: NNHIP evaluation and analysis community of practice
+      id: PLFEXOtXX7YkmeD9U0vu3qjZlah4vCJBR_
+      type: Webinar
+    - label: ICS intelligence functions
+      id: PLFEXOtXX7YkkyrO1UrgGgjGdcYCsdBj7p
+      type: Webinar
+    - label: Decision Support Units
+      id: PLFEXOtXX7YkmjWbagd9fqsOpLAR95Prpb
+      type: Webinar
+    - label: Population health management
+      id: PLFEXOtXX7Ykm2QcoFSUVy6D0v_XzVGZJP
+      type: Webinar
+      # Recorded from 2019 onwards, and uploaded in 2021
+      no_year: true
+    - label: End of life analysis
+      id: PLFEXOtXX7YklU_OmhsDUmzelQLbCzF4Ne
+      type: Webinar
+  # Already listed with the Insight 2020 festival recordings
+  exclude_playlists: [PLFEXOtXX7YkkFkTe1fRum-cyWPWCf-YKO]
+
+nhp_training:
+  folder: packages_projects_tools/new_hospital_programme
+  source: The Strategy Unit
+  playlists:
+    - label: NHP demand and capacity model training
+      id: PLFEXOtXX7YkkHkN2mWn3V-K_LnZXP2cGY
+      type: Training course
 
 hsma_project_showcases:
   folder: books_training/hsma_project_showcases
@@ -106,6 +275,11 @@ hsma_project_showcases:
       id: PLgHO2TgIJXdl1MvfkwCGJ6n8_1EYCSzex
       type: Project showcase
       no_year: true
+    # Showcases of the PenCHORD team's own projects, shown during HSMA 5 as
+    # inspiration for HSMA projects. Part of the HSMA 5 lecture playlist.
+    - label: HSMA 5 (PenCHORD showcases)
+      videos: [g4T6yGUciV4, HYoientT00o, eqCWC1k2Pg8, PHqjC9WCqnM, JRS43-LuwkE]
+      type: Project showcase
     - label: HSMA 4
       id: PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN
       type: Project showcase
@@ -114,3 +288,110 @@ hsma_project_showcases:
       id: PLgHO2TgIJXdnAWY7tGGPQLWYAjn0tgG_A
       type: Project showcase
       no_year: true
+    # Recording of the whole event, part of the HSMA 3 lecture archive
+    - label: HSMA 3 (final presentation event)
+      videos: [GJpzNGCbWSc]
+      type: Project showcase
+      no_year: true
+
+hsma_lectures:
+  folder: books_training/hsma_lecture_recordings
+  source: HSMA
+  playlists:
+    - label: Standalone workshops
+      id: PLYdeZL7U9wI0
+      type: Workshop
+    - label: HSMA 6
+      id: PLgHO2TgIJXdl0MvUdqxfQ1UgF9VdLGH1l
+      type: Lecture
+      types_by_title:
+        - pattern: Hackathon
+          type: Hackathon
+    - label: HSMA 5
+      id: PLgHO2TgIJXdmB6T9sgyp64wNqBH1aBSu5
+      type: Lecture
+      types_by_title:
+        - pattern: Open Day
+          type: Open day
+        - pattern: Workshop
+          type: Workshop
+    - label: HSMA 4
+      id: PLgHO2TgIJXdk9Kfqxxb_gmV2jPeIsbYTc
+      type: Lecture
+      # Mostly uploaded in 2022, after HSMA 4 ran
+      no_year: true
+      types_by_title:
+        - pattern: tutorial|code along|setup|setting up|running the
+          type: Tutorial
+    - label: HSMA 3
+      id: PLgHO2TgIJXdnoYRsxukJET7FwoOO4Qqag
+      type: Lecture
+      types_by_title:
+        - pattern: tutorial|code along|setup|installing|anaconda|spyder|colab
+          type: Tutorial
+      # Admin videos for HSMA 3 participants, and the final presentation event
+      # (listed with the project showcases)
+      exclude_by_title:
+        - peer support
+        - project pitch
+        - final presentation event
+    - label: Masterclasses
+      id: PLgHO2TgIJXdmYZrsHHUqi08dWZ0OkSVrC
+      type: Masterclass
+  # Short promotional video, and showcases listed with the project showcases
+  exclude_videos: [PvQkJHc-Cis, g4T6yGUciV4, HYoientT00o, eqCWC1k2Pg8, PHqjC9WCqnM, JRS43-LuwkE]
+
+haca:
+  folder: books_training/haca
+  source: HACA
+  playlists:
+    - label: "HACA 2025: Main Stage"
+      id: [PLD3zJ_XF_szw3x2LnWdsy1gLhajo3Qrsv, PLD3zJ_XF_szxrvQXY9DUbjDObsvKSALQh]
+      type: Conference talk
+      title_from_description: true
+    - label: "HACA 2025: Improving System Flow"
+      id: [PLD3zJ_XF_szyzBifSZID0euy779bb1XCh, PLD3zJ_XF_szw6GHsNoifxP__qY7fdHHqK]
+      type: Conference talk
+      title_from_description: true
+    - label: "HACA 2025: Shift to Community"
+      id: [PLD3zJ_XF_szyy-GqMWBSXryTcfDHANoM1, PLD3zJ_XF_szyqDEpcXgpNHZXzs3T9ywCC]
+      type: Conference talk
+      title_from_description: true
+    - label: "HACA 2025: Targeting Care / Advancing Analytics"
+      id: [PLD3zJ_XF_szyPgQr79uqIi0RS4C_g08lY, PLD3zJ_XF_szzHrRPm7uf3pMDVlHENUhpG]
+      type: Conference talk
+      title_from_description: true
+    - label: "HACA 2025: Workshops"
+      id: [PLD3zJ_XF_szwhq_-rwTjQmytM_V5FCRF7, PLD3zJ_XF_szxN8oogmgrT35V8DQ_IXnbm]
+      type: Conference workshop
+      title_from_description: true
+    - label: HACA 2024
+      id:
+        - PLD3zJ_XF_szwkK1Yu2vlaQ-FgvGL4F-3j # Day 1: Auditorium
+        - PLD3zJ_XF_szy9fDh6OOcSxy9GErXdqs6e # Day 1: Beckbury
+        - PLD3zJ_XF_szy8uxXjhwwz-yEqulIepVJJ # Day 1: Ironbridge
+        - PLD3zJ_XF_szyyBHg6TOe0Sw5mU-OgCwWj # Day 1: Wenlock
+        - PLD3zJ_XF_szyOeb29e2tGnbSIrMwgippM # Day 2: Auditorium
+        - PLD3zJ_XF_szwpRq_40CFYPQRGzLe5RkJ2 # Day 2: Beckbury
+        - PLD3zJ_XF_szx31ezRUeRU7BULg01hA_Te # Day 2: Ironbridge
+        - PLD3zJ_XF_szyiI81vlNKvab64flLngWLg # Day 2: Wenlock
+      type: Conference talk
+      title_from_description: true
+    - label: "HACA 2024: E-labs"
+      id: PLD3zJ_XF_szyaHGzhDguLsN7kQxz_3Rjo
+      type: Conference workshop
+    - label: HACA 2023
+      id:
+        - PLD3zJ_XF_szwtI6Mds6b1zikMXINKjeMU # Leonard Deacon, Day 1
+        - PLD3zJ_XF_szwRzTu6SA8LYzn28KN_baY4 # Arthur Thompson, Day 1
+        - PLD3zJ_XF_szwvOzXHvq5MszOzvdGb3XHj # Lecture Theatre 3, Day 1
+        - PLD3zJ_XF_szwsoOZFAJjvvzyvYtiwYZ0Q # Lecture Theatre 4, Day 1
+        - PLD3zJ_XF_szxb9gqFrP227e32gccAItXy # WF15, Day 1
+        - PLD3zJ_XF_szx52OadTwCpKMBC9TfvhMB6 # Leonard Deacon, Day 2
+        - PLD3zJ_XF_szz9AXNRkDmIOKYPj5QmSHcn # Arthur Thompson, Day 2
+        - PLD3zJ_XF_szzpDtV0TVwsFhbuiegP8DRU # Lecture Theatre 3, Day 2
+        - PLD3zJ_XF_szzljm8YiDRRObofk1RRQPta # Lecture Theatre 4, Day 2
+        - PLD3zJ_XF_szzTSJqtqoqdfgruXWXMj6LY # WF15, Day 2
+      type: Conference talk
+  # Not included: promotional videos, short interviews with the 2024 audience,
+  # and a few videos uploaded twice, outside the conference playlists

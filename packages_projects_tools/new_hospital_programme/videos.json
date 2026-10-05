@@ -1,0 +1,154 @@
+{
+  "playlists": [
+    {
+      "label": "NHP demand and capacity model training",
+      "id": "PLFEXOtXX7YkkHkN2mWn3V-K_LnZXP2cGY",
+      "videos": [
+        {
+          "id": "RsP_B0tAvyM",
+          "title": "NHP D&C Tech/Data Q&A",
+          "description": "Discussion Session for All Schemes\n24th April 2026",
+          "published": "2026-04-28T08:23:49Z",
+          "duration": "PT30M55S",
+          "thumbnail": "https://i.ytimg.com/vi/RsP_B0tAvyM/mqdefault.jpg"
+        },
+        {
+          "id": "JG6eIjQdRGY",
+          "title": "NHP D&C Modelling and Validation",
+          "description": "Training Session for All Schemes\n17th April 2026",
+          "published": "2026-04-22T08:46:28Z",
+          "duration": "PT1H30M2S",
+          "thumbnail": "https://i.ytimg.com/vi/JG6eIjQdRGY/mqdefault.jpg"
+        },
+        {
+          "id": "jdbZm4KeWYc",
+          "title": "NHP D&C Modelling - Validation",
+          "description": "Training Session for All Schemes\n7th January 2026",
+          "published": "2026-01-13T11:07:08Z",
+          "duration": "PT1H45M57S",
+          "thumbnail": "https://i.ytimg.com/vi/jdbZm4KeWYc/mqdefault.jpg"
+        },
+        {
+          "id": "egUhA9OtXyg",
+          "title": "Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy",
+          "description": "00:00 Introduction\n00:39 Background and understanding potentially mitigable activity \n6:06 Typical assumptions for the extent of mitigation\n10:07 Future opportunities\n15:19 User guide: understanding the report layout  \n18:06 Characterising the mitigator cohorts\n19:25 Understanding overlap between mitigator cohorts\n20:45 Making comparisons between ICBs\n22:24 National and sub-national trends in mitigable activity\n25:22 Potential limitations/pitfalls\n\n\nA short video exploring recent work by the Strategy Unit, funded by NHS England, to help better understand the scale, threats, and regional variations of potentially migitable hospital activity at national and sub-national levels.\n\nThis is part of the Strategy Unit's work on the NHS Hospital Programme.",
+          "published": "2025-06-16T08:28:20Z",
+          "duration": "PT29M13S",
+          "thumbnail": "https://i.ytimg.com/vi/egUhA9OtXyg/mqdefault.jpg"
+        },
+        {
+          "id": "dXjNG2EbsfI",
+          "title": "NHP Demand and Capacity (D&C) Model",
+          "description": "A Technical Deep Dive for Data Scientists\n13th May 2025",
+          "published": "2025-05-14T14:46:11Z",
+          "duration": "PT1H29M42S",
+          "thumbnail": "https://i.ytimg.com/vi/dXjNG2EbsfI/mqdefault.jpg"
+        },
+        {
+          "id": "g2iATe63WpQ",
+          "title": "Advanced training for analysts and strategic planners #2",
+          "description": "Demand and Capacity Modelling\n29th April 2025",
+          "published": "2025-05-02T08:14:16Z",
+          "duration": "PT2H34M44S",
+          "thumbnail": "https://i.ytimg.com/vi/g2iATe63WpQ/mqdefault.jpg"
+        },
+        {
+          "id": "F--GMyRYYmg",
+          "title": "Advanced Training for Analysts and Strategic Partners",
+          "description": "Demand and Capacity Modlelling - 8th April 2025",
+          "published": "2025-04-11T12:25:57Z",
+          "duration": "PT2H7M18S",
+          "thumbnail": "https://i.ytimg.com/vi/F--GMyRYYmg/mqdefault.jpg"
+        },
+        {
+          "id": "fjr2v9iwCjA",
+          "title": "The New Hospitals Programme Demand and Capacity Model - Introductory Session for CSU Staff",
+          "description": "",
+          "published": "2025-03-28T10:34:57Z",
+          "duration": "PT1H39S",
+          "thumbnail": "https://i.ytimg.com/vi/fjr2v9iwCjA/mqdefault.jpg"
+        },
+        {
+          "id": "ztLyhnAmvsM",
+          "title": "The New Hospital Programme: Demand and Capacity Model 24/25",
+          "description": "Technical Leads Meeting\n3rd December 2024",
+          "published": "2024-12-04T09:18:28Z",
+          "duration": "PT46M30S",
+          "thumbnail": "https://i.ytimg.com/vi/ztLyhnAmvsM/mqdefault.jpg"
+        },
+        {
+          "id": "xUGaqWQsD-I",
+          "title": "The New Hospital Programme: Demand and Capacity Modelling 24/25",
+          "description": "Technical Leads Meeting\n14th November 2024",
+          "published": "2024-11-15T15:31:23Z",
+          "duration": "PT56M51S",
+          "thumbnail": "https://i.ytimg.com/vi/xUGaqWQsD-I/mqdefault.jpg"
+        },
+        {
+          "id": "1qAqYRorxcc",
+          "title": "The New Hospital Programme: Demand and Capacity Modelling 24/25",
+          "description": "Technical Leads Meeting\n29th October 2024",
+          "published": "2024-10-30T09:39:05Z",
+          "duration": "PT19M39S",
+          "thumbnail": "https://i.ytimg.com/vi/1qAqYRorxcc/mqdefault.jpg"
+        },
+        {
+          "id": "mG8ZAnS2IxU",
+          "title": "The New Hospital Programme: Demand and Capacity Modelling 24/25",
+          "description": "Technical Leads Meeting \n8th October 2024",
+          "published": "2024-10-11T09:22:28Z",
+          "duration": "PT15M27S",
+          "thumbnail": "https://i.ytimg.com/vi/mG8ZAnS2IxU/mqdefault.jpg"
+        },
+        {
+          "id": "o8XFXTKMhLI",
+          "title": "The New Hospital Programme: Demand and Capacity Modelling 24/25",
+          "description": "Technical Leads Meeting\n17th September 2024",
+          "published": "2024-09-17T14:04:08Z",
+          "duration": "PT54M11S",
+          "thumbnail": "https://i.ytimg.com/vi/o8XFXTKMhLI/mqdefault.jpg"
+        },
+        {
+          "id": "oEvLbcAfipk",
+          "title": "The New Hospital Programme: Demand and Capacity Model 24/25",
+          "description": "Technical Leads Meeting \n19th July 2024",
+          "published": "2024-07-26T16:01:52Z",
+          "duration": "PT50M5S",
+          "thumbnail": "https://i.ytimg.com/vi/oEvLbcAfipk/mqdefault.jpg"
+        },
+        {
+          "id": "czwNQqAXjWc",
+          "title": "The New Hospital Programme: Demand and Capacity Model 24/25",
+          "description": "Training Session \n4th July 2024",
+          "published": "2024-07-05T16:39:35Z",
+          "duration": "PT1H43M22S",
+          "thumbnail": "https://i.ytimg.com/vi/czwNQqAXjWc/mqdefault.jpg"
+        },
+        {
+          "id": "Oc74J-z_C_w",
+          "title": "The New Hospital Programme: Demand and Capacity Modelling",
+          "description": "Technical Leads Meeting \n24th June 2024",
+          "published": "2024-06-26T08:55:56Z",
+          "duration": "PT40M30S",
+          "thumbnail": "https://i.ytimg.com/vi/Oc74J-z_C_w/mqdefault.jpg"
+        },
+        {
+          "id": "zgbfie46xL0",
+          "title": "The New Hospital Programme: Demand and Capacity Model 24/25",
+          "description": "Interpreting Outputs - Questions & Answers Session \n19th June 2024",
+          "published": "2024-06-20T07:50:49Z",
+          "duration": "PT31M44S",
+          "thumbnail": "https://i.ytimg.com/vi/zgbfie46xL0/mqdefault.jpg"
+        },
+        {
+          "id": "qNZhDeboLwg",
+          "title": "The New Hospital Programme: New Models of Care Evidence Map",
+          "description": "An Introduction\n17th June 2024",
+          "published": "2024-06-17T12:25:02Z",
+          "duration": "PT13M21S",
+          "thumbnail": "https://i.ytimg.com/vi/qNZhDeboLwg/mqdefault.jpg"
+        }
+      ]
+    }
+  ]
+}

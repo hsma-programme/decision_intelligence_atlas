@@ -429,6 +429,20 @@
           "thumbnail": "https://i.ytimg.com/vi/gZ3a6hLn2bY/mqdefault.jpg"
         }
       ]
+    },
+    {
+      "label": "Shiny and Golem playlist",
+      "id": null,
+      "videos": [
+        {
+          "id": "BZLY7lWzidA",
+          "title": "NHS-R Conference Webinar: Shiny in Production and Debugging Shiny Apps - 22/11/22",
+          "description": "Shiny in Production and Debugging Shiny Apps\nLed by Ryan Johnson, Customer Success Manager, RSTUDIO\n\nTuesday 22nd November,\n\nAbout the course: \n\nShiny in Production: How to create production-ready Shiny apps that can scale to thousands of concurrent users.\n\nDebugging Shiny Apps: Tips for debugging shiny apps using the RStudio IDE.",
+          "published": "2022-11-22T19:11:05Z",
+          "duration": "PT1H28M11S",
+          "thumbnail": "https://i.ytimg.com/vi/BZLY7lWzidA/mqdefault.jpg"
+        }
+      ]
     }
   ]
 }

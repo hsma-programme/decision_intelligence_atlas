@@ -1,0 +1,72 @@
+---
+title: "Midlands Decision Support Network: Insight Festival Recordings"
+categories:
+  - Courses and Training or Reference Materials
+  - Recorded Talks
+tool-language: N/A
+status: N/A
+image: insight_2021.jpg
+author:
+  - name: The Strategy Unit
+pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i>
+  rationale-for-status: |
+    Collection of recordings from many different presenters, so it is not ranked as a whole.
+  entry-author:
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
+  abstract: |
+    Recordings from Insight, the Midlands Decision Support Network's festival of online events on analysis and decision-making in health and care, hosted by the Strategy Unit. Insight 2020 ran more than 30 events over six weeks, and Insight 2021 continued the festival. Panels, talks and conversations cover topics including COVID-19, health inequalities, social care, evaluation, decision quality, the future of analytics and the role of analysts.
+  links:
+  - name: YouTube (2020)
+    url: https://www.youtube.com/playlist?list=PLFEXOtXX7YkkFkTe1fRum-cyWPWCf-YKO
+    icon: fa-brands fa-youtube
+  - name: YouTube (2021)
+    url: https://www.youtube.com/playlist?list=PLFEXOtXX7YkmJhpetyT5AIGyLWXsOlXyR
+    icon: fa-brands fa-youtube
+  - name: Website
+    url: https://www.strategyunitwm.nhs.uk/midlands-decision-support-network
+    icon: fa-solid fa-globe
+date: "2026-10-05T00:00:00+01:00"
+listing:
+  - id: insight-events
+    contents: talks.yml
+    type: table
+    fields: [title, year, description]
+    field-display-names:
+      title: "Event"
+      year: "Year"
+      description: "Details"
+    sort: [year, date]
+    filter-ui: [title, year, description]
+    sort-ui: [title, year]
+    page-size: 25
+---
+
+[![Insight 2021](insight_2021.jpg)](https://www.youtube.com/playlist?list=PLFEXOtXX7YkmJhpetyT5AIGyLWXsOlXyR)
+
+Insight is a festival of online events about analysis and decision-making in health and care, run by the [Midlands Decision Support Network](/books_training/mdsn_training/index.qmd) and hosted by [the Strategy Unit](https://www.strategyunitwm.nhs.uk/).
+
+The first festival, Insight 2020, was held online from September to November 2020. Over six weeks, more than 30 events explored the challenges facing decision-makers in health and care, and how analysis can best inform their decisions, through a mix of talks, panels, workshops and conversations. Insight 2021 followed in October 2021.
+
+The recorded events cover topics including:
+
+* **Opening keynotes** - Ben Goldacre on open approaches to health data science, and Andi Orlowski on "dangerous analytics… and how local analysts can save you!"
+* **COVID-19** - what the pandemic taught us about decision-making, social care, homelessness, the impact on children and young people, and making sense of emerging evidence
+* **Health inequalities** - including health inequalities and ethnicity, and what we can learn from the pandemic to reduce them
+* **Better decisions** - decision quality, decision-making toolkits, population involvement, and whether health and care systems should trust algorithms
+* **Analysts and analytics** - the future of analytics, analytical priorities, what analysts bring to leadership, sharing your work, and a joint event with the NHS-R Community on why the NHS should use R
+* **Analysis in practice** - end of life care analysis (including its data and code), population health management and evaluation
+
+## Search the events
+
+Search for an event by title, year or topic. Events are listed in the order they were published.
+
+::: {#insight-events}
+:::
+
+You can also browse the [Insight 2020](https://www.youtube.com/playlist?list=PLFEXOtXX7YkkFkTe1fRum-cyWPWCf-YKO) and [Insight 2021](https://www.youtube.com/playlist?list=PLFEXOtXX7YkmJhpetyT5AIGyLWXsOlXyR) playlists on YouTube.
+
+The Midlands Decision Support Network also publishes [recordings of its training courses](/books_training/mdsn_training/index.qmd) and of its [Analyst Network Huddles](/books_training/analyst_network_huddles/index.qmd).
+
+To search these recordings alongside talks, webinars and workshops from other communities, use the [Recordings Finder](/recordings/index.qmd).

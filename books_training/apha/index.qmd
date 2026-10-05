@@ -26,3 +26,5 @@ pub-info:
     icon: fa-brands fa-linkedin
 date: "2026-10-02T00:00:00+01:00"
 ---
+
+Recordings of AphA's Lunch & Learn webinars, branch meetings and conferences are listed in [AphA: Webinar and Conference Recordings](/books_training/apha_recordings/index.qmd), and can be searched alongside recordings from other communities in the [Recordings Finder](/recordings/index.qmd).

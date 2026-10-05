@@ -406,3 +406,83 @@
   type: Workshop
   image: https://i.ytimg.com/vi/IWEY2ELKO2Q/mqdefault.jpg
   date: '2026-09-17'
+- title: Introduction to R and R Studio Pt1
+  description: This is the first part of a recording of Introduction to R and R Studio course which took place on 27 March 2024 with Simon Wellesley-Miller
+  path: https://www.youtube.com/watch?v=V0SZsIFMIe4
+  year: 2024
+  event: Workshops
+  type: Workshop
+  image: https://i.ytimg.com/vi/V0SZsIFMIe4/mqdefault.jpg
+  date: '2024-05-31'
+- title: Introduction to R and R Studio Pt2
+  description: This is the second part of a recording of Introduction to R and R Studio course which took place on 27 March 2024 with Simon Wellesley-Miller
+  path: https://www.youtube.com/watch?v=2ATXKgv9s7M
+  year: 2024
+  event: Workshops
+  type: Workshop
+  image: https://i.ytimg.com/vi/2ATXKgv9s7M/mqdefault.jpg
+  date: '2024-06-03'
+- title: Introduction to R and R Studio Part 1 with Annie Yu on 21 February 2024
+  description: 'Learn about how to import data, wrangle data and produce and export graphs. Pre-requisites: No prior knowledge of R is required; however, it is assumed that you will have a moderate level of computer literacy. For example, you will be able to navigate to drives and files and be confident in…'
+  path: https://www.youtube.com/watch?v=H_y-QVrG--w
+  year: 2024
+  event: Workshops
+  type: Workshop
+  image: https://i.ytimg.com/vi/H_y-QVrG--w/mqdefault.jpg
+  date: '2024-03-01'
+- title: Introduction to R and R Studio with Annie Yu Pt 2
+  description: 'Learn about how to import data, wrangle data and produce and export graphs. Pre-requisites: No prior knowledge of R is required; however, it is assumed that you will have a moderate level of computer literacy. For example, you will be able to navigate to drives and files and be confident in…'
+  path: https://www.youtube.com/watch?v=XMbpHfnoMcM
+  year: 2024
+  event: Workshops
+  type: Workshop
+  image: https://i.ytimg.com/vi/XMbpHfnoMcM/mqdefault.jpg
+  date: '2024-03-01'
+- title: Install package
+  description: From the recording 'How to use the reprex R package to produce a reproducible example', starting at 3:59.
+  path: https://www.youtube.com/watch?v=iLfzNWh2dLI&t=239s
+  year: 2024
+  event: Workshops
+  type: Tutorial
+  image: https://i.ytimg.com/vi/iLfzNWh2dLI/mqdefault.jpg
+  date: '2024-09-13'
+- title: Creating data to replicate the problem
+  description: From the recording 'How to use the reprex R package to produce a reproducible example', starting at 4:43.
+  path: https://www.youtube.com/watch?v=iLfzNWh2dLI&t=283s
+  year: 2024
+  event: Workshops
+  type: Tutorial
+  image: https://i.ytimg.com/vi/iLfzNWh2dLI/mqdefault.jpg
+  date: '2024-09-13'
+- title: Code that works using dplyr
+  description: From the recording 'How to use the reprex R package to produce a reproducible example', starting at 5:28.
+  path: https://www.youtube.com/watch?v=iLfzNWh2dLI&t=328s
+  year: 2024
+  event: Workshops
+  type: Tutorial
+  image: https://i.ytimg.com/vi/iLfzNWh2dLI/mqdefault.jpg
+  date: '2024-09-13'
+- title: Code that gives an error using dbplyr with SQL
+  description: From the recording 'How to use the reprex R package to produce a reproducible example', starting at 5:38.
+  path: https://www.youtube.com/watch?v=iLfzNWh2dLI&t=338s
+  year: 2024
+  event: Workshops
+  type: Tutorial
+  image: https://i.ytimg.com/vi/iLfzNWh2dLI/mqdefault.jpg
+  date: '2024-09-13'
+- title: Copy the text and use the reprex add in for RStudio
+  description: From the recording 'How to use the reprex R package to produce a reproducible example', starting at 7:52.
+  path: https://www.youtube.com/watch?v=iLfzNWh2dLI&t=472s
+  year: 2024
+  event: Workshops
+  type: Tutorial
+  image: https://i.ytimg.com/vi/iLfzNWh2dLI/mqdefault.jpg
+  date: '2024-09-13'
+- title: Copy the text and use command line
+  description: From the recording 'How to use the reprex R package to produce a reproducible example', starting at 10:36.
+  path: https://www.youtube.com/watch?v=iLfzNWh2dLI&t=636s
+  year: 2024
+  event: Workshops
+  type: Tutorial
+  image: https://i.ytimg.com/vi/iLfzNWh2dLI/mqdefault.jpg
+  date: '2024-09-13'

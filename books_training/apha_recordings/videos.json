@@ -1,0 +1,714 @@
+{
+  "playlists": [
+    {
+      "label": "Webinars and workshops",
+      "id": "UUJVrw1kIEyQmb1khi1nQSNQ",
+      "videos": [
+        {
+          "id": "safUlhPyEJw",
+          "title": "AphA Lunch & Learn with Amy Makawana: Introduction to Logistic and Linear Regression 22 Sept 2026",
+          "description": "",
+          "published": "2026-09-22T13:05:55Z",
+          "duration": "PT52M28S",
+          "thumbnail": "https://i.ytimg.com/vi/safUlhPyEJw/mqdefault.jpg"
+        },
+        {
+          "id": "Bm4Hks5OtG0",
+          "title": "AphA Discover Your Professional Home in Health & Care Data and Analytics Meeting Recording 8 Sep 26",
+          "description": "",
+          "published": "2026-09-08T13:18:14Z",
+          "duration": "PT46M30S",
+          "thumbnail": "https://i.ytimg.com/vi/Bm4Hks5OtG0/mqdefault.jpg"
+        },
+        {
+          "id": "AKLJDR1BYec",
+          "title": "AphA Lunch & Learn: Introduction to statistical analysis and data types 18Aug2026 meeting recording",
+          "description": "",
+          "published": "2026-08-18T13:26:54Z",
+          "duration": "PT53M49S",
+          "thumbnail": "https://i.ytimg.com/vi/AKLJDR1BYec/mqdefault.jpg"
+        },
+        {
+          "id": "JNQ0EKAaRGM",
+          "title": "AphA Lunch & Learn with Neil Pettinger 4th August 2026 Meeting Recording",
+          "description": "Data Storytelling from (x = 0, y = 0) to (x = 10, y = 10)",
+          "published": "2026-08-04T12:20:25Z",
+          "duration": "PT54M17S",
+          "thumbnail": "https://i.ytimg.com/vi/JNQ0EKAaRGM/mqdefault.jpg"
+        },
+        {
+          "id": "iHAJCPMl79M",
+          "title": "AphA L&L with the Data Observatory 21 July 2026 meeting recording",
+          "description": "",
+          "published": "2026-07-21T13:28:48Z",
+          "duration": "PT40M38S",
+          "thumbnail": "https://i.ytimg.com/vi/iHAJCPMl79M/mqdefault.jpg"
+        },
+        {
+          "id": "LqYmEJGk-CU",
+          "title": "AphA Professional Registration workshop Q&A session 9th July 2026 Meeting Recording",
+          "description": "",
+          "published": "2026-07-09T13:37:43Z",
+          "duration": "PT40M48S",
+          "thumbnail": "https://i.ytimg.com/vi/LqYmEJGk-CU/mqdefault.jpg"
+        },
+        {
+          "id": "Rmrl2ObLulY",
+          "title": "AphA Lunch & Learn with Aaron Key 07July2026 Meeting Recording",
+          "description": "",
+          "published": "2026-07-07T12:19:20Z",
+          "duration": "PT32M56S",
+          "thumbnail": "https://i.ytimg.com/vi/Rmrl2ObLulY/mqdefault.jpg"
+        },
+        {
+          "id": "B_vllbs0FUA",
+          "title": "AphA Introductory Webinar 23 June 2026 Meeting Recording",
+          "description": "",
+          "published": "2026-06-23T13:35:49Z",
+          "duration": "PT47M3S",
+          "thumbnail": "https://i.ytimg.com/vi/B_vllbs0FUA/mqdefault.jpg"
+        },
+        {
+          "id": "u2r6MPdANks",
+          "title": "AphA Professional Registration workshop overview 16 June 2026 Meeting Recording",
+          "description": "",
+          "published": "2026-06-16T14:41:15Z",
+          "duration": "PT54M26S",
+          "thumbnail": "https://i.ytimg.com/vi/u2r6MPdANks/mqdefault.jpg"
+        },
+        {
+          "id": "QVXxcZ78D3o",
+          "title": "AphA L&L with Graphnet 09 June 2026 Meeting Recording",
+          "description": "",
+          "published": "2026-06-10T08:57:24Z",
+          "duration": "PT45M22S",
+          "thumbnail": "https://i.ytimg.com/vi/QVXxcZ78D3o/mqdefault.jpg"
+        },
+        {
+          "id": "PkSJI6IG_Zg",
+          "title": "AphA Introductory Webinar 28th May 2026 Meeting Recording",
+          "description": "Discover Your Professional Home in Health & Care Data and Analytics",
+          "published": "2026-05-28T11:29:21Z",
+          "duration": "PT49M46S",
+          "thumbnail": "https://i.ytimg.com/vi/PkSJI6IG_Zg/mqdefault.jpg"
+        },
+        {
+          "id": "qv42lRINPvo",
+          "title": "AphA L&L with Fraser Battye 26May2026 Meeting Recording",
+          "description": "",
+          "published": "2026-05-26T12:18:32Z",
+          "duration": "PT51M8S",
+          "thumbnail": "https://i.ytimg.com/vi/qv42lRINPvo/mqdefault.jpg"
+        },
+        {
+          "id": "MhckGcTMPNI",
+          "title": "AphA Lunch & Learn with UCL - Mixed methods evaluation insights 12 May 2026 Meeting Recording",
+          "description": "",
+          "published": "2026-05-12T12:24:32Z",
+          "duration": "PT43M55S",
+          "thumbnail": "https://i.ytimg.com/vi/MhckGcTMPNI/mqdefault.jpg"
+        },
+        {
+          "id": "MRHz8HCAFzc",
+          "title": "AphA Lunch & Learn with TPXImpact 21st April 2026 Meeting Recording",
+          "description": "The Human behind the data",
+          "published": "2026-04-21T12:18:13Z",
+          "duration": "PT51M43S",
+          "thumbnail": "https://i.ytimg.com/vi/MRHz8HCAFzc/mqdefault.jpg"
+        },
+        {
+          "id": "5VBDY5EvNfQ",
+          "title": "Professional Registration Q&A session 14 April 2026 Meeting Recording",
+          "description": "",
+          "published": "2026-04-14T13:06:36Z",
+          "duration": "PT52M20S",
+          "thumbnail": "https://i.ytimg.com/vi/5VBDY5EvNfQ/mqdefault.jpg"
+        },
+        {
+          "id": "GeWFfgd0wKM",
+          "title": "AphA Lunch & Learn session 31 March 2026 Meeting Recording",
+          "description": "The rise of LLM and what it means for NHS Analysts",
+          "published": "2026-03-31T12:14:41Z",
+          "duration": "PT58M5S",
+          "thumbnail": "https://i.ytimg.com/vi/GeWFfgd0wKM/mqdefault.jpg"
+        },
+        {
+          "id": "BwDXQ-T19bw",
+          "title": "AphA Lunch & Learn sessions with HDRUK 10 March 2026 Meeting Recording",
+          "description": "",
+          "published": "2026-03-10T13:08:56Z",
+          "duration": "PT44M57S",
+          "thumbnail": "https://i.ytimg.com/vi/BwDXQ-T19bw/mqdefault.jpg"
+        },
+        {
+          "id": "5FhGDb2cDoM",
+          "title": "Professional Registration workshop Overview session 9th March 2026 meeting Recording",
+          "description": "",
+          "published": "2026-03-09T14:15:00Z",
+          "duration": "PT51M37S",
+          "thumbnail": "https://i.ytimg.com/vi/5FhGDb2cDoM/mqdefault.jpg"
+        },
+        {
+          "id": "YegtMna3OKo",
+          "title": "AphA Lunch & Learn with Hunter Healthcare 24 Feb 2026 Meeting Recording",
+          "description": "",
+          "published": "2026-02-24T13:44:43Z",
+          "duration": "PT41M45S",
+          "thumbnail": "https://i.ytimg.com/vi/YegtMna3OKo/mqdefault.jpg"
+        },
+        {
+          "id": "h70OvDdrafU",
+          "title": "AphA Lunch & Learn: Skill Gap Analysis & Leveraging Resources for Growth with the NCF",
+          "description": "10 Feb 2026  Meeting Recording",
+          "published": "2026-02-10T13:12:06Z",
+          "duration": "PT52M9S",
+          "thumbnail": "https://i.ytimg.com/vi/h70OvDdrafU/mqdefault.jpg"
+        },
+        {
+          "id": "4yMkaYQ8o8I",
+          "title": "Alteryx & AphA Webinar 29 Jan 2026 Meeting Recording",
+          "description": "",
+          "published": "2026-02-03T16:46:24Z",
+          "duration": "PT52M29S",
+          "thumbnail": "https://i.ytimg.com/vi/4yMkaYQ8o8I/mqdefault.jpg"
+        },
+        {
+          "id": "vvy3bn-NMog",
+          "title": "AphA Lunch & Learn with Jo Stanford 27 Jan 2026 Meeting Recording",
+          "description": "",
+          "published": "2026-01-27T13:17:13Z",
+          "duration": "PT54M27S",
+          "thumbnail": "https://i.ytimg.com/vi/vvy3bn-NMog/mqdefault.jpg"
+        },
+        {
+          "id": "94HjB9mOKJM",
+          "title": "Professional Registration Q&A session 13th Jan 2026 Meeting Recording",
+          "description": "",
+          "published": "2026-01-13T14:14:44Z",
+          "duration": "PT28M43S",
+          "thumbnail": "https://i.ytimg.com/vi/94HjB9mOKJM/mqdefault.jpg"
+        },
+        {
+          "id": "8ks0OWOFX0s",
+          "title": "AphA lunch and learn Best of Summit and Build with Snowflake 13 Jan 2026 Meeting Recording",
+          "description": "",
+          "published": "2026-01-13T13:11:53Z",
+          "duration": "PT56M45S",
+          "thumbnail": "https://i.ytimg.com/vi/8ks0OWOFX0s/mqdefault.jpg"
+        },
+        {
+          "id": "zxfJ3s7-4Es",
+          "title": "AphA Lunch & Learn with Neil Pettinger 9th Dec 2025",
+          "description": "",
+          "published": "2025-12-10T17:57:42Z",
+          "duration": "PT56M18S",
+          "thumbnail": "https://i.ytimg.com/vi/zxfJ3s7-4Es/mqdefault.jpg"
+        },
+        {
+          "id": "2Zvrk3rb8Ls",
+          "title": "Professional Registration workshop Overview 25th Nov 2025 Meeting Recording",
+          "description": "",
+          "published": "2025-11-25T13:09:10Z",
+          "duration": "PT48M30S",
+          "thumbnail": "https://i.ytimg.com/vi/2Zvrk3rb8Ls/mqdefault.jpg"
+        },
+        {
+          "id": "QT4c7RZ7PH4",
+          "title": "AphA lunch & learn with Charlotte Shearsby 11 Nov 2025 Meeting Recording",
+          "description": "Kick start Tableau",
+          "published": "2025-11-11T13:12:17Z",
+          "duration": "PT47M30S",
+          "thumbnail": "https://i.ytimg.com/vi/QT4c7RZ7PH4/mqdefault.jpg"
+        },
+        {
+          "id": "sN_3wkqnYJo",
+          "title": "AphA Lunch & Learn with BHF 28 Oct 2025 Meeting Recording",
+          "description": "Bridging Hearts: Addressing inequalities in cardiovascular health",
+          "published": "2025-10-28T13:31:43Z",
+          "duration": "PT1H2M18S",
+          "thumbnail": "https://i.ytimg.com/vi/sN_3wkqnYJo/mqdefault.jpg"
+        },
+        {
+          "id": "DPqHpGTEOVA",
+          "title": "AphA Lunch & Learn session with Mark Heffernan 14 Oct 2025 Meeting Recording",
+          "description": "First Steps in the Wessex SDE",
+          "published": "2025-10-14T12:10:00Z",
+          "duration": "PT55M47S",
+          "thumbnail": "https://i.ytimg.com/vi/DPqHpGTEOVA/mqdefault.jpg"
+        },
+        {
+          "id": "bXVeSj_H2sM",
+          "title": "Professional Registration workshop Overview session 17 Sept 2025 Meeting Recording",
+          "description": "",
+          "published": "2025-09-17T13:40:40Z",
+          "duration": "PT56M2S",
+          "thumbnail": "https://i.ytimg.com/vi/bXVeSj_H2sM/mqdefault.jpg"
+        },
+        {
+          "id": "ftiQSwxXQ2Y",
+          "title": "AphA Lunch & Learn session with John O'Connell 16 Sept 2025 Meeting Recording",
+          "description": "AI Digital & Data Readiness Across NHS Teams",
+          "published": "2025-09-16T13:44:35Z",
+          "duration": "PT58M36S",
+          "thumbnail": "https://i.ytimg.com/vi/ftiQSwxXQ2Y/mqdefault.jpg"
+        },
+        {
+          "id": "8P7uUk-WJWw",
+          "title": "AphA Lunch & Learn session with Alex Bottle 02 Sept 2025 Meeting Recording",
+          "description": "Getting the most out of messy NHS data",
+          "published": "2025-09-02T12:44:25Z",
+          "duration": "PT53M28S",
+          "thumbnail": "https://i.ytimg.com/vi/8P7uUk-WJWw/mqdefault.jpg"
+        },
+        {
+          "id": "B021v_IVhrY",
+          "title": "AphA Lunch & Learn repeat session with Matt Oakes 19 August 2025 Meeting Recording",
+          "description": "An analyst's perspective on the FDP",
+          "published": "2025-08-19T13:30:59Z",
+          "duration": "PT58M20S",
+          "thumbnail": "https://i.ytimg.com/vi/B021v_IVhrY/mqdefault.jpg"
+        },
+        {
+          "id": "l1W7VYyURfM",
+          "title": "AphA Lunch & Learn session Reshaping the pattern of care 05 Aug 2025 Meeting Recording",
+          "description": "with Jennifer Woods & Justine Wiltshire , The Strategy Unit",
+          "published": "2025-08-05T13:04:42Z",
+          "duration": "PT57M26S",
+          "thumbnail": "https://i.ytimg.com/vi/l1W7VYyURfM/mqdefault.jpg"
+        },
+        {
+          "id": "QbgFTqzanpg",
+          "title": "Lunch & Learn session with Andy & Sarah 22 July 2025 Meeting Recording",
+          "description": "Data and Analytics workforce: Who, what, how and why\nwith Sarah Blundell & Andy Lavelle",
+          "published": "2025-07-22T12:45:44Z",
+          "duration": "PT1H4M6S",
+          "thumbnail": "https://i.ytimg.com/vi/QbgFTqzanpg/mqdefault.jpg"
+        },
+        {
+          "id": "oVGYabQ07Vo",
+          "title": "AphA lunch & learn with Filipe McManus 16 July 2025 Meeting Recording",
+          "description": "Facts & Dimensions",
+          "published": "2025-07-16T16:05:50Z",
+          "duration": "PT37M41S",
+          "thumbnail": "https://i.ytimg.com/vi/oVGYabQ07Vo/mqdefault.jpg"
+        },
+        {
+          "id": "DR7JnB7BT9Q",
+          "title": "AphA Lunch & Learn session with Matt Oakes 8th July 2025 Meeting Recording",
+          "description": "An analyst's perspective on the FDP",
+          "published": "2025-07-08T12:34:52Z",
+          "duration": "PT1H1M24S",
+          "thumbnail": "https://i.ytimg.com/vi/DR7JnB7BT9Q/mqdefault.jpg"
+        },
+        {
+          "id": "nq-UMEhzeJI",
+          "title": "AphA lunch & learn with Charlotte Shearsby 24 June  2025 Meeting Recording",
+          "description": "Intro into data visualisation",
+          "published": "2025-06-24T12:09:08Z",
+          "duration": "PT39M12S",
+          "thumbnail": "https://i.ytimg.com/vi/nq-UMEhzeJI/mqdefault.jpg"
+        },
+        {
+          "id": "q9zMG2TIhfM",
+          "title": "AphA lunch & learn with Filipe McManus 18 June 2025 Meeting Recording",
+          "description": "Facts & Dimensions",
+          "published": "2025-06-18T13:04:48Z",
+          "duration": "PT47M",
+          "thumbnail": "https://i.ytimg.com/vi/q9zMG2TIhfM/mqdefault.jpg"
+        },
+        {
+          "id": "QWHbZukOdWE",
+          "title": "Professional Registration overview workshop 17 June 2025 meeting recording",
+          "description": "",
+          "published": "2025-06-17T14:30:26Z",
+          "duration": "PT55M55S",
+          "thumbnail": "https://i.ytimg.com/vi/QWHbZukOdWE/mqdefault.jpg"
+        },
+        {
+          "id": "ht-jVGUpTic",
+          "title": "AphA lunch & learn session with Alice Byram 10 June 2025 Meeting Recording",
+          "description": "Reaching the Unreached: How Data Can Include and Exclude",
+          "published": "2025-06-10T11:58:40Z",
+          "duration": "PT47M22S",
+          "thumbnail": "https://i.ytimg.com/vi/ht-jVGUpTic/mqdefault.jpg"
+        },
+        {
+          "id": "qBoW0L9PCHM",
+          "title": "AphA workshop with Caroline Beardall 27 May 2025 Meeting Recording",
+          "description": "Cultivating Wellbeing in a Changing Landscape",
+          "published": "2025-05-27T12:10:37Z",
+          "duration": "PT50M44S",
+          "thumbnail": "https://i.ytimg.com/vi/qBoW0L9PCHM/mqdefault.jpg"
+        },
+        {
+          "id": "aw_37jgjEm4",
+          "title": "AphA workshop with Caroline Beardall 13 May 2025 Meeting Recording",
+          "description": "Steady Mind, Shifting World: Building Mental Resilience in Uncertain Times",
+          "published": "2025-05-13T17:57:23Z",
+          "duration": "PT55M36S",
+          "thumbnail": "https://i.ytimg.com/vi/aw_37jgjEm4/mqdefault.jpg"
+        },
+        {
+          "id": "Bk65rsCpVXY",
+          "title": "Decoding the Hiring Process  CVs, Interviews & Beyond with Hunter Healthcare 29 April recording",
+          "description": "",
+          "published": "2025-04-29T12:41:13Z",
+          "duration": "PT57M27S",
+          "thumbnail": "https://i.ytimg.com/vi/Bk65rsCpVXY/mqdefault.jpg"
+        },
+        {
+          "id": "K-pzyqLQnbw",
+          "title": "Professional Registration Q&A workshop 24 April 2025 Meeting Recording",
+          "description": "",
+          "published": "2025-04-24T13:50:31Z",
+          "duration": "PT43M49S",
+          "thumbnail": "https://i.ytimg.com/vi/K-pzyqLQnbw/mqdefault.jpg"
+        },
+        {
+          "id": "mzUDjmQwZY8",
+          "title": "Decoding the Hiring Process  CVs, Interviews & Beyond with Hunter Healthcare 22Apr meeting recording",
+          "description": "",
+          "published": "2025-04-22T12:15:26Z",
+          "duration": "PT59M17S",
+          "thumbnail": "https://i.ytimg.com/vi/mzUDjmQwZY8/mqdefault.jpg"
+        },
+        {
+          "id": "SMvVH_GJWiM",
+          "title": "AphA Professional Registration Overview workshop 26 March 2025 Meeting Recording",
+          "description": "",
+          "published": "2025-03-26T17:14:30Z",
+          "duration": "PT45M3S",
+          "thumbnail": "https://i.ytimg.com/vi/SMvVH_GJWiM/mqdefault.jpg"
+        },
+        {
+          "id": "Y8ZwurATyMY",
+          "title": "AphA Mentor webinar 25 Feb 2025 Meeting Recording",
+          "description": "",
+          "published": "2025-02-27T09:52:20Z",
+          "duration": "PT40M45S",
+          "thumbnail": "https://i.ytimg.com/vi/Y8ZwurATyMY/mqdefault.jpg"
+        },
+        {
+          "id": "mZ8xFG6Fwy0",
+          "title": "AphA mentorship programme  intro session 29 Jan 2025 Meeting Recording",
+          "description": "",
+          "published": "2025-01-29T14:53:58Z",
+          "duration": "PT35M2S",
+          "thumbnail": "https://i.ytimg.com/vi/mZ8xFG6Fwy0/mqdefault.jpg"
+        },
+        {
+          "id": "bxD5bMnfY5I",
+          "title": "Professional Registration Q&A workshop 22 Jan 2025 Meeting Recording",
+          "description": "",
+          "published": "2025-01-22T16:10:05Z",
+          "duration": "PT44M56S",
+          "thumbnail": "https://i.ytimg.com/vi/bxD5bMnfY5I/mqdefault.jpg"
+        },
+        {
+          "id": "qBdI8WdPTz0",
+          "title": "Professional Registration Overview Workshop 17Dec24 recording",
+          "description": "",
+          "published": "2024-12-17T15:07:10Z",
+          "duration": "PT42M52S",
+          "thumbnail": "https://i.ytimg.com/vi/qBdI8WdPTz0/mqdefault.jpg"
+        },
+        {
+          "id": "VGHuFj4pVdQ",
+          "title": "Professional Registration Q&A session 18 Oct 2024",
+          "description": "Professional Registration Q&A session 18 Oct 2024",
+          "published": "2024-10-23T16:37:43Z",
+          "duration": "PT37M47S",
+          "thumbnail": "https://i.ytimg.com/vi/VGHuFj4pVdQ/mqdefault.jpg"
+        },
+        {
+          "id": "VZNPBEwEcdE",
+          "title": "AphA Professional Registration workshop - Overview - 24th Sept 2024 Meeting Recording",
+          "description": "",
+          "published": "2024-09-24T13:51:57Z",
+          "duration": "PT52M37S",
+          "thumbnail": "https://i.ytimg.com/vi/VZNPBEwEcdE/mqdefault.jpg"
+        },
+        {
+          "id": "UMZ55-tte8A",
+          "title": "Professional Registration workshop  Q&A session Meeting Recording 22 July 2024",
+          "description": "",
+          "published": "2024-07-22T14:00:25Z",
+          "duration": "PT26M13S",
+          "thumbnail": "https://i.ytimg.com/vi/UMZ55-tte8A/mqdefault.jpg"
+        },
+        {
+          "id": "RhGtunMOGoo",
+          "title": "Profession Registration workshop - Overview - 27 June 2024 Meeting Recording",
+          "description": "",
+          "published": "2024-06-27T13:25:10Z",
+          "duration": "PT54M31S",
+          "thumbnail": "https://i.ytimg.com/vi/RhGtunMOGoo/mqdefault.jpg"
+        },
+        {
+          "id": "4zyUCm3gNwM",
+          "title": "AphA London Hybrid Event 16 April 2024 Meeting Recording part2",
+          "description": "",
+          "published": "2024-05-01T08:35:04Z",
+          "duration": "PT1H3M53S",
+          "thumbnail": "https://i.ytimg.com/vi/4zyUCm3gNwM/mqdefault.jpg"
+        },
+        {
+          "id": "vDXjhItggmg",
+          "title": "AphA London Hybrid Event 16 April 2024 Meeting Recording part 1",
+          "description": "",
+          "published": "2024-05-01T08:24:04Z",
+          "duration": "PT51M37S",
+          "thumbnail": "https://i.ytimg.com/vi/vDXjhItggmg/mqdefault.jpg"
+        },
+        {
+          "id": "hhfyAsmAL0s",
+          "title": "Professional Registration workshop Q&A session 23 April 2024 Meeting Recording",
+          "description": "",
+          "published": "2024-04-23T13:13:20Z",
+          "duration": "PT46M18S",
+          "thumbnail": "https://i.ytimg.com/vi/hhfyAsmAL0s/mqdefault.jpg"
+        },
+        {
+          "id": "QJoosuBt2SM",
+          "title": "Professional Registration workshop Overview - 21 March 2024 - Meeting Recording",
+          "description": "",
+          "published": "2024-03-21T15:06:35Z",
+          "duration": "PT56M59S",
+          "thumbnail": "https://i.ytimg.com/vi/QJoosuBt2SM/mqdefault.jpg"
+        },
+        {
+          "id": "v0qJ1LTVbRs",
+          "title": "AphA London Branch Event 24 Jan 2024 Meeting Recording",
+          "description": "",
+          "published": "2024-02-02T16:05:16Z",
+          "duration": "PT1H23M33S",
+          "thumbnail": "https://i.ytimg.com/vi/v0qJ1LTVbRs/mqdefault.jpg"
+        },
+        {
+          "id": "Ib-Pa8ZglbQ",
+          "title": "AphA Professional Registration Q&A session 18 Jan 2024 Meeting Recording",
+          "description": "",
+          "published": "2024-01-18T16:00:20Z",
+          "duration": "PT43M40S",
+          "thumbnail": "https://i.ytimg.com/vi/Ib-Pa8ZglbQ/mqdefault.jpg"
+        },
+        {
+          "id": "5lrBEuZJkow",
+          "title": "AphA Professional Registration Overview workshop 14 Dec 2023 Meeting Recording",
+          "description": "",
+          "published": "2023-12-14T14:35:10Z",
+          "duration": "PT44M7S",
+          "thumbnail": "https://i.ytimg.com/vi/5lrBEuZJkow/mqdefault.jpg"
+        },
+        {
+          "id": "zKw9B2lBZE0",
+          "title": "AphA Professional Registration Q&A session 241023 Meeting Recording",
+          "description": "",
+          "published": "2023-10-24T13:28:58Z",
+          "duration": "PT54M15S",
+          "thumbnail": "https://i.ytimg.com/vi/zKw9B2lBZE0/mqdefault.jpg"
+        },
+        {
+          "id": "pZZeGrSjuxc",
+          "title": "AphA London Branch meeting 06 Sept 2023 Meeting Recording",
+          "description": "",
+          "published": "2023-10-09T13:05:35Z",
+          "duration": "PT1H29M2S",
+          "thumbnail": "https://i.ytimg.com/vi/pZZeGrSjuxc/mqdefault.jpg"
+        },
+        {
+          "id": "al_3QZfMCbk",
+          "title": "AphA London Branch meeting 18 April 2023 Meeting Recording",
+          "description": "",
+          "published": "2023-10-09T13:01:27Z",
+          "duration": "PT1H26M34S",
+          "thumbnail": "https://i.ytimg.com/vi/al_3QZfMCbk/mqdefault.jpg"
+        },
+        {
+          "id": "M_xOyQj2714",
+          "title": "AphA Professional Registration workshop 5 Oct 2023",
+          "description": "Overview of the application process",
+          "published": "2023-10-09T12:44:44Z",
+          "duration": "PT57M32S",
+          "thumbnail": "https://i.ytimg.com/vi/M_xOyQj2714/mqdefault.jpg"
+        },
+        {
+          "id": "W317HPijVz4",
+          "title": "AphA Mentor Program 2022",
+          "description": "Listen to our amazing Julia Wilkins talk about the AphA mentor program.",
+          "published": "2022-07-04T11:19:13Z",
+          "duration": "PT27M57S",
+          "thumbnail": "https://i.ytimg.com/vi/W317HPijVz4/mqdefault.jpg"
+        },
+        {
+          "id": "X3w6XUrJ7FE",
+          "title": "Inaugural AphA East of England Branch Meeting 20211209 150030 Meeting Recording",
+          "description": "",
+          "published": "2021-12-15T17:18:08Z",
+          "duration": "PT1H33M5S",
+          "thumbnail": "https://i.ytimg.com/vi/X3w6XUrJ7FE/mqdefault.jpg"
+        },
+        {
+          "id": "5cy4U1OjBIM",
+          "title": "AphA London Branch Meeting 20210928 143426 Meeting Recording",
+          "description": "",
+          "published": "2021-12-14T10:27:22Z",
+          "duration": "PT1H18M51S",
+          "thumbnail": "https://i.ytimg.com/vi/5cy4U1OjBIM/mqdefault.jpg"
+        },
+        {
+          "id": "N58SJoDDSGA",
+          "title": "AphA Y&H Branch  Meeting",
+          "description": "Y&H Branch Meeting featuring the following presentations: \n\nIntroduction \n03:27 AphA Membership Pilot Programme \n13:40 Mental Health Assurance Tool Demo\n32:10 The Rotherham Way\n56:42 The Virtual Flow Assistant, Comand Center: Cloud 2\n1:10:47 HR Dashboard\n1:33:43 Cancer Dashboard & Hospital Sitrep\n1:52:46 PBI Clinic & Panel Discussion",
+          "published": "2021-09-23T09:51:42Z",
+          "duration": "PT2H11M20S",
+          "thumbnail": "https://i.ytimg.com/vi/N58SJoDDSGA/mqdefault.jpg"
+        },
+        {
+          "id": "gpkfbBrdfFw",
+          "title": "AphA London Branch Meeting",
+          "description": "AphA’s London branch was launched in 2017 and holds regular branch meetings where we:\n\nshowcase some of the great data and analytics work in London\n\nnetwork within the London data and analytics community\n\nshare knowledge and skills\n\nhear from a variety of invited speakers\n\nWe aim to be as inclusive as possible – everyone’s contribution is welcome and encouraged. Please get in touch if you’d like to know more  – we’re keen to hear from organisations and people working with health and care data in the greater London area.",
+          "published": "2021-09-10T19:59:51Z",
+          "duration": "PT1H27M1S",
+          "thumbnail": "https://i.ytimg.com/vi/gpkfbBrdfFw/mqdefault.jpg"
+        },
+        {
+          "id": "c4z9Yru5_2U",
+          "title": "The Annual AphA Conference 2021Day 2 (2 of 2)",
+          "description": "The final part of the AphA Conference 2021, featuring: \n\n1:05 Analysts Doing It For Themselves - Paul Stroner \n30:12 Sharing Your Awesome - Andi Oriowski, Matt Grek \n1:05:23 - Conference Feedback Session \n1:14:48 - Professional Registration - Emma Wright",
+          "published": "2021-06-18T20:13:35Z",
+          "duration": "PT1H43M37S",
+          "thumbnail": "https://i.ytimg.com/vi/c4z9Yru5_2U/mqdefault.jpg"
+        },
+        {
+          "id": "HM2Yp-Th5ZE",
+          "title": "The Annual AphA Conference Day 2 (1 of 2)",
+          "description": "Day 2 of the AphA Conference, featuring: \n\n7:10 Information Governance - Shaid Hussain\n52:13 Clinical Prioritisation of the Surgical Waiting List - Laura Starkey\n1:15:51 How To Use Data to Inform Patient Care - NHS Business Services Authority \n1:33:30 Ming Tang NHS England and NHS Improvement",
+          "published": "2021-06-18T14:58:26Z",
+          "duration": "PT2H17M39S",
+          "thumbnail": "https://i.ytimg.com/vi/HM2Yp-Th5ZE/mqdefault.jpg"
+        },
+        {
+          "id": "rsFh0MPZra8",
+          "title": "The Annual AphA Conference 2021 Day 1 (3 of 3)",
+          "description": "The final part of the first day was a chance for members to showcase their projects, including: \n\nUnderstanding Length fo Stay Using Box Plots\n15:42 The Art & Science of Prophecy  - Sygal Amitay\n33:40 SQL-R Project MIA - James Payne\n46:18 Report on Competency Framework for Health Service Analysts - Rony Arafin & Sarah Culkin \n1:21:37 - Awards Ceremony",
+          "published": "2021-06-18T13:36:17Z",
+          "duration": "PT1H33M41S",
+          "thumbnail": "https://i.ytimg.com/vi/rsFh0MPZra8/mqdefault.jpg"
+        },
+        {
+          "id": "MblVZpEHRbE",
+          "title": "AphA Conference 2021 Day 1 (2 of 3)",
+          "description": "Day 1 Part 2 of the Annual AphA Conference 2021 featuring a discussion of the UK Coronavirus Dashboard",
+          "published": "2021-06-18T12:39:59Z",
+          "duration": "PT58M37S",
+          "thumbnail": "https://i.ytimg.com/vi/MblVZpEHRbE/mqdefault.jpg"
+        },
+        {
+          "id": "adUTnAtj9mQ",
+          "title": "AphA Conference 2021 Day One (1 of 3)",
+          "description": "Day One of the AphA Conference 2021 including:\nOpening remarks from AphA CEO Rony Arafin \n06:09 - Developing Clinical Informatics Solutions From Scratch by Dr Sebastian Zeki\n47:28 - Live Demo of the Data Robot Tool from Data Robot",
+          "published": "2021-06-18T11:38:37Z",
+          "duration": "PT1H27M17S",
+          "thumbnail": "https://i.ytimg.com/vi/adUTnAtj9mQ/mqdefault.jpg"
+        },
+        {
+          "id": "Ljs4tWeBmOo",
+          "title": "AphA Competency Framework Survey Winners",
+          "description": "AphA Competency Framework Survey March 2021, let's find out who the winners are!\n\nMethod\n\n1. Survey was closed Friday 19th March 2021\n2. AphA Board members were removed from entry list, although we do appreciate their efforts they aren't eligible to win 🙂\n3. Duplicate entries were removed (only 1 email address)\n4. Each email address was assigned a unique ticket reference number\n5. We used this site to find our winner (randomly selected)\n6. Winners will be contacted individually\n\nCongratulations to all of our winners, and a huge thanks to over 200 colleagues who took part in the survey.\n\nThe Association of Professional Healthcare Analysts (AphA)\nwww.aphanalysts.org",
+          "published": "2021-03-24T13:34:02Z",
+          "duration": "PT2M9S",
+          "thumbnail": "https://i.ytimg.com/vi/Ljs4tWeBmOo/mqdefault.jpg"
+        },
+        {
+          "id": "_x-ldwWPuIU",
+          "title": "AphA Webinar - Helping the analytical community to develop through knowledge base Part 2",
+          "description": "AphA Webinar - 19th November 2020\n\nSponsored by Ideal Health \nwww.idealts.co.uk",
+          "published": "2020-11-25T20:24:43Z",
+          "duration": "PT52M34S",
+          "thumbnail": "https://i.ytimg.com/vi/_x-ldwWPuIU/mqdefault.jpg"
+        },
+        {
+          "id": "BchdutdCrBc",
+          "title": "AphA Webinar - The role of digital maturity in delivering transformational change (Ideal Health)",
+          "description": "AphA Webinar - Helping the analytical community to develop through knowledge base \n\nWebinar - 19th November 2020\n\nSponsored by Ideal Health \nwww.idealts.co.uk",
+          "published": "2020-11-25T20:20:18Z",
+          "duration": "PT31M1S",
+          "thumbnail": "https://i.ytimg.com/vi/BchdutdCrBc/mqdefault.jpg"
+        },
+        {
+          "id": "E0ixrJTxVrM",
+          "title": "AphA Webinar - Helping the analytical community to develop through knowledge base Part 1",
+          "description": "Webinar - 19th November 2020\n\nSponsored by Ideal Health \nwww.idealts.co.uk",
+          "published": "2020-11-25T20:10:36Z",
+          "duration": "PT20M25S",
+          "thumbnail": "https://i.ytimg.com/vi/E0ixrJTxVrM/mqdefault.jpg"
+        },
+        {
+          "id": "YCe1EJ8uadg",
+          "title": "AphA Annual Conference 2020 - Session 2",
+          "description": "Association of Professional HealthCare Analyst (AphA) Annual Conference - September 2020 (24 September 2020)\n\nThis video is from Session-2 (12:00 – 13:00)\n\nIn this video you will hear from:\n\nSukhmeet Panesar (NHSE/I) and Sarah Culkin (NHSX) on Covid19: a period of unprecedented\nanalyses – what next?\n\nAnd an interactive survey",
+          "published": "2020-10-01T06:41:41Z",
+          "duration": "PT1H10M53S",
+          "thumbnail": "https://i.ytimg.com/vi/YCe1EJ8uadg/mqdefault.jpg"
+        },
+        {
+          "id": "u5eYizcp7n4",
+          "title": "AphA Annual Conference 2020 - Session 6 (Day 2)",
+          "description": "Association of Professional HealthCare Analyst (AphA) Annual Conference - September 2020 (Day 2: 25 September 2020)\n\nThis video is from Session-6 (14:00 – 15:30)\n\nIn this video you will hear from:\n\nProfessor Martin Pitt (AphA President) - AphA through the looking glass\n\nWe have more member show and tell - from Alex Porter, Midlands and Rebecca Thompson, Northern\nCare Alliance\n\nYou will see an interactive feedback session with the audience \n\nEvent close by Rony Arafin (AphA Chief Officer) and Professor Martin Pitt (AphA President)",
+          "published": "2020-09-30T17:51:43Z",
+          "duration": "PT1H22M45S",
+          "thumbnail": "https://i.ytimg.com/vi/u5eYizcp7n4/mqdefault.jpg"
+        },
+        {
+          "id": "tiwXL2N0Pg0",
+          "title": "AphA Annual Conference 2020 - Session 5 (Day 2)",
+          "description": "Association of Professional HealthCare Analyst (AphA) Annual Conference - September 2020 (Day 2: 25 September 2020)\n\n\n\nThis video is from Session-5 (12:00 – 13:00)\n\n\nIn this video you will hear from:\n\n\nEvent sponsor - Huw Davies (Director - Davies Furlong Consulting), Huw talks about The Colour Purple (Effective Communication Using Soft Systems)\n\n\nWe have more member show and tell - David Robinson from Poole and Brandon Chapman from the Royal Cornwall NHS Trust",
+          "published": "2020-09-30T17:41:04Z",
+          "duration": "PT1H4M15S",
+          "thumbnail": "https://i.ytimg.com/vi/tiwXL2N0Pg0/mqdefault.jpg"
+        },
+        {
+          "id": "CUJ5UvlTuM8",
+          "title": "AphA Annual Conference 2020 - Session 4 (Day 2)",
+          "description": "Association of Professional HealthCare Analyst (AphA) Annual Conference - September 2020 (Day 2: 25 September 2020)\n\nThis video is from Session-4 (10:00 – 11:30)\n\nIn this video you will hear from:\n\nOpening of Day-1 by Rony Arafin (AphA Chief Officer) and Martin Pitt (AphA President)\n\nDr Jenni Quint - Using routine data for real time change: a step too far?\n\nAwards - Kate Thomas\n\nMember show and tell - Sian Jones from NHS Devon CCG",
+          "published": "2020-09-30T17:26:01Z",
+          "duration": "PT1H18M9S",
+          "thumbnail": "https://i.ytimg.com/vi/CUJ5UvlTuM8/mqdefault.jpg"
+        },
+        {
+          "id": "fIJrVDLJU_E",
+          "title": "AphA Annual Conference 2020 - Session 3",
+          "description": "Association of Professional HealthCare Analyst (AphA) Annual Conference - September 2020 (24 September 2020)\n\nThis video is from Session-3 (14:00 – 15:30)\n\nIn this video you will hear from:\n\nMatthew O’Reilly & Keith Khunpha (NHS England and Improvement) …..And then the world changed\n\nAphA Analytics Professional Registration by Emma Wright and Garry Fothergill\n\nClosing of Day-1 by Rony Arafin (AphA Chief Officer) and Martin Pitt (AphA President)",
+          "published": "2020-09-30T16:07:22Z",
+          "duration": "PT1H22M26S",
+          "thumbnail": "https://i.ytimg.com/vi/fIJrVDLJU_E/mqdefault.jpg"
+        },
+        {
+          "id": "LxFICuw-Ndw",
+          "title": "AphA Annual Conference 2020 - Session 1",
+          "description": "Association of Professional HealthCare Analyst (AphA) Annual Conference - September 2020\n\nThis video is from Session-1 (10:00 till 11:30)\n\nIn this video you will hear from:\n\nPaul Stroner (President elect) and Rony Arafin, our Chief Officer.\n\nDr Ben Goldacre - Making Operational Research Great! Open methods, open platforms, open learning.\n\nThe New Socks Awards from our South Branch Lead - Kate Thomas",
+          "published": "2020-09-30T14:29:42Z",
+          "duration": "PT1H23M7S",
+          "thumbnail": "https://i.ytimg.com/vi/LxFICuw-Ndw/mqdefault.jpg"
+        },
+        {
+          "id": "7kIXDlIJpG0",
+          "title": "AphA - Data challenges in a time of crisis",
+          "description": "Disclaimer - The opinions expressed in this session are the personal opinions of the speaker and in no way represent the views of their organisation, nor are they referring to any specific individual or individuals.\n\nRecording of the AphA Webinar - Data challenges in a time of crisis\nWednesday 17 June 2020 10 am – 12 noon\n\nIn this webinar we discuss about the Analysts experience from the recent Covid-19 demands. It is a very enlightening and informative webinar with a talented pool of speakers, to include:\n\nHosts:   \n-------------------------------------------------------------------------------------------------------------------------\nRony Arafin, Director of Digital Engagement and Val Perigo, Business Manager\n\nSpeakers:\n-------------------------------------------------------------------------------------------------------------------------\nPaul Stroner - AphA Chief Executive Officer (CEO)\nDeputy Director, NHS-R Community\n\nMartin Pitt - Predisent of AphA\nProfessor of Applied Healthcare Modelling and Data Science - University of Exeter\n\nSygal Amitay\nAdvanced Analyst\nNottingham University Hospitals NHS Trust\n\nAnton Parker \nPrincipal Analyst - Outpatient Transformation Programme\nNHS England and NHS Improvement\n\nZoe Turner\nSenior Information Analyst Nottinghamshire Healthcare NHS Foundation Trust\n\nDr Daniel Chalk\nSenior Research Fellow in Applied Healthcare Modelling and Analysis\nPenCHORD, University of Exeter\n\nTim Bradley\nMeditrends\n\nOur thanks to Meditrends for sponsoring this Webinar.",
+          "published": "2020-06-22T19:25:01Z",
+          "duration": "PT1H49M23S",
+          "thumbnail": "https://i.ytimg.com/vi/7kIXDlIJpG0/mqdefault.jpg"
+        },
+        {
+          "id": "RH7PRYRVf1E",
+          "title": "Association of Professional Healthcare Analysts (AphA) discussion - Paul Stroner and Rony Arafin",
+          "description": "First of the AphA webinar series, in this video Rony Arafin, our Director of Digital Engagement speaks with Paul Stroner, the Chief Executive Officer (CEO) of AphA.\n\nThis video provides excellent insight and Paul speaks from his experience in detail about what AphA can offer, and how Analysts can engage with AphA to continue their personal and professional development in the analytical space. \n\nPlease get in touch with us if you have comments/suggestions - info@aphanalysts.org\n\nFor more information, and how to join AphA, please visit our website - https://www.aphanalysts.org",
+          "published": "2020-05-14T15:08:39Z",
+          "duration": "PT20M57S",
+          "thumbnail": "https://i.ytimg.com/vi/RH7PRYRVf1E/mqdefault.jpg"
+        }
+      ]
+    }
+  ]
+}

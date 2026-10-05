@@ -51,7 +51,7 @@ The projects tackle real-world problems using the techniques taught on the progr
 * forecasting demand, from A&E attendances to excess mortality
 * geographic modelling, for example of travel times and ambulance dispatch boundaries
 
-Some showcases also include talks from HSMA alumni about what they have done since the programme.
+Some showcases also include talks from HSMA alumni about what they have done since the programme. During HSMA 5, the PenCHORD team who run HSMA also presented a series of showcases of their own projects, as inspiration for participants' project ideas. For HSMA 3, there is also a recording of the whole final presentation event.
 
 More details about many of the projects, including links to their code where it is shared, can be found on the [HSMA website](https://hsma.co.uk/previous_projects/completed_projects.html).
 

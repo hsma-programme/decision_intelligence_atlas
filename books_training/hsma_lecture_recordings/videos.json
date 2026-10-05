@@ -1,0 +1,1488 @@
+{
+  "playlists": [
+    {
+      "label": "Standalone workshops",
+      "id": "PLYdeZL7U9wI0",
+      "videos": [
+        {
+          "id": "twN-B6LW1tU",
+          "title": "PART 2 Introduction to Discrete Event Simulation and SimPy - a Standalone Workshop (vidigi)",
+          "description": "Part 2 of our two-part workshop.\n\nDiscrete Event Simulation (DES) is a simulation modelling technique that allows us to tackle queuing problems in health and social care. These might include identifying delays in patient pathways and testing out the impact of reconfiguring processes and resources to try to reduce these delays. DES projects in the HSMA Programme have led to significant impact nationally, including the construction of an £11.8 million new mental health ward in Devon to allow patients in crisis to be seen closer to home (https://hsma.co.uk/impact_posters/Out%20of%20Area%20Reduction%20in%20Mental%20Health.png), transformative improvements to urgent care delivery in London (https://hsma.co.uk/impact_posters/UTC%20Flow.png) and potential £1 million+ annual savings and improved patient outcomes for stroke patients in Kent (https://hsma.co.uk/impact_posters/Using%20Simulation%20to%20Improve%20Stroke%20Care%20and%20Reduce%20Costs.png).\n\nIn this special standalone workshop - developed for the NHS-OA community - participants will learn:\n- The principles of Discrete Event Simulation and the kinds of problems this modelling approach can be used to tackle\n- The importance of variability and stochasticity in simulation modelling\n- How to design reproducible stochastic models\n- How these models can be built in Python using the SimPy package, including how to use Python Generator Functions and how to structure code using Object Oriented Programming\n- How animated visualisations can be added to SimPy models using the vidigi package.\n\nWhilst participants should have some prior coding experience, this does not need to be in Python. We will assume no prior Python experience in this workshop. Instead, participants will be introduced to the components of a SimPy model and shown the code that write these elements in Python. Participants will also have a chance to adapt the code to write their own SimPy models. In addition, no local software installation of Python is required - instead, we will use Google CoLab as a way of writing and running code, which requires only a free Google account.\n\nThe accompanying content for the workshop can be found here : https://hsma.co.uk/hsma_content/nhs_oa_workshop_des.html",
+          "published": "2026-10-01T18:01:25Z",
+          "duration": "PT51M47S",
+          "thumbnail": "https://i.ytimg.com/vi/twN-B6LW1tU/mqdefault.jpg"
+        },
+        {
+          "id": "vUtObBS0XVk",
+          "title": "PART 1 Introduction to Discrete Event Simulation and SimPy - a Standalone Workshop",
+          "description": "This is Part 1 of a two-part workshop.\n\nDiscrete Event Simulation (DES) is a simulation modelling technique that allows us to tackle queuing problems in health and social care. These might include identifying delays in patient pathways and testing out the impact of reconfiguring processes and resources to try to reduce these delays. DES projects in the HSMA Programme have led to significant impact nationally, including the construction of an £11.8 million new mental health ward in Devon to allow patients in crisis to be seen closer to home (https://hsma.co.uk/impact_posters/Out%20of%20Area%20Reduction%20in%20Mental%20Health.png), transformative improvements to urgent care delivery in London (https://hsma.co.uk/impact_posters/UTC%20Flow.png) and potential £1 million+ annual savings and improved patient outcomes for stroke patients in Kent (https://hsma.co.uk/impact_posters/Using%20Simulation%20to%20Improve%20Stroke%20Care%20and%20Reduce%20Costs.png).\n\nIn this special standalone workshop - developed for the NHS-OA community - participants will learn:\n- The principles of Discrete Event Simulation and the kinds of problems this modelling approach can be used to tackle\n- The importance of variability and stochasticity in simulation modelling\n- How to design reproducible stochastic models\n- How these models can be built in Python using the SimPy package, including how to use Python Generator Functions and how to structure code using Object Oriented Programming\n- How animated visualisations can be added to SimPy models using the vidigi package.\n\nWhilst participants should have some prior coding experience, this does not need to be in Python. We will assume no prior Python experience in this workshop. Instead, participants will be introduced to the components of a SimPy model and shown the code that write these elements in Python. Participants will also have a chance to adapt the code to write their own SimPy models. In addition, no local software installation of Python is required - instead, we will use Google CoLab as a way of writing and running code, which requires only a free Google account.\n\nThe accompanying content for the workshop can be found here : https://hsma.co.uk/hsma_content/nhs_oa_workshop_des.html",
+          "published": "2026-10-01T18:00:29Z",
+          "duration": "PT2H30M25S",
+          "thumbnail": "https://i.ytimg.com/vi/vUtObBS0XVk/mqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "label": "HSMA 6",
+      "id": "PLgHO2TgIJXdl0MvUdqxfQ1UgF9VdLGH1l",
+      "videos": [
+        {
+          "id": "gIUzgz7CeMw",
+          "title": "(HSMA 6 Day 1) 1A : Welcome to HSMA",
+          "description": "The induction session for our new HSMA cohort in April 2024.\n\nGitHub Repo for this session : https://github.com/hsma-programme/h6_1a_welcome_to_hsma\n\nhttps://sites.google.com/nihr.ac.uk/hsma",
+          "published": "2024-04-17T08:20:54Z",
+          "duration": "PT4H38M51S",
+          "thumbnail": "https://i.ytimg.com/vi/gIUzgz7CeMw/mqdefault.jpg"
+        },
+        {
+          "id": "aftDNqfMe1w",
+          "title": "(HSMA 6 Day 2) : 1B Introduction to OR and Data Science and 1C Principles of Programming",
+          "description": "In these sessions, we introduce Operational Research and Data Science and explore the concept of conceptual modelling.  We also explore key concepts in programming ahead of the subsequent Python training.\n\nSession 1B Links\nGitHub : https://github.com/hsma-programme/h6_1b_intro_or_ds\nSlides : https://docs.google.com/presentation/d/1_De2E0Uk8ypX1waygPtG15vEPPNCl34BQwnLyFurlWg/edit#slide=id.p1\n\nSession 1C Links\nGitHub : https://github.com/hsma-programme/1c_principles_of_programming\nSlides : https://docs.google.com/presentation/d/1TXAZUL9hEGvyvbso3UegJgPcjrKQPAirDmEjph_kApA/edit?usp=sharing\n\nHSMA Website : https://sites.google.com/nihr.ac.uk/hsma",
+          "published": "2024-04-24T14:37:29Z",
+          "duration": "PT4H53S",
+          "thumbnail": "https://i.ytimg.com/vi/aftDNqfMe1w/mqdefault.jpg"
+        },
+        {
+          "id": "0jV0jtIE3_U",
+          "title": "(HSMA 6 Day 3) : 1D Hello World!  Introduction to the IDEs and Python Parlance",
+          "description": "In this session, we introduce VSCode and demonstrate how to set up VSCode for Python coding.  We also demonstrate Jupyter Notebooks and Google CoLab, and talk about Python packages and working with virtual environments.\n\nGitHub : https://github.com/hsma-programme/h6_1d_hello_world\nSlides : https://docs.google.com/presentation/d/1We3qn3Sh5nNYc0BkwtOPQrm0xKFoNrbSElCfW6K1PbQ/edit#slide=id.g25a2043586d_1_1\n\nHSMA Website : https://sites.google.com/nihr.ac.uk/hsma",
+          "published": "2024-05-01T10:17:14Z",
+          "duration": "PT3H10M18S",
+          "thumbnail": "https://i.ytimg.com/vi/0jV0jtIE3_U/mqdefault.jpg"
+        },
+        {
+          "id": "Ey3yUaKkZKY",
+          "title": "(HSMA 6 Day 4) 1E Python Programming Part 1",
+          "description": "In this session, we introduce some of the fundamental building blocks of Python coding, exploring outputs and inputs, mathematical operations, conditional logic, loops, variables, lists and dictionaries and more.\n\nGitHub : https://github.com/hsma-programme/h6_1e_python_part_1\nSlides : https://docs.google.com/presentation/d/1n6fDITAvNas78FJwQPA65ifnhMtnjcyK-af1aX8majA/edit?usp=sharing\n\nHSMA Website : https://sites.google.com/nihr.ac.uk/hsma\n\n15:21 Intro to Python\n18:07 Print\n24:10 Variables\n30:34 Variable Types\n34:48 Variable Types - Storing Multiple Items\n39:00 fStrings\n44:22 User Input and Casting\n53:59 Mathematical Operators\n1:03:04 Comments\n1:07:02 Conditional Logic and Comparison Operators\n1:18:41 Comparison Operator Game\n1:31:09 An Intro to Loops\n1:31:46 For Loops\n1:43:11 While Loops\n1:46:21 Breaking from a loop\n1:49:07 Infinite Loops\n2:00:32 Lists\n2:07:55 Accessing List Elements\n2:14:32 Negative Indexing and Slicing of Lists\n2:21:29 List Comprehensions\n2:26:38 Dictionaries\n2:28:59 Dictionary Operations\n2:41:54 Importing Packages\n2:46:53 The Random Library",
+          "published": "2024-05-08T12:01:03Z",
+          "duration": "PT3H25M38S",
+          "thumbnail": "https://i.ytimg.com/vi/Ey3yUaKkZKY/mqdefault.jpg"
+        },
+        {
+          "id": "QuhUeysnTgY",
+          "title": "(HSMA 6 Day 5) 1F Python Programming Part 2",
+          "description": "In this session, we talk about writing functions in Python, exception handling and working with .csv files.  We also introduce two of the most important libraries for data science - NumPy and Pandas.\n\nGitHub : https://github.com/hsma-programme/h6_1f_python_part_2\nSlides : https://docs.google.com/presentation/d/1XSt5dXEiaOoPryq4r2dPJzMQnNQSa-imG3Fe7gr-sSs/edit?usp=sharing\n\nHSMA Website : https://sites.google.com/nihr.ac.uk/hsma\n\n13:06 Functions\n17:17 Writing and Calling Functions\n27:33 Functions Without Inputs\n28:50 Returning Multiple Values from Functions\n33:14 Global and Local Variables\n42:36 Exception Handling\n48:37 Reading and Writing csv files without Pandas\n1:02:09 File Access Modes\n1:13:53 An Introduction to Numpy and Multidimensional Arrays\n1:24:46 Creating Numpy Arrays\n1:29:59 Indexing and Slicing Numpy Arrays\n1:34:42 Updating Values in Numpy Arrays\n1:35:58 Creating empty numpy arrays\n1:38:34 Creating numpy arrays with evenly spaced intervals\n1:39:34 Creating an array of zeros\n1:40:03 Numpy Array Shape and Dimensions\n1:41:12 Mathematical Operations with Numpy Arrays\n1:44:11 Statistical Operations with Numpy Arrays\n1:46:37 Dot Product with Numpy\n1:48:27 Removing Duplicates from Numpy Arrays\n2:10:53 An Introduction to Pandas\n2:13:17 Creating New Pandas Dataframes and Setting the Index Column\n2:17:36 Indexing Pandas Dataframes (Selecting Rows or Columns)\n2:20:46 Conditional Indexing (selecting columns that meet a criteria)\n2:24:03 Adding Rows and Columns to Dataframes\n2:26:38 Concatenating Pandas Dataframes (joining dataframes)\n2:29:11 Dropping (Removing) Rows and Columns from Dataframes\n2:32:09 Value Counts on Pandas Dataframes\n2:34:53 Creating Pivot Tables from Pandas Dataframes\n2:38:38 Dropping Duplicates from Pandas Dataframes\n2:43:15 Sorting Pandas Dataframes\n2:44:35 Neat Pandas Features - head, tail, describe, astype, mean",
+          "published": "2024-05-15T11:47:43Z",
+          "duration": "PT3H22M16S",
+          "thumbnail": "https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg"
+        },
+        {
+          "id": "RvU3MBEd280",
+          "title": "(HSMA 6 Day 6) 1G Python Programming Part 3",
+          "description": "In this video we'll be looking at Object Oriented Programming in Python and using MatPlotLib to generate graphs.\n\nGitHub : https://github.com/hsma-programme/h6_1g_python_part_3\nSlides : https://docs.google.com/presentation/d/1e7ObbZmRNcm_lqxR_tFvwV78YV2SzBGSwWRweGiezYg/edit?usp=sharing\n\nHSMA Website : https://sites.google.com/nihr.ac.uk/hsma\n\n13:26 A Recap of Objected Oriented Programming\n19:26 OOP in Python - Classes, Attributes and Methods\n28:52 OOP - A Python Class Example\n32:51 OOP - Instantiation and Creating Multiple Instances\n50:15 Inheritance\n55:05 Inheritance in Python\n1:15:36 Reusability\n1:30:59 An Introduction to matplotlib\n1:35:39 matplotlib - Figures and Axes\n1:37:52 matplotlib - Line Plots\n1:45:54 matplotlibs - Bar and Scatter Plots\n1:47:12 matplotlib - Saving Plots",
+          "published": "2024-05-22T08:14:26Z",
+          "duration": "PT2H27M19S",
+          "thumbnail": "https://i.ytimg.com/vi/RvU3MBEd280/mqdefault.jpg"
+        },
+        {
+          "id": "TxdvJQxuSx4",
+          "title": "(HSMA 6 Day 7) 2A Introduction to Discrete Event Simulation",
+          "description": "Today we begin module 2 of the programme, in which we explore how we can model pathway and queuing problems using a modelling method known as Discrete Event Simulation.  We'll explore how Discrete Event Simulations work and you'll have a chance to design your own. \n\nGitHub (2A): https://github.com/hsma-programme/h6_2a_intro_to_des\n\nSlides (2A): https://docs.google.com/presentation/d/1HO0wXTocHRZgeuLadkGvqf5yC8BEmQzTcgo8QHOd0yY/edit?usp=sharing\n\nHSMA Website : https://sites.google.com/nihr.ac.uk/hsma",
+          "published": "2024-05-29T08:39:24Z",
+          "duration": "PT1H53M26S",
+          "thumbnail": "https://i.ytimg.com/vi/TxdvJQxuSx4/mqdefault.jpg"
+        },
+        {
+          "id": "nHgyJ6i0TGs",
+          "title": "(HSMA 6 Day 7) 2B SimPy Part 1",
+          "description": "Today we look at how we can use the SimPy Python package (which is built around generator functions) to build Discrete Event Simulations in Python.\n\nGitHub (2B): https://github.com/hsma-programme/h6_simpy_part_1/tree/main\n\nSlides (2B): https://docs.google.com/presentation/d/15bQX0yxfDgjNVJSQORNzBCWVvbKI_LaTcbtYVKsvYcU/edit?usp=sharing\n\nHSMA Website : https://sites.google.com/nihr.ac.uk/hsma",
+          "published": "2024-05-29T08:39:28Z",
+          "duration": "PT1H50M34S",
+          "thumbnail": "https://i.ytimg.com/vi/nHgyJ6i0TGs/mqdefault.jpg"
+        },
+        {
+          "id": "FBVBKtVkayA",
+          "title": "(HSMA 6 Day 8) 2C SimPy Part 2",
+          "description": "In this session we look at some more advanced DES concepts and how we can incorporate them in our SimPy models.  This includes warm up periods, priority-based queuing, resource unavailability, Lognormal distributions, reneging, balking and jockeying.\n\nSlides : https://docs.google.com/presentation/d/1y7S7bjJtdLQCquzzZ2vjYzRx9-RwXE-SWgWf88fLc4o/edit?usp=sharing\n\nGitHub : https://github.com/hsma-programme/h6_simpy_part_2\n\nHSMA Website : https://sites.google.com/nihr.ac.uk/hsma",
+          "published": "2024-06-12T10:17:31Z",
+          "duration": "PT1H39M50S",
+          "thumbnail": "https://i.ytimg.com/vi/FBVBKtVkayA/mqdefault.jpg"
+        },
+        {
+          "id": "t-5KKMr3El4",
+          "title": "(HSMA 6 Day 8) 3A Intro to Geospatial Problems in Health & Geographic Visualisation using QGIS Pt 1",
+          "description": "In this session, we introduce some key concepts of geographic modelling and visualisation, and begin our exploration of the free and open source geographic visualisation software package QGIS.\n\nSlides : https://docs.google.com/presentation/d/1wlSArF-bGbrpJKYnOZ5ta0JN4pCC8gq1blZftgetvkA/edit?usp=sharing\n\nGitHub : https://github.com/hsma-programme/h6_3a_intro_geographic_problems_and_qgis\n\nHSMA Website : https://sites.google.com/nihr.ac.uk/hsma",
+          "published": "2024-06-12T10:17:46Z",
+          "duration": "PT2H1M33S",
+          "thumbnail": "https://i.ytimg.com/vi/t-5KKMr3El4/mqdefault.jpg"
+        },
+        {
+          "id": "eHJzQn9mI2E",
+          "title": "(HSMA 6 Day 9) 3B - Choropleths and print layouts in QGIS",
+          "description": "",
+          "published": "2024-06-19T14:15:08Z",
+          "duration": "PT1H48S",
+          "thumbnail": "https://i.ytimg.com/vi/eHJzQn9mI2E/mqdefault.jpg"
+        },
+        {
+          "id": "7w366aEAGAs",
+          "title": "(HSMA 6 Day 9) 3B - Geopandas and plotting static maps in Python with matplotlib",
+          "description": "",
+          "published": "2024-06-19T14:16:54Z",
+          "duration": "PT1H22M6S",
+          "thumbnail": "https://i.ytimg.com/vi/7w366aEAGAs/mqdefault.jpg"
+        },
+        {
+          "id": "_14heKZ9YjA",
+          "title": "(HSMA 6 Day 9) 3C - Interactive Maps in Python with Folium",
+          "description": "",
+          "published": "2024-06-19T14:16:16Z",
+          "duration": "PT26M30S",
+          "thumbnail": "https://i.ytimg.com/vi/_14heKZ9YjA/mqdefault.jpg"
+        },
+        {
+          "id": "_KD7gOMPFgY",
+          "title": "(HSMA 6 Day 9) 3C - Visualising Travel Time Data in Python",
+          "description": "",
+          "published": "2024-06-19T14:15:41Z",
+          "duration": "PT30M21S",
+          "thumbnail": "https://i.ytimg.com/vi/_KD7gOMPFgY/mqdefault.jpg"
+        },
+        {
+          "id": "UJdv0HIuG6s",
+          "title": "(HSMA 6 Day 10) 3D - Location Allocation Problems",
+          "description": "In this session we talk about how to construct and carry out the p-median location allocation problem - minimising a weighted cost across a region for different possible combinations of sites. \n\nMaterials can be found here: https://github.com/hsma-programme/h6_3d_facility_location_problems",
+          "published": "2024-06-25T20:45:02Z",
+          "duration": "PT1H39M23S",
+          "thumbnail": "https://i.ytimg.com/vi/UJdv0HIuG6s/mqdefault.jpg"
+        },
+        {
+          "id": "Zd8mQIXNq-o",
+          "title": "(HSMA 6 Day 10) 3C - A brief introduction to routingpy",
+          "description": "In this video we briefly talk about the routingpy library and introduce how it could be used to retrieve travel matrices and isochrone data to assist in p-median location allocation problems and more.\n\nAll materials for this session can be found here: https://github.com/hsma-programme/h6_3c_interactive_plots_travel",
+          "published": "2024-06-25T20:46:51Z",
+          "duration": "PT16M9S",
+          "thumbnail": "https://i.ytimg.com/vi/Zd8mQIXNq-o/mqdefault.jpg"
+        },
+        {
+          "id": "g3RmQombgEA",
+          "title": "(HSMA 6 Day 10) 4A  - Introduction to AI and Machine Learning",
+          "description": "In this session we introduce some of the core concepts of AI and Machine Learning, including the concepts of features and labels, overfitting and underfitting and assessing model performance.  We also explore some of the different types of machine learning, and practice our understanding of these new concepts by seeing if we can unpick patterns in Dan's film preferences for \"Dan's Desert Island DVDs\".\n\nSlides : https://docs.google.com/presentation/d/1EcO71B5kEvaSkvKQeGnuO2g4Ss4RKhrphR3gE8vv-Gk/edit?usp=sharing\n\nHSMA Website : https://sites.google.com/nihr.ac.uk/hsma",
+          "published": "2024-06-26T08:40:46Z",
+          "duration": "PT1H35M56S",
+          "thumbnail": "https://i.ytimg.com/vi/g3RmQombgEA/mqdefault.jpg"
+        },
+        {
+          "id": "0Cw6LK-MO_w",
+          "title": "(HSMA 6 Day 11) 4B - Logistic Regression - Who Would Survive the Titanic?",
+          "description": "In this session we'll begin exploring some of the Machine Learning approaches that we can use, starting today with Logistic Regression - a way of fusing together traditional linear regression models with a logistic function to create a powerful classifier model.  You'll see how these models can be implemented in Python, and practice using both the Titanic dataset you saw earlier in the course, as well as a new stroke patient dataset.\n\nSlides : https://docs.google.com/presentation/d/1MdLRe4-089MsEWttK9OgFvgBX8EqJ6LFCRC72zyz1jI/edit?usp=sharing\n\nHSMA Website : https://sites.google.com/nihr.ac.uk/hsma",
+          "published": "2024-07-03T10:52:12Z",
+          "duration": "PT1H43M32S",
+          "thumbnail": "https://i.ytimg.com/vi/0Cw6LK-MO_w/mqdefault.jpg"
+        },
+        {
+          "id": "fzgtDKCLGHI",
+          "title": "(HSMA 6 Day 11) 4C  - Ethics in AI",
+          "description": "In this session we'll explore some of the key ethical considerations that are fundamental to any machine learning work, as we explore what can (and will) go wrong.\n\nSlides : https://docs.google.com/presentation/d/16Qwx0cUdGjtqqD7WQ-4kAWHBdJvBFHMch_AwPUwrp1M/edit?usp=sharing\n\nHSMA Website : https://sites.google.com/nihr.ac.uk/hsma",
+          "published": "2024-07-03T10:52:40Z",
+          "duration": "PT1H58M36S",
+          "thumbnail": "https://i.ytimg.com/vi/fzgtDKCLGHI/mqdefault.jpg"
+        },
+        {
+          "id": "p3Bc2kDtPPs",
+          "title": "(HSMA 6 Day 12) 4D Part 1/2 - Decision Trees",
+          "description": "In this session we'll begin looking at how decision trees are built and how we can use the sklearn implementation of decision trees on our own datasets.\n\nWe also recap sensitivity (recall), specificity and precision and how to calculate these in sklearn.\n\nSlides : https://docs.google.com/presentation/d/1LgVvgLzm4dxCdDCusjWWC_SBrtXhhCPchHXK4oI0kWU/edit?usp=sharing\n\nRepository: https://github.com/hsma-programme/h6_4d_decision_trees_random_forests\n\nHSMA Website : https://sites.google.com/nihr.ac.uk/hsma",
+          "published": "2024-07-09T18:22:43Z",
+          "duration": "PT1H16M7S",
+          "thumbnail": "https://i.ytimg.com/vi/p3Bc2kDtPPs/mqdefault.jpg"
+        },
+        {
+          "id": "jqvn_OXbIfg",
+          "title": "(HSMA 6 Day 12) 4D Part 2/2 - Random Forests, F1 score + Confusion Matrices",
+          "description": "In this session we'll take a look at how we can avoid some of the problems of decision trees by using an ensemble method - random forests.\n\nWe also find out an easier way of calculating sensitivity, specificity and precision in one function, as well as hearing about a new metric called f1 score, and we learn about the confusion matrix, which is a powerful tool for helping to break down how different models perform. \n\nSlides : https://docs.google.com/presentation/d/1LgVvgLzm4dxCdDCusjWWC_SBrtXhhCPchHXK4oI0kWU/edit?usp=sharing\n\nRepository: https://github.com/hsma-programme/h6_4d_decision_trees_random_forests\n\nHSMA Website : https://sites.google.com/nihr.ac.uk/hsma",
+          "published": "2024-07-09T18:23:22Z",
+          "duration": "PT27M5S",
+          "thumbnail": "https://i.ytimg.com/vi/jqvn_OXbIfg/mqdefault.jpg"
+        },
+        {
+          "id": "o9WB1ncskzU",
+          "title": "(HSMA 6 Day 12) 4E Part 1/2 - Boosting Trees for Classification Problems",
+          "description": "In this session we'll take a look at a family of models called boosted trees.\nThese are a very powerful type of algorithm that perform extremely well on tabular datasets.\nThe session touches on XGBoost, AdaBoost, CatBoost, Histogram-based gradient boosting classifiers and LightGBM.\n\nSlides : https://docs.google.com/presentation/d/1c89f4ZRU6kQPybWpoO5v_lphAqqnPPfPEAkfVli85iM/edit?usp=sharing\n\nRepository: https://github.com/hsma-programme/h6_4e_boosted_trees\n\nHSMA Website : https://sites.google.com/nihr.ac.uk/hsma",
+          "published": "2024-07-09T18:24:35Z",
+          "duration": "PT51M25S",
+          "thumbnail": "https://i.ytimg.com/vi/o9WB1ncskzU/mqdefault.jpg"
+        },
+        {
+          "id": "udlOEtFWYFc",
+          "title": "(HSMA 6 Day 12) 4E Part 2/2 - Predicting Numeric Values with Tree-based Algorithms + OneHot encoding",
+          "description": "In this session we take a look at how decision trees, random forests and boosted trees can also be used when you want to predict a numeric value instead of classifying a sample as a member of one group or another. \n\nWe also touch on some key parts of data preprocessing so we can work with a new dataset of patient length of stay in the final exercise, covering how to OneHot encode categorical variables to make this data usable with machine learning libraries. \n\nSlides : https://docs.google.com/presentation/d/1c89f4ZRU6kQPybWpoO5v_lphAqqnPPfPEAkfVli85iM/edit?usp=sharing\n\nRepository: https://github.com/hsma-programme/h6_4e_boosted_trees\n\nHSMA Website : https://sites.google.com/nihr.ac.uk/hsma",
+          "published": "2024-07-09T18:24:07Z",
+          "duration": "PT33M23S",
+          "thumbnail": "https://i.ytimg.com/vi/udlOEtFWYFc/mqdefault.jpg"
+        },
+        {
+          "id": "X0OAjmkuwO8",
+          "title": "(HSMA 6 Day 13) 4F Neural Networks",
+          "description": "In this session we'll be looking at a subfield of AI that has dominated many of the big advancements in AI over the last few years - Deep Learning - as we introduce Neural Networks.  Then, this afternoon, Sammi will dive into the fascinating emerging world of explainable AI as a way to build understanding, confidence and trust in our machine learning models.\n\nSlides: https://docs.google.com/presentation/d/1SHbIwMyHfBztjp1B27T5f_c99gnrmzjycEwEkJ4ABik/edit?usp=sharing\n\nRepository: https://github.com/hsma-programme/h6_4f_neural_networks\n\nHSMA Website : https://sites.google.com/nihr.ac.uk/hsma",
+          "published": "2024-07-17T08:43:22Z",
+          "duration": "PT1H51M",
+          "thumbnail": "https://i.ytimg.com/vi/X0OAjmkuwO8/mqdefault.jpg"
+        },
+        {
+          "id": "33ZN1orqjKk",
+          "title": "(HSMA 6 Day 13) 4G Part 1/6 - An Introduction to Explainable AI + Correlation vs Causality",
+          "description": "In this part of the Explainable AI session, we explore \n- why explainability is importantant in AI models\n- what we mean by explainability\n- the difference between correlation and causation\n\nSlides : https://docs.google.com/presentation/d/1fzvwWTaYCVy7oDTZ__fTDhx89XibyUY-Pa4oUXTpeH4/edit?usp=sharing\n\nRepository: https://github.com/hsma-programme/h6_4g_explainable_ai\n\nHSMA Website : https://sites.google.com/nihr.ac.uk/hsma",
+          "published": "2024-07-17T08:22:27Z",
+          "duration": "PT32M4S",
+          "thumbnail": "https://i.ytimg.com/vi/33ZN1orqjKk/mqdefault.jpg"
+        },
+        {
+          "id": "B_meJuMbMr4",
+          "title": "(HSMA 6 Day 13) 4G Part 2/6 - Feature Importance in Logistic Regression & Odds/Log Odds/Probability",
+          "description": "In this part of the Explainable AI session, we explore \n- how we can extract feature importance from a logistic regression model\n- how to interpret the coefficients from logistic regression models\n- the relationship between odds, log odds and probability\n\nSlides : https://docs.google.com/presentation/d/1fzvwWTaYCVy7oDTZ__fTDhx89XibyUY-Pa4oUXTpeH4/edit?usp=sharing\n\nRepository: https://github.com/hsma-programme/h6_4g_explainable_ai\n\nHSMA Website : https://sites.google.com/nihr.ac.uk/hsma",
+          "published": "2024-07-17T08:23:42Z",
+          "duration": "PT21M1S",
+          "thumbnail": "https://i.ytimg.com/vi/B_meJuMbMr4/mqdefault.jpg"
+        },
+        {
+          "id": "qhVkmPV0QBg",
+          "title": "(HSMA 6 Day 13) 4G Part 3/6 - Feature Importance with MDI + PFI",
+          "description": "In this part of the Explainable AI session, we explore \n- feature importance for tree-based models with Mean Decrease in Importance (MDI)\n- model-agnostic feature importance with permutation feature importance (PFI)\n\nSlides : https://docs.google.com/presentation/d/1fzvwWTaYCVy7oDTZ__fTDhx89XibyUY-Pa4oUXTpeH4/edit?usp=sharing\n\nRepository: https://github.com/hsma-programme/h6_4g_explainable_ai\n\nHSMA Website : https://sites.google.com/nihr.ac.uk/hsma",
+          "published": "2024-07-17T08:24:49Z",
+          "duration": "PT14M13S",
+          "thumbnail": "https://i.ytimg.com/vi/qhVkmPV0QBg/mqdefault.jpg"
+        },
+        {
+          "id": "iP07GkeyPpA",
+          "title": "(HSMA 6 Day 13) 4G Part 4/6 - Partial Dependence Plots and Individual Conditional Expectation Plots",
+          "description": "In this part of the Explainable AI session, we explore \n- the partial dependence plot (PDP)\n- the individual conditional expectation plot (ICE)\n- ways of enhancing these plots\n\nSlides : https://docs.google.com/presentation/d/1fzvwWTaYCVy7oDTZ__fTDhx89XibyUY-Pa4oUXTpeH4/edit?usp=sharing\n\nRepository: https://github.com/hsma-programme/h6_4g_explainable_ai\n\nHSMA Website : https://sites.google.com/nihr.ac.uk/hsma",
+          "published": "2024-07-17T08:25:43Z",
+          "duration": "PT9M10S",
+          "thumbnail": "https://i.ytimg.com/vi/iP07GkeyPpA/mqdefault.jpg"
+        },
+        {
+          "id": "A4MH0GNfxZA",
+          "title": "(HSMA 6 Day 12) 4G Part 5/6 - Explainable AI with SHAP",
+          "description": "In this part of the Explainable AI session, we explore \n- what Shapley values are\n- how the shap library allows us to look at global and local feature importance\n- how to create and interpret different shap plots\n\nSlides : https://docs.google.com/presentation/d/1fzvwWTaYCVy7oDTZ__fTDhx89XibyUY-Pa4oUXTpeH4/edit?usp=sharing\n\nRepository: https://github.com/hsma-programme/h6_4g_explainable_ai\n\nHSMA Website : https://sites.google.com/nihr.ac.uk/hsma",
+          "published": "2024-07-17T09:09:19Z",
+          "duration": "PT42M42S",
+          "thumbnail": "https://i.ytimg.com/vi/A4MH0GNfxZA/mqdefault.jpg"
+        },
+        {
+          "id": "AUnKMEe3ub4",
+          "title": "(HSMA 6 Day 12) 4G Part 6/6 - Prediction Uncertainty",
+          "description": "In this part of the Explainable AI session, we explore \n- why calculating prediction uncertainty may be useful\n- how to calculate and show prediction uncertainty\n\nSlides : https://docs.google.com/presentation/d/1fzvwWTaYCVy7oDTZ__fTDhx89XibyUY-Pa4oUXTpeH4/edit?usp=sharing\n\nRepository: https://github.com/hsma-programme/h6_4g_explainable_ai\n\nHSMA Website : https://sites.google.com/nihr.ac.uk/hsma",
+          "published": "2024-07-17T08:43:53Z",
+          "duration": "PT16M2S",
+          "thumbnail": "https://i.ytimg.com/vi/AUnKMEe3ub4/mqdefault.jpg"
+        },
+        {
+          "id": "ebFmAiUQkuY",
+          "title": "(HSMA 6 Day 13) 4H - Reinforcement Learning",
+          "description": "In this session we take a look at Reinforcement Learning in a session that will be very different to any you've experienced thus far.\n\nNote that we'd recommend not looking at the slides until after the first time the reinforcement learning game is played manually.\n\nSlides: https://docs.google.com/presentation/d/1Sok1fWn_y15XLRLQoOq2pKiTX6TG3LDgNkSKhFq6us0/edit?usp=sharing\n\nApp Link: https://bergam0t.github.io/ReinforcementLearningGame/\n\nApp Github Repository: https://github.com/Bergam0t/ReinforcementLearningGame\n\nHSMA Website: https://sites.google.com/nihr.ac.uk/hsma/home",
+          "published": "2024-07-24T10:05:10Z",
+          "duration": "PT2H29M5S",
+          "thumbnail": "https://i.ytimg.com/vi/ebFmAiUQkuY/mqdefault.jpg"
+        },
+        {
+          "id": "3H0YMXWCxnM",
+          "title": "(HSMA 6 Day 13) 4I - Synthetic Data using SMOTE",
+          "description": "In this session we take a look at synthetic data - how to create our own fake but realistic data when we want to augment an underrepresented class, or just use the data instead of our real data.\n\nSlides: https://docs.google.com/presentation/d/1psVyGCwFDAtW0v7QAUaWXseUTV7W-xgRPDgS7rtjpJU/edit?usp=sharing\n\nGithub Repository: https://github.com/hsma-programme/h6_4i_synthetic_data\n\nHSMA Website: https://sites.google.com/nihr.ac.uk/hsma/home",
+          "published": "2024-07-24T10:05:02Z",
+          "duration": "PT1H18M17S",
+          "thumbnail": "https://i.ytimg.com/vi/3H0YMXWCxnM/mqdefault.jpg"
+        },
+        {
+          "id": "LYP1H7X-aeg",
+          "title": "(HSMA 6 Day 14) 4J - Optimising ML: Imputation, Feature Engineering & Selection, Hyperparameters",
+          "description": "**Unfortunately the first 5 minutes or so of the lecture was not recorded**\n\nCovering a range of ways to improve your model's performance, including:\n\n- Missing Data Imputation with SimpleImputer and IterativeImputer\n\n- Feature Selection with SequentialFeatureSelector (forward and backward selection) and SelectFromModel (feature importance selection with model coefficients or mean decrease in impurity)\n\n- Feature Engineering\n\n- Dataset Splits (train/test/validation, k-fold)\n\n- Dealing with Imbalanced Datasets with model parameters\n\n- Hyperparameter tuning with exhaustive gridsearch, randomised gridsearch, and the Optuna framework\n\nAdditional areas in the slides, but not covered in the video, are:\n- ensemble models\n- sklearn pipelines\n- automatic model selection with the flaml library\n- model calibration curves (reliability plots)\n\nSlides: https://docs.google.com/presentation/d/1t6eS93gkFfGMlfJ86cVShAZ2vOhmP08TFVp8rcgTGyQ/edit?usp=sharing\n\nCode Slides Only: https://docs.google.com/presentation/d/1BBCc5TVEhfAY98I6JLKrsObLLeVseAsxYZSrgve20uI/edit?usp=sharing\n\nGithub Repository: https://github.com/hsma-programme/h6_4j_model_optimisation\n\nHSMA Website: https://sites.google.com/nihr.ac.uk/hsma/home",
+          "published": "2024-07-31T09:02:37Z",
+          "duration": "PT1H9M10S",
+          "thumbnail": "https://i.ytimg.com/vi/LYP1H7X-aeg/mqdefault.jpg"
+        },
+        {
+          "id": "XrdEnUiFBUQ",
+          "title": "(HSMA 6 Day 14) 5A - Introduction to Natural Language Processing (NLP)",
+          "description": "In this session we'll begin Module 5 and our journey into Natural Language Processing.  \n\nWe'll look at some core concepts important for processing text data, and learn a few little neat things we can do with our data along the way, including wordclouds and a method for assessing the similarity of different bits of text. \n\nSlides: https://docs.google.com/presentation/d/15NWc3d84XusMmTHQdpIgfvD6LdUGfZwk7cLyLFt8158/edit?usp=sharing\n\nRepository: https://github.com/hsma-programme/h6_5a_intro_to_nlp\n\nHSMA Website: https://sites.google.com/nihr.ac.uk/hsma/home",
+          "published": "2024-07-31T09:13:51Z",
+          "duration": "PT1H45M43S",
+          "thumbnail": "https://i.ytimg.com/vi/XrdEnUiFBUQ/mqdefault.jpg"
+        },
+        {
+          "id": "mOnG9H3oOdo",
+          "title": "(HSMA 6 Day 15) 5B - Named Entity Recognition",
+          "description": "In this session we'll continue our journey into Natural Language Processing.  \n\nHave you got named entities?  Do you need them recognised?  Then have we got the session for you!  Our session on Named Entity Recognition will talk all about named entities, and recognition of them.  Along the way we'll stop by Sesame Street and Fraggle Rock, talk about Transformers, Parsing, Grammar, POS Tagging and more.\n\nSlides: https://docs.google.com/presentation/d/1--RLU2oi4huj0CqPASNCnHKSl9qaA8grcin42oWyxoc/edit?usp=sharing\n\nRepository: https://github.com/hsma-programme/h6_5b_named_entity_recognition\n\nHSMA Website: https://sites.google.com/nihr.ac.uk/hsma/home",
+          "published": "2024-08-07T08:21:55Z",
+          "duration": "PT1H58M13S",
+          "thumbnail": "https://i.ytimg.com/vi/mOnG9H3oOdo/mqdefault.jpg"
+        },
+        {
+          "id": "c74tpYU1opw",
+          "title": "(HSMA 6 Day 15) 5C - Sentiment Analysis",
+          "description": "In this session we don our pirate outfits and sail to the Caribbean as we look for the secret of Sentiment Analysis and Text Classification.  We'll fight dastardly pirates as well as a pirate that's already dead but just won't accept it.\n\nSlides: https://docs.google.com/presentation/d/1k2gQkA6Qa0TKm47Hh6tM7heTpYh6w2wF27ImQC_BeXk/edit?usp=sharing\n\nRepository: https://github.com/hsma-programme/h6_5c_sentiment_analysis\n\nHSMA Website: https://sites.google.com/nihr.ac.uk/hsma/home",
+          "published": "2024-08-07T08:32:09Z",
+          "duration": "PT1H29M36S",
+          "thumbnail": "https://i.ytimg.com/vi/c74tpYU1opw/mqdefault.jpg"
+        },
+        {
+          "id": "yfiDyURsRMA",
+          "title": "(HSMA 6 Day 16) 5D - NLP Hackathon",
+          "description": "In this session, HSMAs worked in groups to tackle a question of their choosing on some data of their choosing using Natural Language Processing techniques, undertaking miniature projects and practicing those all-important skills needed to tackle their own projects in Phase 2.  \n\nThe recording contains the brief for the day, as well as 10 presentations of project plans after the initial hour, and 10 presentations of project outputs at the end of the day.\n\nSlides: https://docs.google.com/presentation/d/1f2kxuEwh3aaWbeEQzKJdHmR06Wenb782dGBLv6i-BxU/edit?usp=sharing\n\nHSMA Website: https://sites.google.com/nihr.ac.uk/hsma/home",
+          "published": "2024-08-14T13:18:21Z",
+          "duration": "PT2H14M19S",
+          "thumbnail": "https://i.ytimg.com/vi/yfiDyURsRMA/mqdefault.jpg"
+        },
+        {
+          "id": "jeykRmcNOTU",
+          "title": "(HSMA 6 Day 17) 6B - An Introduction to Agent-Based Simulation",
+          "description": "In this session, we begin looking at Agent Based Simulation - a simulation modelling approach that allows us to capture individual level behaviours of actors in our system, and observe the emergent dynamics.  We also take a look at Cellular Automata, and head to the Edge of Chaos.\n\nSlides: https://docs.google.com/presentation/d/1of8eQAE79IFCJawvtNu3-ooesLtRzO4dXp7zWjL4jek/edit?usp=sharing\n\nRepository: https://github.com/hsma-programme/h6_6b_abs_part_1\n\nHSMA Website: https://sites.google.com/nihr.ac.uk/hsma/home",
+          "published": "2024-09-04T09:02:45Z",
+          "duration": "PT1H51M11S",
+          "thumbnail": "https://i.ytimg.com/vi/jeykRmcNOTU/mqdefault.jpg"
+        },
+        {
+          "id": "H0VVJXpgbfw",
+          "title": "(HSMA 6 Day 17) 6A - System Dynamics",
+          "description": "In this session, we take a look at System Dynamics as a way of understanding whether there are inherent issues in the way our systems are structured.\n\nWe use the online InsightMaker (https://insightmaker.com/) tool to create a quantitative system dynamics model.\n\nSlides: https://docs.google.com/presentation/d/12NHXp_uou7ayDAcTJNgXwr0_O3rQdrIRmq6wkJG_2tA/edit?usp=sharing \n\nRepository: https://github.com/hsma-programme/h6_6a_system_dynamics\n\nHSMA Website: https://sites.google.com/nihr.ac.uk/hsma/home",
+          "published": "2024-09-04T09:04:42Z",
+          "duration": "PT1H31M14S",
+          "thumbnail": "https://i.ytimg.com/vi/H0VVJXpgbfw/mqdefault.jpg"
+        },
+        {
+          "id": "Qe2gOpLDSeQ",
+          "title": "(HSMA 6 Day 18) 6C - Agent-Based Simulation with MESA",
+          "description": "In this session, we look at how we can use the excellent Python package MESA to help us build our own Agent Based Simulations, and we'll revisit our old friend Object Oriented Programming to help us do that.\n\nSlides: https://docs.google.com/presentation/d/14s13gg3XI_MzG47nq73R1VPpXkLIhG7NfsrgF_uWWzQ/edit?usp=sharing\n\nGithub Repository: https://github.com/hsma-programme/h6_6c_abs_part_2\n\nHSMA Website: https://sites.google.com/nihr.ac.uk/hsma/home",
+          "published": "2024-09-11T09:56:06Z",
+          "duration": "PT3H1M30S",
+          "thumbnail": "https://i.ytimg.com/vi/Qe2gOpLDSeQ/mqdefault.jpg"
+        },
+        {
+          "id": "QTw6neSRuRA",
+          "title": "(HSMA 6 Day 19) 7A - Version Control with Git and Github in VSCode",
+          "description": "Today we're going to be looking at the crucial importance of version control, and how we can use Git - a distributed version control system - to allow us to this.  We'll also look at how we can use Git interaction with GitHub to publish and work with repositories hosted online.  \n\nGit is both amazing and horrible.  If you feel that this all seems odd today, and convoluted, you're not wrong.  But it IS important.\n\nSlides: https://docs.google.com/presentation/d/1_v4BGRnG2CoMPgoBARdztc2dl-yciiu1dQ1qhtp3avk/edit?usp=sharing\n\nGithub Repository: https://github.com/hsma-programme/h6_7a_version_control\n\nHSMA Website: https://sites.google.com/nihr.ac.uk/hsma/home",
+          "published": "2024-09-18T08:53:56Z",
+          "duration": "PT4H8M9S",
+          "thumbnail": "https://i.ytimg.com/vi/QTw6neSRuRA/mqdefault.jpg"
+        },
+        {
+          "id": "iOfzfmuAr_Y",
+          "title": "(HSMA 6 Day 20) 7B - An Introduction to Python Web Apps with Streamlit",
+          "description": "Today we're going to start looking at building web apps entirely in Python using the fantastic Streamlit framework.\n\nHSMA Streamlit Book: https://bergam0t.github.io/streamlit_book/\n\nSlides: https://docs.google.com/presentation/d/1F3Fnn8OF-m02NClaHICvM5LDWrkV20np-bhnBfpKOvA/edit?usp=sharing\n\nGithub Repository: https://github.com/hsma-programme/h6_7b_web_apps_1\n\nHSMA Website: https://sites.google.com/nihr.ac.uk/hsma/home",
+          "published": "2024-09-25T09:13:35Z",
+          "duration": "PT3H46M39S",
+          "thumbnail": "https://i.ytimg.com/vi/iOfzfmuAr_Y/mqdefault.jpg"
+        },
+        {
+          "id": "1lSkHzOQ03E",
+          "title": "(HSMA 6 Day 21) 7C Python Web Apps with Streamlit - Discrete Event Simulation and Advanced Streamlit",
+          "description": "We kick off this session with a recap of the key Streamlit commands (though we'd recommend going through session 7B if you're new to Streamlit: https://youtu.be/iOfzfmuAr_Y) before a bit of a blast from the past - returning to our discrete event simulation (DES) code of a walk-in clinic from module 2 and turning it into an app. \n\nWe then move on to sidebars, run buttons, multi-page apps, theming (with inbuilt theming tools and custom CSS), data caching, partial reruns with st.fragment, session state to allow us to store data across pages and model runs, and deploying our apps to the cloud.\n\nHSMA Streamlit Book: https://bergam0t.github.io/streamlit_book/\n\nSlides: https://docs.google.com/presentation/d/1eDOkFTfRAR54xeci9eo7muBYV62I_-dk_8eT3d9PnfQ/edit?usp=sharing\n\nGithub Repository: https://github.com/hsma-programme/h6_7c_web_apps_2\n\nHSMA Website: https://sites.google.com/nihr.ac.uk/hsma/home",
+          "published": "2024-10-09T09:29:59Z",
+          "duration": "PT3H37M30S",
+          "thumbnail": "https://i.ytimg.com/vi/1lSkHzOQ03E/mqdefault.jpg"
+        },
+        {
+          "id": "xZMoHvZJmJM",
+          "title": "(HSMA 6 Day 22) 8A - Reproducible Reporting in Python with Quarto and xlsxwriter",
+          "description": "In this session, we spend a bit of time learning about Quarto, allowing you to create good-looking reports that weave together code, text, images and more in a neat, easily-distributable format. We also have a look at using a Python script to interact with the command line and produce multiple outputs from a single Quarto file using different parameters. \n\nWe will then briefly dive into the world of xlsxwriter - a handy tool for automatically producing Excel spreadsheets from your Python code.\n\nSlides: https://docs.google.com/presentation/d/1XYMK5b4dNaHfVesHO2EvRn1j2lFgQULadbRUU5FCkDg/edit?usp=sharing\n\nGithub Repository: https://github.com/hsma-programme/8a_quarto_and_reproducible_reporting\n\nHSMA Website: https://sites.google.com/nihr.ac.uk/hsma/home",
+          "published": "2024-10-17T15:42:21Z",
+          "duration": "PT2H35M49S",
+          "thumbnail": "https://i.ytimg.com/vi/xZMoHvZJmJM/mqdefault.jpg"
+        },
+        {
+          "id": "59szwz40Pik",
+          "title": "HSMA 6 Hackathon : Hack to the Future Part 2",
+          "description": "A recording of presentations from our HSMA 6 Hackathon \"Hack to the Future Part 2\".\n\nFor more information about the HSMA Programme, see our website : https://sites.google.com/nihr.ac.uk/hsma/home",
+          "published": "2024-10-23T10:21:45Z",
+          "duration": "PT53M25S",
+          "thumbnail": "https://i.ytimg.com/vi/59szwz40Pik/mqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "label": "HSMA 5",
+      "id": "PLgHO2TgIJXdmB6T9sgyp64wNqBH1aBSu5",
+      "videos": [
+        {
+          "id": "fuTfVE-njjM",
+          "title": "HSMA 5 Virtual Open Day 2022",
+          "description": "A recording of the HSMA 5 Virtual Open Day 2022.  More details about the programme can be found on our website : https://sites.google.com/nihr.ac.uk/hsma/home",
+          "published": "2022-06-22T12:42:38Z",
+          "duration": "PT2H29M18S",
+          "thumbnail": "https://i.ytimg.com/vi/fuTfVE-njjM/mqdefault.jpg"
+        },
+        {
+          "id": "beqgaIgPsCg",
+          "title": "HSMA 5 1A : Introduction to Operational Research and Data Science and 1B : Principles of Programming",
+          "description": "An introduction to the principles of Operational Research and Data Science for informing operational decisions in health services research.  An overview of the modelling process, including conceptual modelling, and other key considerations, is provided.  The second session introduces viewers to the fundamental principles of programming, as inspired by early 80s 8-bit coding.\n\nAccompanying lecture materials can be found here : \nhttps://github.com/hsma5/1a_intro_or_data_science\nhttps://github.com/hsma5/1b_principles_of_programming\n\nMore information about the HSMA Programme can be found here : https://sites.google.com/nihr.ac.uk/hsma\n\nFollow us on Twitter : @PenCHORD_UoE @drdanielchalk",
+          "published": "2022-10-05T11:45:54Z",
+          "duration": "PT3H44M11S",
+          "thumbnail": "https://i.ytimg.com/vi/beqgaIgPsCg/mqdefault.jpg"
+        },
+        {
+          "id": "2qsa-0KQJAs",
+          "title": "HSMA 5 2A : Spyder, Jupyter Notebooks and Google CoLab",
+          "description": "An introduction to Spyder, Jupyter Notebooks and Google CoLab for Python development.\n\nAccompanying lecture materials can be found here : https://github.com/hsma5/2a_spyder_jupyter_colab\n\nMore information about the HSMA Programme can be found here : https://sites.google.com/nihr.ac.uk/hsma\n\nFollow us on Twitter : @PenCHORD_UoE @drdanielchalk",
+          "published": "2022-10-06T15:36:38Z",
+          "duration": "PT1H39M37S",
+          "thumbnail": "https://i.ytimg.com/vi/2qsa-0KQJAs/mqdefault.jpg"
+        },
+        {
+          "id": "nXK7El47JjQ",
+          "title": "HSMA 5 1C : Python Programming Part 1",
+          "description": "An introduction to programming in Python.  In this lecture, we cover some of the basics of Python programming, including printing to the display, variables and casting, user input, comments, mathematical operators, conditional logic, for and while loops, working with lists and list comprehension, dictionaries, and libraries and imports.  We also look at the submissions for this year's \"first day of coding\" competition.\n\nAccompanying lecture materials can be found here : https://github.com/hsma5/1c_python_programming_part_1\n\nMore information about the HSMA Programme can be found here : https://sites.google.com/nihr.ac.uk/hsma\n\nFollow us on Twitter : @PenCHORD_UoE @drdanielchalk",
+          "published": "2022-10-12T08:58:17Z",
+          "duration": "PT3H15M13S",
+          "thumbnail": "https://i.ytimg.com/vi/nXK7El47JjQ/mqdefault.jpg"
+        },
+        {
+          "id": "TZOCpXnhQJM",
+          "title": "HSMA 5 1D : Python Programming Part 2",
+          "description": "In this session, we talk about Python functions, exception handling and file reading and writing.  We also introduce the basics of NumPy and Pandas - two fundamentally important Python libraries for Data Science.\n\nAccompanying lecture materials can be found here : \nhttps://github.com/hsma5/1d_python_programming_part_2\n\nMore information about the HSMA Programme can be found here : https://sites.google.com/nihr.ac.uk/hsma\n\nFollow us on Twitter : @PenCHORD_UoE @drdanielchalk",
+          "published": "2022-10-19T14:30:07Z",
+          "duration": "PT3H12M38S",
+          "thumbnail": "https://i.ytimg.com/vi/TZOCpXnhQJM/mqdefault.jpg"
+        },
+        {
+          "id": "IlUPJcowBrA",
+          "title": "HSMA 5 3A : Introduction to Discrete Event Simulation and 3B : SimPy for DES Part 1",
+          "description": "In these sessions, we introduce the simulation modelling approach Discrete Event Simulation - a way of modelling queuing / pathway problems.  We then show you how to use the Python package SimPy to build simple but effective Discrete Event Simulation models.  We also talk about Python Generator Functions - a structure that is fundamental to SimPy.\n\nNote - these introductory sessions show you how to build simple SimPy models using a non-Object Oriented structure.  However, viewers are strongly recommended to additionally view the subsequent lecture which will show you how to structure a SimPy model in an elegant Object Oriented framework.\n\nAccompanying lecture materials can be found here : \nSession 3A : https://github.com/hsma5/3a_introduction_to_discrete_event_simulation\nSession 3B :\nhttps://github.com/hsma5/3b_simpy_part_1\n\nMore information about the HSMA Programme can be found here : https://sites.google.com/nihr.ac.uk/hsma\n\nFollow us on Twitter : @PenCHORD_UoE @drdanielchalk",
+          "published": "2022-11-02T11:31:40Z",
+          "duration": "PT3H41M29S",
+          "thumbnail": "https://i.ytimg.com/vi/IlUPJcowBrA/mqdefault.jpg"
+        },
+        {
+          "id": "F3av_4iJMzA",
+          "title": "HSMA 5 3C : SimPy for Discrete Event Simulation Pt 2 & 7A : Introduction to AI and Machine Learning",
+          "description": "In the first part of the video (session 3C) we look at how we can make our SimPy models more elegant by structuring them in an Object-Oriented way.  We also look at how we can model entities having different priorities in a queue so that we use priorities to determine the next entity to be seen, and we look at how we can model unavailability of resources.\n\nIn the second part of the video (session 7A) we take out first tentative steps into the magical world of AI and Machine Learning.  We introduce some of the core concepts in these fields, with a focus on Supervised Machine Learning.  We then challenge our HSMAs to come up with an \"algorithm\" to determine the films Dan most enjoys, learning concepts such as features, labels, overfitting, underfitting, and performance metrics en route.\n\nAccompanying lecture materials can be found here : \nSession 3C : https://github.com/hsma5/3c_simpy_part_2\nSession 7A : https://github.com/hsma5/7a_introduction_to_ai_and_machine_learning\n\nMore information about the HSMA Programme can be found here : https://sites.google.com/nihr.ac.uk/hsma\n\nFollow us on Twitter : @PenCHORD_UoE @drdanielchalk",
+          "published": "2022-11-09T10:03:03Z",
+          "duration": "PT3H3M34S",
+          "thumbnail": "https://i.ytimg.com/vi/F3av_4iJMzA/mqdefault.jpg"
+        },
+        {
+          "id": "kMj1--jNXSA",
+          "title": "HSMA 5 7B : Ethics in AI and 7C : Machine Learning - Who Would Survive the Titanic?",
+          "description": "In the first part of this video (7B) we discuss some of the important ethical considerations necessary when undertaking AI and Machine Learning projects.  We talk about issues around representation in our data, transparency of our models as well as the severe consequences that can happen when our AI models go wrong.\n\nIn the second part of this video (7C) we look at using the scikit-learn Python library to develop a simple Logistic Regression model to see if we can predict which passengers would survive the sinking of the Titanic.  We also look at how we can ensure our feature values fall on a consistent scale, look at how stratified k-fold validation can help us to improve model performance and we also look at Receiver Operator Characteristic (ROC) curves as a means of both assessing the potential performance of our model, as well as helping us to identify classification thresholds that will yield higher performance.\n\nAccompanying lecture materials can be found here : \nSession 7B : https://github.com/hsma5/7b_ethics_in_ai\nSession 7C : https://github.com/hsma5/7c_ml_who_would_survive_the_titanic\n\nMore information about the HSMA Programme can be found here : https://sites.google.com/nihr.ac.uk/hsma\n\nFollow us on Twitter : @PenCHORD_UoE @drdanielchalk",
+          "published": "2022-11-16T12:54:59Z",
+          "duration": "PT3H12M47S",
+          "thumbnail": "https://i.ytimg.com/vi/kMj1--jNXSA/mqdefault.jpg"
+        },
+        {
+          "id": "rWFsGFVXKl0",
+          "title": "HSMA 5 7D : Introduction to Neural Networks and 7E : Synthetic Data",
+          "description": "In the first part of this video (7D), we talk about Deep Learning and the magical world of Neural Networks.  These structures allow us to get high performance learning models for a wide range of problems, although they do come with a cost - that we lose a little bit in terms of model explainability (at least \"out of the box\").\n\nIn the second part of this video (7E), we question whether anything is real as we delve into the world of Synthetic Data - methods that allow us to create fake data that can be used either instead of real data, or to augment our data where we don't have enough examples for a particular classification for our machine learning model.  We talk briefly about a few different approaches, but then work through the Synthetic Minority Oversampling Technique (SMOTE) approach.\n\nAccompanying lecture materials can be found here : \nSession 7D : https://github.com/hsma5/7d_introduction_to_neural_networks\nSession 7E : https://github.com/hsma5/7e_synthetic_data\n\nMore information about the HSMA Programme can be found here : https://sites.google.com/nihr.ac.uk/hsma\n\nFollow us on Twitter : @PenCHORD_UoE",
+          "published": "2022-11-24T11:38:57Z",
+          "duration": "PT2H57M",
+          "thumbnail": "https://i.ytimg.com/vi/rWFsGFVXKl0/mqdefault.jpg"
+        },
+        {
+          "id": "4P_7cRG_X0c",
+          "title": "HSMA 5 8A : Intro to Natural Language Processing and 8B : Named Entity Recognition & Word Clouds",
+          "description": "IMPORTANT NOTE - there is an error in the teaching in this video which has since been corrected.  Specifically, some of the named entities that I suggested should have been picked up as named entities in Exercise 1 should not have been - \"bread\" and \"milk\" are not named entities as they are not identified with a proper name (unless we are referring to a particular brand of bread or milk).  Similarly, whilst \"Discrete Event Simulation\" counts as a named entity (as it has a proper name), \"bread making\" and \"cookery\" would not count.  Similarly, I have removed \"woodwork\" as an example in one of the teaching slides.  The materials in the links below (including the exercise solutions) have been corrected.\n\nIn the first part of this video (8A), we introduce Natural Language Processing as a means of automating the extraction of information from unstructured / free-text data.  We talk about Named Entity Recognition in particular, and explore common NLP concepts such as POS-tagging and parsing.\n\nIn the second part of this video (8B), we talk about how the FOSS Package SpaCy uses Transformers at its core.  We discuss how Transformers work in a broad sense, and talk about concepts such as Attention and Context.  We then go hands-on with SpaCy to undertake some Named Entity Recognition.  We also demonstrate use of the WordCloud library for generating word clouds from our text data.\n\nAccompanying lecture materials can be found here : \nSession 8A : https://github.com/hsma5/8a_introduction_to_natural_language_processing\nSession 8B : https://github.com/hsma5/8b_named_entity_recognition_and_word_clouds\n\nMore information about the HSMA Programme can be found here : https://sites.google.com/nihr.ac.uk/hsma\n\nFollow us on Twitter : @PenCHORD_UoE",
+          "published": "2022-11-30T16:02:53Z",
+          "duration": "PT3H34M22S",
+          "thumbnail": "https://i.ytimg.com/vi/4P_7cRG_X0c/mqdefault.jpg"
+        },
+        {
+          "id": "B1fPC5ISXoU",
+          "title": "HSMA 5 8C : Sentiment Analysis and 6A : Cellular Automata",
+          "description": "In the first part of this video (8C) we revisit our old friend Neural Networks to see if we can apply the same principles to automatically predict the sentiment of a piece of text.  But because we're  dealing with text data, we'll need to look at the concepts of Standardisation and Vectorisation to get our text data Neural Network-ready.  We also look at using a handy Keras method that allows us to easily read in text files from different directories representing different classifications for our training.  We also talk a little bit about the field of Aspect-Level Sentiment Analysis, and Noun Chunks.\n\nIn the second part of this video (6A), we begin our journey into modelling behaviour by dipping our toes into the world of Cellular Automata - the purist distillation of Agent Based Simulation.  We jump in our oscillating spaceships, take part in a battle from Star Wars, avoid getting eaten by a Pulsar and journey to the Edge of Chaos and back again as we discover that the answer to life, the universe and everything is perhaps not 42, but the pattern on the cone snail Conus textile.  We also explore some potential application areas for this abstract modelling approach.\n\nAccompanying lecture materials can be found here : \nSession 8C : https://github.com/hsma5/8c_sentiment_analysis\nSession 6A : https://github.com/hsma5/6a_cellular_automata\n\nMore information about the HSMA Programme can be found here : https://sites.google.com/nihr.ac.uk/hsma\n\nFollow us on Twitter : @PenCHORD_UoE",
+          "published": "2022-12-07T17:46:21Z",
+          "duration": "PT3H36M13S",
+          "thumbnail": "https://i.ytimg.com/vi/B1fPC5ISXoU/mqdefault.jpg"
+        },
+        {
+          "id": "0qQsvLfPias",
+          "title": "HSMA 5 6B : Agent Based Simulation using MESA",
+          "description": "In this video, we walk through some code to develop a simple Agent Based Simulation to model the spread of a disease using the Python package MESA.  We talk about the concepts of Agent Based Simulation and how it can be used to model behaviour.  We then look at how MESA is structured, begin developing a simple model and see and how we can use MESA's server-based capabilities to visualise our models.\n\nAccompanying lecture materials can be found here : \nSession 6B : https://github.com/hsma5/6b_agent_based_simulation_using_mesa\n\nMore information about the HSMA Programme can be found here : https://sites.google.com/nihr.ac.uk/hsma\n\nFollow us on Twitter : @PenCHORD_UoE",
+          "published": "2022-12-14T13:08:10Z",
+          "duration": "PT1H59M53S",
+          "thumbnail": "https://i.ytimg.com/vi/0qQsvLfPias/mqdefault.jpg"
+        },
+        {
+          "id": "1083YZRK4eY",
+          "title": "HSMA 5 6B Part 2 : BYOABS (Bring Your Own Agent Based Simulation)",
+          "description": "In this short video which serves as a part 2 to session 6B, the HSMA teams present their proof-of-concept Agent Based Simulation models built using MESA, and Dan gets his festive hat to wish you all a Merry Christmas!\n\nMore information about the HSMA Programme can be found here : https://sites.google.com/nihr.ac.uk/hsma\n\nFollow us on Twitter : @PenCHORD_UoE",
+          "published": "2022-12-23T09:32:09Z",
+          "duration": "PT17M18S",
+          "thumbnail": "https://i.ytimg.com/vi/1083YZRK4eY/mqdefault.jpg"
+        },
+        {
+          "id": "wZY5vjdOzI0",
+          "title": "HSMA 5 4B : System Dynamics and 2C : Patient and Public Involvement in Research",
+          "description": "In the first part of this video (4B), we introduce you to the world of System Dynamics.  We look at how we can explore the influential dynamics within a system to try and understand something more about how the system works, and whether there are intrinsic problems within the structure of a system.  We use a lovely online piece of software called InsightMaker to do this - it's completely free and just requires you to register for a free account.  And the good news for those who need a break from coding - there's no Python (or any other language) needed, it's all drag and drop!\n\nIn the second part of this video (2C), our guest lecturers Georgia Jenkins, Lauren Asare and Leon Farmer talk about Patient and Public Involvement in Research - what it is, why it's important and the practicalities of involving patients and public in your research.\n\nAccompanying lecture materials can be found here : \nSession 4B : https://github.com/hsma5/4b_system_dynamics\n\nMore information about the HSMA Programme can be found here : https://sites.google.com/nihr.ac.uk/hsma\n\nFollow us on Twitter : @PenCHORD_UoE",
+          "published": "2023-01-19T18:55:48Z",
+          "duration": "PT3H34M26S",
+          "thumbnail": "https://i.ytimg.com/vi/wZY5vjdOzI0/mqdefault.jpg"
+        },
+        {
+          "id": "mzJcwb4psQ0",
+          "title": "IPACS Workshop",
+          "description": "",
+          "published": "2023-02-17T16:49:04Z",
+          "duration": "PT1H36M48S",
+          "thumbnail": "https://i.ytimg.com/vi/mzJcwb4psQ0/mqdefault.jpg"
+        },
+        {
+          "id": "zkqWv1qGjGI",
+          "title": "HSMA 5 7F : Reinforcement Learning",
+          "description": "In this video, we introduce some of the core concepts of Reinforcement Learning by using the 80s cult-classic UK TV series Treasure Hunt as our inspiration.  We talk about the fundamental principles of Reinforcement Learning, the exploration / exploitation dilemma, multi-armed bandit problems and a Linear Operator Learning Rule.  We also touch on Deep Q Reinforcement Learning as an extension to the core principles which incorporates Neural Networks, and take some time to think about potential application areas for these methods.\n\nAccompanying lecture materials can be found here : \nSession 7F : https://github.com/hsma5/7f_reinforcement_learning\n\nMore information about the HSMA Programme can be found here : https://sites.google.com/nihr.ac.uk/hsma\n\nFollow us on Twitter : @PenCHORD_UoE",
+          "published": "2023-03-01T12:53:59Z",
+          "duration": "PT2H16M10S",
+          "thumbnail": "https://i.ytimg.com/vi/zkqWv1qGjGI/mqdefault.jpg"
+        },
+        {
+          "id": "_FKmFtp_jg4",
+          "title": "HSMA 1F : Basics of R",
+          "description": "In this video, our guest lecturer - Simon Wellesley-Miller (NHS England) introduces us to the world of R, for those bored of good coding languages like Python :) (Just kidding... mostly...).  The video acts as a code-along using R Studio in the cloud, and goes from the basics to some of the great plotting and analysis that can be done using R packages.\n\nMore information about the HSMA Programme can be found here : https://sites.google.com/nihr.ac.uk/hsma\n\nFollow us on Twitter : @PenCHORD_UoE",
+          "published": "2023-03-08T11:03:00Z",
+          "duration": "PT5H32M16S",
+          "thumbnail": "https://i.ytimg.com/vi/_FKmFtp_jg4/mqdefault.jpg"
+        },
+        {
+          "id": "SDRV6dujJ6Q",
+          "title": "HSMA 5 2B : Principles of FOSS and Version Control using Git",
+          "description": "In this video, we introduce viewers to the world of version control using Git and collaborative open source development using GitHub.  First, we talk about the importance of FOSS and Open Science.  We talk a bit about the history of FOSS, as well as reminisce about the good old days of computing, when a \"high resolution display\" meant that you tuned your TV into a slightly less fuzzy picture.\n\nThen we move onto the meat of the session - introducing you to version control, and specifically, Git.  We'll talk about why version control is so important using an example from Father Ted, and show you the basics of Git, before giving you a chance to have a go at using Git yourselves.\n\nFinally we explore the world of GitHub as an online sharing and repository platform, and how Git integrates with GitHub.  You'll have a chance to play with Git integration with GitHub, and hear a funny story about what happened when I wrote this training.  We draw our inspiration for the GitHub training from The Chuckle Brothers.\n\nAccompanying lecture materials can be found here : \nSession 2B : https://github.com/hsma5/2b_principles_of_foss_and_version_control\n\nMore information about the HSMA Programme can be found here : https://sites.google.com/nihr.ac.uk/hsma\n\nFollow us on Twitter : @PenCHORD_UoE",
+          "published": "2023-05-17T10:27:17Z",
+          "duration": "PT4H16M32S",
+          "thumbnail": "https://i.ytimg.com/vi/SDRV6dujJ6Q/mqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "label": "HSMA 4",
+      "id": "PLgHO2TgIJXdk9Kfqxxb_gmV2jPeIsbYTc",
+      "videos": [
+        {
+          "id": "qe3sms-TqD0",
+          "title": "BONUS TUTORIAL : Simpy PriorityResource",
+          "description": "This bonus tutorial shows students how to easily add functionality to their SimPy models that allows for entities that are queuing to prioritised rather than be seen in a strictly first-in first-out manner.  You should watch this Bonus Tutorial after completing Session 5C : SimPy Part 2 of the HSMA Programme.",
+          "published": "2020-08-27T12:29:39Z",
+          "duration": "PT16M53S",
+          "thumbnail": "https://i.ytimg.com/vi/qe3sms-TqD0/mqdefault.jpg"
+        },
+        {
+          "id": "732BleYHhF0",
+          "title": "BONUS TUTORIAL : Modelling resource unavailability in SimPy",
+          "description": "In this bonus tutorial we explain how we can model periods of unavailability of our resources in our SimPy models.  This tutorial should be completed after the Bonus Tutorial on Priority Resource, and after Session 3C : SimPy Part 2 of the HSMA Programme.",
+          "published": "2020-08-27T14:39:16Z",
+          "duration": "PT14M45S",
+          "thumbnail": "https://i.ytimg.com/vi/732BleYHhF0/mqdefault.jpg"
+        },
+        {
+          "id": "fZ2gQZwT1Gw",
+          "title": "Geopandas (python 3.8)",
+          "description": "Tutorial for GeoPandas using Python 3.8.\n\nAll materials available at:\n\nhttps://github.com/MichaelAllen1966/2010_geopandas",
+          "published": "2021-10-26T15:27:56Z",
+          "duration": "PT1H9M52S",
+          "thumbnail": "https://i.ytimg.com/vi/fZ2gQZwT1Gw/mqdefault.jpg"
+        },
+        {
+          "id": "jOW5LwmXy4g",
+          "title": "HSMA introduction to geospatial analysis",
+          "description": "HSMA-4 introduction to geospatial analysis",
+          "published": "2022-05-04T15:09:13Z",
+          "duration": "PT38M2S",
+          "thumbnail": "https://i.ytimg.com/vi/jOW5LwmXy4g/mqdefault.jpg"
+        },
+        {
+          "id": "vmoxlGlkpfs",
+          "title": "HSMA 4 1A (Introduction to Operational Research and Data Science) and 1B (Principles of Programming)",
+          "description": "",
+          "published": "2022-05-04T15:05:46Z",
+          "duration": "PT3H33M17S",
+          "thumbnail": "https://i.ytimg.com/vi/vmoxlGlkpfs/mqdefault.jpg"
+        },
+        {
+          "id": "gwzQ1OPjJ0k",
+          "title": "HSMA 4 Session 2A : Spyder, Jupyter Notebooks and Google CoLab",
+          "description": "",
+          "published": "2022-05-04T15:07:28Z",
+          "duration": "PT1H25M57S",
+          "thumbnail": "https://i.ytimg.com/vi/gwzQ1OPjJ0k/mqdefault.jpg"
+        },
+        {
+          "id": "rRepYTJ-y8k",
+          "title": "HSMA 4 Session 1C : Python Programming Part 1",
+          "description": "",
+          "published": "2022-05-04T15:07:51Z",
+          "duration": "PT3H55M3S",
+          "thumbnail": "https://i.ytimg.com/vi/rRepYTJ-y8k/mqdefault.jpg"
+        },
+        {
+          "id": "hnimOPhql0k",
+          "title": "Making Web Apps with Streamlit (2 of 2)",
+          "description": "Making python web apps using StreamLit\n\nThis video focuses on makign a web app available on a Digital Ocean server\n\nGitHub repo for these example: https://github.com/MichaelAllen1966/2109_streamlit_examples\n\nStreamlit web: streamlit.io\n\nDigital Ocean: https://www.digitalocean.com/",
+          "published": "2021-10-14T10:55:25Z",
+          "duration": "PT40M26S",
+          "thumbnail": "https://i.ytimg.com/vi/hnimOPhql0k/mqdefault.jpg"
+        },
+        {
+          "id": "_PPUk__mXLI",
+          "title": "Making Web Apps with Streamlit (1 of 2)",
+          "description": "Making python web apps using StreamLit.\n\nThis video focuses on creating a web app and testing locally.\n\nGitHub repo for these example: https://github.com/MichaelAllen1966/2109_streamlit_examples\n\nStreamlit web: streamlit.io\n\nDigital Ocean: https://www.digitalocean.com/",
+          "published": "2021-10-14T11:07:22Z",
+          "duration": "PT44M41S",
+          "thumbnail": "https://i.ytimg.com/vi/_PPUk__mXLI/mqdefault.jpg"
+        },
+        {
+          "id": "DM8g8vBgQUY",
+          "title": "HSMA 4 Session 1D : Python Programming Part 2",
+          "description": "",
+          "published": "2022-05-04T15:08:22Z",
+          "duration": "PT2H55M26S",
+          "thumbnail": "https://i.ytimg.com/vi/DM8g8vBgQUY/mqdefault.jpg"
+        },
+        {
+          "id": "dnINgY0o6ro",
+          "title": "HSMA 4 Session 1E : Python Programming Part 3",
+          "description": "",
+          "published": "2022-05-04T15:08:35Z",
+          "duration": "PT2H45M43S",
+          "thumbnail": "https://i.ytimg.com/vi/dnINgY0o6ro/mqdefault.jpg"
+        },
+        {
+          "id": "owPyL-ZlNmg",
+          "title": "HSMA 4 Session 2B : Principles of FOSS and Version Control",
+          "description": "",
+          "published": "2022-05-04T15:08:53Z",
+          "duration": "PT2H31M44S",
+          "thumbnail": "https://i.ytimg.com/vi/owPyL-ZlNmg/mqdefault.jpg"
+        },
+        {
+          "id": "-QuHjUPHzU8",
+          "title": "HSMA 4 Sessions 3A and 3B (Discrete Event Simulation and SimPy Part 1)",
+          "description": "",
+          "published": "2022-05-04T15:09:07Z",
+          "duration": "PT3H58M39S",
+          "thumbnail": "https://i.ytimg.com/vi/-QuHjUPHzU8/mqdefault.jpg"
+        },
+        {
+          "id": "8LNthQ4ZkSQ",
+          "title": "facility location part1",
+          "description": "",
+          "published": "2022-05-04T15:09:16Z",
+          "duration": "PT4M25S",
+          "thumbnail": "https://i.ytimg.com/vi/8LNthQ4ZkSQ/mqdefault.jpg"
+        },
+        {
+          "id": "9a9o4nt6Rk4",
+          "title": "HSMA Facility Location",
+          "description": "HSMA Facility Location: An evolutionary approach",
+          "published": "2022-05-04T15:09:19Z",
+          "duration": "PT31M16S",
+          "thumbnail": "https://i.ytimg.com/vi/9a9o4nt6Rk4/mqdefault.jpg"
+        },
+        {
+          "id": "4hR2CVBiotg",
+          "title": "HSMA 4 Session 4A : Introduction to Network Analysis (Raw Recording)",
+          "description": "",
+          "published": "2022-05-04T15:09:24Z",
+          "duration": "PT2H27M55S",
+          "thumbnail": "https://i.ytimg.com/vi/4hR2CVBiotg/mqdefault.jpg"
+        },
+        {
+          "id": "mXBlKCcy6IY",
+          "title": "HSMA 4 Session 7A : Introduction to AI and Machine Learning",
+          "description": "",
+          "published": "2022-05-04T15:09:26Z",
+          "duration": "PT1H43M4S",
+          "thumbnail": "https://i.ytimg.com/vi/mXBlKCcy6IY/mqdefault.jpg"
+        },
+        {
+          "id": "_CNsF3eTuTo",
+          "title": "An introduction to routing and scheduling",
+          "description": "HSMA 4: an introduction to routing and scheduling",
+          "published": "2022-05-04T15:09:41Z",
+          "duration": "PT43M10S",
+          "thumbnail": "https://i.ytimg.com/vi/_CNsF3eTuTo/mqdefault.jpg"
+        },
+        {
+          "id": "KRLhpEGg-bk",
+          "title": "HSMA 4 Session 8A : Natural Language Processing",
+          "description": "",
+          "published": "2022-05-04T15:09:53Z",
+          "duration": "PT1H57M14S",
+          "thumbnail": "https://i.ytimg.com/vi/KRLhpEGg-bk/mqdefault.jpg"
+        },
+        {
+          "id": "_3jUdnjoVuw",
+          "title": "HSMA: Running the forecasting code using Colab or Binder",
+          "description": "HSMA: Running the forecasting code using Colab or Binder",
+          "published": "2022-05-04T15:09:57Z",
+          "duration": "PT5M30S",
+          "thumbnail": "https://i.ytimg.com/vi/_3jUdnjoVuw/mqdefault.jpg"
+        },
+        {
+          "id": "GpR6BxJGcak",
+          "title": "HSMA Forecasting: Setting up a conda environment",
+          "description": "HSMA Forecasting: Setting up a conda environment",
+          "published": "2022-05-04T15:10:00Z",
+          "duration": "PT7M57S",
+          "thumbnail": "https://i.ytimg.com/vi/GpR6BxJGcak/mqdefault.jpg"
+        },
+        {
+          "id": "Gc3Z5po80BM",
+          "title": "HSMA 4 Session 3C (SimPy Part 2) and Session 6A (Cellular Automata)",
+          "description": "",
+          "published": "2022-05-04T15:10:25Z",
+          "duration": "PT3H23M38S",
+          "thumbnail": "https://i.ytimg.com/vi/Gc3Z5po80BM/mqdefault.jpg"
+        },
+        {
+          "id": "BSC_eZN6gcg",
+          "title": "HSMA 4 Session 7B : Ethics in AI",
+          "description": "",
+          "published": "2022-05-04T15:10:33Z",
+          "duration": "PT1H34M18S",
+          "thumbnail": "https://i.ytimg.com/vi/BSC_eZN6gcg/mqdefault.jpg"
+        },
+        {
+          "id": "FUMblNjbq9w",
+          "title": "HSMA 4 Session 7C : Machine Learning - Who Would Survive the Titanic?",
+          "description": "",
+          "published": "2022-05-04T15:10:41Z",
+          "duration": "PT1H41M18S",
+          "thumbnail": "https://i.ytimg.com/vi/FUMblNjbq9w/mqdefault.jpg"
+        },
+        {
+          "id": "pDiCXAzFO6Q",
+          "title": "HSMA 4 Session 7D : Deeper into Machine Learning - Introduction to Neural Networks",
+          "description": "",
+          "published": "2022-05-04T15:11:06Z",
+          "duration": "PT51M11S",
+          "thumbnail": "https://i.ytimg.com/vi/pDiCXAzFO6Q/mqdefault.jpg"
+        },
+        {
+          "id": "H4eopptC_Tw",
+          "title": "HSMA 4: Module 9b setup on Windows",
+          "description": "Follow the instructions in this video to setup a conda environment for HSMA4: module 9b Simple Forecasting",
+          "published": "2022-05-04T15:11:13Z",
+          "duration": "PT10M8S",
+          "thumbnail": "https://i.ytimg.com/vi/H4eopptC_Tw/mqdefault.jpg"
+        },
+        {
+          "id": "DTm6a13IiSg",
+          "title": "HSMA: Forecasting with Prophet Code along 2",
+          "description": "HSMA: Forecasting with Prophet Code along 2",
+          "published": "2022-05-04T15:11:18Z",
+          "duration": "PT16M10S",
+          "thumbnail": "https://i.ytimg.com/vi/DTm6a13IiSg/mqdefault.jpg"
+        },
+        {
+          "id": "5MV1coh63oA",
+          "title": "HSMA: forecasting with Prophet. Code along 3",
+          "description": "HSMA: forecasting with Prophet. Code along 3",
+          "published": "2022-05-04T15:11:21Z",
+          "duration": "PT13M37S",
+          "thumbnail": "https://i.ytimg.com/vi/5MV1coh63oA/mqdefault.jpg"
+        },
+        {
+          "id": "RENVbduz6Jk",
+          "title": "HSMA 4 Session 1F : Getting to Grips with Programming in R",
+          "description": "",
+          "published": "2022-05-04T15:11:40Z",
+          "duration": "PT1H36M25S",
+          "thumbnail": "https://i.ytimg.com/vi/RENVbduz6Jk/mqdefault.jpg"
+        },
+        {
+          "id": "_MuRtQoUdlM",
+          "title": "HSMA 4 Sessions 8B (Named Entity Recognition) and 8C (Sentiment Analysis)",
+          "description": "",
+          "published": "2022-05-04T15:11:50Z",
+          "duration": "PT3H46M13S",
+          "thumbnail": "https://i.ytimg.com/vi/_MuRtQoUdlM/mqdefault.jpg"
+        },
+        {
+          "id": "h_V8I04p-0U",
+          "title": "HSMA 4 Sessions 6B and 6C :Agent Based Simulation using MESA Parts 1 and 2",
+          "description": "",
+          "published": "2022-05-04T15:12:08Z",
+          "duration": "PT3H10M12S",
+          "thumbnail": "https://i.ytimg.com/vi/h_V8I04p-0U/mqdefault.jpg"
+        },
+        {
+          "id": "zBNa6Zo-2lM",
+          "title": "HSMA: Introduction to autoregressive models + iterative and direct forecasting",
+          "description": "HSMA: Introduction to autoregressive models + iterative and direct forecasting",
+          "published": "2022-05-04T15:12:14Z",
+          "duration": "PT39M16S",
+          "thumbnail": "https://i.ytimg.com/vi/zBNa6Zo-2lM/mqdefault.jpg"
+        },
+        {
+          "id": "nR2aMNN076c",
+          "title": "HSMA 4 Session 4B : System Dynamics",
+          "description": "",
+          "published": "2022-05-04T15:12:28Z",
+          "duration": "PT1H32M28S",
+          "thumbnail": "https://i.ytimg.com/vi/nR2aMNN076c/mqdefault.jpg"
+        },
+        {
+          "id": "RJK8kGJ9Jv4",
+          "title": "HSMA 4 Session 3D : A Generic ED Model using R",
+          "description": "",
+          "published": "2022-05-04T15:12:37Z",
+          "duration": "PT2H53M41S",
+          "thumbnail": "https://i.ytimg.com/vi/RJK8kGJ9Jv4/mqdefault.jpg"
+        },
+        {
+          "id": "xwTdu66nXwI",
+          "title": "HSMA 4 Session 4C and 4D : Advanced Network Analysis (Parts 1 and 2)",
+          "description": "",
+          "published": "2022-05-04T15:12:45Z",
+          "duration": "PT4H45M53S",
+          "thumbnail": "https://i.ytimg.com/vi/xwTdu66nXwI/mqdefault.jpg"
+        },
+        {
+          "id": "vg6RdBQaQT8",
+          "title": "Discrete event simulation   NDC",
+          "description": "",
+          "published": "2022-05-04T15:12:49Z",
+          "duration": "PT2M26S",
+          "thumbnail": "https://i.ytimg.com/vi/vg6RdBQaQT8/mqdefault.jpg"
+        },
+        {
+          "id": "tPlZaS_cjLk",
+          "title": "HSMA 4 Session 1G : Advanced R",
+          "description": "",
+          "published": "2022-05-04T15:13:22Z",
+          "duration": "PT4H16M16S",
+          "thumbnail": "https://i.ytimg.com/vi/tPlZaS_cjLk/mqdefault.jpg"
+        },
+        {
+          "id": "e4Z7-8guaSE",
+          "title": "HSMA 4 Session 7E : Synthetic Data",
+          "description": "",
+          "published": "2022-05-04T15:13:32Z",
+          "duration": "PT1H15M33S",
+          "thumbnail": "https://i.ytimg.com/vi/e4Z7-8guaSE/mqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "label": "HSMA 3",
+      "id": "PLgHO2TgIJXdnoYRsxukJET7FwoOO4Qqag",
+      "videos": [
+        {
+          "id": "sq44Ucqq78w",
+          "title": "Session 1 Lecture 1 : An Introduction to OR and Data Science",
+          "description": "",
+          "published": "2020-10-01T16:27:30Z",
+          "duration": "PT59M58S",
+          "thumbnail": "https://i.ytimg.com/vi/sq44Ucqq78w/mqdefault.jpg"
+        },
+        {
+          "id": "ayMfMnuS6V8",
+          "title": "Session 1 Lecture 2 : Distributions, Validation and Verification and Data Science",
+          "description": "",
+          "published": "2020-10-01T16:08:35Z",
+          "duration": "PT45M17S",
+          "thumbnail": "https://i.ytimg.com/vi/ayMfMnuS6V8/mqdefault.jpg"
+        },
+        {
+          "id": "nXmdMhF1Q9Q",
+          "title": "Session 2 Lecture 1 : Principles of Variables, Conditional Logic and Loops",
+          "description": "",
+          "published": "2020-10-01T16:06:27Z",
+          "duration": "PT24M59S",
+          "thumbnail": "https://i.ytimg.com/vi/nXmdMhF1Q9Q/mqdefault.jpg"
+        },
+        {
+          "id": "DJKm3R8nkUY",
+          "title": "Session 2 Lecture 2 : Principles of Functions and Object Oriented Programming",
+          "description": "",
+          "published": "2020-10-01T16:07:13Z",
+          "duration": "PT20M40S",
+          "thumbnail": "https://i.ytimg.com/vi/DJKm3R8nkUY/mqdefault.jpg"
+        },
+        {
+          "id": "w-i2kXi2olo",
+          "title": "Session 3A Lecture 1 : Hello World!",
+          "description": "",
+          "published": "2020-10-06T16:02:16Z",
+          "duration": "PT35M55S",
+          "thumbnail": "https://i.ytimg.com/vi/w-i2kXi2olo/mqdefault.jpg"
+        },
+        {
+          "id": "_r3P0T1MwqA",
+          "title": "Session 3A Lecture 2 : Operators and Conditional Logic",
+          "description": "",
+          "published": "2020-10-06T16:00:31Z",
+          "duration": "PT20M36S",
+          "thumbnail": "https://i.ytimg.com/vi/_r3P0T1MwqA/mqdefault.jpg"
+        },
+        {
+          "id": "pFayCxrXA7U",
+          "title": "Session 3A Lecture 3 : For and While Loops",
+          "description": "",
+          "published": "2020-10-06T16:02:18Z",
+          "duration": "PT25M25S",
+          "thumbnail": "https://i.ytimg.com/vi/pFayCxrXA7U/mqdefault.jpg"
+        },
+        {
+          "id": "4_7s-lZUa-s",
+          "title": "Session 3A Lecture 4 : Lists and Dictionaries",
+          "description": "",
+          "published": "2020-10-06T16:03:44Z",
+          "duration": "PT29M30S",
+          "thumbnail": "https://i.ytimg.com/vi/4_7s-lZUa-s/mqdefault.jpg"
+        },
+        {
+          "id": "J1eyJd95CQI",
+          "title": "Session 3A Lecture 5 : Libraries and Imports",
+          "description": "",
+          "published": "2020-10-06T16:04:03Z",
+          "duration": "PT22M27S",
+          "thumbnail": "https://i.ytimg.com/vi/J1eyJd95CQI/mqdefault.jpg"
+        },
+        {
+          "id": "1Qj7c6qWVWs",
+          "title": "Session 3C Lecture 1 : Object Oriented Programming in Python",
+          "description": "",
+          "published": "2020-10-20T15:53:31Z",
+          "duration": "PT39M19S",
+          "thumbnail": "https://i.ytimg.com/vi/1Qj7c6qWVWs/mqdefault.jpg"
+        },
+        {
+          "id": "e0gouYntSp0",
+          "title": "Session 3C Lecture 3 : Debugging",
+          "description": "",
+          "published": "2020-10-20T15:54:44Z",
+          "duration": "PT20M42S",
+          "thumbnail": "https://i.ytimg.com/vi/e0gouYntSp0/mqdefault.jpg"
+        },
+        {
+          "id": "NG3FJl5b1SI",
+          "title": "Session 3C Lecture 2 : Inheritance and Plotting using MatPlotLib",
+          "description": "",
+          "published": "2020-10-20T16:02:26Z",
+          "duration": "PT47M46S",
+          "thumbnail": "https://i.ytimg.com/vi/NG3FJl5b1SI/mqdefault.jpg"
+        },
+        {
+          "id": "n471TyuGytc",
+          "title": "Session 3B Lecture 1 : Functions and Exception Handling",
+          "description": "",
+          "published": "2020-10-13T15:48:22Z",
+          "duration": "PT19M48S",
+          "thumbnail": "https://i.ytimg.com/vi/n471TyuGytc/mqdefault.jpg"
+        },
+        {
+          "id": "3R9KTI4dbVE",
+          "title": "Session 3B Lecture 2 : File Reading and Writing",
+          "description": "",
+          "published": "2020-10-13T15:50:31Z",
+          "duration": "PT25M54S",
+          "thumbnail": "https://i.ytimg.com/vi/3R9KTI4dbVE/mqdefault.jpg"
+        },
+        {
+          "id": "vImhbxEcjs8",
+          "title": "Session 3B Lecture 3 : NumPy",
+          "description": "",
+          "published": "2020-10-13T15:54:26Z",
+          "duration": "PT42M55S",
+          "thumbnail": "https://i.ytimg.com/vi/vImhbxEcjs8/mqdefault.jpg"
+        },
+        {
+          "id": "dgGkRiZNFYk",
+          "title": "Session 3B Lecture 4 : Pandas",
+          "description": "",
+          "published": "2020-10-13T15:51:12Z",
+          "duration": "PT18M32S",
+          "thumbnail": "https://i.ytimg.com/vi/dgGkRiZNFYk/mqdefault.jpg"
+        },
+        {
+          "id": "3yQVpIcs0zg",
+          "title": "Session 5A Lecture 1 : An Introduction to Discrete Event Simulation",
+          "description": "",
+          "published": "2020-10-27T17:05:42Z",
+          "duration": "PT1H15M27S",
+          "thumbnail": "https://i.ytimg.com/vi/3yQVpIcs0zg/mqdefault.jpg"
+        },
+        {
+          "id": "d_c8d8j-asA",
+          "title": "Session 5A Lecture 2 : Python Generator Functions and a Glimpse at SimPy",
+          "description": "",
+          "published": "2020-10-27T17:10:16Z",
+          "duration": "PT36M18S",
+          "thumbnail": "https://i.ytimg.com/vi/d_c8d8j-asA/mqdefault.jpg"
+        },
+        {
+          "id": "8eM59sl0VHs",
+          "title": "Session 6A Lecture 1: Introdution to QGIS and basemaps",
+          "description": "",
+          "published": "2020-10-28T14:16:37Z",
+          "duration": "PT31M6S",
+          "thumbnail": "https://i.ytimg.com/vi/8eM59sl0VHs/mqdefault.jpg"
+        },
+        {
+          "id": "RZJRAn5JNPU",
+          "title": "Session 6A Lecture 2: Projections and single symbol symbology",
+          "description": "",
+          "published": "2020-10-28T14:42:37Z",
+          "duration": "PT16M48S",
+          "thumbnail": "https://i.ytimg.com/vi/RZJRAn5JNPU/mqdefault.jpg"
+        },
+        {
+          "id": "HGZV3Ciobak",
+          "title": "Session 6A Lecture 3: Point data and categorized symbology",
+          "description": "",
+          "published": "2020-10-28T14:45:10Z",
+          "duration": "PT10M34S",
+          "thumbnail": "https://i.ytimg.com/vi/HGZV3Ciobak/mqdefault.jpg"
+        },
+        {
+          "id": "_PW8oma82mM",
+          "title": "Session 6A Lecture 4: Shapefiles and graduated symbology",
+          "description": "",
+          "published": "2020-10-28T14:43:03Z",
+          "duration": "PT22M24S",
+          "thumbnail": "https://i.ytimg.com/vi/_PW8oma82mM/mqdefault.jpg"
+        },
+        {
+          "id": "h3BQdhwkumg",
+          "title": "Session 6A Lecture 5: Print layout",
+          "description": "",
+          "published": "2020-10-28T14:44:43Z",
+          "duration": "PT4M29S",
+          "thumbnail": "https://i.ytimg.com/vi/h3BQdhwkumg/mqdefault.jpg"
+        },
+        {
+          "id": "QEZFnERpZxY",
+          "title": "Session 6B : An introduction to GeoPandas",
+          "description": "GitHub (with link to running on BinderHub)\nhttps://github.com/MichaelAllen1966/2010_geopandas\n\nThis video takes you through the 'geopandas_1_blank.ipynb' notebook\n\nTimings:\n00'00 Introduction, installing locally, and running on BinderHub\n13'15 Loading shape file into GeoPandas DataFrame. Showing simple map\n26'45 Loading county data, and pointing to Scratica video on lambda functions: https://youtu.be/25ovCm9jKfA\n32:35 Selecting counties of interest with map and lambda. Dissolving shapes into a single shape.\n49'05 Getting LSOAs in our defined geometry\n56'15 Loading point data and converting between Lat/Long and BNG Eastings/Northings\n1'07'45 Mapping areas and points and adding a basemap\n1'31'32 Optional: Add two maps (one of train lines)\n\nAlso see: https://geopandas.org/",
+          "published": "2020-10-31T08:02:31Z",
+          "duration": "PT1H36M59S",
+          "thumbnail": "https://i.ytimg.com/vi/QEZFnERpZxY/mqdefault.jpg"
+        },
+        {
+          "id": "8mRnOuGcBLY",
+          "title": "Session 7A Lecture 1 : Qualitative System Dynamics",
+          "description": "",
+          "published": "2020-11-03T15:24:43Z",
+          "duration": "PT20M46S",
+          "thumbnail": "https://i.ytimg.com/vi/8mRnOuGcBLY/mqdefault.jpg"
+        },
+        {
+          "id": "akorSpBGeFg",
+          "title": "Session 7A Lecture 2 : Quantitative System Dynamics and InsightMaker",
+          "description": "",
+          "published": "2020-11-03T15:30:40Z",
+          "duration": "PT59M18S",
+          "thumbnail": "https://i.ytimg.com/vi/akorSpBGeFg/mqdefault.jpg"
+        },
+        {
+          "id": "M-lJoeCAkb4",
+          "title": "Session 8A Introduction to Network Analysis",
+          "description": "This video introduces the idea of network analysis for health service research. We look at the data transformation process from raw data to producing a basic network visualisation of that data using python and the NetworkX package. The GitHub repository with the session materials can be found at https://github.com/hsma-master/hsma/tree/master/8A_Introduction_to_Network_Analysis",
+          "published": "2020-11-10T14:43:10Z",
+          "duration": "PT1H44M13S",
+          "thumbnail": "https://i.ytimg.com/vi/M-lJoeCAkb4/mqdefault.jpg"
+        },
+        {
+          "id": "VeQkhfDYyMc",
+          "title": "Session 9A Lecture : Agent Based Simulation using MESA",
+          "description": "",
+          "published": "2020-11-10T17:19:23Z",
+          "duration": "PT2H8M43S",
+          "thumbnail": "https://i.ytimg.com/vi/VeQkhfDYyMc/mqdefault.jpg"
+        },
+        {
+          "id": "zJ0jvkJU_KU",
+          "title": "Session 10 Lecture: Machine Learning Classification",
+          "description": "A lesson on using logistic regression for classification.\n\nFollow either of the two links to get to the code repository. Folly the GitHub link to be able to run the notebookd on the cloud on BinderHub or Google Colab (Colab is recommended but requires a Google account).\n\nMain starting web page: https://pythonhealthcare.org/titanic-survival/\n\nDirect to GitHub: https://github.com/MichaelAllen1966/2004_titanic\n\n\nVideo Contents:\n\n0'05: Setting up a local environment or using a cloud environment for this lesson\n\n17'09 What is Machine Learning? The three types of Machine Learning.\n\n31'32 Classification in machine learning\n\n35'43 Linear and logistic regression\n\n43'06 Feature scaling\n\n1'02'19 Logistic regression model for the Titanic\n\n1'51'08 Getting feature weights (coefficients)\n\n2'04'38 Getting probabilities out of model\n\n2'13'49 Do one yourself\n\n2'20'09 Introducing Kaggle\n\n\nKey workflow described:\n1. Load data & take quick look\n2. Split into X (features) and y (label)\n3. Split into training and test data sets\n4. Scale (standardise/normalise) data\n5. Fit model\n6. Test accuracy\n7. Get model weights/coefficients\n8. Get probability outputs\n\n\nResources:\n\nHands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow by Aurelien Geron\n\nhttps://www.amazon.co.uk/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646/\n\nAlphaGo the Movie: How Google built AI to win at Go\nhttps://youtu.be/WXuK6gekU1Y",
+          "published": "2020-11-17T16:38:35Z",
+          "duration": "PT2H25M28S",
+          "thumbnail": "https://i.ytimg.com/vi/zJ0jvkJU_KU/mqdefault.jpg"
+        },
+        {
+          "id": "LOrsK9mHeaE",
+          "title": "Installing and running the Titanic environment on Windows",
+          "description": "This video installs and runs the Titanic environment from here: \nhttps://github.com/MichaelAllen1966/2004_titanic",
+          "published": "2020-11-24T12:13:14Z",
+          "duration": "PT15M16S",
+          "thumbnail": "https://i.ytimg.com/vi/LOrsK9mHeaE/mqdefault.jpg"
+        },
+        {
+          "id": "n9rXLOtNXQk",
+          "title": "Session 11A : Introduction to Natural Language Processing",
+          "description": "",
+          "published": "2020-11-25T09:56:47Z",
+          "duration": "PT1H38M53S",
+          "thumbnail": "https://i.ytimg.com/vi/n9rXLOtNXQk/mqdefault.jpg"
+        },
+        {
+          "id": "9pjzroktT0o",
+          "title": "Session 7B Lecture 1 : Expanding the Chicken and Egg Model using InsightMaker",
+          "description": "",
+          "published": "2020-11-26T17:04:12Z",
+          "duration": "PT33M57S",
+          "thumbnail": "https://i.ytimg.com/vi/9pjzroktT0o/mqdefault.jpg"
+        },
+        {
+          "id": "jjUMaQbPIMM",
+          "title": "Session 7B Lecture 2 : Additional InsightMaker features, and critically appraising models",
+          "description": "",
+          "published": "2020-11-26T17:06:55Z",
+          "duration": "PT52M12S",
+          "thumbnail": "https://i.ytimg.com/vi/jjUMaQbPIMM/mqdefault.jpg"
+        },
+        {
+          "id": "IAzuLSa-sb0",
+          "title": "An introduction to neural nets using TensorFlow, Keras, and the Titanic Survival data",
+          "description": "Launch colab notebook HSMA_neural_nets.ipynb from here (this is shown early on in the video):\n\nhttps://github.com/MichaelAllen1966/2004_titanic\n\n01'22 What is a GPU?\n04'46 Running the Titanic Notebook, and using Colab\n10'04 Neurons/perceptrons - the building blocks of neural networks\n16'06 From neurons to neural nets\n25'30 Measuring network error (loss)\n28'10 Backpropagation and Optimizers\n33'13 Practicalities of fitting networks\n36'11 Neural network architectures\n44'50 Fitting a neural net to Titanic survival data\n1'13'08 Avoiding over-fitting in neural nets\n1'30'13 Saving and loading models\n\nFor more on machine learning classification using Titanic survival data as an example see:\n\nhttps://pythonhealthcare.org/titanic-survival/",
+          "published": "2020-11-27T16:14:21Z",
+          "duration": "PT1H33M21S",
+          "thumbnail": "https://i.ytimg.com/vi/IAzuLSa-sb0/mqdefault.jpg"
+        },
+        {
+          "id": "_XUC8QbDIlY",
+          "title": "Session 4a: Introduction to R (using RStudio)",
+          "description": "This video is an introduction to R based on the materials found on https://rforhealthcare.org/ \nThe video covers the following topics:\n- An introduction to R and RStudio\n- Setting your working directory\n- Installing packages\n- Some R language conventions\n- Sequence generation and replication\n- Variable types and conversion\n- Data structures and conversion\n- Vector arithmatic\n- Identifying unique values\n- Array sizes\n- String concatenation and splitting\n- Conditional logic and functions\n- Reading from and writing to files\n- Subscripting and subsetting\n- Merging and appending data\n- Sorting data\n- Date and time data handling\n- Tablulation\n- Loops (if and while)\n- User defined functions",
+          "published": "2020-11-30T11:45:08Z",
+          "duration": "PT3H35M33S",
+          "thumbnail": "https://i.ytimg.com/vi/_XUC8QbDIlY/mqdefault.jpg"
+        },
+        {
+          "id": "A9CFqcyI4v8",
+          "title": "HSMA Deep Learning Tutorial. Introducing Deep Q Networks with CartPole and a hospital simulation",
+          "description": "GitHub repo for code for this example: https://github.com/MichaelAllen1966/2011_hsma_dqn\n\nCode for more AI agents controlling staffed beds: https://github.com/MichaelAllen1966/learninghospital\n\nPaper: https://arxiv.org/abs/2008.07434\n\nIntroductory videos on machine learning classification:\nLogistic regression: https://youtu.be/zJ0jvkJU_KU\nNeural nets: https://youtu.be/IAzuLSa-sb0\n\nVideo contents:\n00'00 Intro\n02'29 Key elements of Deep Reinforcement Learning\n19'19 What is Q? A worked example\n41'10 How does a network learn Q?\n53'26 Deep Q Networks (DQN) and Double Deep Q Networks (DDQN)\n1'10'23 Setting up the enviornment\n1'17'27 An introduction to CartPole\n1'25'54 DDQN for CartPole\n2'15'12 DDQN for a hospital bed staffing sim\n2'29 THE END!\n\nFurther developments on DQNs and hospital simulation:\nhttps://github.com/MichaelAllen1966/learninghospital",
+          "published": "2020-11-30T16:58:28Z",
+          "duration": "PT2H29M6S",
+          "thumbnail": "https://i.ytimg.com/vi/A9CFqcyI4v8/mqdefault.jpg"
+        },
+        {
+          "id": "jXDjrWKcu6w",
+          "title": "Session 5B : Building a Discrete Event Simulation model using SimPy",
+          "description": "",
+          "published": "2020-12-01T17:55:23Z",
+          "duration": "PT1H48M4S",
+          "thumbnail": "https://i.ytimg.com/vi/jXDjrWKcu6w/mqdefault.jpg"
+        },
+        {
+          "id": "V4tDkdofgbw",
+          "title": "Session 8B: Advanced network analysis 1 - Graph metrics",
+          "description": "In this video I discuss the applied basics of graph theory and its relevance for monitoring healthcare operations. I then go on to discuss a variety of useful graph metrics, how they can be used for network based operational modelling and their implementation in Python using NetworkX.\nThe materials for this session including the slide deck, exercise and data are all available at https://github.com/hsma-master/hsma/tree/master/8B_Advanced_Network_Analysis_Part_1\nThe data for the exercise comes credit of: Prof Andrew Beveridge - https://networkofthrones.wordpress.com/\nThis is a great website with explanations of network analysis, graph theory and network data for all of the GoT books and TV series. Check it out!",
+          "published": "2020-12-03T13:58:32Z",
+          "duration": "PT1H36M57S",
+          "thumbnail": "https://i.ytimg.com/vi/V4tDkdofgbw/mqdefault.jpg"
+        },
+        {
+          "id": "QV-pJnKrGuc",
+          "title": "Session 5C : Object Oriented SimPy",
+          "description": "",
+          "published": "2020-12-08T16:42:37Z",
+          "duration": "PT1H30M54S",
+          "thumbnail": "https://i.ytimg.com/vi/QV-pJnKrGuc/mqdefault.jpg"
+        },
+        {
+          "id": "5klSpGC2puU",
+          "title": "Session 4B Advanced R: ggplot2, fitdistrplus, shiny",
+          "description": "This session is about plotting using ggplot2, distribution fitting with fitdistrplus (and actuar) and creating web apps with shiny. All of the materials for the session including all of the code, slide deck and notes are available on GitHub https://github.com/hsma-master/hsma/tree/master/4B_Advanced_R",
+          "published": "2020-12-10T19:46:58Z",
+          "duration": "PT3H28M46S",
+          "thumbnail": "https://i.ytimg.com/vi/5klSpGC2puU/mqdefault.jpg"
+        },
+        {
+          "id": "yFb4Y41SeDE",
+          "title": "Session 9B : Adding Vaccination to our Disease Model and using BatchRunner",
+          "description": "",
+          "published": "2020-12-15T17:00:54Z",
+          "duration": "PT1H22M1S",
+          "thumbnail": "https://i.ytimg.com/vi/yFb4Y41SeDE/mqdefault.jpg"
+        },
+        {
+          "id": "5CDj-JfpL5s",
+          "title": "Session 11B : Named Entity Recognition using SpaCy",
+          "description": "",
+          "published": "2020-12-15T17:02:25Z",
+          "duration": "PT1H51M51S",
+          "thumbnail": "https://i.ytimg.com/vi/5CDj-JfpL5s/mqdefault.jpg"
+        },
+        {
+          "id": "rfKCgsKg9_w",
+          "title": "Session 8C Advanced Network Analysis 2 - Graph Visualisation",
+          "description": "This video follows on from sessions 8A and 8B. In this session we explore the visualisation of network graph data using NetworkX and Holoviews in Python. We build from simple plots in NetworkX to interactive plots in Holoviews then combining analyses in NetworkX and using them as plot attributes in Holoviews. We also look at open source software Gephi (https://gephi.org/). All of the materials for this session can be found on GitHub https://github.com/hsma-master/hsma/tree/master/8C_Advanced_Network_Analysis_Part_2",
+          "published": "2020-12-16T13:38:20Z",
+          "duration": "PT1H56M54S",
+          "thumbnail": "https://i.ytimg.com/vi/rfKCgsKg9_w/mqdefault.jpg"
+        },
+        {
+          "id": "1_b7hEHbaaA",
+          "title": "Session 11C : Sentiment Analysis",
+          "description": "",
+          "published": "2020-12-17T15:25:25Z",
+          "duration": "PT2H14M7S",
+          "thumbnail": "https://i.ytimg.com/vi/1_b7hEHbaaA/mqdefault.jpg"
+        },
+        {
+          "id": "bn0WVcfbOqI",
+          "title": "Bonus Tutorial : Sensitivity Analysis",
+          "description": "Bonus Tutorial to watch after completion of Session 1 of the HSMA Programme (Intrdouction to Operational Research and Data Science)",
+          "published": "2020-07-21T14:36:05Z",
+          "duration": "PT11M44S",
+          "thumbnail": "https://i.ytimg.com/vi/bn0WVcfbOqI/mqdefault.jpg"
+        },
+        {
+          "id": "Om2DPFLMIBw",
+          "title": "Python Healthcare: Anaconda and Jupyter Notebooks",
+          "description": "Installing the Anaconda Python Data Science environment, and taking a quick look at Jupyter Lab and Jupyter Notebook.\n\n 2'20 Installing Anaconda\n 3'30 Anaconda Navigator\n 6'00 Anaconda Prompt/Command Line\n 7'20 Jupyter Lab + Jupyter Notebooks\n\nMuch more material at: pythonhealthcare.org",
+          "published": "2020-07-22T12:41:29Z",
+          "duration": "PT21M46S",
+          "thumbnail": "https://i.ytimg.com/vi/Om2DPFLMIBw/mqdefault.jpg"
+        },
+        {
+          "id": "-70Ib8x0d44",
+          "title": "Introduction to using Spyder for Python Data Science",
+          "description": "A very brief 'get started' video on Spyder, showing :\n\n1) the interactive python console\n2) writing and running a python file\n3) debugging\n4) Exploring data using the variable explorer\n5) Showing plots\n\nMuch more material at: pythonhealthcare.org",
+          "published": "2020-07-22T16:28:04Z",
+          "duration": "PT19M36S",
+          "thumbnail": "https://i.ytimg.com/vi/-70Ib8x0d44/mqdefault.jpg"
+        },
+        {
+          "id": "L1pc0rCEO8s",
+          "title": "Introduction to Anaconda environments",
+          "description": "An introduction to Anaconda environments, installing packages from conda, conda-forge and pypi (pip), and saving/loading environments.\n\nCreate empty environment (called temp_env here):\nconda create -n temp_env\n\nCreate environment with given Python version (just use python alone for latest available version):\nconda create -n temp_env python=3.7\n\nActivate environment (before launching Spyder or Jupyter-Lab):\nconda activate temp_env\n\nDeactivate environment:\nconda deactivate\n\nList packages in environment\nconda list\n\nList environments:\nconda env list\n\nAfter activation environment install packages with conda, e.g.\nconda install jupyterlab spyder numpy pandas matplotlib scikit-learn\n\nOr install from Conda Forge:\nconda install -c conda-forge geoplot\n\nOr install from PyPi:\npip install forecast-tools\n\nRemove environment (deactivate first):\nconda env remove -n temp_env\n\nExport environment to yml file (activate first). This exports all packages with version numbers (use actual greater sign, rather than [greater than]  for export - YouTube description won't allow me to use it!):\nconda env export [greater than] environment.yml\n\nSet up environment from yml file:\nconda env create -f environment.yml\n\nAn example simple yml file (we can put version numbers on some or all packages if we like with =, or with == for pip packages, but without version numbers Anaconda will work out best versions to use, though this may take some time):\n\nname: scipy_env\nchannels:\n  - defaults\n  - conda-forge\ndependencies:\n  - jupyterlab\n  - matplotlib\n  - numpy\n  - pip\n  - pandas\n  - scikit-learn\n  - scipy\n  - spyder\n  - pip:\n    - simpy",
+          "published": "2020-09-09T08:18:05Z",
+          "duration": "PT32M40S",
+          "thumbnail": "https://i.ytimg.com/vi/L1pc0rCEO8s/mqdefault.jpg"
+        },
+        {
+          "id": "AH-pc7RbxvA",
+          "title": "BONUS TUTORIAL : Word Clouds",
+          "description": "In this video, I show you how you can easily create word clouds from your own text files using Python.",
+          "published": "2020-11-12T15:57:37Z",
+          "duration": "PT23M48S",
+          "thumbnail": "https://i.ytimg.com/vi/AH-pc7RbxvA/mqdefault.jpg"
+        },
+        {
+          "id": "fUQ1HNCrS7U",
+          "title": "Face Detection with a Multi-Task Cascaded Convolutional Neural Network (MT-CNN)",
+          "description": "This lesson uses mtcnn to:\n\n* Detect faces in a photo\n* Output a list of dictionary of location of faces and features of faces\n* Draw boxes around faces in the photo, and highlights face features\n* Extract faces and save as individual files \n\nGitHub repo for lesson:\n\nhttps://github.com/MichaelAllen1966/2012_face_detection_mtcnn\n\nRequirements:\n\nmatplotlib (conda or pip install)\nmtncc (pip install)\ntensorflow (conda or pip install)",
+          "published": "2020-12-02T11:05:06Z",
+          "duration": "PT16M29S",
+          "thumbnail": "https://i.ytimg.com/vi/fUQ1HNCrS7U/mqdefault.jpg"
+        },
+        {
+          "id": "UYJtOLYcOU8",
+          "title": "Paper: using Deep Reinforcement Learning agents to solve the Ambulance Location Problem",
+          "description": "Paper: https://arxiv.org/abs/2101.04434\nGitHub: https://github.com/MichaelAllen1966/qambo\n\nDeveloping an OpenAI Gym-compatible framework and simulation environment for testing Deep Reinforcement Learning agents solving the Ambulance Location Problem. \n\nThe simulation environment, using SimPy and OpenAI gym, provides an environment where:\n\n* Incidents occurs in areas within a world with fixed dimensions. The geographic pattern of incidents may change throughout the day.\n\n* When an incident occurs, ambulances are dispatched from fixed dispatch points; the closest free ambulance is used.\n\n* The ambulance collects a patient and conveys them to the closest hospital.\n\n* The ambulance is then allocated, by an agent, to any dispatch point. The ambulance travels to that dispatch point where it becomes available to respond to incidents (the ambulance may also be allocated while travelling to a dispatch point, depending on simulation environment settings).\n\n* The job of the agent is to allocate ambulances to dispatch points in order to minimise the time from incident to arrival of ambulance at the scene of the incident.\n\nThe paper (with code repository) implements a range of Deep Q Network architectures to solve this problem.\n\nLong tutorial (with code) on Q learning applied to controlling the number of staffed beds in a simple hospital simulation:\n\nThe learning hospital - a basic Deep RL system.\nYouTube description linkls to code and paper.\n\nhttps://youtu.be/A9CFqcyI4v8",
+          "published": "2021-01-13T08:25:03Z",
+          "duration": "PT9M7S",
+          "thumbnail": "https://i.ytimg.com/vi/UYJtOLYcOU8/mqdefault.jpg"
+        },
+        {
+          "id": "SyHVMAjL-I0",
+          "title": "Introduction to using Feedforward Neural Networks for Forecasting",
+          "description": "HSMA 2020: Introduction to Forecasting using Neural Networks.",
+          "published": "2020-12-13T16:21:38Z",
+          "duration": "PT10M20S",
+          "thumbnail": "https://i.ytimg.com/vi/SyHVMAjL-I0/mqdefault.jpg"
+        },
+        {
+          "id": "ftYxpwQGUz0",
+          "title": "Auto-regressive Forecasting using OLS",
+          "description": "HSMA 2020: Before exploring forecasting with feedforward neural networks we will look at standard OLS as it has similar data requirements and prediction mechanics.",
+          "published": "2020-12-13T16:49:04Z",
+          "duration": "PT34M8S",
+          "thumbnail": "https://i.ytimg.com/vi/ftYxpwQGUz0/mqdefault.jpg"
+        },
+        {
+          "id": "OV39MtxOlFk",
+          "title": "Introduction to forecasting using Feedforward Neural Networks using Keras and TF.",
+          "description": "HSMA 2020:  Our final code along video is an introduction and overview of using standard feedforward neural networks for forecasting.  We will use Keras and TF and test the Iterative, Direct and Vector approaches to forecasting.\n\n\nThis is the tip of the iceberg RE neural network forecasting, but should give you a good flavour.  \n\n\nHope you have enjoyed the forecasting section of the course.",
+          "published": "2020-12-13T18:06:25Z",
+          "duration": "PT36M50S",
+          "thumbnail": "https://i.ytimg.com/vi/OV39MtxOlFk/mqdefault.jpg"
+        },
+        {
+          "id": "tV2_iLr7lsc",
+          "title": "HSMA 2020 Introduction to FBProphet",
+          "description": "",
+          "published": "2020-12-01T19:37:08Z",
+          "duration": "PT22M22S",
+          "thumbnail": "https://i.ytimg.com/vi/tV2_iLr7lsc/mqdefault.jpg"
+        },
+        {
+          "id": "DXG9aIECtp4",
+          "title": "Pre-processing time series data for use with FBProphet",
+          "description": "Some preliminary advice on pre-processing data steps for your time series data before using Prophet.",
+          "published": "2020-12-01T19:20:05Z",
+          "duration": "PT14M30S",
+          "thumbnail": "https://i.ytimg.com/vi/DXG9aIECtp4/mqdefault.jpg"
+        },
+        {
+          "id": "dOvkPcuq9Fo",
+          "title": "Simple Forecasting using FBProphet",
+          "description": "HSMA 2020 introduction to FBProphet in Python",
+          "published": "2020-12-01T19:26:26Z",
+          "duration": "PT18M48S",
+          "thumbnail": "https://i.ytimg.com/vi/dOvkPcuq9Fo/mqdefault.jpg"
+        },
+        {
+          "id": "GNW9_5i5fYQ",
+          "title": "Adding holidays into FBProphet forecasts",
+          "description": "HSMA 2020 Simple Forecasting course",
+          "published": "2020-12-01T19:35:05Z",
+          "duration": "PT12M15S",
+          "thumbnail": "https://i.ytimg.com/vi/GNW9_5i5fYQ/mqdefault.jpg"
+        },
+        {
+          "id": "VWjoqQcC7BM",
+          "title": "Setup for HSMA Introduction to Forecasting",
+          "description": "**Please watch this video and do you setup in advance of the class**\n\nSetup for HSMA Introduction to Forecasting.",
+          "published": "2020-10-30T15:54:37Z",
+          "duration": "PT14M10S",
+          "thumbnail": "https://i.ytimg.com/vi/VWjoqQcC7BM/mqdefault.jpg"
+        },
+        {
+          "id": "modVHPgdSWY",
+          "title": "HSMA Forecasting: Introductory Lecture (part 1/4)",
+          "description": "HSMA introduction to forecasting lecture 1 (part 1/4)",
+          "published": "2020-10-30T16:14:38Z",
+          "duration": "PT12M55S",
+          "thumbnail": "https://i.ytimg.com/vi/modVHPgdSWY/mqdefault.jpg"
+        },
+        {
+          "id": "zYVvx1W_8NI",
+          "title": "HSMA Forecasting: Introductory Lecture (part 2/4)",
+          "description": "HSMA Introduction to forecasting Lecture 1 (part 2/4)",
+          "published": "2020-10-30T16:00:53Z",
+          "duration": "PT5M1S",
+          "thumbnail": "https://i.ytimg.com/vi/zYVvx1W_8NI/mqdefault.jpg"
+        },
+        {
+          "id": "2fuZwjuJlOI",
+          "title": "HSMA Forecasting: Introductory Lecture (part 3/4)",
+          "description": "HSMA introduction to forecasting lecture 1 (part 3/4)",
+          "published": "2020-10-30T16:13:44Z",
+          "duration": "PT6M39S",
+          "thumbnail": "https://i.ytimg.com/vi/2fuZwjuJlOI/mqdefault.jpg"
+        },
+        {
+          "id": "54w9oiXefGs",
+          "title": "HSMA Forecasting: Introductory Lecture (part 4/4)",
+          "description": "Part 4/4 of the HSMA introduction to forecasting",
+          "published": "2020-10-30T16:08:01Z",
+          "duration": "PT13M21S",
+          "thumbnail": "https://i.ytimg.com/vi/54w9oiXefGs/mqdefault.jpg"
+        },
+        {
+          "id": "9RXU0RJd64Q",
+          "title": "HSMA Forecasting Code Along 1: Loading time series into Pandas",
+          "description": "HSMA Forecasting Code Along 1: Loading time series into Pandas",
+          "published": "2020-10-30T16:15:00Z",
+          "duration": "PT7M25S",
+          "thumbnail": "https://i.ytimg.com/vi/9RXU0RJd64Q/mqdefault.jpg"
+        },
+        {
+          "id": "7EpUpzMH5po",
+          "title": "HSMA Forecasting Code Along 2: Exploring Time Series",
+          "description": "HSMA Forecasting Code Along 2: Exploring Time Series",
+          "published": "2020-10-30T16:51:42Z",
+          "duration": "PT24M21S",
+          "thumbnail": "https://i.ytimg.com/vi/7EpUpzMH5po/mqdefault.jpg"
+        },
+        {
+          "id": "n4_roSjNcqU",
+          "title": "HSMA Forecasting Code Along 3: Using Naive methods as benchmark forecasts",
+          "description": "HSMA Forecasting Code Along 3: Using Naive methods as benchmark forecasts",
+          "published": "2020-10-30T16:19:52Z",
+          "duration": "PT17M25S",
+          "thumbnail": "https://i.ytimg.com/vi/n4_roSjNcqU/mqdefault.jpg"
+        },
+        {
+          "id": "gClUMKVC8bQ",
+          "title": "Introduction to Peer Support Groups (PSG)",
+          "description": "A brief introduction to how associates will access support in the HSMA Programme.",
+          "published": "2020-09-16T15:30:02Z",
+          "duration": "PT9M45S",
+          "thumbnail": "https://i.ytimg.com/vi/gClUMKVC8bQ/mqdefault.jpg"
+        },
+        {
+          "id": "-XsUK5fpqOw",
+          "title": "Programming on the web - using Google Colab",
+          "description": "An alternative to using your own machine",
+          "published": "2020-10-02T06:23:20Z",
+          "duration": "PT6M56S",
+          "thumbnail": "https://i.ytimg.com/vi/-XsUK5fpqOw/mqdefault.jpg"
+        },
+        {
+          "id": "Rm1bPdBGs00",
+          "title": "The Learning Hospital (Combining Deep Reinforcement Learning with Hospital Simulation)",
+          "description": "For more see:\n\nhttps://pythonhealthcare.org/the-learning-hospital/\n\nPaper:\n\nAllen M, Monks T. (2020) Integrating Deep Reinforcement Learning Networks with Health System Simulations. arXiv:200807434 [cs] Published Online First: 21 July 2020.\n\nhttp://arxiv.org/abs/2008.07434",
+          "published": "2020-10-22T11:27:51Z",
+          "duration": "PT6M15S",
+          "thumbnail": "https://i.ytimg.com/vi/Rm1bPdBGs00/mqdefault.jpg"
+        },
+        {
+          "id": "8ogfGIenEsU",
+          "title": "Synthetic patient-level data. First trials.",
+          "description": "Producing synthetic patient-level data with:\nSMOTE (Synthetic Minority Over-Sampling Technique)\nGAN (Generative Adversarial Network)\nVAE (Variational AutoEncoder)\n\nGitHub:\nhttps://github.com/MichaelAllen1966/synthetic_data_pilot/releases/tag/1.0.0\n\nPaper:\nMichael Allen, Andrew Salmon (2020) medRxiv 2020.10.09.20210138; doi: https://doi.org/10.1101/2020.10.09.20210138",
+          "published": "2020-10-29T07:20:32Z",
+          "duration": "PT1H16M51S",
+          "thumbnail": "https://i.ytimg.com/vi/8ogfGIenEsU/mqdefault.jpg"
+        },
+        {
+          "id": "GkflDBayaD0",
+          "title": "Example HSMA Project Pitch - SimPy Example",
+          "description": "",
+          "published": "2020-10-29T15:48:50Z",
+          "duration": "PT2M7S",
+          "thumbnail": "https://i.ytimg.com/vi/GkflDBayaD0/mqdefault.jpg"
+        },
+        {
+          "id": "V3y9egAqx_w",
+          "title": "Example HSMA Project Pitch - Natural Language Processing Example",
+          "description": "",
+          "published": "2020-10-29T15:49:28Z",
+          "duration": "PT2M17S",
+          "thumbnail": "https://i.ytimg.com/vi/V3y9egAqx_w/mqdefault.jpg"
+        },
+        {
+          "id": "tz8PqqYJr7g",
+          "title": "This Patient Does Not Exist",
+          "description": "Let's replace real patients with synthetic patients.",
+          "published": "2020-10-29T17:33:31Z",
+          "duration": "PT2M27S",
+          "thumbnail": "https://i.ytimg.com/vi/tz8PqqYJr7g/mqdefault.jpg"
+        },
+        {
+          "id": "GJpzNGCbWSc",
+          "title": "HSMA 3 Final Presentation Event (29th September 2021)",
+          "description": "Our HSMAs from the third round of the programme present their work and the impact the programme has had for their organisations.",
+          "published": "2021-10-14T11:34:21Z",
+          "duration": "PT2H15M40S",
+          "thumbnail": "https://i.ytimg.com/vi/GJpzNGCbWSc/mqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "label": "Masterclasses",
+      "id": "PLgHO2TgIJXdmYZrsHHUqi08dWZ0OkSVrC",
+      "videos": [
+        {
+          "id": "RBIU6hUXjJM",
+          "title": "HSMA Masterclass : Explainable AI using SHAP",
+          "description": "In our first ever Masterclass session, we talk about the importance of explainable AI, and introduce students to the use of SHAP (SHapley Additive exPlanations) to try to unpick how machine learning models are arriving at their predictions.  This can help us better understand more about the importance of features (and certain combinations of features) when trying to make a prediction, such as a classification.\n\nAccompanying lecture materials can be found here :\nhttps://github.com/hsma5/masterclass_shap\n\nMore information about the HSMA Programme can be found here : https://sites.google.com/nihr.ac.uk/hsma\n\nFollow us on Twitter : @PenCHORD_UoE",
+          "published": "2023-05-23T11:24:20Z",
+          "duration": "PT56M57S",
+          "thumbnail": "https://i.ytimg.com/vi/RBIU6hUXjJM/mqdefault.jpg"
+        },
+        {
+          "id": "tl9qwVj0wWg",
+          "title": "HSMA Masterclass : Shiny for Python",
+          "description": "In this Masterclass session, we introduce Shiny for Python - a relatively new library for Python that has been used extensively in R for many years - for developing web applications from your data and models simply but effectively.  We also introduce the concept of Decorators in Python, which are used extensively within Shiny.\n\nAccompanying lecture materials can be found here :\nhttps://github.com/hsma5/masterclass_py_shiny\n\nMore information about the HSMA Programme can be found here : https://sites.google.com/nihr.ac.uk/hsma\n\nFollow us on Twitter : @PenCHORD_UoE",
+          "published": "2023-06-13T12:02:21Z",
+          "duration": "PT1H33M16S",
+          "thumbnail": "https://i.ytimg.com/vi/tl9qwVj0wWg/mqdefault.jpg"
+        },
+        {
+          "id": "6e0OPsjRYQ8",
+          "title": "HSMA Masterclass : StreamLit",
+          "description": "In this Masterclass session, we introduce StreamLit in Python for producing web apps for your models.  We use an example of a Discrete Event Simulation built using SimPy and talk about how to best structure the model to make integration with StreamLit as easy as possible, before showcasing some of the features of StreamLit.\n\nAccompanying lecture materials can be found here :\nhttps://health-data-science-or.github.io/simpy-streamlit-tutorial/content/front_page.html\n\nMore information about the HSMA Programme can be found here : https://sites.google.com/nihr.ac.uk/hsma\n\nFollow us on Twitter : @PenCHORD_UoE",
+          "published": "2023-07-04T15:26:32Z",
+          "duration": "PT1H29M28S",
+          "thumbnail": "https://i.ytimg.com/vi/6e0OPsjRYQ8/mqdefault.jpg"
+        },
+        {
+          "id": "Vje-dol9kc4",
+          "title": "HSMA Masterclass : BERT for Natural Language Processing",
+          "description": "In this Sesame Street-themed Masterclass session, we provide a beginner's introduction to the world of BERT (Bidirectional Encoder Representations from Transformers) for Natural Language Processing - a model published in 2018 that has transformed the landscape of NLP.  We provide a simple explanation of how BERT works using classic UK game shows for inspiration, and look at some hands-on code which fine tunes a BERT model for sentiment analysis of movie reviews.\n\nAccompanying lecture materials can be found here :\nhttps://github.com/hsma5/masterclass_bert\n\nMore information about the HSMA Programme can be found here : https://sites.google.com/nihr.ac.uk/hsma",
+          "published": "2023-07-25T15:53:20Z",
+          "duration": "PT2H27M36S",
+          "thumbnail": "https://i.ytimg.com/vi/Vje-dol9kc4/mqdefault.jpg"
+        }
+      ]
+    }
+  ]
+}
