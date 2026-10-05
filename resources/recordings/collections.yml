@@ -106,6 +106,9 @@ nhs_oa_conferences:
   # Intro to R and RStudio (Parts 1 and 2), also in the workshops collection,
   # whose timestamps mark sections of the workshop, not separate talks
   keep_whole_videos: [dS91HzZLD_c, 1tjQkxYfSGk]
+  # Short opening and closing speeches: RPySOC 2025 closing, and the opening
+  # of the 2022 conference's Python track
+  exclude_videos: [v5OaYnKPZaQ, -0Bxk7v0SM4]
 
 nhs_oa_webinars:
   folder: books_training/nhs_oa_webinars
@@ -254,9 +257,10 @@ insight_festival:
         - "^Insight 2020 featured a mixture"
         - "like any more information about the Festival"
         - '^(www\.\S+\s*)+$'
-  # Short congratulations video, and a second upload of a training session listed
-  # with the MDSN training recordings
-  exclude_videos: [O-6ya7uY3zA, daF4tVK8ED8]
+  # Short congratulations video, a second upload of a training session listed
+  # with the MDSN training recordings, and a short introduction to Insight 2020
+  # by Peter Spilsbury
+  exclude_videos: [O-6ya7uY3zA, daF4tVK8ED8, BanOB82a3n8]
 
 strategy_unit_webinars:
   folder: books_training/strategy_unit_webinars
@@ -433,6 +437,8 @@ haca:
       type: Conference talk
   # Not included: promotional videos, short interviews with the 2024 audience,
   # and a few videos uploaded twice, outside the conference playlists
+  # Short closing of Day 1 at HACA 2024, and introduction to Day 2 at HACA 2023
+  exclude_videos: [r6smLC2kaIQ, YLl49GgKGno]
 
 swaih:
   folder: books_training/swaih

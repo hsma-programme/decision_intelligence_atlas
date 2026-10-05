@@ -232,7 +232,7 @@ Each collection in `collections.yml` has:
 | `split_talks` | No | Set to `false` to keep every video in the collection as one row, rather than splitting recordings into talks (see below). Used for the HSMA lecture recordings, where timestamps mark sections of a lecture rather than separate talks. |
 | `keep_whole_videos` | No | A list of video IDs to keep as one row, in collections where other recordings should still be split, e.g. a workshop whose timestamps mark its sections. |
 | `exclude_playlists` | No | Leave out any videos that are also in these playlists, e.g. to avoid listing the same talk in two collections. |
-| `exclude_videos` | No | Leave out these videos, e.g. promotional videos or untitled recordings. |
+| `exclude_videos` | No | Leave out these videos, e.g. promotional videos, untitled recordings or short welcome and closing speeches. Takes effect when the talk tables are next built, without fetching again. |
 
 Each playlist has the following options. Most are only needed to tidy up playlists whose titles or descriptions are messy, so start with `label`, `id` and `type`, then check the built table and add others if needed.
 
@@ -289,6 +289,8 @@ Some recordings cover a whole session or day with several talks. Where a recordi
 * **Timestamps**, such as `34:23 Speaker - Talk title`, `1:02:03 Talk title` or `1. (0:30) Talk title`, become separate rows whose links start the video at that talk.
 * **Programme times**, such as `09:30 Speaker - Talk title`, are times of day rather than positions in the video, so their rows link to the start of the recording.
 * **Plain lists of talks**, one per line with no times, are split into rows for playlists with `talk_list: true`, linking to the start of the recording.
+
+Items that aren't talks, such as breaks, lunch and Q&A, are left out when splitting, as are welcomes, thank-yous and opening or closing remarks shorter than 5 minutes. Longer ones, and ones whose length isn't known, are kept.
 
 Recordings that don't list their talks are kept as one row, as are all recordings in collections with `split_talks: false` and any videos listed in `keep_whole_videos`. If a recording isn't split as you'd expect, check its description on YouTube - the best fix is usually to add timestamps to the description there, which also gives viewers chapters to jump between.
 

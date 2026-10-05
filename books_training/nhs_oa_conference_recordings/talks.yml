@@ -268,15 +268,6 @@
   image: https://i.ytimg.com/vi/8b0zgCahr5k/mqdefault.jpg
   date: '2026-02-04'
   duration: 00:10:17
-- title: 'RPySOC 2025: Closing Speech'
-  description: 'Talk: Closing speech Speaker: Dr Claire Welsh'
-  path: https://www.youtube.com/watch?v=v5OaYnKPZaQ
-  year: 2025
-  event: RPySOC
-  type: Conference talk
-  image: https://i.ytimg.com/vi/v5OaYnKPZaQ/mqdefault.jpg
-  date: '2026-02-04'
-  duration: 00:06:47
 - title: 'Presenting fingertips in data in a more friendly format: Rachel Brown'
   description: Part of the recording 'RPYSOC 24 - 22 Nov - Day two afternoon 1' - see its description for timings.
   path: https://www.youtube.com/watch?v=SD_GZ1URYzI
@@ -613,15 +604,6 @@
   image: https://i.ytimg.com/vi/3uSbLT7ISPc/mqdefault.jpg
   date: '2023-11-13'
   duration: 00:19:00
-- title: Zoë Turner Thank You and Short Closing Speech
-  description: 'From the recording ''NHS-R/NHS.pycom Conference: Online Conference Talks [Wednesday 11th October 2023]'', starting at 2:44:57.'
-  path: https://www.youtube.com/watch?v=3uSbLT7ISPc&t=9897s
-  year: 2023
-  event: 'NHS-R/NHS.pycom Conference: talks'
-  type: Conference talk
-  image: https://i.ytimg.com/vi/3uSbLT7ISPc/mqdefault.jpg
-  date: '2023-11-13'
-  duration: 00:02:20
 - title: 'NHS-R/NHS.pycom Conference: Online Conference Talks [Tuesday 10th October 2023]'
   description: We are very excited to share this recording of the NHS-R/NHS.pycom online conference talks from Tuesday 10th October 2023.
   path: https://www.youtube.com/watch?v=laKYVuElROs
@@ -856,15 +838,6 @@
   image: https://i.ytimg.com/vi/8jcPwD8x8WE/mqdefault.jpg
   date: '2023-11-20'
   duration: 00:10:58
-- title: Chris Beeley, Thank You and Short Closing Speech
-  description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Tuesday 17th October 2023]'', starting at 5:26:49.'
-  path: https://www.youtube.com/watch?v=8jcPwD8x8WE&t=19609s
-  year: 2023
-  event: 'NHS-R/NHS.pycom Conference: talks'
-  type: Conference talk
-  image: https://i.ytimg.com/vi/8jcPwD8x8WE/mqdefault.jpg
-  date: '2023-11-20'
-  duration: 00:00:21
 - title: Marcos Fabietti, NHSRplotthedots Plotly Update
   description: 'From the recording ''NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Wednesday 18th October 2023]'', starting at 3:28.'
   path: https://www.youtube.com/watch?v=q-JZxrDC0ck&t=208s
@@ -1205,15 +1178,6 @@
   image: https://i.ytimg.com/vi/vO_Wn2tgIck/mqdefault.jpg
   date: '2022-11-08'
   duration: 00:57:29
-- title: Mohammed Mohammed - Welcome and Introduction
-  description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 1: 8th November'', starting at 0:00.'
-  path: https://www.youtube.com/watch?v=Rv3JJAqbrFY&t=0s
-  year: 2022
-  event: NHS-R Community Conference
-  type: Conference talk
-  image: https://i.ytimg.com/vi/Rv3JJAqbrFY/mqdefault.jpg
-  date: '2022-11-08'
-  duration: 00:02:00
 - title: Dev Sanghera - PPTautomation
   description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 1: 8th November'', starting at 2:00.'
   path: https://www.youtube.com/watch?v=Rv3JJAqbrFY&t=120s
@@ -1286,15 +1250,6 @@
   image: https://i.ytimg.com/vi/Rv3JJAqbrFY/mqdefault.jpg
   date: '2022-11-08'
   duration: 00:16:35
-- title: Mohammed Mohammed - Welcome and Introduction
-  description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 2: 9th November'', starting at 0:00.'
-  path: https://www.youtube.com/watch?v=fWYehE5U6Vs&t=0s
-  year: 2022
-  event: NHS-R Community Conference
-  type: Conference talk
-  image: https://i.ytimg.com/vi/fWYehE5U6Vs/mqdefault.jpg
-  date: '2022-11-09'
-  duration: 00:02:35
 - title: Benjamin Bainham - Novice’s Journey in creating a Bilingual RShiny Tool
   description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 2: 9th November'', starting at 2:35.'
   path: https://www.youtube.com/watch?v=fWYehE5U6Vs&t=155s
@@ -1376,15 +1331,6 @@
   image: https://i.ytimg.com/vi/fWYehE5U6Vs/mqdefault.jpg
   date: '2022-11-09'
   duration: 00:17:40
-- title: Zoë Turner Welcome and Introductions
-  description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 3: 10th November'', starting at 0:00.'
-  path: https://www.youtube.com/watch?v=GWeZt1to1Po&t=0s
-  year: 2022
-  event: NHS-R Community Conference
-  type: Conference talk
-  image: https://i.ytimg.com/vi/GWeZt1to1Po/mqdefault.jpg
-  date: '2022-11-10'
-  duration: 00:01:20
 - title: Chris Waller Create A Map RShiny App
   description: 'From the recording ''NHS-R Online Speaker Conference 2022 -  Day 3: 10th November'', starting at 1:20.'
   path: https://www.youtube.com/watch?v=GWeZt1to1Po&t=80s
@@ -1691,15 +1637,6 @@
   image: https://i.ytimg.com/vi/RfiuBGD5IeU/mqdefault.jpg
   date: '2022-11-21'
   duration: 00:09:47
-- title: Welcome
-  description: From the recording 'NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham', starting at 0:00.
-  path: https://www.youtube.com/watch?v=GS8CThaMZXM&t=0s
-  year: 2022
-  event: NHS-R Community Conference
-  type: Conference talk
-  image: https://i.ytimg.com/vi/GS8CThaMZXM/mqdefault.jpg
-  date: '2022-11-21'
-  duration: 00:01:09
 - title: Andi Orlowski - ApHA + NHSR
   description: From the recording 'NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham', starting at 1:09.
   path: https://www.youtube.com/watch?v=GS8CThaMZXM&t=69s
@@ -1934,15 +1871,6 @@
   image: https://i.ytimg.com/vi/86sviwkA088/mqdefault.jpg
   date: '2022-11-25'
   duration: 01:32:54
-- title: 'Mary Amanuel: Conference Opening'
-  description: '@NHSOA_Community Conference: Python Track 17th of Nov 2022 ■ *Speaker:* Mary Amanuel, Economics & Strategic Analysis, NHS England. ■ *LinkedIn:* ■ *GitHub:*'
-  path: https://www.youtube.com/watch?v=-0Bxk7v0SM4
-  year: 2022
-  event: 'NHS-R Community Conference: Python track'
-  type: Conference talk
-  image: https://i.ytimg.com/vi/-0Bxk7v0SM4/mqdefault.jpg
-  date: '2022-11-26'
-  duration: 00:02:07
 - title: 'Sarah Culkin:  Keynote Speech'
   description: '@NHSOA_Community Conference: Python Track 17th of Nov 2022 ■ *Speaker:* Sarah Culkin, Deputy Director, Analytics and Data Science, NHS England. ■ *LinkedIn:* ■ *Website:*'
   path: https://www.youtube.com/watch?v=ZctiQuwf9tI

@@ -420,20 +420,6 @@
   "collection_url": "/books_training/nhs_oa_conference_recordings/index.html"
  },
  {
-  "title": "RPySOC 2025: Closing Speech",
-  "year": 2025,
-  "date": "2026-02-04",
-  "duration": "00:06:47",
-  "seconds": 407,
-  "type": "Conference talk",
-  "source": "NHS-R Community",
-  "event": "RPySOC",
-  "details": "Talk: Closing speech Speaker: Dr Claire Welsh",
-  "url": "https://www.youtube.com/watch?v=v5OaYnKPZaQ",
-  "collection": "NHS-OA Community: Conference Recordings",
-  "collection_url": "/books_training/nhs_oa_conference_recordings/index.html"
- },
- {
   "title": "Presenting fingertips in data in a more friendly format: Rachel Brown",
   "year": 2024,
   "date": "2024-12-10",
@@ -1008,20 +994,6 @@
   "collection_url": "/books_training/nhs_oa_conference_recordings/index.html"
  },
  {
-  "title": "Zoë Turner Thank You and Short Closing Speech",
-  "year": 2023,
-  "date": "2023-11-13",
-  "duration": "00:02:20",
-  "seconds": 140,
-  "type": "Conference talk",
-  "source": "NHS-R Community",
-  "event": "NHS-R/NHS.pycom Conference: talks",
-  "details": "From the recording 'NHS-R/NHS.pycom Conference: Online Conference Talks [Wednesday 11th October 2023]', starting at 2:44:57.",
-  "url": "https://www.youtube.com/watch?v=3uSbLT7ISPc&t=9897s",
-  "collection": "NHS-OA Community: Conference Recordings",
-  "collection_url": "/books_training/nhs_oa_conference_recordings/index.html"
- },
- {
   "title": "NHS-R/NHS.pycom Conference: Online Conference Talks [Tuesday 10th October 2023]",
   "year": 2023,
   "date": "2023-11-13",
@@ -1382,20 +1354,6 @@
   "event": "NHS-R/NHS.pycom Conference: talks",
   "details": "From the recording 'NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Tuesday 17th October 2023]', starting at 5:15:51.",
   "url": "https://www.youtube.com/watch?v=8jcPwD8x8WE&t=18951s",
-  "collection": "NHS-OA Community: Conference Recordings",
-  "collection_url": "/books_training/nhs_oa_conference_recordings/index.html"
- },
- {
-  "title": "Chris Beeley, Thank You and Short Closing Speech",
-  "year": 2023,
-  "date": "2023-11-20",
-  "duration": "00:00:21",
-  "seconds": 21,
-  "type": "Conference talk",
-  "source": "NHS-R Community",
-  "event": "NHS-R/NHS.pycom Conference: talks",
-  "details": "From the recording 'NHS-R/NHS.pycom Conference: In-Person & Virtual Conference Talks [Tuesday 17th October 2023]', starting at 5:26:49.",
-  "url": "https://www.youtube.com/watch?v=8jcPwD8x8WE&t=19609s",
   "collection": "NHS-OA Community: Conference Recordings",
   "collection_url": "/books_training/nhs_oa_conference_recordings/index.html"
  },
@@ -1932,20 +1890,6 @@
   "collection_url": "/books_training/nhs_oa_conference_recordings/index.html"
  },
  {
-  "title": "Mohammed Mohammed - Welcome and Introduction",
-  "year": 2022,
-  "date": "2022-11-08",
-  "duration": "00:02:00",
-  "seconds": 120,
-  "type": "Conference talk",
-  "source": "NHS-R Community",
-  "event": "NHS-R Community Conference",
-  "details": "From the recording 'NHS-R Online Speaker Conference 2022 -  Day 1: 8th November', starting at 0:00.",
-  "url": "https://www.youtube.com/watch?v=Rv3JJAqbrFY&t=0s",
-  "collection": "NHS-OA Community: Conference Recordings",
-  "collection_url": "/books_training/nhs_oa_conference_recordings/index.html"
- },
- {
   "title": "Dev Sanghera - PPTautomation",
   "year": 2022,
   "date": "2022-11-08",
@@ -2054,20 +1998,6 @@
   "event": "NHS-R Community Conference",
   "details": "From the recording 'NHS-R Online Speaker Conference 2022 -  Day 1: 8th November', starting at 1:57:02.",
   "url": "https://www.youtube.com/watch?v=Rv3JJAqbrFY&t=7022s",
-  "collection": "NHS-OA Community: Conference Recordings",
-  "collection_url": "/books_training/nhs_oa_conference_recordings/index.html"
- },
- {
-  "title": "Mohammed Mohammed - Welcome and Introduction",
-  "year": 2022,
-  "date": "2022-11-09",
-  "duration": "00:02:35",
-  "seconds": 155,
-  "type": "Conference talk",
-  "source": "NHS-R Community",
-  "event": "NHS-R Community Conference",
-  "details": "From the recording 'NHS-R Online Speaker Conference 2022 -  Day 2: 9th November', starting at 0:00.",
-  "url": "https://www.youtube.com/watch?v=fWYehE5U6Vs&t=0s",
   "collection": "NHS-OA Community: Conference Recordings",
   "collection_url": "/books_training/nhs_oa_conference_recordings/index.html"
  },
@@ -2194,20 +2124,6 @@
   "event": "NHS-R Community Conference",
   "details": "From the recording 'NHS-R Online Speaker Conference 2022 -  Day 2: 9th November', starting at 2:08:22.",
   "url": "https://www.youtube.com/watch?v=fWYehE5U6Vs&t=7702s",
-  "collection": "NHS-OA Community: Conference Recordings",
-  "collection_url": "/books_training/nhs_oa_conference_recordings/index.html"
- },
- {
-  "title": "Zoë Turner Welcome and Introductions",
-  "year": 2022,
-  "date": "2022-11-10",
-  "duration": "00:01:20",
-  "seconds": 80,
-  "type": "Conference talk",
-  "source": "NHS-R Community",
-  "event": "NHS-R Community Conference",
-  "details": "From the recording 'NHS-R Online Speaker Conference 2022 -  Day 3: 10th November', starting at 0:00.",
-  "url": "https://www.youtube.com/watch?v=GWeZt1to1Po&t=0s",
   "collection": "NHS-OA Community: Conference Recordings",
   "collection_url": "/books_training/nhs_oa_conference_recordings/index.html"
  },
@@ -2688,20 +2604,6 @@
   "collection_url": "/books_training/nhs_oa_conference_recordings/index.html"
  },
  {
-  "title": "Welcome",
-  "year": 2022,
-  "date": "2022-11-21",
-  "duration": "00:01:09",
-  "seconds": 69,
-  "type": "Conference talk",
-  "source": "NHS-R Community",
-  "event": "NHS-R Community Conference",
-  "details": "From the recording 'NHS-R Conference 2022 - Day 2 (17th November 2022) - Edgbaston, Birmingham', starting at 0:00.",
-  "url": "https://www.youtube.com/watch?v=GS8CThaMZXM&t=0s",
-  "collection": "NHS-OA Community: Conference Recordings",
-  "collection_url": "/books_training/nhs_oa_conference_recordings/index.html"
- },
- {
   "title": "Andi Orlowski - ApHA + NHSR",
   "year": 2022,
   "date": "2022-11-21",
@@ -3062,20 +2964,6 @@
   "event": "NHS-R Community Conference",
   "details": "Fitting distributions in R Friday 25th November 2022 Led by Dr Sean Manzi, Research Fellow in Applied Healthcare Modelling and Analysis, University of Exeter College of Medicine and Health Pre-requisites: A basic understanding of how to use R About the course: This session will begin by introducing probability distributions, the different types of distribution and why we use them in data science. We will then move on to an overview of the distribution fitting process and how to implement this in R using the ‘fitdistrplus’ and ‘actuar’ packages. As we proceed through the distribution fitting process, we will discuss some of the theory around the techniques used to fit a distribution to a data set. There will be the opportunity to practice generating data from and fitting data to different distributions. Finally, we will explore the use of a shiny based app to help streamline your day-to-day distribution fitting activities.",
   "url": "https://www.youtube.com/watch?v=86sviwkA088",
-  "collection": "NHS-OA Community: Conference Recordings",
-  "collection_url": "/books_training/nhs_oa_conference_recordings/index.html"
- },
- {
-  "title": "Mary Amanuel: Conference Opening",
-  "year": 2022,
-  "date": "2022-11-26",
-  "duration": "00:02:07",
-  "seconds": 127,
-  "type": "Conference talk",
-  "source": "NHS.pycom",
-  "event": "NHS-R Community Conference: Python track",
-  "details": "@NHSOA_Community Conference: Python Track 17th of Nov 2022 ■ *Speaker:* Mary Amanuel, Economics & Strategic Analysis, NHS England. ■ *LinkedIn:* ■ *GitHub:*",
-  "url": "https://www.youtube.com/watch?v=-0Bxk7v0SM4",
   "collection": "NHS-OA Community: Conference Recordings",
   "collection_url": "/books_training/nhs_oa_conference_recordings/index.html"
  },
@@ -9548,20 +9436,6 @@
   "collection_url": "/books_training/insight_festival/index.html"
  },
  {
-  "title": "Introduction by Peter Spilsbury, Director of the Strategy Unit",
-  "year": 2020,
-  "date": "2020-10-08",
-  "duration": "00:04:57",
-  "seconds": 297,
-  "type": "Webinar",
-  "source": "Midlands Decision Support Network",
-  "event": "",
-  "details": "In this video Peter Spilsbury (Director, the Strategy Unit) introduces the Insight 2020 Festival, describing what it's all about and why we decided to do this. Week 1: Our decision-making context in 2020 Transformation in health and care has been rapid and intensive, particularly in 2020. Asking the right analytical questions requires joined-up approaches, between leaders and their analytical workforce, as well as broader system stakeholders. This week’s theme focused on the vital issues facing decision-makers, the contexts they are operating in, and from where they might draw support. Week 2: The role of the Decision Support Network The Midlands Decision Support Unit (DSU) Network is a new and emerging approach to bring together analytical resource across a region, develop analytical skills collectively and share learning from analytical projects. This week’s theme describes how the network will operate, shares some of the learning from systems who have adopted this approach already and describes how evidence will underpin the Network's approach to decision-making. Week 3: Analytical Priorities of the Decision Support Network The Midlands Decision Support Unit Network has defined its analytical priorities for 20/21. This week’s theme described the projects being carried out on behalf of the Network to respond to these priorities, the outputs they will produce and how these will be shared with the DSU Network and its partners. This included the presentation of work already completed on behalf of the Network, focusing on resource usage in the last two years of life. This week we also considered: what this way of working means for the future of analytics – what opportunities could it create for our analysts, our leaders and our population? Week 4: Exploring health inequalities COVID-19 has shone a light on health inequalities; it has “laid bare our longstanding social, economic and political inequalities…” (BMJ, 2020) and this is against a backdrop of declining life expectancy in our poorest communities, well before COVID-19. The Marmot review 10 years on found that regional and socioeconomic differences in health are large and growing. Michael Marmot describes this as ‘shocking’ and that we should work towards creating the conditions for everyone to be able to lead lives they have reason to value. During this week’s theme we shared a special selection of events which looked at health inequalities through very different lenses. We considered where health inequalities exist, what we have learned during the COVID-19 pandemic and what we are doing to address them that we need to amplify? Week 5: The Decision-making toolbox Decision-making is an art; we can train at it, rehearse and access tools to support us. However, humans are also subject to a wide range of biases which can undermine the quality of decision making, especially in complex real-world systems. This week’s theme focused on the range of materials that exist to help us be better decision-makers. We also thought about how we make best use of resources to collect the right evidence to support our decision-making, ensuring our methods are tested and reviewed with the aim of continuous improvement. Week 6: Making the most of our decision-making resources The final week’s theme was a reflection on what had been heard in the previous weeks. We thought about how we develop our analytical leaders by building on the success of the Midlands Population Health Management Academy and thought conceptually about ‘what makes a good decision?’, drawing on the tools and techniques shown over the course of the Festival. Concluded by an expert panel who considered where we go from here… Contact / links: The Strategy Unit Strategy Unit website: strategyunit.co.uk Twitter: @Strategy_Unit Insight 2020 Midlands Decision Support Centre website: Twitter: #Insight2020",
-  "url": "https://www.youtube.com/watch?v=BanOB82a3n8",
-  "collection": "Midlands Decision Support Network: Insight Festival Recordings",
-  "collection_url": "/books_training/insight_festival/index.html"
- },
- {
   "title": "Event 12  - Changing how we work in the COVID context",
   "year": 2020,
   "date": "2020-10-14",
@@ -15148,20 +15022,6 @@
   "collection_url": "/books_training/haca/index.html"
  },
  {
-  "title": "Closing of HACA Day 1.",
-  "year": 2024,
-  "date": "2024-08-07",
-  "duration": "00:04:17",
-  "seconds": 257,
-  "type": "Conference talk",
-  "source": "HACA",
-  "event": "HACA",
-  "details": "Fraser Battye, The Strategy Unit",
-  "url": "https://www.youtube.com/watch?v=r6smLC2kaIQ",
-  "collection": "HACA - Health and Care Analytics Conference",
-  "collection_url": "/books_training/haca/index.html"
- },
- {
   "title": "Getting Our Tools Used: Learning from the First Year of an NHS Data Science Team.",
   "year": 2024,
   "date": "2024-08-08",
@@ -16572,20 +16432,6 @@
   "event": "HACA",
   "details": "Kamil Barczak and Prasanth Peddaayyavarla - An early warning system to support clinicians to manage patients with diabetes,",
   "url": "https://www.youtube.com/watch?v=u5qwI4koNtc",
-  "collection": "HACA - Health and Care Analytics Conference",
-  "collection_url": "/books_training/haca/index.html"
- },
- {
-  "title": "Peter Spilsbury introduces Day Two of the Health and Care Analytics conference 2023",
-  "year": 2023,
-  "date": "2023-10-12",
-  "duration": "00:04:56",
-  "seconds": 296,
-  "type": "Conference talk",
-  "source": "HACA",
-  "event": "HACA",
-  "details": "Peter Spilsbury of the Strategy Unit welcomes attendees back to the second day of the Health and Care Analytics Conference 2023.",
-  "url": "https://www.youtube.com/watch?v=YLl49GgKGno",
   "collection": "HACA - Health and Care Analytics Conference",
   "collection_url": "/books_training/haca/index.html"
  },

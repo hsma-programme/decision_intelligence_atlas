@@ -727,15 +727,6 @@
   image: https://i.ytimg.com/vi/-fGfFlp4334/mqdefault.jpg
   date: '2024-08-07'
   duration: 00:19:33
-- title: Closing of HACA Day 1.
-  description: Fraser Battye, The Strategy Unit
-  path: https://www.youtube.com/watch?v=r6smLC2kaIQ
-  year: 2024
-  event: HACA
-  type: Conference talk
-  image: https://i.ytimg.com/vi/r6smLC2kaIQ/mqdefault.jpg
-  date: '2024-08-07'
-  duration: 00:04:17
 - title: 'Getting Our Tools Used: Learning from the First Year of an NHS Data Science Team.'
   description: Brandon Chapman, Royal Cornwall Hospitals NHS Trust
   path: https://www.youtube.com/watch?v=la5IaTLC7sY
@@ -1645,15 +1636,6 @@
   image: https://i.ytimg.com/vi/u5qwI4koNtc/mqdefault.jpg
   date: '2023-11-14'
   duration: 00:13:02
-- title: Peter Spilsbury introduces Day Two of the Health and Care Analytics conference 2023
-  description: Peter Spilsbury of the Strategy Unit welcomes attendees back to the second day of the Health and Care Analytics Conference 2023.
-  path: https://www.youtube.com/watch?v=YLl49GgKGno
-  year: 2023
-  event: HACA
-  type: Conference talk
-  image: https://i.ytimg.com/vi/YLl49GgKGno/mqdefault.jpg
-  date: '2023-10-12'
-  duration: 00:04:56
 - title: Dark Data with Michael Blastland
   description: Michael Blastland, of the Royal Papworth Hospital, presents at the Health and Care Analytics conference 2023. Michael looks at Dark Data through the lens of how NOT to run a hospital.
   path: https://www.youtube.com/watch?v=RSVFK5zuANk
