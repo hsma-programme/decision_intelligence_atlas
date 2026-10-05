@@ -1,15 +1,15 @@
 /*-- scss:defaults --*/
 
-// Greys with a slight teal tint, to sit alongside the teal header.
+// Greys with a clear teal tint, to sit alongside the teal header.
 // Darkly builds its cards, dropdowns, inputs and tables from these.
-$gray-900: #121a19;
-$gray-800: #1b2725;
-$gray-700: #2c3d3b;
-$gray-600: #6f8582;
-$gray-500: #9db2af;
+$gray-900: #0e211f;
+$gray-800: #173230;
+$gray-700: #274a46;
+$gray-600: #6a8f8a;
+$gray-500: #9cbab6;
 
-$body-bg: #121a19;
-$body-color: #dde7e5;
+$body-bg: #0e211f;
+$body-color: #dcebe8;
 
 // Teal accents instead of Darkly's blue primary and green links.
 // The primary is a shade darker than the navbar so white text on it stays readable.
@@ -30,8 +30,8 @@ $code-block-bg-alpha: -.8;
 // to win on specificity.
 
 body.quarto-dark .custom-grid-card {
-  --bs-card-bg: #1b2725;
-  --bs-card-border-color: #2c3d3b;
+  --bs-card-bg: #173230;
+  --bs-card-border-color: #274a46;
 }
 
 .custom-grid-card .title-link {
@@ -39,52 +39,52 @@ body.quarto-dark .custom-grid-card {
 }
 
 body.quarto-dark .abstract {
-  color: #dde7e5;
-  background-color: #10302d;
+  color: #dcebe8;
+  background-color: #0c4440;
   border-color: #009c92;
 }
 
 body.quarto-dark .listing-organisations,
 body.quarto-dark .listing-session-lead {
-  color: #9db2af;
+  color: #9cbab6;
 }
 
 body.quarto-dark .category-button,
 body.quarto-dark .session-content.session-listing-title .session-duration-button {
-  background-color: #1b2725;
-  border-color: #2c3d3b;
+  background-color: #173230;
+  border-color: #274a46;
 }
 
 // Recordings Finder
 body.quarto-dark .recordings-table form {
-  border-color: #2c3d3b;
+  border-color: #274a46;
 }
 
 body.quarto-dark .recordings-table form::-webkit-scrollbar-track {
-  background: #1b2725;
+  background: #173230;
 }
 
 body.quarto-dark .recordings-table form::-webkit-scrollbar-thumb {
-  border-color: #1b2725;
+  border-color: #173230;
 }
 
 @supports not selector(::-webkit-scrollbar) {
   body.quarto-dark .recordings-table form {
-    scrollbar-color: #009c92 #1b2725;
+    scrollbar-color: #009c92 #173230;
   }
 }
 
 body.quarto-dark .recordings-range-slider::before {
   background: linear-gradient(to right,
-    #2c3d3b var(--from, 0%), #009c92 var(--from, 0%),
-    #009c92 var(--to, 100%), #2c3d3b var(--to, 100%));
+    #274a46 var(--from, 0%), #009c92 var(--from, 0%),
+    #009c92 var(--to, 100%), #274a46 var(--to, 100%));
 }
 
 // Kept as separate rules: a browser drops a whole rule if it doesn't know one of its selectors
 body.quarto-dark .recordings-range-slider input[type="range"]::-webkit-slider-thumb {
-  border-color: #121a19;
+  border-color: #0e211f;
 }
 
 body.quarto-dark .recordings-range-slider input[type="range"]::-moz-range-thumb {
-  border-color: #121a19;
+  border-color: #0e211f;
 }
