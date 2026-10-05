@@ -269,6 +269,11 @@ p {
     text-transform: capitalize;
 }
 
+/* Keep titles as written in table listings (e.g. searchable talk titles) */
+.quarto-listing-table .listing-title {
+    text-transform: none;
+}
+
 .quarto-categories {
     padding: 0.5rem 0.5rem;
     margin-bottom: 2rem;

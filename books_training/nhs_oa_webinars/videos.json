@@ -1,0 +1,434 @@
+{
+  "playlists": [
+    {
+      "label": "Webinars",
+      "id": "PLXCrMzQaI6c36jqIWc9AgHzowzZ2ak9DL",
+      "videos": [
+        {
+          "id": "668k5sBkKus",
+          "title": "Dashboards in R using Flexdashboard, a case study using mortality",
+          "description": "This webinar was facilitated by Richard Wilson on Wednesday 17th February from 1-2pm.",
+          "published": "2021-02-18T10:28:57Z",
+          "duration": "PT1H11M34S",
+          "thumbnail": "https://i.ytimg.com/vi/668k5sBkKus/mqdefault.jpg"
+        },
+        {
+          "id": "8WE-EU5k97Q",
+          "title": "R and Python – a happy union with reticulate webinar",
+          "description": "This webinar was facilitated by Gary Hutson and Andreas Soteriades on Wednesday 20th January from 1-2pm.",
+          "published": "2021-01-21T16:30:43Z",
+          "duration": "PT1H1M2S",
+          "thumbnail": "https://i.ytimg.com/vi/8WE-EU5k97Q/mqdefault.jpg"
+        },
+        {
+          "id": "FKSk6WV-fLo",
+          "title": "Forecasting with Multiple Seasonality",
+          "description": "Dr Bahman Rostami-Tabar, Senior Lecturer in Management Science at Cardiff Business School, and Mitchell O’Hara-Wild, Teaching Associate at Monash University,  present \"Forecasting with Multiple Seasonality\".",
+          "published": "2020-11-27T09:11:34Z",
+          "duration": "PT1H31M15S",
+          "thumbnail": "https://i.ytimg.com/vi/FKSk6WV-fLo/mqdefault.jpg"
+        },
+        {
+          "id": "dwpzVeVtvao",
+          "title": "Time Series Forecasting Models",
+          "description": "Dr Tahseen Jilani, Digital Research Scientist at University of Nottingham presents \"Time Series Forecasting Models\".",
+          "published": "2020-10-29T19:52:29Z",
+          "duration": "PT49M3S",
+          "thumbnail": "https://i.ytimg.com/vi/dwpzVeVtvao/mqdefault.jpg"
+        },
+        {
+          "id": "qmTaAIEXxSQ",
+          "title": "Why and how to build an R package",
+          "description": "Chris Mainey from the HED team at University Hospitals Birmingham NHS Foundation Trust presents \"Why and how to build an R package\", taking you through the basics of package development in R.\n\nFollow us on Twitter to find out about future webinars! https://twitter.com/nhsrcommunity\n\nSlides can be found at: https://chrismainey.github.io/PackageBuildSeminar/package_building_presentation.html#1\n\nCode can be found at: https://github.com/nhs-r-community/Webinars/tree/master/Package_building",
+          "published": "2020-09-16T19:01:32Z",
+          "duration": "PT1H10M17S",
+          "thumbnail": "https://i.ytimg.com/vi/qmTaAIEXxSQ/mqdefault.jpg"
+        },
+        {
+          "id": "a3eJXwonbU8",
+          "title": "Reshaping and Combining Data in R",
+          "description": "Emma Vestesson from The Health Foundation presents \"Reshaping and Combining Data in R\", covering the pivot_wider/longer functions from {tidyr} and the various *_join functions from {dplyr}\n\nIf you work in the UK Healthcare sector then we would love for you to complete our annual survey: https://www.surveymonkey.co.uk/r/SRQFJ3B\n\nFollow us on Twitter to find out about future webinars! https://twitter.com/nhsrcommunity\n\nSlides can be found at: https://thf-evaluative-analytics.github.io/NHSR-wrangling-webinar/slides\n\nCode can be found at: https://github.com/THF-evaluative-analytics/NHSR-wrangling-webinar",
+          "published": "2020-08-20T18:32:58Z",
+          "duration": "PT57M34S",
+          "thumbnail": "https://i.ytimg.com/vi/a3eJXwonbU8/mqdefault.jpg"
+        },
+        {
+          "id": "GZhoXIkXGrc",
+          "title": "Task automation with R",
+          "description": "In this webinar Daria Cosentino from HCA Healthcare UK talks us through how to automate tasks in R.",
+          "published": "2020-07-15T13:11:57Z",
+          "duration": "PT52M56S",
+          "thumbnail": "https://i.ytimg.com/vi/GZhoXIkXGrc/mqdefault.jpg"
+        },
+        {
+          "id": "rO40vvKXU-4",
+          "title": "Advanced Modelling Webinar",
+          "description": "This webinar was facilitated by Gary Hutson (Head of Solutions and AI at Draper and Dash) on Wednesday 17th June 2020 from 1-2pm.",
+          "published": "2020-06-18T12:35:35Z",
+          "duration": "PT58M49S",
+          "thumbnail": "https://i.ytimg.com/vi/rO40vvKXU-4/mqdefault.jpg"
+        },
+        {
+          "id": "GxvccD8K49M",
+          "title": "Functional Programming using the Purrr Package webinar",
+          "description": "This webinar was facilitated by Tom Jemmett (Senior Healthcare Analyst at The Strategy Unit) on Wednesday 20th May 2020 from 1-2pm.",
+          "published": "2020-05-22T10:57:51Z",
+          "duration": "PT56M22S",
+          "thumbnail": "https://i.ytimg.com/vi/GxvccD8K49M/mqdefault.jpg"
+        },
+        {
+          "id": "vVl1f2lMfsA",
+          "title": "Shiny webinar",
+          "description": "This webinar was facilitated by Chris Beeley (Senior Analyst at Nottinghamshire Healthcare NHS Foundation Trust) on Wednesday 22nd April 2020 from 1-2pm.",
+          "published": "2020-04-23T13:53:24Z",
+          "duration": "PT55M7S",
+          "thumbnail": "https://i.ytimg.com/vi/vVl1f2lMfsA/mqdefault.jpg"
+        },
+        {
+          "id": "XWFuwSTz8dY",
+          "title": "Database Connections in R Webinar",
+          "description": "This webinar was facilitated by Chris Mainey (Senior Statistical Intelligence Analyst at University Hospitals Birmingham NHS Foundation Trust) on Wednesday 19th February 2020 from 1-2pm.",
+          "published": "2020-02-21T11:10:49Z",
+          "duration": "PT1H3M25S",
+          "thumbnail": "https://i.ytimg.com/vi/XWFuwSTz8dY/mqdefault.jpg"
+        },
+        {
+          "id": "gCZPye-hXPc",
+          "title": "Communicating your analysis with clinicians and managers",
+          "description": "This webinar was facilitated by Lori Edwards Suárez and Andreas Soteriades on Wednesday 17th March from 1-2pm.",
+          "published": "2021-03-17T16:35:48Z",
+          "duration": "PT48M32S",
+          "thumbnail": "https://i.ytimg.com/vi/gCZPye-hXPc/mqdefault.jpg"
+        },
+        {
+          "id": "MqCFHCbTORs",
+          "title": "NHSDataDictionaRy: a new package for keeping NHS lookups up to date and easily accessible",
+          "description": "This webinar was facilitated by Gary Hutson on Wednesday 21st April from 1-2pm.",
+          "published": "2021-04-21T14:29:43Z",
+          "duration": "PT50M9S",
+          "thumbnail": "https://i.ytimg.com/vi/MqCFHCbTORs/mqdefault.jpg"
+        },
+        {
+          "id": "WmofiOklux8",
+          "title": "Plotting interactive visualizations with Plotly in R",
+          "description": "Presented by: Elizabeth Brown and Hannah Alexander\n\nAn introduction to plotting interactive visualizations with Plotly in R. Covers - creating a number of interactive plots, including plots using spacial data, and the integration of Plotly with ggplot2.\n\nPlease access materials here: https://github.com/nhs-r-community/Webinars/tree/master/Plotting%20interactive%20visualizations%20with%20Plotly%20in%20R",
+          "published": "2021-05-25T12:07:37Z",
+          "duration": "PT57M44S",
+          "thumbnail": "https://i.ytimg.com/vi/WmofiOklux8/mqdefault.jpg"
+        },
+        {
+          "id": "SGD3nK7u8fw",
+          "title": "NHS R Webinar - Using Git and GitHub by Zoë Turner",
+          "description": "Presented by: Zoë Turner - Senior Information Analyst, Clinical Development Unit, Nottinghamshire Healthcare NHS Foundation Trust\n\nThis is an introduction to GitHub for anyone who doesn’t know what GitHub is, has heard of it but doesn’t know where to start and for anyone who has ever been told: “code is available on the GitHub repo”. \n\nZoë's slides can be accessed here: https://cdu-data-science-team.github.io/presentations/2021-06-16%20NHSR%20Introduction%20to%20GitHub%20Webinar/NHSR-Introduction-to-GitHub-Webinar.html#1",
+          "published": "2021-06-17T10:46:31Z",
+          "duration": "PT45M55S",
+          "thumbnail": "https://i.ytimg.com/vi/SGD3nK7u8fw/mqdefault.jpg"
+        },
+        {
+          "id": "hDhI2iuYyLY",
+          "title": "Assessing the impact of Covid-19 on hip replacement rates using R and R Markdown",
+          "description": "Presented by: Alexander Lawless, Healthcare Analyst, The Strategy Unit\n\nAlex presents the findings of a recent piece of analysis into how the Covid-19 pandemic impacted planned and unplanned hip replacement procedures across the country and in different socio-demographic groups. This work was undertaken solely in R and presented in R Markdown. Alex offers feedback on his experience using these tools to deliver analytics. \n\nPlease access materials here: https://github.com/alexanderlawless/SU-HF-covid-impact-hip-diabetes",
+          "published": "2021-07-22T08:55:56Z",
+          "duration": "PT51M35S",
+          "thumbnail": "https://i.ytimg.com/vi/hDhI2iuYyLY/mqdefault.jpg"
+        },
+        {
+          "id": "A7TeTv5m5rg",
+          "title": "NHS-R Webinar - Adaptive Clinical Trial Design using R by Dr Anna Heath (August 2021)",
+          "description": "Adaptive Clinical Trial Design using R by Dr Anna Heath\n\nIn this webinar Anna presents two adaptive clinical trials to investigate treatments for pain relief in the pediatric emergency department. Both these trials were designed using R and were combined with an R shiny interface to support their practical implementation.\n\nCovering:\n- Key advantages of adaptive clinical trials\n- Methods required to design adaptive clinical trials\n- Two paediatric adaptive clinical trials comparing treatments for pain management in the emergency department; a dose ranging study and a comparative effectiveness study\n- Undertaking clinical trial design using simulations in R\n- Using R shiny to support clinicians in the implementation of the trial.",
+          "published": "2021-08-18T15:01:28Z",
+          "duration": "PT1H6M48S",
+          "thumbnail": "https://i.ytimg.com/vi/A7TeTv5m5rg/mqdefault.jpg"
+        },
+        {
+          "id": "hxRx7ozLNKw",
+          "title": "NHS R Webinar - Building a TidyModels Classification Model from Scratch, December 2021",
+          "description": "Join Gary Hutson for the NHS-R webinar - Building a TidyModels Classification Model from Scratch\n\nGary Hutson - Head of Machine Learning and Senior NHS-R Fellow\nPlease resources at: https://github.com/StatsGary/NHSRComm_TidyModels_Recipes\n\nThis webinar will take you through how to:\n- Build your first Machine Learning classification model with tidynodels\n- Understanding data processing for machine learning\n- Evaluate your machine learning models with ROC curves and Confusion Matrices\n- Understand the tidy models process for model creation\n- Understand sampling methods in machine learning model creation\n- Work with packages such as recipes, yardstick, rsample, tune, parsnip and caret\n- Using the ConfusionTableR package to flatten confusion matrix outputs for storing in databases\n- Serialise your models\n- Assessing global feature importance\n\nOnce you have conquered the basics of this, we will then go on to:\n- Model improvement via model selection\n- Model improvement by hyper parameter tuning\n- Model improvement by resampling methods\n- Model improvement using a combination of the three methods listed\n\nI would be happy to follow this up with another webinar looking at different ensembling techniques, but there will be so much to cover in this session.",
+          "published": "2021-12-16T14:49:53Z",
+          "duration": "PT59M47S",
+          "thumbnail": "https://i.ytimg.com/vi/hxRx7ozLNKw/mqdefault.jpg"
+        },
+        {
+          "id": "UxS5JyKZJxg",
+          "title": "NHS-R Webinar - Designing a Shiny dashboard using a Raspberry Pi cluster server, January 2022",
+          "description": "Join Pablo Leon-Rodenas, for the NHS-R webinar - Designing a Shiny dashboard using a Raspberry Pi cluster server\n\nPablo Leon-Rodenas, Analytics Developer, NHS England and NHS Improvement\nPablo has built the Raspberry PI cluster to host the Shiny Server. \n\nIn this webinar Pablo with  describe in detail the process he followed with code examples.\n\n\nResources\n========================================================\nThe Github Repo called \"Raspbery_pi_Shiny_app\" includes all scripts and resources to replicate and follow the different sections presented in the slides\nhttps://github.com/Pablo-source\n\nSetting your Shiny Server on Raspberry pi\nhttps://community.rstudio.com/t/setting-up-your-own-shiny-server-rstudio-server-on-a-raspberry-pi-3b/18982/\n  \nTinkernut.How To Make A Cluster Computer (Part https://www.youtube.com/watch?v=1R0UgIgcb5g&t=4s\n\nNetwork Chuck. I build a Raspberry Pi super computer\nhttps://youtu.be/X9fSMGkjtug",
+          "published": "2022-01-20T14:02:05Z",
+          "duration": "PT24M22S",
+          "thumbnail": "https://i.ytimg.com/vi/UxS5JyKZJxg/mqdefault.jpg"
+        },
+        {
+          "id": "8UiCqSKlfew",
+          "title": "NHS-R Webinar: Building Multiple Page Shiny Apps with {brochure} - February 2022",
+          "description": "Join Colin Fay for the NHS-R Webinar - Building Multiple Page Shiny Apps with {brochure} \n\nPresenter: Colin Fay, Data Science Engineering at ThinkR \n\nSummary: \nHow about we take a step back and think about the way we've been building {shiny} apps so far? \nWhat can we learn from the way web apps are built in other languages? What do we actually need when building a web app? \nAnd how can we apply the answers to these questions to the way we build our apps with {shiny}? \n\nIn this talk, Colin will present {brochure}, a package that brings native multi-page support for {shiny}, and demonstrate how you can use it to build an app that will feature all the things you'll traditionally find in a classical web app: multiple endpoint, cookie support, HTTP status codes and methods, and all the cool tools the web developers have been using to build the web.",
+          "published": "2022-02-17T15:27:00Z",
+          "duration": "PT57M18S",
+          "thumbnail": "https://i.ytimg.com/vi/8UiCqSKlfew/mqdefault.jpg"
+        },
+        {
+          "id": "bD65nCSmeQs",
+          "title": "NHS-R Webinar : Strategic Health Asset Planning and Evaluation (SHAPE) - March 2022",
+          "description": "Join Barbara Coyle for the NHS-R Webinar - Strategic Health Asset Planning and Evaluation (SHAPE) \n\nDate: Wednesday 16th March, 1.00 pm – 2.00 pm\n\nPresenter: Barbara Coyle, Associate Director at Public Health England\n\nStrategic Health Asset Planning and Evaluation (SHAPE) is a web enabled, evidence based application which informs and supports the strategic planning of services and physical assets across a whole health economy. \nThe application contains a number of key indicators covering a range of topics including public health, primary care and demography.  Each indicator can be mapped and is linked with information on the location of healthcare assets such as GPs, hospitals, dentists and pharmacies. As well as providing analyses vital for overall strategic planning across whole health economies, SHAPE can be used for numerous more specific planning purposes. \nThese include:\nMapping local populations by age, ethnicity, socio-economic status, primary care and public health factors\nComparing your local population with other areas\nSiting new facilities and its impact on populations (with a focus on inequalities)\nPCN and GP practice primary care data such as QOF, registered populations, prescription activity and workforce\nDeveloping a repository of organisation and site estate information\nCovid vaccination mapping and access analysis\nComprehensive travel time analysis for every NHS site\n\nAccess to SHAPE is free and you can register for access here: \nhttps://shapeatlas.net/user-registration",
+          "published": "2022-03-23T09:19:37Z",
+          "duration": "PT48M17S",
+          "thumbnail": "https://i.ytimg.com/vi/bD65nCSmeQs/mqdefault.jpg"
+        },
+        {
+          "id": "G5MYlWGRz34",
+          "title": "NHS-R Webinar: Approaches to Teaching R - April 2022",
+          "description": "Presenter: Jenny Sloane, PhD student, Studying Cognitive Psychology,  UNSW\n\nIn this webinar, I will share different approaches and tips for how to effectively teach R. \nFrom personal experience, I know there's a steep learning curve to learning R, which can be very frustrating at times. However, it is also incredibly rewarding and definitely worth putting in the time and effort. \n\nOver the past several years, I have had the pleasure to teach secondary, high school, and university students how to program in R. As the mentor and teacher, I have learned so much and I look forward to sharing some of my insights with you. \n\nResources\nRStudio Cloud project: https://rstudio.cloud/project/3932880\nGitHub repo: https://github.com/jennysloane/teaching-\nWebsite: https://jennysloane.netlify.app/\"\nYouTube Channel:  https://www.youtube.com/channel/UC9Sm1qcdzyGVjQMgWsW4pcw/playlists\n\nAbout me:\nI’m a PhD student studying cognitive psychology at UNSW. I received my BA in psychology from the University of Maryland and my Masters of Science in experimental psychology from Syracuse University. \n\nMy research interests include studying the effects of interruptions and time-pressure within medical decision-making.\n\nI've recently accepted a postdoctoral position in Health Services Research, where I will conduct research in patient safety and on improving diagnosis.",
+          "published": "2022-04-21T09:43:30Z",
+          "duration": "PT56M19S",
+          "thumbnail": "https://i.ytimg.com/vi/G5MYlWGRz34/mqdefault.jpg"
+        },
+        {
+          "id": "HeGpHy2naJY",
+          "title": "NHS-R Webinar: KCL Innovation Scholars Data training programme, May 2022",
+          "description": "KCL Innovation Scholars Data training programme\n\nDate: Wednesday 18th May 2022\n\nPresenter: Emily Robinson and Team from Innovation Scholars Programme,  Centre for Doctoral Studies, King's College London \n\nHealthcare is not exempt from the big data deluge which is transforming the workplace and with it many roles, which will be collecting and using this data. \n\nThe KCL Innovation Scholars programme offers flexible and modular training to equip the healthcare workforce for this new way of working. \nDuring this webinar we will be introducing the training programme and looking at the ways we can work with the NHS R community to continue to support the use of R in the NHS. \n\nInnovation Scholars - Big data skills training for the health workforce\nhttps://innovationscholars.co.uk/",
+          "published": "2022-05-18T13:58:24Z",
+          "duration": "PT37M7S",
+          "thumbnail": "https://i.ytimg.com/vi/HeGpHy2naJY/mqdefault.jpg"
+        },
+        {
+          "id": "GdAooA0uijI",
+          "title": "NHS-R Webinar: Statistical Disclosure Control Methods via R for Statistical Publications, June 2022",
+          "description": "Statistical Disclosure Control Methods via R for Statistical Publications\n\nDate: Wednesday 15th June, 1.00 pm – 2.00 pm\n\nPresenters: Robert Mitchell and Alex Reid from the CHILI team who have developed the code and by Scott Wilson who leads the Statistical Governance/CHILI team.\n\nThis webinar aims to pull together some of the theory of statistical disclosure control for safe and useful sharing of information for various statistical outputs. \n\nWe will consider the definitions and types of disclosure with a focus on the risks of releasing disclosive data. \n\nWe will detail how we can use R to apply control measures in a user-friendly manner, based on simple input commands by the user to various publication outputs including excel files, open data files and dashboards’ input files. \n\nWe will aim to finish the session by looking at some worked examples allowing time for discussion.\n\nThe webinar will be run by the Public Health Scotland Statistical Governance and CHI Linkage and Indexing (CHILI) team. Combining our technical skills with our governance responsibilities allows us to maximise compliance to standards in a very efficient way.",
+          "published": "2022-06-21T14:34:10Z",
+          "duration": "PT56M56S",
+          "thumbnail": "https://i.ytimg.com/vi/GdAooA0uijI/mqdefault.jpg"
+        },
+        {
+          "id": "Q6sKc0y5uK8",
+          "title": "NHS-R Webinar: Shiny Tool Predicting Primary Care Demand from Large Scale Housing Devs, July 2022",
+          "description": "Shiny Tool Predicting Primary Care Demand from Large Scale Housing Developments in Wales\n\nDate: Wednesday 20th July, 1.00 pm – 2.00 pm\n\nPresenters: From the Strategy Unit, Justine Wiltshire the project lead and Ozayr Mohammed the developer of this shiny based application\n\nJoin the Strategy Unit as they describe the R Shiny model they’ve designed, in collaboration with the NHS Wales Delivery Unit, to help primary care practices in Wales investigate how they may be impacted by large new housing developments.",
+          "published": "2022-07-22T10:08:27Z",
+          "duration": "PT45M21S",
+          "thumbnail": "https://i.ytimg.com/vi/Q6sKc0y5uK8/mqdefault.jpg"
+        },
+        {
+          "id": "ztoWo6hiPkE",
+          "title": "NHS-R Webinar: PrAna R package to calculate & visualize NHS primary care prescribing data, Aug 2022",
+          "description": "PrAna: an R package to calculate and visualize England NHS primary care prescribing data. \n\nWednesday 17th August 2022, 1.00 pm \n\nDr Kishore Kumar Jagadeesan, University of Bath \n\nKishore is a researcher with 10+ years of experience contributing to scientific discoveries in the fields of Analytical Chemistry and Data modelling. Specializes in proteomics, public health, statistical analysis, R, data processing, data visualisation and data mining algorithms. Currently working as a postdoctoral research associate in Environmental chemistry and Public Health research group, at University of Bath, UK and working in the Innovative Pathway Control (IPC) project, led by Wessex Water, supporting wider projects in the Somer Valley to improve health, wellbeing, and the local environment. In this project he is working with Bath and North East Somerset Council, Natural England, the health sector, and delivery partners to understand the role of green and social prescribing to improve community health and river water quality. His current research focuses on wastewater fingerprinting for public health assessment, prescription data analysis and modelling. He finished his PhD in Biomedical Engineering at Lund University, Sweden in 2017 and was a Maire Curie Early-Stage Researcher (PEPMIP ITN project). \n\nLinks: \nUniversity Profile page: https://researchportal.bath.ac.uk/en/persons/kishore-jagadeesan Personal website: https://jkkishore85.github.io/ \nLinkedIn: https://www.linkedin.com/in/jkishore/ Twitter: https://twitter.com/kishorejag",
+          "published": "2022-08-24T14:07:42Z",
+          "duration": "PT47M45S",
+          "thumbnail": "https://i.ytimg.com/vi/ztoWo6hiPkE/mqdefault.jpg"
+        },
+        {
+          "id": "cVmB6jcmGdc",
+          "title": "NHS-R Webinar: Live Data Analysis with Chris Mainey - September 2022",
+          "description": "Join Chris Mainey, NHS England for a Live Data Analysis Webinar.\nWebinar: 28/09/22",
+          "published": "2022-09-29T12:19:00Z",
+          "duration": "PT54M28S",
+          "thumbnail": "https://i.ytimg.com/vi/cVmB6jcmGdc/mqdefault.jpg"
+        },
+        {
+          "id": "4aE0a_JnERU",
+          "title": "NHS-R Conference Webinar: Shiny and Advanced Shiny – 1/11/22",
+          "description": "Intro to Shiny and Advanced Shiny\nTuesday 1st November, 12.00 – 2.00 pm\nLed by Ryan Johnson, Customer Success Manager, RSTUDIO\n\nAbout the course:\nIntro to Shiny: We’ll go over the basic structure of a Shiny app and how they work. This is a great session for those new to Shiny.\n\nAdvanced Shiny: Also called “Shiny Tips and Tricks“. We’ll go over various open-source tools and packages that can improve the appearance, performance, and development of Shiny apps.",
+          "published": "2022-11-01T15:31:57Z",
+          "duration": "PT1H46M19S",
+          "thumbnail": "https://i.ytimg.com/vi/4aE0a_JnERU/mqdefault.jpg"
+        },
+        {
+          "id": "VzVwdWn11s8",
+          "title": "NHS-R Webinar: Introduction to business case analytics using Decision Analysis in R – 01/11/22",
+          "description": "NHS-R Conference Webinar: \nIntroduction to business case analytics using Decision Analysis in R\nTuesday 1st November 2022\nLed by: Rob Brown, Cybersecurity Risk Management Leader\n\nAbout the webinar:\nHow decision analysis leads data analysis, what considerations need to be in place to do that.\n\nWith some basic code that the attendees can use for their own study.",
+          "published": "2022-11-02T09:53:05Z",
+          "duration": "PT1H24M34S",
+          "thumbnail": "https://i.ytimg.com/vi/VzVwdWn11s8/mqdefault.jpg"
+        },
+        {
+          "id": "vO_Wn2tgIck",
+          "title": "NHS-R Webinar: Tips and tricks learnt from building production {shiny} apps  - 07/11/22",
+          "description": "Tips and tricks learnt from building production {shiny} apps \nMonday 7th November\nDelivered by Colin Fay, Data Scientist & R Hacker at ThinkR\n\nAbout the webinar: \n\nThe road to a production-ready software is always a bumpy road. Whatever you do, you can always expect the unexpected.  \n\nBut the good news is that at the end of the day, many of the issues faced along the road from project init to deployment can be avoided, provided you follow a set of good practices. In this talk, \n\nColin will cover some of the tips and tricks he has learnt from years of building {shiny} applications for production, and some of the patterns he now follows that helps him manage a {shiny} application project from start to finish.",
+          "published": "2022-11-08T15:36:01Z",
+          "duration": "PT57M29S",
+          "thumbnail": "https://i.ytimg.com/vi/vO_Wn2tgIck/mqdefault.jpg"
+        },
+        {
+          "id": "zyLT7akvc8s",
+          "title": "December 2022 Webinar: The R Workflow – Dr Ryan Johnson from Posit",
+          "description": "The R Workflow\nWednesday 21st December.\n\nRyan Johnson, Posit discusses the following (using a Shiny app as the end product):\n\n- R Markdown Job Scheduling\n-  Pins - https://pins.rstudio.com/\n- Plumber APIs\n\nThis session is a show-and-tell getting you familiar with various open source tools (Pins, Plumber) and how they can be used in combination with pro tools (Posit Connect) to improve workflows.\n\nResource links can be found on the NHS-R Community website: https://nhsrcommunity.com/events/december-2022-webinar-the-r-workflow-dr-ryan-johnson-from-posit/",
+          "published": "2022-12-22T11:59:41Z",
+          "duration": "PT50M16S",
+          "thumbnail": "https://i.ytimg.com/vi/zyLT7akvc8s/mqdefault.jpg"
+        },
+        {
+          "id": "VcEZBYDBJwo",
+          "title": "NHS-R January 2023 Webinar:  Create reproducible and accessible spreadsheets with {a11ytables}",
+          "description": "NHS-R Webinar: January 2023\nTopic: Create reproducible and accessible spreadsheets with {a11ytables}\nDelivered  by: Matt Dray, Analyst, Analysis & Insight – Cabinet Office\n\nWednesday 18th January 202\n\nAbout the webinar:\nThe Reproducible Analytical Pipelines (RAP) movement has revolutionised data processing in the UK’s public sector. Civil service analysts are using wholly code-driven approaches to generate official statistics with greater speed, efficiency and reproducibility. But there’s a bottleneck: there’s no unified R solution to autogenerate spreadsheet outputs that meet the Government Statistical Service’s best practice guidelines.\n\nThis is a problem: creating outputs with time-consuming point-and-click methods defeats the benefits of RAP, while a lack of consistency and accessibility of outputs can drive down trust and usability. To fill this gap I’ve created the {a11ytables} (‘accessibility tables’) R package, which makes use of {openxlsx} for programmatic spreadsheet creation. The interface to {a11ytables} is simple so that analysts can concentrate on generating their statistical tables and leave it to the package to generate compliant spreadsheets that can be used by all citizens.\n\nThe package is openly available on GitHub for anyone to use or contribute to, and has already been used to help create reproducible and accessible statistical publications for GOV.UK with minimal effort.\n\nIn this talk I’ll discuss the package’s inception, development, design, features and future.\n\nResource links can be found on the NHS-R Community website: https://nhsrcommunity.com/events/january-2023-webinar-create-reproducible-and-accessible-spreadsheets-with-a11ytables/",
+          "published": "2023-01-18T15:35:40Z",
+          "duration": "PT58M43S",
+          "thumbnail": "https://i.ytimg.com/vi/VcEZBYDBJwo/mqdefault.jpg"
+        },
+        {
+          "id": "FBq66XF0lRY",
+          "title": "NHS-R February 2023 Webinar: Introduction to Causal Inference and propensity modelling",
+          "description": "Introduction to Causal Inference and propensity modelling\nWednesday 15th February 2023\nWith Christel Swift, Principal Data Scientist, BBC\n\nAbout the webinar:\nIn an ideal world, when trying to assess the effectiveness of a treatment (e.g. a new medicine, a government policy, a marketing intervention), we would use a randomized controlled trial.  Unfortunately this is often not possible or practical and we have to make do with “observational studies”.  Directly comparing a treated vs a non-treated group can be problematic because the two groups may have very different profiles prior to being treated.  For example, how would you evaluate the effectiveness of programme trailers that are played before a viewer gets to watch their selected programme?  It’s important to control for factors that influence both treatment (e.g. being exposed to a trailer) and outcome (e.g. going on to watch the promoted programme) before drawing any conclusion.  This is what Causal Inference is all about.  Add to that the computational challenge of dealing with large datasets and some methods may be suitable than others.  \n\nThis webinar will walk you through some key concepts of Causal Inference, including counterfactuals, causal graphs, propensity modelling, inverse probability weights, love plots, and marginal structural models.\n\nResource links to text books, articles and online courses can be found on the NHS-R Community website https://nhsrcommunity.com/events/february-2023-webinar-introduction-to-causal-inference-and-propensity-modelling-christel-swift-bbc/",
+          "published": "2023-02-16T11:09:29Z",
+          "duration": "PT54M25S",
+          "thumbnail": "https://i.ytimg.com/vi/FBq66XF0lRY/mqdefault.jpg"
+        },
+        {
+          "id": "ugMatRCIO4Q",
+          "title": "NHS-R March 2023 Webinar: Build a Golem Application",
+          "description": "Build a Golem Application\nWednesday 15th March 2023\nWith Chris Beeley, Senior Lead Data Scientist, The Strategy Unit",
+          "published": "2023-04-05T12:43:53Z",
+          "duration": "PT57M40S",
+          "thumbnail": "https://i.ytimg.com/vi/ugMatRCIO4Q/mqdefault.jpg"
+        },
+        {
+          "id": "MyZM-hOyJX4",
+          "title": "NHS-R April 2023 Webinar: Chat with your data via RTutor and ChatGPT",
+          "description": "Chat with your data via RTutor and ChatGPT\nFriday 14th April 2023\nWith Dr. Xijin “Steven” Ge, Professor of Bioinformatics at South Dakota State University.\n\nAbout the webinar: \nFirst, I will demonstrate RTutor (https://RTutor.ai), an AI-powered app that lets you chat with your data. RTutor uses ChatGPT to turn requests in plain English into R or Python code, which is executed & results are shown instantly. Beginning with my own work on auto-encoders, I will then briefly talk about the key technical innovations and ideas that made large language models (LLMs) possible: deep learning, transformers, self-supervised learning, and transfer learning. Lastly, there will be a quick overview of the explosion of LLM-powered tools. I argue that it is vital to learn to leverage these tools and embrace the AI revolution.",
+          "published": "2023-05-11T16:03:36Z",
+          "duration": "PT1H1M13S",
+          "thumbnail": "https://i.ytimg.com/vi/MyZM-hOyJX4/mqdefault.jpg"
+        },
+        {
+          "id": "8nPfCUKPnBE",
+          "title": "April 2023 Webinar: Introduction to Quarto for R Users",
+          "description": "Introduction to Quarto for R Users\nFriday 21st April 2023\nWith Filippo Cavallari, Data Science Lecturer at The Office for National Statistics (ONS)\n\nAbout the webinar: \nIf you are an R user, then you’ve probably been using R Markdown. And probably you loved R also because of R Markdown. But since July 2022 there is a new publishing system that you can use. It’s name is Quarto. What’s the difference? First, unlike R Markdown, Quarto is not a package, but it is a stand alone application. Therefore you can use it outside the R world, for example with Python or Julia. So it can support you better if you or your team are using more than one language. Also, if your preferred IDE is not RStudio, then you’ll find that Quarto works well also with VS Code, Jupyter, Neovim or any other text editor. And there is already plenty of guidance for all of this.\n\nFor the perspective of R Users, Quarto solves some problems and adds new functionalities. R Markdown users will find that they won’t need to install additional packages for specific publications (like Bookdown for books, Blogdown for websites and blogs, Xaringan for slideshows). Moreover Quarto keeps the syntax consistent in all publishing formats.\n\nThis webinar will present some of the new functionalities of Quarto, highlight few but important syntax differences with R Markdown, and cover some tips and tricks Filippo learned using Quarto during the past year.\n\nSlides are available here: https://filebb.github.io/Intro_Quarto/",
+          "published": "2023-05-15T13:13:50Z",
+          "duration": "PT57M16S",
+          "thumbnail": "https://i.ytimg.com/vi/8nPfCUKPnBE/mqdefault.jpg"
+        },
+        {
+          "id": "qNMOPWT8jSo",
+          "title": "May 2023 Webinar: Version Control and RStudio",
+          "description": "Version Control and RStudio\nThursday 25th May 2023\nWith Ryan Johnson, Data Science Advisor at Posit\n\nAbout the webinar:\nIn this 1-hour training, we’ll discuss what are version control and git, setting up Git, RStudio Projects + Version Control, RStudio IDE git integrations, and Git-backed deployment to Posit Connect.",
+          "published": "2023-05-31T17:41:54Z",
+          "duration": "PT57M8S",
+          "thumbnail": "https://i.ytimg.com/vi/qNMOPWT8jSo/mqdefault.jpg"
+        },
+        {
+          "id": "UJKUpEpsrzE",
+          "title": "June 2023 Webinar: Patient Feedback using LimeSurvey and R",
+          "description": "Patient Feedback using LimeSurvey and R \nWednesday 21st June 2023\nWith Roberts Klotins, Consultant Psychiatrist",
+          "published": "2023-10-10T14:01:29Z",
+          "duration": "PT50M20S",
+          "thumbnail": "https://i.ytimg.com/vi/UJKUpEpsrzE/mqdefault.jpg"
+        },
+        {
+          "id": "7v_CaT0IPAk",
+          "title": "July 2023 Webinar: Shiny in Production",
+          "description": "Shiny in Production   \nWednesday 19th July 2023\nWith Ryan Johnson, Data Science Advisor at Posit\n\nAbout the webinar:\nIn this session, we’ll discuss how to create production-ready Shiny apps in R that can scale to thousands of concurrent users.",
+          "published": "2023-10-10T14:01:10Z",
+          "duration": "PT55M14S",
+          "thumbnail": "https://i.ytimg.com/vi/7v_CaT0IPAk/mqdefault.jpg"
+        },
+        {
+          "id": "3M1K7lGzrHQ",
+          "title": "August 2023 Webinar: Introduction to Unit Tests in R",
+          "description": "Introduction to Unit Tests in R\nWednesday 23rd August 2023\nWith Tom Jemmett, Senior Data Scientist at The Strategy Unit\n\nAbout the webinar:\nThis session will provide an introduction to the use of unit tests in R.",
+          "published": "2023-10-10T13:57:43Z",
+          "duration": "PT58M10S",
+          "thumbnail": "https://i.ytimg.com/vi/3M1K7lGzrHQ/mqdefault.jpg"
+        },
+        {
+          "id": "VFtO54DF4_c",
+          "title": "October 2023 Webinar: Package Management in R Studio",
+          "description": "Package Management in R Studio\nThursday 26th October 2023\nWith Ryan Johnson, Data Science Advisor at Posit\n\nAbout the webinar:\nManaging packages in your R environment can be challenging. We’ll introduce R Packages, Libraries, and Repositories for this training and discuss strategies for managing your environment.",
+          "published": "2023-10-30T11:59:19Z",
+          "duration": "PT1H10M33S",
+          "thumbnail": "https://i.ytimg.com/vi/VFtO54DF4_c/mqdefault.jpg"
+        },
+        {
+          "id": "MTui2ojTH0Q",
+          "title": "November 2023 Webinar: Customising your R Experience",
+          "description": "Customising your R Experience\nWednesday 29th November 2023\nWith James Laird-Smith, Data Scientist at the Bank of England\n\nAbout the webinar:\nR is a fantastic environment for interactive programming. It also has a fantastic IDE in RStudio. But many people don’t move beyond default behaviours with either of these tools. In this webinar, I’ll be walking you through how you can customise your experience of using R to achieve an even more efficient workflow.\n\nWebinar slides can be accessed here:\nhttps://customising-r.jameslairdsmith.com/#/customising-your-r-experience",
+          "published": "2023-12-18T10:13:01Z",
+          "duration": "PT48M23S",
+          "thumbnail": "https://i.ytimg.com/vi/MTui2ojTH0Q/mqdefault.jpg"
+        },
+        {
+          "id": "7lCOjGrwclQ",
+          "title": "December 2023 Webinar: Reproducible Environments using renv",
+          "description": "Reproducible Environments using renv\nWednesday 20th December 2023\nWith Ryan Johnson – Data Science Advisor, Posit\n\nAbout the webinar:\nThe renv package helps create reproducible environments for your R projects. In this training we will provide an overview of the renv package and how to initialize, snapshot, and restore R projects using renv.\n\n\nWebinar slides can be accessed here:\nhttps://nhsrcommunity.com/wp-content/uploads/2023/12/renv.pdf",
+          "published": "2023-12-22T14:20:39Z",
+          "duration": "PT56M20S",
+          "thumbnail": "https://i.ytimg.com/vi/7lCOjGrwclQ/mqdefault.jpg"
+        },
+        {
+          "id": "ha_zckz3_rU",
+          "title": "How to turn your hospital's EHR data into predictions of emergency demand for beds",
+          "description": "In this first of two webinars, I will provide detail on how to do this modelling including what our users (bed managers) wanted and how we catered to their needs\n• what data you need to do this modelling in your hospital\n• what data structures are suitable for prediction of short-term demand and how to transform EHR data into these structures\n• a high-level introduction to the modelling steps applied to the data\n• how we made our demand predictions aspirational (to reflect ED 4 hour targets)\n• how we evaluated model performance\n\nThis webinar is intended for\n• any analyst or data scientist who works with EHR data (it does not matter which EHR your hospital has), or is interested in doing so\n• students of health data science and/or operational research\n• anyone with interest in using the predictions from such models to support patient flow, including operational managers and academics\n\nA companion webinar will show how this modelling is done in Python, including an introduction to the Python package we are developing for modelling patient flow.\n\nPresented by Zella King, Health Data Scientist in the Clinical Operational Research Unit at University College London",
+          "published": "2024-06-27T10:29:28Z",
+          "duration": "PT43M32S",
+          "thumbnail": "https://i.ytimg.com/vi/ha_zckz3_rU/mqdefault.jpg"
+        },
+        {
+          "id": "UzonwAs5dNk",
+          "title": "Data quality reporting for temporal datasets using the daiquiri package with Phuong Quan",
+          "description": "",
+          "published": "2024-03-21T15:51:46Z",
+          "duration": "PT42M21S",
+          "thumbnail": "https://i.ytimg.com/vi/UzonwAs5dNk/mqdefault.jpg"
+        },
+        {
+          "id": "6UpVES4aGgw",
+          "title": "GitHub Actions and Continuous Integration (pre-recorded)",
+          "description": "A pre-recorded talk about GitHub Actions from Ziad Ahmed and Shivam Missar from their 6-week internship scheme provided by Nottingham Trent University (NTU) at Nottingham University Hospitals NHS Trust.\n\nShared with kind permission.\n\nhttps://github.com/nottmhospitals/actions_sandbox",
+          "published": "2024-09-23T16:26:50Z",
+          "duration": "PT30M",
+          "thumbnail": "https://i.ytimg.com/vi/6UpVES4aGgw/mqdefault.jpg"
+        },
+        {
+          "id": "vSekPvgwJKY",
+          "title": "Unveiling Congenital Heart Disease and Comorbidities using Primary Care data",
+          "description": "This is a recording of an NHS-R webinar: \"Unveiling Congenital Heart Disease and Comorbidities - ground-breaking collaboration using primary care data\" presented by James Partington on 10 July 2024.\n\nSnomed code referred to in this video are available on the NHS-R Community repository https://github.com/nhs-r-community/chd-codes",
+          "published": "2024-07-11T14:25:00Z",
+          "duration": "PT56M22S",
+          "thumbnail": "https://i.ytimg.com/vi/vSekPvgwJKY/mqdefault.jpg"
+        },
+        {
+          "id": "CRCr_z84F14",
+          "title": "NHS-R Webinar:  Open source for analysts and data scientists - 4 July 2024",
+          "description": "This is a recording of a webinar delivered by Chris Beeley on 4 July 2024",
+          "published": "2024-07-04T14:12:00Z",
+          "duration": "PT56M",
+          "thumbnail": "https://i.ytimg.com/vi/CRCr_z84F14/mqdefault.jpg"
+        },
+        {
+          "id": "W8dMHYKrAII",
+          "title": "NHS R Community and Posit Quarto Q&A",
+          "description": "Informal Posit Quarto team Q&A with discussions with NHS-R Community members. Questions were opened up to the NHS-R Community via the Slack channel prior to the meeting.",
+          "published": "2025-01-24T16:19:00Z",
+          "duration": "PT55M1S",
+          "thumbnail": "https://i.ytimg.com/vi/W8dMHYKrAII/mqdefault.jpg"
+        },
+        {
+          "id": "NS7RqVFoqA0",
+          "title": "May 2025 Webinar: Surfacing the weekly consequences of ED admission delays by statistical modelling",
+          "description": "Surfacing the weekly consequences of ED admission delays by statistical modelling implemented within an automated ML pipeline\nWednesday 14th May 2025\nWith Dr Richard Wood and Dr Nick Howlett\n\nContent Summary:\nSurfacing the weekly consequences of ED admission delays by statistical modelling implemented within an automated ML pipeline\nA statistical analysis on three years of BNSSG data has quantified the extent to which delays to admission from ED are associated with poorer patient outcomes and knock-on impacts to the wider ED and, in turn, to ambulance handover and response times. \n\nFollowing this analysis (published here: https://doi.org/10.1101/2025.02.21.25322666), the models have been implemented on weekly ECDS data to estimate the magnitude of these consequences, with results being refreshed each week and displayed through an R Shiny app hosted on a Linux server and accessible to the wider ICS. \n\nIt is hard to know how to intervene when the extent of a problem is unknown, and so it is hoped that surfacing these impacts will provide a valuable first step in helping to properly illustrate the true scale of the problem.",
+          "published": "2025-07-03T15:33:54Z",
+          "duration": "PT56M37S",
+          "thumbnail": "https://i.ytimg.com/vi/NS7RqVFoqA0/mqdefault.jpg"
+        },
+        {
+          "id": "DAYuUEES1Xc",
+          "title": "August 2025 Webinar: An Improved I Chart",
+          "description": "An Improved I Chart \nWednesday 13th August 2025\nWith Dr Jacob Anhøj and Professor Mohammed A. Mohammed\n\nContent Summary: \nA webinar on simplifying statistical process control with I-prime charts\nIn this webinar, we introduce the I-prime (I') chart – a new SPC tool that retains the simplicity of the I chart while addressing its limitations. It handles both measurement and count data, adapts to varying subgroup sizes, and holds the potential to replace other common SPC charts.\n\nTarget audience:\nThe webinar is intended for analysts and practitioners involved in healthcare quality control and improvement. Prior experience with SPC methodology and programming in R will be beneficial.\n\nPreparations and materials:\nNo preparation is required to participate in the webinar. However, if you would like to refresh your understanding of basic SPC theory and practice, we recommend browsing Part 1 of our work-in-progress book:\n• Anhøj & Mohammed (2025): Mastering Statistical Process Control Charts in Healthcare. A book under development.\nIf you want a head start on the theory behind I' charts, we recommend reading Taylor's original paper:\n• Taylor (2018): Normalized Individuals Control Chart. The original article introducing I' charts.\n• A free e-book: Mohammed MA. Statistical process control. Cambridge University Press; 2024 Feb. https://www.cambridge.org/core/elements/statistical-process-control/60B6025BF62017A9A203960A9E223C10",
+          "published": "2025-12-16T12:02:18Z",
+          "duration": "PT53M59S",
+          "thumbnail": "https://i.ytimg.com/vi/DAYuUEES1Xc/mqdefault.jpg"
+        },
+        {
+          "id": "JfqpQYXVUzg",
+          "title": "December 2025 Webinar: Breaking it up: an approach to reproducible analytical pipelines (RAPs)",
+          "description": "Breaking it up: an approach to reproducible analytical pipelines (RAPs)\nThursday 11th December 2025\nWith Georgina Anderson\n\nContent Summary: \nWriting a piece of code that can be re-used is a great thing, but how can we optimise our code to facilitate reproducibility and re-usability? My talk will cover the benefits of using a modular structure for RAP code, based on the principle of breaking tasks down into manageable chunks to facilitate development, maintenance, readability and re-usability. The session aims to challenge how developers think about their code and explain why it’s important to think beyond delivering the end product from the start.",
+          "published": "2025-12-18T16:52:01Z",
+          "duration": "PT51M8S",
+          "thumbnail": "https://i.ytimg.com/vi/JfqpQYXVUzg/mqdefault.jpg"
+        },
+        {
+          "id": "gZ3a6hLn2bY",
+          "title": "September Webinar 2025: Complexity Made Approachable: Rethinking R-Based Modelling for Healthcare",
+          "description": "Complexity Made Approachable: Rethinking R-Based Modelling for Healthcare with AM-Smart Tools\nThursday 11th September 2025\nWith Brian Castellani, Corey Schimpf and Chris Caden\n\nContent Summary: \nThe rapid rise of data science and its wide array of computational methods has widened the gap between those creating the methods and those able to use them. In response, we developed COMPLEX-IT, a case-based modelling platform built in R and Shiny, designed to make advanced computational techniques – clustering and self-organizing maps, systems mapping – approachable for those traditionally excluded from such methods, including policy analysts, applied researchers, and public sector practitioners. COMPLEX-IT is a prototype of what we call AM-Smart: Approachable Modelling and Smart Methods, a new methodological genre grounded in the learning sciences, human-computer interaction, and the epistemology of complexity. AM-Smart platforms follow nine design principles: bespoke method focus, integrated suites, embedded expertise, scaffolding, formative feedback, visual reasoning, productive failure, user-driven inquiry, and methodological rigor. Using modular R packages and Shiny’s interface logic, we engineered COMPLEX-IT to scaffold complex reasoning without sacrificing integrity. Along the way, we learned a lot about how to balance flexibility and simplicity, and how to build tools that support both learning and serious analysis. We’ll walk through our development process and invite others in the R community to build on this work, especially those interested in applied modelling and user-friendly design.",
+          "published": "2025-12-16T12:38:29Z",
+          "duration": "PT54M56S",
+          "thumbnail": "https://i.ytimg.com/vi/gZ3a6hLn2bY/mqdefault.jpg"
+        }
+      ]
+    }
+  ]
+}

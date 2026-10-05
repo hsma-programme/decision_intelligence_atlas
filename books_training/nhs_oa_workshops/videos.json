@@ -1,0 +1,362 @@
+{
+  "playlists": [
+    {
+      "label": "Workshops",
+      "id": "PLXCrMzQaI6c2L4JCRaF2iujzBxe9Rk-rC",
+      "videos": [
+        {
+          "id": "ZXRjnoOYirg",
+          "title": "Setting up RStudio",
+          "description": "",
+          "published": "2018-06-25T16:30:04Z",
+          "duration": "PT9M31S",
+          "thumbnail": "https://i.ytimg.com/vi/ZXRjnoOYirg/mqdefault.jpg"
+        },
+        {
+          "id": "jBfyErr1HDk",
+          "title": "R   Projects",
+          "description": "",
+          "published": "2018-06-25T16:30:41Z",
+          "duration": "PT2M35S",
+          "thumbnail": "https://i.ytimg.com/vi/jBfyErr1HDk/mqdefault.jpg"
+        },
+        {
+          "id": "VLuzpaWt0ZE",
+          "title": "NHS-R Workshop - An introduction to ggplot2",
+          "description": "Presented by: Eugene Hickey,  Lecturer in Physics, Technology University, Dublin\n\nThis course will be of interest to those who have some experience working with R but have yet to take the plunge to using ggplot. \n\nTopics include:\n\nThe mechanics of ggplot - layers, attributes, and aesthetics\nUsing ggplot to show amounts, proportions, distributions, and relationships\nUsing dplyr to make your data tidy and ggplot-friendly\nColours & facets\nFonts & themes",
+          "published": "2021-01-26T17:27:27Z",
+          "duration": "PT4H40M15S",
+          "thumbnail": "https://i.ytimg.com/vi/VLuzpaWt0ZE/mqdefault.jpg"
+        },
+        {
+          "id": "WNmCucbjmQg",
+          "title": "NHS-R workshop - Automating slides using NHS data",
+          "description": "By Jo McSweeney, Analyst, NHS England and NHS Improvement\n\nUsing the officeR package to automate PowerPoint slide generation.\nDo you have slides that you need to repeat for different organisation levels? \nAre you unable to use the PowerPoint option from the Markdown menu?  \n\nUsing the NHSRdatasets r package for A&E attendance, admissions and breach data this workshop creates PowerPoint slides using ggplot2 graphs for data wrangled using dplyr.",
+          "published": "2021-01-20T17:39:09Z",
+          "duration": "PT2H11M6S",
+          "thumbnail": "https://i.ytimg.com/vi/WNmCucbjmQg/mqdefault.jpg"
+        },
+        {
+          "id": "QbuXObUVTaw",
+          "title": "NHS-R Workshop:  Regression Modelling, November 2021",
+          "description": "Presented by:  Chris Mainey, Patient Safety Lead – System Analysis and Delivery, NHS Improvement\n\nPre-requisites: Some introductory experience with R\n\nSummary: This session focuses on how to fit regression models in R, the most common form of statistical modelling. Examining the essential theory underpinning these models, then fitting linear models with a single predictor, then multiple predictors and looking at how to interpret them",
+          "published": "2021-11-30T18:24:18Z",
+          "duration": "PT1H51M23S",
+          "thumbnail": "https://i.ytimg.com/vi/QbuXObUVTaw/mqdefault.jpg"
+        },
+        {
+          "id": "aeTgh91EgTs",
+          "title": "NHS-R Workshop: Shiny (Part 2 of 2) - November 2021",
+          "description": "Facilitator: Chris Beeley, Senior Data Scientist, Nottinghamshire Healthcare NHS Foundation Trust\n\nSummary: Shiny is an programming framework for R that allows you to build dynamic and interactive dashboards for the web with no knowledge of HTML, CSS, or JavaScript. It allows R programmers to very easily allow their users to interact with analyses written in R.\nThis course will teach you Shiny all the way from writing your very first application to writing a full fledged dashboard with real NHS data in, and cover good practice in Shiny development. The course finishes with a preview of advanced methods for those curious to learn more.\n\nPre-requisites: Intermediate knowledge of R and RMarkdown is essential",
+          "published": "2021-12-01T15:34:21Z",
+          "duration": "PT2H16M30S",
+          "thumbnail": "https://i.ytimg.com/vi/aeTgh91EgTs/mqdefault.jpg"
+        },
+        {
+          "id": "rRL8rT97S0I",
+          "title": "NHS-R Workshop: Further changepoint analysis techniques –December 2021",
+          "description": "Facilitator: Dr Rebecca Killick Associate Professor in the Mathematics & Statistics department at Lancaster University\n\nSummary:  ‘Further changepoint analysis techniques’ workshop builds upon the introduction to changepoint course and that knowledge will be assumed. We will focus on more advanced and recently developed techniques such as how to incorporate:\n - covariates\n - seasonality\n - dependence / autocorrelation\n - multivariate data\nPre-requisites: This workshop builds upon the introduction to changepoint course and that knowledge will be assumed",
+          "published": "2021-12-03T18:01:06Z",
+          "duration": "PT1H43M11S",
+          "thumbnail": "https://i.ytimg.com/vi/rRL8rT97S0I/mqdefault.jpg"
+        },
+        {
+          "id": "UfGrLJ7S3sc",
+          "title": "NHS-R Workshop: Introduction to changepoint analysis with R-  November 2021",
+          "description": "Facilitator: Dr Rebecca Killick Associate Professor in the Mathematics & Statistics department at Lancaster University\n\nSummary: This workshop introduces participants to the analysis of changepoint models (also known as time series segmentation or structural changes). The course is aimed at those with an interest in discovering methods for models that include changepoints. It will be interactive and use packages available on CRAN.\n\nFollowing the course participants will be able to:\n - recognise datasets that potentially contain changepoints\n - identify appropriate changepoint methods dependent on the type of change suspected\n - perform changepoint analyses using a variety of techniques in R\n - summarise and evaluate results of a changepoint analysis\n\nPre-requisites: Basic working knowledge of R and statistical modelling is assumed",
+          "published": "2021-12-03T15:02:21Z",
+          "duration": "PT2H49M1S",
+          "thumbnail": "https://i.ytimg.com/vi/UfGrLJ7S3sc/mqdefault.jpg"
+        },
+        {
+          "id": "wEYaeltxlys",
+          "title": "NHS-R Workshop: Shiny (Part 1 of 2) November 2021",
+          "description": "Facilitator: Chris Beeley, Senior Data Scientist, Nottinghamshire Healthcare NHS Foundation Trust\n\nSummary: Shiny is an programming framework for R that allows you to build dynamic and interactive dashboards for the web with no knowledge of HTML, CSS, or JavaScript. It allows R programmers to very easily allow their users to interact with analyses written in R.\nThis course will teach you Shiny all the way from writing your very first application to writing a full fledged dashboard with real NHS data in, and cover good practice in Shiny development. The course finishes with a preview of advanced methods for those curious to learn more.\n\nPre-requisites: Intermediate knowledge of R and RMarkdown is essential",
+          "published": "2021-11-30T17:52:15Z",
+          "duration": "PT2H27M40S",
+          "thumbnail": "https://i.ytimg.com/vi/wEYaeltxlys/mqdefault.jpg"
+        },
+        {
+          "id": "_broZee5Y6s",
+          "title": "Introduction to Machine Learning and Image Processing with R, December 2021",
+          "description": "Facilitators: Santosh Kumar and Bruno Petrungaro, The Health Economics Unit\n\nSummary: This workshop covers the basics of image processing, classical machine learning with R. Topics in machine learning include an introduction to machine learning, the difference between machine learning and AI, Machine learning models, overfitting in machine learning models, applications of machine learning in the healthcare, and machine learning with R. Topics in image processing include the basics of image processing, including conventions of image representation, visualization, common transformations, and filtering operations, and common methods for image classification.\n\nPre-requisites: Basic mathematics, Beginner R programming, Basic data structure",
+          "published": "2021-12-09T17:09:34Z",
+          "duration": "PT2H59M51S",
+          "thumbnail": "https://i.ytimg.com/vi/_broZee5Y6s/mqdefault.jpg"
+        },
+        {
+          "id": "RaM6fgwMZIs",
+          "title": "NHS-R Introduction to RMarkdown Workshop - November 2021, Hansel Palencia",
+          "description": "Join Hansel Palencia for the NHS-R Workshop - 'Introduction to RMarkdown'",
+          "published": "2022-02-07T11:38:55Z",
+          "duration": "PT5H41M34S",
+          "thumbnail": "https://i.ytimg.com/vi/RaM6fgwMZIs/mqdefault.jpg"
+        },
+        {
+          "id": "uerf_bY-d4c",
+          "title": "NHS-R Conference 2021: Intro to R/RStudio - Part 1",
+          "description": "Join Zoë Turner, Data Scientist,, Nottinghamshire Healthcare NHS Foundation Trust for this NHS-R Workshop - Introduction to R/RStudio\n\nSummary: An Introduction to R workshop covering R/RStudio, manipulation of data (dplyr), creating charts (ggplot2) and reports (R Markdown). This is a great opportunity for anyone who is interested in data analysis using Excel, SQL, Access or uses statistical programmes like SPSS to get started with R and R Studio. Pre-requisites: Assumes no prior experience with R. Pre-installation of key software is essential. Further details on how to complete this will be sent to you on registration.\n\nPre-requisites: Assumes no prior experience with R. However, pre-installation of key software is essential. Further details on how to complete this will be sent to you on registration.",
+          "published": "2022-02-17T17:50:23Z",
+          "duration": "PT44M39S",
+          "thumbnail": "https://i.ytimg.com/vi/uerf_bY-d4c/mqdefault.jpg"
+        },
+        {
+          "id": "9GESlEIvPDI",
+          "title": "NHS-R Conference 2021: Intro to R/RStudio Workshop - Part 2",
+          "description": "Join Zoë Turner, Data Scientist, Nottinghamshire Healthcare NHS Foundation Trust for Part 2 of this NHS-R Workshop - Introduction to R/RStudio\n\nSummary: An Introduction to R workshop covering R/RStudio, manipulation of data (dplyr), creating charts (ggplot2) and reports (R Markdown). This is a great opportunity for anyone who is interested in data analysis using Excel, SQL, Access or uses statistical programmes like SPSS to get started with R and R Studio. Pre-requisites: Assumes no prior experience with R. Pre-installation of key software is essential. Further details on how to complete this will be sent to you on registration.\n\nPre-requisites: Assumes no prior experience with R. However, pre-installation of key software is essential. Further details on how to complete this will be sent to you on registration.",
+          "published": "2022-02-17T17:51:31Z",
+          "duration": "PT3H32M58S",
+          "thumbnail": "https://i.ytimg.com/vi/9GESlEIvPDI/mqdefault.jpg"
+        },
+        {
+          "id": "pCaqwX7bDLs",
+          "title": "Statistical process control charts with R - Jacob Anhøj, November 2021",
+          "description": "Date: Thursday 4th November 2021\nStatistical process control charts with R \nOne day Workshop: Masterclass for R programmers\n\nFacilitators: Jacob Anhøj, Medical Doctor, Rigshospitalet, Copenhagen, Denmark and Zoë Turner, Senior Information Analyst, Nottinghamshire Healthcare NHS Foundation Trust\n\nhttps://github.com/anhoej/r4spc\n\nSummary: This full-day masterclass is for R programmers who want to learn statistical process control (SPC) for continuous quality improvement.\n\nIn this masterclass you will learn the tools, most notably the process control chart, which is a simple an elegant graph that helps to distinguish between common and special cause variation in processes in time or space.\n\nPre-requisites: are familiar with the basic ideas of SPC, specifically the distinction between common cause and special cause variation;\nhave experience using the R programming language to manipulate, analyse, and plot data; understand basic statistical concepts including probability, population, sample, distribution, and measures of central tendency and dispersion.",
+          "published": "2022-05-13T08:14:07Z",
+          "duration": "PT4H21M11S",
+          "thumbnail": "https://i.ytimg.com/vi/pCaqwX7bDLs/mqdefault.jpg"
+        },
+        {
+          "id": "OdBG78Tmx70",
+          "title": "Reproducible computation at scale in R with targets, Will Landau, November 2021",
+          "description": "Facilitator: Will Landau, Eli Lilly and Company – USA\n\nData science can be slow. A single round of statistical computation can take several minutes, hours, or even days to complete.\n\nThe targets R package keeps results up to date and reproducible while minimizing the number of expensive tasks that actually run. targets arranges the steps of your pipeline, skips costly runtime for steps that are already up to date, runs the rest with optional implicit parallel computing, abstracts files as R objects, and shows tangible evidence that the output matches the underlying code and data. In other words, the package saves time while increasing your ability to trust the results.\n\nThis hands-on workshop teaches targets using a realistic case study\n\nPre-requisites: Some introductory experience with R",
+          "published": "2022-05-13T13:52:51Z",
+          "duration": "PT1H41M32S",
+          "thumbnail": "https://i.ytimg.com/vi/OdBG78Tmx70/mqdefault.jpg"
+        },
+        {
+          "id": "CEh-jeQdOqA",
+          "title": "NHS-R Conference Workshop: Building a TidyModels model from scratch – 01/11/22",
+          "description": "Led by Gary Hutson, Head of Machine Learning, Crisp\n1st November 2022\n\nHere we will learn how to build a TidyModels classification model from scratch\nhttps://github.com/StatsGary/NHS_R_Comm_Build_TM_from_scratch.\n\nRPubs document: http://rpubs.com/StatsGary/tidmodels_and_vetiver_from_scratch.\n\nAbout the course:\nThe art and science of building a machine model from scratch and then pushing this into production as a consumable endpoint with Plumber R package.\n\nThis will start with creating a model, improving a model with various ML techniques, followed by evaluating and assessing the model.\n\nOnce the model has been created I will talk about pushing the model into production and creating an API.",
+          "published": "2022-11-01T14:08:08Z",
+          "duration": "PT1H59M15S",
+          "thumbnail": "https://i.ytimg.com/vi/CEh-jeQdOqA/mqdefault.jpg"
+        },
+        {
+          "id": "dS91HzZLD_c",
+          "title": "NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22",
+          "description": "Introduction to R and R Studio (Part 1)\nWednesday 2nd November 2022\nLed by Zoë Turner, Data Scientist, Nottinghamshire Healthcare NHS Foundation Trust\n\nLearn about how to import data, wrangle data and produce and export graphs.\n\n00:00 - Introduction and Prework\n55:23 - Using Projects\n01:08 - Importing Data\n01:18 - Introduction to {ggplot2}\n02:22 - What does this function do?\n\nPart 2 https://youtu.be/1tjQkxYfSGk\n\nPre-requisites: \nNo prior knowledge of R is required; however, it is assumed that you will have a moderate level of computer literacy. For example, you will be able to navigate to drives and files and be confident in searching for solutions to technical problems on the internet. You will work with, or have an interest in, data.\n\nAbout the course: \nThis is a great opportunity for anyone who is interested in data analysis using Excel, SQL, Access or uses statistical programmes like SPSS to get started with R and R Studio.  After these two half days, you will:\n\n- See examples of R in producing healthcare related visualisations and use publicly available healthcare data to answer questions.\n- Recognise and understand key terms often used by users of R.\n- Interact with R using the RStudio environment.\n- Learn how to set up some of the accessibility features of RStudio.\n- Take charge of their workflow using RStudio projects.\n- Import data into R using csv files (other data sources will be discussed).\n- Carry out data manipulation using simple steps to solve complex problems.\n- Join multiple tables together.\n- Produce and save plots using ggplot2.\n- Learn how to find more information on functions within R packages.\n- Open an RMarkdown template and learn how to get started in producing an integrated text and code report. Take away ideas for continuing learning after the course",
+          "published": "2022-11-03T14:25:07Z",
+          "duration": "PT2H40M21S",
+          "thumbnail": "https://i.ytimg.com/vi/dS91HzZLD_c/mqdefault.jpg"
+        },
+        {
+          "id": "LK_vxLS9BNg",
+          "title": "NHS-R Workshop: Building Websites in R with Distill - 02/11/22",
+          "description": "Building Websites in R with Distill\nWednesday 2nd November 2022, \nLed by Jennifer Sloane, PhD Student, UNSW\n\nDo you want to learn how to build your own website in R?\n\nAbout the course:\n\nIn this interactive workshop, we will build a website from scratch in R using the Distill package.\n\nWhether you want to design a personal website or you want to set up your very own blog or perhaps you’ve just always wanted to learn how to build a website, this workshop is perfect for you.\n\nBy the end of the workshop, you will not only have a fully functioning and live website, but you will also have the knowledge and tools to continue designing and developing your website on your own!",
+          "published": "2022-11-03T13:13:51Z",
+          "duration": "PT1H58M54S",
+          "thumbnail": "https://i.ytimg.com/vi/LK_vxLS9BNg/mqdefault.jpg"
+        },
+        {
+          "id": "1tjQkxYfSGk",
+          "title": "NHS-R Workshop: Intro to R and RStudio (Part 2) - 03/11/22",
+          "description": "Introduction to R and R Studio (Part 2)\nThursday 3rd November 2022\nLed by Zoë Turner, Data Scientist, Nottinghamshire Healthcare NHS Foundation Trust\n\nLearn about how to import data, wrangle data and produce and export graphs.\n\n00:00 Data wrangling with dplyr\n1:45:18 Relational Data (joins)\n2:10:21 RMarkdown \n2:40:00 Ongoing Learning\n\nPart 1 https://www.youtube.com/watch?v=dS91HzZLD_c\n\nPre-requisites: \nNo prior knowledge of R is required; however, it is assumed that you will have a moderate level of computer literacy. For example, you will be able to navigate to drives and files and be confident in searching for solutions to technical problems on the internet. You will work with, or have an interest in, data.\n\nAbout the course: \nThis is a great opportunity for anyone who is interested in data analysis using Excel, SQL, Access or uses statistical programmes like SPSS to get started with R and R Studio.  After these two half days, you will:\n\n- See examples of R in producing healthcare related visualisations and use publicly available healthcare data to answer questions.\n- Recognise and understand key terms often used by users of R.\n- Interact with R using the RStudio environment.\n- Learn how to set up some of the accessibility features of RStudio.\n- Take charge of their workflow using RStudio projects.\n- Import data into R using csv files (other data sources will be discussed).\n- Carry out data manipulation using simple steps to solve complex problems.\n- Join multiple tables together.\n- Produce and save plots using ggplot2.\n- Learn how to find more information on functions within R packages.\n- Open an RMarkdown template and learn how to get started in producing an integrated text and code report. Take away ideas for continuing learning after the course",
+          "published": "2022-11-03T14:57:25Z",
+          "duration": "PT2H52M42S",
+          "thumbnail": "https://i.ytimg.com/vi/1tjQkxYfSGk/mqdefault.jpg"
+        },
+        {
+          "id": "fmelRhf14PE",
+          "title": "NHS-R Conference Workshop: Introduction to Interactive plotting with R – 03/11/22",
+          "description": "Introduction to Interactive plotting with R\nThursday 3rd November 2022,\nLed by Annie Yu, Epidemiological Programmer, Hertfordshire County Council\n\nPre-requisites: Some introductory experience with R\n\nAbout the course:\nThe workshop will cover creating interactive graphs using plotly and echarts4r packages as well as the motivations behind using interactive graphs in reports and apps.\n\nIt will go through the basic syntax of each package and how to create basic bar, scatter, and line graphs while customising the hover labels, legends, and themes.\n\nI will go through additional functionalities of each package, such as adding buttons, additional layers, and grouping/linkage between graphs.\n\nThe session will have some basic exercises with optional additional challenges to create complex plots and render it using Rmarkdown.",
+          "published": "2022-11-08T16:55:37Z",
+          "duration": "PT2H27M41S",
+          "thumbnail": "https://i.ytimg.com/vi/fmelRhf14PE/mqdefault.jpg"
+        },
+        {
+          "id": "Zt_SMnNPLX0",
+          "title": "NHS-R Workshop: Level up your plots! - 04/11/22",
+          "description": "Level up your plots: tips and tricks for creating compelling data visualisations in R\nFriday 4th November 202\nLed by Cara Thompson, Freelance Data Consultant - Building Stories with Data\n\nPre-requisites: \nIt would be helpful for participants to have a basic grasp of:\n- creating a plot with ggplot2\n- data wrangling within the tidyverse\n\nAbout the course:\n“Ooh, nice ggplot!” is never the reaction we’re after when we’ve spent time putting together a plot in R.\n\nInstead, we want the plot to help readers engage well with the key patterns in the data.\n\nThis workshop will give delegates a tour of the ways we can use ggplot to create compelling publication-ready data visualisations.\n\nWe will code our way from a basic plot to a plot which presents a clear story in an aesthetically pleasing way, and delegates will be encouraged to apply the tips and tricks we explore together to their own plots.\n\nDuring the workshop, we will cover:\n- a quick overview of foundational ggplot concepts\n- design principles we can apply to our datavisualisations\n- how to choose and apply a bespoke colour scheme, both to the text and to the data in the plot\n- how to change the fonts and colours of text\n- how to create polished annotations to support the main story of the plot\n-how to export high quality plots for publication\n- sources of dataviz inspiration for future projects\nThese tips will be applicable to a wide range of plot types, to maximise relevance to delegates working with different types of data. They will be encouraged to ask questions and apply these tips to their own plots during the workshop, with the aim of equipping them with the design and coding know-how to create compelling datavisualisations with their own data.\n\nLearning objectives\nBy the end of the workshop, delegates will be able to:\n- describe basic design principles that they can apply to datavisualisations\n- describe the basic components of a ggplot plot\n- apply a colour scheme they crafted themselves to their own plots\n- write code which modifies the different default ggplot elements\n- work with fonts, colours and alignments to make the text of their plot an integral part of the visualisation\n- export publication-ready plots",
+          "published": "2022-11-08T09:24:06Z",
+          "duration": "PT2H1M45S",
+          "thumbnail": "https://i.ytimg.com/vi/Zt_SMnNPLX0/mqdefault.jpg"
+        },
+        {
+          "id": "evzo-F2Yp5g",
+          "title": "NHS-R Workshop: Debugging in R - 11/11/22",
+          "description": "Debugging in R\nFriday 11th November 2022\nLed by Shannon Pileggi, Data Scientist, The Prostate Cancer Clinical Trials Consortium\n\nPre-requisites: Knowledge of how to write a function in R.\n\nAbout the course:\nLearning objectives:\n\nReview code troubleshooting tips.\nDiscuss debugging functions (traceback(), browser(), debug(), trace(), and recover()) and the additional benefits of employing some of these strategies within RStudio.\nDistinguish between strategies for debugging your own code versus someone else’s code",
+          "published": "2022-11-13T09:55:49Z",
+          "duration": "PT2H49M37S",
+          "thumbnail": "https://i.ytimg.com/vi/evzo-F2Yp5g/mqdefault.jpg"
+        },
+        {
+          "id": "htQWauSV9J4",
+          "title": "NHS-R Workshop: Working with databases in R - 23//11/22",
+          "description": "Working with databases in R\nWednesday 23rd November 2022\n\nLed by Christopher Maronga,m R Programmer, University of Oxford\n\nAbout the course:\n\nThe first step in any data handling process is loading data into your working tool regardless of the form and media of storage.\n\nRelational databases such as RMySQL and web-based databases such as REDCap have gained popularity as efficient and cost-effective storage of small – medium data.\n\nIn this workshop, I am going to walk you through key steps in extracting and using data store in these platforms using R statistical software with the aid of user-developed Application Programming Interfaces (API’s).\n\nLearning objectives:\n\nEfficiently connect R to Relational Database Management Systems (RDBMS)\nQuery data stored in any RDBMS from within R/Rstudio using dplyr and SQL syntax\nConnect and querying data from Research Electronic Data Capture (REDCap) database\nHow to secure your API while working on collaborative projects.",
+          "published": "2022-11-24T11:28:00Z",
+          "duration": "PT3H6M37S",
+          "thumbnail": "https://i.ytimg.com/vi/htQWauSV9J4/mqdefault.jpg"
+        },
+        {
+          "id": "E1et8cSIRMQ",
+          "title": "NHS-R Workshop: PHM ExploreR An open source tool for Population Health Management  - 24/11/22",
+          "description": "PHM ExploreR: An open source tool for Population Health Management\nThursday 24th November 2022\n\nLed by Andras Varady, Forensic Cancer Pathway Data Scientist, NHS Bristol, North Somerset and South Gloucestershire CCG\n\nAbout the course:\n\nThe workshop will introduce delegates to the PHM ExploreR: a versatile R Shiny tool created for exploring Population Health and facilitating Population Health Management (PHM) in healthcare systems.\n\nPHM is of increasingly high interest within the NHS, but many Business Intelligence departments lack the appropriate tools to keep pace with this rapidly growing field.\n\nFor NHS analysts, the PHM ExploreR aims to reduce reliance on Excel solutions and management consultancies offering bespoke pieces of work, and enable users to independently and interactively explore the key areas of PHM, such as Population Segmentation and Risk Stratification.\n\nThe workshop will start by describing the data requirements of the tool, and introduce the synthetic linked dataset used for demonstration. This will also cover the data required for maximum effectiveness of the tool.\n\nThe workshop will then move on to cover the full functionality of the suite, including:\n\nA number of summary graphs and statistics to provide a high level overview of the population.\nA series of segmentation methods, including Bridges to Health and data-driven methods such as decision trees and clustering methods.\nPatient-level ‘theoplots’, charting activity utilisation for individuals across multiple healthcare settings.\nRegression-based risk stratification for analysing and predicting differences in patient activity utilisation and spend.",
+          "published": "2022-11-24T14:27:07Z",
+          "duration": "PT1H39M56S",
+          "thumbnail": "https://i.ytimg.com/vi/E1et8cSIRMQ/mqdefault.jpg"
+        },
+        {
+          "id": "yaMpZsordu4",
+          "title": "NHS-R Workshop - Regression Modelling in R - 24/11/22",
+          "description": "Introduction to Regression Modelling\nThursday 24th November 2022\n\nLed by Chris Mainey, Deputy Director of Specialist Analytics at North Central London Integrated Care Board\n\nPre-requisites: Some introductory experience with R\n\nAbout the course:\nThis session will focus on how to fit regression models in R, the most common form of statistical modelling. We will examine the essential theory underpinning these models, then fit linear models with a single predictor, then multiple predictors and look at how to interpret them\n\nResources\nGitHub: https://github.com/chrismainey/Regression_Modelling_NHSR",
+          "published": "2022-11-25T14:30:48Z",
+          "duration": "PT2H25M16S",
+          "thumbnail": "https://i.ytimg.com/vi/yaMpZsordu4/mqdefault.jpg"
+        },
+        {
+          "id": "86sviwkA088",
+          "title": "NHS-R Workshop: Fitting Distributions in R - 25/11/22",
+          "description": "Fitting distributions in R\nFriday 25th November 2022\n\nLed by Dr Sean Manzi, Research Fellow in Applied Healthcare Modelling and Analysis, University of Exeter College of Medicine and Health\n\nPre-requisites:\nA basic understanding of how to use R\n\nAbout the course:\nThis session will begin by introducing probability distributions, the different types of distribution and why we use them in data science.\n\nWe will then move on to an overview of the distribution fitting process and how to implement this in R using the ‘fitdistrplus’ and ‘actuar’ packages.\n\nAs we proceed through the distribution fitting process, we will discuss some of the theory around the techniques used to fit a distribution to a data set.\n\nThere will be the opportunity to practice generating data from and fitting data to different distributions.\n\nFinally, we will explore the use of a shiny based app to help streamline your day-to-day distribution fitting activities.",
+          "published": "2022-11-25T13:33:16Z",
+          "duration": "PT1H32M54S",
+          "thumbnail": "https://i.ytimg.com/vi/86sviwkA088/mqdefault.jpg"
+        },
+        {
+          "id": "b08sQUwWnXM",
+          "title": "Intermediate R with Anya Ferguson Pt 1",
+          "description": "This the first part of a recording of an Intermediate R course with Anya Ferguson assisted by Jeremy Selva on 25 June 2024",
+          "published": "2024-06-28T08:04:41Z",
+          "duration": "PT1H45M40S",
+          "thumbnail": "https://i.ytimg.com/vi/b08sQUwWnXM/mqdefault.jpg"
+        },
+        {
+          "id": "E5G94mkbsoA",
+          "title": "Intermediate R with Anya Ferguson Pt 2",
+          "description": "This is a recording of a Part 2 of an Intermediate R course run by Anya Ferguson with assistance from Jeremy Selva on 26 June 2024",
+          "published": "2024-06-28T08:04:49Z",
+          "duration": "PT2H10M36S",
+          "thumbnail": "https://i.ytimg.com/vi/E5G94mkbsoA/mqdefault.jpg"
+        },
+        {
+          "id": "-ryFXMK1DoI",
+          "title": "Intermediate R with Simon Wellesley-Miller 14 May 2024",
+          "description": "This is a recording of an Intermediate R course presented by Simon Wellesley Miller and co-hosted by Anya Ferguson on 14 May 2924",
+          "published": "2024-05-31T14:37:42Z",
+          "duration": "PT5H43M45S",
+          "thumbnail": "https://i.ytimg.com/vi/-ryFXMK1DoI/mqdefault.jpg"
+        },
+        {
+          "id": "qFvbzUivIHY",
+          "title": "Introduction to machine learning with {tidymodels}",
+          "description": "This a recording of a workshop by Nicola Rennie:  \"Introduction to machine learning with {tidymodels} on 22 May 2024\n\nGitHub repository: https://github.com/nrennie/nhs-r-tidymodels",
+          "published": "2024-05-31T13:57:55Z",
+          "duration": "PT1H51M",
+          "thumbnail": "https://i.ytimg.com/vi/qFvbzUivIHY/mqdefault.jpg"
+        },
+        {
+          "id": "I-wT2NUeB18",
+          "title": "Intermediate R with Simon Wellesley Miller",
+          "description": "Intermediate R with Simon Wellesley Miller\nOne day course\n3 April 2024\nand Lyn Howard (co-host)\n\nGitHub link https://github.com/nhs-r-community/intermediate_R_training with the original from Simon https://github.com/Simon-W-M/intermediate_R_training",
+          "published": "2024-04-08T08:40:54Z",
+          "duration": "PT5H25M47S",
+          "thumbnail": "https://i.ytimg.com/vi/I-wT2NUeB18/mqdefault.jpg"
+        },
+        {
+          "id": "SoGqSKVpXq4",
+          "title": "Understanding Functions in R",
+          "description": "This is an introductory-level workshop aimed at analysts who can write R code but who don’t really get what functions are yet.\nWe’ll be turning some repetitive code into functions, and learning:\n– how to make a function;\n– what makes functions useful for analysts.\n\nI coded for ages before I understood what the point of functions was. And then I went through the torment of trying to learn how to use them! Now I use them all the time and I would never go back. This workshop will explain why, and you’ll be learning through doing.\n\nPre-requisites: you are someone who can write at least some basic R code. To play along, you will need to have R, and RStudio or VSCode, installed and working on your computer. Ideally you will also be able to clone a GitHub repository into an RStudio project.",
+          "published": "2024-02-28T11:04:19Z",
+          "duration": "PT1H16M9S",
+          "thumbnail": "https://i.ytimg.com/vi/SoGqSKVpXq4/mqdefault.jpg"
+        },
+        {
+          "id": "aMn5W5bCJTY",
+          "title": "NHS-R Workshop: Interactive Visualisations for Beginners in Python with Shiny Apps",
+          "description": "Interactive Visualisations for Beginners in Python with Shiny Apps\nThursday 07th December 2023 with Dr Pawel Orzechowski\n10:00am until 12:00pm (UK time)\n\nCourse Description:\nImagine coding an interactive demo and sharing it with the world within minutes. Your data could be displayed as maps or graphs, which change in response to sliders or dropdown menus. On this basic course we will make a jump from coding simple static graphs to being able to share interactive, visual and publicly available digital experiences. At last, you’ll be able to set your graphs free and share them with your collaborators, participants and funders.\n\nDuring the workshop we will build a web application using Shiny Python. Our Full-Stack app (with server, client and data layers) will be written in Python (without HTML or javascript) but will be exported as an interactive online dashboard. This class is suitable to both advanced and beginner coders (so a basic understanding of Python or R is required). \n\nDuring this interactive workshop you will collaborate with each other using pair programming (you will need camera and microphone) and we will code in an online interface, so no pre-installed software is required.",
+          "published": "2024-01-03T00:00:01Z",
+          "duration": "PT1H1M2S",
+          "thumbnail": "https://i.ytimg.com/vi/aMn5W5bCJTY/mqdefault.jpg"
+        },
+        {
+          "id": "kPBne5nCdbs",
+          "title": "NHS-R Workshop: GitHub Actions 101 – Test, Build, and Deploy [Wednesday 22nd November 2023]",
+          "description": "NHS-R Workshop: GitHub Actions 101 – Test, Build, and Deploy with Joseph Wilson and Harriet Sands.",
+          "published": "2023-12-22T10:43:33Z",
+          "duration": "PT2H41M56S",
+          "thumbnail": "https://i.ytimg.com/vi/kPBne5nCdbs/mqdefault.jpg"
+        },
+        {
+          "id": "R2qGBIKoebo",
+          "title": "NHS-R Workshop: Introduction to R (Day 1 and Day 2)",
+          "description": "Introduction to R with Simon Wellesley-Miller\nMonday 12th May 2025 and Tuesday 13th May 2025\n\nCourse Description: \nFrom ‘Hello World’ to producing a basic report.\n\nThis introduction takes you from no knowledge of R to teaching you the basics of the R studio environment, then loading in some data, some common data wrangling tasks, some charting and finishing with pulling it all together to produce a simple automated report.   \n\nNo previous knowledge is required. We utilise the cloud and all datasets provided and so not specialist set up is required.",
+          "published": "2025-05-16T15:04:21Z",
+          "duration": "PT7H3M4S",
+          "thumbnail": "https://i.ytimg.com/vi/R2qGBIKoebo/mqdefault.jpg"
+        },
+        {
+          "id": "UAucTfy1qtU",
+          "title": "NHS-R Workshop: Intermediate R (Day 1 and Day 2)",
+          "description": "Intermediate R with Simon Wellesley-Miller\nMonday 2nd June 2025 and Tuesday 3rd June  2025\n\nCourse Description: \nThis course is designed to follow on from the introduction course assuming people are familiar with the basics covered there. \n\nWe go into more in depth and complex wrangling tasks, explore how to use the NHS-R SPC plot the dots library and cover in very simple terms an understanding of some functional programming.   \n\nWe utilise the cloud and all datasets provided and so not specialist set up is required.",
+          "published": "2025-06-13T15:35:21Z",
+          "duration": "PT7H14M10S",
+          "thumbnail": "https://i.ytimg.com/vi/UAucTfy1qtU/mqdefault.jpg"
+        },
+        {
+          "id": "qb14cnDSjSM",
+          "title": "NHS-R Workshop: Introduction to R and R Studio (Day 1 – Tuesday 23rd September 2025)",
+          "description": "Introduction to R and R Studio with Dr Claire Welsh\nTuesday 23rd September 2025\n\nCourse Description: \nFrom ‘Hello World’ to producing a basic report.\nThis introduction takes you from no knowledge of R to teaching you the basics of the R studio environment, then loading in some data, some common data wrangling tasks, some charting and finishing with pulling it all together to produce a simple automated report.  \nNo previous knowledge is required. This workshop will utilise the cloud, with all datasets provided as part of the course material, so no specialist.",
+          "published": "2025-10-30T13:54:29Z",
+          "duration": "PT3H58M56S",
+          "thumbnail": "https://i.ytimg.com/vi/qb14cnDSjSM/mqdefault.jpg"
+        },
+        {
+          "id": "yx7g6v0Usfc",
+          "title": "NHS-R Workshop: Introduction to R and R Studio (Day 2 – Wednesday 24th September 2025)",
+          "description": "Introduction to R and R Studio with Dr Claire Welsh\nWednesday 24th September 2025\n\nCourse Description: \nFrom ‘Hello World’ to producing a basic report.\nThis introduction takes you from no knowledge of R to teaching you the basics of the R studio environment, then loading in some data, some common data wrangling tasks, some charting and finishing with pulling it all together to produce a simple automated report.  \nNo previous knowledge is required. This workshop will utilise the cloud, with all datasets provided as part of the course material, so no specialist set up is required.",
+          "published": "2025-10-30T13:58:09Z",
+          "duration": "PT3H57M31S",
+          "thumbnail": "https://i.ytimg.com/vi/yx7g6v0Usfc/mqdefault.jpg"
+        },
+        {
+          "id": "PEgtCOXBV4o",
+          "title": "NHS-R Workshop: Intermediate R (Day 2 - Wednesday 15th October 2025)",
+          "description": "Intermediate R with Dr Claire Welsh\nWednesday 15th October 2025\n\nCourse Description: \nThis course is designed to follow on from the Introduction to R and R Studio course, noting that attendees should be familiar with the basics covered in the workshop. \nPlease be advised that this session will go into more depth and complex wrangling tasks, explore how to use the NHS-R SPC plot the dots library and cover in very simple terms an understanding of some functional programming. This workshop will utilise the cloud, with all datasets provided as part of the course material, so no specialist set up is required.",
+          "published": "2025-10-30T15:10:05Z",
+          "duration": "PT3H16M23S",
+          "thumbnail": "https://i.ytimg.com/vi/PEgtCOXBV4o/mqdefault.jpg"
+        },
+        {
+          "id": "UW0pPHaLdO8",
+          "title": "NHS-R Workshop: Intermediate R (Day 1 - Tuesday 14th October 2025)",
+          "description": "Intermediate R with Dr Claire Welsh\nTuesday 14th October 2025\n\nCourse Description: \nThis course is designed to follow on from the Introduction to R and R Studio course, noting that attendees should be familiar with the basics covered in the workshop. \nPlease be advised that this session will go into more depth and complex wrangling tasks, explore how to use the NHS-R SPC plot the dots library and cover in very simple terms an understanding of some functional programming. This workshop will utilise the cloud, with all datasets provided as part of the course material, so no specialist set up is required.",
+          "published": "2025-10-30T15:11:59Z",
+          "duration": "PT3H36M45S",
+          "thumbnail": "https://i.ytimg.com/vi/UW0pPHaLdO8/mqdefault.jpg"
+        },
+        {
+          "id": "lbx0AHyFNuA",
+          "title": "NHS-R Workshop: Better, Kinder Code Review",
+          "description": "Better, Kinder Code Review\nWednesday 09th July 2025\nWith Dr Toby Hodges\n\nContent Summary:\nThis hands-on workshop will introduce participants to some good practices and practical tips for code review, exploring how to provide effective, constructive feedback that results in better code, happier collaborators, and more engaged contributors. It is aimed at people who maintain open source projects and/or need/want to review other peoples’ code in another setting.  Basic familiarity with Git and GitHub’s web interface is required, including the process of reviewing a pull request. Examples will be presented in GitHub but the practices demonstrated will be broadly applicable to GitLab and other version control hosting platforms as well.",
+          "published": "2025-12-16T12:00:32Z",
+          "duration": "PT1H27M14S",
+          "thumbnail": "https://i.ytimg.com/vi/lbx0AHyFNuA/mqdefault.jpg"
+        },
+        {
+          "id": "ZBSWBSoNo-A",
+          "title": "NHS-Open Analytics Workshop: Intermediate R - Part 1 (Tuesday 10th February 2026)",
+          "description": "Intermediate R with Simon Wellesley-Miller (Part 1)\nTuesday 10th February 2026\n\nCourse Description: \nThis course is designed to follow on from the Introduction to R and R Studio course, noting that attendees should be familiar with the basics covered in the workshop. \n\nPlease be advised that this session will go into more depth and complex wrangling tasks, explore how to use the NHS-R SPC plot the dots library and cover in very simple terms an understanding of some functional programming. This workshop will utilise the cloud, with all datasets provided as part of the course material, so no specialist set up is required.",
+          "published": "2026-02-10T18:53:10Z",
+          "duration": "PT3H57M31S",
+          "thumbnail": "https://i.ytimg.com/vi/ZBSWBSoNo-A/mqdefault.jpg"
+        },
+        {
+          "id": "ihaM-bMt9Yg",
+          "title": "NHS-Open Analytics Workshop: Intermediate R - Part 2 (Wednesday 11th February 2026)",
+          "description": "Intermediate R with Simon Wellesley-Miller (Part 2)\nWednesday 11th February 2026\n\nCourse Description: \nThis course is designed to follow on from the Introduction to R and R Studio course, noting that attendees should be familiar with the basics covered in the workshop. \n\nPlease be advised that this session will go into more depth and complex wrangling tasks, explore how to use the NHS-R SPC plot the dots library and cover in very simple terms an understanding of some functional programming. This workshop will utilise the cloud, with all datasets provided as part of the course material, so no specialist set up is required.",
+          "published": "2026-02-11T15:10:42Z",
+          "duration": "PT3H52M35S",
+          "thumbnail": "https://i.ytimg.com/vi/ihaM-bMt9Yg/mqdefault.jpg"
+        },
+        {
+          "id": "IWEY2ELKO2Q",
+          "title": "NHS Open Analytics Workshop: Introduction to R and R Studio - Part 1 & 2 (September 2026)",
+          "description": "Introduction to R and R Studio with Zoë Turner (Part 1 & 2) \nTuesday 15th September 2026 and Wednesday 16th September 2026\n\nCourse Description: \nFrom ‘Hello World’ to producing a basic report. This introduction takes you from no knowledge of R to teaching you the basics of the R studio environment, then loading in some data, some common data wrangling tasks, some charting and finishing with pulling it all together to produce a simple automated report. No previous knowledge is required. This workshop will utilise the cloud, with all datasets provided as part of the course material, so no specialist set up is required.",
+          "published": "2026-09-17T11:56:10Z",
+          "duration": "PT5H17M19S",
+          "thumbnail": "https://i.ytimg.com/vi/IWEY2ELKO2Q/mqdefault.jpg"
+        }
+      ]
+    }
+  ]
+}

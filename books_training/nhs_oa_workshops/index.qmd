@@ -28,6 +28,19 @@ pub-info:
     url: https://nhsoa.uk
     icon: fa-solid fa-globe
 date: "2026-10-05T00:00:00+01:00"
+listing:
+  - id: workshop-recordings
+    contents: talks.yml
+    type: table
+    fields: [title, year, description]
+    field-display-names:
+      title: "Workshop"
+      year: "Year"
+      description: "Details"
+    sort: "date desc"
+    filter-ui: [title, year, description]
+    sort-ui: [title, year]
+    page-size: 25
 ---
 
 [![NHS-OA Community Workshop](workshop.jpg)](https://www.youtube.com/playlist?list=PLXCrMzQaI6c2L4JCRaF2iujzBxe9Rk-rC)
@@ -46,8 +59,13 @@ The workshops are mostly in R. They include regular multi-part introductory and 
 
 There is also an introduction to building interactive visualisations in Python with Shiny.
 
-## Watch the workshops
+## Search the workshops
 
-To watch the workshops, click on the image above or go to the [workshop playlist on YouTube](https://www.youtube.com/playlist?list=PLXCrMzQaI6c2L4JCRaF2iujzBxe9Rk-rC).
+Search for a workshop by title, speaker, year or topic. Newest workshops are listed first. Where a recording's description gives timings for its sections, each section is listed separately and the link starts the video at that section.
+
+::: {#workshop-recordings}
+:::
+
+You can also browse the full [workshop playlist on YouTube](https://www.youtube.com/playlist?list=PLXCrMzQaI6c2L4JCRaF2iujzBxe9Rk-rC).
 
 The NHS-OA Community also publishes recordings of [webinars](/books_training/nhs_oa_webinars/index.qmd) and [conference talks](/books_training/nhs_oa_conference_recordings/index.qmd).

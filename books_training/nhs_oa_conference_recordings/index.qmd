@@ -21,12 +21,26 @@ pub-info:
     YouTube playlists of talks from the NHS-OA Community's annual conference, formerly the NHS-R Community Conference and now RPySOC, the NHS-R/NHS.pycom open source conference. Talks from analysts and data scientists across health and care showcase real-world projects using R, Python and other open source tools, from simulation and waiting list modelling to data visualisation and reproducible analytical pipelines.
   links:
   - name: YouTube
-    url: https://www.youtube.com/@NHSOA_Community/playlists
+    url: https://www.youtube.com/%40NHSOA_Community/playlists
     icon: fa-brands fa-youtube
   - name: Website
     url: https://nhsoa.uk
     icon: fa-solid fa-globe
 date: "2026-10-05T00:00:00+01:00"
+listing:
+  - id: conference-talks
+    contents: talks.yml
+    type: table
+    fields: [title, year, event, description]
+    field-display-names:
+      title: "Talk"
+      year: "Year"
+      event: "Conference"
+      description: "Details"
+    sort: false
+    filter-ui: [title, year, event, description]
+    sort-ui: [title, year, event]
+    page-size: 25
 ---
 
 [![RPySOC 2025 Conference](rpysoc_2025.jpg)](https://www.youtube.com/playlist?list=PLXCrMzQaI6c0kEKt4lN0659WQj_-SNUr_)
@@ -42,7 +56,14 @@ The talks are given by analysts and data scientists from across health and care,
 * deploying Python in production
 * adopting reproducible analytical pipelines (RAP) by default
 
-## Watch the conference recordings
+## Search the conference talks
+
+Search for a talk by title, speaker, year or conference. Where a recording covers several talks and its description gives the timings, the link starts the video at that talk.
+
+::: {#conference-talks}
+:::
+
+## Conference playlists
 
 Each conference has its own playlist:
 
