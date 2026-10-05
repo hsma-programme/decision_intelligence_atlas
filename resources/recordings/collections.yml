@@ -5,6 +5,13 @@
 # writes its talks.yml. All collections are also combined into the
 # Recordings Finder (recordings/index.qmd).
 #
+# Order matters: a video in several playlists of a collection is only listed
+# under the first, and a talk in several collections is only listed in the
+# Recordings Finder under the first. See "Duplicates" in the README.
+#
+# Patterns (in exclude_by_title, types_by_title and events_by_title) ignore case
+# and match the video's original YouTube title. The first matching rule wins.
+#
 # For each collection:
 #   source             - who published the recordings, shown in the Recordings Finder
 #   playlists          - playlists to fetch, each with:

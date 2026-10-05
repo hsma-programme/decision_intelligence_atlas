@@ -164,7 +164,14 @@ Then [fetch and build the recordings](#fetching-and-building-the-recordings), an
 
 #### Adding a new collection
 
-1. **Create the Atlas entry.** Create a folder in `books_training/` and an `index.qmd` file, following the [instructions for creating a new entry](#creating-a-new-entry). Tag it with `Courses and Training or Reference Materials` and `Recorded Talks`, so it appears in the 'Recorded webinars and conference talks' section of the Books, Training and Communities page. Add a listing to its YAML header to show the table of talks:
+1. **Create the Atlas entry.** Create a folder in `books_training/` and an `index.qmd` file, following the [instructions for creating a new entry](#creating-a-new-entry). Tag it with `Courses and Training or Reference Materials` and either:
+
+    * `Recorded Talks`, for talks, webinars and conference recordings, so it appears in the 'Recorded webinars and conference talks' section of the Books, Training and Communities page, or
+    * `Courses` and `Asynchronous`, for recorded training courses or workshops that can be followed at your own pace (e.g. `books_training/mdsn_training`), so it appears with the other courses.
+
+    Recordings can also be added to an existing entry instead, such as training videos for a tool - for example, the New Hospital Programme Demand Model entry in `packages_projects_tools/new_hospital_programme` has a table of its training recordings. If the entry's folder isn't in `books_training/`, `packages_projects_tools/` or `recordings/`, also add it to the `git add` line in `.github/workflows/update-youtube-recordings.yml`, or the monthly refreshes of its recordings won't be committed.
+
+    Add a listing to the entry's YAML header to show the table of talks:
 
     ```yaml
     listing:
@@ -207,7 +214,7 @@ Then [fetch and build the recordings](#fetching-and-building-the-recordings), an
 
 3. **Add the entry to the Sources list** at the bottom of `recordings/index.qmd`.
 
-4. **[Fetch and build the recordings](#fetching-and-building-the-recordings)**, then preview the new entry and the Recordings Finder.
+4. **[Fetch and build the recordings](#fetching-and-building-the-recordings)**, then preview the new entry and the Recordings Finder, and [check for duplicates](#duplicates) of talks already in the Atlas.
 
 If you don't have a YouTube API key, you can still build: the build script will create an empty table for the new collection. Its videos can then be fetched by [running the GitHub Action](#option-1-run-the-github-action-no-api-key-of-your-own-needed) on your branch, or will be fetched by the monthly run once your pull request is merged.
 
@@ -223,23 +230,52 @@ Each collection in `collections.yml` has:
 | `exclude_playlists` | No | Leave out any videos that are also in these playlists, e.g. to avoid listing the same talk in two collections. |
 | `exclude_videos` | No | Leave out these videos, e.g. promotional videos or untitled recordings. |
 
-Each playlist has:
+Each playlist has the following options. Most are only needed to tidy up playlists whose titles or descriptions are messy, so start with `label`, `id` and `type`, then check the built table and add others if needed.
+
+**What to fetch**
+
+| Option | Required? | Description |
+|---|---|---|
+| `id` | Yes, unless using `videos` | The YouTube playlist ID, or a list of IDs to combine several playlists under one label (e.g. separate playlists for each day or room of a conference). To include all of a channel's uploads, use its uploads playlist ID: its channel ID with `UC` at the start replaced by `UU`. |
+| `videos` | No | A list of video IDs to include in place of a playlist, e.g. to pick a few videos out of a larger playlist. |
+
+**How the videos are labelled**
 
 | Option | Required? | Description |
 |---|---|---|
 | `label` | Yes | The playlist's name, shown in the Event column when a collection has more than one event. Must be unique within the collection. If it contains a year (e.g. `RPySOC 2025`), that year is used for all of its videos; otherwise each video's upload date is used. |
-| `id` | Yes, unless using `videos` | The YouTube playlist ID, or a list of IDs to combine several playlists under one label (e.g. separate playlists for each day or room of a conference). To include all of a channel's uploads, use its uploads playlist ID: its channel ID with `UC` at the start replaced by `UU`. |
 | `event` | No | The event shown for the playlist's videos, in place of one taken from the label, e.g. so that extra videos added with `videos` are shown as part of the same series. |
-| `videos` | No | A list of video IDs to include in place of a playlist, e.g. to pick a few videos out of a larger playlist. |
+| `events_by_title` | No | For playlists covering several courses or series: a list of `pattern` (a regular expression) and `event`. Videos whose titles match a pattern get that event (e.g. the course name) instead of one taken from the label, shown in the Event column. |
 | `type` | Yes | The kind of recording (e.g. `Conference talk`, `Webinar`, `Workshop`, `Lecture`), shown in the Recordings Finder's Type column and filter. Reuse an existing type where one fits. |
 | `types_by_title` | No | For playlists mixing different kinds of recording: a list of `pattern` (a regular expression) and `type`. Videos whose titles match a pattern get that type instead. |
 | `no_year` | No | Set to `true` to leave the year blank, e.g. where videos were uploaded long after the event. |
-| `talk_list` | No | Set to `true` if session recordings list their talks one per line without timestamps (see below). |
-| `events_by_title` | No | For playlists covering several courses or series: a list of `pattern` (a regular expression) and `event`. Videos whose titles match a pattern get that event (e.g. the course name) instead of one taken from the label, shown in the Event column. |
-| `exclude_by_title` | No | A list of regular expressions. Videos whose titles match any of them are left out, e.g. regular admin sessions that will keep being added to the playlist. |
+
+**Tidying titles and descriptions**
+
+| Option | Required? | Description |
+|---|---|---|
 | `remove_from_title` | No | A regular expression removed from each video's title, e.g. `'^INSIGHT 2020:\s*'` to remove a prefix repeated in every title. Use single quotes in the YAML for patterns containing backslashes. |
 | `remove_from_description` | No | A list of regular expressions. Paragraphs of each video's description that match any of them are removed, e.g. an introduction to the event series repeated in every description. |
 | `title_from_description` | No | Set to `true` to use the first line of each video's description as its title, for playlists whose video titles are cluttered or cut short (e.g. `HACA2025 - Day 1 - Main Stage`) but whose descriptions start with the talk title. |
+
+**Leaving videos out**
+
+| Option | Required? | Description |
+|---|---|---|
+| `exclude_by_title` | No | A list of regular expressions. Videos whose titles match any of them are left out, e.g. regular admin sessions that will keep being added to the playlist. |
+
+**Splitting recordings into talks**
+
+| Option | Required? | Description |
+|---|---|---|
+| `talk_list` | No | Set to `true` if session recordings list their talks one per line without timestamps (see below). |
+
+Notes on the options that take regular expressions:
+
+* All patterns ignore case.
+* For `types_by_title` and `events_by_title`, the first rule whose pattern matches is used, so put more specific patterns first.
+* `exclude_by_title`, `types_by_title` and `events_by_title` match the video's **original** title on YouTube, before `remove_from_title` or `title_from_description` change it.
+* In YAML, put patterns containing backslashes in single quotes (e.g. `'^INSIGHT 2020:\s*'`), as double quotes treat backslashes as escape characters.
 
 #### How recordings are split into talks
 
@@ -250,6 +286,26 @@ Some recordings cover a whole session or day with several talks. Where a recordi
 * **Plain lists of talks**, one per line with no times, are split into rows for playlists with `talk_list: true`, linking to the start of the recording.
 
 Recordings that don't list their talks are kept as one row. If a recording isn't split as you'd expect, check its description on YouTube - the best fix is usually to add timestamps to the description there, which also gives viewers chapters to jump between.
+
+#### Duplicates
+
+The same talk is often in more than one playlist, e.g. conference workshops that are also in a community's workshop playlist. Some duplicates are removed automatically:
+
+* **The same video in more than one playlist of a collection** is only listed once, in the first of those playlists in `collections.yml`.
+* **The same talk in more than one collection** is listed on each collection's entry, so each entry shows its whole collection, but only once in the Recordings Finder, under the first of those collections in `collections.yml`. A talk counts as the same if it has the same link and title.
+
+Others need to be left out by hand, with `exclude_videos` or `exclude_playlists`:
+
+* **The same talk uploaded more than once**, as separate videos with different IDs.
+* **The same video with different titles in different collections**, e.g. because only one of them uses `remove_from_title` or `title_from_description`.
+
+After building, you can check the Recordings Finder for links listed more than once with:
+
+```
+python -c "import json, collections; c = collections.Counter(r['url'] for r in json.load(open('recordings/recordings.json', encoding='utf-8'))); print([u for u, n in c.items() if n > 1])"
+```
+
+Links listed more than once aren't always a problem: talks split from a session recording with `talk_list` all link to the start of the recording. Check whether the titles match before leaving anything out.
 
 #### Fetching and building the recordings
 
