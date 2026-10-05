@@ -1,0 +1,61 @@
+---
+title: "HaCORN - Health and Care Operational Research Network"
+categories:
+  - Courses and Training or Reference Materials
+  - Communities
+tool-language: N/A
+status: N/A
+image: hacorn.jpg
+author:
+  - name: HaCORN
+    affiliation: NIHR ARC South West Peninsula
+pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i>
+  rationale-for-status: |
+    Community resource rather than code, so it is not ranked.
+  entry-author:
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
+  abstract: |
+    HaCORN (the Health and Care Operational Research Network) is a UK network for analysts and researchers applying operational research and data science to health and social care. It began during the COVID-19 pandemic as the National COVID-19 Operational Research Network (N-CORN), and now meets online every month, with guest speakers, learning opportunities and subgroups on specific methods and topics.
+  links:
+  - name: Website
+    url: https://arc-sw.nihr.ac.uk/research/projects/hacorn/
+    icon: fa-solid fa-globe
+  - name: Email
+    url: mailto:penchord@exeter.ac.uk
+    icon: fa-solid fa-envelope
+date: "2026-10-05T00:00:00+01:00"
+---
+
+[![HaCORN](hacorn.jpg)](https://arc-sw.nihr.ac.uk/research/projects/hacorn/)
+
+HaCORN (the Health and Care Operational Research Network, pronounced "hay-corn") is a network for analysts and researchers using operational research and data science in health and care. In its own words:
+
+> The Health and Care Operational Research Network (‘HaCORN’ -pronounced hay-corn) brings together researchers and practitioners across UK health and care organisations. It provides a forum to share expertise and enhance the application of operational research and data science within services.
+
+It is led by Professor Martin Pitt at the NIHR Applied Research Collaboration South West Peninsula (PenARC), and has members from more than fifty organisations.
+
+HaCORN started early in the COVID-19 pandemic as the National COVID-19 Operational Research Network (N-CORN), where researchers met remotely to work together on the urgent problems COVID-19 created. It has since widened its focus to health and care delivery more generally, and was renamed HaCORN. Work the network has led to or contributed to includes forecasting demand for frontline NHS services, epidemiological and demand and capacity modelling for COVID-19, modelling end of life care, and simulation to support the COVID-19 vaccination programme.
+
+## Subgroups
+
+HaCORN has subgroups that focus on particular methods or areas:
+
+* **Artificial Intelligence (HealthCAI)** - advanced analytics, machine learning and AI in healthcare
+* **Cluster Analysis** - using clustering to tackle problems faced by healthcare managers and clinicians
+* **Mental Health** - the particular challenges of applying data science and OR methods in mental healthcare
+* **System Dynamics** - systems thinking and system dynamics modelling
+* **Health Economics** - combining health economics and operational research methods
+
+To join a subgroup, contact its lead. Their contact details are listed on the [HaCORN page](https://arc-sw.nihr.ac.uk/research/projects/hacorn/).
+
+## Joining HaCORN
+
+HaCORN is open to:
+
+> all analysts and researchers with experience or an interest in the application of operational research skills to address key issues facing health and social care.
+
+This includes analysts working in health and care organisations as well as academic researchers. Meetings are held online every month, usually from 10 to 11am on the last Friday of the month, and include guest speakers and learning opportunities as well as the chance to network.
+
+To find out more or join a meeting, email [penchord@exeter.ac.uk](mailto:penchord@exeter.ac.uk). Members can access HaCORN's resources and past presentations through its Teams site, or by emailing the same address.
