@@ -17,7 +17,7 @@ format:
       - /resources/partials/small/title-block.html
 ---
 
-Search hundreds of recorded conference talks, webinars, workshops, network huddles and project showcases from across the health and care analytics community, all in one place.
+Search hundreds of recorded conference talks, webinars, workshops, network huddles, lectures and project showcases from across the health and care analytics community, all in one place.
 
 Where a long recording covers several talks and its YouTube description gives the timings, each talk is listed separately and its link starts the video at that talk. Each recording also links to its Atlas entry, where you can find out more about the community that published it.
 
@@ -129,5 +129,6 @@ The Recordings Finder brings together the recordings listed in these Atlas entri
 * [NHS.pycom: Talk Recordings](/books_training/nhs_pycom_talks/index.qmd)
 * [National Analyst Network (formerly Midlands Analyst Network): Huddle Recordings](/books_training/analyst_network_huddles/index.qmd)
 * [HSMA: Project Showcase Recordings](/books_training/hsma_project_showcases/index.qmd)
+* [HSMA: Lecture and Masterclass Recordings](/books_training/hsma_lecture_recordings/index.qmd)
 
 Know of another collection of recordings that should be included? [Raise an issue on the repository](https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose) to let us know.

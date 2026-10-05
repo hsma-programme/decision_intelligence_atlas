@@ -1,0 +1,1360 @@
+- title: '(HSMA 6 Day 1) 1A : Welcome to HSMA'
+  description: 'The induction session for our new HSMA cohort in April 2024. GitHub Repo for this session :'
+  path: https://www.youtube.com/watch?v=gIUzgz7CeMw
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/gIUzgz7CeMw/mqdefault.jpg
+  date: '2024-04-17'
+- title: '(HSMA 6 Day 2) : 1B Introduction to OR and Data Science and 1C Principles of Programming'
+  description: 'In these sessions, we introduce Operational Research and Data Science and explore the concept of conceptual modelling. We also explore key concepts in programming ahead of the subsequent Python training. Session 1B Links GitHub : Slides : Session 1C Links GitHub : Slides : HSMA Website :'
+  path: https://www.youtube.com/watch?v=aftDNqfMe1w
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/aftDNqfMe1w/mqdefault.jpg
+  date: '2024-04-24'
+- title: '(HSMA 6 Day 3) : 1D Hello World!  Introduction to the IDEs and Python Parlance'
+  description: 'In this session, we introduce VSCode and demonstrate how to set up VSCode for Python coding. We also demonstrate Jupyter Notebooks and Google CoLab, and talk about Python packages and working with virtual environments. GitHub : Slides : HSMA Website :'
+  path: https://www.youtube.com/watch?v=0jV0jtIE3_U
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/0jV0jtIE3_U/mqdefault.jpg
+  date: '2024-05-01'
+- title: Intro to Python
+  description: From the recording '(HSMA 6 Day 4) 1E Python Programming Part 1', starting at 15:21.
+  path: https://www.youtube.com/watch?v=Ey3yUaKkZKY&t=921s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/Ey3yUaKkZKY/mqdefault.jpg
+  date: '2024-05-08'
+- title: Print
+  description: From the recording '(HSMA 6 Day 4) 1E Python Programming Part 1', starting at 18:07.
+  path: https://www.youtube.com/watch?v=Ey3yUaKkZKY&t=1087s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/Ey3yUaKkZKY/mqdefault.jpg
+  date: '2024-05-08'
+- title: Variables
+  description: From the recording '(HSMA 6 Day 4) 1E Python Programming Part 1', starting at 24:10.
+  path: https://www.youtube.com/watch?v=Ey3yUaKkZKY&t=1450s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/Ey3yUaKkZKY/mqdefault.jpg
+  date: '2024-05-08'
+- title: Variable Types
+  description: From the recording '(HSMA 6 Day 4) 1E Python Programming Part 1', starting at 30:34.
+  path: https://www.youtube.com/watch?v=Ey3yUaKkZKY&t=1834s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/Ey3yUaKkZKY/mqdefault.jpg
+  date: '2024-05-08'
+- title: Variable Types - Storing Multiple Items
+  description: From the recording '(HSMA 6 Day 4) 1E Python Programming Part 1', starting at 34:48.
+  path: https://www.youtube.com/watch?v=Ey3yUaKkZKY&t=2088s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/Ey3yUaKkZKY/mqdefault.jpg
+  date: '2024-05-08'
+- title: fStrings
+  description: From the recording '(HSMA 6 Day 4) 1E Python Programming Part 1', starting at 39:00.
+  path: https://www.youtube.com/watch?v=Ey3yUaKkZKY&t=2340s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/Ey3yUaKkZKY/mqdefault.jpg
+  date: '2024-05-08'
+- title: User Input and Casting
+  description: From the recording '(HSMA 6 Day 4) 1E Python Programming Part 1', starting at 44:22.
+  path: https://www.youtube.com/watch?v=Ey3yUaKkZKY&t=2662s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/Ey3yUaKkZKY/mqdefault.jpg
+  date: '2024-05-08'
+- title: Mathematical Operators
+  description: From the recording '(HSMA 6 Day 4) 1E Python Programming Part 1', starting at 53:59.
+  path: https://www.youtube.com/watch?v=Ey3yUaKkZKY&t=3239s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/Ey3yUaKkZKY/mqdefault.jpg
+  date: '2024-05-08'
+- title: Comments
+  description: From the recording '(HSMA 6 Day 4) 1E Python Programming Part 1', starting at 1:03:04.
+  path: https://www.youtube.com/watch?v=Ey3yUaKkZKY&t=3784s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/Ey3yUaKkZKY/mqdefault.jpg
+  date: '2024-05-08'
+- title: Conditional Logic and Comparison Operators
+  description: From the recording '(HSMA 6 Day 4) 1E Python Programming Part 1', starting at 1:07:02.
+  path: https://www.youtube.com/watch?v=Ey3yUaKkZKY&t=4022s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/Ey3yUaKkZKY/mqdefault.jpg
+  date: '2024-05-08'
+- title: Comparison Operator Game
+  description: From the recording '(HSMA 6 Day 4) 1E Python Programming Part 1', starting at 1:18:41.
+  path: https://www.youtube.com/watch?v=Ey3yUaKkZKY&t=4721s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/Ey3yUaKkZKY/mqdefault.jpg
+  date: '2024-05-08'
+- title: An Intro to Loops
+  description: From the recording '(HSMA 6 Day 4) 1E Python Programming Part 1', starting at 1:31:09.
+  path: https://www.youtube.com/watch?v=Ey3yUaKkZKY&t=5469s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/Ey3yUaKkZKY/mqdefault.jpg
+  date: '2024-05-08'
+- title: For Loops
+  description: From the recording '(HSMA 6 Day 4) 1E Python Programming Part 1', starting at 1:31:46.
+  path: https://www.youtube.com/watch?v=Ey3yUaKkZKY&t=5506s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/Ey3yUaKkZKY/mqdefault.jpg
+  date: '2024-05-08'
+- title: While Loops
+  description: From the recording '(HSMA 6 Day 4) 1E Python Programming Part 1', starting at 1:43:11.
+  path: https://www.youtube.com/watch?v=Ey3yUaKkZKY&t=6191s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/Ey3yUaKkZKY/mqdefault.jpg
+  date: '2024-05-08'
+- title: Breaking from a loop
+  description: From the recording '(HSMA 6 Day 4) 1E Python Programming Part 1', starting at 1:46:21.
+  path: https://www.youtube.com/watch?v=Ey3yUaKkZKY&t=6381s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/Ey3yUaKkZKY/mqdefault.jpg
+  date: '2024-05-08'
+- title: Infinite Loops
+  description: From the recording '(HSMA 6 Day 4) 1E Python Programming Part 1', starting at 1:49:07.
+  path: https://www.youtube.com/watch?v=Ey3yUaKkZKY&t=6547s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/Ey3yUaKkZKY/mqdefault.jpg
+  date: '2024-05-08'
+- title: Lists
+  description: From the recording '(HSMA 6 Day 4) 1E Python Programming Part 1', starting at 2:00:32.
+  path: https://www.youtube.com/watch?v=Ey3yUaKkZKY&t=7232s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/Ey3yUaKkZKY/mqdefault.jpg
+  date: '2024-05-08'
+- title: Accessing List Elements
+  description: From the recording '(HSMA 6 Day 4) 1E Python Programming Part 1', starting at 2:07:55.
+  path: https://www.youtube.com/watch?v=Ey3yUaKkZKY&t=7675s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/Ey3yUaKkZKY/mqdefault.jpg
+  date: '2024-05-08'
+- title: Negative Indexing and Slicing of Lists
+  description: From the recording '(HSMA 6 Day 4) 1E Python Programming Part 1', starting at 2:14:32.
+  path: https://www.youtube.com/watch?v=Ey3yUaKkZKY&t=8072s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/Ey3yUaKkZKY/mqdefault.jpg
+  date: '2024-05-08'
+- title: List Comprehensions
+  description: From the recording '(HSMA 6 Day 4) 1E Python Programming Part 1', starting at 2:21:29.
+  path: https://www.youtube.com/watch?v=Ey3yUaKkZKY&t=8489s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/Ey3yUaKkZKY/mqdefault.jpg
+  date: '2024-05-08'
+- title: Dictionaries
+  description: From the recording '(HSMA 6 Day 4) 1E Python Programming Part 1', starting at 2:26:38.
+  path: https://www.youtube.com/watch?v=Ey3yUaKkZKY&t=8798s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/Ey3yUaKkZKY/mqdefault.jpg
+  date: '2024-05-08'
+- title: Dictionary Operations
+  description: From the recording '(HSMA 6 Day 4) 1E Python Programming Part 1', starting at 2:28:59.
+  path: https://www.youtube.com/watch?v=Ey3yUaKkZKY&t=8939s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/Ey3yUaKkZKY/mqdefault.jpg
+  date: '2024-05-08'
+- title: Importing Packages
+  description: From the recording '(HSMA 6 Day 4) 1E Python Programming Part 1', starting at 2:41:54.
+  path: https://www.youtube.com/watch?v=Ey3yUaKkZKY&t=9714s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/Ey3yUaKkZKY/mqdefault.jpg
+  date: '2024-05-08'
+- title: The Random Library
+  description: From the recording '(HSMA 6 Day 4) 1E Python Programming Part 1', starting at 2:46:53.
+  path: https://www.youtube.com/watch?v=Ey3yUaKkZKY&t=10013s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/Ey3yUaKkZKY/mqdefault.jpg
+  date: '2024-05-08'
+- title: Functions
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 13:06.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=786s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: Writing and Calling Functions
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 17:17.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=1037s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: Functions Without Inputs
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 27:33.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=1653s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: Returning Multiple Values from Functions
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 28:50.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=1730s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: Global and Local Variables
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 33:14.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=1994s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: Exception Handling
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 42:36.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=2556s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: Reading and Writing csv files without Pandas
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 48:37.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=2917s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: File Access Modes
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 1:02:09.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=3729s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: An Introduction to Numpy and Multidimensional Arrays
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 1:13:53.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=4433s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: Creating Numpy Arrays
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 1:24:46.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=5086s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: Indexing and Slicing Numpy Arrays
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 1:29:59.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=5399s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: Updating Values in Numpy Arrays
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 1:34:42.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=5682s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: Creating empty numpy arrays
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 1:35:58.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=5758s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: Creating numpy arrays with evenly spaced intervals
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 1:38:34.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=5914s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: Creating an array of zeros
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 1:39:34.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=5974s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: Numpy Array Shape and Dimensions
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 1:40:03.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=6003s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: Mathematical Operations with Numpy Arrays
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 1:41:12.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=6072s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: Statistical Operations with Numpy Arrays
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 1:44:11.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=6251s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: Dot Product with Numpy
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 1:46:37.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=6397s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: Removing Duplicates from Numpy Arrays
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 1:48:27.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=6507s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: An Introduction to Pandas
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 2:10:53.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=7853s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: Creating New Pandas Dataframes and Setting the Index Column
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 2:13:17.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=7997s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: Indexing Pandas Dataframes (Selecting Rows or Columns)
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 2:17:36.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=8256s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: Conditional Indexing (selecting columns that meet a criteria)
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 2:20:46.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=8446s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: Adding Rows and Columns to Dataframes
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 2:24:03.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=8643s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: Concatenating Pandas Dataframes (joining dataframes)
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 2:26:38.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=8798s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: Dropping (Removing) Rows and Columns from Dataframes
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 2:29:11.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=8951s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: Value Counts on Pandas Dataframes
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 2:32:09.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=9129s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: Creating Pivot Tables from Pandas Dataframes
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 2:34:53.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=9293s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: Dropping Duplicates from Pandas Dataframes
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 2:38:38.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=9518s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: Sorting Pandas Dataframes
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 2:43:15.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=9795s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: Neat Pandas Features - head, tail, describe, astype, mean
+  description: From the recording '(HSMA 6 Day 5) 1F Python Programming Part 2', starting at 2:44:35.
+  path: https://www.youtube.com/watch?v=QuhUeysnTgY&t=9875s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QuhUeysnTgY/mqdefault.jpg
+  date: '2024-05-15'
+- title: A Recap of Objected Oriented Programming
+  description: From the recording '(HSMA 6 Day 6) 1G Python Programming Part 3', starting at 13:26.
+  path: https://www.youtube.com/watch?v=RvU3MBEd280&t=806s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/RvU3MBEd280/mqdefault.jpg
+  date: '2024-05-22'
+- title: OOP in Python - Classes, Attributes and Methods
+  description: From the recording '(HSMA 6 Day 6) 1G Python Programming Part 3', starting at 19:26.
+  path: https://www.youtube.com/watch?v=RvU3MBEd280&t=1166s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/RvU3MBEd280/mqdefault.jpg
+  date: '2024-05-22'
+- title: OOP - A Python Class Example
+  description: From the recording '(HSMA 6 Day 6) 1G Python Programming Part 3', starting at 28:52.
+  path: https://www.youtube.com/watch?v=RvU3MBEd280&t=1732s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/RvU3MBEd280/mqdefault.jpg
+  date: '2024-05-22'
+- title: OOP - Instantiation and Creating Multiple Instances
+  description: From the recording '(HSMA 6 Day 6) 1G Python Programming Part 3', starting at 32:51.
+  path: https://www.youtube.com/watch?v=RvU3MBEd280&t=1971s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/RvU3MBEd280/mqdefault.jpg
+  date: '2024-05-22'
+- title: Inheritance
+  description: From the recording '(HSMA 6 Day 6) 1G Python Programming Part 3', starting at 50:15.
+  path: https://www.youtube.com/watch?v=RvU3MBEd280&t=3015s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/RvU3MBEd280/mqdefault.jpg
+  date: '2024-05-22'
+- title: Inheritance in Python
+  description: From the recording '(HSMA 6 Day 6) 1G Python Programming Part 3', starting at 55:05.
+  path: https://www.youtube.com/watch?v=RvU3MBEd280&t=3305s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/RvU3MBEd280/mqdefault.jpg
+  date: '2024-05-22'
+- title: Reusability
+  description: From the recording '(HSMA 6 Day 6) 1G Python Programming Part 3', starting at 1:15:36.
+  path: https://www.youtube.com/watch?v=RvU3MBEd280&t=4536s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/RvU3MBEd280/mqdefault.jpg
+  date: '2024-05-22'
+- title: An Introduction to matplotlib
+  description: From the recording '(HSMA 6 Day 6) 1G Python Programming Part 3', starting at 1:30:59.
+  path: https://www.youtube.com/watch?v=RvU3MBEd280&t=5459s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/RvU3MBEd280/mqdefault.jpg
+  date: '2024-05-22'
+- title: matplotlib - Figures and Axes
+  description: From the recording '(HSMA 6 Day 6) 1G Python Programming Part 3', starting at 1:35:39.
+  path: https://www.youtube.com/watch?v=RvU3MBEd280&t=5739s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/RvU3MBEd280/mqdefault.jpg
+  date: '2024-05-22'
+- title: matplotlib - Line Plots
+  description: From the recording '(HSMA 6 Day 6) 1G Python Programming Part 3', starting at 1:37:52.
+  path: https://www.youtube.com/watch?v=RvU3MBEd280&t=5872s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/RvU3MBEd280/mqdefault.jpg
+  date: '2024-05-22'
+- title: matplotlibs - Bar and Scatter Plots
+  description: From the recording '(HSMA 6 Day 6) 1G Python Programming Part 3', starting at 1:45:54.
+  path: https://www.youtube.com/watch?v=RvU3MBEd280&t=6354s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/RvU3MBEd280/mqdefault.jpg
+  date: '2024-05-22'
+- title: matplotlib - Saving Plots
+  description: From the recording '(HSMA 6 Day 6) 1G Python Programming Part 3', starting at 1:47:12.
+  path: https://www.youtube.com/watch?v=RvU3MBEd280&t=6432s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/RvU3MBEd280/mqdefault.jpg
+  date: '2024-05-22'
+- title: (HSMA 6 Day 7) 2A Introduction to Discrete Event Simulation
+  description: 'Today we begin module 2 of the programme, in which we explore how we can model pathway and queuing problems using a modelling method known as Discrete Event Simulation. We''ll explore how Discrete Event Simulations work and you''ll have a chance to design your own. GitHub (2A): Slides (2A): HSMA…'
+  path: https://www.youtube.com/watch?v=TxdvJQxuSx4
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/TxdvJQxuSx4/mqdefault.jpg
+  date: '2024-05-29'
+- title: (HSMA 6 Day 7) 2B SimPy Part 1
+  description: 'Today we look at how we can use the SimPy Python package (which is built around generator functions) to build Discrete Event Simulations in Python. GitHub (2B): Slides (2B): HSMA Website :'
+  path: https://www.youtube.com/watch?v=nHgyJ6i0TGs
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/nHgyJ6i0TGs/mqdefault.jpg
+  date: '2024-05-29'
+- title: (HSMA 6 Day 8) 2C SimPy Part 2
+  description: 'In this session we look at some more advanced DES concepts and how we can incorporate them in our SimPy models. This includes warm up periods, priority-based queuing, resource unavailability, Lognormal distributions, reneging, balking and jockeying. Slides : GitHub : HSMA Website :'
+  path: https://www.youtube.com/watch?v=FBVBKtVkayA
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/FBVBKtVkayA/mqdefault.jpg
+  date: '2024-06-12'
+- title: (HSMA 6 Day 8) 3A Intro to Geospatial Problems in Health & Geographic Visualisation using QGIS Pt 1
+  description: 'In this session, we introduce some key concepts of geographic modelling and visualisation, and begin our exploration of the free and open source geographic visualisation software package QGIS. Slides : GitHub : HSMA Website :'
+  path: https://www.youtube.com/watch?v=t-5KKMr3El4
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/t-5KKMr3El4/mqdefault.jpg
+  date: '2024-06-12'
+- title: (HSMA 6 Day 9) 3B - Choropleths and print layouts in QGIS
+  description: ''
+  path: https://www.youtube.com/watch?v=eHJzQn9mI2E
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/eHJzQn9mI2E/mqdefault.jpg
+  date: '2024-06-19'
+- title: (HSMA 6 Day 9) 3B - Geopandas and plotting static maps in Python with matplotlib
+  description: ''
+  path: https://www.youtube.com/watch?v=7w366aEAGAs
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/7w366aEAGAs/mqdefault.jpg
+  date: '2024-06-19'
+- title: (HSMA 6 Day 9) 3C - Interactive Maps in Python with Folium
+  description: ''
+  path: https://www.youtube.com/watch?v=_14heKZ9YjA
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/_14heKZ9YjA/mqdefault.jpg
+  date: '2024-06-19'
+- title: (HSMA 6 Day 9) 3C - Visualising Travel Time Data in Python
+  description: ''
+  path: https://www.youtube.com/watch?v=_KD7gOMPFgY
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/_KD7gOMPFgY/mqdefault.jpg
+  date: '2024-06-19'
+- title: (HSMA 6 Day 10) 3D - Location Allocation Problems
+  description: 'In this session we talk about how to construct and carry out the p-median location allocation problem - minimising a weighted cost across a region for different possible combinations of sites. Materials can be found here:'
+  path: https://www.youtube.com/watch?v=UJdv0HIuG6s
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/UJdv0HIuG6s/mqdefault.jpg
+  date: '2024-06-25'
+- title: (HSMA 6 Day 10) 3C - A brief introduction to routingpy
+  description: 'In this video we briefly talk about the routingpy library and introduce how it could be used to retrieve travel matrices and isochrone data to assist in p-median location allocation problems and more. All materials for this session can be found here:'
+  path: https://www.youtube.com/watch?v=Zd8mQIXNq-o
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/Zd8mQIXNq-o/mqdefault.jpg
+  date: '2024-06-25'
+- title: (HSMA 6 Day 10) 4A  - Introduction to AI and Machine Learning
+  description: In this session we introduce some of the core concepts of AI and Machine Learning, including the concepts of features and labels, overfitting and underfitting and assessing model performance. We also explore some of the different types of machine learning, and practice our understanding of these…
+  path: https://www.youtube.com/watch?v=g3RmQombgEA
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/g3RmQombgEA/mqdefault.jpg
+  date: '2024-06-26'
+- title: (HSMA 6 Day 11) 4B - Logistic Regression - Who Would Survive the Titanic?
+  description: In this session we'll begin exploring some of the Machine Learning approaches that we can use, starting today with Logistic Regression - a way of fusing together traditional linear regression models with a logistic function to create a powerful classifier model. You'll see how these models can be…
+  path: https://www.youtube.com/watch?v=0Cw6LK-MO_w
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/0Cw6LK-MO_w/mqdefault.jpg
+  date: '2024-07-03'
+- title: (HSMA 6 Day 11) 4C  - Ethics in AI
+  description: 'In this session we''ll explore some of the key ethical considerations that are fundamental to any machine learning work, as we explore what can (and will) go wrong. Slides : HSMA Website :'
+  path: https://www.youtube.com/watch?v=fzgtDKCLGHI
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/fzgtDKCLGHI/mqdefault.jpg
+  date: '2024-07-03'
+- title: (HSMA 6 Day 12) 4D Part 1/2 - Decision Trees
+  description: 'In this session we''ll begin looking at how decision trees are built and how we can use the sklearn implementation of decision trees on our own datasets. We also recap sensitivity (recall), specificity and precision and how to calculate these in sklearn. Slides : Repository: HSMA Website :'
+  path: https://www.youtube.com/watch?v=p3Bc2kDtPPs
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/p3Bc2kDtPPs/mqdefault.jpg
+  date: '2024-07-09'
+- title: (HSMA 6 Day 12) 4D Part 2/2 - Random Forests, F1 score + Confusion Matrices
+  description: In this session we'll take a look at how we can avoid some of the problems of decision trees by using an ensemble method - random forests. We also find out an easier way of calculating sensitivity, specificity and precision in one function, as well as hearing about a new metric called f1 score, and…
+  path: https://www.youtube.com/watch?v=jqvn_OXbIfg
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/jqvn_OXbIfg/mqdefault.jpg
+  date: '2024-07-09'
+- title: (HSMA 6 Day 12) 4E Part 1/2 - Boosting Trees for Classification Problems
+  description: In this session we'll take a look at a family of models called boosted trees. These are a very powerful type of algorithm that perform extremely well on tabular datasets. The session touches on XGBoost, AdaBoost, CatBoost, Histogram-based gradient boosting classifiers and LightGBM. Slides :…
+  path: https://www.youtube.com/watch?v=o9WB1ncskzU
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/o9WB1ncskzU/mqdefault.jpg
+  date: '2024-07-09'
+- title: (HSMA 6 Day 12) 4E Part 2/2 - Predicting Numeric Values with Tree-based Algorithms + OneHot encoding
+  description: In this session we take a look at how decision trees, random forests and boosted trees can also be used when you want to predict a numeric value instead of classifying a sample as a member of one group or another. We also touch on some key parts of data preprocessing so we can work with a new…
+  path: https://www.youtube.com/watch?v=udlOEtFWYFc
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/udlOEtFWYFc/mqdefault.jpg
+  date: '2024-07-09'
+- title: (HSMA 6 Day 13) 4F Neural Networks
+  description: In this session we'll be looking at a subfield of AI that has dominated many of the big advancements in AI over the last few years - Deep Learning - as we introduce Neural Networks. Then, this afternoon, Sammi will dive into the fascinating emerging world of explainable AI as a way to build…
+  path: https://www.youtube.com/watch?v=X0OAjmkuwO8
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/X0OAjmkuwO8/mqdefault.jpg
+  date: '2024-07-17'
+- title: (HSMA 6 Day 13) 4G Part 1/6 - An Introduction to Explainable AI + Correlation vs Causality
+  description: 'In this part of the Explainable AI session, we explore - why explainability is importantant in AI models - what we mean by explainability - the difference between correlation and causation Slides : Repository: HSMA Website :'
+  path: https://www.youtube.com/watch?v=33ZN1orqjKk
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/33ZN1orqjKk/mqdefault.jpg
+  date: '2024-07-17'
+- title: (HSMA 6 Day 13) 4G Part 2/6 - Feature Importance in Logistic Regression & Odds/Log Odds/Probability
+  description: 'In this part of the Explainable AI session, we explore - how we can extract feature importance from a logistic regression model - how to interpret the coefficients from logistic regression models - the relationship between odds, log odds and probability Slides : Repository: HSMA Website :'
+  path: https://www.youtube.com/watch?v=B_meJuMbMr4
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/B_meJuMbMr4/mqdefault.jpg
+  date: '2024-07-17'
+- title: (HSMA 6 Day 13) 4G Part 3/6 - Feature Importance with MDI + PFI
+  description: 'In this part of the Explainable AI session, we explore - feature importance for tree-based models with Mean Decrease in Importance (MDI) - model-agnostic feature importance with permutation feature importance (PFI) Slides : Repository: HSMA Website :'
+  path: https://www.youtube.com/watch?v=qhVkmPV0QBg
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/qhVkmPV0QBg/mqdefault.jpg
+  date: '2024-07-17'
+- title: (HSMA 6 Day 13) 4G Part 4/6 - Partial Dependence Plots and Individual Conditional Expectation Plots
+  description: 'In this part of the Explainable AI session, we explore - the partial dependence plot (PDP) - the individual conditional expectation plot (ICE) - ways of enhancing these plots Slides : Repository: HSMA Website :'
+  path: https://www.youtube.com/watch?v=iP07GkeyPpA
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/iP07GkeyPpA/mqdefault.jpg
+  date: '2024-07-17'
+- title: (HSMA 6 Day 12) 4G Part 5/6 - Explainable AI with SHAP
+  description: 'In this part of the Explainable AI session, we explore - what Shapley values are - how the shap library allows us to look at global and local feature importance - how to create and interpret different shap plots Slides : Repository: HSMA Website :'
+  path: https://www.youtube.com/watch?v=A4MH0GNfxZA
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/A4MH0GNfxZA/mqdefault.jpg
+  date: '2024-07-17'
+- title: (HSMA 6 Day 12) 4G Part 6/6 - Prediction Uncertainty
+  description: 'In this part of the Explainable AI session, we explore - why calculating prediction uncertainty may be useful - how to calculate and show prediction uncertainty Slides : Repository: HSMA Website :'
+  path: https://www.youtube.com/watch?v=AUnKMEe3ub4
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/AUnKMEe3ub4/mqdefault.jpg
+  date: '2024-07-17'
+- title: (HSMA 6 Day 13) 4H - Reinforcement Learning
+  description: 'In this session we take a look at Reinforcement Learning in a session that will be very different to any you''ve experienced thus far. Note that we''d recommend not looking at the slides until after the first time the reinforcement learning game is played manually. Slides: App Link: App Github…'
+  path: https://www.youtube.com/watch?v=ebFmAiUQkuY
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/ebFmAiUQkuY/mqdefault.jpg
+  date: '2024-07-24'
+- title: (HSMA 6 Day 13) 4I - Synthetic Data using SMOTE
+  description: 'In this session we take a look at synthetic data - how to create our own fake but realistic data when we want to augment an underrepresented class, or just use the data instead of our real data. Slides: Github Repository: HSMA Website:'
+  path: https://www.youtube.com/watch?v=3H0YMXWCxnM
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/3H0YMXWCxnM/mqdefault.jpg
+  date: '2024-07-24'
+- title: '(HSMA 6 Day 14) 4J - Optimising ML: Imputation, Feature Engineering & Selection, Hyperparameters'
+  description: '**Unfortunately the first 5 minutes or so of the lecture was not recorded** Covering a range of ways to improve your model''s performance, including: - Missing Data Imputation with SimpleImputer and IterativeImputer - Feature Selection with SequentialFeatureSelector (forward and backward selection)…'
+  path: https://www.youtube.com/watch?v=LYP1H7X-aeg
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/LYP1H7X-aeg/mqdefault.jpg
+  date: '2024-07-31'
+- title: (HSMA 6 Day 14) 5A - Introduction to Natural Language Processing (NLP)
+  description: In this session we'll begin Module 5 and our journey into Natural Language Processing. We'll look at some core concepts important for processing text data, and learn a few little neat things we can do with our data along the way, including wordclouds and a method for assessing the similarity of…
+  path: https://www.youtube.com/watch?v=XrdEnUiFBUQ
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/XrdEnUiFBUQ/mqdefault.jpg
+  date: '2024-07-31'
+- title: (HSMA 6 Day 15) 5B - Named Entity Recognition
+  description: In this session we'll continue our journey into Natural Language Processing. Have you got named entities? Do you need them recognised? Then have we got the session for you! Our session on Named Entity Recognition will talk all about named entities, and recognition of them. Along the way we'll stop…
+  path: https://www.youtube.com/watch?v=mOnG9H3oOdo
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/mOnG9H3oOdo/mqdefault.jpg
+  date: '2024-08-07'
+- title: (HSMA 6 Day 15) 5C - Sentiment Analysis
+  description: 'In this session we don our pirate outfits and sail to the Caribbean as we look for the secret of Sentiment Analysis and Text Classification. We''ll fight dastardly pirates as well as a pirate that''s already dead but just won''t accept it. Slides: Repository: HSMA Website:'
+  path: https://www.youtube.com/watch?v=c74tpYU1opw
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/c74tpYU1opw/mqdefault.jpg
+  date: '2024-08-07'
+- title: (HSMA 6 Day 16) 5D - NLP Hackathon
+  description: In this session, HSMAs worked in groups to tackle a question of their choosing on some data of their choosing using Natural Language Processing techniques, undertaking miniature projects and practicing those all-important skills needed to tackle their own projects in Phase 2. The recording contains…
+  path: https://www.youtube.com/watch?v=yfiDyURsRMA
+  year: 2024
+  event: HSMA 6
+  type: Hackathon
+  image: https://i.ytimg.com/vi/yfiDyURsRMA/mqdefault.jpg
+  date: '2024-08-14'
+- title: (HSMA 6 Day 17) 6B - An Introduction to Agent-Based Simulation
+  description: In this session, we begin looking at Agent Based Simulation - a simulation modelling approach that allows us to capture individual level behaviours of actors in our system, and observe the emergent dynamics. We also take a look at Cellular Automata, and head to the Edge of Chaos. Slides:…
+  path: https://www.youtube.com/watch?v=jeykRmcNOTU
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/jeykRmcNOTU/mqdefault.jpg
+  date: '2024-09-04'
+- title: (HSMA 6 Day 17) 6A - System Dynamics
+  description: 'In this session, we take a look at System Dynamics as a way of understanding whether there are inherent issues in the way our systems are structured. We use the online InsightMaker ( tool to create a quantitative system dynamics model. Slides: Repository: HSMA Website:'
+  path: https://www.youtube.com/watch?v=H0VVJXpgbfw
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/H0VVJXpgbfw/mqdefault.jpg
+  date: '2024-09-04'
+- title: (HSMA 6 Day 18) 6C - Agent-Based Simulation with MESA
+  description: 'In this session, we look at how we can use the excellent Python package MESA to help us build our own Agent Based Simulations, and we''ll revisit our old friend Object Oriented Programming to help us do that. Slides: Github Repository: HSMA Website:'
+  path: https://www.youtube.com/watch?v=Qe2gOpLDSeQ
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/Qe2gOpLDSeQ/mqdefault.jpg
+  date: '2024-09-11'
+- title: (HSMA 6 Day 19) 7A - Version Control with Git and Github in VSCode
+  description: Today we're going to be looking at the crucial importance of version control, and how we can use Git - a distributed version control system - to allow us to this. We'll also look at how we can use Git interaction with GitHub to publish and work with repositories hosted online. Git is both amazing…
+  path: https://www.youtube.com/watch?v=QTw6neSRuRA
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/QTw6neSRuRA/mqdefault.jpg
+  date: '2024-09-18'
+- title: (HSMA 6 Day 20) 7B - An Introduction to Python Web Apps with Streamlit
+  description: 'Today we''re going to start looking at building web apps entirely in Python using the fantastic Streamlit framework. HSMA Streamlit Book: Slides: Github Repository: HSMA Website:'
+  path: https://www.youtube.com/watch?v=iOfzfmuAr_Y
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/iOfzfmuAr_Y/mqdefault.jpg
+  date: '2024-09-25'
+- title: (HSMA 6 Day 21) 7C Python Web Apps with Streamlit - Discrete Event Simulation and Advanced Streamlit
+  description: 'We kick off this session with a recap of the key Streamlit commands (though we''d recommend going through session 7B if you''re new to Streamlit: before a bit of a blast from the past - returning to our discrete event simulation (DES) code of a walk-in clinic from module 2 and turning it into an app.…'
+  path: https://www.youtube.com/watch?v=1lSkHzOQ03E
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/1lSkHzOQ03E/mqdefault.jpg
+  date: '2024-10-09'
+- title: (HSMA 6 Day 22) 8A - Reproducible Reporting in Python with Quarto and xlsxwriter
+  description: In this session, we spend a bit of time learning about Quarto, allowing you to create good-looking reports that weave together code, text, images and more in a neat, easily-distributable format. We also have a look at using a Python script to interact with the command line and produce multiple…
+  path: https://www.youtube.com/watch?v=xZMoHvZJmJM
+  year: 2024
+  event: HSMA 6
+  type: Lecture
+  image: https://i.ytimg.com/vi/xZMoHvZJmJM/mqdefault.jpg
+  date: '2024-10-17'
+- title: 'HSMA 6 Hackathon : Hack to the Future Part 2'
+  description: 'A recording of presentations from our HSMA 6 Hackathon "Hack to the Future Part 2". For more information about the HSMA Programme, see our website :'
+  path: https://www.youtube.com/watch?v=59szwz40Pik
+  year: 2024
+  event: HSMA 6
+  type: Hackathon
+  image: https://i.ytimg.com/vi/59szwz40Pik/mqdefault.jpg
+  date: '2024-10-23'
+- title: HSMA 5 Virtual Open Day 2022
+  description: 'A recording of the HSMA 5 Virtual Open Day 2022. More details about the programme can be found on our website :'
+  path: https://www.youtube.com/watch?v=fuTfVE-njjM
+  year: 2022
+  event: HSMA 5
+  type: Open day
+  image: https://i.ytimg.com/vi/fuTfVE-njjM/mqdefault.jpg
+  date: '2022-06-22'
+- title: 'HSMA 5 1A : Introduction to Operational Research and Data Science and 1B : Principles of Programming'
+  description: An introduction to the principles of Operational Research and Data Science for informing operational decisions in health services research. An overview of the modelling process, including conceptual modelling, and other key considerations, is provided. The second session introduces viewers to the…
+  path: https://www.youtube.com/watch?v=beqgaIgPsCg
+  year: 2022
+  event: HSMA 5
+  type: Lecture
+  image: https://i.ytimg.com/vi/beqgaIgPsCg/mqdefault.jpg
+  date: '2022-10-05'
+- title: 'HSMA 5 2A : Spyder, Jupyter Notebooks and Google CoLab'
+  description: 'An introduction to Spyder, Jupyter Notebooks and Google CoLab for Python development. Accompanying lecture materials can be found here : More information about the HSMA Programme can be found here : Follow us on Twitter : @PenCHORD_UoE @drdanielchalk'
+  path: https://www.youtube.com/watch?v=2qsa-0KQJAs
+  year: 2022
+  event: HSMA 5
+  type: Lecture
+  image: https://i.ytimg.com/vi/2qsa-0KQJAs/mqdefault.jpg
+  date: '2022-10-06'
+- title: 'HSMA 5 1C : Python Programming Part 1'
+  description: An introduction to programming in Python. In this lecture, we cover some of the basics of Python programming, including printing to the display, variables and casting, user input, comments, mathematical operators, conditional logic, for and while loops, working with lists and list comprehension,…
+  path: https://www.youtube.com/watch?v=nXK7El47JjQ
+  year: 2022
+  event: HSMA 5
+  type: Lecture
+  image: https://i.ytimg.com/vi/nXK7El47JjQ/mqdefault.jpg
+  date: '2022-10-12'
+- title: 'HSMA 5 1D : Python Programming Part 2'
+  description: 'In this session, we talk about Python functions, exception handling and file reading and writing. We also introduce the basics of NumPy and Pandas - two fundamentally important Python libraries for Data Science. Accompanying lecture materials can be found here : More information about the HSMA…'
+  path: https://www.youtube.com/watch?v=TZOCpXnhQJM
+  year: 2022
+  event: HSMA 5
+  type: Lecture
+  image: https://i.ytimg.com/vi/TZOCpXnhQJM/mqdefault.jpg
+  date: '2022-10-19'
+- title: 'HSMA 5 3A : Introduction to Discrete Event Simulation and 3B : SimPy for DES Part 1'
+  description: In these sessions, we introduce the simulation modelling approach Discrete Event Simulation - a way of modelling queuing / pathway problems. We then show you how to use the Python package SimPy to build simple but effective Discrete Event Simulation models. We also talk about Python Generator…
+  path: https://www.youtube.com/watch?v=IlUPJcowBrA
+  year: 2022
+  event: HSMA 5
+  type: Lecture
+  image: https://i.ytimg.com/vi/IlUPJcowBrA/mqdefault.jpg
+  date: '2022-11-02'
+- title: 'HSMA 5 3C : SimPy for Discrete Event Simulation Pt 2 & 7A : Introduction to AI and Machine Learning'
+  description: In the first part of the video (session 3C) we look at how we can make our SimPy models more elegant by structuring them in an Object-Oriented way. We also look at how we can model entities having different priorities in a queue so that we use priorities to determine the next entity to be seen, and…
+  path: https://www.youtube.com/watch?v=F3av_4iJMzA
+  year: 2022
+  event: HSMA 5
+  type: Lecture
+  image: https://i.ytimg.com/vi/F3av_4iJMzA/mqdefault.jpg
+  date: '2022-11-09'
+- title: 'HSMA 5 7B : Ethics in AI and 7C : Machine Learning - Who Would Survive the Titanic?'
+  description: In the first part of this video (7B) we discuss some of the important ethical considerations necessary when undertaking AI and Machine Learning projects. We talk about issues around representation in our data, transparency of our models as well as the severe consequences that can happen when our AI…
+  path: https://www.youtube.com/watch?v=kMj1--jNXSA
+  year: 2022
+  event: HSMA 5
+  type: Lecture
+  image: https://i.ytimg.com/vi/kMj1--jNXSA/mqdefault.jpg
+  date: '2022-11-16'
+- title: 'HSMA 5 7D : Introduction to Neural Networks and 7E : Synthetic Data'
+  description: In the first part of this video (7D), we talk about Deep Learning and the magical world of Neural Networks. These structures allow us to get high performance learning models for a wide range of problems, although they do come with a cost - that we lose a little bit in terms of model explainability…
+  path: https://www.youtube.com/watch?v=rWFsGFVXKl0
+  year: 2022
+  event: HSMA 5
+  type: Lecture
+  image: https://i.ytimg.com/vi/rWFsGFVXKl0/mqdefault.jpg
+  date: '2022-11-24'
+- title: 'HSMA 5 8A : Intro to Natural Language Processing and 8B : Named Entity Recognition & Word Clouds'
+  description: IMPORTANT NOTE - there is an error in the teaching in this video which has since been corrected. Specifically, some of the named entities that I suggested should have been picked up as named entities in Exercise 1 should not have been - "bread" and "milk" are not named entities as they are not…
+  path: https://www.youtube.com/watch?v=4P_7cRG_X0c
+  year: 2022
+  event: HSMA 5
+  type: Lecture
+  image: https://i.ytimg.com/vi/4P_7cRG_X0c/mqdefault.jpg
+  date: '2022-11-30'
+- title: 'HSMA 5 8C : Sentiment Analysis and 6A : Cellular Automata'
+  description: In the first part of this video (8C) we revisit our old friend Neural Networks to see if we can apply the same principles to automatically predict the sentiment of a piece of text. But because we're dealing with text data, we'll need to look at the concepts of Standardisation and Vectorisation to…
+  path: https://www.youtube.com/watch?v=B1fPC5ISXoU
+  year: 2022
+  event: HSMA 5
+  type: Lecture
+  image: https://i.ytimg.com/vi/B1fPC5ISXoU/mqdefault.jpg
+  date: '2022-12-07'
+- title: 'HSMA 5 6B : Agent Based Simulation using MESA'
+  description: In this video, we walk through some code to develop a simple Agent Based Simulation to model the spread of a disease using the Python package MESA. We talk about the concepts of Agent Based Simulation and how it can be used to model behaviour. We then look at how MESA is structured, begin…
+  path: https://www.youtube.com/watch?v=0qQsvLfPias
+  year: 2022
+  event: HSMA 5
+  type: Lecture
+  image: https://i.ytimg.com/vi/0qQsvLfPias/mqdefault.jpg
+  date: '2022-12-14'
+- title: 'HSMA 5 6B Part 2 : BYOABS (Bring Your Own Agent Based Simulation)'
+  description: 'In this short video which serves as a part 2 to session 6B, the HSMA teams present their proof-of-concept Agent Based Simulation models built using MESA, and Dan gets his festive hat to wish you all a Merry Christmas! More information about the HSMA Programme can be found here : Follow us on…'
+  path: https://www.youtube.com/watch?v=1083YZRK4eY
+  year: 2022
+  event: HSMA 5
+  type: Lecture
+  image: https://i.ytimg.com/vi/1083YZRK4eY/mqdefault.jpg
+  date: '2022-12-23'
+- title: 'HSMA 5 4B : System Dynamics and 2C : Patient and Public Involvement in Research'
+  description: In the first part of this video (4B), we introduce you to the world of System Dynamics. We look at how we can explore the influential dynamics within a system to try and understand something more about how the system works, and whether there are intrinsic problems within the structure of a system.…
+  path: https://www.youtube.com/watch?v=wZY5vjdOzI0
+  year: 2023
+  event: HSMA 5
+  type: Lecture
+  image: https://i.ytimg.com/vi/wZY5vjdOzI0/mqdefault.jpg
+  date: '2023-01-19'
+- title: IPACS Workshop
+  description: ''
+  path: https://www.youtube.com/watch?v=mzJcwb4psQ0
+  year: 2023
+  event: HSMA 5
+  type: Workshop
+  image: https://i.ytimg.com/vi/mzJcwb4psQ0/mqdefault.jpg
+  date: '2023-02-17'
+- title: 'HSMA 5 7F : Reinforcement Learning'
+  description: In this video, we introduce some of the core concepts of Reinforcement Learning by using the 80s cult-classic UK TV series Treasure Hunt as our inspiration. We talk about the fundamental principles of Reinforcement Learning, the exploration / exploitation dilemma, multi-armed bandit problems and a…
+  path: https://www.youtube.com/watch?v=zkqWv1qGjGI
+  year: 2023
+  event: HSMA 5
+  type: Lecture
+  image: https://i.ytimg.com/vi/zkqWv1qGjGI/mqdefault.jpg
+  date: '2023-03-01'
+- title: 'HSMA 1F : Basics of R'
+  description: In this video, our guest lecturer - Simon Wellesley-Miller (NHS England) introduces us to the world of R, for those bored of good coding languages like Python :) (Just kidding... mostly...). The video acts as a code-along using R Studio in the cloud, and goes from the basics to some of the great…
+  path: https://www.youtube.com/watch?v=_FKmFtp_jg4
+  year: 2023
+  event: HSMA 5
+  type: Lecture
+  image: https://i.ytimg.com/vi/_FKmFtp_jg4/mqdefault.jpg
+  date: '2023-03-08'
+- title: 'HSMA 5 2B : Principles of FOSS and Version Control using Git'
+  description: In this video, we introduce viewers to the world of version control using Git and collaborative open source development using GitHub. First, we talk about the importance of FOSS and Open Science. We talk a bit about the history of FOSS, as well as reminisce about the good old days of computing,…
+  path: https://www.youtube.com/watch?v=SDRV6dujJ6Q
+  year: 2023
+  event: HSMA 5
+  type: Lecture
+  image: https://i.ytimg.com/vi/SDRV6dujJ6Q/mqdefault.jpg
+  date: '2023-05-17'
+- title: 'BONUS TUTORIAL : Simpy PriorityResource'
+  description: 'This bonus tutorial shows students how to easily add functionality to their SimPy models that allows for entities that are queuing to prioritised rather than be seen in a strictly first-in first-out manner. You should watch this Bonus Tutorial after completing Session 5C : SimPy Part 2 of the HSMA…'
+  path: https://www.youtube.com/watch?v=qe3sms-TqD0
+  year: null
+  event: HSMA 4
+  type: Tutorial
+  image: https://i.ytimg.com/vi/qe3sms-TqD0/mqdefault.jpg
+  date: '2020-08-27'
+- title: 'BONUS TUTORIAL : Modelling resource unavailability in SimPy'
+  description: 'In this bonus tutorial we explain how we can model periods of unavailability of our resources in our SimPy models. This tutorial should be completed after the Bonus Tutorial on Priority Resource, and after Session 3C : SimPy Part 2 of the HSMA Programme.'
+  path: https://www.youtube.com/watch?v=732BleYHhF0
+  year: null
+  event: HSMA 4
+  type: Tutorial
+  image: https://i.ytimg.com/vi/732BleYHhF0/mqdefault.jpg
+  date: '2020-08-27'
+- title: Geopandas (python 3.8)
+  description: 'Tutorial for GeoPandas using Python 3.8. All materials available at:'
+  path: https://www.youtube.com/watch?v=fZ2gQZwT1Gw
+  year: null
+  event: HSMA 4
+  type: Lecture
+  image: https://i.ytimg.com/vi/fZ2gQZwT1Gw/mqdefault.jpg
+  date: '2021-10-26'
+- title: HSMA introduction to geospatial analysis
+  description: HSMA-4 introduction to geospatial analysis
+  path: https://www.youtube.com/watch?v=jOW5LwmXy4g
+  year: null
+  event: HSMA 4
+  type: Lecture
+  image: https://i.ytimg.com/vi/jOW5LwmXy4g/mqdefault.jpg
+  date: '2022-05-04'
+- title: HSMA 4 1A (Introduction to Operational Research and Data Science) and 1B (Principles of Programming)
+  description: ''
+  path: https://www.youtube.com/watch?v=vmoxlGlkpfs
+  year: null
+  event: HSMA 4
+  type: Lecture
+  image: https://i.ytimg.com/vi/vmoxlGlkpfs/mqdefault.jpg
+  date: '2022-05-04'
+- title: 'HSMA 4 Session 2A : Spyder, Jupyter Notebooks and Google CoLab'
+  description: ''
+  path: https://www.youtube.com/watch?v=gwzQ1OPjJ0k
+  year: null
+  event: HSMA 4
+  type: Lecture
+  image: https://i.ytimg.com/vi/gwzQ1OPjJ0k/mqdefault.jpg
+  date: '2022-05-04'
+- title: 'HSMA 4 Session 1C : Python Programming Part 1'
+  description: ''
+  path: https://www.youtube.com/watch?v=rRepYTJ-y8k
+  year: null
+  event: HSMA 4
+  type: Lecture
+  image: https://i.ytimg.com/vi/rRepYTJ-y8k/mqdefault.jpg
+  date: '2022-05-04'
+- title: Making Web Apps with Streamlit (2 of 2)
+  description: 'Making python web apps using StreamLit This video focuses on makign a web app available on a Digital Ocean server GitHub repo for these example: Streamlit web: streamlit.io Digital Ocean:'
+  path: https://www.youtube.com/watch?v=hnimOPhql0k
+  year: null
+  event: HSMA 4
+  type: Lecture
+  image: https://i.ytimg.com/vi/hnimOPhql0k/mqdefault.jpg
+  date: '2021-10-14'
+- title: Making Web Apps with Streamlit (1 of 2)
+  description: 'Making python web apps using StreamLit. This video focuses on creating a web app and testing locally. GitHub repo for these example: Streamlit web: streamlit.io Digital Ocean:'
+  path: https://www.youtube.com/watch?v=_PPUk__mXLI
+  year: null
+  event: HSMA 4
+  type: Lecture
+  image: https://i.ytimg.com/vi/_PPUk__mXLI/mqdefault.jpg
+  date: '2021-10-14'
+- title: 'HSMA 4 Session 1D : Python Programming Part 2'
+  description: ''
+  path: https://www.youtube.com/watch?v=DM8g8vBgQUY
+  year: null
+  event: HSMA 4
+  type: Lecture
+  image: https://i.ytimg.com/vi/DM8g8vBgQUY/mqdefault.jpg
+  date: '2022-05-04'
+- title: 'HSMA 4 Session 1E : Python Programming Part 3'
+  description: ''
+  path: https://www.youtube.com/watch?v=dnINgY0o6ro
+  year: null
+  event: HSMA 4
+  type: Lecture
+  image: https://i.ytimg.com/vi/dnINgY0o6ro/mqdefault.jpg
+  date: '2022-05-04'
+- title: 'HSMA 4 Session 2B : Principles of FOSS and Version Control'
+  description: ''
+  path: https://www.youtube.com/watch?v=owPyL-ZlNmg
+  year: null
+  event: HSMA 4
+  type: Lecture
+  image: https://i.ytimg.com/vi/owPyL-ZlNmg/mqdefault.jpg
+  date: '2022-05-04'
+- title: HSMA 4 Sessions 3A and 3B (Discrete Event Simulation and SimPy Part 1)
+  description: ''
+  path: https://www.youtube.com/watch?v=-QuHjUPHzU8
+  year: null
+  event: HSMA 4
+  type: Lecture
+  image: https://i.ytimg.com/vi/-QuHjUPHzU8/mqdefault.jpg
+  date: '2022-05-04'
+- title: facility location part1
+  description: ''
+  path: https://www.youtube.com/watch?v=8LNthQ4ZkSQ
+  year: null
+  event: HSMA 4
+  type: Lecture
+  image: https://i.ytimg.com/vi/8LNthQ4ZkSQ/mqdefault.jpg
+  date: '2022-05-04'
+- title: HSMA Facility Location
+  description: 'HSMA Facility Location: An evolutionary approach'
+  path: https://www.youtube.com/watch?v=9a9o4nt6Rk4
+  year: null
+  event: HSMA 4
+  type: Lecture
+  image: https://i.ytimg.com/vi/9a9o4nt6Rk4/mqdefault.jpg
+  date: '2022-05-04'
+- title: 'HSMA 4 Session 4A : Introduction to Network Analysis (Raw Recording)'
+  description: ''
+  path: https://www.youtube.com/watch?v=4hR2CVBiotg
+  year: null
+  event: HSMA 4
+  type: Lecture
+  image: https://i.ytimg.com/vi/4hR2CVBiotg/mqdefault.jpg
+  date: '2022-05-04'
+- title: 'HSMA 4 Session 7A : Introduction to AI and Machine Learning'
+  description: ''
+  path: https://www.youtube.com/watch?v=mXBlKCcy6IY
+  year: null
+  event: HSMA 4
+  type: Lecture
+  image: https://i.ytimg.com/vi/mXBlKCcy6IY/mqdefault.jpg
+  date: '2022-05-04'
+- title: An introduction to routing and scheduling
+  description: 'HSMA 4: an introduction to routing and scheduling'
+  path: https://www.youtube.com/watch?v=_CNsF3eTuTo
+  year: null
+  event: HSMA 4
+  type: Lecture
+  image: https://i.ytimg.com/vi/_CNsF3eTuTo/mqdefault.jpg
+  date: '2022-05-04'
+- title: 'HSMA 4 Session 8A : Natural Language Processing'
+  description: ''
+  path: https://www.youtube.com/watch?v=KRLhpEGg-bk
+  year: null
+  event: HSMA 4
+  type: Lecture
+  image: https://i.ytimg.com/vi/KRLhpEGg-bk/mqdefault.jpg
+  date: '2022-05-04'
+- title: 'HSMA: Running the forecasting code using Colab or Binder'
+  description: 'HSMA: Running the forecasting code using Colab or Binder'
+  path: https://www.youtube.com/watch?v=_3jUdnjoVuw
+  year: null
+  event: HSMA 4
+  type: Tutorial
+  image: https://i.ytimg.com/vi/_3jUdnjoVuw/mqdefault.jpg
+  date: '2022-05-04'
+- title: 'HSMA Forecasting: Setting up a conda environment'
+  description: 'HSMA Forecasting: Setting up a conda environment'
+  path: https://www.youtube.com/watch?v=GpR6BxJGcak
+  year: null
+  event: HSMA 4
+  type: Tutorial
+  image: https://i.ytimg.com/vi/GpR6BxJGcak/mqdefault.jpg
+  date: '2022-05-04'
+- title: HSMA 4 Session 3C (SimPy Part 2) and Session 6A (Cellular Automata)
+  description: ''
+  path: https://www.youtube.com/watch?v=Gc3Z5po80BM
+  year: null
+  event: HSMA 4
+  type: Lecture
+  image: https://i.ytimg.com/vi/Gc3Z5po80BM/mqdefault.jpg
+  date: '2022-05-04'
+- title: 'HSMA 4 Session 7B : Ethics in AI'
+  description: ''
+  path: https://www.youtube.com/watch?v=BSC_eZN6gcg
+  year: null
+  event: HSMA 4
+  type: Lecture
+  image: https://i.ytimg.com/vi/BSC_eZN6gcg/mqdefault.jpg
+  date: '2022-05-04'
+- title: 'HSMA 4 Session 7C : Machine Learning - Who Would Survive the Titanic?'
+  description: ''
+  path: https://www.youtube.com/watch?v=FUMblNjbq9w
+  year: null
+  event: HSMA 4
+  type: Lecture
+  image: https://i.ytimg.com/vi/FUMblNjbq9w/mqdefault.jpg
+  date: '2022-05-04'
+- title: 'HSMA 4 Session 7D : Deeper into Machine Learning - Introduction to Neural Networks'
+  description: ''
+  path: https://www.youtube.com/watch?v=pDiCXAzFO6Q
+  year: null
+  event: HSMA 4
+  type: Lecture
+  image: https://i.ytimg.com/vi/pDiCXAzFO6Q/mqdefault.jpg
+  date: '2022-05-04'
+- title: 'HSMA 4: Module 9b setup on Windows'
+  description: 'Follow the instructions in this video to setup a conda environment for HSMA4: module 9b Simple Forecasting'
+  path: https://www.youtube.com/watch?v=H4eopptC_Tw
+  year: null
+  event: HSMA 4
+  type: Tutorial
+  image: https://i.ytimg.com/vi/H4eopptC_Tw/mqdefault.jpg
+  date: '2022-05-04'
+- title: 'HSMA: Forecasting with Prophet Code along 2'
+  description: 'HSMA: Forecasting with Prophet Code along 2'
+  path: https://www.youtube.com/watch?v=DTm6a13IiSg
+  year: null
+  event: HSMA 4
+  type: Tutorial
+  image: https://i.ytimg.com/vi/DTm6a13IiSg/mqdefault.jpg
+  date: '2022-05-04'
+- title: 'HSMA: forecasting with Prophet. Code along 3'
+  description: 'HSMA: forecasting with Prophet. Code along 3'
+  path: https://www.youtube.com/watch?v=5MV1coh63oA
+  year: null
+  event: HSMA 4
+  type: Tutorial
+  image: https://i.ytimg.com/vi/5MV1coh63oA/mqdefault.jpg
+  date: '2022-05-04'
+- title: 'HSMA 4 Session 1F : Getting to Grips with Programming in R'
+  description: ''
+  path: https://www.youtube.com/watch?v=RENVbduz6Jk
+  year: null
+  event: HSMA 4
+  type: Lecture
+  image: https://i.ytimg.com/vi/RENVbduz6Jk/mqdefault.jpg
+  date: '2022-05-04'
+- title: HSMA 4 Sessions 8B (Named Entity Recognition) and 8C (Sentiment Analysis)
+  description: ''
+  path: https://www.youtube.com/watch?v=_MuRtQoUdlM
+  year: null
+  event: HSMA 4
+  type: Lecture
+  image: https://i.ytimg.com/vi/_MuRtQoUdlM/mqdefault.jpg
+  date: '2022-05-04'
+- title: HSMA 4 Sessions 6B and 6C :Agent Based Simulation using MESA Parts 1 and 2
+  description: ''
+  path: https://www.youtube.com/watch?v=h_V8I04p-0U
+  year: null
+  event: HSMA 4
+  type: Lecture
+  image: https://i.ytimg.com/vi/h_V8I04p-0U/mqdefault.jpg
+  date: '2022-05-04'
+- title: 'HSMA: Introduction to autoregressive models + iterative and direct forecasting'
+  description: 'HSMA: Introduction to autoregressive models + iterative and direct forecasting'
+  path: https://www.youtube.com/watch?v=zBNa6Zo-2lM
+  year: null
+  event: HSMA 4
+  type: Lecture
+  image: https://i.ytimg.com/vi/zBNa6Zo-2lM/mqdefault.jpg
+  date: '2022-05-04'
+- title: 'HSMA 4 Session 4B : System Dynamics'
+  description: ''
+  path: https://www.youtube.com/watch?v=nR2aMNN076c
+  year: null
+  event: HSMA 4
+  type: Lecture
+  image: https://i.ytimg.com/vi/nR2aMNN076c/mqdefault.jpg
+  date: '2022-05-04'
+- title: 'HSMA 4 Session 3D : A Generic ED Model using R'
+  description: ''
+  path: https://www.youtube.com/watch?v=RJK8kGJ9Jv4
+  year: null
+  event: HSMA 4
+  type: Lecture
+  image: https://i.ytimg.com/vi/RJK8kGJ9Jv4/mqdefault.jpg
+  date: '2022-05-04'
+- title: 'HSMA 4 Session 4C and 4D : Advanced Network Analysis (Parts 1 and 2)'
+  description: ''
+  path: https://www.youtube.com/watch?v=xwTdu66nXwI
+  year: null
+  event: HSMA 4
+  type: Lecture
+  image: https://i.ytimg.com/vi/xwTdu66nXwI/mqdefault.jpg
+  date: '2022-05-04'
+- title: Discrete event simulation   NDC
+  description: ''
+  path: https://www.youtube.com/watch?v=vg6RdBQaQT8
+  year: null
+  event: HSMA 4
+  type: Lecture
+  image: https://i.ytimg.com/vi/vg6RdBQaQT8/mqdefault.jpg
+  date: '2022-05-04'
+- title: 'HSMA 4 Session 1G : Advanced R'
+  description: ''
+  path: https://www.youtube.com/watch?v=tPlZaS_cjLk
+  year: null
+  event: HSMA 4
+  type: Lecture
+  image: https://i.ytimg.com/vi/tPlZaS_cjLk/mqdefault.jpg
+  date: '2022-05-04'
+- title: 'HSMA 4 Session 7E : Synthetic Data'
+  description: ''
+  path: https://www.youtube.com/watch?v=e4Z7-8guaSE
+  year: null
+  event: HSMA 4
+  type: Lecture
+  image: https://i.ytimg.com/vi/e4Z7-8guaSE/mqdefault.jpg
+  date: '2022-05-04'
+- title: 'HSMA Masterclass : Explainable AI using SHAP'
+  description: In our first ever Masterclass session, we talk about the importance of explainable AI, and introduce students to the use of SHAP (SHapley Additive exPlanations) to try to unpick how machine learning models are arriving at their predictions. This can help us better understand more about the…
+  path: https://www.youtube.com/watch?v=RBIU6hUXjJM
+  year: 2023
+  event: Masterclasses
+  type: Masterclass
+  image: https://i.ytimg.com/vi/RBIU6hUXjJM/mqdefault.jpg
+  date: '2023-05-23'
+- title: 'HSMA Masterclass : Shiny for Python'
+  description: In this Masterclass session, we introduce Shiny for Python - a relatively new library for Python that has been used extensively in R for many years - for developing web applications from your data and models simply but effectively. We also introduce the concept of Decorators in Python, which are…
+  path: https://www.youtube.com/watch?v=tl9qwVj0wWg
+  year: 2023
+  event: Masterclasses
+  type: Masterclass
+  image: https://i.ytimg.com/vi/tl9qwVj0wWg/mqdefault.jpg
+  date: '2023-06-13'
+- title: 'HSMA Masterclass : StreamLit'
+  description: In this Masterclass session, we introduce StreamLit in Python for producing web apps for your models. We use an example of a Discrete Event Simulation built using SimPy and talk about how to best structure the model to make integration with StreamLit as easy as possible, before showcasing some of…
+  path: https://www.youtube.com/watch?v=6e0OPsjRYQ8
+  year: 2023
+  event: Masterclasses
+  type: Masterclass
+  image: https://i.ytimg.com/vi/6e0OPsjRYQ8/mqdefault.jpg
+  date: '2023-07-04'
+- title: 'HSMA Masterclass : BERT for Natural Language Processing'
+  description: In this Sesame Street-themed Masterclass session, we provide a beginner's introduction to the world of BERT (Bidirectional Encoder Representations from Transformers) for Natural Language Processing - a model published in 2018 that has transformed the landscape of NLP. We provide a simple…
+  path: https://www.youtube.com/watch?v=Vje-dol9kc4
+  year: 2023
+  event: Masterclasses
+  type: Masterclass
+  image: https://i.ytimg.com/vi/Vje-dol9kc4/mqdefault.jpg
+  date: '2023-07-25'

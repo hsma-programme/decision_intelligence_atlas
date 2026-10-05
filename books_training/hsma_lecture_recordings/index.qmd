@@ -1,0 +1,68 @@
+---
+title: "HSMA: Lecture and Masterclass Recordings"
+categories:
+  - Courses and Training or Reference Materials
+  - Recorded Talks
+tool-language:
+  - Python
+  - R
+status: N/A
+image: lecture.jpg
+author:
+    - name: Health Service Modelling Associates Programme (HSMA)
+pub-info:
+  project-type: <i class="fa-solid fa-user-graduate"></i>
+  rationale-for-status: |
+    Collection of recordings from several rounds of a course, with differing content and presenters, so it is not ranked as a whole.
+  entry-author:
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
+  abstract: |
+    Recordings of the live lectures from the fourth, fifth and sixth rounds of the Health Service Modelling Associates (HSMA) programme, plus standalone HSMA masterclasses. They cover programming in Python (and R in earlier rounds), discrete event simulation, geographic modelling, machine learning, natural language processing, system dynamics, agent-based simulation, web apps and reproducible reporting.
+  links:
+  - name: YouTube
+    url: https://www.youtube.com/%40hsma/playlists
+    icon: fa-brands fa-youtube
+  - name: Modules
+    url: https://hsma.co.uk/modules.html
+    icon: fa-solid fa-book
+date: "2026-10-05T00:00:00+01:00"
+listing:
+  - id: lecture-recordings
+    contents: talks.yml
+    type: table
+    fields: [title, event, type, description]
+    field-display-names:
+      title: "Session"
+      event: "Round"
+      type: "Type"
+      description: "Details"
+    sort: false
+    filter-ui: [title, event, type, description]
+    sort-ui: [title, event, type]
+    page-size: 25
+---
+
+[![HSMA 6 lecture recording](lecture.jpg)](https://www.youtube.com/%40hsma/playlists)
+
+The [Health Service Modelling Associates (HSMA) programme](/books_training/hsma_programme/index.qmd) teaches its live lectures online, and records them for participants and anyone else who wants to learn. This entry brings together the recordings from three rounds of the programme, plus a series of standalone masterclasses:
+
+* **HSMA 6** (2024) - every lecture from the most recent round, which also make up the [HSMA module](/books_training/hsma_intro_programming_module/index.qmd) entries in the Atlas
+* **HSMA 5** (2022 to 2023) - lectures, plus the programme's open day
+* **HSMA 4** - lectures and bonus tutorials, including sessions on network analysis and programming in R
+* **Masterclasses** (2023) - standalone sessions on explainable AI with SHAP, Shiny for Python, Streamlit and BERT for natural language processing
+
+Content changes between rounds, so older recordings may use different tools or package versions from those taught today. For the most up-to-date materials, including slides, code and exercises for each session, see the [HSMA modules page](https://hsma.co.uk/modules.html) or the HSMA books, such as the [HSMA book of Python](/books_training/hsma_python_book/index.qmd).
+
+## Search the sessions
+
+Search for a session by title, topic, round or type. The most recent rounds are listed first. Where a recording's description gives timings for its sections, each section is listed separately and the link starts the video at that section.
+
+::: {#lecture-recordings}
+:::
+
+You can also browse the [HSMA 6](https://www.youtube.com/playlist?list=PLgHO2TgIJXdl0MvUdqxfQ1UgF9VdLGH1l), [HSMA 5](https://www.youtube.com/playlist?list=PLgHO2TgIJXdmB6T9sgyp64wNqBH1aBSu5), [HSMA 4](https://www.youtube.com/playlist?list=PLgHO2TgIJXdk9Kfqxxb_gmV2jPeIsbYTc) and [masterclass](https://www.youtube.com/playlist?list=PLgHO2TgIJXdmYZrsHHUqi08dWZ0OkSVrC) playlists on YouTube.
+
+Recordings of HSMA participants presenting their projects are in the [HSMA project showcase recordings](/books_training/hsma_project_showcases/index.qmd).
+
+To search these recordings alongside talks, webinars and workshops from other communities, use the [Recordings Finder](/recordings/index.qmd).

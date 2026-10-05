@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-* New pages for: `ConcurrentSim`, Julia for Healthcare, Visualizing Health and Healthcare Data (the first paid book), NHS-OA webinars, workshops and conference recordings, NHS.pycom talk recordings, National Analyst Network Huddle recordings, HSMA project showcase recordings.
+* New pages for: `ConcurrentSim`, Julia for Healthcare, Visualizing Health and Healthcare Data (the first paid book), NHS-OA webinars, workshops and conference recordings, NHS.pycom talk recordings, National Analyst Network Huddle recordings, HSMA project showcase recordings, HSMA lecture and masterclass recordings.
 
 ### Changed
 

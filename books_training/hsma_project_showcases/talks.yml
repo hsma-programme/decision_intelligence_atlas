@@ -286,6 +286,46 @@
   type: Project showcase
   image: https://i.ytimg.com/vi/pss1Hb0e2z4/mqdefault.jpg
   date: '2023-12-19'
+- title: 'Showcase 1 : Modelling "stuff" and "staff" in end of of life care during the COVID-19 pandemic'
+  description: The first in our series of project showcases, in which we showcase some current and previous work of the PenCHORD research team (that run the HSMA Programme) to serve as inspiration for potential HSMA projects. In this showcase, Dr Daniel Chalk talks about his 2020 work modelling the resourcing…
+  path: https://www.youtube.com/watch?v=g4T6yGUciV4
+  year: 2022
+  event: HSMA 5 (PenCHORD showcases)
+  type: Project showcase
+  image: https://i.ytimg.com/vi/g4T6yGUciV4/mqdefault.jpg
+  date: '2022-10-20'
+- title: 'Showcase 2 : A Simulation Modelling Toolkit for Organising Dialysis Services During a Pandemic'
+  description: The second in our series of project showcases, in which we showcase some current and previous work of the PenCHORD research team (that run the HSMA Programme) to serve as inspiration for potential HSMA projects. In this showcase, Prof Tom Monks talks about his 2020 work modelling the safe…
+  path: https://www.youtube.com/watch?v=HYoientT00o
+  year: 2022
+  event: HSMA 5 (PenCHORD showcases)
+  type: Project showcase
+  image: https://i.ytimg.com/vi/HYoientT00o/mqdefault.jpg
+  date: '2022-11-30'
+- title: 'Showcase 3 : Factors influencing Clinically Ready to Proceed Times within an ED Setting'
+  description: The third in our series of project showcases, in which we showcase some current and previous work of the PenCHORD research team (that run the HSMA Programme) to serve as inspiration for potential HSMA projects. In this showcase, Elliott talks about his 2022 work using Machine Learning methods to…
+  path: https://www.youtube.com/watch?v=eqCWC1k2Pg8
+  year: 2022
+  event: HSMA 5 (PenCHORD showcases)
+  type: Project showcase
+  image: https://i.ytimg.com/vi/eqCWC1k2Pg8/mqdefault.jpg
+  date: '2022-12-15'
+- title: 'Showcase 4 : Using Discrete Event Simulation to identify the delays in a bladder cancer pathway'
+  description: The fourth in our series of project showcases, in which we showcase some current and previous work of the PenCHORD research team (that run the HSMA Programme) to serve as inspiration for potential HSMA projects. In this showcase, Dan talks about his 2016 work using Discrete Event Simulation to…
+  path: https://www.youtube.com/watch?v=PHqjC9WCqnM
+  year: 2023
+  event: HSMA 5 (PenCHORD showcases)
+  type: Project showcase
+  image: https://i.ytimg.com/vi/PHqjC9WCqnM/mqdefault.jpg
+  date: '2023-01-26'
+- title: 'Showcase 5 : Geographic modelling and optimisation of locations of emergency stroke units'
+  description: The fifth in our series of project showcases, in which we showcase some current and previous work of the PenCHORD research team (that run the HSMA Programme) to serve as inspiration for potential HSMA projects. In this showcase, Mike talks about work looking at using genetic algorithms to try to…
+  path: https://www.youtube.com/watch?v=JRS43-LuwkE
+  year: 2023
+  event: HSMA 5 (PenCHORD showcases)
+  type: Project showcase
+  image: https://i.ytimg.com/vi/JRS43-LuwkE/mqdefault.jpg
+  date: '2023-01-26'
 - title: Meeting the demand of 111 for primary care services
   description: Meeting the demand of 111 for primary care services - Richard Pilbery, Maddie Smith, Jon Green
   path: https://www.youtube.com/watch?v=cg5Bp3O02io

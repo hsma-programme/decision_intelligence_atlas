@@ -253,6 +253,52 @@
       ]
     },
     {
+      "label": "HSMA 5 (PenCHORD showcases)",
+      "id": null,
+      "videos": [
+        {
+          "id": "g4T6yGUciV4",
+          "title": "Showcase 1 : Modelling \"stuff\" and \"staff\" in end of of life care during the COVID-19 pandemic",
+          "description": "The first in our series of project showcases, in which we showcase some current and previous work of the PenCHORD research team (that run the HSMA Programme) to serve as inspiration for potential HSMA projects.\n\nIn this showcase, Dr Daniel Chalk talks about his 2020 work modelling the resourcing needs for providing end of life care during the COVID-19 pandemic.\n\nYou can access the Free and Open Source model being discussed here : https://colab.research.google.com/drive/1K0-xsqG_uIpoWhw86tjOUM55OcFfhq_2#scrollTo=w_pHUWHADoXY\n\nYou can read the paper published in BMJ Open here : https://bmjopen.bmj.com/content/bmjopen/11/5/e043795.full.pdf\n\nMore information about the HSMA Programme can be found here : https://sites.google.com/nihr.ac.uk/hsma\n\nFollow us on Twitter : @PenCHORD_UoE @drdanielchalk",
+          "published": "2022-10-20T15:21:01Z",
+          "duration": "PT33M29S",
+          "thumbnail": "https://i.ytimg.com/vi/g4T6yGUciV4/mqdefault.jpg"
+        },
+        {
+          "id": "HYoientT00o",
+          "title": "Showcase 2 : A Simulation Modelling Toolkit for Organising Dialysis Services During a Pandemic",
+          "description": "The second in our series of project showcases, in which we showcase some current and previous work of the PenCHORD research team (that run the HSMA Programme) to serve as inspiration for potential HSMA projects.\n\nIn this showcase, Prof Tom Monks talks about his 2020 work modelling the safe transportation and operational delivery of services for dialysis patients in Wessex at the onset of the COVID-19 pandemic.\n\nPaper about the work : https://bit.ly/covid-sim-dialysis\nOpen Source code for the work : https://bit.ly/dialysis-code\nGeneral paper about simulation modelling to support the pandemic response : https://bit.ly/covid-simulation\n\nMore information about the HSMA Programme can be found here : https://sites.google.com/nihr.ac.uk/hsma\n\nFollow us on Twitter : @PenCHORD_UoE",
+          "published": "2022-11-30T16:05:06Z",
+          "duration": "PT30M1S",
+          "thumbnail": "https://i.ytimg.com/vi/HYoientT00o/mqdefault.jpg"
+        },
+        {
+          "id": "eqCWC1k2Pg8",
+          "title": "Showcase 3 : Factors influencing Clinically Ready to Proceed Times within an ED Setting",
+          "description": "The third in our series of project showcases, in which we showcase some current and previous work of the PenCHORD research team (that run the HSMA Programme) to serve as inspiration for potential HSMA projects.\n\nIn this showcase, Elliott talks about his 2022 work using Machine Learning methods to try to better understand the factors that influence longer times to \"clinically ready to proceed\" decisions being made in an Emergency Department in Cornwall, UK.\n\nMore information about the HSMA Programme can be found here : https://sites.google.com/nihr.ac.uk/hsma\n\nFollow us on Twitter : @PenCHORD_UoE",
+          "published": "2022-12-15T15:16:39Z",
+          "duration": "PT34M5S",
+          "thumbnail": "https://i.ytimg.com/vi/eqCWC1k2Pg8/mqdefault.jpg"
+        },
+        {
+          "id": "PHqjC9WCqnM",
+          "title": "Showcase 4 : Using Discrete Event Simulation to identify the delays in a bladder cancer pathway",
+          "description": "The fourth in our series of project showcases, in which we showcase some current and previous work of the PenCHORD research team (that run the HSMA Programme) to serve as inspiration for potential HSMA projects.\n\nIn this showcase, Dan talks about his 2016 work using Discrete Event Simulation to model the delays from referral to treatment for muscle-invasive bladder cancer patients in Cornwall, and how the model was used to lead to significant improvements in waiting times for these patients.\n\nMore information about the HSMA Programme can be found here : https://sites.google.com/nihr.ac.uk/hsma\n\nFollow us on Twitter : @PenCHORD_UoE",
+          "published": "2023-01-26T14:54:56Z",
+          "duration": "PT36M42S",
+          "thumbnail": "https://i.ytimg.com/vi/PHqjC9WCqnM/mqdefault.jpg"
+        },
+        {
+          "id": "JRS43-LuwkE",
+          "title": "Showcase 5 : Geographic modelling and optimisation of locations of emergency stroke units",
+          "description": "The fifth in our series of project showcases, in which we showcase some current and previous work of the PenCHORD research team (that run the HSMA Programme) to serve as inspiration for potential HSMA projects.\n\nIn this showcase, Mike talks about work looking at using genetic algorithms to try to optimise the location of national stroke units given competing priorities.\n\nMore information about the HSMA Programme can be found here : https://sites.google.com/nihr.ac.uk/hsma\n\nFollow us on Twitter : @PenCHORD_UoE",
+          "published": "2023-01-26T14:38:51Z",
+          "duration": "PT31M6S",
+          "thumbnail": "https://i.ytimg.com/vi/JRS43-LuwkE/mqdefault.jpg"
+        }
+      ]
+    },
+    {
       "label": "HSMA 4",
       "id": "PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN",
       "videos": [

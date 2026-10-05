@@ -8,17 +8,23 @@
 # For each collection:
 #   source             - who published the recordings, shown in the Recordings Finder
 #   playlists          - playlists to fetch, each with:
-#       label          - name shown on the site; a year in it (e.g. "RPySOC 2025")
+#       label          - name shown on the site, unique within the collection; a year
+#                        in it (e.g. "RPySOC 2025")
 #                        is used as the year of its videos, otherwise the publish
 #                        date is used
 #       id             - YouTube playlist ID. A channel's uploads can be fetched with
 #                        its uploads playlist ID (its channel ID, with "UC" replaced
 #                        by "UU")
+#       videos         - optional, in place of `id`; a list of video IDs to include,
+#                        e.g. to pick out a few videos from a larger playlist
 #       type           - kind of recording, shown in the Recordings Finder
 #       talk_list      - optional; true if session recordings list their talks one per
 #                        line without timestamps (see build_youtube_talks.py)
 #       no_year        - optional; true to leave the year blank, e.g. where videos were
 #                        uploaded long after the event and the label has no year
+#       types_by_title - optional; list of `pattern` (a regular expression) and `type`,
+#                        giving the type of videos whose titles match the pattern,
+#                        for playlists mixing different kinds of recording
 #   exclude_playlists  - optional; videos in these playlists are left out
 #   exclude_videos     - optional; these videos are left out
 
@@ -106,6 +112,11 @@ hsma_project_showcases:
       id: PLgHO2TgIJXdl1MvfkwCGJ6n8_1EYCSzex
       type: Project showcase
       no_year: true
+    # Showcases of the PenCHORD team's own projects, shown during HSMA 5 as
+    # inspiration for HSMA projects. Part of the HSMA 5 lecture playlist.
+    - label: HSMA 5 (PenCHORD showcases)
+      videos: [g4T6yGUciV4, HYoientT00o, eqCWC1k2Pg8, PHqjC9WCqnM, JRS43-LuwkE]
+      type: Project showcase
     - label: HSMA 4
       id: PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN
       type: Project showcase
@@ -114,3 +125,35 @@ hsma_project_showcases:
       id: PLgHO2TgIJXdnAWY7tGGPQLWYAjn0tgG_A
       type: Project showcase
       no_year: true
+
+hsma_lectures:
+  folder: books_training/hsma_lecture_recordings
+  source: HSMA
+  playlists:
+    - label: HSMA 6
+      id: PLgHO2TgIJXdl0MvUdqxfQ1UgF9VdLGH1l
+      type: Lecture
+      types_by_title:
+        - pattern: Hackathon
+          type: Hackathon
+    - label: HSMA 5
+      id: PLgHO2TgIJXdmB6T9sgyp64wNqBH1aBSu5
+      type: Lecture
+      types_by_title:
+        - pattern: Open Day
+          type: Open day
+        - pattern: Workshop
+          type: Workshop
+    - label: HSMA 4
+      id: PLgHO2TgIJXdk9Kfqxxb_gmV2jPeIsbYTc
+      type: Lecture
+      # Mostly uploaded in 2022, after HSMA 4 ran
+      no_year: true
+      types_by_title:
+        - pattern: tutorial|code along|setup|setting up|running the
+          type: Tutorial
+    - label: Masterclasses
+      id: PLgHO2TgIJXdmYZrsHHUqi08dWZ0OkSVrC
+      type: Masterclass
+  # Short promotional video, and showcases listed with the project showcases
+  exclude_videos: [PvQkJHc-Cis, g4T6yGUciV4, HYoientT00o, eqCWC1k2Pg8, PHqjC9WCqnM, JRS43-LuwkE]

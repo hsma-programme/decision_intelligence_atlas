@@ -194,6 +194,32 @@ def split_talks(video, talk_list):
     return []
 
 
+def video_type(video, config):
+    """
+    Return the type of a video, from its title or its playlist's type.
+
+    Parameters
+    ----------
+    video : dict
+        Video metadata from `fetch_youtube_playlists.py`.
+    config : dict
+        The video's playlist settings from the config file. Its optional
+        `types_by_title` lists patterns and types, e.g. a pattern of
+        "^Showcase" with a type of "Project showcase". The first pattern
+        found in the title gives the type; otherwise the playlist's `type`
+        is used.
+
+    Returns
+    -------
+    str
+        The video's type.
+    """
+    for rule in config.get("types_by_title", []):
+        if re.search(rule["pattern"], video["title"], re.IGNORECASE):
+            return rule["type"]
+    return config["type"]
+
+
 def build_talks(playlists, playlist_config):
     """
     Build one listing item per talk from fetched playlist metadata.
@@ -203,7 +229,7 @@ def build_talks(playlists, playlist_config):
     playlists : list of dict
         Playlists from `fetch_youtube_playlists.py`.
     playlist_config : dict
-        Each playlist's settings from the config file, keyed by playlist ID.
+        Each playlist's settings from the config file, keyed by label.
 
     Returns
     -------
@@ -215,7 +241,7 @@ def build_talks(playlists, playlist_config):
     """
     items = []
     for playlist in playlists:
-        config = playlist_config[playlist["id"]]
+        config = playlist_config[playlist["label"]]
         label_year = re.search(r"\b(19|20)\d{2}\b", playlist["label"])
         event = re.sub(r"\s*\b(19|20)\d{2}\b", "", playlist["label"]).strip()
         for video in playlist["videos"]:
@@ -226,7 +252,7 @@ def build_talks(playlists, playlist_config):
                     else int(label_year.group(0) if label_year else video["published"][:4])
                 ),
                 "event": event,
-                "type": config["type"],
+                "type": video_type(video, config),
                 "image": video["thumbnail"],
                 "date": video["published"][:10],
             }
@@ -298,7 +324,7 @@ def main():
     for name, collection in config.items():
         folder = Path(collection["folder"])
         playlists = json.loads((folder / "videos.json").read_text(encoding="utf-8"))["playlists"]
-        playlist_config = {playlist["id"]: playlist for playlist in collection["playlists"]}
+        playlist_config = {playlist["label"]: playlist for playlist in collection["playlists"]}
         items = build_talks(playlists, playlist_config)
 
         out_file = folder / "talks.yml"
