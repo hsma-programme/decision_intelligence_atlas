@@ -1,0 +1,67 @@
+---
+title: "HSMA: Project Showcase Recordings"
+categories:
+  - Courses and Training or Reference Materials
+  - Recorded Talks
+tool-language: N/A
+status: N/A
+image: showcase.jpg
+author:
+    - name: Health Service Modelling Associates Programme (HSMA)
+pub-info:
+  project-type: <i class="fa-solid fa-user-graduate"></i>
+  rationale-for-status: |
+    Collection of recordings from many different presenters, so it is not ranked as a whole.
+  entry-author:
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
+  abstract: |
+    Recordings of project presentations from the showcases of the Health Service Modelling Associates (HSMA) programme, where participants present the modelling and data science projects they have carried out in their own health, social care and policing organisations. Projects use techniques such as discrete event simulation, machine learning, natural language processing, forecasting and geographic modelling.
+  links:
+  - name: YouTube
+    url: https://www.youtube.com/playlist?list=PLgHO2TgIJXdkhu3IVabE3XSeHji8-X6hh
+    icon: fa-brands fa-youtube
+  - name: Projects
+    url: https://hsma.co.uk/previous_projects/completed_projects.html
+    icon: fa-solid fa-globe
+date: "2026-10-05T00:00:00+01:00"
+listing:
+  - id: showcase-recordings
+    contents: talks.yml
+    type: table
+    fields: [title, event, description]
+    field-display-names:
+      title: "Project"
+      event: "Round"
+      description: "Details"
+    sort: false
+    filter-ui: [title, event, description]
+    sort-ui: [title, event]
+    page-size: 25
+---
+
+[![HSMA 6 Showcase](showcase.jpg)](https://www.youtube.com/playlist?list=PLgHO2TgIJXdkhu3IVabE3XSeHji8-X6hh)
+
+In the second phase of the [Health Service Modelling Associates (HSMA) programme](/books_training/hsma_programme/index.qmd), participants carry out a modelling or data science project for their own health, social care or policing organisation. At the end of each round, they present their projects at a showcase, and the recordings are published on the HSMA YouTube channel.
+
+The projects tackle real-world problems using the techniques taught on the programme, such as:
+
+* discrete event simulation of pathways, from emergency departments and urgent treatment centres to mental health and neurodevelopmental services
+* machine learning and natural language processing, for example predicting admissions or non-attendance and analysing free text
+* forecasting demand, from A&E attendances to excess mortality
+* geographic modelling, for example of travel times and ambulance dispatch boundaries
+
+Some showcases also include talks from HSMA alumni about what they have done since the programme.
+
+More details about many of the projects, including links to their code where it is shared, can be found on the [HSMA website](https://hsma.co.uk/previous_projects/completed_projects.html).
+
+## Search the project presentations
+
+Search for a project by title, presenter, organisation or round. The most recent rounds are listed first. Where a recording covers several projects and its description gives the timings, each project is listed separately and the link starts the video at that project.
+
+::: {#showcase-recordings}
+:::
+
+You can also browse the [HSMA 6](https://www.youtube.com/playlist?list=PLgHO2TgIJXdlwBbDGJqFBoh9qhjnKZVd6), [HSMA 5](https://www.youtube.com/playlist?list=PLgHO2TgIJXdl1MvfkwCGJ6n8_1EYCSzex), [HSMA 4](https://www.youtube.com/playlist?list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN) and [HSMA 3](https://www.youtube.com/playlist?list=PLgHO2TgIJXdnAWY7tGGPQLWYAjn0tgG_A) playlists on YouTube.
+
+To search these recordings alongside talks, webinars and workshops from other communities, use the [Recordings Finder](/recordings/index.qmd).

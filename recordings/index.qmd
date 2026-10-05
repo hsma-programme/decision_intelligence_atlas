@@ -17,16 +17,16 @@ format:
       - /resources/partials/small/title-block.html
 ---
 
-Search hundreds of recorded conference talks, webinars, workshops and network huddles from across the health and care analytics community, all in one place.
+Search hundreds of recorded conference talks, webinars, workshops, network huddles and project showcases from across the health and care analytics community, all in one place.
 
 Where a long recording covers several talks and its YouTube description gives the timings, each talk is listed separately and its link starts the video at that talk. Each recording also links to its Atlas entry, where you can find out more about the community that published it.
 
 ```{ojs}
 // Newest first: by year, then publish date, keeping talks from the same
-// recording in their original order
+// recording in their original order. Recordings without a year come last.
 recordings = (await FileAttachment("recordings.json").json())
   .map((d, i) => ({...d, order: i}))
-  .sort((a, b) => b.year - a.year || b.date.localeCompare(a.date) || a.order - b.order)
+  .sort((a, b) => (b.year ?? 0) - (a.year ?? 0) || b.date.localeCompare(a.date) || a.order - b.order)
 
 entryLinks = new Map(recordings.map(d => [d.collection, d.collection_url]))
 
@@ -59,7 +59,7 @@ viewof type = Inputs.select(options(recordings.map(d => d.type), "All types"), {
 
 ```{ojs}
 viewof year = Inputs.select(
-  ["All years", ...options(recordings.map(d => d.year), "").slice(1).reverse()],
+  ["All years", ...options(recordings.map(d => d.year).filter(d => d != null), "").slice(1).reverse()],
   {label: "Year", width: 240}
 )
 ```
@@ -78,23 +78,24 @@ md`Showing **${filtered.length}** of ${recordings.length} recordings.`
 
 ```{ojs}
 html`<div class="recordings-table">${Inputs.table(filtered, {
-  columns: ["title", "year", "type", "source", "details", "url", "collection"],
+  columns: ["title", "year", "type", "event", "source", "details", "url", "collection"],
   header: {
     title: "Title",
     year: "Year",
     type: "Type",
+    event: "Event",
     source: "Source",
     details: "Details",
     url: "Watch",
     collection: "More"
   },
   format: {
-    year: d => String(d),
+    year: d => d == null ? "" : String(d),
     details: d => shorten(d),
     url: d => html`<a href="${d}" target="_blank" rel="noopener">Watch <i class="bi bi-box-arrow-up-right"></i></a>`,
     collection: d => html`<a href="${entryLinks.get(d)}" title="${d}">Atlas entry</a>`
   },
-  width: {title: 300, year: 60, type: 130, source: 140, details: 360, url: 80, collection: 100},
+  width: {title: 280, year: 60, type: 120, event: 110, source: 120, details: 330, url: 80, collection: 100},
   layout: "fixed",
   rows: 25,
   height: 750,
@@ -111,5 +112,6 @@ The Recordings Finder brings together the recordings listed in these Atlas entri
 * [NHS-OA Community: Workshop Recordings](/books_training/nhs_oa_workshops/index.qmd)
 * [NHS.pycom: Talk Recordings](/books_training/nhs_pycom_talks/index.qmd)
 * [National Analyst Network (formerly Midlands Analyst Network): Huddle Recordings](/books_training/analyst_network_huddles/index.qmd)
+* [HSMA: Project Showcase Recordings](/books_training/hsma_project_showcases/index.qmd)
 
 Know of another collection of recordings that should be included? [Raise an issue on the repository](https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose) to let us know.

@@ -17,6 +17,8 @@
 #       type           - kind of recording, shown in the Recordings Finder
 #       talk_list      - optional; true if session recordings list their talks one per
 #                        line without timestamps (see build_youtube_talks.py)
+#       no_year        - optional; true to leave the year blank, e.g. where videos were
+#                        uploaded long after the event and the label has no year
 #   exclude_playlists  - optional; videos in these playlists are left out
 #   exclude_videos     - optional; these videos are left out
 
@@ -90,3 +92,25 @@ analyst_network_huddles:
       type: Huddle
   # Untitled meeting recording
   exclude_videos: [LF_EgYTgeLY]
+
+hsma_project_showcases:
+  folder: books_training/hsma_project_showcases
+  source: HSMA
+  # Uploaded long after some rounds ran, so publish dates don't give the year
+  playlists:
+    - label: HSMA 6
+      id: PLgHO2TgIJXdlwBbDGJqFBoh9qhjnKZVd6
+      type: Project showcase
+      no_year: true
+    - label: HSMA 5
+      id: PLgHO2TgIJXdl1MvfkwCGJ6n8_1EYCSzex
+      type: Project showcase
+      no_year: true
+    - label: HSMA 4
+      id: PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN
+      type: Project showcase
+      no_year: true
+    - label: HSMA 3
+      id: PLgHO2TgIJXdnAWY7tGGPQLWYAjn0tgG_A
+      type: Project showcase
+      no_year: true

@@ -34,10 +34,10 @@ import yaml
 CONFIG_FILE = Path("resources/recordings/collections.yml")
 FINDER_FILE = Path("recordings/recordings.json")
 
-# A line starting with a timestamp, e.g. "2:04 Title", "1:02:03 - Title" or
-# "(12:30) Title".
+# A line starting with a timestamp, e.g. "2:04 Title", "1:02:03 - Title",
+# "(12:30) Title" or "1. (0:30) Title".
 TIMESTAMP_LINE = re.compile(
-    r"^\s*[\(\[]?(?P<time>(?:\d{1,2}:)?\d{1,2}:\d{2})[\)\]]?\s*[-–—:|,.]*\s*(?P<text>.*\S)\s*$"
+    r"^\s*(?:\d+[.)]\s*)?[\(\[]?(?P<time>(?:\d{1,2}:)?\d{1,2}:\d{2})[\)\]]?\s*[-–—:|,.]*\s*(?P<text>.*\S)\s*$"
 )
 
 # Programme items that aren't talks.
@@ -138,6 +138,23 @@ def clean_description(description):
     return text
 
 
+def strip_urls(text):
+    """
+    Remove URLs, and any separator left before them, from a talk title.
+
+    Parameters
+    ----------
+    text : str
+        Talk title, e.g. "Talk title - Speaker - https://example.com".
+
+    Returns
+    -------
+    str
+        Talk title without URLs.
+    """
+    return re.sub(r"[\s\-–—:|,]*https?://\S+", "", text).strip()
+
+
 def split_talks(video, talk_list):
     """
     Return the talks listed in a recording's description.
@@ -162,7 +179,7 @@ def split_talks(video, talk_list):
         times = [m["time"] for m in timed]
         programme_time = is_programme_time(times)
         return [
-            (m["text"], None if programme_time else start)
+            (strip_urls(m["text"]), None if programme_time else start)
             for m, start in zip(timed, to_start_times(times))
             if not NOT_TALKS.search(m["text"])
         ]
@@ -204,7 +221,10 @@ def build_talks(playlists, playlist_config):
         for video in playlist["videos"]:
             url = f"https://www.youtube.com/watch?v={video['id']}"
             shared = {
-                "year": int(label_year.group(0) if label_year else video["published"][:4]),
+                "year": (
+                    None if config.get("no_year")
+                    else int(label_year.group(0) if label_year else video["published"][:4])
+                ),
                 "event": event,
                 "type": config["type"],
                 "image": video["thumbnail"],
@@ -296,7 +316,7 @@ def main():
                 "date": item["date"],
                 "type": item["type"],
                 "source": collection["source"],
-                "event": item["event"] if item["type"].startswith("Conference") else "",
+                "event": item["event"] if len(collection["playlists"]) > 1 else "",
                 "details": item["description"],
                 "url": item["path"],
                 "collection": collection_title,

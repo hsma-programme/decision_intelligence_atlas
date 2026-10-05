@@ -1,0 +1,428 @@
+{
+  "playlists": [
+    {
+      "label": "HSMA 6",
+      "id": "PLgHO2TgIJXdlwBbDGJqFBoh9qhjnKZVd6",
+      "videos": [
+        {
+          "id": "0Fq3ATwcouo",
+          "title": "HSMA 6 Showcase Introduction - A Look Back at HSMA 6",
+          "description": "In this video, Dr Dan Chalk gives an overview of the sixth round of the HSMA programme. He also gives an insight into the plans for HSMA 7 and beyond. We wrap up by hearing from Professor Stuart Logan about what HSMA means to PenARC. \n\nHSMA website: https://www.hsma.co.uk\nHSMA books: https://www.hsma.co.uk/books\nHSMA modules: https://www.hsma.co.uk/learn\n\n#nhs #datascience #operationalresearch",
+          "published": "2025-07-22T16:09:59Z",
+          "duration": "PT47M10S",
+          "thumbnail": "https://i.ytimg.com/vi/0Fq3ATwcouo/mqdefault.jpg"
+        },
+        {
+          "id": "EmfpThPdXKo",
+          "title": "Simulation Modelling for Tackling Backlogs in Children's Neurodiversity and NHS Talking Therapies",
+          "description": "In this video, Heath McDonald (Senior Business Intelligence Developer, Lancashire & South Cumbria\nNHS Foundation Trust) talks us through his HSMA projects on using simulation modelling to tackle backlogs in children's neurodiversity assessment and NHS Talking Therapies. \n\nThis talk was part of the HSMA 6 Showcase event on Tuesday 24th June. \n\nHSMA Website: https://www.hsma.co.uk\n\n#nhs #datascience #operationalresearch",
+          "published": "2025-07-22T16:10:03Z",
+          "duration": "PT22M11S",
+          "thumbnail": "https://i.ytimg.com/vi/EmfpThPdXKo/mqdefault.jpg"
+        },
+        {
+          "id": "0DUx5hhxjoA",
+          "title": "Simulation Modelling of Non-Elective Flow",
+          "description": "In this talk, we hear from Helena Robinson (Senior Analyst/Data Scientist, Countess of Chester NHS Foundation Trust) about her HSMA project on using discrete event simulation to model non-elective flow. \n\nCode: https://github.com/Countess-of-Chester-Hospital-NHS-FT/Non-Elective-Flow-Simulation\nTool: https://non-elective-flow-simulation-coch.streamlit.app/\nProject Page: https://hsma.co.uk/previous_projects/hsma_6/H6_6001_DES_modelling_non_elective_flow/index\nHSMA Website: https://www.hsma.co.uk\n\n#nhs #datascience #operationalresearch",
+          "published": "2025-07-22T16:10:07Z",
+          "duration": "PT9M56S",
+          "thumbnail": "https://i.ytimg.com/vi/0DUx5hhxjoA/mqdefault.jpg"
+        },
+        {
+          "id": "ZLfEgmVCYJM",
+          "title": "Predicting Surgical Times from Patient Note Data",
+          "description": "In this talk, we hear from Dr Jake Wilson (Urology Specialist Registrar, Great Western Hospitals NHS Foundation Trust) about his project on predicting the operation times for robotic assisted laparoscopy (RALP) in prostate cancer from patient notes, using natural language processing (NLP) and machine learning (ML). \n\nCode: https://github.com/wilsonwilko/App\nTool: https://ralpulator.streamlit.app/\nProject Page: https://hsma.co.uk/previous_projects/hsma_6/H6_6047_RALPulator/index\nHSMA Website: https://www.hsma.co.uk\n\n#nhs #datascience #operationalresearch",
+          "published": "2025-07-22T16:10:10Z",
+          "duration": "PT9M47S",
+          "thumbnail": "https://i.ytimg.com/vi/ZLfEgmVCYJM/mqdefault.jpg"
+        },
+        {
+          "id": "zeYG0EJ83bA",
+          "title": "HSMA 6 Lightning Talks Session 1 - Blood Donation Capacity, GP Phone Calls, HRG Coding and More!",
+          "description": "In this session, we hear about four different projects undertaken by our HSMAs. \n\n1. (0:30) Forecasting blood donation session capacity - Sam Plimmer, NHS Blood and Transplant - https://hsma.co.uk/previous_projects/hsma_6/H6_6034_Forcasting_blood_donation_sesion_capacity/index.html\n\n2. (4:26) Modelling GP phone calls - Sarah Blincko, NHS England - https://hsma.co.uk/previous_projects/hsma_6/H6_6008_Modelling_GP_phone_calls/index.html\n\n3. (7:53) Using classification modelling techniques to investigate changes in HRG coding over time - Chris Todd & Beth Evans, NHS England - https://hsma.co.uk/previous_projects/hsma_6/H6_6012_Using_classification_modelling_to%20investigate_changes_in_%20HRG/index.html\n\n4. (12:07) Predicting gestational diabetes using Machine Learning, assessing travel times to maternity units and simulating inpatient flow - Rochelle Francis-Reid, Epsom and St Helier University Hospitals NHS Trust - https://hsma.co.uk/previous_projects/hsma_6/H6_6023_predicting_gestational_diabetes_using_ML/index.html\n\nHSMA Site: https://www.hsma.co.uk\n\n#nhs #datascience #operationalresearch",
+          "published": "2025-07-22T16:10:13Z",
+          "duration": "PT16M13S",
+          "thumbnail": "https://i.ytimg.com/vi/zeYG0EJ83bA/mqdefault.jpg"
+        },
+        {
+          "id": "Yck3vOioRdQ",
+          "title": "Optimising Same Day Emergency Care (SDEC) Resourcing with Simulation Modelling",
+          "description": "In this talk, we hear from Dr Hannah Thould (Chief Registratr, University Hospitals Bristol and Weston NHS Foundation Trust) about her project on optimising resourcing for same day emergency care using discrete event simulation (DES). Hannah also reflects on her experience of the HSMA programme as a clinician. \n\nProject Page: https://hsma.co.uk/previous_projects/hsma_6/H6_6060_optimising_resourcing/index.html\nHSMA site: https://www.hsma.co.uk\n\n#nhs #datascience #operationalresearch",
+          "published": "2025-07-22T16:10:18Z",
+          "duration": "PT11M2S",
+          "thumbnail": "https://i.ytimg.com/vi/Yck3vOioRdQ/mqdefault.jpg"
+        },
+        {
+          "id": "BONCgiiFfHc",
+          "title": "Using Geographic Modelling to Redraw North West Ambulance Dispatch Boundaries",
+          "description": "In this talk, we hear from Dorota Scott, Dr Kristian Boote and Charlotte Anderson (North West Ambulance Service NHS Foundation Trust) about their project on redrawing the dispatch boundaries of the ambulance in their services using geographic modelling, including the use of Voronoi tessellations. \n\nProject Page: https://hsma.co.uk/previous_projects/hsma_6/H6_6056_Redrawing_NW_Ambulance_dispatch_boundaries/index.html\nHSMA site: https://www.hsma.co.uk\n\n#nhs #datascience #operationalresearch",
+          "published": "2025-07-22T16:10:21Z",
+          "duration": "PT12M7S",
+          "thumbnail": "https://i.ytimg.com/vi/BONCgiiFfHc/mqdefault.jpg"
+        },
+        {
+          "id": "0OKev_kbQEc",
+          "title": "Modelling Eye Injection Pathways with the AMD Protocol Explorer (APE)",
+          "description": "In this talk, we hear from Dr Luke Herbert (Consultant Opthalmic Surgeon, Surrey & Sussex Healthcare Foundation Trust) about his project on simulating opthalmology pathways, allowing the exploration of the impact of different anti-VEGF treatment strategies on patients and costs.\n\nProject Page: https://hsma.co.uk/previous_projects/hsma_6/H6_6007_Modelling_eye_injection_pathways/index.html\nHSMA site: https://www.hsma.co.uk\n\n#nhs #datascience #operationalresearch",
+          "published": "2025-07-22T16:10:26Z",
+          "duration": "PT12M57S",
+          "thumbnail": "https://i.ytimg.com/vi/0OKev_kbQEc/mqdefault.jpg"
+        },
+        {
+          "id": "zKZv3zWcXzc",
+          "title": "Using Natural Language Processing to Improve Ambulance Care Quality Indicator (ACQI) Data",
+          "description": "In this talk, we hear from James Wise and Phil King (South Central Ambulance Service NHS Foundation Trust) about their project on using natural language processing to improve ambulance care quality indicator (ACQI) data. By processing the data that is currently held in free text fields, they are aiming to improve the completion of the ACQI dataset, supporting the clinical audit process.\n\nProject Page: https://hsma.co.uk/previous_projects/hsma_6/H6_6005_Improving_ambulance_care/index.html\nHSMA site: https://www.hsma.co.uk\n\n#nhs #datascience #operationalresearch",
+          "published": "2025-07-22T16:10:33Z",
+          "duration": "PT16M14S",
+          "thumbnail": "https://i.ytimg.com/vi/zKZv3zWcXzc/mqdefault.jpg"
+        },
+        {
+          "id": "U6-_3q_CZtA",
+          "title": "Modelling the Benefit of Making Every Contact Count (MECC) Training using Agent Based Simulation",
+          "description": "In this talk, we hear from Dom Rowney, Sam Vautier and Dr Luke Herbert about their project on using agent-based simulation to model behavioural dynamics and explore the potential impact of MECC training. \n\nProject Page: https://hsma.co.uk/previous_projects/hsma_6/H6_6040_benefit_of_MECC_using_ABS/index.html\nHSMA site: https://www.hsma.co.uk\n\n#nhs #datascience #operationalresearch",
+          "published": "2025-07-22T16:10:40Z",
+          "duration": "PT15M28S",
+          "thumbnail": "https://i.ytimg.com/vi/U6-_3q_CZtA/mqdefault.jpg"
+        },
+        {
+          "id": "uywbayhnass",
+          "title": "Forecasting A&E Attendance to Inform Staff Planning",
+          "description": "In this talk, we hear from Yu Qiao (Clinical Data Scientist, Liverpool University Hospitals NHS Foundation Trust) about his project on forecasting future A&E attendances 6 weeks in advance, accounting for seasonal patterns and allowing better management of the staffing level to ensure the predicted demand can be met.\n\nProject Page: https://hsma.co.uk/previous_projects/hsma_6/H6_6011_Forecasting_modelling_for_A&E_attendance/index.html\nHSMA site: https://www.hsma.co.uk\n\n#nhs #datascience #operationalresearch",
+          "published": "2025-07-22T16:10:50Z",
+          "duration": "PT11M26S",
+          "thumbnail": "https://i.ytimg.com/vi/uywbayhnass/mqdefault.jpg"
+        },
+        {
+          "id": "ThltRNDt9k8",
+          "title": "Modelling Hyperacute/Acute Stroke Pathways - Reducing Costs & Improving Patient Care",
+          "description": "In this talk, we hear from John Williams (Clinical Data Scientist, Maidstone and Tunbridge Wells NHS Trust) about his project on using discrete event simulation to explore the impact of changes to operating hours of the same-day emergency care (SDEC) stroke pathway and the CT perfusion scanner in acute and hyperacute stroke pathways. This model allows the potential cost savings through admission avoidance and length of stay reductions to be explored. \n\nProject Page: https://hsma.co.uk/previous_projects/hsma_6/H6_6055_DES_modelling_Hyperacute_Acute_Stroke_Pathway/index.html\nHSMA site: https://www.hsma.co.uk\n\n#nhs #datascience #operationalresearch",
+          "published": "2025-07-22T16:10:56Z",
+          "duration": "PT23M32S",
+          "thumbnail": "https://i.ytimg.com/vi/ThltRNDt9k8/mqdefault.jpg"
+        },
+        {
+          "id": "SH4geMXr8a8",
+          "title": "HSMA 6 Lightning Talks Session 2 - Bed Occupancy, Complex Patient pathways, Segmentation and More!",
+          "description": "In this session, we hear about four different projects undertaken by our HSMAs. \n\n1. (0:40) Acute Ward Bed Occupancy Simulation - Rey Tan, Royal United Hospitals Bath NHS Foundation Trust - https://hsma.co.uk/previous_projects/hsma_6/H6_6013_Modelling_bed_occupancy_acute_ward/index.html\n\n2. (5:31) Identifying potential concurrent treatment areas and services that would better support patients with multiple, complex referral to treatment (RTT) pathways - Amaia Imaz Blanco, Sean Aller, NHS England Data Science & Applied AI Team - https://hsma.co.uk/previous_projects/hsma_6/H6_6048_Concurrent_treatment_areas_RTT_pathway/index.html\n\n3. (9:45) Segmenting Dorset's Population for Better Health Planning - Rhianna Everett, Dorset Intelligence & Insight Service; James Roberts, Dorset Council - https://hsma.co.uk/previous_projects/hsma_6/H6_6044_Population_segmentation_GP_registered_Dorset/index.html\n\n4. (13:45) Understanding the Drivers of Length of Stay (LoS) - Jake Kealey, North Central London ICB -  https://hsma.co.uk/previous_projects/hsma_6/H6_6010_Understanding_drivers_of_increased_length_of_stay/index.html\n\nHSMA Site: https://www.hsma.co.uk\n\n#nhs #datascience #operationalresearch",
+          "published": "2025-07-22T16:11:02Z",
+          "duration": "PT17M11S",
+          "thumbnail": "https://i.ytimg.com/vi/SH4geMXr8a8/mqdefault.jpg"
+        },
+        {
+          "id": "GlEoH8B3CHE",
+          "title": "Creating a Simulation Model of a Mental Health Hub",
+          "description": "In this talk, we hear from Nathan Hack and Dr Helen Wharam (Hampshire and Isle of Wight Healthcare NHS Foundation Trust) about their project on building a simulation model of a mental health hub in Portsmouth to help with right-sizing the service as routes into the service are expanded.\n\nProject Page: https://hsma.co.uk/previous_projects/hsma_6/H6_6026_Modelling_secondary_care_psychological_therapy_flow/index.html\nHSMA site: https://www.hsma.co.uk\n\n#nhs #datascience #operationalresearch",
+          "published": "2025-07-22T16:11:07Z",
+          "duration": "PT11M",
+          "thumbnail": "https://i.ytimg.com/vi/GlEoH8B3CHE/mqdefault.jpg"
+        },
+        {
+          "id": "WNtIIWA_IYg",
+          "title": "Proactive Patient Attendance Prediction",
+          "description": "In this talk, we hear from Peter Andrews (Information Business Partner, Barts Health NHS Trust) about his project on using machine learning to forecast non-attendance and help reduce the number of unattended appointments, potentially improving patient experience and saving money. \n\nProject Page: https://hsma.co.uk/previous_projects/hsma_6/H6_6046_Proactive_Patient_attendance_prediction/index.html\nHSMA site: https://www.hsma.co.uk\n\n#nhs #datascience #operationalresearch",
+          "published": "2025-07-22T16:11:13Z",
+          "duration": "PT11M27S",
+          "thumbnail": "https://i.ytimg.com/vi/WNtIIWA_IYg/mqdefault.jpg"
+        },
+        {
+          "id": "AUNmuPFnq4c",
+          "title": "Developing a Primary Care Load Management Tool",
+          "description": "In this talk, we hear from Dr Chris Lewis (General Practitioner, The Park Medical Practice) about his project on using modelling and data science techniques to better monitor and plan for the staffing of a GP surgery, helping patients to have their phone calls answered in a timely manner while avoiding over-resourcing. \n\nProject Page: https://hsma.co.uk/previous_projects/hsma_6/H6_6062_primary_care_load_management_tool/index.html\nHSMA site: https://www.hsma.co.uk\n\n#nhs #datascience #operationalresearch",
+          "published": "2025-07-22T16:11:19Z",
+          "duration": "PT11M58S",
+          "thumbnail": "https://i.ytimg.com/vi/AUNmuPFnq4c/mqdefault.jpg"
+        },
+        {
+          "id": "YbmiEilW9I8",
+          "title": "An Alumnus Story - The e-Fit tool for allocating additional GP funding equitably",
+          "description": "In this talk, HSMA 5 Alumnus Peter Saiu talks us through his user-friendly, web-based tool for allocating additional GP funding equitably, helping to save commissioners time and reduce health inequalities. \n\nTool: https://www.heec.co.uk/resources/extra-funding-allocation-inequality-tool-efit/\nProject Page: https://hsma.co.uk/previous_projects/hsma_alumni/H5_5100_Extra_funding_allocation_inequality_tool/index.html\nCode: https://github.com/pete4nhs/eFIT-tool\nHSMA site: https://www.hsma.co.uk\n\n#nhs #datascience #operationalresearch",
+          "published": "2025-07-22T16:11:23Z",
+          "duration": "PT12M50S",
+          "thumbnail": "https://i.ytimg.com/vi/YbmiEilW9I8/mqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "label": "HSMA 5",
+      "id": "PLgHO2TgIJXdl1MvfkwCGJ6n8_1EYCSzex",
+      "videos": [
+        {
+          "id": "7a1bx1NfyBA",
+          "title": "Project 5016: Developing a tool to assess inequalities and demographic coverage of service locations",
+          "description": "Project 5016 : “Developing a tool to assess inequalities and demographic coverage of service locations” Alex Owens, Arden GEM CSU",
+          "published": "2023-12-19T14:02:43Z",
+          "duration": "PT12M20S",
+          "thumbnail": "https://i.ytimg.com/vi/7a1bx1NfyBA/mqdefault.jpg"
+        },
+        {
+          "id": "yYnkdsM5HHo",
+          "title": "Project 5014: Investigating factors impacting NHS workforce retention",
+          "description": "Project 5014 : “Investigating factors impacting NHS workforce retention using public data” Marie Rogers, NHS England and Richard Pilbery, Yorkshire Ambulance Service",
+          "published": "2023-12-19T14:03:10Z",
+          "duration": "PT10M39S",
+          "thumbnail": "https://i.ytimg.com/vi/yYnkdsM5HHo/mqdefault.jpg"
+        },
+        {
+          "id": "NXGYKKPntO8",
+          "title": "Project 5006: Using Machine Learning to estimate inequities in access to hospital procedures",
+          "description": "Project 5006 : “Using Machine Learning to estimate inequities in access to hospital procedures” Benjamin Mouncer, Norfolk County Council",
+          "published": "2023-12-19T14:03:20Z",
+          "duration": "PT7M26S",
+          "thumbnail": "https://i.ytimg.com/vi/NXGYKKPntO8/mqdefault.jpg"
+        },
+        {
+          "id": "_3j0xC_yCKQ",
+          "title": "Project 5003: Using DES to model the bottlenecks in the AMU pathway",
+          "description": "Project 5003 : “Using Discrete Event Simulation to model the bottlenecks in the Acute Medical Unit pathway in two Devon hospitals” Becky Crofts and Kayleigh Haydock, Royal Devon University Healthcare",
+          "published": "2023-12-19T14:03:28Z",
+          "duration": "PT12M1S",
+          "thumbnail": "https://i.ytimg.com/vi/_3j0xC_yCKQ/mqdefault.jpg"
+        },
+        {
+          "id": "7j8_DlMoaSc",
+          "title": "Project 5002: Using NLP to detect drug related content within free text",
+          "description": "Project 5002 : “Using Natural Language Processing to detect drug related content within free text\"",
+          "published": "2023-12-19T14:05:37Z",
+          "duration": "PT9M55S",
+          "thumbnail": "https://i.ytimg.com/vi/7j8_DlMoaSc/mqdefault.jpg"
+        },
+        {
+          "id": "Obzos_OfyEw",
+          "title": "Project 5012: Conversion and expansion of a tool to forecast elective demand",
+          "description": "Project 5012 : “Conversion and expansion of a tool to forecast elective demand” Jane Kirkpatrick, Evelyn Koon and Mathew Ojo, NHS England; Lyndsey Allen and Luke Asante, NECS Consultancy",
+          "published": "2023-12-19T14:07:40Z",
+          "duration": "PT10M14S",
+          "thumbnail": "https://i.ytimg.com/vi/Obzos_OfyEw/mqdefault.jpg"
+        },
+        {
+          "id": "prKoVH2DeyU",
+          "title": "Project 5005: Development of an open source tool to model waiting lists for elective surgery",
+          "description": "Project 5005 : “Development of an open source tool to model waiting lists for elective surgery” Dominic Allen, Leeds Teaching Hospitals Trust",
+          "published": "2023-12-19T14:10:06Z",
+          "duration": "PT7M11S",
+          "thumbnail": "https://i.ytimg.com/vi/prKoVH2DeyU/mqdefault.jpg"
+        },
+        {
+          "id": "Fsn_PTGCERI",
+          "title": "Project 5008: Modelling the location of neonatal critical care units in North West England",
+          "description": "Project 5008 : “Modelling the location of neonatal critical care units in North West England” Duncan Galletly, North West Neonatal Operational Delivery Network",
+          "published": "2023-12-19T14:12:02Z",
+          "duration": "PT11M55S",
+          "thumbnail": "https://i.ytimg.com/vi/Fsn_PTGCERI/mqdefault.jpg"
+        },
+        {
+          "id": "nrUkRha_5F0",
+          "title": "Project 5004: Modelling the effect of complex discharge delays on acute performance",
+          "description": "Project 5004 : “Modelling the effect of complex discharge delays on acute performance” Hannah Perkins, University Hospitals Plymouth",
+          "published": "2023-12-19T14:12:11Z",
+          "duration": "PT11M14S",
+          "thumbnail": "https://i.ytimg.com/vi/nrUkRha_5F0/mqdefault.jpg"
+        },
+        {
+          "id": "tavZS5MmwOA",
+          "title": "Project 5010: Creating a tool to automatically generate health equity audits for CDC",
+          "description": "Project 5010 : “Creating a tool to automatically generate health equity audits for Community Diagnostic Centres” Sarah Houston, UCL Partners and Deborah Newton, Reading Borough Council",
+          "published": "2023-12-19T14:13:10Z",
+          "duration": "PT10M39S",
+          "thumbnail": "https://i.ytimg.com/vi/tavZS5MmwOA/mqdefault.jpg"
+        },
+        {
+          "id": "e4wYE9tphVk",
+          "title": "Project 5013: Forecasting excess mortality in Dorset",
+          "description": "Project 5013 : “Forecasting excess mortality in Dorset” Ellie Jeram, Lee Robertson and Wilson Otitonaiye, Public Health Dorset",
+          "published": "2023-12-19T14:14:05Z",
+          "duration": "PT10M21S",
+          "thumbnail": "https://i.ytimg.com/vi/e4wYE9tphVk/mqdefault.jpg"
+        },
+        {
+          "id": "P6nQle5tgBM",
+          "title": "Project 5015: A Discrete Event Simulation Model to reduce Rheumatology Waiting Times in Dorset",
+          "description": "Project 5015 : “A Discrete Event Simulation Model to reduce Rheumatology Waiting Times in Dorset” Abby Dewhurst, NHS Dorset and Claire Davies, BCP Council",
+          "published": "2023-12-19T14:14:16Z",
+          "duration": "PT8M52S",
+          "thumbnail": "https://i.ytimg.com/vi/P6nQle5tgBM/mqdefault.jpg"
+        },
+        {
+          "id": "pss1Hb0e2z4",
+          "title": "An Alumnus Story : Life Beyond HSMA",
+          "description": "“An Alumnus Story : Life Beyond HSMA” Matt Eves, Derbyshire Community Health Services\n\nIn this talk, Matt Eves (HSMA alumnus) will talk about the work he has undertaken since being part of the HSMA programme in 2022, including work to develop automated tools with web application interfaces that transform analytical capabilities.",
+          "published": "2023-12-19T14:15:48Z",
+          "duration": "PT15M7S",
+          "thumbnail": "https://i.ytimg.com/vi/pss1Hb0e2z4/mqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "label": "HSMA 4",
+      "id": "PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN",
+      "videos": [
+        {
+          "id": "cg5Bp3O02io",
+          "title": "Meeting the demand of 111 for primary care services",
+          "description": "Meeting the demand of 111 for primary care services - Richard Pilbery, Maddie Smith, Jon Green",
+          "published": "2024-02-12T12:54:46Z",
+          "duration": "PT12M9S",
+          "thumbnail": "https://i.ytimg.com/vi/cg5Bp3O02io/mqdefault.jpg"
+        },
+        {
+          "id": "Wmpu4fpu0J4",
+          "title": "Use Of Discrete Event Simulation (DES) to reduce delays in Cancer Diagnosis & Treatment",
+          "description": "Use Of Discrete Event Simulation (DES) to reduce delays in Cancer Diagnosis & Treatment - Angel Masih, James Page, Mahya Kaveh",
+          "published": "2024-02-12T12:56:48Z",
+          "duration": "PT12M11S",
+          "thumbnail": "https://i.ytimg.com/vi/Wmpu4fpu0J4/mqdefault.jpg"
+        },
+        {
+          "id": "_AWTVeNqOwM",
+          "title": "South East Regional Covid 19 Vaccination Demand & Capacity Modelling",
+          "description": "South East Regional Covid 19 Vaccination Demand & Capacity Modelling - Charlene Black, Adonis Sithole, Edward Chick, Mayoor Dhokia",
+          "published": "2024-02-12T12:57:50Z",
+          "duration": "PT10M18S",
+          "thumbnail": "https://i.ytimg.com/vi/_AWTVeNqOwM/mqdefault.jpg"
+        },
+        {
+          "id": "KPmxGzSuN0s",
+          "title": "Discrete Event Simulation of Cognitive Behavioural Therapy Pathway in an IAPT Service",
+          "description": "Discrete Event Simulation of Cognitive Behavioural Therapy Pathway in an IAPT Service - Katie Brown, Hannah Carroll, Andrew Poole, Matthew Chapman",
+          "published": "2024-02-12T15:26:40Z",
+          "duration": "PT49M37S",
+          "thumbnail": "https://i.ytimg.com/vi/KPmxGzSuN0s/mqdefault.jpg"
+        },
+        {
+          "id": "W1cK5vVukXc",
+          "title": "Effect of Booked Appointments on Waiting Times at Urgent Treatment Centres",
+          "description": "Effect of Booked Appointments on Waiting Times at Urgent Treatment Centres - Alice Waterhouse",
+          "published": "2024-02-12T15:25:03Z",
+          "duration": "PT9M23S",
+          "thumbnail": "https://i.ytimg.com/vi/W1cK5vVukXc/mqdefault.jpg"
+        },
+        {
+          "id": "28yXjieiMEM",
+          "title": "Reducing Travel Times to Treatment for Cardiac Patients in the South East of England",
+          "description": "Reducing Travel Times to Treatment for Cardiac Patients in the South East of England - Glenn Ubly, Atonia Drummond, Janine James, Victor Yu",
+          "published": "2024-02-12T15:23:37Z",
+          "duration": "PT11M7S",
+          "thumbnail": "https://i.ytimg.com/vi/28yXjieiMEM/mqdefault.jpg"
+        },
+        {
+          "id": "a7MtCSbTg0I",
+          "title": "Forecasting Demand and Length of Stay in the Emergency Department",
+          "description": "Forecasting Demand and Length of Stay in the Emergency Department - Lisa Sabir",
+          "published": "2024-02-12T15:24:35Z",
+          "duration": "PT10M14S",
+          "thumbnail": "https://i.ytimg.com/vi/a7MtCSbTg0I/mqdefault.jpg"
+        },
+        {
+          "id": "zYWte2obxDs",
+          "title": "Developing a Service Planning Decision Support Tool to Tackle Inequalities & Minimise Carbon Output",
+          "description": "Developing a Service Planning Decision Support Tool to Tackle Inequalities and Minimise Carbon Output - Matt Eves, Anya Gopfert, Sally Brown",
+          "published": "2024-02-12T15:25:24Z",
+          "duration": "PT9M50S",
+          "thumbnail": "https://i.ytimg.com/vi/zYWte2obxDs/mqdefault.jpg"
+        },
+        {
+          "id": "TDTyBcVZDUU",
+          "title": "Using DES to Improve Flow through an Acute Medicine Assessment Pathway",
+          "description": "Using DES to Improve Flow through an Acute Medicine Assessment Pathway - Helen Young, Thomas Knight",
+          "published": "2024-02-12T15:26:16Z",
+          "duration": "PT8M27S",
+          "thumbnail": "https://i.ytimg.com/vi/TDTyBcVZDUU/mqdefault.jpg"
+        },
+        {
+          "id": "K0g2Iaw3blY",
+          "title": "Spatial Modelling of Violent Crime to Support Strategic Analysis",
+          "description": "Spatial Modelling of Violent Crime to Support Strategic Analysis",
+          "published": "2024-02-12T15:27:00Z",
+          "duration": "PT9M11S",
+          "thumbnail": "https://i.ytimg.com/vi/K0g2Iaw3blY/mqdefault.jpg"
+        },
+        {
+          "id": "3JO8_70hHdA",
+          "title": "Discrete Event Simulation to Improve Flow and Performance in the Urgent Treatment Centre",
+          "description": "Discrete Event Simulation to Improve Flow and Performance in the Urgent Treatment Centre - Shilpa Patel",
+          "published": "2024-02-12T15:27:46Z",
+          "duration": "PT8M42S",
+          "thumbnail": "https://i.ytimg.com/vi/3JO8_70hHdA/mqdefault.jpg"
+        },
+        {
+          "id": "TO5sKaW6BGk",
+          "title": "The role of PIFU and ‘Digital Outpatients’ in Supporting the Elective Recovery",
+          "description": "The role of Patient Initiated Follow-up (PIFU) and ‘Digital Outpatients’ in Supporting the Elective Recovery - Martina Fonseca, Xiaochen Ge",
+          "published": "2024-02-12T15:28:54Z",
+          "duration": "PT11M7S",
+          "thumbnail": "https://i.ytimg.com/vi/TO5sKaW6BGk/mqdefault.jpg"
+        },
+        {
+          "id": "IuD0tmKtjV4",
+          "title": "Use of DES to tackle long waits & growing backlog for children needing neuro development assessment",
+          "description": "Use of discrete event simulation to tackle long waits and a growing backlog for children requiring neuro development assessment (Autism and ADHD) - Irma Tanovic",
+          "published": "2024-02-12T15:33:17Z",
+          "duration": "PT18M",
+          "thumbnail": "https://i.ytimg.com/vi/IuD0tmKtjV4/mqdefault.jpg"
+        },
+        {
+          "id": "-0AGbib9Ig0",
+          "title": "Using machine learning to predict hospital admissions & Length of Stay for respiratory conditions",
+          "description": "Using machine learning to predict hospital admissions & Length of Stay for respiratory conditions - Andy McCann",
+          "published": "2024-02-12T15:34:45Z",
+          "duration": "PT11M17S",
+          "thumbnail": "https://i.ytimg.com/vi/-0AGbib9Ig0/mqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "label": "HSMA 3",
+      "id": "PLgHO2TgIJXdnAWY7tGGPQLWYAjn0tgG_A",
+      "videos": [
+        {
+          "id": "eOqujR64JkQ",
+          "title": "Simulation modelling to test proposed models of pediatric critical care in South West England",
+          "description": "Simulation modelling to test proposed models of pediatric critical care in South West England - Adam Scull",
+          "published": "2024-02-12T15:37:02Z",
+          "duration": "PT13M42S",
+          "thumbnail": "https://i.ytimg.com/vi/eOqujR64JkQ/mqdefault.jpg"
+        },
+        {
+          "id": "xlHuSYo4XAg",
+          "title": "Exploring the use of Machine Learning and NLP to predict admissions based on GP notes",
+          "description": "Exploring the use of Machine Learning and Natural Language Processing to teach a machine to predict whether a patient is likely to be imminently admitted to hospital based on GP data and clues in GP notes - Adam Kwiatkowski, Mona Nasser, Imca Hensels-Pelling",
+          "published": "2024-02-12T15:33:54Z",
+          "duration": "PT12M35S",
+          "thumbnail": "https://i.ytimg.com/vi/xlHuSYo4XAg/mqdefault.jpg"
+        },
+        {
+          "id": "Ve5LuePWrQ4",
+          "title": "Developing a generic vaccination service model for the COVID-19 pandemic and beyond",
+          "description": "Developing a generic vaccination service model for the COVID-19 pandemic and beyond - Adam Kwiatkowski",
+          "published": "2024-02-12T15:36:34Z",
+          "duration": "PT20M27S",
+          "thumbnail": "https://i.ytimg.com/vi/Ve5LuePWrQ4/mqdefault.jpg"
+        },
+        {
+          "id": "VLituG9Sbc0",
+          "title": "Modelling strategies to reduce the elective backlog in hip surgery",
+          "description": "Modelling strategies to reduce the elective backlog in hip surgery - Claire Rudler, Matt Smith, Imca Hensels-Pelling, Zoe Ficken",
+          "published": "2024-02-12T15:36:26Z",
+          "duration": "PT11M23S",
+          "thumbnail": "https://i.ytimg.com/vi/VLituG9Sbc0/mqdefault.jpg"
+        },
+        {
+          "id": "oSPxFaeDa5Q",
+          "title": "Generating a richer understanding of relationships in crime data to safeguard individuals & families",
+          "description": "Generating a richer understanding of relationships in crime data in order to identify opportunities to safeguard individuals and families",
+          "published": "2024-02-12T15:37:20Z",
+          "duration": "PT10M56S",
+          "thumbnail": "https://i.ytimg.com/vi/oSPxFaeDa5Q/mqdefault.jpg"
+        },
+        {
+          "id": "Vj2a-Q_RwKo",
+          "title": "An AI tool to determine the sentiment of tweets to police forces across the UK",
+          "description": "What are they saying about us? An AI tool to determine the sentiment of tweets to police forces across the country, and what people are talking about",
+          "published": "2024-02-12T15:38:28Z",
+          "duration": "PT14M51S",
+          "thumbnail": "https://i.ytimg.com/vi/Vj2a-Q_RwKo/mqdefault.jpg"
+        }
+      ]
+    }
+  ]
+}
