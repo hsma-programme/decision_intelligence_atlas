@@ -415,3 +415,15 @@ haca:
       type: Conference talk
   # Not included: promotional videos, short interviews with the 2024 audience,
   # and a few videos uploaded twice, outside the conference playlists
+
+swaih:
+  folder: books_training/swaih
+  source: SWAIH
+  playlists:
+    # The channel has no playlists, so use its uploads
+    - label: Insight Talks
+      id: UUwrEtxXNk_jPL27PlGThjWw
+      type: Webinar
+      types_by_title:
+        - pattern: workshop
+          type: Workshop

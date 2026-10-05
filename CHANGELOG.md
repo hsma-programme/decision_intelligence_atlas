@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-* New pages for: `ConcurrentSim`, Julia for Healthcare, Visualizing Health and Healthcare Data (the first paid book), NHS-OA webinar and talk (including NHS.pycom), workshop and conference recordings, National Analyst Network Huddle recordings, HSMA project showcase recordings, HSMA lecture and masterclass recordings, HACA (Health and Care Analytics Conference), Midlands Decision Support Network training recordings, the NHS-R Podcast, Insight 2020 and 2021 festival recordings, AphA webinar and conference recordings, Strategy Unit webinar recordings. Added HSMA 3 lectures and a standalone DES workshop to the HSMA lecture recordings, and training recordings to the New Hospital Programme Demand Model entry.
+* New pages for: `ConcurrentSim`, Julia for Healthcare, Visualizing Health and Healthcare Data (the first paid book), NHS-OA webinar and talk (including NHS.pycom), workshop and conference recordings, National Analyst Network Huddle recordings, HSMA project showcase recordings, HSMA lecture and masterclass recordings, HACA (Health and Care Analytics Conference), Midlands Decision Support Network training recordings, the NHS-R Podcast, Insight 2020 and 2021 festival recordings, AphA webinar and conference recordings, Strategy Unit webinar recordings, SWAIH (South West Analytics and Infrastructure in Healthcare). Added HSMA 3 lectures and a standalone DES workshop to the HSMA lecture recordings, and training recordings to the New Hospital Programme Demand Model entry.
 
 ### Changed
 

@@ -258,5 +258,6 @@ The Recordings Finder brings together the recordings listed in these Atlas entri
 * [HSMA: Project Showcase Recordings](/books_training/hsma_project_showcases/index.qmd)
 * [HSMA: Lecture and Masterclass Recordings](/books_training/hsma_lecture_recordings/index.qmd)
 * [HACA - Health and Care Analytics Conference](/books_training/haca/index.qmd)
+* [SWAIH - South West Analytics and Infrastructure in Healthcare](/books_training/swaih/index.qmd)
 
 Know of another collection of recordings that should be included? [Raise an issue on the repository](https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose) to let us know.
