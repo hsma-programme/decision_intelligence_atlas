@@ -81,3 +81,5 @@ Each conference has its own playlist:
 To find recordings from newer conferences, see the [NHS-OA Community's YouTube playlists](https://www.youtube.com/@NHSOA_Community/playlists).
 
 The NHS-OA Community also publishes recordings of [webinars](/books_training/nhs_oa_webinars/index.qmd) and [workshops](/books_training/nhs_oa_workshops/index.qmd), and other [NHS.pycom talks](/books_training/nhs_pycom_talks/index.qmd) are also available.
+
+To search these recordings alongside talks, webinars and workshops from other communities, use the [Recordings Finder](/recordings/index.qmd).

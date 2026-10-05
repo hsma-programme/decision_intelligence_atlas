@@ -130,6 +130,28 @@ Templates for these types of contributions have not yet been set up - please che
 
 Alternatively, if you're up for the challenge of creating a template, please do feel free to raise an issue to discuss or create a pull request with your proposal.
 
+### Adding or updating YouTube recordings
+
+The searchable tables of recordings on some Books, Training and Communities entries, and the [Recordings Finder](https://atlas.hsma.co.uk/recordings/), are built from YouTube playlists listed in `resources/recordings/collections.yml`.
+
+To add a playlist, add it to an existing collection in that file, or add a new collection pointing to the folder of its Atlas entry (see the comments at the top of the file). Then:
+
+1. Fetch the playlists' video details with the YouTube Data API. This needs an API key, set as the `YOUTUBE_API_KEY` environment variable or in a `.env` file in the project root (which is ignored by git):
+
+    ```
+    python resources/scripts/fetch_youtube_playlists.py [collection ...]
+    ```
+
+    This writes a `videos.json` file to each collection's folder. Leave out the collection names to fetch all of them.
+
+2. Build the tables of talks. This doesn't need an API key:
+
+    ```
+    python resources/scripts/build_youtube_talks.py
+    ```
+
+    This writes a `talks.yml` file to each collection's folder, used as the contents of a listing on its entry, and `recordings/recordings.json` for the Recordings Finder. Long recordings are split into one row per talk where their descriptions list the talks.
+
 ### Making other suggestions
 
 If you have any other suggestions about the website layout, content, or anything else, please [raise an issue]() on the repository.

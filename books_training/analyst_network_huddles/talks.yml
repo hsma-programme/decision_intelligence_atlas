@@ -3,6 +3,7 @@
   path: https://www.youtube.com/watch?v=aRDHAP-vGpQ
   year: 2022
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/aRDHAP-vGpQ/mqdefault.jpg
   date: '2022-03-10'
 - title: 'Midlands Analyst Huddle: Intro to Machine Learning & how it can be applied to healthcare - 27/01/022'
@@ -10,6 +11,7 @@
   path: https://www.youtube.com/watch?v=YTyZAv_Cmy0
   year: 2022
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/YTyZAv_Cmy0/mqdefault.jpg
   date: '2022-03-10'
 - title: 'Midland Analyst Huddle: Health Inequalities in the Midlands - 10/02/2022'
@@ -17,6 +19,7 @@
   path: https://www.youtube.com/watch?v=Wo2Vzu_VKps
   year: 2022
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/Wo2Vzu_VKps/mqdefault.jpg
   date: '2022-03-08'
 - title: 'Midlands Analyst Huddle: A Data Visualisation Taster, Dan Isaacs - 13/01/2022'
@@ -24,6 +27,7 @@
   path: https://www.youtube.com/watch?v=uuc-FbqObFg
   year: 2022
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/uuc-FbqObFg/mqdefault.jpg
   date: '2022-03-09'
 - title: 'MAN Huddle: Economic evaluation sharing session: demonstrating value locally -10/03/2022'
@@ -31,6 +35,7 @@
   path: https://www.youtube.com/watch?v=xZ2Kiw5psV4
   year: 2022
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/xZ2Kiw5psV4/mqdefault.jpg
   date: '2022-03-11'
 - title: 'MAN Huddle: Federated analytics of linked health data in the UK  - Networked Data Lab - 24/03/2022'
@@ -38,6 +43,7 @@
   path: https://www.youtube.com/watch?v=vcDaeROU_8c
   year: 2022
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/vcDaeROU_8c/mqdefault.jpg
   date: '2022-03-25'
 - title: 'MAN Huddle: New guidance for cross-system intelligence functions - 07/04/22'
@@ -45,6 +51,7 @@
   path: https://www.youtube.com/watch?v=raWufYUqw9U
   year: 2022
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/raWufYUqw9U/mqdefault.jpg
   date: '2022-04-07'
 - title: 'MAN Huddle: ‘Impactibility’ from techno buzzword to action! - 21/04/22'
@@ -52,6 +59,7 @@
   path: https://www.youtube.com/watch?v=0bp8ZJeM57M
   year: 2022
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/0bp8ZJeM57M/mqdefault.jpg
   date: '2022-04-22'
 - title: 'MAN Huddle: ‘Strategies to reduce inequalities in access to planned hospital procedures'' - 05/05/22'
@@ -59,6 +67,7 @@
   path: https://www.youtube.com/watch?v=SFddk6jx5-g
   year: 2022
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/SFddk6jx5-g/mqdefault.jpg
   date: '2022-05-05'
 - title: 'MAN Huddle: Does the Goldacre Review make health research & analysis Better Broader Safer? -19/05/22'
@@ -66,6 +75,7 @@
   path: https://www.youtube.com/watch?v=7do7rAlhtGk
   year: 2022
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/7do7rAlhtGk/mqdefault.jpg
   date: '2022-05-20'
 - title: 'MAN Huddle: A Changing Population – Why Workforce Planning Matters, 16/06/22'
@@ -73,6 +83,7 @@
   path: https://www.youtube.com/watch?v=Q2NPhvtoMDs
   year: 2022
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/Q2NPhvtoMDs/mqdefault.jpg
   date: '2022-07-01'
 - title: 'MAN Huddle: Using System Dynamics simulation to support capacity planning - 30/06/22'
@@ -80,6 +91,7 @@
   path: https://www.youtube.com/watch?v=SKf-tGp23Kg
   year: 2022
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/SKf-tGp23Kg/mqdefault.jpg
   date: '2022-07-01'
 - title: 'MAN Huddle: Using system dynamics to gain insight into domiciliary care - 14/07/22'
@@ -87,6 +99,7 @@
   path: https://www.youtube.com/watch?v=pahDDL3NyIQ
   year: 2022
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/pahDDL3NyIQ/mqdefault.jpg
   date: '2022-07-15'
 - title: A very brief introduction to Decision Quality (DQ)
@@ -94,6 +107,7 @@
   path: https://www.youtube.com/watch?v=JblzWnWlrgQ
   year: 2022
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/JblzWnWlrgQ/mqdefault.jpg
   date: '2022-07-14'
 - title: 'MAN Huddle: Associations between some household context factors & emergency hospital use - 28/07/22'
@@ -101,6 +115,7 @@
   path: https://www.youtube.com/watch?v=iWpwpoVzPzY
   year: 2022
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/iWpwpoVzPzY/mqdefault.jpg
   date: '2022-08-08'
 - title: 'MAN Huddle: NHS Nottingham and Nottinghamshire System Analytical Intelligence Portal - 11/08/22'
@@ -108,6 +123,7 @@
   path: https://www.youtube.com/watch?v=RCNj98XPSFk
   year: 2022
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/RCNj98XPSFk/mqdefault.jpg
   date: '2022-08-12'
 - title: 'MAN Huddle: Population Health Management and Health Economics training programmes - 25/08/22'
@@ -115,6 +131,7 @@
   path: https://www.youtube.com/watch?v=Qn4qYrD3kUA
   year: 2022
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/Qn4qYrD3kUA/mqdefault.jpg
   date: '2022-09-04'
 - title: 'MAN Huddle: Introducing Data Hazards -  07/09/22'
@@ -122,6 +139,7 @@
   path: https://www.youtube.com/watch?v=tc9oWhjWtPg
   year: 2022
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/tc9oWhjWtPg/mqdefault.jpg
   date: '2022-09-09'
 - title: 'MAN Huddle: Understanding the ageing patterns of the population in NW London - 22/09/22'
@@ -129,6 +147,7 @@
   path: https://www.youtube.com/watch?v=8ODPYjT_iI4
   year: 2022
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/8ODPYjT_iI4/mqdefault.jpg
   date: '2022-09-23'
 - title: 'MAN Huddle: National Data Science conference, NHS-R conference and more! - 06/10/22'
@@ -136,6 +155,7 @@
   path: https://www.youtube.com/watch?v=MHFl1tOnrs8
   year: 2022
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/MHFl1tOnrs8/mqdefault.jpg
   date: '2022-10-06'
 - title: 'MAN Huddle: Health implications of reduced access to care during the COVID 19 - 20/10/22'
@@ -143,6 +163,7 @@
   path: https://www.youtube.com/watch?v=GSBrqyr4bqY
   year: 2022
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/GSBrqyr4bqY/mqdefault.jpg
   date: '2022-10-26'
 - title: 'MAN Huddle: Health Profile Reports for the East and West Midlands - 03/11/22'
@@ -150,6 +171,7 @@
   path: https://www.youtube.com/watch?v=aoLEGaWIpq0
   year: 2022
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/aoLEGaWIpq0/mqdefault.jpg
   date: '2022-11-04'
 - title: 'MAN Huddle: INSIGHT 2022 The new Health Index - Midlands Focus - 01/12/22'
@@ -157,6 +179,7 @@
   path: https://www.youtube.com/watch?v=zsbFGGHpveU
   year: 2022
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/zsbFGGHpveU/mqdefault.jpg
   date: '2022-12-04'
 - title: 'MAN Huddle: Population Health Management Training Course - 15/12/22'
@@ -164,6 +187,7 @@
   path: https://www.youtube.com/watch?v=A00mrE9pnV4
   year: 2022
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/A00mrE9pnV4/mqdefault.jpg
   date: '2022-12-30'
 - title: 'MAN Huddle: Exploring socioeconomic inequalities in coronary heart disease - 12/01/22'
@@ -171,6 +195,7 @@
   path: https://www.youtube.com/watch?v=kB-FVmpY08A
   year: 2023
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/kB-FVmpY08A/mqdefault.jpg
   date: '2023-01-13'
 - title: 'MAN Huddle: Making data visualisations more accessible to all users - 26/01/23'
@@ -178,6 +203,7 @@
   path: https://www.youtube.com/watch?v=ZUdi4U4zNrg
   year: 2023
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/ZUdi4U4zNrg/mqdefault.jpg
   date: '2023-01-27'
 - title: 'MAN Huddle: Positive Public Health from Warwickshire County Council -  09/02/23'
@@ -185,6 +211,7 @@
   path: https://www.youtube.com/watch?v=D7NRqFwoVmA
   year: 2023
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/D7NRqFwoVmA/mqdefault.jpg
   date: '2023-02-10'
 - title: 'MAN Huddle: How is the rapid growth in diagnostic testing affecting the hospital system? - 23/02/23'
@@ -192,6 +219,7 @@
   path: https://www.youtube.com/watch?v=KPamG3M2Los
   year: 2023
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/KPamG3M2Los/mqdefault.jpg
   date: '2023-02-28'
 - title: 'MAN Huddle: RAP - what is it and how can my team start using it effectively? - 09/03/23'
@@ -199,6 +227,7 @@
   path: https://www.youtube.com/watch?v=o7uZBYeBchY
   year: 2023
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/o7uZBYeBchY/mqdefault.jpg
   date: '2023-03-14'
 - title: 'MAN Huddle: Using Git and GitHub - 23/03/23'
@@ -206,6 +235,7 @@
   path: https://www.youtube.com/watch?v=v9Sa92hnmFo
   year: 2023
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/v9Sa92hnmFo/mqdefault.jpg
   date: '2023-03-24'
 - title: 'MAN Huddle: Projects from the Midlands System Dynamics Applied Learning Programme (Part 1)  06/04/23'
@@ -213,6 +243,7 @@
   path: https://www.youtube.com/watch?v=2g0rPd4a13o
   year: 2023
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/2g0rPd4a13o/mqdefault.jpg
   date: '2023-04-11'
 - title: 'MAN Huddle: Projects from the Midlands System Dynamics Applied Learning Programme (Part 2) 20/04/23'
@@ -220,6 +251,7 @@
   path: https://www.youtube.com/watch?v=FCKXrxupCnA
   year: 2023
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/FCKXrxupCnA/mqdefault.jpg
   date: '2023-04-21'
 - title: 'MAN Huddle: Weapons of Maths Destruction - 04/05/23'
@@ -227,6 +259,7 @@
   path: https://www.youtube.com/watch?v=bhO64ERizxU
   year: 2023
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/bhO64ERizxU/mqdefault.jpg
   date: '2023-05-05'
 - title: 'MAN Huddle: Using multi-criteria decision analysis (MCDA) in health technology assessments -18/05/23'
@@ -234,6 +267,7 @@
   path: https://www.youtube.com/watch?v=X5A4buRHVaY
   year: 2023
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/X5A4buRHVaY/mqdefault.jpg
   date: '2023-05-19'
 - title: 'MAN Huddle: NHS hip replacements and the inverse care law - 01/06/23'
@@ -241,6 +275,7 @@
   path: https://www.youtube.com/watch?v=MNplCUPF_m0
   year: 2023
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/MNplCUPF_m0/mqdefault.jpg
   date: '2023-06-07'
 - title: 'MAN Huddle: Data Visualisation – How to Effectively Communicate with your Data (15/06/23)'
@@ -248,6 +283,7 @@
   path: https://www.youtube.com/watch?v=4_2LRR_rJlg
   year: 2023
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/4_2LRR_rJlg/mqdefault.jpg
   date: '2023-06-16'
 - title: 'MAN Huddle: NHS ICB resource allocation models and the ICB Place Based Allocation Tool -  29/06/23'
@@ -255,6 +291,7 @@
   path: https://www.youtube.com/watch?v=S5aTRb5_ZVk
   year: 2023
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/S5aTRb5_ZVk/mqdefault.jpg
   date: '2023-06-29'
 - title: 'MAN Huddle: HACA 2023 - A roundup from the first Health & Care Analytics Conference! - 13/07/23'
@@ -262,6 +299,7 @@
   path: https://www.youtube.com/watch?v=XyOx1jpXs3c
   year: 2023
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/XyOx1jpXs3c/mqdefault.jpg
   date: '2023-07-17'
 - title: 'MAN Huddle: Musculoskeletal patients experience of the OA hip pathway - A qualitative study 27/07/23'
@@ -269,6 +307,7 @@
   path: https://www.youtube.com/watch?v=5BQSkuGphZc
   year: 2023
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/5BQSkuGphZc/mqdefault.jpg
   date: '2023-07-27'
 - title: 'MAN Huddle: The NHS England eProduct Workforce Portal - 10/08/23'
@@ -276,6 +315,7 @@
   path: https://www.youtube.com/watch?v=bM6J9d2SuOs
   year: 2023
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/bM6J9d2SuOs/mqdefault.jpg
   date: '2023-08-15'
 - title: 'MAN Huddle: Ideas on presenting analytical work - 24/08/23'
@@ -283,6 +323,7 @@
   path: https://www.youtube.com/watch?v=oWqSL0m3C8I
   year: 2023
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/oWqSL0m3C8I/mqdefault.jpg
   date: '2023-08-30'
 - title: 'MAN Huddle: The National Competency Framework for Data Professionals - 07/09/23'
@@ -290,6 +331,7 @@
   path: https://www.youtube.com/watch?v=YvRxI89YU9g
   year: 2023
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/YvRxI89YU9g/mqdefault.jpg
   date: '2023-09-08'
 - title: 'MAN Huddle: Let’s talk about analysis and creativity - 21/09/23'
@@ -297,6 +339,7 @@
   path: https://www.youtube.com/watch?v=PMLZ3lUzXuk
   year: 2023
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/PMLZ3lUzXuk/mqdefault.jpg
   date: '2023-09-21'
 - title: 'MAN Huddle: Update on the Nottingham ICB – System Analytical Intelligence Unit portal   - 05/10/23'
@@ -304,6 +347,7 @@
   path: https://www.youtube.com/watch?v=3XatCnuOPrE
   year: 2023
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/3XatCnuOPrE/mqdefault.jpg
   date: '2023-10-05'
 - title: 'MAN Huddle:  Waiting list equity analysis within a provider context - progress so far 19/10/23'
@@ -311,6 +355,7 @@
   path: https://www.youtube.com/watch?v=IwGZHbMIxE8
   year: 2023
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/IwGZHbMIxE8/mqdefault.jpg
   date: '2023-10-20'
 - title: 'MAN Huddle: Understanding Waiting List Pressures (using queuing theory) with Neil Walton - 02/11/23'
@@ -318,6 +363,7 @@
   path: https://www.youtube.com/watch?v=NWthhW5Fgls
   year: 2023
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/NWthhW5Fgls/mqdefault.jpg
   date: '2023-11-03'
 - title: 'MAN Huddle: Reducing inequalities in elective care - 16/11/23'
@@ -325,6 +371,7 @@
   path: https://www.youtube.com/watch?v=J3Knr-PIsYA
   year: 2023
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/J3Knr-PIsYA/mqdefault.jpg
   date: '2023-11-17'
 - title: 'MAN Huddle: Find the Future in You – The Health Service Modelling Associates Programme - 30/11/23'
@@ -332,6 +379,7 @@
   path: https://www.youtube.com/watch?v=Up0WWHMC8sk
   year: 2023
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/Up0WWHMC8sk/mqdefault.jpg
   date: '2023-12-01'
 - title: 'MAN Huddle: Introduction to Adult Social Care Client Level Data (CLD) - 14/12/23'
@@ -339,6 +387,7 @@
   path: https://www.youtube.com/watch?v=t4MzKhP-NCE
   year: 2023
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/t4MzKhP-NCE/mqdefault.jpg
   date: '2023-12-14'
 - title: 'MAN Huddle: Long term trends in GP practice consultation rates  - 11/01/2024'
@@ -346,6 +395,7 @@
   path: https://www.youtube.com/watch?v=b3JONu61G5s
   year: 2024
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/b3JONu61G5s/mqdefault.jpg
   date: '2024-01-16'
 - title: 'MAN Huddle: What’s driving increasing length of stay in hospitals since 2019?  - 25/01/24'
@@ -353,6 +403,7 @@
   path: https://www.youtube.com/watch?v=U68GHI8iK8E
   year: 2024
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/U68GHI8iK8E/mqdefault.jpg
   date: '2024-01-25'
 - title: 'MDSN MAN Huddle: The gap between need and supply of GP practice consultations - 08/02/24'
@@ -360,6 +411,7 @@
   path: https://www.youtube.com/watch?v=AEiAHVFp5n8
   year: 2024
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/AEiAHVFp5n8/mqdefault.jpg
   date: '2024-02-09'
 - title: 'MAN Huddle: How COVID activity and system responses impacted Urgent Care - 22/02/24'
@@ -367,6 +419,7 @@
   path: https://www.youtube.com/watch?v=njw5Wb-MQXU
   year: 2024
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/njw5Wb-MQXU/mqdefault.jpg
   date: '2024-02-23'
 - title: 'MAN Huddle: Using the Community Services Dataset to investigate variation in access - 07/03/24'
@@ -374,6 +427,7 @@
   path: https://www.youtube.com/watch?v=xSYCx_41akc
   year: 2024
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/xSYCx_41akc/mqdefault.jpg
   date: '2024-03-08'
 - title: 'MAN Huddle: 21/03/24 The 85% bed occupancy fallacy'
@@ -381,6 +435,7 @@
   path: https://www.youtube.com/watch?v=PnRH1c9GVMw
   year: 2024
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/PnRH1c9GVMw/mqdefault.jpg
   date: '2024-03-22'
 - title: 'MAN Huddle: How to automatically backup SQL Server Reporting Services (SSRS) reports -  04/04/24'
@@ -388,6 +443,7 @@
   path: https://www.youtube.com/watch?v=m0kZaddZJco
   year: 2024
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/m0kZaddZJco/mqdefault.jpg
   date: '2024-04-05'
 - title: 'MAN Huddle: The National Competency Framework – an update -18/04/24'
@@ -395,6 +451,7 @@
   path: https://www.youtube.com/watch?v=PLsiQOeNUGo
   year: 2024
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/PLsiQOeNUGo/mqdefault.jpg
   date: '2024-04-19'
 - title: 'MAN Huddle: Kent JSNA Cohort Model - 02/05/24'
@@ -402,6 +459,7 @@
   path: https://www.youtube.com/watch?v=1ZHUKbEgRJs
   year: 2024
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/1ZHUKbEgRJs/mqdefault.jpg
   date: '2024-05-10'
 - title: MAN Huddle Assessing impact of specialist workforce - children & young people with epilepsy 16/05/24
@@ -409,6 +467,7 @@
   path: https://www.youtube.com/watch?v=kxdYQkdOCe4
   year: 2024
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/kxdYQkdOCe4/mqdefault.jpg
   date: '2024-05-17'
 - title: 'MAN Huddle: Forecasting in Retail and Healthcare – addressing common themes - 30/05/24'
@@ -416,6 +475,7 @@
   path: https://www.youtube.com/watch?v=EPnIka8b8Es
   year: 2024
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/EPnIka8b8Es/mqdefault.jpg
   date: '2024-05-31'
 - title: 'MAN Huddle: How much healthcare will our population need in 5, 10, 20 years’ time? - 13/06/24'
@@ -423,6 +483,7 @@
   path: https://www.youtube.com/watch?v=hU8kVOPeB3k
   year: 2024
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/hU8kVOPeB3k/mqdefault.jpg
   date: '2024-06-14'
 - title: 'MAN Huddle: Describing general practice staffing mix using latent profile analysis - 27/06/24'
@@ -430,6 +491,7 @@
   path: https://www.youtube.com/watch?v=4O-8YLYq7Lw
   year: 2024
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/4O-8YLYq7Lw/mqdefault.jpg
   date: '2024-06-28'
 - title: 'MAN Huddle: Impacts of poor questions from decision makers, how do we improve this? 11/07/24'
@@ -437,6 +499,7 @@
   path: https://www.youtube.com/watch?v=dG0h-GGG3r8
   year: 2024
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/dG0h-GGG3r8/mqdefault.jpg
   date: '2024-07-12'
 - title: 'MAN Huddle: 08/08/24 Health inequalities in 2040: Current and future patterns in England'
@@ -444,6 +507,7 @@
   path: https://www.youtube.com/watch?v=J52Yw7MMx9g
   year: 2024
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/J52Yw7MMx9g/mqdefault.jpg
   date: '2024-08-08'
 - title: 'MAN Huddle: The Empowering Futures, Growing Up Well in Warwickshire, JSNA - 22/08/24'
@@ -451,6 +515,7 @@
   path: https://www.youtube.com/watch?v=3Qq2ig358wk
   year: 2024
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/3Qq2ig358wk/mqdefault.jpg
   date: '2024-08-22'
 - title: 'MAN: Health equity and the humaniverse - 05/09/24'
@@ -458,6 +523,7 @@
   path: https://www.youtube.com/watch?v=gfZZrHvYEjE
   year: 2024
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/gfZZrHvYEjE/mqdefault.jpg
   date: '2024-09-06'
 - title: 'MAN Huddle: The National Competency Framework - one year on - 03/10/24'
@@ -465,6 +531,7 @@
   path: https://www.youtube.com/watch?v=MGp-w890MDY
   year: 2024
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/MGp-w890MDY/mqdefault.jpg
   date: '2024-10-04'
 - title: 'MAN Huddle: Modelling Long-Term Changes in Population Health State - 17/10/24'
@@ -472,6 +539,7 @@
   path: https://www.youtube.com/watch?v=vCfg5U-gG18
   year: 2024
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/vCfg5U-gG18/mqdefault.jpg
   date: '2024-10-17'
 - title: 'MAN Huddle: NHSquicker: Shaping Demand for Urgent Care Using Real-Time Data  - 31/10/24'
@@ -479,6 +547,7 @@
   path: https://www.youtube.com/watch?v=GoHb3tE4xZQ
   year: 2024
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/GoHb3tE4xZQ/mqdefault.jpg
   date: '2024-11-05'
 - title: 'MAN Huddle: Ordinance Survey (OS) Data supporting local health - 14/11/2024'
@@ -486,6 +555,7 @@
   path: https://www.youtube.com/watch?v=s9J1EcGjaGI
   year: 2024
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/s9J1EcGjaGI/mqdefault.jpg
   date: '2024-11-15'
 - title: 'MAN Huddle: HDR UK Midlands – Building a regional data science network 28/11/24'
@@ -493,6 +563,7 @@
   path: https://www.youtube.com/watch?v=HB-E2WhOy8M
   year: 2024
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/HB-E2WhOy8M/mqdefault.jpg
   date: '2024-11-29'
 - title: 'MAN Huddle: COMPLEX-IT: Enabling Non-Experts to Leverage Advanced Computational Modelling - 12/12/24'
@@ -500,6 +571,7 @@
   path: https://www.youtube.com/watch?v=JKHE61cPGbI
   year: 2024
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/JKHE61cPGbI/mqdefault.jpg
   date: '2024-12-13'
 - title: 'MAN Huddle: Process Mining in Healthcare – Opportunities and Challenges  23/01/2025'
@@ -507,6 +579,7 @@
   path: https://www.youtube.com/watch?v=1mAqQ0t1zdg
   year: 2025
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/1mAqQ0t1zdg/mqdefault.jpg
   date: '2025-01-24'
 - title: 'MAN Huddle: Making Data Count: What is it and why should I know about it? - 06/02/2025'
@@ -514,6 +587,7 @@
   path: https://www.youtube.com/watch?v=Elrl6OSfnBs
   year: 2025
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/Elrl6OSfnBs/mqdefault.jpg
   date: '2025-02-07'
 - title: 'MAN: Public expenditure in the last year of life Nuffield Trust & Health Economics Unit - 20/02/2025'
@@ -521,6 +595,7 @@
   path: https://www.youtube.com/watch?v=8pGuuHt_Do0
   year: 2025
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/8pGuuHt_Do0/mqdefault.jpg
   date: '2025-02-20'
 - title: 'MAN Huddle: 20/03/25 Updates from the Warwickshire Joint Strategic Needs Assessment (JSNA)'
@@ -528,6 +603,7 @@
   path: https://www.youtube.com/watch?v=_SBpQNeThj4
   year: 2025
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/_SBpQNeThj4/mqdefault.jpg
   date: '2025-03-20'
 - title: 'MAN Huddle: 03/04/2025 Toy Model for risk stratification and healthcare needs in the future'
@@ -535,6 +611,7 @@
   path: https://www.youtube.com/watch?v=H3y7Ps-Y1is
   year: 2025
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/H3y7Ps-Y1is/mqdefault.jpg
   date: '2025-04-03'
 - title: 'MAN Huddle: Evaluating the Heart Failure Targeted Funding Programme 2023/24 - 17/04/2025'
@@ -542,6 +619,7 @@
   path: https://www.youtube.com/watch?v=3JjEtox2EOc
   year: 2025
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/3JjEtox2EOc/mqdefault.jpg
   date: '2025-04-17'
 - title: 'MAN Huddle: 01/05/2025'
@@ -549,6 +627,7 @@
   path: https://www.youtube.com/watch?v=UtyPhpGA_PE
   year: 2025
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/UtyPhpGA_PE/mqdefault.jpg
   date: '2025-05-12'
 - title: 'MAN Huddle: An introduction to problem structuring - 15/05/25'
@@ -556,6 +635,7 @@
   path: https://www.youtube.com/watch?v=-X09nvNQkYg
   year: 2025
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/-X09nvNQkYg/mqdefault.jpg
   date: '2025-05-16'
 - title: 'MAN Huddle: How we are using data in Leicester, Leicestershire & Rutland  - 29/05/2025'
@@ -563,6 +643,7 @@
   path: https://www.youtube.com/watch?v=nEMRrLTBRds
   year: 2025
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/nEMRrLTBRds/mqdefault.jpg
   date: '2025-05-29'
 - title: MAN Huddle - 12/06/2025
@@ -570,6 +651,7 @@
   path: https://www.youtube.com/watch?v=WmO53eF7U1I
   year: 2025
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/WmO53eF7U1I/mqdefault.jpg
   date: '2025-06-13'
 - title: 'MAN Huddle: 26/05/25'
@@ -577,6 +659,7 @@
   path: https://www.youtube.com/watch?v=YLAELLs_MUw
   year: 2025
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/YLAELLs_MUw/mqdefault.jpg
   date: '2025-06-26'
 - title: 'MAN Huddle: Understanding the costs and benefits of interventions in cervical cancer - 10/07/2025'
@@ -584,6 +667,7 @@
   path: https://www.youtube.com/watch?v=671-55ziYzc
   year: 2025
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/671-55ziYzc/mqdefault.jpg
   date: '2025-07-11'
 - title: 'MAN Huddle: ''Rules of Thumb'' for assessing the quality of analysis - 24/07/2025'
@@ -591,6 +675,7 @@
   path: https://www.youtube.com/watch?v=sLQG5XX0H0E
   year: 2025
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/sLQG5XX0H0E/mqdefault.jpg
   date: '2025-07-28'
 - title: 'MAN Huddle: Simplifying statistical process control with I-prime charts - 07/08/2025'
@@ -598,6 +683,7 @@
   path: https://www.youtube.com/watch?v=zUdpm_9tcTU
   year: 2025
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/zUdpm_9tcTU/mqdefault.jpg
   date: '2025-09-22'
 - title: 'MAN Huddle: Introducing the Strategy Unit Demand Model - 04.09.25'
@@ -605,6 +691,7 @@
   path: https://www.youtube.com/watch?v=DdYUSW2VIMg
   year: 2025
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/DdYUSW2VIMg/mqdefault.jpg
   date: '2025-09-05'
 - title: 'MAN Huddle: ''I wish I was macho instead of just deep'' - 18.09.25'
@@ -612,6 +699,7 @@
   path: https://www.youtube.com/watch?v=xeDd0cjsbjE
   year: 2025
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/xeDd0cjsbjE/mqdefault.jpg
   date: '2025-09-22'
 - title: 'MAN Huddle: Learn how to measure and solve “exit block” - 02/10/25'
@@ -619,6 +707,7 @@
   path: https://www.youtube.com/watch?v=al7J7U9vjMw
   year: 2025
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/al7J7U9vjMw/mqdefault.jpg
   date: '2025-10-02'
 - title: 'MAN Huddle: The Accidental Project Manager - 16/10/2025'
@@ -626,6 +715,7 @@
   path: https://www.youtube.com/watch?v=DmM4gqdxv5I
   year: 2025
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/DmM4gqdxv5I/mqdefault.jpg
   date: '2025-10-16'
 - title: 'MAN Huddle: National Competency Framework – 2 Years on. Where are the adopters now? 30/10/25'
@@ -633,6 +723,7 @@
   path: https://www.youtube.com/watch?v=0CYLOpnwg1c
   year: 2025
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/0CYLOpnwg1c/mqdefault.jpg
   date: '2025-10-31'
 - title: MAN Huddle The impact of NHS waiting lists on patient decisions to privately fund treatment 13/11/25
@@ -640,6 +731,7 @@
   path: https://www.youtube.com/watch?v=AJ4lq7yelYA
   year: 2025
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/AJ4lq7yelYA/mqdefault.jpg
   date: '2025-11-13'
 - title: 'MAN Huddle: The Networked Data Lab - 27/11/25'
@@ -647,6 +739,7 @@
   path: https://www.youtube.com/watch?v=J6I_1uHstyk
   year: 2025
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/J6I_1uHstyk/mqdefault.jpg
   date: '2025-11-28'
 - title: 'MAN Huddle: An Analyst''s Perspective on the Federated Data Platform - 11/12/25'
@@ -654,6 +747,7 @@
   path: https://www.youtube.com/watch?v=Ps47Azr2Jz0
   year: 2025
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/Ps47Azr2Jz0/mqdefault.jpg
   date: '2025-12-12'
 - title: 'MAN Huddle: From hospital to community: shifting care or swimming uphill? -  08/01/2026'
@@ -661,6 +755,7 @@
   path: https://www.youtube.com/watch?v=44Qmh1A8L8A
   year: 2026
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/44Qmh1A8L8A/mqdefault.jpg
   date: '2026-01-09'
 - title: 'MAN Huddle: What hospital activity could be done differently? 22/01/2026'
@@ -668,6 +763,7 @@
   path: https://www.youtube.com/watch?v=AwI2dzPj1Dc
   year: 2026
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/AwI2dzPj1Dc/mqdefault.jpg
   date: '2026-01-22'
 - title: 'MAN Huddle: Maximising the use of ethnicity data – developing a guide for analysts - 05.02.26'
@@ -675,6 +771,7 @@
   path: https://www.youtube.com/watch?v=NJ_Hw89jb04
   year: 2026
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/NJ_Hw89jb04/mqdefault.jpg
   date: '2026-02-05'
 - title: 'MAN: Using data to inform the role of a specialist children''s hospital in the left shift - 19/02/26'
@@ -682,6 +779,7 @@
   path: https://www.youtube.com/watch?v=KMFV3MBf6vw
   year: 2026
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/KMFV3MBf6vw/mqdefault.jpg
   date: '2026-02-19'
 - title: 'MAN: Building an open source model to understand future demand in CKD/KRT pathways - 05/03/2026'
@@ -689,6 +787,7 @@
   path: https://www.youtube.com/watch?v=fi2MhVubjPM
   year: 2026
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/fi2MhVubjPM/mqdefault.jpg
   date: '2026-03-05'
 - title: 'MAN: Discharged without a diagnosis: what does it mean for patients providers & improvement 19/03/26'
@@ -696,6 +795,7 @@
   path: https://www.youtube.com/watch?v=Zj41uGhE5sE
   year: 2026
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/Zj41uGhE5sE/mqdefault.jpg
   date: '2026-03-19'
 - title: 'MAN Huddle: Socio-economic deprivation and changes in self-reported health over a decade - 02.04.26'
@@ -703,6 +803,7 @@
   path: https://www.youtube.com/watch?v=Q99oH5RXnpQ
   year: 2026
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/Q99oH5RXnpQ/mqdefault.jpg
   date: '2026-04-07'
 - title: 'MAN Huddle: Chart with Purpose - 16.04.26'
@@ -710,6 +811,7 @@
   path: https://www.youtube.com/watch?v=W6VJQgjQvNY
   year: 2026
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/W6VJQgjQvNY/mqdefault.jpg
   date: '2026-04-16'
 - title: 'MAN Huddle: How to evaluate healthcare policy: from data to interpretation - 30/04/2026'
@@ -717,6 +819,7 @@
   path: https://www.youtube.com/watch?v=VO8AThOe-Wg
   year: 2026
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/VO8AThOe-Wg/mqdefault.jpg
   date: '2026-04-30'
 - title: 'MAN Huddle: Data reflections from the domestic abuse portfolio - 14/05/2026'
@@ -724,6 +827,7 @@
   path: https://www.youtube.com/watch?v=p_vtUyZEfxo
   year: 2026
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/p_vtUyZEfxo/mqdefault.jpg
   date: '2026-05-15'
 - title: 'MAN Huddle: The Art of the Adjacent Possible - 28/05/2026'
@@ -731,6 +835,7 @@
   path: https://www.youtube.com/watch?v=vjp2g3fuUsk
   year: 2026
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/vjp2g3fuUsk/mqdefault.jpg
   date: '2026-05-28'
 - title: 'MAN Huddle: A deeper look at failure demand in healthcare - 11/06/26'
@@ -738,6 +843,7 @@
   path: https://www.youtube.com/watch?v=mMMTk3Mjw8A
   year: 2026
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/mMMTk3Mjw8A/mqdefault.jpg
   date: '2026-06-12'
 - title: 'MAN Huddle: From Analyst to Professional: Inside AphA and its Specialist Networks  - 25/06/2026'
@@ -745,6 +851,7 @@
   path: https://www.youtube.com/watch?v=aO8ptFlkqDA
   year: 2026
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/aO8ptFlkqDA/mqdefault.jpg
   date: '2026-07-27'
 - title: 'MAN: Enterprise Risk Management (ERM) + Decision Quality - 23.07.26'
@@ -752,6 +859,7 @@
   path: https://www.youtube.com/watch?v=KiKjlYiR3M4
   year: 2026
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/KiKjlYiR3M4/mqdefault.jpg
   date: '2026-07-27'
 - title: 'MAN Huddle: Do we need more hospital beds? - 06/08/2026'
@@ -759,6 +867,7 @@
   path: https://www.youtube.com/watch?v=2HQZGPmQNY8
   year: 2026
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/2HQZGPmQNY8/mqdefault.jpg
   date: '2026-08-07'
 - title: 'MAN Huddle: Why Hospital Admission Avoidance Schemes May Not Reduce Bed Occupancy - 20/08/2026'
@@ -766,6 +875,7 @@
   path: https://www.youtube.com/watch?v=UC5BMdI-Oa4
   year: 2026
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/UC5BMdI-Oa4/mqdefault.jpg
   date: '2026-08-21'
 - title: 'NAN Huddle: Making more strategic use of analysis- 03.09.26'
@@ -773,6 +883,7 @@
   path: https://www.youtube.com/watch?v=S8bo5ucw52o
   year: 2026
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/S8bo5ucw52o/mqdefault.jpg
   date: '2026-09-09'
 - title: 'NAN Huddle: From Insight to Impact: The Midlands Prevention Pathway Toolkit - 17.09.26'
@@ -780,5 +891,6 @@
   path: https://www.youtube.com/watch?v=dm0xkiBTxK4
   year: 2026
   event: Analyst Network huddles
+  type: Huddle
   image: https://i.ytimg.com/vi/dm0xkiBTxK4/mqdefault.jpg
   date: '2026-09-22'

@@ -143,6 +143,10 @@ A showcase of graph types of use in healthcare contexts
 
 :::::
 
+::: {.value-box icon="bi-play-btn" href="https://atlas.hsma.co.uk/recordings/" value="Recordings Finder" color="#00505A" width="100%" icon-position="left" icon-size="3.5rem" font-size="0.9rem" align="left"}
+Search hundreds of recorded conference talks, webinars, workshops and network huddles from across the health and care analytics community, all in one place
+:::
+
 <br/>
 
 ## Contributions

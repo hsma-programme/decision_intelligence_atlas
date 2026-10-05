@@ -3,6 +3,7 @@
   path: https://www.youtube.com/watch?v=ZXRjnoOYirg
   year: 2018
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/ZXRjnoOYirg/mqdefault.jpg
   date: '2018-06-25'
 - title: R   Projects
@@ -10,6 +11,7 @@
   path: https://www.youtube.com/watch?v=jBfyErr1HDk
   year: 2018
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/jBfyErr1HDk/mqdefault.jpg
   date: '2018-06-25'
 - title: NHS-R Workshop - An introduction to ggplot2
@@ -17,6 +19,7 @@
   path: https://www.youtube.com/watch?v=VLuzpaWt0ZE
   year: 2021
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/VLuzpaWt0ZE/mqdefault.jpg
   date: '2021-01-26'
 - title: NHS-R workshop - Automating slides using NHS data
@@ -24,6 +27,7 @@
   path: https://www.youtube.com/watch?v=WNmCucbjmQg
   year: 2021
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/WNmCucbjmQg/mqdefault.jpg
   date: '2021-01-20'
 - title: 'NHS-R Workshop:  Regression Modelling, November 2021'
@@ -31,6 +35,7 @@
   path: https://www.youtube.com/watch?v=QbuXObUVTaw
   year: 2021
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/QbuXObUVTaw/mqdefault.jpg
   date: '2021-11-30'
 - title: 'NHS-R Workshop: Shiny (Part 2 of 2) - November 2021'
@@ -38,6 +43,7 @@
   path: https://www.youtube.com/watch?v=aeTgh91EgTs
   year: 2021
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/aeTgh91EgTs/mqdefault.jpg
   date: '2021-12-01'
 - title: 'NHS-R Workshop: Further changepoint analysis techniques –December 2021'
@@ -45,6 +51,7 @@
   path: https://www.youtube.com/watch?v=rRL8rT97S0I
   year: 2021
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/rRL8rT97S0I/mqdefault.jpg
   date: '2021-12-03'
 - title: 'NHS-R Workshop: Introduction to changepoint analysis with R-  November 2021'
@@ -52,6 +59,7 @@
   path: https://www.youtube.com/watch?v=UfGrLJ7S3sc
   year: 2021
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/UfGrLJ7S3sc/mqdefault.jpg
   date: '2021-12-03'
 - title: 'NHS-R Workshop: Shiny (Part 1 of 2) November 2021'
@@ -59,6 +67,7 @@
   path: https://www.youtube.com/watch?v=wEYaeltxlys
   year: 2021
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/wEYaeltxlys/mqdefault.jpg
   date: '2021-11-30'
 - title: Introduction to Machine Learning and Image Processing with R, December 2021
@@ -66,6 +75,7 @@
   path: https://www.youtube.com/watch?v=_broZee5Y6s
   year: 2021
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/_broZee5Y6s/mqdefault.jpg
   date: '2021-12-09'
 - title: NHS-R Introduction to RMarkdown Workshop - November 2021, Hansel Palencia
@@ -73,6 +83,7 @@
   path: https://www.youtube.com/watch?v=RaM6fgwMZIs
   year: 2022
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/RaM6fgwMZIs/mqdefault.jpg
   date: '2022-02-07'
 - title: 'NHS-R Conference 2021: Intro to R/RStudio - Part 1'
@@ -80,6 +91,7 @@
   path: https://www.youtube.com/watch?v=uerf_bY-d4c
   year: 2022
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/uerf_bY-d4c/mqdefault.jpg
   date: '2022-02-17'
 - title: 'NHS-R Conference 2021: Intro to R/RStudio Workshop - Part 2'
@@ -87,6 +99,7 @@
   path: https://www.youtube.com/watch?v=9GESlEIvPDI
   year: 2022
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/9GESlEIvPDI/mqdefault.jpg
   date: '2022-02-17'
 - title: Statistical process control charts with R - Jacob Anhøj, November 2021
@@ -94,6 +107,7 @@
   path: https://www.youtube.com/watch?v=pCaqwX7bDLs
   year: 2022
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/pCaqwX7bDLs/mqdefault.jpg
   date: '2022-05-13'
 - title: Reproducible computation at scale in R with targets, Will Landau, November 2021
@@ -101,6 +115,7 @@
   path: https://www.youtube.com/watch?v=OdBG78Tmx70
   year: 2022
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/OdBG78Tmx70/mqdefault.jpg
   date: '2022-05-13'
 - title: 'NHS-R Conference Workshop: Building a TidyModels model from scratch – 01/11/22'
@@ -108,6 +123,7 @@
   path: https://www.youtube.com/watch?v=CEh-jeQdOqA
   year: 2022
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/CEh-jeQdOqA/mqdefault.jpg
   date: '2022-11-01'
 - title: Introduction and Prework
@@ -115,6 +131,7 @@
   path: https://www.youtube.com/watch?v=dS91HzZLD_c&t=0s
   year: 2022
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/dS91HzZLD_c/mqdefault.jpg
   date: '2022-11-03'
 - title: Using Projects
@@ -122,6 +139,7 @@
   path: https://www.youtube.com/watch?v=dS91HzZLD_c&t=3323s
   year: 2022
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/dS91HzZLD_c/mqdefault.jpg
   date: '2022-11-03'
 - title: Importing Data
@@ -129,6 +147,7 @@
   path: https://www.youtube.com/watch?v=dS91HzZLD_c&t=4080s
   year: 2022
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/dS91HzZLD_c/mqdefault.jpg
   date: '2022-11-03'
 - title: Introduction to {ggplot2}
@@ -136,6 +155,7 @@
   path: https://www.youtube.com/watch?v=dS91HzZLD_c&t=4680s
   year: 2022
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/dS91HzZLD_c/mqdefault.jpg
   date: '2022-11-03'
 - title: What does this function do?
@@ -143,6 +163,7 @@
   path: https://www.youtube.com/watch?v=dS91HzZLD_c&t=8520s
   year: 2022
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/dS91HzZLD_c/mqdefault.jpg
   date: '2022-11-03'
 - title: 'NHS-R Workshop: Building Websites in R with Distill - 02/11/22'
@@ -150,6 +171,7 @@
   path: https://www.youtube.com/watch?v=LK_vxLS9BNg
   year: 2022
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/LK_vxLS9BNg/mqdefault.jpg
   date: '2022-11-03'
 - title: Data wrangling with dplyr
@@ -157,6 +179,7 @@
   path: https://www.youtube.com/watch?v=1tjQkxYfSGk&t=0s
   year: 2022
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/1tjQkxYfSGk/mqdefault.jpg
   date: '2022-11-03'
 - title: Relational Data (joins)
@@ -164,6 +187,7 @@
   path: https://www.youtube.com/watch?v=1tjQkxYfSGk&t=6318s
   year: 2022
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/1tjQkxYfSGk/mqdefault.jpg
   date: '2022-11-03'
 - title: RMarkdown
@@ -171,6 +195,7 @@
   path: https://www.youtube.com/watch?v=1tjQkxYfSGk&t=7821s
   year: 2022
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/1tjQkxYfSGk/mqdefault.jpg
   date: '2022-11-03'
 - title: Ongoing Learning
@@ -178,6 +203,7 @@
   path: https://www.youtube.com/watch?v=1tjQkxYfSGk&t=9600s
   year: 2022
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/1tjQkxYfSGk/mqdefault.jpg
   date: '2022-11-03'
 - title: 'NHS-R Conference Workshop: Introduction to Interactive plotting with R – 03/11/22'
@@ -185,6 +211,7 @@
   path: https://www.youtube.com/watch?v=fmelRhf14PE
   year: 2022
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/fmelRhf14PE/mqdefault.jpg
   date: '2022-11-08'
 - title: 'NHS-R Workshop: Level up your plots! - 04/11/22'
@@ -192,6 +219,7 @@
   path: https://www.youtube.com/watch?v=Zt_SMnNPLX0
   year: 2022
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/Zt_SMnNPLX0/mqdefault.jpg
   date: '2022-11-08'
 - title: 'NHS-R Workshop: Debugging in R - 11/11/22'
@@ -199,6 +227,7 @@
   path: https://www.youtube.com/watch?v=evzo-F2Yp5g
   year: 2022
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/evzo-F2Yp5g/mqdefault.jpg
   date: '2022-11-13'
 - title: 'NHS-R Workshop: Working with databases in R - 23//11/22'
@@ -206,6 +235,7 @@
   path: https://www.youtube.com/watch?v=htQWauSV9J4
   year: 2022
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/htQWauSV9J4/mqdefault.jpg
   date: '2022-11-24'
 - title: 'NHS-R Workshop: PHM ExploreR An open source tool for Population Health Management  - 24/11/22'
@@ -213,6 +243,7 @@
   path: https://www.youtube.com/watch?v=E1et8cSIRMQ
   year: 2022
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/E1et8cSIRMQ/mqdefault.jpg
   date: '2022-11-24'
 - title: NHS-R Workshop - Regression Modelling in R - 24/11/22
@@ -220,6 +251,7 @@
   path: https://www.youtube.com/watch?v=yaMpZsordu4
   year: 2022
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/yaMpZsordu4/mqdefault.jpg
   date: '2022-11-25'
 - title: 'NHS-R Workshop: Fitting Distributions in R - 25/11/22'
@@ -227,6 +259,7 @@
   path: https://www.youtube.com/watch?v=86sviwkA088
   year: 2022
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/86sviwkA088/mqdefault.jpg
   date: '2022-11-25'
 - title: Intermediate R with Anya Ferguson Pt 1
@@ -234,6 +267,7 @@
   path: https://www.youtube.com/watch?v=b08sQUwWnXM
   year: 2024
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/b08sQUwWnXM/mqdefault.jpg
   date: '2024-06-28'
 - title: Intermediate R with Anya Ferguson Pt 2
@@ -241,6 +275,7 @@
   path: https://www.youtube.com/watch?v=E5G94mkbsoA
   year: 2024
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/E5G94mkbsoA/mqdefault.jpg
   date: '2024-06-28'
 - title: Intermediate R with Simon Wellesley-Miller 14 May 2024
@@ -248,6 +283,7 @@
   path: https://www.youtube.com/watch?v=-ryFXMK1DoI
   year: 2024
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/-ryFXMK1DoI/mqdefault.jpg
   date: '2024-05-31'
 - title: Introduction to machine learning with {tidymodels}
@@ -255,6 +291,7 @@
   path: https://www.youtube.com/watch?v=qFvbzUivIHY
   year: 2024
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/qFvbzUivIHY/mqdefault.jpg
   date: '2024-05-31'
 - title: Intermediate R with Simon Wellesley Miller
@@ -262,6 +299,7 @@
   path: https://www.youtube.com/watch?v=I-wT2NUeB18
   year: 2024
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/I-wT2NUeB18/mqdefault.jpg
   date: '2024-04-08'
 - title: Understanding Functions in R
@@ -269,6 +307,7 @@
   path: https://www.youtube.com/watch?v=SoGqSKVpXq4
   year: 2024
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/SoGqSKVpXq4/mqdefault.jpg
   date: '2024-02-28'
 - title: 'NHS-R Workshop: Interactive Visualisations for Beginners in Python with Shiny Apps'
@@ -276,6 +315,7 @@
   path: https://www.youtube.com/watch?v=aMn5W5bCJTY
   year: 2024
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/aMn5W5bCJTY/mqdefault.jpg
   date: '2024-01-03'
 - title: 'NHS-R Workshop: GitHub Actions 101 – Test, Build, and Deploy [Wednesday 22nd November 2023]'
@@ -283,6 +323,7 @@
   path: https://www.youtube.com/watch?v=kPBne5nCdbs
   year: 2023
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/kPBne5nCdbs/mqdefault.jpg
   date: '2023-12-22'
 - title: 'NHS-R Workshop: Introduction to R (Day 1 and Day 2)'
@@ -290,6 +331,7 @@
   path: https://www.youtube.com/watch?v=R2qGBIKoebo
   year: 2025
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/R2qGBIKoebo/mqdefault.jpg
   date: '2025-05-16'
 - title: 'NHS-R Workshop: Intermediate R (Day 1 and Day 2)'
@@ -297,6 +339,7 @@
   path: https://www.youtube.com/watch?v=UAucTfy1qtU
   year: 2025
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/UAucTfy1qtU/mqdefault.jpg
   date: '2025-06-13'
 - title: 'NHS-R Workshop: Introduction to R and R Studio (Day 1 – Tuesday 23rd September 2025)'
@@ -304,6 +347,7 @@
   path: https://www.youtube.com/watch?v=qb14cnDSjSM
   year: 2025
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/qb14cnDSjSM/mqdefault.jpg
   date: '2025-10-30'
 - title: 'NHS-R Workshop: Introduction to R and R Studio (Day 2 – Wednesday 24th September 2025)'
@@ -311,6 +355,7 @@
   path: https://www.youtube.com/watch?v=yx7g6v0Usfc
   year: 2025
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/yx7g6v0Usfc/mqdefault.jpg
   date: '2025-10-30'
 - title: 'NHS-R Workshop: Intermediate R (Day 2 - Wednesday 15th October 2025)'
@@ -318,6 +363,7 @@
   path: https://www.youtube.com/watch?v=PEgtCOXBV4o
   year: 2025
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/PEgtCOXBV4o/mqdefault.jpg
   date: '2025-10-30'
 - title: 'NHS-R Workshop: Intermediate R (Day 1 - Tuesday 14th October 2025)'
@@ -325,6 +371,7 @@
   path: https://www.youtube.com/watch?v=UW0pPHaLdO8
   year: 2025
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/UW0pPHaLdO8/mqdefault.jpg
   date: '2025-10-30'
 - title: 'NHS-R Workshop: Better, Kinder Code Review'
@@ -332,6 +379,7 @@
   path: https://www.youtube.com/watch?v=lbx0AHyFNuA
   year: 2025
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/lbx0AHyFNuA/mqdefault.jpg
   date: '2025-12-16'
 - title: 'NHS-Open Analytics Workshop: Intermediate R - Part 1 (Tuesday 10th February 2026)'
@@ -339,6 +387,7 @@
   path: https://www.youtube.com/watch?v=ZBSWBSoNo-A
   year: 2026
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/ZBSWBSoNo-A/mqdefault.jpg
   date: '2026-02-10'
 - title: 'NHS-Open Analytics Workshop: Intermediate R - Part 2 (Wednesday 11th February 2026)'
@@ -346,6 +395,7 @@
   path: https://www.youtube.com/watch?v=ihaM-bMt9Yg
   year: 2026
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/ihaM-bMt9Yg/mqdefault.jpg
   date: '2026-02-11'
 - title: 'NHS Open Analytics Workshop: Introduction to R and R Studio - Part 1 & 2 (September 2026)'
@@ -353,5 +403,6 @@
   path: https://www.youtube.com/watch?v=IWEY2ELKO2Q
   year: 2026
   event: Workshops
+  type: Workshop
   image: https://i.ytimg.com/vi/IWEY2ELKO2Q/mqdefault.jpg
   date: '2026-09-17'

@@ -59,3 +59,5 @@ Search for a Huddle by title, speaker, year or topic. Newest Huddles are listed 
 :::
 
 You can also browse the full [Huddle playlist on YouTube](https://www.youtube.com/playlist?list=PLFEXOtXX7YkmiOpE31JfMDBWidHAZROqR).
+
+To search these recordings alongside talks, webinars and workshops from other communities, use the [Recordings Finder](/recordings/index.qmd).

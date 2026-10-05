@@ -60,3 +60,5 @@ Search for a talk by title, speaker, year or topic. Newest talks are listed firs
 :::
 
 You can also browse all of the videos on [NHS.pycom's YouTube channel](https://www.youtube.com/%40nhs-pycom/videos).
+
+To search these recordings alongside talks, webinars and workshops from other communities, use the [Recordings Finder](/recordings/index.qmd).

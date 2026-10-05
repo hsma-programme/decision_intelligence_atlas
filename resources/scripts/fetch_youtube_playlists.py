@@ -1,15 +1,16 @@
 """Fetch video metadata for YouTube playlists using the YouTube Data API.
 
 Reads the API key from the `YOUTUBE_API_KEY` environment variable, or from a
-`.env` file in the project root. Writes one JSON file per collection of
-playlists, containing each video's title, description, publish date,
-duration and thumbnail.
+`.env` file in the project root. For each collection in
+`resources/recordings/collections.yml`, writes a `videos.json` file to the
+collection's folder, containing each video's title, description, publish
+date, duration and thumbnail.
 
 Usage
 -----
-python resources/scripts/fetch_youtube_playlists.py <collection> [...]
+python resources/scripts/fetch_youtube_playlists.py [collection ...]
 
-where each collection is a key of `COLLECTIONS` below.
+Fetches all collections if none are given.
 """
 
 from pathlib import Path
@@ -20,60 +21,12 @@ import sys
 import urllib.parse
 import urllib.request
 
+import yaml
+
 
 API_URL = "https://www.googleapis.com/youtube/v3/"
 
-# Each collection is written to its own JSON file, and lists its playlists
-# with a label used to group videos on the site. A channel's uploads can be
-# fetched using its uploads playlist ID (its channel ID with "UC" replaced by
-# "UU"). Videos in any of a collection's `exclude_playlists`, or listed in its
-# `exclude_videos`, are left out, e.g. to avoid listing the same talk twice.
-COLLECTIONS = {
-    "nhs_oa_conferences": {
-        "out_file": "books_training/nhs_oa_conference_recordings/videos.json",
-        "playlists": [
-            ("RPySOC 2025", "PLXCrMzQaI6c0kEKt4lN0659WQj_-SNUr_"),
-            ("RPySOC 2024", "PLXCrMzQaI6c2vQUabRSOg9_FCxp6x6cVg"),
-            ("NHS-R/NHS.pycom Conference 2023: talks", "PLXCrMzQaI6c2RjLQvFWpW_1QA68qylKb9"),
-            ("NHS-R/NHS.pycom Conference 2023: workshops", "PLXCrMzQaI6c3vXRIOmgv8Qk9wYSoXatdt"),
-            ("NHS-R Community Conference 2022", "PLXCrMzQaI6c3kFGGOuR432J8tUJq_VhWp"),
-            ("NHS-R Community Conference 2022: Python track", "PLSLQ7uyfNIIuFYsyo9Hf0cbYoOqgcly9m"),
-            ("NHS-R Community Conference 2021", "PLXCrMzQaI6c1R5K-iqHpOVDG0PelBA6uc"),
-            ("NHS-R Community Conference 2020: talks", "PLXCrMzQaI6c0Kvs7lE-Rxdig5nc5-4Xx2"),
-            ("NHS-R Community Conference 2020: workshops", "PLXCrMzQaI6c3EAh10hDZectzBALWPk19w"),
-        ],
-    },
-    "nhs_oa_webinars": {
-        "out_file": "books_training/nhs_oa_webinars/videos.json",
-        "playlists": [
-            ("Webinars", "PLXCrMzQaI6c36jqIWc9AgHzowzZ2ak9DL"),
-        ],
-    },
-    "nhs_oa_workshops": {
-        "out_file": "books_training/nhs_oa_workshops/videos.json",
-        "playlists": [
-            ("Workshops", "PLXCrMzQaI6c2L4JCRaF2iujzBxe9Rk-rC"),
-        ],
-    },
-    "nhs_pycom_talks": {
-        "out_file": "books_training/nhs_pycom_talks/videos.json",
-        "playlists": [
-            ("NHS.pycom uploads", "UU_jacmsGNZQR5BPP7h0EtXw"),
-        ],
-        # Already listed with the NHS-OA conference recordings: the 2022
-        # Python track talks, and the full-day livestream of that track
-        "exclude_playlists": ["PLSLQ7uyfNIIuFYsyo9Hf0cbYoOqgcly9m"],
-        "exclude_videos": ["YEa_3TmtCoE"],
-    },
-    "analyst_network_huddles": {
-        "out_file": "books_training/analyst_network_huddles/videos.json",
-        "playlists": [
-            ("Analyst Network huddles", "PLFEXOtXX7YkmiOpE31JfMDBWidHAZROqR"),
-        ],
-        # Untitled meeting recording
-        "exclude_videos": ["LF_EgYTgeLY"],
-    },
-}
+CONFIG_FILE = Path("resources/recordings/collections.yml")
 
 
 def get_api_key():
@@ -201,31 +154,31 @@ def get_video_details(video_ids, key):
 
 
 def main():
-    collections = sys.argv[1:]
-    unknown = [name for name in collections if name not in COLLECTIONS]
-    if not collections or unknown:
-        sys.exit(f"Usage: {sys.argv[0]} <collection> [...]\n"
-                 f"Collections: {sorted(COLLECTIONS)}")
+    config = yaml.safe_load(CONFIG_FILE.read_text(encoding="utf-8"))
+    collections = sys.argv[1:] or list(config)
+    unknown = [name for name in collections if name not in config]
+    if unknown:
+        sys.exit(f"Unknown collections {unknown}. Collections: {sorted(config)}")
 
     key = get_api_key()
     for name in collections:
-        collection = COLLECTIONS[name]
+        collection = config[name]
         excluded = set(collection.get("exclude_videos", [])) | {
             video_id
             for playlist_id in collection.get("exclude_playlists", [])
             for video_id in get_playlist_video_ids(playlist_id, key)
         }
         playlists = []
-        for label, playlist_id in collection["playlists"]:
+        for playlist in collection["playlists"]:
             video_ids = [
-                video_id for video_id in get_playlist_video_ids(playlist_id, key)
+                video_id for video_id in get_playlist_video_ids(playlist["id"], key)
                 if video_id not in excluded
             ]
             videos = get_video_details(video_ids, key)
-            playlists.append({"label": label, "id": playlist_id, "videos": videos})
-            print(f"{name}: {label}: {len(videos)} of {len(video_ids)} videos")
+            playlists.append({"label": playlist["label"], "id": playlist["id"], "videos": videos})
+            print(f"{name}: {playlist['label']}: {len(videos)} of {len(video_ids)} videos")
 
-        out_file = Path(collection["out_file"])
+        out_file = Path(collection["folder"]) / "videos.json"
         out_file.write_text(
             json.dumps({"playlists": playlists}, indent=2, ensure_ascii=False) + "\n",
             encoding="utf-8",

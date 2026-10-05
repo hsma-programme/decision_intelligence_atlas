@@ -198,6 +198,8 @@ Websites with code snippets, guides and reference material to dip into as needed
 
 Recordings of one-off webinars and conference talks, covering a wide range of topics and real-world projects.
 
+To search the individual recordings from all of these collections at once, use the [Recordings Finder](/recordings/index.qmd).
+
 ::: {#training-recordings}
 :::
 

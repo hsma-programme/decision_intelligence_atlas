@@ -269,6 +269,19 @@ p {
     text-transform: capitalize;
 }
 
+/* Recordings Finder: filters side by side, and wrap long table text */
+.recordings-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 2rem;
+}
+
+.recordings-table td {
+    white-space: normal !important;
+    overflow-wrap: anywhere;
+    vertical-align: top;
+}
+
 /* Keep titles as written in table listings (e.g. searchable talk titles) */
 .quarto-listing-table .listing-title {
     text-transform: none;

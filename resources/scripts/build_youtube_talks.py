@@ -1,7 +1,10 @@
 """Turn fetched YouTube playlist metadata into one row per talk.
 
-Reads a JSON file written by `fetch_youtube_playlists.py` and writes a YAML
-file of talks that can be used as the contents of a Quarto listing.
+For each collection in `resources/recordings/collections.yml`, reads the
+`videos.json` written by `fetch_youtube_playlists.py` and writes a
+`talks.yml` file of talks to the collection's folder, used as the contents of
+a Quarto listing on its Atlas entry. Also writes `recordings/recordings.json`,
+combining the talks from every collection for the Recordings Finder.
 
 Long recordings covering several talks are split into one row per talk
 where the description lists them:
@@ -10,14 +13,14 @@ where the description lists them:
   become links that start the video at that talk.
 * Programme times (e.g. `09:30 Speaker, Title`) are times of day rather than
   positions in the video, so their talks link to the start of the recording.
-* Plain lists of talks (for playlists in `TALK_LIST_PLAYLISTS`) also link to
+* Plain lists of talks (for playlists with `talk_list: true`) also link to
   the start of the recording.
 
 Recordings with no talk details are kept as a single row.
 
 Usage
 -----
-python resources/scripts/build_youtube_talks.py <videos.json> <talks.yml>
+python resources/scripts/build_youtube_talks.py
 """
 
 from pathlib import Path
@@ -28,9 +31,8 @@ import sys
 import yaml
 
 
-# Playlists whose session recordings list their talks one per line, without
-# timestamps.
-TALK_LIST_PLAYLISTS = {"RPySOC 2024"}
+CONFIG_FILE = Path("resources/recordings/collections.yml")
+FINDER_FILE = Path("recordings/recordings.json")
 
 # A line starting with a timestamp, e.g. "2:04 Title", "1:02:03 - Title" or
 # "(12:30) Title".
@@ -136,7 +138,7 @@ def clean_description(description):
     return text
 
 
-def split_talks(video, playlist_label):
+def split_talks(video, talk_list):
     """
     Return the talks listed in a recording's description.
 
@@ -144,8 +146,8 @@ def split_talks(video, playlist_label):
     ----------
     video : dict
         Video metadata from `fetch_youtube_playlists.py`.
-    playlist_label : str
-        Label of the playlist the video belongs to.
+    talk_list : bool
+        Whether descriptions without timestamps list one talk per line.
 
     Returns
     -------
@@ -165,7 +167,7 @@ def split_talks(video, playlist_label):
             if not NOT_TALKS.search(m["text"])
         ]
 
-    if playlist_label in TALK_LIST_PLAYLISTS:
+    if talk_list:
         return [
             (line.strip(), None)
             for line in lines
@@ -175,7 +177,7 @@ def split_talks(video, playlist_label):
     return []
 
 
-def build_talks(playlists):
+def build_talks(playlists, playlist_config):
     """
     Build one listing item per talk from fetched playlist metadata.
 
@@ -183,17 +185,20 @@ def build_talks(playlists):
     ----------
     playlists : list of dict
         Playlists from `fetch_youtube_playlists.py`.
+    playlist_config : dict
+        Each playlist's settings from the config file, keyed by playlist ID.
 
     Returns
     -------
     list of dict
-        Listing items with title, year, event, description, path, image
-        and date. The year is taken from the playlist label if it contains
-        one (e.g. "RPySOC 2025"), otherwise from the video's publish date,
-        and the event is the playlist label without the year.
+        Listing items with title, year, event, type, description, path,
+        image and date. The year is taken from the playlist label if it
+        contains one (e.g. "RPySOC 2025"), otherwise from the video's publish
+        date, and the event is the playlist label without the year.
     """
     items = []
     for playlist in playlists:
+        config = playlist_config[playlist["id"]]
         label_year = re.search(r"\b(19|20)\d{2}\b", playlist["label"])
         event = re.sub(r"\s*\b(19|20)\d{2}\b", "", playlist["label"]).strip()
         for video in playlist["videos"]:
@@ -201,10 +206,11 @@ def build_talks(playlists):
             shared = {
                 "year": int(label_year.group(0) if label_year else video["published"][:4]),
                 "event": event,
+                "type": config["type"],
                 "image": video["thumbnail"],
                 "date": video["published"][:10],
             }
-            talks = split_talks(video, playlist["label"])
+            talks = split_talks(video, config.get("talk_list", False))
             if not talks:
                 items.append({
                     "title": video["title"],
@@ -248,18 +254,59 @@ def format_time(seconds):
     return f"{minutes}:{secs:02d}"
 
 
-def main():
-    if len(sys.argv) != 3:
-        sys.exit(f"Usage: {sys.argv[0]} <videos.json> <talks.yml>")
-    in_file, out_file = map(Path, sys.argv[1:])
+def entry_title(folder):
+    """
+    Return the title of the Atlas entry in a folder.
 
-    playlists = json.loads(in_file.read_text(encoding="utf-8"))["playlists"]
-    items = build_talks(playlists)
-    out_file.write_text(
-        yaml.safe_dump(items, allow_unicode=True, sort_keys=False, width=1000),
-        encoding="utf-8",
+    Parameters
+    ----------
+    folder : pathlib.Path
+        Folder containing the entry's `index.qmd`.
+
+    Returns
+    -------
+    str
+        The entry's title.
+    """
+    text = (folder / "index.qmd").read_text(encoding="utf-8")
+    return yaml.safe_load(text.split("---", 2)[1])["title"]
+
+
+def main():
+    config = yaml.safe_load(CONFIG_FILE.read_text(encoding="utf-8"))
+    recordings = []
+    for name, collection in config.items():
+        folder = Path(collection["folder"])
+        playlists = json.loads((folder / "videos.json").read_text(encoding="utf-8"))["playlists"]
+        playlist_config = {playlist["id"]: playlist for playlist in collection["playlists"]}
+        items = build_talks(playlists, playlist_config)
+
+        out_file = folder / "talks.yml"
+        out_file.write_text(
+            yaml.safe_dump(items, allow_unicode=True, sort_keys=False, width=1000),
+            encoding="utf-8",
+        )
+        print(f"{name}: wrote {len(items)} talks to {out_file}")
+
+        collection_title = entry_title(folder)
+        for item in items:
+            recordings.append({
+                "title": item["title"],
+                "year": item["year"],
+                "date": item["date"],
+                "type": item["type"],
+                "source": collection["source"],
+                "event": item["event"] if item["type"].startswith("Conference") else "",
+                "details": item["description"],
+                "url": item["path"],
+                "collection": collection_title,
+                "collection_url": f"/{folder.as_posix()}/index.html",
+            })
+
+    FINDER_FILE.write_text(
+        json.dumps(recordings, indent=1, ensure_ascii=False) + "\n", encoding="utf-8"
     )
-    print(f"Wrote {len(items)} talks to {out_file}")
+    print(f"Wrote {len(recordings)} recordings to {FINDER_FILE}")
 
 
 if __name__ == "__main__":

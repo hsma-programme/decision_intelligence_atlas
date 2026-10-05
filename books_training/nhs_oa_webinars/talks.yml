@@ -3,6 +3,7 @@
   path: https://www.youtube.com/watch?v=668k5sBkKus
   year: 2021
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/668k5sBkKus/mqdefault.jpg
   date: '2021-02-18'
 - title: R and Python – a happy union with reticulate webinar
@@ -10,6 +11,7 @@
   path: https://www.youtube.com/watch?v=8WE-EU5k97Q
   year: 2021
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/8WE-EU5k97Q/mqdefault.jpg
   date: '2021-01-21'
 - title: Forecasting with Multiple Seasonality
@@ -17,6 +19,7 @@
   path: https://www.youtube.com/watch?v=FKSk6WV-fLo
   year: 2020
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/FKSk6WV-fLo/mqdefault.jpg
   date: '2020-11-27'
 - title: Time Series Forecasting Models
@@ -24,6 +27,7 @@
   path: https://www.youtube.com/watch?v=dwpzVeVtvao
   year: 2020
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/dwpzVeVtvao/mqdefault.jpg
   date: '2020-10-29'
 - title: Why and how to build an R package
@@ -31,6 +35,7 @@
   path: https://www.youtube.com/watch?v=qmTaAIEXxSQ
   year: 2020
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/qmTaAIEXxSQ/mqdefault.jpg
   date: '2020-09-16'
 - title: Reshaping and Combining Data in R
@@ -38,6 +43,7 @@
   path: https://www.youtube.com/watch?v=a3eJXwonbU8
   year: 2020
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/a3eJXwonbU8/mqdefault.jpg
   date: '2020-08-20'
 - title: Task automation with R
@@ -45,6 +51,7 @@
   path: https://www.youtube.com/watch?v=GZhoXIkXGrc
   year: 2020
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/GZhoXIkXGrc/mqdefault.jpg
   date: '2020-07-15'
 - title: Advanced Modelling Webinar
@@ -52,6 +59,7 @@
   path: https://www.youtube.com/watch?v=rO40vvKXU-4
   year: 2020
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/rO40vvKXU-4/mqdefault.jpg
   date: '2020-06-18'
 - title: Functional Programming using the Purrr Package webinar
@@ -59,6 +67,7 @@
   path: https://www.youtube.com/watch?v=GxvccD8K49M
   year: 2020
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/GxvccD8K49M/mqdefault.jpg
   date: '2020-05-22'
 - title: Shiny webinar
@@ -66,6 +75,7 @@
   path: https://www.youtube.com/watch?v=vVl1f2lMfsA
   year: 2020
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/vVl1f2lMfsA/mqdefault.jpg
   date: '2020-04-23'
 - title: Database Connections in R Webinar
@@ -73,6 +83,7 @@
   path: https://www.youtube.com/watch?v=XWFuwSTz8dY
   year: 2020
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/XWFuwSTz8dY/mqdefault.jpg
   date: '2020-02-21'
 - title: Communicating your analysis with clinicians and managers
@@ -80,6 +91,7 @@
   path: https://www.youtube.com/watch?v=gCZPye-hXPc
   year: 2021
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/gCZPye-hXPc/mqdefault.jpg
   date: '2021-03-17'
 - title: 'NHSDataDictionaRy: a new package for keeping NHS lookups up to date and easily accessible'
@@ -87,6 +99,7 @@
   path: https://www.youtube.com/watch?v=MqCFHCbTORs
   year: 2021
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/MqCFHCbTORs/mqdefault.jpg
   date: '2021-04-21'
 - title: Plotting interactive visualizations with Plotly in R
@@ -94,6 +107,7 @@
   path: https://www.youtube.com/watch?v=WmofiOklux8
   year: 2021
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/WmofiOklux8/mqdefault.jpg
   date: '2021-05-25'
 - title: NHS R Webinar - Using Git and GitHub by Zoë Turner
@@ -101,6 +115,7 @@
   path: https://www.youtube.com/watch?v=SGD3nK7u8fw
   year: 2021
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/SGD3nK7u8fw/mqdefault.jpg
   date: '2021-06-17'
 - title: Assessing the impact of Covid-19 on hip replacement rates using R and R Markdown
@@ -108,6 +123,7 @@
   path: https://www.youtube.com/watch?v=hDhI2iuYyLY
   year: 2021
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/hDhI2iuYyLY/mqdefault.jpg
   date: '2021-07-22'
 - title: NHS-R Webinar - Adaptive Clinical Trial Design using R by Dr Anna Heath (August 2021)
@@ -115,6 +131,7 @@
   path: https://www.youtube.com/watch?v=A7TeTv5m5rg
   year: 2021
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/A7TeTv5m5rg/mqdefault.jpg
   date: '2021-08-18'
 - title: NHS R Webinar - Building a TidyModels Classification Model from Scratch, December 2021
@@ -122,6 +139,7 @@
   path: https://www.youtube.com/watch?v=hxRx7ozLNKw
   year: 2021
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/hxRx7ozLNKw/mqdefault.jpg
   date: '2021-12-16'
 - title: NHS-R Webinar - Designing a Shiny dashboard using a Raspberry Pi cluster server, January 2022
@@ -129,6 +147,7 @@
   path: https://www.youtube.com/watch?v=UxS5JyKZJxg
   year: 2022
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/UxS5JyKZJxg/mqdefault.jpg
   date: '2022-01-20'
 - title: 'NHS-R Webinar: Building Multiple Page Shiny Apps with {brochure} - February 2022'
@@ -136,6 +155,7 @@
   path: https://www.youtube.com/watch?v=8UiCqSKlfew
   year: 2022
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/8UiCqSKlfew/mqdefault.jpg
   date: '2022-02-17'
 - title: 'NHS-R Webinar : Strategic Health Asset Planning and Evaluation (SHAPE) - March 2022'
@@ -143,6 +163,7 @@
   path: https://www.youtube.com/watch?v=bD65nCSmeQs
   year: 2022
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/bD65nCSmeQs/mqdefault.jpg
   date: '2022-03-23'
 - title: 'NHS-R Webinar: Approaches to Teaching R - April 2022'
@@ -150,6 +171,7 @@
   path: https://www.youtube.com/watch?v=G5MYlWGRz34
   year: 2022
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/G5MYlWGRz34/mqdefault.jpg
   date: '2022-04-21'
 - title: 'NHS-R Webinar: KCL Innovation Scholars Data training programme, May 2022'
@@ -157,6 +179,7 @@
   path: https://www.youtube.com/watch?v=HeGpHy2naJY
   year: 2022
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/HeGpHy2naJY/mqdefault.jpg
   date: '2022-05-18'
 - title: 'NHS-R Webinar: Statistical Disclosure Control Methods via R for Statistical Publications, June 2022'
@@ -164,6 +187,7 @@
   path: https://www.youtube.com/watch?v=GdAooA0uijI
   year: 2022
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/GdAooA0uijI/mqdefault.jpg
   date: '2022-06-21'
 - title: 'NHS-R Webinar: Shiny Tool Predicting Primary Care Demand from Large Scale Housing Devs, July 2022'
@@ -171,6 +195,7 @@
   path: https://www.youtube.com/watch?v=Q6sKc0y5uK8
   year: 2022
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/Q6sKc0y5uK8/mqdefault.jpg
   date: '2022-07-22'
 - title: 'NHS-R Webinar: PrAna R package to calculate & visualize NHS primary care prescribing data, Aug 2022'
@@ -178,6 +203,7 @@
   path: https://www.youtube.com/watch?v=ztoWo6hiPkE
   year: 2022
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/ztoWo6hiPkE/mqdefault.jpg
   date: '2022-08-24'
 - title: 'NHS-R Webinar: Live Data Analysis with Chris Mainey - September 2022'
@@ -185,6 +211,7 @@
   path: https://www.youtube.com/watch?v=cVmB6jcmGdc
   year: 2022
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/cVmB6jcmGdc/mqdefault.jpg
   date: '2022-09-29'
 - title: 'NHS-R Conference Webinar: Shiny and Advanced Shiny – 1/11/22'
@@ -192,6 +219,7 @@
   path: https://www.youtube.com/watch?v=4aE0a_JnERU
   year: 2022
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/4aE0a_JnERU/mqdefault.jpg
   date: '2022-11-01'
 - title: 'NHS-R Webinar: Introduction to business case analytics using Decision Analysis in R – 01/11/22'
@@ -199,6 +227,7 @@
   path: https://www.youtube.com/watch?v=VzVwdWn11s8
   year: 2022
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/VzVwdWn11s8/mqdefault.jpg
   date: '2022-11-02'
 - title: 'NHS-R Webinar: Tips and tricks learnt from building production {shiny} apps  - 07/11/22'
@@ -206,6 +235,7 @@
   path: https://www.youtube.com/watch?v=vO_Wn2tgIck
   year: 2022
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/vO_Wn2tgIck/mqdefault.jpg
   date: '2022-11-08'
 - title: 'December 2022 Webinar: The R Workflow – Dr Ryan Johnson from Posit'
@@ -213,6 +243,7 @@
   path: https://www.youtube.com/watch?v=zyLT7akvc8s
   year: 2022
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/zyLT7akvc8s/mqdefault.jpg
   date: '2022-12-22'
 - title: 'NHS-R January 2023 Webinar:  Create reproducible and accessible spreadsheets with {a11ytables}'
@@ -220,6 +251,7 @@
   path: https://www.youtube.com/watch?v=VcEZBYDBJwo
   year: 2023
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/VcEZBYDBJwo/mqdefault.jpg
   date: '2023-01-18'
 - title: 'NHS-R February 2023 Webinar: Introduction to Causal Inference and propensity modelling'
@@ -227,6 +259,7 @@
   path: https://www.youtube.com/watch?v=FBq66XF0lRY
   year: 2023
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/FBq66XF0lRY/mqdefault.jpg
   date: '2023-02-16'
 - title: 'NHS-R March 2023 Webinar: Build a Golem Application'
@@ -234,6 +267,7 @@
   path: https://www.youtube.com/watch?v=ugMatRCIO4Q
   year: 2023
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/ugMatRCIO4Q/mqdefault.jpg
   date: '2023-04-05'
 - title: 'NHS-R April 2023 Webinar: Chat with your data via RTutor and ChatGPT'
@@ -241,6 +275,7 @@
   path: https://www.youtube.com/watch?v=MyZM-hOyJX4
   year: 2023
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/MyZM-hOyJX4/mqdefault.jpg
   date: '2023-05-11'
 - title: 'April 2023 Webinar: Introduction to Quarto for R Users'
@@ -248,6 +283,7 @@
   path: https://www.youtube.com/watch?v=8nPfCUKPnBE
   year: 2023
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/8nPfCUKPnBE/mqdefault.jpg
   date: '2023-05-15'
 - title: 'May 2023 Webinar: Version Control and RStudio'
@@ -255,6 +291,7 @@
   path: https://www.youtube.com/watch?v=qNMOPWT8jSo
   year: 2023
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/qNMOPWT8jSo/mqdefault.jpg
   date: '2023-05-31'
 - title: 'June 2023 Webinar: Patient Feedback using LimeSurvey and R'
@@ -262,6 +299,7 @@
   path: https://www.youtube.com/watch?v=UJKUpEpsrzE
   year: 2023
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/UJKUpEpsrzE/mqdefault.jpg
   date: '2023-10-10'
 - title: 'July 2023 Webinar: Shiny in Production'
@@ -269,6 +307,7 @@
   path: https://www.youtube.com/watch?v=7v_CaT0IPAk
   year: 2023
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/7v_CaT0IPAk/mqdefault.jpg
   date: '2023-10-10'
 - title: 'August 2023 Webinar: Introduction to Unit Tests in R'
@@ -276,6 +315,7 @@
   path: https://www.youtube.com/watch?v=3M1K7lGzrHQ
   year: 2023
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/3M1K7lGzrHQ/mqdefault.jpg
   date: '2023-10-10'
 - title: 'October 2023 Webinar: Package Management in R Studio'
@@ -283,6 +323,7 @@
   path: https://www.youtube.com/watch?v=VFtO54DF4_c
   year: 2023
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/VFtO54DF4_c/mqdefault.jpg
   date: '2023-10-30'
 - title: 'November 2023 Webinar: Customising your R Experience'
@@ -290,6 +331,7 @@
   path: https://www.youtube.com/watch?v=MTui2ojTH0Q
   year: 2023
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/MTui2ojTH0Q/mqdefault.jpg
   date: '2023-12-18'
 - title: 'December 2023 Webinar: Reproducible Environments using renv'
@@ -297,6 +339,7 @@
   path: https://www.youtube.com/watch?v=7lCOjGrwclQ
   year: 2023
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/7lCOjGrwclQ/mqdefault.jpg
   date: '2023-12-22'
 - title: How to turn your hospital's EHR data into predictions of emergency demand for beds
@@ -304,6 +347,7 @@
   path: https://www.youtube.com/watch?v=ha_zckz3_rU
   year: 2024
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/ha_zckz3_rU/mqdefault.jpg
   date: '2024-06-27'
 - title: Data quality reporting for temporal datasets using the daiquiri package with Phuong Quan
@@ -311,6 +355,7 @@
   path: https://www.youtube.com/watch?v=UzonwAs5dNk
   year: 2024
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/UzonwAs5dNk/mqdefault.jpg
   date: '2024-03-21'
 - title: GitHub Actions and Continuous Integration (pre-recorded)
@@ -318,6 +363,7 @@
   path: https://www.youtube.com/watch?v=6UpVES4aGgw
   year: 2024
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/6UpVES4aGgw/mqdefault.jpg
   date: '2024-09-23'
 - title: Unveiling Congenital Heart Disease and Comorbidities using Primary Care data
@@ -325,6 +371,7 @@
   path: https://www.youtube.com/watch?v=vSekPvgwJKY
   year: 2024
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/vSekPvgwJKY/mqdefault.jpg
   date: '2024-07-11'
 - title: 'NHS-R Webinar:  Open source for analysts and data scientists - 4 July 2024'
@@ -332,6 +379,7 @@
   path: https://www.youtube.com/watch?v=CRCr_z84F14
   year: 2024
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/CRCr_z84F14/mqdefault.jpg
   date: '2024-07-04'
 - title: NHS R Community and Posit Quarto Q&A
@@ -339,6 +387,7 @@
   path: https://www.youtube.com/watch?v=W8dMHYKrAII
   year: 2025
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/W8dMHYKrAII/mqdefault.jpg
   date: '2025-01-24'
 - title: 'May 2025 Webinar: Surfacing the weekly consequences of ED admission delays by statistical modelling'
@@ -346,6 +395,7 @@
   path: https://www.youtube.com/watch?v=NS7RqVFoqA0
   year: 2025
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/NS7RqVFoqA0/mqdefault.jpg
   date: '2025-07-03'
 - title: 'August 2025 Webinar: An Improved I Chart'
@@ -353,6 +403,7 @@
   path: https://www.youtube.com/watch?v=DAYuUEES1Xc
   year: 2025
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/DAYuUEES1Xc/mqdefault.jpg
   date: '2025-12-16'
 - title: 'December 2025 Webinar: Breaking it up: an approach to reproducible analytical pipelines (RAPs)'
@@ -360,6 +411,7 @@
   path: https://www.youtube.com/watch?v=JfqpQYXVUzg
   year: 2025
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/JfqpQYXVUzg/mqdefault.jpg
   date: '2025-12-18'
 - title: 'September Webinar 2025: Complexity Made Approachable: Rethinking R-Based Modelling for Healthcare'
@@ -367,5 +419,6 @@
   path: https://www.youtube.com/watch?v=gZ3a6hLn2bY
   year: 2025
   event: Webinars
+  type: Webinar
   image: https://i.ytimg.com/vi/gZ3a6hLn2bY/mqdefault.jpg
   date: '2025-12-16'
