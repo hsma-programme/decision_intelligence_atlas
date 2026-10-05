@@ -1,0 +1,84 @@
+---
+title: "HSMA: Machine Learning Module"
+categories:
+  - Machine Learning
+  - Courses and Training or Reference Materials
+  - Courses
+  - Asynchronous
+tool-language:
+  - Python
+status: '<span style="color: #D18B12FF">Gold</span>'
+image: hsma_machine_learning_module.png
+author:
+    - name: Dr Daniel Chalk
+      affiliation: Health Service Modelling Associates Programme (HSMA), NIHR PenArc, University of Exeter
+      url: https://experts.exeter.ac.uk/19916-daniel-chalk/about
+    - name: Sammi Rosser
+      affiliation: Health Service Modelling Associates Programme (HSMA), NIHR PenArc, University of Exeter
+      url: https://github.com/Bergam0t
+pub-info:
+  project-type: <i class="fa-solid fa-user-graduate"></i>
+  rationale-for-status: |
+    Module written by an experienced team of academics with over a decade in the operational research and data science space, with input from an ex-NHS data scientist.
+  entry-author:
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
+  abstract: |
+    This is a collection of slides, session recordings, code examples and exercises from the machine learning module of the Health Service Modelling Associates Programme, covering 30 hours of content. It teaches classification and regression with scikit-learn and tensorflow, including machine learning ethics, assessing model performance, explainable AI, model optimisation, reinforcement learning and synthetic data.
+  links:
+  - name: Module
+    url: https://hsma.co.uk/hsma_content/modules/current_module_details/4_machine_learning.html
+    icon: fa-solid fa-book
+  - name: Notebooks
+    url: https://machinelearning.hsma.co.uk
+    icon: fa-solid fa-book-open
+date: "2026-10-05T00:00:00+01:00"
+---
+
+[![HSMA Machine Learning Module Page](hsma_machine_learning_module.png)](https://hsma.co.uk/hsma_content/modules/current_module_details/4_machine_learning.html)
+
+This module serves as an introduction to machine learning methods in Python. Students make use of packages including scikit-learn and tensorflow to train and assess machine learning models that can classify data into groups or predict a numeric value (e.g. length of stay).
+
+It was delivered to the sixth cohort of the [Health Service Modelling Associates (HSMA) programme](/books_training/hsma_programme/index.qmd), a training course aimed at analysts, clinicians, managers and other people working in the NHS and related healthcare organisations.
+
+It covers
+
+- Key machine learning concepts, such as train-test splits, accuracy, the bias-variance trade-off, and more
+- Preparing data for machine learning with one-hot encoding and feature engineering
+- Machine learning ethics
+- Tackling classification problems with machine learning
+- Tackling regression problems (numeric predictions) with machine learning
+- The theory of, and how to apply, a wide range of algorithms using the scikit-learn package: logistic regression, decision trees, random forests, XGBoost, LightGBM, and more
+- Creating ensemble models
+- Assessing the performance of machine learning models in classification and regression problems with accuracy, precision, recall, f1 score, confusion matrices, the receiver operating curve, the ROC AUC, and more
+- How to explain the activity of black-box models with techniques such as individual conditional expectation (ICE) plots, partial dependence plots (PDPs), SHAP values, and more
+- Calibrating models for obtaining prediction probabilities
+- Optimising model parameters efficiently with grid search and the optuna framework
+- Optimising the selected features with a range of feature selection approaches
+- Creating neural networks for classification problems with the tensorflow package
+- The principles of reinforcement learning
+- Creating synthetic data with SMOTE
+
+All slides, session recordings, code examples, exercises and exercise solutions are available to access on the module page, covering 30 hours of content.
+
+## View the module
+
+To view the module, click on the image above or go to <https://hsma.co.uk/hsma_content/modules/current_module_details/4_machine_learning.html>.
+
+<br>
+
+:::{.callout-tip}
+
+The guided code examples from this module, which talk through the how and why of each step, are also collected in the HSMA machine learning notebooks:
+
+<https://machinelearning.hsma.co.uk>
+
+:::
+
+:::{.callout-tip}
+
+Brand new to Python? Consider starting with the HSMA book of Python first:
+
+<https://python.hsma.co.uk>
+
+:::
