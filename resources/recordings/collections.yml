@@ -18,6 +18,8 @@
 #                        "UC" replaced by "UU")
 #       videos         - optional, in place of `id`; a list of video IDs to include,
 #                        e.g. to pick out a few videos from a larger playlist
+#       event          - optional; event shown for its videos, in place of one taken
+#                        from the label
 #       type           - kind of recording, shown in the Recordings Finder
 #       talk_list      - optional; true if session recordings list their talks one per
 #                        line without timestamps (see build_youtube_talks.py)
@@ -83,6 +85,11 @@ nhs_oa_webinars:
     - label: Webinars
       id: PLXCrMzQaI6c36jqIWc9AgHzowzZ2ak9DL
       type: Webinar
+    # Only in the channel's "Shiny and Golem" playlist
+    - label: Shiny and Golem playlist
+      event: Webinars
+      videos: [BZLY7lWzidA]
+      type: Webinar
 
 nhs_oa_workshops:
   folder: books_training/nhs_oa_workshops
@@ -91,6 +98,14 @@ nhs_oa_workshops:
     - label: Workshops
       id: PLXCrMzQaI6c2L4JCRaF2iujzBxe9Rk-rC
       type: Workshop
+    # Only in the channel's "Getting started" playlist
+    - label: Getting started playlist
+      event: Workshops
+      videos: [V0SZsIFMIe4, 2ATXKgv9s7M, H_y-QVrG--w, XMbpHfnoMcM, iLfzNWh2dLI]
+      type: Workshop
+      types_by_title:
+        - pattern: reprex
+          type: Tutorial
 
 nhs_r_podcast:
   folder: books_training/nhs_r_podcast

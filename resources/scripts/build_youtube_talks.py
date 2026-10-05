@@ -335,7 +335,7 @@ def build_talks(playlists, playlist_config):
     for playlist in playlists:
         config = playlist_config[playlist["label"]]
         label_year = re.search(r"\b(19|20)\d{2}\b", playlist["label"])
-        event = re.sub(r"\s*\b(19|20)\d{2}\b", "", playlist["label"]).strip()
+        event = config.get("event") or re.sub(r"\s*\b(19|20)\d{2}\b", "", playlist["label"]).strip()
         for video in playlist["videos"]:
             if any(
                 re.search(pattern, video["title"], re.IGNORECASE)
@@ -421,6 +421,7 @@ def entry_title(folder):
 def main():
     config = yaml.safe_load(CONFIG_FILE.read_text(encoding="utf-8"))
     recordings = []
+    listed = set()
     for name, collection in config.items():
         folder = Path(collection["folder"])
         videos_file = folder / "videos.json"
@@ -445,6 +446,12 @@ def main():
         # Events only add information if there's more than one in the collection
         show_event = len({item["event"] for item in items}) > 1
         for item in items:
+            # Skip talks already listed by an earlier collection, e.g.
+            # conference workshops that are also in a workshop playlist
+            key = (item["path"], item["title"])
+            if key in listed:
+                continue
+            listed.add(key)
             recordings.append({
                 "title": item["title"],
                 "year": item["year"],

@@ -357,6 +357,52 @@
           "thumbnail": "https://i.ytimg.com/vi/IWEY2ELKO2Q/mqdefault.jpg"
         }
       ]
+    },
+    {
+      "label": "Getting started playlist",
+      "id": null,
+      "videos": [
+        {
+          "id": "V0SZsIFMIe4",
+          "title": "Introduction to R and R Studio Pt1",
+          "description": "This is the first part of a recording of Introduction to R and R Studio course which took place on 27 March 2024 with Simon Wellesley-Miller",
+          "published": "2024-05-31T12:41:29Z",
+          "duration": "PT2H6M1S",
+          "thumbnail": "https://i.ytimg.com/vi/V0SZsIFMIe4/mqdefault.jpg"
+        },
+        {
+          "id": "2ATXKgv9s7M",
+          "title": "Introduction to R and R Studio Pt2",
+          "description": "This is the second part of a recording of Introduction to R and R Studio course which took place on 27 March 2024 with Simon Wellesley-Miller",
+          "published": "2024-06-03T13:29:15Z",
+          "duration": "PT3H27M34S",
+          "thumbnail": "https://i.ytimg.com/vi/2ATXKgv9s7M/mqdefault.jpg"
+        },
+        {
+          "id": "H_y-QVrG--w",
+          "title": "Introduction to R and R Studio Part 1 with Annie Yu on 21 February 2024",
+          "description": "Learn about how to import data, wrangle data and produce and export graphs.\n\nPre-requisites: No prior knowledge of R is required; however, it is assumed that you will have a moderate level of computer literacy. For example, you will be able to navigate to drives and files and be confident in searching for solutions to technical problems on the internet. You will work with, or have an interest in, data.\n\nAbout the course: This is a great opportunity for anyone who is interested in data analysis using Excel, SQL, Access or uses statistical programmes like SPSS to get started with R and R Studio.  After this course, you will:\n\nSee examples of R in producing healthcare related visualisations and use publicly available healthcare data to answer questions.\n\nRecognise and understand key terms often used by users of R.\n\nInteract with R using the RStudio environment.\n\nLearn how to set up some of the accessibility features of RStudio.\n\nTake charge of their workflow using RStudio projects.\n\nImport data into R using csv files (other data sources will be discussed).\n\nCarry out data manipulation using simple steps to solve complex problems.\n\nJoin multiple tables together.\n\nProduce and save plots using ggplot2.\n\nLearn how to find more information on functions within R packages.\n\nOpen an RMarkdown template and learn how to get started in producing an integrated text and code report. Take away ideas for continuing learning after the course",
+          "published": "2024-03-01T14:26:21Z",
+          "duration": "PT2H56M33S",
+          "thumbnail": "https://i.ytimg.com/vi/H_y-QVrG--w/mqdefault.jpg"
+        },
+        {
+          "id": "XMbpHfnoMcM",
+          "title": "Introduction to R and R Studio with Annie Yu Pt 2",
+          "description": "Learn about how to import data, wrangle data and produce and export graphs.\n\nPre-requisites: No prior knowledge of R is required; however, it is assumed that you will have a moderate level of computer literacy. For example, you will be able to navigate to drives and files and be confident in searching for solutions to technical problems on the internet. You will work with, or have an interest in, data..\n\nAbout the course: This is a great opportunity for anyone who is interested in data analysis using Excel, SQL, Access or uses statistical programmes like SPSS to get started with R and R Studio.  After this course, you will:\n\nSee examples of R in producing healthcare related visualisations and use publicly available healthcare data to answer questions.\nRecognise and understand key terms often used by users of R.\nInteract with R using the RStudio environment.\nLearn how to set up some of the accessibility features of RStudio.\nTake charge of their workflow using RStudio projects.\nImport data into R using csv files (other data sources will be discussed).\nCarry out data manipulation using simple steps to solve complex problems.\nJoin multiple tables together.\nProduce and save plots using ggplot2.\nLearn how to find more information on functions within R packages.\nOpen an RMarkdown template and learn how to get started in producing an integrated text and code report. Take away ideas for continuing learning after the course",
+          "published": "2024-03-01T14:26:16Z",
+          "duration": "PT3H1M19S",
+          "thumbnail": "https://i.ytimg.com/vi/XMbpHfnoMcM/mqdefault.jpg"
+        },
+        {
+          "id": "iLfzNWh2dLI",
+          "title": "How to use the reprex R package to produce a reproducible example",
+          "description": "Seb Fox shows in this short how to use the reprex R package, using an add in to RStudio and from the command line, how he reproduced an example of code that produced an error in dbplyr.\n\n3:59 Install package\n4:43 Creating data to replicate the problem\n5:28 Code that works using dplyr\n5:38 Code that gives an error using dbplyr with SQL\n7:52 Copy the text and use the reprex add in for RStudio\n10:36 Copy the text and use command line\n\nSubtitles manually checked using ClipChamp.",
+          "published": "2024-09-13T11:08:10Z",
+          "duration": "PT11M20S",
+          "thumbnail": "https://i.ytimg.com/vi/iLfzNWh2dLI/mqdefault.jpg"
+        }
+      ]
     }
   ]
 }
