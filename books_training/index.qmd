@@ -28,6 +28,7 @@ listing:
     exclude:
       categories:
         - General Open Analytics
+        - Paid Resources
 
   - id: books-general
     type: grid
@@ -38,6 +39,19 @@ listing:
     page-size: 1000
     include:
       categories: General Open Analytics
+    exclude:
+      categories:
+        - Paid Resources
+
+  - id: books-paid
+    type: grid
+    grid-columns: 2
+    template: ../packages_projects_tools/listing.ejs
+    sort: Title
+    contents: "*/*.qmd"
+    page-size: 1000
+    include:
+      categories: Paid Resources
 
   - id: training-courses
     type: grid
@@ -110,9 +124,15 @@ If you have any concerns, or would like any content to be removed, please [raise
 
 <br>
 
+<i class="fa-solid fa-hospital"></i> indicates a resource has been written by a team in the NHS, Public Health England, or a similar organisation
+
+<i class="fa-solid fa-user-graduate"></i> indicates a resource has been written by academics, though often they will be working in partnership with NHS organisations in some manner
+
+<i class="fa-solid fa-sterling-sign"></i> indicates a resource is not free to access
+
 ## Books
 
-Free books and eBooks covering analytics, modelling and data science techniques.
+Books and eBooks covering analytics, modelling and data science techniques. Most are free to read online; paid books are listed separately at the end of this section.
 
 ### Healthcare-specific
 
@@ -126,6 +146,13 @@ Books written for, or built around examples from, health and care settings.
 Open books on analytics, modelling and data science that are not specific to healthcare, but are useful for healthcare analysts.
 
 ::: {#books-general}
+:::
+
+### Paid books
+
+Books that must be bought or accessed through a paid subscription. These are marked with <i class="fa-solid fa-sterling-sign"></i>.
+
+::: {#books-paid}
 :::
 
 ## Training

@@ -67,6 +67,7 @@ To create your own entry:
         - `Books` - Books section. Books are listed as healthcare-specific by default; also add `General Open Analytics` if the book isn't specific to healthcare.
         - `Courses`, `Interactive Learning Tools` or `Reference Sites` - the matching subsection of the Training section.
         - `Communities` - Communities section.
+    - If a book has to be bought or needs a paid subscription to read, also tag it with `Paid Resources` so it appears in the 'Paid books' subsection, and add `<i class="fa-solid fa-sterling-sign" title="Paid resource"></i>` to its `project-type`.
     - Note that there are currently a lot of placeholders for various tools/packages/projects that @Bergam0t thinks should be added, which will just contain an empty file called `.gitkeep` that's used to tell GitHub to make the folder. You are very welcome to submit an entry for one of these! In that case, you just won't need to create a new folder - use the one that's already there.
 
 2. Copy the template `.qmd` file from the `templates/` folder into your tool folder. Rename it to `index.qmd`.

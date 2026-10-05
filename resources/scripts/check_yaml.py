@@ -22,6 +22,9 @@ TRAINING_SUBSECTIONS = {
     "Reference Sites",
 }
 
+# Icon that must appear in `pub-info.project-type` for `Paid Resources`.
+PAID_ICON = "fa-sterling-sign"
+
 
 def load_list(path):
     """
@@ -130,7 +133,8 @@ def check_books_training_sections():
     An entry must be tagged with exactly one of `Books`, `Communities` or a
     training subsection (`Courses`, `Interactive Learning Tools`,
     `Reference Sites`). Otherwise it would be missing from, or duplicated
-    on, the Books, Training and Communities page.
+    on, the Books, Training and Communities page. `Paid Resources` entries
+    must also be `Books` and show the paid icon.
     """
     problems = []
 
@@ -156,6 +160,17 @@ def check_books_training_sections():
             problems.append(
                 f"{path}: 'General Open Analytics' can only be used with 'Books'"
             )
+        if "Paid Resources" in categories:
+            if "Books" not in categories:
+                problems.append(
+                    f"{path}: 'Paid Resources' can only be used with 'Books'"
+                )
+            project_type = (meta.get("pub-info") or {}).get("project-type") or ""
+            if PAID_ICON not in project_type:
+                problems.append(
+                    f"{path}: 'Paid Resources' entries must include the "
+                    f"{PAID_ICON} icon in pub-info.project-type"
+                )
 
     if problems:
         print("books_training section validation failed:\n")
