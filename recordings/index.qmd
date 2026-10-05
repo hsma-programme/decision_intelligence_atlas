@@ -65,6 +65,19 @@ function multiselect(values, {label, all}) {
     if (!dropdown.contains(event.target)) dropdown.open = false;
   });
   Object.defineProperty(form, "value", {get: () => checkboxes.value});
+  // Show only the given options, unticking any hidden ones
+  form.showOnly = shown => {
+    let changed = false;
+    for (const box of checkboxes.querySelectorAll("input")) {
+      const visible = shown.has(values[box.value]);
+      box.parentElement.style.display = visible ? "" : "none";
+      if (!visible && box.checked) {
+        box.checked = false;
+        changed = true;
+      }
+    }
+    if (changed) checkboxes.dispatchEvent(new Event("input", {bubbles: true}));
+  };
   update();
   return form;
 }
@@ -94,6 +107,10 @@ viewof types = multiselect(options(recordings.map(d => d.type)), {label: "Type",
 ```
 
 ```{ojs}
+viewof events = multiselect(options(recordings.map(d => d.event).filter(d => d)), {label: "Event", all: "All events"})
+```
+
+```{ojs}
 // Select any number of years; selecting none shows all years
 viewof years = multiselect(
   options(recordings.map(d => d.year).filter(d => d != null)).reverse(),
@@ -104,9 +121,20 @@ viewof years = multiselect(
 :::
 
 ```{ojs}
+//| output: false
+// Only offer events from the selected sources (or all sources if none are selected)
+{
+  viewof events.showOnly(new Set(recordings
+    .filter(d => sources.length === 0 || sources.includes(d.source))
+    .map(d => d.event)));
+}
+```
+
+```{ojs}
 filtered = query.filter(d =>
   (sources.length === 0 || sources.includes(d.source)) &&
   (types.length === 0 || types.includes(d.type)) &&
+  (events.length === 0 || events.includes(d.event)) &&
   (years.length === 0 || years.includes(d.year))
 )
 

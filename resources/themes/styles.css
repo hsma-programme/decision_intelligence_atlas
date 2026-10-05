@@ -321,7 +321,10 @@ p {
 .recordings-multiselect-options {
     position: absolute;
     z-index: 1000;
-    width: 100%;
+    /* At least as wide as the dropdown, and wider for long options */
+    min-width: 100%;
+    width: max-content;
+    max-width: 420px;
     max-height: 300px;
     overflow-y: auto;
     padding: 0.25rem 0.5rem;
