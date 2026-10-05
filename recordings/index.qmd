@@ -50,8 +50,28 @@ function expandable(text) {
   return html`<span>${content} ${toggle}</span>`;
 }
 
-function options(values, all) {
-  return [all, ...Array.from(new Set(values)).sort((a, b) => a < b ? -1 : a > b ? 1 : 0)];
+// A dropdown of checkboxes, for choosing any number of values
+function multiselect(values, {label, all}) {
+  const checkboxes = Inputs.checkbox(values, {format: String});
+  const summary = html`<summary></summary>`;
+  const dropdown = html`<details>${summary}<div class="recordings-multiselect-options">${checkboxes}</div></details>`;
+  const form = html`<div class="recordings-multiselect"><label>${label}</label>${dropdown}</div>`;
+  const update = () => {
+    summary.textContent = checkboxes.value.length ? checkboxes.value.join(", ") : all;
+  };
+  checkboxes.addEventListener("input", update);
+  // Close when clicking elsewhere on the page
+  document.addEventListener("click", event => {
+    if (!dropdown.contains(event.target)) dropdown.open = false;
+  });
+  Object.defineProperty(form, "value", {get: () => checkboxes.value});
+  update();
+  return form;
+}
+
+// Unique values, sorted
+function options(values) {
+  return Array.from(new Set(values)).sort((a, b) => a < b ? -1 : a > b ? 1 : 0);
 }
 ```
 
@@ -66,17 +86,18 @@ viewof query = Inputs.search(recordings, {
 ::: {.recordings-filters}
 
 ```{ojs}
-viewof source = Inputs.select(options(recordings.map(d => d.source), "All sources"), {label: "Source", width: 240})
+viewof sources = multiselect(options(recordings.map(d => d.source)), {label: "Source", all: "All sources"})
 ```
 
 ```{ojs}
-viewof type = Inputs.select(options(recordings.map(d => d.type), "All types"), {label: "Type", width: 240})
+viewof types = multiselect(options(recordings.map(d => d.type)), {label: "Type", all: "All types"})
 ```
 
 ```{ojs}
-viewof year = Inputs.select(
-  ["All years", ...options(recordings.map(d => d.year).filter(d => d != null), "").slice(1).reverse()],
-  {label: "Year", width: 240}
+// Select any number of years; selecting none shows all years
+viewof years = multiselect(
+  options(recordings.map(d => d.year).filter(d => d != null)).reverse(),
+  {label: "Year", all: "All years"}
 )
 ```
 
@@ -84,9 +105,9 @@ viewof year = Inputs.select(
 
 ```{ojs}
 filtered = query.filter(d =>
-  (source === "All sources" || d.source === source) &&
-  (type === "All types" || d.type === type) &&
-  (year === "All years" || d.year === year)
+  (sources.length === 0 || sources.includes(d.source)) &&
+  (types.length === 0 || types.includes(d.type)) &&
+  (years.length === 0 || years.includes(d.year))
 )
 
 md`Showing **${filtered.length}** of ${recordings.length} recordings.`
