@@ -93,6 +93,7 @@
       "/books_training/analyst_network_huddles/index.html",
       "/books_training/apha_recordings/index.html",
       "/books_training/haca/index.html",
+      "/books_training/hacorn/index.html",
       "/books_training/hdruk_futures/index.html",
       "/books_training/health_rap_playbook/index.html",
       "/books_training/hsma_geographic_book/index.html",
@@ -227,6 +228,7 @@
       "/books_training/strategy_unit_webinars/index.html",
       "/books_training/apha/index.html",
       "/books_training/haca/index.html",
+      "/books_training/hacorn/index.html",
       "/books_training/nhs_oa_community/index.html",
       "/books_training/rap_community_of_practice/index.html",
       "/books_training/swaih/index.html"
@@ -237,11 +239,7 @@
     "items": []
   },
   {
-    "listing": "/books_training/haca/index.html",
-    "items": []
-  },
-  {
-    "listing": "/books_training/apha_recordings/index.html",
+    "listing": "/books_training/des_rap_book/index.html",
     "items": []
   },
   {
@@ -249,7 +247,11 @@
     "items": []
   },
   {
-    "listing": "/books_training/des_rap_book/index.html",
+    "listing": "/books_training/apha_recordings/index.html",
+    "items": []
+  },
+  {
+    "listing": "/books_training/haca/index.html",
     "items": []
   },
   {
