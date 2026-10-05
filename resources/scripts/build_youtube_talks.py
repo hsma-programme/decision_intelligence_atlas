@@ -16,7 +16,13 @@ where the description lists them:
 * Plain lists of talks (for playlists with `talk_list: true`) also link to
   the start of the recording.
 
-Recordings with no talk details are kept as a single row.
+Items that aren't talks (breaks, lunch, Q&A) and short welcomes and closing
+remarks are left out when splitting.
+
+Recordings with no talk details are kept as a single row, as are all
+recordings in collections with `split_talks: false` and videos listed in a
+collection's `keep_whole_videos` (e.g. lectures whose timestamps mark
+sections of one talk rather than separate talks).
 
 Each row also gets a duration: the length of the video, or for a talk split
 out by timestamps, the time until the next timestamp (or the end of the
@@ -48,6 +54,11 @@ TIMESTAMP_LINE = re.compile(
 NOT_TALKS = re.compile(
     r"^(break|lunch|close|closing|end|q\s*&\s*a)\b|^lightning talks$", re.IGNORECASE
 )
+
+# Welcomes and closing remarks, skipped if shorter than SHORT_REMARKS_SECONDS.
+# Longer ones, and ones whose length isn't known, are kept.
+REMARKS = re.compile(r"\b(welcome|opening|closing)\b|\bthank you\b", re.IGNORECASE)
+SHORT_REMARKS_SECONDS = 5 * 60
 
 MAX_DESCRIPTION_LENGTH = 300
 
@@ -193,10 +204,16 @@ def split_talks(video, talk_list):
             starts = to_start_times(times)
             # Each talk ends where the next item (including breaks) starts
             ends = starts[1:] + [None]
+        video_seconds = parse_duration(video.get("duration"))
         return [
             (strip_urls(m["text"]), start, end)
             for m, start, end in zip(timed, starts, ends)
             if not NOT_TALKS.search(m["text"])
+            and not (
+                REMARKS.search(m["text"])
+                and (talk_duration(start, end, video_seconds) or SHORT_REMARKS_SECONDS)
+                < SHORT_REMARKS_SECONDS
+            )
         ]
 
     if talk_list:
@@ -460,6 +477,10 @@ def build_talks(playlists, playlist_config, collection):
         label_year = re.search(r"\b(19|20)\d{2}\b", playlist["label"])
         event = config.get("event") or re.sub(r"\s*\b(19|20)\d{2}\b", "", playlist["label"]).strip()
         for video in playlist["videos"]:
+            # Also left out when fetching, but checked here too so that videos
+            # added to exclude_videos are dropped without fetching again
+            if video["id"] in collection.get("exclude_videos", []):
+                continue
             if any(
                 re.search(pattern, video["title"], re.IGNORECASE)
                 for pattern in config.get("exclude_by_title", [])
@@ -481,7 +502,12 @@ def build_talks(playlists, playlist_config, collection):
                 video = title_from_description(video)
             video = remove_boilerplate(video, config)
             video_seconds = parse_duration(video.get("duration"))
-            talks = split_talks(video, config.get("talk_list", False))
+            talks = (
+                split_talks(video, config.get("talk_list", False))
+                if collection.get("split_talks", True)
+                and video["id"] not in collection.get("keep_whole_videos", [])
+                else []
+            )
             if not talks:
                 item = {
                     "title": video["title"],

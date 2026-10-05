@@ -25,96 +25,15 @@
   image: https://i.ytimg.com/vi/jdbZm4KeWYc/mqdefault.jpg
   date: '2026-01-13'
   duration: 01:45:57
-- title: Introduction
-  description: From the recording 'Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy', starting at 0:00.
-  path: https://www.youtube.com/watch?v=egUhA9OtXyg&t=0s
+- title: Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy
+  description: '00:00 Introduction 00:39 Background and understanding potentially mitigable activity 6:06 Typical assumptions for the extent of mitigation 10:07 Future opportunities 15:19 User guide: understanding the report layout 18:06 Characterising the mitigator cohorts 19:25 Understanding overlap between…'
+  path: https://www.youtube.com/watch?v=egUhA9OtXyg
   year: 2025
   event: NHP demand and capacity model training
   type: Training course
   image: https://i.ytimg.com/vi/egUhA9OtXyg/mqdefault.jpg
   date: '2025-06-16'
-  duration: 00:00:39
-- title: Background and understanding potentially mitigable activity
-  description: From the recording 'Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy', starting at 0:39.
-  path: https://www.youtube.com/watch?v=egUhA9OtXyg&t=39s
-  year: 2025
-  event: NHP demand and capacity model training
-  type: Training course
-  image: https://i.ytimg.com/vi/egUhA9OtXyg/mqdefault.jpg
-  date: '2025-06-16'
-  duration: 00:05:27
-- title: Typical assumptions for the extent of mitigation
-  description: From the recording 'Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy', starting at 6:06.
-  path: https://www.youtube.com/watch?v=egUhA9OtXyg&t=366s
-  year: 2025
-  event: NHP demand and capacity model training
-  type: Training course
-  image: https://i.ytimg.com/vi/egUhA9OtXyg/mqdefault.jpg
-  date: '2025-06-16'
-  duration: 00:04:01
-- title: Future opportunities
-  description: From the recording 'Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy', starting at 10:07.
-  path: https://www.youtube.com/watch?v=egUhA9OtXyg&t=607s
-  year: 2025
-  event: NHP demand and capacity model training
-  type: Training course
-  image: https://i.ytimg.com/vi/egUhA9OtXyg/mqdefault.jpg
-  date: '2025-06-16'
-  duration: 00:05:12
-- title: 'User guide: understanding the report layout'
-  description: From the recording 'Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy', starting at 15:19.
-  path: https://www.youtube.com/watch?v=egUhA9OtXyg&t=919s
-  year: 2025
-  event: NHP demand and capacity model training
-  type: Training course
-  image: https://i.ytimg.com/vi/egUhA9OtXyg/mqdefault.jpg
-  date: '2025-06-16'
-  duration: 00:02:47
-- title: Characterising the mitigator cohorts
-  description: From the recording 'Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy', starting at 18:06.
-  path: https://www.youtube.com/watch?v=egUhA9OtXyg&t=1086s
-  year: 2025
-  event: NHP demand and capacity model training
-  type: Training course
-  image: https://i.ytimg.com/vi/egUhA9OtXyg/mqdefault.jpg
-  date: '2025-06-16'
-  duration: 00:01:19
-- title: Understanding overlap between mitigator cohorts
-  description: From the recording 'Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy', starting at 19:25.
-  path: https://www.youtube.com/watch?v=egUhA9OtXyg&t=1165s
-  year: 2025
-  event: NHP demand and capacity model training
-  type: Training course
-  image: https://i.ytimg.com/vi/egUhA9OtXyg/mqdefault.jpg
-  date: '2025-06-16'
-  duration: 00:01:20
-- title: Making comparisons between ICBs
-  description: From the recording 'Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy', starting at 20:45.
-  path: https://www.youtube.com/watch?v=egUhA9OtXyg&t=1245s
-  year: 2025
-  event: NHP demand and capacity model training
-  type: Training course
-  image: https://i.ytimg.com/vi/egUhA9OtXyg/mqdefault.jpg
-  date: '2025-06-16'
-  duration: 00:01:39
-- title: National and sub-national trends in mitigable activity
-  description: From the recording 'Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy', starting at 22:24.
-  path: https://www.youtube.com/watch?v=egUhA9OtXyg&t=1344s
-  year: 2025
-  event: NHP demand and capacity model training
-  type: Training course
-  image: https://i.ytimg.com/vi/egUhA9OtXyg/mqdefault.jpg
-  date: '2025-06-16'
-  duration: 00:02:58
-- title: Potential limitations/pitfalls
-  description: From the recording 'Qualifying Mitigation Overview with Peter Spilsbury, Sarah Lucas and James Sandy', starting at 25:22.
-  path: https://www.youtube.com/watch?v=egUhA9OtXyg&t=1522s
-  year: 2025
-  event: NHP demand and capacity model training
-  type: Training course
-  image: https://i.ytimg.com/vi/egUhA9OtXyg/mqdefault.jpg
-  date: '2025-06-16'
-  duration: 00:03:51
+  duration: 00:29:13
 - title: NHP Demand and Capacity (D&C) Model
   description: A Technical Deep Dive for Data Scientists 13th May 2025
   path: https://www.youtube.com/watch?v=dXjNG2EbsfI

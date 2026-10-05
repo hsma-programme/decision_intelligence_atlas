@@ -53,6 +53,12 @@
 #       title_from_description - optional; true to use the first line of each
 #                        video's description as its title, for playlists whose video
 #                        titles are cluttered or cut short
+#   split_talks        - optional; false to keep every video as one row, rather than
+#                        splitting recordings into talks using the timestamps or talk
+#                        lists in their descriptions, e.g. where timestamps mark
+#                        sections of a lecture rather than separate talks
+#   keep_whole_videos  - optional; IDs of videos to keep as one row, for the same
+#                        reason, in collections where other recordings should be split
 #   exclude_playlists  - optional; videos in these playlists are left out
 #   exclude_videos     - optional; these videos are left out
 
@@ -97,6 +103,12 @@ nhs_oa_conferences:
     - label: "NHS-R Community Conference 2020: workshops"
       id: PLXCrMzQaI6c3EAh10hDZectzBALWPk19w
       type: Conference workshop
+  # Intro to R and RStudio (Parts 1 and 2), also in the workshops collection,
+  # whose timestamps mark sections of the workshop, not separate talks
+  keep_whole_videos: [dS91HzZLD_c, 1tjQkxYfSGk]
+  # Short opening and closing speeches: RPySOC 2025 closing, and the opening
+  # of the 2022 conference's Python track
+  exclude_videos: [v5OaYnKPZaQ, -0Bxk7v0SM4]
 
 nhs_oa_webinars:
   folder: books_training/nhs_oa_webinars
@@ -145,6 +157,9 @@ nhs_oa_workshops:
       types_by_title:
         - pattern: reprex
           type: Tutorial
+  # Timestamps in these mark sections of the workshop, not separate talks:
+  # Intro to R and RStudio (Parts 1 and 2), and the reprex tutorial
+  keep_whole_videos: [dS91HzZLD_c, 1tjQkxYfSGk, iLfzNWh2dLI]
 
 nhs_r_podcast:
   folder: books_training/nhs_r_podcast
@@ -242,9 +257,10 @@ insight_festival:
         - "^Insight 2020 featured a mixture"
         - "like any more information about the Festival"
         - '^(www\.\S+\s*)+$'
-  # Short congratulations video, and a second upload of a training session listed
-  # with the MDSN training recordings
-  exclude_videos: [O-6ya7uY3zA, daF4tVK8ED8]
+  # Short congratulations video, a second upload of a training session listed
+  # with the MDSN training recordings, and a short introduction to Insight 2020
+  # by Peter Spilsbury
+  exclude_videos: [O-6ya7uY3zA, daF4tVK8ED8, BanOB82a3n8]
 
 strategy_unit_webinars:
   folder: books_training/strategy_unit_webinars
@@ -281,6 +297,9 @@ nhp_training:
     - label: NHP demand and capacity model training
       id: PLFEXOtXX7YkkHkN2mWn3V-K_LnZXP2cGY
       type: Training course
+  # Timestamps in the Qualifying Mitigation Overview mark sections of the
+  # session, not separate talks
+  keep_whole_videos: [egUhA9OtXyg]
 
 hsma_project_showcases:
   folder: books_training/hsma_project_showcases
@@ -317,6 +336,9 @@ hsma_project_showcases:
 hsma_lectures:
   folder: books_training/hsma_lecture_recordings
   source: HSMA
+  # Timestamps in lecture descriptions mark sections of the lecture, not separate
+  # talks, so keep each video whole
+  split_talks: false
   playlists:
     - label: Standalone workshops
       id: PLYdeZL7U9wI0
@@ -415,6 +437,8 @@ haca:
       type: Conference talk
   # Not included: promotional videos, short interviews with the 2024 audience,
   # and a few videos uploaded twice, outside the conference playlists
+  # Short closing of Day 1 at HACA 2024, and introduction to Day 2 at HACA 2023
+  exclude_videos: [r6smLC2kaIQ, YLl49GgKGno]
 
 swaih:
   folder: books_training/swaih
