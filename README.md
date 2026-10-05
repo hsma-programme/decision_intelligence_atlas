@@ -160,7 +160,7 @@ nhs_oa_conferences:
 
 The playlist ID is the part of the playlist's URL after `list=`. Playlists are listed on the entry and in the Recordings Finder in the order they appear in the file, so put the newest first.
 
-Then [fetch and build the recordings](#fetching-and-building-the-recordings), and preview the entry and the Recordings Finder.
+Then [fetch and build the recordings](#fetching-and-building-the-recordings), preview the entry and the Recordings Finder, and [check how recordings were split](#checking-how-recordings-were-split) into talks.
 
 #### Adding a new collection
 
@@ -215,7 +215,7 @@ Then [fetch and build the recordings](#fetching-and-building-the-recordings), an
 
 3. **Add the entry to the Sources list** at the bottom of `recordings/index.qmd`.
 
-4. **[Fetch and build the recordings](#fetching-and-building-the-recordings)**, then preview the new entry and the Recordings Finder, and [check for duplicates](#duplicates) of talks already in the Atlas.
+4. **[Fetch and build the recordings](#fetching-and-building-the-recordings)**, then preview the new entry and the Recordings Finder. [Check how recordings were split](#checking-how-recordings-were-split) into talks, and [check for duplicates](#duplicates) of talks already in the Atlas.
 
 If you don't have a YouTube API key, you can still build: the build script will create an empty table for the new collection. Its videos can then be fetched by [running the GitHub Action](#option-1-run-the-github-action-no-api-key-of-your-own-needed) on your branch, or will be fetched by the monthly run once your pull request is merged.
 
@@ -292,7 +292,25 @@ Some recordings cover a whole session or day with several talks. Where a recordi
 
 Items that aren't talks, such as breaks, lunch and Q&A, are left out when splitting, as are welcomes, thank-yous and opening or closing remarks shorter than 5 minutes. Longer ones, and ones whose length isn't known, are kept.
 
-Recordings that don't list their talks are kept as one row, as are all recordings in collections with `split_talks: false` and any videos listed in `keep_whole_videos`. If a recording isn't split as you'd expect, check its description on YouTube - the best fix is usually to add timestamps to the description there, which also gives viewers chapters to jump between.
+Recordings that don't list their talks are kept as one row, as are all recordings in collections with `split_talks: false` and any videos listed in `keep_whole_videos`.
+
+#### Checking how recordings were split
+
+Timestamps don't always mean separate talks. Many lectures, workshops and training sessions have timestamps that mark their **sections** (e.g. `55:23 Using Projects`, `1:18:00 Introduction to ggplot2`) as chapters for viewers. These get split into rows too, which fills the tables with fragments that aren't useful on their own. So after building, check which recordings were split:
+
+```
+python -c "import json, collections, re; c = collections.Counter((r['collection'], re.sub(r'&t=\d+s', '', r['url'])) for r in json.load(open('recordings/recordings.json', encoding='utf-8'))); [print(n, col, url) for (col, url), n in c.most_common() if n > 1]"
+```
+
+This lists each recording split into more than one row, with the number of rows. For each one, ask whether the rows are separate talks, usually by different speakers, that someone might want to find on their own:
+
+* **Separate talks**, such as conference sessions, lightning talks or a branch meeting with several presentations: leave them split.
+* **Sections of one talk**, such as a lecture or workshop: keep the recording as one row. Add its video ID to the collection's `keep_whole_videos`, or, if the collection is mostly lectures or workshops (like the HSMA lecture recordings), set `split_talks: false` on the collection.
+* **A short clip that isn't a talk**, such as a welcome, a closing speech or an introduction to the day, uploaded as its own video: add its video ID to `exclude_videos`. Don't use `exclude_by_title` for a row split out of a longer recording - it matches the title of the whole recording, so it would leave out every talk in it.
+
+If a recording of several talks isn't split, check its description on YouTube. The best fix is usually to add timestamps to the description there, which also gives viewers chapters to jump between.
+
+The monthly refresh splits new videos in existing playlists in the same way, so it's worth running this check every so often, as new recordings are added.
 
 #### Years and dates
 
