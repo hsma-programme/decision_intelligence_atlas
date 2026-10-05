@@ -8,7 +8,7 @@ categories:
 tool-language:
   - R
 status: '<span style="color: #D18B12FF">Gold</span>'
-# image: cover.png
+image: cover.jpg
 author:
   - name: Hadley Wickham
     url: https://hadley.nz
