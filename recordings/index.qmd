@@ -110,7 +110,7 @@ filtered = query.filter(d =>
   (years.length === 0 || years.includes(d.year))
 )
 
-md`Showing **${filtered.length}** of ${recordings.length} recordings.`
+md`Showing **${filtered.length}** of ${recordings.length} recordings${filtered.length > 6 ? " - scroll within the table to see them all" : ""}.`
 ```
 
 ```{ojs}
