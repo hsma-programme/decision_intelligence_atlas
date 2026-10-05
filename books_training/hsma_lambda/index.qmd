@@ -1,0 +1,71 @@
+---
+title: "HSMA-λ (HSMA Lambda): Workshops for Decision Makers"
+categories:
+  - Service Planning
+  - Machine Learning
+  - Courses and Training or Reference Materials
+  - Courses
+tool-language: N/A
+status: N/A
+# image: hsma_lambda.png
+author:
+    - name: Dr Daniel Chalk
+      affiliation: Health Service Modelling Associates Programme (HSMA), NIHR PenArc, University of Exeter
+      url: https://experts.exeter.ac.uk/19916-daniel-chalk/about
+    - name: Sammi Rosser
+      affiliation: Health Service Modelling Associates Programme (HSMA), NIHR PenArc, University of Exeter
+      url: https://github.com/Bergam0t
+pub-info:
+  project-type: <i class="fa-solid fa-user-graduate"></i>
+  rationale-for-status: |
+    Non-technical workshops without code, so they are not ranked.
+  entry-author:
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
+  abstract: |
+    HSMA-λ is a series of standalone, code-free online workshops from the HSMA team for decision makers in the health service. Each three-hour workshop covers one technique taught on the HSMA programme - simulation, location optimisation or machine learning - so that participants can ask the right questions and interpret project outputs. It is free to people working in public sector healthcare organisations.
+  links:
+  - name: Website
+    url: https://hsma.co.uk/lambda.html
+    icon: fa-solid fa-globe
+  - name: Register interest
+    url: https://forms.cloud.microsoft/e/spFr8qr2pP
+    icon: fa-solid fa-pen-to-square
+date: "2026-10-05T00:00:00+01:00"
+---
+
+HSMA-λ (HSMA lambda) is a new series of workshops from the team behind the [HSMA programme](/books_training/hsma_programme/index.qmd). Where HSMA teaches analysts and others to build models themselves, HSMA-λ is aimed at the leaders and decision makers who commission, support and act on that work. In the programme's own words:
+
+> HSMA-λ will focus on supporting participants to understand the advanced techniques that are taught on HSMA so you can ask the right questions and interpret project outputs.
+>
+> No code, no technical jargon
+>
+> Just teaching focused on real-world application, helping you understand the art of the possible in cutting-edge data science and operational research techniques, whatever your prior level of knowledge.
+
+Each workshop:
+
+* is an interactive online session lasting around 3 hours, with time for group discussion and questions
+* is free of charge to people working in a public sector healthcare organisation
+* is delivered to a small group of fewer than 20 people in similar roles across the health service
+
+## Workshops
+
+There are three workshops, each focusing on a different technique. You can attend one, two or all three.
+
+| Workshop | Technique |
+|----------|-----------|
+| Simulation Modelling for Pathway Problems | Discrete event simulation (DES), for answering 'what-if' questions about how pathways are resourced and configured |
+| Location Optimization for Equity and Efficiency | Location optimisation, for deciding where services should be sited, accounting for travel times, equity and emissions |
+| Machine Learning for Operational Improvements | Machine learning, including data requirements, ethics, regulation and how to assess algorithm performance |
+
+At each workshop, participants identify problems in their own organisation, or shared across organisations, that could be tackled with the technique. They can also put forward project ideas and nominate people from their organisation for the next round of HSMA, HSMA 7, which is planned to launch in spring/summer 2027.
+
+The workshops do not teach you to build the models yourself. For that, see the main [HSMA programme](/books_training/hsma_programme/index.qmd).
+
+:::{.callout-tip}
+The materials from the pilot simulation workshop, *DESperately Seeking Simulation*, are freely available, including the slides and a simplified interactive simulation. You can find them on the [pilot workshop page](https://hsma.co.uk/hsma_content/desperately_seeking_simulation_workshop.html).
+:::
+
+## Signing up
+
+The workshops are planned to run from winter 2026 to spring 2027. To find out about workshop dates, fill in the [expression of interest form](https://forms.cloud.microsoft/e/spFr8qr2pP). Workshop details are on the [HSMA-λ page](https://hsma.co.uk/lambda.html).
