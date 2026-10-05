@@ -1,0 +1,47 @@
+---
+title: "R for Data Science (2e)"
+categories:
+  - Courses and Training or Reference Materials
+  - Books
+  - General Open Analytics
+  - Data Visualisation
+tool-language:
+  - R
+status: '<span style="color: #D18B12FF">Gold</span>'
+# image: cover.png
+author:
+  - name: Hadley Wickham
+    url: https://hadley.nz
+  - name: Mine Çetinkaya-Rundel
+    url: https://mine-cr.com
+  - name: Garrett Grolemund
+pub-info:
+  project-type: <i class="fa-solid fa-user-graduate"></i>
+  rationale-for-status: |
+    A widely used, freely available book written by the creators and maintainers of many tidyverse packages, with extensive worked code examples and exercises, and the full source openly available.
+  entry-author:
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
+  abstract: |
+    R for Data Science is a free online book that teaches how to do data science with R, from importing and tidying data through to transforming, visualising and communicating it. It is built around the tidyverse collection of packages, including ggplot2, dplyr and tidyr, and Quarto for reporting.
+  links:
+  - name: Code
+    url: https://github.com/hadley/r4ds
+    icon: fa-brands fa-github
+  - name: eBook
+    url: https://r4ds.hadley.nz
+    icon: fa-solid fa-book
+date: "2026-10-05T00:00:00+01:00"
+---
+
+R for Data Science is one of the most popular introductions to data science in R. The second edition covers the whole data science workflow:
+
+* Importing data from files, spreadsheets, databases and the web
+* Tidying and transforming data with the tidyverse
+* Visualising data with ggplot2
+* Writing functions and iterating
+* Communicating results with Quarto
+
+Although it is not specific to healthcare, the skills it teaches apply directly to day-to-day work in health and care analytics.
+
+You can read the book for free at <https://r4ds.hadley.nz>.
