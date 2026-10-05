@@ -141,7 +141,7 @@ Don't want to touch the code? [Raise an issue](https://github.com/hsma-programme
 * `resources/recordings/collections.yml` lists every **collection** of recordings. Each collection belongs to one Atlas entry, and lists the YouTube playlists (or individual videos) it contains.
 * `resources/scripts/fetch_youtube_playlists.py` uses the YouTube Data API to fetch the title, description, date and thumbnail of every video, writing them to a `videos.json` file in each collection's entry folder.
 * `resources/scripts/build_youtube_talks.py` turns each `videos.json` into a `talks.yml` file, with one row per talk, which is shown as a searchable table on the entry. It also writes `recordings/recordings.json`, which the Recordings Finder reads.
-* The **Update YouTube recordings** GitHub Action runs both scripts for every collection on the 1st of each month, commits any changes and republishes the site. It can also be run by hand from the repository's Actions tab, e.g. straight after a conference.
+* The **Update YouTube recordings** GitHub Action runs both scripts for every collection on the 1st of each month, commits any changes and republishes the site, using the Atlas's API key stored as a repository secret. It can also be [run by hand](#option-1-run-the-github-action-no-api-key-of-your-own-needed), e.g. straight after a conference.
 
 #### Adding a playlist to an existing collection
 
@@ -209,7 +209,7 @@ Then [fetch and build the recordings](#fetching-and-building-the-recordings), an
 
 4. **[Fetch and build the recordings](#fetching-and-building-the-recordings)**, then preview the new entry and the Recordings Finder.
 
-If you don't have a YouTube API key, you can skip fetching: the build script will create an empty table for the new collection, and its videos will be fetched by the GitHub Action, or by a maintainer, once your pull request is merged.
+If you don't have a YouTube API key, you can still build: the build script will create an empty table for the new collection. Its videos can then be fetched by [running the GitHub Action](#option-1-run-the-github-action-no-api-key-of-your-own-needed) on your branch, or will be fetched by the monthly run once your pull request is merged.
 
 #### Collection options
 
@@ -247,15 +247,49 @@ Recordings that don't list their talks are kept as one row. If a recording isn't
 
 #### Fetching and building the recordings
 
-1. **Fetch** the video details with the YouTube Data API:
+Fetching the videos' details from YouTube needs a YouTube Data API key. There are two ways to do it.
+
+##### Option 1: run the GitHub Action (no API key of your own needed)
+
+The **Update YouTube recordings** GitHub Action uses the Atlas's own API key, which is stored securely in the repository as the `YOUTUBE_API_KEY` secret. As well as running automatically on the 1st of each month, anyone with write access to the repository can run it by hand:
+
+1. Go to the repository's **Actions** tab and choose **Update YouTube recordings** from the list of workflows.
+2. Click **Run workflow**, choose the branch to run it on, and click the green **Run workflow** button.
+
+The Action fetches every collection, builds the tables of talks, and commits any changes to the branch it was run on.
+
+* Run on `main` (e.g. straight after a conference, to pick up new videos in an existing playlist), it also republishes the site.
+* Run on another branch (e.g. the branch for a pull request adding a new collection), it commits the fetched recordings to that branch without publishing anything, so they can be reviewed before merging.
+
+If you've contributed from a fork and don't have write access, you don't need to do anything - a maintainer will run the Action, or the monthly run will pick up your collection once your pull request is merged.
+
+##### Option 2: run the scripts yourself
+
+1. **Get an API key.** Keys are free. Create a project in the [Google Cloud Console](https://console.cloud.google.com/), enable the **YouTube Data API v3**, and create an API key under **APIs & Services > Credentials**. Under the key's **API restrictions**, restrict it to the YouTube Data API v3 only. Fetching every collection uses well under 1% of the free daily quota.
+
+2. **Make the key available to the scripts**, as an environment variable called `YOUTUBE_API_KEY`. The simplest way is a `.env` file in the root of the project containing:
+
+    ```
+    YOUTUBE_API_KEY=your-key-here
+    ```
+
+    The scripts read this file automatically. Alternatively, set the environment variable in your terminal before running the scripts. This only lasts until you close the terminal:
+
+    * Windows (PowerShell): `$env:YOUTUBE_API_KEY = "your-key-here"`
+    * Windows (Command Prompt): `set YOUTUBE_API_KEY=your-key-here`
+    * macOS or Linux: `export YOUTUBE_API_KEY=your-key-here`
+
+    or set it permanently for your user account, e.g. on Windows by running `[Environment]::SetEnvironmentVariable("YOUTUBE_API_KEY", "your-key-here", "User")` in PowerShell and then restarting your terminal and code editor. If you're working in GitHub Codespaces, add the key as a [Codespaces secret](https://docs.github.com/en/codespaces/managing-your-codespaces/managing-your-account-specific-secrets-for-github-codespaces) called `YOUTUBE_API_KEY` instead.
+
+3. **Fetch** the video details:
 
     ```
     python resources/scripts/fetch_youtube_playlists.py [collection ...]
     ```
 
-    Give the names of the collections to fetch (e.g. `nhs_oa_conferences`), or leave them out to fetch all of them. This needs a YouTube Data API key, set as the `YOUTUBE_API_KEY` environment variable or in a `.env` file in the project root (`YOUTUBE_API_KEY=your-key-here`), which is ignored by git. To get a free key, create a project in the [Google Cloud Console](https://console.cloud.google.com/), enable the YouTube Data API v3, and create an API key under 'Credentials', restricting it to the YouTube Data API v3 only. Fetching every collection uses well under 1% of the free daily quota.
+    Give the names of the collections to fetch (e.g. `nhs_oa_conferences`), or leave them out to fetch all of them. This writes a `videos.json` file to each collection's folder.
 
-2. **Build** the tables of talks. This doesn't need an API key:
+4. **Build** the tables of talks. This doesn't need an API key:
 
     ```
     python resources/scripts/build_youtube_talks.py
@@ -263,7 +297,14 @@ Recordings that don't list their talks are kept as one row. If a recording isn't
 
 Both scripts need the `pyyaml` package, which is included in the project's `environment.yaml`. Commit the updated `videos.json` and `talks.yml` files, and `recordings/recordings.json`, along with your other changes.
 
-For the GitHub Action, the API key is stored as the `YOUTUBE_API_KEY` repository secret (Settings > Secrets and variables > Actions).
+> [!WARNING]
+> **Keep your API key secret.** Anyone with your key can use up its quota, and could run up costs if billing is enabled on your Google Cloud project.
+>
+> * **Never commit your key.** Don't put it in any of the Atlas's files except `.env`, which is ignored by git. To double-check before committing, run `git check-ignore .env` (which should print `.env`) and look through `git status` and `git diff` for your key.
+> * Don't paste your key into issues, pull requests, discussions or chat tools - including AI assistants.
+> * Don't use `--body` or similar to pass your key to command line tools, as it will be saved in your shell's history.
+> * Restrict your key to the YouTube Data API v3 only, so it can't be used for anything else.
+> * If you think your key has been exposed, delete it in the Google Cloud Console straight away and create a new one. Deleting a key from the repository's history doesn't make it safe again, as it may already have been copied.
 
 ### Making other suggestions
 

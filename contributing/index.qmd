@@ -71,7 +71,11 @@ Know of a YouTube playlist or channel with recordings that would be useful to pe
 
 ### With code
 
-Adding a playlist to an existing collection, or a new collection of recordings, only takes a few lines in a configuration file. See the [instructions for adding YouTube recordings in our GitHub readme](https://github.com/hsma-programme/decision_intelligence_atlas?tab=readme-ov-file#adding-youtube-recordings) for details - you don't need a YouTube API key to contribute.
+Adding a playlist to an existing collection, or a new collection of recordings, only takes a few lines in a configuration file. See the [instructions for adding YouTube recordings in our GitHub readme](https://github.com/hsma-programme/decision_intelligence_atlas?tab=readme-ov-file#adding-youtube-recordings) for details.
+
+You don't need a YouTube API key of your own to contribute. The videos' details are fetched by a GitHub Action that uses the Atlas's own key, stored securely in the repository. It runs every month, and maintainers can also run it by hand from the repository's Actions tab.
+
+If you'd like to fetch the videos yourself, you'll need a free YouTube Data API key - the readme explains how to get one and how to set it up as an environment variable. Please keep your key secret: never commit it to the repository or paste it into issues, pull requests or chat tools.
 
 ## Contributor Code of Conduct
 
