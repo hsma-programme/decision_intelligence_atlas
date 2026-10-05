@@ -1,0 +1,64 @@
+---
+title: "AphA: Webinar and Conference Recordings"
+categories:
+  - Courses and Training or Reference Materials
+  - Recorded Talks
+tool-language: N/A
+status: N/A
+image: apha.jpg
+author:
+  - name: Association of Professional Healthcare Analysts (AphA)
+pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i>
+  rationale-for-status: |
+    Collection of recordings from many different presenters, so it is not ranked as a whole.
+  entry-author:
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
+  abstract: |
+    Recordings from the Association of Professional Healthcare Analysts (AphA), the professional body for health and care data and analytics professionals in the UK. They include its regular Lunch & Learn webinars, branch meetings, workshops, and its 2020 and 2021 annual conferences, covering topics from statistics, data visualisation and data storytelling to AI, data platforms and the analytical workforce.
+  links:
+  - name: YouTube
+    url: https://www.youtube.com/channel/UCJVrw1kIEyQmb1khi1nQSNQ/videos
+    icon: fa-brands fa-youtube
+  - name: Website
+    url: https://www.aphanalysts.org
+    icon: fa-solid fa-globe
+date: "2026-10-05T00:00:00+01:00"
+listing:
+  - id: apha-recordings
+    contents: talks.yml
+    type: table
+    fields: [title, year, event, description]
+    field-display-names:
+      title: "Recording"
+      year: "Year"
+      event: "Series"
+      description: "Details"
+    sort: "date desc"
+    filter-ui: [title, year, event, description]
+    sort-ui: [title, year, event]
+    page-size: 25
+---
+
+[![AphA Annual Conference 2020](apha.jpg)](https://www.youtube.com/channel/UCJVrw1kIEyQmb1khi1nQSNQ/videos)
+
+The [Association of Professional Healthcare Analysts (AphA)](/books_training/apha/index.qmd) is the professional membership body for health and care data and analytics professionals in the UK. Its YouTube channel has recordings of many of its online events, including:
+
+* **Lunch & Learn webinars** - regular lunchtime sessions with speakers from across health and care, academia and industry, on topics such as regression and statistical analysis, data visualisation and storytelling, messy NHS data, the Federated Data Platform, secure data environments, large language models and the analytical workforce
+* **Branch meetings** - meetings of AphA's regional branches, such as London, Yorkshire and the Humber, and the East of England, with talks from local analysts
+* **Annual conferences** - recordings of the 2020 and 2021 AphA conferences, including Ben Goldacre on open methods and open platforms in 2020
+* **Workshops and webinars** - including sessions on wellbeing and resilience, and on the hiring process for analysts
+
+AphA's sessions about its own services, such as introductions to membership, professional registration and the mentoring programme, aren't listed here - see [AphA's website](https://www.aphanalysts.org) for details of these.
+
+## Search the recordings
+
+Search for a recording by title, speaker, year, series or topic. Newest recordings are listed first. Where a recording's description gives timings for its talks, each talk is listed separately and the link starts the video at that talk.
+
+::: {#apha-recordings}
+:::
+
+You can also browse all of the videos on [AphA's YouTube channel](https://www.youtube.com/channel/UCJVrw1kIEyQmb1khi1nQSNQ/videos).
+
+To search these recordings alongside talks, webinars and workshops from other communities, use the [Recordings Finder](/recordings/index.qmd).

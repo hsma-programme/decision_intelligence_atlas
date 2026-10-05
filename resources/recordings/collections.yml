@@ -29,6 +29,8 @@
 #       events_by_title - optional; list of `pattern` (a regular expression) and
 #                        `event`, giving the event of videos whose titles match the
 #                        pattern, e.g. to group a playlist of training sessions by course
+#       exclude_by_title - optional; list of regular expressions; videos whose titles
+#                        match any of them are left out, e.g. regular admin sessions
 #       remove_from_title - optional; a regular expression removed from each video's
 #                        title, e.g. a prefix repeated in every title
 #       remove_from_description - optional; list of regular expressions; paragraphs of
@@ -111,6 +113,39 @@ nhs_pycom_talks:
   # track talks, and the full-day livestream of that track
   exclude_playlists: [PLSLQ7uyfNIIuFYsyo9Hf0cbYoOqgcly9m]
   exclude_videos: [YEa_3TmtCoE]
+
+apha_recordings:
+  folder: books_training/apha_recordings
+  source: AphA
+  playlists:
+    - label: Webinars and workshops
+      id: UUJVrw1kIEyQmb1khi1nQSNQ # all of AphA's uploads
+      type: Webinar
+      types_by_title:
+        - pattern: conference
+          type: Conference talk
+        - pattern: workshop
+          type: Workshop
+      events_by_title:
+        - pattern: 'lunch\s*(&|and)\s*learn|\bL&L\b'
+          event: Lunch & Learn
+        - pattern: conference
+          event: AphA Conference
+        - pattern: 'branch|hybrid event'
+          event: Branch meetings
+      # AphA's own admin sessions, e.g. on professional registration and mentoring
+      exclude_by_title:
+        - registration
+        - introductory webinar
+        - professional home
+        - mentor
+        - survey winners
+      # Dates and "meeting recording", added to most titles
+      remove_from_title: '\s*(\b\d{1,2}(st|nd|rd|th)?\s*(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*(\s*\d{2,4})?|\b\d{8}\s+\d{6}|\bmeeting\s+recording|\brecording)\b'
+      # Introduction repeated in each 2020 conference session's description
+      remove_from_description:
+        - '^Association of Professional HealthCare Analyst \(AphA\) Annual Conference'
+        - '^This video is from Session'
 
 analyst_network_huddles:
   folder: books_training/analyst_network_huddles

@@ -337,6 +337,11 @@ def build_talks(playlists, playlist_config):
         label_year = re.search(r"\b(19|20)\d{2}\b", playlist["label"])
         event = re.sub(r"\s*\b(19|20)\d{2}\b", "", playlist["label"]).strip()
         for video in playlist["videos"]:
+            if any(
+                re.search(pattern, video["title"], re.IGNORECASE)
+                for pattern in config.get("exclude_by_title", [])
+            ):
+                continue
             url = f"https://www.youtube.com/watch?v={video['id']}"
             shared = {
                 "year": (
