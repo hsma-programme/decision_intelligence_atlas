@@ -20,6 +20,7 @@ TRAINING_SUBSECTIONS = {
     "Courses",
     "Interactive Learning Tools",
     "Reference Sites",
+    "Recorded Talks",
 }
 
 # Delivery categories; every `Courses` entry needs at least one.
@@ -135,7 +136,7 @@ def check_books_training_sections():
 
     An entry must be tagged with exactly one of `Books`, `Communities` or a
     training subsection (`Courses`, `Interactive Learning Tools`,
-    `Reference Sites`). Otherwise it would be missing from, or duplicated
+    `Reference Sites`, `Recorded Talks`). Otherwise it would be missing from, or duplicated
     on, the Books, Training and Communities page. `Paid Resources` entries
     must also be `Books` and show the paid icon. `Courses` entries must be
     `Synchronous`, `Asynchronous` or both, and only `Courses` may use these.

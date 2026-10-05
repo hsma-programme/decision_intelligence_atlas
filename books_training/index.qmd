@@ -95,6 +95,20 @@ listing:
         - Books
         - Communities
 
+  - id: training-recordings
+    type: grid
+    grid-columns: 2
+    template: ../packages_projects_tools/listing.ejs
+    sort: Title
+    contents: "*/*.qmd"
+    page-size: 1000
+    include:
+      categories: Recorded Talks
+    exclude:
+      categories:
+        - Books
+        - Communities
+
   - id: communities
     type: grid
     grid-columns: 2
@@ -178,6 +192,13 @@ Interactive apps and tools to help you explore and learn concepts hands-on.
 Websites with code snippets, guides and reference material to dip into as needed.
 
 ::: {#training-reference}
+:::
+
+### Recorded webinars and conference talks
+
+Recordings of one-off webinars and conference talks, covering a wide range of topics and real-world projects.
+
+::: {#training-recordings}
 :::
 
 ## Communities

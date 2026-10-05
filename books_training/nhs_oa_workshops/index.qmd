@@ -1,0 +1,53 @@
+---
+title: "NHS-OA Community: Workshop Recordings"
+categories:
+  - Courses and Training or Reference Materials
+  - Courses
+  - Asynchronous
+tool-language:
+  - R
+  - Python
+status: N/A
+image: workshop.jpg
+author:
+  - name: NHS-OA Community (formerly NHS-R Community)
+pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i>
+  rationale-for-status: |
+    Collection of recordings from many different presenters, so it is not ranked as a whole.
+  entry-author:
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
+  abstract: |
+    A YouTube playlist of recorded hands-on workshops from the NHS-OA Community and its predecessor, the NHS-R Community. The workshops are mostly in R, from introductory and intermediate R courses through to topics such as data visualisation, Shiny, regression modelling, tidymodels, statistical process control and working with databases.
+  links:
+  - name: YouTube
+    url: https://www.youtube.com/playlist?list=PLXCrMzQaI6c2L4JCRaF2iujzBxe9Rk-rC
+    icon: fa-brands fa-youtube
+  - name: Website
+    url: https://nhsoa.uk
+    icon: fa-solid fa-globe
+date: "2026-10-05T00:00:00+01:00"
+---
+
+[![NHS-OA Community Workshop](workshop.jpg)](https://www.youtube.com/playlist?list=PLXCrMzQaI6c2L4JCRaF2iujzBxe9Rk-rC)
+
+This YouTube playlist collects recordings of hands-on workshops run by the [NHS-OA Community](/books_training/nhs_oa_community/index.qmd), including those run when it was the NHS-R Community. The workshops were delivered live, often as part of the community's annual conference, and the recordings can be followed at your own pace.
+
+The workshops are mostly in R. They include regular multi-part introductory and intermediate R courses, as well as one-off workshops on topics such as:
+
+* data visualisation with ggplot2 and interactive plotting
+* building apps with Shiny
+* regression modelling and machine learning with tidymodels
+* statistical process control charts and changepoint analysis
+* working with databases
+* reproducible reporting and automation, including R Markdown, targets and GitHub Actions
+* code review and debugging
+
+There is also an introduction to building interactive visualisations in Python with Shiny.
+
+## Watch the workshops
+
+To watch the workshops, click on the image above or go to the [workshop playlist on YouTube](https://www.youtube.com/playlist?list=PLXCrMzQaI6c2L4JCRaF2iujzBxe9Rk-rC).
+
+The NHS-OA Community also publishes recordings of [webinars](/books_training/nhs_oa_webinars/index.qmd) and [conference talks](/books_training/nhs_oa_conference_recordings/index.qmd).

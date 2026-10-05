@@ -1,0 +1,60 @@
+---
+title: "NHS-OA Community: Conference Recordings"
+categories:
+  - Courses and Training or Reference Materials
+  - Recorded Talks
+tool-language:
+  - R
+  - Python
+status: N/A
+image: rpysoc_2025.jpg
+author:
+  - name: NHS-OA Community (formerly NHS-R Community)
+pub-info:
+  project-type: <i class="fa-solid fa-hospital"></i>
+  rationale-for-status: |
+    Collection of recordings from many different presenters, so it is not ranked as a whole.
+  entry-author:
+    - name: Sammi Rosser
+      url: https://github.com/Bergam0t
+  abstract: |
+    YouTube playlists of talks from the NHS-OA Community's annual conference, formerly the NHS-R Community Conference and now RPySOC, the NHS-R/NHS.pycom open source conference. Talks from analysts and data scientists across health and care showcase real-world projects using R, Python and other open source tools, from simulation and waiting list modelling to data visualisation and reproducible analytical pipelines.
+  links:
+  - name: YouTube
+    url: https://www.youtube.com/@NHSOA_Community/playlists
+    icon: fa-brands fa-youtube
+  - name: Website
+    url: https://nhsoa.uk
+    icon: fa-solid fa-globe
+date: "2026-10-05T00:00:00+01:00"
+---
+
+[![RPySOC 2025 Conference](rpysoc_2025.jpg)](https://www.youtube.com/playlist?list=PLXCrMzQaI6c0kEKt4lN0659WQj_-SNUr_)
+
+The [NHS-OA Community](/books_training/nhs_oa_community/index.qmd) runs an annual open source conference, previously the NHS-R Community Conference and now RPySOC, the NHS-R/NHS.pycom open source conference. Recordings of the talks, and in some years the workshops, are available on YouTube.
+
+The talks are given by analysts and data scientists from across health and care, and showcase real-world projects using R, Python and other open source tools. For example, talks at RPySOC 2025 covered:
+
+* discrete event simulation of non-elective admissions
+* waiting list modelling with open data and open source code
+* optimising the location of women's health hubs using travel time data
+* reproducible data visualisation pipelines
+* deploying Python in production
+* adopting reproducible analytical pipelines (RAP) by default
+
+## Watch the conference recordings
+
+Each conference has its own playlist:
+
+| Conference | Playlists |
+|------------|-----------|
+| RPySOC 2025 | [Recordings](https://www.youtube.com/playlist?list=PLXCrMzQaI6c0kEKt4lN0659WQj_-SNUr_) |
+| RPySOC 2024 | [Recordings](https://www.youtube.com/playlist?list=PLXCrMzQaI6c2vQUabRSOg9_FCxp6x6cVg) |
+| NHS-R/NHS.pycom Conference 2023 | [Talks](https://www.youtube.com/playlist?list=PLXCrMzQaI6c2RjLQvFWpW_1QA68qylKb9), [Workshops](https://www.youtube.com/playlist?list=PLXCrMzQaI6c3vXRIOmgv8Qk9wYSoXatdt) |
+| NHS-R Community Conference 2022 | [Recordings](https://www.youtube.com/playlist?list=PLXCrMzQaI6c3kFGGOuR432J8tUJq_VhWp) |
+| NHS-R Community Conference 2021 | [Recordings](https://www.youtube.com/playlist?list=PLXCrMzQaI6c1R5K-iqHpOVDG0PelBA6uc) |
+| NHS-R Community Conference 2020 | [Talks](https://www.youtube.com/playlist?list=PLXCrMzQaI6c0Kvs7lE-Rxdig5nc5-4Xx2), [Workshops](https://www.youtube.com/playlist?list=PLXCrMzQaI6c3EAh10hDZectzBALWPk19w) |
+
+To find recordings from newer conferences, see the [NHS-OA Community's YouTube playlists](https://www.youtube.com/@NHSOA_Community/playlists).
+
+The NHS-OA Community also publishes recordings of [webinars](/books_training/nhs_oa_webinars/index.qmd) and [workshops](/books_training/nhs_oa_workshops/index.qmd).
