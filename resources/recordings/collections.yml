@@ -83,7 +83,7 @@ nhs_pycom_talks:
   playlists:
     - label: NHS.pycom uploads
       id: UU_jacmsGNZQR5BPP7h0EtXw
-      type: Talk
+      type: Webinar
   # Already listed with the NHS-OA conference recordings: the 2022 Python
   # track talks, and the full-day livestream of that track
   exclude_playlists: [PLSLQ7uyfNIIuFYsyo9Hf0cbYoOqgcly9m]
