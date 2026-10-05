@@ -16,7 +16,10 @@ where the description lists them:
 * Plain lists of talks (for playlists with `talk_list: true`) also link to
   the start of the recording.
 
-Recordings with no talk details are kept as a single row.
+Recordings with no talk details are kept as a single row, as are all
+recordings in collections with `split_talks: false` and videos listed in a
+collection's `keep_whole_videos` (e.g. lectures whose timestamps mark
+sections of one talk rather than separate talks).
 
 Each row also gets a duration: the length of the video, or for a talk split
 out by timestamps, the time until the next timestamp (or the end of the
@@ -481,7 +484,12 @@ def build_talks(playlists, playlist_config, collection):
                 video = title_from_description(video)
             video = remove_boilerplate(video, config)
             video_seconds = parse_duration(video.get("duration"))
-            talks = split_talks(video, config.get("talk_list", False))
+            talks = (
+                split_talks(video, config.get("talk_list", False))
+                if collection.get("split_talks", True)
+                and video["id"] not in collection.get("keep_whole_videos", [])
+                else []
+            )
             if not talks:
                 item = {
                     "title": video["title"],

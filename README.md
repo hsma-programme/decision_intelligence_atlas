@@ -229,6 +229,8 @@ Each collection in `collections.yml` has:
 | `source` | Yes | Who published the recordings, shown in the Recordings Finder's Source column and filter. Collections from the same community should use the same source. |
 | `playlists` | Yes | The playlists in the collection (see below). |
 | `earlier_source` | No | A `before` date and a `source`, giving the source of videos published before that date, e.g. for a community that has been renamed or merged. For example, the NHS-OA collections show videos published before 2026 as from the NHS-R Community. |
+| `split_talks` | No | Set to `false` to keep every video in the collection as one row, rather than splitting recordings into talks (see below). Used for the HSMA lecture recordings, where timestamps mark sections of a lecture rather than separate talks. |
+| `keep_whole_videos` | No | A list of video IDs to keep as one row, in collections where other recordings should still be split, e.g. a workshop whose timestamps mark its sections. |
 | `exclude_playlists` | No | Leave out any videos that are also in these playlists, e.g. to avoid listing the same talk in two collections. |
 | `exclude_videos` | No | Leave out these videos, e.g. promotional videos or untitled recordings. |
 
@@ -288,7 +290,7 @@ Some recordings cover a whole session or day with several talks. Where a recordi
 * **Programme times**, such as `09:30 Speaker - Talk title`, are times of day rather than positions in the video, so their rows link to the start of the recording.
 * **Plain lists of talks**, one per line with no times, are split into rows for playlists with `talk_list: true`, linking to the start of the recording.
 
-Recordings that don't list their talks are kept as one row. If a recording isn't split as you'd expect, check its description on YouTube - the best fix is usually to add timestamps to the description there, which also gives viewers chapters to jump between.
+Recordings that don't list their talks are kept as one row, as are all recordings in collections with `split_talks: false` and any videos listed in `keep_whole_videos`. If a recording isn't split as you'd expect, check its description on YouTube - the best fix is usually to add timestamps to the description there, which also gives viewers chapters to jump between.
 
 #### Years and dates
 

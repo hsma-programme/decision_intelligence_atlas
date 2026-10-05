@@ -1151,51 +1151,15 @@
   image: https://i.ytimg.com/vi/VzVwdWn11s8/mqdefault.jpg
   date: '2022-11-02'
   duration: 01:24:34
-- title: Introduction and Prework
-  description: 'From the recording ''NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22'', starting at 0:00.'
-  path: https://www.youtube.com/watch?v=dS91HzZLD_c&t=0s
+- title: 'NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22'
+  description: Introduction to R and R Studio (Part 1) Wednesday 2nd November 2022 Led by Zoë Turner, Data Scientist, Nottinghamshire Healthcare NHS Foundation Trust Learn about how to import data, wrangle data and produce and export graphs. 00:00 - Introduction and Prework 55:23 - Using Projects 01:08 -…
+  path: https://www.youtube.com/watch?v=dS91HzZLD_c
   year: 2022
   event: NHS-R Community Conference
   type: Conference talk
   image: https://i.ytimg.com/vi/dS91HzZLD_c/mqdefault.jpg
   date: '2022-11-03'
-  duration: 00:55:23
-- title: Using Projects
-  description: 'From the recording ''NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22'', starting at 55:23.'
-  path: https://www.youtube.com/watch?v=dS91HzZLD_c&t=3323s
-  year: 2022
-  event: NHS-R Community Conference
-  type: Conference talk
-  image: https://i.ytimg.com/vi/dS91HzZLD_c/mqdefault.jpg
-  date: '2022-11-03'
-  duration: 00:12:37
-- title: Importing Data
-  description: 'From the recording ''NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22'', starting at 1:08:00.'
-  path: https://www.youtube.com/watch?v=dS91HzZLD_c&t=4080s
-  year: 2022
-  event: NHS-R Community Conference
-  type: Conference talk
-  image: https://i.ytimg.com/vi/dS91HzZLD_c/mqdefault.jpg
-  date: '2022-11-03'
-  duration: 00:10:00
-- title: Introduction to {ggplot2}
-  description: 'From the recording ''NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22'', starting at 1:18:00.'
-  path: https://www.youtube.com/watch?v=dS91HzZLD_c&t=4680s
-  year: 2022
-  event: NHS-R Community Conference
-  type: Conference talk
-  image: https://i.ytimg.com/vi/dS91HzZLD_c/mqdefault.jpg
-  date: '2022-11-03'
-  duration: 01:04:00
-- title: What does this function do?
-  description: 'From the recording ''NHS-R Workshop: Intro to R and RStudio (Part 1) - 02/11/22'', starting at 2:22:00.'
-  path: https://www.youtube.com/watch?v=dS91HzZLD_c&t=8520s
-  year: 2022
-  event: NHS-R Community Conference
-  type: Conference talk
-  image: https://i.ytimg.com/vi/dS91HzZLD_c/mqdefault.jpg
-  date: '2022-11-03'
-  duration: 00:18:21
+  duration: 02:40:21
 - title: 'NHS-R Workshop: Building Websites in R with Distill - 02/11/22'
   description: 'Building Websites in R with Distill Wednesday 2nd November 2022, Led by Jennifer Sloane, PhD Student, UNSW Do you want to learn how to build your own website in R? About the course: In this interactive workshop, we will build a website from scratch in R using the Distill package. Whether you want…'
   path: https://www.youtube.com/watch?v=LK_vxLS9BNg
@@ -1205,42 +1169,15 @@
   image: https://i.ytimg.com/vi/LK_vxLS9BNg/mqdefault.jpg
   date: '2022-11-03'
   duration: 01:58:54
-- title: Data wrangling with dplyr
-  description: 'From the recording ''NHS-R Workshop: Intro to R and RStudio (Part 2) - 03/11/22'', starting at 0:00.'
-  path: https://www.youtube.com/watch?v=1tjQkxYfSGk&t=0s
+- title: 'NHS-R Workshop: Intro to R and RStudio (Part 2) - 03/11/22'
+  description: Introduction to R and R Studio (Part 2) Thursday 3rd November 2022 Led by Zoë Turner, Data Scientist, Nottinghamshire Healthcare NHS Foundation Trust Learn about how to import data, wrangle data and produce and export graphs. 00:00 Data wrangling with dplyr 1:45:18 Relational Data (joins) 2:10:21…
+  path: https://www.youtube.com/watch?v=1tjQkxYfSGk
   year: 2022
   event: NHS-R Community Conference
   type: Conference talk
   image: https://i.ytimg.com/vi/1tjQkxYfSGk/mqdefault.jpg
   date: '2022-11-03'
-  duration: 01:45:18
-- title: Relational Data (joins)
-  description: 'From the recording ''NHS-R Workshop: Intro to R and RStudio (Part 2) - 03/11/22'', starting at 1:45:18.'
-  path: https://www.youtube.com/watch?v=1tjQkxYfSGk&t=6318s
-  year: 2022
-  event: NHS-R Community Conference
-  type: Conference talk
-  image: https://i.ytimg.com/vi/1tjQkxYfSGk/mqdefault.jpg
-  date: '2022-11-03'
-  duration: 00:25:03
-- title: RMarkdown
-  description: 'From the recording ''NHS-R Workshop: Intro to R and RStudio (Part 2) - 03/11/22'', starting at 2:10:21.'
-  path: https://www.youtube.com/watch?v=1tjQkxYfSGk&t=7821s
-  year: 2022
-  event: NHS-R Community Conference
-  type: Conference talk
-  image: https://i.ytimg.com/vi/1tjQkxYfSGk/mqdefault.jpg
-  date: '2022-11-03'
-  duration: 00:29:39
-- title: Ongoing Learning
-  description: 'From the recording ''NHS-R Workshop: Intro to R and RStudio (Part 2) - 03/11/22'', starting at 2:40:00.'
-  path: https://www.youtube.com/watch?v=1tjQkxYfSGk&t=9600s
-  year: 2022
-  event: NHS-R Community Conference
-  type: Conference talk
-  image: https://i.ytimg.com/vi/1tjQkxYfSGk/mqdefault.jpg
-  date: '2022-11-03'
-  duration: 00:12:42
+  duration: 02:52:42
 - title: 'NHS-R Conference Workshop: Introduction to Interactive plotting with R – 03/11/22'
   description: 'Introduction to Interactive plotting with R Thursday 3rd November 2022, Led by Annie Yu, Epidemiological Programmer, Hertfordshire County Council Pre-requisites: Some introductory experience with R About the course: The workshop will cover creating interactive graphs using plotly and echarts4r…'
   path: https://www.youtube.com/watch?v=fmelRhf14PE
