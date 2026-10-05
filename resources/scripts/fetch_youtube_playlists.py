@@ -172,9 +172,18 @@ def main():
         }
         playlists = []
         for playlist in collection["playlists"]:
+            # `id` may be a list, combining several playlists under one label
+            playlist_ids = playlist.get("id") or []
+            if isinstance(playlist_ids, str):
+                playlist_ids = [playlist_ids]
+            video_ids = playlist.get("videos") or [
+                video_id
+                for playlist_id in playlist_ids
+                for video_id in get_playlist_video_ids(playlist_id, key)
+            ]
             video_ids = [
                 video_id
-                for video_id in (playlist.get("videos") or get_playlist_video_ids(playlist["id"], key))
+                for video_id in dict.fromkeys(video_ids)
                 if video_id not in excluded
             ]
             videos = get_video_details(video_ids, key)

@@ -220,6 +220,36 @@ def video_type(video, config):
     return config["type"]
 
 
+def title_from_description(video):
+    """
+    Use the first line of a video's description as its title.
+
+    For playlists whose video titles are cluttered or cut short (e.g.
+    "HACA2025 - Day 1 - Main Stage") but whose descriptions start with the
+    talk title.
+
+    Parameters
+    ----------
+    video : dict
+        Video metadata from `fetch_youtube_playlists.py`.
+
+    Returns
+    -------
+    dict
+        The video metadata, with the first line of the description as the
+        title and the rest as the description. Unchanged if the description
+        is empty.
+    """
+    lines = video["description"].strip().splitlines()
+    if not lines:
+        return video
+    return {
+        **video,
+        "title": lines[0].strip().strip('"').strip(),
+        "description": "\n".join(lines[1:]),
+    }
+
+
 def build_talks(playlists, playlist_config):
     """
     Build one listing item per talk from fetched playlist metadata.
@@ -256,6 +286,8 @@ def build_talks(playlists, playlist_config):
                 "image": video["thumbnail"],
                 "date": video["published"][:10],
             }
+            if config.get("title_from_description"):
+                video = title_from_description(video)
             talks = split_talks(video, config.get("talk_list", False))
             if not talks:
                 items.append({

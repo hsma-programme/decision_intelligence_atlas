@@ -228,12 +228,13 @@ Each playlist has:
 | Option | Required? | Description |
 |---|---|---|
 | `label` | Yes | The playlist's name, shown in the Event column when a collection has more than one playlist. Must be unique within the collection. If it contains a year (e.g. `RPySOC 2025`), that year is used for all of its videos; otherwise each video's upload date is used. |
-| `id` | Yes, unless using `videos` | The YouTube playlist ID. To include all of a channel's uploads, use its uploads playlist ID: its channel ID with `UC` at the start replaced by `UU`. |
+| `id` | Yes, unless using `videos` | The YouTube playlist ID, or a list of IDs to combine several playlists under one label (e.g. separate playlists for each day or room of a conference). To include all of a channel's uploads, use its uploads playlist ID: its channel ID with `UC` at the start replaced by `UU`. |
 | `videos` | No | A list of video IDs to include in place of a playlist, e.g. to pick a few videos out of a larger playlist. |
 | `type` | Yes | The kind of recording (e.g. `Conference talk`, `Webinar`, `Workshop`, `Lecture`), shown in the Recordings Finder's Type column and filter. Reuse an existing type where one fits. |
 | `types_by_title` | No | For playlists mixing different kinds of recording: a list of `pattern` (a regular expression) and `type`. Videos whose titles match a pattern get that type instead. |
 | `no_year` | No | Set to `true` to leave the year blank, e.g. where videos were uploaded long after the event. |
 | `talk_list` | No | Set to `true` if session recordings list their talks one per line without timestamps (see below). |
+| `title_from_description` | No | Set to `true` to use the first line of each video's description as its title, for playlists whose video titles are cluttered or cut short (e.g. `HACA2025 - Day 1 - Main Stage`) but whose descriptions start with the talk title. |
 
 #### How recordings are split into talks
 

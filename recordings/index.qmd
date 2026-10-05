@@ -151,5 +151,6 @@ The Recordings Finder brings together the recordings listed in these Atlas entri
 * [National Analyst Network (formerly Midlands Analyst Network): Huddle Recordings](/books_training/analyst_network_huddles/index.qmd)
 * [HSMA: Project Showcase Recordings](/books_training/hsma_project_showcases/index.qmd)
 * [HSMA: Lecture and Masterclass Recordings](/books_training/hsma_lecture_recordings/index.qmd)
+* [HACA - Health and Care Analytics Conference](/books_training/haca/index.qmd)
 
 Know of another collection of recordings that should be included? [Raise an issue on the repository](https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose) to let us know.
