@@ -12,7 +12,7 @@ author:
 pub-info:
   project-type: <i class="fa-solid fa-hospital"></i>
   rationale-for-status: |
-    Ranked Silver as repository has detailed README, test suite and user interface - but the codebase contains many files spread across main and subfolders, which makes navigation a bit challenging.
+    Ranked Bronze as repository has detailed README, test suite and user interface - but the codebase contains many files spread across main and subfolders, which makes navigation a bit challenging.
   entry-author:
     - name: Amy Heather
       url: https://github.com/amyheather
