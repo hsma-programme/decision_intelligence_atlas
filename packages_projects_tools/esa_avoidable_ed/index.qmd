@@ -5,7 +5,6 @@ categories:
   - KPI Reporting
 tool-language:
   - R
-  - C++
 status: '<span style="color: #888888FF">Silver</span>'
 author:
   - name: Edmund Haacke
@@ -13,10 +12,12 @@ author:
 pub-info:
   project-type: <i class="fa-solid fa-hospital"></i>
   rationale-for-status: |
-    It is a packaged and documented R tool, but could be strengthed further by adding automated testing.
+    It is a packaged and documented R tool, but could be strengthed further by adding automated testing and publishing on CRAN. It has also not been updated for several years (as of October 2026), though it is likely to still work with newer versions of R due to the nature of the package, but this is unverified. Users should also consider checking whether the definition of an avoidable attendance has changed in the past few years - but the library does make their definition very clear and any required modifications to the library to update this would be fairly minimal, though does involve touching the C++ code.
   entry-author:
     - name: Amy Heather
       url: https://github.com/amyheather
+    - name: Sammi Rosser
+      url: https://sammirosser.com
   abstract: |
     R package (built using C++ and Rcpp) implementing the definition of 'avoidable' emergency department attendances, as per the School of Health and Related Research at the University of Sheffield's definition, with reference to NHS Digital's SNOMED/HES coding.
   links:
