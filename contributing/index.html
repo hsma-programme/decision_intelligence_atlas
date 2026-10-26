@@ -480,7 +480,7 @@ Note
 <section id="add-a-collection-of-recordings" class="level2">
 <h2 class="anchored" data-anchor-id="add-a-collection-of-recordings">Add a collection of recordings</h2>
 <p>The Atlas lists recordings of conference talks, webinars, workshops and lectures from across the health and care analytics community. Each collection has its own entry in the ‘Recorded webinars and conference talks’ section of the <a href="../books_training/index.html">Books, Training and Communities</a> page, and they are all brought together in the searchable <a href="../recordings/index.html">Recordings Finder</a>.</p>
-<p>The recordings are pulled automatically from YouTube playlists, and refreshed every month, so once a playlist has been added, new videos in it will appear in the Atlas without anyone having to update it.</p>
+<p>The recordings are pulled automatically from YouTube playlists, and refreshed every week, so once a playlist has been added, new videos in it will appear in the Atlas without anyone having to update it.</p>
 <section id="without-code-1" class="level3">
 <h3 class="anchored" data-anchor-id="without-code-1">Without code</h3>
 <p>Know of a YouTube playlist or channel with recordings that would be useful to people working in healthcare analytics? <a href="https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose">Submit an issue</a> on the Atlas’s GitHub repository with a link to it, and a sentence or two about who publishes the recordings and what they cover. We’ll take it from there.</p>
@@ -488,7 +488,7 @@ Note
 <section id="with-code-1" class="level3">
 <h3 class="anchored" data-anchor-id="with-code-1">With code</h3>
 <p>Adding a playlist to an existing collection, or a new collection of recordings, only takes a few lines in a configuration file. A collection can have its own entry, or be added to an existing one - for example, a table of training videos on the entry for the tool they teach. The Recordings Finder dates each recording by when it was published on YouTube, so if a playlist was uploaded long after the event, mention when the recordings were actually made on its entry. Durations are added automatically from YouTube. Recordings of a whole session or conference day are split into separate talks using the timestamps in their descriptions, so check the built table: lectures and workshops whose timestamps just mark their sections can be kept as one row. See the <a href="https://github.com/hsma-programme/decision_intelligence_atlas?tab=readme-ov-file#adding-youtube-recordings">instructions for adding YouTube recordings in our GitHub readme</a> for details.</p>
-<p>You don’t need a YouTube API key of your own to contribute. The videos’ details are fetched by a GitHub Action that uses the Atlas’s own key, stored securely in the repository. It runs every month, and maintainers can also run it by hand from the repository’s Actions tab.</p>
+<p>You don’t need a YouTube API key of your own to contribute. The videos’ details are fetched by a GitHub Action that uses the Atlas’s own key, stored securely in the repository. It runs every week, and maintainers can also run it by hand from the repository’s Actions tab.</p>
 <p>If you’d like to fetch the videos yourself, you’ll need a free YouTube Data API key - the readme explains how to get one and how to set it up as an environment variable. Please keep your key secret: never commit it to the repository or paste it into issues, pull requests or chat tools.</p>
 </section>
 </section>
