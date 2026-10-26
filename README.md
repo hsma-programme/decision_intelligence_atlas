@@ -141,7 +141,7 @@ Don't want to touch the code? [Raise an issue](https://github.com/hsma-programme
 * `resources/recordings/collections.yml` lists every **collection** of recordings. Each collection belongs to one Atlas entry, and lists the YouTube playlists (or individual videos) it contains.
 * `resources/scripts/fetch_youtube_playlists.py` uses the YouTube Data API to fetch the title, description, date and thumbnail of every video, writing them to a `videos.json` file in each collection's entry folder.
 * `resources/scripts/build_youtube_talks.py` turns each `videos.json` into a `talks.yml` file, with one row per talk, which is shown as a searchable table on the entry. It also writes `recordings/recordings.json`, which the Recordings Finder reads.
-* The **Update YouTube recordings** GitHub Action runs both scripts for every collection on the 1st of each month, commits any changes and republishes the site, using the Atlas's API key stored as a repository secret. It can also be [run by hand](#option-1-run-the-github-action-no-api-key-of-your-own-needed), e.g. straight after a conference.
+* The **Update YouTube recordings** GitHub Action runs both scripts for every collection every Monday, commits any changes and republishes the site, using the Atlas's API key stored as a repository secret. It can also be [run by hand](#option-1-run-the-github-action-no-api-key-of-your-own-needed), e.g. straight after a conference.
 
 #### Adding a playlist to an existing collection
 
@@ -169,7 +169,7 @@ Then [fetch and build the recordings](#fetching-and-building-the-recordings), pr
     * `Recorded Talks`, for talks, webinars and conference recordings, so it appears in the 'Recorded webinars and conference talks' section of the Books, Training and Communities page, or
     * `Courses` and `Asynchronous`, for recorded training courses or workshops that can be followed at your own pace (e.g. `books_training/mdsn_training`), so it appears with the other courses.
 
-    Recordings can also be added to an existing entry instead, such as training videos for a tool - for example, the New Hospital Programme Demand Model entry in `packages_projects_tools/new_hospital_programme` has a table of its training recordings. If the entry's folder isn't in `books_training/`, `packages_projects_tools/` or `recordings/`, also add it to the `git add` line in `.github/workflows/update-youtube-recordings.yml`, or the monthly refreshes of its recordings won't be committed.
+    Recordings can also be added to an existing entry instead, such as training videos for a tool - for example, the New Hospital Programme Demand Model entry in `packages_projects_tools/new_hospital_programme` has a table of its training recordings. If the entry's folder isn't in `books_training/`, `packages_projects_tools/` or `recordings/`, also add it to the `git add` line in `.github/workflows/update-youtube-recordings.yml`, or the weekly refreshes of its recordings won't be committed.
 
     Add a listing to the entry's YAML header to show the table of talks:
 
@@ -217,7 +217,7 @@ Then [fetch and build the recordings](#fetching-and-building-the-recordings), pr
 
 4. **[Fetch and build the recordings](#fetching-and-building-the-recordings)**, then preview the new entry and the Recordings Finder. [Check how recordings were split](#checking-how-recordings-were-split) into talks, and [check for duplicates](#duplicates) of talks already in the Atlas.
 
-If you don't have a YouTube API key, you can still build: the build script will create an empty table for the new collection. Its videos can then be fetched by [running the GitHub Action](#option-1-run-the-github-action-no-api-key-of-your-own-needed) on your branch, or will be fetched by the monthly run once your pull request is merged.
+If you don't have a YouTube API key, you can still build: the build script will create an empty table for the new collection. Its videos can then be fetched by [running the GitHub Action](#option-1-run-the-github-action-no-api-key-of-your-own-needed) on your branch, or will be fetched by the weekly run once your pull request is merged.
 
 #### Collection options
 
@@ -310,7 +310,7 @@ This lists each recording split into more than one row, with the number of rows.
 
 If a recording of several talks isn't split, check its description on YouTube. The best fix is usually to add timestamps to the description there, which also gives viewers chapters to jump between.
 
-The monthly refresh splits new videos in existing playlists in the same way, so it's worth running this check every so often, as new recordings are added.
+The weekly refresh splits new videos in existing playlists in the same way, so it's worth running this check every so often, as new recordings are added.
 
 #### Years and dates
 
@@ -356,7 +356,7 @@ Fetching the videos' details from YouTube needs a YouTube Data API key. There ar
 
 ##### Option 1: run the GitHub Action (no API key of your own needed)
 
-The **Update YouTube recordings** GitHub Action uses the Atlas's own API key, which is stored securely in the repository as the `YOUTUBE_API_KEY` secret. It commits to `main` using a GitHub App (stored as the `RECORDINGS_APP_ID` variable and `RECORDINGS_APP_PRIVATE_KEY` secret) that is allowed to bypass the rule that changes to `main` go through a pull request. As well as running automatically on the 1st of each month, anyone with write access to the repository can run it by hand:
+The **Update YouTube recordings** GitHub Action uses the Atlas's own API key, which is stored securely in the repository as the `YOUTUBE_API_KEY` secret. It commits to `main` using a GitHub App (stored as the `RECORDINGS_APP_ID` variable and `RECORDINGS_APP_PRIVATE_KEY` secret) that is allowed to bypass the rule that changes to `main` go through a pull request. As well as running automatically every Monday, anyone with write access to the repository can run it by hand:
 
 1. Go to the repository's **Actions** tab and choose **Update YouTube recordings** from the list of workflows.
 2. Click **Run workflow**, choose the branch to run it on, and click the green **Run workflow** button.
@@ -366,7 +366,7 @@ The Action fetches every collection, builds the tables of talks, and commits any
 * Run on `main` (e.g. straight after a conference, to pick up new videos in an existing playlist), it also republishes the site.
 * Run on another branch (e.g. the branch for a pull request adding a new collection), it commits the fetched recordings to that branch without publishing anything, so they can be reviewed before merging.
 
-If you've contributed from a fork and don't have write access, you don't need to do anything - a maintainer will run the Action, or the monthly run will pick up your collection once your pull request is merged.
+If you've contributed from a fork and don't have write access, you don't need to do anything - a maintainer will run the Action, or the weekly run will pick up your collection once your pull request is merged.
 
 ###### If the repository moves to a different GitHub organisation
 

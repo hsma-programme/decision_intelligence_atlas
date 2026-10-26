@@ -12,7 +12,7 @@ name: Update YouTube recordings
 
 on:
   schedule:
-    - cron: '0 6 1 * *' # 06:00 UTC on the 1st of each month
+    - cron: '0 6 * * 1' # 06:00 UTC every Monday
   workflow_dispatch: {} # manual trigger, e.g. after a conference
 
 jobs:
