@@ -63,6 +63,8 @@ The talks are given by analysts and data scientists from across health and care,
 
 Search for a talk by title, speaker, year or conference. Where a recording covers several talks and its description gives the timings, the link starts the video at that talk.
 
+*Last checked against YouTube on {{< meta recordings-checked >}} - the recordings are checked every week.*
+
 ::: {#conference-talks}
 :::
 

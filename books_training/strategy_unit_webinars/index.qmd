@@ -57,6 +57,8 @@ listing:
 
 Search for a webinar by title, speaker, year, series or topic. The most recent series are listed first.
 
+*Last checked against YouTube on {{< meta recordings-checked >}} - the recordings are checked every week.*
+
 ::: {#su-webinars}
 :::
 

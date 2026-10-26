@@ -67,6 +67,8 @@ Recordings of HACA 2023, 2024 and 2025 are available on YouTube, including:
 
 Search for a talk by title, speaker, year, event or topic. The newest conference is listed first. For HACA 2025, the event also shows the stage or stream the talk was part of.
 
+*Last checked against YouTube on {{< meta recordings-checked >}} - the recordings are checked every week.*
+
 ::: {#haca-talks}
 :::
 

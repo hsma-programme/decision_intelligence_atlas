@@ -139,7 +139,7 @@ Don't want to touch the code? [Raise an issue](https://github.com/hsma-programme
 #### How it fits together
 
 * `resources/recordings/collections.yml` lists every **collection** of recordings. Each collection belongs to one Atlas entry, and lists the YouTube playlists (or individual videos) it contains.
-* `resources/scripts/fetch_youtube_playlists.py` uses the YouTube Data API to fetch the title, description, date and thumbnail of every video, writing them to a `videos.json` file in each collection's entry folder.
+* `resources/scripts/fetch_youtube_playlists.py` uses the YouTube Data API to fetch the title, description, date and thumbnail of every video, writing them to a `videos.json` file in each collection's entry folder. It also records the date it fetched them as `recordings-checked` in a `_metadata.yml` file in the same folder (and in `recordings/` when every collection is fetched), which the page shows above its table with `{{< meta recordings-checked >}}`.
 * `resources/scripts/build_youtube_talks.py` turns each `videos.json` into a `talks.yml` file, with one row per talk, which is shown as a searchable table on the entry. It also writes `recordings/recordings.json`, which the Recordings Finder reads.
 * The **Update YouTube recordings** GitHub Action runs both scripts for every collection every Monday, commits any changes and republishes the site, using the Atlas's API key stored as a repository secret. It can also be [run by hand](#option-1-run-the-github-action-no-api-key-of-your-own-needed), e.g. straight after a conference.
 
@@ -195,9 +195,13 @@ Then [fetch and build the recordings](#fetching-and-building-the-recordings), pr
     ```
     ## Search the talks
 
+    *Last checked against YouTube on {{< meta recordings-checked >}} - the recordings are checked every week.*
+
     ::: {#talk-recordings}
     :::
     ```
+
+    The "Last checked" line shows the date the recordings were last fetched from YouTube, taken from the `_metadata.yml` file that the fetch script writes to the entry's folder.
 
     If the collection has more than one playlist, you can add `event` to `fields` to show each playlist's label (e.g. the conference or round), and use `sort: false` to keep the order from `collections.yml`. See the existing recording entries, such as `books_training/nhs_oa_conference_recordings/index.qmd`, for examples.
 
@@ -364,7 +368,7 @@ The **Update YouTube recordings** GitHub Action uses the Atlas's own API key, wh
 The Action fetches every collection, builds the tables of talks, and commits any changes to the branch it was run on.
 
 * Run on `main` (e.g. straight after a conference, to pick up new videos in an existing playlist), it also republishes the site.
-* Run on another branch (e.g. the branch for a pull request adding a new collection), it commits the fetched recordings to that branch without publishing anything, so they can be reviewed before merging.
+* Run on another branch (e.g. the branch for a pull request adding a new collection), it commits the fetched recordings to that branch without publishing anything, so they can be reviewed before merging. It doesn't commit the "last checked" dates of existing collections, which change on every run, so that the branch doesn't conflict with the weekly runs on `main`.
 
 If you've contributed from a fork and don't have write access, you don't need to do anything - a maintainer will run the Action, or the weekly run will pick up your collection once your pull request is merged.
 
@@ -412,7 +416,7 @@ Then run the Action by hand on `main` to check it works.
     python resources/scripts/build_youtube_talks.py
     ```
 
-Both scripts need the `pyyaml` package, which is included in the project's `environment.yaml`. Commit the updated `videos.json` and `talks.yml` files, and `recordings/recordings.json`, along with your other changes.
+Both scripts need the `pyyaml` package, which is included in the project's `environment.yaml`. Commit the updated `videos.json`, `talks.yml` and `_metadata.yml` files, and `recordings/recordings.json` and `recordings/_metadata.yml`, along with your other changes.
 
 > [!WARNING]
 > **Keep your API key secret.** Anyone with your key can use up its quota, and could run up costs if billing is enabled on your Google Cloud project.

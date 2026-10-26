@@ -57,6 +57,8 @@ AphA's sessions about its own services, such as introductions to membership, pro
 
 Search for a recording by title, speaker, year, series or topic. Newest recordings are listed first. Where a recording's description gives timings for its talks, each talk is listed separately and the link starts the video at that talk.
 
+*Last checked against YouTube on {{< meta recordings-checked >}} - the recordings are checked every week.*
+
 ::: {#apha-recordings}
 :::
 

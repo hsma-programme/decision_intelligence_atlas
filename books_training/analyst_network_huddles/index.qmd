@@ -56,6 +56,8 @@ The Huddles cover a wide range of topics, including:
 
 Search for a Huddle by title, speaker, year or topic. Newest Huddles are listed first.
 
+*Last checked against YouTube on {{< meta recordings-checked >}} - the recordings are checked every week.*
+
 ::: {#huddle-recordings}
 :::
 

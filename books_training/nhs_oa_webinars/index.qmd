@@ -70,6 +70,8 @@ The [NHS-OA Community](/books_training/nhs_oa_community/index.qmd) was formed in
 
 Search for a webinar or talk by title, speaker, year, series or topic. Newest recordings are listed first. Where a recording's description gives timings for its sections, each section is listed separately and the link starts the video at that section.
 
+*Last checked against YouTube on {{< meta recordings-checked >}} - the recordings are checked every week.*
+
 ::: {#webinar-recordings}
 :::
 

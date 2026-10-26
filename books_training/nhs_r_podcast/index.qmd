@@ -57,6 +57,8 @@ The episodes feature people from across the community talking about their work a
 
 ## Episodes
 
+*Last checked against YouTube on {{< meta recordings-checked >}} - the recordings are checked every week.*
+
 ::: {#podcast-episodes}
 :::
 

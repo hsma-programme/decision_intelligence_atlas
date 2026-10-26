@@ -60,6 +60,8 @@ More details about many of the projects, including links to their code where it 
 
 Search for a project by title, presenter, organisation or round. The most recent rounds are listed first. Where a recording covers several projects and its description gives the timings, each project is listed separately and the link starts the video at that project.
 
+*Last checked against YouTube on {{< meta recordings-checked >}} - the recordings are checked every week.*
+
 ::: {#showcase-recordings}
 :::
 

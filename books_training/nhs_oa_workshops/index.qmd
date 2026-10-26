@@ -64,6 +64,8 @@ There is also an introduction to building interactive visualisations in Python w
 
 Search for a workshop by title, speaker, year or topic. Newest workshops are listed first. Where a recording's description gives timings for its sections, each section is listed separately and the link starts the video at that section.
 
+*Last checked against YouTube on {{< meta recordings-checked >}} - the recordings are checked every week.*
+
 ::: {#workshop-recordings}
 :::
 

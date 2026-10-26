@@ -81,6 +81,8 @@ This is explained in their [presentation from the NHS RPySOC 2025 Conference](ht
 
 The Strategy Unit has published recordings of its training sessions, technical deep dives and Q&A sessions on the Demand and Capacity Model, for analysts and strategic planners working on new hospital schemes. Where a recording's description gives timings for its sections, each section is listed separately and the link starts the video at that section.
 
+*Last checked against YouTube on {{< meta recordings-checked >}} - the recordings are checked every week.*
+
 ::: {#nhp-training}
 :::
 

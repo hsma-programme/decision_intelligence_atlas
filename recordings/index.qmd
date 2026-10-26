@@ -152,6 +152,8 @@ function options(values) {
 }
 ```
 
+*Last checked against YouTube on {{< meta recordings-checked >}} - the recordings are checked every week.*
+
 ```{ojs}
 viewof query = Inputs.search(recordings, {
   label: "Search",

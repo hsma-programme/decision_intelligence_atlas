@@ -64,6 +64,8 @@ Some series are incomplete - for example, the second population health managemen
 
 Search for a session by title, course, year or topic. Sessions are grouped by course.
 
+*Last checked against YouTube on {{< meta recordings-checked >}} - the recordings are checked every week.*
+
 ::: {#mdsn-training}
 :::
 

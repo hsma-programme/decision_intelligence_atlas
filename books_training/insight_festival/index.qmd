@@ -63,6 +63,8 @@ The recorded events cover topics including:
 
 Search for an event by title, year or topic. Events are listed in the order they were published.
 
+*Last checked against YouTube on {{< meta recordings-checked >}} - the recordings are checked every week.*
+
 ::: {#insight-events}
 :::
 

@@ -74,6 +74,8 @@ Recordings of SWAIH's Insight Talks are available on YouTube. They include:
 
 Search for a talk by title, speaker, year or topic. Newest talks are listed first.
 
+*Last checked against YouTube on {{< meta recordings-checked >}} - the recordings are checked every week.*
+
 ::: {#swaih-talks}
 :::
 

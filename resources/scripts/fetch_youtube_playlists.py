@@ -6,6 +6,11 @@ Reads the API key from the `YOUTUBE_API_KEY` environment variable, or from a
 collection's folder, containing each video's title, description, publish
 date, duration and thumbnail.
 
+Also records the date as `recordings-checked` in a `_metadata.yml` file in
+each fetched collection's folder (and in `recordings/` for the Recordings
+Finder, when every collection is fetched). Quarto adds this to the metadata
+of the pages there, so they can show it with `{{< meta recordings-checked >}}`.
+
 Usage
 -----
 python resources/scripts/fetch_youtube_playlists.py [collection ...]
@@ -13,6 +18,7 @@ python resources/scripts/fetch_youtube_playlists.py [collection ...]
 Fetches all collections if none are given.
 """
 
+from datetime import date
 from pathlib import Path
 import json
 import os
@@ -27,6 +33,10 @@ import yaml
 API_URL = "https://www.googleapis.com/youtube/v3/"
 
 CONFIG_FILE = Path("resources/recordings/collections.yml")
+FINDER_FOLDER = Path("recordings")
+
+# Key in each folder's _metadata.yml giving the date it was last fetched
+CHECKED_KEY = "recordings-checked"
 
 
 def get_api_key():
@@ -155,6 +165,29 @@ def get_video_details(video_ids, key):
     return sorted(videos, key=lambda video: order[video["id"]])
 
 
+def record_checked(folder):
+    """
+    Record today's date as when a folder's recordings were last checked.
+
+    Parameters
+    ----------
+    folder : pathlib.Path
+        Folder whose `_metadata.yml` gets the date. Any other settings in
+        the file are kept.
+    """
+    metadata_file = folder / "_metadata.yml"
+    metadata = (
+        yaml.safe_load(metadata_file.read_text(encoding="utf-8")) or {}
+        if metadata_file.exists()
+        else {}
+    )
+    # Same format as the site's other dates (date-format: "DD MMMM YYYY")
+    metadata[CHECKED_KEY] = date.today().strftime("%d %B %Y")
+    metadata_file.write_text(
+        yaml.safe_dump(metadata, allow_unicode=True, sort_keys=False), encoding="utf-8"
+    )
+
+
 def main():
     config = yaml.safe_load(CONFIG_FILE.read_text(encoding="utf-8"))
     collections = sys.argv[1:] or list(config)
@@ -197,7 +230,13 @@ def main():
             json.dumps({"playlists": playlists}, indent=2, ensure_ascii=False) + "\n",
             encoding="utf-8",
         )
+        record_checked(out_file.parent)
         print(f"Wrote {out_file}")
+
+    # The Recordings Finder combines every collection, so it has only been
+    # checked if they all were
+    if set(collections) == set(config):
+        record_checked(FINDER_FOLDER)
 
 
 if __name__ == "__main__":

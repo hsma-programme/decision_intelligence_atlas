@@ -61,6 +61,8 @@ Content changes between rounds, so older recordings may use different tools or p
 
 Search for a session by title, topic, round or type. The most recent rounds are listed first. Where a recording's description gives timings for its sections, each section is listed separately and the link starts the video at that section.
 
+*Last checked against YouTube on {{< meta recordings-checked >}} - the recordings are checked every week.*
+
 ::: {#lecture-recordings}
 :::
 

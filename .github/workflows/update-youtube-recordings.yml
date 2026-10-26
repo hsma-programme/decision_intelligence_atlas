@@ -59,6 +59,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Only commit "last checked" dates on main, so that branches don't
+          # conflict with main's weekly runs. New collections' files are kept,
+          # as their pages need a date.
+          if [ "${{ github.ref }}" != "refs/heads/main" ]; then
+            git restore -- ':(glob)**/_metadata.yml'
+          fi
           git add books_training packages_projects_tools recordings
           if git diff --cached --quiet; then
             echo "No changes to commit."
@@ -69,7 +75,7 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      # The files changed here (talks.yml and recordings.json) aren't in the
+      # The files changed here (talks.yml, recordings.json and _metadata.yml) aren't in the
       # publish workflow's paths filter, so the push doesn't trigger it; start
       # it directly instead. Only for main, so that running this
       # workflow on another branch (e.g. to fetch a new collection for a pull
