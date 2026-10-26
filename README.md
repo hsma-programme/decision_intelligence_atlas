@@ -367,7 +367,7 @@ The **Update YouTube recordings** GitHub Action uses the Atlas's own API key, wh
 
 The Action fetches every collection, builds the tables of talks, and commits any changes to the branch it was run on.
 
-* Run on `main` (e.g. straight after a conference, to pick up new videos in an existing playlist), it also republishes the site.
+* Run on `main` (e.g. straight after a conference, to pick up new videos in an existing playlist), it then rebuilds and republishes the whole site, even if no recordings changed.
 * Run on another branch (e.g. the branch for a pull request adding a new collection), it commits the fetched recordings to that branch without publishing anything, so they can be reviewed before merging. It doesn't commit the "last checked" dates of existing collections, which change on every run, so that the branch doesn't conflict with the weekly runs on `main`.
 
 If you've contributed from a fork and don't have write access, you don't need to do anything - a maintainer will run the Action, or the weekly run will pick up your collection once your pull request is merged.
