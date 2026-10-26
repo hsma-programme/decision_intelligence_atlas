@@ -394,6 +394,15 @@
   image: https://i.ytimg.com/vi/IWEY2ELKO2Q/mqdefault.jpg
   date: '2026-09-17'
   duration: 05:17:19
+- title: 'NHS Open Analytics Workshop: Intermediate R - Part 1 & 2 (October 2026)'
+  description: 'Intermediate R with Zoë Turner (Part 1 & 2) Tuesday 13th October 2026 and Wednesday 14th October 2026 Course Description: This course is designed to follow on from the Introduction to R and R Studio course, noting that attendees should be familiar with the basics covered in the workshop. Please be…'
+  path: https://www.youtube.com/watch?v=tMK81u4xPpo
+  year: 2026
+  event: Workshops
+  type: Workshop
+  image: https://i.ytimg.com/vi/tMK81u4xPpo/mqdefault.jpg
+  date: '2026-10-16'
+  duration: 04:56:02
 - title: Introduction to R and R Studio Pt1
   description: This is the first part of a recording of Introduction to R and R Studio course which took place on 27 March 2024 with Simon Wellesley-Miller
   path: https://www.youtube.com/watch?v=V0SZsIFMIe4

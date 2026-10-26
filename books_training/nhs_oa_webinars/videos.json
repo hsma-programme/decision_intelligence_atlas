@@ -249,7 +249,7 @@
           "title": "December 2022 Webinar: The R Workflow – Dr Ryan Johnson from Posit",
           "description": "The R Workflow\nWednesday 21st December.\n\nRyan Johnson, Posit discusses the following (using a Shiny app as the end product):\n\n- R Markdown Job Scheduling\n-  Pins - https://pins.rstudio.com/\n- Plumber APIs\n\nThis session is a show-and-tell getting you familiar with various open source tools (Pins, Plumber) and how they can be used in combination with pro tools (Posit Connect) to improve workflows.\n\nResource links can be found on the NHS-R Community website: https://nhsrcommunity.com/events/december-2022-webinar-the-r-workflow-dr-ryan-johnson-from-posit/",
           "published": "2022-12-22T11:59:41Z",
-          "duration": "PT50M16S",
+          "duration": "PT49M33S",
           "thumbnail": "https://i.ytimg.com/vi/zyLT7akvc8s/mqdefault.jpg"
         },
         {

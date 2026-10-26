@@ -355,6 +355,14 @@
           "published": "2026-09-17T11:56:10Z",
           "duration": "PT5H17M19S",
           "thumbnail": "https://i.ytimg.com/vi/IWEY2ELKO2Q/mqdefault.jpg"
+        },
+        {
+          "id": "tMK81u4xPpo",
+          "title": "NHS Open Analytics Workshop: Intermediate R - Part 1 & 2 (October 2026)",
+          "description": "Intermediate R with Zoë Turner (Part 1 & 2) \nTuesday 13th October 2026 and Wednesday 14th October 2026\n\nCourse Description: \nThis course is designed to follow on from the Introduction to R and R Studio course, noting that attendees should be familiar with the basics covered in the workshop. \n\nPlease be advised that this session will go into more depth and complex wrangling tasks, explore how to use the NHS-R SPC plot the dots library and cover in very simple terms an understanding of some functional programming. This workshop will utilise the cloud, with all datasets provided as part of the course material, so no specialist set up is required.",
+          "published": "2026-10-16T11:52:24Z",
+          "duration": "PT4H56M2S",
+          "thumbnail": "https://i.ytimg.com/vi/tMK81u4xPpo/mqdefault.jpg"
         }
       ]
     },

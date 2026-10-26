@@ -899,6 +899,22 @@
           "published": "2026-09-22T13:03:05Z",
           "duration": "PT46M26S",
           "thumbnail": "https://i.ytimg.com/vi/dm0xkiBTxK4/mqdefault.jpg"
+        },
+        {
+          "id": "_NfvN89ftmo",
+          "title": "NAN Huddle: Introducing the I′-chart: an improved I-chart for SPC in healthcare -  01/10/2026",
+          "description": "NAN Huddle: 01/10/2026\nTopic: Introducing the I′-chart: an improved I-chart for SPC in healthcare\nWith Jacob Anhøj and Dr Nathan Proudlove, University of Manchester\n\nThis Huddle is for analysts and improvement colleagues who already use Statistical Process Control (SPC) - and those who would simply like to understand more about it.\n\nWe’ll start with a brief introduction to SPC before exploring the newly developed I′-chart (I-prime chart), designed to address some of the limitations of the traditional I-chart, particularly where denominators vary.\n\nUsing real health and care examples, Jacob will compare the I′-chart with established SPC approaches and discuss when it may be useful, while Nathan will reflect on the method from an improvement and implementation perspective, including some of the practical issues around software and analytical capability.\n\nWe’ll also explore interest in developing an SPC community of practice for health and care, where analysts can share methods, tools, software and learning.\n\nThe session connects particularly strongly to supporting change and improvement and building analytical capability. Being able to distinguish meaningful change from routine variation is fundamental to using data well and supporting better decisions.",
+          "published": "2026-10-06T10:57:26Z",
+          "duration": "PT1H1M9S",
+          "thumbnail": "https://i.ytimg.com/vi/_NfvN89ftmo/mqdefault.jpg"
+        },
+        {
+          "id": "sr5vLdLt24o",
+          "title": "NAN Huddle: The Networked Data Lab: insights from linking housing and health data - 15/10/2026",
+          "description": "NAN Huddle: 15/10/2026\nTopic: The Networked Data Lab: insights from linking housing and health data\nWith Tom Prendergast, Senior Data Analyst, The Health Foundation\n\nThe Networked Data Lab is a UK-wide network of analysts led by the Health Foundation. Tom will share insights from work linking housing and health data across five areas of the UK, and explore some of the opportunities and challenges involved in using data across organisational and sector boundaries.\n\nThere is a strong connection to strategic commissioning: linked data can help us understand population need and inequalities, identify where action may have greatest impact and support more joined-up decision making.",
+          "published": "2026-10-15T12:23:30Z",
+          "duration": "PT58M33S",
+          "thumbnail": "https://i.ytimg.com/vi/sr5vLdLt24o/mqdefault.jpg"
         }
       ]
     }
