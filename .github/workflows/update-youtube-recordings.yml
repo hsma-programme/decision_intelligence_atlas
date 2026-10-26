@@ -2,7 +2,13 @@ name: Update YouTube recordings
 
 # Refreshes the recordings listed in resources/recordings/collections.yml,
 # commits any changes, and republishes the site if anything changed.
-# Needs the YOUTUBE_API_KEY repository secret.
+# Needs the YOUTUBE_API_KEY repository secret, plus a GitHub App to push
+# past the main branch ruleset: its ID as the RECORDINGS_APP_ID repository
+# variable and its private key as the RECORDINGS_APP_PRIVATE_KEY repository
+# secret. The app needs Contents read and write permission, must be installed
+# on this repository and must be on the main ruleset's bypass list. If the
+# repository moves to another organisation, see "If the repository moves to a
+# different GitHub organisation" in the README.
 
 on:
   schedule:
@@ -13,11 +19,22 @@ jobs:
   update-recordings:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # commit refreshed recordings
+      contents: read # pushes use the app token, not GITHUB_TOKEN
       actions: write # trigger the publish workflow
     steps:
+      # GITHUB_TOKEN can't bypass the rule that changes to main go through a
+      # pull request, so push with a token from an app that can.
+      - name: Get token that can push to main
+        id: app-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ vars.RECORDINGS_APP_ID }}
+          private-key: ${{ secrets.RECORDINGS_APP_PRIVATE_KEY }}
+
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          token: ${{ steps.app-token.outputs.token }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -52,8 +69,9 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      # Pushes made with GITHUB_TOKEN don't trigger other workflows, so start
-      # the publish workflow directly. Only for main, so that running this
+      # The files changed here (talks.yml and recordings.json) aren't in the
+      # publish workflow's paths filter, so the push doesn't trigger it; start
+      # it directly instead. Only for main, so that running this
       # workflow on another branch (e.g. to fetch a new collection for a pull
       # request) doesn't publish that branch.
       - name: Republish site

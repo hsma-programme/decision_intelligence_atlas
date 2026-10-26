@@ -356,7 +356,7 @@ Fetching the videos' details from YouTube needs a YouTube Data API key. There ar
 
 ##### Option 1: run the GitHub Action (no API key of your own needed)
 
-The **Update YouTube recordings** GitHub Action uses the Atlas's own API key, which is stored securely in the repository as the `YOUTUBE_API_KEY` secret. As well as running automatically on the 1st of each month, anyone with write access to the repository can run it by hand:
+The **Update YouTube recordings** GitHub Action uses the Atlas's own API key, which is stored securely in the repository as the `YOUTUBE_API_KEY` secret. It commits to `main` using a GitHub App (stored as the `RECORDINGS_APP_ID` variable and `RECORDINGS_APP_PRIVATE_KEY` secret) that is allowed to bypass the rule that changes to `main` go through a pull request. As well as running automatically on the 1st of each month, anyone with write access to the repository can run it by hand:
 
 1. Go to the repository's **Actions** tab and choose **Update YouTube recordings** from the list of workflows.
 2. Click **Run workflow**, choose the branch to run it on, and click the green **Run workflow** button.
@@ -367,6 +367,18 @@ The Action fetches every collection, builds the tables of talks, and commits any
 * Run on another branch (e.g. the branch for a pull request adding a new collection), it commits the fetched recordings to that branch without publishing anything, so they can be reviewed before merging.
 
 If you've contributed from a fork and don't have write access, you don't need to do anything - a maintainer will run the Action, or the monthly run will pick up your collection once your pull request is merged.
+
+###### If the repository moves to a different GitHub organisation
+
+The GitHub App belongs to the organisation, not the repository, so after a transfer the Action is likely to fail. Either the **Get token that can push to main** step fails because the app isn't installed on the repository any more, or the push is rejected with `GH013: Repository rule violations` because the app isn't on the new ruleset's bypass list. To fix it, an owner of the organisations involved should:
+
+1. **Move or recreate the app.** In the old organisation, go to **Settings > Developer settings > GitHub Apps**, open the app, and use **Transfer ownership** under **Advanced** to move it to the new organisation. This keeps its App ID and private key, so the repository variable and secret stay valid. If that isn't possible, create a new app in the new organisation with **Repository permissions > Contents: Read and write** and nothing else, then generate a private key for it.
+2. **Install the app** on the new organisation, choosing **Only select repositories** and picking this repository.
+3. **Check the Action's settings** under the repository's **Settings > Secrets and variables > Actions**. There should be secrets `YOUTUBE_API_KEY` and `RECORDINGS_APP_PRIVATE_KEY` (the full contents of the app's `.pem` private key file), and a variable `RECORDINGS_APP_ID` (the App ID, shown on the app's settings page). Re-add any that are missing, and update both app values if you created a new app.
+4. **Check the rules on `main`** under **Settings > Rules > Rulesets**. Rulesets set at the organisation level stay with the old organisation, and the new one may have its own. Whichever ruleset requires pull requests for `main`, add the app to its **Bypass list** as **Always allow**.
+5. **Check Actions are allowed** under **Settings > Actions > General**. If the new organisation limits which actions can run, it needs to allow `actions/create-github-app-token`.
+
+Then run the Action by hand on `main` to check it works.
 
 ##### Option 2: run the scripts yourself
 
