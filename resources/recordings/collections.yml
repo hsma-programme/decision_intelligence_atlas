@@ -190,12 +190,8 @@ apha_recordings:
           event: AphA Conference
         - pattern: 'branch|hybrid event'
           event: Branch meetings
-      # AphA's own admin sessions, e.g. on professional registration and mentoring
+      # Announcement of AphA's competency framework survey winners
       exclude_by_title:
-        - registration
-        - introductory webinar
-        - professional home
-        - mentor
         - survey winners
       # Dates and "meeting recording", added to most titles
       remove_from_title: '\s*(\b\d{1,2}(st|nd|rd|th)?\s*(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*(\s*\d{2,4})?|\b\d{8}\s+\d{6}|\bmeeting\s+recording|\brecording)\b'
