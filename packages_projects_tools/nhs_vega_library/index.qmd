@@ -44,6 +44,7 @@ pub-info:
   - name: Website
     url: "https://paddy-devan.github.io/nhs-vega-library/"
     icon: fa-solid fa-globe
+date: "2026-04-29T13:57:10+01:00"
 ---
 
 Vega is a data visualisation language based on the 'grammar of graphics', which is also used by popular packages such as R's ggplot. Using Vega, you can create extremely customised data driven charts and interactive widgets, which can be placed in Power BI dashboards using the Deneb custom visual, or in Python notebooks using the Altair package.
