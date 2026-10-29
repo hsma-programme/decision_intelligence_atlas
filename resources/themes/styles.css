@@ -894,6 +894,14 @@ p {
     --medal-color: #893400;
 }
 
+.atlas-example-date {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.8rem;
+    color: var(--atlas-example-muted);
+}
+
 .atlas-example-title {
     margin: 0;
     font-size: 1.35rem;

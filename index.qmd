@@ -16,16 +16,26 @@ listing:
       - graph_catalogue/*/*.qmd
     categories: false
     template: resources/example_carousel.ejs
+    template-params:
+      id: random-examples-carousel
+      label: Random examples from across the Atlas
+      shuffle: true
+      shown: 10
   - id: newest
     contents:
       - packages_projects_tools/*/*.qmd
       - books_training/*/*.qmd
-    type: grid
-    grid-columns: 3
+      - techniques/*/*.qmd
+      - graph_catalogue/*/*.qmd
     categories: false
-    template: packages_projects_tools/listing.ejs
+    template: resources/example_carousel.ejs
+    template-params:
+      id: newest-carousel
+      label: Most recently added or updated entries
+      show-date: true
     sort: date desc
-    max-items: 6
+    max-items: 10
+    date-format: "D MMMM YYYY"
 ---
 
 ```{python}
@@ -157,6 +167,13 @@ Search hundreds of recorded conference talks, webinars, workshops and network hu
 
 <br/>
 
+## Explore the Atlas
+
+A random selection of entries from across the Atlas - reload the page to see a different set.
+
+::: {#random-examples}
+:::
+
 ## Contributions
 
 Contributions are very welcome!
@@ -258,14 +275,7 @@ If you have any concerns, or would like any content to be removed, please [raise
 
 :::
 
-## Explore the Atlas
-
-A random selection of entries from across the Atlas - reload the page to see a different set.
-
-::: {#random-examples}
-:::
-
-## Most Recently Added or Updated Projects, Packages and Tools
+## Most Recently Added or Updated Entries
 
 ::: {#newest}
 :::

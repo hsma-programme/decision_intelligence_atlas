@@ -12,11 +12,14 @@
     'silver': 'Silver: well documented and adaptable, but may be more limited in tests, documentation, adoption or maintenance than a gold project',
     'bronze': 'Bronze: limited documentation and/or may need significant reworking to be reused, or at an early stage or no longer maintained'
   };
+  // Set per listing with template-params; see index.qmd
+  const params = templateParams || {};
+  const carouselId = params.id || 'atlas-example-carousel';
 %>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 
-<section id="atlas-example-carousel" class="splide atlas-example-carousel" aria-label="Random examples from across the Atlas">
+<section id="<%- carouselId %>" class="splide atlas-example-carousel" aria-label="<%- params.label || 'Examples from across the Atlas' %>">
   <div class="atlas-example-toolbar">
     <button class="splide__toggle atlas-example-toggle" type="button">
       <span class="splide__toggle__play"><i class="fa-solid fa-play"></i> Resume slideshow</span>
@@ -59,6 +62,9 @@
                   <i class="fa-solid fa-medal"></i> <%= statusText %>
                 </span>
               <% } %>
+              <% if (params['show-date'] && item.date) { %>
+                <span class="atlas-example-date"><i class="bi bi-calendar3"></i> Updated <%= item.date %></span>
+              <% } %>
             </div>
 
             <h3 class="no-anchor atlas-example-title">
@@ -93,18 +99,19 @@
 
 <script>
 (function () {
+  var root = document.getElementById('<%- carouselId %>');
+
+  <% if (params.shuffle) { %>
   // Every entry is rendered at build time; keep a random handful on each visit
-  var EXAMPLES_SHOWN = 10;
-  var root = document.getElementById('atlas-example-carousel');
   var list = root.querySelector('.splide__list');
   var slides = Array.prototype.slice.call(list.children);
-
   for (var i = slides.length - 1; i > 0; i--) {
     var j = Math.floor(Math.random() * (i + 1));
     var tmp = slides[i]; slides[i] = slides[j]; slides[j] = tmp;
   }
   list.innerHTML = '';
-  slides.slice(0, EXAMPLES_SHOWN).forEach(function (slide) { list.appendChild(slide); });
+  slides.slice(0, <%- params.shown || 10 %>).forEach(function (slide) { list.appendChild(slide); });
+  <% } %>
 
   new Splide(root, {
     type: 'loop',
