@@ -32,6 +32,7 @@ pub-info:
   - name: eBook Companion
     url: https://decisionintelligence-healthcare.streamlit.app
     icon: fa-solid fa-globe
+date: "2026-10-05T10:03:01+01:00"
 ---
 
 This ebook covers 21 modules (at the time of writing, with one marked as coming soon) on how to make better decisions with data.

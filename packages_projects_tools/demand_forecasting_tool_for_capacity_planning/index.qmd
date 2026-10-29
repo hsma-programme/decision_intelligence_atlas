@@ -46,6 +46,7 @@ pub-info:
     icon: fa-solid fa-globe
 filters:
   - splide-carousel
+date: "2026-06-25T12:34:44+01:00"
 ---
 
 This tool is a Streamlit-based application designed to support demand forecasting and capacity planning using the Facebook Prophet time series model. It enables users to upload structured activity data (typically monthly referrals or service volumes) and generate forward projections with minimal setup, making it suitable for operational and planning contexts.

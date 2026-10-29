@@ -8,16 +8,34 @@ format:
       - resources/title-block.html
 
 listing:
+  - id: random-examples
+    contents:
+      - packages_projects_tools/*/*.qmd
+      - books_training/*/*.qmd
+      - techniques/*/*.qmd
+      - graph_catalogue/*/*.qmd
+    categories: false
+    template: resources/example_carousel.ejs
+    template-params:
+      id: random-examples-carousel
+      label: Random examples from across the Atlas
+      shuffle: true
+      shown: 10
   - id: newest
     contents:
       - packages_projects_tools/*/*.qmd
       - books_training/*/*.qmd
-    type: grid
-    grid-columns: 3
+      - techniques/*/*.qmd
+      - graph_catalogue/*/*.qmd
     categories: false
-    template: packages_projects_tools/listing.ejs
+    template: resources/example_carousel.ejs
+    template-params:
+      id: newest-carousel
+      label: Most recently added or updated entries
+      show-date: true
     sort: date desc
-    max-items: 6
+    max-items: 10
+    date-format: "D MMMM YYYY"
 ---
 
 ```{python}
@@ -123,6 +141,8 @@ Click on the links below, or use the menu bar to navigate.
 
 <br/>
 
+:::::: {.section-boxes}
+
 ::::: {.value-box-row columns="4" width="100%" align="center" min-height="180px" icon-size="4.5rem" font-size="0.9rem" color="#009c92" value-font-size="1.7rem"}
 
 :::: {.value-box icon="bi-tools" href="https://atlas.hsma.co.uk/packages_projects_tools/" value="Packages, Projects<br/>& Tools"}
@@ -143,11 +163,29 @@ A showcase of graph types of use in healthcare contexts
 
 :::::
 
+::::::
+
 ::: {.value-box icon="bi-play-btn" href="https://atlas.hsma.co.uk/recordings/" value="Recordings Finder" color="#00505A" width="100%" icon-position="left" icon-size="3.5rem" font-size="0.9rem" align="left"}
 Search hundreds of recorded conference talks, webinars, workshops and network huddles from across the health and care analytics community, all in one place
 :::
 
 <br/>
+
+## Explore the Atlas
+
+A random selection of entries from across the Atlas - reload the page to see a different set.
+
+::: {#random-examples}
+:::
+
+## Most Recently Added or Updated Entries
+
+Interested in what's changed since you last visited? Take a look at the most recently added or edited entries below.
+
+::: {#newest}
+:::
+
+Click [here](https://atlas.hsma.co.uk/packages_projects_tools/packages_projects_tools.html) to view all projects, packages and tools.
 
 ## Contributions
 
@@ -249,10 +287,3 @@ Inclusion of a tool on this page also does not indicate endorsement of the tool 
 If you have any concerns, or would like any content to be removed, please [raise an issue on the repository](https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose).
 
 :::
-
-## Most Recently Added or Updated Projects, Packages and Tools
-
-::: {#newest}
-:::
-
-Click [here](https://atlas.hsma.co.uk/packages_projects_tools/packages_projects_tools.html) to view all projects, packages and tools.

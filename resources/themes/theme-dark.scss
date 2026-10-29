@@ -88,3 +88,29 @@ body.quarto-dark .recordings-range-slider input[type="range"]::-webkit-slider-th
 body.quarto-dark .recordings-range-slider input[type="range"]::-moz-range-thumb {
   border-color: #0e211f;
 }
+
+// Homepage example carousel
+body.quarto-dark .atlas-example-carousel {
+  --atlas-example-card-bg: #173230;
+  --atlas-example-card-border: #274a46;
+  --atlas-example-media-bg: #0e211f;
+  --atlas-example-muted: #9cbab6;
+  --atlas-example-link-border: #4a6e6a;
+}
+
+body.quarto-dark .atlas-example-carousel .splide__pagination__page {
+  background-color: #274a46;
+}
+
+body.quarto-dark .atlas-example-carousel .splide__pagination__page.is-active {
+  background-color: #009c92;
+}
+
+// Lift the darker section colours so they stand out against the dark card
+body.quarto-dark .atlas-example-books_training {
+  --section-color: #2a73b8;
+}
+
+body.quarto-dark .atlas-example-techniques {
+  --section-color: #7a52a0;
+}

@@ -1,5 +1,6 @@
 """Validate QMD metadata against the permitted lists."""
 
+from datetime import date, datetime
 from pathlib import Path
 import sys
 import yaml
@@ -28,6 +29,14 @@ DELIVERY_CATEGORIES = {"Synchronous", "Asynchronous"}
 
 # Icon that must appear in `pub-info.project-type` for `Paid Resources`.
 PAID_ICON = "fa-sterling-sign"
+
+# Sections whose entries appear in the homepage listings, which sort by date.
+ENTRY_ROOTS = [
+    Path("packages_projects_tools"),
+    Path("books_training"),
+    Path("techniques"),
+    Path("graph_catalogue"),
+]
 
 
 def load_list(path):
@@ -196,10 +205,61 @@ def check_books_training_sections():
     print("All books_training entries are in exactly one section.")
 
 
+def check_dates():
+    """
+    Check every entry has a fixed `date` of when it was added or last updated.
+
+    Without one, listings fall back to the file's modified time, which on
+    GitHub Actions is the checkout time, so the entry always shows as the
+    newest on the homepage. Quarto's `today` and `last-modified` keywords
+    have the same problem, so they aren't allowed either.
+    """
+    problems = []
+
+    paths = [path for root in ENTRY_ROOTS for path in root.glob("*/index.qmd")]
+
+    for path in paths:
+        text = path.read_text(encoding="utf-8")
+        front_matter = extract_front_matter(text)
+        if not front_matter:
+            continue
+
+        meta = yaml.safe_load(front_matter) or {}
+        value = meta.get("date")
+        if value is None:
+            problems.append(f"{path}: missing date")
+            continue
+
+        # YAML reads unquoted dates as date objects, and quoted ones as strings
+        if isinstance(value, (date, datetime)):
+            continue
+        try:
+            datetime.fromisoformat(str(value))
+        except ValueError:
+            problems.append(
+                f"{path}: date must be a fixed date such as "
+                f"\"2026-01-31T10:00:00+00:00\" (found {value!r})"
+            )
+
+    if problems:
+        print("date validation failed:\n")
+        for problem in problems:
+            print(f"- {problem}")
+        print("")
+        print(
+            "Set `date` to when the entry was added or last updated, "
+            "e.g. date: \"2026-01-31T10:00:00+00:00\""
+        )
+        sys.exit(1)
+
+    print("All entries have a valid date.")
+
+
 def main():
     check_entries("categories", CATEGORIES_CSV)
     check_entries("tool-language", LANGUAGES_CSV)
     check_books_training_sections()
+    check_dates()
 
 
 if __name__ == "__main__":
