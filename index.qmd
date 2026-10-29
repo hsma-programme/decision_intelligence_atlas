@@ -8,6 +8,14 @@ format:
       - resources/title-block.html
 
 listing:
+  - id: random-examples
+    contents:
+      - packages_projects_tools/*/*.qmd
+      - books_training/*/*.qmd
+      - techniques/*/*.qmd
+      - graph_catalogue/*/*.qmd
+    categories: false
+    template: resources/example_carousel.ejs
   - id: newest
     contents:
       - packages_projects_tools/*/*.qmd
@@ -248,6 +256,13 @@ Inclusion of a tool on this page also does not indicate endorsement of the tool 
 
 If you have any concerns, or would like any content to be removed, please [raise an issue on the repository](https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose).
 
+:::
+
+## Explore the Atlas
+
+A random selection of entries from across the Atlas - reload the page to see a different set.
+
+::: {#random-examples}
 :::
 
 ## Most Recently Added or Updated Projects, Packages and Tools

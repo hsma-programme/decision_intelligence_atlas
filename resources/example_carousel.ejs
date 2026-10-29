@@ -1,0 +1,124 @@
+```{=html}
+<%
+  // Which section of the Atlas each entry belongs to, keyed by its top-level folder
+  const sections = {
+    'packages_projects_tools': { name: 'Packages, Projects & Tools', icon: 'bi-tools' },
+    'books_training': { name: 'Books, Training & Communities', icon: 'bi-book' },
+    'techniques': { name: 'Techniques', icon: 'bi-lightbulb' },
+    'graph_catalogue': { name: 'Graph Gallery', icon: 'bi-file-earmark-bar-graph' }
+  };
+  const statusDescriptions = {
+    'gold': 'Gold: extensive tests, clear documentation, and a well-established, actively maintained project',
+    'silver': 'Silver: well documented and adaptable, but may be more limited in tests, documentation, adoption or maintenance than a gold project',
+    'bronze': 'Bronze: limited documentation and/or may need significant reworking to be reused, or at an early stage or no longer maintained'
+  };
+%>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+<section id="atlas-example-carousel" class="splide atlas-example-carousel" aria-label="Random examples from across the Atlas">
+  <div class="atlas-example-toolbar">
+    <button class="splide__toggle atlas-example-toggle" type="button">
+      <span class="splide__toggle__play"><i class="fa-solid fa-play"></i> Resume slideshow</span>
+      <span class="splide__toggle__pause"><i class="fa-solid fa-pause"></i> Pause slideshow</span>
+    </button>
+  </div>
+  <div class="splide__track">
+    <ul class="splide__list">
+
+    <% for (const item of items) { %>
+      <%
+        // Paths are source paths at this point, with backslashes when rendering on Windows
+        const folder = (item.path.match(/^[.\/\\]*([^\/\\]+)[\/\\]/) || [])[1];
+        const section = sections[folder];
+        const sectionHref = './' + folder + '/index.html';
+        const pubInfo = item['pub-info'] || {};
+        const abstract = (pubInfo.abstract || item.description || '').trim();
+        const statusText = String(item.status || '').replace(/<[^>]*>/g, '').trim();
+        const statusKey = statusText.toLowerCase();
+      %>
+      <% if (section) { %>
+      <li class="splide__slide">
+        <article class="atlas-example-card atlas-example-<%- folder %>">
+
+          <a class="atlas-example-media" href="<%- item.path %>" tabindex="-1" aria-hidden="true">
+            <% if (item.image) { %>
+              <img src="<%- item.image %>" alt="" loading="lazy"/>
+            <% } else { %>
+              <i class="bi <%- section.icon %> atlas-example-placeholder"></i>
+            <% } %>
+          </a>
+
+          <div class="atlas-example-body">
+            <div class="atlas-example-meta">
+              <a class="atlas-example-section" href="<%- sectionHref %>">
+                <i class="bi <%- section.icon %>"></i> <%= section.name %>
+              </a>
+              <% if (statusDescriptions[statusKey]) { %>
+                <span class="atlas-example-status atlas-example-status-<%- statusKey %>" title="<%- statusDescriptions[statusKey] %>">
+                  <i class="fa-solid fa-medal"></i> <%= statusText %>
+                </span>
+              <% } %>
+            </div>
+
+            <h3 class="no-anchor atlas-example-title">
+              <a href="<%- item.path %>"><%= item.title %></a>
+              <% if (pubInfo['project-type']) { %><span class="atlas-example-type"><%= pubInfo['project-type'] %></span><% } %>
+            </h3>
+
+            <div class="atlas-example-abstract">
+              <% for (const para of abstract.split(/\n\s*\n/)) { %>
+                <p><%= para %></p>
+              <% } %>
+            </div>
+
+            <div class="atlas-example-links">
+              <a class="atlas-example-link atlas-example-link-primary" href="<%- item.path %>"><i class="fa fa-info-circle"></i> Details</a>
+              <% for (const link of (pubInfo.links || [])) { %>
+                <% if (link.url) { %>
+                  <a class="atlas-example-link" href="<%- link.url %>"><i class="<%- link.icon %>"></i> <%= link.name %></a>
+                <% } %>
+              <% } %>
+            </div>
+          </div>
+
+        </article>
+      </li>
+      <% } %>
+    <% } %>
+
+    </ul>
+  </div>
+</section>
+
+<script>
+(function () {
+  // Every entry is rendered at build time; keep a random handful on each visit
+  var EXAMPLES_SHOWN = 10;
+  var root = document.getElementById('atlas-example-carousel');
+  var list = root.querySelector('.splide__list');
+  var slides = Array.prototype.slice.call(list.children);
+
+  for (var i = slides.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var tmp = slides[i]; slides[i] = slides[j]; slides[j] = tmp;
+  }
+  list.innerHTML = '';
+  slides.slice(0, EXAMPLES_SHOWN).forEach(function (slide) { list.appendChild(slide); });
+
+  new Splide(root, {
+    type: 'loop',
+    perPage: 1,
+    gap: '1.25rem',
+    padding: { left: '4rem', right: '4rem' },
+    autoplay: true,
+    interval: 8000,
+    pauseOnHover: true,
+    pauseOnFocus: true,
+    breakpoints: {
+      768: { padding: { left: '0.75rem', right: '0.75rem' }, arrows: false, gap: '0.75rem' }
+    }
+  }).mount();
+})();
+</script>
+```
