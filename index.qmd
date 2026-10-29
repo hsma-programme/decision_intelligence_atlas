@@ -174,6 +174,15 @@ A random selection of entries from across the Atlas - reload the page to see a d
 ::: {#random-examples}
 :::
 
+## Most Recently Added or Updated Entries
+
+Interested in what's changed since you last visited? Take a look at the most recently added or edited entries below.
+
+::: {#newest}
+:::
+
+Click [here](https://atlas.hsma.co.uk/packages_projects_tools/packages_projects_tools.html) to view all projects, packages and tools.
+
 ## Contributions
 
 Contributions are very welcome!
@@ -274,10 +283,3 @@ Inclusion of a tool on this page also does not indicate endorsement of the tool 
 If you have any concerns, or would like any content to be removed, please [raise an issue on the repository](https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose).
 
 :::
-
-## Most Recently Added or Updated Entries
-
-::: {#newest}
-:::
-
-Click [here](https://atlas.hsma.co.uk/packages_projects_tools/packages_projects_tools.html) to view all projects, packages and tools.
