@@ -1021,3 +1021,27 @@ p {
         line-clamp: 6;
     }
 }
+
+/* Homepage section boxes: only 4 across, 2 x 2 or 1 x 4, never 3 + 1.
+   Breakpoints are where 4 or 2 columns of the value-box extension's 14rem
+   minimum (plus its 1.5rem gaps) fit, measured on the container rather than
+   the viewport, matching how the extension itself reflows. */
+.section-boxes {
+    container-type: inline-size;
+}
+
+.section-boxes > .value-box-row.vb-row-grid {
+    grid-template-columns: minmax(0, 1fr);
+}
+
+@container (min-width: 29.5rem) {
+    .section-boxes > .value-box-row.vb-row-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@container (min-width: 60.5rem) {
+    .section-boxes > .value-box-row.vb-row-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
