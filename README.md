@@ -93,7 +93,7 @@ Additional images or other resources can be placed in the same folder and linked
 
 To preview your entry locally, run `quarto preview` to compile and display website.
 
-The project currently uses Quarto version 1.7.33.
+The site is built with Quarto 1.7.33, so we recommend using that version, though most newer versions of Quarto should also work.
 
 > [!TIP]
 > You do **not** need to render the site manually other than for the purpose of checking your page renders as expected - rerendering and deployment is handled automatically by GitHub Actions when your pull request is accepted.

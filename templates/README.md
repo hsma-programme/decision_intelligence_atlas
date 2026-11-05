@@ -39,6 +39,8 @@ The two CSV files in this folder list the permitted `categories` and `tool-langu
 
     This checks the categories, languages, rating and date, and that books and training entries are in exactly one section. Then run `quarto preview` and look at your page, and at the section page it's listed on.
 
+    Previewing is only for checking your page looks right: you don't need to build or deploy the site, because GitHub Actions does that once your pull request is merged. If you preview locally, we recommend Quarto 1.7.33 (the version the site is built with), though most newer versions should also work. Alternatively, use a GitHub Codespace, which has 1.7.33 pre-installed. See [Previewing your new or edited content](../README.md#previewing-your-new-or-edited-content).
+
 6. **Open a pull request.** A member of the Atlas team will review it, and may make small changes before it's published.
 
 To edit an existing entry, find its folder from the page's address (e.g. `atlas.hsma.co.uk/packages_projects_tools/vidigi/` is `packages_projects_tools/vidigi/index.qmd`) and edit it in the same way. Update its `date` if you've made substantial changes.
