@@ -1,0 +1,100 @@
+---
+# TEMPLATE: technique
+# Copy this whole folder into techniques/, rename the folder, and fill in the fields below.
+# See templates/README.md for step-by-step instructions, and techniques/des/ and techniques/spc/ for full examples.
+# Lines starting with # are comments - you can leave them in or delete them.
+
+title: "Replace this with the name of the technique, e.g. 'Discrete Event Simulation'"
+
+image: my_image.png # Image for the listing card on the Techniques page. Put it in this folder and give just its filename,
+                    # or link to an image elsewhere in the Atlas with a relative path, e.g. ../../packages_projects_tools/vidigi/vidigi.png
+                    # If you don't have one, delete this line.
+
+author: # Who wrote the content of this page. affiliation is optional.
+  - name: Your Name
+    affiliation: Your organisation or institution
+
+date: "YYYY-MM-DDTHH:MM:SS+00:00" # REQUIRED: when the entry was added or last updated, e.g. "2026-01-31T10:00:00+00:00".
+                                  # Used to order the homepage's "Most recently added or updated" list. Don't use `today` or `last-modified`.
+
+pub-info:
+  entry-author: # Optional: shown as "Atlas Entry authored by". Delete this block if you'd rather not be named.
+    - name: Your Name
+      url: https://github.com/your-username # Optional: GitHub profile, website, ORCID or similar
+  abstract: | # Summary shown on the listing card and at the top of the entry. Aim for 50-200 words.
+    Replace this with a short, plain-English summary of the technique: what it is, the kinds of healthcare problems it helps with, and why it's useful.
+  # Optional buttons, e.g. to a key guide or paper. Any link left with an empty url is hidden.
+  links:
+  - name: Further reading
+    url:
+    icon: fa-solid fa-book
+
+# OPTIONAL: show grids of related Atlas entries on this page, e.g. packages for the technique, training, and projects using it.
+# Each listing has an id, which you place in the page with ::: {#id} ::: (see the bottom of this file).
+# Choose entries by their categories, or by words in their titles (title: "*{Word one,Word two}*").
+# Delete any listings you don't need, or the whole block if you don't want any.
+listing:
+  - id: related_projects
+    type: grid
+    grid-columns: 2
+    categories: false
+    template: "../../packages_projects_tools/listing.ejs"
+    sort: Title
+    include:
+      categories: "Replace with a category"
+    contents: "../../packages_projects_tools/*/*.qmd"
+  - id: related_training
+    type: grid
+    grid-columns: 2
+    categories: false
+    template: "../../packages_projects_tools/listing.ejs"
+    sort: Title
+    include:
+      title: "*{Replace with a word in the title,Another word}*"
+    contents: "../../books_training/*/*.qmd"
+---
+
+<!--
+Write the main content below. Aim it at an analyst who hasn't used the technique before. Things worth covering:
+
+- what the technique is, in plain English
+- the kinds of questions it can answer in healthcare, with examples
+- the key ideas or terms someone needs to understand it
+- the software available to do it (free and open source, and others)
+- pitfalls, limitations, or when not to use it
+- where to learn more
+
+Comments like this one won't appear on the page, so you can delete them or leave them in.
+-->
+
+Replace this with an introduction to the technique.
+
+Using this technique can help with
+
+- replace with something it helps with
+- replace with something else it helps with
+
+# Key concepts
+
+Replace this with the main ideas someone needs to understand to use the technique.
+
+<!-- To add an image, put it in this folder (or an assets/ subfolder) and use: ![Caption or credit](my_image.png) -->
+
+# Software
+
+Replace this with an overview of the software available, and link to Atlas entries for packages where they exist,
+e.g. [Vidigi](/packages_projects_tools/vidigi/index.qmd).
+
+<!-- If you have a graph catalogue entry for this technique, link to it too, e.g. [graph examples](/graph_catalogue/my_graph/index.qmd). -->
+
+# Training
+
+::: {#related_training}
+:::
+
+# Projects using this technique
+
+Below are some projects making use of this technique from across the health service.
+
+::: {#related_projects}
+:::

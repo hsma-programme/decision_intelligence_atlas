@@ -30,6 +30,9 @@ DELIVERY_CATEGORIES = {"Synchronous", "Asynchronous"}
 # Icon that must appear in `pub-info.project-type` for `Paid Resources`.
 PAID_ICON = "fa-sterling-sign"
 
+# Ratings a `status` can contain (Gold/Silver/Bronze are wrapped in a coloured span).
+STATUS_RATINGS = ("Gold", "Silver", "Bronze", "N/A")
+
 # Sections whose entries appear in the homepage listings, which sort by date.
 ENTRY_ROOTS = [
     Path("packages_projects_tools"),
@@ -255,10 +258,59 @@ def check_dates():
     print("All entries have a valid date.")
 
 
+def check_required_fields():
+    """
+    Check packages and books entries have a language and a rating.
+
+    Every entry in `QMD_ROOTS` needs at least one `tool-language`, or it
+    won't appear in any section of the Packages, Projects & Tools page, and
+    a `status` rating of Gold, Silver, Bronze or N/A. The templates leave
+    these commented out, so this catches entries where they weren't filled in.
+    """
+    problems = []
+
+    paths = [path for root in QMD_ROOTS for path in root.glob("*/index.qmd")]
+
+    for path in paths:
+        text = path.read_text(encoding="utf-8")
+        front_matter = extract_front_matter(text)
+        if not front_matter:
+            continue
+
+        meta = yaml.safe_load(front_matter) or {}
+
+        languages = meta.get("tool-language")
+        if not languages or (isinstance(languages, list) and not any(languages)):
+            problems.append(
+                f"{path}: missing tool-language (use N/A if no language applies)"
+            )
+
+        status = str(meta.get("status") or "")
+        if not any(rating in status for rating in STATUS_RATINGS):
+            problems.append(
+                f"{path}: status must be a Gold, Silver, Bronze or N/A rating "
+                f"(found {meta.get('status')!r})"
+            )
+
+    if problems:
+        print("required field validation failed:\n")
+        for problem in problems:
+            print(f"- {problem}")
+        print("")
+        print(
+            "See the templates in templates/ for how to write tool-language "
+            "and status."
+        )
+        sys.exit(1)
+
+    print("All entries have a tool-language and a status rating.")
+
+
 def main():
     check_entries("categories", CATEGORIES_CSV)
     check_entries("tool-language", LANGUAGES_CSV)
     check_books_training_sections()
+    check_required_fields()
     check_dates()
 
 

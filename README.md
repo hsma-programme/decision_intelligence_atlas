@@ -42,70 +42,58 @@ Spotted a bug? Got an idea for a potential improvement?
 
 Please head over to our [issues](https://github.com/hsma-programme/decision_intelligence_atlas/issues) page and open a new issue - or see if you can contribute to any of the ones already open.
 
-### Contributing a tool, package or project
+### Contributing an entry
+
+The Atlas has five kinds of entry: packages, projects and tools; books, training and communities (including collections of recordings); techniques; and graphs.
 
 #### via GitHub Issues (code-free approach!)
 
-If you wish to submit a tool, package or project but are not confident with GitHub and Quarto (or you just have a simple submission to make), you can submit a GitHub issue via our template: [https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose](https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose)
+If you wish to submit a tool, package, project, book, training resource or community but are not confident with GitHub and Quarto (or you just have a simple submission to make), you can submit a GitHub issue via our template: [https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose](https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose)
 
 This will collect all the required information and use it to automatically generate a new folder and file in the correct format, raising it as a 'pull request' for inclusion in the atlas. A repository administrator will then review the auto-created file, make any tweaks and fixes required, and let you know when your contribution is live.
+
+For techniques and graphs, you can [suggest an entry](https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose) with an issue, or write it yourself using a template (see below).
 
 #### Advanced option: contributing a .qmd file
 
 If you wish to have more control over your submission and are comfortable using Quarto, you may wish to **take a fork of the repository**, make your changes, and then submit a pull request. Your request will be reviewed and merged, with additions or tweaks possible.
 
-You can find a template .qmd file for adding a package, project or tool in the `templates/` folder.
-
-Templates for other kinds of content will follow in the future.
+There is a template for every kind of entry in the [`templates/`](templates/) folder.
 
 ##### Creating a new entry
 
-To create your own entry:
+The [templates README](templates/README.md) has full instructions. In short:
 
-1. Create a folder in `packages_projects_tools/` named after your tool. Use only letters, numbers, hyphens(`-`) or underscores (`_`); no spaces or other special characters.
-    - If your entry is a book, course, tutorial, other training resource or community, create the folder in `books_training/` instead. It uses the same template and conventions. Tag it with `Courses and Training or Reference Materials`, plus **exactly one** of the following to choose where it appears on the [Books, Training and Communities](https://atlas.hsma.co.uk/books_training/) page:
-        - `Books` - Books section. Books are listed as healthcare-specific by default; also add `General Open Analytics` if the book isn't specific to healthcare.
-        - `Courses`, `Interactive Learning Tools`, `Reference Sites` or `Recorded Talks` (recorded webinars and conference talks) - the matching subsection of the Training section. `Courses` entries must also be tagged `Synchronous` (taught live at set times), `Asynchronous` (self-paced materials) or both, which shows as a tag on the course's card.
-        - `Communities` - Communities section.
-    - If a book has to be bought or needs a paid subscription to read, also tag it with `Paid Resources` so it appears in the 'Paid books' subsection, and add `<i class="fa-solid fa-sterling-sign" title="Paid resource"></i>` to its `project-type`.
-    - Note that there are currently a lot of placeholders for various tools/packages/projects that @Bergam0t thinks should be added, which will just contain an empty file called `.gitkeep` that's used to tell GitHub to make the folder. You are very welcome to submit an entry for one of these! In that case, you just won't need to create a new folder - use the one that's already there.
-
-2. Copy the template `.qmd` file from the `templates/` folder into your tool folder. Rename it to `index.qmd`.
-
-3. Add any additional resources (e.g., images, figs) to your folder. Use **relative links** in your `.qmd` file - for example:
+1. Choose the template for your kind of entry from the [table in the templates README](templates/README.md#which-template).
+2. Copy the template folder into the matching section folder (e.g. `templates/techniques/` → `techniques/my_technique/`), and rename it after your entry. Use only letters, numbers, hyphens (`-`) or underscores (`_`); no spaces or other special characters.
+3. Fill in the YAML header of `index.qmd`, using the comments for guidance. Choose categories and languages from the CSV files in `templates/`, and set `date` to today's date.
+    - If no suitable category exists, add a new one in the YAML header and mention it in your pull request. An admin will review it and decide whether to add it to the list of categories.
+    - If your entry does not fit under the existing headers on the [Packages, Projects & Tools](https://atlas.hsma.co.uk/packages_projects_tools/) page, please let us know in your pull request and an admin can look at adding a new section to this page. Please let us know if you have a section heading in mind.
+4. Write the page below the header, and add any images to the same folder, using **relative links** - for example:
     - Good: `![](my_tool_example.png)`
     - Bad: `![](C:/my_username/decision_intelligence_atlas/packages_projects_tools/my_tool/my_tool_example.png)`
-    - Bad: `!(my_tool/my_tool_example.png)`
+    - Bad: `![](my_tool/my_tool_example.png)`
+5. Run `python resources/scripts/check_yaml.py` to check the header, and preview the page (see below).
 
-4. Complete the YAML header, using the provided comments for guidance.
-
-5. Write a description of the project outside the YAML header in the `.qmd` file.
-
-6. Choose categories from `templates/packages_projects_tools_permitted_categories.csv`.
-    - If no suitable category exists, add a new one in the YAML header and mention it in your pull request. An admin will review it and decide whether to add it to the list of categories.
-    * Additionally, if your entry does not fit under the existing headers on the [atlas.hsma.co.uk/packages_tools_projects](atlas.hsma.co.uk/packages_tools_projects) page, please let us know in your pull request and an admin can look at adding a new section to this page. Please let us know if you have a section heading in mind.
+Books, courses, training resources and communities go in `books_training/`, and their `categories` decide which section of the [Books, Training and Communities](https://atlas.hsma.co.uk/books_training/) page they appear in. The [books and training template](templates/books_training/index.qmd) explains the rules, which are also checked by `check_yaml.py`.
 
 ##### Editing an existing entry
 
-You are also welcome to suggest edits to an existing entry via a pull request. Please look in the folder `packages_projects_tools/` (or `books_training/` for books, courses, training resources and communities) for a folder named after the tool you'd like to edit. Inside the folder, you'll find an `index.qmd` file - this is where you can make edits to the tags and details.
+You are also welcome to suggest edits to an existing entry via a pull request. Each entry is a folder in `packages_projects_tools/`, `books_training/`, `techniques/` or `graph_catalogue/`. Inside the folder, you'll find an `index.qmd` file - this is where you can make edits to the tags and details.
 
 You can look at the URL to find out the filepath you need to look for.
 
-e.g. The page for [Vidigi](https://atlas.hsma.co.uk/packages_projects_tools/vidigi.html) has the URL `https://atlas.hsma.co.uk/packages_projects_tools/vidigi.html`.
+e.g. The page for [Vidigi](https://atlas.hsma.co.uk/packages_projects_tools/vidigi/) has the URL `https://atlas.hsma.co.uk/packages_projects_tools/vidigi/`.
 
 The file you need to edit is `packages_projects_tools/vidigi/index.qmd`
 
-Additional images or other resources can be placed in the same folder and linked to.  Use **relative links** in your `.qmd` file - for example:
-
-- Good: `![](my_tool_example.png)`
-- Bad: `![](C:/my_username/decision_intelligence_atlas/packages_projects_tools/my_tool/my_tool_example.png)`
-- Bad: `!(my_tool/my_tool_example.png)`
+Additional images or other resources can be placed in the same folder and linked to, using **relative links** as above.
 
 ##### Previewing your new or edited content
 
 To preview your entry locally, run `quarto preview` to compile and display website.
 
-The project currently uses Quarto version 1.7.33.
+The site is built with Quarto 1.7.33, so we recommend using that version, though most newer versions of Quarto should also work.
 
 > [!TIP]
 > You do **not** need to render the site manually other than for the purpose of checking your page renders as expected - rerendering and deployment is handled automatically by GitHub Actions when your pull request is accepted.
@@ -123,12 +111,6 @@ Click on `<> Code`, then go to the `Codespaces` tab and select `Create codespace
 ![](assets/2025-11-12-13-48-34.png)
 
 It will take a few minutes, but you should then be presented with a web-based version of VSCode with the repository cloned and the appropriate version of Quarto pre-installed. You can then use the built-in GitHub features of the web-based VSCode to commit your changes to your fork and make a pull request when you are ready.
-
-### Contributing a technique or graph example
-
-Templates for these types of contributions have not yet been set up - please check back soon!
-
-Alternatively, if you're up for the challenge of creating a template, please do feel free to raise an issue to discuss or create a pull request with your proposal.
 
 ### Adding YouTube recordings
 
@@ -164,14 +146,14 @@ Then [fetch and build the recordings](#fetching-and-building-the-recordings), pr
 
 #### Adding a new collection
 
-1. **Create the Atlas entry.** Create a folder in `books_training/` and an `index.qmd` file, following the [instructions for creating a new entry](#creating-a-new-entry). Tag it with `Courses and Training or Reference Materials` and either:
+1. **Create the Atlas entry.** Copy the [recordings collection template](templates/recordings_collection/index.qmd) into `books_training/`, following the [instructions for creating a new entry](#creating-a-new-entry). The template already has the table of talks set up. Tag it with `Courses and Training or Reference Materials` and either:
 
     * `Recorded Talks`, for talks, webinars and conference recordings, so it appears in the 'Recorded webinars and conference talks' section of the Books, Training and Communities page, or
     * `Courses` and `Asynchronous`, for recorded training courses or workshops that can be followed at your own pace (e.g. `books_training/mdsn_training`), so it appears with the other courses.
 
     Recordings can also be added to an existing entry instead, such as training videos for a tool - for example, the New Hospital Programme Demand Model entry in `packages_projects_tools/new_hospital_programme` has a table of its training recordings. If the entry's folder isn't in `books_training/`, `packages_projects_tools/` or `recordings/`, also add it to the `git add` line in `.github/workflows/update-youtube-recordings.yml`, or the weekly refreshes of its recordings won't be committed.
 
-    Add a listing to the entry's YAML header to show the table of talks:
+    The template already includes the table of talks. If you're adding recordings to an existing entry instead, add a listing to the entry's YAML header to show the table:
 
     ```yaml
     listing:

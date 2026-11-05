@@ -2,7 +2,7 @@ project:
   type: website
   render:
     - "**.qmd"
-    - "!templates/*.qmd"
+    - "!templates/"
   output-dir: docs
   pre-render:
     - python resources/scripts/get_counts.py PPT_ENTRY_COUNT=packages_projects_tools GRAPH_GALLERY_ENTRY_COUNT=graph_catalogue TECHNIQUE_ENTRY_COUNT=techniques BOOKS_TRAINING_ENTRY_COUNT=books_training --out-file resources/generated_counts.yml

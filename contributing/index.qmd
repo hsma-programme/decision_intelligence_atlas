@@ -50,14 +50,16 @@ With a bit of GitHub actions wizardry, your form will be translated into the for
 :::{.callout-note}
 At the moment, it's only possible to contribute a package, project, tool, book, training resource or community in this way.
 
-We may add the option to contribute techniques or graph catalogue entries in this way in the future - check back or let us know if this is something you'd be interested in.
+You can still [suggest a technique or graph](https://github.com/hsma-programme/decision_intelligence_atlas/issues/new/choose) this way, or write one yourself using a template (see below).
 :::
 
 ### With code
 
 Like working with Quarto, or want to give it a try?
 
-Head over to the [instructions in our GitHub readme](https://github.com/hsma-programme/decision_intelligence_atlas?tab=readme-ov-file#advanced-option-contributing-a-qmd-file) for details of how you can contribute to the Atlas via making a pull request on GitHub.
+There's a ready-to-fill template for every kind of Atlas entry - packages, projects and tools; books, training and communities; collections of recordings; techniques; and graphs. Just copy the template's folder, fill in the gaps, and make a pull request. The [templates guide](https://github.com/hsma-programme/decision_intelligence_atlas/tree/main/templates#readme) explains which template to use and how.
+
+For more on working with the Atlas's code, including previewing your changes and using GitHub Codespaces, see the [instructions in our GitHub readme](https://github.com/hsma-programme/decision_intelligence_atlas?tab=readme-ov-file#advanced-option-contributing-a-qmd-file).
 
 ## Add a collection of recordings
 
