@@ -57,6 +57,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Pages generated from the submission form had empty categories and languages, and an empty `image` that Quarto rejects. The submitted text was also pasted into a shell script, so it could run commands in the workflow; it is now only read from the environment.
 * Entries with the "Desktop or Web End-user Application" language now appear in that section of the packages, projects and tools page (the page and submission form used a non-breaking hyphen that didn't match). The submission form now also offers Excel and Vega.
 * Templates in subfolders of `templates/` are no longer rendered into the site.
+* `check_yaml.py` now checks that every package, project, tool, book and training entry has a `tool-language` and a Gold, Silver, Bronze or N/A `status`. The templates leave these, and the project-type icons, commented out, so a copy that isn't filled in fails the checks instead of appearing in every language section with no rating.
 * Entry author links are now quoted in the title blocks, so a link can't add HTML attributes to the page.
 * Graph pages with no Python section now open on the first language they have, instead of showing nothing until a language is chosen.
 

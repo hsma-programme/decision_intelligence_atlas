@@ -54,12 +54,12 @@ date: "YYYY-MM-DDTHH:MM:SS+00:00" # REQUIRED: when the entry was added or last u
                                   # Used to order the homepage's "Most recently added or updated" list. Don't use `today` or `last-modified`.
 
 pub-info:
-  # Icons shown after the title. Keep the line that applies and delete the others:
+  # Icons shown after the title:
   #   - fa-hospital: made by people in the NHS, public health or other healthcare/government organisations
   #   - fa-user-graduate: made by people in academia
   #   - fa-sterling-sign: REQUIRED for Paid Resources, alongside any other icons
-  # If none apply, delete the project-type line entirely.
-  project-type: <i class="fa-solid fa-user-graduate"></i>
+  # Remove the # from the start of the line that applies. If none apply, leave them all commented out.
+  # project-type: <i class="fa-solid fa-user-graduate"></i>
   # project-type: <i class="fa-solid fa-hospital"></i>
   # project-type: <i class="fa-solid fa-user-graduate"></i> <i class="fa-solid fa-sterling-sign" title="Paid resource"></i>
 

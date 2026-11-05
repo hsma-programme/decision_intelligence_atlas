@@ -37,7 +37,7 @@ The two CSV files in this folder list the permitted `categories` and `tool-langu
     python resources/scripts/check_yaml.py
     ```
 
-    This checks the categories, languages and date, and that books and training entries are in exactly one section. Then run `quarto preview` and look at your page, and at the section page it's listed on.
+    This checks the categories, languages, rating and date, and that books and training entries are in exactly one section. Then run `quarto preview` and look at your page, and at the section page it's listed on.
 
 6. **Open a pull request.** A member of the Atlas team will review it, and may make small changes before it's published.
 
@@ -45,7 +45,7 @@ To edit an existing entry, find its folder from the page's address (e.g. `atlas.
 
 ## Where an entry appears
 
-* **Packages, Projects & Tools** groups entries by **`tool-language`**: Python, R, Julia, Power BI, Excel, Tableau, desktop or web end-user applications, Meta, and Other (for anything else, e.g. C++, SQL or Vega). An entry with several languages appears in each of their sections. `categories` are shown as tags, but don't affect where it appears.
+* **Packages, Projects & Tools** groups entries by **`tool-language`**: Python, R, Julia, Power BI, Excel, Tableau, desktop or web end-user applications, Meta, and Other (for anything else, e.g. C++, SQL or Vega). An entry with several languages appears in each of their sections, except Other: entries only appear in Other if they have none of the languages with their own section. `categories` are shown as tags, but don't affect where it appears.
 * **Books, Training & Communities** groups entries by **`categories`**. Every entry needs `Courses and Training or Reference Materials`, plus exactly one of:
 
     | Category | Section | Also needs |

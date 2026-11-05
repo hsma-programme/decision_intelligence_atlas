@@ -12,20 +12,20 @@ categories: # One or more topic tags, each on its own line starting with "- ".
   - Replace with a category
 
 tool-language: # Decides which section(s) of the Packages, Projects & Tools page the entry appears in.
-               # Keep the ones that apply and delete the rest. Must match templates/packages_projects_tools_permitted_languages.csv exactly.
-  - Python
-  - R
-  - Julia
-  - PowerBI
-  - Tableau
-  - Excel
-  - C++
-  - Desktop or Web End-user Application # e.g. a tool used through a web page or installed program, with no coding needed
-  - Meta # tools that help you do data science/OR/analytics better, e.g. GitHub, Agile methods
-  - PowerApps # C++, PowerApps, SQL, Vega and Other appear in the "Other" section
-  - SQL
-  - Vega
-  - Other
+               # Remove the # from the start of each one that applies (at least one). Must match templates/packages_projects_tools_permitted_languages.csv exactly.
+  # - Python
+  # - R
+  # - Julia
+  # - PowerBI
+  # - Tableau
+  # - Excel
+  # - C++
+  # - Desktop or Web End-user Application # e.g. a tool used through a web page or installed program, with no coding needed
+  # - Meta # tools that help you do data science/OR/analytics better, e.g. GitHub, Agile methods
+  # - PowerApps # C++, PowerApps, SQL, Vega and Other appear in the "Other" section
+  # - SQL
+  # - Vega
+  # - Other
 
 # Rating of how reusable and robust the work is - see "Choosing a rating" in templates/README.md.
 # Remove the # from the start of ONE of these lines. Keep the quote marks exactly as they are.
@@ -47,11 +47,11 @@ date: "YYYY-MM-DDTHH:MM:SS+00:00" # REQUIRED: when the entry was added or last u
                                   # Used to order the homepage's "Most recently added or updated" list. Don't use `today` or `last-modified`.
 
 pub-info:
-  # Icons shown after the title. Keep the line that applies and delete the others:
+  # Icons shown after the title:
   #   - fa-hospital: significant contributions from people in the NHS, public health or other healthcare/government organisations
   #   - fa-user-graduate: significant contributions from people in academia
-  # If neither applies (e.g. a general-purpose tool), delete the project-type line entirely.
-  project-type: <i class="fa-solid fa-hospital"></i>
+  # Remove the # from the start of the line that applies. If neither applies (e.g. a general-purpose tool), leave them all commented out.
+  # project-type: <i class="fa-solid fa-hospital"></i>
   # project-type: <i class="fa-solid fa-user-graduate"></i>
   # project-type: <i class="fa-solid fa-hospital"></i> <i class="fa-solid fa-user-graduate"></i>
 
