@@ -1,0 +1,136 @@
+---
+# TEMPLATE: package, project or tool
+# Copy this whole folder into packages_projects_tools/, rename the folder, and fill in the fields below.
+# See templates/README.md for step-by-step instructions and examples.
+# Lines starting with # are comments - you can leave them in or delete them.
+
+title: "Replace this with a short-ish title for the package, project or tool"
+
+categories: # One or more topic tags, each on its own line starting with "- ".
+            # Must match templates/packages_projects_tools_permitted_categories.csv exactly.
+            # These are shown as tags on the entry; they don't decide where it appears on the page.
+  - Replace with a category
+
+tool-language: # Decides which section(s) of the Packages, Projects & Tools page the entry appears in.
+               # Keep the ones that apply and delete the rest. Must match templates/packages_projects_tools_permitted_languages.csv exactly.
+  - Python
+  - R
+  - Julia
+  - PowerBI
+  - Tableau
+  - Excel
+  - C++
+  - Desktop or Web End-user Application # e.g. a tool used through a web page or installed program, with no coding needed
+  - Meta # tools that help you do data science/OR/analytics better, e.g. GitHub, Agile methods
+  - PowerApps # C++, PowerApps, SQL, Vega and Other appear in the "Other" section
+  - SQL
+  - Vega
+  - Other
+
+# Rating of how reusable and robust the work is - see "Choosing a rating" in templates/README.md.
+# Remove the # from the start of ONE of these lines. Keep the quote marks exactly as they are.
+# status: '<span style="color: #D18B12FF">Gold</span>'
+# status: '<span style="color: #888888FF">Silver</span>'
+# status: '<span style="color: #893400FF">Bronze</span>'
+
+image: my_image.png # Image for the listing card and the top of the entry. Put it in this folder and give just its filename.
+                    # Landscape images work best. If you don't have one, delete this line.
+
+author: # Who made the package, project or tool. Add a "- name:" block for each author.
+        # affiliation, orcid and url are optional - delete any you don't need.
+  - name: Author Name
+    affiliation: Their organisation or institution
+    orcid: 0000-0000-0000-0000
+    url: https://link-to-their-profile-or-website
+
+date: "YYYY-MM-DDTHH:MM:SS+00:00" # REQUIRED: when the entry was added or last updated, e.g. "2026-01-31T10:00:00+00:00".
+                                  # Used to order the homepage's "Most recently added or updated" list. Don't use `today` or `last-modified`.
+
+pub-info:
+  # Icons shown after the title. Keep the line that applies and delete the others:
+  #   - fa-hospital: significant contributions from people in the NHS, public health or other healthcare/government organisations
+  #   - fa-user-graduate: significant contributions from people in academia
+  # If neither applies (e.g. a general-purpose tool), delete the project-type line entirely.
+  project-type: <i class="fa-solid fa-hospital"></i>
+  # project-type: <i class="fa-solid fa-user-graduate"></i>
+  # project-type: <i class="fa-solid fa-hospital"></i> <i class="fa-solid fa-user-graduate"></i>
+
+  rationale-for-status: | # Why you gave this rating. For Bronze or Silver, say what's keeping it from a higher rating.
+    Replace this with the reasoning for the rating.
+
+  entry-author: # Optional: you, the person writing this Atlas entry. Delete this block if you'd rather not be named.
+    - name: Your Name
+      url: https://github.com/your-username # Optional: GitHub profile, website, ORCID or similar
+
+  abstract: | # Summary shown on the listing card and at the top of the entry. Aim for 50-200 words.
+    Replace this with a short description of what the package, project or tool does, to help people decide whether to find out more.
+
+  # Buttons shown on the listing card and the entry. Fill in the urls that apply.
+  # Any link left with an empty url is hidden, so you can leave unused ones or delete them.
+  # To add another, copy a block and change the name, url and icon. Icons are Font Awesome classes
+  # (https://fontawesome.com/search?ic=free) - see templates/README.md for ones used elsewhere in the Atlas.
+  links:
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Documentation
+    url:
+    icon: fa-solid fa-book
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+  - name: PyPi
+    url:
+    icon: fa-solid fa-brands fa-python
+  - name: CRAN
+    url:
+    icon: fa-solid fa-brands fa-r-project
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  # - name: App
+  #   url:
+  #   icon: fa-solid fa-globe
+  # - name: YouTube
+  #   url:
+  #   icon: fa-brands fa-youtube
+
+# OPTIONAL: show a grid of related Atlas entries on this page (e.g. other entries with the same category).
+# Remove the # from these lines, and from the "Related projects" section at the bottom of the page.
+# listing:
+#   - id: related
+#     type: grid
+#     grid-columns: 2
+#     categories: true
+#     template: "../listing.ejs"
+#     sort: Title
+#     include:
+#       categories: "Replace with a category"
+#     contents: "../*/*.qmd"
+---
+
+<!--
+Write the main description of the package, project or tool below. Things worth covering:
+
+- what problem it solves, and who it's for
+- what it does, and how people use it (e.g. install it, open the app, adapt the code)
+- where it has been used, and anything it has helped achieve
+- anything people should know before using it, e.g. data it needs, or limitations
+
+Comments like this one won't appear on the page, so you can delete them or leave them in.
+-->
+
+Replace this with a description of the package, project or tool.
+
+<!-- To add an image, put it in this folder and use: ![Description of the image](my_image.png) -->
+
+<!-- To embed a video, use: {{</* video https://www.youtube.com/watch?v=VIDEO_ID */>}} but without the /* and */ -->
+
+<!--
+If you set up the listing in the header, add this section to show related entries:
+
+## Related projects
+
+::: {#related}
+:::
+-->

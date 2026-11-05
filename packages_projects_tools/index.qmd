@@ -87,7 +87,7 @@ listing:
 
   - id: apps
     include:
-      tool-language: "Desktop or Web End‑user Application"
+      tool-language: "Desktop or Web End-user Application"
     type: grid
     grid-columns: 2
     categories: true
@@ -107,7 +107,7 @@ listing:
 
   - id: other
     exclude:
-      tool-language: "{Python,R,Julia,PowerBI,Excel,Tableau,Meta,Desktop or Web End‑user Application}"
+      tool-language: "{Python,R,Julia,PowerBI,Excel,Tableau,Meta,Desktop or Web End-user Application}"
     type: grid
     grid-columns: 2
     categories: true
@@ -206,7 +206,7 @@ Entries without an icon are general-purpose tools used more widely for analytics
 ::: {#tableau}
 :::
 
-## <i class="fa-solid fa-display"></i> Desktop / Web end‑user applications
+## <i class="fa-solid fa-display"></i> Desktop / Web end-user applications
 
 These are tools that are primarily used via a graphical interface or web browser, so people can work with them directly without needing to edit or run code.
 

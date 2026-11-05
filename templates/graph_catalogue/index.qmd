@@ -1,0 +1,128 @@
+---
+# TEMPLATE: graph catalogue entry
+# Copy this whole folder into graph_catalogue/, rename the folder, and fill in the fields below.
+# See templates/README.md for step-by-step instructions, and graph_catalogue/spc/ for a full example.
+# Lines starting with # are comments - you can leave them in or delete them.
+
+title: "Replace this with the name of the graph type, e.g. 'Statistical Process Control (SPC)'"
+
+image: my_chart.png # An example of the graph, shown on the Graph Catalogue page. Put it in this folder and give just its filename.
+                    # If you don't have one, delete this line.
+
+author: # Who wrote the content of this page. affiliation is optional.
+  - name: Your Name
+    affiliation: Your organisation or institution
+
+date: "YYYY-MM-DDTHH:MM:SS+00:00" # REQUIRED: when the entry was added or last updated, e.g. "2026-01-31T10:00:00+00:00".
+                                  # Used to order the homepage's "Most recently added or updated" list. Don't use `today` or `last-modified`.
+
+pub-info:
+  entry-author: # Optional: shown as "Atlas Entry authored by". Delete this block if you'd rather not be named.
+    - name: Your Name
+      url: https://github.com/your-username # Optional: GitHub profile, website, ORCID or similar
+  abstract: | # Summary shown on the listing card and at the top of the entry. Aim for 50-150 words.
+    Replace this with a short summary of the graph: what it shows, and when it's useful in healthcare.
+---
+
+<!--
+Graph pages have a "Choose your language" bar at the top. Each language's content goes in its own
+::: {.<language>-content} block below, and only the chosen language's block is shown.
+The languages are: python, r, julia, powerbi, tableau and excel.
+
+Delete the blocks for languages you don't have content for - their buttons are greyed out automatically.
+Everything must stay inside the <div class="language-switcher"> ... </div>.
+
+Comments like this one won't appear on the page, so you can delete them or leave them in.
+-->
+
+<div class="language-switcher">
+
+<!-- If there's a technique entry for this graph, link to it. Otherwise, delete this callout. -->
+:::{.callout-tip}
+Find out more about the technique in the Atlas entry [here](/techniques/my_technique/index.qmd).
+:::
+
+::: {.python-content}
+
+Replace this with an introduction to making the graph in Python, e.g. the package you'd recommend, with a link to its Atlas entry if it has one.
+
+```python
+# Replace this with example code that makes the graph.
+# Where you can, use a public or made-up dataset so that anyone can run it.
+import matplotlib.pyplot as plt
+```
+
+<!-- Show what the code produces: save the chart as an image in this folder and use ![](my_python_chart.png){height="400px"} -->
+
+<!-- Credit the source of the code if you didn't write it, e.g. :::{.callout-note} Code Source: ... ::: -->
+
+:::
+
+::: {.r-content}
+
+Replace this with an introduction to making the graph in R.
+
+```r
+# Replace this with example code that makes the graph.
+library(ggplot2)
+```
+
+<!--
+OPTIONAL: R code can be made runnable in the reader's browser with a {webr-r} code block instead of an ```r one.
+ggplot2 and dplyr are loaded automatically. Install any other packages in a hidden setup block first:
+
+```{webr-r}
+#| context: setup
+webr::install("NHSRplotthedots")
+```
+
+Then show the example. read-only stops the code being edited; autorun runs it when the page loads.
+
+```{webr-r}
+#| read-only: true
+#| autorun: true
+library(ggplot2)
+ggplot(data.frame(x = 1:10, y = cumsum(rnorm(10))), aes(x, y)) + geom_line()
+```
+
+See graph_catalogue/spc/index.qmd for a full example.
+-->
+
+<!-- Show what the code produces: save the chart as an image in this folder and use ![](my_r_chart.png){height="400px"} -->
+
+:::{.callout-tip collapse="true"}
+### Click here to view and copy the whole example
+
+```r
+# Optionally, put the complete example here in one block, so that people can copy and paste it in one go.
+```
+
+:::
+
+:::
+
+::: {.excel-content}
+
+Replace this with how to make the graph in Excel, e.g. a link to a template or tool and its Atlas entry.
+
+:::
+
+::: {.powerbi-content}
+
+Replace this with how to make the graph in Power BI, e.g. a link to a custom visual and its Atlas entry.
+
+:::
+
+::: {.julia-content}
+
+Replace this with an introduction to making the graph in Julia.
+
+:::
+
+::: {.tableau-content}
+
+Replace this with how to make the graph in Tableau.
+
+:::
+
+</div>

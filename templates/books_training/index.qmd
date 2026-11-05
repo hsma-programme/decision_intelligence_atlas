@@ -1,0 +1,129 @@
+---
+# TEMPLATE: book, course, training resource or community
+# Copy this whole folder into books_training/, rename the folder, and fill in the fields below.
+# See templates/README.md for step-by-step instructions and examples.
+# For a collection of YouTube recordings, use templates/recordings_collection/ instead.
+# Lines starting with # are comments - you can leave them in or delete them.
+
+title: "Replace this with the name of the book, course, resource or community"
+
+categories:
+  # 1. Always keep this one:
+  - Courses and Training or Reference Materials
+  # 2. Keep EXACTLY ONE of these - it decides which section of the Books, Training & Communities page the entry appears in:
+  - Books                       # Books section (listed as healthcare-specific unless you add General Open Analytics)
+  - Courses                     # Training > Courses - also needs Synchronous and/or Asynchronous (see 3.)
+  - Interactive Learning Tools  # Training > Interactive learning tools
+  - Reference Sites             # Training > Reference sites
+  - Recorded Talks              # Training > Recorded webinars and conference talks
+  - Communities                 # Communities section
+  # 3. Only for Courses - keep one or both:
+  - Synchronous                 # taught live at set times
+  - Asynchronous                # self-paced materials
+  # 4. Only for Books - keep if they apply:
+  - General Open Analytics      # the book isn't specific to healthcare
+  - Paid Resources              # the book has to be bought or needs a subscription (also add the paid icon to project-type below)
+  # 5. Optionally, add topic tags from templates/packages_projects_tools_permitted_categories.csv, e.g.:
+  # - Service Planning
+
+tool-language: # The language(s) the resource teaches or uses, from templates/packages_projects_tools_permitted_languages.csv.
+               # Use N/A if it isn't about a particular language (e.g. most communities).
+  - N/A
+  # - Python
+  # - R
+
+# Rating of the resource's quality and how well it's maintained - see "Choosing a rating" in templates/README.md.
+# Remove the # from the start of ONE of these lines. Keep the quote marks exactly as they are.
+# Use N/A for things a rating doesn't suit, such as communities or collections from many different people.
+# status: '<span style="color: #D18B12FF">Gold</span>'
+# status: '<span style="color: #888888FF">Silver</span>'
+# status: '<span style="color: #893400FF">Bronze</span>'
+# status: 'N/A'
+
+image: my_image.png # Image for the listing card and the top of the entry, e.g. a book cover or a screenshot of the course homepage.
+                    # Put it in this folder and give just its filename. If you don't have one, delete this line.
+
+author: # Who wrote or runs the resource. Add a "- name:" block for each author or organisation.
+        # affiliation, orcid and url are optional - delete any you don't need.
+  - name: Author or Organisation Name
+    affiliation: Their organisation or institution
+    orcid: 0000-0000-0000-0000
+    url: https://link-to-their-profile-or-website
+
+date: "YYYY-MM-DDTHH:MM:SS+00:00" # REQUIRED: when the entry was added or last updated, e.g. "2026-01-31T10:00:00+00:00".
+                                  # Used to order the homepage's "Most recently added or updated" list. Don't use `today` or `last-modified`.
+
+pub-info:
+  # Icons shown after the title. Keep the line that applies and delete the others:
+  #   - fa-hospital: made by people in the NHS, public health or other healthcare/government organisations
+  #   - fa-user-graduate: made by people in academia
+  #   - fa-sterling-sign: REQUIRED for Paid Resources, alongside any other icons
+  # If none apply, delete the project-type line entirely.
+  project-type: <i class="fa-solid fa-user-graduate"></i>
+  # project-type: <i class="fa-solid fa-hospital"></i>
+  # project-type: <i class="fa-solid fa-user-graduate"></i> <i class="fa-solid fa-sterling-sign" title="Paid resource"></i>
+
+  rationale-for-status: | # Why you gave this rating. For N/A, briefly say why it isn't rated.
+    Replace this with the reasoning for the rating.
+
+  entry-author: # Optional: you, the person writing this Atlas entry. Delete this block if you'd rather not be named.
+    - name: Your Name
+      url: https://github.com/your-username # Optional: GitHub profile, website, ORCID or similar
+
+  abstract: | # Summary shown on the listing card and at the top of the entry. Aim for 50-200 words.
+    Replace this with a short description of the resource: what it covers, who it's for, and how it's delivered.
+
+  # Buttons shown on the listing card and the entry. Fill in the urls that apply.
+  # Any link left with an empty url is hidden, so you can leave unused ones or delete them.
+  # To add another, copy a block and change the name, url and icon (see templates/README.md for icons).
+  links:
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: eBook
+    url:
+    icon: fa-solid fa-book
+  - name: Module
+    url:
+    icon: fa-solid fa-book
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: YouTube
+    url:
+    icon: fa-brands fa-youtube
+  - name: LinkedIn
+    url:
+    icon: fa-brands fa-linkedin
+---
+
+<!--
+Write the main description of the resource below. Things worth covering:
+
+- what it covers, and who it's for (e.g. complete beginners, experienced analysts)
+- how it's delivered: a book, live sessions, self-paced materials, meetups...
+- whether it's free, and whether you need to sign up
+- for communities: what they do (events, chat channels, newsletters) and how to join
+
+Comments like this one won't appear on the page, so you can delete them or leave them in.
+-->
+
+[![Description of the image](my_image.png)](https://link-to-the-resource)
+
+Replace this with a description of the resource.
+
+## View the book
+
+<!-- Change the heading to suit, e.g. "View the course", "Join the community". -->
+
+To view the book, click on the image above or go to <https://link-to-the-resource>.
+
+<br>
+
+<!--
+Optionally, point readers to related resources with a callout, e.g.:
+
+:::{.callout-tip}
+New to Python? Consider starting with the [HSMA book of Python](/books_training/hsma_python_book/index.qmd) first.
+:::
+-->

@@ -32,6 +32,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Google Analytics, with a cookie consent banner.
 * `bergam0t/value-box` and `bergam0t/splide-carousel` Quarto extensions.
 * Conda environment (`environment.yaml`) for local development, also used by the GitHub Actions.
+* Templates for every kind of entry - packages, projects and tools; books, training and communities; recordings collections; techniques; and graphs - each as a folder to copy into its section, with a `templates/README.md` explaining which to use, how to fill it in, where entries appear, and how to choose a rating.
 
 ### Changed
 
@@ -40,6 +41,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Books and training moved out of packages, projects and tools into their own section.
 * Entries now live in their own folders as `index.qmd`.
 * Pages generated from the submission form now include the entry author and language, use sanitised folder and branch names, and handle quotes in the submitted text.
+* Pages generated from the submission form are now written by `.github/scripts/generate_entry_from_issue.py`, which matches the templates: the project-type icons (and the paid icon for paid books) are filled in, the abstract and rating rationale no longer show stray quote marks, the old 'Project status' section is gone, and suggested new categories are left as a comment for the reviewer. The pull request includes a review checklist.
 * SPC guidance moved from the plot-the-dots entries to the SPC technique page, and the plot-the-dots entries now list the other SPC tools.
 * Improved the abstracts of several existing entries.
 * Updated the NIHR logo.
@@ -52,6 +54,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Menu collapsing at the wrong screen width.
 * Abstract box colour now fits the theme.
 * Several fixes to the publish and PR check workflows.
+* Pages generated from the submission form had empty categories and languages, and an empty `image` that Quarto rejects. The submitted text was also pasted into a shell script, so it could run commands in the workflow; it is now only read from the environment.
+* Entries with the "Desktop or Web End-user Application" language now appear in that section of the packages, projects and tools page (the page and submission form used a non-breaking hyphen that didn't match). The submission form now also offers Excel and Vega.
+* Templates in subfolders of `templates/` are no longer rendered into the site.
 
 ### Removed
 

@@ -1,0 +1,96 @@
+---
+# TEMPLATE: collection of YouTube recordings (talks, webinars, conference sessions, recorded courses)
+# Copy this whole folder into books_training/, rename the folder, and fill in the fields below.
+#
+# As well as this page, a recordings collection needs a few more steps - see
+# "Adding YouTube recordings" > "Adding a new collection" in the main README.md:
+#   1. add the collection to resources/recordings/collections.yml, with folder: books_training/<your folder name>
+#   2. add the entry to the Sources list at the bottom of recordings/index.qmd
+#   3. fetch and build the recordings (or ask a maintainer to run the GitHub Action for you)
+#
+# Lines starting with # are comments - you can leave them in or delete them.
+
+title: "Replace this with the name of the collection, e.g. 'Community Name: Conference Recordings'"
+
+categories:
+  - Courses and Training or Reference Materials
+  # Keep ONE of these options:
+  - Recorded Talks  # talks, webinars and conference recordings
+  # - Courses       # recorded training courses or workshops that can be followed at your own pace...
+  # - Asynchronous  # ...in which case keep both Courses and Asynchronous, and delete Recorded Talks
+
+tool-language: # The language(s) the recordings are mostly about, or N/A for a mix.
+  - N/A
+
+status: 'N/A' # Collections from many different presenters aren't rated as a whole.
+
+image: my_image.png # Image for the listing card and the top of the entry, e.g. the channel banner or a still from a talk.
+                    # Put it in this folder and give just its filename. If you don't have one, delete this line.
+
+author: # The community or organisation that publishes the recordings.
+  - name: Community or Organisation Name
+
+date: "YYYY-MM-DDTHH:MM:SS+00:00" # REQUIRED: when the entry was added or last updated, e.g. "2026-01-31T10:00:00+00:00".
+                                  # Used to order the homepage's "Most recently added or updated" list. Don't use `today` or `last-modified`.
+
+pub-info:
+  # Icon shown after the title: fa-hospital for NHS/healthcare organisations, fa-user-graduate for academia.
+  # If neither applies, delete the project-type line.
+  project-type: <i class="fa-solid fa-hospital"></i>
+  rationale-for-status: |
+    Collection of recordings from many different presenters, so it is not ranked as a whole.
+  entry-author: # Optional: you, the person writing this Atlas entry. Delete this block if you'd rather not be named.
+    - name: Your Name
+      url: https://github.com/your-username
+  abstract: | # Summary shown on the listing card and at the top of the entry. Aim for 50-200 words.
+    Replace this with a short description of the recordings: who publishes them, which events they're from, and the topics they cover.
+  links:
+  - name: YouTube
+    url: https://www.youtube.com/playlist?list=PLxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    icon: fa-brands fa-youtube
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+
+# The table of talks. talks.yml is created in this folder by resources/scripts/build_youtube_talks.py - don't edit it by hand.
+# If the collection has more than one playlist, you can add `event` to `fields` (and to filter-ui and sort-ui)
+# to show each playlist's label, and use `sort: false` to keep the order from collections.yml.
+listing:
+  - id: talk-recordings
+    contents: talks.yml
+    type: table
+    fields: [title, year, duration, description]
+    field-display-names:
+      title: "Talk"
+      year: "Year"
+      duration: "Duration"
+      description: "Details"
+    sort: "date desc"
+    filter-ui: [title, year, description]
+    sort-ui: [title, year, duration]
+    page-size: 25
+---
+
+<!--
+Describe the collection below: who publishes the recordings, which events or series they come from, and the kinds of topics covered.
+If the playlists were uploaded long after the events, say when the recordings were actually made - the Recordings Finder dates each recording by when it was published on YouTube.
+
+Comments like this one won't appear on the page, so you can delete them or leave them in.
+-->
+
+[![Description of the image](my_image.png)](https://www.youtube.com/playlist?list=PLxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx)
+
+Replace this with a description of the recordings.
+
+## Search the talks
+
+Search for a talk by title, speaker, year or topic. Newest recordings are listed first.
+
+*Last checked against YouTube on {{< meta recordings-checked >}} - the recordings are checked every week.*
+
+::: {#talk-recordings}
+:::
+
+You can also browse the full [playlist](https://www.youtube.com/playlist?list=PLxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx) on YouTube.
+
+To search these recordings alongside talks, webinars and workshops from other communities, use the [Recordings Finder](/recordings/index.qmd).
