@@ -2529,7 +2529,11 @@ Warning
 <script>
 function setLanguage(lang) {
     localStorage.setItem('preferredLanguage', lang);
+    showLanguage(lang);
+}
 
+// Show one language's content without saving it as the reader's choice
+function showLanguage(lang) {
     // Update button states
     document.querySelectorAll('.language-button').forEach(btn => {
         btn.classList.toggle('active', btn.dataset.lang === lang);
@@ -2559,7 +2563,17 @@ function disableMissingButtons() {
 document.addEventListener('DOMContentLoaded', () => {
     disableMissingButtons();
 
-    const defaultLang = localStorage.getItem('preferredLanguage') || 'python';
+    // Use the reader's last choice, or Python. If the page has no content for
+    // that language, use the first language it does have, so the page isn't blank.
+    let defaultLang = localStorage.getItem('preferredLanguage') || 'python';
+    if (!document.querySelector('.' + defaultLang + '-content')) {
+        const firstEnabled = document.querySelector('.language-button:not(:disabled)');
+        if (firstEnabled) {
+            // Show it without saving it, so the reader's own choice is kept for other pages
+            showLanguage(firstEnabled.dataset.lang);
+            return;
+        }
+    }
     setLanguage(defaultLang);
 });
 </script>

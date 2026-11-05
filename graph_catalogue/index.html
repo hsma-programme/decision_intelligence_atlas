@@ -497,7 +497,7 @@ new FinisherHeader({
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-listing-date-sort="1775642099000" data-listing-file-modified-sort="1793630711845" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="370">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-listing-date-sort="1775642099000" data-listing-file-modified-sort="1793876666776" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="370">
             <div class="main-card-content">
             
                   <a href="../graph_catalogue/spc/index.html">
@@ -546,7 +546,11 @@ new FinisherHeader({
 <script>
 function setLanguage(lang) {
     localStorage.setItem('preferredLanguage', lang);
+    showLanguage(lang);
+}
 
+// Show one language's content without saving it as the reader's choice
+function showLanguage(lang) {
     // Update button states
     document.querySelectorAll('.language-button').forEach(btn => {
         btn.classList.toggle('active', btn.dataset.lang === lang);
@@ -576,7 +580,17 @@ function disableMissingButtons() {
 document.addEventListener('DOMContentLoaded', () => {
     disableMissingButtons();
 
-    const defaultLang = localStorage.getItem('preferredLanguage') || 'python';
+    // Use the reader's last choice, or Python. If the page has no content for
+    // that language, use the first language it does have, so the page isn't blank.
+    let defaultLang = localStorage.getItem('preferredLanguage') || 'python';
+    if (!document.querySelector('.' + defaultLang + '-content')) {
+        const firstEnabled = document.querySelector('.language-button:not(:disabled)');
+        if (firstEnabled) {
+            // Show it without saving it, so the reader's own choice is kept for other pages
+            showLanguage(firstEnabled.dataset.lang);
+            return;
+        }
+    }
     setLanguage(defaultLang);
 });
 </script>
