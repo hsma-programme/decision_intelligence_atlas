@@ -59,6 +59,10 @@ LINKS = [
     ("website", "Website", "fa-solid fa-globe"),
 ]
 
+# Links must be plain web addresses: no spaces, quotes or angle brackets,
+# which could add HTML attributes on the page, and no `javascript:` links.
+SAFE_URL = re.compile(r"^https?://[^\s\"'<>`]+$", re.IGNORECASE)
+
 # Plain YAML scalars that are safe to write without quotes.
 PLAIN_SCALAR = re.compile(r"^[A-Za-z0-9][A-Za-z0-9 +&()/.,'-]*$")
 
@@ -180,6 +184,47 @@ def block(value, indent):
     return "\n".join(pad + line if line.strip() else "" for line in lines)
 
 
+def safe_url(url, label, notes):
+    """
+    Return a link if it is a plain web address, or "" if it isn't.
+
+    Parameters
+    ----------
+    url : str
+        Link from the issue.
+    label : str
+        What the link is, for the reviewer note.
+    notes : list of str
+        Reviewer notes; a note is added if the link is rejected.
+
+    Returns
+    -------
+    str
+        The link, or "" if it was rejected.
+    """
+    if not url or SAFE_URL.match(url):
+        return url
+    notes.append(f"{label} link was left out, as it isn't a plain http(s) address: {url}")
+    return ""
+
+
+def comment_safe(value):
+    """
+    Make text safe to put inside an HTML comment.
+
+    Parameters
+    ----------
+    value : str
+        Text from the issue.
+
+    Returns
+    -------
+    str
+        The text without comment markers, so it can't end the comment early.
+    """
+    return value.replace("-->", "").replace("<!--", "").replace("--", "-")
+
+
 def folder_name(name):
     """
     Turn an entry's name into a folder name.
@@ -217,10 +262,23 @@ def build_entry(data, now):
     if not name:
         sys.exit("The issue has no package, project or tool name.")
 
+    notes = []  # for the reviewer, in a comment at the end of the file
+
     categories = choices(data, "category")
-    languages = choices(data, "language") + split_list(
-        text(data, "language_other"), ";"
-    )
+
+    # Only languages from the form's list go in tool-language, as anything
+    # else fails check_yaml.py. Others are left as a note for the reviewer,
+    # and the entry is listed under Other until they're dealt with.
+    languages = choices(data, "language")
+    language_other = split_list(text(data, "language_other"), ";")
+    if language_other:
+        if "Other" not in languages:
+            languages.append("Other")
+        notes.append(
+            "Suggested languages (add any that should be used to tool-language "
+            "and templates/packages_projects_tools_permitted_languages.csv, or "
+            "leave the entry as Other): " + "; ".join(language_other)
+        )
     section = (
         "books_training"
         if set(categories) & BOOKS_TRAINING_CATEGORIES
@@ -267,7 +325,9 @@ def build_entry(data, now):
     if entry_author:
         lines.append("  entry-author:")
         lines.append(f"    - name: {scalar(entry_author)}")
-        entry_author_url = text(data, "entry_author_url")
+        entry_author_url = safe_url(
+            text(data, "entry_author_url"), "Entry author", notes
+        )
         if entry_author_url:
             lines.append(f"      url: {json.dumps(entry_author_url)}")
 
@@ -276,7 +336,7 @@ def build_entry(data, now):
 
     lines.append("  links:")
     for key, link_name, icon in LINKS:
-        url = text(data, key)
+        url = safe_url(text(data, key), link_name, notes)
         lines.append(f"  - name: {link_name}")
         lines.append(f"    url: {json.dumps(url) if url else ''}".rstrip())
         lines.append(f"    icon: {icon}")
@@ -291,15 +351,20 @@ def build_entry(data, now):
 
     category_other = split_list(text(data, "category_other"), ";")
     if category_other:
+        notes.append(
+            "Suggested new categories (add any that should be used to "
+            "categories and to templates/packages_projects_tools_permitted_categories.csv): "
+            + "; ".join(category_other)
+        )
+
+    if notes:
         lines += [
             "",
-            "<!-- REVIEWER: the submitter suggested these new categories. "
-            "Add any that should be used to the categories above and to "
-            "templates/packages_projects_tools_permitted_categories.csv, "
-            "then delete this comment.",
+            "<!-- REVIEWER: deal with these notes from the submission, then "
+            "delete this comment.",
             "",
         ]
-        lines += [f"- {c}" for c in category_other]
+        lines += [f"- {comment_safe(note)}" for note in notes]
         lines.append("-->")
 
     return section, folder_name(name), "\n".join(lines) + "\n"

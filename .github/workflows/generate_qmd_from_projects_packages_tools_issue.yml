@@ -26,13 +26,44 @@ jobs:
           body: ${{ github.event.issue.body }}
           issue-form-template: 1-new_package_project_tool_submission.yml
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
       - name: Create QMD file
         id: generate
         env:
           # The issue text is passed in the environment, never pasted into the
           # script, so it can't run commands in this workflow.
           ISSUE_JSON: ${{ steps.extract.outputs.json }}
-        run: python3 .github/scripts/generate_entry_from_issue.py
+        run: python .github/scripts/generate_entry_from_issue.py
+
+      # Pull requests opened by this workflow don't trigger the other
+      # workflows, so run the same checks as "Validate Quarto categories"
+      # here and show the result in the pull request.
+      - name: Check the new entry
+        id: check
+        run: |
+          set +e
+          RESULT=$(python resources/scripts/check_yaml.py 2>&1)
+          CODE=$?
+          set -e
+          # Random delimiter, so the output can't end the multi-line value early
+          DELIM="EOF_$(openssl rand -hex 16)"
+          {
+            if [ "$CODE" -eq 0 ]; then
+              echo "summary=:white_check_mark: \`check_yaml.py\` passed."
+            else
+              echo "summary=:x: \`check_yaml.py\` found problems - fix them before merging."
+            fi
+            echo "result<<$DELIM"
+            echo "$RESULT"
+            echo "$DELIM"
+          } >> "$GITHUB_OUTPUT"
 
       - name: Commit and open PR
         id: create_pr
@@ -45,10 +76,22 @@ jobs:
             Auto-generated from issue #${{ github.event.issue.number }}.
 
             Before merging, check `${{ steps.generate.outputs.path }}`:
-            - [ ] categories and languages are correct, and any suggested new categories (in a comment at the end of the file) are dealt with
+            - [ ] categories and languages are correct
             - [ ] an image has been added to the folder and an `image:` line added to the header, if one is available
             - [ ] author affiliations and ORCIDs added where known
-            - [ ] the details render properly, including any images or videos
+            - [ ] books and training only: exactly one section category (Books, Courses, Interactive Learning Tools, Reference Sites, Recorded Talks or Communities), and Synchronous and/or Asynchronous for Courses
+            - [ ] the details render properly, including any images or videos, and any links or HTML in them are safe
+            - [ ] any notes in the REVIEWER comment at the end of the file are dealt with, and the comment deleted
+
+            ### Automatic checks
+
+            ${{ steps.check.outputs.summary }}
+
+            ```
+            ${{ steps.check.outputs.result }}
+            ```
+
+            Pull requests opened by this workflow don't run the repository's other checks, so re-run them by closing and reopening this pull request, or pushing a commit to it.
           reviewers: Bergam0t
       - name: Save PR URL to environment
         run: echo "PR_URL=${{ steps.create_pr.outputs.pull-request-url }}" >> $GITHUB_ENV
