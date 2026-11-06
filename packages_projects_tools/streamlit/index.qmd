@@ -124,7 +124,7 @@ An example repository that does thi, along with using a custom URL, can be found
 
 :::{.callout-warning}
 
-*In theory*, [data uploaded to a pyodide-based web app does not leave the user's PC](https://pyodide.com/what-is-pyodide/), and all processing is handled locally (i.e. on their machine).
+*In theory*, [data uploaded to a pyodide-based web app does not leave the user's PC](https://pyodide.com/#faqs), and all processing is handled locally (i.e. on their machine).
 
 *In practice*, we do not have a robust policy or evidence to support whether the processing of sensitive data on pyodide/web-based apps is fully safe, so it should not be considered an appropriate solution at this time.
 
