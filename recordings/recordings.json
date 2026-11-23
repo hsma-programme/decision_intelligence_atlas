@@ -6244,6 +6244,20 @@
   "collection_url": "/books_training/nhs_r_podcast/index.html"
  },
  {
+  "title": "AphA L&L with Andy Kinnear",
+  "year": 2026,
+  "date": "2026-11-17",
+  "duration": "00:46:35",
+  "seconds": 2795,
+  "type": "Webinar",
+  "source": "AphA",
+  "event": "Lunch & Learn",
+  "details": "Leadership is only ever about the people",
+  "url": "https://www.youtube.com/watch?v=MU9vBkj8Gzg",
+  "collection": "AphA: Webinar and Conference Recordings",
+  "collection_url": "/books_training/apha_recordings/index.html"
+ },
+ {
   "title": "AphA Lunch & Learn: AI Digital and Data Readiness Across NHS Teams",
   "year": 2026,
   "date": "2026-10-20",
@@ -9338,7 +9352,7 @@
   "collection_url": "/books_training/analyst_network_huddles/index.html"
  },
  {
-  "title": "NAN Huddle: Waiting Lists: What can analysts do next? - 39/10/2026",
+  "title": "NAN Huddle: Waiting Lists: What can analysts do next? - 29/10/2026",
   "year": 2026,
   "date": "2026-10-30",
   "duration": "01:00:36",
@@ -9348,6 +9362,20 @@
   "event": "",
   "details": "NAN Huddle: 39/10/2026 Topic: Waiting Lists: What can analysts do next? Building on September’s Waiting List Conference: From Backlog to Breakthrough, we’ll look at what was learned, what analytical work is developing and - most importantly - what analysts can do next to support better understanding, decisions and action on waiting lists. We’ll hear a range of perspectives, including the patient perspective, and explore how analysts working on waiting-list challenges can connect, share learning and collaborate. Our presenters include: • Rosie Wakeman, Head of Training, HDR UK • Neil Walton, Professor of Operations Management, Durham University Business School • Helena Robinson, Senior Information Analyst/Data Scientist, Countess of Chester Hospital • Mandy Rudczenko, Patient Representative • Rachel Caswell, National Analyst Network Lead, Strategy Unit The session is for analysts, intelligence, BI, data science, population health and performance colleagues - as well as clinical colleagues, waiting list manager, and decision makers with an interest in waiting-list challenges.",
   "url": "https://www.youtube.com/watch?v=F84WepXg0mw",
+  "collection": "National Analyst Network (formerly Midlands Analyst Network): Huddle Recordings",
+  "collection_url": "/books_training/analyst_network_huddles/index.html"
+ },
+ {
+  "title": "NAN Huddle: Integrated Needs Assessments: Supporting Strategic Commissioning - 12/11/2026",
+  "year": 2026,
+  "date": "2026-11-12",
+  "duration": "00:59:57",
+  "seconds": 3597,
+  "type": "Huddle",
+  "source": "National Analyst Network",
+  "event": "",
+  "details": "NAN 12/11/2026 Topic: Integrated Needs Assessments: Supporting Strategic Commissioning How are systems approaching Integrated Needs Assessments – and how can intelligence about population need and outcomes support strategic commissioning? Hear emerging national learning alongside practical experience from Norfolk and Suffolk and Humber and North Yorkshire. INAs are being developed across systems to bring together intelligence about population need, inequalities and outcomes. In this Huddle we’ll share emerging learning and different perspectives from NHS England’s exploratory work, Strategic Commissioning Intelligence Centre conversations with systems, and practical learning from ICBs developing and using INAs. We’ll explore their role and purpose, links with JSNAs and wider system intelligence, approaches to refreshing them proportionately, collaborative working across system partners and – importantly – how intelligence can help shape priorities and action. This is particularly relevant to strategic commissioning because understanding the context – population need, inequalities and outcomes – is the starting point for making informed choices about priorities, services and resources.",
+  "url": "https://www.youtube.com/watch?v=JhW3F54gErI",
   "collection": "National Analyst Network (formerly Midlands Analyst Network): Huddle Recordings",
   "collection_url": "/books_training/analyst_network_huddles/index.html"
  },
